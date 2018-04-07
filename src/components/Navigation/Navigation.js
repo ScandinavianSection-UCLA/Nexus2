@@ -298,7 +298,12 @@ class Navigation extends Component {
                         </div>
                     </div>
                     <div className="medium-4 cell">
-                        <MapView/>
+                        <div className="grid-y" style={{'height':'100%'}}>
+                            <div className="medium-6 cell" style={{'border':'2px black solid'}}>
+                                {/*Search Graph feature*/}
+                            </div>
+                            <MapView className="medium-6 cell"/>
+                        </div>
                     </div>
                 </div>
             </div>

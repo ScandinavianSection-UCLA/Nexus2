@@ -2,6 +2,7 @@
  * Created by danielhuang on 4/7/18.
  */
 import React, { Component } from 'react';
+import './MapView.css'
 
 class MapView extends Component {
 
