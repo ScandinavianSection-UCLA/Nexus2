@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<story story_id="513">
+  <publication_info>DS_II_D_33</publication_info>
+  <full_name>368 - 0.00 - DS_II_D_33</full_name>
+  <informant_id>368</informant_id>
+  <informant_last_name>Grundtvig</informant_last_name>
+  <informant_first_name>F. L.</informant_first_name>
+  <informant_full_name>F. L. Grundtvig</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>338</place_id>
+      <name>K&#xF8;benhavn</name>
+      <display_name>K&#xF8;benhavn (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="738">
+      <informant_id>358</informant_id>
+      <publication_info>DS_II_D_4</publication_info>
+      <full_name>358 - 0.00 - DS_II_D_4</full_name>
+      <url>data/stories/738.dfl</url>
+    </story>
+    <story story_id="1">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_D_5</publication_info>
+      <full_name>150 - 0.01 - DS_II_D_5</full_name>
+      <url>data/stories/1.dfl</url>
+    </story>
+    <story story_id="614">
+      <informant_id>322</informant_id>
+      <publication_info>DS_II_D_8</publication_info>
+      <full_name>322 - 0.00 - DS_II_D_8</full_name>
+      <url>data/stories/614.dfl</url>
+    </story>
+    <story story_id="111">
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_1549</publication_info>
+      <full_name>150 - 3.48 - DS_III_1549</full_name>
+      <url>data/stories/111.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>F&#xF6;r lod en havfrue, som boer i Kattegat, sine tolv r&#xF8;de k&#xF8;er og sin r&#xF8;de tyr gr&#xE6;sse p&#xE5; b&#xF8;ndernes marker. Men s&#xE5; en gang sagde b&#xF8;nderne til havfruen, at hun herefter skulde betale for k&#xF8;erne. Men hun havde ingen ting at betale med. Jo, sagde de, hun havde jo sit b&#xE6;lte, som skinnede af s&#xF8;lv og guld. Det gav hun dem ogs&#xE5;, men s&#xE5; var det ikke andet end et siv. Da havfruen s&#xE5; skulde drive kv&#xE6;get ud i havet, vendte hun sig om og sagde: "Nu, min r&#xF8;de tyr, nu kan du rode s&#xE5; meget du vil i bunden," hvilket den ogs&#xE5; gjorde, og deraf kommer flyvesandet.</danish_publication>
+  <english_publication>Earlier, a mermaid, who lived in the Kattegat, let her twelve red cows and her red bull graze on the farmers&#x2019; fields. But then the farmers told the mermaid that she had to pay for the cows from then on. But she had nothing to pay with. Yes, they said, she had her belt, which shined of gold and silver. She gave that to them too, but it turned out to be nothing more than a rush. When the mermaid was to drive her cattle out to sea, she turned around and said: &#x201C;Now, my red bull, now you wander as much as you want on the bottom,&#x201D; which it did too, and that&#x2019;s where drifting sandbanks come from.</english_publication>
+  <keywords>
+    <keyword id="90" frequency="1" keyword="belt">belt</keyword>
+    <keyword id="156" frequency="2" keyword="bull">bull</keyword>
+    <keyword id="190" frequency="1" keyword="cattle">cattle</keyword>
+    <keyword id="274" frequency="2" keyword="cow">cow</keyword>
+    <keyword id="354" frequency="1" keyword="drift">drift</keyword>
+    <keyword id="396" frequency="2" keyword="farmer">farmer</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="473" frequency="1" keyword="gold">gold</keyword>
+    <keyword id="484" frequency="1" keyword="grazing">grazing</keyword>
+    <keyword id="768" frequency="3" keyword="mermaid">mermaid</keyword>
+    <keyword id="1021" frequency="3" keyword="red">red</keyword>
+    <keyword id="1066" frequency="1" keyword="sand">sand</keyword>
+    <keyword id="1079" frequency="1" keyword="sea">sea</keyword>
+    <keyword id="1116" frequency="1" keyword="sieve">sieve</keyword>
+    <keyword id="1118" frequency="1" keyword="silver">silver</keyword>
+    <keyword id="1315" frequency="1" keyword="wandering">wandering</keyword>
+  </keywords>
+  <etk_index id="5">
+    <heading_danish>Vandets &#xE5;nder</heading_danish>
+    <heading_english>Water spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="62" display_name="Supernatural Beings: Merfolk"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

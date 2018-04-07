@@ -1,0 +1,37 @@
+<informant><person_id>449</person_id>
+  <core_informant/>
+  <full_name>Kristian Larsen</full_name>
+  <last_name>Larsen</last_name>
+  <first_name>Kristian</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>622</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>449</informant_id>
+      <publication_info>DS_II_F_2</publication_info>
+      <full_name>449 - 0.00 - DS_II_F_2</full_name>
+      <url>data/stories/622.dfl</url>
+      <place_recorded><id>774</id>Finderup</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>774</place_id>
+      <name>Finderup</name>
+      <display_name>Finderup (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

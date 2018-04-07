@@ -1,0 +1,54 @@
+<informant><person_id>447</person_id>
+  <core_informant/>
+  <full_name>Hans Kristian Larsen</full_name>
+  <last_name>Larsen</last_name>
+  <first_name>Hans Kristian</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>531</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>447</informant_id>
+      <publication_info>DS_VII_119</publication_info>
+      <full_name>447 - 0.00 - DS_VII_119</full_name>
+      <url>data/stories/531.dfl</url>
+      <place_recorded><id>869</id>Skibsby</place_recorded>
+      <places_mentioned>
+        <place><id>530</id>
+          <name>Skagen</name>
+        </place>
+        <place><id>736</id>
+          <name>W&#229;r bro</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>869</place_id>
+      <name>Skibsby</name>
+      <display_name>Skibsby (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>736</place_id>
+      <name>W&#229;r bro</name>
+      <display_name>W&#229;r bro (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>530</place_id>
+      <name>Skagen</name>
+      <display_name>Skagen (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

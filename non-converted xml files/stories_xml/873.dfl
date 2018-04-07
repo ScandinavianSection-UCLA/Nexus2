@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<story story_id="873">
+  <publication_info>DS_IV_1686</publication_info>
+  <full_name>0 - 0.00 - DS_IV_1686</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>939</place_id>
+      <name>Vrenderup</name>
+      <display_name>Vrenderup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="392">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story story_id="530">
+      <informant_id>425</informant_id>
+      <publication_info>DS_IV_1684</publication_info>
+      <full_name>425 - 0.00 - DS_IV_1684</full_name>
+      <url>data/stories/530.dfl</url>
+    </story>
+    <story story_id="629">
+      <informant_id>474</informant_id>
+      <publication_info>DS_IV_1682</publication_info>
+      <full_name>474 - 0.00 - DS_IV_1682</full_name>
+      <url>data/stories/629.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Den sorte pest drog om foran vinduerne som en skygge.</danish_publication>
+  <english_publication>The black plague passed in front of windows like a shadow.</english_publication>
+  <keywords>
+    <keyword id="108" frequency="1" keyword="black_plague">Black Plague</keyword>
+    <keyword id="1091" frequency="1" keyword="shadow">shadow</keyword>
+    <keyword id="1346" frequency="1" keyword="window">window</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

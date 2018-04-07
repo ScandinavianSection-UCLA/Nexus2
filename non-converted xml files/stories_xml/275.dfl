@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<story story_id="275">
+  <publication_info>DS_II_B_90</publication_info>
+  <full_name>235 - 1.55 - DS_II_B_90</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.55</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>188</place_id>
+      <name>Ginderup</name>
+      <display_name>Ginderup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>228</place_id>
+      <name>Hallendrup</name>
+      <display_name>Hallendrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="488">
+      <informant_id>524</informant_id>
+      <publication_info>DS_II_B_29</publication_info>
+      <full_name>524 - 0.00 - DS_II_B_29</full_name>
+      <url>data/stories/488.dfl</url>
+    </story>
+    <story story_id="767">
+      <informant_id>338</informant_id>
+      <publication_info>DS_II_B_41</publication_info>
+      <full_name>338 - 0.00 - DS_II_B_41</full_name>
+      <url>data/stories/767.dfl</url>
+    </story>
+    <story story_id="688">
+      <informant_id>410</informant_id>
+      <publication_info>DS_II_B_60</publication_info>
+      <full_name>410 - 0.00 - DS_II_B_60</full_name>
+      <url>data/stories/688.dfl</url>
+    </story>
+    <story story_id="226">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_810</publication_info>
+      <full_name>235 - 1.07 - DS_V_810</full_name>
+      <url>data/stories/226.dfl</url>
+    </story>
+    <story story_id="753">
+      <informant_id>558</informant_id>
+      <publication_info>DS_II_B_48</publication_info>
+      <full_name>558 - 0.00 - DS_II_B_48</full_name>
+      <url>data/stories/753.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5228a</fielddiary_page_start>
+  <fielddiary_page_end>5228a</fielddiary_page_end>
+  <bibliographic_info>Foster 1965</bibliographic_info>
+  <bibliography_references>
+    <reference id="423" category="general">
+      <display_string>[Article] Foster, George. 1965. Peasant Society and the Image of Limited Good. Vol. 67 of &lt;i&gt;American Anthropologist&lt;/i&gt;, 293-315.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The nisse is a well known guardian spirit closely tied to the economic fortunes of a farm. The amusing double theft described in this legend points to the zero sum game that characterizes Foster's description of early peasant societies conceptions of "limited good":  one person's gain is another person's loss (Foster 1965).
+
+     Having a farmhand accompany the nisse on his raid of the nearby farm is a slightly unusual feature of this story. The farmhand's precarious perch in the tree during the fight is reminiscent of the farmhand who tries to witness the conjuring of the devil (KMP 1.07).
+
+     The farmhand's presence also allows Kirsten Marie to tell the fairly common story of how the nisse learns to rest (DS II B 48). The nisse, despite his diminutive size, is able to carry an enormous load. As with many supernatural beings and phenomena, what is immediately visible is often misleading. The nisse's outburst about rest underscores his nonhuman status.</annotation>
+  <danish_manuscript>Dem i Hallendrup de havde 1 Nisse og dem
+i Ginderup havde 1. S. kom [de] i Ginnerup
+Nisse i Hov om at h. vilde op og stj&#xE6;le
+i Hallendrup. Siger til en der hed Terkild
+det gjorded Nis om h. vilde ikke med op til
+H. og stj&#xE6;le Havre i Aft. S. s. T. jo. S.
+gik de og de tav s. meget som de kunde
+baade sl&#xE6;be og b&#xE6;re hverre. Da de kom s.
+midt vejs s. m&#xF8;dte de H. Nisse h. havde
+v&#xE6;ret iG. og stj&#xE6;le Havre. De kom begge
+op at slaas og T. h. put sig ind i en
+Tr&#xE6;trunte der stod ved Siden af. Da de
+var s. f&#xE6;rdig med at slaas havde G. Nis
+se staan sog. H. siger til T. Kan du nu se
+T. i Trouten, a stod mid endda. S fik 
+de Byldten paa dem igien og s. tr&#xE6;kket de
+af med dem. S. s. T. aa lad os hvile-
+Hvad, er der Hvile til, s. kunde a have
+baaret lige s. meget til, som a har.</danish_manuscript>
+  <english_manuscript>The people in Hallendrup had a nisse, and the people in Ginderup, they had one too. Then the Ginderup nisse decided that he wanted to go over and steal in Hallendrup. He says this to one who was called Terkild, the nisse did, and asked him if he didn't want to come along and steal oats tonight. Terkild said sure. Then they went and they took as much as they each could carry. When they got half way home, they met the Hallendrup nisse, he'd been in Ginderup stealing oats. Now the two started fighting and Terkild climbed into a tree trunk that was to the side there. When they were done fighting, the Ginderup nisse had won. He says to Terkild, "Can you see, Terkild in the trunk, I'm still standing." They got their packs on their backs again, and then they tramped off with them. Then Terkild says, "Let's take a rest."--"What, can we rest? If I'd known, I could have taken twice as much as I've got."</english_manuscript>
+  <danish_publication>Dem i Hallendrup de havde en nisse, og dem i Ginderup de havde &#xE9;n. S&#xE5; kom Ginderup-nisse i hov om, at han vilde op og stj&#xE6;le i Hallendrup, og s&#xE5; siger han til &#xE9;n, der hed Terkild, det gjorde nis, om han vilde ikke med der op og stj&#xE6;le havre i aften. Terkild sagde jo, det kunde de jo godt. S&#xE5; gik de, og de tav (tog) s&#xE5; meget som de kunde b&#xE5;de sl&#xE6;be og b&#xE6;re hverre (hver). Da de kom s&#xE5; midtvejs p&#xE5; tilbagevejen, s&#xE5; m&#xF6;dte de Hallendrup-nisse, han havde v&#xE6;ret i Ginderup og stj&#xE6;le havre. De kom nu begge op at sl&#xE5;s, og imens puttede Terkild sig ind i en tr&#xE6;trunte, der stod ved siden af. Da de var s&#xE5; f&#xE6;rdige med at sl&#xE5;s, havde Ginderup-nisse st&#xE5;n sig. Han tager da ordet og siger til Terkild: "Kan du nu se, Terkild i trunten, a stod mig endda." S&#xE5; fik de bylten p&#xE5; dem igjen, og s&#xE5; tr&#xE6;kket de af med den. Lidt efter siger Terkild: "&#xC5;, lad os hvile." &#x2014; "Hvad, er der hvile til?" siger nis, "s&#xE5; kunde a have b&#xE5;ret lige s&#xE5; meget til, som a har."</danish_publication>
+  <english_publication>The people in Hallendrup had a nisse, and the people in Ginderup, they had one too. Then the Ginderup nisse decided that he wanted to go over and steal in Hallendrup and then he asked one who was called Terkild, the nisse did, if he didn&#x2019;t want to come along and steal oats over there. Terkild said sure, they could do that. Then they went and they took as much as they each could carry. When they got half way home, they met the Hallendrup nisse, he&#x2019;d been in Ginderup stealing oats. Now the two started fighting and in the mean time Terkild climbed into a tree trunk that was to the side there. When they were done fighting, the Ginderup nisse had won. He then speaks up and says to Terkild, &#x201C;Can you see, Terkild in the trunk, I&#x2019;m still standing.&#x201D;  They got their packs on their backs again, and then they tramped off with them. A little bit later, Terkild says, &#x201C;Let&#x2019;s take a rest.&#x201D;&#x2014;&#x201C;What, can we rest?&#x201D; says the nisse. &#x201C;If I&#x2019;d known, I could have taken twice as much as I&#x2019;ve got.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="411" frequency="2" keyword="fight">fight</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="857" frequency="6" keyword="nisse">nisse</keyword>
+    <keyword id="871" frequency="2" keyword="oats">oats</keyword>
+    <keyword id="1026" frequency="2" keyword="rest">rest</keyword>
+    <keyword id="1245" frequency="6" keyword="terkild">terkild</keyword>
+    <keyword id="1248" frequency="3" keyword="theft">theft</keyword>
+    <keyword id="1281" frequency="1" keyword="tree">tree</keyword>
+  </keywords>
+  <etk_index id="3">
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="65" display_name="Supernatural Beings: Nisse"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

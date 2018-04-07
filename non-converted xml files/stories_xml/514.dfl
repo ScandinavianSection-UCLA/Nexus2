@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<story story_id="514">
+  <publication_info>DS_II_B_185</publication_info>
+  <full_name>429 - 0.00 - DS_II_B_185</full_name>
+  <informant_id>429</informant_id>
+  <informant_last_name>Knudsen</informant_last_name>
+  <informant_first_name>Frederik</informant_first_name>
+  <informant_full_name>Frederik Knudsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>738</place_id>
+      <name>Agerskov, Bording</name>
+      <display_name>Agerskov, Bording (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="182">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_B_212</publication_info>
+      <full_name>241 - 4.11 - DSnr_II_B_212</full_name>
+      <url>data/stories/182.dfl</url>
+    </story>
+    <story story_id="703">
+      <informant_id>413</informant_id>
+      <publication_info>DS_II_B_211</publication_info>
+      <full_name>413 - 0.00 - DS_II_B_211</full_name>
+      <url>data/stories/703.dfl</url>
+    </story>
+    <story story_id="737">
+      <informant_id>358</informant_id>
+      <publication_info>DS_II_B_188</publication_info>
+      <full_name>358 - 0.00 - DS_II_B_188</full_name>
+      <url>data/stories/737.dfl</url>
+    </story>
+    <story story_id="518">
+      <informant_id>388</informant_id>
+      <publication_info>DS_II_B_183</publication_info>
+      <full_name>388 - 0.00 - DS_II_B_183</full_name>
+      <url>data/stories/518.dfl</url>
+    </story>
+    <story story_id="348">
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_B_147</publication_info>
+      <full_name>90 - 2.16 - DS_II_B_147</full_name>
+      <url>data/stories/348.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I en anden g&#xE5;rd var der ligeledes en nis, som havde sit ophold. Men s&#xE5; en skj&#xF6;n dag blev manden og nissen uvenner, fordi manden gik hen og forn&#xE6;rmede nissen. Som h&#xE6;vn derfor vred han den f&#xF8;lgende nat halsen over p&#xE5; den bedste af mandens k&#xF8;er. Nu inds&#xE5; manden, at det ikke kunde hj&#xE6;lpe ham noget at tage nissen p&#xE5; den m&#xE5;de. Han s&#xF6;gte da at blive forsonet med ham, og de blev atter gode venner. Nu vilde nissen ogs&#xE5; vise sig og gj&#xF8;re det onde godt igjen. Han hentede n&#xE6;ste nat en ko mange mange mile borte og satte den i den b&#xE5;s, hvor den forrige, som han havde vredet halsen om p&#xE5;, havde st&#xE5;et, og den ny var endda en del bedre.</danish_publication>
+  <english_publication>There was another farm where another nis (nisse) lived. But then one fine day, the farmer and the nisse had a falling out, because the man went and insulted the nisse. As revenge for that, the nisse went and wrung the neck of the man's best cow. Now the man realized that it wouldn't do much good to deal with the nisse like that. He tried to reconcile with him, and they became good friends once again. Now the nisse also wanted to show his good side, and right the wrong. The next night he went and got a cow many many miles away and put it in the stall where the previous cow whose neck he had wrung had stood, and the new one was even quite a bit better.</english_publication>
+  <keywords>
+    <keyword id="274" frequency="3" keyword="cow">cow</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="445" frequency="1" keyword="friend">friend</keyword>
+    <keyword id="825" frequency="2" keyword="neck">neck</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="855" frequency="1" keyword="nis">Nis</keyword>
+    <keyword id="857" frequency="4" keyword="nisse">nisse</keyword>
+    <keyword id="1028" frequency="1" keyword="revenge">revenge</keyword>
+    <keyword id="1186" frequency="1" keyword="stall">stall</keyword>
+  </keywords>
+  <etk_index id="3">
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="65" display_name="Supernatural Beings: Nisse"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

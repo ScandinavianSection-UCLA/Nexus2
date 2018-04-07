@@ -1,0 +1,79 @@
+<informant><person_id>352</person_id>
+  <core_informant/>
+  <full_name>K. P. Dalin</full_name>
+  <last_name>Dalin</last_name>
+  <first_name>K. P.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>605</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>352</informant_id>
+      <publication_info>DS_IV_1566</publication_info>
+      <full_name>352 - 0.00 - DS_IV_1566</full_name>
+      <url>data/stories/605.dfl</url>
+      <place_recorded><id>740</id>&#197;le</place_recorded>
+      <places_mentioned>
+        <place><id>949</id>
+          <name>Odense</name>
+        </place>
+        <place><id>1035</id>
+          <name>B&#229;ring</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>608</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>352</informant_id>
+      <publication_info>DS_II_A_91</publication_info>
+      <full_name>352 - 0.00 - DS_II_A_91</full_name>
+      <url>data/stories/608.dfl</url>
+      <place_recorded><id>740</id>&#197;le</place_recorded>
+      <places_mentioned>
+        <place><id>22</id>
+          <name>Alken</name>
+        </place>
+        <place><id>531</id>
+          <name>Skanderborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>740</place_id>
+      <name>&#197;le</name>
+      <display_name>&#197;le (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>531</place_id>
+      <name>Skanderborg</name>
+      <display_name>Skanderborg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>22</place_id>
+      <name>Alken</name>
+      <display_name>Alken (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1035</place_id>
+      <name>B&#229;ring</name>
+      <display_name>B&#229;ring (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>949</place_id>
+      <name>Odense</name>
+      <display_name>Odense (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

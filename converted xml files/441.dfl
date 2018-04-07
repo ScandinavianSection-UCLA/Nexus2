@@ -1,0 +1,87 @@
+<story><story_id>441</story_id>
+  <publication_info>DS_I_1341</publication_info>
+  <full_name>456 - 0.00 - DS_I_1341</full_name>
+  <informant_id>456</informant_id>
+  <informant_last_name>Ludvigsen</informant_last_name>
+  <informant_first_name>Anna Christ.</informant_first_name>
+  <informant_full_name>Fru Anna Christ. Ludvigsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>766</place_id>
+      <name>D&#248;strup</name>
+      <display_name>D&#248;strup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>563</place_id>
+      <name>S&#248;lsted</name>
+      <display_name>S&#248;lsted (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>646</place_id>
+      <name>T&#248;nder</name>
+      <display_name>T&#248;nder (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>180</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_901</publication_info>
+      <full_name>241 - 4.09 - DSnr_I_901</full_name>
+      <url>data/stories/180.dfl</url>
+    </story>
+    <story><story_id>620</story_id>
+      <informant_id>359</informant_id>
+      <publication_info>DS_I_1354</publication_info>
+      <full_name>359 - 0.00 - DS_I_1354</full_name>
+      <url>data/stories/620.dfl</url>
+    </story>
+    <story><story_id>756</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1340</publication_info>
+      <full_name>348 - 0.00 - DS_I_1340</full_name>
+      <url>data/stories/756.dfl</url>
+    </story>
+    <story><story_id>861</story_id>
+      <informant_id/>
+      <publication_info>DS_I_1358</publication_info>
+      <full_name>0 - 0.00 - DS_I_1358</full_name>
+      <url>data/stories/861.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>For nogle &#229;r siden kjorte nogle g&#229;rdm&#230;nd fra Solsted til T&#248;nder med korn i den tidlige morgenstund. Lidt henne s&#229; de alle en skare sm&#229;bitte folk komme til vogns fra en fj&#230;rntliggende h&#246;j. Det syntes at v&#230;re flyttegods, de f&#248;rte med sig. Vogne og heste var i forhold til folkene.</danish_publication>
+  <english_publication>Several years ago, some farmers drove from Solsted to T&#248;nder with grain early in the morning. A little ways away they saw a whole group of little tiny people coming on a wagon from a distant mound. It appeared to be furniture and other possessions that they were bringing with them. The wagons and the horses were in scale to the people.</english_publication>
+  <keywords>
+    <keyword><id>396</id><frequency>1</frequency><keyword>farmer</keyword>farmer</keyword>
+    <keyword><id>477</id><frequency>1</frequency><keyword>grain</keyword>grain</keyword>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>804</id><frequency>1</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>1311</id><frequency>2</frequency><keyword>wagon</keyword>wagon</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>109</id><display_name>Time, Season, Weather: Morning</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,48 @@
+<informant><person_id>365</person_id>
+  <core_informant/>
+  <full_name>Klavs Gjerging</full_name>
+  <last_name>Gjerging</last_name>
+  <first_name>Klavs</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>617</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>365</informant_id>
+      <publication_info>DS_I_807</publication_info>
+      <full_name>365 - 0.00 - DS_I_807</full_name>
+      <url>data/stories/617.dfl</url>
+      <places_mentioned>
+        <place><id>157</id>
+          <name>Firh&#248;j</name>
+        </place>
+        <place><id>323</id>
+          <name>Karlslunde</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>323</place_id>
+      <name>Karlslunde</name>
+      <display_name>Karlslunde (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>157</place_id>
+      <name>Firh&#248;j</name>
+      <display_name>Firh&#248;j (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

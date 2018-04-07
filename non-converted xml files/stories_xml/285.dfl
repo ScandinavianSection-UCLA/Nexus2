@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<story story_id="285">
+  <publication_info>DS_II_G_85</publication_info>
+  <full_name>235 - 2.02 - DS_II_G_85</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>2.02</order_told>
+  <fieldtrip id="10">October 1892</fieldtrip>
+  <fieldtrip_start_date>1892-10-09</fieldtrip_start_date>
+  <fieldtrip_end_date>1892-10-12</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="894">
+      <informant_id>217</informant_id>
+      <publication_info>DS_II_G_93</publication_info>
+      <full_name>217 - 0.00 - DS_II_G_93</full_name>
+      <url>data/stories/894.dfl</url>
+    </story>
+    <story story_id="895">
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_G_94</publication_info>
+      <full_name>348 - 0.00 - DS_II_G_94</full_name>
+      <url>data/stories/895.dfl</url>
+    </story>
+    <story story_id="896">
+      <informant_id>467</informant_id>
+      <publication_info>DS_II_G_95</publication_info>
+      <full_name>467 - 0.00 - DS_II_G_95</full_name>
+      <url>data/stories/896.dfl</url>
+    </story>
+    <story story_id="899">
+      <informant_id>563</informant_id>
+      <publication_info>DS_II_G_90</publication_info>
+      <full_name>563 - 0.00 - DS_II_G_90</full_name>
+      <url>data/stories/899.dfl</url>
+    </story>
+    <story story_id="600">
+      <informant_id>327</informant_id>
+      <publication_info>DS_II_G_87</publication_info>
+      <full_name>327 - 0.00 - DS_II_G_87</full_name>
+      <url>data/stories/600.dfl</url>
+    </story>
+    <story story_id="827">
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_G_89</publication_info>
+      <full_name>69 - 0.00 - DS_II_G_89</full_name>
+      <url>data/stories/827.dfl</url>
+    </story>
+    <story story_id="731">
+      <informant_id>347</informant_id>
+      <publication_info>DS_II_G_88</publication_info>
+      <full_name>347 - 0.00 - DS_II_G_88</full_name>
+      <url>data/stories/731.dfl</url>
+    </story>
+    <story story_id="407">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_F_78</publication_info>
+      <full_name>123 - 3.04 - DS_II_F_78</full_name>
+      <url>data/stories/407.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5753b</fielddiary_page_start>
+  <fielddiary_page_end>5753b</fielddiary_page_end>
+  <bibliographic_info>Neubaur 1884
+Neubaur 1893
+Hasan-Rokem and Dundes 1986</bibliographic_info>
+  <bibliography_references>
+    <reference id="272" category="general">
+      <display_string>[Book] Neubaur, Leonhard. 1884. &lt;i&gt;Die Sage vom ewigen Juden&lt;/i&gt;. Leipzig: J. C. Hinrichs.</display_string>
+    </reference>
+    <reference id="273" category="general">
+      <display_string>[Book] Neubaur, Leonhard. 1893. &lt;i&gt;Neue Mittheilungen &#xFC;ber die Sage vom ewigen Juden&lt;/i&gt;. Leipzig: J. C. Hinrichs.</display_string>
+    </reference>
+    <reference id="274" category="general">
+      <display_string>[Book] Hasan-Rokem, Galit, Dundes, Alan. 1986. &lt;i&gt;The Wandering Jew. Essays in the interpretation of a Christian legend&lt;/i&gt;. Bloomington: Indiana University Press.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>This record is a fragment of a story known as Jerusalems skomager (Jerusalem's cobbler) or Den evige J&#xF8;de (The Wandering Jew) (Hasan-Rokem and Dundes 1986). The legend tells of a cobbler who does not let Jesus lean against his house when he is on his way to Golgatha with the cross. The Jew, in turn, is condemned to wander the earth forever without rest except for one day each year: the night before Christmas (DS II G 88, G 89). Some variants of the story mention a provision for weekly rest (DS II G 87). If a plow was left outside on that night, the wandering Jew might rest on it, with the result that only weeds would grow wherever the plow plowed. This belief links the Wandering Jew to beliefs concerning the mare and its destructive tendencies (PJ 3.04).
+
+     The story of the Wandering Jew first appeared in a pamphlet "Kurtze Beschreibung und Erz&#xE4;hlung von einem Juden mit Namen Ahasverus" [A Short Description and Story about a Jew named Ahasverus] printed in Leiden in 1602. It is unlikely that Kirsten Marie read the story in the pamphlet, even though the pamphlet was quickly translated into many languages, including Danish, soon after its publication. 
+
+     The legend speaks to several important concerns. First, it supports the idea of mercy (and the concomitant strongly Lutheran notion that good deeds in this life are rewarded in the afterlife). The story also indirectly brings up the notion of wandering ethnic outsiders in the Danish landscape and their perceived threat to the economy of the farm. Accordingly, the story aligns well with Kirsten Marie's other stories about vagabonds (natm&#xE6;nd, tattere and rakkere). </annotation>
+  <danish_manuscript>Wassens Skomager var jo Skomager. Jesus.
+ikke staa til St&#xF8;d ved hans Hus. Gaa
+v&#xE6;k du...
+</danish_manuscript>
+  <english_manuscript>Wassen's shoemaker was a cobbler. Jesus. Don't lean against his house. "Go away you&#x2026;"</english_manuscript>
+  <danish_publication>Wassens skomager sagde jo til Jesus: "G&#xE5; v&#xE6;k du . . . .," den gang han stod til st&#xF8;d ved hans hus.</danish_publication>
+  <english_publication>Wassen&#x2019;s shoemaker said to Jesus, &#x201C;Go away you&#x2026;&#x201D; when he stood and leaned against his house.</english_publication>
+  <keywords>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="598" frequency="1" keyword="jesus">Jesus</keyword>
+    <keyword id="1105" frequency="1" keyword="shoemaker">shoemaker</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="9" name="Fragment"/>
+</story>

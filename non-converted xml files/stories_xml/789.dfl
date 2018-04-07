@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<story story_id="789">
+  <publication_info>DS_I_382</publication_info>
+  <full_name>381 - 0.00 - DS_I_382</full_name>
+  <informant_id>381</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>804</place_id>
+      <name>Iowa, USA</name>
+      <display_name>Iowa, USA (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>11</place_id>
+      <name>&#xC5;benr&#xE5;</name>
+      <display_name>&#xC5;benr&#xE5; (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="133">
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_402</publication_info>
+      <full_name>150 - 4.22 - DS_I_402</full_name>
+      <url>data/stories/133.dfl</url>
+    </story>
+    <story story_id="238">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_782</publication_info>
+      <full_name>235 - 1.19 - DS_I_782</full_name>
+      <url>data/stories/238.dfl</url>
+    </story>
+    <story story_id="822">
+      <informant_id>69</informant_id>
+      <publication_info>DS_I_381</publication_info>
+      <full_name>69 - 0.00 - DS_I_381</full_name>
+      <url>data/stories/822.dfl</url>
+    </story>
+    <story story_id="239">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_400</publication_info>
+      <full_name>235 - 1.20 - DS_I_400</full_name>
+      <url>data/stories/239.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Jeg har kjendt en mand, der fortalte, at han i sine yngre &#xE5;r, da han tjente i L&#xF6;jt ved &#xC5;benr&#xE5;, gik en s&#xF8;ndag morgen f&#xF6;rend solopgang ud i marken for at flytte hestene, der stod i t&#xF6;jr p&#xE5; en gr&#xE6;smark, hvor der var en kj&#xE6;mpeh&#xF6;j. Ved h&#xF8;jens fod l&#xE5; der en skydsel, der var br&#xE6;kket. Han tog den hjem og gjorde den i stand, hvorefter han gik hen og lagde den p&#xE5; stedet, hvor han fandt den. F&#xF6;rend middag gik han atter i marken for at flytte og vande hestene, og da l&#xE5; der en dejlig kage; denne fik han, fordi han i stand satte skydselen. Bj&#xE6;rgkonen havde nemlig bagt br&#xF8;d i morgenstunden. [Trykt i et amerikansk blad Dannebrog]</danish_publication>
+  <english_publication>I knew a man who said that in his younger years, when he worked at L&#xF8;jt in &#xC5;benr&#xE5;, one morning before dawn, he was out walking in the field to move the horses, which stood tied up out on a grass field where there was a mound. At the foot of the mound lay a peel board that was broken. He took it home and fixed it, after which he went over and placed it down in the same place where he&#x2019;d found it. Just before lunch, he went back out to the field to move and water the horses and there was a wonderful cake lying there; he got that because he had repaired the peel board. The mound woman had baked bread that morning. [Printed in an American magazine, Dannebrog]</english_publication>
+  <keywords>
+    <keyword id="22" frequency="1" keyword="america">America</keyword>
+    <keyword id="65" frequency="1" keyword="baking">baking</keyword>
+    <keyword id="139" frequency="1" keyword="bread">bread</keyword>
+    <keyword id="145" frequency="1" keyword="bridle">bridle</keyword>
+    <keyword id="168" frequency="1" keyword="cake">cake</keyword>
+    <keyword id="305" frequency="1" keyword="dawn">dawn</keyword>
+    <keyword id="410" frequency="3" keyword="field">field</keyword>
+    <keyword id="417" frequency="1" keyword="fix">fix</keyword>
+    <keyword id="433" frequency="1" keyword="foot">foot</keyword>
+    <keyword id="481" frequency="1" keyword="grass">grass</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="728" frequency="1" keyword="lunch">lunch</keyword>
+    <keyword id="801" frequency="2" keyword="morning">morning</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="808" frequency="1" keyword="mound_woman">mound woman</keyword>
+    <keyword id="933" frequency="2" keyword="peel_board">peel board</keyword>
+    <keyword id="1320" frequency="1" keyword="water">water</keyword>
+    <keyword id="1374" frequency="1" keyword="young">young</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="109" display_name="Time, Season, Weather: Morning"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

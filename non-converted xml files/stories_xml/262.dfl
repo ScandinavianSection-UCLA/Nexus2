@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<story story_id="262">
+  <publication_info>DS_II_A_99</publication_info>
+  <full_name>235 - 1.42 - DS_II_A_99</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.42</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>425</place_id>
+      <name>Nielstrup</name>
+      <display_name>Nielstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="281">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_100</publication_info>
+      <full_name>235 - 1.60 - DS_II_A_100</full_name>
+      <url>data/stories/281.dfl</url>
+    </story>
+    <story story_id="457">
+      <informant_id>342</informant_id>
+      <publication_info>DS_II_A_17</publication_info>
+      <full_name>342 - 0.00 - DS_II_A_17</full_name>
+      <url>data/stories/457.dfl</url>
+    </story>
+    <story story_id="608">
+      <informant_id>352</informant_id>
+      <publication_info>DS_II_A_91</publication_info>
+      <full_name>352 - 0.00 - DS_II_A_91</full_name>
+      <url>data/stories/608.dfl</url>
+    </story>
+    <story story_id="714">
+      <informant_id>68</informant_id>
+      <publication_info>DS_II_A_106</publication_info>
+      <full_name>68 - 0.00 - DS_II_A_106</full_name>
+      <url>data/stories/714.dfl</url>
+    </story>
+    <story story_id="726">
+      <informant_id>414</informant_id>
+      <publication_info>DS_II_A_74</publication_info>
+      <full_name>414 - 0.00 - DS_II_A_74</full_name>
+      <url>data/stories/726.dfl</url>
+    </story>
+    <story story_id="758">
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_A_132</publication_info>
+      <full_name>348 - 0.00 - DS_II_A_132</full_name>
+      <url>data/stories/758.dfl</url>
+    </story>
+    <story story_id="843">
+      <informant_id>379</informant_id>
+      <publication_info>DS_II_A_76</publication_info>
+      <full_name>379 - 0.00 - DS_II_A_76</full_name>
+      <url>data/stories/843.dfl</url>
+    </story>
+    <story story_id="220">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_57</publication_info>
+      <full_name>235 - 1.01 - DS_II_A_57</full_name>
+      <url>data/stories/220.dfl</url>
+    </story>
+    <story story_id="385">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_767</publication_info>
+      <full_name>123 - 2.11 - DS_I_767</full_name>
+      <url>data/stories/385.dfl</url>
+    </story>
+    <story story_id="571">
+      <informant_id>240</informant_id>
+      <publication_info>DS_II_A_95</publication_info>
+      <full_name>240 - 0.00 - DS_II_A_95</full_name>
+      <url>data/stories/571.dfl</url>
+    </story>
+    <story story_id="572">
+      <informant_id>240</informant_id>
+      <publication_info>DS_II_A_96</publication_info>
+      <full_name>240 - 0.00 - DS_II_A_96</full_name>
+      <url>data/stories/572.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5220a (2)</fielddiary_page_start>
+  <fielddiary_page_end>5220a (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Kirsten Marie returns to a theme brought up in her very first story, namely seductive elves (KMP 1.01; PJ 2.11). In this case, the cabinet maker foolishly seeks out the elves and, as a result, becomes gravely ill. Dancing with elves leads to numerous maladies, including wasting, insanity (DS II A 95), and lack of growth or failure to thrive (DS II A 96).</annotation>
+  <danish_manuscript>En Snedker i Nielstrup gik ned i Skoven og
+danste med Ellekj&#xE6;ll. om Middagen ilav 
+h. skulde have sovet hans Middagss&#xF8;vn.
+Men h. blev s. mager og s. s. ringe ud.</danish_manuscript>
+  <english_manuscript>A cabinet maker in Nielstrup went down and danced with the elf hags when he was supposed to be taking his afternoon nap. But he became so thin from that and wound up looking really terrible.</english_manuscript>
+  <danish_publication>En snedker i Nielstrup gik ned i skoven om middagen og dandste med ellekj&#xE6;llingerne, ilav han skulde have sovet middagss&#xF6;vn. Men han blev s&#xE5; mager af det og kom til at se s&#xE5; ringe ud.</danish_publication>
+  <english_publication>A cabinet maker from Nielstrup went down and danced with the elf hags when he was supposed to be taking his afternoon nap. But he became so thin from that and wound up looking really terrible.</english_publication>
+  <keywords>
+    <keyword id="14" frequency="1" keyword="afternoon">afternoon</keyword>
+    <keyword id="297" frequency="1" keyword="dancing">dancing</keyword>
+    <keyword id="373" frequency="1" keyword="elf">elf</keyword>
+    <keyword id="493" frequency="1" keyword="hag">hag</keyword>
+    <keyword id="823" frequency="1" keyword="nap">nap</keyword>
+    <keyword id="1252" frequency="1" keyword="thin">thin</keyword>
+    <keyword id="1365" frequency="1" keyword="wound">wound</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="110" display_name="Time, Season, Weather: Noon"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="133" display_name="Actions or events: Seduction"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

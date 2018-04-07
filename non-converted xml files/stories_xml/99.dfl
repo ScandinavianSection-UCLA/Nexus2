@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="99">
+  <publication_info>JAH_II_331</publication_info>
+  <full_name>150 - 3.36 - JAH_II_331</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.36</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>424</place_id>
+      <name>Nibe</name>
+      <display_name>Nibe (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>429</place_id>
+      <name>N&#xF8;rlund</name>
+      <display_name>N&#xF8;rlund (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>655</place_id>
+      <name>Torsted</name>
+      <display_name>Torsted (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="91">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_328</publication_info>
+      <full_name>150 - 3.28 - Unpub_BJK_328</full_name>
+      <url>data/stories/91.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4103b</fielddiary_page_start>
+  <fielddiary_page_end>4103b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The story of Niels Mortensen plays on the notion that external appearances can be deceiving. Niels may well have worn the ragged clothing as a way to divert attention from himself, given the rather large amount of money that he was carrying. As such, his actions might have been informed by stories about robbers. Jens engages in an interesting narrative ploy, allowing two characters in his story to comment on the outward appearance of Niels.</annotation>
+  <danish_manuscript>Niels Mortensen her i Ersted kj&#xF8;bte to gaarde 
+af Krigsraaden paa N&#xF8;rlund for 1300 Daler
+H. var s. ringe kl&#xE6;dt, hvid. En Mand i Torsted
+sagde til en Kj&#xF8;bmand i Nibe. Der gaar en
+Mand h. gaar med 1300 D i hans lomme.
+Da ansaa h. ham ikke for, h. vilde betro ham
+en P&#xE6;gl.</danish_manuscript>
+  <english_manuscript>Niels Mortensen from here in Ersted bought two farms from the war counselor at N&#xF6;rlund for 1300 daler. He was dressed really poorly, in uncolored homespun. A man in Torsted told the grocer in Nibe, "There goes a man with 1300 daler in his pocket." - "Hah, I wouldn't even trust him with a half pint."</english_manuscript>
+  <danish_publication>Niels Mortensen her i Ersted kj&#xF8;bte to g&#xE5;rde af krigsr&#xE5;den p&#xE5; N&#xF6;rlund for 1300 daler. Da han skulde til Nibe at betale pengene, sagde en mand i Torsted til en kj&#xF6;bmand i Nibe: "Der g&#xE5;r en mand, han har 1300 daler i hans lomme." &#x2014; "&#xC5;, jeg anser ham ikke for, at jeg vil betro ham en p&#xE6;gl." Han var nemlig s&#xE5; ringe kl&#xE6;dt og gik i ene hvide kl&#xE6;der.</danish_publication>
+  <english_publication>Niels Mortensen from here in Ersted bought two farms from the war counselor at N&#xF6;rlund for 1300 daler. When he was to go to Nibe to pay the money, a man in Torsted told a grocer in Nibe, &#x201C;There walks a man with 1300 daler in his pocket.&#x201D; &#x2013; &#x201C;Hah, I wouldn&#x2019;t even consider entrusting him with a half pint.&#x201D; He was dressed really poorly, in uncolored homespun.</english_publication>
+  <keywords>
+    <keyword id="265" frequency="1" keyword="counselor">counselor</keyword>
+    <keyword id="295" frequency="2" keyword="daler">daler</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="488" frequency="1" keyword="grocer">grocer</keyword>
+    <keyword id="539" frequency="1" keyword="homespun">homespun</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="844" frequency="1" keyword="niels_mortensen">Niels Mortensen</keyword>
+    <keyword id="969" frequency="1" keyword="pocket">pocket</keyword>
+    <keyword id="1317" frequency="1" keyword="war">war</keyword>
+  </keywords>
+  <etk_index id="32">
+    <heading_danish>Fra hoveriets tid</heading_danish>
+    <heading_english>From the time of villeinage</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

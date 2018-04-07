@@ -1,0 +1,81 @@
+<informant><person_id>397</person_id>
+  <core_informant/>
+  <full_name>Jens Jensen</full_name>
+  <last_name>Jensen</last_name>
+  <first_name>Jens</first_name>
+  <gender>m</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations>
+    <occupation><occupation_id>84</occupation_id>ungkarl</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>544</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>397</informant_id>
+      <publication_info>DS_II_H_430</publication_info>
+      <full_name>397 - 0.00 - DS_II_H_430</full_name>
+      <url>data/stories/544.dfl</url>
+      <place_recorded><id>853</id>Refshaleg&#229;rd</place_recorded>
+      <places_mentioned>
+        <place><id>349</id>
+          <name>Kragelund</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>907</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>397</informant_id>
+      <publication_info>JAH_II_412</publication_info>
+      <full_name>397 - 0.00 - JAH_II_412</full_name>
+      <url>data/stories/907.dfl</url>
+      <place_recorded><id>853</id>Refshaleg&#229;rd</place_recorded>
+      <places_mentioned>
+        <place><id>913</id>
+          <name>Voldby</name>
+        </place>
+        <place><id>338</id>
+          <name>K&#248;benhavn</name>
+        </place>
+        <place><id>929</id>
+          <name>Frisenborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>853</place_id>
+      <name>Refshaleg&#229;rd</name>
+      <display_name>Refshaleg&#229;rd (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>929</place_id>
+      <name>Frisenborg</name>
+      <display_name>Frisenborg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>913</place_id>
+      <name>Voldby</name>
+      <display_name>Voldby (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>349</place_id>
+      <name>Kragelund</name>
+      <display_name>Kragelund (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

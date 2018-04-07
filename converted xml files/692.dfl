@@ -1,0 +1,101 @@
+<story><story_id>692</story_id>
+  <publication_info>DS_IV_1349</publication_info>
+  <full_name>337 - 0.00 - DS_IV_1349</full_name>
+  <informant_id>337</informant_id>
+  <informant_last_name>Bonde</informant_last_name>
+  <informant_first_name>Maren Mogensen</informant_first_name>
+  <informant_full_name>L&#230;rerinde Maren Mogensen Bonde</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>902</place_id>
+      <name>Veders&#248;</name>
+      <display_name>Veders&#248; (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>931</place_id>
+      <name>Holmsland</name>
+      <display_name>Holmsland (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>932</place_id>
+      <name>S&#248;g&#229;rd</name>
+      <display_name>S&#248;g&#229;rd (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>474</story_id>
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1343</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1343</full_name>
+      <url>data/stories/474.dfl</url>
+    </story>
+    <story><story_id>642</story_id>
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_167</publication_info>
+      <full_name>331 - 0.00 - DS_VII_167</full_name>
+      <url>data/stories/642.dfl</url>
+    </story>
+    <story><story_id>641</story_id>
+      <informant_id>331</informant_id>
+      <publication_info>DS_VI_1251</publication_info>
+      <full_name>331 - 0.00 - DS_VI_1251</full_name>
+      <url>data/stories/641.dfl</url>
+    </story>
+    <story><story_id>216</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_930</publication_info>
+      <full_name>241 - 4.44 - DS_VI_930</full_name>
+      <url>data/stories/216.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Til S&#248;g&#229;rd p&#229; Holmsland kom der en gang en gammel Nordmand for at tigge. Han havde v&#230;ret der p&#229; g&#229;rden f&#246;r i samme &#230;rende, og jomfruen havde et ondt &#246;je til ham. Da hun nu s&#229; ham komme, sprang hun hen og slap l&#230;nkehundene l&#248;se. Nordmanden kunde nu ikke r&#248;re sig af pletten for hundene, og imens stod jomfruen i d&#246;ren og lo af alle kr&#230;fter. Nordmanden bed sig forbitret i l&#230;ben over den grove sp&#248;g, og da han b&#229;de kunde signe og vise igjen, s&#229; r&#229;bte han til jomfruen, idet han pegede p&#229; et lindetr&#230;, der stod: "Hvis det tr&#230; kunde tale, s&#229; skulde du nok tie." Der blev senere gravet under lindetr&#230;et, og man fandt da ligene af to sm&#229; drengeb&#246;rn. Jomfruen bekjendte, at det var hendes, hun havde selv dr&#230;bt dem, og derfor blev hun siden henrettet.</danish_publication>
+  <english_publication>An old Norwegian once came to S&#248;g&#229;rd (Lake farm) on Holmsland to beg. He&#8217;d been to the farm before on the same errand, and the mistress of the farm did not take kindly to him. When she saw that he was coming now, she ran over and let the watchdogs loose. The Norwegian couldn&#8217;t move from the spot now because of the dogs and meanwhile the mistress stood in the door and laughed with all her might. The Norwegian bit his lip over this crude joke and since he could both &#8220;bless&#8221; and &#8220;show again,&#8221; he yelled to the mistress while pointing at a linden tree that stood nearby: &#8220;If that tree could talk, then you&#8217;d shut up.&#8221; Later, they dug under the linden tree and there they found the bodies of two little boys. The mistress admitted that they were hers, she had killed them herself, and so she was later executed.</english_publication>
+  <keywords>
+    <keyword><id>11</id><frequency>1</frequency><keyword>admission</keyword>admission</keyword>
+    <keyword><id>86</id><frequency>1</frequency><keyword>beggar</keyword>beggar</keyword>
+    <keyword><id>110</id><frequency>1</frequency><keyword>blessing</keyword>blessing</keyword>
+    <keyword><id>118</id><frequency>1</frequency><keyword>body</keyword>body</keyword>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>326</id><frequency>1</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>343</id><frequency>1</frequency><keyword>dog</keyword>dog</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>383</id><frequency>1</frequency><keyword>errand</keyword>errand</keyword>
+    <keyword><id>388</id><frequency>1</frequency><keyword>execution</keyword>execution</keyword>
+    <keyword><id>394</id><frequency>3</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>604</id><frequency>1</frequency><keyword>joke</keyword>joke</keyword>
+    <keyword><id>622</id><frequency>1</frequency><keyword>kill</keyword>kill</keyword>
+    <keyword><id>679</id><frequency>1</frequency><keyword>lake</keyword>lake</keyword>
+    <keyword><id>691</id><frequency>1</frequency><keyword>laughter</keyword>laughter</keyword>
+    <keyword><id>711</id><frequency>2</frequency><keyword>linden_tree</keyword>linden tree</keyword>
+    <keyword><id>789</id><frequency>4</frequency><keyword>mistress</keyword>mistress</keyword>
+    <keyword><id>867</id><frequency>3</frequency><keyword>norwegian</keyword>Norwegian</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1174</id><frequency>1</frequency><keyword>spell</keyword>spell</keyword>
+    <keyword><id>1281</id><frequency>1</frequency><keyword>tree</keyword>tree</keyword>
+  </keywords>
+  <etk_index><id>20</id>
+    <heading_danish>R&#248;vere, drabsm&#230;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>3</id><display_name>People: Beggar / Poor person</display_name></tango_index>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>8</id><display_name>People: Farmwife</display_name></tango_index>
+    <tango_index><id>10</id><display_name>People: Foreigner</display_name></tango_index>
+    <tango_index><id>21</id><display_name>People: Wanderer</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>92</id><display_name>Actions or events: Murder</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

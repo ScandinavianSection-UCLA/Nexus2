@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<story story_id="542">
+  <publication_info>DS_VI_882</publication_info>
+  <full_name>370 - 0.00 - DS_VI_882</full_name>
+  <informant_id>370</informant_id>
+  <informant_last_name>Halkj&#xE6;r</informant_last_name>
+  <informant_first_name>Inger</informant_first_name>
+  <informant_full_name>Inger Halkj&#xE6;r</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>189</place_id>
+      <name>Gjedsted</name>
+      <display_name>Gjedsted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>189</place_id>
+      <name>Gjedsted</name>
+      <display_name>Gjedsted (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>708</place_id>
+      <name>Vindbl&#xE6;s</name>
+      <display_name>Vindbl&#xE6;s (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="260">
+      <informant_id>235</informant_id>
+      <publication_info>DS_IV_1839</publication_info>
+      <full_name>235 - 1.40 - DS_IV_1839</full_name>
+      <url>data/stories/260.dfl</url>
+    </story>
+    <story story_id="261">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VI_884</publication_info>
+      <full_name>235 - 1.41 - DS_VI_884</full_name>
+      <url>data/stories/261.dfl</url>
+    </story>
+    <story story_id="618">
+      <informant_id>323</informant_id>
+      <publication_info>DS_VI_886</publication_info>
+      <full_name>323 - 0.00 - DS_VI_886</full_name>
+      <url>data/stories/618.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>A var nede ved den kloge kone i Vindbl&#xE6;s for at f&#xE5; nogle penge vist igjen, der var blevne henne for en mand her i Gjedsted. Men hun vilde ikke og viste mig d&#xF8;ren. "Ja, bitte madamme m&#xE5; undskylde...", begyndte a jo igjen og vilde have noget mere fremf&#xF8;rt. Men hun afbr&#xF8;d mig straks: "Nej, a vil ikke sl&#xE5;s med Fanden i 24 gange 2 timer for s&#xE5; ringe en ting. Min fader havde kanske gjort det, og a har vel de samme b&#xF8;ger, som min fader havde, men a vil nu ikke have med det at gj&#xF8;re."</danish_publication>
+  <english_publication>I was down to see the cunning woman in Vindbl&#xE6;s to have some coins that had gone missing for a man here in Gjedsted shown again. But she wouldn't and she showed me the door. "Well, little madam, please excuse me but..." I began again and wanted to tell her a bit more. But she interrupted me immediately, "No, I don't want to fight the devil twenty-four times for two hours each time over such a little thing. Sure my father did it, and I have the same books that my father had, but I don't want to have anything to do with that."</english_publication>
+  <keywords>
+    <keyword id="123" frequency="1" keyword="books">books</keyword>
+    <keyword id="246" frequency="1" keyword="coins">coins</keyword>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="324" frequency="1" keyword="devil">devil</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="399" frequency="2" keyword="father">father</keyword>
+    <keyword id="411" frequency="1" keyword="fight">fight</keyword>
+  </keywords>
+  <etk_index id="28">
+    <heading_danish>Kloge m&#xE6;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

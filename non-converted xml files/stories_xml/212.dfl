@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<story story_id="212">
+  <publication_info>DSnr_IV_1113</publication_info>
+  <full_name>241 - 4.40 - DSnr_IV_1113</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>4.40</order_told>
+  <fieldtrip id="8">May-June 1898</fieldtrip>
+  <fieldtrip_start_date>1898-05-23</fieldtrip_start_date>
+  <fieldtrip_end_date>1898-06-08</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="716">
+      <informant_id>541</informant_id>
+      <publication_info>DS_I_639</publication_info>
+      <full_name>541 - 0.00 - DS_I_639</full_name>
+      <url>data/stories/716.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7821a</fielddiary_page_start>
+  <fielddiary_page_end>7821a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Even though they were common accident on Danish farms, knife cuts were not a trivial injury because they could lead to serious infection and death. The use of worked metal--particularly sharp metal such as knives and blades--to cure is closely linked to the belief in their efficacy against supernatural beings, and their ability to "bind" possessions of the other world. It may be that these metal tools represent a human "value-added" component to nature, and symbolically suggest human control of the environment and, in particular, the earth.</annotation>
+  <danish_manuscript>Det fort&#xE6;lles at naar en skj&#xE6;rer
+sig paa en Kniv og s. hugger den ned
+i Jorden, s. standser Blodet.</danish_manuscript>
+  <english_manuscript>They say that when someone cuts himself with a knife and then throws it down into the ground the blood stops.</english_manuscript>
+  <danish_publication>Der fort&#xE6;lles, at naar &#xE9;n skj&#xE6;rer sig paa en Kniv og saa hugger den ned i Jorden, saa standser Blodet.</danish_publication>
+  <english_publication>They say that when someone cuts himself with a knife and then throws the knife down so that it sticks in the ground, the blood stops.</english_publication>
+  <keywords>
+    <keyword id="111" frequency="1" keyword="blood">blood</keyword>
+    <keyword id="638" frequency="1" keyword="knife">knife</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="50" display_name="Tools, Items and Conveyances: Metal"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="10" name="Cure / Remedy / Spell"/>
+</story>

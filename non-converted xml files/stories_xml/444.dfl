@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<story story_id="444">
+  <publication_info>DS_V_520</publication_info>
+  <full_name>456 - 0.00 - DS_V_520</full_name>
+  <informant_id>456</informant_id>
+  <informant_last_name>Ludvigsen</informant_last_name>
+  <informant_first_name>Anna Christ.</informant_first_name>
+  <informant_full_name>Fru Anna Christ. Ludvigsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>766</place_id>
+      <name>D&#xF8;strup</name>
+      <display_name>D&#xF8;strup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>993</place_id>
+      <name>Brede</name>
+      <display_name>Brede (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>994</place_id>
+      <name>Harris</name>
+      <display_name>Harris (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="557">
+      <informant_id>68</informant_id>
+      <publication_info>DS_V_513</publication_info>
+      <full_name>68 - 0.00 - DS_V_513</full_name>
+      <url>data/stories/557.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Da herredsfogden (Himmark?) i Harris d&#xF8;de, var der nogen snak om, at han gik igjen, og man fort&#xE6;ller, at han p&#xE5; begravelsesdagen var f&#xF6;r hjemme i sin g&#xE5;rd end ligf&#xF8;lget. Samme dags aften blev der banket h&#xE5;rdt p&#xE5; pr&#xE6;steg&#xE5;rdens d&#xF6;r i Brede, og pigen lukkede op, men der var ingen. Det bankede anden gang og endnu st&#xE6;rkere, og der var endnu ingen. Da sagde pr&#xE6;sten til pigen: "Banker det tredje gang, vil jeg selv g&#xE5; ud". Snart bankede det st&#xE6;rkere end f&#xF6;r, og pr&#xE6;sten gik da selv ud for at lukke op, og pigen, som lyttede, kjendte herredsfogdens r&#xF6;st, som sagde: "Min sag er tabt". Hans solgte ridehest fandtes n&#xE6;sten altid skumbed&#xE6;kket om morgenen af det natlige ridt, som den brugtes til af sin forrige ejer.</danish_publication>
+  <english_publication>When the district bailiff from Harris died, there was some talk about him walking again and they say that on the day of his funeral he arrived back at his house before the funeral procession. That same night, there was a loud knock at the door of the parsonage in Brede, and the serving girl opened the door, but nobody was there. There was a second knock, even louder than the first but, once again, there was nobody there. Then the minister said to the girl: &#x201C;If there is a third knock, I&#x2019;ll go out myself.&#x201D; Soon there was a louder knock than before, and the minister went to open the door himself, and the girl, who was listening, recognized the bailiff&#x2019;s voice who said: &#x201C;My case has been lost.&#x201D; The bailiff's riding horse, which had been sold after his death, was found almost every morning covered with foam from the nightly ride its previous owner (the bailiff) used it for.</english_publication>
+  <keywords>
+    <keyword id="64" frequency="1" keyword="bailiff">bailiff</keyword>
+    <keyword id="183" frequency="1" keyword="case">case</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="337" frequency="1" keyword="district_bailiff">district bailiff</keyword>
+    <keyword id="344" frequency="3" keyword="door">door</keyword>
+    <keyword id="450" frequency="2" keyword="funeral">funeral</keyword>
+    <keyword id="467" frequency="3" keyword="girl">girl</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="891" frequency="1" keyword="owner">owner</keyword>
+    <keyword id="906" frequency="1" keyword="parsonage">parsonage</keyword>
+    <keyword id="999" frequency="1" keyword="procession">procession</keyword>
+    <keyword id="1030" frequency="2" keyword="riding">riding</keyword>
+    <keyword id="1307" frequency="1" keyword="voice">voice</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="2" display_name="People: Bailiff"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

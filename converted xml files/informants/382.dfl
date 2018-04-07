@@ -1,0 +1,104 @@
+<informant><person_id>382</person_id>
+  <core_informant/>
+  <full_name>Peder Hansen</full_name>
+  <last_name>Hansen</last_name>
+  <first_name>Peder</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>788</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>382</informant_id>
+      <publication_info>DS_I_1356</publication_info>
+      <full_name>382 - 0.00 - DS_I_1356</full_name>
+      <url>data/stories/788.dfl</url>
+      <place_recorded><id>824</id>Lin&#229;</place_recorded>
+      <places_mentioned>
+        <place><id>162</id>
+          <name>Flensted mark</name>
+        </place>
+        <place><id>330</id>
+          <name>Klanh&#248;je</name>
+        </place>
+        <place><id>505</id>
+          <name>Ry skov</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>790</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>382</informant_id>
+      <publication_info>DS_I_898</publication_info>
+      <full_name>382 - 0.00 - DS_I_898</full_name>
+      <url>data/stories/790.dfl</url>
+      <place_recorded><id>824</id>Lin&#229;</place_recorded>
+      <places_mentioned>
+        <place><id>527</id>
+          <name>Sjelle mark</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>791</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>382</informant_id>
+      <publication_info>DS_V_1545</publication_info>
+      <full_name>382 - 0.00 - DS_V_1545</full_name>
+      <url>data/stories/791.dfl</url>
+      <place_recorded><id>824</id>Lin&#229;</place_recorded>
+      <places_mentioned>
+        <place><id>412</id>
+          <name>Mollerup</name>
+        </place>
+        <place><id>531</id>
+          <name>Skanderborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>824</place_id>
+      <name>Lin&#229;</name>
+      <display_name>Lin&#229; (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>412</place_id>
+      <name>Mollerup</name>
+      <display_name>Mollerup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>531</place_id>
+      <name>Skanderborg</name>
+      <display_name>Skanderborg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>527</place_id>
+      <name>Sjelle mark</name>
+      <display_name>Sjelle mark (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>505</place_id>
+      <name>Ry skov</name>
+      <display_name>Ry skov (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>330</place_id>
+      <name>Klanh&#248;je</name>
+      <display_name>Klanh&#248;je (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>162</place_id>
+      <name>Flensted mark</name>
+      <display_name>Flensted mark (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

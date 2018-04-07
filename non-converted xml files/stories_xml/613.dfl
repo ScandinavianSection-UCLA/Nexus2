@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<story story_id="613">
+  <publication_info>DS_V_248</publication_info>
+  <full_name>366 - 0.00 - DS_V_248</full_name>
+  <informant_id>366</informant_id>
+  <informant_last_name>Glud</informant_last_name>
+  <informant_first_name>Katrine</informant_first_name>
+  <informant_full_name>Fr&#xF8;ken Katrine Glud</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>310</place_id>
+      <name>Jebj&#xE6;rg</name>
+      <display_name>Jebj&#xE6;rg (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>124</place_id>
+      <name>Drenderupg&#xE5;rd</name>
+      <display_name>Drenderupg&#xE5;rd (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>444</place_id>
+      <name>&#xD8;dis</name>
+      <display_name>&#xD8;dis (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="798">
+      <informant_id>65</informant_id>
+      <publication_info>DS_V_289</publication_info>
+      <full_name>65 - 0.00 - DS_V_289</full_name>
+      <url>data/stories/798.dfl</url>
+    </story>
+    <story story_id="557">
+      <informant_id>68</informant_id>
+      <publication_info>DS_V_513</publication_info>
+      <full_name>68 - 0.00 - DS_V_513</full_name>
+      <url>data/stories/557.dfl</url>
+    </story>
+    <story story_id="440">
+      <informant_id>529</informant_id>
+      <publication_info>DS_V_255</publication_info>
+      <full_name>529 - 0.00 - DS_V_255</full_name>
+      <url>data/stories/440.dfl</url>
+    </story>
+    <story story_id="611">
+      <informant_id>421</informant_id>
+      <publication_info>DS_VI_471</publication_info>
+      <full_name>421 - 0.00 - DS_VI_471</full_name>
+      <url>data/stories/611.dfl</url>
+    </story>
+    <story story_id="192">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_167</publication_info>
+      <full_name>241 - 4.20 - DS_VI_167</full_name>
+      <url>data/stories/192.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#xE5; Drenderupg&#xE0;rd, &#xD8;dis sogn, p&#xE5; den nordre ende af den &#xF6;stre ladel&#xE6;nge, er der et &#xE5;bent hul, hvor der intet tag kan holdes p&#xE5;. Det er ofte blevet t&#xE6;ttet, men det bliver &#xE5;bnet hver nat igjen. Der fort&#xE6;lles, at der ofte kommer en karet med 4 sorte heste for og kj&#xF8;rer op for d&#xF6;ren.</danish_publication>
+  <english_publication>At Drenderupg&#xE5;rd in &#xD8;dis parish, at the northern end of the eastern barn wing, there's an open hole that can't be covered by any roof. It has often been filled, but it gets opened up again every night. They say that a carriage with four black horses often drives up to the door.</english_publication>
+  <keywords>
+    <keyword id="72" frequency="1" keyword="barn">barn</keyword>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="181" frequency="1" keyword="carriage">carriage</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="369" frequency="1" keyword="east">east</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="1041" frequency="1" keyword="roof">roof</keyword>
+    <keyword id="1348" frequency="1" keyword="wing">wing</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

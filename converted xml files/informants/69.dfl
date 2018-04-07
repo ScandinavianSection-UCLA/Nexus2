@@ -1,0 +1,178 @@
+<informant><person_id>69</person_id>
+  <core_informant/>
+  <full_name>S&#248;ren Hansen</full_name>
+  <last_name>Hansen</last_name>
+  <first_name>S&#248;ren</first_name>
+  <gender>m</gender>
+  <birth_date>1809-11-03</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>33</occupation_id>husmand</occupation>
+    <occupation><occupation_id>80</occupation_id>tr&#230;skomand</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>820</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>69</informant_id>
+      <publication_info>DS_I_1033</publication_info>
+      <full_name>69 - 0.00 - DS_I_1033</full_name>
+      <url>data/stories/820.dfl</url>
+      <place_recorded><id>243</id>H&#229;rup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>821</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>69</informant_id>
+      <publication_info>DS_I_1413</publication_info>
+      <full_name>69 - 0.00 - DS_I_1413</full_name>
+      <url>data/stories/821.dfl</url>
+      <place_recorded><id>243</id>H&#229;rup</place_recorded>
+      <places_mentioned>
+        <place><id>511</id>
+          <name>Sale</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>822</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>69</informant_id>
+      <publication_info>DS_I_381</publication_info>
+      <full_name>69 - 0.00 - DS_I_381</full_name>
+      <url>data/stories/822.dfl</url>
+      <place_recorded><id>870</id>Skjolde</place_recorded>
+      <places_mentioned>
+        <place><id>60</id>
+          <name>Bjerre</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>823</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_A_149</publication_info>
+      <full_name>69 - 0.00 - DS_II_A_149</full_name>
+      <url>data/stories/823.dfl</url>
+      <place_recorded><id>243</id>H&#229;rup</place_recorded>
+      <places_mentioned>
+        <place><id>976</id>
+          <name>Laven</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>824</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_B_11</publication_info>
+      <full_name>69 - 0.00 - DS_II_B_11</full_name>
+      <url>data/stories/824.dfl</url>
+      <place_recorded><id>870</id>Skjolde</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>825</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_B_18</publication_info>
+      <full_name>69 - 0.00 - DS_II_B_18</full_name>
+      <url>data/stories/825.dfl</url>
+      <place_recorded><id>870</id>Skjolde</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>826</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_F_15</publication_info>
+      <full_name>69 - 0.00 - DS_II_F_15</full_name>
+      <url>data/stories/826.dfl</url>
+      <place_recorded><id>243</id>H&#229;rup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>827</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_G_89</publication_info>
+      <full_name>69 - 0.00 - DS_II_G_89</full_name>
+      <url>data/stories/827.dfl</url>
+      <place_recorded><id>870</id>Skjolde</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>828</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>69</informant_id>
+      <publication_info>DS_III_2412</publication_info>
+      <full_name>69 - 0.00 - DS_III_2412</full_name>
+      <url>data/stories/828.dfl</url>
+      <place_recorded><id>243</id>H&#229;rup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>829</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>69</informant_id>
+      <publication_info>DS_IV_1707</publication_info>
+      <full_name>69 - 0.00 - DS_IV_1707</full_name>
+      <url>data/stories/829.dfl</url>
+      <place_recorded><id>870</id>Skjolde</place_recorded>
+      <places_mentioned>
+        <place><id>977</id>
+          <name>Hjarn&#248;</name>
+        </place>
+        <place><id>473</id>
+          <name>R&#229;rup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>830</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>69</informant_id>
+      <publication_info>DS_V_129</publication_info>
+      <full_name>69 - 0.00 - DS_V_129</full_name>
+      <url>data/stories/830.dfl</url>
+      <place_recorded><id>870</id>Skjolde</place_recorded>
+      <places_mentioned>
+        <place><id>870</id>
+          <name>Skjolde</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>243</place_id>
+      <name>H&#229;rup</name>
+      <display_name>H&#229;rup (stories recorded here)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>870</place_id>
+      <name>Skjolde</name>
+      <display_name>Skjolde (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>473</place_id>
+      <name>R&#229;rup</name>
+      <display_name>R&#229;rup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>870</place_id>
+      <name>Skjolde</name>
+      <display_name>Skjolde (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>977</place_id>
+      <name>Hjarn&#248;</name>
+      <display_name>Hjarn&#248; (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>976</place_id>
+      <name>Laven</name>
+      <display_name>Laven (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>60</place_id>
+      <name>Bjerre</name>
+      <display_name>Bjerre (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>511</place_id>
+      <name>Sale</name>
+      <display_name>Sale (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<story story_id="146">
+  <publication_info>DS_VII_146</publication_info>
+  <full_name>241 - 1.05 - DS_VII_146</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>1.05</order_told>
+  <fieldtrip id="11">October 1893</fieldtrip>
+  <fieldtrip_start_date>1893-09-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1893-10-26</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>266</place_id>
+      <name>Hj&#xF8;rring</name>
+      <display_name>Hj&#xF8;rring (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>37</place_id>
+      <name>Astrup</name>
+      <display_name>Astrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="58">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_447</publication_info>
+      <full_name>150 - 2.11 - DS_VII_447</full_name>
+      <url>data/stories/58.dfl</url>
+    </story>
+    <story story_id="161">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_E_105</publication_info>
+      <full_name>241 - 2.11 - DSnr_II_E_105</full_name>
+      <url>data/stories/161.dfl</url>
+    </story>
+    <story story_id="200">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_V_889</publication_info>
+      <full_name>241 - 4.28 - DSnr_V_889</full_name>
+      <url>data/stories/200.dfl</url>
+    </story>
+    <story story_id="208">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_880</publication_info>
+      <full_name>241 - 4.36 - DSnr_IV_880</full_name>
+      <url>data/stories/208.dfl</url>
+    </story>
+    <story story_id="456">
+      <informant_id>556</informant_id>
+      <publication_info>DS_VII_143</publication_info>
+      <full_name>556 - 0.00 - DS_VII_143</full_name>
+      <url>data/stories/456.dfl</url>
+    </story>
+    <story story_id="619">
+      <informant_id>422</informant_id>
+      <publication_info>DS_VII_106</publication_info>
+      <full_name>422 - 0.00 - DS_VII_106</full_name>
+      <url>data/stories/619.dfl</url>
+    </story>
+    <story story_id="621">
+      <informant_id>400</informant_id>
+      <publication_info>DS_IV_1161</publication_info>
+      <full_name>400 - 0.00 - DS_IV_1161</full_name>
+      <url>data/stories/621.dfl</url>
+    </story>
+    <story story_id="633">
+      <informant_id>217</informant_id>
+      <publication_info>DS_VII_144</publication_info>
+      <full_name>217 - 0.00 - DS_VII_144</full_name>
+      <url>data/stories/633.dfl</url>
+    </story>
+    <story story_id="18">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_139</publication_info>
+      <full_name>150 - 1.15 - DS_VI_139</full_name>
+      <url>data/stories/18.dfl</url>
+    </story>
+    <story story_id="411">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VI_98</publication_info>
+      <full_name>123 - 3.08 - DS_VI_98</full_name>
+      <url>data/stories/411.dfl</url>
+    </story>
+    <story story_id="752">
+      <informant_id>550</informant_id>
+      <publication_info>DS_VII_141</publication_info>
+      <full_name>550 - 0.00 - DS_VII_141</full_name>
+      <url>data/stories/752.dfl</url>
+    </story>
+    <story story_id="769">
+      <informant_id>333</informant_id>
+      <publication_info>DS_VII_145</publication_info>
+      <full_name>333 - 0.00 - DS_VII_145</full_name>
+      <url>data/stories/769.dfl</url>
+    </story>
+    <story story_id="659">
+      <informant_id>355</informant_id>
+      <publication_info>DS_VII_149</publication_info>
+      <full_name>355 - 0.00 - DS_VII_149</full_name>
+      <url>data/stories/659.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6192b</fielddiary_page_start>
+  <fielddiary_page_end>6193a</fielddiary_page_end>
+  <bibliographic_info>Tangherlini 2000
+Alver 1971
+Henningsen 1975
+Johansen 1991
+Woods 1959
+Valk 2001</bibliographic_info>
+  <bibliography_references>
+    <reference id="487" category="general">
+      <display_string>[Article] Tangherlini, Timothy R. 2000. "How do you know she's a witch"? : Witches, cunning folk, and competition in Denmark. Vol. 59 of &lt;i&gt;Western Folklore&lt;/i&gt; 3-4: 279-303.</display_string>
+    </reference>
+    <reference id="159" category="general">
+      <display_string>[Book] Alver, Bente Gullveig. 1971. &lt;i&gt;Heksetro og trolddom. Et studie i norsk heksev&#xE6;sen&lt;/i&gt;. Oslo: Universitetsforlaget.</display_string>
+    </reference>
+    <reference id="373" category="general">
+      <display_string>[Article] Henningsen, Gustav. 1975. Hekseforf&#xF8;lgelse efter 'hekseprocessernes tid.' Et bidrag til dansk etnohistorie. &lt;i&gt;Folk og Kultur&lt;/i&gt;, 98-151.</display_string>
+    </reference>
+    <reference id="735" category="general">
+      <display_string>[Book] Johansen, Jens Christian V. 1991. &lt;i&gt;Da dj&#xE6;velen var ude... Trolddom i det 17. &#xE5;rhundredes Danmark (Odense University studies in history and social sciences)&lt;/i&gt;. Odense: Odense Universitetsforlag.</display_string>
+    </reference>
+    <reference id="155" category="general">
+      <display_string>[Book] Woods, Barbara Allen. 1959. &lt;i&gt;The Devil in dog form. A partial type-index of Devil legends (Folklore studies)&lt;/i&gt;. Berkeley: University of California Press.</display_string>
+    </reference>
+    <reference id="437" category="general">
+      <display_string>[Book] Valk, &#xDC;lo. 2001. &lt;i&gt;The black gentleman : manifestations of the Devil in Estonian folk religion (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The accusation of witchcraft in this story aims at the highest levels of local society, and Jens Peter no doubt takes pleasure in the humiliation associated with the revelation of the innkeeper's wife as a witch. Skytte-Kr&#xE6;n [Hunter Christian] is likely of much humbler origins than the merchant and innkeeper. He is quite possibly a cunning man, given both his nickname and the role he plays in this story (DS VII 144).
+
+    In related stories, manor lords are accused of having a pact with Satan (BJK 1.15; PJ 3.08).  There are also many stories in which the minister's wife's is revealed to be a witch (DS VII 149). In all these cases, the goal is to link the economically well-off or the politically powerful with the devil and, in so doing, undermine the legitimacy of their social and economic standing.
+
+     The accusation of witchcraft lost most legal power by the nineteenth century. By 1866 it was no longer possible to try someone in court for witchcraft (Johansen 1991, 25; Tangherlini 2000). The standard for proving an accusation of witchcraft was generally quite high, even during the seventeenth century when witchcraft trials were at a peak (Tangherlini 2000; Johansen 1991; Henningsen 1975). Changing shape from dog to human and back would likely have reached that standard. The black dog is a common shape for the devil and, given the close connection between the devil and witches, it is not hard to imagine a witch in dog form (Woods 1959; Valk 2001). Kristen Nielsen from Mosehuse, for example, also tells a variant in which the witch appears as a dog (DS VII 144). Otherwise, common animal shapes for the witch to assume are cats and hares (DS VII 141 and 145).
+
+     The power of naming as a form of control over the supernatural is a widely attested belief. Naming the witch is closely linked to other stories in which the witch's identity is brought to light (DS VII 149). In numerous other stories, naming the witch leads to the same type of transformation found in this story. </annotation>
+  <danish_manuscript>Der var en Mand i Hj&#xF8;rring der var Kj&#xF8;b-
+mand og gj&#xE6;stgiver og hed Niels L&#xF8;t. 
+Hans Kone hu hed Karen og en Mand i
+Astrup, den gamle Skytte-Kr&#xE6;n havde
+beskyldt hende for en Hegs. S. st&#xE6;vner
+Niels L&#xF8;t ham, h. skulde bevise, at Ko-
+nen var en Hegs og de kom i Retten
+med hverandre. S. var der en stor sort
+Hund der fulgte med N. L. i Retten.
+S. sp. de Skytte-Kr. st&#xE6;rkt til om h.
+kunde bevise, at dh. var en Hegs.
+S. [svarte Sk.] vender Sk. sig til dh
+Hund: Stat op Karen og svar til det
+S. stod hu splittern&#xF8;gen i Retsalen ved
+
+6193A
+dem. S. sled ha sig i hans Chenille,
+som h. var i oven over hans Frakke og
+hytt oven over hans Kone.</danish_manuscript>
+  <english_manuscript>There was a man in Hj&#xF8;rring, he was a merchant and an innkeeper and he was called Niels L&#xF8;t. His wife she was called Karen and a man in Astrup, the old Skytte-Kr&#xE6;n had accused her of being a witch. Then Niels L&#xF8;t summoned him, he had to prove that the woman was a witch and they went to court. Then there was a big black dog that followed Niels L&#xF8;t to the court. They questioned Skytte-Kr&#xE6;n hard if he could prove that she was a witch. Then he turns to this black dog and says, "Stand up, Karen, and answer that." Then she stood there buck-naked in the middle of the courtroom with them. The man took off his chenille which he had on over his jacket and put it over his wife.</english_manuscript>
+  <danish_publication>Der var en mand i Hj&#xF6;rring, han var kj&#xF6;bmand og gj&#xE6;st-giver og hed Niels L&#xF8;t, hans kone hun hed Karen. S&#xE5; havde den gamle Skytte-Kr&#xE6;n i Astrup beskyldt hende for at v&#xE6;re en heks, og Niels L&#xF8;t st&#xE6;vner ham da, han skal bevise, hvad han havde sagt. De kom s&#xE5; i retten med hverandre. S&#xE5; var der en stor sort hund, der fulgte med Niels L&#xF8;t i retten. De sp&#xF6;rger Skytte-Kr&#xE6;n st&#xE6;rkt til, om han kan bevise, at hun er en heks. S&#xE5; vender han sig til denher hund og siger: "Stat op, Karen, og svar til det." Da stod hun splittern&#xF8;gen i retssalen ved dem. Manden sled sig af hans chenille, som han var i oven hans frakke, og hyt den oven over hans kone.</danish_publication>
+  <english_publication>There was a man in Hj&#xF8;rring, he was a merchant and an innkeeper and he was called Niels L&#xF8;t and his wife, she was called Karen. Then the old Skytte-Kr&#xE6;n from Astrup had accused her of being a witch and Niels L&#xF8;t summons him then, he had to prove what he said. They went to court. Then there was a big black dog that followed Niels L&#xF8;t to the court. They ask Skytte-Kr&#xE6;n if he can prove that she&#x2019;s a witch. Then he turns to this black dog and says, &#x201C;Stand up, Karen, and answer that.&#x201D; Then she stood there buck-naked in the middle of the courtroom with them. The man took off his chenille which he had on over his jacket and put it over his wife.</english_publication>
+  <keywords>
+    <keyword id="8" frequency="1" keyword="accused">accused</keyword>
+    <keyword id="106" frequency="2" keyword="black">black</keyword>
+    <keyword id="271" frequency="3" keyword="court">court</keyword>
+    <keyword id="343" frequency="2" keyword="dog">dog</keyword>
+    <keyword id="561" frequency="1" keyword="inn_keeper">inn keeper</keyword>
+    <keyword id="612" frequency="2" keyword="karen">Karen</keyword>
+    <keyword id="767" frequency="1" keyword="merchant">merchant</keyword>
+    <keyword id="821" frequency="1" keyword="naked">naked</keyword>
+    <keyword id="842" frequency="3" keyword="niels_l&#xF8;t">Niels L&#xF8;t</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1138" frequency="2" keyword="skytte_kr&#xE6;n">Skytte Kr&#xE6;n</keyword>
+    <keyword id="1216" frequency="1" keyword="summons">summons</keyword>
+    <keyword id="1343" frequency="2" keyword="wife">wife</keyword>
+    <keyword id="1351" frequency="2" keyword="witch">witch</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="33" display_name="Places: Inn"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="94" display_name="Actions or events: Oath"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

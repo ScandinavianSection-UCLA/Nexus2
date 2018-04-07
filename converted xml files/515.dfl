@@ -1,0 +1,66 @@
+<story><story_id>515</story_id>
+  <publication_info>DS_V_234</publication_info>
+  <full_name>429 - 0.00 - DS_V_234</full_name>
+  <informant_id>429</informant_id>
+  <informant_last_name>Knudsen</informant_last_name>
+  <informant_first_name>Frederik</informant_first_name>
+  <informant_full_name>Frederik Knudsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>738</place_id>
+      <name>Agerskov, Bording</name>
+      <display_name>Agerskov, Bording (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>351</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_H_34</publication_info>
+      <full_name>90 - 2.19 - DS_II_H_34</full_name>
+      <url>data/stories/351.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Min husbond fortalte mig en gang f&#248;lgende: I min ungdomsdage var jeg en sommernat ude at spasere med en pige i skoven. Med et s&#229; jeg et stykke foran mig, at der kom en ridende mand med en hest ved h&#229;nden, og han kom hen imod mig. Jeg tr&#229;dte til siden med pigen ind imellem nogle tr&#230;er og blev st&#229;ende der, mens han red forbi med de to heste. Skj&#246;nt det var blikstille, var der dog ikke tale om, at jeg kunde h&#248;re den mindste lyd af hestenes hovslag p&#229; jorden, al ting skred ganske lydl&#248;st forbi os, og jeg troede virkelig, at det var et gjenf&#230;rd.</danish_publication>
+  <english_publication>My master once told me the following: In my youth I was out one summer night walking with a girl out in the woods. All at once I saw a little ways ahead of me that a man was riding a horse and had the reins of another in his hands and he was coming towards me. I stepped aside with the girl in between some trees and stood there while he rode past with the two horses. Even though it was totally quiet, I could not hear the slightest sound of the horses&#8217; hoof beats on the ground, everything glided silently past us, and I truly believe it was a revenant.</english_publication>
+  <keywords>
+    <keyword><id>87</id><frequency>1</frequency><keyword>belief</keyword>belief</keyword>
+    <keyword><id>467</id><frequency>2</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>545</id><frequency>3</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>757</id><frequency>1</frequency><keyword>master</keyword>master</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1023</id><frequency>1</frequency><keyword>reins</keyword>reins</keyword>
+    <keyword><id>1027</id><frequency>1</frequency><keyword>revenant</keyword>revenant</keyword>
+    <keyword><id>1030</id><frequency>2</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1165</id><frequency>1</frequency><keyword>sounds</keyword>sounds</keyword>
+    <keyword><id>1215</id><frequency>1</frequency><keyword>summer</keyword>summer</keyword>
+    <keyword><id>1281</id><frequency>1</frequency><keyword>tree</keyword>tree</keyword>
+    <keyword><id>1360</id><frequency>1</frequency><keyword>woods</keyword>woods</keyword>
+    <keyword><id>1375</id><frequency>1</frequency><keyword>youth</keyword>youth</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>115</id><display_name>Time, Season, Weather: Summer</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

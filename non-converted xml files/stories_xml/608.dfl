@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<story story_id="608">
+  <publication_info>DS_II_A_91</publication_info>
+  <full_name>352 - 0.00 - DS_II_A_91</full_name>
+  <informant_id>352</informant_id>
+  <informant_last_name>Dalin</informant_last_name>
+  <informant_first_name>K. P.</informant_first_name>
+  <informant_full_name>K. P. Dalin</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>740</place_id>
+      <name>&#xC5;le</name>
+      <display_name>&#xC5;le (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>22</place_id>
+      <name>Alken</name>
+      <display_name>Alken (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>531</place_id>
+      <name>Skanderborg</name>
+      <display_name>Skanderborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="385">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_767</publication_info>
+      <full_name>123 - 2.11 - DS_I_767</full_name>
+      <url>data/stories/385.dfl</url>
+    </story>
+    <story story_id="843">
+      <informant_id>379</informant_id>
+      <publication_info>DS_II_A_76</publication_info>
+      <full_name>379 - 0.00 - DS_II_A_76</full_name>
+      <url>data/stories/843.dfl</url>
+    </story>
+    <story story_id="262">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_99</publication_info>
+      <full_name>235 - 1.42 - DS_II_A_99</full_name>
+      <url>data/stories/262.dfl</url>
+    </story>
+    <story story_id="347">
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_A_98</publication_info>
+      <full_name>90 - 2.15 - DS_II_A_98</full_name>
+      <url>data/stories/347.dfl</url>
+    </story>
+    <story story_id="281">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_100</publication_info>
+      <full_name>235 - 1.60 - DS_II_A_100</full_name>
+      <url>data/stories/281.dfl</url>
+    </story>
+    <story story_id="571">
+      <informant_id>240</informant_id>
+      <publication_info>DS_II_A_95</publication_info>
+      <full_name>240 - 0.00 - DS_II_A_95</full_name>
+      <url>data/stories/571.dfl</url>
+    </story>
+    <story story_id="572">
+      <informant_id>240</informant_id>
+      <publication_info>DS_II_A_96</publication_info>
+      <full_name>240 - 0.00 - DS_II_A_96</full_name>
+      <url>data/stories/572.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#xE5; Alken mark i Skanderborg-egnen ligger Dakbj&#xE6;rg, der m&#xE5;ler omtrent tyve fod fra grundfladen til toppen. Her boede for nogle &#xE5;r siden en del ellefolk. Hver aften, n&#xE5;r solen var g&#xE5;et ned, blev h&#xF6;jen lettet og sat p&#xE5; store sten, og s&#xE5; dandsede de. Folk, som kom forbi, kunde godt se dem, men de fik dem kun at se forfra, hvor de s&#xE5; meget kj&#xF6;nne ud. En hyrdedreng fra Alken, som havde v&#xE6;ret ude at s&#xE6;tte kv&#xE6;get til nat, kom p&#xE5; hjemvejen der forbi. Han blev st&#xE5;ende for at se p&#xE5; dandsen. Lidt efter kom en ellepige hen og b&#xF8;d ham op til dands og han gik med hende uden at t&#xE6;nke p&#xE5; noget. N&#xE6;ste morgen gik nogle folk forbi h&#xF6;jen, og de fandt hans lig, han var dandset ihjel af ellepigen.</danish_publication>
+  <english_publication>On Alken field in Skanderborg lies Dakbj&#xE6;rg, which measures about twenty meters from the ground to the top. Several years ago, a group of elves lived there. Every night, when the sun had set, the mound was raised and put on large stones and then they danced. People who passed by could see them well enough, but they only got to see them from the front, where they looked quite nice. A shepherd from Alken who had been out putting the sheep down for the night, came by on his way home. He stopped to watch the dance. A little later an elf girl came and asked him to the dance and he went with her without thinking anything about it. The next morning some people passed by the mound and they found his body, he&#x2019;d been danced to death by the elf girl.</english_publication>
+  <keywords>
+    <keyword id="118" frequency="1" keyword="body">body</keyword>
+    <keyword id="297" frequency="4" keyword="dancing">dancing</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="373" frequency="3" keyword="elf">elf</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="1095" frequency="1" keyword="sheep">sheep</keyword>
+    <keyword id="1099" frequency="1" keyword="shepherd">shepherd</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1217" frequency="1" keyword="sun">sun</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="77" display_name="Animals: Sheep"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

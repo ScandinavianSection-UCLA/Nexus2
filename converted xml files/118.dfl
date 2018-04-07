@@ -1,0 +1,56 @@
+<story><story_id>118</story_id>
+  <publication_info>Unpub_BJK_407</publication_info>
+  <full_name>150 - 4.07 - Unpub_BJK_407</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.07</order_told>
+  <fieldtrip><id>5</id>June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>41</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_1248</publication_info>
+      <full_name>150 - 1.38 - DS_VI_1248</full_name>
+      <url>data/stories/41.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4592b (2)</fielddiary_page_start>
+  <fielddiary_page_end>4592b (2)</fielddiary_page_end>
+  <bibliographic_info>Sydow 1948.</bibliographic_info>
+  <bibliography_references>
+    <reference><id>148</id><category>general</category>
+      <display_string>[Book] Sydow, Carl Wilhelm von. 1948. &lt;i&gt;Selected papers on folklore&lt;/i&gt;. Copenhagen: Rosenkilde og Bagger.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>There are numerous beliefs concerning the first sheaf attested throughout Scandinavia. Some of the rituals associated with harvest and the first sheaf can be quite elaborate. Jens's short statement reveals the danger that mice posed to the grain that would be stored during the winter.</annotation>
+  <danish_manuscript>Af de f&#248;rste Nej de fik ud om H&#248;sten skulde Roden f&#248;rst ind, saa gjorde Musene ikke Skade.</danish_manuscript>
+  <english_manuscript>The first sheaf that they got during the harvest, they were supposed to bring them in roots first, then the mice wouldn't do any damage.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: The first sheaf that they got during the harvest, they were supposed to bring them in roots first, then the mice wouldn&#8217;t do any damage.</english_publication>
+  <keywords>
+    <keyword><id>504</id><frequency>1</frequency><keyword>harvest</keyword>harvest</keyword>
+    <keyword><id>773</id><frequency>1</frequency><keyword>mice</keyword>mice</keyword>
+    <keyword><id>1043</id><frequency>1</frequency><keyword>root</keyword>root</keyword>
+    <keyword><id>1094</id><frequency>1</frequency><keyword>sheaf</keyword>sheaf</keyword>
+  </keywords>
+  <etk_index><id>44</id>
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+    <tango_index><id>136</id><display_name>Animals: Wild</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

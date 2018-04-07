@@ -1,0 +1,601 @@
+<?xml version="1.0"?>
+<story story_id="401">
+  <publication_info>JFm_XIII_36</publication_info>
+  <full_name>123 - 2.27 - JFm_XIII_36</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.27</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>8</place_id>
+      <name>Aarhus</name>
+      <display_name>Aarhus (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>122</place_id>
+      <name>Dover kirke</name>
+      <display_name>Dover kirke (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>253</place_id>
+      <name>Hemstok</name>
+      <display_name>Hemstok (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>480</place_id>
+      <name>Ravns&#xF8;</name>
+      <display_name>Ravns&#xF8; (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>531</place_id>
+      <name>Skanderborg</name>
+      <display_name>Skanderborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="400">
+      <informant_id>123</informant_id>
+      <publication_info>JAH_III_456</publication_info>
+      <full_name>123 - 2.26 - JAH_III_456</full_name>
+      <url>data/stories/400.dfl</url>
+    </story>
+    <story story_id="421">
+      <informant_id>123</informant_id>
+      <publication_info>JAH_II_413</publication_info>
+      <full_name>123 - 3.18 - JAH_II_413</full_name>
+      <url>data/stories/421.dfl</url>
+    </story>
+    <story story_id="432">
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XIII_38</publication_info>
+      <full_name>123 - 4.04 - JFm_XIII_38</full_name>
+      <url>data/stories/432.dfl</url>
+    </story>
+    <story story_id="433">
+      <informant_id>123</informant_id>
+      <publication_info>DSnr_IV_657</publication_info>
+      <full_name>123 - 4.05 - DSnr_IV_657</full_name>
+      <url>data/stories/433.dfl</url>
+    </story>
+    <story story_id="373">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1517</publication_info>
+      <full_name>123 - 1.01 - DS_IV_1517</full_name>
+      <url>data/stories/373.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3781b</fielddiary_page_start>
+  <fielddiary_page_end>3786b</fielddiary_page_end>
+  <bibliographic_info>Feilberg 3, 273</bibliographic_info>
+  <bibliography_references>
+    <reference id="181" category="general">
+      <display_string>[Book] Feilberg, Henning F. 1977. &lt;i&gt;Bidrag til en ordbog over jyske almuesm&#xE5;l&lt;/i&gt;. Copenhagen: Dansk Historisk H&#xE5;ndbogsforlag.</display_string>
+    </reference>
+    <reference id="920" category="general">
+      <display_string>[Book section] Tangherlini, Timothy R. 2012. 'To market! To market!': Markets and the M&#xE4;rchen in Nineteenth Century Denmark. In Vol. 1 of &lt;i&gt;News from Other Worlds: Studies in Nordic Folklore, Mythology, and Culture&lt;/i&gt;: 267-289. Berkeley: North Pinehurst Press.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>One of Peder's most elaborate stories, this fictional tale focuses on a young man whose quick thinking and ability to keep his cool--character traits that Peder clearly valued--allow him to lead a more prosperous life. 
+
+    The sale of goods on the way to market was forbidden, and the initial side agreement that Jens makes with the Hemstok men clearly falls outside of the law (Tangherlini 2012). This early transgression enables the rest of the story which relies entirely on the sale of goods that are not even remotely what they appear to be. 
+
+    The overtly destructive nature of Jens's tricks resonates with Peder's first story, in which the farmhand kills the grandmother at the neighboring farm (PJ 1.01). The order of the ruses seems a bit confused since it does not progress in a manner of increasing harm. The men's deaths, by contrast, fittingly comes at the end of the story. The seeming disarray in the order of events is underscored by Peder's addition, after the end of the tale, of an episode in which Jens sells the men a fox to stay with their geese.  This addition is noted in expanded form in the fair copy of the tale.
+
+    The Poles alluded to in the story were in Denmark during the war with Sweden, 1657-1659. The reference here to the Poles suggests that the story is understood to have taken place a long time ago--essentially "once upon a time."
+
+    The story is indexed in the folk tale fair copy collection as &#xC6;v 1296 where it is given the title "Skj&#xE6;lmen og Narrene" [The Rogue and the Fools]. See also Registranterne til S. Grundtvigs samling af h&#xE5;ndskrevn danske folke&#xE6;ventyr, nr. 108 (Feilberg 3, 273). Although it appears in the table of contents of JFm XIII as story 37, it appears in the actual published collection as story 36, as the stories "Pisk i Asken," and "Guldkoen" are both numbered as story 27 in the published collection. It is a variant of ATU 1539, "Cleverness and Gullibility".</annotation>
+  <danish_manuscript>Der ude paa Dover Hede laa et bitte Hus,
+i det var ikke andre end en gl. Kone og hendes
+S&#xF8;n. S. en Dag som Konen var ned at v&#xE6;ve
+s. havde hu faaet et sk&#xF8;nt stykke Vadmel lavet
+og s. s. hun til Kn&#xE6;gten. H&#xF8;r Jens nu kan du
+tage det St. Vadmel og gaa til Aarhus med
+det kan ikke hj&#xE6;lpe du gaar til Skanderb. der
+kan du ikke blive af med det og s. kan du
+s&#xE6;lge det, men have 1 M for Al. Men lad 
+mig nu se, du b&#xE6;rer dig lidt ordentlig ad.
+Ja det skal a nok siger h. og h. tager T&#xF8;jet
+og gik med. S. gik h. om ad Hemstok og der
+staar de Hemst. M&#xE6;nd uden for og staar og
+sn. Hvor skal du hen med det du farer s.
+st&#xE6;rk. Ja a skal til A. med det St. T. for
+min M. N. det skal du, hvad skal det da
+koste.... 1 M. Ja s. er det da ikke v&#xE6;rd du
+gaar l&#xE6;ngere, s. vil vi tage det, du skal ikke
+gaa til A. for den Sags skyld. Det var Kn.
+s. meget glad til og h. faar hans M. og de faar
+V. og h. gik hjem til hans M. med det. N. s. 
+hu s. da hun fik det at h&#xF8;re, du har saadan
+baaret dig ad bitte J. .  Ja a tvivlte nok paa
+det. S. er der ikke noget mere ved det at gj&#xF8;re
+for kjender a de H. M. rigtig s. holder de nok
+ved det, de faar fat i. S. en Dags Tid efter hav-
+de hu v&#xE6;ret ud at kj&#xE6;rne. Se her har du nu dh.
+
+3782A
+Sm&#xF8;r og dh. Kj&#xE6;rnem&#xE6;lk, det maa helst bli-
+ve samme i Kj. det hele og s. maa du helst
+faa det paa din Ryg. Men s. skal du ikke gaa
+den Vej, du skal gaa over til Polakkerne
+det var i den Tid de huserede her og de
+havde deres Baase i den By der hedder
+Boes, deraf har den sit Navn. Der kunde
+de overse hele Landet og ingen kunde kom-
+me til dem uden fra en Side, de andre
+var omfl&#xF8;dt med Vand og det ligger s. h&#xF8;jt.
+Men de skulde jo have noget at leve af og 
+det gjorde Konen Regning paa. Men lad mig
+nu endeligen se bitte J. te de narrer dig
+ikke. Nej. Dg. skal de mins&#xE6;l ikke komme
+til at narre mig mere end dh. Halmstraa
+s. h. Kn. og s. bukker h. sig ned og vil tage
+med Halmstr. men tager sig ikke vare for
+at Kj og Sm. gik ud over Hovedet paa
+ham. Ja det er jo bedr&#xF8;veligt siger Mod. 
+med saadan et Knuphoved.  Jaja s. h. Kn.
+I er ogsaa s. hidsig. Men lad mig nu faa
+tid til at bet&#xE6;nke mig, s. skal a missel
+nok faa dem pudset der oppe. S. gik J. jo
+og spekul. i nogle Dage og h. s&#xF8;rgede jo for
+at faa et St. L&#xE6;rred hu flyede ham en 
+Markedsdag og h. gik ud til Skand. med det.
+Faar jo at se at de der H. M. var der nede og
+
+3782B
+saa og J. faar hans L&#xE6;red solgt og faar lidt
+Mynt paa Lommen og s. gaar h. ind til 3
+V&#xE6;rter og s&#xE6;tter dem lidt ind i Sagerne, hvor
+dan h vilde betale de 2 M&#xE6;nd. S. gaar h. 
+ud igien og leder de 2 M. op. og byder dem ind
+paa en Gjenstand. og de tykte jo det var ikke
+v&#xE6;rd du spenderer noget paa os Jens.
+Ja a kan vel handle med jer en anden G. 
+og h. brystede sig noget. Jaja s. den 1 M.
+lad os se ad. Hej V&#xE6;rt lad os faa et
+Krus Polak, en Drik der noget alm.
+den G. halvt Br. og halvt Mj&#xF8;d. V&#xE6;rten
+kommer straks spr. med det og dg. de var f&#xE6;r-
+dige, s. tog Jens hans H. af det var saadan
+en gl. buleret en og s&#xE6;tter paa hans Kj&#xE6;p
+og giver den et Sno og s. Hat det er jo be-
+talt. A takker s. V. det passer. Det
+var en grum Hat s. de M. kan du gj&#xF8;re
+det en G. til. Ja vi kan jo pr&#xF8;ve ad, De
+gik ind et andet Sted. Ja nu vil a missel
+pr&#xF8;ve den, s. den 1 af M. Jo det paste
+godt nok. H. den betalte. Ja s. den 2 M.
+nu har du pr&#xF8;vet den, da vil a ogsaa pr&#xF8;ve
+Det gik kort at fort&#xE6;lle ogsaa saadan det 3
+Sted. Da de kom ud s. de. H&#xF8;r Jens, den
+Hat har du egentlig ingen Brug for, du
+kommer ikke ud som os og giver ikke mange
+Lidkj&#xF8;b, den overlade os. Det vilde J. ikke
+
+3783A
+h&#xF8;re om. Endelig faar de ham overtalt til
+at s&#xE6;lge Hat. for en 50 Rdl. og s. mente
+J. endda h. havde givet dem den. Det tykte
+de endelig ogsaa. Da J. fik Pengene str&#xF8;j
+han af hjem. De sagde. Vi vil have lidt
+mere Forn&#xF8;jelse af den Hattekomedie. De
+gaar hen og faar en M. med og til en V&#xE6;rt
+kr&#xE6;ver dygtig ind. F&#xE6;rdig, tager 1 M. Hatten
+og giver den et v&#xE6;ldigt Sno ret te den spillede
+Hat det er jo betalt. Nej holdt god Karl
+s. V. her gaar det ikke til med Hundkun-
+ster. Hvad, er det ikke betalt. Nej. I
+maa op med Pengene og de maatte jo be-
+tale. S. s. 2. M. Jamen det var ogsaa den
+fejle Side du Snoede til, lad mig nu pr&#xF8;ve
+den. Gaar ind paa et 2 V&#xE6;rtshus. Der red-
+dede de dem en god Dragt Kl&#xF8; og s. kunde
+de gaa hjem. &#xC6;rgerlig var de og s. s. 1 M.
+Vi skal lige godt have ham af med de Penge
+for vi kan nok magte ham begge to. Hen
+paa anden Dags Aften tridser de om i He-
+den til ham. J. sidder ud paa Vinduet.
+Nu kommer de H. M. og de har ikke godt i Sin-
+de, men a vil lige godt pr&#xF8;ve om a 
+kan ikke narre dem nok en G. og s. gav
+h. M. lidt Underretning om hvordan [de] hu skulde
+forholde sig, naar de kom. M&#xE6;nd de kommer
+
+3783B
+ind og hilser godaft. Folk. b&#xF8;d den jo fra
+D&#xF8;ren at sidde ned, de kommer jo til at sn.
+med ham om den Handel og den var ikke s.
+rele, men H. lod nej, de havde jo set paa
+Varerne, og h. kunde ikke gj&#xF8;re for, te de
+havde ikke det rigtige Haandelag. Som de
+nu sidder og sn. frem og tilbage, da sidder
+Kon. og sp. og nikker lidt ved Rok og til
+sidst falder hu helt i S&#xF8;vn. Ja s. J. da
+skal a lige godt se, om a kan ikke faa lidt
+Arbejdslyst i dig. Tager en stor Kj&#xE6;p der
+stod i Nabolaget ved ham og tr&#xE6;kker hende
+jo en alvorlig en over Nak. det gl. Skind
+og hu v&#xE6;lter af Stolen og bliver ligg. Ja
+da er du og en farlig Kn&#xE6;gt, slaar du og
+din egen Moder ihjel. Aa det har nok
+ingen Fare s. J. og rumster lidt ved hende
+Ja hun er sku vis over det. Men det er
+der ingen Fare for og h. r&#xE6;kker op paa en
+Hylder og tager en Fl&#xF8;jte der laa og den
+s&#xE6;tter h. om i hendes Nakke og giver sig
+til at bl&#xE6;se. Op spr. hu Kj lige paa en
+Studs og s. Aa da dr&#xF8;mte a da godt.
+og hu s&#xE6;tter sig da til at spinde som om
+ingen Ting var forefaldt lige til det knase
+de i Rokkev&#xE6;rket. Ja M&#xE6;ndene de kig
+jo lidt paa dh. Ja ved du hvad J. naar
+
+3784A
+du vil give os den Fl&#xF8;jte, s. skal det hele
+v&#xE6;re glemt med den Hattekom. for den
+Fl&#xF8;jte kunde de bruge, deres Kvindfolk var
+slem s&#xF8;vnige af dem. N. de fik jo Fl.
+og de gik nok s. glad og vel forn&#xF8;jet hjem
+S. s. den M. i den vester Gaard, Ja nu vil
+a missel pr&#xF8;ve Fl. f&#xF8;rst, du pr&#xF8;vede H.
+f&#xF8;rst og dg. er det da ingen Snyderi, for
+Kj. hu var d&#xF8;d. Og h. sidder jo om 2 Dags
+Aft. inde med hans Kvindfolk og venter jo
+s. haardt paa at den ene af dem skulde
+falde i S&#xF8;vn, at ha kunde kom til at 
+pr&#xF8;ve dh. Indretn. Nu var det jo baade
+saa og da, for det var nogle satans sikre
+Kvindfolk, s. hvis de ikke fik det lidt godt
+s. kunde M. risiker at faa det bag efter.
+Skal der slaaes, s. skal der slaaes til, for
+hellers gaar det ikke. S. omsider falder da
+Kon. f&#xF8;rst i S&#xF8;vn og sov baade trygt og fast.
+S. havde h. sat en tyk kj&#xE6;p i en Krog til
+det Brug, den tr&#xE6;kker h. frem og s. giver h.
+hende en lige ind i Planeten og hu v&#xE6;lter
+jo om s. d&#xF8;d som en Sild. Men hvad gj&#xF8;r
+du nu, slaar du nu din egen Kone ihjel da
+er du et forvovent Mske. Aa det har
+ingen Fare, a skal nok faa hende vaagen,
+I skal ikke klage jer, og h. tager i Fl&#xF8;jten
+
+3784B
+og pib i Nak. paa hende, s. Vandet kom ud
+af begge hans &#xD8;jne, men lige meget hjalp
+det. S. s. h. til de andre: Nu maa I ende
+lig tie stille med det, for den 2 skal mis-
+sel pr&#xF8;ve det ogsaa, a vil ikke v&#xE6;re ene om
+Skaden, og kort at fort. det gik 2 akku-
+rat lige saadan. Nu fik de jo travlt
+i nogle Dage med at faa deres Koner be
+gravet og s. havde J. jo da Fred i den Tid.
+I melder goddag var nogle Tatere dreven om
+kring og havde haft Losi ved Jens og de
+havde et udenlands Dyr med dem og det
+havde de ladt blive med J. en Ulv og h.
+vidste aldrig hvad h. skulde gj&#xF8;re ved det
+Kreatur. S. omsider kommer M. ned til
+ham en Dag og beg. at skylde ham for at
+h. havde slaaet deres Koner ihjel og alt
+deth. S. s. h. til dem. Ja a har jo ingen
+Skyld i det, for I saa jo hvordan a bar
+mig ad, og I har slaaet fejl. Men a har
+faaet en V&#xE6;dder her, den vil a give jer for
+at vi kan blive ved at holde Venskab
+A tykker h. ser mig s. strag ud i Tovet,
+s. den 1 Mand. Ja det er h ogsaa mente J.
+men det er af en udenlandske Race og h. er
+frisk og sund og hvor h. kommer i en Flok Faar
+der kommer ingen Sygen imeld Faarene.
+
+3785A
+I de Tider havde de s. ondt ved at holde
+Liv i deres Faar, for der var Sygen imeld
+dem. Og s. er der endelig en Ting til og det
+er det, at h er s. god til at passe paa Lam
+me. R&#xE6;vene kan ingen Lam tage. S. tykte
+de endelig ogsaa: Lad os tage ham, noget
+er bedre end intet og V. fik de og tr&#xE6;kk. hjem
+med ham. De havde deres Faarehold neden
+for Gaardene og det var lagt til med Sne,
+s. de drev alle Faarene ind i en Fold alle-
+sammen, for de drev sam. altid. S. s. de
+til deres Folk, nu skal I ikke se til dem
+den f&#xF8;rste Dags Tid, h. skal have Tid til
+at blive kjendt med dem, ellers vil h.
+rende hen. N. Enden af Visen blev, at
+Ulven bed en Del af Faarene ihjel og br&#xE6;k
+Hul paa Taget og rendte sin Vej og de saa
+ingen Ulv siden. S. gik det en lille Tid og 
+de grubliserede over det Dyr der havde saa-
+dan &#xF8;dt dem deres Faar og omsider kom
+de i Tanker om, at det var ogsaa en Kj&#xE6;l-
+tring streg h. havde spillet dem. Men nu 
+var det blevet s. str&#xE6;ng Vinter, nu var der
+ikke noget at spekul. paa med ham.
+Men J. havde ikke lagt paa den dovne side
+i det Lag, h. havde gaaet ned og kj&#xF8;bt sig et
+udgangs&#xF8;g, og det havde h. faaet
+
+3785B
+stilt op. S. hen i Foraarstiden kom de ned
+til ham en Dag og s. hvad er det for et B&#xE6;st
+du har der lagt dig til Jens. Det er et 
+B&#xE6;st der er stor Fortj. det ser ikke ud til ret
+meget, men det er godt allig. S. havde h.
+bundet en vendret Kurv for R&#xF8;ven af
+det. Hvad skal det betyde den h&#xE6;nger
+der. Aa s. h. det er for ikke at have for
+meget Ulejlighed med at samle Pengene
+op i Skidtet. Ja, s. skulde de jo hen at
+se i den og der var en Hoben Gj&#xF8;dning, men
+ogsaa nogle Kobberskj. Hvad, kan det B
+gj&#xF8;re Penge. Ja det kan I da vel se. og 
+s. med det samme slaar h et godt Slag
+over R. af det og s. trimler der nogle fle
+re ud fra Halen af det. Ja det ser ud
+til det, s. de, saadan et kunde det nok
+v&#xE6;re v&#xE6;rd at have. Ja s. J. det er der god
+Fortj. ved, men ikke s. meget for mig,
+for a har jo ikke Raad til at give det
+s. god en F&#xF8;de. Jo flere Penge, jo bedre
+F&#xF8;de det faar. Ja, Enden paa Visen blev
+da at de fik J. til at overlade dem B&#xE6;stet
+og s. tr&#xE6;k de jo hjem med det. Den ene af
+dem fik det f&#xF8;rst og h. lod det gaa ind i
+en af hans bedste Stuer og h. bar en hel
+Del Havre ind til det og en hel Del S&#xE6;nge
+
+3786A
+kl&#xE6;der at det skulde ligge godt, for h. men
+te jo at jo bedre den laa jo flere Penge den
+fik. Men det viste sig, at den spolerede
+dem alting og ingen Penge. Den 2 M. fik
+det at pr&#xF8;ve ogsaa; ham gik det ligesaa
+dan. S. s. de til hindanden: Nu skal h. 
+l&#xE6;gges &#xF8;de, ellers l&#xE6;gger h. os &#xF8;de og s. fulg-
+tes de ad derud og puttede ham i en S&#xE6;k
+de havde med dem og det var en S&#xF8;ndag
+Morg. S. tykte de nu da det var s. n&#xE6;r
+ved Kirken, s. vilde de da ind og h&#xF8;re Pr&#xE6;k.
+og s. lade ham ligge udenfor Kirk.grds-
+muren i god Rolighed. S. s. h. albedst
+som h. ligger, Nej a vill ikke til Himmels
+for aldrig det. Der kommer en gl. M. i
+det samme. Da vilde a s. m. gj&#xE6;rne, dersom
+a kunde kom der. Ja da kan du nemt
+komme der, dersom du vil krybe ind i dh.
+S&#xE6;k s. h. Kn. S. maa vi to hellere kom 
+til at bytte. H. l&#xF8;s for Kn. og kravler
+i Pos. og Kn. binder rigtig godt for ham.
+Da M. de havde h&#xF8;rt Tj. til Ende s. gaar
+de ud og tager Posen igien og s. drager de
+af Sted. Dh. gl. Gut h. spurgte dem ad
+ivessomda: Er [de] vi der snart. Ja nu
+skal det ikke vare l&#xE6;nge, inden du kommer der
+og s. gav h. sig tilfreds. Da de kom ned
+
+3786B
+til Ravn S&#xF8;. s. smed de ham ud og s. gik
+de hjem. Men undervejs kommer de forbi
+J. der kommer drivende med et pr&#xE6;gtig Hob-
+bel H&#xF8;veder, det var af M&#xE6;ndenes egne
+der gik l&#xF8;se ude i Skoven og der gik han
+og dr&#xF8;v med en Hjar af dem. Hvad
+hvor er du kommen ved de H&#xF8;v. I dem
+har a faaet paa Bunden af S&#xF8;en, der
+er jo en dejlig Eng og der gik s. mange
+Hark&#xF8;er og gik og gr&#xE6;ss. N. det gjorde der
+s. de, s maa vi hellere gaa ned og faa os
+en Hjar ogsaa, naar det gaar saadan til.
+Men nu vil vi v&#xE6;re s. forsigtig at kun en 
+af os gaar ad G. og naar den s. kommer der
+ned s. skal den kalde. Det skete og saa
+idet den f&#xF8;rste sprang ud s. sagde det Plom
+og h. vidste ikke andet end [det] h sagde Kom
+og s. [druk] sprang h bag efter og s. drukne-
+de de begge to form&#xE6;lst deres Gjerrig
+hed. Siden den Tid levede J. og hans M
+i Rolighed og de begik dem som Folk den
+om Stunder.
+----
+Endnu et Tr&#xE6;k. Faaet fat i en R&#xE6;v bilder
+dem ind at det er en gasse og de tr&#xE6;kker
+den op i deres gaasesti og den spolerede
+dem alle g&#xE6;sserne og siden br&#xE6;kkede den
+Hul paa Muren og l&#xF8;b, s fik den ikke n&#xE6;r-
+mere set efter.</danish_manuscript>
+  <english_manuscript>Out there on Dover heath there was a tiny little house, and no one lived there but an old woman and her son. Then one day when the woman had gone down to weave, she'd made a very nice piece of homespun and then she said to the boy, listen Jens, can't you take this piece of homespun and go to Aarhus with it, there's no use in going to Skanderborg, you won't be able to get rid of it there, and then you can sell it, but you're to get 1 mark for each two foot length. And please let me see that you can do this properly. I certainly will, he says, and he takes the cloth and went off. He went past Hemstok and the Hemstok men are standing outside there talking. Where are you going with that, you're going so fast. Yes, I'm going to Aarhus with this piece of cloth for my mother. Oh, are you now? How much does it cost...1 Mark. Well, then it's not worth your trouble going any farther, we'll take it, you don't have to go to Aarhus for that. The boy was quite happy about that and he gets his Mark and they get the homespun and then he went home to his mother with it. Oh, she said, when she heard how things had gone, that's how you handled yourself, little Jens. I doubted it. Then there's nothing else to do, since if I know those Hemstok men, they'll hold on to what they've got. Then a day later, she'd been out churning. Listen, here's some butter and some buttermilk, they better be in the churn together and you'd better put it on your back. But you aren't to go that way, you're to go over to the Poles, it was in the days when they were here and they had their stalls in a town named Boes, and that's how it got its name. They could see over the entire area, and nobody could come at them from one side, and the other sides were flooded with water, and it lay quite high. But they needed something to live off, and the woman counted on that. But let me see that they don't trick you, little Jens. No. This time they won't trick me any more than this here piece of straw, the boy said and then he bends over and was going to pick up a piece of straw, but isn't careful and the butter and milk spill over his head. Oh, it's a real shame, says the mother, with such a fathead. Yeah, yeah, said the boy, you're also so hot-headed. But give me a moment to think, I'll certainly trick them up there. Then Jens went and thought for several days and he made sure he got a piece of canvas she gave him one market day and he went to Skanderborg with it. He made sure that these Hemstok men were there and had seen him. Jens sells his canvas and gets a few coins in his pocket and then he goes in to three different inns and tells them a bit about how things stand, and how he wants to pay the two men back. Then he goes out again and finds these two men, and invites them in for a drink, and they thought, it isn't worth spending your money on us Jens. Well, I could certainly deal with you another time and he puffed himself up a bit. Sure, sure, said the first man, let's go. Waiter, give us a mug of Polak, that was a common drink in those days, it was half beer and half mead. The waiter brings it over immediately and when they were done, Jens took off his hat, it was an old lumpy one, and he puts it on his stock and gives it a spin and said, Hat, it's paid. Oh thank you, that's right, said the waiter. That's quite a hat, said the men, can you do it again. Sure, we can try, they went in to another place. Now I want to try said one of the men. Sure enough, it was right. The hat paid. Sure, said the second man, now you've tried it, now I want to try it too. To make a long story short, it went the same way the third place. When they came out, they said, Listen, Jens, you don't really need that hat, you don't get out like us and you don't make as many bargains, give it to us. Jens wouldn't hear tell of that. Finally, they convince him to sell the hat for 50 rixdollars, and even then Jens felt he'd given it to them. They thought so too. When Jens got the money, he headed quickly for home. They said, let's have a little more fun with this hat comedy. They go off and get another man to come with them and go to an inn and order a huge amount. When they're done, the first man takes the hat, gives it a good spin, Hat it is paid for. Wait a second, my good man, we don't accept hat tricks here. What, isn't it paid for. No. Out with your money, you have to pay. Then the other man says, it was the wrong side you spun it on, let me try. They go in to another inn. They got themselves a good beating there and then they could go home. They were quite disappointed and then the first man said, We can take the money back from him because the two of us can take him. About evening time the next day they cross over the heath to him. Jens is sitting in the window. Now the Hemstok men are coming and they don't have good ideas, but I'll try to see if I can't trick them again and then he told his mother a little bit about how she should act when they arrived. The men come in and greet them good evening. They invited them in and asked them to sit down. They had come to talk about the deal, they didn't think it had been so honest, but he said no, they had seen the goods, and he couldn't help it if they didn't have the right touch. As they're sitting there talking back and forth, the woman is sitting there spinning, and she's nodding off at the spinning wheel and finally she falls completely asleep. OK, says Jens, let me see if I can't put a little zeal into you. He grabs a big staff that was right near him and smacks her really hard on the back of her head, the poor old thing, and she falls off the chair and remains lying there. Wow, you're a dangerous guy, you killed your own mother. Oh, there's no danger of that, says Jens, and he shakes her a bit. She's beyond that. No, there's no danger of that and he reaches up to a shelf and takes a whistle that's lying there and bends down to the back of her head and begins blowing. And the old woman jumps right up, oh, I was having such a nice dream and she sits down to spin as if nothing had happened and spins so that the spinning wheel crackles. Well, the men look a little at this. You know what, Jens, if you'll give us that whistle, then we'll forget the whole hat comedy thing, because they could use that whistle, their women were so tired of them. Well, they got the whistle and they went home quite happy. Then the man in the western farm says, I want to try the whistle first, you tried the hat first and this time there's no cheating because that old woman, she was dead. And the next evening he's sitting inside with his women and eagerly waits for one of them to fall asleep, so that he could try this thing. Well, it was now this and that, because these were some darn secure women, so if they didn't have it pretty good, he risked hearing about it later. If you're going to hit, then you really need to hit, otherwise it won't work. Then after a while, the wife fell asleep and she slept soundly. Then he'd put a really thick cudgel in a corner to use for that purpose, he pulls it out and he smacks her one right in the face and she falls over as dead as a herring. What are you doing, did you kill your own wife, you're quite a daring person. Oh, there's no danger, I'll wake her up again, don't complain, and he takes the whistle and blows it in the back of her head, so water came out of both his eyes, but it didn't help. Then he says to the others: you better keep quiet about this, because the other one has to try this, I don't want to be the only one to be hurt like this, and to make a long story short, the same thing happened to the other one. Now they were busy for several days getting their wives buried and so Jens had peace for a while. In the meantime, some gypsies had wandered by and had gotten lodgings at Jens's and they had some foreign animals with them, and they'd left a wolf with Jens and he had no idea what he should do with it. Then a little later the men come down to him one day and begin to blame him for having them kill their wives and all that. Then he says, I'm not at fault, because you saw what I did, and you hit wrong. But I've gotten a ram here and I'll give it to you so we can stay friends. He looks like he's pulling a bit at the ropes, said the first man. Yes, he is, said Jens, but he's a foreign race and he is healthy and energetic and when he is put out in a flock of sheep, there'll be no illness among the sheep. In those days, they had a really hard time keeping their sheep alive, because they always got sick. And there's one more thing--he's really good at taking care of the lambs. The foxes won't get a single lamb. Then they thought: OK, let's have him, something is better than nothing and they got the ram and they led him home. They had their sheep down below the farms and it was covered with snow, so they drove all their sheep into a fold, since they always drove their animals together. Then they said to their people, don't check on them for a few days, he needs time to get to know them, otherwise he'll run away. Well, the end of the ballad was that the wolf bit a bunch of sheep to death and broke a hole in the roof and ran away and they didn't see the wolf again. Then a little time passed and the men went about wondering about the animal that had eaten their sheep and finally it occurred to them that he'd played a trick on them. But now the winter had gotten so harsh, there was nothing they could do to him. But Jens hadn't gotten lazy, he went down and bought himself an old nag, and he'd set it up there. Then toward spring time, they came down to him one day and they asked him, what kind of beast is that you've gotten yourself Jens. That's an animal that really helps out a lot, it doesn't look like much, but it's good anyway. He'd tied an upside down basket onto its ass. What's that supposed to mean, it hanging there like that. Oh, then I don't have to have the bother of picking up the money out of the shit. Well, then they wanted to go have a look, and there was a bunch of fertilizer, but also some copper coins. What, can that animal give money. Sure, you can see that yourself and at the same time he smacks the animal's ass and some more trickle out from its tail. Well, it sure looks that way, it would certainly be worth it having one like that. Yes, said Jens, it's a good investment, but not for me since I can't afford to give it good food. The better the food, the more money. Yes, the end of the ballad was that they got Jens to give them the animal and then they led it home. One of them got it first and he let it go about in one of his best rooms and he carried a bunch of oats in to it, and a bunch of bed clothes so that it would be comfortable, since he figured the better it lay the more money he'd get. But it turned out it ruined everything and no money. The other man got it to try too; it went the same way for him. Then they said to each other: Now we're going to destroy him, otherwise he'll destroy us and they went out there together and they put him in a sack they'd brought with them and it was a Sunday morning. Then they thought that they were so close to the church, they'd go in and listen to the sermon and so they left him lying quietly outside the church wall. Then he says, as he's lying there, no I don't ever want to go to heaven. An old man is walking by at that moment. I certainly do, said the man, if I could get there. You can get there easily, if you'll climb into this sack, said the boy. Well, then the two of us better switch. He opened up for the boy and climbs into the bag and the boy ties it up good and tight for him. When the men had listened to the end of the sermon, then they go out and pick up the bag again and then they head off. This old guy asked them, will we get there soon. Yes, it won't be long now, before you get there and he was happy with that. When they got down to Ravn lake, they threw him out there and then they went home. But along the way they meet Jens whose coming driving a big herd of cows, they were the men's own, they wandered about loose in the forest and he went there driving a herd of them. Hey, where did you find those cows. I found them at the bottom of the lake, there's a wonderful pasture, and there were so many cows grazing there. Oh really, they said, we'd better go down and get us a herd as well, when it's like that. But now we'll be careful and only one of us will go at a time, and when he gets down then he'll call up. That's what happened, and when the first one jumped out, it said Plom and he thought he said, Come, and then he jumped in after him and then they both drowned because of their greed. Since then, Jens and his mother lived peacefully and they acted like people did back then. One more thing. Gets hold of a fox and convinces them that it's a gander and they lead it up to their goose pen and it killed all the geese and then it broke a hole in the wall and ran off, and they never saw it again.</english_manuscript>
+  <danish_publication>Der ude paa Dover Hede laa et lille Hus, og i det boede ikke andre end en gammel Kone og hendes S&#xF8;n. En Dag, som Konen var ved at v&#xE6;ve, blev hun lige f&#xE6;rdig med et kj&#xF8;nt Stykke Vadmel, og saa siger hun til Kn&#xE6;gten: "H&#xF8;r, Jens, nu kan du tage det Stykke Vadmel og gaa til Aarhus med og s&#xE6;lge for mig. Det kan ikke hj&#xE6;lpe, du gaar til Skanderborg, for der kan du ikke blive af med det, og du skal have en Mark for Alen. Men lad mig nu se, du b&#xE6;rer dig lidt ordentlig ad." &#x2014; "Ja, det skal a nok," siger han, og han tager T&#xF8;jet og gaar med. Saa gaar han nu om ad Hemstok. Der staar de Hemstok M&#xE6;nd uden for og Snakker. "Hvor skal du hen med det T&#xF8;j?" siger de, "du farer saa st&#xE6;rkt." &#x2014; "Ja, a skal til Aarhus med det for min Moder." &#x2014; "Naa, det skal du, hvad skal det da koste?" &#x2014; "Det skal koste en Mark." &#x2014; "Ja, saa er det da ikke v&#xE6;rd, du gaar l&#xE6;ngere for den Sags Skyld, saa vil vi tage det." Det var Kn&#xE6;gten saa meget glad til, og han faar hans Mark, og de faar Vadmelet. Saa gik han hjem til hans Moder med det. Da hun fik at h&#xF8;re, hvordan han havde baaret sig ad, siger hun: "Ja, a tvivlte nok paa, det vilde gaa dig galt, bitte Jens. Der er ikke mere ved det at gj&#xF8;re, for kjender a de Hemstok M&#xE6;nd rigtig, saa holder de nok ved det, de faar fat i." Det sagde Jens ikke noget til.
+En Dags Tid efter var hun ved at kj&#xE6;rne, og da hun havde faaet Sm&#xF8;r, siger hun til Drengen: "Her har du nu dether Sm&#xF8;r og dether Kj&#xE6;rnem&#xE6;lk, det maa helst blive sammen i Kj&#xE6;rnen med hinandt, og saa skal du tage det paa din Ryg og gaa over til Polakkerne med det." Det var i den Tid, de huserede her i Jylland, og de havde deres Baase i den By, der hedder Boes, deraf fik den sit Navn. Derfra kunde de overse hele Landet, for det ligger saa h&#xF8;jt, og tilligemed kunde ingen komme til dem uden fra &#xE9;n Side, alle de andre var omfl&#xF8;dt med Vand. Nu gjorde Konen jo Regning paa at kunne afs&#xE6;tte nogle F&#xF8;devarer til dem, for noget skulde de jo altid have at leve af. "Lad mig nu endelig se, bitte Jens, te de narrer dig ikke." &#x2014; "Nej," siger han, "den Gang skal de mins&#xE6;l ikke komme til at narre mig mere end dether Halmstraa," siger han Kn&#xE6;gten, og saa bukker han sig ned og vil tage ved Halmstraaet, men tager sig ikke i Vare for, at Kj&#xE6;rnem&#xE6;lken og Sm&#xF8;rret gik ud over Hovedet paa ham. "Nej, det er dog bedr&#xF8;veligt med saadan et Knudhoved," siger Moderen. "Jaja, I er ogsaa saa hiddsig," siger han Kn&#xE6;gten, "men lad mig nu faa Tid til at bet&#xE6;nke mig, saa skal a missel nok faa dem pudset der oppe."
+     Dermed gik Jens, og saa spekulerede han paa det i nogle Dage. Han s&#xF8;rgede jo for at faa et Stykke L&#xE6;rred af hans Moder, for der skulde v&#xE6;re Marked i Skanderborg, og saa foregav han jo, at han vilde derned og s&#xE6;lge det. Han rejser ogsaa af og faar hans L&#xE6;rred solgt, saa han faar lidt M&#xF8;nt paa Lommen. I det samme faar han at se, at de Hemstok M&#xE6;nd var ogsaa der nede. Saa gaar han ind til tre V&#xE6;rter og S&#xE6;tter dem til Hobe lidt ind i Sagerne, angaaende hvordan han vilde betale de M&#xE6;nd for deres Snyderi imod ham, og saa giver han hver af dem saa mange Skillinger, som en Omgang kunde koste. Naa, saa gaar han ud igjen og leder de to M&#xE6;nd op. Han byder dem altsaa ind paa en Gjenstand. "Aa," siger de, "vi tykkes ikke, det er v&#xE6;rd, du spenderer noget paa os, Jens." Ja&#x2014;a, han brystede sig jo noget, "a kan vel komme til at handle med jer en anden Gang." &#x2014; "Jaja," siger saa den ene Mand, "lad os saa gaa ind med dig." &#x2014; "Hej, V&#xE6;rt, lad os faa et Krus Polak!" &#x2014; det var en Drik, der var meget almindelig den Gang og bestod halvt af Br&#xE6;ndevin og halvt af Mj&#xF8;d. V&#xE6;rten kom strags springende med det, og den Gang de var f&#xE6;rdige, tog Jens hans Hat af, det var saadan en gammel buleret &#xE9;n, og s&#xE6;tter paa hans Kj&#xE6;p og giver den et Snur og Siger: "Hat, det er jo betalt." &#x2014; "A takker," siger V&#xE6;rten, "det passer." &#x2014; "Det var en grumme Hat," siger de Hemstok M&#xE6;nd, "kan den gj&#xF8;re det &#xE9;n Gang til?" &#x2014; "Ja, vi kan jo pr&#xF8;ve ad." De gik saa ind et andet Sted. "Ja, nu vil a missel pr&#xF8;ve den," siger den ene af M&#xE6;ndene, og Jens kr&#xE6;ver ind, og Manden snurrede med den. Jo, det paste godt nok. Hatten den betalte. "Ja," siger den anden Mand, "nu har du pr&#xF8;vet den, da vil a ogsaa se at give den et Snur." Det gik kort at fort&#xE6;lle lige saadan det tredje Sted. Jens sagde: "Hat, du har jo betalt", og V&#xE6;rten kom Springende og sagde: "A takker, det passer." Da de kom ud, sagde M&#xE6;ndene: "H&#xF8;r, Jens, den Hat kan du overlade os, den har du egentlig ingen Brug for, da du ikke kommer videre ud, saadan som os, og giver ikke mange Lidkj&#xF8;b." Men det vilde Jens ikke h&#xF8;re om. Endelig faar de ham overtalt til at s&#xE6;lge Hatten for en 50 Rigsdaler, og saa mente Jens endda, han havde givet dem den. Det tykte de da endelig ogsaa selv. Da Jens fik Pengene, str&#xF8;g han af hjem.
+     Saa sagde M&#xE6;ndene: "Vi vil have lidt mere Forn&#xF8;jelse af den Hattekomedie." De gaar hen og faar en Tredjemand med, og saa triner de ind til en V&#xE6;rt og kr&#xE6;ver dygtig ind. Da de er f&#xE6;rdige, tager den ene Mand Hatten og giver den et Sno, rette den spillede paa Kj&#xE6;ppen. "Hat, det er jo betalt," siger han, men V&#xE6;rten sagde noget andet. "Nej, holdt, god Karl, her gaar det ikke til med Hunderkunster." &#x2014; "Hvad, er det ikke betalt?" siger de. "Nej, I maa op med Pengene, hvem skulde have betalt for jer?" og de maatte altsaa punge ud. Saa siger den anden Mand, da de var kommen uden for: "Jamen det var ogsaa den fejle Side, du snoede til, lad mig nu pr&#xF8;ve den." Saa gaar de ind paa et andet V&#xE6;rtshus og spiser og drikker, og der reddede de dem en god Tragt Kl&#xF8;, saa kunde de gaa hjem med det. &#xC6;rgerlige var de, og det til Gavns.
+     "Vi skal lige godt have ham af med de Penge igjen," siger den ene Mand, "for han har jo snydt os vel grovt, og vi kan nok magte ham begge to." Hen paa anden Dags Aften tridser de ud i Heden til ham. Jens kikker ud paa Vinderet og siger: "Nu kommer de Hemstok M&#xE6;nd, og de har ikke godt i Sinde, men a vil lige godt pr&#xF8;ve, om a kan ikke narre dem nok en Gang." Saa gav han Moderen lidt Underretning om, hvordan hun skulde forholde sig, naar de kom. M&#xE6;ndene de kommer ind og hilser Godaften. Folkene b&#xF8;d dem jo fra D&#xF8;ren at sidde ned, og de kommer saa til at snakke med ham om den Handel. De mente jo, den var ikke saa rele, som den kunde v&#xE6;re. Men Jens paastod, at de havde jo set paa Varerne, og han kunde ikke gj&#xF8;re for, te de havde ikke det riglige haandelag. Som de nu sidder og snakker frem og tilbage, da sidder Konen ved Rokken og spinder, og hun nikker lidt, og til sidst falder hun helt i S&#xF8;vn. "Naa, du har det saadan," siger Jens, "da skal a lige godt se, om a kan ikke faa lidt Arbejdslyst i dig," og dermed tog han en stor Kj&#xE6;p, der stod i Nabolaget ved ham, og tr&#xE6;kker hende jo en alvorlig &#xE9;n over Nakken, det gamle Skind, saa hun v&#xE6;lter ned af Stolen og bliver liggende. "Ja, da er du og en farlig Kn&#xE6;gt," siger M&#xE6;ndene, "slaar du din egen Moder ihjel." &#x2014; "Aa, det har nok ingen Fare," siger Jens og rundsler lidt ved hende. "Ja, hun er missel vist ovre det," siger de. "Nej, det er der ingen Fare for", og han r&#xE6;kker op paa en Hylde og tager en fl&#xF8;jte, der laa, og den s&#xE6;tter han om i hendes Nakke og giver sig til at bl&#xE6;se. Op springer hun Kj&#xE6;llingen lige paa en Studs og siger: "Aa, da dr&#xF8;mte a endda godt." Hun s&#xE6;tter sig da til at spinde, som om ingen Ting var forefaldt, og det, lige til det knasede i Rokkev&#xE6;rket. Ja, M&#xE6;ndene de keg jo lidt paa dether. "Ja, ved du hvad, Jens," siger de, "naar du vil give os den Fl&#xF8;jte, saa skal det hele v&#xE6;re glemt med den Hattekommers," for den Fl&#xF8;jte kunde de bruge, deres Kvindfolk var nemlig slemt s&#xF8;vnige af sig. Naa, de fik Fl&#xF8;jten, og de gik nok saa glade og vel forn&#xF8;jede hjem. Saa siger Manden i den vestre Gaard: "Ja, nu vil a missel pr&#xF8;ve Flojten f&#xF8;rst, du pr&#xF8;vede Hatten f&#xF8;rst. Denher Gang er det da intet Snyderi, for vi saa jo, Kj&#xE6;llingen hun var d&#xF8;d og blev levende igjen."
+     Anden Dags Aften sidder han inde i Stuen ved hans kvindfolk og venter jo saa haardt paa, te den ene af dem skulde falde i S&#xF8;vn, for at han kunde komme til at pr&#xF8;ve denher Indretning. Nu var det jo baade saa og da, for det var nogle Fandens sikre Kvindfolk, han havde, og hvis de ikke fik et rigtig godt Tr&#xE6;k, saa kunde han risikere at faa det gjengj&#xE6;ldt bag efter. Det sad han nu og t&#xE6;nkte paa. "Skal der slaaes til, saa skal der slaaes til, for ellers gaar det ikke," t&#xE6;nkte han ved sig selv. Omsider falder da Konen i S&#xF8;vn f&#xF8;rst og sov baade trygt og fast. Nu havde han sat en tyk Kj&#xE6;p i en Krog til det samme Brug, og saa tr&#xE6;kker han den frem og giver hende &#xE9;n ind lige i Planeten, og hun v&#xE6;lter jo om saa d&#xF8;d som en Sild. "Men hvad gj&#xF8;r du nu!" siger de andre, og Springer op og hujer og skriger, "slaar du nu din egen Kone ihjel, da er du og et forvovent Menneske." &#x2014; "Aa, det har ingen Fare," siger han, "a skal nok faa hende vaagen, I skal ikke klage jer." Han tager i Fl&#xF8;jten og piber i Nakken paa hende, saa Vandet kom ud af begge hans &#xD8;jne, men lige meget hjalp det. Saa siger han til hans Folk: "Nu maa I endelig tie stille med det, for min Nabomand skal missel pr&#xF8;ve det ogsaa, a vil ikke v&#xE6;re ene om Skaden." Og kort at fort&#xE6;lle, det gik den anden akkurat lige saadan.
+     Nu fik de jo travlt i nogle Dage med at faa deres Koner begravet, og saa havde Jens da Fred i den Tid. Imelder godlag var nogle Tattere dreven omkring og havde haft Logi ved Jens, og de havde et udenlands Tyr med dem, som de kaldte en Ulv. Saa havde de ladt den blive ved ham, og han vidste aldrig, hvad han skulde gj&#xF8;re ved det Kreatur. Omsider kommer M&#xE6;ndene ned til ham en Dag og begynder at Skylde ham for, at han havde slaaet deres Koner ihjel og alt dether. Dertil svarer han: "Ja, a har jo ingen Skyld i det, for I saa jo, hvordan a bar mig ad, og I maa jo have slaaet fejl. Men a har faaet en V&#xE6;dder her, den vil a give jer, for at vi kan blive ved at holde Venskab." &#x2014; "A tykkes, han ser mig saa strag ud i Tovet," siger den anden Mand. "Ja, det er han ogsaa," mente Jens, "men det er af en udenlandsk Race, og han er frisk og sund, og der er den store Fordel ved at have ham, te hvor han kommer i en Flok Faar, der kommer ingen Sygen imeld dem." I de Tider havde de nemlig saa ondt ved at holde Liv i deres Faar, for der var tit Sygen imeld dem, og mange d&#xF8;de hver Vinter. "Og saa er der endelig &#xE9;n Ting til", siger Jens, "og det er, at han er saa god til at passe paa Lammene, og naar I har ham, saa kan R&#xE6;ven ingen Lam tage." De tykte endelig ogsaa, at den var v&#xE6;rd at have. "Lad os tage ham, noget er bedre end intet," sagde de, og saa fik de denher V&#xE6;dder og tr&#xE6;kkede af hjem med ham.
+     De havde deres Faarefold neden for Gaardene, og lige i Tiden var Markerne lagt til med Sne, saa de havde drevet alle deres Faar ind i en Fold, og begge M&#xE6;ndene drev altid sammen med deres Faar. Da de nu lader Ulven komme ind til dem, sagde de til deres Folk: "Nu skal I ikke se til dem den f&#xF8;rste Dags Tid, han skal have Tid til at blive kjendt med dem, ellers vil han vel rende hen, naar Faarene kommer ud igjen." Naa, Enden af Visen blev, at Ulven bed en Del af faarene ihjel og br&#xE6;kkede saa Hul paa Taget og rendte sin Vej, og de saa ingen V&#xE6;dder siden. Da Folkene kommer hen og skal have set til deres Faar, saa laa de der i en bedr&#xF8;velig Forfatning.
+     Nu gik der en lille Tid, og M&#xE6;ndene gik og grubliserede over, hvad det var for et Dyr, der saadan havde &#xF8;dt dem deres Faar. Omsider kom de i Tanker om, at det var ogsaa en Kj&#xE6;ltringstreg, Jens havde spillet dem. Men nu var det blevet saa str&#xE6;ng en Vinter, te nu var der ikke noget at spekulere paa med ham for det f&#xF8;rste.
+     Men Jens havde ikke ligget paa den dovne Side i det Lag. Han havde gaaet ned og kj&#xF8;bt sig et Udgangs&#xF8;g, og det havde han faaet indkvarteret hjemme i Huset. Saa hen i Foraarstiden kom M&#xE6;ndene ud til ham en Dag, og de faar strags dether &#xD8;g at se. "Hvad er det for et B&#xE6;st, du har der lagt dig til, Jens?" &#x2014; "Det B&#xE6;st er der stor Fortjeneste ved," siger han, "det ser ikke ud til ret meget, men det er godt alligevel." Nu havde han jo set, M&#xE6;ndene de kom, og saa havde han bundet en vendret Kurv for R&#xF8;ven af det. "Hvad skal det betyde, den Kurv h&#xE6;nger der?" siger de. "Aa," siger han, "det er for ikke at have for megen Ulejlighed med at samle pengene op i Skidtet." Ja, saa Skulde de jo hen at se i Kurven, og der var en Hoben Gj&#xF8;dning, men ogsaa nogle Kobberskillinger. "Hvad! kan det B&#xE6;st gj&#xF8;re Penge?" siger de. "Ja, det kan I da vel se," og saa med det samme skaar han et godt Slag over R&#xF8;ven af det. Da trimler der nogle Skillinger ud fra Halen. "Ja, det ser ud til det," siger de, "saadan et Dyr kunde det nok v&#xE6;re v&#xE6;rd at have." &#x2014; "Ja," siger Jens, "der er god Fortjeneste ved det Dyr, men ikke saa meget for mig, for a har jo ikke Raad til at give B&#xE6;stet saa god en F&#xF8;de, som det skulde have. Jo flere penge, jo bedre F&#xF8;de det faar." Ja, Enden paa Visen blev da, at de fik Jens til at overlade dem &#xD8;get, og saa tr&#xE6;kker de jo hjem med det. Manden i den vestre Gaard fik det f&#xF8;rst, og han lod det gaa ind i en af hans bedste Stuer, og han bar en hel Del Havre ind til det og en hel Del Sengkl&#xE6;der, at det Skulde ligge godt, for han mente jo, at jo bedre det laa, jo flere Penge det fik. Men det viste sig snart, at &#xD8;get spolerede dem alting og alligevel ingen penge gjorde. Den anden Mand fik det at pr&#xF8;ve ogsaa, og ham gik det lige saadan.
+     Nu kan det nok v&#xE6;re, de var blevne vrede paa Jens, og de l&#xE6;gger over med hinanden: "Nu skal han l&#xE6;gges &#xF8;de, for ellers l&#xE6;gger han os &#xF8;de." Saa fulgtes de ad derned igjen, og de fik fat i ham og put ham i en S&#xE6;k, de havde med dem. Det var en S&#xF8;ndag Morgen, dether gik for sig. De rejser saa af med ham i S&#xE6;kken, og da deres Vej faldt lige forbi Kirken, saa vilde de da ind og h&#xF8;re Pr&#xE6;kenen. Saa kunde de lade ham ligge uden for Kirkegaardsmuren i god Rolighed ilav, og de smider S&#xE6;kken og gaar ind. Allerbedst som han nu ligger der, siger han saadan temmelig h&#xF8;jt: "Nej, a vil ikke til Himmels for aldrig det." Saa kommer der en gammel Mand forbi i det samme, og han h&#xF8;rer det. "Da vilde a saam&#xE6;nd gj&#xE6;rne til Himmerig, dersom a kunde komme der." &#x2014; "Ja, da kan du nemt komme der," siger Jens i S&#xE6;kken, "dersom du vil krybe ind i denher S&#xE6;k, saa maa vi to hellere komme til at bytte, for a skal netop til Himmerig." Han l&#xF8;ser for Kn&#xE6;gten, og Jens kryber ud, men den gamle Mand kravlede i den, og Kn&#xE6;gten binder rigtig godt for ham.
+     Da M&#xE6;ndene de havde h&#xF8;rt Tjenesten til Ende, saa kommer de jo ud og tager Posen igjen, og saa drager de af Sted med den. Denher gamle Gut han spurgte dem ivessomda: "Er vi der snart?" &#x2014; "Ja, nu skal det ikke vare l&#xE6;nge, inden du kommer der," siger de, og saa gav han sig tilfreds. Da de kom ned til Ravn S&#xF8;, saa smed de ham ud, og saa gik de hjem. Men undervejs mellem S&#xF8;en og Boes kommer de forbi Jens, han kom drivende med et pr&#xE6;gtigt Kobbel H&#xF8;veder, det var nogle af M&#xE6;ndenes egne, der gik l&#xF8;se nede i Skoven, og der havde han givet sig til at gaa og drive med en hj&#xE6;r af dem. "Hvad, er du her? hvor er du kommen ved de H&#xF8;veder?" &#x2014; "Ja, dem har a faaet paa Bunden af S&#xF8;en. Der er jo en dejlige Eng, og der gik saa mange Havk&#xF8;er og gik og gr&#xE6;ssede." &#x2014; "Naa, det gjorde der," sagde de, "saa maa vi hellere gaa ned og faa os en Hj&#xE6;r ogsaa, naar det gaar saadan til at faa dem. Men nu vil vi v&#xE6;re saa forsigtige, at kun &#xE9;n af os gaar ad Gangen, og naar den saa kommer derned, og det forholder sig rigtigt, hvad Kn&#xE6;gten har opgivet, saa skal den kalde." Det skete nu ogsaa. Idet den f&#xF8;rste Sprang ud, saa sagde det: "Plom!" og den anden han vidste ikke andet, end han sagde: "Kom!" Saa sprang han bag efter. De druknede altsaa begge to formedelst deres Gjerrighed. Siden den Tid levede Jens og hans Moder i Rolighed, og de begik dem som Folk i deres Stilling nu om Stunder.
+
+Fort&#xE6;lleren har ogsaa h&#xF8;rt historien fort&#xE6;lle med endnu et Tr&#xE6;k. Jens havde faaet fat i en R&#xE6;v og bilder dem saa ind, at det er en Gasse. Den tr&#xE6;kker de op i deres Gaasesti og lader den v&#xE6;re ved Gj&#xE6;ssene om Natten. Den spolerede dem allesammen, og siden br&#xE6;kkede den hul paa Muren og l&#xF8;b, saa de fik ikke mere ud af det.
+</danish_publication>
+  <english_publication>Out there on Dover heath lay a tiny little house, and no one lived there but an old woman and her son. One day as the woman was weaving, she finished up a very nice piece of homespun and so she says to the boy: &#x201C;Listen Jens, now you can take this piece of homespun and go to &#xC5;rhus with it and sell it for me. It won&#x2019;t help going to Skanderborg, because you won&#x2019;t be able to get rid of it there, and you&#x2019;re to get one mark for each two foot length. But please show me that you can do this properly.&#x201D;&#x2014;&#x201C;I certainly will,&#x201D; he says, and he takes the cloth and goes off. Now he goes past Hemstok. The Hemstok men are standing outside there talking. &#x201C;Where are you going with that cloth?&#x201D; they say, &#x201C;you&#x2019;re going so fast.&#x201D; &#x2013; &#x201C;Yes, I&#x2019;m bringing it to &#xC5;rhus for my mother.&#x201D;&#x2014;&#x201C;Oh, are you now? How much does it cost?&#x201D; &#x2013; &#x201C;It costs one mark.&#x201D; &#x2013; &#x201C;Well, then it&#x2019;s not worth your trouble going any farther for that, we&#x2019;ll take it.&#x201D; The boy was quite happy about that and he gets his mark and they get the homespun. Then he went home to his mother with the money. When she heard how he&#x2019;d handled himself, she said, &#x201C;Well, I certainly had my doubts that things would go well for you little Jens. There&#x2019;s nothing else to do, since if I know those Hemstok men, they&#x2019;ll hold on to what they&#x2019;ve got.&#x201D; Jens didn&#x2019;t say anything in reply.
+One day later, she was out churning and when she had gotten butter, she says to the boy: &#x201C;Listen, here you&#x2019;ve got this butter and this buttermilk, it&#x2019;s best if they are in the churn together; put it on your back and go over to the Poles with it.&#x201D; It was in the days when the Poles were quartered here in Jutland and they had their stalls [b&#xE5;se] in a town named Boes, and that&#x2019;s how it got its name. They could watch over the entire area from there, because it sits fairly high, and by the same token nobody could come at them from one side, and all the other sides were flooded with water. Now the woman counted on being able to sell them some foodstuffs, because they would always need something to live off. &#x201C;Let me see that they don&#x2019;t trick you, little Jens.&#x201D;&#x2014;&#x201C;No,&#x201D; he says, &#x201C;this time they sure as heck won&#x2019;t trick me any more than this here piece of straw,&#x201D; says the boy and then he bends over to pick up the piece of straw, but isn&#x2019;t careful and the butter and milk spill over his head. &#x201C;Oh, it&#x2019;s a real shame with such a churl,&#x201D; says the mother. &#x201C;Yeah, yeah, you&#x2019;re also so hot-headed,&#x201D; says the boy, &#x201C;but give me a moment to think, I&#x2019;ll certainly trick those guys up there in Hemstok.&#x201D;
+     Then Jens went and thought about it for several days. He made sure to get a piece of canvas from his mother, because there was going to be a market in Skanderborg, and he told her that he wanted to go down there and sell it. He goes off and sells his canvas and gets a few coins in his pocket. At that moment, he sees that the Hemstock men are down there too. So he goes to three innkeepers and tells them a bit about how things stand, and how he wants to pay the two men back for their trickery and then he gives each of them enough shillings to pay for a round of drinks. Well, then he goes out again and finds these two men. He invites them in for a drink. &#x201C;Well,&#x201D; they say, &#x201C;we don&#x2019;t think it&#x2019;s worth it spending your money on us Jens.&#x201D; &#x201C;Well--,&#x201D; Jens puffed himself up a bit, &#x201C;I could certainly wind up making a deal with you another time.&#x201D; &#x2013; &#x201C;Sure, sure,&#x201D; says one of the men, &#x201C;let&#x2019;s go in with you.&#x201D;&#x2014;&#x201C;Hey, innkeeper, give us a pitcher of Polak!&#x201D;-- that was a common drink in those days, it was half beer and half mead. The innkeeper brings it over immediately and when they were done, Jens took off his hat, it was an old lumpy one, and he puts it on his staff and gives it a whirl and says, &#x201C;Hat, it&#x2019;s paid.&#x201D; &#x2013; &#x201C;I thank you,&#x201D; says the innkeeper, &#x201C;that&#x2019;s quite right.&#x201D; &#x2013; &#x201C;That&#x2019;s quite a hat,&#x201D; the Hemstok men say, &#x201C;can you do it again?&#x201D; &#x2013; &#x201C;Sure, we can try.&#x201D; So they went to another place. &#x201C;Now I sure as heck want to try,&#x201D; says one of the men, and Jens orders, and the man spun it. Sure enough, it was right. The hat paid. &#x201C;Well,&#x201D; says the other man, &#x201C;now that you&#x2019;ve tried it, I want to try it too.&#x201D; To make a long story short, it went the same way at the third place. Jens said, &#x201C;Hat, you&#x2019;ve paid,&#x201D; and the innkeeper came running and said, &#x201C;I thank you, that&#x2019;s right.&#x201D; When they came out, the men said, &#x201C;Listen, Jens, you can give us that hat, you don&#x2019;t really need it, you don&#x2019;t get out like us and make as many deals.&#x201D; But Jens wouldn&#x2019;t hear talk of that. Finally, they convince him to sell them the hat for fifty rixdollars, and even then Jens felt he&#x2019;d given it to them. They thought so too, actually. When Jens got the money, he headed quickly for home. 
+     Then the men said, &#x201C;Let&#x2019;s have a little more fun with this hat comedy.&#x201D; They go off and get another man to come with them and go to an inn and order a huge amount. When they&#x2019;re done, the first man takes the hat, gives it a good spin, so that it almost fell off the staff. &#x201C;Hat, it is paid for,&#x201D; he says, but the innkeeper said something else. &#x201C;Wait a second, my good man, we don&#x2019;t accept monkey tricks here.&#x201D; &#x2013; &#x201C;What, isn&#x2019;t it paid for?&#x201D; they say. &#x201C;No, you better come with your money, who was supposed to have paid for you?&#x201D; and they had to pay. Then the other man says, when they&#x2019;d gotten outside, &#x201C;It was the wrong side you spun it on, let me try.&#x201D; They go in to another inn and they eat and drink, and they got themselves a good beating there and then they could go home. They were quite disappointed.
+     &#x201C;We can take the money back from him,&#x201D; says the first man, &#x201C;because he has tricked us quite badly, and the two of us can take him.&#x201D; About evening time the next day they cross over the heath to him. Jens looks out the window and says, &#x201C;Now the Hemstok men are coming and they don&#x2019;t have good thoughts, but I&#x2019;ll try to see if I can&#x2019;t trick them again.&#x201D; Then he told his mother a little bit about how she should act when they arrived. The men come in and wish them a good evening. They invited them in and asked them to sit down and they had come to talk with him about the deal. They didn&#x2019;t think it had been as honest as it could have been. But Jens claimed that they had seen the goods, and he couldn&#x2019;t help it if they didn&#x2019;t have the right touch. As they&#x2019;re sitting there talking back and forth, his mother is sitting there spinning at the spinning wheel, and she&#x2019;s nodding off and finally she falls asleep. &#x201C;Oh, you&#x2019;re like that,&#x201D; says Jens, &#x201C;let me see if I can&#x2019;t put a little zeal back into you,&#x201D; and with that he grabs a big staff that was right near him and smacks her really hard on the back of her head, the poor old thing, and she falls off the chair and remains lying there. &#x201C;Wow, you&#x2019;re a dangerous guy,&#x201D; says the man, &#x201C;you just killed your own mother.&#x201D; &#x2013; &#x201C;Oh, there&#x2019;s no danger of that,&#x201D; says Jens, and he shakes her a bit. &#x201C;Yes, she&#x2019;s probably beyond that,&#x201D; they say. &#x201C;No, there&#x2019;s no danger of that,&#x201D; and he reaches up to a shelf and takes a whistle that&#x2019;s lying there and bends down to the back of her head and begins blowing. And the hag jumps right up, &#x201C;Oh, I was having such a nice dream.&#x201D; She sits down to spin as if nothing had happened and spins so that the spinning wheel crackles. Well, the men look a little at this. &#x201C;You know what, Jens,&#x201D; they say, &#x201C;if you&#x2019;ll give us that whistle, then we&#x2019;ll forget the whole hat comedy thing,&#x201D; because they could use that whistle, their women were so tired of them. Well, they got the whistle and they went home quite happy. Then the man in the western farm says, &#x201C;I sure as heck want to try the whistle first, you tried the hat first. This time there&#x2019;s no cheating because was saw that the old woman was dead and came back to life.&#x201D;
+     The next evening he&#x2019;s sitting inside in the living room with his women and is eagerly waiting for one of them to fall asleep so that he could try this thing. Well, it was now this and now that, because these were some darn strong women, so if they didn&#x2019;t hit them pretty hard, he risked getting it right back. He sat there and thought about that. &#x201C;If you&#x2019;re going to hit, then you really need to hit hard, otherwise it won&#x2019;t work,&#x201D; he thought to himself. Then after a while, the wife fell asleep and she slept soundly. Now he&#x2019;d put a really thick cudgel in a corner to use for that purpose, he pulls it out and he smacks her one right in the face and she falls over as dead as a herring. &#x201C;What are you doing?&#x201D; the others say, and they jump up shouting and yelling, &#x201C;Did you kill your own wife? You&#x2019;re quite a daring person!&#x201D; &#x2013; &#x201C;Oh, there&#x2019;s no danger,&#x201D; he says, &#x201C;I&#x2019;ll wake her up again, don&#x2019;t complain.&#x201D; He takes the whistle and blows it in the back of her head, so water came out of both his eyes, but it didn&#x2019;t help. Then he says to the others: &#x201C;Now you&#x2019;d better keep quiet about this, because my neighbor sure as heck has to try this, I don&#x2019;t want to be the only one to be hurt like this.&#x201D; To make a long story short, exactly the same thing happened to the other one. 
+     Now they were busy for several days getting their wives buried and so Jens had peace for a while. In the meantime, some gypsies had wandered by and had gotten lodgings at Jens&#x2019;s and they had a foreign animal with them they called a wolf. They had left it with him and he had no idea what he should do with that animal. Then a little later the men come down to him one day and begin to blame him, saying he had killed their wives and all that. To that he answers, &#x201C;Well, I&#x2019;m not at fault there, because you saw what I did, and you must have hit wrong. But I&#x2019;ve gotten a ram here and I&#x2019;ll give it to you so we can stay friends.&#x201D;&#x2014;&#x201C;He looks like he&#x2019;s pulling a bit at the ropes,&#x201D; says the other man. &#x201C;Yes, he is,&#x201D; said Jens, &#x201C;but it&#x2019;s a foreign race and he is healthy and energetic, and the real advantage with him is that when he is put out in a flock of sheep, there&#x2019;ll be no illness among them.&#x201D; In those days, they had a really hard time keeping their sheep alive, because they always got sick. &#x201C;And there&#x2019;s one more thing&#x2014;he&#x2019;s really good at taking care of the lambs, and when you have him, the foxes won&#x2019;t get a single lamb.&#x201D; They finally thought that it was worth having. &#x201C;Let&#x2019;s have him, something is better than nothing,&#x201D; they said, and they got this ram and led him home. 
+     They had their sheepfold down below the farms and just at that time the fields were covered with snow, so they had driven all their sheep into a single fold, because the two men always drove their sheep together. When they released the wolf into the sheep, they said to their people: &#x201C;Now you&#x2019;re not to check on them for a few days, he needs to time to get to know them, otherwise he&#x2019;ll run away when the sheep are let out again.&#x201D; Well, the end of the ballad was that the wolf bit a bunch of sheep to death and broke a hole in the roof and ran away and they didn&#x2019;t see the ram again. When the people came to see to their sheep, they lay there in terrible shape.
+     Now a little time passed and the men went about wondering about what kind of animal it was that had eaten their sheep. Finally it occurred to them that Jens had played a trick on them. But now the winter had gotten so harsh, there was nothing they could do to him. 
+     But Jens hadn&#x2019;t gotten lazy during that time. He had gone down and bought himself an old nag, and he&#x2019;d housed it there in his house. Then toward spring time, the men came down to him one day and they immediately see this nag. &#x201C;What kind of a beast is that you&#x2019;ve gotten yourself Jens?&#x201D;&#x2014;&#x201C;There&#x2019;s a lot to earn with that beast,&#x201D; he says, &#x201C;it doesn&#x2019;t look like much, but it&#x2019;s good anyway.&#x201D; Now he had seen the men coming, and he&#x2019;d tied a basket onto its ass. &#x201C;What&#x2019;s that supposed to mean, that basket hanging there like that?&#x201D; they say. &#x201C;Oh,&#x201D; he says, &#x201C;that way I don&#x2019;t have to bother picking the money out of the shit.&#x201D; Well, then they wanted to go have a look in the basket, and there was a bunch of dung but also some copper coins. &#x201C;What, can that animal give money?&#x201D; they say. &#x201C;Sure, you can see that yourself,&#x201D; and at the same time he smacks the animal&#x2019;s ass. Then some shillings trickle out from its tail. &#x201C;Well, it sure looks that way,&#x201D; they say, &#x201C;it would certainly be worth it, having an animal like that.&#x201D; &#x201C;Yes,&#x201D; says Jens, &#x201C;it&#x2019;s a good investment this animal, but not for me since I can&#x2019;t afford to give it as good food as it needs. The better food it gets, the more money it gives.&#x201D; Well, the end of the ballad was that they got Jens to give them the animal and then they led it home. The man in the west farm got it first and he let it go about in one of his best rooms and he carried a bunch of oats in to it, and a bunch of bed clothes so that it would be comfortable, since he figured the better it lay the more money he&#x2019;d get. But it soon turned out that the nag ruined everything and still did not make any money. The other man got to try it too and it went the same way for him. 
+     Now it could well be that they had gotten mad at Jens and they agree with each other: &#x201C;Now we&#x2019;re going to destroy him, otherwise he&#x2019;ll destroy us.&#x201D; So they went down there again and they catch him and put him in a sack they&#x2019;d brought with them. They now set off with him in the sack and since their path went right past the church, they decided they would go in and listen to the minister. They could leave him lying quietly outside the church wall, and so they toss the sack down and go in. As he&#x2019;s lying there, he says quite loudly, &#x201C;No I don&#x2019;t ever want to go to heaven.&#x201D; An old man is walking by at that moment and he hears that. &#x201C;I certainly want to go to heaven if I can.&#x201D; &#x2013; &#x201C;Yes, you can get there easily,&#x201D; says Jens in the sack, &#x201C;if you&#x2019;ll climb into this sack, we&#x2019;d better switch places, because I&#x2019;m going to heaven right now.&#x201D; The old man opened up the sack for Jens and he climbs out, and the old man climbed into the bag and Jens ties it up good and tight for him. 
+     When the Hemstok men had listened to the end of the sermon, they go out and pick up the bag again and then they head off with it. This old guy asked them, &#x201C;Will we get there soon?&#x201D; &#x2013; &#x201C;Yes, it won&#x2019;t be long now, before you get there,&#x201D; they say and he was happy with that. When they got down to Ravn lake, they threw him out there and then they went home. But along the way between the lake and Boes, they pass Jens, he was driving a big herd of cows, they were some of the men&#x2019;s own cows that wandered about loose in the forest and he had gone there and now was driving a herd of them. &#x201C;What, are you here? Where did you find those cows?&#x201D; &#x2013; &#x201C;Well, I found them at the bottom of the lake. There&#x2019;s a wonderful pasture, and there were so many cows grazing there.&#x201D; &#x2013; &#x201C;Oh really,&#x201D; they said, &#x201C;we&#x2019;d better go down and get us a herd as well, when it&#x2019;s like that. But now we&#x2019;ll be careful and only one of us will go at a time, and when he gets down there and it turns out to be true, what the boy has told us, then he&#x2019;ll call up.&#x201D; That&#x2019;s what happened. When the first one jumped out, it said &#x201C;Plom!&#x201D; and the other one thought he said, &#x201C;Come!&#x201D; and so he jumped in after him. Then they both drowned because of their greed. Since then, Jens and his mother lived peacefully and they acted like people did back then.
+
+The teller has also heard the story told with one more event. Jens had gotten hold of a fox and then convinces them that it&#x2019;s a gander. They lead it up to their goose pen and let it stay with the geese. It killed all of them, and then it broke a hole in the wall and ran off, and they never saw it again.</english_publication>
+  <keywords>
+    <keyword id="15" frequency="1" keyword="agreement">agreement</keyword>
+    <keyword id="37" frequency="8" keyword="animals">animals</keyword>
+    <keyword id="51" frequency="3" keyword="asleep">asleep</keyword>
+    <keyword id="52" frequency="2" keyword="ass">ass</keyword>
+    <keyword id="63" frequency="3" keyword="bags">bags</keyword>
+    <keyword id="67" frequency="2" keyword="ballad">ballad</keyword>
+    <keyword id="76" frequency="3" keyword="basket">basket</keyword>
+    <keyword id="81" frequency="2" keyword="beast">beast</keyword>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="84" frequency="1" keyword="beer">beer</keyword>
+    <keyword id="113" frequency="2" keyword="blow">blow</keyword>
+    <keyword id="130" frequency="8" keyword="boy">boy</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="163" frequency="3" keyword="butter">butter</keyword>
+    <keyword id="172" frequency="2" keyword="canvas">canvas</keyword>
+    <keyword id="201" frequency="1" keyword="chair">chair</keyword>
+    <keyword id="212" frequency="1" keyword="cheat">cheat</keyword>
+    <keyword id="227" frequency="2" keyword="church">church</keyword>
+    <keyword id="229" frequency="2" keyword="churn">churn</keyword>
+    <keyword id="236" frequency="3" keyword="clothing">clothing</keyword>
+    <keyword id="246" frequency="2" keyword="coins">coins</keyword>
+    <keyword id="259" frequency="1" keyword="copper">copper</keyword>
+    <keyword id="274" frequency="3" keyword="cow">cow</keyword>
+    <keyword id="298" frequency="3" keyword="danger">danger</keyword>
+    <keyword id="303" frequency="1" keyword="darning">darning</keyword>
+    <keyword id="306" frequency="11" keyword="day">day</keyword>
+    <keyword id="317" frequency="3" keyword="death">death</keyword>
+    <keyword id="352" frequency="1" keyword="dream">dream</keyword>
+    <keyword id="355" frequency="4" keyword="drinking">drinking</keyword>
+    <keyword id="358" frequency="1" keyword="drowning">drowning</keyword>
+    <keyword id="386" frequency="3" keyword="evening">evening</keyword>
+    <keyword id="389" frequency="1" keyword="eye">eye</keyword>
+    <keyword id="392" frequency="3" keyword="fall">fall</keyword>
+    <keyword id="394" frequency="3" keyword="farm">farm</keyword>
+    <keyword id="400" frequency="1" keyword="fault">fault</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="421" frequency="1" keyword="flock">flock</keyword>
+    <keyword id="431" frequency="3" keyword="food">food</keyword>
+    <keyword id="433" frequency="1" keyword="foot">foot</keyword>
+    <keyword id="435" frequency="2" keyword="foreign">foreign</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="441" frequency="2" keyword="fox">fox</keyword>
+    <keyword id="445" frequency="1" keyword="friend">friend</keyword>
+    <keyword id="449" frequency="1" keyword="fun">fun</keyword>
+    <keyword id="458" frequency="1" keyword="geese">geese</keyword>
+    <keyword id="475" frequency="1" keyword="goose">goose</keyword>
+    <keyword id="484" frequency="1" keyword="grazing">grazing</keyword>
+    <keyword id="485" frequency="1" keyword="greed">greed</keyword>
+    <keyword id="492" frequency="1" keyword="gypsy">gypsy</keyword>
+    <keyword id="493" frequency="1" keyword="hag">hag</keyword>
+    <keyword id="498" frequency="3" keyword="happy">happy</keyword>
+    <keyword id="506" frequency="13" keyword="hat">hat</keyword>
+    <keyword id="517" frequency="2" keyword="heath">heath</keyword>
+    <keyword id="519" frequency="3" keyword="heaven">heaven</keyword>
+    <keyword id="521" frequency="4" keyword="hemstok_men">Hemstok men</keyword>
+    <keyword id="525" frequency="3" keyword="herd">herd</keyword>
+    <keyword id="528" frequency="1" keyword="herring">herring</keyword>
+    <keyword id="537" frequency="7" keyword="home">home</keyword>
+    <keyword id="539" frequency="3" keyword="homespun">homespun</keyword>
+    <keyword id="540" frequency="1" keyword="honest">honest</keyword>
+    <keyword id="548" frequency="2" keyword="house">house</keyword>
+    <keyword id="556" frequency="1" keyword="illness">illness</keyword>
+    <keyword id="560" frequency="2" keyword="inn">inn</keyword>
+    <keyword id="561" frequency="6" keyword="inn_keeper">inn keeper</keyword>
+    <keyword id="576" frequency="30" keyword="jens">Jens</keyword>
+    <keyword id="611" frequency="1" keyword="jutland">Jutland</keyword>
+    <keyword id="622" frequency="3" keyword="kill">kill</keyword>
+    <keyword id="679" frequency="3" keyword="lake">lake</keyword>
+    <keyword id="680" frequency="2" keyword="lamb">lamb</keyword>
+    <keyword id="698" frequency="1" keyword="lazy">lazy</keyword>
+    <keyword id="719" frequency="2" keyword="little_jens">Little Jens</keyword>
+    <keyword id="723" frequency="1" keyword="lodgings">lodgings</keyword>
+    <keyword id="751" frequency="1" keyword="market">market</keyword>
+    <keyword id="763" frequency="1" keyword="mead">mead</keyword>
+    <keyword id="782" frequency="1" keyword="milk">milk</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="793" frequency="9" keyword="money">money</keyword>
+    <keyword id="803" frequency="7" keyword="mother">mother</keyword>
+    <keyword id="819" frequency="3" keyword="nag">nag</keyword>
+    <keyword id="822" frequency="2" keyword="name">name</keyword>
+    <keyword id="828" frequency="1" keyword="neighbor">neighbor</keyword>
+    <keyword id="871" frequency="1" keyword="oats">oats</keyword>
+    <keyword id="873" frequency="7" keyword="old">old</keyword>
+    <keyword id="889" frequency="3" keyword="outside">outside</keyword>
+    <keyword id="917" frequency="1" keyword="pasture">pasture</keyword>
+    <keyword id="956" frequency="1" keyword="pitcher">pitcher</keyword>
+    <keyword id="969" frequency="1" keyword="pocket">pocket</keyword>
+    <keyword id="971" frequency="2" keyword="pole">pole</keyword>
+    <keyword id="972" frequency="1" keyword="polish">polish</keyword>
+    <keyword id="1041" frequency="1" keyword="roof">roof</keyword>
+    <keyword id="1044" frequency="1" keyword="rope">rope</keyword>
+    <keyword id="1087" frequency="1" keyword="sermon">sermon</keyword>
+    <keyword id="1093" frequency="1" keyword="shame">shame</keyword>
+    <keyword id="1095" frequency="10" keyword="sheep">sheep</keyword>
+    <keyword id="1097" frequency="1" keyword="shelf">shelf</keyword>
+    <keyword id="1100" frequency="2" keyword="shilling">shilling</keyword>
+    <keyword id="1103" frequency="1" keyword="shit">shit</keyword>
+    <keyword id="1111" frequency="1" keyword="sickness">sickness</keyword>
+    <keyword id="1150" frequency="1" keyword="snow">snow</keyword>
+    <keyword id="1154" frequency="1" keyword="son">son</keyword>
+    <keyword id="1177" frequency="1" keyword="spring">spring</keyword>
+    <keyword id="1186" frequency="1" keyword="stall">stall</keyword>
+    <keyword id="1200" frequency="3" keyword="story">story</keyword>
+    <keyword id="1206" frequency="2" keyword="straw">straw</keyword>
+    <keyword id="1239" frequency="1" keyword="tail">tail</keyword>
+    <keyword id="1246" frequency="2" keyword="thank">thank</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1261" frequency="2" keyword="tie">tie</keyword>
+    <keyword id="1262" frequency="1" keyword="tired">tired</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1282" frequency="6" keyword="trickery">trickery</keyword>
+    <keyword id="1313" frequency="2" keyword="walls">walls</keyword>
+    <keyword id="1315" frequency="2" keyword="wandering">wandering</keyword>
+    <keyword id="1320" frequency="2" keyword="water">water</keyword>
+    <keyword id="1326" frequency="1" keyword="weaving">weaving</keyword>
+    <keyword id="1331" frequency="2" keyword="west">west</keyword>
+    <keyword id="1335" frequency="2" keyword="wheel">wheel</keyword>
+    <keyword id="1338" frequency="6" keyword="whistle">whistle</keyword>
+    <keyword id="1343" frequency="4" keyword="wife">wife</keyword>
+    <keyword id="1345" frequency="1" keyword="wind">wind</keyword>
+    <keyword id="1346" frequency="1" keyword="window">window</keyword>
+    <keyword id="1355" frequency="3" keyword="wolf">wolf</keyword>
+    <keyword id="1356" frequency="8" keyword="woman">woman</keyword>
+    <keyword id="1361" frequency="1" keyword="work">work</keyword>
+  </keywords>
+  <etk_index id="40">
+    <heading_danish>Jyske Folkeminder</heading_danish>
+    <heading_english>Folklore from Jutland</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="32" display_name="Places: Heath"/>
+    <tango_index id="33" display_name="Places: Inn"/>
+    <tango_index id="35" display_name="Places: Market"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="77" display_name="Animals: Sheep"/>
+    <tango_index id="80" display_name="Actions or events: Church ceremony"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="85" display_name="Actions or events: Drowning"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+    <tango_index id="136" display_name="Animals: Wild"/>
+  </tango_indices>
+  <genre id="6" name="Folktale"/>
+</story>

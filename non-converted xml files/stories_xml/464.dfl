@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<story story_id="464">
+  <publication_info>DS_I_860</publication_info>
+  <full_name>527 - 0.00 - DS_I_860</full_name>
+  <informant_id>527</informant_id>
+  <informant_last_name>Refsg&#xE5;rd</informant_last_name>
+  <informant_first_name>Ane Kirstine</informant_first_name>
+  <informant_full_name>Ane Kirstine Refsg&#xE5;rd</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>488</place_id>
+      <name>R&#xF8;dding</name>
+      <display_name>R&#xF8;dding (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1000</place_id>
+      <name>H&#xF8;jslev kirke</name>
+      <display_name>H&#xF8;jslev kirke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="14">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_111</publication_info>
+      <full_name>150 - 1.11 - Unpub_BJK_111</full_name>
+      <url>data/stories/14.dfl</url>
+    </story>
+    <story story_id="388">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_830</publication_info>
+      <full_name>123 - 2.14 - DS_I_830</full_name>
+      <url>data/stories/388.dfl</url>
+    </story>
+    <story story_id="487">
+      <informant_id>524</informant_id>
+      <publication_info>DS_I_676</publication_info>
+      <full_name>524 - 0.00 - DS_I_676</full_name>
+      <url>data/stories/487.dfl</url>
+    </story>
+    <story story_id="561">
+      <informant_id>513</informant_id>
+      <publication_info>DS_I_889</publication_info>
+      <full_name>513 - 0.00 - DS_I_889</full_name>
+      <url>data/stories/561.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Da H&#xF6;jslev kirke skulde bygges, blev det revet ned om natten, som de byggede om dagen. Det opdagedes, at en bj&#xE6;rgmand, som boede i n&#xE6;rheden, gjorde det, og arbejdsfolkene gjorde da den akkord med ham, at han skulde bygge kirken og tillige indl&#xE6;gge s&#xE5; meget guld og s&#xF8;lv en steds i den, at den igjen kunde bygges op for, n&#xE5;r den br&#xE6;ndte eller blev faldef&#xE6;rdig, og derfor skulde han have b&#xE5;de den f&#xF8;rste og den sidste brud, som blev viet i kirken. Den f&#xF8;rste brud har han f&#xE5;et. Da de kj&#xF8;rte til kirke, blev der passet godt p&#xE5; hende, og hun kom ogs&#xE5; godt hjem, men da hun fik brudekrandsen af hovedet, fik bj&#xE6;rgmanden magt til at tage hende. Hun kom alts&#xE5; til at bo hos ham, men hver dag gik hun ned til en br&#xF8;nd og hentede vand. Hendes fader talte med hende og vilde befri hende, men hun svarede, at hun var godt nok forn&#xF8;jet, hvor hun var. Den sti, hvor bj&#xE6;rgmanden gik med hende, er al tid gr&#xF6;n b&#xE5;de sommer og vinter, og p&#xE5; den nordre side af kirken er en sten, hvori en lille hat er udhugget, og inden for den ligger skatten, som kirken skal bygges op for. Man skal en gang have pr&#xF8;vet p&#xE5; at bryde stenen ud, men fors&#xF8;get mislykkedes.</danish_publication>
+  <english_publication>When H&#xF8;jslev church was to be built, what they built during the day was torn down at night. It was discovered that the mound man, who lived nearby, did it and the workers made the deal with him that he should build the church and also put as much gold and silver somewhere in the church so that it could be rebuilt if it burned down or got destroyed, and then he&#x2019;d get both the first and the last bride who were married in the church. He&#x2019;s gotten the first bride. When they drove to the church, they watched out carefully for her and she also got home OK, but when she took the bridal wreath off her head, the mound man got the power to take her. She came to live with him but every day she went to a spring and fetched water. Her father spoke with her and wanted to free her but she answered that she was happy enough where she was. The path where the mound man walked with her is always green both in summer and winter, and on the north side of the church there is a stone on which a little hat is carved and inside that lies the treasure with which the church is to be rebuilt. Once they tried to break open the stone but the attempt failed.</english_publication>
+  <keywords>
+    <keyword id="143" frequency="3" keyword="bride">bride</keyword>
+    <keyword id="182" frequency="1" keyword="carved">carved</keyword>
+    <keyword id="227" frequency="6" keyword="church">church</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="333" frequency="1" keyword="discovery">discovery</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="443" frequency="1" keyword="free">free</keyword>
+    <keyword id="473" frequency="1" keyword="gold">gold</keyword>
+    <keyword id="498" frequency="1" keyword="happy">happy</keyword>
+    <keyword id="506" frequency="1" keyword="hat">hat</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="753" frequency="1" keyword="marriage">marriage</keyword>
+    <keyword id="807" frequency="3" keyword="mound_man">mound man</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="988" frequency="1" keyword="power">power</keyword>
+    <keyword id="1118" frequency="1" keyword="silver">silver</keyword>
+    <keyword id="1177" frequency="1" keyword="spring">spring</keyword>
+    <keyword id="1195" frequency="2" keyword="stone">stone</keyword>
+    <keyword id="1215" frequency="1" keyword="summer">summer</keyword>
+    <keyword id="1280" frequency="1" keyword="treasure">treasure</keyword>
+    <keyword id="1320" frequency="1" keyword="water">water</keyword>
+    <keyword id="1362" frequency="1" keyword="worker">worker</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="42" display_name="Places: Stream / River"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="90" display_name="Actions or events: Kidnapping"/>
+    <tango_index id="94" display_name="Actions or events: Oath"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

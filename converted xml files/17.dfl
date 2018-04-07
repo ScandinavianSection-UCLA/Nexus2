@@ -1,0 +1,87 @@
+<story><story_id>17</story_id>
+  <publication_info>JAH_VI_248</publication_info>
+  <full_name>150 - 1.14 - JAH_VI_248</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.14</order_told>
+  <fieldtrip><id>1</id>Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>7</place_id>
+      <name>Aarestrup</name>
+      <display_name>Aarestrup (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>656</place_id>
+      <name>Torstedlund</name>
+      <display_name>Torstedlund (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>482</story_id>
+      <informant_id>486</informant_id>
+      <publication_info>DS_VI_345</publication_info>
+      <full_name>486 - 0.00 - DS_VI_345</full_name>
+      <url>data/stories/482.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3241a</fielddiary_page_start>
+  <fielddiary_page_end>3241b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Despite the fact that the revenant in this story has been conjured down, Jens's mother is afraid that the ghost is still haunting when she sees the sparks up ahead. The threat of revenants breaking the bonds of being conjured are a constant threat in Danish legend tradition. Amusingly, it is the parish clerk, presumably the voice of reason and rationality given his role as school teacher, who is making the sparks because he too is afraid of walking the road alone. 
+
+     Tang Kristensen makes some significant additions in the published version, changing the order of events, and expanding on the thoughts and statements of Jens's mother.</annotation>
+  <danish_manuscript>Der skulde en v&#230;re bleven manet der nede i S&#248;r
+
+3241B
+vad. Min Moder kom en G. fra Torstedlund
+det var s. sjent, da [h] saa hun en der gik og slog
+Ild hele Tiden. S. var det Degnen i Aarestrup
+Niels Krafsen. Du var snart havde r&#230;d mig
+hen, s. h. Ja nu kan du bie lidt, s kan vi
+f&#248;lges ad. Nej h. vilde ikke bie. Deng. hun
+saa den Glitten s. t&#230;nkte hu, nu kommer h.
+Men s&#230;rt var det, Degnen ogsaa var r&#230;d og gik
+og hug Ild og det var et langt Stykke.
+</danish_manuscript>
+  <english_manuscript>There was supposed to be someone conjured down in S&#248;rvad. My mother was walking from Torstedlund late one night and she saw someone walking in front of her making sparks the whole time. It was the parish clerk from &#197;restrup, Niels Krafsen. &#8220;You almost scared me to death,&#8221; he said &#8220;Now you can wait a bit and we can accompany each other.&#8221; No, she didn&#8217;t want to wait there. When she&#8217;d seen the glittering, she&#8217;d thought, now he&#8217;s coming. It was strange that someone like the parish clerk was also scared, and went making sparks, and it was a long way.</english_manuscript>
+  <danish_publication>Der skal en gang v&#230;re bleven &#233;n manet der nede i S&#248;rvad. Min moder kom en aften sjent g&#229;ende fra Torstedlund og skulde der forbi, da s&#229; hun s&#229;dan en s&#230;r glitten forved sig, og det blev ved et langt stykke, indtil hun endelig n&#229;er det. Hun gik jo og t&#230;nkte: "Nu kommer han (gjengangeren)", men da var det ikke andet end degnen i &#197;restrup, Niels Krafsen, som gik og slog ild med hans fyrt&#246;j hele tiden. "Du var snart ved at have r&#230;det mig hen", sagde han, "jeg troede, du var et gjenf&#230;rd, og derfor slog jeg ild. Nu kan du bie lidt, s&#229; kan vi f&#248;lges ad". Nej, hun vilde ikke bie p&#229; det sted, og s&#229; gik hun hendes vej. S&#230;rt var det, at s&#229;dan en mand som degnen var liges&#229; r&#230;d som min moder for gjengangeren.</danish_publication>
+  <english_publication>There was supposed to be someone conjured down in S&#248;rvad. Late one night, my mother was walking from Torstedlund and had to go by that place, and then she all of a sudden sees a strange glittering in front of her, and it continued for quite a while, until she finally got up to it. She went and thought, &#8220;Now he&#8217;s coming  (the revenant),&#8221; but it wasn&#8217;t anything but the parish clerk from &#197;restrup, Niels Krafsen, who was walking along making sparks with his flint lighter the whole time. &#8220;You almost scared me to death,&#8221; he said, &#8220;I thought you were a revenant, and that&#8217;s why I kept making sparks. Now you can wait a bit and we can accompany each other.&#8221; No, she didn&#8217;t want to wait there, and so she went her way. It was strange that someone like the parish clerk was just as afraid of the revenant as my mother.</english_publication>
+  <keywords>
+    <keyword><id>13</id><frequency>1</frequency><keyword>afraid</keyword>afraid</keyword>
+    <keyword><id>255</id><frequency>1</frequency><keyword>conjuring</keyword>conjuring</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>420</id><frequency>1</frequency><keyword>flint</keyword>flint</keyword>
+    <keyword><id>803</id><frequency>2</frequency><keyword>mother</keyword>mother</keyword>
+    <keyword><id>840</id><frequency>1</frequency><keyword>niels_krafsen</keyword>Niels Krafsen</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>904</id><frequency>2</frequency><keyword>parish_clerk</keyword>parish clerk</keyword>
+    <keyword><id>1027</id><frequency>3</frequency><keyword>revenant</keyword>revenant</keyword>
+  </keywords>
+  <etk_index><id>36</id>
+    <heading_danish>Vore f&#230;dres tankes&#230;t og &#229;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>8</id><display_name>People: Farmwife</display_name></tango_index>
+    <tango_index><id>16</id><display_name>People: Parish Clerk</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>81</id><display_name>Actions or events: Conjuring</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

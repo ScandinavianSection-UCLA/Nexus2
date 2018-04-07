@@ -1,0 +1,105 @@
+<story><story_id>863</story_id>
+  <publication_info>DS_I_818</publication_info>
+  <full_name>0 - 0.00 - DS_I_818</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_mentioned</type>
+      <place_id>80</place_id>
+      <name>Boslunde</name>
+      <display_name>Boslunde (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>538</place_id>
+      <name>Skjelsk&#248;r</name>
+      <display_name>Skjelsk&#248;r (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>617</story_id>
+      <informant_id>365</informant_id>
+      <publication_info>DS_I_807</publication_info>
+      <full_name>365 - 0.00 - DS_I_807</full_name>
+      <url>data/stories/617.dfl</url>
+    </story>
+    <story><story_id>806</story_id>
+      <informant_id>506</informant_id>
+      <publication_info>DS_I_813</publication_info>
+      <full_name>506 - 0.00 - DS_I_813</full_name>
+      <url>data/stories/806.dfl</url>
+    </story>
+    <story><story_id>238</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_782</publication_info>
+      <full_name>235 - 1.19 - DS_I_782</full_name>
+      <url>data/stories/238.dfl</url>
+    </story>
+    <story><story_id>282</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_783</publication_info>
+      <full_name>235 - 1.61 - DS_I_783</full_name>
+      <url>data/stories/282.dfl</url>
+    </story>
+    <story><story_id>794</story_id>
+      <informant_id>435</informant_id>
+      <publication_info>DS_I_796</publication_info>
+      <full_name>435 - 0.00 - DS_I_796</full_name>
+      <url>data/stories/794.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En karl fra Boslunde red en aften silde fra Skjelsk&#248;r. Da han kom til Dyrehavsbakken, s&#229; han, at den st&#248;d p&#229; fire p&#230;le, og at troldene havde travlt med at dandse. Han blev holdende for at se p&#229; l&#246;jerne; men da kom der nogle af troldene ud og b&#248;d ham en drik i et guldb&#230;ger. Karlen tog imod b&#230;geret, men drikken kastede han bag sig og hesten, og dermed satte han af sted med b&#230;geret i h&#229;nden, alt hvad remmer og t&#246;j  kunde holde. Troldene fulgte efter, og de kom ham n&#230;rmere og n&#230;rmere. Han red da ind p&#229; marken, og det hjalp; han kunde nemlig ride tv&#230;rs over alle marker, men n&#229;r troldene kom til en agerren, s&#229; m&#229;tte de l&#248;be uden om. Alligevel var de karlen meget n&#230;r, da han kom til Boslunde, men da kastede han b&#230;geret ind over kirkeg&#229;rdsmuren, og nu l&#229; det p&#229; indviet jord, s&#229; kunde troldene ikke f&#229; det, de m&#229;tte da vende n&#230;sen om og hjem. Dagen efter viste det sig, at hesten havde flere svedne pletter p&#229; bagdelen, det var nogle dr&#229;ber af drikken, som havde voldt dette. B&#230;geret blev s&#229; ellers i lange tider brugt som alterb&#230;ger i Boslunde kirke.</danish_publication>
+  <english_publication>Late one night, a farmhand from Boslunde rode from Skjelsk&#248;r. When he got to Dyrehavsbakke, he saw that it was standing on four posts, and the trolls were busy dancing. He stopped to watch the fun; but then some trolls came out and offered him a drink in a gold cup. The farmhand accepted the cup, but he tossed the drink behind him and the horse, and then he took off as fast as he could with the cup in his hand. The trolls ran after him, and they got closer and closer. He rode onto the fields and that helped; he could ride across the fields, but when the trolls came to a furrow, they had to run around it. Despite that, they were very close to the farmhand when he got to Boslunde, but then he threw the cup over a church wall, and now it was on consecrated ground, so the trolls couldn't get it, they had to turn their noses around and go home. The next day it turned out that the horse had numerous scorched spots on its rump, it was some drops of the drink that had done that. The cup was used for a long time as the chalice in Boslunde church.</english_publication>
+  <keywords>
+    <keyword><id>202</id><frequency>1</frequency><keyword>chalice</keyword>chalice</keyword>
+    <keyword><id>227</id><frequency>2</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>256</id><frequency>1</frequency><keyword>consecrated</keyword>consecrated</keyword>
+    <keyword><id>287</id><frequency>5</frequency><keyword>cup</keyword>cup</keyword>
+    <keyword><id>297</id><frequency>1</frequency><keyword>dancing</keyword>dancing</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>355</id><frequency>3</frequency><keyword>drinking</keyword>drinking</keyword>
+    <keyword><id>395</id><frequency>3</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>410</id><frequency>2</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>449</id><frequency>1</frequency><keyword>fun</keyword>fun</keyword>
+    <keyword><id>451</id><frequency>1</frequency><keyword>furrow</keyword>furrow</keyword>
+    <keyword><id>473</id><frequency>1</frequency><keyword>gold</keyword>gold</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>545</id><frequency>2</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>868</id><frequency>1</frequency><keyword>nose</keyword>nose</keyword>
+    <keyword><id>1030</id><frequency>3</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1283</id><frequency>5</frequency><keyword>troll</keyword>troll</keyword>
+    <keyword><id>1313</id><frequency>1</frequency><keyword>walls</keyword>walls</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>27</id><display_name>Places: Cemetery</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>66</id><display_name>Supernatural Beings: Troll</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>82</id><display_name>Actions or events: Dancing</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

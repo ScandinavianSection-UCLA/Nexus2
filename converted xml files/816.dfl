@@ -1,0 +1,98 @@
+<story><story_id>816</story_id>
+  <publication_info>DS_VI_1078</publication_info>
+  <full_name>482 - 0.00 - DS_VI_1078</full_name>
+  <informant_id>482</informant_id>
+  <informant_last_name>M&#248;ller</informant_last_name>
+  <informant_first_name>Signe Christensen</informant_first_name>
+  <informant_full_name>Fru Signe Christensen M&#248;ller</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>762</place_id>
+      <name>Charlottenlund</name>
+      <display_name>Charlottenlund (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>575</place_id>
+      <name>Sorte Mose</name>
+      <display_name>Sorte Mose (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>276</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_VI_1079</publication_info>
+      <full_name>235 - 1.56 - DS_VI_1079</full_name>
+      <url>data/stories/276.dfl</url>
+    </story>
+    <story><story_id>500</story_id>
+      <informant_id>258</informant_id>
+      <publication_info>DS_V_956</publication_info>
+      <full_name>258 - 0.00 - DS_V_956</full_name>
+      <url>data/stories/500.dfl</url>
+    </story>
+    <story><story_id>329</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_IV_988</publication_info>
+      <full_name>90 - 1.06 - DS_IV_988</full_name>
+      <url>data/stories/329.dfl</url>
+    </story>
+    <story><story_id>349</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1100</publication_info>
+      <full_name>90 - 2.17 - DS_VI_1100</full_name>
+      <url>data/stories/349.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Klemmen i Sorte-mose kunde vise igjen. Mine bedstefor&#230;ldre havde nogle penge, der blev stj&#229;lne, og s&#229; gik bedstefader over til ham. Han spurgte om, hvad tid de var bleven borte, og det fik han at vide. Ja, han kunde m&#229;ske vise dem igjen, men var der nogle givet ud, kunde de ikke skaffes igjen. En 3, 4 dage efter skulde de en fredag aften se efter ved syldstenen under deres spisekammervindue. De fandt dem ogs&#229; s&#229; n&#230;r som nogle f&#229; mark og skilling, der manglede.
+     En dag sad Klemmen inde i stuen og sagde: "Nu kan a m&#230;rke, der er &#233;n i skoven, der vil stj&#230;le af tr&#230;et, a skal derud." S&#229; traf han og &#229; tyven, han stod endnu med tr&#230;et. "Ja, nu f&#229;r du at slippe, men hvis du gj&#246;r det tiere, skal det g&#229; dig ilde."</danish_publication>
+  <english_publication>Klemmen in Sorte Mose could show again. My grandparents had some money stolen from them, and so granddad went over to him. Klemmen asked him what time the money had disappeared and he told him. Well, he might be able to show the money again, but if any of it had been given away or spent, then the money would not be able to be recovered. Three or four days later, on a Friday night, they were supposed to look around the foundation stones under their dining room window. They found the money too, except for a few marks and shillings. 
+     One day, Klemmen sat in the living room and said, "I can feel that there's someone out in the forest who is planning to steal some wood, I better go out there and check." And he met the thief too, he was still standing there with the wood. "Well, I'll release you now but if you do it again, bad things will happen to you."</english_publication>
+  <keywords>
+    <keyword><id>306</id><frequency>2</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>328</id><frequency>1</frequency><keyword>dining</keyword>dining</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>438</id><frequency>1</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>440</id><frequency>1</frequency><keyword>foundation</keyword>foundation</keyword>
+    <keyword><id>478</id><frequency>1</frequency><keyword>grandfather</keyword>grandfather</keyword>
+    <keyword><id>480</id><frequency>1</frequency><keyword>grandparents</keyword>grandparents</keyword>
+    <keyword><id>634</id><frequency>2</frequency><keyword>klemmen</keyword>Klemmen</keyword>
+    <keyword><id>793</id><frequency>5</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1100</id><frequency>1</frequency><keyword>shilling</keyword>shilling</keyword>
+    <keyword><id>1195</id><frequency>1</frequency><keyword>stone</keyword>stone</keyword>
+    <keyword><id>1248</id><frequency>1</frequency><keyword>theft</keyword>theft</keyword>
+    <keyword><id>1250</id><frequency>1</frequency><keyword>thief</keyword>thief</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1346</id><frequency>1</frequency><keyword>window</keyword>window</keyword>
+    <keyword><id>1357</id><frequency>2</frequency><keyword>wood</keyword>wood</keyword>
+  </keywords>
+  <etk_index><id>28</id>
+    <heading_danish>Kloge m&#230;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>107</id><display_name>Time, Season, Weather: Friday</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

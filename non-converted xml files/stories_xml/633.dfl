@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<story story_id="633">
+  <publication_info>DS_VII_144</publication_info>
+  <full_name>217 - 0.00 - DS_VII_144</full_name>
+  <informant_id>217</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>831</place_id>
+      <name>Mosehusene, Jetsmark</name>
+      <display_name>Mosehusene, Jetsmark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>461</place_id>
+      <name>&#xD8;strup</name>
+      <display_name>&#xD8;strup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>266</place_id>
+      <name>Hj&#xF8;rring</name>
+      <display_name>Hj&#xF8;rring (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="146">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_146</publication_info>
+      <full_name>241 - 1.05 - DS_VII_146</full_name>
+      <url>data/stories/146.dfl</url>
+    </story>
+    <story story_id="643">
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_443</publication_info>
+      <full_name>331 - 0.00 - DS_VII_443</full_name>
+      <url>data/stories/643.dfl</url>
+    </story>
+    <story story_id="621">
+      <informant_id>400</informant_id>
+      <publication_info>DS_IV_1161</publication_info>
+      <full_name>400 - 0.00 - DS_IV_1161</full_name>
+      <url>data/stories/621.dfl</url>
+    </story>
+    <story story_id="659">
+      <informant_id>355</informant_id>
+      <publication_info>DS_VII_149</publication_info>
+      <full_name>355 - 0.00 - DS_VII_149</full_name>
+      <url>data/stories/659.dfl</url>
+    </story>
+    <story story_id="752">
+      <informant_id>550</informant_id>
+      <publication_info>DS_VII_141</publication_info>
+      <full_name>550 - 0.00 - DS_VII_141</full_name>
+      <url>data/stories/752.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der boede en mand i &#xD8;strup, som hed Anders Alleh&#xE5;nde, han var klog, men var vel alligevel ikke s&#xE5; klog som Kristen Madsen. S&#xE5; var der en kj&#xF6;bmand fra Hj&#xF6;rring, de kaldte Niels Gryt, hans kone havde den kloge mand beskyldt for at v&#xE6;re en trold. Nok er det, det bliver galt, kj&#xF6;bmanden bliver vred, og herredsfogden og s&#xE5; mange store bliver sanket, og Anders Alleh&#xE5;nde skal d&#xF6;mmes til at miste hans h&#xF6;jre h&#xE5;nd og s&#xE5; hans fingre. Dengang de var nu f&#xE6;rdige med det hele, og han var d&#xF6;mt til dette her, s&#xE5; kommer der en stor hund til d&#xF6;ren med nogle &#xF6;jne s&#xE5; klare og skrabede p&#xE5; den. "Vil I ikke lukke op for den hund", siger han, "s&#xE5; vil jeg." S&#xE5; kaldte han kj&#xF6;bmandens kone ved navn, og siden han gjorde det, s&#xE5; stod hun st&#xF6;v-splittern&#xF8;gen der inde ved dem, og kj&#xF6;bmanden tog hans kappe og slog over hende. Nu var Anders Alleh&#xE5;nde frelst, for de kunde da se, hvordan en kone kj&#xF6;bmanden havde. Efter den tid kunde Anders ingen ting huske.</danish_publication>
+  <english_publication>There was a man called Anders Alleh&#xE5;nde who lived in &#xD8;strup. He was cunning, but he wasn't as cunning as Kristen Madsen. Then there was a grocer from Hj&#xF8;rring, they called him Niels Gryt, and the cunning man accused his wife of being a witch. That's enough, it goes bad, the grocer gets angry, and the district bailiff and lots of other important people are brought together, and Anders Alleh&#xE5;nde is to be sentenced to lose his right hand and his fingers. Now when they were done with all that, and he was sentenced to this, then a large dog comes to the door with big clear eyes, and scratches at it. "If you won't let the dog in," he says, "then I will." Then he called the grocer's wife by name and when he did that, she was standing there buck naked in there with them, and the grocer took his cloak and threw it over her. Now Anders Alleh&#xE5;nde was saved, because they could see what kind of a wife the grocer had. After that time, Anders couldn't remember anything.</english_publication>
+  <keywords>
+    <keyword id="8" frequency="1" keyword="accused">accused</keyword>
+    <keyword id="36" frequency="1" keyword="angry">angry</keyword>
+    <keyword id="286" frequency="3" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="337" frequency="1" keyword="district_bailiff">district bailiff</keyword>
+    <keyword id="343" frequency="2" keyword="dog">dog</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="389" frequency="1" keyword="eye">eye</keyword>
+    <keyword id="412" frequency="1" keyword="finger">finger</keyword>
+    <keyword id="488" frequency="5" keyword="grocer">grocer</keyword>
+    <keyword id="666" frequency="1" keyword="kristen_madsen">Kristen Madsen</keyword>
+    <keyword id="821" frequency="1" keyword="naked">naked</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="839" frequency="1" keyword="niels_gryt">Niels Gryt</keyword>
+    <keyword id="1085" frequency="2" keyword="sentenced">sentenced</keyword>
+    <keyword id="1343" frequency="3" keyword="wife">wife</keyword>
+    <keyword id="1351" frequency="1" keyword="witch">witch</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

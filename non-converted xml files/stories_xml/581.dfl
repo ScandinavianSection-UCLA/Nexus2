@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<story story_id="581">
+  <publication_info>DS_IV_1788</publication_info>
+  <full_name>375 - 0.00 - DS_IV_1788</full_name>
+  <informant_id>375</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>J&#xF8;rgen</informant_first_name>
+  <informant_full_name>Friskolel&#xE6;rer J&#xF8;rgen Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>899</place_id>
+      <name>V&#xE6;rslev</name>
+      <display_name>V&#xE6;rslev (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1030</place_id>
+      <name>Birkendeg&#xE5;rd</name>
+      <display_name>Birkendeg&#xE5;rd (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1029</place_id>
+      <name>Sn&#xE6;veris skov</name>
+      <display_name>Sn&#xE6;veris skov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="875">
+      <informant_id/>
+      <publication_info>DS_IV_1778</publication_info>
+      <full_name>0 - 0.00 - DS_IV_1778</full_name>
+      <url>data/stories/875.dfl</url>
+    </story>
+    <story story_id="682">
+      <informant_id>494</informant_id>
+      <publication_info>DS_IV_1787</publication_info>
+      <full_name>494 - 0.00 - DS_IV_1787</full_name>
+      <url>data/stories/682.dfl</url>
+    </story>
+    <story story_id="462">
+      <informant_id>417</informant_id>
+      <publication_info>DS_IV_1777</publication_info>
+      <full_name>417 - 0.00 - DS_IV_1777</full_name>
+      <url>data/stories/462.dfl</url>
+    </story>
+    <story story_id="398">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_870</publication_info>
+      <full_name>123 - 2.24 - DS_III_870</full_name>
+      <url>data/stories/398.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der boede en from gudfrygtig munk i Sn&#xE6;verris skov ved Birkendeg&#xE5;rd, som havde taget et lille pigebarn til sig og givet det et lille lam til legekammerat, og de var da altid hos hinanden. S&#xE5; h&#xE6;ndtes det, at tre m&#xE6;nd, der led af en meget slem sygdom, kom til munken for at blive helbredede. "Ja, jeg kan nok helbrede jer, men det vil koste et offer af &#xE9;n, som endnu ikke kar l&#xE6;rt at ofre," sagde munken, "kan jeg derfor ikke blive fri?" Nej, det kunde han da ikke. "S&#xE5; grav da en grav!" Og de tre m&#xE6;nd tog fat. Derp&#xE5; kaldte han ad den lille pige og sagde til hende: "Kan du f&#xE5; dit lam til at springe ned i den grav?" &#x2014; "Ja, let," svarede hun glad og kaldte p&#xE5; lammet, der straks sprang ned "Kast nu jord p&#xE5;!" b&#xF8;d munken m&#xE6;ndene, og s&#xE5; blev den jordet, men de var med det samme helbredede.</danish_publication>
+  <english_publication>There was a pious god-fearing monk who lived in Sn&#xE6;verris woods near Birkendeg&#xE5;rd who had adopted a little girl and given her a lamb as a playmate, and they were always together. Then it happened that three men, who suffered from a really bad disease, came to the monk to be cured. "Yes, I can cure you, but it will cost you a sacrifice of someone who has yet learned how to sacrifice," said the monk, "so can&#x2019;t I avoid doing this?" No, he couldn&#x2019;t. "So dig a grave!" And the three men started. Then he called to the little girl and said to her, "Can you get your lamb to jump down in that grave?" &#x2014; "Well, that&#x2019;s easy," she said gladly and called for the lamb, which immediately jumped down. "Toss earth on it now!" the monk said to the men, and so it was buried, but the men were cured instantly.</english_publication>
+  <keywords>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="289" frequency="3" keyword="cure">cure</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="334" frequency="1" keyword="disease">disease</keyword>
+    <keyword id="368" frequency="1" keyword="earth">earth</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="472" frequency="1" keyword="god">god</keyword>
+    <keyword id="483" frequency="2" keyword="grave">grave</keyword>
+    <keyword id="680" frequency="3" keyword="lamb">lamb</keyword>
+    <keyword id="699" frequency="1" keyword="learning">learning</keyword>
+    <keyword id="794" frequency="4" keyword="monk">monk</keyword>
+    <keyword id="953" frequency="1" keyword="pious">pious</keyword>
+    <keyword id="963" frequency="1" keyword="playmate">playmate</keyword>
+    <keyword id="1256" frequency="2" keyword="three">three</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

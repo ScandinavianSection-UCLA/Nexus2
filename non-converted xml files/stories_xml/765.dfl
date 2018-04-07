@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<story story_id="765">
+  <publication_info>DS_II_E_125</publication_info>
+  <full_name>502 - 0.00 - DS_II_E_125</full_name>
+  <informant_id>502</informant_id>
+  <informant_last_name>Nissen</informant_last_name>
+  <informant_first_name>J. V.</informant_first_name>
+  <informant_full_name>L&#xE6;rer J. V. Nissen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>851</place_id>
+      <name>Ramten</name>
+      <display_name>Ramten (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="422">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_120</publication_info>
+      <full_name>123 - 3.19 - DS_II_E_120</full_name>
+      <url>data/stories/422.dfl</url>
+    </story>
+    <story story_id="773">
+      <informant_id>461</informant_id>
+      <publication_info>DS_II_E_144</publication_info>
+      <full_name>461 - 0.00 - DS_II_E_144</full_name>
+      <url>data/stories/773.dfl</url>
+    </story>
+    <story story_id="847">
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_E_117</publication_info>
+      <full_name>539 - 0.00 - DS_II_E_117</full_name>
+      <url>data/stories/847.dfl</url>
+    </story>
+    <story story_id="521">
+      <informant_id>487</informant_id>
+      <publication_info>DS_II_E_136</publication_info>
+      <full_name>487 - 0.00 - DS_II_E_136</full_name>
+      <url>data/stories/521.dfl</url>
+    </story>
+    <story story_id="265">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_145</publication_info>
+      <full_name>235 - 1.45 - DS_II_E_145</full_name>
+      <url>data/stories/265.dfl</url>
+    </story>
+    <story story_id="589">
+      <informant_id>543</informant_id>
+      <publication_info>DS_II_E_158</publication_info>
+      <full_name>543 - 0.00 - DS_II_E_158</full_name>
+      <url>data/stories/589.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Man skal ikke sl&#xE5; snoge og hugorme ihjel, ti jo mere man hader sligt skidteri, des mere ser man af det. Denne mening var forhen meget almindelig, og man troede, at b&#xE5;de snoge og tusser kunde malke k&#xF8;erne, og mente, at de vilde spise mad med b&#xF6;rnene.</danish_publication>
+  <english_publication>One shouldn't kill grass snakes and vipers, since the more you hate that kind of trash, the more of it you see. That belief used to be quite common, and they also used to think that grass snakes and toads could milk the cows, and they thought that they wanted to eat food with the children.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="274" frequency="1" keyword="cow">cow</keyword>
+    <keyword id="431" frequency="1" keyword="food">food</keyword>
+    <keyword id="482" frequency="2" keyword="grass_snake">grass snake</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="782" frequency="1" keyword="milk">milk</keyword>
+    <keyword id="1264" frequency="1" keyword="toad">toad</keyword>
+    <keyword id="1303" frequency="1" keyword="viper">viper</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="76" display_name="Animals: Serpent / Snake"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

@@ -1,0 +1,37 @@
+<informant><person_id>445</person_id>
+  <core_informant/>
+  <full_name>Peder Ladefoged</full_name>
+  <last_name>Ladefoged</last_name>
+  <first_name>Peder</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>795</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>445</informant_id>
+      <publication_info>DS_IV_2015</publication_info>
+      <full_name>445 - 0.00 - DS_IV_2015</full_name>
+      <url>data/stories/795.dfl</url>
+      <place_recorded><id>743</id>&#197;rup</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>743</place_id>
+      <name>&#197;rup</name>
+      <display_name>&#197;rup (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

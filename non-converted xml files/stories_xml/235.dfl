@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<story story_id="235">
+  <publication_info>DS_II_H_436</publication_info>
+  <full_name>235 - 1.16 - DS_II_H_436</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.16</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>425</place_id>
+      <name>Nielstrup</name>
+      <display_name>Nielstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="830">
+      <informant_id>69</informant_id>
+      <publication_info>DS_V_129</publication_info>
+      <full_name>69 - 0.00 - DS_V_129</full_name>
+      <url>data/stories/830.dfl</url>
+    </story>
+    <story story_id="686">
+      <informant_id>475</informant_id>
+      <publication_info>DS_II_H_484</publication_info>
+      <full_name>475 - 0.00 - DS_II_H_484</full_name>
+      <url>data/stories/686.dfl</url>
+    </story>
+    <story story_id="563">
+      <informant_id>104</informant_id>
+      <publication_info>DS_II_H_428</publication_info>
+      <full_name>104 - 0.00 - DS_II_H_428</full_name>
+      <url>data/stories/563.dfl</url>
+    </story>
+    <story story_id="544">
+      <informant_id>397</informant_id>
+      <publication_info>DS_II_H_430</publication_info>
+      <full_name>397 - 0.00 - DS_II_H_430</full_name>
+      <url>data/stories/544.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5215a (1)</fielddiary_page_start>
+  <fielddiary_page_end>5215a (1)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The apparition of the land surveyors in the preceding story leads into this short story of the apparition of a death omen. Carriages arriving late at night, or funeral processions that strangely disappear are common omens for an impending death (DS II H 428, H 430).</annotation>
+  <danish_manuscript>Der var et Sted i Nielstrup som de sad aller-
+bedst om Aftenen da h&#xF8;rte de noget der ras-
+lede og da de saa ud var det ligesom en Lig-
+skare der trak ud af deres Gaard, og s. inden
+et halvt Aar d&#xF8;de en gl. Kone de havde. det
+var min Bedstemoders Svigermoder.</danish_manuscript>
+  <english_manuscript>While they were sitting one evening some place in Nielstrup, they heard something clattering, and when they looked out, it looked as if a funeral procession was leaving their farm, and then within a half year, an old woman they had there died. That was my grandmother's mother-in-law.</english_manuscript>
+  <danish_publication>Som de sad allerbedst om aftenen et sted i Nielstrup, h&#xF8;rte de noget, der raslede, og da de s&#xE5; ud, var det, ligesom der trak en ligskare ud af deres g&#xE5;rd, og s&#xE5; inden et halvt &#xE5;r d&#xF8;de en gammel kone, de havde, det var netop min bedstemoders svigermoder.</danish_publication>
+  <english_publication>While they were sitting one evening some place in Nielstrup, they heard something clattering, and when they looked out, it looked as if a funeral procession was leaving their farm, and then within a half year, an old woman that lived with them there died, that was my grandmother&#x2019;s mother-in-law.</english_publication>
+  <keywords>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="450" frequency="1" keyword="funeral">funeral</keyword>
+    <keyword id="479" frequency="1" keyword="grandmother">grandmother</keyword>
+    <keyword id="697" frequency="1" keyword="law">law</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="999" frequency="1" keyword="procession">procession</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="9">
+    <heading_danish>D&#xF8;dsvarsler</heading_danish>
+    <heading_english>Death portents</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

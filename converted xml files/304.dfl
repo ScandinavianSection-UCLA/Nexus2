@@ -1,0 +1,67 @@
+<story><story_id>304</story_id>
+  <publication_info>Unpub_KMP_302</publication_info>
+  <full_name>235 - 3.02 - Unpub_KMP_302</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>3.02</order_told>
+  <fieldtrip><id>3</id>January 1894</fieldtrip>
+  <fieldtrip_start_date>1894-01-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-02-19</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>307</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>JAT_VI_187</publication_info>
+      <full_name>235 - 3.05 - JAT_VI_187</full_name>
+      <url>data/stories/307.dfl</url>
+    </story>
+    <story><story_id>320</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DSk_I_14</publication_info>
+      <full_name>235 - 3.18 - DSk_I_14</full_name>
+      <url>data/stories/320.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6420b</fielddiary_page_start>
+  <fielddiary_page_end>6421a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Snow was one of the challenges facing both farmers and cotters, since it made transportation difficult and often meant that they would be forced to shovel snow. Most winter work was done inside or in the barns. It is unclear what is meant by binding hook to staff. It is also unclear to which appendix Tang Kristensen was referring with the annotation, "till&#230;g dele." It may be that it is a note to himself and not something Kirsten Marie said.</annotation>
+  <danish_manuscript>I dag er det bedre Husmand end Gaardmand
+Naar det er Uvejr. Till&#230;g dele.
+Husmand s: i Hus end ude i Gaarden
+naar det sneer. 
+Du skal binde en stik ved stok saadan det kan
+l&#230;nge vare ned.</danish_manuscript>
+  <english_manuscript>These days the cotters are better than the farmers when the weather is bad. (Till&#230;g dele). Cotters say: in the house rather than out in the farmyard when it snows. You should bind hook to staff so that it can be down for a long time.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: These days the cotters are better than the farmers when the weather is bad. (Till&#230;g dele). Cotters say: in the house rather than out in the farmyard when it snows. You should bind hook to staff so that it can be down for a long time.</english_publication>
+  <keywords>
+    <keyword><id>97</id><frequency>1</frequency><keyword>bind</keyword>bind</keyword>
+    <keyword><id>264</id><frequency>2</frequency><keyword>cotter</keyword>cotter</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>396</id><frequency>1</frequency><keyword>farmer</keyword>farmer</keyword>
+    <keyword><id>548</id><frequency>1</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>1150</id><frequency>1</frequency><keyword>snow</keyword>snow</keyword>
+    <keyword><id>1324</id><frequency>1</frequency><keyword>weather</keyword>weather</keyword>
+  </keywords>
+  <etk_index><id>44</id>
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>123</id><display_name>Time, Season, Weather: Snow</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>7</id><name>Saying / Proverb</name></genre>
+</story>

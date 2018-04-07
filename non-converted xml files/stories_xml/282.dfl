@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<story story_id="282">
+  <publication_info>DS_I_783</publication_info>
+  <full_name>235 - 1.61 - DS_I_783</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.61</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>689</place_id>
+      <name>Vendingsh&#xF8;j</name>
+      <display_name>Vendingsh&#xF8;j (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>279</place_id>
+      <name>Hornslet</name>
+      <display_name>Hornslet (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>304</place_id>
+      <name>Hvonbj&#xE6;rg</name>
+      <display_name>Hvonbj&#xE6;rg (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>633</place_id>
+      <name>Tendrup</name>
+      <display_name>Tendrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="189">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_III_1380</publication_info>
+      <full_name>241 - 4.17 - DSnr_III_1380</full_name>
+      <url>data/stories/189.dfl</url>
+    </story>
+    <story story_id="377">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_959</publication_info>
+      <full_name>123 - 2.03 - DS_I_959</full_name>
+      <url>data/stories/377.dfl</url>
+    </story>
+    <story story_id="382">
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1370</publication_info>
+      <full_name>123 - 2.08 - DS_V_1370</full_name>
+      <url>data/stories/382.dfl</url>
+    </story>
+    <story story_id="511">
+      <informant_id>457</informant_id>
+      <publication_info>DS_I_755</publication_info>
+      <full_name>457 - 0.00 - DS_I_755</full_name>
+      <url>data/stories/511.dfl</url>
+    </story>
+    <story story_id="522">
+      <informant_id>519</informant_id>
+      <publication_info>DS_I_774</publication_info>
+      <full_name>519 - 0.00 - DS_I_774</full_name>
+      <url>data/stories/522.dfl</url>
+    </story>
+    <story story_id="561">
+      <informant_id>513</informant_id>
+      <publication_info>DS_I_889</publication_info>
+      <full_name>513 - 0.00 - DS_I_889</full_name>
+      <url>data/stories/561.dfl</url>
+    </story>
+    <story story_id="617">
+      <informant_id>365</informant_id>
+      <publication_info>DS_I_807</publication_info>
+      <full_name>365 - 0.00 - DS_I_807</full_name>
+      <url>data/stories/617.dfl</url>
+    </story>
+    <story story_id="671">
+      <informant_id>281</informant_id>
+      <publication_info>DS_I_960</publication_info>
+      <full_name>281 - 0.00 - DS_I_960</full_name>
+      <url>data/stories/671.dfl</url>
+    </story>
+    <story story_id="794">
+      <informant_id>435</informant_id>
+      <publication_info>DS_I_796</publication_info>
+      <full_name>435 - 0.00 - DS_I_796</full_name>
+      <url>data/stories/794.dfl</url>
+    </story>
+    <story story_id="806">
+      <informant_id>506</informant_id>
+      <publication_info>DS_I_813</publication_info>
+      <full_name>506 - 0.00 - DS_I_813</full_name>
+      <url>data/stories/806.dfl</url>
+    </story>
+    <story story_id="863">
+      <informant_id/>
+      <publication_info>DS_I_818</publication_info>
+      <full_name>0 - 0.00 - DS_I_818</full_name>
+      <url>data/stories/863.dfl</url>
+    </story>
+    <story story_id="130">
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_445</publication_info>
+      <full_name>150 - 4.19 - DS_III_445</full_name>
+      <url>data/stories/130.dfl</url>
+    </story>
+    <story story_id="238">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_782</publication_info>
+      <full_name>235 - 1.19 - DS_I_782</full_name>
+      <url>data/stories/238.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5229b</fielddiary_page_start>
+  <fielddiary_page_end>5230a</fielddiary_page_end>
+  <bibliographic_info>Tangherlini 2003
+Siikala 1990
+Labov and Waletzky 1967</bibliographic_info>
+  <bibliography_references>
+    <reference id="785" category="general">
+      <display_string>[Book section] Tangherlini, Timothy R. 2003. 'And all anyone heard...' : Crystallization in Paramedic Storytelling. In &lt;i&gt;Dynamics of tradition : perspectives on oral poetry and folk belief ; essays in honour of Anna-Leena Siikala on her 60th birthday 1st January 2003&lt;/i&gt;: 343-358. Helsinki: Finnish Literature Society.</display_string>
+    </reference>
+    <reference id="435" category="general">
+      <display_string>[Book] Siikala, Anna-Leena. 1990. &lt;i&gt;Interpreting oral narrative (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+    <reference id="602" category="general">
+      <display_string>[Book section] Labov, William, Waletzky, Joshua. 1967. Narrative Analysis. In &lt;i&gt;Essays on the verbal and visual arts&lt;/i&gt;: 12-44. Seattle: University of Washington Press.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>This story is a retelling of a story Kirsten Marie had told the day before (KMP 1.19). The story is similar to the earlier version, and confirms that legend (and personal experience narrative) can be crystallized in performance (Tangherlini 2003; Siikala 1990). Despite the crystallization, there are certain changes: the order of unbound phrases, place names, and word choice have all been slightly altered (Labov and Waletzky 1967). The etiological tag that explains how the church got its name, and how the mound came into being, remains a prominent feature of the story.
+
+     In the previous telling, Kirsten Marie had used the words "joor" and "boor," which were normalized to "jord" and "b&#xE5;rer" for "earth" and "fallow fields." In this telling, she substitutes the word "h&#xE5;r'e" (=h&#xE5;rde) for "joor" and the word "b&#xE5;re" for "boor." It may well be that Tang Kristensen normalized the spelling while writing, as he does not appear to be concerned with noting dialect or alternate pronunciations in this particular recording. The substitution of h&#xE5;rde for jord makes the interpretation of the mound woman's appeal easier: here she asks that he ride on the hard--presumably the road or path--and not on the fields.</annotation>
+  <danish_manuscript>Det var en G. en Karl kom ridende forbi et Bj&#xE6;rg
+paa Tendrup Mark de kalder det Hvonbj&#xE6;rget.
+S. kom der en fin Dame rendende ud fra
+Bj&#xE6;rget og bad ham holde, mens hu skj&#xE6;nkede
+ham en snaps. H. gav ogsaa Holdt og tog ogsaa
+Guldb&#xE6;geret af hende, men i Stedet for at drikke
+slog h. det bag over og der kom nogle Dripper
+paa Hesten og det tog hele Hvien af B&#xE6;stet
+paa de Steder. H. beholdte Hornet og satte af
+alt hvad h. kunde, tv&#xE6;rt over alle Agre og hun
+satte sig efter og bad ham om at ride paa det
+haarde og ikke paa det baare, for hu kunde
+ikke rende paa det pl&#xF8;jede, men skulde f&#xF8;lge
+Vejen. Hu rendte med en stor Haandfuld Jord
+i Haanden og da hu kom et Stykke hen, s kylte
+hun det og s. rendte hu sig [tilba] og s&#xF8;gte tilbage
+Der hvor hu kylte den Klump Jord, blev en
+stor H&#xF8;j og den kalder de V&#xF8;ndildsh&#xF8;j. Karlen
+
+5230A
+h. leverede Guldhornet her til Hornslet F&#xF8;r
+kaldtes det blot Sl&#xE6;t og s. sagde de at Kirken
+blev bygget op for det Horn, derfor kaldtes
+det nu Hornslet. Nu kalder de H&#xF8;jen
+H&#xE6;nildsh&#xF8;j, men det er V&#xE6;n. for det hu
+vendte om, og den ligger her imellem Horn
+slet og Skoven.
+</danish_manuscript>
+  <english_manuscript>A farmhand came riding past a mound on Tendrup field once, they call it Hvonbj&#xE6;rg. Then a fine lady came running down from the mound and asked him to stop while she poured him a snaps. He stopped and he took the gold cup from her but instead of drinking it, he threw it behind himself, and a couple of drops landed on the horse, it took all the skin off of the horse in those places. He kept the drinking horn and took off as fast as he could, right across the fields, and she set off after him and asked him to ride on the hard and not on the plowed fields because she couldn't run on the plowed land but had to follow the road. She ran with a large handful of dirt in her hand and after she'd come a ways she threw it and then she turned around and went back. A large mound appeared there where she'd thrown the clump of dirt and they call it V&#xF8;ndildsh&#xF8;j. The farmhand brought the horn here to Hornslet. Before they just called it Sl&#xE6;t and they say that the church was built with the horn, that's why it's called Hornslet now. Now they call the mound H&#xE6;nildsh&#xF8;j, but it is V&#xE6;ndildsh&#xF8;j, because she turned around, and it lies in between Hornslet and the forest.</english_manuscript>
+  <danish_publication>En karl kom en gang ridende forbi et bj&#xE6;rg p&#xE5; Tendrup mark, de kalder det Hvonbj&#xE6;rget. S&#xE5; kom der en fin dame rendende ned fra bj&#xE6;rget og bad ham holde, mens hun skj&#xE6;nkede ham en snaps. Han gav ogs&#xE5; holdt og tog guldb&#xE6;geret af hende, men i steden for at drikke slog han det bag over sig, og der kom nogle dripper p&#xE5; hesten, det tog hele hvien (huden) af b&#xE6;stet p&#xE5; de steder. Men hornet beholdt han i h&#xE5;nden og satte af, alt hvad han kunde, tv&#xE6;rt over alle agre, og hun satte bag efter og bad ham om at ride p&#xE5; det h&#xE5;r'e, og ikke p&#xE5; det b&#xE5;re, for hun skulde f&#xF8;lge vejen og kunde ikke rende p&#xE5; det pl&#xF6;jede. Hun rendte med en stor h&#xE5;ndfuld jord i h&#xE5;nden, og da hun kom et stykke hen, s&#xE5; kylte hun det, og s&#xE5; vendte hun sig og s&#xF6;gte tilbage. Der, hvor hun kylte den klump jord, blev en stor h&#xF6;j, og den kalder de Vendildsh&#xF6;j. Men karlen han leverede guldhornet her til Hornslet, og s&#xE5; sagde de, at kirken blev bygget op for det horn, derfor blev det nu kaldt Hornslet, f&#xF6;r kaldtes det blot Sl&#xE6;&#xE6;t. Nu kalder de h&#xF6;jen H&#xE6;nildsh&#xF6;j, men det er V&#xE6;ndildsh&#xF6;j, for det hun der vendte om, og den ligger her imellem Hornslet og skoven.</danish_publication>
+  <english_publication>A farmhand came riding past a mound on Tendrup field once, they call it Hvonbj&#xE6;rg. Then a fine lady came running down from the mound and asked him to hold a glass while she poured him a snaps. He stopped and he took the gold cup from her but instead of drinking it, he threw it behind himself, and a couple of drops landed on the horse, it took all the skin off of the horse in those places. But he held onto the drinking horn and took off as fast as he could, right across the fields, and she set off after him and asked him to ride on the hard and not on the plowed fields because she had to go along the road and couldn&#x2019;t run on the plowed land. She ran with a large handful of dirt and after she&#x2019;d come a ways she threw it and then she turned around and went back. A large mound appeared there where she&#x2019;d thrown the clump of dirt and they call it Vendingsh&#xF8;j. But the farmhand brought the horn here to Hornslet and they say that the church was built with the horn, that&#x2019;s why it was called Hornslet, before that it was just called Sl&#xE6;&#xE6;t. Now they call the mound H&#xE6;nildsh&#xF8;j, but it is V&#xE6;ndildsh&#xF8;j, because that&#x2019;s where she turned around, and it lies in between Hornslet and the forest.</english_publication>
+  <keywords>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="239" frequency="1" keyword="clump">clump</keyword>
+    <keyword id="287" frequency="1" keyword="cup">cup</keyword>
+    <keyword id="330" frequency="2" keyword="dirt">dirt</keyword>
+    <keyword id="355" frequency="1" keyword="drinking">drinking</keyword>
+    <keyword id="356" frequency="1" keyword="drinking_horn">drinking horn</keyword>
+    <keyword id="395" frequency="2" keyword="farm_hand">farmhand</keyword>
+    <keyword id="410" frequency="3" keyword="field">field</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="468" frequency="1" keyword="glass">glass</keyword>
+    <keyword id="473" frequency="1" keyword="gold">gold</keyword>
+    <keyword id="542" frequency="2" keyword="horn">horn</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="678" frequency="1" keyword="lady">lady</keyword>
+    <keyword id="682" frequency="1" keyword="land">land</keyword>
+    <keyword id="804" frequency="4" keyword="mound">mound</keyword>
+    <keyword id="966" frequency="1" keyword="plowing">plowing</keyword>
+    <keyword id="1030" frequency="2" keyword="riding">riding</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1128" frequency="1" keyword="skin">skin</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

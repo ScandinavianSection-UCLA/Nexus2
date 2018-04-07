@@ -1,0 +1,54 @@
+<informant><person_id>559</person_id>
+  <core_informant/>
+  <full_name>Kristen Pedersen</full_name>
+  <last_name>Pedersen</last_name>
+  <first_name>Kristen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>635</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>559</informant_id>
+      <publication_info>DS_II_D_77</publication_info>
+      <full_name>559 - 0.00 - DS_II_D_77</full_name>
+      <url>data/stories/635.dfl</url>
+      <place_recorded><id>234</id>Hals</place_recorded>
+      <places_mentioned>
+        <place><id>1041</id>
+          <name>Vium</name>
+        </place>
+        <place><id>1042</id>
+          <name>Torning</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>234</place_id>
+      <name>Hals</name>
+      <display_name>Hals (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1042</place_id>
+      <name>Torning</name>
+      <display_name>Torning (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1041</place_id>
+      <name>Vium</name>
+      <display_name>Vium (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

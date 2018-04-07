@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<story story_id="254">
+  <publication_info>DS_VII_1569</publication_info>
+  <full_name>235 - 1.34 - DS_VII_1569</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.34</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="256">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VII_1628</publication_info>
+      <full_name>235 - 1.36 - DS_VII_1628</full_name>
+      <url>data/stories/256.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5219a (1)</fielddiary_page_start>
+  <fielddiary_page_end>5219a (1)</fielddiary_page_end>
+  <bibliographic_info>R&#xF8;rbye 1976</bibliographic_info>
+  <bibliography_references>
+    <reference id="398" category="general">
+      <display_string>[Book] R&#xF8;rbye, Birgitte. 1976. &lt;i&gt;Kloge folk og skidtfolk. Kvaksalveriets epoke i Danmark&lt;/i&gt;. Copenhagen: Politiken.</display_string>
+    </reference>
+    <reference id="397" category="general">
+      <display_string>[Book section] R&#xF8;rbye, Birgitte. 1976. Den illegale sygdomsbehandling som folkloristisk problem. Bidrag til en sociokulturel oversigt for Danmark. In &lt;i&gt;Nordisk folketro. Studier till&#xE4;gnade Carl-Herman Tillhagen 17. december 1976&lt;/i&gt;: 203-20. Lund: Nordiska museet.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Tang Kristensen collected numerous folk remedies for common maladies. Many of these remedies were ones that people had learned from local cunning folk, others were ones that they had learned from family members, friends or coworkers. This particular remedy relies in part on the magical power of the church and Christian prayer. Through the nineteenth century, many of the cunning folk were evangelical Christians engaged in faith healing (R&#xF8;rbye 1976). The remedy also relies on sympathetic magic, where like produces like. Here, the diminishing numbers produce a similar diminishing effect for the warts.
+
+     The six remedies and spells that Kirsten Marie told may mark another break in the performance.</annotation>
+  <danish_manuscript>For gev&#xE6;xter. Vi skal bruge den h&#xF8;jre L&#xE6;ge
+finger og skrive avet om den og sige: Og
+sel min Datter, 8 bliver til 7, 7 ...
+6 ..... 1 bliver til intet. I Navn ...
+L&#xE6;ses 3 gange og derefter Fadervor 3 gange</danish_manuscript>
+  <english_manuscript>For warts. We need to use the right ring finder and write the "ave" around it and say, Ogsel my daughter, eight becomes seven, seven becomes six, six becomes five, five becomes four, four becomes three, three becomes two, two becomes one, one becomes nothing. In the name of God the Father. This is read three times and then three Our Father's.</english_manuscript>
+  <danish_publication>For gev&#xE6;kster.   Vi skal bruge den h&#xF6;jre l&#xE6;gefinger og skrive avet om den og sige: Ogsel min datter, 8 bliver til 7, 7 .. .
+6, 6 ... 5.....1 bliver til intet. I navn G. F. . . . L&#xE6;ses 3 gange og derefter Fadervor 3 gange.</danish_publication>
+  <english_publication>For warts. We need to use the right ring finder and write the &#x201C;ave&#x201D; around it and say, Ogsel my daughter, eight becomes seven, seven becomes six, six becomes five, five becomes four, four becomes three, three becomes two, two becomes one, one becomes nothing. In the name of God the Father. This is read three times and then three Our Fathers.</english_publication>
+  <keywords>
+    <keyword id="304" frequency="1" keyword="daughter">daughter</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="472" frequency="1" keyword="god">god</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="886" frequency="1" keyword="our_father">Our Father</keyword>
+    <keyword id="1033" frequency="1" keyword="ringing">ringing</keyword>
+    <keyword id="1089" frequency="2" keyword="seven">seven</keyword>
+    <keyword id="1256" frequency="4" keyword="three">three</keyword>
+    <keyword id="1367" frequency="1" keyword="writing">writing</keyword>
+  </keywords>
+  <etk_index id="30">
+    <heading_danish>Menneskets og kv&#xE6;gets sygdomme</heading_danish>
+    <heading_english>Human and cattle illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

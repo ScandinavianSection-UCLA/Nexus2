@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<story story_id="735">
+  <publication_info>DS_II_E_91</publication_info>
+  <full_name>505 - 0.00 - DS_II_E_91</full_name>
+  <informant_id>505</informant_id>
+  <informant_last_name>Olsen</informant_last_name>
+  <informant_first_name>N. P.</informant_first_name>
+  <informant_full_name>L&#xE6;rer N. P. Olsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>861</place_id>
+      <name>Selsingg&#xE5;rde, Sams&#xF8;</name>
+      <display_name>Selsingg&#xE5;rde, Sams&#xF8; (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>859</place_id>
+      <name>Sams&#xF8;</name>
+      <display_name>Sams&#xF8; (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>958</place_id>
+      <name>Lindholm</name>
+      <display_name>Lindholm (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="641">
+      <informant_id>331</informant_id>
+      <publication_info>DS_VI_1251</publication_info>
+      <full_name>331 - 0.00 - DS_VI_1251</full_name>
+      <url>data/stories/641.dfl</url>
+    </story>
+    <story story_id="41">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_1248</publication_info>
+      <full_name>150 - 1.38 - DS_VI_1248</full_name>
+      <url>data/stories/41.dfl</url>
+    </story>
+    <story story_id="292">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_84</publication_info>
+      <full_name>235 - 2.09 - DS_II_E_84</full_name>
+      <url>data/stories/292.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Ovre i Jylland boede en mand, som kunde uddrive rotter og mus, og da Samsingerne var meget plagede af s&#xE5;danne, blev der sendt bud over til ham, om han ikke vilde komme for at &#xF8;ve sin kunst. Det vilde han nok, men for at sikre sig mod en lindorm, hvis en s&#xE5;dan skulde findes herovre, forlangte han, at de skulde t&#xE6;nde og vedligeholde et stort b&#xE5;l, samt holde en kraftig hest opsadlet. Manden begyndte nu sin idr&#xE6;t; men s&#xE5; kom der en lindorm ovre fra Lindholm hen imod ham. Han steg da til hest, og da lindormen var t&#xE6;t ved ham, red han igjennem ilden. S&#xE5; snart ormen s&#xE5; dette, satte den bag efter. Det gjentog sig s&#xE5; tit, at ormen til sidst forbr&#xE6;ndte sig og d&#xF8;de deraf. &#xC5;ret efter efter kom manden herover igjen, og han vilde da hen at se stedet, hvor han havde f&#xE6;ldet lindormen; men i det han gik og sparkede til levningerne af den, fik han et ben i foden, og deraf d&#xF8;de han.
+     Det er en gammel tale, at den, der dr&#xE6;ber en lindorm, m&#xE5; ikke komme tilbage til stedet, hvor drabet er udf&#xF8;rt, da dette vil koste ham livet.</danish_publication>
+  <english_publication>Over in Jutland there lived a man who could drive out both rats and mice and since the people on Sams&#xF8; were plagued with those kind of things, he was sent for and asked if he couldn&#x2019;t come and practice his art. Sure enough he&#x2019;d do that, but to protect himself against a lindorm, if one was to be found over there, he requested that a big bonfire be lit and kept burning as well as a strong horse be kept saddled and ready. The man now began his sport; but then a lindorm came at him from over in Lindholm. He got up on the horse and when the lindorm was close to him he rode right through the fire. As soon as the lindorm saw that, it followed in quick pursuit. He repeated this so many times that finally the lindorm got burned and died from that. The next year the man came over here again and he wanted to go and see the place where he&#x2019;d defeated the lindorm; but while he went and kicked at the pieces of it, he got a bone splinter in his foot, and died from that. 
+     There is an old saying that the person who kills a lindorm may not come back to the place where the killing took place because that will cost him his life.</english_publication>
+  <keywords>
+    <keyword id="121" frequency="1" keyword="bones">bones</keyword>
+    <keyword id="122" frequency="1" keyword="bonfire">bonfire</keyword>
+    <keyword id="317" frequency="2" keyword="death">death</keyword>
+    <keyword id="413" frequency="3" keyword="fire">fire</keyword>
+    <keyword id="433" frequency="1" keyword="foot">foot</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="611" frequency="1" keyword="jutland">Jutland</keyword>
+    <keyword id="622" frequency="2" keyword="kill">kill</keyword>
+    <keyword id="712" frequency="7" keyword="lindorm">lindorm</keyword>
+    <keyword id="773" frequency="1" keyword="mice">mice</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1019" frequency="1" keyword="rats">rats</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1059" frequency="1" keyword="saddle">saddle</keyword>
+    <keyword id="1209" frequency="1" keyword="strength">strength</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="76" display_name="Animals: Serpent / Snake"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="134" display_name="Supernatural Beings: Lindorm / Basilisk"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

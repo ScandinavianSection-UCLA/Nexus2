@@ -1,0 +1,54 @@
+<informant><person_id>432</person_id>
+  <core_informant/>
+  <full_name>Ane Marie Kristensdatter</full_name>
+  <last_name>Kristensdatter</last_name>
+  <first_name>Ane Marie</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>466</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>432</informant_id>
+      <publication_info>DS_IV_1695</publication_info>
+      <full_name>432 - 0.00 - DS_IV_1695</full_name>
+      <url>data/stories/466.dfl</url>
+      <place_recorded><id>452</id>&#216;rum</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>467</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>432</informant_id>
+      <publication_info>DS_V_1390</publication_info>
+      <full_name>432 - 0.00 - DS_V_1390</full_name>
+      <url>data/stories/467.dfl</url>
+      <place_recorded><id>452</id>&#216;rum</place_recorded>
+      <places_mentioned>
+        <place><id>1001</id>
+          <name>Hornum</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>452</place_id>
+      <name>&#216;rum</name>
+      <display_name>&#216;rum (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1001</place_id>
+      <name>Hornum</name>
+      <display_name>Hornum (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

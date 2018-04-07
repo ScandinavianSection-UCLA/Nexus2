@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<story story_id="702">
+  <publication_info>DS_VII_517</publication_info>
+  <full_name>389 - 0.00 - DS_VII_517</full_name>
+  <informant_id>389</informant_id>
+  <informant_last_name>Hoberg</informant_last_name>
+  <informant_first_name>Margrethe</informant_first_name>
+  <informant_full_name>Margrethe Hoberg</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>804</place_id>
+      <name>Iowa, USA</name>
+      <display_name>Iowa, USA (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="890">
+      <informant_id/>
+      <publication_info>DS_VII_506</publication_info>
+      <full_name>0 - 0.00 - DS_VII_506</full_name>
+      <url>data/stories/890.dfl</url>
+    </story>
+    <story story_id="362">
+      <informant_id>90</informant_id>
+      <publication_info>DS_VII_505</publication_info>
+      <full_name>90 - 3.08 - DS_VII_505</full_name>
+      <url>data/stories/362.dfl</url>
+    </story>
+    <story story_id="661">
+      <informant_id>364</informant_id>
+      <publication_info>DS_VII_527</publication_info>
+      <full_name>364 - 0.00 - DS_VII_527</full_name>
+      <url>data/stories/661.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Jeg kjendte en kone, hun var nok fra &#xC5;rhus egnen. Hun fortalte, at i hendes hjem var der en heks. En ung pige bad hende for sp&#xF8;g l&#xE6;re sig at hekse. Hun tog hende da med op p&#xE5; loftet. I &#xE9;n af bj&#xE6;lkerne var der et rundt hul, og heksen havde en stok, som passede der til. Hun sagde til pigen, at hun skulde s&#xE6;tte stokken i hullet og g&#xE5; forkert rundt med den og sige: "Nu render a om stag', min Herre, min Gud vil a forsag'!" Men pigen sagde derimod: "Nu render a om stag', min Herre, min Gud skal mig bevar'!" S&#xE5; blev heksen rasende, og pigen blev ikke heks.</danish_publication>
+  <english_publication>I knew a woman who was probably from the &#xC5;rhus area. She said that there had been a witch in her home. A young girl asked her as a joke to teach her how to do witchcraft. She took her up to the attic. In one of the posts there was a round hole, and the witch had a staff which fit into it. She told the girl that she should put the staff in the hole and go the wrong way around with it and say: &#x201C;Now I run around the pole, my God, my Lord, I will abandon.&#x201D; But the girl said instead: &#x201C;Now I run around the pole, my God, my Lord will me protect!&#x201D; Then the witch became furious and the girl did not become a witch.</english_publication>
+  <keywords>
+    <keyword id="5" frequency="1" keyword="abandon">abandon</keyword>
+    <keyword id="55" frequency="1" keyword="attic">attic</keyword>
+    <keyword id="467" frequency="4" keyword="girl">girl</keyword>
+    <keyword id="472" frequency="2" keyword="god">god</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="604" frequency="1" keyword="joke">joke</keyword>
+    <keyword id="725" frequency="2" keyword="lord">lord</keyword>
+    <keyword id="971" frequency="2" keyword="pole">pole</keyword>
+    <keyword id="1351" frequency="4" keyword="witch">witch</keyword>
+    <keyword id="1353" frequency="1" keyword="witchcraft">witchcraft</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+    <keyword id="1374" frequency="1" keyword="young">young</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

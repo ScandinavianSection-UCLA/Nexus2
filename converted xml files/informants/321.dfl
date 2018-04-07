@@ -1,0 +1,37 @@
+<informant><person_id>321</person_id>
+  <core_informant/>
+  <full_name>Bodil Marie Andersdatter</full_name>
+  <last_name>Andersdatter</last_name>
+  <first_name>Bodil Marie</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>473</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>321</informant_id>
+      <publication_info>DS_II_G_106</publication_info>
+      <full_name>321 - 0.00 - DS_II_G_106</full_name>
+      <url>data/stories/473.dfl</url>
+      <place_recorded><id>313</id>Jerslev</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>313</place_id>
+      <name>Jerslev</name>
+      <display_name>Jerslev (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

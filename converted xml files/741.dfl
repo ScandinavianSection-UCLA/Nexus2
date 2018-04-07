@@ -1,0 +1,85 @@
+<story><story_id>741</story_id>
+  <publication_info>DS_VI_1004</publication_info>
+  <full_name>111 - 0.00 - DS_VI_1004</full_name>
+  <informant_id>111</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels ((Jens Jensen?)) Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>435</place_id>
+      <name>N&#248;rre Tranders</name>
+      <display_name>N&#248;rre Tranders (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>331</place_id>
+      <name>Klarup</name>
+      <display_name>Klarup (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>435</place_id>
+      <name>N&#248;rre Tranders</name>
+      <display_name>N&#248;rre Tranders (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>424</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VI_995</publication_info>
+      <full_name>123 - 3.21 - DS_VI_995</full_name>
+      <url>data/stories/424.dfl</url>
+    </story>
+    <story><story_id>352</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1028</publication_info>
+      <full_name>90 - 2.20 - DS_VI_1028</full_name>
+      <url>data/stories/352.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Den sorte smed i N&#246;rre-Tranders kunde stille et par l&#248;bske heste. Han gjorde det en gang her oppe ved m&#248;llen. Et par m&#230;nd var agende med en mand fra Klarup, og s&#229; var de ogs&#229; inde i m&#248;lleg&#229;rden. Hestene stod imidlertid foran vognen, og s&#229; blev de l&#248;bske. Manden, der ejede dem, sad jo inde og blev helt elendig, men s&#229; sagde smeden, som ogs&#229; sad der inde: "Det har ingen n&#248;d, lad mig komme ud." Han kom ud i en fart, og s&#229; blev hestene st&#229;ende ved den f&#248;rste g&#229;rd &#248;sten for m&#248;llen. "Nu kan vi godt g&#229; ind og tage os en dram til", sagde smeden, og hestene blev ogs&#229; st&#229;ende, til de kom ned til dem. En anden gang var det smedens kone, der gjorde det, for hun kunde det samme, han kunde. Det var et par b&#230;ster for et l&#230;s kj&#230;rve. Hun sagde: "T&#246;v lidt, det er ikke den vej, I skal", og s&#229; stod de nede p&#229; Utrupvejen ved Jens Rytters. Den sorte smed var for resten ogs&#229; en dygtig dyrl&#230;ge.</danish_publication>
+  <english_publication>The Black Smith in N&#248;rre-Tranders could stop a pair of run away horses. He did that once up here by the mill. A couple of guys were driving with a man from Klarup and then they also stopped in at the mill. The horses were standing in front of the wagon at the time, and then they stampeded. The man who owned them was sitting inside and got very upset, but then the smith, who was also sitting inside there said, "It won't help, let me go outside." He went outside quickly, and then the horses stopped at the first farm to the east of the mill. "Now we can go in and have us another dram," said the smith, and the horses kept standing there too until they came for them. Another time, it was the smith's wife who did it, since she could do it too, she could. It was a couple of horses pulling a load of hay. She said, "Wait a bit, you aren't supposed to go that way," and then they stood there down on Utrup road by Jens Rytter's place. The Black Smith was also a good animal doctor too.</english_publication>
+  <keywords>
+    <keyword><id>37</id><frequency>1</frequency><keyword>animals</keyword>animals</keyword>
+    <keyword><id>106</id><frequency>2</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>342</id><frequency>1</frequency><keyword>doctor</keyword>doctor</keyword>
+    <keyword><id>350</id><frequency>1</frequency><keyword>dram</keyword>dram</keyword>
+    <keyword><id>369</id><frequency>1</frequency><keyword>east</keyword>east</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>511</id><frequency>1</frequency><keyword>hay</keyword>hay</keyword>
+    <keyword><id>545</id><frequency>5</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>576</id><frequency>1</frequency><keyword>jens</keyword>Jens</keyword>
+    <keyword><id>783</id><frequency>3</frequency><keyword>mill</keyword>mill</keyword>
+    <keyword><id>889</id><frequency>2</frequency><keyword>outside</keyword>outside</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1146</id><frequency>5</frequency><keyword>smithing</keyword>smithing</keyword>
+    <keyword><id>1187</id><frequency>1</frequency><keyword>stampede</keyword>stampede</keyword>
+    <keyword><id>1311</id><frequency>1</frequency><keyword>wagon</keyword>wagon</keyword>
+    <keyword><id>1343</id><frequency>1</frequency><keyword>wife</keyword>wife</keyword>
+  </keywords>
+  <etk_index><id>28</id>
+    <heading_danish>Kloge m&#230;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>37</id><display_name>Places: Mill</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

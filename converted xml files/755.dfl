@@ -1,0 +1,99 @@
+<story><story_id>755</story_id>
+  <publication_info>DS_I_1164</publication_info>
+  <full_name>348 - 0.00 - DS_I_1164</full_name>
+  <informant_id>348</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Nikolaj</informant_first_name>
+  <informant_full_name>Student Nikolaj Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>1</place_id>
+      <name>Aaby</name>
+      <display_name>Aaby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>547</place_id>
+      <name>Skotrup</name>
+      <display_name>Skotrup (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>74</place_id>
+      <name>B&#248;rglum kloster</name>
+      <display_name>B&#248;rglum kloster (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>508</story_id>
+      <informant_id>319</informant_id>
+      <publication_info>DS_III_2440</publication_info>
+      <full_name>319 - 0.00 - DS_III_2440</full_name>
+      <url>data/stories/508.dfl</url>
+    </story>
+    <story><story_id>722</story_id>
+      <informant_id>498</informant_id>
+      <publication_info>DS_I_1158</publication_info>
+      <full_name>498 - 0.00 - DS_I_1158</full_name>
+      <url>data/stories/722.dfl</url>
+    </story>
+    <story><story_id>777</story_id>
+      <informant_id>402</informant_id>
+      <publication_info>DS_III_2164</publication_info>
+      <full_name>402 - 0.00 - DS_III_2164</full_name>
+      <url>data/stories/777.dfl</url>
+    </story>
+    <story><story_id>736</story_id>
+      <informant_id>345</informant_id>
+      <publication_info>DS_III_2326</publication_info>
+      <full_name>345 - 0.00 - DS_III_2326</full_name>
+      <url>data/stories/736.dfl</url>
+    </story>
+    <story><story_id>189</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_III_1380</publication_info>
+      <full_name>241 - 4.17 - DSnr_III_1380</full_name>
+      <url>data/stories/189.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#229; en h&#246;j nord for Skotrup og vest for B&#246;rglum kloster br&#230;ndte lys hver aften. En morgen havde der v&#230;ret kastet deri, og siden den tid br&#230;ndte der aldrig lys. Det skal have v&#230;ret Kristen Hejlesens fader, som grov der og fandt en skat; h&#246;jen var p&#229; hans ejendom. F&#246;r var han ussel og arm, men nu blev han den rigeste mand p&#229; B&#246;rglum gods og fik 16,000 rigsdaler byttet ved bankforandringen.</danish_publication>
+  <english_publication>A light burned every night at a mound north of Skotrup and west of B&#248;rglum kloster (monastery). One morning, someone dug there and since then no light has ever burned there. Supposedly it was Kristen Hejlesen's father who dug there and found a treasure; the mound was on his property. Before that, he was poor and miserable, but now he'd become the richest man on B&#246;rglum manor and exchanged sixteen thousand rixdollars when the bank law changed.</english_publication>
+  <keywords>
+    <keyword><id>326</id><frequency>2</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>413</id><frequency>2</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>664</id><frequency>1</frequency><keyword>kristen_hejlesen</keyword>Kristen Hejlesen</keyword>
+    <keyword><id>697</id><frequency>1</frequency><keyword>law</keyword>law</keyword>
+    <keyword><id>741</id><frequency>1</frequency><keyword>manor</keyword>manor</keyword>
+    <keyword><id>791</id><frequency>1</frequency><keyword>monastery</keyword>monastery</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>804</id><frequency>2</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>863</id><frequency>1</frequency><keyword>north</keyword>north</keyword>
+    <keyword><id>974</id><frequency>1</frequency><keyword>poor</keyword>poor</keyword>
+    <keyword><id>1029</id><frequency>1</frequency><keyword>rich</keyword>rich</keyword>
+    <keyword><id>1280</id><frequency>1</frequency><keyword>treasure</keyword>treasure</keyword>
+    <keyword><id>1331</id><frequency>1</frequency><keyword>west</keyword>west</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>109</id><display_name>Time, Season, Weather: Morning</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

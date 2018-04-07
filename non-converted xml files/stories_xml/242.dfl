@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<story story_id="242">
+  <publication_info>Unpub_KMP_122</publication_info>
+  <full_name>235 - 1.22 - Unpub_KMP_122</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.22</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>279</place_id>
+      <name>Hornslet</name>
+      <display_name>Hornslet (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>503</place_id>
+      <name>Rud</name>
+      <display_name>Rud (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="241">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_100</publication_info>
+      <full_name>235 - 1.21 - MA_I_100</full_name>
+      <url>data/stories/241.dfl</url>
+    </story>
+    <story story_id="244">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_VI_527</publication_info>
+      <full_name>235 - 1.24 - JAH_VI_527</full_name>
+      <url>data/stories/244.dfl</url>
+    </story>
+    <story story_id="300">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_465</publication_info>
+      <full_name>235 - 2.17 - MA_I_465</full_name>
+      <url>data/stories/300.dfl</url>
+    </story>
+    <story story_id="307">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_VI_187</publication_info>
+      <full_name>235 - 3.05 - JAT_VI_187</full_name>
+      <url>data/stories/307.dfl</url>
+    </story>
+    <story story_id="32">
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_781</publication_info>
+      <full_name>150 - 1.29 - JAT_VI_781</full_name>
+      <url>data/stories/32.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5216b</fielddiary_page_start>
+  <fielddiary_page_end>5216b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Tang Kristensen often made notations about Jutlandic dialect during performances. These likely were made in the lull between stories or perhaps when some other interruption caused a break in the flow of the recording session. These notations became important source material for Henning Feilberg when he compiled his dictionary of Jutlandic dialects, and for Jeppe Aakj&#xE6;r when he began to write stories and plays using these dialects. Tang Kristensen made contrastive comments, comparing pronunciations from one locality with those of a nearby community. The distance between Rud and Hornslet is approximately twelve kilometers and so the difference in pronunciation over such a short distance is quite striking.</annotation>
+  <danish_manuscript>Her bruges ingen ud(??) Lyd i Ruud
+I Hornslet
+--
+D&#xE6;ren, l&#xE5;jen m&#xE5;jen, sp&#xE5;jen s&#xE6;t j&#xE6;
+a d&#xE6;n stuel, en pl&#xE6;jer, [smi] sni, &#xE6;vel
+I Ruud: Daren, L&#xE5;en M&#xE5;en, sp&#xE5;en, s&#xE6;t
+jo opo d&#xE6;n [stoel] stuel, en Pl&#xE6;jel, Snej
+(Sne), &#xC6;vel.</danish_manuscript>
+  <english_manuscript>Here there is no "ud" sound in Ruud. In Hornslet. D&#xE6;ren, l&#xE5;jen m&#xE5;jen, sp&#xE5;jen s&#xE6;t j&#xE6; a d&#xE6;n stuel, en pl&#xE6;jer, [smi] sni, &#xE6;vel I Ruud: Daren, L&#xE5;en M&#xE5;en, sp&#xE5;en, s&#xE6;t jo opo d&#xE6;n [stoel] stuel, en Pl&#xE6;jel, Snej (Sne), &#xC6;vel.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: Here there is no "ud" sound in Ruud. In Hornslet. D&#xE6;ren, l&#xE5;jen m&#xE5;jen, sp&#xE5;jen s&#xE6;t j&#xE6; a d&#xE6;n stuel, en pl&#xE6;jer, [smi] sni, &#xE6;vel I Ruud: Daren, L&#xE5;en M&#xE5;en, sp&#xE5;en, s&#xE6;t jo opo d&#xE6;n [stoel] stuel, en Pl&#xE6;jel, Snej (Sne), &#xC6;vel.</english_publication>
+  <keywords>
+    <keyword id="1165" frequency="1" keyword="sounds">sounds</keyword>
+  </keywords>
+  <etk_index id="44">
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="12" name="Dialect"/>
+</story>

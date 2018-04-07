@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<story story_id="800">
+  <publication_info>DS_IV_1683</publication_info>
+  <full_name>442 - 0.00 - DS_IV_1683</full_name>
+  <informant_id>442</informant_id>
+  <informant_last_name>Kristiansen</informant_last_name>
+  <informant_first_name>Petrine</informant_first_name>
+  <informant_full_name>Petrine Kristiansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>412</place_id>
+      <name>Mollerup</name>
+      <display_name>Mollerup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>898</place_id>
+      <name>Ulfborg</name>
+      <display_name>Ulfborg (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>488</place_id>
+      <name>R&#xF8;dding</name>
+      <display_name>R&#xF8;dding (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>354</place_id>
+      <name>Krejbj&#xE6;rg</name>
+      <display_name>Krejbj&#xE6;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="392">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story story_id="530">
+      <informant_id>425</informant_id>
+      <publication_info>DS_IV_1684</publication_info>
+      <full_name>425 - 0.00 - DS_IV_1684</full_name>
+      <url>data/stories/530.dfl</url>
+    </story>
+    <story story_id="539">
+      <informant_id>238</informant_id>
+      <publication_info>DS_IV_1690</publication_info>
+      <full_name>238 - 0.00 - DS_IV_1690</full_name>
+      <url>data/stories/539.dfl</url>
+    </story>
+    <story story_id="799">
+      <informant_id>442</informant_id>
+      <publication_info>DS_IV_1681</publication_info>
+      <full_name>442 - 0.00 - DS_IV_1681</full_name>
+      <url>data/stories/799.dfl</url>
+    </story>
+    <story story_id="751">
+      <informant_id>479</informant_id>
+      <publication_info>DS_IV_1687</publication_info>
+      <full_name>479 - 0.00 - DS_IV_1687</full_name>
+      <url>data/stories/751.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Man fort&#xE6;ller i Ulvborg sogn og flere steder i Vesterjylland, at pesten kom drivende som en stor sort sky en dag folkene stod udenfor kirken. I H&#xF6;dding i Salling fort&#xE6;ller man, at en dag folkene var komne ud af Krejbj&#xE6;rg kirke, s&#xE5; de en stor sky komme drivende. Pr&#xE6;sten, der skal have v&#xE6;ret den samme R&#xF6;dding provst, der gik s&#xE5; meget ord af, og som frelste Randers pr&#xE6;st fra den Slemme, sagde, at det var pesten, der kom, "men nu vil vi alle sammen g&#xE5; ind i kirken og bede, at den ikke m&#xE5; komme til os." Det gjorde de s&#xE5;, og det skete, som de bad, for der d&#xF8;de ingen af pesten i R&#xF6;dding og Krejbj&#xE6;rg sogne.</danish_publication>
+  <english_publication>They tell that in Ulvborg parish and several other places in west Jutland that the plague came floating like a big black cloud one day when the people stood outside of the church. In R&#xF8;dding in Salling they say that one day the people had come out of Krejbj&#xE6;rg church, and they saw a large cloud come floating in. The minister, who was supposed to be the same R&#xF8;dding minister about whom so much was told and who saved the Randers minister from the Evil One, said that it was the plague that was coming, "but now we should all go into the church and pray that it won&#x2019;t come to us." So they did that and that&#x2019;s what happened since nobody from R&#xF8;dding and Krejbj&#xE6;rg parishes died of the plague.</english_publication>
+  <keywords>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="227" frequency="3" keyword="church">church</keyword>
+    <keyword id="237" frequency="2" keyword="cloud">cloud</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="387" frequency="1" keyword="evil">evil</keyword>
+    <keyword id="611" frequency="1" keyword="jutland">Jutland</keyword>
+    <keyword id="786" frequency="3" keyword="minister">minister</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="903" frequency="2" keyword="parish">parish</keyword>
+    <keyword id="959" frequency="3" keyword="plague">plague</keyword>
+    <keyword id="989" frequency="1" keyword="prayer">prayer</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

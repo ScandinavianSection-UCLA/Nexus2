@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="797">
+  <publication_info>DS_IV_1449</publication_info>
+  <full_name>501 - 0.00 - DS_IV_1449</full_name>
+  <informant_id>501</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Seminarist Peder Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>226</place_id>
+      <name>Hald</name>
+      <display_name>Hald (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>226</place_id>
+      <name>Hald</name>
+      <display_name>Hald (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>334</place_id>
+      <name>Kloster</name>
+      <display_name>Kloster (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>335</place_id>
+      <name>Kloster skov</name>
+      <display_name>Kloster skov (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>502</place_id>
+      <name>R&#xF8;verstuebakke</name>
+      <display_name>R&#xF8;verstuebakke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="151">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1486</publication_info>
+      <full_name>241 - 2.01 - DS_IV_1486</full_name>
+      <url>data/stories/151.dfl</url>
+    </story>
+    <story story_id="841">
+      <informant_id>437</informant_id>
+      <publication_info>DS_IV_1451</publication_info>
+      <full_name>437 - 0.00 - DS_IV_1451</full_name>
+      <url>data/stories/841.dfl</url>
+    </story>
+    <story story_id="154">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1465</publication_info>
+      <full_name>241 - 2.04 - DS_IV_1465</full_name>
+      <url>data/stories/154.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Imellem Kloster og Hald p&#xE5; Kloster ejendom i Kloster skov er to fordybninger, &#xE9;n ved hver side af vejen, og skr&#xE6;nten her ved, som fordybningerne findes i, kaldes R&#xF6;verstuebakke. Der har v&#xE6;ret r&#xF6;vere p&#xE5; dette sted, og de sp&#xE6;ndte en kj&#xE6;de med klokke ved over vejen...</danish_publication>
+  <english_publication>Between Kloster and Hald on the monastery property in Kloster forest there are two hollows, one on each side of the road, and the slope nearby where the hollows are is called R&#xF8;verstuebakke (Robber den hill). There were robbers there, and they strung a chain with bells on it over the road&#x2026;</english_publication>
+  <keywords>
+    <keyword id="88" frequency="1" keyword="bells">bells</keyword>
+    <keyword id="200" frequency="1" keyword="chain">chain</keyword>
+    <keyword id="322" frequency="1" keyword="den">den</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="530" frequency="1" keyword="hill">hill</keyword>
+    <keyword id="535" frequency="2" keyword="hollow">hollow</keyword>
+    <keyword id="791" frequency="1" keyword="monastery">monastery</keyword>
+    <keyword id="1036" frequency="2" keyword="road">road</keyword>
+    <keyword id="1037" frequency="2" keyword="robber">robber</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

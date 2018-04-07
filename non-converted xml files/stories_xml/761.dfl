@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<story story_id="761">
+  <publication_info>DS_II_D_99</publication_info>
+  <full_name>348 - 0.00 - DS_II_D_99</full_name>
+  <informant_id>348</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Nikolaj</informant_first_name>
+  <informant_full_name>Student Nikolaj Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>1</place_id>
+      <name>Aaby</name>
+      <display_name>Aaby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="194">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_D_63</publication_info>
+      <full_name>241 - 4.22 - DSnr_II_D_63</full_name>
+      <url>data/stories/194.dfl</url>
+    </story>
+    <story story_id="754">
+      <informant_id>558</informant_id>
+      <publication_info>DS_II_D_109</publication_info>
+      <full_name>558 - 0.00 - DS_II_D_109</full_name>
+      <url>data/stories/754.dfl</url>
+    </story>
+    <story story_id="635">
+      <informant_id>559</informant_id>
+      <publication_info>DS_II_D_77</publication_info>
+      <full_name>559 - 0.00 - DS_II_D_77</full_name>
+      <url>data/stories/635.dfl</url>
+    </story>
+    <story story_id="471">
+      <informant_id>326</informant_id>
+      <publication_info>DS_II_D_73</publication_info>
+      <full_name>326 - 0.00 - DS_II_D_73</full_name>
+      <url>data/stories/471.dfl</url>
+    </story>
+    <story story_id="535">
+      <informant_id>384</informant_id>
+      <publication_info>DS_II_D_72</publication_info>
+      <full_name>384 - 0.00 - DS_II_D_72</full_name>
+      <url>data/stories/535.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>For en halvtredsindstyve &#xE5;r siden gik en karl, som havde v&#xE6;ret dragon, tit ud om aftenen at lede om heste, og han havde et reb i lommen med en pind i, som han brugte til mundbid. N&#xE5;r det nu traf sig, at han kom til en flok heste, satte han sig gj&#xE6;rne op p&#xE5; en af dem. Det var en gang, at han traf en broget hest, som var s&#xE5; meget smuk. Den satte han sig op p&#xE5;, men den red med ham ud i en m&#xF8;lledam, s&#xE5; at han m&#xE5;tte lade sig drive af p&#xE5; brinken. Hesten forsvandt i dammen og med et stort br&#xF8;l, da han var kommen af. Siden tog han aldrig mere heste at ride p&#xE5;.</danish_publication>
+  <english_publication>Fifty years ago, a farm hand who had been a soldier often went out at night to look for horses, and he had a rope in his pocket with a little stick in it, which he used as a bit. When it happened that he found a flock of horses, he would gladly get up on one of them. One time, he found a mottled horse that was really beautiful. He got up on it, but it rode with him out into a millpond, so he had to get off at the bank, and the horse disappeared into the millpond with a loud roar, when he had gotten off. Since then, he never took another horse to ride.</english_publication>
+  <keywords>
+    <keyword id="82" frequency="1" keyword="beautiful">beautiful</keyword>
+    <keyword id="191" frequency="1" keyword="cavalry">cavalry</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="354" frequency="1" keyword="drift">drift</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="421" frequency="1" keyword="flock">flock</keyword>
+    <keyword id="545" frequency="5" keyword="horse">horse</keyword>
+    <keyword id="784" frequency="1" keyword="mill_pond">mill pond</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="969" frequency="1" keyword="pocket">pocket</keyword>
+    <keyword id="973" frequency="1" keyword="pond">pond</keyword>
+    <keyword id="1030" frequency="2" keyword="riding">riding</keyword>
+    <keyword id="1044" frequency="1" keyword="rope">rope</keyword>
+    <keyword id="1153" frequency="1" keyword="soldier">soldier</keyword>
+  </keywords>
+  <etk_index id="5">
+    <heading_danish>Vandets &#xE5;nder</heading_danish>
+    <heading_english>Water spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="19" display_name="People: Soldier"/>
+    <tango_index id="37" display_name="Places: Mill"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

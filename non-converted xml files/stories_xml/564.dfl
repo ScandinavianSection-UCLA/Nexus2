@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<story story_id="564">
+  <publication_info>DS_V_47</publication_info>
+  <full_name>158 - 0.00 - DS_V_47</full_name>
+  <informant_id>158</informant_id>
+  <informant_last_name>Krog</informant_last_name>
+  <informant_first_name>Bertil (B&#xE6;rtel)</informant_first_name>
+  <informant_full_name>Bertil (B&#xE6;rtel) Krog</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>695</place_id>
+      <name>Vester Hassing</name>
+      <display_name>Vester Hassing (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>287</place_id>
+      <name>Hovg&#xE5;rds m&#xF8;lle</name>
+      <display_name>Hovg&#xE5;rds m&#xF8;lle (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>440</place_id>
+      <name>N&#xF8;rre Sundby</name>
+      <display_name>N&#xF8;rre Sundby (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>382</place_id>
+      <name>L&#xF8;kken</name>
+      <display_name>L&#xF8;kken (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="158">
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_252</publication_info>
+      <full_name>241 - 2.08 - DS_V_252</full_name>
+      <url>data/stories/158.dfl</url>
+    </story>
+    <story story_id="880">
+      <informant_id/>
+      <publication_info>DS_V_43</publication_info>
+      <full_name>0 - 0.00 - DS_V_43</full_name>
+      <url>data/stories/880.dfl</url>
+    </story>
+    <story story_id="496">
+      <informant_id>434</informant_id>
+      <publication_info>DS_V_49</publication_info>
+      <full_name>434 - 0.00 - DS_V_49</full_name>
+      <url>data/stories/496.dfl</url>
+    </story>
+    <story story_id="452">
+      <informant_id>510</informant_id>
+      <publication_info>DS_V_42</publication_info>
+      <full_name>510 - 0.00 - DS_V_42</full_name>
+      <url>data/stories/452.dfl</url>
+    </story>
+    <story story_id="569">
+      <informant_id>205</informant_id>
+      <publication_info>DS_V_37</publication_info>
+      <full_name>205 - 0.00 - DS_V_37</full_name>
+      <url>data/stories/569.dfl</url>
+    </story>
+    <story story_id="834">
+      <informant_id>383</informant_id>
+      <publication_info>DS_V_45</publication_info>
+      <full_name>383 - 0.00 - DS_V_45</full_name>
+      <url>data/stories/834.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Min oldefader hed Fan&#xF8;e og var herredsskriver. Han boede i Hovg&#xE5;rds m&#xF8;lle og red til tinget to gange om ugen. Det var skiftevis i L&#xF8;kken og N&#xF6;rre-Sundby. Den gang var der ingen landevej, og en aften han red hjem fra Sundby og kom ud i Atrup enge, kom der en stud efter ham. Han kunde ikke ride s&#xE5; st&#xE6;rkt, den kunde jo f&#xF8;lge ham, og s&#xE5;dan blev den ved en god fjerdingvej. Da han kom hen til det &#xF6;sterste af Vester-enge, blev den der. Min oldefader mente, at det var selve Lucifer, han var kommen i med, og mente, at den kom nok ikke til flok igjen.</danish_publication>
+  <english_publication>My great grandfather was named Fan&#xF8;e and was a district clerk. He lived in Hovg&#xE5;rds mill, and rode twice a week to the assembly. It alternated between L&#xF8;kken and N&#xF8;rre-Sundby. At that time, there was no highway, and one night while he was riding home from Sundby and came out into the Atrup meadows, a steer came after him. He couldn't ride fast enough that it couldn't follow him, and it continued like that for a good mile. When he got to the eastern-most edge of West meadow, it stayed there. My great grandfather believed that it was Lucifer himself he had fallen in with and believed that it didn't go back to its flock.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="2" keyword="belief">belief</keyword>
+    <keyword id="336" frequency="1" keyword="district">district</keyword>
+    <keyword id="369" frequency="1" keyword="east">east</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="421" frequency="1" keyword="flock">flock</keyword>
+    <keyword id="478" frequency="2" keyword="grandfather">grandfather</keyword>
+    <keyword id="529" frequency="1" keyword="highway">highway</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="764" frequency="2" keyword="meadow">meadow</keyword>
+    <keyword id="783" frequency="1" keyword="mill">mill</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1030" frequency="3" keyword="riding">riding</keyword>
+    <keyword id="1190" frequency="1" keyword="steer">steer</keyword>
+    <keyword id="1328" frequency="1" keyword="week">week</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="36" display_name="Places: Meadow"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

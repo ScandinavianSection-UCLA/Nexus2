@@ -1,0 +1,69 @@
+<story><story_id>468</story_id>
+  <publication_info>DS_V_1026</publication_info>
+  <full_name>463 - 0.00 - DS_V_1026</full_name>
+  <informant_id>463</informant_id>
+  <informant_last_name>Madsdatter</informant_last_name>
+  <informant_first_name>Ane Marie</informant_first_name>
+  <informant_full_name>Ane Marie Madsdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>760</place_id>
+      <name>Brovst</name>
+      <display_name>Brovst (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>760</place_id>
+      <name>Brovst</name>
+      <display_name>Brovst (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>223</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DSnr_IV_469a</publication_info>
+      <full_name>235 - 1.04 - DSnr_IV_469a</full_name>
+      <url>data/stories/223.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En julemorgen a stod i kj&#248;kkenet i Brovst pr&#230;steg&#229;rd for at bage vandbakkelser, da s&#229; a en kvinde i en r&#248;d bindtr&#246;je og med en stor skj&#230;ghat p&#229; og et stort tavleret forkl&#230;de for sig st&#229; uden for vinduet. S&#229; bliver a jo r&#230;d og flyver ud i spisekammeret. Den gamle kone, der skulde hj&#230;lpe mig til rette, hun m&#229;tte til at hente formen for mig, for a turde ikke. S&#229; snart a kom ud i kj&#248;kkenet igjen, stod hun atter uden for vinduet. Madammen havde set hende aftenen f&#246;r oppe i en lang gang, og da tykte hun, det var hendes s&#248;ster.</danish_publication>
+  <english_publication>One morning, I was standing in the kitchen in the Brovst parsonage baking muffins when I saw a woman in a red knit sweater wearing a big funny hat and a large checked apron standing outside the window. So I get scared and tear off into the dining room. The old woman who was supposed to help me out had to go get the baking forms for me since I didn&#8217;t dare. As soon as I came out to the kitchen, she was standing outside the window again. The madam had seen her the night before up in a long corridor and she thought that it was her sister.</english_publication>
+  <keywords>
+    <keyword><id>44</id><frequency>1</frequency><keyword>apron</keyword>apron</keyword>
+    <keyword><id>65</id><frequency>2</frequency><keyword>baking</keyword>baking</keyword>
+    <keyword><id>328</id><frequency>1</frequency><keyword>dining</keyword>dining</keyword>
+    <keyword><id>506</id><frequency>1</frequency><keyword>hat</keyword>hat</keyword>
+    <keyword><id>631</id><frequency>2</frequency><keyword>kitchen</keyword>kitchen</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>889</id><frequency>2</frequency><keyword>outside</keyword>outside</keyword>
+    <keyword><id>906</id><frequency>1</frequency><keyword>parsonage</keyword>parsonage</keyword>
+    <keyword><id>1021</id><frequency>1</frequency><keyword>red</keyword>red</keyword>
+    <keyword><id>1124</id><frequency>1</frequency><keyword>sister</keyword>sister</keyword>
+    <keyword><id>1230</id><frequency>1</frequency><keyword>sweater</keyword>sweater</keyword>
+    <keyword><id>1346</id><frequency>2</frequency><keyword>window</keyword>window</keyword>
+    <keyword><id>1356</id><frequency>2</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>24</id>
+    <heading_danish>Kvindelige gjenf&#230;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>49</id><display_name>Tools, Items and Conveyances: Food and Drink</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,89 @@
+<story><story_id>754</story_id>
+  <publication_info>DS_II_D_109</publication_info>
+  <full_name>558 - 0.00 - DS_II_D_109</full_name>
+  <informant_id>558</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>880</place_id>
+      <name>Stj&#230;r</name>
+      <display_name>Stj&#230;r (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>194</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_D_63</publication_info>
+      <full_name>241 - 4.22 - DSnr_II_D_63</full_name>
+      <url>data/stories/194.dfl</url>
+    </story>
+    <story><story_id>761</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_D_99</publication_info>
+      <full_name>348 - 0.00 - DS_II_D_99</full_name>
+      <url>data/stories/761.dfl</url>
+    </story>
+    <story><story_id>471</story_id>
+      <informant_id>326</informant_id>
+      <publication_info>DS_II_D_73</publication_info>
+      <full_name>326 - 0.00 - DS_II_D_73</full_name>
+      <url>data/stories/471.dfl</url>
+    </story>
+    <story><story_id>535</story_id>
+      <informant_id>384</informant_id>
+      <publication_info>DS_II_D_72</publication_info>
+      <full_name>384 - 0.00 - DS_II_D_72</full_name>
+      <url>data/stories/535.dfl</url>
+    </story>
+    <story><story_id>635</story_id>
+      <informant_id>559</informant_id>
+      <publication_info>DS_II_D_77</publication_info>
+      <full_name>559 - 0.00 - DS_II_D_77</full_name>
+      <url>data/stories/635.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand havde v&#230;ret til kroes en efter&#229;rsaften og gik hjem efter. S&#229; gik der et gammelt b&#230;st &#230;for ved ham. Han r&#229;bte da til det: "Kan du ikke bie lidt, vi kunde f&#248;lges ad?" B&#230;stet svarede naturligvis ikke, men det gik dog lidt mere sagte. "Da var det vel, du kunde give dig stunder, at du kunde v&#230;re mig behj&#230;lpelig, a har meget at b&#230;re. Det er slemt beskidt i aften, og nu kan du b&#230;re min byldt og mig selv ogs&#229;." S&#229; sprang han op p&#229; ryggen af krikket og red ind i byen. Den gang de kom til kirkeg&#229;rden, blev b&#230;stet s&#229; stort som et hus, og manden kom til at h&#230;nge i den alydre kvist af et af de store tr&#230;er, der gj&#230;rne er om ved kirkeg&#229;rden, s&#229; kunde han redde sig ned derfra, som han vilde. Han kl&#248;v jo ned, men havde ondt ved det.</danish_publication>
+  <english_publication>A man had been to the inn one fall evening and he went home afterward. Then there was an old horse walking in front of him. "Can't you wait a bit, we could walk together?" The horse doesn't answer, of course, but it did slow down. "That was good that you could wait up, perhaps you could help me, I have a lot to carry. Things are pretty bad tonight, and so you can carry my package and me too." Then he jumped up on the horse and rode into town. When they got to the cemetery, the horse became as big as a house, and the man wound up hanging onto the upper most branch of one of the big trees that are around the cemetery, then he had to get down from there however he could. He crawled down, but it hurt.</english_publication>
+  <keywords>
+    <keyword><id>135</id><frequency>1</frequency><keyword>branches</keyword>branches</keyword>
+    <keyword><id>196</id><frequency>2</frequency><keyword>cemetery</keyword>cemetery</keyword>
+    <keyword><id>386</id><frequency>1</frequency><keyword>evening</keyword>evening</keyword>
+    <keyword><id>392</id><frequency>1</frequency><keyword>fall</keyword>fall</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>545</id><frequency>4</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>548</id><frequency>1</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>560</id><frequency>1</frequency><keyword>inn</keyword>inn</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1030</id><frequency>1</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1269</id><frequency>1</frequency><keyword>tonight</keyword>tonight</keyword>
+    <keyword><id>1275</id><frequency>1</frequency><keyword>town</keyword>town</keyword>
+    <keyword><id>1281</id><frequency>1</frequency><keyword>tree</keyword>tree</keyword>
+    <keyword><id>1365</id><frequency>1</frequency><keyword>wound</keyword>wound</keyword>
+  </keywords>
+  <etk_index><id>5</id>
+    <heading_danish>Vandets &#229;nder</heading_danish>
+    <heading_english>Water spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>27</id><display_name>Places: Cemetery</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>117</id><display_name>Time, Season, Weather: Fall</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

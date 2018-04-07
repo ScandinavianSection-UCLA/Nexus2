@@ -1,0 +1,54 @@
+<informant><person_id>409</person_id>
+  <core_informant/>
+  <full_name>Kristen Jepsen</full_name>
+  <last_name>Jepsen</last_name>
+  <first_name>Kristen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>626</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>409</informant_id>
+      <publication_info>DS_II_C_91</publication_info>
+      <full_name>409 - 0.00 - DS_II_C_91</full_name>
+      <url>data/stories/626.dfl</url>
+      <place_recorded><id>855</id>R&#248;dhus, Hune</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>627</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>409</informant_id>
+      <publication_info>DS_IV_1535</publication_info>
+      <full_name>409 - 0.00 - DS_IV_1535</full_name>
+      <url>data/stories/627.dfl</url>
+      <place_recorded><id>855</id>R&#248;dhus, Hune</place_recorded>
+      <places_mentioned>
+        <place><id>424</id>
+          <name>Nibe</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>855</place_id>
+      <name>R&#248;dhus, Hune</name>
+      <display_name>R&#248;dhus, Hune (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>424</place_id>
+      <name>Nibe</name>
+      <display_name>Nibe (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

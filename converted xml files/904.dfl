@@ -1,0 +1,67 @@
+<story><story_id>904</story_id>
+  <publication_info>JAH_II_253</publication_info>
+  <full_name>0 - 0.00 - JAH_II_253</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>282</place_id>
+      <name>Hornum</name>
+      <display_name>Hornum (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>76</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_256</publication_info>
+      <full_name>150 - 3.13 - JAH_II_256</full_name>
+      <url>data/stories/76.dfl</url>
+    </story>
+    <story><story_id>906</story_id>
+      <informant_id>567</informant_id>
+      <publication_info>JAH_II_255</publication_info>
+      <full_name>567 - 0.00 - JAH_II_255</full_name>
+      <url>data/stories/906.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Hr. Speitzer p&#229; &#214;rndrup var ilde lidt af b&#248;nderne for sin str&#230;ngheds skyld. Dette f&#248;rte til, at han en gang p&#229; hjemrejsen fra L&#248;gst&#248;r blev overfalden af to karle p&#229; heden, de knuste hans h&#246;jre h&#229;nd mellem to stene og flygtede s&#229; bort. Han solgte g&#229;rden ved 1777 og skal siden i Kj&#246;benhavn have truffet den ene af karlene p&#229; gaden. Han undslap dog og kom nok til Rendsborg, hvor han blev v&#230;rtshusholder. Han hed Kristen Roed og var broder til nuv&#230;rende g&#229;rdejer i Sj&#248;rup Kristen Roeds farfader.</danish_publication>
+  <english_publication>Hr. Speitzer at &#214;rndrup was not well liked by the peasants because of his harshness. That led to him being attacked by two farmhands out on the heath once when he was on his way home from L&#248;gst&#248;r, they crushed his right hand between two stones, and then they fled. He sold the farm in 1777 and supposedly met one of the farmhands on the street in Copenhagen later. The farmhand got away, though, and apparently came to Rendsborg where he became an innkeeper. He was called Kristen Roed and was the brother of the current farm owner in Sj&#248;rup, Kristen Roed's paternal grandfather.</english_publication>
+  <keywords>
+    <keyword><id>53</id><frequency>1</frequency><keyword>attack</keyword>attack</keyword>
+    <keyword><id>148</id><frequency>1</frequency><keyword>brother</keyword>brother</keyword>
+    <keyword><id>290</id><frequency>1</frequency><keyword>current</keyword>current</keyword>
+    <keyword><id>394</id><frequency>2</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>395</id><frequency>2</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>478</id><frequency>1</frequency><keyword>grandfather</keyword>grandfather</keyword>
+    <keyword><id>517</id><frequency>1</frequency><keyword>heath</keyword>heath</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>561</id><frequency>1</frequency><keyword>inn_keeper</keyword>inn keeper</keyword>
+    <keyword><id>668</id><frequency>2</frequency><keyword>kristen_roed</keyword>Kristen Roed</keyword>
+    <keyword><id>891</id><frequency>1</frequency><keyword>owner</keyword>owner</keyword>
+    <keyword><id>921</id><frequency>1</frequency><keyword>peasantry</keyword>peasantry</keyword>
+    <keyword><id>1173</id><frequency>1</frequency><keyword>speitzer</keyword>speitzer</keyword>
+    <keyword><id>1195</id><frequency>1</frequency><keyword>stone</keyword>stone</keyword>
+    <keyword><id>1208</id><frequency>1</frequency><keyword>street</keyword>street</keyword>
+  </keywords>
+  <etk_index><id>32</id>
+    <heading_danish>Fra hoveriets tid</heading_danish>
+    <heading_english>From the time of villeinage</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

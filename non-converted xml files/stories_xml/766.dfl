@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<story story_id="766">
+  <publication_info>DS_V_1422</publication_info>
+  <full_name>339 - 0.00 - DS_V_1422</full_name>
+  <informant_id>339</informant_id>
+  <informant_last_name>Boye</informant_last_name>
+  <informant_first_name>O. Chr.</informant_first_name>
+  <informant_full_name>L&#xE6;rer O. Chr. Boye</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>685</place_id>
+      <name>Vejen</name>
+      <display_name>Vejen (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>113</place_id>
+      <name>Dalhus</name>
+      <display_name>Dalhus (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>399</place_id>
+      <name>Malt</name>
+      <display_name>Malt (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>685</place_id>
+      <name>Vejen</name>
+      <display_name>Vejen (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>686</place_id>
+      <name>Vejen skov</name>
+      <display_name>Vejen skov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="234">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1430</publication_info>
+      <full_name>235 - 1.15 - DS_V_1430</full_name>
+      <url>data/stories/234.dfl</url>
+    </story>
+    <story story_id="533">
+      <informant_id>458</informant_id>
+      <publication_info>DS_V_1454</publication_info>
+      <full_name>458 - 0.00 - DS_V_1454</full_name>
+      <url>data/stories/533.dfl</url>
+    </story>
+    <story story_id="791">
+      <informant_id>382</informant_id>
+      <publication_info>DS_V_1545</publication_info>
+      <full_name>382 - 0.00 - DS_V_1545</full_name>
+      <url>data/stories/791.dfl</url>
+    </story>
+    <story story_id="878">
+      <informant_id/>
+      <publication_info>DS_V_1417</publication_info>
+      <full_name>0 - 0.00 - DS_V_1417</full_name>
+      <url>data/stories/878.dfl</url>
+    </story>
+    <story story_id="152">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1485</publication_info>
+      <full_name>241 - 2.02 - DS_IV_1485</full_name>
+      <url>data/stories/152.dfl</url>
+    </story>
+    <story story_id="151">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1486</publication_info>
+      <full_name>241 - 2.01 - DS_IV_1486</full_name>
+      <url>data/stories/151.dfl</url>
+    </story>
+    <story story_id="153">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1488</publication_info>
+      <full_name>241 - 2.03 - DS_IV_1488</full_name>
+      <url>data/stories/153.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Landpost Niels Pedersen i Vejen fort&#xE6;ller, at der n&#xE6;r ved Dalhus oppe i Vejen skov, hvor skjellet er mellem Vejen og Malt, skal man af og til om natten kunne h&#xF8;re en kj&#xE6;de rasle hen ad vejen. Det er galt med skjellet mellem sognene, og derfor skal der om natten f&#xE6;rdes en landm&#xE5;ler med sin kj&#xE6;de.</danish_publication>
+  <english_publication>Mailman Niels Pedersen in Vejle says that near Dalhus up in Vejen forest, at the boundary between Vejen and Malt, one can every now and then hear the rattling of chains at night. The boundary between the parishes is wrong, and because of that, a land surveyor supposedly goes there with his chains.</english_publication>
+  <keywords>
+    <keyword id="127" frequency="2" keyword="boundary">boundary</keyword>
+    <keyword id="200" frequency="2" keyword="chain">chain</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="683" frequency="1" keyword="land_surveyor">land surveyor</keyword>
+    <keyword id="737" frequency="1" keyword="mailman">mailman</keyword>
+    <keyword id="845" frequency="1" keyword="niels_pedersen">Niels Pedersen</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+  </keywords>
+  <etk_index id="25">
+    <heading_danish>Gjenf&#xE6;rd p&#xE5; uretf&#xE6;rdig jord</heading_danish>
+    <heading_english>Revenants on ill-gotten land</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

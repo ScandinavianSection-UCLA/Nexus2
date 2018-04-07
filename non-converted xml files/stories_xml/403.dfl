@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<story story_id="403">
+  <publication_info>Unpub_PJ_229</publication_info>
+  <full_name>123 - 2.29 - Unpub_PJ_229</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.29</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>406</place_id>
+      <name>Mesing</name>
+      <display_name>Mesing (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="430">
+      <informant_id>123</informant_id>
+      <publication_info>FK_0_196</publication_info>
+      <full_name>123 - 4.02 - FK_0_196</full_name>
+      <url>data/stories/430.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3787a</fielddiary_page_start>
+  <fielddiary_page_end>3787a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Peder concludes his session with an amusing story of the conflict between the parish clerk and the minister. The implicit correlation between the rooster and the minister offers an amusing view of Peder's attitude toward the preaching of some ministers.
+
+     Tang Kristensen did not rely on this recording for the published version. Instead, the published version is based on another telling from a later session (PJ 4.02).</annotation>
+  <danish_manuscript>Degnen i Mjessing h. skulde ringe og saa var
+der et Ophold efter f&#xF8;rste Ringen. Det benytter
+Deg. til at spise. hans Frokost i Vaandset
+Det kjendte Kirkegaardens H&#xF8;ns for h. smed
+gj&#xE6;rne lidt Krummer til dem. S. en Dag kom
+Pr&#xE6;ster over ham i Maaltidet og h vil jage
+H&#xF8;nsene ud, men de vil ikke og tager hans
+Hat og slaar ind imellem dem og er s&#xE5; uhel-
+dig at ramme Kokken, s. han daaner. S. put
+ter h. den ind under sin lange Kjole i Lom-
+men. Gaar ind og Pr&#xE6;sten op paa Stolen og s&#xE6;tter
+sig til at sove. Da vaagner Kokken, kryber
+ud, flyver op paa Alteret og galer. D. vaag
+ner og synger Amen.
+</danish_manuscript>
+  <english_manuscript>The parish clerk in Mjessing, he was supposed to ring (the church bells), and after the first ringing there was a pause. The parish clerk uses this opportunity to eat his lunch in the weapon house. The church chickens knew this because he often tossed them a few crumbs. Then one day the minister discovers him during his meal and he wants to chase the chickens out, but they don't want to leave and he takes off his hat and waves it about among them and is so unlucky that he hits the rooster and knocks it unconscious. So he puts it in his pocket under his long gown. He goes in and the minister is up at the pulpit and he begins to sleep. Then the rooster wakes up, creeps out, flies up to the altar and crows. The parish clerk wakes up and sings Amen.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: The parish clerk in Mjessing, he was supposed to ring (the church bells), and after the first ringing there was a pause. The parish clerk uses this opportunity to eat his lunch in the weapon house (church foyer). The church chickens knew this because he often tossed them a few crumbs. Then one day the minister discovers him during his meal and he wants to chase the chickens out, but they don&#x2019;t want to leave and he takes off his hat and waves it about among them and is so unlucky that he hits the rooster and knocks it unconscious. So he puts in his pocket under his long gown. He goes in and the minister is up at the pulpit and he begins to sleep. Then the rooster wakes up, creeps out, flies up to the altar and crows. The parish clerk wakes up and sings Amen.</english_publication>
+  <keywords>
+    <keyword id="21" frequency="1" keyword="altar">altar</keyword>
+    <keyword id="88" frequency="1" keyword="bells">bells</keyword>
+    <keyword id="211" frequency="1" keyword="chase">chase</keyword>
+    <keyword id="216" frequency="2" keyword="chicken">chicken</keyword>
+    <keyword id="227" frequency="2" keyword="church">church</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="333" frequency="1" keyword="discovery">discovery</keyword>
+    <keyword id="506" frequency="1" keyword="hat">hat</keyword>
+    <keyword id="728" frequency="1" keyword="lunch">lunch</keyword>
+    <keyword id="765" frequency="1" keyword="meal">meal</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="904" frequency="3" keyword="parish_clerk">parish clerk</keyword>
+    <keyword id="969" frequency="1" keyword="pocket">pocket</keyword>
+    <keyword id="1003" frequency="1" keyword="pulpit">pulpit</keyword>
+    <keyword id="1033" frequency="2" keyword="ringing">ringing</keyword>
+    <keyword id="1042" frequency="2" keyword="rooster">rooster</keyword>
+    <keyword id="1122" frequency="1" keyword="singing">singing</keyword>
+    <keyword id="1142" frequency="1" keyword="sleep">sleep</keyword>
+    <keyword id="1322" frequency="1" keyword="weapon_house">weapon house</keyword>
+  </keywords>
+  <etk_index id="44">
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="16" display_name="People: Parish Clerk"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="46" display_name="Tools, Items and Conveyances: Bell"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="11" name="Jocular Tale"/>
+</story>

@@ -1,0 +1,87 @@
+<story><story_id>797</story_id>
+  <publication_info>DS_IV_1449</publication_info>
+  <full_name>501 - 0.00 - DS_IV_1449</full_name>
+  <informant_id>501</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Seminarist Peder Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>226</place_id>
+      <name>Hald</name>
+      <display_name>Hald (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>226</place_id>
+      <name>Hald</name>
+      <display_name>Hald (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>334</place_id>
+      <name>Kloster</name>
+      <display_name>Kloster (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>335</place_id>
+      <name>Kloster skov</name>
+      <display_name>Kloster skov (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>502</place_id>
+      <name>R&#248;verstuebakke</name>
+      <display_name>R&#248;verstuebakke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>151</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1486</publication_info>
+      <full_name>241 - 2.01 - DS_IV_1486</full_name>
+      <url>data/stories/151.dfl</url>
+    </story>
+    <story><story_id>841</story_id>
+      <informant_id>437</informant_id>
+      <publication_info>DS_IV_1451</publication_info>
+      <full_name>437 - 0.00 - DS_IV_1451</full_name>
+      <url>data/stories/841.dfl</url>
+    </story>
+    <story><story_id>154</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1465</publication_info>
+      <full_name>241 - 2.04 - DS_IV_1465</full_name>
+      <url>data/stories/154.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Imellem Kloster og Hald p&#229; Kloster ejendom i Kloster skov er to fordybninger, &#233;n ved hver side af vejen, og skr&#230;nten her ved, som fordybningerne findes i, kaldes R&#246;verstuebakke. Der har v&#230;ret r&#246;vere p&#229; dette sted, og de sp&#230;ndte en kj&#230;de med klokke ved over vejen...</danish_publication>
+  <english_publication>Between Kloster and Hald on the monastery property in Kloster forest there are two hollows, one on each side of the road, and the slope nearby where the hollows are is called R&#248;verstuebakke (Robber den hill). There were robbers there, and they strung a chain with bells on it over the road&#8230;</english_publication>
+  <keywords>
+    <keyword><id>88</id><frequency>1</frequency><keyword>bells</keyword>bells</keyword>
+    <keyword><id>200</id><frequency>1</frequency><keyword>chain</keyword>chain</keyword>
+    <keyword><id>322</id><frequency>1</frequency><keyword>den</keyword>den</keyword>
+    <keyword><id>438</id><frequency>1</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>530</id><frequency>1</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>535</id><frequency>2</frequency><keyword>hollow</keyword>hollow</keyword>
+    <keyword><id>791</id><frequency>1</frequency><keyword>monastery</keyword>monastery</keyword>
+    <keyword><id>1036</id><frequency>2</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1037</id><frequency>2</frequency><keyword>robber</keyword>robber</keyword>
+  </keywords>
+  <etk_index><id>20</id>
+    <heading_danish>R&#248;vere, drabsm&#230;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>17</id><display_name>People: Robber / Thief</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>3</id><name>Description</name></genre>
+</story>

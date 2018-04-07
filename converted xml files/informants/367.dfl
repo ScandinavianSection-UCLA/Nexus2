@@ -1,0 +1,54 @@
+<informant><person_id>367</person_id>
+  <core_informant/>
+  <full_name>Cand. Theol. C. F. Grove</full_name>
+  <last_name>Grove</last_name>
+  <first_name>C. F.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>477</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>367</informant_id>
+      <publication_info>DS_V_67</publication_info>
+      <full_name>367 - 0.00 - DS_V_67</full_name>
+      <url>data/stories/477.dfl</url>
+      <place_recorded><id>830</id>Marielyst</place_recorded>
+      <places_mentioned>
+        <place><id>637</id>
+          <name>Tindinge banke</name>
+        </place>
+        <place><id>640</id>
+          <name>Tj&#248;rnelunde mark</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>830</place_id>
+      <name>Marielyst</name>
+      <display_name>Marielyst (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>640</place_id>
+      <name>Tj&#248;rnelunde mark</name>
+      <display_name>Tj&#248;rnelunde mark (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>637</place_id>
+      <name>Tindinge banke</name>
+      <display_name>Tindinge banke (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

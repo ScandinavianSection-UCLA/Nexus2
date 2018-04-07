@@ -1,0 +1,54 @@
+<informant><person_id>459</person_id>
+  <core_informant/>
+  <full_name>Niels Johannes Lund</full_name>
+  <last_name>Lund</last_name>
+  <first_name>Niels Johannes</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>748</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>459</informant_id>
+      <publication_info>DS_V_730</publication_info>
+      <full_name>459 - 0.00 - DS_V_730</full_name>
+      <url>data/stories/748.dfl</url>
+      <place_recorded><id>37</id>Astrup</place_recorded>
+      <places_mentioned>
+        <place><id>579</id>
+          <name>Spentrup</name>
+        </place>
+        <place><id>942</id>
+          <name>Gassum</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>37</place_id>
+      <name>Astrup</name>
+      <display_name>Astrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>942</place_id>
+      <name>Gassum</name>
+      <display_name>Gassum (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>579</place_id>
+      <name>Spentrup</name>
+      <display_name>Spentrup (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

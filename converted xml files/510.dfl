@@ -1,0 +1,74 @@
+<story><story_id>510</story_id>
+  <publication_info>DS_I_44</publication_info>
+  <full_name>368 - 0.00 - DS_I_44</full_name>
+  <informant_id>368</informant_id>
+  <informant_last_name>Grundtvig</informant_last_name>
+  <informant_first_name>F. L.</informant_first_name>
+  <informant_full_name>F. L. Grundtvig</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>187</place_id>
+      <name>Gildebj&#230;rg</name>
+      <display_name>Gildebj&#230;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>326</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_I_685</publication_info>
+      <full_name>90 - 1.03 - DS_I_685</full_name>
+      <url>data/stories/326.dfl</url>
+    </story>
+    <story><story_id>759</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_A_26</publication_info>
+      <full_name>348 - 0.00 - DS_II_A_26</full_name>
+      <url>data/stories/759.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gang var der i skumringen en del drenge oppe p&#229; en bakke, som kaldes Gildebj&#230;rg (i H&#246;sterkj&#248;b) at kj&#248;re i sl&#230;de ned ad bakken i en stor mose. Midt under legen kom der en hel m&#230;ngde sm&#229;, sorte m&#230;nd mylrende op p&#229; bakken; nu l&#248;b drengene, alt hvad de kunde, hjem, men f&#248;rst n&#230;ste morgen fandtes sl&#230;derne.</danish_publication>
+  <english_publication>At dusk one time there was a group of boys up on a hill that was called Gildebj&#230;rg (in H&#248;sterk&#248;b). They were riding sleds down the hill down to a big swamp. As they were playing, a huge crowd of small black men came wandering up the hill; the boys ran home as fast as they could, and didn't go to get their sleds back until the next morning.</english_publication>
+  <keywords>
+    <keyword><id>106</id><frequency>1</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>130</id><frequency>2</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>284</id><frequency>1</frequency><keyword>crowd</keyword>crowd</keyword>
+    <keyword><id>365</id><frequency>1</frequency><keyword>dusk</keyword>dusk</keyword>
+    <keyword><id>530</id><frequency>3</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>1030</id><frequency>1</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1141</id><frequency>2</frequency><keyword>sled</keyword>sled</keyword>
+    <keyword><id>1228</id><frequency>1</frequency><keyword>swamp</keyword>swamp</keyword>
+    <keyword><id>1315</id><frequency>1</frequency><keyword>wandering</keyword>wandering</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>5</id><display_name>People: Children</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>43</id><display_name>Places: Swamp</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>111</id><display_name>Time, Season, Weather: Evening</display_name></tango_index>
+    <tango_index><id>116</id><display_name>Time, Season, Weather: Winter</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

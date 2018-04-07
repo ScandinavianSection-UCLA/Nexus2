@@ -1,0 +1,37 @@
+<informant><person_id>549</person_id>
+  <core_informant/>
+  <full_name>Jens Jensen V&#229;nde</full_name>
+  <last_name>V&#229;nde</last_name>
+  <first_name>Jens Jensen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>550</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>549</informant_id>
+      <publication_info>DS_VII_1482</publication_info>
+      <full_name>549 - 0.00 - DS_VII_1482</full_name>
+      <url>data/stories/550.dfl</url>
+      <place_recorded><id>826</id>L&#248;t, Lendum</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>826</place_id>
+      <name>L&#248;t, Lendum</name>
+      <display_name>L&#248;t, Lendum (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,37 @@
+<informant><person_id>556</person_id>
+  <core_informant/>
+  <full_name>Anders &#197;lborg</full_name>
+  <last_name>&#197;lborg</last_name>
+  <first_name>Anders</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>456</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>556</informant_id>
+      <publication_info>DS_VII_143</publication_info>
+      <full_name>556 - 0.00 - DS_VII_143</full_name>
+      <url>data/stories/456.dfl</url>
+      <place_recorded><id>850</id>R&#230;vhede</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>850</place_id>
+      <name>R&#230;vhede</name>
+      <display_name>R&#230;vhede (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

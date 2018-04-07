@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<story story_id="627">
+  <publication_info>DS_IV_1535</publication_info>
+  <full_name>409 - 0.00 - DS_IV_1535</full_name>
+  <informant_id>409</informant_id>
+  <informant_last_name>Jepsen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Jepsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>855</place_id>
+      <name>R&#xF8;dhus, Hune</name>
+      <display_name>R&#xF8;dhus, Hune (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>424</place_id>
+      <name>Nibe</name>
+      <display_name>Nibe (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="605">
+      <informant_id>352</informant_id>
+      <publication_info>DS_IV_1566</publication_info>
+      <full_name>352 - 0.00 - DS_IV_1566</full_name>
+      <url>data/stories/605.dfl</url>
+    </story>
+    <story story_id="708">
+      <informant_id>332</informant_id>
+      <publication_info>DS_IV_1512</publication_info>
+      <full_name>332 - 0.00 - DS_IV_1512</full_name>
+      <url>data/stories/708.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand, der boede s&#xF8;nden for Nibe, han fortalte, at hans for&#xE6;ldre havde mark, der gik ind til Nibe mark, og s&#xE5; havde han g&#xE5;et der som hyrdedreng i heden og seet, at der var 7 grave, som der var 7 r&#xF6;vere begravet i. De r&#xF6;vere var komne ind til en g&#xE5;rdmand en juleaften, og han kom jo knap ind p&#xE5;, hons det var for nogle, for de havde hver et gev&#xE6;r. S&#xE5; fik de dem sat til bordet, og der blev d&#xE6;kket op for dem, og de fik b&#xE5;de at &#xE6;de og drikke. Men imens fik manden hans kone bag ud, og hun kom hen til en herreg&#xE5;rd, der hedder Lundb&#xE6;k. Der l&#xE5; krigsfolk i den tid, men de havde ikke uden 6, og de 6 turde ikke binde dem til det. S&#xE5; gik der bud over til &#xD8;land, de havde ogs&#xE5; 6. Det traf nu s&#xE5; heldigt, at fjorden l&#xE5;, s&#xE5; de kunde komme over p&#xE5; ise. Mens konen var borte, gik manden og skj&#xE6;nkede godt for hans gj&#xE6;ster. De havde lagt deres flintestens-gev&#xE6;rer fra dem, og s&#xE5; h&#xE6;ldte han glassene godt fulde, s&#xE5;dan at de l&#xF8;b over, og s&#xE5; spildte han ved lejlighed noget p&#xE5; b&#xF8;sserne. Da de nu kom fra &#xD8;land, var de jo 11 i f&#xF8;lge, og de stiller udenfor og r&#xE5;ber hurra. S&#xE5; tog r&#xF6;verne til deres gev&#xE6;rer og vilde skyde, men de kunde ikke, for manden havde spildt br&#xE6;ndevin p&#xE5; krudtet. De blev taget alle 7, og s&#xE5; blev de undlivet og begravet der ude i den hede.</danish_publication>
+  <english_publication>A man, who lived south of Nibe, he told about how his parents had a field which went all the way up to Nibe field, and he had worked there as a shepherd out on the heath and had seen that there were seven graves in which seven robbers were buried. Those robbers had gone into a farmer one Christmas eve, and he quickly realized what kind of people they were, since they each had a rifle. So then they sat down at the table, and it was set for them, and they got both food and drink. But in the meantime the farmer sent his wife out the back way and she went over to a manor farm, which is called Lundb&#xE6;k. There were soldiers stationed there at that time, but there were only six, and those six didn&#x2019;t dare take on such a task. So they sent a messenger over to &#xD8;land, they also had six. It happened rather luckily that the fjord was frozen so they could get across it on the ice. While his wife was away, the man went and poured well for his guests. They had put down their flintlock rifles, and so he filled the glasses all the way up so that they spilled over and with that opportunity he spilled some on the rifles. When the other soldiers came from &#xD8;land, they were eleven all together and they stood outside and yelled hurrah! Then the robbers grabbed their rifles and wanted to shoot but they couldn&#x2019;t because the man had spilled moonshine on the gunpowder. All seven of them were caught and then they were executed and buried out on the heath.</english_publication>
+  <keywords>
+    <keyword id="158" frequency="2" keyword="burial">burial</keyword>
+    <keyword id="225" frequency="1" keyword="christmas">Christmas</keyword>
+    <keyword id="355" frequency="1" keyword="drinking">drinking</keyword>
+    <keyword id="388" frequency="1" keyword="execution">execution</keyword>
+    <keyword id="396" frequency="2" keyword="farmer">farmer</keyword>
+    <keyword id="410" frequency="2" keyword="field">field</keyword>
+    <keyword id="431" frequency="1" keyword="food">food</keyword>
+    <keyword id="448" frequency="1" keyword="frozen">frozen</keyword>
+    <keyword id="483" frequency="1" keyword="grave">grave</keyword>
+    <keyword id="490" frequency="1" keyword="guest">guest</keyword>
+    <keyword id="517" frequency="2" keyword="heath">heath</keyword>
+    <keyword id="553" frequency="1" keyword="ice">ice</keyword>
+    <keyword id="742" frequency="1" keyword="manor_farm">manor farm</keyword>
+    <keyword id="771" frequency="1" keyword="messenger">messenger</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="901" frequency="1" keyword="parents">parents</keyword>
+    <keyword id="1031" frequency="4" keyword="rifle">rifle</keyword>
+    <keyword id="1037" frequency="3" keyword="robber">robber</keyword>
+    <keyword id="1089" frequency="3" keyword="seven">seven</keyword>
+    <keyword id="1099" frequency="1" keyword="shepherd">shepherd</keyword>
+    <keyword id="1106" frequency="1" keyword="shooting">shooting</keyword>
+    <keyword id="1153" frequency="1" keyword="soldier">soldier</keyword>
+    <keyword id="1167" frequency="1" keyword="south">south</keyword>
+    <keyword id="1238" frequency="1" keyword="table">table</keyword>
+    <keyword id="1343" frequency="2" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="19" display_name="People: Soldier"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="32" display_name="Places: Heath"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="77" display_name="Animals: Sheep"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="120" display_name="Time, Season, Weather: Christmas"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

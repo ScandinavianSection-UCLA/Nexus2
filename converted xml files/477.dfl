@@ -1,0 +1,80 @@
+<story><story_id>477</story_id>
+  <publication_info>DS_V_67</publication_info>
+  <full_name>367 - 0.00 - DS_V_67</full_name>
+  <informant_id>367</informant_id>
+  <informant_last_name>Grove</informant_last_name>
+  <informant_first_name>C. F.</informant_first_name>
+  <informant_full_name>Cand. Theol. C. F. Grove</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>830</place_id>
+      <name>Marielyst</name>
+      <display_name>Marielyst (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>637</place_id>
+      <name>Tindinge banke</name>
+      <display_name>Tindinge banke (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>640</place_id>
+      <name>Tj&#248;rnelunde mark</name>
+      <display_name>Tj&#248;rnelunde mark (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>416</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_61</publication_info>
+      <full_name>123 - 3.13 - DS_V_61</full_name>
+      <url>data/stories/416.dfl</url>
+    </story>
+    <story><story_id>505</story_id>
+      <informant_id>318</informant_id>
+      <publication_info>DS_V_62</publication_info>
+      <full_name>318 - 0.00 - DS_V_62</full_name>
+      <url>data/stories/505.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gang, da gamle Jens Daniel gik fra arbejde over Tindinge banke, p&#229; Tj&#246;rnelunde mark, kom der en lille hund til ham og s&#229; s&#229; ynkelig ud og s&#229; n&#229;dig op til ham. J. D. tog den op i sit ene frakkeskj&#248;d og vilde tage den med sig hjem, for den s&#229; ud til b&#229;de at fryse og sulte. Men ligesom han allerbedst gik og s&#229; til hunden, syntes han, den blev jo l&#230;ngere jo st&#246;rre, og &#246;jnene blev s&#229; r&#248;de, som det var gl&#248;der. Da blev J. D. bange og smed hunden, men i det samme fik han s&#229;dan &#233;n p&#229; hovedet, at han tabte sin hue og fandt den aldrig siden. Hunden var ogs&#229; borte med det samme.</danish_publication>
+  <english_publication>Once when old Jens Daniel was on his way home from work and went over the Tindinge hills on Tj&#248;rnelunde field, a little dog came up to him and looked pathetic and looked pitifully up at him. J. D. picked it up and put it in his jacket and was going to bring it home because it looked like it was hungry and cold. But as he was walking along and taking care of the dog, it seemed to get bigger and bigger, and its eyes got so red, they were like coals. Then J. D. got scared and threw the dog and at that very moment he got a smack on the head so hard that he lost his hat and never found it again. The dog disappeared at once too.</english_publication>
+  <keywords>
+    <keyword><id>247</id><frequency>1</frequency><keyword>cold</keyword>cold</keyword>
+    <keyword><id>299</id><frequency>1</frequency><keyword>daniel</keyword>Daniel</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>343</id><frequency>4</frequency><keyword>dog</keyword>dog</keyword>
+    <keyword><id>389</id><frequency>1</frequency><keyword>eye</keyword>eye</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>506</id><frequency>1</frequency><keyword>hat</keyword>hat</keyword>
+    <keyword><id>530</id><frequency>1</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>537</id><frequency>2</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>549</id><frequency>1</frequency><keyword>hungry</keyword>hungry</keyword>
+    <keyword><id>876</id><frequency>1</frequency><keyword>old_jens</keyword>Old Jens</keyword>
+    <keyword><id>1021</id><frequency>1</frequency><keyword>red</keyword>red</keyword>
+    <keyword><id>1361</id><frequency>1</frequency><keyword>work</keyword>work</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>71</id><display_name>Animals: Dog</display_name></tango_index>
+    <tango_index><id>89</id><display_name>Actions or events: Injury</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,100 @@
+<story><story_id>439</story_id>
+  <publication_info>DS_IV_691</publication_info>
+  <full_name>521 - 0.00 - DS_IV_691</full_name>
+  <informant_id>521</informant_id>
+  <informant_last_name>Poulsen</informant_last_name>
+  <informant_first_name>Anders H.</informant_first_name>
+  <informant_full_name>Redakt&#248;r Anders H. Poulsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>822</place_id>
+      <name>Lervad</name>
+      <display_name>Lervad (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>198</place_id>
+      <name>Gravballeg&#229;rd</name>
+      <display_name>Gravballeg&#229;rd (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>207</place_id>
+      <name>Gr&#248;nb&#230;k</name>
+      <display_name>Gr&#248;nb&#230;k (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>619</place_id>
+      <name>Svostrup</name>
+      <display_name>Svostrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>149</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_975</publication_info>
+      <full_name>241 - 1.08 - DS_V_975</full_name>
+      <url>data/stories/149.dfl</url>
+    </story>
+    <story><story_id>165</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_687</publication_info>
+      <full_name>241 - 2.15 - DS_IV_687</full_name>
+      <url>data/stories/165.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#229; Gravballeg&#229;rd i Svostrup boede for mange &#229;r siden en herremand, der var s&#229; slem til at pine sine b&#248;nder. Omsider d&#248;de han, og p&#229; begravelsesdagen fulgtes hans lig til jorden af en urimelig m&#230;ngde mennesker, der alle var glade. Men da f&#248;lget kom fra kirken, forvandlede gl&#230;den sig til skr&#230;k, for p&#229; en af staldd&#248;rene sad herremanden og galede som en hane. Fra nu af var det rent galt i g&#229;rden med sp&#248;geri. Til sidst hentede de den Gr&#248;nb&#230;k pr&#230;st, for at han kunde mane sp&#248;gelset ned. Han fik det ogs&#229; ned i et kj&#230;r t&#230;t ved g&#229;rden og ramte en p&#230;l ned igjennem det. P&#230;len stod i mange &#229;r, og det fort&#230;lles, at n&#229;r nogen rokkede ved den, r&#229;bte det der nede: "Rok bedre op, rok bedre op!"</danish_publication>
+  <english_publication>Many years ago, a manor lord lived at Grovballeg&#229;rd in Svostrup, and he really tormented his peasants. After a while, he died and, on the day of his funeral, his body was followed to the grave by an unusually large number of people who were all happy. But when the group came out of the church, their happiness turned into horror because on one of the stall doors sat the manor lord and he was crowing like a rooster. From that point on, things were really bad with haunting in the farm. Finally, they sent for the Gr&#248;nb&#230;k minister because he could conjure the ghost. He got it down in a swamp near the farm and rammed a post down through it. The post stood there for many years, and they say that when anyone rocked it, a voice from below would shout, "Rock it up better! Rock it up better!"</english_publication>
+  <keywords>
+    <keyword><id>118</id><frequency>1</frequency><keyword>body</keyword>body</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>255</id><frequency>1</frequency><keyword>conjuring</keyword>conjuring</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>394</id><frequency>2</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>450</id><frequency>1</frequency><keyword>funeral</keyword>funeral</keyword>
+    <keyword><id>464</id><frequency>1</frequency><keyword>ghost</keyword>ghost</keyword>
+    <keyword><id>483</id><frequency>1</frequency><keyword>grave</keyword>grave</keyword>
+    <keyword><id>498</id><frequency>1</frequency><keyword>happy</keyword>happy</keyword>
+    <keyword><id>508</id><frequency>1</frequency><keyword>haunting</keyword>haunting</keyword>
+    <keyword><id>544</id><frequency>1</frequency><keyword>horror</keyword>horror</keyword>
+    <keyword><id>743</id><frequency>2</frequency><keyword>manor_lord</keyword>manor lord</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>921</id><frequency>1</frequency><keyword>peasantry</keyword>peasantry</keyword>
+    <keyword><id>979</id><frequency>2</frequency><keyword>post</keyword>post</keyword>
+    <keyword><id>1042</id><frequency>1</frequency><keyword>rooster</keyword>rooster</keyword>
+    <keyword><id>1186</id><frequency>1</frequency><keyword>stall</keyword>stall</keyword>
+    <keyword><id>1228</id><frequency>1</frequency><keyword>swamp</keyword>swamp</keyword>
+    <keyword><id>1273</id><frequency>1</frequency><keyword>torment</keyword>torment</keyword>
+    <keyword><id>1307</id><frequency>1</frequency><keyword>voice</keyword>voice</keyword>
+  </keywords>
+  <etk_index><id>17</id>
+    <heading_danish>Herrem&#230;nd, fruer, jomfruer</heading_danish>
+    <heading_english>Manor lords, ladies and misstresses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>25</id><display_name>Places: Barn</display_name></tango_index>
+    <tango_index><id>27</id><display_name>Places: Cemetery</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>43</id><display_name>Places: Swamp</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>80</id><display_name>Actions or events: Church ceremony</display_name></tango_index>
+    <tango_index><id>81</id><display_name>Actions or events: Conjuring</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

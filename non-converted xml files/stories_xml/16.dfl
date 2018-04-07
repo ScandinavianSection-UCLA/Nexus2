@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<story story_id="16">
+  <publication_info>DS_II_E_2</publication_info>
+  <full_name>150 - 1.13 - DS_II_E_2</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.13</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>656</place_id>
+      <name>Torstedlund</name>
+      <display_name>Torstedlund (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="15">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_112</publication_info>
+      <full_name>150 - 1.12 - Unpub_BJK_112</full_name>
+      <url>data/stories/15.dfl</url>
+    </story>
+    <story story_id="598">
+      <informant_id>490</informant_id>
+      <publication_info>DS_II_E_22</publication_info>
+      <full_name>490 - 0.00 - DS_II_E_22</full_name>
+      <url>data/stories/598.dfl</url>
+    </story>
+    <story story_id="839">
+      <informant_id>451</informant_id>
+      <publication_info>DS_II_E_48</publication_info>
+      <full_name>451 - 0.00 - DS_II_E_48</full_name>
+      <url>data/stories/839.dfl</url>
+    </story>
+    <story story_id="389">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_20</publication_info>
+      <full_name>123 - 2.15 - DS_II_E_20</full_name>
+      <url>data/stories/389.dfl</url>
+    </story>
+    <story story_id="292">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_84</publication_info>
+      <full_name>235 - 2.09 - DS_II_E_84</full_name>
+      <url>data/stories/292.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3241a</fielddiary_page_start>
+  <fielddiary_page_end>3241a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Encounters with lindorm are widely attested (PJ 2.15 ). Here the lindorm manifests as an unusually large snake. In other stories, the lindorm threatens to topple a church or prevents people from attending church (KMP 2.09). The published version of the story differs only slightly from the manuscript recording. Lavst Gammelholm does not appear in any of Jens's other stories.</annotation>
+  <danish_manuscript>Hernede lidt norden og &#xF8;sten for Torstedlund de
+kaldte det S&#xF8;rvad, det var Lavst Gammelholm
+h kom gaaende ad Vejen og da ser h. den h.
+forf&#xE6;rdlige Lindorm den kunde [gaa]  naa fra
+det ene Dige til det andet der var et Dige ved
+hver Side af Vejen. Det var spaaet sagde den
+gamle, der skulde komme en Lindorm op i Er-
+sted W&#xE6;lder--det er inde i Skoven ved det de
+kalder Ersted Kj&#xE6;r, men det h&#xF8;rer ikke til
+Ersted nu for da J&#xE6;germesteren solgte Gaarde
+ne, da tog h. Engene fri. Nu troede de jo
+det var den og s. kom Birkedommeren Knud
+Tejl og hans Skriverer derop med deres B&#xF8;sser
+og vilde have dr&#xE6;bt dh. Orm men v&#xE6;k var den.
+De troede jo den var siden det var saadan en
+M. som L. G. der sagde det.
+</danish_manuscript>
+  <english_manuscript>Down here a little north and east of Torstedlund, there's a place called S&#xF8;rvad. It was Lavst Gammelholm, he came walking down the road and sees the most horrible lindorm, it could reach from one stone wall to the other. There was a wall on either side of the road. It had been predicted that a lindorm was supposed to come up in Ersted w&#xE6;lder--that's in the woods near what they call Ersted swamp, but it's not part of Ersted now, because when the huntsmaster sold the farms, he took over the meadows. So they believed that it was that and so District Judge Knud Tejl and his scribe went up there with their guns and wanted to kill this here snake, but it was gone. They believed it was there, since it was a man like Lavst Gammelholm who'd told them about it.</english_manuscript>
+  <danish_publication>Her nede lidt norden og &#xF6;sten for Torstedlund er en lavning, de kalder S&#xF6;rvad. Der kommer Lavst Gammelholm g&#xE5;ende en dag, og da ser han den forf&#xE6;rdeligste lindorm foran sig p&#xE5; vejen; der var et dige ved hver sin side af den vej, og ormen kunde n&#xE5; fra det ene dige til det andet. Nu havde han h&#xF8;rt, at der var sp&#xE5;et af, at der skulde komme en lindorm op i Ersted w&#xE6;lder &#x2014; det er inde i skoven ved det, de kalder Ersted kjaar, men det h&#xF8;rer ikke til Ersted nu, for da j&#xE6;germesteren solgte g&#xE5;rdene, da tog han engene fri &#x2014; og da Lavst nu ser ormen, s&#xE5; g&#xE5;r han tilbage igjen og fort&#xE6;ller det, og s&#xE5; kom birkedommeren, Knud Teil hed han, og hans skrivere derop med deres b&#xF8;sser og vilde have dr&#xE6;bt den her orm, for de troede jo, den var der, siden det var s&#xE5;dan en mand som Lavst Gammelholm, der havde sagt det, &#x2014; men v&#xE6;k var den.</danish_publication>
+  <english_publication>Down here a little north and east of Torstedlund, there&#x2019;s a hollow they call S&#xF8;rvad. One day, Lavst Gammelholm was walking down there and he saw the most horrible lindorm in front of him on the road; there was a stone wall on either side of the road, and the snake could reach from the one wall to the other. Now he&#x2019;d heard that it had been predicted that a lindorm was supposed to come up in Ersted w&#xE6;lder--that&#x2019;s in the woods near what they call Ersted swamp, but it&#x2019;s not part of Ersted now, because the huntsmaster sold the farms when he took over the meadows--and when Lavst saw the snake, he went back and told others about it, and then the district judge, he was called Knud Teil, and his scribe went up there with their guns and wanted to kill this here snake as they believed it was there, since it was a man like Lavst Gammelholm who&#x2019;d told them about it--but it was gone. </english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="338" frequency="1" keyword="district_judge">district judge</keyword>
+    <keyword id="369" frequency="1" keyword="east">east</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="535" frequency="1" keyword="hollow">hollow</keyword>
+    <keyword id="543" frequency="1" keyword="horrible">horrible</keyword>
+    <keyword id="550" frequency="1" keyword="hunter">hunter</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="643" frequency="1" keyword="knud">Knud</keyword>
+    <keyword id="694" frequency="1" keyword="lavst">Lavst</keyword>
+    <keyword id="695" frequency="2" keyword="lavst_gammelholm">Lavst Gammelholm</keyword>
+    <keyword id="712" frequency="2" keyword="lindorm">lindorm</keyword>
+    <keyword id="764" frequency="1" keyword="meadow">meadow</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="1036" frequency="2" keyword="road">road</keyword>
+    <keyword id="1148" frequency="3" keyword="snake">snake</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1228" frequency="1" keyword="swamp">swamp</keyword>
+    <keyword id="1313" frequency="2" keyword="walls">walls</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="76" display_name="Animals: Serpent / Snake"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="134" display_name="Supernatural Beings: Lindorm / Basilisk"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,144 @@
+<informant><person_id>402</person_id>
+  <core_informant/>
+  <full_name>Dyrl&#230;ge P. Jensen</full_name>
+  <last_name>Jensen</last_name>
+  <first_name>P.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>774</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>402</informant_id>
+      <publication_info>DS_I_1</publication_info>
+      <full_name>402 - 0.00 - DS_I_1</full_name>
+      <url>data/stories/774.dfl</url>
+      <place_recorded><id>664</id>Trunderup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>775</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>402</informant_id>
+      <publication_info>DS_I_1137</publication_info>
+      <full_name>402 - 0.00 - DS_I_1137</full_name>
+      <url>data/stories/775.dfl</url>
+      <place_recorded><id>664</id>Trunderup</place_recorded>
+      <places_mentioned>
+        <place><id>185</id>
+          <name>Gammelh&#248;j</name>
+        </place>
+        <place><id>270</id>
+          <name>H&#248;je</name>
+        </place>
+        <place><id>389</id>
+          <name>Lunde</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>776</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>402</informant_id>
+      <publication_info>DS_II_A_50</publication_info>
+      <full_name>402 - 0.00 - DS_II_A_50</full_name>
+      <url>data/stories/776.dfl</url>
+      <place_recorded><id>664</id>Trunderup</place_recorded>
+      <places_mentioned>
+        <place><id>968</id>
+          <name>Lamdrup Kohave</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>777</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>402</informant_id>
+      <publication_info>DS_III_2164</publication_info>
+      <full_name>402 - 0.00 - DS_III_2164</full_name>
+      <url>data/stories/777.dfl</url>
+      <place_recorded><id>664</id>Trunderup</place_recorded>
+      <places_mentioned>
+        <place><id>357</id>
+          <name>Kv&#230;rndrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>778</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>402</informant_id>
+      <publication_info>DS_III_529</publication_info>
+      <full_name>402 - 0.00 - DS_III_529</full_name>
+      <url>data/stories/778.dfl</url>
+      <place_recorded><id>664</id>Trunderup</place_recorded>
+      <places_mentioned>
+        <place><id>357</id>
+          <name>Kv&#230;rndrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>779</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>402</informant_id>
+      <publication_info>DS_IV_1371</publication_info>
+      <full_name>402 - 0.00 - DS_IV_1371</full_name>
+      <url>data/stories/779.dfl</url>
+      <place_recorded><id>664</id>Trunderup</place_recorded>
+      <places_mentioned>
+        <place><id>357</id>
+          <name>Kv&#230;rndrup</name>
+        </place>
+        <place><id>491</id>
+          <name>Rokkergyden</name>
+        </place>
+        <place><id>664</id>
+          <name>Trunderup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>664</place_id>
+      <name>Trunderup</name>
+      <display_name>Trunderup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>357</place_id>
+      <name>Kv&#230;rndrup</name>
+      <display_name>Kv&#230;rndrup (mentioned in 3 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>491</place_id>
+      <name>Rokkergyden</name>
+      <display_name>Rokkergyden (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>664</place_id>
+      <name>Trunderup</name>
+      <display_name>Trunderup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>968</place_id>
+      <name>Lamdrup Kohave</name>
+      <display_name>Lamdrup Kohave (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>270</place_id>
+      <name>H&#248;je</name>
+      <display_name>H&#248;je (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>389</place_id>
+      <name>Lunde</name>
+      <display_name>Lunde (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>185</place_id>
+      <name>Gammelh&#248;j</name>
+      <display_name>Gammelh&#248;j (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

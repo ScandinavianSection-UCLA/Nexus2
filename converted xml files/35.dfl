@@ -1,0 +1,69 @@
+<story><story_id>35</story_id>
+  <publication_info>DS_III_1589</publication_info>
+  <full_name>150 - 1.32 - DS_III_1589</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.32</order_told>
+  <fieldtrip><id>1</id>Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>7</place_id>
+      <name>Aarestrup</name>
+      <display_name>Aarestrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>6</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_103</publication_info>
+      <full_name>150 - 1.03 - Unpub_BJK_103</full_name>
+      <url>data/stories/6.dfl</url>
+    </story>
+    <story><story_id>263</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_III_1566</publication_info>
+      <full_name>235 - 1.43 - DS_III_1566</full_name>
+      <url>data/stories/263.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3249a (2)</fielddiary_page_start>
+  <fielddiary_page_end>3249a (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The encroachment of the heath and, farther north, sand on arable land was a significant threat to farming. In the eighteenth century, there were accounts of farms being abandoned as the heath expanded. By the end of the nineteenth century, however, the expansion of the heath had been reversed, and farms were appearing where none had existed before or, as Jens suggests, reappearing where they once had been.</annotation>
+  <danish_manuscript>Vor Hede
+havde ogsaa v&#230;ret pl&#248;jet og med Agrene lige
+s. rette. Der laa en grum stor Sten, den
+havde de kj&#248;rt uden omkring, naar de pl&#248;jede
+Der var en Ryg. der gik uden om den.</danish_manuscript>
+  <english_manuscript>Our heath had been plowed before as well, and the fields are still quite well marked. There was a really big stone and they'd clearly driven around it when they plowed. There was a berm that went around it.</english_manuscript>
+  <danish_publication>Vor hede her i &#197;restrup har ogs&#229; forhen v&#230;ret pl&#246;jet, og agrene ligger lige s&#229; rette endnu derude i lyngen. En kunde s&#229; tydelig se det ved en stor sten, for der havde de kj&#248;rt uden omkring, n&#229;r de pl&#246;jede, og s&#229; var der blevet en hel ryg af jord uden om stenen.</danish_publication>
+  <english_publication>Our heath here in &#197;restrup had been plowed before as well, and the fields are still well marked out there in the heather. You could easily see it near a big stone, since they&#8217;d clearly driven around it when they plowed, so there was a dirt berm all the way around the stone.</english_publication>
+  <keywords>
+    <keyword><id>330</id><frequency>1</frequency><keyword>dirt</keyword>dirt</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>517</id><frequency>1</frequency><keyword>heath</keyword>heath</keyword>
+    <keyword><id>518</id><frequency>1</frequency><keyword>heather</keyword>heather</keyword>
+    <keyword><id>966</id><frequency>2</frequency><keyword>plowing</keyword>plowing</keyword>
+    <keyword><id>1195</id><frequency>2</frequency><keyword>stone</keyword>stone</keyword>
+  </keywords>
+  <etk_index><id>13</id>
+    <heading_danish>Sagn om g&#229;rde og byer</heading_danish>
+    <heading_english>Legends about farms and towns</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>32</id><display_name>Places: Heath</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>3</id><name>Description</name></genre>
+</story>

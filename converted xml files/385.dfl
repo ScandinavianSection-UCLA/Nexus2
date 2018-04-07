@@ -1,0 +1,116 @@
+<informant><person_id>385</person_id>
+  <core_informant/>
+  <full_name>Farversvend C. C. Haug&#229;rd</full_name>
+  <last_name>Haug&#229;rd</last_name>
+  <first_name>C. C.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>474</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1343</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1343</full_name>
+      <url>data/stories/474.dfl</url>
+      <place_recorded><id>11</id>&#197;benr&#229;</place_recorded>
+      <places_mentioned>
+        <place><id>1003</id>
+          <name>Rishjarup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>475</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1376</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1376</full_name>
+      <url>data/stories/475.dfl</url>
+      <place_recorded><id>11</id>&#197;benr&#229;</place_recorded>
+      <places_mentioned>
+        <place><id>11</id>
+          <name>&#197;benr&#229;</name>
+        </place>
+        <place><id>150</id>
+          <name>F&#229;rehus</name>
+        </place>
+        <place><id>160</id>
+          <name>Flensborg</name>
+        </place>
+        <place><id>460</id>
+          <name>&#216;ster L&#248;gum</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>476</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1711</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1711</full_name>
+      <url>data/stories/476.dfl</url>
+      <place_recorded><id>11</id>&#197;benr&#229;</place_recorded>
+      <places_mentioned>
+        <place><id>460</id>
+          <name>&#216;ster L&#248;gum</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>481</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1307</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1307</full_name>
+      <url>data/stories/481.dfl</url>
+      <place_recorded><id>11</id>&#197;benr&#229;</place_recorded>
+      <places_mentioned>
+        <place><id>1004</id>
+          <name>N&#248;rre Hjarup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>11</place_id>
+      <name>&#197;benr&#229;</name>
+      <display_name>&#197;benr&#229; (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>460</place_id>
+      <name>&#216;ster L&#248;gum</name>
+      <display_name>&#216;ster L&#248;gum (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1004</place_id>
+      <name>N&#248;rre Hjarup</name>
+      <display_name>N&#248;rre Hjarup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>160</place_id>
+      <name>Flensborg</name>
+      <display_name>Flensborg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>150</place_id>
+      <name>F&#229;rehus</name>
+      <display_name>F&#229;rehus (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>11</place_id>
+      <name>&#197;benr&#229;</name>
+      <display_name>&#197;benr&#229; (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1003</place_id>
+      <name>Rishjarup</name>
+      <display_name>Rishjarup (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

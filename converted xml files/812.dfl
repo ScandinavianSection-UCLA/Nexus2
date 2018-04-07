@@ -1,0 +1,76 @@
+<story><story_id>812</story_id>
+  <publication_info>DS_V_1477</publication_info>
+  <full_name>104 - 0.00 - DS_V_1477</full_name>
+  <informant_id>104</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>836</place_id>
+      <name>Nordrup</name>
+      <display_name>Nordrup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>234</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1430</publication_info>
+      <full_name>235 - 1.15 - DS_V_1430</full_name>
+      <url>data/stories/234.dfl</url>
+    </story>
+    <story><story_id>533</story_id>
+      <informant_id>458</informant_id>
+      <publication_info>DS_V_1454</publication_info>
+      <full_name>458 - 0.00 - DS_V_1454</full_name>
+      <url>data/stories/533.dfl</url>
+    </story>
+    <story><story_id>543</story_id>
+      <informant_id>343</informant_id>
+      <publication_info>DS_V_1507</publication_info>
+      <full_name>343 - 0.00 - DS_V_1507</full_name>
+      <url>data/stories/543.dfl</url>
+    </story>
+    <story><story_id>729</story_id>
+      <informant_id>517</informant_id>
+      <publication_info>DS_V_1501</publication_info>
+      <full_name>517 - 0.00 - DS_V_1501</full_name>
+      <url>data/stories/729.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der fort&#230;lles, at folk, som havde gjort uret i udskiftningens tid ved at flytte p&#230;le, som var satte til skjel, m&#229;tte efter d&#248;den g&#229; p&#229; markerne om natten med et bundt p&#230;le og r&#229;be, s&#229; det h&#248;rtes over hele egnen: "Her er rind (plovfure) og rette
+Skjel!"</danish_publication>
+  <english_publication>They say that people who did wrong during the partitioning period by moving posts that were placed as boundary markers have to wander the fields after their death with a bundle of posts and shout so that people in the whole district can hear it, "Here are the plow furrows and proper boundaries."</english_publication>
+  <keywords>
+    <keyword><id>127</id><frequency>2</frequency><keyword>boundary</keyword>boundary</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>336</id><frequency>1</frequency><keyword>district</keyword>district</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>451</id><frequency>1</frequency><keyword>furrow</keyword>furrow</keyword>
+    <keyword><id>964</id><frequency>1</frequency><keyword>plow</keyword>plow</keyword>
+    <keyword><id>1315</id><frequency>1</frequency><keyword>wandering</keyword>wandering</keyword>
+  </keywords>
+  <etk_index><id>25</id>
+    <heading_danish>Gjenf&#230;rd p&#229; uretf&#230;rdig jord</heading_danish>
+    <heading_english>Revenants on ill-gotten land</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

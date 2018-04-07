@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<story story_id="255">
+  <publication_info>DS_VII_1658</publication_info>
+  <full_name>235 - 1.35 - DS_VII_1658</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.35</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="256">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VII_1628</publication_info>
+      <full_name>235 - 1.36 - DS_VII_1628</full_name>
+      <url>data/stories/256.dfl</url>
+    </story>
+    <story story_id="266">
+      <informant_id>235</informant_id>
+      <publication_info>Unpub_KMP_146</publication_info>
+      <full_name>235 - 1.46 - Unpub_KMP_146</full_name>
+      <url>data/stories/266.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5219a (2)</fielddiary_page_start>
+  <fielddiary_page_end>5219a (2)</fielddiary_page_end>
+  <bibliographic_info>R&#xF8;rbye 1976</bibliographic_info>
+  <bibliography_references>
+    <reference id="398" category="general">
+      <display_string>[Book] R&#xF8;rbye, Birgitte. 1976. &lt;i&gt;Kloge folk og skidtfolk. Kvaksalveriets epoke i Danmark&lt;/i&gt;. Copenhagen: Politiken.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The cure for sprain is similar to her cure for warts and venom (KMP 1.36). All of these cures rely on Christian prayer, and the laying on of hands. Rubbing a sprain might actually help in reducing swelling, but the efficacy of this cure is more tied to the recitation of the prayer and the laying on of hands. The short rhyme is a common feature of cures for sprains.
+
+     Fractures and sprains were a common occurrence on farms given the nature of the work. Although physicians had become an important part of the health care system by the late nineteenth century, sprains and breaks were often taken care of by "benbrudsl&#xE6;ger," or broken bone doctors. These people were not physicians, but rather local folk healers who had developed a specialization in setting broken bones. A special concession from September 5, 1794, allowed individuals who had developed this, or any other expertise in healing, to practice that specialty. Most applications for this type of waiver from the quacksalver laws were denied. The majority of accepted applications were for bone break specialists. The last permission for a bone specialist was issued in 1887. The law was finally repealed with the passage of the physician law of 1934 (R&#xF8;rbye 1976, 279-80).</annotation>
+  <danish_manuscript>For Vred. Stryger med begge H&#xE6;nder ned
+ad det, tr&#xE6;kker H&#xE6;nderne lidig op og stryger
+igien og siger: Jesus op ad Bj&#xE6;rget drog
+hans h&#xF8;jre fik h. vrej h. end til den 
+signede Jord tog. Send ham Ben til Ben, Kj&#xF8;d til
+[I 3 Mands Navn i 
+Navn og ....]
+Kj&#xF8;d. Sen til Sen, l&#xE6;g i Lav ligesom f&#xF8;r
+var i Jesu Navn Amen. L&#xE6;ses 3 gange.
+</danish_manuscript>
+  <english_manuscript>For sprain. With both hands you should stroke down along the place that is hurt, bring the hands slowly up and stroke again and say: Jesus up the mountain went, his right foot he did sprain, down to the blessed earth he went, send him from bone to bone, flesh to flesh, tendon to tendon, let it be just as it was before. In Jesus' name. Amen. You read this three times.</english_manuscript>
+  <danish_publication>For vred. En skal stryge med begge h&#xE6;nder ned ad det d&#xE5;rlige sted, tr&#xE6;kke h&#xE6;nderne ledig op og stryge igjen og sige: Jesus op ad bj&#xE6;rget drog, hans h&#xF6;jre fod fik han vrej, han ned til den signede jord tog, send ham ben til ben, kj&#xF6;d til kj&#xF6;d, sen' til sen', l&#xE6;g til lav' ligesom f&#xF6;r var. I Jesu navn. Amen. L&#xE6;ses tre gange.</danish_publication>
+  <english_publication>For sprain. With both hands you should stroke down along the place that is hurt, bring the hands slowly up and stroke again and say: Jesus up the mountain went, his right foot he did sprain, down to the blessed earth he went, send him from bone to bone, flesh to flesh, tendon to tendon, let it be just as it was before. In Jesus&#x2019;s name. Amen. You read this three times.</english_publication>
+  <keywords>
+    <keyword id="110" frequency="1" keyword="blessing">blessing</keyword>
+    <keyword id="121" frequency="2" keyword="bones">bones</keyword>
+    <keyword id="368" frequency="1" keyword="earth">earth</keyword>
+    <keyword id="433" frequency="1" keyword="foot">foot</keyword>
+    <keyword id="598" frequency="2" keyword="jesus">Jesus</keyword>
+    <keyword id="809" frequency="1" keyword="mountain">mountain</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+  </keywords>
+  <etk_index id="30">
+    <heading_danish>Menneskets og kv&#xE6;gets sygdomme</heading_danish>
+    <heading_english>Human and cattle illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="10" name="Cure / Remedy / Spell"/>
+</story>

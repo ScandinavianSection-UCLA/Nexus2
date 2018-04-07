@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<story story_id="602">
+  <publication_info>DS_II_E_211</publication_info>
+  <full_name>536 - 0.00 - DS_II_E_211</full_name>
+  <informant_id>536</informant_id>
+  <informant_last_name>Stegger</informant_last_name>
+  <informant_first_name>K. N.</informant_first_name>
+  <informant_full_name>L&#xE6;rer K. N. Stegger</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>396</place_id>
+      <name>Lystrup</name>
+      <display_name>Lystrup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="161">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_E_105</publication_info>
+      <full_name>241 - 2.11 - DSnr_II_E_105</full_name>
+      <url>data/stories/161.dfl</url>
+    </story>
+    <story story_id="293">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_213</publication_info>
+      <full_name>235 - 2.10 - DS_II_E_213</full_name>
+      <url>data/stories/293.dfl</url>
+    </story>
+    <story story_id="631">
+      <informant_id>217</informant_id>
+      <publication_info>DS_II_E_214</publication_info>
+      <full_name>217 - 0.00 - DS_II_E_214</full_name>
+      <url>data/stories/631.dfl</url>
+    </story>
+    <story story_id="730">
+      <informant_id>517</informant_id>
+      <publication_info>DS_II_E_210</publication_info>
+      <full_name>517 - 0.00 - DS_II_E_210</full_name>
+      <url>data/stories/730.dfl</url>
+    </story>
+    <story story_id="664">
+      <informant_id>492</informant_id>
+      <publication_info>DS_II_E_217</publication_info>
+      <full_name>492 - 0.00 - DS_II_E_217</full_name>
+      <url>data/stories/664.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Basilisken er en fugl, som har et hul i den h&#xF6;jre vinge, og n&#xE5;r et menneske ser ind i det hul, d&#xF8;er det. Den kan ogs&#xE5; dr&#xE6;be folk ved at se p&#xE5; dem. N&#xE5;r en hane blev ni &#xE5;r gammel, s&#xE5; lagde den et &#xE6;g, og deraf blev en basilisk.</danish_publication>
+  <english_publication>The basilisk is a bird that has a hole in its right wing, and when a person looks into the hole, the person dies. It can also kill people by looking at them. When a rooster reached nine years old, it would lay an egg, and from that would come a basilisk.</english_publication>
+  <keywords>
+    <keyword id="75" frequency="2" keyword="basilisk">basilisk</keyword>
+    <keyword id="99" frequency="1" keyword="birds">birds</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="372" frequency="1" keyword="egg">egg</keyword>
+    <keyword id="522" frequency="1" keyword="hen">hen</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1348" frequency="1" keyword="wing">wing</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

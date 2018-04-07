@@ -1,0 +1,106 @@
+<story><story_id>881</story_id>
+  <publication_info>DS_V_714</publication_info>
+  <full_name>0 - 0.00 - DS_V_714</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>821</place_id>
+      <name>Lem</name>
+      <display_name>Lem (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>290</place_id>
+      <name>Hummelg&#229;rd</name>
+      <display_name>Hummelg&#229;rd (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>354</place_id>
+      <name>Krejbj&#230;rg</name>
+      <display_name>Krejbj&#230;rg (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>488</place_id>
+      <name>R&#248;dding</name>
+      <display_name>R&#248;dding (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>527</story_id>
+      <informant_id>537</informant_id>
+      <publication_info>DS_V_715</publication_info>
+      <full_name>537 - 0.00 - DS_V_715</full_name>
+      <url>data/stories/527.dfl</url>
+    </story>
+    <story><story_id>721</story_id>
+      <informant_id>408</informant_id>
+      <publication_info>DS_V_713</publication_info>
+      <full_name>408 - 0.00 - DS_V_713</full_name>
+      <url>data/stories/721.dfl</url>
+    </story>
+    <story><story_id>818</story_id>
+      <informant_id>460</informant_id>
+      <publication_info>DS_V_728</publication_info>
+      <full_name>460 - 0.00 - DS_V_728</full_name>
+      <url>data/stories/818.dfl</url>
+    </story>
+    <story><story_id>748</story_id>
+      <informant_id>459</informant_id>
+      <publication_info>DS_V_730</publication_info>
+      <full_name>459 - 0.00 - DS_V_730</full_name>
+      <url>data/stories/748.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Denher Rosendal i R&#246;dding var s&#229; gruelig god til at mane. Der var et krat ved Hummelg&#229;rd i Krejbj&#230;rg, og der gik en mand igjen. Det skulde egentlig hidr&#248;re fra en herreg&#229;rd, der har ligget et st&#248;d derfra. G&#229;rden hed Kr&#248;geborg, og der er levninger endnu af den borgplads. Det var s&#229; grueligt, te det sp&#248;gelse kom op igjen. S&#229; skulde pr&#230;sten derover at mane ham. Kusken kunde m&#230;rke s&#229;dan uro, og h&#248;rte, at der taltes store ord. S&#229; tager han en vognkj&#230;p af vognen og vil g&#229; ud og lange den gamle &#233;n med den. Men der skadede han pr&#230;sten s&#229; meget, at han m&#229;tte til at kj&#248;re om kap med den Onde til Krejbj&#230;rg kirke. Da han kom der, stak den Onde sit hoved op i den sloge, der er s&#248;nden og vesten til kirken, og gav et stort br&#246;l og forsvandt, da han s&#229;, at pr&#230;sten var kommen f&#248;rst. Det kan sees endnu nede i krattet, hvor han blev sat ned, der er nemlig en gr&#246;n plet.</danish_publication>
+  <english_publication>This here Rosendal from R&#248;dding was incredibly good at conjuring. There was a thicket near Hummelg&#229;rd in Krejbj&#230;rg, and a man walked again there. He apparently came from a manor farm that had lain not too far from there. The farm was called Kr&#248;geborg, and there are still some ruins from the old castle. It was horrible when that ghost came up again. Then the minister had to go over there and conjure him. The driver could feel a great unease, and heard that big words were being spoken. Then he takes a whip from the wagon and wants to go out and smack the old one with it. But he injured the minister so bad by doing that that the minister had to race the Evil One to Krejbj&#230;rg church. When he got there, the Evil One stuck his head up out of that little dale south and west of the church and gave a loud roar and disappeared when he saw that the minister had come first. One can still see down in the thicket where he was conjured down, there's actually a green spot there.</english_publication>
+  <keywords>
+    <keyword><id>186</id><frequency>1</frequency><keyword>castle</keyword>castle</keyword>
+    <keyword><id>227</id><frequency>2</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>255</id><frequency>3</frequency><keyword>conjuring</keyword>conjuring</keyword>
+    <keyword><id>294</id><frequency>1</frequency><keyword>dale</keyword>dale</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>357</id><frequency>1</frequency><keyword>driver</keyword>driver</keyword>
+    <keyword><id>387</id><frequency>2</frequency><keyword>evil</keyword>evil</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>464</id><frequency>1</frequency><keyword>ghost</keyword>ghost</keyword>
+    <keyword><id>543</id><frequency>1</frequency><keyword>horrible</keyword>horrible</keyword>
+    <keyword><id>559</id><frequency>1</frequency><keyword>injury</keyword>injury</keyword>
+    <keyword><id>742</id><frequency>1</frequency><keyword>manor_farm</keyword>manor farm</keyword>
+    <keyword><id>786</id><frequency>3</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>873</id><frequency>2</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1053</id><frequency>1</frequency><keyword>ruins</keyword>ruins</keyword>
+    <keyword><id>1167</id><frequency>1</frequency><keyword>south</keyword>south</keyword>
+    <keyword><id>1249</id><frequency>2</frequency><keyword>thicket</keyword>thicket</keyword>
+    <keyword><id>1311</id><frequency>1</frequency><keyword>wagon</keyword>wagon</keyword>
+    <keyword><id>1331</id><frequency>1</frequency><keyword>west</keyword>west</keyword>
+    <keyword><id>1336</id><frequency>1</frequency><keyword>whip</keyword>whip</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>81</id><display_name>Actions or events: Conjuring</display_name></tango_index>
+    <tango_index><id>89</id><display_name>Actions or events: Injury</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

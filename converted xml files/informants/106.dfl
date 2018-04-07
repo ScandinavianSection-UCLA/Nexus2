@@ -1,0 +1,56 @@
+<informant><person_id>106</person_id>
+  <core_informant/>
+  <full_name>Jeppe Jensen</full_name>
+  <last_name>Jensen</last_name>
+  <first_name>Jeppe</first_name>
+  <gender>m</gender>
+  <birth_date>0000-00-00</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>22</occupation_id>gaardmand</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>579</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>106</informant_id>
+      <publication_info>DS_I_748</publication_info>
+      <full_name>106 - 0.00 - DS_I_748</full_name>
+      <url>data/stories/579.dfl</url>
+      <place_recorded><id>19</id>&#197;kj&#230;r</place_recorded>
+      <places_mentioned>
+        <place><id>1028</id>
+          <name>Vridsted</name>
+        </place>
+        <place><id>1027</id>
+          <name>Vrove</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>19</place_id>
+      <name>&#197;kj&#230;r</name>
+      <display_name>&#197;kj&#230;r (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1027</place_id>
+      <name>Vrove</name>
+      <display_name>Vrove (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1028</place_id>
+      <name>Vridsted</name>
+      <display_name>Vridsted (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

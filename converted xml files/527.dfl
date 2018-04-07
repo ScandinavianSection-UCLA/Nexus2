@@ -1,0 +1,94 @@
+<story><story_id>527</story_id>
+  <publication_info>DS_V_715</publication_info>
+  <full_name>537 - 0.00 - DS_V_715</full_name>
+  <informant_id>537</informant_id>
+  <informant_last_name>Storg&#229;rd</informant_last_name>
+  <informant_first_name>Hanne</informant_first_name>
+  <informant_full_name>Hanne Storg&#229;rd</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>488</place_id>
+      <name>R&#248;dding</name>
+      <display_name>R&#248;dding (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>290</place_id>
+      <name>Hummelg&#229;rd</name>
+      <display_name>Hummelg&#229;rd (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>354</place_id>
+      <name>Krejbj&#230;rg</name>
+      <display_name>Krejbj&#230;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>166</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_1706</publication_info>
+      <full_name>241 - 2.16 - DS_V_1706</full_name>
+      <url>data/stories/166.dfl</url>
+    </story>
+    <story><story_id>740</story_id>
+      <informant_id>111</informant_id>
+      <publication_info>DS_V_733</publication_info>
+      <full_name>111 - 0.00 - DS_V_733</full_name>
+      <url>data/stories/740.dfl</url>
+    </story>
+    <story><story_id>744</story_id>
+      <informant_id>325</informant_id>
+      <publication_info>DS_V_433</publication_info>
+      <full_name>325 - 0.00 - DS_V_433</full_name>
+      <url>data/stories/744.dfl</url>
+    </story>
+    <story><story_id>881</story_id>
+      <informant_id/>
+      <publication_info>DS_V_714</publication_info>
+      <full_name>0 - 0.00 - DS_V_714</full_name>
+      <url>data/stories/881.dfl</url>
+    </story>
+    <story><story_id>721</story_id>
+      <informant_id>408</informant_id>
+      <publication_info>DS_V_713</publication_info>
+      <full_name>408 - 0.00 - DS_V_713</full_name>
+      <url>data/stories/721.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Hummelg&#229;rd krat gik en gjenganger. Pr&#230;sten m&#246;dte ham der ude en aften, og s&#229; akkorderede de om, at den, der kunde f&#248;rst komme til Krejbj&#230;rg kirke, den havde vundet. Pr&#230;sten m&#229;tte f&#230;rdes over jorden, og gjengangeren under jorden. S&#229; st&#246;dte den hovedet p&#229; en stor sten der nede i jorden, og det sinkede den noget i at komme af sted, da han jo skulde forbi den. S&#229; n&#229;ede pr&#230;sten f&#248;rst kirken, men den anden var ham s&#229; n&#230;r, at han tog i baghjulet, da de kom til kirken.</danish_publication>
+  <english_publication>A revenant once walked in Hummelg&#229;rd thicket. The minister met him out there one night, and then they agreed that the one who got to Krejbj&#230;rg church first had won. The minister had to go over land and the revenant underground. Then the revenant hit its head on a large rock down there underground, and it took a while to get going again, since it had to go around it. Then the minister reached the church first, but when the revenant was so close that it grabbed the minister's back wheel when they got to the church.</english_publication>
+  <keywords>
+    <keyword><id>15</id><frequency>1</frequency><keyword>agreement</keyword>agreement</keyword>
+    <keyword><id>227</id><frequency>3</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>682</id><frequency>1</frequency><keyword>land</keyword>land</keyword>
+    <keyword><id>786</id><frequency>3</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1027</id><frequency>2</frequency><keyword>revenant</keyword>revenant</keyword>
+    <keyword><id>1249</id><frequency>1</frequency><keyword>thicket</keyword>thicket</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>81</id><display_name>Actions or events: Conjuring</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

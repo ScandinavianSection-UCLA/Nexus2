@@ -1,0 +1,54 @@
+<informant><person_id>473</person_id>
+  <core_informant/>
+  <full_name>Pastor M. Melbye</full_name>
+  <last_name>Melbye</last_name>
+  <first_name>M.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>679</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>473</informant_id>
+      <publication_info>DS_IV_489</publication_info>
+      <full_name>473 - 0.00 - DS_IV_489</full_name>
+      <url>data/stories/679.dfl</url>
+      <place_recorded><id>746</id>Asperup</place_recorded>
+      <places_mentioned>
+        <place><id>61</id>
+          <name>Blanke</name>
+        </place>
+        <place><id>473</id>
+          <name>R&#229;rup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>746</place_id>
+      <name>Asperup</name>
+      <display_name>Asperup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>473</place_id>
+      <name>R&#229;rup</name>
+      <display_name>R&#229;rup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>61</place_id>
+      <name>Blanke</name>
+      <display_name>Blanke (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

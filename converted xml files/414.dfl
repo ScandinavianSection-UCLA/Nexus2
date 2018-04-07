@@ -1,0 +1,91 @@
+<story><story_id>414</story_id>
+  <publication_info>DS_III_222</publication_info>
+  <full_name>123 - 3.11 - DS_III_222</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.11</order_told>
+  <fieldtrip><id>2</id>Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>175</place_id>
+      <name>Fuldbro m&#248;lle</name>
+      <display_name>Fuldbro m&#248;lle (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>67</place_id>
+      <name>Boes</name>
+      <display_name>Boes (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>122</place_id>
+      <name>Dover kirke</name>
+      <display_name>Dover kirke (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>615</place_id>
+      <name>Svejstrup</name>
+      <display_name>Svejstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>763</story_id>
+      <informant_id>350</informant_id>
+      <publication_info>DS_III_81</publication_info>
+      <full_name>350 - 0.00 - DS_III_81</full_name>
+      <url>data/stories/763.dfl</url>
+    </story>
+    <story><story_id>684</story_id>
+      <informant_id>533</informant_id>
+      <publication_info>DS_III_215</publication_info>
+      <full_name>533 - 0.00 - DS_III_215</full_name>
+      <url>data/stories/684.dfl</url>
+    </story>
+    <story><story_id>570</story_id>
+      <informant_id>488</informant_id>
+      <publication_info>DS_III_122</publication_info>
+      <full_name>488 - 0.00 - DS_III_122</full_name>
+      <url>data/stories/570.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3800a</fielddiary_page_start>
+  <fielddiary_page_end>3800a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Stories about giants and trolls who try to silence church bells by throwing stones are quite common. Frequently, a landscape feature such as a rock with a hand print provides verification of the story (DS III 81; DS III 122). Supernatural beings, who are not Christian, often complain about the ringing of the bells (DS III 215). Bells were rung not only for regular church services, but also for special services such as weddings and funerals. 
+
+     Svejstrup lies approximately 1 kilometer southwest of Dover church on a straight line with Boes field, which lies approximately 2.5 kilometers from the church. Given the distance, the troll cannot be faulted for not being able to reach the bells with a large stone.</annotation>
+  <danish_manuscript>I Svejstrup laa en Sten som der sad en Haand
+i og det var en ovre paa Boes Mark en Trold
+der kunde ikke lide Kirkekl. h. tykte den klingre-
+de vel h&#248;jt og s. tog h. en sten og kylte efter den
+men den kom ikke uden Halvvejen og en
+kan se hans Haand sidder der ligesom den
+var trykt ind i den, den ligger der endnu.
+Dover Kirkekl.
+</danish_manuscript>
+  <english_manuscript>There was a stone in Svejstrup, and there was a hand print in it. It was one over on Boes mark, a troll, who didn't like the church bells, he thought they rang too loudly, and so he took a stone and threw it at them, but it barely made it half way. And you can see his hand sitting there, it looks just like it had been pressed down into it, it's still lying there. The Dover church bells.</english_manuscript>
+  <danish_publication>I Svejstrup l&#229; en sten, som der sad en h&#229;nd i, det var, ligesom h&#229;nden var trykt ned i den, ja stenen ligger der endnu. Der var en trold ovre p&#229; Boes mark, der ikke kunde lide Dover kirkeklokke, han tykte, den klingrede vel h&#246;jt, og s&#229; tog han en sten og kylte efter den, men den kom ikke uden halvvejen.</danish_publication>
+  <english_publication>There was a stone in Svejstrup, and there was a hand print in it, it looked like the hand had been pressed way down into it, and the stone is still there now. It was a troll over on Boes field who didn&#8217;t like the Dover church bells, he thought they rang too loudly, and so he took a stone and threw it at them, but it barely made it half way.</english_publication>
+  <keywords>
+    <keyword><id>88</id><frequency>1</frequency><keyword>bells</keyword>bells</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>1195</id><frequency>3</frequency><keyword>stone</keyword>stone</keyword>
+    <keyword><id>1283</id><frequency>1</frequency><keyword>troll</keyword>troll</keyword>
+  </keywords>
+  <etk_index><id>11</id>
+    <heading_danish>Kj&#230;mper og deres idr&#230;tter</heading_danish>
+    <heading_english>Heroes and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>46</id><display_name>Tools, Items and Conveyances: Bell</display_name></tango_index>
+    <tango_index><id>66</id><display_name>Supernatural Beings: Troll</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

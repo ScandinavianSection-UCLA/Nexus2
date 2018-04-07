@@ -1,0 +1,63 @@
+<informant><person_id>326</person_id>
+  <core_informant/>
+  <full_name>Anne Andresen</full_name>
+  <last_name>Andresen</last_name>
+  <first_name>Anne</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>471</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>326</informant_id>
+      <publication_info>DS_II_D_73</publication_info>
+      <full_name>326 - 0.00 - DS_II_D_73</full_name>
+      <url>data/stories/471.dfl</url>
+      <place_recorded><id>873</id>Snogb&#230;k, Sundeved</place_recorded>
+      <places_mentioned>
+        <place><id>78</id>
+          <name>Borup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>472</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>326</informant_id>
+      <publication_info>DS_V_972</publication_info>
+      <full_name>326 - 0.00 - DS_V_972</full_name>
+      <url>data/stories/472.dfl</url>
+      <place_recorded><id>873</id>Snogb&#230;k, Sundeved</place_recorded>
+      <places_mentioned>
+        <place><id>599</id>
+          <name>St&#248;rtum</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>873</place_id>
+      <name>Snogb&#230;k, Sundeved</name>
+      <display_name>Snogb&#230;k, Sundeved (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>599</place_id>
+      <name>St&#248;rtum</name>
+      <display_name>St&#248;rtum (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>78</place_id>
+      <name>Borup</name>
+      <display_name>Borup (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

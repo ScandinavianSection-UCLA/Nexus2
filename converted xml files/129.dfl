@@ -1,0 +1,86 @@
+<story><story_id>129</story_id>
+  <publication_info>Unpub_BJK_418</publication_info>
+  <full_name>150 - 4.18 - Unpub_BJK_418</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.18</order_told>
+  <fieldtrip><id>5</id>June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>661</place_id>
+      <name>Troms&#248;</name>
+      <display_name>Troms&#248; (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>128</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_G_100</publication_info>
+      <full_name>150 - 4.17 - DS_II_G_100</full_name>
+      <url>data/stories/128.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4594a (3)</fielddiary_page_start>
+  <fielddiary_page_end>4594a (3)</fielddiary_page_end>
+  <bibliographic_info>Lindow 1982.</bibliographic_info>
+  <bibliography_references>
+    <reference><id>745</id><category>general</category>
+      <display_string>[Article] Lindow, John. 1982. Swedish Legends of Buried Treasure. Vol. 95 of &lt;i&gt;The Journal of American Folklore&lt;/i&gt; 377: 257-279.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Jens continues with stories of portentous dreams and, somewhat unusually, successful treasure hunts. In these successful treasure hunt stories, such as this one and the preceding (BJK 4.17), the original hunter often reveals the location of his quest to an interlocutor, but gives up on the search himself. The interlocutor then acts on this information and recovers the treasure.
+
+     Tang Kristensen did not publish this account. The account is somewhat unusual for Jens, because it departs from his usual intense focus on local history and geography. The chance encounter between the farmhand and the successful treasure hunter takes place in the center of Copenhagen on H&#248;jbro. It is unclear where in Copenhagen Trondal and Trondals Mark were located, if they existed at all.</annotation>
+  <danish_manuscript>Paa H&#248;jebro i Kbh. En Karl fra Jyll.
+dr&#248;mte. Rejste over, gik 1 Dag og en 2.
+Hvad gaar du her efter. Du har jo gaaet
+et Par Dage. Aa a dr&#248;mte men Skid med
+det. Ja hvad dr&#248;mte . . . . [A] der staar en
+Kjedel fuld af Penge paa Trondals Mark (her
+vester paa) A ved hverken Trondal eller Tr.
+dals Mark er. Men det vidste 2 og s. havde h.
+fundet Lykken. Hjem, grav Kjedelen op,
+Fandt Lykken.</danish_manuscript>
+  <english_manuscript>On H&#248;jbro in Copenhagen. A farmhand from Jutland had dreamed. He traveled over (to Copenhagen) and walked around for one day and another. "What are you looking for? You've been walking around here for a couple of days." "Oh, I had a dream, but to hell with it." "Well, what did you dream..." "Well, there's a kettle full of money on Trondals Mark" (west of here). But I don't know where either Trondal or Trondals Mark is. But the other one knew and then he found his fortune. Went home, dug up the kettle and found the fortune.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: On H&#248;jbro in Copenhagen. A farmhand from Jutland had dreamed. He traveled over (to Copenhagen) and walked around for one day and another. &#8220;What are you looking for? You&#8217;ve been walking around here for a couple of days.&#8221; &#8220;Oh, I had a dream, but to hell with it.&#8221; &#8220;Well, what did you dream...&#8221; &#8220;Well, there&#8217;s a kettle full of money on Trondals Mark&#8221; (west of here). But I don&#8217;t know where either Trondal or Trondals Mark is. But the other one knew and then he found his fortune. Went home, dug up the kettle and found the fortune.</english_publication>
+  <keywords>
+    <keyword><id>306</id><frequency>2</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>326</id><frequency>1</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>352</id><frequency>3</frequency><keyword>dream</keyword>dream</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>520</id><frequency>1</frequency><keyword>hell</keyword>hell</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>611</id><frequency>1</frequency><keyword>jutland</keyword>Jutland</keyword>
+    <keyword><id>618</id><frequency>2</frequency><keyword>kettle</keyword>kettle</keyword>
+    <keyword><id>793</id><frequency>1</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>1331</id><frequency>1</frequency><keyword>west</keyword>west</keyword>
+  </keywords>
+  <etk_index><id>44</id>
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

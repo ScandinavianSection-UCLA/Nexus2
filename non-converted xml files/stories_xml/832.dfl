@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<story story_id="832">
+  <publication_info>DS_IV_1518</publication_info>
+  <full_name>130 - 0.00 - DS_IV_1518</full_name>
+  <informant_id>130</informant_id>
+  <informant_last_name>J&#xF8;rgensen</informant_last_name>
+  <informant_first_name>S&#xF8;ren</informant_first_name>
+  <informant_full_name>S&#xF8;ren J&#xF8;rgensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>22</place_id>
+      <name>Alken</name>
+      <display_name>Alken (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>309</place_id>
+      <name>Illerup</name>
+      <display_name>Illerup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>253</place_id>
+      <name>Hemstok</name>
+      <display_name>Hemstok (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="373">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1517</publication_info>
+      <full_name>123 - 1.01 - DS_IV_1517</full_name>
+      <url>data/stories/373.dfl</url>
+    </story>
+    <story story_id="707">
+      <informant_id>332</informant_id>
+      <publication_info>DS_IV_1510</publication_info>
+      <full_name>332 - 0.00 - DS_IV_1510</full_name>
+      <url>data/stories/707.dfl</url>
+    </story>
+    <story story_id="708">
+      <informant_id>332</informant_id>
+      <publication_info>DS_IV_1512</publication_info>
+      <full_name>332 - 0.00 - DS_IV_1512</full_name>
+      <url>data/stories/708.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#xE5; Illerup mark op efter Hemstok har ligget en g&#xE5;rd der kaldtes Hjelmslev, og efter den har hele herredet navn, for det skal v&#xE6;re midtpunktet i det. Manden p&#xE5; den g&#xE5;rd hed Hjelm. Der er ingen g&#xE5;rd nu, men kun en kjelde. Til den g&#xE5;rd kom en s&#xF8;ndag eftermiddag en pottemand kj&#xF8;rende. Folkene var g&#xE5;ede til kirke. Han f&#xE5;r lov at blive der og f&#xE5;r hans b&#xE6;ster sat p&#xE5; gr&#xE6;s. Vognen stod ved siden p&#xE5; en dam, og da det blev aften, m&#xE6;rkede folkene, te pottemanden gik til vognen og snakkede s&#xE5; stille. S&#xE5; kom de i tanker om, hvad det var for folk. Den tid han var s&#xE5; g&#xE5;et til leje, gik de ud og v&#xE6;ltede vognen ned i dammen, og s&#xE5; druknede r&#xF6;verne. A har v&#xE6;ret ved den kjelde &#xE9;n gang, og der var et hus lidt derfra, som kaldtes Hjelmslev-huset. </danish_publication>
+  <english_publication>There used to be a farm called Hjelmslev on Illerup field up near Hemstok and that&#x2019;s where the whole district gets its name, since it's supposed to be the center of it. The man at the farm was called Hjelm. There&#x2019;s no farm now, just a well. One Sunday afternoon a potter came driving by there. The people had gone to church. He&#x2019;s allowed to stay there, and he let his horses out to graze. The wagon stood next to a pond and when it got to be evening, the people noticed that the potter went over to the wagon and spoke quietly. Then they realized what kind of a person he was. Then when he had gone off to bed, they went out and tipped the wagon out into the pond and then the robbers drowned. I&#x2019;ve been to that spring once, and there was a house not too far from there which was called the Hjelmslev house.</english_publication>
+  <keywords>
+    <keyword id="14" frequency="1" keyword="afternoon">afternoon</keyword>
+    <keyword id="19" frequency="1" keyword="allow">allow</keyword>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="336" frequency="1" keyword="district">district</keyword>
+    <keyword id="358" frequency="1" keyword="drowning">drowning</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="394" frequency="3" keyword="farm">farm</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="484" frequency="1" keyword="grazing">grazing</keyword>
+    <keyword id="531" frequency="2" keyword="hjelmslev">hjelmslev</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="548" frequency="2" keyword="house">house</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="973" frequency="2" keyword="pond">pond</keyword>
+    <keyword id="981" frequency="2" keyword="pot">pot</keyword>
+    <keyword id="1037" frequency="1" keyword="robber">robber</keyword>
+    <keyword id="1177" frequency="2" keyword="spring">spring</keyword>
+    <keyword id="1218" frequency="1" keyword="sunday">Sunday</keyword>
+    <keyword id="1311" frequency="3" keyword="wagon">wagon</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="85" display_name="Actions or events: Drowning"/>
+    <tango_index id="102" display_name="Time, Season, Weather: Sunday"/>
+    <tango_index id="110" display_name="Time, Season, Weather: Noon"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,70 @@
+<story><story_id>786</story_id>
+  <publication_info>DS_I_962</publication_info>
+  <full_name>481 - 0.00 - DS_I_962</full_name>
+  <informant_id>481</informant_id>
+  <informant_last_name>M&#248;ller</informant_last_name>
+  <informant_first_name>Otto</informant_first_name>
+  <informant_full_name>Pastor Otto M&#248;ller</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>787</place_id>
+      <name>Gylling</name>
+      <display_name>Gylling (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>53</place_id>
+      <name>Bilsb&#230;k</name>
+      <display_name>Bilsb&#230;k (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>377</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_959</publication_info>
+      <full_name>123 - 2.03 - DS_I_959</full_name>
+      <url>data/stories/377.dfl</url>
+    </story>
+    <story><story_id>671</story_id>
+      <informant_id>281</informant_id>
+      <publication_info>DS_I_960</publication_info>
+      <full_name>281 - 0.00 - DS_I_960</full_name>
+      <url>data/stories/671.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Svend Feldings tr&#230;, som han havde bundet sin hest ved, det stod nede ved Bilsb&#230;k, men blev hugget om forrige efter&#229;r, der var mange j&#230;rnringe ind i det. Svend boede i et hus t&#230;t ved b&#230;kken. S&#246;ren Kusk sagde, at vandet i den b&#230;k er det letteste i verden.</danish_publication>
+  <english_publication>Svend Felding's tree, that he'd tied his horse to, stood down by Bilsb&#230;k, but it was chopped down the spring before last, there were lots of iron rings in it. Svend lived in a house close to the stream. S&#248;ren Kusk said that the water in that stream was the clearest in the world.</english_publication>
+  <keywords>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>548</id><frequency>1</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>564</id><frequency>1</frequency><keyword>iron</keyword>iron</keyword>
+    <keyword><id>1033</id><frequency>1</frequency><keyword>ringing</keyword>ringing</keyword>
+    <keyword><id>1177</id><frequency>1</frequency><keyword>spring</keyword>spring</keyword>
+    <keyword><id>1207</id><frequency>2</frequency><keyword>stream</keyword>stream</keyword>
+    <keyword><id>1226</id><frequency>1</frequency><keyword>svend_felding</keyword>Svend Felding</keyword>
+    <keyword><id>1161</id><frequency>1</frequency><keyword>s&#248;ren_kusk</keyword>S&#248;ren Kusk</keyword>
+    <keyword><id>1261</id><frequency>1</frequency><keyword>tie</keyword>tie</keyword>
+    <keyword><id>1281</id><frequency>1</frequency><keyword>tree</keyword>tree</keyword>
+    <keyword><id>1320</id><frequency>1</frequency><keyword>water</keyword>water</keyword>
+    <keyword><id>1363</id><frequency>1</frequency><keyword>world</keyword>world</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>20</id><display_name>People: Strong Man / Hero</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>42</id><display_name>Places: Stream / River</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>3</id><name>Description</name></genre>
+</story>

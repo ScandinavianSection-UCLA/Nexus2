@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<story story_id="379">
+  <publication_info>DS_V_822</publication_info>
+  <full_name>123 - 2.05 - DS_V_822</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.05</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>615</place_id>
+      <name>Svejstrup</name>
+      <display_name>Svejstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="165">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_687</publication_info>
+      <full_name>241 - 2.15 - DS_IV_687</full_name>
+      <url>data/stories/165.dfl</url>
+    </story>
+    <story story_id="177">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_433</publication_info>
+      <full_name>241 - 4.06 - DS_VI_433</full_name>
+      <url>data/stories/177.dfl</url>
+    </story>
+    <story story_id="612">
+      <informant_id>540</informant_id>
+      <publication_info>DS_V_386</publication_info>
+      <full_name>540 - 0.00 - DS_V_386</full_name>
+      <url>data/stories/612.dfl</url>
+    </story>
+    <story story_id="674">
+      <informant_id>376</informant_id>
+      <publication_info>DS_VI_592</publication_info>
+      <full_name>376 - 0.00 - DS_VI_592</full_name>
+      <url>data/stories/674.dfl</url>
+    </story>
+    <story story_id="900">
+      <informant_id>564</informant_id>
+      <publication_info>DS_V_820</publication_info>
+      <full_name>564 - 0.00 - DS_V_820</full_name>
+      <url>data/stories/900.dfl</url>
+    </story>
+    <story story_id="818">
+      <informant_id>460</informant_id>
+      <publication_info>DS_V_728</publication_info>
+      <full_name>460 - 0.00 - DS_V_728</full_name>
+      <url>data/stories/818.dfl</url>
+    </story>
+    <story story_id="329">
+      <informant_id>90</informant_id>
+      <publication_info>DS_IV_988</publication_info>
+      <full_name>90 - 1.06 - DS_IV_988</full_name>
+      <url>data/stories/329.dfl</url>
+    </story>
+    <story story_id="357">
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_831</publication_info>
+      <full_name>90 - 3.03 - DS_V_831</full_name>
+      <url>data/stories/357.dfl</url>
+    </story>
+    <story story_id="246">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_613</publication_info>
+      <full_name>235 - 1.26 - JAH_V_613</full_name>
+      <url>data/stories/246.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3773b</fielddiary_page_start>
+  <fielddiary_page_end>3773b</fielddiary_page_end>
+  <bibliographic_info>Ludvigsen 1977</bibliographic_info>
+  <bibliography_references>
+    <reference id="333" category="general">
+      <display_string>[Article] Ludvigsen, Peter. 1977. Selvmord. Sagn og virkelighed. Vol. 7 of &lt;i&gt;Tradisjon&lt;/i&gt;, 91-102.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Stories about interrogating the dead are widely attested (DS V 820). Here, the farmhand unwittingly breaks a prohibition against witnessing supernatural encounters with the dead or the devil (DS V 728). Consequently, he suffers greatly and never recovers his faculties. The minister presumably wakes the suicide to find out the cause of his action and, quite possibly, to offer the last rites.
+
+     The sanction against suicide was strong, and suicides were buried in the least favorable part of the cemetery, if they were buried in consecrated ground at all (AMJ 1.06 and 3.03). The burial of suicides was a task often given the natm&#xE6;nd [night men; refuse workers] (KMP 1.26). The motif of the minister waking the suicide and asking him questions is not uncommon (AMJ 1.06 and 3.03).
+
+     Tang Kristensen provided an annotation in Danske Sagn, identifying Pastor F&#xE6;ster as Hr. Jes F&#xE6;ster, and gives the dates of his ministry as 1770-1809.</annotation>
+  <danish_manuscript>Hans Form. hed Hr. Feste. I [dh] hans Tid
+var der en M. som tog sig selv af Dage paa
+Gaarden og det var om Somm. s. blev h.
+lugt ind i Laden. S. en Middags stund der
+var en Karl gaaet ind i Lad. at sove
+Middags&#xF8;vn s. kommer Pr. og gaar derind og
+h gaar hen til den d&#xF8;de og v&#xE6;kker ham og
+den d&#xF8;de satte sig op paa Enden og besvarte
+ham. Karlen der laa der inde h. blev s.
+ussel te h. aldrig blev til rigtigt Mske mer
+over det Syn.
+</danish_manuscript>
+  <english_manuscript>His predecessor was called Mr. F&#xE6;ster. In his time there was a man who killed himself there at the farm, and it was during the summer so he was placed in the barn. One afternoon a farmhand had gone into the barn to take his afternoon nap and then the minister comes and goes in there and walks over to the dead person and wakes him up and the dead person sits up on his behind and answers the minister's questions. The farmhand who was lying in there became so wretched that he never really was much of a person after having seen that sight.</english_manuscript>
+  <danish_publication>Imens pastor F&#xE6;ster var pr&#xE6;st i Svejstrup, var der en mand, som tog sig selv af dage p&#xE5; g&#xE5;rden, og det var om sommeren, s&#xE5; han blev lagt ind i laden. S&#xE5; en middagsstund var en karl g&#xE5;et ind i laden at sove middagss&#xF8;vn, og da kommer pr&#xE6;sten ogs&#xE5; derind og g&#xE5;r hen til den d&#xF8;de, som han s&#xE5; v&#xE6;kker op. Han s&#xE6;tter sig op p&#xE5; enden og besvarer pr&#xE6;stens sp&#xF6;rgsm&#xE5;l. Karlen, der l&#xE5; der inde, han blev s&#xE5; ussel, te han aldrig blev til rigtigt menneske mere over det syn.</danish_publication>
+  <english_publication>While Pastor F&#xE6;ster was minister in Svejstrup, there was a man who killed himself there at the farm, and it was during the summer so he was placed in the barn. One afternoon a farmhand had gone into the barn to take his afternoon nap and then the minister went in there too and goes over to the dead person whom he wakes up. He sits up on his behind and answers the minister&#x2019;s questions. The farmhand who was lying in there became so wretched that he never really was much of a person after having seen that sight.</english_publication>
+  <keywords>
+    <keyword id="14" frequency="2" keyword="afternoon">afternoon</keyword>
+    <keyword id="72" frequency="2" keyword="barn">barn</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="395" frequency="2" keyword="farm_hand">farmhand</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="786" frequency="3" keyword="minister">minister</keyword>
+    <keyword id="823" frequency="1" keyword="nap">nap</keyword>
+    <keyword id="908" frequency="1" keyword="pastor">pastor</keyword>
+    <keyword id="1215" frequency="1" keyword="summer">summer</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="96" display_name="Actions or events: Suicide"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

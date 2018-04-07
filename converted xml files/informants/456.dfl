@@ -1,0 +1,120 @@
+<informant><person_id>456</person_id>
+  <core_informant/>
+  <full_name>Fru Anna Christ. Ludvigsen</full_name>
+  <last_name>Ludvigsen</last_name>
+  <first_name>Anna Christ.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>436</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>456</informant_id>
+      <publication_info>DS_III_2211</publication_info>
+      <full_name>456 - 0.00 - DS_III_2211</full_name>
+      <url>data/stories/436.dfl</url>
+      <place_recorded><id>766</id>D&#248;strup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>441</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>456</informant_id>
+      <publication_info>DS_I_1341</publication_info>
+      <full_name>456 - 0.00 - DS_I_1341</full_name>
+      <url>data/stories/441.dfl</url>
+      <place_recorded><id>766</id>D&#248;strup</place_recorded>
+      <places_mentioned>
+        <place><id>563</id>
+          <name>S&#248;lsted</name>
+        </place>
+        <place><id>646</id>
+          <name>T&#248;nder</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>442</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>456</informant_id>
+      <publication_info>DS_II_F_58</publication_info>
+      <full_name>456 - 0.00 - DS_II_F_58</full_name>
+      <url>data/stories/442.dfl</url>
+      <place_recorded><id>766</id>D&#248;strup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>443</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>456</informant_id>
+      <publication_info>DS_II_F_7</publication_info>
+      <full_name>456 - 0.00 - DS_II_F_7</full_name>
+      <url>data/stories/443.dfl</url>
+      <place_recorded><id>766</id>D&#248;strup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>444</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>456</informant_id>
+      <publication_info>DS_V_520</publication_info>
+      <full_name>456 - 0.00 - DS_V_520</full_name>
+      <url>data/stories/444.dfl</url>
+      <place_recorded><id>766</id>D&#248;strup</place_recorded>
+      <places_mentioned>
+        <place><id>993</id>
+          <name>Brede</name>
+        </place>
+        <place><id>994</id>
+          <name>Harris</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>445</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>456</informant_id>
+      <publication_info>DS_VII_237</publication_info>
+      <full_name>456 - 0.00 - DS_VII_237</full_name>
+      <url>data/stories/445.dfl</url>
+      <place_recorded><id>766</id>D&#248;strup</place_recorded>
+      <places_mentioned>
+        <place><id>995</id>
+          <name>Visby</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>766</place_id>
+      <name>D&#248;strup</name>
+      <display_name>D&#248;strup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>995</place_id>
+      <name>Visby</name>
+      <display_name>Visby (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>994</place_id>
+      <name>Harris</name>
+      <display_name>Harris (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>993</place_id>
+      <name>Brede</name>
+      <display_name>Brede (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>646</place_id>
+      <name>T&#248;nder</name>
+      <display_name>T&#248;nder (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>563</place_id>
+      <name>S&#248;lsted</name>
+      <display_name>S&#248;lsted (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

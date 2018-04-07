@@ -1,0 +1,37 @@
+<informant><person_id>452</person_id>
+  <core_informant/>
+  <full_name>Dorte Lavrsdatter</full_name>
+  <last_name>Lavrsdatter</last_name>
+  <first_name>Dorte</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>495</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>452</informant_id>
+      <publication_info>DS_VII_664</publication_info>
+      <full_name>452 - 0.00 - DS_VII_664</full_name>
+      <url>data/stories/495.dfl</url>
+      <place_recorded><id>793</id>Hesselbakke</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>793</place_id>
+      <name>Hesselbakke</name>
+      <display_name>Hesselbakke (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<story story_id="43">
+  <publication_info>JAH_I_383</publication_info>
+  <full_name>150 - 1.40 - JAH_I_383</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.40</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>656</place_id>
+      <name>Torstedlund</name>
+      <display_name>Torstedlund (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="588">
+      <informant_id>144</informant_id>
+      <publication_info>DS_VII_690</publication_info>
+      <full_name>144 - 0.00 - DS_VII_690</full_name>
+      <url>data/stories/588.dfl</url>
+    </story>
+    <story story_id="528">
+      <informant_id>362</informant_id>
+      <publication_info>DS_VII_696</publication_info>
+      <full_name>362 - 0.00 - DS_VII_696</full_name>
+      <url>data/stories/528.dfl</url>
+    </story>
+    <story story_id="590">
+      <informant_id>151</informant_id>
+      <publication_info>DS_VII_700</publication_info>
+      <full_name>151 - 0.00 - DS_VII_700</full_name>
+      <url>data/stories/590.dfl</url>
+    </story>
+    <story story_id="188">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_698</publication_info>
+      <full_name>241 - 4.16 - DS_VII_698</full_name>
+      <url>data/stories/188.dfl</url>
+    </story>
+    <story story_id="18">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_139</publication_info>
+      <full_name>150 - 1.15 - DS_VI_139</full_name>
+      <url>data/stories/18.dfl</url>
+    </story>
+    <story story_id="26">
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_553</publication_info>
+      <full_name>150 - 1.23 - DS_I_553</full_name>
+      <url>data/stories/26.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3250a</fielddiary_page_start>
+  <fielddiary_page_end>3250b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Stories of a cunning woman ridding the country of wolves are widely attested (DS VII 690, 696, 700). In some stories, the woman does the service to escape punishment for witchcraft (JPP 4.16). The prohibition on calling the wolves by their true name connects the wolves to Satan and other supernatural beings. The common expression, "speak of the devil" continues with, "and he's in the room"--given that the devil often kills people in the same room as him, it would be unwise to name him by name (BJK 1.15). This belief also accounts for the various nicknames given the devil, most prominent among them, Old Erik (BJK 1.23).
+
+     Jens adds a coda to the story, remarking that he is unsure of whether the wolves drowned or went to Sweden. This coda is amusing in light of the previous story of conjuring the mice onto one's enemies, and the bad blood between Denmark and Sweden in the aftermath of the wars of 1814 and 1867. Tang Kristensen deleted Jens's evaluative comment, "Wasn't that strange," from the published version. Given the performance context, this evaluative meta-comment adds a certain humor to the story.</annotation>
+  <danish_manuscript>Karen Indjarsdatter (Ingvarsdatter) en gl. en hun
+skaffede alle Ulvene bort herfra Landet, h. var
+her fra Byen s. vidt a ved, ja var det ikke m&#xE6;rkeligt
+Der kom en imod hende i Alleen her nede ved
+
+3250B
+Torstedlund, og da kom hu ridende paa dem og havde
+dem koblet sammen, paa den forreste. Du har
+endda et godt Kobbel Plage at ride med, s. h.
+Ja du skal have s. mange Tak for det du sag
+de der, du frelste mit Liv, for dersom du
+baade n&#xE6;vnt med deres rigtige Navn, s. havde
+de split mig ad. Og h. red hen og viste dem
+ud i Havet. Om de kom til Sverige eller de
+druknede, det kjender a ikke noget til.</danish_manuscript>
+  <english_manuscript>Karen Indjarsdatter (Ingvarsdatter), an old one, she chased all the wolves away from the country. She was from town here, as far as I know, wasn't that strange? Someone came toward her on the path down here near Torstedlund, and she came riding on them, she had them linked together and she was on the one in the very front. "You've got quite a pack of trouble to ride on," he says. "Thanks for saying that, you saved my life since if you'd called them by their true name, they would have torn me to pieces." And she rode on and showed them out into the ocean. Whether they drowned or made it to Sweden, I don't know anything about that.</english_manuscript>
+  <danish_publication>Der var en gammel en, der hed Karen Indjarster (Ingvarsdatter), hun skaffede alle ulvene bort her fra landet. S&#xE5; vidt a v&#xE9;d, var hun her fra byen. Der kom en imod hende i alleen her nede ved Torstedlund, og da kom hun ridende p&#xE5; den forreste og havde dem koblet sammen. S&#xE5; siger han: "Du har endda et godt kobbel plage at ride med." Dertil svarede hun: "Du skal have s&#xE5; mange tak, for det du sagde det, derved frelste du mit liv, for dersom du havde n&#xE6;vnet dem ved deres rigtige navn, s&#xE5; havde de split mig ad." S&#xE5; red hun videre og viste dem s&#xE5; ud i havet, men om de kom over til Sverig, eller de druknede, det v&#xE9;d a ikke noget af.</danish_publication>
+  <english_publication>There was an old one who was called Karen Indjarsdatter (Ingvarsdatter), she chased all the wolves away from the country. As far as I know she was from the town here. Somebody came toward her on the path down here near Torstedlund, and she came riding on the first one and had them all linked together. Then he says, &#x201C;You&#x2019;ve got quite a pack of trouble to ride on.&#x201D; And she answered, &#x201C;I should thank you a great deal for saying that, you saved my life with that because, if you&#x2019;d called them by their true name, they would have torn me apart.&#x201D; Then she rode on and showed them out into the ocean. But whether they drowned or went on to Sweden, I don&#x2019;t know anything about that.</english_publication>
+  <keywords>
+    <keyword id="211" frequency="1" keyword="chase">chase</keyword>
+    <keyword id="269" frequency="1" keyword="country">country</keyword>
+    <keyword id="358" frequency="1" keyword="drowning">drowning</keyword>
+    <keyword id="613" frequency="1" keyword="karen_indjarsdatter">Karen Indjarsdatter</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="872" frequency="1" keyword="ocean">ocean</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1030" frequency="3" keyword="riding">riding</keyword>
+    <keyword id="1231" frequency="1" keyword="sweden">sweden</keyword>
+    <keyword id="1246" frequency="1" keyword="thank">thank</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1355" frequency="1" keyword="wolf">wolf</keyword>
+  </keywords>
+  <etk_index id="31">
+    <heading_danish>Om fortidens landbrug</heading_danish>
+    <heading_english>Concerning earlier agricultural practices</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="79" display_name="Animals: None / Unspecified"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

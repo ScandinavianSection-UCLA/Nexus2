@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<story story_id="218">
+  <publication_info>JAT_II_194</publication_info>
+  <full_name>241 - 4.46 - JAT_II_194</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>4.46</order_told>
+  <fieldtrip id="8">May-June 1898</fieldtrip>
+  <fieldtrip_start_date>1898-05-23</fieldtrip_start_date>
+  <fieldtrip_end_date>1898-06-08</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>127</place_id>
+      <name>Dronninglund</name>
+      <display_name>Dronninglund (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="219">
+      <informant_id>241</informant_id>
+      <publication_info>JAT_II_200</publication_info>
+      <full_name>241 - 4.47 - JAT_II_200</full_name>
+      <url>data/stories/219.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7826b</fielddiary_page_start>
+  <fielddiary_page_end>7826b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens Peter concludes his storytelling with two closely related stories of strong men. All the exploits of the strong men would be quite helpful on a farm. In that sense, they are related to the nisse who also exhibits great strength. In both stories, Jens Peter notes the height of the strong men, using that as an apparent explanation of their otherwise superhuman strength.</annotation>
+  <danish_manuscript>Der var en st&#xE6;rk mand ude i Dron-
+ninglund Skov for en 60, 70 Aar
+siden, de kaldte den store Kr&#xE6;n
+Buur, h. var s st&#xE6;rk h kunde
+rykke et Tr&#xE6; op med Rod, naar det
+var ikke aa stort og h. have da en
+6, 8 Mands styrke h. kunde l&#xE6;sse
+et Tr&#xE6; paa en Vogn ene Mand
+som 2 Heste i de Tider ikke kunde
+tr&#xE6;kke. Men Vejene var jo og
+saa daarlige. Naar Folk s. kom
+i Skoven og havde f&#xE6;ldet et Tr&#xE6;
+i en Dal ell. i Siden af en Bak-
+ke, s. kunde de sp&#xE6;nde B&#xE6;sterne
+for den ene Ende og h. kunde tage
+den 2 Ende og b&#xE6;re op. Naar He
+stene trak Toppen op kunde h.
+b&#xE6;re Roden. Stor og f&#xF8;r var h.
+tillige med, noget over 3 Al.</danish_manuscript>
+  <english_manuscript>There was a strong man out in Dronninglund forest sixty or seventy years ago, they called him big Kr&#xE6;n Buur. He was so strong that he could pull a tree up with its roots when it wasn't too big. He had the strength of six or eight men. He could load a tree onto a wagon by himself which two horses at that time couldn't pull. But the roads were also really bad then. When people had chopped down a tree in a dale or on the side of a hill, they could harness their animals to one end and he could lift the other end up and carry it. When the horses pulled the top up, he could carry the roots. Big was he, over six feet.</english_manuscript>
+  <danish_publication>For en 60, 70 &#xE5;r siden var der en st&#xE6;rk mand ude i Dronninglund skov, de kaldte ham den store Kr&#xE6;n Buur. Han var s&#xE5; st&#xE6;rk, at han kunde rykke et tr&#xE6; op med rod, n&#xE5;r det ikke var ret stort, og han havde da en seks, otte mands styrke. Han kunde ene mand l&#xE6;sse et tr&#xE6; p&#xE5; en vogn, som to heste i de tider ikke kunde tr&#xE6;kke; men vejene var jo ogs&#xE5; d&#xE5;rlige. &#x2014; N&#xE5;r folk s&#xE5; kom i skoven og havde f&#xE6;ldet et tr&#xE6; i en dal eller i siden af en bakke, s&#xE5; kunde de sp&#xE6;nde b&#xE6;sterne for den ene ende, og han kunde da tage den anden ende og b&#xE6;re op. Han kunde b&#xE6;re roden, n&#xE5;r hestene blot kunde tr&#xE6;kke toppen. Stor var han jo, noget over tre alen, og f&#xF8;r var han tillige med.</danish_publication>
+  <english_publication>Sixty or seventy years ago there was a strong man out in Dronninglund forest, they called him big Kr&#xE6;n Buur. He was so strong that he could pull a tree up with its roots when it wasn't too big. He had the strength of six or eight men. He could load a tree onto a wagon by himself which two horses at that time couldn't pull; but the roads were also bad. So when people had come and chopped down a tree in a dale or on the side of a hill, they could harness their animals to one end and he could lift the other end up and carry it. He could carry the roots when the horses could only pull the top. Big was he, over six feet, and he'd been that big for quite a while.</english_publication>
+  <keywords>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="294" frequency="1" keyword="dale">dale</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="502" frequency="1" keyword="harness">harness</keyword>
+    <keyword id="530" frequency="1" keyword="hill">hill</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="648" frequency="1" keyword="kr&#xE6;n_buur">Kr&#xE6;n Buur</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1043" frequency="2" keyword="root">root</keyword>
+    <keyword id="1209" frequency="3" keyword="strength">strength</keyword>
+    <keyword id="1281" frequency="3" keyword="tree">tree</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+  </keywords>
+  <etk_index id="32">
+    <heading_danish>Fra hoveriets tid</heading_danish>
+    <heading_english>From the time of villeinage</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="20" display_name="People: Strong Man / Hero"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

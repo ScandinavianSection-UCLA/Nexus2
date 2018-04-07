@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<story story_id="83">
+  <publication_info>JAH_V_48</publication_info>
+  <full_name>150 - 3.20 - JAH_V_48</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.20</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>348</place_id>
+      <name>Konradsminde</name>
+      <display_name>Konradsminde (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="41">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_1248</publication_info>
+      <full_name>150 - 1.38 - DS_VI_1248</full_name>
+      <url>data/stories/41.dfl</url>
+    </story>
+    <story story_id="848">
+      <informant_id>439</informant_id>
+      <publication_info>DS_VI_1252</publication_info>
+      <full_name>439 - 0.00 - DS_VI_1252</full_name>
+      <url>data/stories/848.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4099b</fielddiary_page_start>
+  <fielddiary_page_end>4100a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens provides a short account of a hostile interaction between local farmers and immigrant workers. The outsiders are described as immoral--dancing and gambling (details that Tang Kristensen deleted in the published version). To make matters worse, they criticize the locals' clothes.
+
+     The published version of the account differs somewhat from the manuscript: the order of certain unbound, descriptive clauses (such as mention of the Norwegian and German workers' arrival) have been changed, and Jens's correction of Truukr&#xE6;n's comments about where he had seen the Norwegian workers has been eliminated.</annotation>
+  <danish_manuscript>Dh. gl. T. Kr. han blev noget tokkivorn til
+sidst, h. sagde, Det var s&#xE6;rt, te Kj&#xE6;sten
+hun vilde have de her Norskere der inde i
+hendes lade (Kj. var Kold Jenses Stifmo
+der), det skidt, de spilte og de danste der
+inde og der var en af dem der r&#xE6;kkede
+Hovedet ud og sagde til mig: A tykkes
+din Tr&#xF8;j er s&#xE5; [rallne] raggere Fald. S. 
+sv&#xE5;r h. sig selv: Ja n&#xF8;r en wor gl. s.
+skal en g&#xE5; i ragger Tr&#xF8;jer. Men s. nest
+a D&#xF8;d og Pin Karlen &#xE5; og sagde til ham
+Kan [sku] ske du nap har den Skjorte du
+kan tr&#xE6;k op&#xE5; Rajet. S. tog han D&#xF8;d og
+Pin Hovedet til sig. Deher Norskere de ar-
+bejdede ved Konradsminde Glasv&#xE6;rk, det var
+de f&#xF8;rste Arbejdere der kom der, da det var stilt
+
+4100a
+an og siden kom der Tyskere. Norskerne var
+ellers p&#xE6;n Folk i Kl&#xE6;der og [de] Det var ellers
+ikke andet end vild Tuuk, noget han forstilte
+sig, at h. saa dem der, h. havde jo nok set
+dem, men ikke der i Gaarde, kanske de blot
+havde v&#xE6;ret der at kj&#xF8;be Sm&#xF8;r.</danish_manuscript>
+  <english_manuscript>Old Truukr&#xE6;n was a bit crazy by the end, he said, "It's strange that Kj&#xE6;sten will have these Norwegians in her house,"--Kj&#xE6;sten was Kold Jens's stepmother--"those shits, they gambled and they danced in there and there was one of them who poked his head out and said to me, 'I think your clothes are so ragged.' And then he answered himself, 'Just because you're old doesn't mean you have to have such ragged clothes." But I chewed that guy out and said, "You've barely got a shirt that you can wear on your back." Then he pulled his goddamn head back inside. These Norwegians work over at Konradsminde Glassworks, they were the first workers who came here, when it was built, the Germans came later. The Norwegians otherwise had neat clothes and it wasn't anything other than wild tuuk (crazy talk), something that he'd convinced himself of, that he'd seen them, he'd probably seen them, but not in the farms, they'd probably just come by to buy some butter.</english_manuscript>
+  <danish_publication>De f&#xF6;rste arbejdere, der kom til Konradsminde glasv&#xE6;rk, var Norskere. Siden kom der Tyskere. Norskerne var ellers p&#xE6;ne folk i kl&#xE6;der. De kom af og til ind til Ersted for at kj&#xF8;be sm&#xF6;r. Den gamle Truukr&#xE6;n tykte ikke om deres bes&#xF8;g, men han var ogs&#xE5; noget tokkivorn til sidst. Han sagde om Kold-Jenses stifmoder: Det er s&#xE6;rt, te Kj&#xE6;sten hun vil have deher Norskere i hendes hus, det skidt, der var en af dem, der r&#xE6;kkede hovedet ud og sagde til mig: "A tykkes, din tr&#xF6;je er sa raggere, falld; ja, n&#xE6;r en wor gammel, s&#xE5; skal en g&#xE5; i raggere tr&#xF6;jer". Men s&#xE5; n&#xE6;ste a d&#xF8;d og pine karlen af og sagde til ham: "Kanske du nap har den skjorte, du kan tr&#xE6;k &#xE6;p&#xE5; rajet". S&#xE5; tog han d&#xF8;d og pine hovedet til sig.</danish_publication>
+  <english_publication>The first workers who came to Konradsminde glassworks were Norwegians. Germans came later. The Norwegians were otherwise neat folk in appearance. They came once in a while in to Ersted to buy butter. Old Truukr&#xE6;n didn&#x2019;t think much of their visits, but he was a bit crazy by the end. About Kold-Jens&#x2019;s stepmother, he said: It&#x2019;s strange that Kj&#xE6;sten will have these Norwegians in her house, those shits, there was one of them who poked his head out and said to me, &#x201C;I think your clothes are so ragged. Just because you&#x2019;re old doesn&#x2019;t mean you have to have such ragged clothes.&#x201D; But I chewed that guy out and said, &#x201C;You&#x2019;ve barely got a shirt that you can wear on your back.&#x201D; Then he pulled his goddamn head back inside.</english_publication>
+  <keywords>
+    <keyword id="163" frequency="1" keyword="butter">butter</keyword>
+    <keyword id="236" frequency="2" keyword="clothing">clothing</keyword>
+    <keyword id="278" frequency="1" keyword="crazy">crazy</keyword>
+    <keyword id="429" frequency="1" keyword="folk">folk</keyword>
+    <keyword id="462" frequency="1" keyword="german">german</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="646" frequency="1" keyword="kold_jens">Kold Jens</keyword>
+    <keyword id="867" frequency="3" keyword="norwegian">Norwegian</keyword>
+    <keyword id="873" frequency="2" keyword="old">old</keyword>
+    <keyword id="1102" frequency="1" keyword="shirt">shirt</keyword>
+    <keyword id="1103" frequency="1" keyword="shit">shit</keyword>
+    <keyword id="1191" frequency="1" keyword="stepmother">stepmother</keyword>
+    <keyword id="1285" frequency="1" keyword="truukr&#xE6;n">truukr&#xE6;n</keyword>
+    <keyword id="1362" frequency="1" keyword="worker">worker</keyword>
+  </keywords>
+  <etk_index id="35">
+    <heading_danish>Livet uden d&#xF8;re</heading_danish>
+    <heading_english>Life outdoors</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="10" display_name="People: Foreigner"/>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

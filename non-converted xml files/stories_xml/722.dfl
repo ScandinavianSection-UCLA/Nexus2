@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<story story_id="722">
+  <publication_info>DS_I_1158</publication_info>
+  <full_name>498 - 0.00 - DS_I_1158</full_name>
+  <informant_id>498</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Morten</informant_first_name>
+  <informant_full_name>Morten Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>58</place_id>
+      <name>Bj&#xE6;rggrav</name>
+      <display_name>Bj&#xE6;rggrav (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>258</place_id>
+      <name>Hesth&#xF8;j</name>
+      <display_name>Hesth&#xF8;j (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="116">
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_1179</publication_info>
+      <full_name>150 - 4.05 - DS_I_1179</full_name>
+      <url>data/stories/116.dfl</url>
+    </story>
+    <story story_id="755">
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1164</publication_info>
+      <full_name>348 - 0.00 - DS_I_1164</full_name>
+      <url>data/stories/755.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der er en h&#xF6;j p&#xE5; vor ejendom, der kaldes Hesteh&#xF6;j, og der har ogs&#xE5; dumret der inde, men ingen har set bj&#xE6;rgfolk der. Der imod har de set et lys, der har st&#xE5;et og br&#xE6;ndt p&#xE5; den, og n&#xE5;r de kom i n&#xE6;rheden, blev det henne. A har ogs&#xE5; selv set det lys og g&#xE5;et efter det. Det er ikke uden tre uger siden, vor s&#xF6;n kom hjem og sagde, at nu var der lys igjen.</danish_publication>
+  <english_publication>There was a mound on our property called Hesteh&#xF8;j (Horse mound), and there had also been rumbling noises in there, but no one had seen any mound folk. On the other hand, they had seen a light that burned on it but, when they got close, it disappeared. I've seen the light too and gone after it. It isn't three weeks since our son came home and said the light was there again.</english_publication>
+  <keywords>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="806" frequency="1" keyword="mound_folk">mound folk</keyword>
+    <keyword id="858" frequency="1" keyword="noises">noises</keyword>
+    <keyword id="1154" frequency="1" keyword="son">son</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1328" frequency="1" keyword="week">week</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

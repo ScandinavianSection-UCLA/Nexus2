@@ -1,0 +1,62 @@
+<story><story_id>94</story_id>
+  <publication_info>DSkv_0_13</publication_info>
+  <full_name>150 - 3.31 - DSkv_0_13</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.31</order_told>
+  <fieldtrip><id>6</id>May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>331</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>&#198;v_0_1462</publication_info>
+      <full_name>90 - 1.08 - &#198;v_0_1462</full_name>
+      <url>data/stories/331.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4102a (2)</fielddiary_page_start>
+  <fielddiary_page_end>4102a (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The "Bird ballad" Jens mentions here does not appear in the field diaries. Instead, Jens provides a description of how the song came to be and the performance contexts for the ballad. The ballad describes in humorous tones a wedding celebration held by birds (owls, storks, crows, eagles, etc.) where many of the guests get fall-down drunk. The humor lies in the anthropomorphism of the birds, and their actions and statements while drunk. Jens appears to be familiar with the ballad, but not so familiar with it that he counts it in his active repertoire. Instead, Jens emerges as a passive participant in this ballad tradition.
+
+     In Gamle Danske Sk&#230;mteviser, Tang Kristensen published two versions, an "A" version collected from Niels Madsen in Bratten, and a "B" version, concatenated from 10 fragments. In a brief forward to the ballad, Tang Kristensen noted: "This ballad is well attested all over Europe. It is also printed in Skattegraveren I, 836. A quite simple form has found its way to many of our ballad books, and has become known from there, yes, even published as a beautifully illustrated children's book. Compare with the Faroese, Svabo I 113. The ballad is found in German (Uhland and others), Serbian, Slavic, Russian, Slovenian, Lithuanian and similar ballads in Estonian, Dutch, and French. The construction of the ballad indicates that it comes from abroad, but came here quite early and has become quite popular. I know of no variants from Sweden or Norway." 
+
+     Tang Kristensen did not refer to Jens's remarks as constituting a variant, but rather suggested that the description be taken "for hvad den er" [for what it is].</annotation>
+  <danish_manuscript>Fuglevisen skal v&#230;re lavet om et Gilde, der
+stod i et Skovhus, hvor der gik s. svinevornt
+til. Den gl. [Jens] S&#248;ren D&#248;ggind i Aarestrup
+sang den altid ved alle Barsler og Gilde h.
+kom til.</danish_manuscript>
+  <english_manuscript>The Bird Ballad was made up about a party that took place in a forest hut, where things got really dirty. Old S&#248;ren D&#248;ggind from &#197;restrup always sang the ballad at all the births and parties that he went to.</english_manuscript>
+  <danish_publication>Jens Kristensen i Ersted meddeler f&#248;lgende oplysning, der m&#229; antages for hvad den er. Fuglevisen skal v&#230;re lavet om et gilde, der stod i et skovhus, hvor der gik s&#229; svinevornt til. Den gamle S&#246;ren D&#248;ggind i &#197;restrup sang altid visen ved alle de barsler og gilder, han kom til.</danish_publication>
+  <english_publication>Jens Kristensen from Ersted reports the following information, for what it is worth. The Bird ballad was supposed to have been composed about a party that took place in a forest hut, where things got really dirty. Old S&#248;ren D&#248;ggind from &#197;restrup always sang the ballad at all the births and parties that he went to.</english_publication>
+  <keywords>
+    <keyword><id>67</id><frequency>2</frequency><keyword>ballad</keyword>ballad</keyword>
+    <keyword><id>99</id><frequency>1</frequency><keyword>birds</keyword>birds</keyword>
+    <keyword><id>102</id><frequency>1</frequency><keyword>birth</keyword>birth</keyword>
+    <keyword><id>438</id><frequency>1</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>585</id><frequency>1</frequency><keyword>jens_kristensen</keyword>Jens Kristensen</keyword>
+    <keyword><id>880</id><frequency>1</frequency><keyword>old_s&#248;ren</keyword>Old S&#248;ren</keyword>
+    <keyword><id>907</id><frequency>2</frequency><keyword>party</keyword>party</keyword>
+    <keyword><id>1122</id><frequency>1</frequency><keyword>singing</keyword>singing</keyword>
+  </keywords>
+  <etk_index><id>38</id>
+    <heading_danish>Dansk Skj&#230;mteviser</heading_danish>
+    <heading_english>Danish Jocular Ballads</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>86</id><display_name>Actions or events: Feast / Celebration</display_name></tango_index>
+  </tango_indices>
+  <genre><id>5</id><name>Ballad</name></genre>
+</story>

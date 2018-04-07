@@ -1,0 +1,100 @@
+<informant><person_id>337</person_id>
+  <core_informant/>
+  <full_name>L&#230;rerinde Maren Mogensen Bonde</full_name>
+  <last_name>Bonde</last_name>
+  <first_name>Maren Mogensen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>691</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>337</informant_id>
+      <publication_info>DS_II_E_115</publication_info>
+      <full_name>337 - 0.00 - DS_II_E_115</full_name>
+      <url>data/stories/691.dfl</url>
+      <place_recorded><id>902</id>Veders&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>397</id>
+          <name>Madum</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>692</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>337</informant_id>
+      <publication_info>DS_IV_1349</publication_info>
+      <full_name>337 - 0.00 - DS_IV_1349</full_name>
+      <url>data/stories/692.dfl</url>
+      <place_recorded><id>902</id>Veders&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>931</id>
+          <name>Holmsland</name>
+        </place>
+        <place><id>932</id>
+          <name>S&#248;g&#229;rd</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>693</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>337</informant_id>
+      <publication_info>DS_VI_900</publication_info>
+      <full_name>337 - 0.00 - DS_VI_900</full_name>
+      <url>data/stories/693.dfl</url>
+      <place_recorded><id>902</id>Veders&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>470</id>
+          <name>Ramme</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>694</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>337</informant_id>
+      <publication_info>DS_VII_608</publication_info>
+      <full_name>337 - 0.00 - DS_VII_608</full_name>
+      <url>data/stories/694.dfl</url>
+      <place_recorded><id>902</id>Veders&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>470</id>
+          <name>Ramme</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>902</place_id>
+      <name>Veders&#248;</name>
+      <display_name>Veders&#248; (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>470</place_id>
+      <name>Ramme</name>
+      <display_name>Ramme (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>932</place_id>
+      <name>S&#248;g&#229;rd</name>
+      <display_name>S&#248;g&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>931</place_id>
+      <name>Holmsland</name>
+      <display_name>Holmsland (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>397</place_id>
+      <name>Madum</name>
+      <display_name>Madum (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

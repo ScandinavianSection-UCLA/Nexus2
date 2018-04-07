@@ -1,0 +1,171 @@
+<story><story_id>160</story_id>
+  <publication_info>DS_IV_1592</publication_info>
+  <full_name>241 - 2.10 - DS_IV_1592</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>2.10</order_told>
+  <fieldtrip><id>11</id>October 1893</fieldtrip>
+  <fieldtrip_start_date>1893-09-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1893-10-26</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>306</place_id>
+      <name>Ilbj&#230;rge</name>
+      <display_name>Ilbj&#230;rge (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>372</place_id>
+      <name>Linderum</name>
+      <display_name>Linderum (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>70</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>&#198;v_0_1359</publication_info>
+      <full_name>150 - 3.07 - &#198;v_0_1359</full_name>
+      <url>data/stories/70.dfl</url>
+    </story>
+    <story><story_id>202</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_996</publication_info>
+      <full_name>241 - 4.30 - DSnr_IV_996</full_name>
+      <url>data/stories/202.dfl</url>
+    </story>
+    <story><story_id>501</story_id>
+      <informant_id>508</informant_id>
+      <publication_info>DS_IV_1467</publication_info>
+      <full_name>508 - 0.00 - DS_IV_1467</full_name>
+      <url>data/stories/501.dfl</url>
+    </story>
+    <story><story_id>605</story_id>
+      <informant_id>352</informant_id>
+      <publication_info>DS_IV_1566</publication_info>
+      <full_name>352 - 0.00 - DS_IV_1566</full_name>
+      <url>data/stories/605.dfl</url>
+    </story>
+    <story><story_id>625</story_id>
+      <informant_id>48</informant_id>
+      <publication_info>DS_IV_1584</publication_info>
+      <full_name>48 - 0.00 - DS_IV_1584</full_name>
+      <url>data/stories/625.dfl</url>
+    </story>
+    <story><story_id>665</story_id>
+      <informant_id>492</informant_id>
+      <publication_info>DS_IV_1608</publication_info>
+      <full_name>492 - 0.00 - DS_IV_1608</full_name>
+      <url>data/stories/665.dfl</url>
+    </story>
+    <story><story_id>151</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1486</publication_info>
+      <full_name>241 - 2.01 - DS_IV_1486</full_name>
+      <url>data/stories/151.dfl</url>
+    </story>
+    <story><story_id>152</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1485</publication_info>
+      <full_name>241 - 2.02 - DS_IV_1485</full_name>
+      <url>data/stories/152.dfl</url>
+    </story>
+    <story><story_id>153</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1488</publication_info>
+      <full_name>241 - 2.03 - DS_IV_1488</full_name>
+      <url>data/stories/153.dfl</url>
+    </story>
+    <story><story_id>154</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1465</publication_info>
+      <full_name>241 - 2.04 - DS_IV_1465</full_name>
+      <url>data/stories/154.dfl</url>
+    </story>
+    <story><story_id>634</story_id>
+      <informant_id>108</informant_id>
+      <publication_info>DS_IV_1591</publication_info>
+      <full_name>108 - 0.00 - DS_IV_1591</full_name>
+      <url>data/stories/634.dfl</url>
+    </story>
+    <story><story_id>636</story_id>
+      <informant_id>245</informant_id>
+      <publication_info>DS_IV_1593</publication_info>
+      <full_name>245 - 0.00 - DS_IV_1593</full_name>
+      <url>data/stories/636.dfl</url>
+    </story>
+    <story><story_id>484</story_id>
+      <informant_id>346</informant_id>
+      <publication_info>DS_IV_1594</publication_info>
+      <full_name>346 - 0.00 - DS_IV_1594</full_name>
+      <url>data/stories/484.dfl</url>
+    </story>
+    <story><story_id>814</story_id>
+      <informant_id>351</informant_id>
+      <publication_info>DS_IV_1588</publication_info>
+      <full_name>351 - 0.00 - DS_IV_1588</full_name>
+      <url>data/stories/814.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6296a (1)</fielddiary_page_start>
+  <fielddiary_page_end>6296a (1)</fielddiary_page_end>
+  <bibliographic_info>Steensberg 1964, vol. 2, 345-347</bibliographic_info>
+  <bibliography_references>
+    <reference><id>257</id><category>general</category>
+      <display_string>[Book] Steensberg, Axel. 1964. &lt;i&gt;Dagligliv i Danmark i det nittende og tyvende &#229;rhundrede&lt;/i&gt;. Copenhagen: Nyt nordisk forlag.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Jens Peter's story of a local, murderous robber resonates with his other stories of robbers who hide in more desolate forests and hills (JPP 2.01-04). The hiding place--a nearby mound--calls to mind stories about mound dwellers, yet Daniel shares none of their characteristics, apart from the fact that he is a threat to the community. Other local variants of the story provide additional detail about Daniel's exploits, the location of his hide-out, and his final punishment (DS IV 1591, 1593). In one variant, he is referred to as St&#230;rke-Ole (DS IV 1594).
+
+    Daniel's threat to the community is immediate and overwhelming. Not only does he threaten the economy of the community but also the physical well-being of everyone in it, including the children. 
+
+    Numerous stories tell of the supernatural benefits of eating the hearts of children: extraordinary strength or the ability to make oneself invisible (DS IV 1588). The murder and ingestion of the most vulnerable members of the community for personal gain underscore the extraordinary threat represented by Daniel.
+
+    Punishment for murder was death, and execution by beheading was in force up until 1933. Executions were public events up through much of the nineteenth century although, by the 1890s, executions were held at prisons, with only prison officials present (Steensberg 1964, vol. 2, 345-347).</annotation>
+  <danish_manuscript>Daniel boede i en H&#248;j &#248;sten for Ugilt
+Kirke paa s&#248;nder side af Vejen til Lin-
+derum. H. var s. st&#230;rk og slem til at
+slaa Folk ihiel. Skal have spist
+2 Barnehj. og vilde have spist 3 Men
+h. havde det i Haanden, da h. blev
+taget. Havde h. faaet det kunde
+ingen have taget ham, s. kunde h.
+have st&#248;dt baade J&#230;rn og alting itu.
+H. blev halshugget.</danish_manuscript>
+  <english_manuscript>Daniel lived in a mound east of Ugilt church on the south side of the road to Linderum. He was really strong and given to killing people. He was supposed to have eaten two child hearts and would have eaten the third, he had it in his hand when he was caught. If he'd gotten that, no one would have been able to take him and he would have been able to break iron and everything in two. He had his head chopped off.</english_manuscript>
+  <danish_publication>Daniel boede i en h&#246;j &#246;sten for Ugilt kirke p&#229; s&#248;ndre side af vejen til Linderum. Han var s&#229; st&#230;rk og s&#229; slem til at sl&#229; folk ihjel. Han skal have spist to barnehj&#230;rter og vilde have spist det tredje, han havde det i h&#229;nden, da han blev taget. Havde han f&#229;et det, kunde ingen have taget ham, s&#229; kunde han have st&#246;dt b&#229;de j&#230;rn og alting itu. Han blev halshugget.</danish_publication>
+  <english_publication>Daniel lived in a mound east of Ugilt church on the south side of the road to Linderum. He was really strong and given to killing people. He was supposed to have eaten two child hearts and would have eaten the third, he had it in his hand when he was caught. If he&#8217;d gotten that, no one would have been able to take him and he would have been able to break iron and everything in two. He had his head chopped off.</english_publication>
+  <keywords>
+    <keyword><id>219</id><frequency>1</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>299</id><frequency>1</frequency><keyword>daniel</keyword>Daniel</keyword>
+    <keyword><id>369</id><frequency>1</frequency><keyword>east</keyword>east</keyword>
+    <keyword><id>516</id><frequency>1</frequency><keyword>heart</keyword>heart</keyword>
+    <keyword><id>564</id><frequency>1</frequency><keyword>iron</keyword>iron</keyword>
+    <keyword><id>622</id><frequency>1</frequency><keyword>kill</keyword>kill</keyword>
+    <keyword><id>804</id><frequency>1</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1167</id><frequency>1</frequency><keyword>south</keyword>south</keyword>
+    <keyword><id>1209</id><frequency>1</frequency><keyword>strength</keyword>strength</keyword>
+  </keywords>
+  <etk_index><id>20</id>
+    <heading_danish>R&#248;vere, drabsm&#230;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>5</id><display_name>People: Children</display_name></tango_index>
+    <tango_index><id>17</id><display_name>People: Robber / Thief</display_name></tango_index>
+    <tango_index><id>20</id><display_name>People: Strong Man / Hero</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>90</id><display_name>Actions or events: Kidnapping</display_name></tango_index>
+    <tango_index><id>92</id><display_name>Actions or events: Murder</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<story story_id="58">
+  <publication_info>DS_VII_447</publication_info>
+  <full_name>150 - 2.11 - DS_VII_447</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>2.11</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>4</place_id>
+      <name>Aalborg</name>
+      <display_name>Aalborg (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>100</place_id>
+      <name>Brorstrup</name>
+      <display_name>Brorstrup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>478</place_id>
+      <name>Ravnkilde</name>
+      <display_name>Ravnkilde (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>556</place_id>
+      <name>Smorup</name>
+      <display_name>Smorup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>434</place_id>
+      <name>N&#xF8;rre Sundby</name>
+      <display_name>N&#xF8;rre Sundby (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>661</place_id>
+      <name>Troms&#xF8;</name>
+      <display_name>Troms&#xF8; (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>660</place_id>
+      <name>Troms kirke</name>
+      <display_name>Troms kirke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="551">
+      <informant_id>553</informant_id>
+      <publication_info>DS_II_F_104</publication_info>
+      <full_name>553 - 0.00 - DS_II_F_104</full_name>
+      <url>data/stories/551.dfl</url>
+    </story>
+    <story story_id="587">
+      <informant_id>144</informant_id>
+      <publication_info>DS_VII_426</publication_info>
+      <full_name>144 - 0.00 - DS_VII_426</full_name>
+      <url>data/stories/587.dfl</url>
+    </story>
+    <story story_id="604">
+      <informant_id>536</informant_id>
+      <publication_info>DS_VII_436</publication_info>
+      <full_name>536 - 0.00 - DS_VII_436</full_name>
+      <url>data/stories/604.dfl</url>
+    </story>
+    <story story_id="817">
+      <informant_id>336</informant_id>
+      <publication_info>DS_VII_310</publication_info>
+      <full_name>336 - 0.00 - DS_VII_310</full_name>
+      <url>data/stories/817.dfl</url>
+    </story>
+    <story story_id="913">
+      <informant_id>48</informant_id>
+      <publication_info>DS_II_F_95</publication_info>
+      <full_name>48 - 0.00 - DS_II_F_95</full_name>
+      <url>data/stories/913.dfl</url>
+    </story>
+    <story story_id="912">
+      <informant_id>562</informant_id>
+      <publication_info>DS_II_F_94</publication_info>
+      <full_name>562 - 0.00 - DS_II_F_94</full_name>
+      <url>data/stories/912.dfl</url>
+    </story>
+    <story story_id="914">
+      <informant_id>375</informant_id>
+      <publication_info>DS_II_F_93</publication_info>
+      <full_name>375 - 0.00 - DS_II_F_93</full_name>
+      <url>data/stories/914.dfl</url>
+    </story>
+    <story story_id="643">
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_443</publication_info>
+      <full_name>331 - 0.00 - DS_VII_443</full_name>
+      <url>data/stories/643.dfl</url>
+    </story>
+    <story story_id="257">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VII_1614</publication_info>
+      <full_name>235 - 1.37 - DS_VII_1614</full_name>
+      <url>data/stories/257.dfl</url>
+    </story>
+    <story story_id="146">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_146</publication_info>
+      <full_name>241 - 1.05 - DS_VII_146</full_name>
+      <url>data/stories/146.dfl</url>
+    </story>
+    <story story_id="478">
+      <informant_id>446</informant_id>
+      <publication_info>DS_VII_336</publication_info>
+      <full_name>446 - 0.00 - DS_VII_336</full_name>
+      <url>data/stories/478.dfl</url>
+    </story>
+    <story story_id="681">
+      <informant_id>478</informant_id>
+      <publication_info>DS_VII_335</publication_info>
+      <full_name>478 - 0.00 - DS_VII_335</full_name>
+      <url>data/stories/681.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3266b</fielddiary_page_start>
+  <fielddiary_page_end>3267a</fielddiary_page_end>
+  <bibliographic_info>Johansen 1991.
+Hagen and Sparboe 2000.
+Hagen 2003.</bibliographic_info>
+  <bibliography_references>
+    <reference id="735" category="general">
+      <display_string>[Book] Johansen, Jens Christian V. 1991. &lt;i&gt;Da dj&#xE6;velen var ude... Trolddom i det 17. &#xE5;rhundredes Danmark (Odense University studies in history and social sciences)&lt;/i&gt;. Odense: Odense Universitetsforlag.</display_string>
+    </reference>
+    <reference id="736" category="general">
+      <display_string>[Book section] Hagen, Rune, Sparboe, Per Einar. 2000. Troms&#xF8; -- der trollfolk m&#xF8;tes og brennes. In &lt;i&gt;Troms&#xF8;boka -- den andre&lt;/i&gt;: 48-56. Troms&#xF8;: Troms&#xF8;boka.</display_string>
+    </reference>
+    <reference id="737" category="general">
+      <display_string>[Book] Hagen, Rune Blix. 2003. &lt;i&gt;Hekser : fra forf&#xF8;lgelse til fortryllelse&lt;/i&gt;. Oslo: Humanist.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Jens's story is an elaborate variant of the widely attested story of the witch riding a farmhand to the Witch's Sabbath (DS VII 443). The farmhand appeals to a local cunning man, and the advice he receives is sound. In the resolution, the witch is revealed to be the dean's wife. 
+
+     The implicit connection in this story between the dean and Satan can be interpreted in several ways. On the one hand, that the dean is married to a witch suggests a profound degree of corruption and hypocrisy in the high church officer's own home. On the other hand, the marriage to the well-concealed witch--and by extension the devil--may suggest that this Satanic threat has reached the innermost circle of the church undetected, and thus threatens the very foundations of the community.
+
+      The boy's symptoms are similar to those of people who have been ridden by the mare; the witch's ride is an analogous phenomenon (KMP 1.37; DS II F 90, 93-95). In this story, the boy, transformed into a horse, is able to turn the tables on the witch, and have her shod before revealing her identity. Revealing the identity of the witch often included public humiliation (JPP 1.05).
+
+      Troms cathedral in Norway was the Danish tradition dominant for the location of the witches' sabbath. Bloksbj&#xE6;rg, a mountain in an unspecified, yet distant location, is also widely attested as the location of this gathering (DS VII 335 and 336). Both Voldborg (Valborg) eve (May 1), and St. Hans eve (June 23) are widely attested as the night that the witches ride to Troms&#xF8;.</annotation>
+  <danish_manuscript>Der var en af Jens Aldals Familie ham red en
+Hegs paa til Troms Kirke, en Provstes Frue fra
+Smoddup (Ravnkilde). S. snakkede h. med en Hegse
+mester om det, vidste ikke hvordan h skulde
+b&#xE6;re sig ad med det. Der var kommen en en Nat
+og reden paa ham og h. tykte, h. var en Hest og
+[bar] h. var kommen over baade Aalborg og Sund
+by og var s. langt henne, h. vidste aldrig hvor
+langt det var. Ja det skulde h. sige ham gode
+Raad for. Det var vist nok Sant Hans Nat
+men a tror ogsaa nok de rider Voldborg Nat
+se. s.  [ride] siger h. til ham naar det bliver nu
+til Voldb. Nat s. maa du endelig ikke falde i
+S&#xF8;vn. S. kommer hu nok igien. [A] H. blev skidt
+af det, var troldreden, fik noget af Hegse
+mesteren at komme sig af. N. s. Voldb. Nat
+kommer hu igien, og ha ligger lysvaagen og kommer
+og ryster ved ham med et Bidsel. Hegsem. havde
+sagt ham, hvordan det vilde gaa til. Men s skulde
+h. naar h. kom til Troms Kirke og hu bandt
+ham eller slog ham l&#xF8;s, a kan ikke huske,
+hvilket det var, s. skulde h. skubbe Bidselet
+af sig og naar hu kom s. ud, s. skulde h. ryste ad
+hende med det, s. blev h. til en Hest og s. skulde ha
+s&#xE6;tte sig op at ride paa hende. N. h. gjorde som
+
+3267A
+H. sagde og hu red paa ham til Troms Kirke og der
+binder hu ham og gik ind tillige med de andre og der
+var mange. S. staar h. og skubber Bidselet af. Da
+hu kom s. ud igien og skulde til at hjem &#xE6;paa s. ry-
+stede h. ad hende med B. og hu til Hest og ha ri-
+der hjem hvor h. var fra, og da det s. var Dag
+rider h. til Store-Arden med hende og lod hende
+sko baade for og bag. Da det var s. forrettet s.
+tager h. B. af hende og s. var det Pr. Kone s.
+stod hu der og baade H&#xE6;nder og F&#xF8;dder beslaaet
+med Sko og hu stode der og rystede med dem. S.
+var det en G. h. gik til Brorstrup til Kirke for
+at ville se hende og da takkede h. hende for sidst.</danish_manuscript>
+  <english_manuscript>There was one from Jens Adals family, a witch rode on him to Troms church, it was the dean's wife from Smoddup (Ravnkilde parish). Then he talked to a witch master about this, he didn't know what to do. It had come one night and ridden him and he'd thought that he was a horse and he'd gone past both Aalborg and Sundby and was so far away that he didn't know how far it was. Well, he'd give him some good advice for that. It was probably Skt. Hans eve but I think they also ride on Voldborg eve. Then he says to him, "When it's Voldborg eve, you mustn't fall asleep. She'll come again." He got sick from that, and he got something from the witch master to get better. Well, then on Voldborg eve she came again, and he's lying there wide awake, and she comes and puts a bridle on him. The witchmaster had told him what would happen. When he got to Troms church and she'd tied him up or let him loose, I can't remember what it was she did, he was supposed to push the bridle off and when she came out again, he was supposed to put it on her, then she'd turn into a horse and then he was to get up and ride on her. Well, she did what the witch master said she would and she rode on him all the way to Trom's church and went in along with the others and they were many. Then he stands there and pushes the bridle off and when she came out and was going to ride home on him he put the bridle on her and she turned into a horse and he rode home to where he came from. When day broke, he rode to Store-Arden and had her shod both front and back. When that was done, he took the bridle off of her and it was the dean's wife, she stood there shaking them. Then one time when he went to Brorstrup church to see her, and he thanked her for their last meeting.</english_manuscript>
+  <danish_publication>Der var &#xE9;n af Jens Aldals familie, ham red en heks p&#xE5; til Troms kirke, det var netop en provstes frue fra Smorup (Ravnkilde sogn). S&#xE5; snakkede han med en heksemester om det, der var kommen &#xE9;n en nat og havde redet p&#xE5; ham, og han tykte s&#xE5;, han var en hest. Han var kommen over b&#xE5;de Aalborg og Sundby og var s&#xE5; langt henne, at han vidste aldrig, hvor langt det var. Ja, det skulde den kloge mand sige ham gode r&#xE5;d for. "N&#xE5;r det bliver nu Voldborg nat igjen &#x2014; somme steder er det ogs&#xE5; st. Hans nat de rider &#x2014; s&#xE5; kommer hun nok som forhen og vil ride p&#xE5; dig, men du m&#xE5; endelig ikke falde i s&#xF8;vn." &#x2014; "Jamen a er s&#xE5; skidt i hele min krop." &#x2014; "Det kommer af, at du er troldreden", ogs&#xE5; gav han ham noget, han skulde komme sig af. N&#xE5;, s&#xE5; kom hun godt nok Voldborg nat og rystede ad ham med et bidsel. Men han l&#xE5; lysv&#xE5;gen. Hun red s&#xE5; p&#xE5; ham til Troms kirke, og hun bandt ham der &#x2014; eller m&#xE5;ske lod ham g&#xE5; og passe sig selv. Heksemesteren havde sagt ham, hvordan det vilde g&#xE5; til. S&#xE5; skulde han imidlertid skubbe bidselet af sig, og n&#xE5;r hun atter kom ud, skulde han ryste &#xE6;d hende med det. S&#xE5; blev hun til en hest, og han skulde da op at ride p&#xE5; hende. N&#xE5;, hun gjorde, som heksemesteren sagde. Hun gik ind tillige med de andre, og der var mange. Han st&#xE5;r da og skubber bidselet af, og da hun kom ud, rystede han &#xE6;d hende med det. S&#xE5; red han hjem, hvor han var fra, og da det blev dag, red han til Store-Arden og lod hende sko b&#xE5;de for og bag. Da det var s&#xE5; forrettet, tog han bidselet af hende, og s&#xE5; var det provstens kone, hun stod der og havde b&#xE5;de h&#xE6;nder og f&#xF6;dder besl&#xE5;et med sko og stod og rystede med dem. En gang han siden gik til Brorstrup til kirke for at ville se hende, da takkede han hende for sidst.</danish_publication>
+  <english_publication>There was one from Jens Adals family, a witch rode on him to Troms church, it was the dean&#x2019;s wife from Smorup (Ravnkilde parish). Then he talked to a witch master about this thing that had come and ridden on him one night, and he thought that he was a horse. He&#x2019;d gone past both Aalborg and Sundby and was so far away that he didn&#x2019;t know how far it was. Well, the cunning man would give him some good advice for this. &#x201C;When it is Voldborg eve again--some places they ride on Saint Hans eve as well--she&#x2019;ll probably come like the last time and will want to ride on you, but you must not fall asleep.&#x201D;--&#x201C;Sure, but my whole body is so sore.&#x201D; -- &#x201C;Well, that&#x2019;s because you&#x2019;re troll-ridden.&#x201D; And then he gave him something that was supposed to help. Well sure enough, she came again on Voldborg eve and put a bridle on him. But he was wide awake. She rode on him then to Troms church and she tied him up there--or maybe she just let him go take care of himself. The witch master had told him what would happen. Then he was supposed to push the bridle off of himself in the meantime and when she came out again, he was supposed to put it on her. Then she&#x2019;d turn into a horse and he was to get up and ride her. Well, the witch did exactly what the witch master said she would. She went in along with the others and there were many of them. He stands there and pushes the bridle off and, when she came out, he put it on her. Then he rode home to where he came from and, when it was day, he rode to Store-Arden and had her shod both front and back. When that was done, he took the bridle off of her and he saw that it was the dean&#x2019;s wife, she stood there and had been shod on both her hands and feet and she stood shaking them. One time when he went to Brorstrup church to see her, he thanked her for their last meeting.</english_publication>
+  <keywords>
+    <keyword id="12" frequency="1" keyword="advice">advice</keyword>
+    <keyword id="51" frequency="1" keyword="asleep">asleep</keyword>
+    <keyword id="118" frequency="1" keyword="body">body</keyword>
+    <keyword id="145" frequency="4" keyword="bridle">bridle</keyword>
+    <keyword id="227" frequency="2" keyword="church">church</keyword>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="313" frequency="2" keyword="dean">dean</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="393" frequency="1" keyword="family">family</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="576" frequency="1" keyword="jens">Jens</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="1030" frequency="9" keyword="riding">riding</keyword>
+    <keyword id="1062" frequency="1" keyword="saint_hans">Saint Hans</keyword>
+    <keyword id="1155" frequency="1" keyword="sore">sore</keyword>
+    <keyword id="1196" frequency="1" keyword="store">store</keyword>
+    <keyword id="1246" frequency="1" keyword="thank">thank</keyword>
+    <keyword id="1261" frequency="1" keyword="tie">tie</keyword>
+    <keyword id="1283" frequency="1" keyword="troll">troll</keyword>
+    <keyword id="1284" frequency="1" keyword="troms_church">Troms church</keyword>
+    <keyword id="1308" frequency="2" keyword="voldborg_eve">Voldborg Eve</keyword>
+    <keyword id="1343" frequency="2" keyword="wife">wife</keyword>
+    <keyword id="1351" frequency="4" keyword="witch">witch</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="50" display_name="Tools, Items and Conveyances: Metal"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="90" display_name="Actions or events: Kidnapping"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="119" display_name="Time, Season, Weather: Skt. Hans"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

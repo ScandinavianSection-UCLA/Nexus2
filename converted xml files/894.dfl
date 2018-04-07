@@ -1,0 +1,71 @@
+<story><story_id>894</story_id>
+  <publication_info>DS_II_G_93</publication_info>
+  <full_name>217 - 0.00 - DS_II_G_93</full_name>
+  <informant_id>217</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>831</place_id>
+      <name>Mosehusene, Jetsmark</name>
+      <display_name>Mosehusene, Jetsmark (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>639</place_id>
+      <name>Tise</name>
+      <display_name>Tise (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>285</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_G_85</publication_info>
+      <full_name>235 - 2.02 - DS_II_G_85</full_name>
+      <url>data/stories/285.dfl</url>
+    </story>
+    <story><story_id>895</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_G_94</publication_info>
+      <full_name>348 - 0.00 - DS_II_G_94</full_name>
+      <url>data/stories/895.dfl</url>
+    </story>
+    <story><story_id>896</story_id>
+      <informant_id>467</informant_id>
+      <publication_info>DS_II_G_95</publication_info>
+      <full_name>467 - 0.00 - DS_II_G_95</full_name>
+      <url>data/stories/896.dfl</url>
+    </story>
+    <story><story_id>899</story_id>
+      <informant_id>563</informant_id>
+      <publication_info>DS_II_G_90</publication_info>
+      <full_name>563 - 0.00 - DS_II_G_90</full_name>
+      <url>data/stories/899.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Jerusalems skomager gik med et par sko over nakken. De har set ham g&#229; over L&#229;g&#229;rds eng i Tise &#246;sten for bakkerne. Det sidste, de s&#229; ham, var han ikke st&#246;rre end en myre.</danish_publication>
+  <english_publication>Jerusalem&#8217;s Cobbler went about with a pair of shoes slung over his shoulder. They saw him walk across L&#229;g&#229;rd meadow in Tise to the east of the hills. The last they saw of him, he was no bigger than a mouse.</english_publication>
+  <keywords>
+    <keyword><id>242</id><frequency>1</frequency><keyword>cobbler</keyword>cobbler</keyword>
+    <keyword><id>369</id><frequency>1</frequency><keyword>east</keyword>east</keyword>
+    <keyword><id>530</id><frequency>1</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>764</id><frequency>1</frequency><keyword>meadow</keyword>meadow</keyword>
+    <keyword><id>811</id><frequency>1</frequency><keyword>mouse</keyword>mouse</keyword>
+    <keyword><id>1104</id><frequency>1</frequency><keyword>shoe</keyword>shoe</keyword>
+    <keyword><id>1109</id><frequency>1</frequency><keyword>shoulder</keyword>shoulder</keyword>
+  </keywords>
+  <etk_index><id>8</id>
+    <heading_danish>Religi&#248;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

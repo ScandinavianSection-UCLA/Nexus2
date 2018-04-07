@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<story story_id="704">
+  <publication_info>DS_II_B_34</publication_info>
+  <full_name>413 - 0.00 - DS_II_B_34</full_name>
+  <informant_id>413</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Marie</informant_first_name>
+  <informant_full_name>Marie Johansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>754</place_id>
+      <name>B&#xF8;ffelkobbel</name>
+      <display_name>B&#xF8;ffelkobbel (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>130</place_id>
+      <name>Dybb&#xF8;l</name>
+      <display_name>Dybb&#xF8;l (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="718">
+      <informant_id>541</informant_id>
+      <publication_info>DS_II_B_36</publication_info>
+      <full_name>541 - 0.00 - DS_II_B_36</full_name>
+      <url>data/stories/718.dfl</url>
+    </story>
+    <story story_id="488">
+      <informant_id>524</informant_id>
+      <publication_info>DS_II_B_29</publication_info>
+      <full_name>524 - 0.00 - DS_II_B_29</full_name>
+      <url>data/stories/488.dfl</url>
+    </story>
+    <story story_id="494">
+      <informant_id>505</informant_id>
+      <publication_info>DS_II_B_146</publication_info>
+      <full_name>505 - 0.00 - DS_II_B_146</full_name>
+      <url>data/stories/494.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En g&#xE5;rdmand i Dybb&#xF8;l stod i et meget venligt forhold til nogle sm&#xE5; nisser, som boede der i n&#xE6;rheden, og disse bragte bestandig s&#xE5; meget til g&#xE5;rde, at der var stor rigdom d&#xE9;r. Da manden s&#xE5; d&#xF8;de, kom en dag en lille nisse til s&#xF8;nnen og spurgte, om han vilde st&#xE5; i det samme forhold til dem, som hans fader. Det vilde s&#xF6;nnen ikke svare p&#xE5;, uden nissen kunde sige ham, hvor hans fader var. Det kunde nissen nok, ti hans fader var hos dem. "Nej," sagde s&#xF6;nnen, "s&#xE5; vil jeg ikke have noget med jer at bestille." Men nu sagde nissen: Ja, hvis han ikke vilde det, s&#xE5; m&#xE5;tte han ogs&#xE5; finde sig i, at de bar alt det bort igjen, som de havde b&#xE5;ret til i hans faders tid. S&#xF6;nnen bad da om, at det ikke m&#xE5;tte ske p&#xE5; &#xE9;n gang, men lidt efter lidt, Dette lovede nissen ham ogs&#xE5; for hans faders skyld. Efter den tid blev der stor fattigdom p&#xE5; g&#xE5;rden, og det har der v&#xE6;ret bestandig siden.</danish_publication>
+  <english_publication>A farmer in Dybb&#xF8;l was really friendly with a group of small nisser, who lived nearby, and they constantly brought so much to the farm that there was great wealth there. When the man died, a little nisse came one day to the son and asked if he wanted to have the same arrangement that his father had had. The son wouldn&#x2019;t answer that unless the nisse could tell him where his father was. The nisse could answer that well enough, his father was with them. &#x201C;No,&#x201D; said the son, &#x201C;then I don&#x2019;t want to have anything to do with you.&#x201D; But now the nisse said: Well, if you don&#x2019;t want that, then he&#x2019;d also have to accept that they took everything away again which they had brought to his father in his time. The son asked them not to do it all at once, but little by little. The nisse promised to do this for his father&#x2019;s sake. After that time, there was great poverty at the farm, and it has been like that ever since.</english_publication>
+  <keywords>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="399" frequency="5" keyword="father">father</keyword>
+    <keyword id="857" frequency="6" keyword="nisse">nisse</keyword>
+    <keyword id="987" frequency="1" keyword="poverty">poverty</keyword>
+    <keyword id="1154" frequency="4" keyword="son">son</keyword>
+    <keyword id="1321" frequency="1" keyword="wealth">wealth</keyword>
+  </keywords>
+  <etk_index id="3">
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="65" display_name="Supernatural Beings: Nisse"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

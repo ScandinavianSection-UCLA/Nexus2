@@ -1,0 +1,54 @@
+<informant><person_id>369</person_id>
+  <core_informant/>
+  <full_name>Andreas Th&#248;gersen Gr&#248;nborg</full_name>
+  <last_name>Gr&#248;nborg</last_name>
+  <first_name>Andreas Th&#248;gersen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>460</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>369</informant_id>
+      <publication_info>DS_III_1238</publication_info>
+      <full_name>369 - 0.00 - DS_III_1238</full_name>
+      <url>data/stories/460.dfl</url>
+      <place_recorded><id>802</id>Hvilsh&#248;j</place_recorded>
+      <places_mentioned>
+        <place><id>236</id>
+          <name>Hammer</name>
+        </place>
+        <place><id>237</id>
+          <name>Hammer bakker</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>802</place_id>
+      <name>Hvilsh&#248;j</name>
+      <display_name>Hvilsh&#248;j (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>237</place_id>
+      <name>Hammer bakker</name>
+      <display_name>Hammer bakker (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>236</place_id>
+      <name>Hammer</name>
+      <display_name>Hammer (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

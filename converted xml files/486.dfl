@@ -1,0 +1,55 @@
+<story><story_id>486</story_id>
+  <publication_info>DS_VI_1199</publication_info>
+  <full_name>486 - 0.00 - DS_VI_1199</full_name>
+  <informant_id>486</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Chr.</informant_first_name>
+  <informant_full_name>Seminarist Chr. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>808</place_id>
+      <name>Jelling</name>
+      <display_name>Jelling (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>707</place_id>
+      <name>Vilstrup</name>
+      <display_name>Vilstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>213</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_1205</publication_info>
+      <full_name>241 - 4.41 - DS_VI_1205</full_name>
+      <url>data/stories/213.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gang var der kommen ild i et hus i Vilstrup. Der blev r&#229;bt om hj&#230;lp, og folk str&#246;mmede til for at slukke, men de kunde ikke f&#229; magt med ilden, der allerede havde omsp&#230;ndt det meste af taget. Da kom pr&#230;sten til, han gik ganske rolig rundt om brandstedet &#233;n gang, og da han havde gjort det, var ilden standset.</danish_publication>
+  <english_publication>One time, a house in Vilstrup caught fire. They shouted for help and people streamed there to put it out, but they couldn't get the fire under control since it had already spread to most of the roof. Then the minister came. He calmly walked around the fire once and when he'd done that, the fire was out.</english_publication>
+  <keywords>
+    <keyword><id>413</id><frequency>4</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>548</id><frequency>1</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>1041</id><frequency>1</frequency><keyword>roof</keyword>roof</keyword>
+  </keywords>
+  <etk_index><id>28</id>
+    <heading_danish>Kloge m&#230;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

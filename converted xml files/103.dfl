@@ -1,0 +1,87 @@
+<story><story_id>103</story_id>
+  <publication_info>JAH_V_27</publication_info>
+  <full_name>150 - 3.40 - JAH_V_27</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.40</order_told>
+  <fieldtrip><id>6</id>May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>4</place_id>
+      <name>Aalborg</name>
+      <display_name>Aalborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>374</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XII_64</publication_info>
+      <full_name>123 - 1.02 - JFm_XII_64</full_name>
+      <url>data/stories/374.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4105a</fielddiary_page_start>
+  <fielddiary_page_end>4105a</fielddiary_page_end>
+  <bibliographic_info>Hvidt 1990, 250-252</bibliographic_info>
+  <bibliography_references>
+    <reference><id>741</id><category>general</category>
+      <display_string>[Book] Hvidt, Kristian, Olsen, Olaf. 1990. &lt;i&gt;Gyldendal og Politikens Danmarkshistorie bd 11 1850-1900&lt;/i&gt;. Copenhagen: Gyldendal.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Charcoal burning was a source of ready income for those who lived near the forest and had permission to do so. Ash was far less valuable than charcoal. Kr&#230;n's receipts from his sale of charcoal and ash were equivalent to one and a half marks. He reacts in typical fashion to his neighbors attempted derision, proposing that his neighbor had received a windfall for ash (rather than charcoal). In all the stories about Kr&#230;n Hylg&#229;rd, Jens focuses on the quick, witty verbal response of Kr&#230;n to criticism or threat.
+
+Up until the currency reform of 1873 (implemented in 1875), several different currencies were used in Denmark. After 1873, the Danish monetary system was aligned with that of Norway and Sweden, with the "krone" or crown as the main currency. This currency was based on the gold standard. The new system was a decimal system (as opposed to one based on 12) and consisted of crowns and &#248;re. Prior to the reform, two systems, the "courant" and the "specie," based on a silver standard, were used. 
+
+The "rigsdaler" used from the seventeenth through the nineteenth centuries was similar to the currency in use at the time in Holland, German and Sweden. The Danish currency system, first instituted in 1625, and reformed after the financial crisis in 1813, had the following equivalents: 
+12 penning = 1 skilling
+16 skilling = 1 mark
+6 mark = 1 rigsdaler or daler (sometimes referred to in English as the "rixdollar")
+8 mark = 1 krone
+In 1873, the rigsdaler was set as equivalent to two crowns. 
+The word "daler" is a shortened form of the name of a Czech silver coin, the Joachimstaler from 1518.
+</annotation>
+  <danish_manuscript>Dg. br&#230;ndte de s. meget Kul og solgte det og
+Asken til Aalborg. Kr&#230;n Hyldgaard fik en
+G. 24 Sk for Skp. Hvor meget fik du, sag-
+de en Nabo. &#197; a fik missel ikke mere
+end 24 Sk Ja det var alt for lidt, han
+fik 2 M. S. maatte du missel v&#230;re [omsid] tilfreds min
+Bror, at det var Aske alt det du havde.
+H. vidste jo nok, h. vilde sm&#248;re ham en L&#248;gn.</danish_manuscript>
+  <english_manuscript>At that time, they burned a lot of charcoal and sold that and the tree ash in Aalborg. Kr&#230;n Hyldg&#229;rd once got 24 shillings for a bushel. "How much did you get?" asked a neighbor. "I didn't get more than 24 shillings." Yeah, that was far too little, he'd gotten two marks. "Well, then you must be quite happy, brother, that all that you had was ash." That was a good answer, since he knew that he was trying to feed him a lie.</english_manuscript>
+  <danish_publication>Den gang br&#230;ndte de s&#229; meget kul og solgte b&#229;de dem og tr&#230;asken til Aalborg. Kr&#230;n Hyldg&#229;rd fik en gang 24 skilling for skj&#230;ppen. Da han kom hjem, sagde en nabo: "Hvor meget fik du?" &#8212; "&#197;, a fik miss&#230;l ikke mere end 24 skilling". Ja, det var alt for lidt, han fik to mark. "S&#229; m&#229;tte du miss&#230;l v&#230;re tilfreds, bro'r, at det var aske alt det du havde". Det var et godt svar nok, for han vidste jo nok, han vilde sm&#248;re ham en l&#246;gn.</danish_publication>
+  <english_publication>At that time, they burned a lot of charcoal and sold that and the tree ash in Aalborg. Kr&#230;n Hyldg&#229;rd once got 24 shillings for a bushel. When he came home, a neighbor said, &#8221;How much did you get?&#8221; &#8211; &#8220;I didn&#8217;t get more than 24 shillings.&#8221; Yeah, that was far too little, he&#8217;d gotten two marks. &#8220;Well, then you must be quite happy, brother, that all that you had was ash.&#8221; That was a good answer, since he knew well that he was trying to feed him a lie.</english_publication>
+  <keywords>
+    <keyword><id>50</id><frequency>2</frequency><keyword>ashes</keyword>ashes</keyword>
+    <keyword><id>148</id><frequency>1</frequency><keyword>brother</keyword>brother</keyword>
+    <keyword><id>160</id><frequency>1</frequency><keyword>bushel</keyword>bushel</keyword>
+    <keyword><id>209</id><frequency>1</frequency><keyword>charcoal</keyword>charcoal</keyword>
+    <keyword><id>404</id><frequency>1</frequency><keyword>feed</keyword>feed</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>498</id><frequency>1</frequency><keyword>happy</keyword>happy</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>652</id><frequency>1</frequency><keyword>kr&#230;n_hyldg&#229;rd</keyword>Kr&#230;n Hyldg&#229;rd</keyword>
+    <keyword><id>828</id><frequency>1</frequency><keyword>neighbor</keyword>neighbor</keyword>
+    <keyword><id>1100</id><frequency>2</frequency><keyword>shilling</keyword>shilling</keyword>
+    <keyword><id>1281</id><frequency>1</frequency><keyword>tree</keyword>tree</keyword>
+  </keywords>
+  <etk_index><id>35</id>
+    <heading_danish>Livet uden d&#248;re</heading_danish>
+    <heading_english>Life outdoors</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

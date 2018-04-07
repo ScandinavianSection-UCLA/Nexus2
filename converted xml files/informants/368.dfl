@@ -1,0 +1,54 @@
+<informant><person_id>368</person_id>
+  <core_informant/>
+  <full_name>F. L. Grundtvig</full_name>
+  <last_name>Grundtvig</last_name>
+  <first_name>F. L.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>510</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>368</informant_id>
+      <publication_info>DS_I_44</publication_info>
+      <full_name>368 - 0.00 - DS_I_44</full_name>
+      <url>data/stories/510.dfl</url>
+      <place_recorded><id>338</id>K&#248;benhavn</place_recorded>
+      <places_mentioned>
+        <place><id>187</id>
+          <name>Gildebj&#230;rg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>513</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>368</informant_id>
+      <publication_info>DS_II_D_33</publication_info>
+      <full_name>368 - 0.00 - DS_II_D_33</full_name>
+      <url>data/stories/513.dfl</url>
+      <place_recorded><id>338</id>K&#248;benhavn</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>187</place_id>
+      <name>Gildebj&#230;rg</name>
+      <display_name>Gildebj&#230;rg (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,99 @@
+<story><story_id>720</story_id>
+  <publication_info>DS_VII_110</publication_info>
+  <full_name>371 - 0.00 - DS_VII_110</full_name>
+  <informant_id>371</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Constantin</informant_first_name>
+  <informant_full_name>Pastor Constantin Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>806</place_id>
+      <name>J&#230;rnved</name>
+      <display_name>J&#230;rnved (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1062</place_id>
+      <name>V&#230;n&#248;</name>
+      <display_name>V&#230;n&#248; (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>531</story_id>
+      <informant_id>447</informant_id>
+      <publication_info>DS_VII_119</publication_info>
+      <full_name>447 - 0.00 - DS_VII_119</full_name>
+      <url>data/stories/531.dfl</url>
+    </story>
+    <story><story_id>769</story_id>
+      <informant_id>333</informant_id>
+      <publication_info>DS_VII_145</publication_info>
+      <full_name>333 - 0.00 - DS_VII_145</full_name>
+      <url>data/stories/769.dfl</url>
+    </story>
+    <story><story_id>209</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_120</publication_info>
+      <full_name>241 - 4.37 - DS_VII_120</full_name>
+      <url>data/stories/209.dfl</url>
+    </story>
+    <story><story_id>619</story_id>
+      <informant_id>422</informant_id>
+      <publication_info>DS_VII_106</publication_info>
+      <full_name>422 - 0.00 - DS_VII_106</full_name>
+      <url>data/stories/619.dfl</url>
+    </story>
+    <story><story_id>412</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_169</publication_info>
+      <full_name>123 - 3.09 - DS_VII_169</full_name>
+      <url>data/stories/412.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>N&#229;r fiskerne p&#229; V&#230;n&#248; om morgenen tidlig fik deres fangst p&#229; land, s&#229; de i reglen en m&#229;ge, der fl&#246;j hen og snappede en af de bedste &#229;l og forsvandt med den bag ved Fiirbj&#230;rg. Siden s&#229; man en kone, der ans&#229;es for en heks, komme ud fra den anden side af bakken. En anden heks kunde skabe sig om til en hare. N&#229;r j&#230;geren kom efter den, fik han intet den dag, han kunde s&#229; jage s&#229; meget han vilde. Pr&#230;sten var hos hende en gang for at unders&#248;ge den sag, og spurgte hende, om det var sandt, at hun kunde springe som en hare. Hun vilde f&#248;rst ikke ind p&#229; det, men endelig sagde hun, at dersom han ikke kunde se det p&#229; hende, n&#229;r hun gik til alters, kaldte hun ham en ringe pr&#230;st. Hun kunde jo ikke synke br&#248;det.</danish_publication>
+  <english_publication>When the fishermen on Van&#248; brought their catch in early in the morning, they usually saw a gull which flew over and snapped up one of the best eels and disappeared with it over behind Fiirbj&#230;rg. Later they saw a woman, who was suspected of being a witch, come out from the other side of the hill. Another witch could turn herself into a hare. When the hunter came after it, he&#8217;d catch nothing that day, he could hunt as much as he wanted. The minister went to visit her once to investigate this case, and asked her if it was true that she could run like a hare. She at first wouldn&#8217;t talk about it, but finally she said that if he couldn&#8217;t see it on her when she went to to communion, then he was a bad minister. She couldn&#8217;t swallow the bread, you see.</english_publication>
+  <keywords>
+    <keyword><id>139</id><frequency>1</frequency><keyword>bread</keyword>bread</keyword>
+    <keyword><id>183</id><frequency>1</frequency><keyword>case</keyword>case</keyword>
+    <keyword><id>252</id><frequency>1</frequency><keyword>communion</keyword>communion</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>371</id><frequency>1</frequency><keyword>eel</keyword>eel</keyword>
+    <keyword><id>416</id><frequency>1</frequency><keyword>fishing</keyword>fishing</keyword>
+    <keyword><id>500</id><frequency>2</frequency><keyword>hare</keyword>hare</keyword>
+    <keyword><id>530</id><frequency>1</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>550</id><frequency>1</frequency><keyword>hunter</keyword>hunter</keyword>
+    <keyword><id>551</id><frequency>1</frequency><keyword>hunting</keyword>hunting</keyword>
+    <keyword><id>682</id><frequency>1</frequency><keyword>land</keyword>land</keyword>
+    <keyword><id>786</id><frequency>2</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>1225</id><frequency>1</frequency><keyword>suspect</keyword>suspect</keyword>
+    <keyword><id>1351</id><frequency>2</frequency><keyword>witch</keyword>witch</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>18</id><display_name>People: Sailor / Fisherman</display_name></tango_index>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>49</id><display_name>Tools, Items and Conveyances: Food and Drink</display_name></tango_index>
+    <tango_index><id>73</id><display_name>Animals: Hare</display_name></tango_index>
+    <tango_index><id>80</id><display_name>Actions or events: Church ceremony</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>109</id><display_name>Time, Season, Weather: Morning</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

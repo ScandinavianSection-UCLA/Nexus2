@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<story story_id="812">
+  <publication_info>DS_V_1477</publication_info>
+  <full_name>104 - 0.00 - DS_V_1477</full_name>
+  <informant_id>104</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>836</place_id>
+      <name>Nordrup</name>
+      <display_name>Nordrup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="234">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1430</publication_info>
+      <full_name>235 - 1.15 - DS_V_1430</full_name>
+      <url>data/stories/234.dfl</url>
+    </story>
+    <story story_id="533">
+      <informant_id>458</informant_id>
+      <publication_info>DS_V_1454</publication_info>
+      <full_name>458 - 0.00 - DS_V_1454</full_name>
+      <url>data/stories/533.dfl</url>
+    </story>
+    <story story_id="543">
+      <informant_id>343</informant_id>
+      <publication_info>DS_V_1507</publication_info>
+      <full_name>343 - 0.00 - DS_V_1507</full_name>
+      <url>data/stories/543.dfl</url>
+    </story>
+    <story story_id="729">
+      <informant_id>517</informant_id>
+      <publication_info>DS_V_1501</publication_info>
+      <full_name>517 - 0.00 - DS_V_1501</full_name>
+      <url>data/stories/729.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der fort&#xE6;lles, at folk, som havde gjort uret i udskiftningens tid ved at flytte p&#xE6;le, som var satte til skjel, m&#xE5;tte efter d&#xF8;den g&#xE5; p&#xE5; markerne om natten med et bundt p&#xE6;le og r&#xE5;be, s&#xE5; det h&#xF8;rtes over hele egnen: "Her er rind (plovfure) og rette
+Skjel!"</danish_publication>
+  <english_publication>They say that people who did wrong during the partitioning period by moving posts that were placed as boundary markers have to wander the fields after their death with a bundle of posts and shout so that people in the whole district can hear it, "Here are the plow furrows and proper boundaries."</english_publication>
+  <keywords>
+    <keyword id="127" frequency="2" keyword="boundary">boundary</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="336" frequency="1" keyword="district">district</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="451" frequency="1" keyword="furrow">furrow</keyword>
+    <keyword id="964" frequency="1" keyword="plow">plow</keyword>
+    <keyword id="1315" frequency="1" keyword="wandering">wandering</keyword>
+  </keywords>
+  <etk_index id="25">
+    <heading_danish>Gjenf&#xE6;rd p&#xE5; uretf&#xE6;rdig jord</heading_danish>
+    <heading_english>Revenants on ill-gotten land</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

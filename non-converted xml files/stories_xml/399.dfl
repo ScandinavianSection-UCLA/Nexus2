@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<story story_id="399">
+  <publication_info>JAH_V_212</publication_info>
+  <full_name>123 - 2.25 - JAH_V_212</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.25</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>615</place_id>
+      <name>Svejstrup</name>
+      <display_name>Svejstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="393">
+      <informant_id>123</informant_id>
+      <publication_info>JAH_I_263</publication_info>
+      <full_name>123 - 2.19 - JAH_I_263</full_name>
+      <url>data/stories/393.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3780b</fielddiary_page_start>
+  <fielddiary_page_end>3781a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This amusing story comments indirectly on the level of hygiene on most Danish farms. The cure, told in the best fashion of the cunning folk, is simply a ruse.
+
+     The appearance of a character in the story named Peder Johansen is surprising, but it is unlikely that Peder was referring to himself in the third person. It could well be that Tang Kristensen changed "mig" to P. Johansen while recording the story, although this seems unlikely. Regardless, Peder likely enjoys the vicarious narrative position of being the one who tricks Big Lavst into washing. Ironically, other stories tell of Peder's own slovenliness.</annotation>
+  <danish_manuscript>Store Lavst i Svejstrp havde en syg Gris.
+gik ude i T&#xF8;rvemosen og var grundig beskidt.
+kom til P. Johansen. Kj&#xF8;be for 4 sk. gr&#xF8;n 
+s&#xE6;be.... o. s. v. Grisen styrtede men Lavst
+blev vasket ren. Blev til Spot for alle Folk
+i Mosen, de havde ikke set ham s. ren siden
+
+3781A
+h. blev gift. Ja a ved kun et Raad og hvis
+det ikke hj&#xE6;lper, s. ved a ingen.
+</danish_manuscript>
+  <english_manuscript>Big Lavst in Svejstrup had a sick pig. He went about down in the peat bogs and was incredibly dirty. Then he came to Peder Johansen. "You need to buy 4 shillings worth of green soap, and wash yourself with it and give the pig the water." The pig died, but Lavst got washed clean. Now he was teased by everybody out on the moor since they hadn't seen him that clean since he got married. "I can only give you one piece of advice and, if that doesn't help, I don't know what else to do.</english_manuscript>
+  <danish_publication>Store-Lavst i Svejstrup havde en syg gris. Han gik nede i t&#xF6;rvemosen og var gruelig beskidt, og s&#xE5; kom han til Peder Johansen. "Ja, a v&#xE9;d kun &#xE9;t r&#xE5;d, og hvis det ikke hj&#xE6;lper, s&#xE5; v&#xE9;d a ingen. Du skal kj&#xF8;be for 4 skilling gr&#xF6;n s&#xE6;be, og det skal du vaske dig med og s&#xE5; give grisen vandet". Grisen styrtede, men Lavst blev vasket ren. Nu blev han til spot for alle folk i mosen, de havde ikke set ham s&#xE5; ren, siden han blev gift.</danish_publication>
+  <english_publication>Big Lavst in Svejstrup had a sick pig. He went about down in the peat bogs and was incredibly dirty. Then he came to Peder Johansen. &#x201C;I can only give you one piece of advice and, if that doesn&#x2019;t help, I don&#x2019;t know what else to do. You need to buy four shillings worth of green soap, and wash yourself with it and give the pig the water.&#x201D; The pig died, but Lavst got washed clean. Now he was teased by everybody out on the moor since they hadn&#x2019;t seen him that clean since he got married.</english_publication>
+  <keywords>
+    <keyword id="12" frequency="1" keyword="advice">advice</keyword>
+    <keyword id="96" frequency="1" keyword="big_lavst">Big Lavst</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="694" frequency="1" keyword="lavst">Lavst</keyword>
+    <keyword id="753" frequency="1" keyword="marriage">marriage</keyword>
+    <keyword id="923" frequency="1" keyword="peatbogs">peatbogs</keyword>
+    <keyword id="927" frequency="1" keyword="peder_johansen">Peder Johansen</keyword>
+    <keyword id="951" frequency="3" keyword="pig">pig</keyword>
+    <keyword id="1100" frequency="1" keyword="shilling">shilling</keyword>
+    <keyword id="1111" frequency="1" keyword="sickness">sickness</keyword>
+    <keyword id="1151" frequency="1" keyword="soap">soap</keyword>
+    <keyword id="1243" frequency="1" keyword="tease">tease</keyword>
+    <keyword id="1320" frequency="1" keyword="water">water</keyword>
+  </keywords>
+  <etk_index id="35">
+    <heading_danish>Livet uden d&#xF8;re</heading_danish>
+    <heading_english>Life outdoors</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="78" display_name="Animals: Swine"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="11" name="Jocular Tale"/>
+</story>

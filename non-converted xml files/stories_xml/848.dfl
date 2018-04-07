@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<story story_id="848">
+  <publication_info>DS_VI_1252</publication_info>
+  <full_name>439 - 0.00 - DS_VI_1252</full_name>
+  <informant_id>439</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Tellef</informant_first_name>
+  <informant_full_name>Tellef Kristensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>904</place_id>
+      <name>Vendsted, &#xC5;bybro</name>
+      <display_name>Vendsted, &#xC5;bybro (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>194</place_id>
+      <name>Gj&#xF8;l</name>
+      <display_name>Gj&#xF8;l (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="41">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_1248</publication_info>
+      <full_name>150 - 1.38 - DS_VI_1248</full_name>
+      <url>data/stories/41.dfl</url>
+    </story>
+    <story story_id="852">
+      <informant_id>320</informant_id>
+      <publication_info>DS_VI_926</publication_info>
+      <full_name>320 - 0.00 - DS_VI_926</full_name>
+      <url>data/stories/852.dfl</url>
+    </story>
+    <story story_id="83">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_48</publication_info>
+      <full_name>150 - 3.20 - JAH_V_48</full_name>
+      <url>data/stories/83.dfl</url>
+    </story>
+    <story story_id="641">
+      <informant_id>331</informant_id>
+      <publication_info>DS_VI_1251</publication_info>
+      <full_name>331 - 0.00 - DS_VI_1251</full_name>
+      <url>data/stories/641.dfl</url>
+    </story>
+    <story story_id="389">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_20</publication_info>
+      <full_name>123 - 2.15 - DS_II_E_20</full_name>
+      <url>data/stories/389.dfl</url>
+    </story>
+    <story story_id="590">
+      <informant_id>151</informant_id>
+      <publication_info>DS_VII_700</publication_info>
+      <full_name>151 - 0.00 - DS_VII_700</full_name>
+      <url>data/stories/590.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var s&#xE5; meget rotter og skidt p&#xE5; Gj&#xF8;l. S&#xE5; kom der en Finlap til &#xF8;en, og de er kloge, det slags folk. Han lovede at fordrive b&#xE5;de rotter og mus af landet, hvis de vilde love, at der ingen lindorm var i bj&#xE6;rget. Det lovede de, og s&#xE5; lavede han en b&#xE5;lling ild og kaldte p&#xE5; ut&#xF6;jet og l&#xE6;ste for det, og det kom lige s&#xE5; rask og gik i ilden. S&#xE5; varede det noget, da kom lindormen trimlende i et hjul, og han tog Nordmanden, og de trimlede ind i ilden begge, for ham havde han ingen magt over.</danish_publication>
+  <english_publication>There were so many rats and other pests at Gj&#xF8;l. Then a Finlap came to the island, and they're cunning, that kind of person. He promised to drive both rats and mice from the land, if they promised that there were no serpents (lindorm) in the mountain. They promised that, and so he made a bonfire and called all the varmints to him and read for them, and they came just as quickly and went into the fire. Then it took a while, but then the lindorm came tumbling out like a wheel and took the Norwegian and they both tumbled into the fire because he didn't have any power over that.</english_publication>
+  <keywords>
+    <keyword id="122" frequency="1" keyword="bonfire">bonfire</keyword>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="413" frequency="2" keyword="fire">fire</keyword>
+    <keyword id="565" frequency="1" keyword="island">island</keyword>
+    <keyword id="682" frequency="1" keyword="land">land</keyword>
+    <keyword id="712" frequency="2" keyword="lindorm">lindorm</keyword>
+    <keyword id="773" frequency="1" keyword="mice">mice</keyword>
+    <keyword id="809" frequency="1" keyword="mountain">mountain</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="867" frequency="1" keyword="norwegian">Norwegian</keyword>
+    <keyword id="988" frequency="1" keyword="power">power</keyword>
+    <keyword id="1019" frequency="2" keyword="rats">rats</keyword>
+  </keywords>
+  <etk_index id="28">
+    <heading_danish>Kloge m&#xE6;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="76" display_name="Animals: Serpent / Snake"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="134" display_name="Supernatural Beings: Lindorm / Basilisk"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

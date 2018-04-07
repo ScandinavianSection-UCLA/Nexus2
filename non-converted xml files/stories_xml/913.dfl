@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<story story_id="913">
+  <publication_info>DS_II_F_95</publication_info>
+  <full_name>48 - 0.00 - DS_II_F_95</full_name>
+  <informant_id>48</informant_id>
+  <informant_last_name>Ebbesen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Ebbesen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>139</place_id>
+      <name>Egtved</name>
+      <display_name>Egtved (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="914">
+      <informant_id>375</informant_id>
+      <publication_info>DS_II_F_93</publication_info>
+      <full_name>375 - 0.00 - DS_II_F_93</full_name>
+      <url>data/stories/914.dfl</url>
+    </story>
+    <story story_id="866">
+      <informant_id/>
+      <publication_info>DS_II_F_101</publication_info>
+      <full_name>0 - 0.00 - DS_II_F_101</full_name>
+      <url>data/stories/866.dfl</url>
+    </story>
+    <story story_id="58">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_447</publication_info>
+      <full_name>150 - 2.11 - DS_VII_447</full_name>
+      <url>data/stories/58.dfl</url>
+    </story>
+    <story story_id="407">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_F_78</publication_info>
+      <full_name>123 - 3.04 - DS_II_F_78</full_name>
+      <url>data/stories/407.dfl</url>
+    </story>
+    <story story_id="911">
+      <informant_id>521</informant_id>
+      <publication_info>DS_II_F_90</publication_info>
+      <full_name>521 - 0.00 - DS_II_F_90</full_name>
+      <url>data/stories/911.dfl</url>
+    </story>
+    <story story_id="912">
+      <informant_id>562</informant_id>
+      <publication_info>DS_II_F_94</publication_info>
+      <full_name>562 - 0.00 - DS_II_F_94</full_name>
+      <url>data/stories/912.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>For mareridt hos hestene er det godt at tage nogle teglsten hos en anden mand uden forlov og h&#xE6;nge dem op i &#xE6; b&#xE5;s oven over &#xE6; heste.</danish_publication>
+  <english_publication>For mare riding (nightmares) in horses it is good to take some bricks from another person without permission and hang them above the horses&#x2019; stalls.</english_publication>
+  <keywords>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="744" frequency="1" keyword="mare">mare</keyword>
+    <keyword id="946" frequency="1" keyword="permission">permission</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1186" frequency="1" keyword="stall">stall</keyword>
+  </keywords>
+  <etk_index id="7">
+    <heading_danish>Varulve og marer</heading_danish>
+    <heading_english>Werewolves and nightmares</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

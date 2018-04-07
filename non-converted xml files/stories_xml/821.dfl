@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<story story_id="821">
+  <publication_info>DS_I_1413</publication_info>
+  <full_name>69 - 0.00 - DS_I_1413</full_name>
+  <informant_id>69</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#xF8;ren</informant_first_name>
+  <informant_full_name>S&#xF8;ren Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>243</place_id>
+      <name>H&#xE5;rup</name>
+      <display_name>H&#xE5;rup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>511</place_id>
+      <name>Sale</name>
+      <display_name>Sale (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="328">
+      <informant_id>90</informant_id>
+      <publication_info>DS_I_1412</publication_info>
+      <full_name>90 - 1.05 - DS_I_1412</full_name>
+      <url>data/stories/328.dfl</url>
+    </story>
+    <story story_id="757">
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1414</publication_info>
+      <full_name>348 - 0.00 - DS_I_1414</full_name>
+      <url>data/stories/757.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Henne ved Sale der var en bj&#xE6;rgmand. S&#xE5; skulde en mand t&#xE6;t ved have barn i kirke og b&#xF8;d ogs&#xE5; bj&#xE6;rgmanden. Han spurgte, om Vorherre og sankt Peder skulde med. "Ja, s&#xE5; kommer a ikke, for a var ude den anden dag, og da smed han en trommestik fra sig og slog mit ene ben i stykker. Men a skal nok give dig faddergave alligevel," og s&#xE5; gav han en hel pose fuld af penge.</danish_publication>
+  <english_publication>There was a mound man over in Sale. A man who lived nearby was going to bring his child to church and he invited the mound man as well. He asked if Our Lord and St. Peder were going to be there. "Well, then I won't come, because I was out another time, and he threw a drumstick at me and broke one of my legs. But I'll give you a baptism gift anyway," and he gave a whole bag of money.</english_publication>
+  <keywords>
+    <keyword id="63" frequency="1" keyword="bags">bags</keyword>
+    <keyword id="70" frequency="1" keyword="baptism">baptism</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="466" frequency="1" keyword="gift">gift</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="807" frequency="2" keyword="mound_man">mound man</keyword>
+    <keyword id="887" frequency="1" keyword="our_lord">Our Lord</keyword>
+    <keyword id="925" frequency="1" keyword="peder">peder</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="80" display_name="Actions or events: Church ceremony"/>
+    <tango_index id="86" display_name="Actions or events: Feast / Celebration"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

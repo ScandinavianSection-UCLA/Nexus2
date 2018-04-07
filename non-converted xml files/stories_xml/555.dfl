@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<story story_id="555">
+  <publication_info>DS_II_F_71</publication_info>
+  <full_name>68 - 0.00 - DS_II_F_71</full_name>
+  <informant_id>68</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Mikkel</informant_first_name>
+  <informant_full_name>Mikkel Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <secondary_informants>
+    <informant id="25">Jens Nielsen B&#xE6;k</informant>
+  </secondary_informants>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places/>
+  <stories_mentioned>
+    <story story_id="856">
+      <informant_id>328</informant_id>
+      <publication_info>DS_II_F_65</publication_info>
+      <full_name>328 - 0.00 - DS_II_F_65</full_name>
+      <url>data/stories/856.dfl</url>
+    </story>
+    <story story_id="784">
+      <informant_id>467</informant_id>
+      <publication_info>DS_II_D_16</publication_info>
+      <full_name>467 - 0.00 - DS_II_D_16</full_name>
+      <url>data/stories/784.dfl</url>
+    </story>
+    <story story_id="849">
+      <informant_id>444</informant_id>
+      <publication_info>DS_II_F_73</publication_info>
+      <full_name>444 - 0.00 - DS_II_F_73</full_name>
+      <url>data/stories/849.dfl</url>
+    </story>
+    <story story_id="866">
+      <informant_id/>
+      <publication_info>DS_II_F_101</publication_info>
+      <full_name>0 - 0.00 - DS_II_F_101</full_name>
+      <url>data/stories/866.dfl</url>
+    </story>
+    <story story_id="407">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_F_78</publication_info>
+      <full_name>123 - 3.04 - DS_II_F_78</full_name>
+      <url>data/stories/407.dfl</url>
+    </story>
+    <story story_id="497">
+      <informant_id>465</informant_id>
+      <publication_info>DS_II_F_62</publication_info>
+      <full_name>465 - 0.00 - DS_II_F_62</full_name>
+      <url>data/stories/497.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En karl, der var ilde plaget af mareridt, fik en aften drengen til at hj&#xE6;lpe sig. Han stoppede alle huller ind til kammeret s&#xE5; n&#xE6;r som et, for der skulde maren komme igjennem, mente han. S&#xE5; skulde drengen rejse sig, n&#xE5;r han m&#xE6;rkede, det blev galt, og stoppe det hul ogs&#xE5;. Dern&#xE6;st skulde han kalde p&#xE5; karlen, s&#xE5; han kunde komme til sig selv igjen. Det gjorde drengen ogs&#xE5;, og om morgenen l&#xE5; der en pige ved dem i sengen. Der var ingen, der kjendte hende, og heller ikke vidste hun, hvor hun var kommen fra, eller nogen ting. Den karl var mandens s&#xF6;n i g&#xE5;rden, og s&#xE5; giftede han sig med pigen og fik g&#xE5;rden, og de havde mange b&#xF6;rn sammen. S&#xE5; var det en dag, han vilde til at vise hende det hul, hun var kommen ind ad, og s&#xE5; smut' hun ud af det igjen, og han s&#xE5; hende aldrig mere.</danish_publication>
+  <english_publication>A farmhand who was seriously plagued by nightmares got the hired boy to help him one night. He blocked all the holes into the room except for one because the mare was supposed to come in through it, he thought. Then the boy was to get up when he noticed something was wrong and block that hole too. Then he was to call to the farmhand so he could come to himself again. The boy did this too, and in the morning there was a girl with them in the bed. Nobody knew her and she didn&#x2019;t know where she had come from or anything else for that matter. The farmhand was the son of the farm owner and he married the girl and inherited the farm and they had a lot of kids together. Then one day he wanted to show her the hole that she had come in through and then she scooted back out of it and he never saw her again.</english_publication>
+  <keywords>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="130" frequency="3" keyword="boy">boy</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="395" frequency="3" keyword="farm_hand">farmhand</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="558" frequency="1" keyword="inheritance">inheritance</keyword>
+    <keyword id="744" frequency="1" keyword="mare">mare</keyword>
+    <keyword id="753" frequency="1" keyword="marriage">marriage</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="852" frequency="1" keyword="nightmare">nightmare</keyword>
+    <keyword id="891" frequency="1" keyword="owner">owner</keyword>
+    <keyword id="1154" frequency="1" keyword="son">son</keyword>
+  </keywords>
+  <etk_index id="7">
+    <heading_danish>Varulve og marer</heading_danish>
+    <heading_english>Werewolves and nightmares</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="61" display_name="Supernatural Beings: Mare"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

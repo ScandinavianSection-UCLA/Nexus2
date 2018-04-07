@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<story story_id="525">
+  <publication_info>DS_II_B_103</publication_info>
+  <full_name>487 - 0.00 - DS_II_B_103</full_name>
+  <informant_id>487</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>H. P.</informant_first_name>
+  <informant_full_name>L&#xE6;rer H. P. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>860</place_id>
+      <name>Sejling</name>
+      <display_name>Sejling (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1012</place_id>
+      <name>Sandvig</name>
+      <display_name>Sandvig (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="358">
+      <informant_id>90</informant_id>
+      <publication_info>DSnr_II_B_130</publication_info>
+      <full_name>90 - 3.04 - DSnr_II_B_130</full_name>
+      <url>data/stories/358.dfl</url>
+    </story>
+    <story story_id="181">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_B_203</publication_info>
+      <full_name>241 - 4.10 - DSnr_II_B_203</full_name>
+      <url>data/stories/181.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En t&#xE6;rskemand skulde en morgen tidlig hen til en g&#xE5;rd, der l&#xE5; langt fra byen; han gik fra Sandvig og ad Skalsby. Da han kommer op p&#xE5; Rasmus Bo's mark, ser han, at der ligger en gr&#xE5; v&#xE6;dder p&#xE5; ryggen i en ren med alle fire ben i vejret. Manden gik s&#xE5; hen og l&#xF8;ftede den op; men da han havde g&#xE5;et et lille stykke, ser han, at der ligger akkurat &#xE9;n lige s&#xE5;dan. Han blev nok lidt forundret, men gik lige godt hen og rejste den op med. Da han havde g&#xE5;et et lille stykke til, s&#xE5; ligger den samme fyr der igjen. Men s&#xE5; siger manden: "Nej, nu skal du have tak, du har narret mig to gange, den tredje gang skal du ikke narre mig." Nu kunde han forst&#xE5;, hvad det var, og s&#xE5; grinede nissen.</danish_publication>
+  <english_publication>A thresher was supposed to go to a farm which was quite a distance from the town early one morning; he walked from Sandvig over to Skalsby. When he gets up to Rasmus Bo&#x2019;s field he sees that there is a gray ram lying on its back in a ditch with all four legs in the air. The man goes over and lifts it up. When he has walked a little farther, he sees that there is exactly one like it lying there. He was a bit puzzled but he went over and righted it as well. Then when he&#x2019;d walked a little farther again, the same fellow is lying there again. But then the man says: &#x201C;No, now I&#x2019;ll thank you, you tricked me twice, but you aren&#x2019;t going to trick me a third time.&#x201D; Now he knew what it was, and then the nisse laughed.</english_publication>
+  <keywords>
+    <keyword id="16" frequency="1" keyword="air">air</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="691" frequency="1" keyword="laughter">laughter</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="857" frequency="1" keyword="nisse">nisse</keyword>
+    <keyword id="1017" frequency="1" keyword="rasmus">Rasmus</keyword>
+    <keyword id="1246" frequency="1" keyword="thank">thank</keyword>
+    <keyword id="1257" frequency="1" keyword="threshing">threshing</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1282" frequency="1" keyword="trickery">trickery</keyword>
+  </keywords>
+  <etk_index id="3">
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="65" display_name="Supernatural Beings: Nisse"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="77" display_name="Animals: Sheep"/>
+    <tango_index id="109" display_name="Time, Season, Weather: Morning"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

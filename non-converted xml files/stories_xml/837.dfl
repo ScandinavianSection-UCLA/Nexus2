@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<story story_id="837">
+  <publication_info>DS_VI_315</publication_info>
+  <full_name>518 - 0.00 - DS_VI_315</full_name>
+  <informant_id>518</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>S&#xF8;ren</informant_first_name>
+  <informant_full_name>S&#xF8;ren Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>798</place_id>
+      <name>Hosby</name>
+      <display_name>Hosby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>326</place_id>
+      <name>Kirkholm</name>
+      <display_name>Kirkholm (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>329</place_id>
+      <name>Klakring</name>
+      <display_name>Klakring (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="166">
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_1706</publication_info>
+      <full_name>241 - 2.16 - DS_V_1706</full_name>
+      <url>data/stories/166.dfl</url>
+    </story>
+    <story story_id="610">
+      <informant_id>448</informant_id>
+      <publication_info>DS_VI_323</publication_info>
+      <full_name>448 - 0.00 - DS_VI_323</full_name>
+      <url>data/stories/610.dfl</url>
+    </story>
+    <story story_id="818">
+      <informant_id>460</informant_id>
+      <publication_info>DS_V_728</publication_info>
+      <full_name>460 - 0.00 - DS_V_728</full_name>
+      <url>data/stories/818.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gang, hr. Jens kj&#xF8;rte fra Kirkholm til Klakring, fik han Fanden op at kj&#xF8;re, han h&#xE6;ngte bag i vognen som en sort puddelhund, og hestene kunde ikke tr&#xE6;kke den l&#xE6;ngere. S&#xE5; skulde kusken tage det venstre baghjul af, og nu m&#xE5;tte Fanden b&#xE6;re vognen.</danish_publication>
+  <english_publication>One time, Mr. Jens drove from Kirkholm to Klakring, and he got the devil up for a ride, he hung on back in the wagon like a large poodle, and the horses couldn't pull the wagon any longer. Then the driver had to take the left back wheel off, and now the devil had to carry the wagon.</english_publication>
+  <keywords>
+    <keyword id="324" frequency="2" keyword="devil">devil</keyword>
+    <keyword id="357" frequency="1" keyword="driver">driver</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="576" frequency="1" keyword="jens">Jens</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1311" frequency="3" keyword="wagon">wagon</keyword>
+    <keyword id="1335" frequency="1" keyword="wheel">wheel</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

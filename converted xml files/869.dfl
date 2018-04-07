@@ -1,0 +1,62 @@
+<story><story_id>869</story_id>
+  <publication_info>DS_III_2252</publication_info>
+  <full_name>0 - 0.00 - DS_III_2252</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>923</place_id>
+      <name>Skj&#230;ve</name>
+      <display_name>Skj&#230;ve (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>310</place_id>
+      <name>Jebj&#230;rg</name>
+      <display_name>Jebj&#230;rg (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>447</place_id>
+      <name>&#216;ksenvad</name>
+      <display_name>&#216;ksenvad (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>536</story_id>
+      <informant_id>374</informant_id>
+      <publication_info>DS_III_2256</publication_info>
+      <full_name>374 - 0.00 - DS_III_2256</full_name>
+      <url>data/stories/536.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Tre m&#230;nd grov efter en skat i Jyvsenhede (&#216;ksenhede). De grov tre gange. Sidste gang sagde den ene: "Hold nu godt ved, mens a spytter i h&#230;nderne!" S&#229; rejste kisten af, og det sagde inde i den: "Nu strander a atten alen nede i Jebj&#230;rg."</danish_publication>
+  <english_publication>Three men dug for a treasure in Jyvenshede (&#216;ksenhede). They dug three times. The last time, one of them said, &#8220;Hold on tight, while I spit on my hands!" Then the chest took off, and just before it disappeared it said: &#8220;Now I&#8217;ll strand thirty-six feet down in Jebj&#230;rg."</english_publication>
+  <keywords>
+    <keyword><id>215</id><frequency>1</frequency><keyword>chest</keyword>chest</keyword>
+    <keyword><id>326</id><frequency>2</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>1256</id><frequency>2</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1280</id><frequency>1</frequency><keyword>treasure</keyword>treasure</keyword>
+  </keywords>
+  <etk_index><id>15</id>
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

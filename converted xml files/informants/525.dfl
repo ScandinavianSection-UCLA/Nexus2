@@ -1,0 +1,37 @@
+<informant><person_id>525</person_id>
+  <core_informant/>
+  <full_name>Professor H. V. Rasmussen</full_name>
+  <last_name>Rasmussen</last_name>
+  <first_name>H. V.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>523</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>525</informant_id>
+      <publication_info>DS_VI_216</publication_info>
+      <full_name>525 - 0.00 - DS_VI_216</full_name>
+      <url>data/stories/523.dfl</url>
+      <place_recorded><id>338</id>K&#248;benhavn</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

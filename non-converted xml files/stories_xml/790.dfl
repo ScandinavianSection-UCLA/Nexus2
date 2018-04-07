@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<story story_id="790">
+  <publication_info>DS_I_898</publication_info>
+  <full_name>382 - 0.00 - DS_I_898</full_name>
+  <informant_id>382</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>824</place_id>
+      <name>Lin&#xE5;</name>
+      <display_name>Lin&#xE5; (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>527</place_id>
+      <name>Sjelle mark</name>
+      <display_name>Sjelle mark (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="296">
+      <informant_id>235</informant_id>
+      <publication_info>DSnr_I_240</publication_info>
+      <full_name>235 - 2.13 - DSnr_I_240</full_name>
+      <url>data/stories/296.dfl</url>
+    </story>
+    <story story_id="561">
+      <informant_id>513</informant_id>
+      <publication_info>DS_I_889</publication_info>
+      <full_name>513 - 0.00 - DS_I_889</full_name>
+      <url>data/stories/561.dfl</url>
+    </story>
+    <story story_id="639">
+      <informant_id>509</informant_id>
+      <publication_info>DS_I_897</publication_info>
+      <full_name>509 - 0.00 - DS_I_897</full_name>
+      <url>data/stories/639.dfl</url>
+    </story>
+    <story story_id="579">
+      <informant_id>106</informant_id>
+      <publication_info>DS_I_748</publication_info>
+      <full_name>106 - 0.00 - DS_I_748</full_name>
+      <url>data/stories/579.dfl</url>
+    </story>
+    <story story_id="180">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_901</publication_info>
+      <full_name>241 - 4.09 - DSnr_I_901</full_name>
+      <url>data/stories/180.dfl</url>
+    </story>
+    <story story_id="385">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_767</publication_info>
+      <full_name>123 - 2.11 - DS_I_767</full_name>
+      <url>data/stories/385.dfl</url>
+    </story>
+    <story story_id="511">
+      <informant_id>457</informant_id>
+      <publication_info>DS_I_755</publication_info>
+      <full_name>457 - 0.00 - DS_I_755</full_name>
+      <url>data/stories/511.dfl</url>
+    </story>
+    <story story_id="554">
+      <informant_id>128</informant_id>
+      <publication_info>DS_I_717</publication_info>
+      <full_name>128 - 0.00 - DS_I_717</full_name>
+      <url>data/stories/554.dfl</url>
+    </story>
+    <story story_id="205">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_627</publication_info>
+      <full_name>241 - 4.33 - DSnr_I_627</full_name>
+      <url>data/stories/205.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var to piger, der gik ved en h&#xF6;j henne p&#xE5; Sjelle mark, og den ene af dem blev taget ind i h&#xF6;jen. Der var &#xE9;n, der kom ud og tog hende og fik hende ind. De vidste ikke, hvor hun var bleven af, men s&#xE5; kunde den anden t&#xF8;s, der fulgte med hende, sige dem det. S&#xE5; var der en om aftenen, der rendte til og snappede hende, for da var h&#xF6;jen sat p&#xE5; gloende p&#xE6;le, og bj&#xE6;rgfolkene dandste under neden. A har set den pige, der var der inde. Hun vilde s&#xE5; gj&#xE6;rne have v&#xE6;ret der ind igjen, for hun havde det s&#xE5; godt ved dem, te det var uden al ende, sagde hun.</danish_publication>
+  <english_publication>There were two girls who walked past a mound out on Selle mark, and one of them was taken into the mound. Someone came out and took her and got her inside. They didn't know what had happened to her, but then the other girl who'd been with her could tell them. Then one evening, someone went and grabbed her, because the mound was up on four glowing poles then, and the mound dwellers danced underneath it. I've seen the girl who was in there. She really wanted to go back in there because it had been so nice in there with them, it was beyond all belief, she said.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="297" frequency="1" keyword="dancing">dancing</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="467" frequency="3" keyword="girl">girl</keyword>
+    <keyword id="470" frequency="1" keyword="glowing_poles">glowing poles</keyword>
+    <keyword id="804" frequency="3" keyword="mound">mound</keyword>
+    <keyword id="805" frequency="1" keyword="mound_dweller">mound dweller</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="90" display_name="Actions or events: Kidnapping"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

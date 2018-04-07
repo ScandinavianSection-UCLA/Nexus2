@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<story story_id="61">
+  <publication_info>JAH_VI_85</publication_info>
+  <full_name>150 - 2.14 - JAH_VI_85</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>2.14</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="60">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_A_1</publication_info>
+      <full_name>150 - 2.13 - DS_II_A_1</full_name>
+      <url>data/stories/60.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3267b</fielddiary_page_start>
+  <fielddiary_page_end>3267b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>In the manuscript, this story is sandwiched between the explanation of the origin of the elves, and the Lord's decision to create Eve presented in the previous record (BJK 2.13). The self proclaimed bible scholar confronts Jens's mother who provides an answer based on local knowledge, rather than biblical knowledge.</annotation>
+  <danish_manuscript>See BJK 2.13</danish_manuscript>
+  <english_manuscript>See BJK 2.13</english_manuscript>
+  <danish_publication>Der var en gammel mand her p&#xE5; egnen, som bildte sig ind, at han var noget bibell&#xE6;st, og han sagde til min moder en gang, om hun vidste, hvad Adams anden kone hed. S&#xE5; bandte hun ja, vidste hun s&#xE5;, for hun hed Kjesten Mosskovs. Hun kjendte jo en mand, der hed Adam, og han havde hans anden kone. </danish_publication>
+  <english_publication>There was an old man here in the area who&#x2019;d convinced himself that he knew the bible quite well, and he asked my mother once if she knew the name of Adam&#x2019;s second wife. Then she swore and said she certainly did, she was called Kjesten Mosskovs. She knew a man who was called Adam and he had a second wife.</english_publication>
+  <keywords>
+    <keyword id="10" frequency="2" keyword="adam">Adam</keyword>
+    <keyword id="94" frequency="1" keyword="bible">Bible</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1229" frequency="1" keyword="swear">swear</keyword>
+    <keyword id="1343" frequency="2" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="36">
+    <heading_danish>Vore f&#xE6;dres tankes&#xE6;t og &#xE5;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="48" display_name="Tools, Items and Conveyances: Books"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="11" name="Jocular Tale"/>
+</story>

@@ -1,0 +1,27 @@
+{
+  "name": "danishfolklore-nexus-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "create-react-class": "^15.6.3",
+    "foundation-sites": "^6.4.4-rc1",
+    "fuse-js-latest": "^3.1.0",
+    "mgr-pdf-viewer-react": "^1.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-foundation": "^0.9.4",
+    "react-fuse-picker": "^1.0.0",
+    "react-fuzzy": "^0.5.2",
+    "react-fuzzy-search": "^0.4.0",
+    "react-reader": "^0.16.7",
+    "react-scripts": "1.0.17",
+    "react-slider": "^0.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

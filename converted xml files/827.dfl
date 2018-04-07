@@ -1,0 +1,75 @@
+<story><story_id>827</story_id>
+  <publication_info>DS_II_G_89</publication_info>
+  <full_name>69 - 0.00 - DS_II_G_89</full_name>
+  <informant_id>69</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#248;ren</informant_first_name>
+  <informant_full_name>S&#248;ren Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>870</place_id>
+      <name>Skjolde</name>
+      <display_name>Skjolde (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>285</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_G_85</publication_info>
+      <full_name>235 - 2.02 - DS_II_G_85</full_name>
+      <url>data/stories/285.dfl</url>
+    </story>
+    <story><story_id>600</story_id>
+      <informant_id>327</informant_id>
+      <publication_info>DS_II_G_87</publication_info>
+      <full_name>327 - 0.00 - DS_II_G_87</full_name>
+      <url>data/stories/600.dfl</url>
+    </story>
+    <story><story_id>731</story_id>
+      <informant_id>347</informant_id>
+      <publication_info>DS_II_G_88</publication_info>
+      <full_name>347 - 0.00 - DS_II_G_88</full_name>
+      <url>data/stories/731.dfl</url>
+    </story>
+    <story><story_id>606</story_id>
+      <informant_id>546</informant_id>
+      <publication_info>DS_II_F_106</publication_info>
+      <full_name>546 - 0.00 - DS_II_F_106</full_name>
+      <url>data/stories/606.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Jerusalems skomager kan ikke hvile sig uden &#233;n gang om &#229;ret, og det er p&#229; en plov, hvissom han kan finde &#233;n at s&#230;tte sig p&#229; en julenat. Andre tider i hele &#229;ret m&#229; han ikke hvile, derfor har folk plejet at tage deres plove i hus f&#246;r jul, fordi de ikke kunde lide, at han skulde s&#230;tte sig p&#229; dem. Nogle har p&#229;st&#229;et, at de har set ham den nat, og hans kl&#230;der var gr&#246;nne af mos.</danish_publication>
+  <english_publication>The Jerusalem's Cobbler can only rest one time a year, and then it has to be on a plow, if he can find one to sit on Christmas eve. At the other times of the year, he can't rest, and that's why people have tended to take their plows in before Christmas, because they didn't want him sitting on them. Some have claimed to have seen him that night and his clothes were covered with green moss.</english_publication>
+  <keywords>
+    <keyword><id>225</id><frequency>2</frequency><keyword>christmas</keyword>Christmas</keyword>
+    <keyword><id>236</id><frequency>1</frequency><keyword>clothing</keyword>clothing</keyword>
+    <keyword><id>242</id><frequency>1</frequency><keyword>cobbler</keyword>cobbler</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>964</id><frequency>1</frequency><keyword>plow</keyword>plow</keyword>
+    <keyword><id>966</id><frequency>1</frequency><keyword>plowing</keyword>plowing</keyword>
+    <keyword><id>1026</id><frequency>2</frequency><keyword>rest</keyword>rest</keyword>
+    <keyword><id>1370</id><frequency>2</frequency><keyword>year</keyword>year</keyword>
+  </keywords>
+  <etk_index><id>8</id>
+    <heading_danish>Religi&#248;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>25</id><display_name>Places: Barn</display_name></tango_index>
+    <tango_index><id>51</id><display_name>Tools, Items and Conveyances: Plow</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>120</id><display_name>Time, Season, Weather: Christmas</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

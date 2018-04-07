@@ -1,0 +1,147 @@
+<story><story_id>223</story_id>
+  <publication_info>DSnr_IV_469a</publication_info>
+  <full_name>235 - 1.04 - DSnr_IV_469a</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.04</order_told>
+  <fieldtrip><id>7</id>May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>721</place_id>
+      <name>Voldum</name>
+      <display_name>Voldum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>226</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_810</publication_info>
+      <full_name>235 - 1.07 - DS_V_810</full_name>
+      <url>data/stories/226.dfl</url>
+    </story>
+    <story><story_id>468</story_id>
+      <informant_id>463</informant_id>
+      <publication_info>DS_V_1026</publication_info>
+      <full_name>463 - 0.00 - DS_V_1026</full_name>
+      <url>data/stories/468.dfl</url>
+    </story>
+    <story><story_id>659</story_id>
+      <informant_id>355</informant_id>
+      <publication_info>DS_VII_149</publication_info>
+      <full_name>355 - 0.00 - DS_VII_149</full_name>
+      <url>data/stories/659.dfl</url>
+    </story>
+    <story><story_id>225</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DSnr_IV_469b</publication_info>
+      <full_name>235 - 1.06 - DSnr_IV_469b</full_name>
+      <url>data/stories/225.dfl</url>
+    </story>
+    <story><story_id>224</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_687</publication_info>
+      <full_name>235 - 1.05 - DS_V_687</full_name>
+      <url>data/stories/224.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5211b</fielddiary_page_start>
+  <fielddiary_page_end>5211b</fielddiary_page_end>
+  <bibliographic_info>Keyes 1953
+N&#248;rr 1981
+Rockwell 1981
+Tangherlini 1998</bibliographic_info>
+  <bibliography_references>
+    <reference><id>21</id><category>general</category>
+      <display_string>[Book] N&#248;rr, Erik. 1981. &lt;i&gt;Pr&#230;st og administrator sognepr&#230;stens funktioner i lokalforvaltningen p&#229; landet fra 1800 til 1841 (Administrationshistoriske studier)&lt;/i&gt;. Copenhagen: Rigsarkivet.</display_string>
+    </reference>
+    <reference><id>258</id><category>general</category>
+      <display_string>[Book] Keyes, Frances Parkinson. 1953. &lt;i&gt;Bernadette of Lourdes : Shepherdess, Sister, and Saint&lt;/i&gt;. New York: J. Messner.</display_string>
+    </reference>
+    <reference><id>773</id><category>general</category>
+      <display_string>[Book section] Rockwell, Joan. 1981. The Ghosts of Evald Tang Kristensen. In &lt;i&gt;The Folklore of ghosts&lt;/i&gt;: 43-72. Cambridge and Totowa, N.J: D.S. Brewer.</display_string>
+    </reference>
+    <reference><id>609</id><category>general</category>
+      <display_string>[Article] Tangherlini, Timothy R. 1998. "Who ya gonna call?" : Ministers and the Mediation of Ghostly Threat in Danish Legend Tradition. Vol. 57 of &lt;i&gt;Western Folklore&lt;/i&gt; 2/3: 153-178.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Even after the constitutional reforms, the minister was an important member of the community, playing an important, albeit somewhat lessened, role in local political organization (N&#248;rr 1981). 
+
+      Stories about minister's wives are quite common. Often, she is in league with the devil or, in less extreme cases, scandalous in her behavior (DS VII 149). Calling her "Mr. Dorrit" is, of course, derogatory. By contrast, her husband, the minister, is described as a man of great virtue.
+
+     The preservation of the minister's corpse after "Mr. Dorrit" plagues him to death is reminiscent of the miraculous preservation of the incorruptible bodies of Catholic saints, such as St. Bernadette. The minister's seeming animation after death would usually be seen as a form of haunting but, here, because of his virtue, is seen in a positive light. Certain beliefs closely linked to Catholicism, such as belief in incorruptible bodies and ghosts, continued to be expressed in storytelling despite the Reformation and the strong influence of the Lutheran church in everyday life. 
+
+     In the published version, Tang Kristensen moved the place name reference to Voldum from KMP 1.06, and printed the two stories together, jumping over KMP 1.05 which he published as a separate story.</annotation>
+  <danish_manuscript>Der ver en Pr&#230;stekone der hed Hr. Dorrit og
+hun var da s. forskr&#230;kkelig et Kvindfolk og
+hun slog hendes Piger og sult dem og var en
+slem Kone. Hu var gift med Hr. Niels
+(Niels Jensen Brun) og s. d&#248;de h. og hun
+blev gift igien med Mester Lavst. Hun
+havde B&#248;rn med Niels Brun og de var
+s. slem baade Dorrit og B&#248;rn ved Lavst
+s. en Dag da s. h. paa Pr&#230;dikestolen i 
+Ruds Kirke Farvel til hans Sognebeboerne
+te nu Vorherre i Himlen skulde tage
+ham nu, for h. kunde ikke v&#230;re paa Jorden
+l&#230;ngere for hans Kone og hans Stifb&#248;rn. S. 
+d&#248;de h. ogsaa og kom ikke paa Pr&#230;kestolen
+mere. Men h. laa i 15 Aar i hans
+Kiste med hans r&#248;de Kinder. Da tabte
+h. hans Kul&#248;r og de mente, at h. skulde ha
+ve levet i de Aar til, dersom h havde le-
+vet hans Tid ud.</danish_manuscript>
+  <english_manuscript>There was a minister's wife they called Mr. Dorrit and she was a terrifying woman, and she hit her hired girls and starved them and was a terrible wife. She was married to Mr. Niels (Niels Jensen Brun), and then he died, and she married Master Laust. She had children with Niels Brun, and they were so bad to Laust, both she and the children, that he couldn't stand them. One day he said goodbye to his parishioners from the pulpit in Rude church, now the Lord would take him, because he could no longer live here on earth because of his step-children and wife. Then he died too and didn't get up to the pulpit again. But he lay in his casket for fifteen years with red cheeks. Then his cheeks lost their color and people believed that he was supposed to have lived for those years, if he'd lived out his years.</english_manuscript>
+  <danish_publication>Der var en Pr&#230;stekone i Voldum, de kaldte Hr. Dorrit, hun var da saa forskr&#230;kkeligt et Kvindfolk, og hun slog hendes Piger og sultede dem og var en slemme Kone. F&#248;rst var hun gift med Hr. Niels, og saa d&#248;de han, og hun blev gift med hans Eftermand, Mester Lavst. Hun havde B&#248;rn med Niels Brun, og de var saa slemme baade Dorrit og B&#248;rnene ved Lavst, saa han kunde slet ikke bj&#230;rge sig for dem. En Dag, da han stod paa Pr&#230;kestolen i Rude Kirke, sagde han Farvel til hans Sognebeboere. Han sagde, te Vorherre i Himlen skulde tage ham nu, for han kunde ikke v&#230;re paa Jorden l&#230;ngere for hans Kone og hans Stifb&#248;rn. Saa d&#248;de han ogsaa lige efter og kom altsaa ikke paa Pr&#230;kestolen mere. Men han laa i 15 Aar i hans Kiste med hans r&#248;de Kinder. Da tabte han hans Kul&#248;r, og de mente, at han skulde have levet i de Aar til, dersom han havde faaet Lov til at leve hans Tid ud.
+Da Dorrit var d&#248;d, gik hun igjen og blev saa manet nede i Kj&#230;lderen. Naar Pigerne gik der nede, var de altid saa r&#230;dde for at r&#248;re ved P&#230;len eller slaa den i Stykker. De troede jo, hun var ved den, og frygtede, at hun saa skulde komme op.</danish_publication>
+  <english_publication>There was a minister&#8217;s wife in Voldum, they called her Mr. Dorrit, she was a terrifying woman, and she hit her hired girls and starved them and was a terrible wife. She was first married to Mr. Niels, and then he died, and she married his successor, Master Laust. She had children with Niels Brun, and she and the children as well were so bad to Laust that he couldn&#8217;t stand them. One day, when he stood in the pulpit in Rude church, he said goodbye to his parishioners. He said that the Lord should take him now, because he couldn&#8217;t live here on earth because of his step-children and wife. And he died right after that and didn&#8217;t get up to the pulpit again. But he lay in his casket for fifteen years with red cheeks. Then his cheeks lost their color and people believed that he was supposed to have lived for those years, if he&#8217;d been allowed to live out his years.
+      [When Dorrit was dead, she went again and was conjured down in the cellar. When the hired girls went down there, they were always afraid of touching or breaking the pole that had been driven into the ground above where Dorrit had been conjured down. They believed that she was there, and they were afraid that she would come up again.]</english_publication>
+  <keywords>
+    <keyword><id>13</id><frequency>2</frequency><keyword>afraid</keyword>afraid</keyword>
+    <keyword><id>19</id><frequency>1</frequency><keyword>allow</keyword>allow</keyword>
+    <keyword><id>87</id><frequency>2</frequency><keyword>belief</keyword>belief</keyword>
+    <keyword><id>185</id><frequency>1</frequency><keyword>casket</keyword>casket</keyword>
+    <keyword><id>195</id><frequency>1</frequency><keyword>cellar</keyword>cellar</keyword>
+    <keyword><id>213</id><frequency>2</frequency><keyword>cheeks</keyword>cheeks</keyword>
+    <keyword><id>219</id><frequency>3</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>255</id><frequency>1</frequency><keyword>conjuring</keyword>conjuring</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>317</id><frequency>3</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>345</id><frequency>2</frequency><keyword>dorrit</keyword>dorrit</keyword>
+    <keyword><id>368</id><frequency>1</frequency><keyword>earth</keyword>earth</keyword>
+    <keyword><id>467</id><frequency>2</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>692</id><frequency>1</frequency><keyword>laust</keyword>Laust</keyword>
+    <keyword><id>725</id><frequency>1</frequency><keyword>lord</keyword>lord</keyword>
+    <keyword><id>753</id><frequency>2</frequency><keyword>marriage</keyword>marriage</keyword>
+    <keyword><id>758</id><frequency>1</frequency><keyword>master_laust</keyword>Master Laust</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>834</id><frequency>2</frequency><keyword>niels</keyword>Niels</keyword>
+    <keyword><id>905</id><frequency>1</frequency><keyword>parishioners</keyword>parishioners</keyword>
+    <keyword><id>971</id><frequency>1</frequency><keyword>pole</keyword>pole</keyword>
+    <keyword><id>1003</id><frequency>2</frequency><keyword>pulpit</keyword>pulpit</keyword>
+    <keyword><id>1021</id><frequency>1</frequency><keyword>red</keyword>red</keyword>
+    <keyword><id>1343</id><frequency>3</frequency><keyword>wife</keyword>wife</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>18</id>
+    <heading_danish>Pr&#230;ster</heading_danish>
+    <heading_english>Ministers</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>8</id><display_name>People: Farmwife</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

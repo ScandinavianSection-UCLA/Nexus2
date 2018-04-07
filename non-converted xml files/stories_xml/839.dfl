@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<story story_id="839">
+  <publication_info>DS_II_E_48</publication_info>
+  <full_name>451 - 0.00 - DS_II_E_48</full_name>
+  <informant_id>451</informant_id>
+  <informant_last_name>Lauritsen</informant_last_name>
+  <informant_first_name>Stine</informant_first_name>
+  <informant_full_name>Fru Stine Lauritsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>742</place_id>
+      <name>Amerika</name>
+      <display_name>Amerika (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>978</place_id>
+      <name>Toksv&#xE6;rd</name>
+      <display_name>Toksv&#xE6;rd (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="292">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_84</publication_info>
+      <full_name>235 - 2.09 - DS_II_E_84</full_name>
+      <url>data/stories/292.dfl</url>
+    </story>
+    <story story_id="607">
+      <informant_id>399</informant_id>
+      <publication_info>DS_II_E_42</publication_info>
+      <full_name>399 - 0.00 - DS_II_E_42</full_name>
+      <url>data/stories/607.dfl</url>
+    </story>
+    <story story_id="16">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_E_2</publication_info>
+      <full_name>150 - 1.13 - DS_II_E_2</full_name>
+      <url>data/stories/16.dfl</url>
+    </story>
+    <story story_id="598">
+      <informant_id>490</informant_id>
+      <publication_info>DS_II_E_22</publication_info>
+      <full_name>490 - 0.00 - DS_II_E_22</full_name>
+      <url>data/stories/598.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Min gamle bedstefader fortalte mig i min barndom, at da sognefolkene en s&#xF8;ndag morgen kom til Toksv&#xE6;rd kirke p&#xE5; Sj&#xE6;lland, da l&#xE5; der uden for d&#xF6;ren et frygteligt uhyre, som kaldtes en lindorm. Ingen turde n&#xE6;rme sig den, s&#xE5; man den dag med sorg m&#xE5;tte g&#xE5; hjem uden at kunne komme i kirke. Kun &#xE9;n af m&#xE6;ndene gik op i t&#xE5;rnet og sk&#xF8;d med kraft p&#xE5; uhyret, men alt prellede af p&#xE5; dets tykke skind. Man fik da en tyrekalv til pr&#xE6;steg&#xE5;rden, og sognets folk bragte m&#xE6;lk og blod til den at drikke. I f&#xE5; m&#xE5;neder voksede den s&#xE5; st&#xE6;rkt, at den blev helt uvane og spr&#xE6;ngte til sidst staldd&#xF8;ren, sprang over p&#xE5; kirkeg&#xE5;rden og rev uhyret ihjel. I den tid, da kalven voksede, gik man dog i kirke, idet man fik lavet en d&#xF6;r i den nordre side, og den anden blev s&#xE5; muret efter. Nu er indgangen i den vestre ende.</danish_publication>
+  <english_publication>My old grandfather told me when I was a child that the parish people came one Sunday to Toksv&#xE6;rd church on Sj&#xE6;lland, and there they found a frightening monster, which was called a lindorm, lying outside the door. Nobody dared get near it, so that day they had to go home with great sorrow without being able to go to church. Only one of the men went up in the tower and took a hard shot at the monster, but everything bounced off its thick skin. They got a bull calf brought over to the parsonage and the parish people brought milk and blood for it to drink. Over the course of a few months it grew so strong that it became completely uncontrollable and finally smashed the stall door, then it jumped the cemetery wall and tore the monster to death. During the time that the calf was growing, they went to church by making a door in the north side and the other one was walled up. Now the entrance is on the west end.</english_publication>
+  <keywords>
+    <keyword id="111" frequency="1" keyword="blood">blood</keyword>
+    <keyword id="156" frequency="1" keyword="bull">bull</keyword>
+    <keyword id="169" frequency="2" keyword="calf">calf</keyword>
+    <keyword id="196" frequency="1" keyword="cemetery">cemetery</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="227" frequency="3" keyword="church">church</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="344" frequency="3" keyword="door">door</keyword>
+    <keyword id="355" frequency="1" keyword="drinking">drinking</keyword>
+    <keyword id="478" frequency="1" keyword="grandfather">grandfather</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="712" frequency="1" keyword="lindorm">lindorm</keyword>
+    <keyword id="782" frequency="1" keyword="milk">milk</keyword>
+    <keyword id="795" frequency="3" keyword="monster">monster</keyword>
+    <keyword id="796" frequency="1" keyword="month">month</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="903" frequency="2" keyword="parish">parish</keyword>
+    <keyword id="906" frequency="1" keyword="parsonage">parsonage</keyword>
+    <keyword id="1106" frequency="1" keyword="shooting">shooting</keyword>
+    <keyword id="1125" frequency="1" keyword="sj&#xE6;lland">sj&#xE6;lland</keyword>
+    <keyword id="1128" frequency="1" keyword="skin">skin</keyword>
+    <keyword id="1163" frequency="1" keyword="sorrow">sorrow</keyword>
+    <keyword id="1186" frequency="1" keyword="stall">stall</keyword>
+    <keyword id="1209" frequency="1" keyword="strength">strength</keyword>
+    <keyword id="1218" frequency="1" keyword="sunday">Sunday</keyword>
+    <keyword id="1274" frequency="1" keyword="tower">tower</keyword>
+    <keyword id="1313" frequency="2" keyword="walls">walls</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="76" display_name="Animals: Serpent / Snake"/>
+    <tango_index id="102" display_name="Time, Season, Weather: Sunday"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="134" display_name="Supernatural Beings: Lindorm / Basilisk"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

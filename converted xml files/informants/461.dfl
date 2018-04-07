@@ -1,0 +1,37 @@
+<informant><person_id>461</person_id>
+  <core_informant/>
+  <full_name>Poul Jeppesen Lystb&#230;k</full_name>
+  <last_name>Lystb&#230;k</last_name>
+  <first_name>Poul Jeppesen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>773</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>461</informant_id>
+      <publication_info>DS_II_E_144</publication_info>
+      <full_name>461 - 0.00 - DS_II_E_144</full_name>
+      <url>data/stories/773.dfl</url>
+      <place_recorded><id>893</id>Torsted, Tim</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>893</place_id>
+      <name>Torsted, Tim</name>
+      <display_name>Torsted, Tim (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<story story_id="763">
+  <publication_info>DS_III_81</publication_info>
+  <full_name>350 - 0.00 - DS_III_81</full_name>
+  <informant_id>350</informant_id>
+  <informant_last_name>Clauss&#xF8;n</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels Clauss&#xF8;n</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>765</place_id>
+      <name>Dalby-Stubdrup</name>
+      <display_name>Dalby-Stubdrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>111</place_id>
+      <name>Dalby</name>
+      <display_name>Dalby (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>141</place_id>
+      <name>Elnebj&#xE6;rg</name>
+      <display_name>Elnebj&#xE6;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="414">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_222</publication_info>
+      <full_name>123 - 3.11 - DS_III_222</full_name>
+      <url>data/stories/414.dfl</url>
+    </story>
+    <story story_id="438">
+      <informant_id>520</informant_id>
+      <publication_info>DS_III_128</publication_info>
+      <full_name>520 - 0.00 - DS_III_128</full_name>
+      <url>data/stories/438.dfl</url>
+    </story>
+    <story story_id="21">
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_127</publication_info>
+      <full_name>150 - 1.18 - DS_III_127</full_name>
+      <url>data/stories/21.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Udi Dalby mark, vesten for byen, ligger et bj&#xE6;rg, kaldes Elnebj&#xE6;rg, er ikke h&#xF6;jt, men langt og str&#xE6;kker sig i s&#xF8;nder og n&#xF6;r. Derp&#xE5; siges to kvinder at have st&#xE5;et og kast til m&#xE5;ls med to store stene. Den ene sten findes udi en mands have i Dalby, den anden l&#xE5; ude p&#xE5; marken og er nu f&#xF8;rt til byen og sat udi et stengj&#xE6;rde. Udi hver af disse stene findes fem huller ligesom enderne af store fingre, dog ikke ret dybe.</danish_publication>
+  <english_publication>Out in Dalby field, west of the town, there's a mound called Elnebj&#xE6;rg; it isn't tall but it is long, and stretches to the south and north. They say that two women stood up there and had a contest to see who could throw a stone the farthest. The one stone can be found out in a man's garden in Dalby, the other in a field and that one was brought into town and used as part of a stone wall. In each of the stones there are five holes, like the tips of large fingers, though not very deep.</english_publication>
+  <keywords>
+    <keyword id="410" frequency="3" keyword="field">field</keyword>
+    <keyword id="412" frequency="1" keyword="finger">finger</keyword>
+    <keyword id="804" frequency="1" keyword="mound">mound</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="1167" frequency="1" keyword="south">south</keyword>
+    <keyword id="1195" frequency="5" keyword="stone">stone</keyword>
+    <keyword id="1275" frequency="2" keyword="town">town</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="11">
+    <heading_danish>Kj&#xE6;mper og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Heroes and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="60" display_name="Supernatural Beings: Giant"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

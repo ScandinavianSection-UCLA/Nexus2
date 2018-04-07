@@ -1,0 +1,97 @@
+<story><story_id>683</story_id>
+  <publication_info>DS_V_1195</publication_info>
+  <full_name>495 - 0.00 - DS_V_1195</full_name>
+  <informant_id>495</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>M.</informant_first_name>
+  <informant_full_name>M. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>814</place_id>
+      <name>Kongerslev</name>
+      <display_name>Kongerslev (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>933</place_id>
+      <name>Dokkedal</name>
+      <display_name>Dokkedal (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>934</place_id>
+      <name>Mou</name>
+      <display_name>Mou (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>356</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_1232</publication_info>
+      <full_name>90 - 3.02 - DS_V_1232</full_name>
+      <url>data/stories/356.dfl</url>
+    </story>
+    <story><story_id>710</story_id>
+      <informant_id>522</informant_id>
+      <publication_info>DS_V_1182</publication_info>
+      <full_name>522 - 0.00 - DS_V_1182</full_name>
+      <url>data/stories/710.dfl</url>
+    </story>
+    <story><story_id>568</story_id>
+      <informant_id>205</informant_id>
+      <publication_info>DS_V_1265</publication_info>
+      <full_name>205 - 0.00 - DS_V_1265</full_name>
+      <url>data/stories/568.dfl</url>
+    </story>
+    <story><story_id>474</story_id>
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1343</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1343</full_name>
+      <url>data/stories/474.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I en g&#229;rd i Dokkedal, Mov sogn, d&#248;de en kone, der efter d&#248;den viste sig hver middag p&#229; et bestemt sted i &#233;n af stuerne og altid i sort skikkelse. V&#230;relset stod derfor tomt i lang tid, fordi ingen turde komme der, indtil en gang en mand, som forstod sig p&#229; s&#229;danne ting, en dag passede gjenf&#230;rdet op og forlangte at vide, hvorfor det stod der. Manden fik s&#229; at vide, at den afd&#248;de kone i levende live som ung pige havde f&#248;dt et barn i d&#248;lgsm&#229;l, som hun dr&#230;bte og begravede under gulvstenene p&#229; det sted, hvor hun nu efter d&#248;den f&#230;rdedes. Manden lovede p&#229; hendes begj&#230;ring, at barnet skulde blive gravet op og flyttet til kirkeg&#229;rden, og skikkelsen forsvandt. Gulvet blev p&#229; det angivne sted brudt op, og barnets skelet fundet og begravet p&#229; kirkeg&#229;rden. Efter den tid s&#229;es gjenf&#230;rdet ikke mere.</danish_publication>
+  <english_publication>A woman died in a farm in Dokkedal, Mov Parish, and she showed herself every noon at a specific place in one of the rooms and always as a black shape. Because of that, the room stood empty for a long time, since nobody dared go in there, until one time a man, who understood this kind of thing, got the revenant up and requested to know why she stood there. The man found out that the dead woman, when she was alive, had secretly had a child when she was a young girl, which she had killed and buried under the floor stones in that place where she now walked after death. The man promised to fulfill her wish that the child would be dug up and moved to the cemetery, and then the shape disappeared. The floor was broken up in the specified place and the child&#8217;s skeleton was found and buried at the cemetery. After that time the revenant was no longer seen.</english_publication>
+  <keywords>
+    <keyword><id>106</id><frequency>1</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>158</id><frequency>2</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>196</id><frequency>2</frequency><keyword>cemetery</keyword>cemetery</keyword>
+    <keyword><id>219</id><frequency>3</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>317</id><frequency>3</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>326</id><frequency>1</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>422</id><frequency>2</frequency><keyword>floor</keyword>floor</keyword>
+    <keyword><id>467</id><frequency>1</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>622</id><frequency>1</frequency><keyword>kill</keyword>kill</keyword>
+    <keyword><id>861</id><frequency>1</frequency><keyword>noon</keyword>noon</keyword>
+    <keyword><id>903</id><frequency>1</frequency><keyword>parish</keyword>parish</keyword>
+    <keyword><id>1027</id><frequency>2</frequency><keyword>revenant</keyword>revenant</keyword>
+    <keyword><id>1082</id><frequency>1</frequency><keyword>secrets</keyword>secrets</keyword>
+    <keyword><id>1127</id><frequency>1</frequency><keyword>skeleton</keyword>skeleton</keyword>
+    <keyword><id>1195</id><frequency>1</frequency><keyword>stone</keyword>stone</keyword>
+    <keyword><id>1356</id><frequency>2</frequency><keyword>woman</keyword>woman</keyword>
+    <keyword><id>1374</id><frequency>1</frequency><keyword>young</keyword>young</keyword>
+  </keywords>
+  <etk_index><id>24</id>
+    <heading_danish>Kvindelige gjenf&#230;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>81</id><display_name>Actions or events: Conjuring</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>110</id><display_name>Time, Season, Weather: Noon</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

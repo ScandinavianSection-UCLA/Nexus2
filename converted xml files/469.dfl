@@ -1,0 +1,77 @@
+<story><story_id>469</story_id>
+  <publication_info>DS_V_146</publication_info>
+  <full_name>484 - 0.00 - DS_V_146</full_name>
+  <informant_id>484</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Ane</informant_first_name>
+  <informant_full_name>Ane Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>377</place_id>
+      <name>Lisbj&#230;rg terp</name>
+      <display_name>Lisbj&#230;rg terp (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1002</place_id>
+      <name>Skj&#230;rs&#248;</name>
+      <display_name>Skj&#230;rs&#248; (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>640</story_id>
+      <informant_id>364</informant_id>
+      <publication_info>DS_V_133</publication_info>
+      <full_name>364 - 0.00 - DS_V_133</full_name>
+      <url>data/stories/640.dfl</url>
+    </story>
+    <story><story_id>670</story_id>
+      <informant_id>110</informant_id>
+      <publication_info>DS_V_155</publication_info>
+      <full_name>110 - 0.00 - DS_V_155</full_name>
+      <url>data/stories/670.dfl</url>
+    </story>
+    <story><story_id>830</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_V_129</publication_info>
+      <full_name>69 - 0.00 - DS_V_129</full_name>
+      <url>data/stories/830.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En dreng p&#229; Skjers&#248; gik en aften hen imod en skr&#229;ning, p&#229; hvis top der l&#229; en kirke. Som han gik, tyktes han, at skr&#229;ningen begyndte at glide ned imod ham, og pludselig stod en mand ved ham i en lang sort kjole og sort p&#229; hovedet. Drengen gjorde plads for ham og gik ned i vejgr&#248;ften, og s&#229;ledes blev de ved at g&#229;, til de kom op p&#229; toppen af bakken, da vendte vinden sig, og manden forsvandt, og alt var, som det plejede at v&#230;re. Drengen er en endnu levende mand, der selv tror p&#229; de omtalte ting.</danish_publication>
+  <english_publication>A hired boy on Skjers&#248; went one night towards a hillside on the top of which there was a church. As he walked, it seemed to him that the hillside began to glide down towards him and, all of a sudden, a man in a long black robe with a black head was standing there beside him. The boy made room for him and went down into the road ditch, and they continued walking like that until they reached the top of the hill, then the wind turned and the man disappeared and everything was like it usually was. The boy is still alive and is a man and believes this himself.</english_publication>
+  <keywords>
+    <keyword><id>87</id><frequency>1</frequency><keyword>belief</keyword>belief</keyword>
+    <keyword><id>106</id><frequency>2</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>130</id><frequency>3</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>341</id><frequency>1</frequency><keyword>ditch</keyword>ditch</keyword>
+    <keyword><id>530</id><frequency>3</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>565</id><frequency>1</frequency><keyword>island</keyword>island</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1345</id><frequency>1</frequency><keyword>wind</keyword>wind</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

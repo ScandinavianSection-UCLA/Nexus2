@@ -1,0 +1,85 @@
+<story><story_id>781</story_id>
+  <publication_info>DS_II_B_214</publication_info>
+  <full_name>467 - 0.00 - DS_II_B_214</full_name>
+  <informant_id>467</informant_id>
+  <informant_last_name>Madsen</informant_last_name>
+  <informant_first_name>P. K.</informant_first_name>
+  <informant_full_name>L&#230;rer P. K. Madsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>878</place_id>
+      <name>Staby</name>
+      <display_name>Staby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>969</place_id>
+      <name>Vejlby</name>
+      <display_name>Vejlby (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>182</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_B_212</publication_info>
+      <full_name>241 - 4.11 - DSnr_II_B_212</full_name>
+      <url>data/stories/182.dfl</url>
+    </story>
+    <story><story_id>753</story_id>
+      <informant_id>558</informant_id>
+      <publication_info>DS_II_B_48</publication_info>
+      <full_name>558 - 0.00 - DS_II_B_48</full_name>
+      <url>data/stories/753.dfl</url>
+    </story>
+    <story><story_id>760</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_B_141</publication_info>
+      <full_name>348 - 0.00 - DS_II_B_141</full_name>
+      <url>data/stories/760.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Kristen Madsens g&#229;rd i Vejlby har nissebuk al tid haft sit tilhold. N&#229;r drengene ikke tr&#230;dede (drillede) ham alt for meget, var han helt omg&#230;ngelig og gjorde ikke en kat fortr&#230;d. Kom manden end nok s&#229; sildig hjem fra kj&#248;bsted, kunde han frit kaste t&#246;mmen, nis skulde nok sp&#230;nde fra. Af taknemlighed gav konen ham en ny pels til vinteren, men siden sp&#230;ndte nis aldrig fra, og da Kristen Madsen skj&#230;ndte p&#229; ham, sagde han: "Tror du og, jeg vil fli (smudse) mine ny kl&#230;der."</danish_publication>
+  <english_publication>In Kristen Madsen&#8217;s farm in Vejlby, nissebuk has always had his place. When the boys didn&#8217;t tease him too much, he was very accommodating and wouldn&#8217;t harm a cat. If the man came home really late from the market, he could freely toss the reins, nis would unharness the horses. Out of thanks the wife gave him a new fur for the winter, but since then nis would never unharness the horses, and when Kristen Madsen yelled at him, he said: &#8220;Do you think I want to dirty my new clothes?&#8221;</english_publication>
+  <keywords>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>187</id><frequency>1</frequency><keyword>cat</keyword>cat</keyword>
+    <keyword><id>236</id><frequency>1</frequency><keyword>clothing</keyword>clothing</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>443</id><frequency>1</frequency><keyword>free</keyword>free</keyword>
+    <keyword><id>501</id><frequency>1</frequency><keyword>harm</keyword>harm</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>545</id><frequency>2</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>666</id><frequency>2</frequency><keyword>kristen_madsen</keyword>Kristen Madsen</keyword>
+    <keyword><id>751</id><frequency>1</frequency><keyword>market</keyword>market</keyword>
+    <keyword><id>855</id><frequency>2</frequency><keyword>nis</keyword>Nis</keyword>
+    <keyword><id>857</id><frequency>1</frequency><keyword>nisse</keyword>nisse</keyword>
+    <keyword><id>1023</id><frequency>1</frequency><keyword>reins</keyword>reins</keyword>
+    <keyword><id>1243</id><frequency>1</frequency><keyword>tease</keyword>tease</keyword>
+    <keyword><id>1246</id><frequency>1</frequency><keyword>thank</keyword>thank</keyword>
+    <keyword><id>1291</id><frequency>2</frequency><keyword>unharnessed</keyword>unharnessed</keyword>
+    <keyword><id>1343</id><frequency>1</frequency><keyword>wife</keyword>wife</keyword>
+  </keywords>
+  <etk_index><id>3</id>
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>8</id><display_name>People: Farmwife</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>65</id><display_name>Supernatural Beings: Nisse</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

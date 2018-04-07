@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<story story_id="683">
+  <publication_info>DS_V_1195</publication_info>
+  <full_name>495 - 0.00 - DS_V_1195</full_name>
+  <informant_id>495</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>M.</informant_first_name>
+  <informant_full_name>M. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>814</place_id>
+      <name>Kongerslev</name>
+      <display_name>Kongerslev (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>933</place_id>
+      <name>Dokkedal</name>
+      <display_name>Dokkedal (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>934</place_id>
+      <name>Mou</name>
+      <display_name>Mou (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="356">
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_1232</publication_info>
+      <full_name>90 - 3.02 - DS_V_1232</full_name>
+      <url>data/stories/356.dfl</url>
+    </story>
+    <story story_id="710">
+      <informant_id>522</informant_id>
+      <publication_info>DS_V_1182</publication_info>
+      <full_name>522 - 0.00 - DS_V_1182</full_name>
+      <url>data/stories/710.dfl</url>
+    </story>
+    <story story_id="568">
+      <informant_id>205</informant_id>
+      <publication_info>DS_V_1265</publication_info>
+      <full_name>205 - 0.00 - DS_V_1265</full_name>
+      <url>data/stories/568.dfl</url>
+    </story>
+    <story story_id="474">
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1343</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1343</full_name>
+      <url>data/stories/474.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I en g&#xE5;rd i Dokkedal, Mov sogn, d&#xF8;de en kone, der efter d&#xF8;den viste sig hver middag p&#xE5; et bestemt sted i &#xE9;n af stuerne og altid i sort skikkelse. V&#xE6;relset stod derfor tomt i lang tid, fordi ingen turde komme der, indtil en gang en mand, som forstod sig p&#xE5; s&#xE5;danne ting, en dag passede gjenf&#xE6;rdet op og forlangte at vide, hvorfor det stod der. Manden fik s&#xE5; at vide, at den afd&#xF8;de kone i levende live som ung pige havde f&#xF8;dt et barn i d&#xF8;lgsm&#xE5;l, som hun dr&#xE6;bte og begravede under gulvstenene p&#xE5; det sted, hvor hun nu efter d&#xF8;den f&#xE6;rdedes. Manden lovede p&#xE5; hendes begj&#xE6;ring, at barnet skulde blive gravet op og flyttet til kirkeg&#xE5;rden, og skikkelsen forsvandt. Gulvet blev p&#xE5; det angivne sted brudt op, og barnets skelet fundet og begravet p&#xE5; kirkeg&#xE5;rden. Efter den tid s&#xE5;es gjenf&#xE6;rdet ikke mere.</danish_publication>
+  <english_publication>A woman died in a farm in Dokkedal, Mov Parish, and she showed herself every noon at a specific place in one of the rooms and always as a black shape. Because of that, the room stood empty for a long time, since nobody dared go in there, until one time a man, who understood this kind of thing, got the revenant up and requested to know why she stood there. The man found out that the dead woman, when she was alive, had secretly had a child when she was a young girl, which she had killed and buried under the floor stones in that place where she now walked after death. The man promised to fulfill her wish that the child would be dug up and moved to the cemetery, and then the shape disappeared. The floor was broken up in the specified place and the child&#x2019;s skeleton was found and buried at the cemetery. After that time the revenant was no longer seen.</english_publication>
+  <keywords>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="158" frequency="2" keyword="burial">burial</keyword>
+    <keyword id="196" frequency="2" keyword="cemetery">cemetery</keyword>
+    <keyword id="219" frequency="3" keyword="children">children</keyword>
+    <keyword id="317" frequency="3" keyword="death">death</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="422" frequency="2" keyword="floor">floor</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="861" frequency="1" keyword="noon">noon</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="1027" frequency="2" keyword="revenant">revenant</keyword>
+    <keyword id="1082" frequency="1" keyword="secrets">secrets</keyword>
+    <keyword id="1127" frequency="1" keyword="skeleton">skeleton</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1356" frequency="2" keyword="woman">woman</keyword>
+    <keyword id="1374" frequency="1" keyword="young">young</keyword>
+  </keywords>
+  <etk_index id="24">
+    <heading_danish>Kvindelige gjenf&#xE6;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="81" display_name="Actions or events: Conjuring"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="110" display_name="Time, Season, Weather: Noon"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

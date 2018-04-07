@@ -1,0 +1,98 @@
+<story><story_id>620</story_id>
+  <publication_info>DS_I_1354</publication_info>
+  <full_name>359 - 0.00 - DS_I_1354</full_name>
+  <informant_id>359</informant_id>
+  <informant_last_name>Eriksen</informant_last_name>
+  <informant_first_name>Kr.</informant_first_name>
+  <informant_full_name>Bogtrykker Kr. Eriksen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>177</place_id>
+      <name>Fyn</name>
+      <display_name>Fyn (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>463</place_id>
+      <name>Pigsh&#248;j</name>
+      <display_name>Pigsh&#248;j (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>649</place_id>
+      <name>Tor&#248;hus</name>
+      <display_name>Tor&#248;hus (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>180</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_901</publication_info>
+      <full_name>241 - 4.09 - DSnr_I_901</full_name>
+      <url>data/stories/180.dfl</url>
+    </story>
+    <story><story_id>861</story_id>
+      <informant_id/>
+      <publication_info>DS_I_1358</publication_info>
+      <full_name>0 - 0.00 - DS_I_1358</full_name>
+      <url>data/stories/861.dfl</url>
+    </story>
+    <story><story_id>788</story_id>
+      <informant_id>382</informant_id>
+      <publication_info>DS_I_1356</publication_info>
+      <full_name>382 - 0.00 - DS_I_1356</full_name>
+      <url>data/stories/788.dfl</url>
+    </story>
+    <story><story_id>756</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1340</publication_info>
+      <full_name>348 - 0.00 - DS_I_1340</full_name>
+      <url>data/stories/756.dfl</url>
+    </story>
+    <story><story_id>441</story_id>
+      <informant_id>456</informant_id>
+      <publication_info>DS_I_1341</publication_info>
+      <full_name>456 - 0.00 - DS_I_1341</full_name>
+      <url>data/stories/441.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der boede en trold i Pigsh&#246;j ved Tor&#248;hus. Han var ellers bekjendt af mange. En gang m&#246;dte en skipper ham i &#229;ben s&#248;, hvor trolden kom sejlende i en st&#248;vle. Han fortalte da s&#248;manden, at nu var folk blevne s&#229; kloge p&#229; Fyen, at de slog kors for al ting, s&#229; troldene kunde intet f&#229; at leve af. Han agtede sig derfor til Norge, hvor han ikke troede, folk var s&#229; oplyste.</danish_publication>
+  <english_publication>A troll lived in Pigs mound near Tor&#248;hus. He was known by a lot of people. One time, a skipper met him out on the open sea, where the troll came sailing in a boot. He told the sailor that people on Fyn had become so wise that they made the sign of the cross over everything, so the trolls couldn't get anything to live off of. So that was why he was going to Norway where he didn't think people were so enlightened.</english_publication>
+  <keywords>
+    <keyword><id>124</id><frequency>1</frequency><keyword>boots</keyword>boots</keyword>
+    <keyword><id>286</id><frequency>1</frequency><keyword>cunning_folk</keyword>Cunning Folk</keyword>
+    <keyword><id>804</id><frequency>1</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>866</id><frequency>1</frequency><keyword>norway</keyword>Norway</keyword>
+    <keyword><id>951</id><frequency>1</frequency><keyword>pig</keyword>pig</keyword>
+    <keyword><id>1060</id><frequency>1</frequency><keyword>sailing</keyword>sailing</keyword>
+    <keyword><id>1061</id><frequency>1</frequency><keyword>sailor</keyword>sailor</keyword>
+    <keyword><id>1079</id><frequency>1</frequency><keyword>sea</keyword>sea</keyword>
+    <keyword><id>1129</id><frequency>1</frequency><keyword>skipper</keyword>skipper</keyword>
+    <keyword><id>1283</id><frequency>3</frequency><keyword>troll</keyword>troll</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>18</id><display_name>People: Sailor / Fisherman</display_name></tango_index>
+    <tango_index><id>39</id><display_name>Places: Ocean / Sea</display_name></tango_index>
+    <tango_index><id>47</id><display_name>Tools, Items and Conveyances: Boat</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>66</id><display_name>Supernatural Beings: Troll</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

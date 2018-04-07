@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<story story_id="504">
+  <publication_info>DS_II_G_339</publication_info>
+  <full_name>318 - 0.00 - DS_II_G_339</full_name>
+  <informant_id>318</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Evald</informant_first_name>
+  <informant_full_name>Evald Kristensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_mentioned">
+      <place_id>699</place_id>
+      <name>Viborg</name>
+      <display_name>Viborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="418">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_G356</publication_info>
+      <full_name>123 - 3.15 - DS_II_G356</full_name>
+      <url>data/stories/418.dfl</url>
+    </story>
+    <story story_id="465">
+      <informant_id>431</informant_id>
+      <publication_info>DS_II_G_334</publication_info>
+      <full_name>431 - 0.00 - DS_II_G_334</full_name>
+      <url>data/stories/465.dfl</url>
+    </story>
+    <story story_id="793">
+      <informant_id>535</informant_id>
+      <publication_info>DS_II_G_340</publication_info>
+      <full_name>535 - 0.00 - DS_II_G_340</full_name>
+      <url>data/stories/793.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Tyrken skal komme til at bruge Viborg domkirke som hestestald.</danish_publication>
+  <english_publication>The Turk will use Viborg cathedral as a horse stall.</english_publication>
+  <keywords>
+    <keyword id="189" frequency="1" keyword="cathedral">cathedral</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="1186" frequency="1" keyword="stall">stall</keyword>
+    <keyword id="1286" frequency="1" keyword="turk">turk</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="20" display_name="People: Strong Man / Hero"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

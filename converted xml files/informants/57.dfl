@@ -1,0 +1,48 @@
+<informant><person_id>57</person_id>
+  <core_informant/>
+  <full_name>Kirsten Marie Frederiksdatter</full_name>
+  <last_name>Frederiksdatter</last_name>
+  <first_name>Kirsten Marie</first_name>
+  <gender>f</gender>
+  <birth_date>1813-01-01</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>12</occupation_id>enke</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>615</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>57</informant_id>
+      <publication_info>DS_IV_1381</publication_info>
+      <full_name>57 - 0.00 - DS_IV_1381</full_name>
+      <url>data/stories/615.dfl</url>
+      <place_recorded><id>20</id>Alb&#230;k</place_recorded>
+      <places_mentioned>
+        <place><id>1036</id>
+          <name>Enerisg&#229;rd</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>20</place_id>
+      <name>Alb&#230;k</name>
+      <display_name>Alb&#230;k (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1036</place_id>
+      <name>Enerisg&#229;rd</name>
+      <display_name>Enerisg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

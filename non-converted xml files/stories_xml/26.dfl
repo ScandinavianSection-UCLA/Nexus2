@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<story story_id="26">
+  <publication_info>DS_I_553</publication_info>
+  <full_name>150 - 1.23 - DS_I_553</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.23</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>7</place_id>
+      <name>Aarestrup</name>
+      <display_name>Aarestrup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>669</place_id>
+      <name>Tveden</name>
+      <display_name>Tveden (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="15">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_112</publication_info>
+      <full_name>150 - 1.12 - Unpub_BJK_112</full_name>
+      <url>data/stories/15.dfl</url>
+    </story>
+    <story story_id="43">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_383</publication_info>
+      <full_name>150 - 1.40 - JAH_I_383</full_name>
+      <url>data/stories/43.dfl</url>
+    </story>
+    <story story_id="84">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_172</publication_info>
+      <full_name>150 - 3.21 - JAH_V_172</full_name>
+      <url>data/stories/84.dfl</url>
+    </story>
+    <story story_id="86">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_174</publication_info>
+      <full_name>150 - 3.23 - JAH_V_174</full_name>
+      <url>data/stories/86.dfl</url>
+    </story>
+    <story story_id="147">
+      <informant_id>241</informant_id>
+      <publication_info>Unpub_JPP_106</publication_info>
+      <full_name>241 - 1.06 - Unpub_JPP_106</full_name>
+      <url>data/stories/147.dfl</url>
+    </story>
+    <story story_id="185">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_1274</publication_info>
+      <full_name>241 - 4.13 - DS_VII_1274</full_name>
+      <url>data/stories/185.dfl</url>
+    </story>
+    <story story_id="186">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_491a</publication_info>
+      <full_name>241 - 4.14 - DS_VII_491a</full_name>
+      <url>data/stories/186.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3246b</fielddiary_page_start>
+  <fielddiary_page_end>3247a</fielddiary_page_end>
+  <bibliographic_info>D&#xE9;gh 2001
+R&#xF8;rbye 1976b
+Hansen 1943</bibliographic_info>
+  <bibliography_references>
+    <reference id="53" category="general">
+      <display_string>[Book] D&#xE9;gh, Linda. 2001. &lt;i&gt;Legend and belief. Dialectics of a folklore genre&lt;/i&gt;. Bloomington: Indiana University Press.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Stories about cunning folk finding lost sheep are widely attested (JPP 1.06, JPP 4.13, JPP 4.14), and the recovery of the sheep seems to mitigate Jens's otherwise dismissive attitude toward Villads. Otherwise, Jens provides a clear indictment of cunning folk and the dishonesty of their endeavors. The connection between the black book of magic, Cyprianus, and Satan, is made explicit here. Given the first story in this sequence of two stories, though, and Jens's generally playful attitude, it seems unlikely that Jens believes this story. Of course, the story may represent the type of negotiation of belief that is a characteristic of the legend dialectic (D&#xE9;gh 2001).
+
+Referring to the devil by a name other than his own is common as a common belief holds that, if one mentions the devil by name, he will appear. Here, Jens refers to him as "Old Jerrik," a dialect variant of the common "Old Erik"; interestingly, the manuscript gives "Old Erik" (Gl. Erik), indicating that Tang Kristensen added the dialect referent during his later transcription.</annotation>
+  <danish_manuscript>Den gamle Villads her i Erslev den allervesterste
+og s&#xF8;nderst Gaard, h. var saadan en Hegsemester
+og h. kunde komme deher Bj&#xE6;rgm&#xE6;nd og Ellefolk i
+Tale, naar h. vilde. S. boede der en i et
+Bj. der hedder Kringelbj&#xE6;rg s&#xF8;nden for Vejen
+paa hans Mark, der er en Grusgrav i nu. 
+De kaldte ham Kringelbj&#xE6;rgmanden og ham
+kunde h. kom i Tale, naar h. vilde. S. var
+det en Aften de sad og svirede ham og s. Kold
+Per i den nordvestligste Grd. og s. S&#xF8;ren &#xD8;ster
+gaard, der siden kom til at bo i Tveden,
+
+3247A
+de sad en Aften og fik dem nogle Dram. S. praler
+h. af h. kunde komme dh. Bj. i Tale naar h. vil
+de og dersom de vilde f&#xF8;lges med ham derop, s.
+skulde h. kalde paa ham, de kunde faa ham at
+se og snakke med ham. Ja det vilde de godt. Tro
+ede jo, h. skulde forskr.[t] dem. S. skulde de gaa
+3 G. omkring Bj&#xE6;rget, og naar a s. slaar 3. g. i
+Bj. med min Kj&#xE6;p og kalder paa ham, s. kommer
+h. moss&#xE6;l. N. de spaserer jo omkr. Bj. 3. G.
+og s. slog V. i Bj med Kj&#xE6;ppen og h. raaber opaa
+ham. Davbj&#xE6;rremand kom her ud, der er 2
+der vil tale med dig. Der er 3 s. Kold-Per. H. 
+vilde ikke komme. H. slog 2 G. og der kom ingen.
+Ja naar a slaar nu 3 G. s. kommer h. moss&#xE6;l.
+H. t&#xE6;nkte jo de skulde blive forskr. H. slog den
+3 G. og der vilde ingen til at komme. Her oppe ved
+skoven boede en M. der hed S&#xF8;ren Bravlstrup, s.
+tog hans Hund ved at gj&#xF8; s. st&#xE6;rkt. Nu ved a mos
+s&#xE6;l Besked, h. er der oppe, s. h. kommer ikke
+ud til os i Aften. Paa den Maade slap Vil-
+lads, for de skal jo begaa dem med L&#xF8;gne og hvor-
+dan de kan.
+H. saa dem s. tit, h. saa de gik fra Bavnh&#xF8;j
+Faaresti og derfra og ind til Kringelbj&#xE6;rg og de
+havde Voxfakler eller Lys i Haanden og s. dem
+saadan s. tit de spaser. Det var en G. et Kob-
+bel Faar der slap ned i Kringelbj. og havde h. ikke
+haft s. meget mere Klogskab, s. havde h. aldrig faa-
+et dem op igien. H. havde hans B&#xF8;ger og kunde
+kom Gl. Erik i Tale. H. l&#xE6;ste dem op. H. hav-
+de Cyprianus.</danish_manuscript>
+  <english_manuscript>Old Villads over here in Ersted-- in the westernmost and the southernmost farm--he was a real witchmaster and he could talk to these here mound dwellers and elves whenever he wanted. There was one who lived in a mound south of the road out on his field, called Kringelbj&#xE6;rg, there&#x2019;s a gravel pit there now. They called him the Kringelbj&#xE6;rg man and he could talk to him whenever he wanted to. So one night, they were sitting there drinking, it was him and Kold Per from the most north-westerly farm and S&#xF8;ren &#xD8;stergaard, who later wound up living in Tveden, they were sitting there one night and had some drinks. Then he begins boasting that he can talk to this mound dweller whenever he wants, and if they&#x2019;d follow him up to Kringelbj&#xE6;rg, then he&#x2019;d call him so they could see him and talk to him. They had to walk three times around the mound, &#x201C;and when I bang three times down on the mound with my staff, then he&#x2019;ll come goddammit.&#x201D; Well, they walk around the mound three times and then Villads bangs his staff down on the ground, and calls out to him, &#x201C;Hey mound dweller, come out here, there are two who want to talk to you.&#x201D; -- &#x201C;There are three,&#x201D; said Kolde-Per. He wouldn&#x2019;t come. He hit a second time, and no one came. &#x201C;Well, when I hit this third time, he&#x2019;ll come goddammit.&#x201D; He figured that maybe they&#x2019;d get scared. He hit the third time, but no one would come out. Up here in the forest lived a man name S&#xF8;ren Bavlstrup, and his dog began barking really loudly. &#x201C;Goddammit, now I know what&#x2019;s happened, he&#x2019;s up there, so he won&#x2019;t be coming out to us tonight.&#x201D; So that&#x2019;s how Villads got out of it, because they have to use lies and whatever else they can.
+     He saw them so often, he saw that they walked from the Bavnh&#xF8;j sheep pen and from there out to Kringelbj&#xE6;rg and they carried wax torches or candles in their hands and he saw them like that whenever they were walking. Once there was a flock of sheep that got away down by Kringelbj&#xE6;rg, and if he hadn&#x2019;t been as cunning, he never would have got them again. He had his books and he could talk to Old Erik. He read up from them. He had a Cyprianus.</english_manuscript>
+  <danish_publication>Den gamle Villads her i Ersted &#x2014; han boede i den allervesterste og s&#xF8;nderste g&#xE5;rd &#x2014; det var s&#xE5;dan en heksemester, og han kunde komme deher bj&#xE6;rgm&#xE6;nd og ellefolk i tale, n&#xE5;r han vilde. S&#xE5; boede der en bj&#xE6;rgmand ude p&#xE5; hans mark i en bakke, der hedder Kringelbj&#xE6;rg, s&#xF8;nden for vejen til &#xC5;restrup, der er en grusgrav i den nu, og ham kaldte de Kringelbj&#xE6;rgmanden. Se, ham sagde gamle Villads, at han kunde komme i tale, n&#xE5;r han vilde.  S&#xE5; var det en aften, at han og Kolde-Per og S&#xF6;ren &#xD6;sterg&#xE5;rd &#x2014; det var netop ham, der siden kom til at bo i Tveden &#x2014; de sad og svirede i den nordvestligste g&#xE5;rd her i byen, og da de havde f&#xE5;et dem nogle dramme, s&#xE5; begynder Villads at prale af, at han kan komme denher bj&#xE6;rgmand i tale, og dersom de vilde f&#xF8;lges med ham op til Kringelbj&#xE6;rg, s&#xE5; skulde han kalde p&#xE5; ham, s&#xE5; de kunde f&#xE5; ham at se og komme til at snakke med ham. Ja, de vilde da godt med, sagde de, m&#xE5;ske fordi han ikke skulde tro, det kunde forskr&#xE6;kke dem. S&#xE5; rejser de jo af derud med hverandre, og s&#xE5; siger Villads, hvordan de har at forholde dem. "Nu skal vi g&#xE5; tre gange omkring bj&#xE6;rget, og n&#xE5;r a s&#xE5; sl&#xE5;r tre gange i bj&#xE6;rget med min kj&#xE6;p, s&#xE5; kommer han mossel." N&#xE5;, de spaserer jo omkring bj&#xE6;rget, og s&#xE5; sl&#xE5;r Villads ned i jorden med kj&#xE6;ppen og r&#xE5;ber &#xE5;p&#xE5; ham: "Dav bj&#xE6;rremand, kom her ud, der er to, der vil tale med dig!" &#x2014; "Der er tre," sagde Kolde-Per. Men han vilde ikke komme. Han slog anden gang, og der kom ingen. "Ja, n&#xE5;r a sl&#xE5;r nu tredje gang, s&#xE5; kommer han mossel." Han t&#xE6;nkte m&#xE5;ske, de skulde v&#xE6;re blevne forskr&#xE6;kkede og rendt deres vej. N&#xE5;, s&#xE5; slog han tredje gang, men der vilde ingen til at komme. I det samme giver en hund sig til at gj&#xF8; s&#xE5; st&#xE6;rkt, det var netop S&#xF6;ren Bravlstrups her oppe ved skoven. "Nu v&#xE9;d a mossel besked," sagde gamle Villads, "bj&#xE6;rgmanden er g&#xE5;et derop, og p&#xE5; den m&#xE5;de kan han jo da ikke komme ud til os i aften." S&#xE5;dan slap Villads for at kalde bj&#xE6;rgmanden frem, for de skal jo beg&#xE5; dem med l&#xF6;gn, og hvordan de kan, n&#xE5;r de kan ikke n&#xE6;rere.
+     Villads s&#xE5; s&#xE5; tit deher bj&#xE6;rgfolk, han s&#xE5;, de gik og spaserede fra Bavnh&#xF6;j og ned til degnens f&#xE5;resti, og derfra og ud til Kringelbj&#xE6;rg, og de gik og tog hverandre i armen og havde voksfakler eller lys i h&#xE5;nden. Der var en gang et kobbel f&#xE5;r, der slap ned for ham i Kringelbj&#xE6;rg, og havde han ikke haft s&#xE5; meget mere klogskab, s&#xE5; havde han aldrig f&#xE5;et dem igjen; men han l&#xE6;ste dem op, for han havde Cyprianus og hans b&#xF8;ger og kunde komme Gamle-Jerrik i tale.</danish_publication>
+  <english_publication>Old Villads over here in Ersted--he lived in the westernmost and the southernmost farm--he was so great a witchmaster that he could talk to these here mound dwellers and elves whenever he wanted. There was a hidden man (mound man) who lived in a hill out on his field, called Kringelbj&#xE6;rg, south of the road to &#xC5;restrup, there&#x2019;s a gravel pit there now, and they called him the Kringelbj&#xE6;rg man. You see, old Villads said he could talk to him whenever he wanted to. So one night, he and Kolde-Per and S&#xF8;ren &#xD8;stergaard--it was in fact he who later wound up living in Tveden--they sat drinking in the most north-westerly farm here in the town and after they had had several drams, Villads begins boasting that he can talk to this here mound dweller, and if they&#x2019;d follow him up to Kringelbj&#xE6;rg, then he&#x2019;d call him so they could see him and get to talk to him. Sure, they&#x2019;d gladly go along, they said, maybe so that he wouldn&#x2019;t think that this might scare them. So then they leave with each other and then Villads tells them what to do. &#x201C;Now we&#x2019;re to walk three times around the mound, and when I bang three times down on the mound with my staff, then he&#x2019;ll come, goddammit.&#x201D; Well, they walk around the mound and then Villads bangs his staff down on the ground, and calls out to him, &#x201C;Hey mound dweller, come out here, there are two who want to talk to you.&#x201D; -- &#x201C;There are three,&#x201D; said Kolde-Per. But he wouldn&#x2019;t come. He hit a second time, and no one came. &#x201C;Well, when I hit this third time, he&#x2019;ll come, goddammit.&#x201D; He figured that maybe they&#x2019;d get scared and run away. Well, then he hit a third time, but no one would come out. At the same time, a dog began barking really loudly, it was S&#xF8;ren Bravlstrup&#x2019;s from up here near the forest. &#x201C;Goddammit, now I know what&#x2019;s happened,&#x201D; said Villads, &#x201C;the mound dweller has gone up there, and so he can&#x2019;t come out to us tonight.&#x201D; So that&#x2019;s how Villads got out of calling the mound dweller out, because they have to fill them with lies and whatever else they can when they can't do any better.
+     Villads saw the mound dwellers so often, he saw that they walked from Bavnh&#xF8;j and down to the parish clerk&#x2019;s sheep pen and from there out to Kringelbj&#xE6;rg; and they walked with their arms around each other and were carrying wax torches or candles. Once there was a flock of sheep that got away from him down by Kringelbj&#xE6;rg, and if he hadn&#x2019;t been as cunning, he never would have got them again; but he read them up, since he had a Cyprianus and his books, and he could talk to Old Jerrik.</english_publication>
+  <keywords>
+    <keyword id="46" frequency="1" keyword="arms">arms</keyword>
+    <keyword id="68" frequency="2" keyword="banging">banging</keyword>
+    <keyword id="123" frequency="1" keyword="books">books</keyword>
+    <keyword id="171" frequency="1" keyword="candle">candle</keyword>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="292" frequency="1" keyword="cyprianus">cyprianus</keyword>
+    <keyword id="343" frequency="1" keyword="dog">dog</keyword>
+    <keyword id="350" frequency="1" keyword="dram">dram</keyword>
+    <keyword id="355" frequency="1" keyword="drinking">drinking</keyword>
+    <keyword id="373" frequency="1" keyword="elf">elf</keyword>
+    <keyword id="390" frequency="1" keyword="fact">fact</keyword>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="421" frequency="1" keyword="flock">flock</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="530" frequency="1" keyword="hill">hill</keyword>
+    <keyword id="804" frequency="3" keyword="mound">mound</keyword>
+    <keyword id="805" frequency="6" keyword="mound_dweller">mound dweller</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="881" frequency="2" keyword="old_villads">Old Villads</keyword>
+    <keyword id="904" frequency="1" keyword="parish_clerk">parish clerk</keyword>
+    <keyword id="937" frequency="2" keyword="per">Per</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1095" frequency="2" keyword="sheep">sheep</keyword>
+    <keyword id="1167" frequency="2" keyword="south">south</keyword>
+    <keyword id="1057" frequency="1" keyword="s&#xF8;ren">S&#xF8;ren</keyword>
+    <keyword id="1156" frequency="1" keyword="s&#xF8;ren">S&#xF8;ren</keyword>
+    <keyword id="1157" frequency="1" keyword="s&#xF8;ren_bravlstrup">S&#xF8;ren Bravlstrup</keyword>
+    <keyword id="1256" frequency="3" keyword="three">three</keyword>
+    <keyword id="1269" frequency="1" keyword="tonight">tonight</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1352" frequency="1" keyword="witch_master">witch master</keyword>
+    <keyword id="1365" frequency="1" keyword="wound">wound</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="48" display_name="Tools, Items and Conveyances: Books"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="77" display_name="Animals: Sheep"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,46 @@
+<informant><person_id>306</person_id>
+  <core_informant/>
+  <full_name>Rasmus Thomsen</full_name>
+  <last_name>Thomsen</last_name>
+  <first_name>Rasmus</first_name>
+  <gender>m</gender>
+  <birth_date>0000-00-00</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>804</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>306</informant_id>
+      <publication_info>DS_III_2302</publication_info>
+      <full_name>306 - 0.00 - DS_III_2302</full_name>
+      <url>data/stories/804.dfl</url>
+      <place_recorded><id>301</id>Hvilsager</place_recorded>
+      <places_mentioned>
+        <place><id>41</id>
+          <name>Avning</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>301</place_id>
+      <name>Hvilsager</name>
+      <display_name>Hvilsager (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>41</place_id>
+      <name>Avning</name>
+      <display_name>Avning (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

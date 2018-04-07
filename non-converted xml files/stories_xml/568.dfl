@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<story story_id="568">
+  <publication_info>DS_V_1265</publication_info>
+  <full_name>205 - 0.00 - DS_V_1265</full_name>
+  <informant_id>205</informant_id>
+  <informant_last_name>Mosen</informant_last_name>
+  <informant_first_name>Jens Kr. Kristensen</informant_first_name>
+  <informant_full_name>Jens Kr. Kristensen (Mossi-Jens) Mosen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>455</place_id>
+      <name>&#xD8;ster Br&#xF8;nderslev</name>
+      <display_name>&#xD8;ster Br&#xF8;nderslev (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>802</place_id>
+      <name>Hvilsh&#xF8;j</name>
+      <display_name>Hvilsh&#xF8;j (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="683">
+      <informant_id>495</informant_id>
+      <publication_info>DS_V_1195</publication_info>
+      <full_name>495 - 0.00 - DS_V_1195</full_name>
+      <url>data/stories/683.dfl</url>
+    </story>
+    <story story_id="356">
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_1232</publication_info>
+      <full_name>90 - 3.02 - DS_V_1232</full_name>
+      <url>data/stories/356.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en karl, der tjente ved en g&#xE5;rdmand, men om det var i Hvilsh&#xF6;j eller i Kraghede, kan a ikke sige. Den mand var slem til at drikke. En dag vilde han til Sundby med korn, og karlen skulde med. S&#xE5; fik han jo for meget at drikke, og karlen m&#xE5;tte kj&#xF8;re vognen hjemad, men manden selv l&#xE5; bag i og var fuld. Da de kom til Jerslev broer nede ved Hvilsh&#xF6;j, og karlen ser ned til &#xE5;en, da st&#xE5;r der et kvindfolk og ramte ned med armene til vandet. Hendes h&#xE5;r h&#xE6;ngte lige ned om hovedet af hende. "Hvad Fanden er dether?" siger karlen. Da rejser hun sig lige op og kommer l&#xF8;bende hen og springer op p&#xE5; det ene &#xF8;g, og s&#xE5; kj&#xF8;rer han l&#xF8;bsk. Anden dagen gik de hen ogs&#xE5; efter det, og da fandt de et barn, som var druknet. Det kvindfolk havde vel put barnet i &#xE5;en og m&#xE5;ske druknet sig selv bag efter. Men det siges der ellers ikke noget om. A t&#xE6;nker det var et syn for, at barnet skulde findes. Det skal v&#xE6;re en sandf&#xE6;rdig historie.</danish_publication>
+  <english_publication>There was a farmhand who worked for a farmer, but if it was in Hvilsh&#xF8;j or in Kraghede, I can&#x2019;t say. The farmer was a bad one to drink. One day he wanted to go to Sundby with grain, and the farmhand was supposed to come along. Then he drank too much and the farmhand had to drive the wagon home, but the man lay in the back and was drunk. When they got to Jerslev bridge near Hvilsh&#xF8;j and the farmhand looks down into the river, there is a woman who stood swirling about in the water with her arms. &#x201C;What the devil is this?&#x201D; says the farmhand. Then she gets up and runs over and jumps up on one of the jades, and then it&#x2019;s a runaway horse. The next day they went out and then they found a child that had been drowned in the river. That woman had probably drowned the child and then drowned herself afterward. But there is nothing told about that. I think it was a portent that the child was to be found. It&#x2019;s supposed to be a true story.</english_publication>
+  <keywords>
+    <keyword id="46" frequency="1" keyword="arms">arms</keyword>
+    <keyword id="144" frequency="1" keyword="bridge">bridge</keyword>
+    <keyword id="219" frequency="3" keyword="children">children</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="351" frequency="1" keyword="drank">drank</keyword>
+    <keyword id="355" frequency="1" keyword="drinking">drinking</keyword>
+    <keyword id="358" frequency="3" keyword="drowning">drowning</keyword>
+    <keyword id="359" frequency="1" keyword="drunkard">drunkard</keyword>
+    <keyword id="395" frequency="5" keyword="farm_hand">farmhand</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="477" frequency="1" keyword="grain">grain</keyword>
+    <keyword id="520" frequency="1" keyword="hell">hell</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="571" frequency="1" keyword="jade">jade</keyword>
+    <keyword id="978" frequency="1" keyword="portent">portent</keyword>
+    <keyword id="1034" frequency="1" keyword="river">river</keyword>
+    <keyword id="1200" frequency="1" keyword="story">story</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+    <keyword id="1320" frequency="1" keyword="water">water</keyword>
+    <keyword id="1356" frequency="2" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="24">
+    <heading_danish>Kvindelige gjenf&#xE6;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="42" display_name="Places: Stream / River"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

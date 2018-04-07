@@ -1,0 +1,48 @@
+<informant><person_id>112</person_id>
+  <core_informant/>
+  <full_name>Niels Kristian (Pilmanden) Jensen</full_name>
+  <last_name>Jensen</last_name>
+  <first_name>Niels Kristian</first_name>
+  <gender>m</gender>
+  <birth_date>0000-00-00</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>2</occupation_id>aft&#230;gtsmand</occupation>
+    <occupation><occupation_id>33</occupation_id>husmand</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>745</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>112</informant_id>
+      <publication_info>DS_II_F_32</publication_info>
+      <full_name>112 - 0.00 - DS_II_F_32</full_name>
+      <url>data/stories/745.dfl</url>
+      <place_recorded><id>170</id>Fredbj&#230;rg</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>764</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>112</informant_id>
+      <publication_info>DS_II_C_104</publication_info>
+      <full_name>112 - 0.00 - DS_II_C_104</full_name>
+      <url>data/stories/764.dfl</url>
+      <place_recorded><id>170</id>Fredbj&#230;rg</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>170</place_id>
+      <name>Fredbj&#230;rg</name>
+      <display_name>Fredbj&#230;rg (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

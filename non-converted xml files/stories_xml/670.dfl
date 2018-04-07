@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<story story_id="670">
+  <publication_info>DS_V_155</publication_info>
+  <full_name>110 - 0.00 - DS_V_155</full_name>
+  <informant_id>110</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Lavst</informant_first_name>
+  <informant_full_name>Lavst Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>813</place_id>
+      <name>Kokholm</name>
+      <display_name>Kokholm (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="469">
+      <informant_id>484</informant_id>
+      <publication_info>DS_V_146</publication_info>
+      <full_name>484 - 0.00 - DS_V_146</full_name>
+      <url>data/stories/469.dfl</url>
+    </story>
+    <story story_id="697">
+      <informant_id>503</informant_id>
+      <publication_info>DS_V_177</publication_info>
+      <full_name>503 - 0.00 - DS_V_177</full_name>
+      <url>data/stories/697.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Ligesom solen var g&#xE5;et ned, s&#xE5; a en aften her i dalen s&#xF8;nden for to menneskeskikkelser, en grumme stor karl og et ussel bitte fruentimmer, der gik vester p&#xE5;. Han tog ved hende og h&#xE6;ldte sig over imod hende, og s&#xE5; pludrede de s&#xE5;dan. Det slog s&#xE5;dan tykken for mine &#xF6;jne, og da den lettede sig, s&#xE5; a dem. Men hvad de snakkede om, v&#xE9;d a ikke. A gik lige frem s&#xF8;nder imod dem, men de blev ved vester p&#xE5;. Der var et tyndt lag sne p&#xE5;, og a lagde straks m&#xE6;rke til, at mine spor s&#xE5; s&#xE5; tydelig i sneen, men deres var ikke synt, og s&#xE5; kom a jo i tanker om, at det var noget skidteri.</danish_publication>
+  <english_publication>Just as the sun had set, I saw in the southern part of the dale two human forms, a very big farmhand and a miserable little woman, who were walking west. He took hold of her and leaned over her and they plodded along like that. It got thick before my eyes and when it got lighter, I saw them. But what they were talking about, I don&#x2019;t know. I went to the south right towards them but they continued off to the west. There was a thin layer of snow on the ground and I noticed immediately that my tracks were really clear in the snow but you couldn&#x2019;t see theirs, and then I realized that it was some sort of evilness.</english_publication>
+  <keywords>
+    <keyword id="294" frequency="1" keyword="dale">dale</keyword>
+    <keyword id="387" frequency="1" keyword="evil">evil</keyword>
+    <keyword id="389" frequency="1" keyword="eye">eye</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="1150" frequency="2" keyword="snow">snow</keyword>
+    <keyword id="1167" frequency="2" keyword="south">south</keyword>
+    <keyword id="1217" frequency="1" keyword="sun">sun</keyword>
+    <keyword id="1252" frequency="1" keyword="thin">thin</keyword>
+    <keyword id="1331" frequency="2" keyword="west">west</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

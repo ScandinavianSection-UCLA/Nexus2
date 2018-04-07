@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<story story_id="448">
+  <publication_info>DS_II_F_35</publication_info>
+  <full_name>485 - 0.00 - DS_II_F_35</full_name>
+  <informant_id>485</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Anton</informant_first_name>
+  <informant_full_name>L&#xE6;rer Anton Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>832</place_id>
+      <name>Munkebj&#xE6;rgby</name>
+      <display_name>Munkebj&#xE6;rgby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="595">
+      <informant_id>387</informant_id>
+      <publication_info>DS_II_F_18</publication_info>
+      <full_name>387 - 0.00 - DS_II_F_18</full_name>
+      <url>data/stories/595.dfl</url>
+    </story>
+    <story story_id="621">
+      <informant_id>400</informant_id>
+      <publication_info>DS_IV_1161</publication_info>
+      <full_name>400 - 0.00 - DS_IV_1161</full_name>
+      <url>data/stories/621.dfl</url>
+    </story>
+    <story story_id="622">
+      <informant_id>449</informant_id>
+      <publication_info>DS_II_F_2</publication_info>
+      <full_name>449 - 0.00 - DS_II_F_2</full_name>
+      <url>data/stories/622.dfl</url>
+    </story>
+    <story story_id="660">
+      <informant_id>364</informant_id>
+      <publication_info>DS_II_F_8</publication_info>
+      <full_name>364 - 0.00 - DS_II_F_8</full_name>
+      <url>data/stories/660.dfl</url>
+    </story>
+    <story story_id="745">
+      <informant_id>112</informant_id>
+      <publication_info>DS_II_F_32</publication_info>
+      <full_name>112 - 0.00 - DS_II_F_32</full_name>
+      <url>data/stories/745.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En husmand, der havde en frugtsommelig kone, kom en aften hjem fra arbejde. D&#xF6;ren var lukket i, s&#xE5; han havde l&#xE6;s med at komme ind, men jorden var rodet op et sted under sylden. Da han kom ind i stuen, l&#xE5; hans kone p&#xE5; sengen og var d&#xF8;d, og livet var revet op p&#xE5; hende. S&#xE5; vidste den elendige mand nok, hvem der havde gjort det, og da han s&#xE5; sig for omkring huset, sad varulven i m&#xF8;ddingstedet og &#xE5;d barnet.</danish_publication>
+  <english_publication>A cotter, whose wife was pregnant, came home one evening after work. The door was locked so he had a hard time getting in, but the earth was dug up one place under the foundation sill. When he came into the main room, his wife was lying on the bed and was dead, and her belly was ripped open. Then the poor man knew who had done it, and he looked about the house, and found the werewolf sitting in the muck pile, eating the baby.</english_publication>
+  <keywords>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="264" frequency="1" keyword="cotter">cotter</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="368" frequency="1" keyword="earth">earth</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="722" frequency="1" keyword="lock">lock</keyword>
+    <keyword id="974" frequency="1" keyword="poor">poor</keyword>
+    <keyword id="991" frequency="1" keyword="pregnant">pregnant</keyword>
+    <keyword id="1258" frequency="1" keyword="threshold">threshold</keyword>
+    <keyword id="1330" frequency="1" keyword="werewolf">werewolf</keyword>
+    <keyword id="1343" frequency="2" keyword="wife">wife</keyword>
+    <keyword id="1361" frequency="1" keyword="work">work</keyword>
+  </keywords>
+  <etk_index id="7">
+    <heading_danish>Varulve og marer</heading_danish>
+    <heading_english>Werewolves and nightmares</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="5" display_name="People: Children"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="67" display_name="Supernatural Beings: Werewolf"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="132" display_name="Actions or events: Pregnancy and birth"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

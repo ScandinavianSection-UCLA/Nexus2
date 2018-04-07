@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<story story_id="698">
+  <publication_info>DS_IV_1378</publication_info>
+  <full_name>523 - 0.00 - DS_IV_1378</full_name>
+  <informant_id>523</informant_id>
+  <informant_last_name>Primdal</informant_last_name>
+  <informant_first_name>Maren</informant_first_name>
+  <informant_full_name>Maren Primdal</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>422</place_id>
+      <name>Navtrup</name>
+      <display_name>Navtrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>639</place_id>
+      <name>Tise</name>
+      <display_name>Tise (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>747</place_id>
+      <name>&#xC5;sted</name>
+      <display_name>&#xC5;sted (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="870">
+      <informant_id/>
+      <publication_info>DS_IV_1384</publication_info>
+      <full_name>0 - 0.00 - DS_IV_1384</full_name>
+      <url>data/stories/870.dfl</url>
+    </story>
+    <story story_id="779">
+      <informant_id>402</informant_id>
+      <publication_info>DS_IV_1371</publication_info>
+      <full_name>402 - 0.00 - DS_IV_1371</full_name>
+      <url>data/stories/779.dfl</url>
+    </story>
+    <story story_id="475">
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1376</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1376</full_name>
+      <url>data/stories/475.dfl</url>
+    </story>
+    <story story_id="615">
+      <informant_id>57</informant_id>
+      <publication_info>DS_IV_1381</publication_info>
+      <full_name>57 - 0.00 - DS_IV_1381</full_name>
+      <url>data/stories/615.dfl</url>
+    </story>
+    <story story_id="574">
+      <informant_id>65</informant_id>
+      <publication_info>DS_IV_1388</publication_info>
+      <full_name>65 - 0.00 - DS_IV_1388</full_name>
+      <url>data/stories/574.dfl</url>
+    </story>
+    <story story_id="490">
+      <informant_id>551</informant_id>
+      <publication_info>DS_IV_1391</publication_info>
+      <full_name>551 - 0.00 - DS_IV_1391</full_name>
+      <url>data/stories/490.dfl</url>
+    </story>
+    <story story_id="509">
+      <informant_id>334</informant_id>
+      <publication_info>DS_IV_1400</publication_info>
+      <full_name>334 - 0.00 - DS_IV_1400</full_name>
+      <url>data/stories/509.dfl</url>
+    </story>
+    <story story_id="560">
+      <informant_id>68</informant_id>
+      <publication_info>DS_IV_1405</publication_info>
+      <full_name>68 - 0.00 - DS_IV_1405</full_name>
+      <url>data/stories/560.dfl</url>
+    </story>
+    <story story_id="164">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1408</publication_info>
+      <full_name>241 - 2.14 - DS_IV_1408</full_name>
+      <url>data/stories/164.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der blev en kr&#xE6;mmer sl&#xE5;et ihjel her nede i &#xC5;sted, det er ikke langt her fra. De havde siddet og spillet kort med ham og vundet en del penge fra ham, og s&#xE5; vilde de vel have det fra ham altsammen og endda v&#xE6;re p&#xE6;ne folk. De fik ham op ad m&#xF8;llen og lagt ind i en seng, men m&#xF8;llerens folk vidste ikke af det. Bag efter h&#xE6;ngte de ham inde i det samme gj&#xE6;stekammer. M&#xF8;llerens fandt liget, men det kom ikke for lyset, hvem der havde gjort det, inden den ene, der boede henne i Tise, &#xE5;benbarede det f&#xF6;r hans d&#xF8;d.</danish_publication>
+  <english_publication>A peddler was killed down here in &#xC5;sted, that&#x2019;s not too far from here. They had sat and played cards with him and won a good deal of money from him, but then they decided that they wanted all of it from him yet still be decent folk. They got him up to the mill and they got him into a bed but the mill people knew nothing about this. Later, they hung him in the same guestroom. The miller's people found the body but it wasn&#x2019;t revealed who had done it until one of the culprits, who lived in Tise, admitted it just before he died.</english_publication>
+  <keywords>
+    <keyword id="11" frequency="1" keyword="admission">admission</keyword>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="118" frequency="1" keyword="body">body</keyword>
+    <keyword id="178" frequency="1" keyword="cards">cards</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="429" frequency="1" keyword="folk">folk</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="783" frequency="2" keyword="mill">mill</keyword>
+    <keyword id="785" frequency="1" keyword="miller">miller</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="924" frequency="1" keyword="peddler">peddler</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="37" display_name="Places: Mill"/>
+    <tango_index id="87" display_name="Actions or events: Gambling"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<story story_id="902">
+  <publication_info>DS_VII_1612</publication_info>
+  <full_name>565 - 0.00 - DS_VII_1612</full_name>
+  <informant_id>565</informant_id>
+  <informant_last_name>Br&#xF8;chner</informant_last_name>
+  <informant_first_name>H</informant_first_name>
+  <informant_full_name>H Br&#xF8;chner</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>954</place_id>
+      <name>Gangsted</name>
+      <display_name>Gangsted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>926</place_id>
+      <name>S&#xF8;vind</name>
+      <display_name>S&#xF8;vind (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="257">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VII_1614</publication_info>
+      <full_name>235 - 1.37 - DS_VII_1614</full_name>
+      <url>data/stories/257.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I modsoten er det almindeligt at lade sig m&#xE5;le. Jeg m&#xF6;dte forleden &#xE5;r en gammel l&#xE6;nge svagelig kvinde p&#xE5; vejen til S&#xF8;vind. Det undrede mig at se denne s&#xE5; langt fra sit hjem og spurgte hende, hvor hun havde v&#xE6;ret henne. "Hos B&#xF8;dkerkonen i S&#xF8;vind at lade mig m&#xE5;le for modsot." Jeg spurgte, hvorledes det gik til, og hun fortalte mig, at konen med en tr&#xE5;d m&#xE5;lte hende: a) fra isse til t&#xE5;, b) om livet, c) ned ad venstre arm, slog derp&#xE5; en knude p&#xE5; tr&#xE5;den og bandt s&#xE5; om hendes venstre ben, hvor den skulde sidde i tre dage.</danish_publication>
+  <english_publication>For modsot (a disease characterized by exhaustion), it is normal to let oneself be measured. Last year I met an old woman who had been weak for quite a while on the way to S&#xF8;vind. It surprised me to see her so far from home and I asked her where she&#x2019;d been. &#x201C;Out to visit the B&#xF8;dker woman in S&#xF8;vind to get measured for modsot.&#x201D; I asked how that was done, and she told me that the woman measured her with a thread: a) from head to toe, b) around her waist, c) down her left arm, and then she bound a knot on the thread and then tied it to her left leg where it was to stay for three days.</english_publication>
+  <keywords>
+    <keyword id="46" frequency="1" keyword="arms">arms</keyword>
+    <keyword id="117" frequency="1" keyword="b&#xF8;dker">b&#xF8;dker</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="334" frequency="1" keyword="disease">disease</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="642" frequency="1" keyword="knot">knot</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1254" frequency="2" keyword="thread">thread</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1261" frequency="1" keyword="tie">tie</keyword>
+    <keyword id="1266" frequency="1" keyword="toe">toe</keyword>
+    <keyword id="1356" frequency="3" keyword="woman">woman</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="30">
+    <heading_danish>Menneskets og kv&#xE6;gets sygdomme</heading_danish>
+    <heading_english>Human and cattle illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="10" name="Cure / Remedy / Spell"/>
+</story>

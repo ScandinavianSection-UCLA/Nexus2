@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<story story_id="140">
+  <publication_info>JAH_V_66</publication_info>
+  <full_name>150 - 4.29 - JAH_V_66</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.29</order_told>
+  <fieldtrip id="5">June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>7</place_id>
+      <name>Aarestrup</name>
+      <display_name>Aarestrup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>443</place_id>
+      <name>Nysum</name>
+      <display_name>Nysum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="611">
+      <informant_id>421</informant_id>
+      <publication_info>DS_VI_471</publication_info>
+      <full_name>421 - 0.00 - DS_VI_471</full_name>
+      <url>data/stories/611.dfl</url>
+    </story>
+    <story story_id="650">
+      <informant_id>372</informant_id>
+      <publication_info>DS_VI_478</publication_info>
+      <full_name>372 - 0.00 - DS_VI_478</full_name>
+      <url>data/stories/650.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4095a (2)</fielddiary_page_start>
+  <fielddiary_page_end>4095a (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens finishes his storytelling by telling about the card playing skill of a local man. Here, Jens Smed is able to beat the traveling merchants who have considerable money as indicated in other stories and thereby cover the noisome expenditure of his taxes. Interestingly, Jens Smed wins the money from the horse dealers and does not steal it. At the same time, other stories tell of profoundly negative consequences that accrue to those who gamble, most often their unintentional contact with the devil (DS VI 471 and 478).</annotation>
+  <danish_manuscript>Jens Smed i Aarestrup skulde ud til Nysum
+Kro, naar de h. Hesteprangere kom til Kroen
+og s. kom der en paa en Hest for at hente
+ham og s. kunde h. sidde og vinde n&#xE6;sten
+Pengene til hans Skat. H. var en v&#xE6;ldig
+Kortspiller.</danish_manuscript>
+  <english_manuscript>Jens Smed from Aarestrup was supposed to go to Nysum Inn, when these horse traders came to the inn, and then someone would come on a horse and get him and he could sit there and win almost all the money for his taxes. He was a great card player.</english_manuscript>
+  <danish_publication>N&#xE5;r deher hesteprangere kom til Nysum kro, kom der en p&#xE5; en hest for at hente Jens Smed i &#xC5;restrup, og s&#xE5; kom de til at spille kort, for han var en v&#xE6;ldig kortspiller, og s&#xE5; kunde han sidde og vinde n&#xE6;sten pengene til hans skat.</danish_publication>
+  <english_publication>When these horse dealers came to Nysum Inn, somebody would go by horse to get Jens Smed from &#xC5;restrup, and then they wound up playing cards, since he was a really good card player, and then he could sit and win nearly all the money he needed to pay his taxes.</english_publication>
+  <keywords>
+    <keyword id="178" frequency="2" keyword="cards">cards</keyword>
+    <keyword id="312" frequency="1" keyword="dealer">dealer</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="560" frequency="1" keyword="inn">inn</keyword>
+    <keyword id="593" frequency="1" keyword="jens_smed">Jens Smed</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="1241" frequency="1" keyword="taxes">taxes</keyword>
+    <keyword id="1365" frequency="1" keyword="wound">wound</keyword>
+  </keywords>
+  <etk_index id="35">
+    <heading_danish>Livet uden d&#xF8;re</heading_danish>
+    <heading_english>Life outdoors</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="33" display_name="Places: Inn"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

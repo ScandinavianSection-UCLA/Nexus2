@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<story story_id="597">
+  <publication_info>DS_VI_122</publication_info>
+  <full_name>420 - 0.00 - DS_VI_122</full_name>
+  <informant_id>420</informant_id>
+  <informant_last_name>J&#xF8;rgensen</informant_last_name>
+  <informant_first_name>J&#xF8;rgen</informant_first_name>
+  <informant_full_name>J&#xF8;rgen J&#xF8;rgensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>805</place_id>
+      <name>J&#xE6;rnelund</name>
+      <display_name>J&#xE6;rnelund (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1034</place_id>
+      <name>S&#xF8;nderskov</name>
+      <display_name>S&#xF8;nderskov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="156">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_VI_65</publication_info>
+      <full_name>241 - 2.06 - DSnr_VI_65</full_name>
+      <url>data/stories/156.dfl</url>
+    </story>
+    <story story_id="18">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_139</publication_info>
+      <full_name>150 - 1.15 - DS_VI_139</full_name>
+      <url>data/stories/18.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Povl Lyne p&#xE5; S&#xF8;nderskov havde forsvoret sig til Fanden. En gang skulde de til barsel ovre i Ty, og det var om vinteren. Da de kj&#xF8;rte, l&#xE5; der en hund bag i vognen. Den gang de skulde s&#xE5; tilbage, vilde de kj&#xF8;re over isen. S&#xE5; kom de til en stor revne, og den turde kusken ikke kj&#xF8;re over, "Kj&#xF8;r dog til for Satan!" r&#xE5;bte Povl. "Nej, i hans navn vil a ikke kj&#xF8;re, a vil kj&#xF8;re i Jesu navn." S&#xE5; kj&#xF8;rte han, men det hele sank under isen. Karlen kom op og kom levende hjem. Han sagde, at han kunde h&#xF8;re hestene puste der nede. Siden gik Povl Lyne igjen, og de kunde h&#xF8;re ham komme i hans lange st&#xF8;vler. Han blev s&#xE5; nedmanet af en kapellan i Gudum (?).</danish_publication>
+  <english_publication>Poul Lyne in S&#xF8;nderskov had sworn himself to the devil. One time he was supposed to go to a birthing over in Ty and it was during the winter. When they drove off, there was a dog lying in the back of the wagon. Then when they were going to go home, they wanted to drive over the ice. But then they came to a big crack, and the driver didn&#x2019;t dare drive over it. &#x201C;Drive ahead, damn you! [lit.: for the devil]" yelled Paul. &#x201C;No, I will not drive in his name, I will drive in Jesus&#x2019;s name.&#x201D; Then he drove, but everything sank under the ice. The farmhand came up and came ashore alive. He said he could hear the horses breathing down there. After that time, Paul Lyne walked again and they could hear him coming in his high boots. He was conjured down by a curate in Gudum.</english_publication>
+  <keywords>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="124" frequency="1" keyword="boots">boots</keyword>
+    <keyword id="255" frequency="1" keyword="conjuring">conjuring</keyword>
+    <keyword id="288" frequency="1" keyword="curate">curate</keyword>
+    <keyword id="324" frequency="2" keyword="devil">devil</keyword>
+    <keyword id="343" frequency="1" keyword="dog">dog</keyword>
+    <keyword id="357" frequency="1" keyword="driver">driver</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="553" frequency="2" keyword="ice">ice</keyword>
+    <keyword id="598" frequency="1" keyword="jesus">Jesus</keyword>
+    <keyword id="822" frequency="2" keyword="name">name</keyword>
+    <keyword id="919" frequency="2" keyword="paul">Paul</keyword>
+    <keyword id="985" frequency="1" keyword="poul_lyne">Poul Lyne</keyword>
+    <keyword id="1229" frequency="1" keyword="swear">swear</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="81" display_name="Actions or events: Conjuring"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="91" display_name="Actions or events: Midwifery"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

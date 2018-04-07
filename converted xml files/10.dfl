@@ -1,0 +1,79 @@
+<story><story_id>10</story_id>
+  <publication_info>JFm_XI_23C</publication_info>
+  <full_name>150 - 1.07 - JFm_XI_23C</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.07</order_told>
+  <fieldtrip><id>1</id>Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>5</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DSkv_0_11e</publication_info>
+      <full_name>150 - 1.02 - DSkv_0_11e</full_name>
+      <url>data/stories/5.dfl</url>
+    </story>
+    <story><story_id>324</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>JFm_XI_46</publication_info>
+      <full_name>90 - 1.01 - JFm_XI_46</full_name>
+      <url>data/stories/324.dfl</url>
+    </story>
+    <story><story_id>6</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_103</publication_info>
+      <full_name>150 - 1.03 - Unpub_BJK_103</full_name>
+      <url>data/stories/6.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3238b (2)</fielddiary_page_start>
+  <fielddiary_page_end>3238b (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Tang Kristensen publishes this ballad in Jyske Folkeminder XI under the rubric "Barselkvinden" [The birth woman], cataloging this fragment as variant C. He interpolates the second line. The other two variants under that rubric refer to witchcraft. In the first, a woman is forced to carry her children for eight years before giving birth to twins. In the second, a witch reveals her curse, and the people are able to counteract it, allowing the witch's stepdaughter to give birth.
+
+      It is possible that this fragment belongs to the previous ballad, although the length of the measure, and the strong line separating the records in the manuscript mitigate against such an interpretation. It may however be related to the next ballad Jens performs, the well-known ballad of "Redselille og Medelvold" (DgF 271), although this verse is not attested in any other variants (AMJ 1.01). Most likely, it is a fragment of another ballad that Jens could not remember.
+
+     The reference to "forty weeks" (BJK 1.03) may also be in reference to this short fragment. More likely, the previous ballad reminded Jens of this short verse, but he was unable to remember the rest of the ballad.</annotation>
+  <danish_manuscript>Ja fyrretyve Uger og s. et Aar
+Ak nej kj&#230;re Moder det er ikke vist
+de fyrretyve Uger gik Marie med Kristus</danish_manuscript>
+  <english_manuscript>Yes, forty weeks and then a year
+Oh no, dear mother, that isn&#8217;t so
+those forty weeks Mary carried Christ</english_manuscript>
+  <danish_publication>"Ja fyrretyve Uger og saa et Aar;
+[saa l&#230;nge skal du med dit Foster gaa.]"
+"Ak nej, kj&#230;re Moder, det er ikke vist,
+de fyrretyve Uger gik Marie med Krist."</danish_publication>
+  <english_publication>&#8220;Yes, forty weeks and then a year; 
+[that&#8217;s how long you will bear your child]
+&#8220;Oh no, dear mother, that isn&#8217;t so,
+for forty weeks Mary carried Christ.&#8221;
+</english_publication>
+  <keywords>
+    <keyword><id>79</id><frequency>1</frequency><keyword>bear</keyword>bear</keyword>
+    <keyword><id>217</id><frequency>1</frequency><keyword>child</keyword>child</keyword>
+    <keyword><id>222</id><frequency>1</frequency><keyword>christ</keyword>Christ</keyword>
+    <keyword><id>803</id><frequency>1</frequency><keyword>mother</keyword>mother</keyword>
+    <keyword><id>1328</id><frequency>2</frequency><keyword>week</keyword>week</keyword>
+    <keyword><id>1370</id><frequency>1</frequency><keyword>year</keyword>year</keyword>
+  </keywords>
+  <etk_index><id>40</id>
+    <heading_danish>Jyske Folkeminder</heading_danish>
+    <heading_english>Folklore from Jutland</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>132</id><display_name>Actions or events: Pregnancy and birth</display_name></tango_index>
+  </tango_indices>
+  <genre><id>5</id><name>Ballad</name></genre>
+</story>

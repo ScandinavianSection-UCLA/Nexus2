@@ -1,0 +1,46 @@
+<informant><person_id>401</person_id>
+  <core_informant/>
+  <full_name>G&#229;rdejer Mikkel Jensen</full_name>
+  <last_name>Jensen</last_name>
+  <first_name>Mikkel</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>715</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>401</informant_id>
+      <publication_info>DS_II_C_112</publication_info>
+      <full_name>401 - 0.00 - DS_II_C_112</full_name>
+      <url>data/stories/715.dfl</url>
+      <place_recorded><id>786</id>Grynderup</place_recorded>
+      <places_mentioned>
+        <place><id>216</id>
+          <name>Gunderupg&#229;rd</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>786</place_id>
+      <name>Grynderup</name>
+      <display_name>Grynderup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>216</place_id>
+      <name>Gunderupg&#229;rd</name>
+      <display_name>Gunderupg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

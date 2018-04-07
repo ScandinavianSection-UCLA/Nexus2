@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<story story_id="888">
+  <publication_info>DS_VII_268</publication_info>
+  <full_name>0 - 0.00 - DS_VII_268</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>634</place_id>
+      <name>Testrup h&#xF8;jskole</name>
+      <display_name>Testrup h&#xF8;jskole (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>324</place_id>
+      <name>Katrup mark</name>
+      <display_name>Katrup mark (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="519">
+      <informant_id>438</informant_id>
+      <publication_info>DS_VII_584</publication_info>
+      <full_name>438 - 0.00 - DS_VII_584</full_name>
+      <url>data/stories/519.dfl</url>
+    </story>
+    <story story_id="619">
+      <informant_id>422</informant_id>
+      <publication_info>DS_VII_106</publication_info>
+      <full_name>422 - 0.00 - DS_VII_106</full_name>
+      <url>data/stories/619.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der boede en heks ovre p&#xE5; Katrup mark. Hun var lidt lam, og det havde hun f&#xE5;et ved at v&#xE6;re skudt med en s&#xF8;lvknap i hareskikkelse. Folk turde ikke l&#xE5;ne hende noget, som kunde drejes rundt, f. eks. kj&#xE6;rne, sold, skj&#xE6;ppe, for s&#xE5; troede de, hun kunde tage deres sm&#xF6;r af fl&#xF8;den, s&#xE5; de ikke kunde kj&#xE6;rne den. M&#xE6;lken kunde hun tage ved at malke hjemme.</danish_publication>
+  <english_publication>A witch lived over on Katrup mark. She was a little lame, and she'd gotten that way by being shot with a silver button when she was in the shape of a hare. People didn't dare loan her anything that could be turned, like a churn, sieve or measure, because then they thought that she could take their butter from the cream, so they wouldn't be able to churn. She could take milk by milking at home.</english_publication>
+  <keywords>
+    <keyword id="163" frequency="1" keyword="butter">butter</keyword>
+    <keyword id="229" frequency="2" keyword="churn">churn</keyword>
+    <keyword id="279" frequency="1" keyword="cream">cream</keyword>
+    <keyword id="500" frequency="1" keyword="hare">hare</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="782" frequency="2" keyword="milk">milk</keyword>
+    <keyword id="1106" frequency="1" keyword="shooting">shooting</keyword>
+    <keyword id="1116" frequency="1" keyword="sieve">sieve</keyword>
+    <keyword id="1119" frequency="1" keyword="silver_button">silver button</keyword>
+    <keyword id="1351" frequency="1" keyword="witch">witch</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

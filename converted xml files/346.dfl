@@ -1,0 +1,87 @@
+<informant><person_id>346</person_id>
+  <core_informant/>
+  <full_name>Chr. Adolf Christensen</full_name>
+  <last_name>Christensen</last_name>
+  <first_name>Chr. Adolf</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>483</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>346</informant_id>
+      <publication_info>DS_II_D_48</publication_info>
+      <full_name>346 - 0.00 - DS_II_D_48</full_name>
+      <url>data/stories/483.dfl</url>
+      <place_recorded><id>190</id>Gjedved</place_recorded>
+      <places_mentioned>
+        <place><id>378</id>
+          <name>Liver &#229;</name>
+        </place>
+        <place><id>647</id>
+          <name>Tornby</name>
+        </place>
+        <place><id>266</id>
+          <name>Hj&#248;rring</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>484</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>346</informant_id>
+      <publication_info>DS_IV_1594</publication_info>
+      <full_name>346 - 0.00 - DS_IV_1594</full_name>
+      <url>data/stories/484.dfl</url>
+      <place_recorded><id>190</id>Gjedved</place_recorded>
+      <places_mentioned>
+        <place><id>374</id>
+          <name>Linderumg&#229;rds mark</name>
+        </place>
+        <place><id>673</id>
+          <name>Ugilt</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>190</place_id>
+      <name>Gjedved</name>
+      <display_name>Gjedved (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>374</place_id>
+      <name>Linderumg&#229;rds mark</name>
+      <display_name>Linderumg&#229;rds mark (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>266</place_id>
+      <name>Hj&#248;rring</name>
+      <display_name>Hj&#248;rring (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>647</place_id>
+      <name>Tornby</name>
+      <display_name>Tornby (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>378</place_id>
+      <name>Liver &#229;</name>
+      <display_name>Liver &#229; (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

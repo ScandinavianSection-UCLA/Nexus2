@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<story story_id="435">
+  <publication_info>DS_VI_326</publication_info>
+  <full_name>528 - 0.00 - DS_VI_326</full_name>
+  <informant_id>528</informant_id>
+  <informant_last_name>Rod</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens Rod</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>863</place_id>
+      <name>Sinding</name>
+      <display_name>Sinding (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="157">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_897</publication_info>
+      <full_name>241 - 2.07 - DS_VI_897</full_name>
+      <url>data/stories/157.dfl</url>
+    </story>
+    <story story_id="610">
+      <informant_id>448</informant_id>
+      <publication_info>DS_VI_323</publication_info>
+      <full_name>448 - 0.00 - DS_VI_323</full_name>
+      <url>data/stories/610.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En aften for mange &#xE5;r siden kj&#xF8;rte jeg igjennem Charlottenlund skov i Kragelund, og det var m&#xE5;ske blevet henad midnatstid. Jeg havde h&#xF8;rt, at det sp&#xF8;gede i skoven ved nattetid, men det br&#xF8;d jeg mig ikke videre om, for folk siger s&#xE5; meget. Men som jeg nu kj&#xF8;rer allerbedst, kommer en kulsort mand ud af skoven og kaster sig ind i det ene baghjul, og da stod vognen med &#xE9;t ganske stille, hestene kunde ikke rykke den et skridt l&#xE6;ngere. Jeg havde h&#xF8;rt, at n&#xE5;r man vender hovedselet&#xF6;jet p&#xE5; hesten, s&#xE5; har sp&#xF8;geriet ingen magt mere; det gjorde jeg da, og det hjalp ogs&#xE5;, ti jeg kj&#xF8;rte videre uden at se noget til den sorte mand.</danish_publication>
+  <english_publication>One night many years ago, I drove through Charlottenlund forest in Kragelund, and it was maybe around midnight. I had heard that there was haunting in the forest at night, but I didn&#x2019;t worry about that, because people say so much. But now as I&#x2019;m driving along, a coal black man comes out of the woods and throws himself under one of the back wheels, and then the wagon immediately came to a complete standstill, the horses couldn&#x2019;t budge it one step farther. I had heard that when you turn the harness on the horse, then the haunting has no more power; so I did that and it also helped because I drove along without seeing the black man anymore.</english_publication>
+  <keywords>
+    <keyword id="106" frequency="2" keyword="black">black</keyword>
+    <keyword id="241" frequency="1" keyword="coal">coal</keyword>
+    <keyword id="438" frequency="2" keyword="forest">forest</keyword>
+    <keyword id="502" frequency="1" keyword="harness">harness</keyword>
+    <keyword id="508" frequency="2" keyword="haunting">haunting</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="776" frequency="1" keyword="midnight">midnight</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="988" frequency="1" keyword="power">power</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+    <keyword id="1335" frequency="1" keyword="wheel">wheel</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

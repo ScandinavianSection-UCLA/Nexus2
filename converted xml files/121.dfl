@@ -1,0 +1,77 @@
+<story><story_id>121</story_id>
+  <publication_info>Unpub_BJK_410</publication_info>
+  <full_name>150 - 4.10 - Unpub_BJK_410</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.10</order_told>
+  <fieldtrip><id>5</id>June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>119</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_408</publication_info>
+      <full_name>150 - 4.08 - Unpub_BJK_408</full_name>
+      <url>data/stories/119.dfl</url>
+    </story>
+    <story><story_id>120</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_887</publication_info>
+      <full_name>150 - 4.09 - DS_VII_887</full_name>
+      <url>data/stories/120.dfl</url>
+    </story>
+    <story><story_id>529</story_id>
+      <informant_id>373</informant_id>
+      <publication_info>DS_IV_744</publication_info>
+      <full_name>373 - 0.00 - DS_IV_744</full_name>
+      <url>data/stories/529.dfl</url>
+    </story>
+    <story><story_id>363</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1271</publication_info>
+      <full_name>90 - 3.09 - DS_VI_1271</full_name>
+      <url>data/stories/363.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4592b (6)</fielddiary_page_start>
+  <fielddiary_page_end>4592b (6)</fielddiary_page_end>
+  <bibliographic_info>Feilberg 1977 vol. 1, 320</bibliographic_info>
+  <bibliography_references>
+    <reference><id>181</id><category>general</category>
+      <display_string>[Book] Feilberg, Henning F. 1977. &lt;i&gt;Bidrag til en ordbog over jyske almuesm&#229;l&lt;/i&gt;. Copenhagen: Dansk Historisk H&#229;ndbogsforlag.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>This short account of the properties of rowan (mountain ash) continues the previous record. Oddly, it is not included in Tang Kristensen's published collections. "Flying Rowan" is considered to be particularly powerful since it does not grow out of the ground. Because it is not connected to the ground, witches do not have any power over it (Feilberg 1977 vol. 1, 320). A "Flying Rowan" tree or shrub grows from a rowan seed deposited by a bird or the wind in a crack in a wall, or in a fork or hollow in a tree. </annotation>
+  <danish_manuscript>Flyver&#248;n skal rives paa et Rivej&#230;rn. Men
+det maa ikke r&#248;re ved Jorden. Det skal for-
+hegsede have ind. Gl. Iver Andersen i Ersted
+brugte meget Flyver&#248;n.</danish_manuscript>
+  <english_manuscript>Flying rowan should be grated on a grater. But it mustn't touch the ground. People who are bewitched are supposed to take that. Old Iver Andersen in Ersted used a lot of flying rowan.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: Flying rowan should be grated on a grater. But it mustn&#8217;t touch the ground. People who are bewitched are supposed to take that. Old Iver Andersen in Ersted used a lot of flying rowan.</english_publication>
+  <keywords>
+    <keyword><id>426</id><frequency>2</frequency><keyword>flying_rowan</keyword>flying rowan</keyword>
+    <keyword><id>567</id><frequency>1</frequency><keyword>iver_andersen</keyword>Iver Andersen</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1353</id><frequency>1</frequency><keyword>witchcraft</keyword>witchcraft</keyword>
+  </keywords>
+  <etk_index><id>44</id>
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>52</id><display_name>Tools, Items and Conveyances: Tools</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<story story_id="244">
+  <publication_info>JAH_VI_527</publication_info>
+  <full_name>235 - 1.24 - JAH_VI_527</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.24</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>219</place_id>
+      <name>Hadbj&#xE6;rg</name>
+      <display_name>Hadbj&#xE6;rg (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>471</place_id>
+      <name>Randers</name>
+      <display_name>Randers (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="241">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_100</publication_info>
+      <full_name>235 - 1.21 - MA_I_100</full_name>
+      <url>data/stories/241.dfl</url>
+    </story>
+    <story story_id="245">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_70</publication_info>
+      <full_name>235 - 1.25 - MA_I_70</full_name>
+      <url>data/stories/245.dfl</url>
+    </story>
+    <story story_id="300">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_465</publication_info>
+      <full_name>235 - 2.17 - MA_I_465</full_name>
+      <url>data/stories/300.dfl</url>
+    </story>
+    <story story_id="307">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_VI_187</publication_info>
+      <full_name>235 - 3.05 - JAT_VI_187</full_name>
+      <url>data/stories/307.dfl</url>
+    </story>
+    <story story_id="320">
+      <informant_id>235</informant_id>
+      <publication_info>DSk_I_14</publication_info>
+      <full_name>235 - 3.18 - DSk_I_14</full_name>
+      <url>data/stories/320.dfl</url>
+    </story>
+    <story story_id="242">
+      <informant_id>235</informant_id>
+      <publication_info>Unpub_KMP_122</publication_info>
+      <full_name>235 - 1.22 - Unpub_KMP_122</full_name>
+      <url>data/stories/242.dfl</url>
+    </story>
+    <story story_id="243">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_107</publication_info>
+      <full_name>235 - 1.23 - MA_I_107</full_name>
+      <url>data/stories/243.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5216b (3)</fielddiary_page_start>
+  <fielddiary_page_end>5216b (3)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This story clearly reveals the tension between the rural populations and the urban populations. Here, the farmer travels to the closest large market town, Randers. The condescending and disparaging remark of the shopkeeper is deflected by the clever response of the farmer. It is telling that Tang Kristensen chose to print this story in the collection, Jyske Almueliv, and not the more implicitly disparaging, Molbo- og Aggerbohistorier (numbskull tales), as he does with all the other stories in this narrative series.</annotation>
+  <danish_manuscript>[Det var] [De wa] Han wa it &#xE5;ldti t&#xE5;sset. De 
+wa jen gang han [h&#xE5;] w&#xE5; i Rajs, s&#xE5; kom
+han en[d] ti en modehandler. Han ha et pa
+stue tr&#xE6;skow opo. Da han s&#xE5; lot daren
+&#xE5;p s&#xE5; sat han d&#xE6;n k&#xE6;nn fue end m&#xE6; tr&#xE6;
+skovene opo. S&#xE5; s&#xE6;jer modehandleren:
+Uha nu har jeg aldrig set Magen. S&#xE5; [t&#xE5;]
+sekke han d&#xE6;n &#xE5;n fu en &#xE5;sse ml tr&#xE6;
+skowen opo: H&#xE5;r &#xE6; m&#xE6; saali M&#xE5;&#xE5;gen.</danish_manuscript>
+  <english_manuscript>He wasn't always crazy. One time he was in Rajs and he went into a clothing store. He was wearing a large pair of clogs. When he opened the door and he put one of his feet with the clog on it in. Then the milliner says, "Oh my, I've never anything like this." Then he sets his other foot in also still with the clog on. "Well, here you've got something just like it."</english_manuscript>
+  <danish_publication>En man i Hajjbj&#xF6;re wa it &#xE5;lti t&#xE5;sit. De wa jen gon han wa i Rajjs, s&#xE5; kam han en te en moodehannler. Han ha et pa stue tr&#xE6;skow opo. Da han s&#xE5; lot daren &#xE5;p, s&#xE5; sat han d&#xE6;n j&#xE6;nn fue en m&#xE6; tr&#xE6;skowen opo. S&#xE5; s&#xE6;jer moodehannleren: "Uha, nu har jeg aldrig set magen". S&#xE5; steke han d&#xE6;n &#xE5;&#xE5;n fu en &#xE5;se m&#xE6; tr&#xE6;skowen opo. "H&#xE6;r &#xE6; me saali m&#xE5;&#xE5;gen".</danish_publication>
+  <english_publication>A man over in Hajjbj&#xF8;re wasn&#x2019;t always crazy. One time he was in Rijjs and he was going to go to a milliner&#x2019;s. He was wearing a large pair of clogs. He opens the door and sets his foot with this clog on it in. Then the milliner says, &#x201C;Oh my, I&#x2019;ve never anything like this.&#x201D; Then he sets his other foot in also still with the clog on. &#x201C;Well, here you&#x2019;ve got something just like it.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="234" frequency="3" keyword="clogs">clogs</keyword>
+    <keyword id="278" frequency="1" keyword="crazy">crazy</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="433" frequency="2" keyword="foot">foot</keyword>
+  </keywords>
+  <etk_index id="36">
+    <heading_danish>Vore f&#xE6;dres tankes&#xE6;t og &#xE5;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="11" name="Jocular Tale"/>
+</story>

@@ -1,0 +1,88 @@
+<story><story_id>142</story_id>
+  <publication_info>DS_IV_1027</publication_info>
+  <full_name>241 - 1.01 - DS_IV_1027</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>1.01</order_told>
+  <fieldtrip><id>11</id>October 1893</fieldtrip>
+  <fieldtrip_start_date>1893-09-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1893-10-26</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>306</place_id>
+      <name>Ilbj&#230;rge</name>
+      <display_name>Ilbj&#230;rge (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>241</place_id>
+      <name>Harridslev</name>
+      <display_name>Harridslev (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>290</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_574</publication_info>
+      <full_name>235 - 2.07 - JAH_V_574</full_name>
+      <url>data/stories/290.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6191a</fielddiary_page_start>
+  <fielddiary_page_end>6191a</fielddiary_page_end>
+  <bibliographic_info>N&#248;rr 1981.
+N&#248;rr 1994.</bibliographic_info>
+  <bibliography_references>
+    <reference><id>21</id><category>general</category>
+      <display_string>[Book] N&#248;rr, Erik. 1981. &lt;i&gt;Pr&#230;st og administrator sognepr&#230;stens funktioner i lokalforvaltningen p&#229; landet fra 1800 til 1841 (Administrationshistoriske studier)&lt;/i&gt;. Copenhagen: Rigsarkivet.</display_string>
+    </reference>
+    <reference><id>22</id><category>general</category>
+      <display_string>[Book] N&#248;rr, Erik. 1994. &lt;i&gt;Skolen, pr&#230;sten og kommunen kampen om skolen p&#229; landet 1842-1899&lt;/i&gt;. Copenhagen: Jurist- og &#216;konomforbundet.</display_string>
+    </reference>
+    <reference><id>37</id><category>general</category>
+      <display_string>[Book] J&#248;rgensen, Harald. 1979. &lt;i&gt;Studier over det offentlige Fattigv&#230;sens historiske Udvikling i Danmark i det 19. Aarhundrede&lt;/i&gt;. Copenhagen: Selskabet for Udgivelse af Kilder til Dansk Historie.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Jens Peter's story encapsulates many of the conflicting views of the rural poor at the end of the nineteenth century. On the one hand, there was great suspicion that many of the poor were free riders, getting something for nothing. On the other hand, there was a strong movement against the earlier, paternalistic poverty assistance programs that robbed the recipients of their dignity and their rights as citizens.
+
+     That the minister is selling grain to the poor seems a bit unusual, as one of the minister's duties was to distribute assistance to the poor. The administration of assistance to the poor was, for the first half of the century, a direct responsibility of the minister. Many communities chose to provide assistance in kind, handing out specified amounts of grain on a quarterly or semi-annual basis, rather than give cash. With the reforms to the laws governing local administration in 1867, the administration of these services was assumed by the local parish council.
+
+     The minister's sale of grain may fall outside official public assistance to the poor and may simply be part of his own attempts to make a living. All parsonage's had land attached to them, and the minister was expected to supplement his income with the produce from his land. Here, the minister can combine entrepreneurship with Christian charity.
+
+     Tang Kristensen provided an annotation to the story, identifying the minister as Hr. Otto Rafn, minister in Harridslev from 1796-1821, a time when local assistance to the poor was handled by the minister.</annotation>
+  <danish_manuscript>En pr&#230;st i Harridslev, Ravn, solgte Korn
+til fattige Folk og h. plejede altid at
+sige, naar h. maalte den 1ste. Skj. op
+Den regner jeg ikke. S. kom der en Mand
+og vilde have Korn hos ham. Da han
+nu havde sagt det s&#230;dvanlige . . . .
+svarede Manden: Det skal Faaer rigtig
+have Tak for. og s. gik h. med dem.
+Da h. senere kom for at ville have
+mere Korn, sagde Pr. da h. m&#229;lte
+den 1ste. Skp. s. siger vi to.</danish_manuscript>
+  <english_manuscript>A minister in Harridslev, Rafn, sold grain to poor people and he always said when he measured the first bushel: "We won't count that." Then a man came and wanted to get some grain from him. When he'd said the usual, "I won't count that," the man answered, "For that Father should have lots of thanks" and then he went off with it. When he came back later and wanted some more grain, the minister said, as he measured the first bushel, "We'll say two."</english_manuscript>
+  <danish_publication>En pr&#230;st i Harridslev, der hed Rafn, solgte korn til fattige folk, og han plejede altid at sige, n&#229;r han m&#229;lte den f&#248;rste skj&#230;ppe op: "Den regner vi ikke." S&#229; kom der en mand og vilde have korn hos ham. Da han nu havde sagt det s&#230;dvanlige: "Den regner jeg ikke," svarede manden: "Det skal f&#229;er rigtig have tak for," og s&#229; gik han med den. Da han senere kom for at ville have mere korn, sagde pr&#230;sten, da han m&#229;lte den f&#248;rste skj&#230;ppe:  "S&#229; siger vi to".</danish_publication>
+  <english_publication>A minister in Harridslev who was called Rafn sold grain to poor people and he always said, when he measured the first bushel: &#8220;We won&#8217;t count that.&#8221; Then a man came and wanted to get some grain from him. When he&#8217;d said the usual, &#8220;I won&#8217;t count that,&#8221; the man answered, &#8220;For that Father should have lots of thanks&#8221; and then he went off with it. When he came back later and wanted some more grain, the minister said, as he measured the first bushel, &#8220;We&#8217;ll say two.&#8221;</english_publication>
+  <keywords>
+    <keyword><id>266</id><frequency>2</frequency><keyword>count</keyword>count</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>477</id><frequency>3</frequency><keyword>grain</keyword>grain</keyword>
+    <keyword><id>786</id><frequency>2</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>974</id><frequency>1</frequency><keyword>poor</keyword>poor</keyword>
+    <keyword><id>1246</id><frequency>1</frequency><keyword>thank</keyword>thank</keyword>
+  </keywords>
+  <etk_index><id>18</id>
+    <heading_danish>Pr&#230;ster</heading_danish>
+    <heading_english>Ministers</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<story story_id="387">
+  <publication_info>DS_V_872</publication_info>
+  <full_name>123 - 2.13 - DS_V_872</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.13</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>615</place_id>
+      <name>Svejstrup</name>
+      <display_name>Svejstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="31">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_128</publication_info>
+      <full_name>150 - 1.28 - Unpub_BJK_128</full_name>
+      <url>data/stories/31.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3776b</fielddiary_page_start>
+  <fielddiary_page_end>3777a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references>
+    <reference id="649" category="general">
+      <display_string>[Book] Uther, Hans-J&#xF6;rg. 2004. &lt;i&gt;The types of international folktales : a classification and bibliography, based on the system of Antti Aarne and Stith Thompson (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The motif of the men who will not stop arguing even after death is an amusing refiguration of the motif of the lovers whose love continues into the afterlife. In those stories, trees or rose bushes grow out of the graves and intertwine. In this case, as in AT 836D tales, "Fighting after Death", two contentious men continue to fight even after their death. 
+
+      Carrying the small box of the fighting fists around the church during the  New Years' celebration is strange. Although the fighting fists might offer a strong corrective to members of the parish who were involved in petty squabbles--and thus help to unite the community at the start of the new year--the display is carnivalesque in nature and unfitting for the solemn atmosphere of the church. The church seems an unlikely place to parade a phenomenon that is clearly linked to haunting and, by extension, Satan. Interestingly, Tang Kristensen deletes the reference to this taking place in the church in the published version of the story. </annotation>
+  <danish_manuscript>Den samme Mand fortalte, at der var to
+M&#xE6;nd som laa i Splid og s. d&#xF8;de de. Den
+Tid de var begravet, groede der en Haand
+op paa hvers Grav og de stod og truede imod
+hinanden. S. tykte de det var s. grimt
+et Syn og s. hug de H&#xE6;nderne af og lod lave
+en lille Kasse som H&#xE6;nderne blev lagt
+i og hver Nyaarsdag blev de baaret rundt
+imellem Folkene i Kirken. Men s. var der
+den M&#xE6;rkelighed ved dem at lige s. tit de
+skiftede H&#xE6;nderne om, lige s. tit var de skif
+tet tilbage igien. Den ene vilde bestandig 
+v&#xE6;re &#xF8;verst og den 2 ville ogsaa og ved den
+
+3777A
+Lejlighed gik de bestandig saadan over hin-
+anden. Det var jo, at den 1 vilde raade over
+den anden.
+</danish_manuscript>
+  <english_manuscript>The same man told about two men who had bad blood between them and then they died. When they were buried, a hand grew out of each of their graves and they stood there and threatened each other. Then people thought that it was such a gruesome sight that they chopped the hands off and made a little box which they put them into and every New Year's day, they were carried around among the people in the church. But the odd thing was that no matter how often they switched the hands around, they always switched themselves back. One always wanted to be on top, as did the other one, and at that time they were always going on top of each other. One of them always wanted to rule the other.</english_manuscript>
+  <danish_publication>En gammel rebsl&#xE5;er i Svejstrup fortalte, at der var to m&#xE6;nd, som l&#xE5; i splid. S&#xE5; d&#xF8;de de, og den tid de var begravede, groede der en h&#xE5;nd op p&#xE5; hvers grav, og de stod og truede imod hinanden. S&#xE5; tykte folk, det var s&#xE5; grimt et syn, og s&#xE5; hug de h&#xE6;nderne af og lod lave en lille kasse, som de blev lagt i. Hver nyt&#xE5;rsdag blev de s&#xE5; b&#xE5;ret rundt imellem folkene. Men der var den m&#xE6;rkelighed ved dem, at lige s&#xE5; tit man skiftede h&#xE6;nderne om, lige s&#xE5; tit var de skiftet tilbage igjen. Den ene vilde bestandig v&#xE6;re &#xF8;verst, og den anden vilde ogs&#xE5;, og ved den lejlighed gik de bestandig over hinanden. Det var jo s&#xE5;dan, at den ene vilde r&#xE5;de over den anden.</danish_publication>
+  <english_publication>An old rope maker in Svejstrup told that there were two men who had bad blood between them. Then they died and when they were buried, a hand grew out of each of their graves and they stood there and threatened each other. Then people thought that it was such a gruesome sight that they chopped the hands down and made a little box which they put them into. Every New Year's day, they were carried around among the people. But the odd thing was that no matter how often one switched the hands around, they always switched themselves back. One always wanted to be on top, as did the other one, and at that time they were always going on top of each other. One of them always wanted to rule over the other one.</english_publication>
+  <keywords>
+    <keyword id="111" frequency="1" keyword="blood">blood</keyword>
+    <keyword id="129" frequency="1" keyword="box">box</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="483" frequency="1" keyword="grave">grave</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1045" frequency="1" keyword="ropemaker">ropemaker</keyword>
+    <keyword id="1255" frequency="1" keyword="threat">threat</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

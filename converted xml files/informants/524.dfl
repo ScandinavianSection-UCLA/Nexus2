@@ -1,0 +1,63 @@
+<informant><person_id>524</person_id>
+  <core_informant/>
+  <full_name>Friskolel&#230;rer Chr. Rasmussen</full_name>
+  <last_name>Rasmussen</last_name>
+  <first_name>Chr.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>487</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>524</informant_id>
+      <publication_info>DS_I_676</publication_info>
+      <full_name>524 - 0.00 - DS_I_676</full_name>
+      <url>data/stories/487.dfl</url>
+      <place_recorded><id>840</id>Ormitslev</place_recorded>
+      <places_mentioned>
+        <place><id>1005</id>
+          <name>Sor&#248;</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>488</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>524</informant_id>
+      <publication_info>DS_II_B_29</publication_info>
+      <full_name>524 - 0.00 - DS_II_B_29</full_name>
+      <url>data/stories/488.dfl</url>
+      <place_recorded><id>840</id>Ormitslev</place_recorded>
+      <places_mentioned>
+        <place><id>80</id>
+          <name>Boslunde</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>840</place_id>
+      <name>Ormitslev</name>
+      <display_name>Ormitslev (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>80</place_id>
+      <name>Boslunde</name>
+      <display_name>Boslunde (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1005</place_id>
+      <name>Sor&#248;</name>
+      <display_name>Sor&#248; (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

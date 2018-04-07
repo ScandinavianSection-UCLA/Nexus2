@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<story story_id="815">
+  <publication_info>DS_V_1588</publication_info>
+  <full_name>572 - 0.00 - DS_V_1588</full_name>
+  <informant_id>572</informant_id>
+  <informant_last_name>Jakobsen</informant_last_name>
+  <informant_first_name>N</informant_first_name>
+  <informant_full_name>N Jakobsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>951</place_id>
+      <name>H&#xF8;jby</name>
+      <display_name>H&#xF8;jby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>949</place_id>
+      <name>Odense</name>
+      <display_name>Odense (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>975</place_id>
+      <name>Bramstrup</name>
+      <display_name>Bramstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="250">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_II_149</publication_info>
+      <full_name>235 - 1.30 - JAT_II_149</full_name>
+      <url>data/stories/250.dfl</url>
+    </story>
+    <story story_id="227">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1542</publication_info>
+      <full_name>235 - 1.08 - DS_V_1542</full_name>
+      <url>data/stories/227.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#xE5; Bramstrup, en mil fra Odense, var der for mange &#xE5;r siden en forvalter, som hed Maes eller Markus Kalv, der bestyrede g&#xE5;rden for en gammel enkefrue, som den gang var ejerinde af den. Denne forvalter var en grusom tyran mod f&#xE6;steb&#xF8;nderne, han gik altid ud p&#xE5; at gnie og plage dem og fratage dem deres ejendom. Der er en skov, som den gang tilh&#xF8;rte de Volderslev b&#xF8;nder og kaldtes Lunden, hvilken gr&#xE6;nsede til Langholm, en skov, som h&#xF8;rte til Bramstrup. Denne lund kunde Markus Kalv ikke t&#xE5;le, at b&#xF8;nderne skulde beholde, men s&#xF6;gte ved uretf&#xE6;rdighed at frar&#xF8;ve dem den. Tog jord fra g&#xE5;rdens mark i st&#xF8;vlerne o. s. v. og svor ved den hellige treenighed, at den jord, hvorp&#xE5; han stod samt de grene, der hang over hans hoved, tilh&#xF8;rte fruen p&#xE5; Bramstrup. Da han havde gjort dette, gik han hjem til fruen p&#xE5; Bramstrup og sagde: "Nu er Lund og Langholm dit." Men den gamle frue blev forskr&#xE6;kket og svarede: "Er Lund og Langholm mit, s&#xE5; er helvedes pine dit." Han d&#xF8;de nogle &#xE5;r efter, men fik ingen ro i graven, han g&#xE5;r endnu den dag i dag i Langholm og lader sig h&#xF8;re om natten p&#xE5; adskillige tider af &#xE5;ret med en forf&#xE6;rdelig stemme, som hverken ligner menneskers eller dyrs. At Markus Kalv endnu findes i Langholm, kan bekr&#xE6;ftes af flere gamle folk fra omegnen.</danish_publication>
+  <english_publication>Many years ago, there was a foreman at Bramstrup, a mile from Odense, who was called Maes or Markus Kalv, and he ran the farm for an old widow who at that time was the owner of it. That foreman was a horrible tyrant toward the lease holders, he always went out to harass and punish them and confiscate their possessions. There was a forest that, at the time, belonged to the peasants in Volderslev, and it was called Lunden, and it bordered on Langholm, a forest that belonged to Bramstrup. Markus Kalv couldn't bear that the peasants had this forest, and he tried to steal it from them unjustly. He took dirt from the farm's field and put it in his boots, etc. and then swore to the holy trinity that the earth on which he stood as well as the branches that hung over his head belonged to the lady at Bramstrup. When he'd done this, he went home to the lady at Bramstrup and said, "Lund and Langholm are now yours." But the old lady became frightened and answered, "If Lund and Langholm are mine, then the pains of hell are yours." He died some years later, but had no peace in the grave, he still walks to this very day in Langholm and lets himself be heard at night at different times of year with a terrible voice that resembles neither that of a human nor an animal. Many older people from the area will confirm that Markus Kalv is still to be found in Langholm .</english_publication>
+  <keywords>
+    <keyword id="124" frequency="1" keyword="boots">boots</keyword>
+    <keyword id="135" frequency="1" keyword="branches">branches</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="330" frequency="1" keyword="dirt">dirt</keyword>
+    <keyword id="368" frequency="1" keyword="earth">earth</keyword>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="437" frequency="2" keyword="foreman">foreman</keyword>
+    <keyword id="438" frequency="3" keyword="forest">forest</keyword>
+    <keyword id="483" frequency="1" keyword="grave">grave</keyword>
+    <keyword id="520" frequency="1" keyword="hell">hell</keyword>
+    <keyword id="536" frequency="1" keyword="holy">holy</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="543" frequency="1" keyword="horrible">horrible</keyword>
+    <keyword id="678" frequency="3" keyword="lady">lady</keyword>
+    <keyword id="700" frequency="1" keyword="lease">lease</keyword>
+    <keyword id="752" frequency="3" keyword="markus_kalv">Markus Kalv</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="873" frequency="3" keyword="old">old</keyword>
+    <keyword id="891" frequency="1" keyword="owner">owner</keyword>
+    <keyword id="921" frequency="2" keyword="peasantry">peasantry</keyword>
+    <keyword id="1004" frequency="1" keyword="punishment">punishment</keyword>
+    <keyword id="1229" frequency="1" keyword="swear">swear</keyword>
+    <keyword id="1248" frequency="1" keyword="theft">theft</keyword>
+    <keyword id="1307" frequency="1" keyword="voice">voice</keyword>
+    <keyword id="1342" frequency="1" keyword="widow">widow</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="25">
+    <heading_danish>Gjenf&#xE6;rd p&#xE5; uretf&#xE6;rdig jord</heading_danish>
+    <heading_english>Revenants on ill-gotten land</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="10" display_name="People: Foreigner"/>
+    <tango_index id="34" display_name="Places: Manor / Castle"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

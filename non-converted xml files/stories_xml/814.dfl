@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<story story_id="814">
+  <publication_info>DS_IV_1588</publication_info>
+  <full_name>351 - 0.00 - DS_IV_1588</full_name>
+  <informant_id>351</informant_id>
+  <informant_last_name>Dahl</informant_last_name>
+  <informant_first_name>Sidsel Andersdatter</informant_first_name>
+  <informant_full_name>Sidsel Andersdatter Dahl</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>877</place_id>
+      <name>S&#xF8;nderkj&#xE6;r</name>
+      <display_name>S&#xF8;nderkj&#xE6;r (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>437</place_id>
+      <name>N&#xF8;rre Vosborg</name>
+      <display_name>N&#xF8;rre Vosborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="160">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1592</publication_info>
+      <full_name>241 - 2.10 - DS_IV_1592</full_name>
+      <url>data/stories/160.dfl</url>
+    </story>
+    <story story_id="93">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_330</publication_info>
+      <full_name>150 - 3.30 - Unpub_BJK_330</full_name>
+      <url>data/stories/93.dfl</url>
+    </story>
+    <story story_id="484">
+      <informant_id>346</informant_id>
+      <publication_info>DS_IV_1594</publication_info>
+      <full_name>346 - 0.00 - DS_IV_1594</full_name>
+      <url>data/stories/484.dfl</url>
+    </story>
+    <story story_id="625">
+      <informant_id>48</informant_id>
+      <publication_info>DS_IV_1584</publication_info>
+      <full_name>48 - 0.00 - DS_IV_1584</full_name>
+      <url>data/stories/625.dfl</url>
+    </story>
+    <story story_id="202">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_996</publication_info>
+      <full_name>241 - 4.30 - DSnr_IV_996</full_name>
+      <url>data/stories/202.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Lange-Margrete var en Tater og dr&#xE6;bte frugtsommelige kvinder og spiste hj&#xE6;rterne af b&#xF6;rnene, for hun havde den tro, at n&#xE5;r hun kunde n&#xE5; at f&#xE5; 7, kunde hun blive usynlig. Men hun n&#xE5;ede kun at f&#xE5; 6. S&#xE5; blev hun fanget og sat ind i et kj&#xE6;lderhul under den vestre fl&#xF6;j p&#xE5; N.-Vosborgs hovedbygning og senere halshugget. Det hul kaldes den dag i dag Lange-Margretes hul.</danish_publication>
+  <english_publication>Lange-Margrete was a gypsy and killed pregnant women and ate the hearts of the children, since she believed that, once she had managed to eat seven of them, she could become invisible. But she only managed to get six. Then she was caught and put down in a cellar hole under the west wing of N&#xF8;rre Vosborg&#x2019;s main building and later decapitated. That hole is called Lange-Margrete&#x2019;s hole to this very day.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="155" frequency="1" keyword="buildings">buildings</keyword>
+    <keyword id="195" frequency="1" keyword="cellar">cellar</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="319" frequency="1" keyword="decapitate">decapitate</keyword>
+    <keyword id="492" frequency="1" keyword="gypsy">gypsy</keyword>
+    <keyword id="516" frequency="1" keyword="heart">heart</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="747" frequency="2" keyword="margrete">Margrete</keyword>
+    <keyword id="991" frequency="1" keyword="pregnant">pregnant</keyword>
+    <keyword id="1089" frequency="1" keyword="seven">seven</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+    <keyword id="1348" frequency="1" keyword="wing">wing</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="5" display_name="People: Children"/>
+    <tango_index id="10" display_name="People: Foreigner"/>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="34" display_name="Places: Manor / Castle"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="132" display_name="Actions or events: Pregnancy and birth"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<story story_id="36">
+  <publication_info>DS_III_1873</publication_info>
+  <full_name>150 - 1.33 - DS_III_1873</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.33</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>489</place_id>
+      <name>R&#xF8;de m&#xF8;lle</name>
+      <display_name>R&#xF8;de m&#xF8;lle (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="280">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_D_50</publication_info>
+      <full_name>235 - 1.59 - DS_II_D_50</full_name>
+      <url>data/stories/280.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3249a (3)</fielddiary_page_start>
+  <fielddiary_page_end>3249a (3)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens remains on features of local topography describing an unusual and potentially dangerous water course. Villads is likely the same man who appears in several of Jens's other stories (BJK 1.12, BJK 1.23 and BJK 1.35).</annotation>
+  <danish_manuscript>[E] I Ersted Hule &#xF8;sten for Byen er et stort
+Hul, naar det er T&#xF8;brud s. l&#xF8;ber Vandet i
+Dammen [ikk] der ned. S. kan der ikke st&#xE6;jnes
+noget. Det kunde b&#xF8;le nede i [Vandet] Hul-
+let naar det havde frosset l&#xE6;nge og s. T&#xF8;brud
+og det fik Hul. Villadses Gasse gik derned
+en G. og den kom ud nede ved R&#xF8;de M&#xF8;lle
+ved Lag en Fjerdingvej. der er en B&#xE6;k de
+kalder Kj&#xE6;n Stiens. der er Udl&#xF8;bet, men
+det l&#xF8;ber jo hele Tiden.</danish_manuscript>
+  <english_manuscript>Down in Ersted water hole east of the town there's a big hole down in the ground, and when there's a thaw, the water flows from the pond down there. It can't be stopped at all. It could really get turbulent down there when there'd been frost for a while and then a sudden thaw. Villads's gander went down in there once and it came out again by R&#xF8;de mill, about two kilometers from there. There's a stream and they call it Kj&#xE6;n stiens. There's an outlet, but it's flowing all the time.</english_manuscript>
+  <danish_publication>I Ersted hule her &#xF6;sten for byen er et stort hul ned i jorden, og n&#xE5;r det er t&#xF8;brud, s&#xE5; vandet kommer til at st&#xE5; h&#xF6;jt, l&#xF8;ber det af dammen og derned, og s&#xE5; kan det ikke st&#xE6;jnes. N&#xE5;r det har frosset og sneet l&#xE6;nge, og der s&#xE5; bliver st&#xE6;rkt t&#xF8;brud, s&#xE5; vandet f&#xE5;r luft i hullet, kan det formelig l&#xF8;be der nede. Villads's gasse gik en gang ned i det hul, og den kom ud igjen nede ved R&#xF8;de-m&#xF8;lle ved lag en fjerdingvej derfra. Der er et udl&#xF8;b fra den underjordiske rende, men det l&#xF8;ber jo ellers hele tiden som en b&#xE6;k, og den kaldes Kj&#xE6;n stiens.</danish_publication>
+  <english_publication>Ersted water hole east of the town here is a big hole down in the ground, and when there&#x2019;s a thaw, the water level reaches so high it flows from the pond down to there, and then it can&#x2019;t be stopped. When there's been frost and it has snowed for a long time, and then there comes a sudden thaw so that the water really gets going, then it can really run down there. Villads&#x2019;s gander went down into the water hole and it came out again by R&#xF8;de mill, about two kilometers from there. There&#x2019;s an outlet from the underwater stream, but it runs all the time as if it were a stream, and they call it Kj&#xE6;n stiens.</english_publication>
+  <keywords>
+    <keyword id="369" frequency="1" keyword="east">east</keyword>
+    <keyword id="447" frequency="1" keyword="frost">frost</keyword>
+    <keyword id="783" frequency="1" keyword="mill">mill</keyword>
+    <keyword id="973" frequency="1" keyword="pond">pond</keyword>
+    <keyword id="1150" frequency="1" keyword="snow">snow</keyword>
+    <keyword id="1207" frequency="2" keyword="stream">stream</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1320" frequency="4" keyword="water">water</keyword>
+  </keywords>
+  <etk_index id="14">
+    <heading_danish>Forskjellige stedsagn</heading_danish>
+    <heading_english>Diverse place legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="37" display_name="Places: Mill"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="42" display_name="Places: Stream / River"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

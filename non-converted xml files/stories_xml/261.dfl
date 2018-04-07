@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<story story_id="261">
+  <publication_info>DS_VI_884</publication_info>
+  <full_name>235 - 1.41 - DS_VI_884</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.41</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>425</place_id>
+      <name>Nielstrup</name>
+      <display_name>Nielstrup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>708</place_id>
+      <name>Vindbl&#xE6;s</name>
+      <display_name>Vindbl&#xE6;s (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="542">
+      <informant_id>370</informant_id>
+      <publication_info>DS_VI_882</publication_info>
+      <full_name>370 - 0.00 - DS_VI_882</full_name>
+      <url>data/stories/542.dfl</url>
+    </story>
+    <story story_id="618">
+      <informant_id>323</informant_id>
+      <publication_info>DS_VI_886</publication_info>
+      <full_name>323 - 0.00 - DS_VI_886</full_name>
+      <url>data/stories/618.dfl</url>
+    </story>
+    <story story_id="260">
+      <informant_id>235</informant_id>
+      <publication_info>DS_IV_1839</publication_info>
+      <full_name>235 - 1.40 - DS_IV_1839</full_name>
+      <url>data/stories/260.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5220a (1)</fielddiary_page_start>
+  <fielddiary_page_end>5220a (1)</fielddiary_page_end>
+  <bibliographic_info>R&#xF8;rbye 1976
+Tangherlini 2000</bibliographic_info>
+  <bibliography_references>
+    <reference id="398" category="general">
+      <display_string>[Book] R&#xF8;rbye, Birgitte. 1976. &lt;i&gt;Kloge folk og skidtfolk. Kvaksalveriets epoke i Danmark&lt;/i&gt;. Copenhagen: Politiken.</display_string>
+    </reference>
+    <reference id="487" category="general">
+      <display_string>[Article] Tangherlini, Timothy R. 2000. "How do you know she's a witch"? : Witches, cunning folk, and competition in Denmark. Vol. 59 of &lt;i&gt;Western Folklore&lt;/i&gt; 3-4: 279-303.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Kirsten Marie confirms the popularity of the Vindbl&#xE6;skone, whose main customer base was in northern and western Jutland (R&#xF8;rbye 1976, 105). Despite numerous complaints against them, the Vinbl&#xE6;sfolk (Vinbl&#xE6;s people) were never subjected to anything more than fines for quacksalvery because their patients vouched for them, and the local physicians had agreed to leave them in peace (R&#xF8;rbye 1976, 106).
+
+     Even though the son in this story dies, the Vindbl&#xE6;s woman's powers are confirmed through her accurate prediction of the baker's death. Although the ability to predict accurately someone's death might have led to accusations of witchcraft in an earlier time, historical changes and, perhaps more importantly, the Vindbl&#xE6;s woman's considerable status in the surrounding area, would have allowed her to easily beat any such accusation (Tangherlini 2000).</annotation>
+  <danish_manuscript>Der var nogle flere fra Nielstrup ude 
+ved hende en G. x s. kom der en R&#xE6;kke Vogne
+kj&#xF8;rende gjennem Vindbl&#xE6;s og skulde til Kj&#xF8;b-
+stadeb. S. s. den kloge kone: Den bager
+Mand h. d&#xF8;r inden h. kommer hjem. Det
+varer ikke svar l&#xE6;nge, inden det l&#xF8;b over
+hele Byen at h. var d&#xF8;d paa Vejen. Det 
+kunde hu se i hendes Vindue.
+De sagde at hun gij bestandig og vandte
+paa et N&#xF8;gle, s. rinkede hu op og s. vandte
+hun igjen. x De havde en s&#xF8;n der var 
+syg, men h. d&#xF8;de ogsaa.</danish_manuscript>
+  <english_manuscript>There were several others from Nielstrup who went down to the cunning woman in Vindbl&#xE6;s. They had a son who was sick, but he died too. and they went down there for advice, but he died anyway. While they were there, a whole column of wagons drove through Vindbl&#xE6;s and they were going to the market town. Then the cunning woman says, "That baker, he'll die before he gets home." It didn't take too long before it was all over town that he'd died on the road. She could see that in her window. They said that she walked constantly about winding a bolster of yarn, then she'd unravel it, and then she wound it up again.</english_manuscript>
+  <danish_publication>Der var nogle flere fra Nielstrup nede ved den kloge kone i Vindbl&#xE6;s. De havde en s&#xF8;n, der var syg, og ham s&#xF6;gte de r&#xE5;d for, men han d&#xF8;de alligevel. De sagde, at hun gik bestandig og vandt p&#xE5; et n&#xF8;gle garn, s&#xE5; rinkede hun op, og s&#xE5; vandt hun igjen. Imens de var der, kom der en r&#xE6;kke vogne kj&#xF8;rende gjennem Vindbl&#xE6;s og skulde til kj&#xF6;bstaden. S&#xE5; siger den kloge kone: "Den bager mand han d&#xF8;er. inden han kommer hjem." Det varte ikke svar l&#xE6;nge, inden det l&#xF8;b over hele byen, at han var d&#xF8;d p&#xE5; vejen. Det kunde hun se i hendes vindue, og hun m&#xE5; da have v&#xE6;ret noget klog.</danish_publication>
+  <english_publication>There were several others from Nielstrup who went down to the cunning woman in Vindbl&#xE6;s. They had a son who was sick, and they went down there for advice, but he died anyway. They said that she went constantly winding a bolster of yarn, then she'd unravel it, and then she wound it up again. While they were there, a whole column of wagons drove through Vindbl&#xE6;s and they were going to the market town. Then the cunning woman says, &#x201C;That baker, he&#x2019;ll die before he gets home.&#x201D; It didn&#x2019;t take too long before it was all over town that he&#x2019;d died on the road. She could see that in her window, and she must have been somewhat wise (cunning).</english_publication>
+  <keywords>
+    <keyword id="12" frequency="1" keyword="advice">advice</keyword>
+    <keyword id="65" frequency="1" keyword="baking">baking</keyword>
+    <keyword id="286" frequency="3" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="317" frequency="3" keyword="death">death</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="751" frequency="1" keyword="market">market</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1111" frequency="1" keyword="sickness">sickness</keyword>
+    <keyword id="1154" frequency="1" keyword="son">son</keyword>
+    <keyword id="1275" frequency="2" keyword="town">town</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+    <keyword id="1346" frequency="1" keyword="window">window</keyword>
+    <keyword id="1365" frequency="1" keyword="wound">wound</keyword>
+    <keyword id="1369" frequency="1" keyword="yarn">yarn</keyword>
+  </keywords>
+  <etk_index id="28">
+    <heading_danish>Kloge m&#xE6;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

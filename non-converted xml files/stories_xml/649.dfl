@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<story story_id="649">
+  <publication_info>DS_VI_150</publication_info>
+  <full_name>372 - 0.00 - DS_VI_150</full_name>
+  <informant_id>372</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>H.</informant_first_name>
+  <informant_full_name>L&#xE6;rer H. Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>795</place_id>
+      <name>Hjallese</name>
+      <display_name>Hjallese (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>549</place_id>
+      <name>Skovsbo</name>
+      <display_name>Skovsbo (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="156">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_VI_65</publication_info>
+      <full_name>241 - 2.06 - DSnr_VI_65</full_name>
+      <url>data/stories/156.dfl</url>
+    </story>
+    <story story_id="18">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_139</publication_info>
+      <full_name>150 - 1.15 - DS_VI_139</full_name>
+      <url>data/stories/18.dfl</url>
+    </story>
+    <story story_id="192">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_167</publication_info>
+      <full_name>241 - 4.20 - DS_VI_167</full_name>
+      <url>data/stories/192.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#xE5; herreg&#xE5;rden Skovsbo boede en herremand, der stod i ledtog med Fanden. En s&#xF8;ndag morgen, mens fruen var i kirke, b&#xF8;d han sin tjener g&#xE5; ud og se, om der ikke n&#xE6;rmede sig en lille sort sky p&#xE5; himlen. Tjeneren gik, men kom tilbage og m&#xE6;ldte, at der slet ingen skyer var at se. Kort efter b&#xF8;d herremanden ham g&#xE5; igjen, og denne gang m&#xE6;ldte tjeneren, at der steg en underlig sort sky op over herreg&#xE5;rden. "Vel!" sagde herremanden, "g&#xE5; s&#xE5; op p&#xE5; dit kammer og bliv d&#xE9;r, til fruen kommer fra kirke." Tjeneren gik, men et &#xF6;jeblik efter h&#xF8;rte han tummel og jamren fra herrens kammer. Nysgjerrig listede han sig ud p&#xE5; gangen til herrens d&#xF6;r. Den var l&#xE5;set af, og da han vilde b&#xF6;je sig ned og spejde igjennem n&#xF8;glehullet, gik hans &#xF6;je ud. Forf&#xE6;rdet ilede han ned ad trappen for at r&#xE5;be om hj&#xE6;lp, men blev end mere forf&#xE6;rdet, da han s&#xE5; herrens h&#xF6;jre h&#xE5;nd ligge p&#xE5; trappestenen. Tililende folk br&#xF8;d nu d&#xF6;ren til det skj&#xE6;bne-svangre v&#xE6;relse op. Det var tomt, men p&#xE5; gulvet stod herremandens blod i store pytter, og v&#xE6;g og loft var som overs&#xE5;et med lutter blodr&#xF8;de st&#xE6;nk. Herremanden var borte, men hans h&#xF6;jre h&#xE5;nd havde Fanden ikke kunnet tage, da den var bortgivet foran alteret.</danish_publication>
+  <english_publication>A manor lord lived at the manor Skovsbo, and he was in league with the devil. One Sunday morning, while the lady was at church, he asked his servant to go out and look and see if a small black cloud wasn't approaching on the horizon. The servant went out, but came back and said there weren't any clouds to see. A little later, the manor lord asked him to go out again, and this time the servant reported that there was a strange black cloud rising over the manor. "Well," said the manor lord, "go up to your room and stay there until the lady returns from church." The servant went, but a moment later he heard a commotion from the manor lord's chamber. Curious, he tiptoed out to the hall and the master's door. It was locked, and when he wanted to bend down and look through the keyhole, he got his eye poked out. Horrified, he ran down the stairs to yell for help, but he became even more horrified when he saw his master's right hand lying on the stairs. The people who came streaming to the house broke open the door to the fateful room. It was empty, but on the floor were large puddles of the manor lord's blood, and the walls and the ceiling were covered with bright blood red splashes. The manor lord was gone, but the devil couldn't take his right hand, since that had been given away at the altar.</english_publication>
+  <keywords>
+    <keyword id="21" frequency="1" keyword="altar">altar</keyword>
+    <keyword id="106" frequency="2" keyword="black">black</keyword>
+    <keyword id="111" frequency="2" keyword="blood">blood</keyword>
+    <keyword id="193" frequency="1" keyword="ceiling">ceiling</keyword>
+    <keyword id="204" frequency="1" keyword="chamber">chamber</keyword>
+    <keyword id="227" frequency="2" keyword="church">church</keyword>
+    <keyword id="237" frequency="3" keyword="cloud">cloud</keyword>
+    <keyword id="324" frequency="2" keyword="devil">devil</keyword>
+    <keyword id="344" frequency="2" keyword="door">door</keyword>
+    <keyword id="389" frequency="1" keyword="eye">eye</keyword>
+    <keyword id="422" frequency="1" keyword="floor">floor</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="620" frequency="1" keyword="keyhole">keyhole</keyword>
+    <keyword id="678" frequency="2" keyword="lady">lady</keyword>
+    <keyword id="722" frequency="1" keyword="lock">lock</keyword>
+    <keyword id="725" frequency="1" keyword="lord">lord</keyword>
+    <keyword id="741" frequency="2" keyword="manor">manor</keyword>
+    <keyword id="743" frequency="5" keyword="manor_lord">manor lord</keyword>
+    <keyword id="757" frequency="2" keyword="master">master</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="1021" frequency="1" keyword="red">red</keyword>
+    <keyword id="1088" frequency="4" keyword="servant">servant</keyword>
+    <keyword id="1185" frequency="2" keyword="stairs">stairs</keyword>
+    <keyword id="1218" frequency="1" keyword="sunday">Sunday</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="34" display_name="Places: Manor / Castle"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="102" display_name="Time, Season, Weather: Sunday"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

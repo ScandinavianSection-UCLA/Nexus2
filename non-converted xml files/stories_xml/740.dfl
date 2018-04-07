@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<story story_id="740">
+  <publication_info>DS_V_733</publication_info>
+  <full_name>111 - 0.00 - DS_V_733</full_name>
+  <informant_id>111</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels ((Jens Jensen?)) Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>783</place_id>
+      <name>Glenstrup</name>
+      <display_name>Glenstrup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="165">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_687</publication_info>
+      <full_name>241 - 2.15 - DS_IV_687</full_name>
+      <url>data/stories/165.dfl</url>
+    </story>
+    <story story_id="882">
+      <informant_id>574</informant_id>
+      <publication_info>DS_V_744</publication_info>
+      <full_name>574 - 0.00 - DS_V_744</full_name>
+      <url>data/stories/882.dfl</url>
+    </story>
+    <story story_id="748">
+      <informant_id>459</informant_id>
+      <publication_info>DS_V_730</publication_info>
+      <full_name>459 - 0.00 - DS_V_730</full_name>
+      <url>data/stories/748.dfl</url>
+    </story>
+    <story story_id="818">
+      <informant_id>460</informant_id>
+      <publication_info>DS_V_728</publication_info>
+      <full_name>460 - 0.00 - DS_V_728</full_name>
+      <url>data/stories/818.dfl</url>
+    </story>
+    <story story_id="527">
+      <informant_id>537</informant_id>
+      <publication_info>DS_V_715</publication_info>
+      <full_name>537 - 0.00 - DS_V_715</full_name>
+      <url>data/stories/527.dfl</url>
+    </story>
+    <story story_id="621">
+      <informant_id>400</informant_id>
+      <publication_info>DS_IV_1161</publication_info>
+      <full_name>400 - 0.00 - DS_IV_1161</full_name>
+      <url>data/stories/621.dfl</url>
+    </story>
+    <story story_id="721">
+      <informant_id>408</informant_id>
+      <publication_info>DS_V_713</publication_info>
+      <full_name>408 - 0.00 - DS_V_713</full_name>
+      <url>data/stories/721.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en pr&#xE6;st, der skulde nedmane en mand, p&#xE5; vejen hjem stod hestene stille, s&#xE5; han aldrig kunde kj&#xF8;re af stedet. S&#xE5; tog han det ene baghjul... S&#xE5; snart hestene var inde, m&#xE5;tte han ikke lukke d&#xF6;ren op, men skulde g&#xE5; i hans seng. Han kunde dog ikke dy sig, men keg ud, og s&#xE5; rejste ovret af huset sig der lige for, og s&#xE5; v&#xE6;ltede vognen.</danish_publication>
+  <english_publication>There was a minister who was to conjure a man, and on the way home, the horses stood still, so he couldn't drive away from the spot. Then he took one of the back wheels... As soon as the horses were inside, he was not to open the door, but was to go to bed. He couldn't control himself, but looked out, and then the roof of the house picked up right there, and the wagon tipped over.</english_publication>
+  <keywords>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="255" frequency="1" keyword="conjuring">conjuring</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="1041" frequency="1" keyword="roof">roof</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+    <keyword id="1335" frequency="1" keyword="wheel">wheel</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="81" display_name="Actions or events: Conjuring"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

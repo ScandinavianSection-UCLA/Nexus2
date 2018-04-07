@@ -1,0 +1,71 @@
+<story><story_id>802</story_id>
+  <publication_info>DS_VII_1488</publication_info>
+  <full_name>404 - 0.00 - DS_VII_1488</full_name>
+  <informant_id>404</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Poul</informant_first_name>
+  <informant_full_name>Poul Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>897</place_id>
+      <name>Udbyovre</name>
+      <display_name>Udbyovre (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>272</place_id>
+      <name>Holmen</name>
+      <display_name>Holmen (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>427</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_1487</publication_info>
+      <full_name>123 - 3.24 - DS_VII_1487</full_name>
+      <url>data/stories/427.dfl</url>
+    </story>
+    <story><story_id>550</story_id>
+      <informant_id>549</informant_id>
+      <publication_info>DS_VII_1482</publication_info>
+      <full_name>549 - 0.00 - DS_VII_1482</full_name>
+      <url>data/stories/550.dfl</url>
+    </story>
+    <story><story_id>813</story_id>
+      <informant_id>427</informant_id>
+      <publication_info>DS_VII_1478</publication_info>
+      <full_name>427 - 0.00 - DS_VII_1478</full_name>
+      <url>data/stories/813.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gammel mand fra Holmen fortalte mig, at Frederik den Syvende var f&#248;dt i en sejrsskjorte, derfor kunde sejren og lykken v&#230;re med ham. Den hinde, man f&#248;des i, den skal have fason som en skjorte.</danish_publication>
+  <english_publication>An old man from Holmen told me that Frederik the Seventh was born in a victory shirt, that's why victory and luck were with him. The membrane one is born in is supposed to have the shape of a shirt.</english_publication>
+  <keywords>
+    <keyword><id>102</id><frequency>2</frequency><keyword>birth</keyword>birth</keyword>
+    <keyword><id>442</id><frequency>1</frequency><keyword>frederik</keyword>Frederik</keyword>
+    <keyword><id>727</id><frequency>1</frequency><keyword>luck</keyword>luck</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1089</id><frequency>1</frequency><keyword>seven</keyword>seven</keyword>
+    <keyword><id>1102</id><frequency>1</frequency><keyword>shirt</keyword>shirt</keyword>
+    <keyword><id>1298</id><frequency>1</frequency><keyword>victory</keyword>victory</keyword>
+    <keyword><id>1299</id><frequency>1</frequency><keyword>victory_shirt</keyword>victory shirt</keyword>
+  </keywords>
+  <etk_index><id>30</id>
+    <heading_danish>Menneskets og kv&#230;gets sygdomme</heading_danish>
+    <heading_english>Human and cattle illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>20</id><display_name>People: Strong Man / Hero</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

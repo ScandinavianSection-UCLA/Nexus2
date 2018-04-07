@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<story story_id="372">
+  <publication_info>&#xC6;v_0_1963</publication_info>
+  <full_name>90 - 4.05 - &#xC6;v_0_1963</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>4.05</order_told>
+  <fieldtrip id="12">Photo 1: August 1895</fieldtrip>
+  <fieldtrip_start_date>1895-08-01</fieldtrip_start_date>
+  <fieldtrip_end_date>1895-08-05</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="370">
+      <informant_id>90</informant_id>
+      <publication_info>&#xC6;v_0_1907</publication_info>
+      <full_name>90 - 4.03 - &#xC6;v_0_1907</full_name>
+      <url>data/stories/370.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>--</fielddiary_page_start>
+  <fielddiary_page_end>--</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This recording is probably the same as &#xC6;v. 1907 (AMJ 4.03). There are no separate field diary pages for this story. While somewhat abbreviated, the wording is almost identical in the fair copy to &#xC6;v. 1907.</annotation>
+  <danish_manuscript>No manuscript pages</danish_manuscript>
+  <english_manuscript>No manuscript pages</english_manuscript>
+  <danish_publication>Der var en Pige, som havde Stifmoder, og hun var saa slem ved hende. Saa gik hun saa tidt ud i Skoven. Der kommer hver Dag en Kat til hende, og han siger til hende en Dag, hun kunde s&#xE6;tte sig op paa hans Ryg og f&#xF8;lge med ham hjem. Det gjorde hun ogsaa. Saa siger han, om hun kunde se noget? Ja, hun kunde se et stort Slot. Der boede hans For&#xE6;ldre, sagde han, for han var forhegsed, der var en Kone, som havde skabt ham i en Hankat, som skulde gaa ude i Skoven.</danish_publication>
+  <english_publication>There was a girl who had a stepmother and she was really mean to her. She often went for walks out in the woods. Every day, a cat comes up to her out there and he says to her one day that she can climb up onto his back and come home with him. She does that too. Then he asks her if she can see anything? Yes, she could see a big castle. That&#x2019;s where his parents lived, he said, because he was bewitched, there was a woman who had changed him into a tom cat that had to walk about in the woods.</english_publication>
+  <keywords>
+    <keyword id="186" frequency="1" keyword="castle">castle</keyword>
+    <keyword id="187" frequency="2" keyword="cat">cat</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="901" frequency="1" keyword="parents">parents</keyword>
+    <keyword id="1191" frequency="1" keyword="stepmother">stepmother</keyword>
+    <keyword id="1353" frequency="1" keyword="witchcraft">witchcraft</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+    <keyword id="1360" frequency="2" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="45">
+    <heading_danish>Registrant over Evald Tang Kristensens Samling af Eventyr</heading_danish>
+    <heading_english>Index of Evald Tang Kristensen's collected Fairy Tales</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="34" display_name="Places: Manor / Castle"/>
+    <tango_index id="69" display_name="Animals: Cat"/>
+  </tango_indices>
+  <genre id="4" name="Fairy tale"/>
+</story>

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<story story_id="482">
+  <publication_info>DS_VI_345</publication_info>
+  <full_name>486 - 0.00 - DS_VI_345</full_name>
+  <informant_id>486</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Chr.</informant_first_name>
+  <informant_full_name>Seminarist Chr. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>808</place_id>
+      <name>Jelling</name>
+      <display_name>Jelling (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>707</place_id>
+      <name>Vilstrup</name>
+      <display_name>Vilstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="17">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_VI_248</publication_info>
+      <full_name>150 - 1.14 - JAH_VI_248</full_name>
+      <url>data/stories/17.dfl</url>
+    </story>
+    <story story_id="195">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_VI_114</publication_info>
+      <full_name>241 - 4.23 - DSnr_VI_114</full_name>
+      <url>data/stories/195.dfl</url>
+    </story>
+    <story story_id="204">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_G_250</publication_info>
+      <full_name>241 - 4.32 - DSnr_II_G_250</full_name>
+      <url>data/stories/204.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand var en aften reden ud p&#xE5; en hedelod uden for Kj&#xE6;rb&#xF8;lling med sine heste for at s&#xE6;tte dem p&#xE5; gr&#xE6;s. Da han gik hjemad, s&#xE5; han &#xE9;n, der gik foran ham, og han troede, det var hans nabo, hvorfor han kaldte p&#xE5; ham; men den anden blev ved at g&#xE5;, og manden sagde da: "Kan du da for Satan ikke bie?" Nu t&#xF8;vede den anden; men da manden kom der hen, s&#xE5; han, at det var Fanden, som han nu m&#xE5;tte f&#xF8;lges med. N&#xE6;ste aften skulde han igjen ud til ham, men hans kone og b&#xF6;rn vilde ikke lade ham g&#xE5;. Da blev der et s&#xE5;dant spektakel, at de troede, g&#xE5;rden havde v&#xE6;ltet, s&#xE5; at manden m&#xE5;tte ud. N&#xE6;ste dag gik han over til Pastor Bang i Vilstrup i Skibet sogn og bad ham hj&#xE6;lpe sig af med den Slemmes selskab. Pr&#xE6;sten l&#xE6;rte ham da et vers, han skulde l&#xE6;se for den Slemme, n&#xE5;r han n&#xE6;ste gang kom ud til ham. Desuden b&#xF8;d han ham tage et plovj&#xE6;rn i h&#xE5;nden, og n&#xE5;r Fanden bad ham r&#xE6;kke sig h&#xE5;nden, skulde han r&#xE6;kke ham plovj&#xE6;rnet i steden for. Dette gjorde manden ogs&#xE5;, da han n&#xE6;ste aften var ude hos ham, og s&#xE5; godt tog Fanden ved, at han beholdt et stykke af plovj&#xE6;rnet i h&#xE5;nden. Siden den tid var han fri for at komme ud til den Slemme om aftenen, men han blev syg og duede aldrig mere.</danish_publication>
+  <english_publication>A man rode out on the heath one night outside of Kj&#xE6;rb&#xF8;lling along with his horses to put them out to graze. When he was on his way home, he saw someone walking in front of him and he thought it was a neighbor so he called out to him; but the other one continued to walk and the man said then: &#x201C;Can&#x2019;t you wait, damn you (literally: for the devil!)&#x201D; Now the other man waited; but when the other man got there, he discovered that it was the devil, who he now had to accompany. The next night he was supposed to go out to him again, but his wife and children wouldn&#x2019;t let him go. Then there was such a row that they thought that the barn had tipped over, so the man had to go out. The next day, he went over to minister Bang in Vilstrup in Skibet parish and asked him to help him get rid of the Evil One&#x2019;s company. Then the minister taught him a verse that he was to read for the Evil One the next time he went out to him. In addition, he told him to carry a plowshare in his hand and when the devil asked him to give him his hand, he was to give him the plowshare instead. The man did this, too, when he went out to him the next night, and the devil grabbed it so hard that he kept a piece of the plowshare in his hand. Ever since then he didn&#x2019;t have to go out to the Evil One at night, but he got sick and wasn&#x2019;t fit for anything ever again.</english_publication>
+  <keywords>
+    <keyword id="68" frequency="1" keyword="banging">banging</keyword>
+    <keyword id="72" frequency="1" keyword="barn">barn</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="324" frequency="4" keyword="devil">devil</keyword>
+    <keyword id="333" frequency="1" keyword="discovery">discovery</keyword>
+    <keyword id="387" frequency="3" keyword="evil">evil</keyword>
+    <keyword id="484" frequency="1" keyword="grazing">grazing</keyword>
+    <keyword id="517" frequency="1" keyword="heath">heath</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="828" frequency="1" keyword="neighbor">neighbor</keyword>
+    <keyword id="848" frequency="4" keyword="night">night</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="964" frequency="3" keyword="plow">plow</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1111" frequency="1" keyword="sickness">sickness</keyword>
+    <keyword id="1295" frequency="1" keyword="verse">verse</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="32" display_name="Places: Heath"/>
+    <tango_index id="52" display_name="Tools, Items and Conveyances: Tools"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

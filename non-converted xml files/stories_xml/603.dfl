@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<story story_id="603">
+  <publication_info>DS_V_694</publication_info>
+  <full_name>536 - 0.00 - DS_V_694</full_name>
+  <informant_id>536</informant_id>
+  <informant_last_name>Stegger</informant_last_name>
+  <informant_first_name>K. N.</informant_first_name>
+  <informant_full_name>L&#xE6;rer K. N. Stegger</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>396</place_id>
+      <name>Lystrup</name>
+      <display_name>Lystrup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="109">
+      <informant_id>150</informant_id>
+      <publication_info>FK_0_586</publication_info>
+      <full_name>150 - 3.46 - FK_0_586</full_name>
+      <url>data/stories/109.dfl</url>
+    </story>
+    <story story_id="224">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_687</publication_info>
+      <full_name>235 - 1.05 - DS_V_687</full_name>
+      <url>data/stories/224.dfl</url>
+    </story>
+    <story story_id="727">
+      <informant_id>542</informant_id>
+      <publication_info>DS_V_686</publication_info>
+      <full_name>542 - 0.00 - DS_V_686</full_name>
+      <url>data/stories/727.dfl</url>
+    </story>
+    <story story_id="780">
+      <informant_id>403</informant_id>
+      <publication_info>DS_V_690</publication_info>
+      <full_name>403 - 0.00 - DS_V_690</full_name>
+      <url>data/stories/780.dfl</url>
+    </story>
+    <story story_id="851">
+      <informant_id>454</informant_id>
+      <publication_info>DS_V_700</publication_info>
+      <full_name>454 - 0.00 - DS_V_700</full_name>
+      <url>data/stories/851.dfl</url>
+    </story>
+    <story story_id="404">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_C_120</publication_info>
+      <full_name>123 - 3.01 - DS_II_C_120</full_name>
+      <url>data/stories/404.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Et sted plagedes de ogs&#xE5; af en gjenganger, og de samlede flere pr&#xE6;ster, der skulde l&#xE6;se ham ned i jorden, men han lod stadig pr&#xE6;sterne h&#xF8;re nogle fors&#xE6;tlige synder, de havde beg&#xE5;et. S&#xE5; fik de ogs&#xE5; en gammel student fat, og ham lod gjengangeren h&#xF8;re om tyveriet. Han svarede: "Bageren vilde ikke betro mig noget, og jeg gjorde det for at opholde livet, ti jeg var s&#xE5; sulten . . ." S&#xE5; manede han ham ned. Nogle &#xE5;r efter kom han op af jorden igjen i skikkelse af en natravn og fl&#xF6;j ud af vinduet, og siden har de ikke m&#xE6;rket noget til ham.</danish_publication>
+  <english_publication>There was a place that was also plagued with revenants, and so they assembled several ministers who were to read him down into the ground, but the revenant let the ministers hear about various sins they had committed. Then they got hold of an old student, and the revenant reminded him of a theft. He answered, "The baker wouldn't give me anything to eat, and I did it so I could survive, as I was very hungry..." Then he conjured him down. Several years later, the revenant came up out of the ground in the form of a night raven and flew out the window, and they haven't noticed him since.</english_publication>
+  <keywords>
+    <keyword id="65" frequency="1" keyword="baking">baking</keyword>
+    <keyword id="255" frequency="1" keyword="conjuring">conjuring</keyword>
+    <keyword id="549" frequency="1" keyword="hungry">hungry</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="849" frequency="1" keyword="night_raven">night raven</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1027" frequency="2" keyword="revenant">revenant</keyword>
+    <keyword id="1121" frequency="1" keyword="sin">sin</keyword>
+    <keyword id="1211" frequency="1" keyword="student">student</keyword>
+    <keyword id="1224" frequency="1" keyword="survivor">survivor</keyword>
+    <keyword id="1248" frequency="1" keyword="theft">theft</keyword>
+    <keyword id="1346" frequency="1" keyword="window">window</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="64" display_name="Supernatural Beings: Nightraven"/>
+    <tango_index id="81" display_name="Actions or events: Conjuring"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

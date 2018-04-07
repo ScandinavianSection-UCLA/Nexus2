@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<story story_id="874">
+  <publication_info>DS_IV_1728</publication_info>
+  <full_name>0 - 0.00 - DS_IV_1728</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>940</place_id>
+      <name>Dalby Over</name>
+      <display_name>Dalby Over (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>941</place_id>
+      <name>Gjerlev</name>
+      <display_name>Gjerlev (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>942</place_id>
+      <name>Gassum</name>
+      <display_name>Gassum (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>943</place_id>
+      <name>Hvedsten</name>
+      <display_name>Hvedsten (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="637">
+      <informant_id>245</informant_id>
+      <publication_info>DS_IV_1729</publication_info>
+      <full_name>245 - 0.00 - DS_IV_1729</full_name>
+      <url>data/stories/637.dfl</url>
+    </story>
+    <story story_id="687">
+      <informant_id>390</informant_id>
+      <publication_info>DS_IV_1762</publication_info>
+      <full_name>390 - 0.00 - DS_IV_1762</full_name>
+      <url>data/stories/687.dfl</url>
+    </story>
+    <story story_id="801">
+      <informant_id>442</informant_id>
+      <publication_info>DS_IV_1755</publication_info>
+      <full_name>442 - 0.00 - DS_IV_1755</full_name>
+      <url>data/stories/801.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Efter pestens tid var der ikke uden &#xE9;t eneste kvindemenneske i Gjerlev by, og hun blev kjendt med et mandfolk langt vester fra, der ude fra Gassum eller Hvedsten. Da han skulde komme, var hun ved at feje spindelv&#xE6;v ned, og s&#xE5; var pesten lige godt i huset endnu, og den greb hende straks, og hun l&#xE5; d&#xF8;d, da han kom. Det var m&#xE6;rkeligt nok, at hun skulde af sted ligevel.</danish_publication>
+  <english_publication>After the time of the plague, there was but a single solitary woman in Gjerlev village, and she became acquainted with a man from way out west, out there from Gassum or Hvedsten. When he was supposed to come, she was sweeping cobwebs down, and the plague was still in the house, and it quickly took her and she lay dead when he came. It was odd enough that she was to die after all.</english_publication>
+  <keywords>
+    <keyword id="317" frequency="2" keyword="death">death</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="959" frequency="2" keyword="plague">plague</keyword>
+    <keyword id="1232" frequency="1" keyword="sweep">sweep</keyword>
+    <keyword id="1300" frequency="1" keyword="village">village</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

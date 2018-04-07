@@ -1,0 +1,82 @@
+<story><story_id>756</story_id>
+  <publication_info>DS_I_1340</publication_info>
+  <full_name>348 - 0.00 - DS_I_1340</full_name>
+  <informant_id>348</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Nikolaj</informant_first_name>
+  <informant_full_name>Student Nikolaj Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>1</place_id>
+      <name>Aaby</name>
+      <display_name>Aaby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>513</place_id>
+      <name>Sandalsbj&#230;rg</name>
+      <display_name>Sandalsbj&#230;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>180</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_901</publication_info>
+      <full_name>241 - 4.09 - DSnr_I_901</full_name>
+      <url>data/stories/180.dfl</url>
+    </story>
+    <story><story_id>620</story_id>
+      <informant_id>359</informant_id>
+      <publication_info>DS_I_1354</publication_info>
+      <full_name>359 - 0.00 - DS_I_1354</full_name>
+      <url>data/stories/620.dfl</url>
+    </story>
+    <story><story_id>861</story_id>
+      <informant_id/>
+      <publication_info>DS_I_1358</publication_info>
+      <full_name>0 - 0.00 - DS_I_1358</full_name>
+      <url>data/stories/861.dfl</url>
+    </story>
+    <story><story_id>441</story_id>
+      <informant_id>456</informant_id>
+      <publication_info>DS_I_1341</publication_info>
+      <full_name>456 - 0.00 - DS_I_1341</full_name>
+      <url>data/stories/441.dfl</url>
+    </story>
+    <story><story_id>788</story_id>
+      <informant_id>382</informant_id>
+      <publication_info>DS_I_1356</publication_info>
+      <full_name>382 - 0.00 - DS_I_1356</full_name>
+      <url>data/stories/788.dfl</url>
+    </story>
+    <story><story_id>583</story_id>
+      <informant_id>398</informant_id>
+      <publication_info>DS_I_1383</publication_info>
+      <full_name>398 - 0.00 - DS_I_1383</full_name>
+      <url>data/stories/583.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Dv&#230;rgene i Sandalsbj&#230;rg er flyttede over til Amerika. Der bliver da i hundrede &#229;r, s&#229; kommer de tilbage igjen.</danish_publication>
+  <english_publication>The dwarves in Sandalsbj&#230;rg have moved over to America. They'll stay there for a hundred years and then they'll come back again.</english_publication>
+  <keywords>
+    <keyword><id>22</id><frequency>1</frequency><keyword>america</keyword>America</keyword>
+    <keyword><id>366</id><frequency>1</frequency><keyword>dwarves</keyword>dwarves</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

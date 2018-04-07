@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<story story_id="587">
+  <publication_info>DS_VII_426</publication_info>
+  <full_name>144 - 0.00 - DS_VII_426</full_name>
+  <informant_id>144</informant_id>
+  <informant_last_name>Kristensdatter</informant_last_name>
+  <informant_first_name>Johanne Marie</informant_first_name>
+  <informant_full_name>Johanne Marie Kristensdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="604">
+      <informant_id>536</informant_id>
+      <publication_info>DS_VII_436</publication_info>
+      <full_name>536 - 0.00 - DS_VII_436</full_name>
+      <url>data/stories/604.dfl</url>
+    </story>
+    <story story_id="645">
+      <informant_id>453</informant_id>
+      <publication_info>DS_VII_435</publication_info>
+      <full_name>453 - 0.00 - DS_VII_435</full_name>
+      <url>data/stories/645.dfl</url>
+    </story>
+    <story story_id="681">
+      <informant_id>478</informant_id>
+      <publication_info>DS_VII_335</publication_info>
+      <full_name>478 - 0.00 - DS_VII_335</full_name>
+      <url>data/stories/681.dfl</url>
+    </story>
+    <story story_id="713">
+      <informant_id>324</informant_id>
+      <publication_info>DSnr_VI_534</publication_info>
+      <full_name>324 - 0.00 - DSnr_VI_534</full_name>
+      <url>data/stories/713.dfl</url>
+    </story>
+    <story story_id="59">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_437</publication_info>
+      <full_name>150 - 2.12 - DS_VII_437</full_name>
+      <url>data/stories/59.dfl</url>
+    </story>
+    <story story_id="58">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_447</publication_info>
+      <full_name>150 - 2.11 - DS_VII_447</full_name>
+      <url>data/stories/58.dfl</url>
+    </story>
+    <story story_id="796">
+      <informant_id>396</informant_id>
+      <publication_info>DS_VII_423</publication_info>
+      <full_name>396 - 0.00 - DS_VII_423</full_name>
+      <url>data/stories/796.dfl</url>
+    </story>
+    <story story_id="408">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_419</publication_info>
+      <full_name>123 - 3.05 - DS_VII_419</full_name>
+      <url>data/stories/408.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Heksene rider st. Hans aften p&#xE5; kattene til Troms kirke. I gamle tider skulde folk have kattene lukket inde den aften, for at heksene skulde ikke have dem at ride p&#xE5;. A har h&#xF8;rt fort&#xE6;lle, de et sted har fundet en kat med bidsel p&#xE5; om morgenen efter, den var reden ihjel. En heks, der rejste gjennem skorstenen, sagde: "Oven ud og ingen steder imod." Pigen havde h&#xF8;rt hende sige det og vilde ogs&#xE5; pr&#xF8;ve det. Hun sagde: "Oven ud og alle steder imod." Hun slog sig ihjel i skorstenen.</danish_publication>
+  <english_publication>The witches ride on cats on St. Hans Eve (St. John's Eve; midsummer) to Troms church. In the old days, people were supposed to keep their cats indoors that night, so the witches wouldn&#x2019;t have them to ride on. I heard tell that they found a cat with a bridle on the next morning, it was ridden to death. A witch who went through the chimney said: &#x201C;Up and out and no places against.&#x201D; The hired girl heard her say that and also wanted to try. She said: &#x201C;Up and out and everyplace against.&#x201D; She banged herself to death in the chimney.</english_publication>
+  <keywords>
+    <keyword id="68" frequency="1" keyword="banging">banging</keyword>
+    <keyword id="145" frequency="1" keyword="bridle">bridle</keyword>
+    <keyword id="187" frequency="3" keyword="cat">cat</keyword>
+    <keyword id="220" frequency="2" keyword="chimney">chimney</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="2" keyword="death">death</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1030" frequency="2" keyword="riding">riding</keyword>
+    <keyword id="1178" frequency="1" keyword="st_hans">St Hans</keyword>
+    <keyword id="1284" frequency="1" keyword="troms_church">Troms church</keyword>
+    <keyword id="1351" frequency="2" keyword="witch">witch</keyword>
+    <keyword id="1353" frequency="1" keyword="witchcraft">witchcraft</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="69" display_name="Animals: Cat"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="119" display_name="Time, Season, Weather: Skt. Hans"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

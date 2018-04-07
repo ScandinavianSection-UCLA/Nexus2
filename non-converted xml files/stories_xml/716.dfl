@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<story story_id="716">
+  <publication_info>DS_I_639</publication_info>
+  <full_name>541 - 0.00 - DS_I_639</full_name>
+  <informant_id>541</informant_id>
+  <informant_last_name>S&#xF8;rensen</informant_last_name>
+  <informant_first_name>Mikkel</informant_first_name>
+  <informant_full_name>Journalist Mikkel S&#xF8;rensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>792</place_id>
+      <name>Herskind</name>
+      <display_name>Herskind (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>598</place_id>
+      <name>Store V&#xE5;rbj&#xE6;rg</name>
+      <display_name>Store V&#xE5;rbj&#xE6;rg (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>626</place_id>
+      <name>Taftebj&#xE6;rg mark</name>
+      <display_name>Taftebj&#xE6;rg mark (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="281">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_100</publication_info>
+      <full_name>235 - 1.60 - DS_II_A_100</full_name>
+      <url>data/stories/281.dfl</url>
+    </story>
+    <story story_id="212">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_1113</publication_info>
+      <full_name>241 - 4.40 - DSnr_IV_1113</full_name>
+      <url>data/stories/212.dfl</url>
+    </story>
+    <story story_id="487">
+      <informant_id>524</informant_id>
+      <publication_info>DS_I_676</publication_info>
+      <full_name>524 - 0.00 - DS_I_676</full_name>
+      <url>data/stories/487.dfl</url>
+    </story>
+    <story story_id="654">
+      <informant_id>504</informant_id>
+      <publication_info>DS_I_593</publication_info>
+      <full_name>504 - 0.00 - DS_I_593</full_name>
+      <url>data/stories/654.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En aften, da en mand kom forbi Store-V&#xE5;rbj&#xE6;rg p&#xE5; Taftebj&#xE6;rg mark, s&#xE5; han, at en hel m&#xE6;ngde sm&#xE5;puslinger dandsede omkring h&#xF6;jens top. Han gik ganske sagte n&#xE6;rmere for bedre at se p&#xE5; deres lystighed, og nu s&#xE5; han ogs&#xE5; en del store kister fulde af skinnende guld- og s&#xF8;lvpenge. L&#xE5;gene var lukkede op, for at pengene kunde blive luftede ud i m&#xE5;neskinnet. Han kunde nok &#xF8;nske at eje nogle af disse skinnende penge, og da han s&#xE5; sit snit dertil, kastede han sin kniv i en af kisterne. Hurtig som et lyn forsvandt alle puslingerne ned i h&#xF6;jen med de &#xF8;vrige kister, men den, som han havde kastet sin kniv i, lod de st&#xE5;, og idet de forsvandt i h&#xF6;jen, truede de ad ham. Han skyndte sig nu efter heste og vogn og nogle m&#xE6;nd for at kj&#xF8;re kisten hjem. Deres trusler br&#xF8;d han sig ikke om, han troede ikke, at slige sm&#xE5; fyre kunde gj&#xF8;re ham noget, men n&#xE6;ste morgen, da han kom ud i stalden, l&#xE5; alt kv&#xE6;get og var d&#xF8;d i b&#xE5;sene.</danish_publication>
+  <english_publication>One night, as a man passed by Store-V&#xE5;rbj&#xE6;rg on Taftebj&#xE6;rg field, he saw that a whole group of little ones were dancing around the top of the mound. He went closer to watch their party, and now he also saw a number of large chests filled with gold and silver coins. The lids were open so that the money could be aired in the moon light. He wished he could have some of those coins, and when he saw his chance, he threw his knife into one of the chests. Quick as lightning, the little ones all disappeared with all the other chests, but they left the one that he'd thrown his knife into. As they disappeared into the mound, they threatened him. He hurried back to get horses and a wagon and some men to help him drive the chest home. He didn't pay much attention to their threats, he didn't think a bunch of little ones could do anything to him, but the next morning when he went out into the barn, all the cattle lay dead in their stalls.</english_publication>
+  <keywords>
+    <keyword id="54" frequency="1" keyword="attention">attention</keyword>
+    <keyword id="72" frequency="1" keyword="barn">barn</keyword>
+    <keyword id="190" frequency="1" keyword="cattle">cattle</keyword>
+    <keyword id="215" frequency="4" keyword="chest">chest</keyword>
+    <keyword id="246" frequency="2" keyword="coins">coins</keyword>
+    <keyword id="297" frequency="1" keyword="dancing">dancing</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="331" frequency="2" keyword="disappearance">disappearance</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="473" frequency="1" keyword="gold">gold</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="638" frequency="2" keyword="knife">knife</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="797" frequency="1" keyword="moon">moon</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="907" frequency="1" keyword="party">party</keyword>
+    <keyword id="1118" frequency="1" keyword="silver">silver</keyword>
+    <keyword id="1186" frequency="1" keyword="stall">stall</keyword>
+    <keyword id="1196" frequency="1" keyword="store">store</keyword>
+    <keyword id="1255" frequency="2" keyword="threat">threat</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="94" display_name="Actions or events: Oath"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

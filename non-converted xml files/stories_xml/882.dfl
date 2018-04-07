@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="882">
+  <publication_info>DS_V_744</publication_info>
+  <full_name>574 - 0.00 - DS_V_744</full_name>
+  <informant_id>574</informant_id>
+  <informant_last_name>Anonymous</informant_last_name>
+  <informant_first_name/>
+  <informant_full_name> Anonymous</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>488</place_id>
+      <name>R&#xF8;dding</name>
+      <display_name>R&#xF8;dding (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>143</place_id>
+      <name>Em</name>
+      <display_name>Em (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>988</place_id>
+      <name>&#xD8;ster Assels</name>
+      <display_name>&#xD8;ster Assels (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="748">
+      <informant_id>459</informant_id>
+      <publication_info>DS_V_730</publication_info>
+      <full_name>459 - 0.00 - DS_V_730</full_name>
+      <url>data/stories/748.dfl</url>
+    </story>
+    <story story_id="740">
+      <informant_id>111</informant_id>
+      <publication_info>DS_V_733</publication_info>
+      <full_name>111 - 0.00 - DS_V_733</full_name>
+      <url>data/stories/740.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Em p&#xE5; Mors var der et gjenf&#xE6;rd, som gik ude p&#xE5; marken, og de kunde ikke holde deres kreaturer sat for det. Det gik s&#xE5; vidt, at gjenf&#xE6;rdet undertiden kom ind til g&#xE5;rden ved solnedgang. S&#xE5; gik manden til pr&#xE6;sten i &#xD6;ster-Assels, og han kom og sagde til karlen om at kj&#xF8;re ham der over. Dern&#xE6;st anviste han ham en plads, hvor han skulde holde, og p&#xE5; den plads skulde han blive, indtil pr&#xE6;sten kom igjen, ihvor l&#xE6;nge han s&#xE5; blev borte. Mens karlen holdt, syntes han, pr&#xE6;sten klagede sig imellem. S&#xE5; stod m&#xE5;nen op, og han kunde da se, at pr&#xE6;sten l&#xE5; p&#xE5; jorden lidt der fra. Han gik da hen og kaldte p&#xE5; ham. Pr&#xE6;sten sagde, at det havde han synd af. "Nu er jeg fortabt." Dermed stod han op og kj&#xF8;rte med karlen hjem, og n&#xE6;ste dag druknede han sig i en mergelgrav omme i haven.</danish_publication>
+  <english_publication>In Em in Mors there was a revenant that walked out in the fields and they couldn&#x2019;t keep their farm animals calm because of it. It went so far that the revenant sometimes came into the farm at sunset. Then the farmer went to the minister in &#xD8;ster Assels and he came and told his farmhand to drive him over there. Next the minister showed him a place where he was supposed to wait and he was supposed to stay at that place until the minister came again, however long that was. While the farmhand waited, he thought he heard the minister complaining. Then the moon rose and he could see that the minister lay on the ground a little bit away. He went over and called to him. The minister said that that was bad for him. &#x201C;Now I&#x2019;m lost.&#x201D; With that he got up and drove with the farmhand home and the next day he drowned himself in a marl pit out in the back yard.</english_publication>
+  <keywords>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="358" frequency="1" keyword="drowning">drowning</keyword>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="395" frequency="3" keyword="farm_hand">farmhand</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="786" frequency="5" keyword="minister">minister</keyword>
+    <keyword id="797" frequency="1" keyword="moon">moon</keyword>
+    <keyword id="1027" frequency="2" keyword="revenant">revenant</keyword>
+    <keyword id="1046" frequency="1" keyword="rose">rose</keyword>
+    <keyword id="1219" frequency="1" keyword="sunset">sunset</keyword>
+    <keyword id="1368" frequency="1" keyword="yard">yard</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="96" display_name="Actions or events: Suicide"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

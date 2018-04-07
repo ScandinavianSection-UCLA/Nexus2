@@ -1,0 +1,37 @@
+<informant><person_id>526</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer S. P. Rasmussen</full_name>
+  <last_name>Rasmussen</last_name>
+  <first_name>S. P.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>810</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>526</informant_id>
+      <publication_info>DS_II_C_24</publication_info>
+      <full_name>526 - 0.00 - DS_II_C_24</full_name>
+      <url>data/stories/810.dfl</url>
+      <place_recorded><id>744</id>&#197;s, Tvingstrup</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>744</place_id>
+      <name>&#197;s, Tvingstrup</name>
+      <display_name>&#197;s, Tvingstrup (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

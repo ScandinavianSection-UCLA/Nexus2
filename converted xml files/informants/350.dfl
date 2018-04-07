@@ -1,0 +1,54 @@
+<informant><person_id>350</person_id>
+  <core_informant/>
+  <full_name>Niels Clauss&#248;n</full_name>
+  <last_name>Clauss&#248;n</last_name>
+  <first_name>Niels</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>763</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>350</informant_id>
+      <publication_info>DS_III_81</publication_info>
+      <full_name>350 - 0.00 - DS_III_81</full_name>
+      <url>data/stories/763.dfl</url>
+      <place_recorded><id>765</id>Dalby-Stubdrup</place_recorded>
+      <places_mentioned>
+        <place><id>111</id>
+          <name>Dalby</name>
+        </place>
+        <place><id>141</id>
+          <name>Elnebj&#230;rg</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>765</place_id>
+      <name>Dalby-Stubdrup</name>
+      <display_name>Dalby-Stubdrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>141</place_id>
+      <name>Elnebj&#230;rg</name>
+      <display_name>Elnebj&#230;rg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>111</place_id>
+      <name>Dalby</name>
+      <display_name>Dalby (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

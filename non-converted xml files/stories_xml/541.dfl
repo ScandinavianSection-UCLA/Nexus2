@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<story story_id="541">
+  <publication_info>DS_VI_33</publication_info>
+  <full_name>538 - 0.00 - DS_VI_33</full_name>
+  <informant_id>538</informant_id>
+  <informant_last_name>Svendsen</informant_last_name>
+  <informant_first_name>Hjalmar</informant_first_name>
+  <informant_full_name>Hjalmar Svendsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>809</place_id>
+      <name>Kirke Skjensved</name>
+      <display_name>Kirke Skjensved (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>271</place_id>
+      <name>H&#xF8;jelse</name>
+      <display_name>H&#xF8;jelse (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="271">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VI_2</publication_info>
+      <full_name>235 - 1.51 - DS_VI_2</full_name>
+      <url>data/stories/271.dfl</url>
+    </story>
+    <story story_id="689">
+      <informant_id>410</informant_id>
+      <publication_info>DS_VI_21</publication_info>
+      <full_name>410 - 0.00 - DS_VI_21</full_name>
+      <url>data/stories/689.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I H&#xF6;jelse levede en gang en pr&#xE6;st, som efter folks sigende kunde v&#xE6;re p&#xE5; to steder p&#xE5; &#xE9;n gang. S&#xE5; en dag rejste pr&#xE6;sten til Kj&#xF6;benhavn og skulde blive borte i l&#xE6;ngere tid. Da var der &#xE9;n af hans tjenestepiger, som havde f&#xE5;et lyst til en eller anden frugt i haven, og hun gik der ned og skulde lige til at plukke frugten. S&#xE5; kom pr&#xE6;sten i det samme spaserende. Hun m&#xE5;tte jo stikke af straks. S&#xE5;ledes skete det flere gange.</danish_publication>
+  <english_publication>Once there was a minister in H&#xF8;jelse who, according to what people said, could be two places at once. One day the minister went off to Copenhagen and was to be away for a while. Then one of his hired girls, who wanted some fruit or another in the garden, she went down there and was just about to pluck it. At that moment, the minister came walking up. She had to take off. That happened many times.</english_publication>
+  <keywords>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="456" frequency="1" keyword="garden">garden</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="786" frequency="3" keyword="minister">minister</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

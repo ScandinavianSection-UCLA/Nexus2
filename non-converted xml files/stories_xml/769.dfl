@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<story story_id="769">
+  <publication_info>DS_VII_145</publication_info>
+  <full_name>333 - 0.00 - DS_VII_145</full_name>
+  <informant_id>333</informant_id>
+  <informant_last_name>Bliksted</informant_last_name>
+  <informant_first_name>P.</informant_first_name>
+  <informant_full_name>L&#xE6;rer P. Bliksted</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>794</place_id>
+      <name>Hillerslev</name>
+      <display_name>Hillerslev (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>367</place_id>
+      <name>Lild</name>
+      <display_name>Lild (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="146">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_146</publication_info>
+      <full_name>241 - 1.05 - DS_VII_146</full_name>
+      <url>data/stories/146.dfl</url>
+    </story>
+    <story story_id="752">
+      <informant_id>550</informant_id>
+      <publication_info>DS_VII_141</publication_info>
+      <full_name>550 - 0.00 - DS_VII_141</full_name>
+      <url>data/stories/752.dfl</url>
+    </story>
+    <story story_id="720">
+      <informant_id>371</informant_id>
+      <publication_info>DS_VII_110</publication_info>
+      <full_name>371 - 0.00 - DS_VII_110</full_name>
+      <url>data/stories/720.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gammel mand i Lild sogn gik en sankt-Hans aften ud for at bes&#xF8;ge nogle venner. Han skulde over en hedestr&#xE6;kning, der havde et slet rygte p&#xE5; sig. Is&#xE6;r var der et sted, hvor der havde st&#xE5;et en g&#xE5;rd, som var bleven flyttet formedelst sandflugt. Da han kom der til, var han helt angst og l&#xE6;ste sit fadervor. Med &#xE9;t s&#xE5; han en flok harer, der l&#xF8;b omkring blandt grusdyngerne og legede. Han kunde straks skj&#xF6;nne, at det ikke var rigtige harer, ti deres bagben var ub&#xF8;jelige. Med &#xE9;t fattede han sin beslutning. Han gik hen til flokken og n&#xE6;vnede en kones navn, der var fra en g&#xE5;rd i n&#xE6;rheden og kjendt for en heks. Straks stod konen for ham og sagde: "Det var den st&#xF6;rste fortr&#xE6;d, som nogensinde er tilf&#xF6;jet mig." Derefter forsvandt hun, og kort efter var hun d&#xF8;d. Men manden slap heller ikke helt godt fra det. Da han kom til bestemmelsesstedet, var han syg, og l&#xE5; l&#xE6;nge efter.</danish_publication>
+  <english_publication>An old man in Lild parish went to visit some friends one Saint Hans eve. He had to cross a heath that had a bad reputation. In particular, there was a place where there had been a farm that had been moved because of the sand drifts. When he got there, he was really frightened and read his Our Father. All at once, he saw a flock of hares that were running about among the piles of gravel playing. He could tell right away that they weren't really hares since their back legs couldn't bend. He made a decision at once. He went over to the flock and named a woman who was from a neighboring farm who was known as a witch. At once, the woman was standing there and said, "That's the worst thing that anyone has ever done to me." She disappeared after that, and a little later she was dead. But the man didn't get away from that well. When he got to where he was going, he was sick, and was bedridden for a long time after.</english_publication>
+  <keywords>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="421" frequency="2" keyword="flock">flock</keyword>
+    <keyword id="445" frequency="1" keyword="friend">friend</keyword>
+    <keyword id="500" frequency="2" keyword="hare">hare</keyword>
+    <keyword id="517" frequency="1" keyword="heath">heath</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="886" frequency="1" keyword="our_father">Our Father</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="1025" frequency="1" keyword="reputation">reputation</keyword>
+    <keyword id="1062" frequency="1" keyword="saint_hans">Saint Hans</keyword>
+    <keyword id="1066" frequency="1" keyword="sand">sand</keyword>
+    <keyword id="1111" frequency="1" keyword="sickness">sickness</keyword>
+    <keyword id="1351" frequency="1" keyword="witch">witch</keyword>
+    <keyword id="1356" frequency="2" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="32" display_name="Places: Heath"/>
+    <tango_index id="73" display_name="Animals: Hare"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

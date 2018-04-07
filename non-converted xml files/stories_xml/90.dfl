@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<story story_id="90">
+  <publication_info>JAH_V_75</publication_info>
+  <full_name>150 - 3.27 - JAH_V_75</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.27</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="249">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_539</publication_info>
+      <full_name>235 - 1.29 - JAH_V_539</full_name>
+      <url>data/stories/249.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4101a (2)</fielddiary_page_start>
+  <fielddiary_page_end>4101a (2)</fielddiary_page_end>
+  <bibliographic_info>Hvidt and Olsen 1990.</bibliographic_info>
+  <bibliography_references>
+    <reference id="741" category="general">
+      <display_string>[Book] Hvidt, Kristian, Olsen, Olaf. 1990. &lt;i&gt;Gyldendal og Politikens Danmarkshistorie bd 11 1850-1900&lt;/i&gt;. Copenhagen: Gyldendal.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Prior to the reform of the trade laws in 1857, it was illegal for people to sell provisions outside of the market towns. The new law still governed trade within a seven and a half kilometer radius around market towns. This prohibition contributed to a wide scale barter economy, black market sales, the fairly common phenomenon of wandering peddlers and, at the end of the century, the emergence of the purchasing cooperatives. This latter development allowed rural populations more control and much greater access to provisions, even during the late winter and early spring.</annotation>
+  <danish_manuscript>Dg. havde de ingen h&#xF8;kere at kj&#xF8;be Tilmad ved,
+s. maatte de gaa hen til dem der havde noget
+om Foraaret og klage sig: Nu har det aldrig
+v&#xE6;ret s. galt med Tilbr&#xF8;d som i Aar.</danish_manuscript>
+  <english_manuscript>There weren't any small shops where you could by provisions back then so they had to walk over to those who had some left in the spring and complain, "It has never been as bad with provisions as it is this year."</english_manuscript>
+  <danish_publication>Forhen havde de ingen h&#xF8;kere at kj&#xF8;be tilmad ved s&#xE5;dan som nu. N&#xE5;r det blev for&#xE5;r, var det jo sluppet op for mange sm&#xE5;folk b&#xE5;de med det ene og det andet, og tilmad havde de ikke af. S&#xE5; kom de g&#xE5;ende hen til dem, der havde noget, og klagede dem i en elendig tid. "Nu har det aldrig v&#xE6;ret s&#xE5; galt som i &#xE5;r," sagde de, "med at f&#xE5; tilbr&#xF8;d, vi har ikke det ringeste i vort hus."</danish_publication>
+  <english_publication>In the past, there weren&#x2019;t any small shops where you could by provisions as there are today. When it got to be spring, for a lot of smallholders, they didn&#x2019;t have much food left. Then they&#x2019;d walk over to those who did have some left, and they&#x2019;d complain to them for quite a while. &#x201C;It's never been as bad as it is this year,&#x201D; they&#x2019;d say, &#x201C;with getting provisions, we don&#x2019;t have even the worst food in our house.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="431" frequency="2" keyword="food">food</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="1177" frequency="1" keyword="spring">spring</keyword>
+    <keyword id="1265" frequency="1" keyword="today">today</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="35">
+    <heading_danish>Livet uden d&#xF8;re</heading_danish>
+    <heading_english>Life outdoors</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

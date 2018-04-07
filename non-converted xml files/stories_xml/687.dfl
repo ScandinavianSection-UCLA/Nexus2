@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<story story_id="687">
+  <publication_info>DS_IV_1762</publication_info>
+  <full_name>390 - 0.00 - DS_IV_1762</full_name>
+  <informant_id>390</informant_id>
+  <informant_last_name>Holdt</informant_last_name>
+  <informant_first_name>Mads</informant_first_name>
+  <informant_full_name>Skovrider Mads Holdt</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>847</place_id>
+      <name>P&#xE5;b&#xF8;l</name>
+      <display_name>P&#xE5;b&#xF8;l (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1050</place_id>
+      <name>Hejnsvig</name>
+      <display_name>Hejnsvig (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="874">
+      <informant_id/>
+      <publication_info>DS_IV_1728</publication_info>
+      <full_name>0 - 0.00 - DS_IV_1728</full_name>
+      <url>data/stories/874.dfl</url>
+    </story>
+    <story story_id="801">
+      <informant_id>442</informant_id>
+      <publication_info>DS_IV_1755</publication_info>
+      <full_name>442 - 0.00 - DS_IV_1755</full_name>
+      <url>data/stories/801.dfl</url>
+    </story>
+    <story story_id="545">
+      <informant_id>407</informant_id>
+      <publication_info>DS_IV_1749</publication_info>
+      <full_name>407 - 0.00 - DS_IV_1749</full_name>
+      <url>data/stories/545.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Den gang pesten havde v&#xE6;ret her, ringede de med kirkeklokkerne, hvor der var nogle folk, men de standsede jo s&#xE5;dan efterh&#xE5;nden mange steder. I Hejnsvig var en gl. kone og s&#xE5; hendes datter, de boede i et lille hus, og de overlevede pesten. Men s&#xE5; nede i Tyland der var ogs&#xE5; en karl, der overlevede den, og han vidste ingen folk af at sige. S&#xE5; vilde han ud at s&#xF8;ge efter nogle, men nordp&#xE5; mente han ikke, det kunde hj&#xE6;lpe at komme, for han vidste, at pesten var kommen nordfra. S&#xE5; tykte han, han m&#xE5;tte helst s&#xF8;ge s&#xF8;nder og &#xF6;ster p&#xE5;. Alts&#xE5; rejste han, men det tog flere dage, og han s&#xE5; ingen folk. Endelig en dag s&#xE5; han, det r&#xF6;gte op af et lille hus. Der s&#xF6;gte han jo hen, og det var der, denher enke og datter boede. De holdt dem inde, for de turde slet ikke komme ud, s&#xE5; l&#xE6;nge pesten varede. Der kommer han til dem og sl&#xE5;r sig ned ved dem, og de to unge bliver gift sammen. Fra de to folk nedstammer alle Hejnsvig-boerne. </danish_publication>
+  <english_publication>During the time when the plague was here, wherever there were people, they rang the church bells. But they stopped after a while in many places. There was an old woman in Hjernsvig and her daughter, they lived in a little house, and they survived the plague. But then down in Tyland there was also a young man who survived and nobody knew anything about him. And so he wanted to go out and find other people, but he didn&#x2019;t think that it would be worth it to go north, since he knew that the plague had come from the north. So he thought that he&#x2019;d better search to the east or to the south. So he set out, but it took many days and he didn&#x2019;t meet any people. Finally one day he noticed that there was smoke coming from a little house. So he went there and it was there that this widow and her daughter lived. They had stayed inside since they didn&#x2019;t dare go outside as long as the plague lasted. He comes to them and settles down with them and the two young ones get married. All the Hejnsvig dwellers descend from these two.</english_publication>
+  <keywords>
+    <keyword id="88" frequency="1" keyword="bells">bells</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="304" frequency="2" keyword="daughter">daughter</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="369" frequency="1" keyword="east">east</keyword>
+    <keyword id="548" frequency="2" keyword="house">house</keyword>
+    <keyword id="753" frequency="1" keyword="marriage">marriage</keyword>
+    <keyword id="863" frequency="2" keyword="north">north</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="959" frequency="4" keyword="plague">plague</keyword>
+    <keyword id="1147" frequency="1" keyword="smoke">smoke</keyword>
+    <keyword id="1167" frequency="1" keyword="south">south</keyword>
+    <keyword id="1224" frequency="2" keyword="survivor">survivor</keyword>
+    <keyword id="1342" frequency="1" keyword="widow">widow</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+    <keyword id="1374" frequency="2" keyword="young">young</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="46" display_name="Tools, Items and Conveyances: Bell"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

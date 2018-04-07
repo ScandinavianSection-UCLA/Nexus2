@@ -1,0 +1,83 @@
+<story><story_id>652</story_id>
+  <publication_info>DS_V_1164</publication_info>
+  <full_name>189 - 0.00 - DS_V_1164</full_name>
+  <informant_id>189</informant_id>
+  <informant_last_name>Meldgaard</informant_last_name>
+  <informant_first_name>A. J.</informant_first_name>
+  <informant_full_name>A. J. Meldgaard</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>59</place_id>
+      <name>Bjedstrup</name>
+      <display_name>Bjedstrup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>615</place_id>
+      <name>Svejstrup</name>
+      <display_name>Svejstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>378</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1163</publication_info>
+      <full_name>123 - 2.04 - DS_V_1163</full_name>
+      <url>data/stories/378.dfl</url>
+    </story>
+    <story><story_id>593</story_id>
+      <informant_id>375</informant_id>
+      <publication_info>DS_V_1157</publication_info>
+      <full_name>375 - 0.00 - DS_V_1157</full_name>
+      <url>data/stories/593.dfl</url>
+    </story>
+    <story><story_id>594</story_id>
+      <informant_id>412</informant_id>
+      <publication_info>DS_V_1158</publication_info>
+      <full_name>412 - 0.00 - DS_V_1158</full_name>
+      <url>data/stories/594.dfl</url>
+    </story>
+    <story><story_id>725</story_id>
+      <informant_id>380</informant_id>
+      <publication_info>DS_V_1171</publication_info>
+      <full_name>380 - 0.00 - DS_V_1171</full_name>
+      <url>data/stories/725.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En karl havde lokket en pige her i pr&#230;steg&#229;rden i Svejstrup, og hun d&#248;de og blev begravet uforl&#248;st. S&#229; var der aldrig rolighed i pr&#230;steg&#229;rden, for hun kom og vilde have linned til hendes barn. Pastor Petersen m&#229;tte ogs&#229; til at have den sag i rigtighed.</danish_publication>
+  <english_publication>A farmhand had seduced a girl here in the parsonage in Svejstrup, and she died and was buried without having delivered. Then there was never peace in the parsonage because she would come and wanted linen for her child. Pastor Petersen had to make that situation right.</english_publication>
+  <keywords>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>219</id><frequency>1</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>467</id><frequency>1</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>713</id><frequency>1</frequency><keyword>linen</keyword>linen</keyword>
+    <keyword><id>906</id><frequency>2</frequency><keyword>parsonage</keyword>parsonage</keyword>
+    <keyword><id>916</id><frequency>1</frequency><keyword>pastor_petersen</keyword>Pastor Petersen</keyword>
+    <keyword><id>1083</id><frequency>1</frequency><keyword>seduction</keyword>seduction</keyword>
+  </keywords>
+  <etk_index><id>24</id>
+    <heading_danish>Kvindelige gjenf&#230;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>132</id><display_name>Actions or events: Pregnancy and birth</display_name></tango_index>
+    <tango_index><id>133</id><display_name>Actions or events: Seduction</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

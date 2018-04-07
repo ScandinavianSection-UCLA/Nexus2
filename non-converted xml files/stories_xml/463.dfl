@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<story story_id="463">
+  <publication_info>DS_I_832</publication_info>
+  <full_name>483 - 0.00 - DS_I_832</full_name>
+  <informant_id>483</informant_id>
+  <informant_last_name>Nielsdatter</informant_last_name>
+  <informant_first_name>Ane Katrine</informant_first_name>
+  <informant_full_name>Ane Katrine Nielsdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>776</place_id>
+      <name>Fjellerup</name>
+      <display_name>Fjellerup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>999</place_id>
+      <name>Skiffard</name>
+      <display_name>Skiffard (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="238">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_782</publication_info>
+      <full_name>235 - 1.19 - DS_I_782</full_name>
+      <url>data/stories/238.dfl</url>
+    </story>
+    <story story_id="388">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_830</publication_info>
+      <full_name>123 - 2.14 - DS_I_830</full_name>
+      <url>data/stories/388.dfl</url>
+    </story>
+    <story story_id="457">
+      <informant_id>342</informant_id>
+      <publication_info>DS_II_A_17</publication_info>
+      <full_name>342 - 0.00 - DS_II_A_17</full_name>
+      <url>data/stories/457.dfl</url>
+    </story>
+    <story story_id="617">
+      <informant_id>365</informant_id>
+      <publication_info>DS_I_807</publication_info>
+      <full_name>365 - 0.00 - DS_I_807</full_name>
+      <url>data/stories/617.dfl</url>
+    </story>
+    <story story_id="133">
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_402</publication_info>
+      <full_name>150 - 4.22 - DS_I_402</full_name>
+      <url>data/stories/133.dfl</url>
+    </story>
+    <story story_id="175">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_324</publication_info>
+      <full_name>241 - 4.04 - DSnr_I_324</full_name>
+      <url>data/stories/175.dfl</url>
+    </story>
+    <story story_id="822">
+      <informant_id>69</informant_id>
+      <publication_info>DS_I_381</publication_info>
+      <full_name>69 - 0.00 - DS_I_381</full_name>
+      <url>data/stories/822.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#xE5; min faders mark i Skiffard er en stor dal, Dybdal, og p&#xE5; begge sider er der temmelig store bakker. &#xD6;sten for er Bj&#xE6;rgbakken, og som karlen pl&#xF6;jede derved en dag, fandt han en sk&#xE5;de, som han gjorde i stand, imens han spiste sin meldmad. Da han kom tilbage, l&#xE5; der en kage, hvoraf han selv spiste noget, og han gav ogsaa pigen noget, der gik og spredte m&#xF8;g. Men hun blev t&#xE5;belig af det, og da hun kom hjem, sagde hun: "Kan I h&#xF8;re, hvordan de spiller her ude i bakken? a skal ud til dem". Hun vilde absolut af sted, og den gamle mand s&#xE5; nu, at hun l&#xF8;b ned til bakken. Der tumlede bj&#xE6;rgfolkene med hende den ganske nat. Hun kom vel tilbage igjen om morgenen, men de m&#xE5;tte siden holde hende indesp&#xE6;rret for at holde hende fra at s&#xF8;ge ud til bakken.</danish_publication>
+  <english_publication>On my father&#x2019;s field in Skiffard there was a big dale, Dybdal, and on each side there were big hills. To the east is Bj&#xE6;rgbakken (Mountain hill), and when the farmhand plowed near there one day, he found a peel board which he repaired while he ate his sandwich. When he came back, a cake lay there and he ate a little bit of it and he also gave some to the girl who was spreading manure. But she got silly stupid because of it and when she got home, she said: &#x201C;Can you hear how they&#x2019;re playing out in the mound? I&#x2019;ve got to go out to them.&#x201D; She absolutely wanted to leave and the old man now saw that she ran out to the mound. There the mound dwellers tumbled about with her the entire night. She came back well enough the next morning but they had to keep her locked up after that to keep her from going out to the mound.</english_publication>
+  <keywords>
+    <keyword id="168" frequency="1" keyword="cake">cake</keyword>
+    <keyword id="294" frequency="1" keyword="dale">dale</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="369" frequency="1" keyword="east">east</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="530" frequency="2" keyword="hill">hill</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="722" frequency="1" keyword="lock">lock</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="804" frequency="3" keyword="mound">mound</keyword>
+    <keyword id="805" frequency="1" keyword="mound_dweller">mound dweller</keyword>
+    <keyword id="809" frequency="1" keyword="mountain">mountain</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="933" frequency="1" keyword="peel_board">peel board</keyword>
+    <keyword id="966" frequency="1" keyword="plowing">plowing</keyword>
+    <keyword id="1067" frequency="1" keyword="sandwich">sandwich</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="51" display_name="Tools, Items and Conveyances: Plow"/>
+    <tango_index id="52" display_name="Tools, Items and Conveyances: Tools"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

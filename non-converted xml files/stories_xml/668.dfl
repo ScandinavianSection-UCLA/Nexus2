@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<story story_id="668">
+  <publication_info>DS_II_G_219</publication_info>
+  <full_name>515 - 0.00 - DS_II_G_219</full_name>
+  <informant_id>515</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Lars</informant_first_name>
+  <informant_full_name>Lars Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>820</place_id>
+      <name>Langemark, Sams&#xF8;</name>
+      <display_name>Langemark, Sams&#xF8; (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="7">
+      <informant_id>150</informant_id>
+      <publication_info>JFm_X_79c</publication_info>
+      <full_name>150 - 1.04 - JFm_X_79c</full_name>
+      <url>data/stories/7.dfl</url>
+    </story>
+    <story story_id="168">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_G_138</publication_info>
+      <full_name>241 - 2.18 - DSnr_II_G_138</full_name>
+      <url>data/stories/168.dfl</url>
+    </story>
+    <story story_id="601">
+      <informant_id>419</informant_id>
+      <publication_info>DS_II_G_221</publication_info>
+      <full_name>419 - 0.00 - DS_II_G_221</full_name>
+      <url>data/stories/601.dfl</url>
+    </story>
+    <story story_id="342">
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_313</publication_info>
+      <full_name>90 - 2.10 - Lege_0_313</full_name>
+      <url>data/stories/342.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The more common reading of the verse provides "d&#xF8;de rider rank" (DS II G 221), a possible reference to the child's game of "Ride ride ranke" (AMJ 2.1).</annotation>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Et sted i Jylland var en gang et par forlovede, og kort f&#xF6;r den tid, da deres bryllup var bestemt, d&#xF8;de karlen. Pigen gik nu og s&#xF6;rgede meget over ham. Hun tjente hos en degn, som boede lidt uden for byen t&#xE6;t ved kirken, og en aften hun havde v&#xE6;ret et &#xE6;rende i byen og gik hjem igjen, s&#xE5; hun en rytter, der kom ridende imod hende, p&#xE5; vejen fra kirkeg&#xE5;rden. M&#xE5;nen skinnede klart, og hun kunde se, det var hendes d&#xF8;de kj&#xE6;reste. Da rytteren kom t&#xE6;t til hende, sang han:      
+"M&#xE5;nen skinner blank;
+den d&#xF8;de rider krank,
+bliver du ikke bange ?"
+Pigen blev for skr&#xE6;kket st&#xE5;ende, og rytteren sang det samme igjen, men da han sang det tredje gang, begyndte hun at l&#xF8;be hjem efter. Da rytteren s&#xE5; dette, sprang han af hesten og l&#xF8;b efter hende, men hun fik d&#xF6;ren sm&#xE6;kket i, inden han n&#xE5;ede hende, og inden for kunde hun h&#xF8;re, hvorledes han uden for stod og skrabede p&#xE5; d&#xF6;ren.</danish_publication>
+  <english_publication>Once there were a pair who were engaged some place in Jutland, and a short while before their wedding day, the man died. The girl went about mourning him quite a bit. She worked for a parish clerk who lived a little ways outside of town close to the church, and one evening she'd been in town on an errand and was walking home again when she saw someone on horseback riding towards her on the way from the cemetery. The moon was shining clearly and she could see that it was her beloved. When the rider came close to her, he sang, 
+"The moon shines brightly, 
+the dead one rides sickly, 
+aren't you afraid?" 
+The girl stood stock still out of fright and the rider sang the same thing again, but when he began to sing it a third time, she started running home. When the rider saw that, he jumped off his horse and ran after her, but she managed to slam the door before he reached her and she could hear from inside how he stood outside scraping on the door.</english_publication>
+  <keywords>
+    <keyword id="13" frequency="1" keyword="afraid">afraid</keyword>
+    <keyword id="89" frequency="1" keyword="beloved">beloved</keyword>
+    <keyword id="196" frequency="1" keyword="cemetery">cemetery</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="2" keyword="death">death</keyword>
+    <keyword id="344" frequency="2" keyword="door">door</keyword>
+    <keyword id="383" frequency="1" keyword="errand">errand</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="537" frequency="2" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="611" frequency="1" keyword="jutland">Jutland</keyword>
+    <keyword id="753" frequency="1" keyword="marriage">marriage</keyword>
+    <keyword id="797" frequency="2" keyword="moon">moon</keyword>
+    <keyword id="810" frequency="1" keyword="mourning">mourning</keyword>
+    <keyword id="889" frequency="2" keyword="outside">outside</keyword>
+    <keyword id="904" frequency="1" keyword="parish_clerk">parish clerk</keyword>
+    <keyword id="1030" frequency="5" keyword="riding">riding</keyword>
+    <keyword id="1122" frequency="3" keyword="singing">singing</keyword>
+    <keyword id="1275" frequency="2" keyword="town">town</keyword>
+    <keyword id="1327" frequency="1" keyword="wedding">wedding</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="16" display_name="People: Parish Clerk"/>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="125" display_name="Time, Season, Weather: Moon"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

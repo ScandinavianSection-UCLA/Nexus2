@@ -1,0 +1,94 @@
+<story><story_id>499</story_id>
+  <publication_info>DS_VII_592</publication_info>
+  <full_name>547 - 0.00 - DS_VII_592</full_name>
+  <informant_id>547</informant_id>
+  <informant_last_name>Trier</informant_last_name>
+  <informant_first_name>E.</informant_first_name>
+  <informant_full_name>H&#248;jskoleforstander E. Trier</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>900</place_id>
+      <name>Vallekilde</name>
+      <display_name>Vallekilde (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>88</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_43</publication_info>
+      <full_name>150 - 3.25 - JAH_I_43</full_name>
+      <url>data/stories/88.dfl</url>
+    </story>
+    <story><story_id>145</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_1182</publication_info>
+      <full_name>241 - 1.04 - DS_VII_1182</full_name>
+      <url>data/stories/145.dfl</url>
+    </story>
+    <story><story_id>706</story_id>
+      <informant_id>424</informant_id>
+      <publication_info>DS_VII_577</publication_info>
+      <full_name>424 - 0.00 - DS_VII_577</full_name>
+      <url>data/stories/706.dfl</url>
+    </story>
+    <story><story_id>412</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_169</publication_info>
+      <full_name>123 - 3.09 - DS_VII_169</full_name>
+      <url>data/stories/412.dfl</url>
+    </story>
+    <story><story_id>516</story_id>
+      <informant_id>545</informant_id>
+      <publication_info>DS_VII_588</publication_info>
+      <full_name>545 - 0.00 - DS_VII_588</full_name>
+      <url>data/stories/516.dfl</url>
+    </story>
+    <story><story_id>519</story_id>
+      <informant_id>438</informant_id>
+      <publication_info>DS_VII_584</publication_info>
+      <full_name>438 - 0.00 - DS_VII_584</full_name>
+      <url>data/stories/519.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gammel kone, som hed Barbara, var i ry for trolddom. N&#229;r pigerne om middagen gik ud for at malke, s&#229; satte hun sig bag ved et gj&#230;rde og malkede nogle tr&#230;pinde, og derved tog hun m&#230;lken fra k&#248;erne, s&#229; b&#248;nderne fik ingen.</danish_publication>
+  <english_publication>An old woman named Barbara had a reputation for being a witch. When the girls went out to milk at noon, she sat behind a fence and milked some wooden pins, and by doing that she took the milk from the cows, so the farmers didn't get any.</english_publication>
+  <keywords>
+    <keyword><id>274</id><frequency>1</frequency><keyword>cow</keyword>cow</keyword>
+    <keyword><id>396</id><frequency>1</frequency><keyword>farmer</keyword>farmer</keyword>
+    <keyword><id>407</id><frequency>1</frequency><keyword>fence</keyword>fence</keyword>
+    <keyword><id>467</id><frequency>1</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>782</id><frequency>3</frequency><keyword>milk</keyword>milk</keyword>
+    <keyword><id>822</id><frequency>1</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>861</id><frequency>1</frequency><keyword>noon</keyword>noon</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1025</id><frequency>1</frequency><keyword>reputation</keyword>reputation</keyword>
+    <keyword><id>1351</id><frequency>1</frequency><keyword>witch</keyword>witch</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+    <keyword><id>1359</id><frequency>1</frequency><keyword>wooden</keyword>wooden</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

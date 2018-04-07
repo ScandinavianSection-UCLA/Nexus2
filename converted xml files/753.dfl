@@ -1,0 +1,66 @@
+<story><story_id>753</story_id>
+  <publication_info>DS_II_B_48</publication_info>
+  <full_name>558 - 0.00 - DS_II_B_48</full_name>
+  <informant_id>558</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>880</place_id>
+      <name>Stj&#230;r</name>
+      <display_name>Stj&#230;r (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>275</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_B_90</publication_info>
+      <full_name>235 - 1.55 - DS_II_B_90</full_name>
+      <url>data/stories/275.dfl</url>
+    </story>
+    <story><story_id>781</story_id>
+      <informant_id>467</informant_id>
+      <publication_info>DS_II_B_214</publication_info>
+      <full_name>467 - 0.00 - DS_II_B_214</full_name>
+      <url>data/stories/781.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand, der var bleven i fodertrang, havde en nisse, men det var af de unge nisser, der ikke var rigtig l&#230;rt. Han og karlen var gode venner og kunde s&#229; godt f&#248;lges ad. S&#229; skulde de hen at stj&#230;le foder og kom ind i en lade. Nissen tog s&#229; meget b&#229;de uden al ende og tal, og s&#229; gik de. Da de havde g&#229;et et stykke, siger karlen: "Skal vi ikke hvile?" Hvad det var? Ja, det skulde han vise ham, og s&#229; satte han sig ned. Da de havde siddet lidt, siger nissen, at dersom han havde vidst, der var noget, som kaldtes at hvile sig, s&#229; skulde det have v&#230;ret til g&#229;rden, alt hvad der var i laden.</danish_publication>
+  <english_publication>A man who was in need of fodder had a nisse, but it was one of those young nisser, who hadn&#8217;t really learned that much yet. He and the farmhand were good friends and would accompany each other all the time. Then one time they were to go steal fodder and they came to a barn. The nisse took far beyond all measure and then they left. After they had gone a little ways, the farmhand says: &#8220;Shouldn&#8217;t we take a rest?&#8221; What&#8217;s that? Well, he&#8217;d show him, and then he sat down. After they&#8217;d sat a while, the nisse says that if he&#8217;d known that there was something called to take a rest, then he&#8217;d have brought everything that was in the barn back to the farm.</english_publication>
+  <keywords>
+    <keyword><id>72</id><frequency>2</frequency><keyword>barn</keyword>barn</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>395</id><frequency>2</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>428</id><frequency>2</frequency><keyword>fodder</keyword>fodder</keyword>
+    <keyword><id>445</id><frequency>1</frequency><keyword>friend</keyword>friend</keyword>
+    <keyword><id>699</id><frequency>1</frequency><keyword>learning</keyword>learning</keyword>
+    <keyword><id>857</id><frequency>4</frequency><keyword>nisse</keyword>nisse</keyword>
+    <keyword><id>1026</id><frequency>2</frequency><keyword>rest</keyword>rest</keyword>
+    <keyword><id>1248</id><frequency>1</frequency><keyword>theft</keyword>theft</keyword>
+    <keyword><id>1374</id><frequency>1</frequency><keyword>young</keyword>young</keyword>
+  </keywords>
+  <etk_index><id>3</id>
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>65</id><display_name>Supernatural Beings: Nisse</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

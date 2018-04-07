@@ -1,0 +1,78 @@
+<informant><person_id>442</person_id>
+  <core_informant/>
+  <full_name>Petrine Kristiansen</full_name>
+  <last_name>Kristiansen</last_name>
+  <first_name>Petrine</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>799</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>442</informant_id>
+      <publication_info>DS_IV_1681</publication_info>
+      <full_name>442 - 0.00 - DS_IV_1681</full_name>
+      <url>data/stories/799.dfl</url>
+      <place_recorded><id>412</id>Mollerup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>800</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>442</informant_id>
+      <publication_info>DS_IV_1683</publication_info>
+      <full_name>442 - 0.00 - DS_IV_1683</full_name>
+      <url>data/stories/800.dfl</url>
+      <place_recorded><id>412</id>Mollerup</place_recorded>
+      <places_mentioned>
+        <place><id>898</id>
+          <name>Ulfborg</name>
+        </place>
+        <place><id>488</id>
+          <name>R&#248;dding</name>
+        </place>
+        <place><id>354</id>
+          <name>Krejbj&#230;rg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>801</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>442</informant_id>
+      <publication_info>DS_IV_1755</publication_info>
+      <full_name>442 - 0.00 - DS_IV_1755</full_name>
+      <url>data/stories/801.dfl</url>
+      <place_recorded><id>412</id>Mollerup</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>412</place_id>
+      <name>Mollerup</name>
+      <display_name>Mollerup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>354</place_id>
+      <name>Krejbj&#230;rg</name>
+      <display_name>Krejbj&#230;rg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>488</place_id>
+      <name>R&#248;dding</name>
+      <display_name>R&#248;dding (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>898</place_id>
+      <name>Ulfborg</name>
+      <display_name>Ulfborg (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

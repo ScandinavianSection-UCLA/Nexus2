@@ -1,0 +1,75 @@
+<story><story_id>485</story_id>
+  <publication_info>DS_V_809</publication_info>
+  <full_name>411 - 0.00 - DS_V_809</full_name>
+  <informant_id>411</informant_id>
+  <informant_last_name>Jespersen</informant_last_name>
+  <informant_first_name>Chr.</informant_first_name>
+  <informant_full_name>Chr. Jespersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>838</place_id>
+      <name>&#216; Marie</name>
+      <display_name>&#216; Marie (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>76</place_id>
+      <name>Bornholm</name>
+      <display_name>Bornholm (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>226</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_810</publication_info>
+      <full_name>235 - 1.07 - DS_V_810</full_name>
+      <url>data/stories/226.dfl</url>
+    </story>
+    <story><story_id>728</story_id>
+      <informant_id>415</informant_id>
+      <publication_info>DS_V_804</publication_info>
+      <full_name>415 - 0.00 - DS_V_804</full_name>
+      <url>data/stories/728.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der fort&#230;lles om en pr&#230;st p&#229; Bornholm, at da han om aftenen kj&#248;rte hjem forbi kirkeg&#229;rden og s&#229;, at det ikke var rigtig fat der inde, befalede han kusken at holde, medens han gik derind, og sagde tillige, at hvis han ikke kom tilbage, inden lygten, de havde med, var g&#229;et ud, skulde han kun kj&#248;re, for s&#229; kom han aldrig mere. Kusken gjorde s&#229;, men han s&#229; et forskr&#230;kkeligt syn der inde p&#229; kirkeg&#229;rden. Han kunde se pr&#230;sten st&#229; og mane nogle ned, som stod p&#229; t&#248;ndebunde, og ilden stod rundt om dem. Omsider, da lygten var lige ved at g&#229; ud, kom pr&#230;sten farende med tungen ud af halsen og kj&#248;rte hjem. Det samme fort&#230;lles om en anden pr&#230;st, kun med den forskjel, at han satte et lys p&#229; sit v&#230;relse og sagde, at kom han ikke, til det var udbr&#230;ndt, kom han aldrig mere.</danish_publication>
+  <english_publication>There's a story about a minister on Bornholm who, one night, when he was driving home past the cemetery, noticed that things weren't quite right in there. He told his coachman to stop while he went in there, and he said that if he didn't come back before the lantern they had with them burned out, he should drive, since he wouldn't be coming back ever again. The coachman did as he was asked, but he saw a terrible sight there in the cemetery. He could see the minister standing there conjuring someone down, who was standing on the bottom of a barrel, and fire was all around them. Later, when the lantern was just about to go out, the minister came running with his tongue hanging out and they drove home. The same story is told about another minister with the one difference that he put a candle in his room and said that if he didn't come back before it burned out then he'd never come back again.</english_publication>
+  <keywords>
+    <keyword><id>74</id><frequency>1</frequency><keyword>barrel</keyword>barrel</keyword>
+    <keyword><id>171</id><frequency>1</frequency><keyword>candle</keyword>candle</keyword>
+    <keyword><id>196</id><frequency>2</frequency><keyword>cemetery</keyword>cemetery</keyword>
+    <keyword><id>240</id><frequency>2</frequency><keyword>coachman</keyword>coachman</keyword>
+    <keyword><id>255</id><frequency>1</frequency><keyword>conjuring</keyword>conjuring</keyword>
+    <keyword><id>413</id><frequency>3</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>537</id><frequency>2</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>685</id><frequency>2</frequency><keyword>lantern</keyword>lantern</keyword>
+    <keyword><id>786</id><frequency>4</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1200</id><frequency>2</frequency><keyword>story</keyword>story</keyword>
+    <keyword><id>1268</id><frequency>1</frequency><keyword>tongue</keyword>tongue</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>27</id><display_name>Places: Cemetery</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>81</id><display_name>Actions or events: Conjuring</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

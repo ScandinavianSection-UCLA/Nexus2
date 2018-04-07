@@ -1,0 +1,78 @@
+<story><story_id>631</story_id>
+  <publication_info>DS_II_E_214</publication_info>
+  <full_name>217 - 0.00 - DS_II_E_214</full_name>
+  <informant_id>217</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>831</place_id>
+      <name>Mosehusene, Jetsmark</name>
+      <display_name>Mosehusene, Jetsmark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>161</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_E_105</publication_info>
+      <full_name>241 - 2.11 - DSnr_II_E_105</full_name>
+      <url>data/stories/161.dfl</url>
+    </story>
+    <story><story_id>602</story_id>
+      <informant_id>536</informant_id>
+      <publication_info>DS_II_E_211</publication_info>
+      <full_name>536 - 0.00 - DS_II_E_211</full_name>
+      <url>data/stories/602.dfl</url>
+    </story>
+    <story><story_id>293</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_213</publication_info>
+      <full_name>235 - 2.10 - DS_II_E_213</full_name>
+      <url>data/stories/293.dfl</url>
+    </story>
+    <story><story_id>664</story_id>
+      <informant_id>492</informant_id>
+      <publication_info>DS_II_E_217</publication_info>
+      <full_name>492 - 0.00 - DS_II_E_217</full_name>
+      <url>data/stories/664.dfl</url>
+    </story>
+    <story><story_id>730</story_id>
+      <informant_id>517</informant_id>
+      <publication_info>DS_II_E_210</publication_info>
+      <full_name>517 - 0.00 - DS_II_E_210</full_name>
+      <url>data/stories/730.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>N&#229;r de har en stor mj&#248;dt&#248;nde, og de lader mj&#248;den blive for gammel og tapper den ikke omkring, s&#229; bliver der en basilisk, og han sl&#229;r t&#248;nden i stykker, og s&#229; d&#248;r de mennesker, han ser p&#229;.</danish_publication>
+  <english_publication>When they have a large mead barrel, and they let the mead get too old and don't tap it, then a basilisk develops, and it smashes the barrel to pieces, and then the people it looks at die.</english_publication>
+  <keywords>
+    <keyword><id>74</id><frequency>2</frequency><keyword>barrel</keyword>barrel</keyword>
+    <keyword><id>75</id><frequency>1</frequency><keyword>basilisk</keyword>basilisk</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>763</id><frequency>2</frequency><keyword>mead</keyword>mead</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+  </keywords>
+  <etk_index><id>6</id>
+    <heading_danish>Lindorme og sm&#229;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>49</id><display_name>Tools, Items and Conveyances: Food and Drink</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>79</id><display_name>Animals: None / Unspecified</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

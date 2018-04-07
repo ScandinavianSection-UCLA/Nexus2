@@ -1,0 +1,46 @@
+<informant><person_id>404</person_id>
+  <core_informant/>
+  <full_name>Poul Jensen</full_name>
+  <last_name>Jensen</last_name>
+  <first_name>Poul</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>802</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>404</informant_id>
+      <publication_info>DS_VII_1488</publication_info>
+      <full_name>404 - 0.00 - DS_VII_1488</full_name>
+      <url>data/stories/802.dfl</url>
+      <place_recorded><id>897</id>Udbyovre</place_recorded>
+      <places_mentioned>
+        <place><id>272</id>
+          <name>Holmen</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>897</place_id>
+      <name>Udbyovre</name>
+      <display_name>Udbyovre (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>272</place_id>
+      <name>Holmen</name>
+      <display_name>Holmen (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

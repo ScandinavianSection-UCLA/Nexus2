@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<story story_id="423">
+  <publication_info>DS_II_E_186</publication_info>
+  <full_name>123 - 3.20 - DS_II_E_186</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.20</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="266">
+      <informant_id>235</informant_id>
+      <publication_info>Unpub_KMP_146</publication_info>
+      <full_name>235 - 1.46 - Unpub_KMP_146</full_name>
+      <url>data/stories/266.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3802b</fielddiary_page_start>
+  <fielddiary_page_end>3802b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Stories about caterpillars and other insects are widely attested. Certain caterpillars were considered to be as dangerous as snakes. Moths and other insects were at the very least a nuisance and, in some cases, a direct threat to the crops and harvested grain. Although caterpillars can inflict a painful bite, there are no truly poisonous caterpillars in Denmark.</annotation>
+  <danish_manuscript>Hvor &#xC6;ven (&#xD8;wer ell. T&#xE6;wer) bider, det kan
+ikke l&#xE6;ges. Forhen gik en hellere imod en
+Hugorm end imod en &#xC6;w. For et &#xC6;w-
+bid det svinder et Mske efter, men et
+Hugormbid det kan gj&#xF8;re det af strags. 
+Den kan bide i en H&#xF8;l&#xE9; saadan at en
+kan h&#xF8;re te en bider. 
+</danish_manuscript>
+  <english_manuscript>You can't cure a hawk-moth caterpillar bite. It used to be that people would rather confront a viper than a hawk-moth caterpillar. A hawk moth caterpillar bite wastes a person away, but a viper bite can kill a person quickly. It can bite a hay scythe so hard that you can hear that it's biting.</english_manuscript>
+  <danish_publication>Hvor &#xE6;ven bider, det kan ikke l&#xE6;ges. Forhen gik &#xE9;n hellere imod en hugorm end imod en &#xE6;ve. For et &#xE6;vebid det svinder et menneske efter, men et hugormebid det kan gj&#xF8;re det af straks. Den kan bide i en h&#xF8;l&#xE9;, s&#xE5;dan at &#xE9;n kan h&#xF8;re, te den bider.</danish_publication>
+  <english_publication>You can&#x2019;t cure a hawk-moth caterpillar bite. Before, people would rather confront a viper than a caterpillar. A hawk moth caterpillar bite wastes a person away, but a viper bite can kill a person quickly. It can bite a hay scythe so hard that you can hear that it&#x2019;s biting.</english_publication>
+  <keywords>
+    <keyword id="188" frequency="3" keyword="caterpillar">caterpillar</keyword>
+    <keyword id="289" frequency="1" keyword="cure">cure</keyword>
+    <keyword id="509" frequency="2" keyword="hawk">hawk</keyword>
+    <keyword id="511" frequency="1" keyword="hay">hay</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="802" frequency="2" keyword="moth">moth</keyword>
+    <keyword id="1078" frequency="1" keyword="scythe">scythe</keyword>
+    <keyword id="1303" frequency="2" keyword="viper">viper</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="52" display_name="Tools, Items and Conveyances: Tools"/>
+    <tango_index id="76" display_name="Animals: Serpent / Snake"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="135" display_name="Animals: Insects"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

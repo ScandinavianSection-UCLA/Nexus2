@@ -1,0 +1,91 @@
+<story><story_id>858</story_id>
+  <publication_info>DS_IV_1249</publication_info>
+  <full_name>328 - 0.00 - DS_IV_1249</full_name>
+  <informant_id>328</informant_id>
+  <informant_last_name>Bennike</informant_last_name>
+  <informant_first_name>V.</informant_first_name>
+  <informant_full_name>L&#230;rer V. Bennike</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>900</place_id>
+      <name>Vallekilde</name>
+      <display_name>Vallekilde (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>987</place_id>
+      <name>Tang&#229;g&#229;rd</name>
+      <display_name>Tang&#229;g&#229;rd (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>524</story_id>
+      <informant_id>330</informant_id>
+      <publication_info>DS_IV_1242</publication_info>
+      <full_name>330 - 0.00 - DS_IV_1242</full_name>
+      <url>data/stories/524.dfl</url>
+    </story>
+    <story><story_id>616</story_id>
+      <informant_id>283</informant_id>
+      <publication_info>DS_IV_1253</publication_info>
+      <full_name>283 - 0.00 - DS_IV_1253</full_name>
+      <url>data/stories/616.dfl</url>
+    </story>
+    <story><story_id>711</story_id>
+      <informant_id>516</informant_id>
+      <publication_info>DS_IV_1239</publication_info>
+      <full_name>516 - 0.00 - DS_IV_1239</full_name>
+      <url>data/stories/711.dfl</url>
+    </story>
+    <story><story_id>205</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_627</publication_info>
+      <full_name>241 - 4.33 - DSnr_I_627</full_name>
+      <url>data/stories/205.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Tang&#229;g&#229;rd har tidligere tilh&#248;rt Peder Okse. En senere ejer havde en gang tre s&#246;nner og tre d&#246;tre, men s&#246;nnerne blev bortf&#248;rt af r&#246;vere, der boede i en hule i en h&#246;j n&#230;rmere henne imod Fr&#248;rup. En dag var de tre piger i Fr&#248;rup kirke; men da de gik hjem, blev de overfaldne af tre rovere, der tog deres kl&#230;der og smykker fra dem. En lille tid efter kom de imidlertid til deres faders g&#229;rd og vilde s&#230;lge rovet, men der blev de grebet, og det kom s&#229; for dagen, at det var de forsvundne s&#246;nner. </danish_publication>
+  <english_publication>Tang&#229;g&#229;rd used to belong to Peder Okse. A later owner had three sons and three daughters, but the sons were kidnapped by robbers who lived in a cave closer to Fr&#248;rup. One day the three girls were in Fr&#248;rup church; but when they went home, they were ambushed by three robbers who took their clothes and jewels from them. Meanwhile these robbers came to the girls&#8217; father&#8217;s farm a little later and wanted to sell the loot, but they were caught there and then it turned out that they were the sons who had disappeared.</english_publication>
+  <keywords>
+    <keyword><id>192</id><frequency>1</frequency><keyword>cave</keyword>cave</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>236</id><frequency>1</frequency><keyword>clothing</keyword>clothing</keyword>
+    <keyword><id>304</id><frequency>1</frequency><keyword>daughter</keyword>daughter</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>467</id><frequency>2</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>621</id><frequency>1</frequency><keyword>kidnapped</keyword>kidnapped</keyword>
+    <keyword><id>891</id><frequency>1</frequency><keyword>owner</keyword>owner</keyword>
+    <keyword><id>929</id><frequency>1</frequency><keyword>peder_okse</keyword>Peder Okse</keyword>
+    <keyword><id>1037</id><frequency>3</frequency><keyword>robber</keyword>robber</keyword>
+    <keyword><id>1154</id><frequency>3</frequency><keyword>son</keyword>son</keyword>
+    <keyword><id>1256</id><frequency>4</frequency><keyword>three</keyword>three</keyword>
+  </keywords>
+  <etk_index><id>20</id>
+    <heading_danish>R&#248;vere, drabsm&#230;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>17</id><display_name>People: Robber / Thief</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>34</id><display_name>Places: Manor / Castle</display_name></tango_index>
+    <tango_index><id>90</id><display_name>Actions or events: Kidnapping</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

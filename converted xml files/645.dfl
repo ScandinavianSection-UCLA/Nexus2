@@ -1,0 +1,100 @@
+<story><story_id>645</story_id>
+  <publication_info>DS_VII_435</publication_info>
+  <full_name>453 - 0.00 - DS_VII_435</full_name>
+  <informant_id>453</informant_id>
+  <informant_last_name>Lavrsen</informant_last_name>
+  <informant_first_name>L. P.</informant_first_name>
+  <informant_full_name>L&#230;rer L. P. Lavrsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>791</place_id>
+      <name>Havlykke</name>
+      <display_name>Havlykke (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>59</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_437</publication_info>
+      <full_name>150 - 2.12 - DS_VII_437</full_name>
+      <url>data/stories/59.dfl</url>
+    </story>
+    <story><story_id>478</story_id>
+      <informant_id>446</informant_id>
+      <publication_info>DS_VII_336</publication_info>
+      <full_name>446 - 0.00 - DS_VII_336</full_name>
+      <url>data/stories/478.dfl</url>
+    </story>
+    <story><story_id>713</story_id>
+      <informant_id>324</informant_id>
+      <publication_info>DSnr_VI_534</publication_info>
+      <full_name>324 - 0.00 - DSnr_VI_534</full_name>
+      <url>data/stories/713.dfl</url>
+    </story>
+    <story><story_id>796</story_id>
+      <informant_id>396</informant_id>
+      <publication_info>DS_VII_423</publication_info>
+      <full_name>396 - 0.00 - DS_VII_423</full_name>
+      <url>data/stories/796.dfl</url>
+    </story>
+    <story><story_id>587</story_id>
+      <informant_id>144</informant_id>
+      <publication_info>DS_VII_426</publication_info>
+      <full_name>144 - 0.00 - DS_VII_426</full_name>
+      <url>data/stories/587.dfl</url>
+    </story>
+    <story><story_id>408</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_419</publication_info>
+      <full_name>123 - 3.05 - DS_VII_419</full_name>
+      <url>data/stories/408.dfl</url>
+    </story>
+    <story><story_id>604</story_id>
+      <informant_id>536</informant_id>
+      <publication_info>DS_VII_436</publication_info>
+      <full_name>536 - 0.00 - DS_VII_436</full_name>
+      <url>data/stories/604.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Heksene red til Bloksbj&#230;rg Midsommeraften p&#229; en ragestage (stagen til en ovnsrage). Kj&#230;llingen i en g&#229;rd sagde: "Fluks over alle tr&#230;toppe". Karlen i g&#229;rden vilde f&#248;lge efter hende, men havde ikke h&#248;rt ordene rigtig og sagde: "Fluks gjennem alle tr&#230;toppe." Derfor blev han slemt forreven, inden han kom til Bloksbj&#230;rg.</danish_publication>
+  <english_publication>The witches rode to Bloksbj&#230;rg on midsummer night on oven rake shafts. The hag in one farm said, "Quickly over all the treetops." The farmhand at the farm wanted to follow her, but he hadn't heard correctly, and said, "Quickly through all the treetops." That's why he got badly scratched up before he got to Bloksbj&#230;rg.</english_publication>
+  <keywords>
+    <keyword><id>394</id><frequency>2</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>493</id><frequency>1</frequency><keyword>hag</keyword>hag</keyword>
+    <keyword><id>777</id><frequency>1</frequency><keyword>midsummer</keyword>midsummer</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>890</id><frequency>1</frequency><keyword>oven</keyword>oven</keyword>
+    <keyword><id>1012</id><frequency>1</frequency><keyword>rake</keyword>rake</keyword>
+    <keyword><id>1030</id><frequency>1</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1281</id><frequency>2</frequency><keyword>tree</keyword>tree</keyword>
+    <keyword><id>1351</id><frequency>1</frequency><keyword>witch</keyword>witch</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>89</id><display_name>Actions or events: Injury</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>119</id><display_name>Time, Season, Weather: Skt. Hans</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

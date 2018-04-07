@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<story story_id="457">
+  <publication_info>DS_II_A_17</publication_info>
+  <full_name>342 - 0.00 - DS_II_A_17</full_name>
+  <informant_id>342</informant_id>
+  <informant_last_name>Br&#xF8;sted</informant_last_name>
+  <informant_first_name>Anders</informant_first_name>
+  <informant_full_name>Anders Br&#xF8;sted</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>834</place_id>
+      <name>N&#xF8;rager</name>
+      <display_name>N&#xF8;rager (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>996</place_id>
+      <name>Vester Alling</name>
+      <display_name>Vester Alling (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="498">
+      <informant_id>455</informant_id>
+      <publication_info>DS_II_A_59</publication_info>
+      <full_name>455 - 0.00 - DS_II_A_59</full_name>
+      <url>data/stories/498.dfl</url>
+    </story>
+    <story story_id="663">
+      <informant_id>492</informant_id>
+      <publication_info>DS_II_A_32</publication_info>
+      <full_name>492 - 0.00 - DS_II_A_32</full_name>
+      <url>data/stories/663.dfl</url>
+    </story>
+    <story story_id="377">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_959</publication_info>
+      <full_name>123 - 2.03 - DS_I_959</full_name>
+      <url>data/stories/377.dfl</url>
+    </story>
+    <story story_id="220">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_57</publication_info>
+      <full_name>235 - 1.01 - DS_II_A_57</full_name>
+      <url>data/stories/220.dfl</url>
+    </story>
+    <story story_id="262">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_99</publication_info>
+      <full_name>235 - 1.42 - DS_II_A_99</full_name>
+      <url>data/stories/262.dfl</url>
+    </story>
+    <story story_id="281">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_100</publication_info>
+      <full_name>235 - 1.60 - DS_II_A_100</full_name>
+      <url>data/stories/281.dfl</url>
+    </story>
+    <story story_id="463">
+      <informant_id>483</informant_id>
+      <publication_info>DS_I_832</publication_info>
+      <full_name>483 - 0.00 - DS_I_832</full_name>
+      <url>data/stories/463.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Karlene, der gik om natten og passede b&#xE6;sterne i marken, havde gjort et b&#xE5;l af pinde for at varme sig ved. Det var henne i Vester-Alling kj&#xE6;re t&#xE6;t ved et sumpet sted, hvor der var elle og v&#xE6;ld. S&#xE5; kom ellekj&#xE6;llingerne til dem, og de s&#xE5; s&#xE5; smukke og dejlige ud. Men s&#xE5; sagde karlene til &#xE9;n af dem: "Lad mig se, om du er &#xE6;bag, som du er &#xE6;for," s&#xE5;dan havde de l&#xE6;rt at skulle sige, og da de havde spurgt om det, blev hun henne. De kunde h&#xF8;re, at de sagde ude i ellene: " Ha-ha-ha-ha, ha-ha-ha-ha !"</danish_publication>
+  <english_publication>The farmhands who went out in the fields and took care of the animals had made a fire of sticks to warm themselves by. It was over in Vester-Alling meadow close to a swampy area, where there were alder trees and springs. Then the elf women came to them and they looked so beautiful and pretty. But then the farmhands said to one of them, &#x201C;Let me see if your back is like your front.&#x201D; That&#x2019;s what they had learned to say, and when they had asked that, she disappeared. They could hear that they said &#x201C;Ha-ha-ha-ha, ha-ha-ha-ha!&#x201D; out among the alders.</english_publication>
+  <keywords>
+    <keyword id="17" frequency="2" keyword="alderwood">alderwood</keyword>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="82" frequency="1" keyword="beautiful">beautiful</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="373" frequency="1" keyword="elf">elf</keyword>
+    <keyword id="395" frequency="2" keyword="farm_hand">farmhand</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="699" frequency="1" keyword="learning">learning</keyword>
+    <keyword id="764" frequency="1" keyword="meadow">meadow</keyword>
+    <keyword id="1228" frequency="1" keyword="swamp">swamp</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<story story_id="862">
+  <publication_info>DS_I_756</publication_info>
+  <full_name>0 - 0.00 - DS_I_756</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>953</place_id>
+      <name>Kvorning</name>
+      <display_name>Kvorning (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>452</place_id>
+      <name>&#xD8;rum</name>
+      <display_name>&#xD8;rum (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>471</place_id>
+      <name>Randers</name>
+      <display_name>Randers (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="511">
+      <informant_id>457</informant_id>
+      <publication_info>DS_I_755</publication_info>
+      <full_name>457 - 0.00 - DS_I_755</full_name>
+      <url>data/stories/511.dfl</url>
+    </story>
+    <story story_id="385">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_767</publication_info>
+      <full_name>123 - 2.11 - DS_I_767</full_name>
+      <url>data/stories/385.dfl</url>
+    </story>
+    <story story_id="579">
+      <informant_id>106</informant_id>
+      <publication_info>DS_I_748</publication_info>
+      <full_name>106 - 0.00 - DS_I_748</full_name>
+      <url>data/stories/579.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand fra &#xD8;rum vilde kj&#xF8;re til Randers en dag. Da han skulde hjem igjen, blev det noget silde for ham, og da de s&#xE5; langt hen ad aften s&#xE5; en h&#xF6;j i afstand, der stod p&#xE5; fire gloende p&#xE6;le, l&#xF8;b hestene l&#xF8;bsk, og de v&#xE6;ltede. De kom dog p&#xE5; benene igjen uden skade. S&#xE5; var det, de skulde forbi h&#xF6;jen, og da sagde konen til ham, han skulde g&#xE5; hen og se, hvad det var. Nej, det vilde han ikke, der var to broer, de skulde over, og s&#xE5; kunde det h&#xE6;nde sig, at hestene l&#xF8;b igjen.</danish_publication>
+  <english_publication>A man from &#xD8;rum wanted to drive to Randers one day. When he was to go home again, it had gotten a bit late, and when late at night they saw a mound far off in the distance that was on four glowing poles, the horses stampeded and they tipped over. They got on their feet again and hadn't been injured. Then they were to go past the mound, and then his wife said to him that he should go over and see what it was. No, he didn't want to, there were two bridges that they had to cross, and then it could happen that the horses might stampede again.</english_publication>
+  <keywords>
+    <keyword id="144" frequency="1" keyword="bridge">bridge</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="470" frequency="1" keyword="glowing_poles">glowing poles</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="559" frequency="1" keyword="injury">injury</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1187" frequency="2" keyword="stampede">stampede</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="26" display_name="Places: Bridge"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

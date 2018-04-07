@@ -1,0 +1,54 @@
+<informant><person_id>458</person_id>
+  <core_informant/>
+  <full_name>Hans Lund</full_name>
+  <last_name>Lund</last_name>
+  <first_name>Hans</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>533</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>458</informant_id>
+      <publication_info>DS_V_1454</publication_info>
+      <full_name>458 - 0.00 - DS_V_1454</full_name>
+      <url>data/stories/533.dfl</url>
+      <place_recorded><id>398</id>Madum s&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>283</id>
+          <name>Horsens</name>
+        </place>
+        <place><id>1013</id>
+          <name>Skindbj&#230;rg</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>398</place_id>
+      <name>Madum s&#248;</name>
+      <display_name>Madum s&#248; (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1013</place_id>
+      <name>Skindbj&#230;rg</name>
+      <display_name>Skindbj&#230;rg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>283</place_id>
+      <name>Horsens</name>
+      <display_name>Horsens (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

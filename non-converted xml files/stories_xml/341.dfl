@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<story story_id="341">
+  <publication_info>JAH_VI_753</publication_info>
+  <full_name>90 - 2.09 - JAH_VI_753</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>2.09</order_told>
+  <fieldtrip id="9">October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="429">
+      <informant_id>123</informant_id>
+      <publication_info>Unpub_PJ_401</publication_info>
+      <full_name>123 - 4.01 - Unpub_PJ_401</full_name>
+      <url>data/stories/429.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4784b (2)</fielddiary_page_start>
+  <fielddiary_page_end>4784b (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Children were sent to the minister for religious instruction, particularly leading up to confirmation. Although the minister did not expect payment for this instruction, parents would give the minister produce and other farm goods as in kind payment--sometimes happily and other times quite begrudgingly. Accordingly, not all of these gifts were worth receiving, a fact that more often than not went unmentioned. Here, the minister confronts the congregation and brings into the open the less than generous nature of some of these gifts.</annotation>
+  <danish_manuscript>Den gamle Pastor Katrup stod paa Pr&#xE6;ke-
+stolen og regnede op om, at de maatte
+ikke give hans Kone For&#xE6;ringer for B&#xF8;r-
+nene, naar de gik til Pr&#xE6;sten, her kom
+Ka B&#xF8;dker for nogle Dage siden og
+havde givet hans Kone en 9 Aars gl.
+Kok og en snes raaden &#xC6;g. Dem kunde
+de beholde ved dem selv.
+</danish_manuscript>
+  <english_manuscript>The old minister Katrup stood at the pulpit and told them that they shouldn't offer his wife gifts when the children went to the minister. "A few days ago, Ka B&#xF8;dkers came and gave my wife a nine year old rooster and a score rotten eggs." They could keep that kind of things for themselves.</english_manuscript>
+  <danish_publication>Den gamle pastor Katrup stod p&#xE5; pr&#xE6;kestolen og regnede op om, at de m&#xE5;tte ikke give hans kone for&#xE6;ringer for b&#xF6;rnene, n&#xE5;r de gik til pr&#xE6;sten. "Her kom Ka B&#xF8;dkers for nogle dage siden og gav min kone en 9-&#xE5;rs gammel kok og en snes r&#xE5;dne &#xE6;g. Dem kan I beholde ved jer selv".</danish_publication>
+  <english_publication>The old minister Katrup stood at the pulpit and told them that they shouldn&#x2019;t offer his wife gifts when the children went to the minister. &#x201C;A few days ago, Ka B&#xF8;dkers came and gave my wife a nine year old rooster and a score rotten eggs. You can keep that kind of thing yourselves.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="372" frequency="1" keyword="egg">egg</keyword>
+    <keyword id="466" frequency="1" keyword="gift">gift</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="873" frequency="2" keyword="old">old</keyword>
+    <keyword id="1003" frequency="1" keyword="pulpit">pulpit</keyword>
+    <keyword id="1042" frequency="1" keyword="rooster">rooster</keyword>
+    <keyword id="1050" frequency="1" keyword="rotten">rotten</keyword>
+    <keyword id="1343" frequency="2" keyword="wife">wife</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="36">
+    <heading_danish>Vore f&#xE6;dres tankes&#xE6;t og &#xE5;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="11" name="Jocular Tale"/>
+</story>

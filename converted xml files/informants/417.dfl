@@ -1,0 +1,37 @@
+<informant><person_id>417</person_id>
+  <core_informant/>
+  <full_name>Ane Bolette Justsdatter</full_name>
+  <last_name>Justsdatter</last_name>
+  <first_name>Ane Bolette</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>462</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>417</informant_id>
+      <publication_info>DS_IV_1777</publication_info>
+      <full_name>417 - 0.00 - DS_IV_1777</full_name>
+      <url>data/stories/462.dfl</url>
+      <place_recorded><id>803</id>Imer, Klim</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>803</place_id>
+      <name>Imer, Klim</name>
+      <display_name>Imer, Klim (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

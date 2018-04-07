@@ -1,0 +1,69 @@
+<story><story_id>453</story_id>
+  <publication_info>DS_I_542</publication_info>
+  <full_name>520 - 0.00 - DS_I_542</full_name>
+  <informant_id>520</informant_id>
+  <informant_last_name>Poulsen</informant_last_name>
+  <informant_first_name>A. C.</informant_first_name>
+  <informant_full_name>L&#230;rer A. C. Poulsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>111</place_id>
+      <name>Dalby</name>
+      <display_name>Dalby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>402</place_id>
+      <name>Martofte</name>
+      <display_name>Martofte (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>454</story_id>
+      <informant_id>394</informant_id>
+      <publication_info>DS_I_1051</publication_info>
+      <full_name>394 - 0.00 - DS_I_1051</full_name>
+      <url>data/stories/454.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Midtvejs mellem Martofte og Snare ligger Peder Moses h&#246;j, hvori der tilforn boede dv&#230;rge. En aften, som nogle unge folk gik fra Martofte til Snave for at lege jul og kom t&#230;t forbi h&#246;jen, fik en lystig fyr iblandt dem det indfald at r&#229;be: "Hej, hej, bj&#230;rgfolk, vil I med til Snave at lege jul?" I det samme h&#248;rte de det r&#229;be inde i h&#246;jen: "Peder Mose, tag mig mine hose, jeg skal til Snave at lege jul!" Men da de derp&#229; h&#248;rte en snakken og buldren med kistel&#229;g derinde, blev de alle sammen bange og skyndte sig ad Snave til. Lidt efter viste sig i d&#246;ren til gildestuen en lille pusling, og folkene blev end mere bestyrtede, end de f&#246;r havde v&#230;ret. Dog nogle af dem b&#248;d ham ind, og han gik ogs&#229; og sp&#246;gte med dem en tid af natten.</danish_publication>
+  <english_publication>Half way between Martofte and Snave lies Peder Mose&#8217;s mound where dwarves used to live. One night, some young people went from Martofte to Snave to go to a Christmas party and they came close by the mound, and a daring young man among them had the impulse to call out: &#8220;Hey mound dwellers, do you want to come to a Christmas party in Snave?&#8221; Immediately they heard a yell from inside the mound: &#8220;Peder Mose get my hose (stockings), I&#8217;m going to Snave to a Christmas party!&#8221; But when they heard talking and a slamming of chest lids down there, they all got scared and hurried to Snave. A little later a little goblin appeared in the door and the people were even more surprised than they&#8217;d been before. But some of them invited him in and he also went in and joked around with them for a bit of the night.</english_publication>
+  <keywords>
+    <keyword><id>215</id><frequency>1</frequency><keyword>chest</keyword>chest</keyword>
+    <keyword><id>226</id><frequency>3</frequency><keyword>christmas_party</keyword>Christmas party</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>366</id><frequency>1</frequency><keyword>dwarves</keyword>dwarves</keyword>
+    <keyword><id>471</id><frequency>1</frequency><keyword>goblin</keyword>goblin</keyword>
+    <keyword><id>508</id><frequency>1</frequency><keyword>haunting</keyword>haunting</keyword>
+    <keyword><id>604</id><frequency>1</frequency><keyword>joke</keyword>joke</keyword>
+    <keyword><id>804</id><frequency>3</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>805</id><frequency>1</frequency><keyword>mound_dweller</keyword>mound dweller</keyword>
+    <keyword><id>848</id><frequency>2</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>928</id><frequency>2</frequency><keyword>peder_mose</keyword>Peder Mose</keyword>
+    <keyword><id>1193</id><frequency>1</frequency><keyword>stockings</keyword>stockings</keyword>
+    <keyword><id>1374</id><frequency>2</frequency><keyword>young</keyword>young</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>120</id><display_name>Time, Season, Weather: Christmas</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

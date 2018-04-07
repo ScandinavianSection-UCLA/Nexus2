@@ -1,0 +1,70 @@
+<informant><person_id>339</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer O. Chr. Boye</full_name>
+  <last_name>Boye</last_name>
+  <first_name>O. Chr.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>766</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>339</informant_id>
+      <publication_info>DS_V_1422</publication_info>
+      <full_name>339 - 0.00 - DS_V_1422</full_name>
+      <url>data/stories/766.dfl</url>
+      <place_recorded><id>685</id>Vejen</place_recorded>
+      <places_mentioned>
+        <place><id>113</id>
+          <name>Dalhus</name>
+        </place>
+        <place><id>399</id>
+          <name>Malt</name>
+        </place>
+        <place><id>685</id>
+          <name>Vejen</name>
+        </place>
+        <place><id>686</id>
+          <name>Vejen skov</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>685</place_id>
+      <name>Vejen</name>
+      <display_name>Vejen (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>686</place_id>
+      <name>Vejen skov</name>
+      <display_name>Vejen skov (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>685</place_id>
+      <name>Vejen</name>
+      <display_name>Vejen (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>399</place_id>
+      <name>Malt</name>
+      <display_name>Malt (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>113</place_id>
+      <name>Dalhus</name>
+      <display_name>Dalhus (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

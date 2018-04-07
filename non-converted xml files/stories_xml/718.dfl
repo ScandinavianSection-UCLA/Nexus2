@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<story story_id="718">
+  <publication_info>DS_II_B_36</publication_info>
+  <full_name>541 - 0.00 - DS_II_B_36</full_name>
+  <informant_id>541</informant_id>
+  <informant_last_name>S&#xF8;rensen</informant_last_name>
+  <informant_first_name>Mikkel</informant_first_name>
+  <informant_full_name>Journalist Mikkel S&#xF8;rensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>792</place_id>
+      <name>Herskind</name>
+      <display_name>Herskind (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>339</place_id>
+      <name>Kolby</name>
+      <display_name>Kolby (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="774">
+      <informant_id>402</informant_id>
+      <publication_info>DS_I_1</publication_info>
+      <full_name>402 - 0.00 - DS_I_1</full_name>
+      <url>data/stories/774.dfl</url>
+    </story>
+    <story story_id="704">
+      <informant_id>413</informant_id>
+      <publication_info>DS_II_B_34</publication_info>
+      <full_name>413 - 0.00 - DS_II_B_34</full_name>
+      <url>data/stories/704.dfl</url>
+    </story>
+    <story story_id="609">
+      <informant_id>546</informant_id>
+      <publication_info>DS_II_B_4</publication_info>
+      <full_name>546 - 0.00 - DS_II_B_4</full_name>
+      <url>data/stories/609.dfl</url>
+    </story>
+    <story story_id="488">
+      <informant_id>524</informant_id>
+      <publication_info>DS_II_B_29</publication_info>
+      <full_name>524 - 0.00 - DS_II_B_29</full_name>
+      <url>data/stories/488.dfl</url>
+    </story>
+    <story story_id="358">
+      <informant_id>90</informant_id>
+      <publication_info>DSnr_II_B_130</publication_info>
+      <full_name>90 - 3.04 - DSnr_II_B_130</full_name>
+      <url>data/stories/358.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I en g&#xE5;rd i Kolby boede en nisse, han gik og hjalp til med at passe l&#xF8;wueret (kreaturerne), men en aften, da han gik og fodrede hestene, slog den ene hest ham. Siden den tid blev den hest jo l&#xE6;ngere jo magrere, folkene i g&#xE5;rden kunde ikke forst&#xE5;, hvordan det kunde v&#xE6;re, da den blev fodret godt. Endelig kom man i tanker om, at nis m&#xE5;ske havde en finger med i spillet, og en aften, da karlen havde fodret af, fj&#xE6;lede han sig ude i stalden. Lidt efter kom nis og ryddede alt foderet fra den magre hest og bar det om til den anden til straf, fordi den havde sl&#xE5;et ham.</danish_publication>
+  <english_publication>A nisse lived in a farm in Kolby, he went and helped to take care of the animals, but one night, when he was feeding the horses, one of the horses kicked him. After that, the horse got thinner and thinner, and the people in the farm couldn&#x2019;t understand why, since it was fed well. Finally they realize that nis might have a finger in the game and one night, after the farmhand had finished the feeding, he crept out into the barn. A little later, nis came along and took all the food away from the thin horse and carried it over to another as punishment because it had kicked him.</english_publication>
+  <keywords>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="72" frequency="1" keyword="barn">barn</keyword>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="404" frequency="3" keyword="feed">feed</keyword>
+    <keyword id="412" frequency="1" keyword="finger">finger</keyword>
+    <keyword id="431" frequency="1" keyword="food">food</keyword>
+    <keyword id="455" frequency="1" keyword="game">game</keyword>
+    <keyword id="545" frequency="4" keyword="horse">horse</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="855" frequency="2" keyword="nis">Nis</keyword>
+    <keyword id="857" frequency="1" keyword="nisse">nisse</keyword>
+    <keyword id="1004" frequency="1" keyword="punishment">punishment</keyword>
+    <keyword id="1252" frequency="3" keyword="thin">thin</keyword>
+  </keywords>
+  <etk_index id="3">
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="65" display_name="Supernatural Beings: Nisse"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,85 @@
+<story><story_id>582</story_id>
+  <publication_info>DS_V_1307</publication_info>
+  <full_name>489 - 0.00 - DS_V_1307</full_name>
+  <informant_id>489</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Joh.</informant_first_name>
+  <informant_full_name>L&#230;rer Joh. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>852</place_id>
+      <name>Randrup</name>
+      <display_name>Randrup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1031</place_id>
+      <name>Lyngs</name>
+      <display_name>Lyngs (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>233</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_H_141</publication_info>
+      <full_name>235 - 1.14 - DS_II_H_141</full_name>
+      <url>data/stories/233.dfl</url>
+    </story>
+    <story><story_id>297</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>MA_II_456</publication_info>
+      <full_name>235 - 2.14 - MA_II_456</full_name>
+      <url>data/stories/297.dfl</url>
+    </story>
+    <story><story_id>666</story_id>
+      <informant_id>492</informant_id>
+      <publication_info>DS_V_215</publication_info>
+      <full_name>492 - 0.00 - DS_V_215</full_name>
+      <url>data/stories/666.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var for mange &#229;r siden en fattig husmand i Lyngs, som havde t&#230;rskeplads i M&#230;rkdal, men han gik n&#230;stendels hjem til sin familie hver aften og gik atter tidlig morgen til sit arbejde. S&#229; var det en aften, han gik hjem, at to nydelige jomfruer kom til og gav sig i f&#248;lge med ham, men der blev ikke talt et ord. Da de kom til Bavnvang, var han tr&#230;t og satte sig derfor ved Bavnh&#246;j for at hvile sig lidt; men f&#246;r han fik set sig om, var jomfruerne borte. Da han atter rejste sig for at g&#229;, sagde han: "Bitte jomfruer, skal vi s&#229; f&#248;lges ad igjen." Ingen svarede, men en hovedl&#248;s hest stillede sig ved hans side, og den fulgte ham lige til hans d&#246;r. Siden den tid gik han en anden vej.</danish_publication>
+  <english_publication>Many years ago there was a poor cotter in Lyngs who had a threshing grounds in M&#230;rkdal, but he went home to his family almost every night and went again early the next morning to his work. Then one night when he was walking home, two beautiful young women came and started to follow him, but nobody said a word. When they came to Bavnvang, he was tired and sat down next to Bavnh&#248;j to rest a bit; but before he could look around, the young women had disappeared. When he got up again to leave, he said: &#8220;Little misses, shall we walk together again.&#8221; Nobody answered but a headless horse came up to his side and followed him all the way to his door. After that, he went a different way.</english_publication>
+  <keywords>
+    <keyword><id>82</id><frequency>1</frequency><keyword>beautiful</keyword>beautiful</keyword>
+    <keyword><id>264</id><frequency>1</frequency><keyword>cotter</keyword>cotter</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>393</id><frequency>1</frequency><keyword>family</keyword>family</keyword>
+    <keyword><id>515</id><frequency>1</frequency><keyword>headless_horse</keyword>headless horse</keyword>
+    <keyword><id>537</id><frequency>2</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>848</id><frequency>2</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>974</id><frequency>1</frequency><keyword>poor</keyword>poor</keyword>
+    <keyword><id>1026</id><frequency>1</frequency><keyword>rest</keyword>rest</keyword>
+    <keyword><id>1257</id><frequency>1</frequency><keyword>threshing</keyword>threshing</keyword>
+    <keyword><id>1262</id><frequency>1</frequency><keyword>tired</keyword>tired</keyword>
+    <keyword><id>1356</id><frequency>2</frequency><keyword>woman</keyword>woman</keyword>
+    <keyword><id>1361</id><frequency>1</frequency><keyword>work</keyword>work</keyword>
+    <keyword><id>1374</id><frequency>2</frequency><keyword>young</keyword>young</keyword>
+  </keywords>
+  <etk_index><id>24</id>
+    <heading_danish>Kvindelige gjenf&#230;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>109</id><display_name>Time, Season, Weather: Morning</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,78 @@
+<story><story_id>460</story_id>
+  <publication_info>DS_III_1238</publication_info>
+  <full_name>369 - 0.00 - DS_III_1238</full_name>
+  <informant_id>369</informant_id>
+  <informant_last_name>Gr&#248;nborg</informant_last_name>
+  <informant_first_name>Andreas Th&#248;gersen</informant_first_name>
+  <informant_full_name>Andreas Th&#248;gersen Gr&#248;nborg</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>802</place_id>
+      <name>Hvilsh&#248;j</name>
+      <display_name>Hvilsh&#248;j (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>236</place_id>
+      <name>Hammer</name>
+      <display_name>Hammer (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>237</place_id>
+      <name>Hammer bakker</name>
+      <display_name>Hammer bakker (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>33</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_1236</publication_info>
+      <full_name>150 - 1.30 - DS_III_1236</full_name>
+      <url>data/stories/33.dfl</url>
+    </story>
+    <story><story_id>690</story_id>
+      <informant_id>533</informant_id>
+      <publication_info>DS_III_1233</publication_info>
+      <full_name>533 - 0.00 - DS_III_1233</full_name>
+      <url>data/stories/690.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Oppe imellem Hammer bakker i Hammer sogn er en stor sump, som er belagt med et tyndt lag gr&#246;nsv&#230;r, men der er ingen bund at finde de f&#248;rste tyve alen. Der skal en gang have ligget en g&#229;rd, hvis ejer ligeledes havde brugt spas med pr&#230;sten som s&#229; mange steder. Denne var selv kj&#248;rende dertil, og s&#229; kj&#248;rte han da ogs&#229; derfra, men da han kom lidt uden for g&#229;rden, spurgte han kusken, om han kunde se den. Han svarede, at han kunde blot se skorstenene, og lidt efter kunde han intet se.</danish_publication>
+  <english_publication>Up between the Hammer hills in Hammer parish there is a big swamp covered with a thin layer of grass, but there is no bottom to be found for the first forty feet. A farm was supposed to have lain there once, the owner of which had played a joke on the minister the same way as so many other places. The minister drove himself there, and he drove himself from there, but when he got a little bit away from the farm, he asked his driver if he could see the farm. He answered that he could just see the chimneys, and a little later he couldn't see anything at all.</english_publication>
+  <keywords>
+    <keyword><id>220</id><frequency>1</frequency><keyword>chimney</keyword>chimney</keyword>
+    <keyword><id>357</id><frequency>1</frequency><keyword>driver</keyword>driver</keyword>
+    <keyword><id>394</id><frequency>2</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>481</id><frequency>1</frequency><keyword>grass</keyword>grass</keyword>
+    <keyword><id>530</id><frequency>1</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>604</id><frequency>1</frequency><keyword>joke</keyword>joke</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>891</id><frequency>1</frequency><keyword>owner</keyword>owner</keyword>
+    <keyword><id>903</id><frequency>1</frequency><keyword>parish</keyword>parish</keyword>
+    <keyword><id>1228</id><frequency>1</frequency><keyword>swamp</keyword>swamp</keyword>
+    <keyword><id>1252</id><frequency>1</frequency><keyword>thin</keyword>thin</keyword>
+  </keywords>
+  <etk_index><id>13</id>
+    <heading_danish>Sagn om g&#229;rde og byer</heading_danish>
+    <heading_english>Legends about farms and towns</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>43</id><display_name>Places: Swamp</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>80</id><display_name>Actions or events: Church ceremony</display_name></tango_index>
+    <tango_index><id>81</id><display_name>Actions or events: Conjuring</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,83 @@
+<story><story_id>632</story_id>
+  <publication_info>DS_III_2175</publication_info>
+  <full_name>217 - 0.00 - DS_III_2175</full_name>
+  <informant_id>217</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>831</place_id>
+      <name>Mosehusene, Jetsmark</name>
+      <display_name>Mosehusene, Jetsmark (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1040</place_id>
+      <name>Fristrup enge</name>
+      <display_name>Fristrup enge (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>646</story_id>
+      <informant_id>514</informant_id>
+      <publication_info>DS_III_2168</publication_info>
+      <full_name>514 - 0.00 - DS_III_2168</full_name>
+      <url>data/stories/646.dfl</url>
+    </story>
+    <story><story_id>662</story_id>
+      <informant_id>493</informant_id>
+      <publication_info>DS_III_2180</publication_info>
+      <full_name>493 - 0.00 - DS_III_2180</full_name>
+      <url>data/stories/662.dfl</url>
+    </story>
+    <story><story_id>436</story_id>
+      <informant_id>456</informant_id>
+      <publication_info>DS_III_2211</publication_info>
+      <full_name>456 - 0.00 - DS_III_2211</full_name>
+      <url>data/stories/436.dfl</url>
+    </story>
+    <story><story_id>536</story_id>
+      <informant_id>374</informant_id>
+      <publication_info>DS_III_2256</publication_info>
+      <full_name>374 - 0.00 - DS_III_2256</full_name>
+      <url>data/stories/536.dfl</url>
+    </story>
+    <story><story_id>383</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_744</publication_info>
+      <full_name>123 - 2.09 - DS_III_744</full_name>
+      <url>data/stories/383.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>A gik og var hyrde i Fristrup enge, det var i Stigbord-engene. Der havde v&#230;ret et led, men nu var der intet, kun et sk&#229;r, de kj&#248;rte igjennem. S&#229; var a barnevorn nok til at g&#229; hen til de andre drenge og sige til dem, hvad det var for en bl&#229; lue, der stod henne. Da a havde fortalt det, gik den ud, s&#229; a m&#229;tte jo ikke have sagt det. Der m&#229;tte v&#230;re penge nedgravet, for det var en bl&#229; lue, og n&#229;r den er bl&#229;, s&#229; er det penge.</danish_publication>
+  <english_publication>I went and was a shepherd in Fristrup enge, that was in the Stigborg meadows. There had once been a gate, but now there wasn&#8217;t, just a broken place that went through. At the time, I was still childish enough to go to the other boys and ask them what that blue light out there was. When I mentioned it to them, it went out, so I probably wasn't supposed to talk about it. There must have been money buried there, because it was a blue light, and when it&#8217;s blue, then it&#8217;s money.</english_publication>
+  <keywords>
+    <keyword><id>114</id><frequency>3</frequency><keyword>blue</keyword>blue</keyword>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>457</id><frequency>1</frequency><keyword>gate</keyword>gate</keyword>
+    <keyword><id>764</id><frequency>1</frequency><keyword>meadow</keyword>meadow</keyword>
+    <keyword><id>793</id><frequency>2</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>1099</id><frequency>1</frequency><keyword>shepherd</keyword>shepherd</keyword>
+  </keywords>
+  <etk_index><id>15</id>
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

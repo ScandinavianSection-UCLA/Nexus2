@@ -1,0 +1,100 @@
+<story><story_id>471</story_id>
+  <publication_info>DS_II_D_73</publication_info>
+  <full_name>326 - 0.00 - DS_II_D_73</full_name>
+  <informant_id>326</informant_id>
+  <informant_last_name>Andresen</informant_last_name>
+  <informant_first_name>Anne</informant_first_name>
+  <informant_full_name>Anne Andresen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>873</place_id>
+      <name>Snogb&#230;k, Sundeved</name>
+      <display_name>Snogb&#230;k, Sundeved (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>78</place_id>
+      <name>Borup</name>
+      <display_name>Borup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>194</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_D_63</publication_info>
+      <full_name>241 - 4.22 - DSnr_II_D_63</full_name>
+      <url>data/stories/194.dfl</url>
+    </story>
+    <story><story_id>754</story_id>
+      <informant_id>558</informant_id>
+      <publication_info>DS_II_D_109</publication_info>
+      <full_name>558 - 0.00 - DS_II_D_109</full_name>
+      <url>data/stories/754.dfl</url>
+    </story>
+    <story><story_id>761</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_D_99</publication_info>
+      <full_name>348 - 0.00 - DS_II_D_99</full_name>
+      <url>data/stories/761.dfl</url>
+    </story>
+    <story><story_id>535</story_id>
+      <informant_id>384</informant_id>
+      <publication_info>DS_II_D_72</publication_info>
+      <full_name>384 - 0.00 - DS_II_D_72</full_name>
+      <url>data/stories/535.dfl</url>
+    </story>
+    <story><story_id>635</story_id>
+      <informant_id>559</informant_id>
+      <publication_info>DS_II_D_77</publication_info>
+      <full_name>559 - 0.00 - DS_II_D_77</full_name>
+      <url>data/stories/635.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En aften gik der en halv snes piger hjem fra kartehus, og s&#229; skulde de over Borup b&#230;k. Nu vidste de nok i forvejen, at broen var flydt bort, og de gik da og talte om: "Hvis der endda vilde st&#229; en hest der nede, som kunde ride os over b&#230;kken." Og da de kom derned, stod der en stor sort hest i vandet. S&#229; satte de sig op, den ene efter den anden, og der var endnu plads til flere. Da s&#229; den forreste tilbage og sagde:    
+"J&#246;ssus Kristus kos,
+sikket langt hos!"
+Da kastede hesten dem alle af i b&#230;kken og forsvandt.</danish_publication>
+  <english_publication>One evening, ten or so girls were walking home from the carding house, and then they had to cross Borup stream. Now, they knew ahead of time that the bridge had washed out, and they went and discussed this: "If only there's a horse standing down there that will ride us over the stream." And when they got down there, a big black horse was standing in the water. Then they got up on it, one after the other, and there was still room for more. Then the first one looked back and said,
+"Jesus Christ's cross, 
+what a long horse!" 
+Then the horse threw them all into the stream and disappeared.</english_publication>
+  <keywords>
+    <keyword><id>106</id><frequency>1</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>144</id><frequency>1</frequency><keyword>bridge</keyword>bridge</keyword>
+    <keyword><id>177</id><frequency>1</frequency><keyword>carding</keyword>carding</keyword>
+    <keyword><id>222</id><frequency>1</frequency><keyword>christ</keyword>Christ</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>386</id><frequency>1</frequency><keyword>evening</keyword>evening</keyword>
+    <keyword><id>467</id><frequency>1</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>545</id><frequency>4</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>548</id><frequency>1</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>598</id><frequency>1</frequency><keyword>jesus</keyword>Jesus</keyword>
+    <keyword><id>1030</id><frequency>1</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1207</id><frequency>3</frequency><keyword>stream</keyword>stream</keyword>
+    <keyword><id>1320</id><frequency>1</frequency><keyword>water</keyword>water</keyword>
+  </keywords>
+  <etk_index><id>5</id>
+    <heading_danish>Vandets &#229;nder</heading_danish>
+    <heading_english>Water spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>42</id><display_name>Places: Stream / River</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,70 @@
+<story><story_id>473</story_id>
+  <publication_info>DS_II_G_106</publication_info>
+  <full_name>321 - 0.00 - DS_II_G_106</full_name>
+  <informant_id>321</informant_id>
+  <informant_last_name>Andersdatter</informant_last_name>
+  <informant_first_name>Bodil Marie</informant_first_name>
+  <informant_full_name>Bodil Marie Andersdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>313</place_id>
+      <name>Jerslev</name>
+      <display_name>Jerslev (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>128</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_G_100</publication_info>
+      <full_name>150 - 4.17 - DS_II_G_100</full_name>
+      <url>data/stories/128.dfl</url>
+    </story>
+    <story><story_id>724</story_id>
+      <informant_id>205</informant_id>
+      <publication_info>DS_II_G_102</publication_info>
+      <full_name>205 - 0.00 - DS_II_G_102</full_name>
+      <url>data/stories/724.dfl</url>
+    </story>
+    <story><story_id>127</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_G_113</publication_info>
+      <full_name>150 - 4.16 - DS_II_G_113</full_name>
+      <url>data/stories/127.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>To karle var ude at grave sandt&#246;rv, og s&#229; lagde de dem og sov deres middagss&#248;vn. Da l&#248;b der en mus ud af munden p&#229; en karl, og da den kom tilbage igjen, s&#229; holdt den anden h&#229;nden for munden af ham, s&#229; den kunde ikke komme ind, og da var han d&#248;d.</danish_publication>
+  <english_publication>Two farmhands were out digging peat, and then they lay down to take their midday nap. Then a mouse ran out of the mouth of one of the farmhands, and then it came back again, and then the other one held his hand in front of the other one's mouth, so it couldn't get in, and then he died.</english_publication>
+  <keywords>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>326</id><frequency>1</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>395</id><frequency>2</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>775</id><frequency>1</frequency><keyword>midday</keyword>midday</keyword>
+    <keyword><id>811</id><frequency>1</frequency><keyword>mouse</keyword>mouse</keyword>
+    <keyword><id>813</id><frequency>2</frequency><keyword>mouth</keyword>mouth</keyword>
+    <keyword><id>823</id><frequency>1</frequency><keyword>nap</keyword>nap</keyword>
+    <keyword><id>922</id><frequency>1</frequency><keyword>peat</keyword>peat</keyword>
+  </keywords>
+  <etk_index><id>8</id>
+    <heading_danish>Religi&#248;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>79</id><display_name>Animals: None / Unspecified</display_name></tango_index>
+    <tango_index><id>92</id><display_name>Actions or events: Murder</display_name></tango_index>
+    <tango_index><id>110</id><display_name>Time, Season, Weather: Noon</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

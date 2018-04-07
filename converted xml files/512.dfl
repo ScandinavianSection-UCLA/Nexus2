@@ -1,0 +1,86 @@
+<story><story_id>512</story_id>
+  <publication_info>DS_VI_430</publication_info>
+  <full_name>552 - 0.00 - DS_VI_430</full_name>
+  <informant_id>552</informant_id>
+  <informant_last_name>Wennerwald</informant_last_name>
+  <informant_first_name>F.</informant_first_name>
+  <informant_full_name>Kontorist F. Wennerwald</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>829</place_id>
+      <name>Maribo</name>
+      <display_name>Maribo (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>176</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_429</publication_info>
+      <full_name>241 - 4.05 - DS_VI_429</full_name>
+      <url>data/stories/176.dfl</url>
+    </story>
+    <story><story_id>772</story_id>
+      <informant_id>41</informant_id>
+      <publication_info>DS_VI_434</publication_info>
+      <full_name>41 - 0.00 - DS_VI_434</full_name>
+      <url>data/stories/772.dfl</url>
+    </story>
+    <story><story_id>807</story_id>
+      <informant_id>406</informant_id>
+      <publication_info>DS_VI_427</publication_info>
+      <full_name>406 - 0.00 - DS_VI_427</full_name>
+      <url>data/stories/807.dfl</url>
+    </story>
+    <story><story_id>177</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_433</publication_info>
+      <full_name>241 - 4.06 - DS_VI_433</full_name>
+      <url>data/stories/177.dfl</url>
+    </story>
+    <story><story_id>578</story_id>
+      <informant_id>65</informant_id>
+      <publication_info>DS_VI_431</publication_info>
+      <full_name>65 - 0.00 - DS_VI_431</full_name>
+      <url>data/stories/578.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>To tjenestekarle vilde pr&#248;ve at h&#230;nge sig for morskabs skyld. De trak lod om, hvem der skulde h&#230;nge sig f&#248;rst, og den, som loddet traf, stod op p&#229; en malkeskammel, bandt et reb om en bj&#230;lke, lagde sin hals ind i l&#248;kken og sagde til sin kammerat: "Nu sparker jeg skamlen bort, men n&#229;r jeg begynder at spr&#230;lle, skal du s&#230;tte skamlen under mig igjen." Den anden karl stod nu med skamlen i h&#229;nden og vilde passe p&#229;, men i det samme kom en hvid hare l&#248;bende helt langsomt ind gjennem loen. Karlen troede, at han kunde fange den, men det lykkedes ikke, og da han forpustet m&#229;tte opgive jagten og kom tilbage til den h&#230;ngte, var han d&#248;d. Det har vist v&#230;ret Fanden, der i en hares skikkelse vilde lokke den levende karl bort.</danish_publication>
+  <english_publication>Two farmhands wanted to try hanging themselves for fun. They drew lots as to who was to hang himself first, and the one who got the lot stood up on a milk stool, bound a rope around a beam, put his neck inside the noose and said to his buddy: "Now I'll kick the stool away, but when I begin to struggle, put the stool under me again." The other farmhand stood there with the stool in his hands and wanted to keep close watch, but at the same moment, a white hare came running very slowly through the barn. The farmhand thought he could catch it, but he couldn't, and when he finally gave up the chase exhausted and came back to the hanging one, he was dead. It was probably the Devil in a hare's shape that wanted to lure the living farmhand away.</english_publication>
+  <keywords>
+    <keyword><id>72</id><frequency>1</frequency><keyword>barn</keyword>barn</keyword>
+    <keyword><id>211</id><frequency>1</frequency><keyword>chase</keyword>chase</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>324</id><frequency>1</frequency><keyword>devil</keyword>devil</keyword>
+    <keyword><id>395</id><frequency>4</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>449</id><frequency>1</frequency><keyword>fun</keyword>fun</keyword>
+    <keyword><id>500</id><frequency>2</frequency><keyword>hare</keyword>hare</keyword>
+    <keyword><id>782</id><frequency>1</frequency><keyword>milk</keyword>milk</keyword>
+    <keyword><id>825</id><frequency>1</frequency><keyword>neck</keyword>neck</keyword>
+    <keyword><id>862</id><frequency>1</frequency><keyword>noose</keyword>noose</keyword>
+    <keyword><id>1044</id><frequency>1</frequency><keyword>rope</keyword>rope</keyword>
+    <keyword><id>1340</id><frequency>1</frequency><keyword>white</keyword>white</keyword>
+  </keywords>
+  <etk_index><id>27</id>
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>25</id><display_name>Places: Barn</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>73</id><display_name>Animals: Hare</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>96</id><display_name>Actions or events: Suicide</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<story story_id="834">
+  <publication_info>DS_V_45</publication_info>
+  <full_name>383 - 0.00 - DS_V_45</full_name>
+  <informant_id>383</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#xF8;ren Lavrsen</informant_first_name>
+  <informant_full_name>S&#xF8;ren Lavrsen Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>414</place_id>
+      <name>M&#xF8;ltrup</name>
+      <display_name>M&#xF8;ltrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>414</place_id>
+      <name>M&#xF8;ltrup</name>
+      <display_name>M&#xF8;ltrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="158">
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_252</publication_info>
+      <full_name>241 - 2.08 - DS_V_252</full_name>
+      <url>data/stories/158.dfl</url>
+    </story>
+    <story story_id="564">
+      <informant_id>158</informant_id>
+      <publication_info>DS_V_47</publication_info>
+      <full_name>158 - 0.00 - DS_V_47</full_name>
+      <url>data/stories/564.dfl</url>
+    </story>
+    <story story_id="880">
+      <informant_id/>
+      <publication_info>DS_V_43</publication_info>
+      <full_name>0 - 0.00 - DS_V_43</full_name>
+      <url>data/stories/880.dfl</url>
+    </story>
+    <story story_id="569">
+      <informant_id>205</informant_id>
+      <publication_info>DS_V_37</publication_info>
+      <full_name>205 - 0.00 - DS_V_37</full_name>
+      <url>data/stories/569.dfl</url>
+    </story>
+    <story story_id="835">
+      <informant_id>470</informant_id>
+      <publication_info>DS_V_39</publication_info>
+      <full_name>470 - 0.00 - DS_V_39</full_name>
+      <url>data/stories/835.dfl</url>
+    </story>
+    <story story_id="233">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_H_141</publication_info>
+      <full_name>235 - 1.14 - DS_II_H_141</full_name>
+      <url>data/stories/233.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Det var en gang, min fader og min faster Else her i M&#xF8;ltrup var g&#xE5;et ud og skulde lede om nogle kalve. Der var et treskjel, de kom til, og s&#xE5; vidste de ikke andet, end de kom til kalvene, men da de s&#xE5; n&#xE6;rmere til, var det en stor hvid, hovedl&#xF8;s stud. Else blev s&#xE5; bange, at hun faldt p&#xE5; kn&#xE6;, og han sagde: "Jag til at l&#xE6;se din herrens b&#xF6;n, s&#xE5; vender a min vest avet." Da det var forrettet, l&#xF8;b de hjem ad, og s&#xE5; skyndte de dem at f&#xE5; r&#xF8;rt i ilden, inden de gik ind.</danish_publication>
+  <english_publication>Once my father and my paternal aunt Else here from M&#xF8;ltrup had gone out to look for some calves. They came to a three-way fork in the road, and then they came across the calves without knowing how, but when they looked closer, it was a big, white, headless steer. Else got so scared that she fell to her knees, and he said: "Quickly say the Our Father and I'll put my vest on backwards." When they'd done that, they ran home, and then they hurried up and made sure to stir in the fire before they went inside.</english_publication>
+  <keywords>
+    <keyword id="56" frequency="1" keyword="aunt">aunt</keyword>
+    <keyword id="169" frequency="2" keyword="calf">calf</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="514" frequency="1" keyword="headless">headless</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="637" frequency="1" keyword="knee">knee</keyword>
+    <keyword id="886" frequency="1" keyword="our_father">Our Father</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1190" frequency="1" keyword="steer">steer</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1340" frequency="1" keyword="white">white</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="5" display_name="People: Children"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

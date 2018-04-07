@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<story story_id="553">
+  <publication_info>DS_VI_720</publication_info>
+  <full_name>466 - 0.00 - DS_VI_720</full_name>
+  <informant_id>466</informant_id>
+  <informant_last_name>Madsen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>L&#xE6;rer Jens Madsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>767</place_id>
+      <name>Ellund</name>
+      <display_name>Ellund (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>684</place_id>
+      <name>Veerst</name>
+      <display_name>Veerst (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="193">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_VI_130</publication_info>
+      <full_name>241 - 4.21 - DSnr_VI_130</full_name>
+      <url>data/stories/193.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en mand, der hedte Svanbj&#xE6;rg, han sk&#xF8;d aldrig fejl efter et vildt. En gang i en skov s&#xE5; en anden mand, han sk&#xF8;d efter en hare, men den var allerede s&#xE5; langt borte, at han ikke kunde lange den, han sk&#xF8;d heller slet ikke lige p&#xE5; den. Alligevel kom han med haren, den var dog falden for skuddet.
+     Samme mand vilde ogs&#xE5; gj&#xE6;rne fiske. S&#xE5; fiskede han en gang i M&#xF8;rk s&#xF8;, en lille dyb (?) s&#xF8; ude p&#xE5; Verst hede, nogle vil endogs&#xE5; mene, den skal v&#xE6;re bundl&#xF8;s. Men da gik det ham galt. For der fik han en r&#xF8;dbroget kalv i garnet, og den rev ham det i stykker, og han m&#xE5;tte den dag g&#xE5; hjem med uforrettet sag. Denne kalv, mente han, havde v&#xE6;ret Fauden.</danish_publication>
+  <english_publication>There was a man who was called Svanbj&#xE6;rg, he never missed a shot when hunting wild things. One time another man saw him shooting at a hare, but it was already so far away that there was no way he could hit it, and he didn&#x2019;t shoot straight at it either. Nevertheless he came with the hare, it had been felled by the shot. 
+     That same man also liked to fish. Then he fished one time in M&#xF8;rk Lake, a little deep lake out on Vest heath, some people believe it is bottomless. But then it went wrong for him. Because that time he got a red spotted calf in his net and it tore it to pieces for him, and he had to go home that day with unfinished business. He believed that the calf was the devil.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="2" keyword="belief">belief</keyword>
+    <keyword id="169" frequency="2" keyword="calf">calf</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="324" frequency="1" keyword="devil">devil</keyword>
+    <keyword id="416" frequency="2" keyword="fishing">fishing</keyword>
+    <keyword id="500" frequency="2" keyword="hare">hare</keyword>
+    <keyword id="517" frequency="1" keyword="heath">heath</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="551" frequency="1" keyword="hunting">hunting</keyword>
+    <keyword id="679" frequency="2" keyword="lake">lake</keyword>
+    <keyword id="830" frequency="1" keyword="net">net</keyword>
+    <keyword id="1021" frequency="1" keyword="red">red</keyword>
+    <keyword id="1106" frequency="4" keyword="shooting">shooting</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="73" display_name="Animals: Hare"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

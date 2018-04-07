@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="793">
+  <publication_info>DS_II_G_340</publication_info>
+  <full_name>535 - 0.00 - DS_II_G_340</full_name>
+  <informant_id>535</informant_id>
+  <informant_last_name>Smed</informant_last_name>
+  <informant_first_name>Peder Jensen</informant_first_name>
+  <informant_full_name>Peder Jensen Smed</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>881</place_id>
+      <name>Strandby</name>
+      <display_name>Strandby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>699</place_id>
+      <name>Viborg</name>
+      <display_name>Viborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="418">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_G356</publication_info>
+      <full_name>123 - 3.15 - DS_II_G356</full_name>
+      <url>data/stories/418.dfl</url>
+    </story>
+    <story story_id="504">
+      <informant_id>318</informant_id>
+      <publication_info>DS_II_G_339</publication_info>
+      <full_name>318 - 0.00 - DS_II_G_339</full_name>
+      <url>data/stories/504.dfl</url>
+    </story>
+    <story story_id="868">
+      <informant_id/>
+      <publication_info>DS_II_G_351</publication_info>
+      <full_name>0 - 0.00 - DS_II_G_351</full_name>
+      <url>data/stories/868.dfl</url>
+    </story>
+    <story story_id="204">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_G_250</publication_info>
+      <full_name>241 - 4.32 - DSnr_II_G_250</full_name>
+      <url>data/stories/204.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der skulde gro en hvidtorn op i Viborg s&#xF8;, som den danske konge skulde binde hans hest ved, n&#xE5;r han kunde ikke klare sig l&#xE6;ngere, og s&#xE5; skulde han g&#xE5; i s&#xF8;en og drukne sig. De siger, at tornen er groet op. Fjenderne skulde v&#xE6;re Tyskerne. Men Danmark skulde dog vinde slaget til sidst med tolv&#xE5;rs drenge og treds&#xE5;rs m&#xE6;nd, de andre der imellem skulde v&#xE6;re bleven slagne ihjel.</danish_publication>
+  <english_publication>A hawthorn bush is supposed to grow up out of Viborg Lake, and the Danish king is supposed to tie his horse to it when he cannot manage any longer, and then he is to go into the lake and drown himself. They say that the bush has already grown. The enemies are supposed to be the Germans. But Denmark is supposed to finally win the battle with twelve-year-old boys and sixty-year-old men, all the others in between are supposed to have been killed.</english_publication>
+  <keywords>
+    <keyword id="77" frequency="1" keyword="battle">battle</keyword>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="159" frequency="2" keyword="bush">bush</keyword>
+    <keyword id="300" frequency="1" keyword="danish">Danish</keyword>
+    <keyword id="323" frequency="1" keyword="denmark">denmark</keyword>
+    <keyword id="358" frequency="1" keyword="drowning">drowning</keyword>
+    <keyword id="380" frequency="1" keyword="enemy">enemy</keyword>
+    <keyword id="462" frequency="1" keyword="german">german</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="624" frequency="1" keyword="king">king</keyword>
+    <keyword id="679" frequency="2" keyword="lake">lake</keyword>
+    <keyword id="873" frequency="2" keyword="old">old</keyword>
+    <keyword id="1261" frequency="1" keyword="tie">tie</keyword>
+    <keyword id="1370" frequency="2" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="5" display_name="People: Children"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="85" display_name="Actions or events: Drowning"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

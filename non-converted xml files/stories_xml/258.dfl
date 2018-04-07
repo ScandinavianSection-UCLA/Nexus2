@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<story story_id="258">
+  <publication_info>DS_VI_981</publication_info>
+  <full_name>235 - 1.38 - DS_VI_981</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.38</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="424">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VI_995</publication_info>
+      <full_name>123 - 3.21 - DS_VI_995</full_name>
+      <url>data/stories/424.dfl</url>
+    </story>
+    <story story_id="257">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VII_1614</publication_info>
+      <full_name>235 - 1.37 - DS_VII_1614</full_name>
+      <url>data/stories/257.dfl</url>
+    </story>
+    <story story_id="259">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VI_970</publication_info>
+      <full_name>235 - 1.39 - DS_VI_970</full_name>
+      <url>data/stories/259.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5219b (2)</fielddiary_page_start>
+  <fielddiary_page_end>5219b (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Kirsten Marie draws on her own experience in her youth herding animals for this next spell. The stampeding of a cow across plowed fields could be catastrophic because of the damage to the fields, the potential harm to the cow, and the danger a stampeding cow poses for anyone in its way. The notion that spells can also do harm is widespread. The spell implicitly refers to the grave economic threat that unexpected and sudden events posed to farms and farmers.</annotation>
+  <danish_manuscript>Beskorset. Naar jeg ser en Ko der beser
+over et Fald Agre, s. beser den enten frem
+eller tilbage. Det skal siges, s. skal Koen 
+ikke kunne bese. Om Aftenen skulde man
+l&#xF8;se af Korset igien og sige at de enten
+besete tilbage eller frem, ellers d&#xF8;de de.
+og dette maa vi Flyttehjorder huske.</danish_manuscript>
+  <english_manuscript>Besekorset (Stampeding spell). When I see a cow stampeding over a field, then it stampedes neither forward nor backward. You were supposed to say that, so that the cow couldn't stampede. At night you were supposed to release the spell, and say that they either stampede backward or forward, otherwise they'd die and we shepherds had to remember that.</english_manuscript>
+  <danish_publication>Besekorset. Man siger f&#xF8;lgende, s&#xE5; skal koen ikke kunne bese: N&#xE5;r jeg ser en ko, der beser over et fald agre, s&#xE5; beser den enten frem eller tilbage. Om aftenen skulde man l&#xF8;se af korset igjen og sige, at de enten beste tilbage eller frem, ellers d&#xF8;de de, dette m&#xE5;tte vi flyttehjorder huske.</danish_publication>
+  <english_publication>Besekorset (Stampeding spell). When you said the following, then the cows weren&#x2019;t supposed to be able to stampede: When I see a cow stampeding over a field, then it stampedes neither forward nor backward. At night you were supposed to release the spell, and say that they neither stampeded backward nor forward, otherwise they&#x2019;d die, we shepherds had to remember that.</english_publication>
+  <keywords>
+    <keyword id="274" frequency="2" keyword="cow">cow</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1099" frequency="1" keyword="shepherd">shepherd</keyword>
+    <keyword id="1174" frequency="2" keyword="spell">spell</keyword>
+    <keyword id="1187" frequency="5" keyword="stampede">stampede</keyword>
+  </keywords>
+  <etk_index id="28">
+    <heading_danish>Kloge m&#xE6;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="10" name="Cure / Remedy / Spell"/>
+</story>

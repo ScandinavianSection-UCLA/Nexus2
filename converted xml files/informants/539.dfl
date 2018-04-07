@@ -1,0 +1,95 @@
+<informant><person_id>539</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer J. S&#248;e</full_name>
+  <last_name>S&#248;e</last_name>
+  <first_name>J.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>655</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_F_54</publication_info>
+      <full_name>539 - 0.00 - DS_II_F_54</full_name>
+      <url>data/stories/655.dfl</url>
+      <place_recorded><id>214</id>Gudum</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>656</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_E_119</publication_info>
+      <full_name>539 - 0.00 - DS_II_E_119</full_name>
+      <url>data/stories/656.dfl</url>
+      <place_recorded><id>214</id>Gudum</place_recorded>
+      <places_mentioned>
+        <place><id>214</id>
+          <name>Gudum</name>
+        </place>
+        <place><id>259</id>
+          <name>Himmerland</name>
+        </place>
+        <place><id>492</id>
+          <name>Rold</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>657</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>539</informant_id>
+      <publication_info>DS_VI_899</publication_info>
+      <full_name>539 - 0.00 - DS_VI_899</full_name>
+      <url>data/stories/657.dfl</url>
+      <place_recorded><id>214</id>Gudum</place_recorded>
+      <places_mentioned>
+        <place><id>470</id>
+          <name>Ramme</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>847</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_E_117</publication_info>
+      <full_name>539 - 0.00 - DS_II_E_117</full_name>
+      <url>data/stories/847.dfl</url>
+      <place_recorded><id>214</id>Gudum</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>214</place_id>
+      <name>Gudum</name>
+      <display_name>Gudum (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>470</place_id>
+      <name>Ramme</name>
+      <display_name>Ramme (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>492</place_id>
+      <name>Rold</name>
+      <display_name>Rold (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>259</place_id>
+      <name>Himmerland</name>
+      <display_name>Himmerland (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>214</place_id>
+      <name>Gudum</name>
+      <display_name>Gudum (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

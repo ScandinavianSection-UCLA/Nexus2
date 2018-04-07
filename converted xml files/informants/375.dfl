@@ -1,0 +1,129 @@
+<informant><person_id>375</person_id>
+  <core_informant/>
+  <full_name>Friskolel&#230;rer J&#248;rgen Hansen</full_name>
+  <last_name>Hansen</last_name>
+  <first_name>J&#248;rgen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>580</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>375</informant_id>
+      <publication_info>DS_VII_1399</publication_info>
+      <full_name>375 - 0.00 - DS_VII_1399</full_name>
+      <url>data/stories/580.dfl</url>
+      <place_recorded><id>899</id>V&#230;rslev</place_recorded>
+      <places_mentioned>
+        <place><id>899</id>
+          <name>V&#230;rslev</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>581</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>375</informant_id>
+      <publication_info>DS_IV_1788</publication_info>
+      <full_name>375 - 0.00 - DS_IV_1788</full_name>
+      <url>data/stories/581.dfl</url>
+      <place_recorded><id>899</id>V&#230;rslev</place_recorded>
+      <places_mentioned>
+        <place><id>1030</id>
+          <name>Birkendeg&#229;rd</name>
+        </place>
+        <place><id>1029</id>
+          <name>Sn&#230;veris skov</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>591</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>375</informant_id>
+      <publication_info>DS_VII_612</publication_info>
+      <full_name>375 - 0.00 - DS_VII_612</full_name>
+      <url>data/stories/591.dfl</url>
+      <place_recorded><id>899</id>V&#230;rslev</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>592</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>375</informant_id>
+      <publication_info>DS_II_E_142</publication_info>
+      <full_name>375 - 0.00 - DS_II_E_142</full_name>
+      <url>data/stories/592.dfl</url>
+      <place_recorded><id>899</id>V&#230;rslev</place_recorded>
+      <places_mentioned>
+        <place><id>99</id>
+          <name>Br&#248;ndsted m&#248;lle</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>593</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>375</informant_id>
+      <publication_info>DS_V_1157</publication_info>
+      <full_name>375 - 0.00 - DS_V_1157</full_name>
+      <url>data/stories/593.dfl</url>
+      <place_recorded><id>899</id>V&#230;rslev</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>876</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>375</informant_id>
+      <publication_info>DS_IV_2016</publication_info>
+      <full_name>375 - 0.00 - DS_IV_2016</full_name>
+      <url>data/stories/876.dfl</url>
+      <place_recorded><id>899</id>V&#230;rslev</place_recorded>
+      <places_mentioned>
+        <place><id>1064</id>
+          <name>Frankerup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>914</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>375</informant_id>
+      <publication_info>DS_II_F_93</publication_info>
+      <full_name>375 - 0.00 - DS_II_F_93</full_name>
+      <url>data/stories/914.dfl</url>
+      <place_recorded><id>899</id>V&#230;rslev</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>899</place_id>
+      <name>V&#230;rslev</name>
+      <display_name>V&#230;rslev (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1064</place_id>
+      <name>Frankerup</name>
+      <display_name>Frankerup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>99</place_id>
+      <name>Br&#248;ndsted m&#248;lle</name>
+      <display_name>Br&#248;ndsted m&#248;lle (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1029</place_id>
+      <name>Sn&#230;veris skov</name>
+      <display_name>Sn&#230;veris skov (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1030</place_id>
+      <name>Birkendeg&#229;rd</name>
+      <display_name>Birkendeg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>899</place_id>
+      <name>V&#230;rslev</name>
+      <display_name>V&#230;rslev (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<story story_id="676">
+  <publication_info>DS_IV_1783</publication_info>
+  <full_name>377 - 0.00 - DS_IV_1783</full_name>
+  <informant_id>377</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Louise</informant_first_name>
+  <informant_full_name>L&#xE6;rerinde Louise Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>293</place_id>
+      <name>Hurup</name>
+      <display_name>Hurup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>222</place_id>
+      <name>Hadsund</name>
+      <display_name>Hadsund (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>293</place_id>
+      <name>Hurup</name>
+      <display_name>Hurup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="462">
+      <informant_id>417</informant_id>
+      <publication_info>DS_IV_1777</publication_info>
+      <full_name>417 - 0.00 - DS_IV_1777</full_name>
+      <url>data/stories/462.dfl</url>
+    </story>
+    <story story_id="875">
+      <informant_id/>
+      <publication_info>DS_IV_1778</publication_info>
+      <full_name>0 - 0.00 - DS_IV_1778</full_name>
+      <url>data/stories/875.dfl</url>
+    </story>
+    <story story_id="682">
+      <informant_id>494</informant_id>
+      <publication_info>DS_IV_1787</publication_info>
+      <full_name>494 - 0.00 - DS_IV_1787</full_name>
+      <url>data/stories/682.dfl</url>
+    </story>
+    <story story_id="398">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_870</publication_info>
+      <full_name>123 - 2.24 - DS_III_870</full_name>
+      <url>data/stories/398.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand fra Langerimt i Als sogn ved Hadsund fortalte mig en dag, at han, medens han var en lille dreng, en gang i Hurup kro var bleven solgt til nogle omrejsende folk. Hans fader havde sluttet handelen, og pengene skulde udbetales. De rejsende foregav, at han skulde s&#xE6;ttes i en t&#xF8;nde oppe ved Vesterhavet med en kringle i h&#xE5;nden, for at havet ikke skulde bryde ind. Det var nok ikke s&#xE5; lille en sum, der var lovet for drengen, men imidlertid kom Jep Jensen til, det var skolel&#xE6;reren i Hurup, ogs&#xE5; blev der en anden vending. Han tog drengen, der hed Jakob Nielsen, med sig hjem, skj&#xE6;ldte faderen ud, og s&#xE5; blev der intet af handelen.</danish_publication>
+  <english_publication>A man from Langerimt in Als parish near Hadsund told me one day that when he was a little boy, he had been sold in Hurup Inn to some travelers. His father had finished the deal and the money was to be paid. The travelers explained that they were going to put him in a barrel by the North Sea with a pretzel in his hand so that the sea wouldn&#x2019;t flood the land. It wasn&#x2019;t a small sum that was promised for the boy, but in the meantime Jep Jensen came by, he was the school teacher in Hurup, and there was a different turn of events. He took the boy, who was called Jakob Nielsen, along home with him, yelled at the father and the deal fell through.</english_publication>
+  <keywords>
+    <keyword id="74" frequency="1" keyword="barrel">barrel</keyword>
+    <keyword id="130" frequency="3" keyword="boy">boy</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="399" frequency="2" keyword="father">father</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="560" frequency="1" keyword="inn">inn</keyword>
+    <keyword id="575" frequency="1" keyword="jakob_nielsen">Jakob Nielsen</keyword>
+    <keyword id="596" frequency="1" keyword="jep_jensen">Jep Jensen</keyword>
+    <keyword id="682" frequency="1" keyword="land">land</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="864" frequency="1" keyword="north_sea">North Sea</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="993" frequency="1" keyword="pretzel">pretzel</keyword>
+    <keyword id="1075" frequency="1" keyword="school">school</keyword>
+    <keyword id="1079" frequency="1" keyword="sea">sea</keyword>
+    <keyword id="1242" frequency="1" keyword="teacher">teacher</keyword>
+    <keyword id="1279" frequency="2" keyword="traveler">traveler</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="10" display_name="People: Foreigner"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="33" display_name="Places: Inn"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="77" display_name="Animals: Sheep"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<story story_id="122">
+  <publication_info>DS_VII_1181</publication_info>
+  <full_name>150 - 4.11 - DS_VII_1181</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.11</order_told>
+  <fieldtrip id="5">June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>7</place_id>
+      <name>Aarestrup</name>
+      <display_name>Aarestrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="705">
+      <informant_id>124</informant_id>
+      <publication_info>DS_VII_1179</publication_info>
+      <full_name>124 - 0.00 - DS_VII_1179</full_name>
+      <url>data/stories/705.dfl</url>
+    </story>
+    <story story_id="709">
+      <informant_id>356</informant_id>
+      <publication_info>DS_VII_1180</publication_info>
+      <full_name>356 - 0.00 - DS_VII_1180</full_name>
+      <url>data/stories/709.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4593a (1)</fielddiary_page_start>
+  <fielddiary_page_end>4593a (1)</fielddiary_page_end>
+  <bibliographic_info>R&#xF8;rbye 1976</bibliographic_info>
+  <bibliography_references>
+    <reference id="398" category="general">
+      <display_string>[Book] R&#xF8;rbye, Birgitte. 1976. &lt;i&gt;Kloge folk og skidtfolk. Kvaksalveriets epoke i Danmark&lt;/i&gt;. Copenhagen: Politiken.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>In this fairly typical story of curse / counter-curse, the witch has caused the farm to lose animals, and the witch master, or cunning man, is called to restore (economic) order. The farmhand reads the small note presumably with the expectation of finding something incomprehensible or sufficiently magical in nature but instead finds a mundane statement about animal care. Jens Ilder, as with the rest of the cunning folk to whom Jens refers, is not mentioned in R&#xF8;rbye's study of cunning folk.</annotation>
+  <danish_manuscript>I en Gaard i Aarestrup. Kalve vilde ikke leve
+og s. hentede de en Hegsemester vester fra,
+h. hed Jens Ilder og h. skrev s. mange Sedler og
+puttede ind runden omkring. S. var der en
+Revn i D&#xF8;rstolpen og der satte h. en. I
+Bl&#xE6;sevejr var den lokkedes ud og en Tjene
+stedreng der fik fat i den og l&#xE6;ste, hvad der
+stod: Giv din Kalve baade Halen og H&#xF8;
+vil de ikke lev&#x2019; saa lad dem d&#xF8;.</danish_manuscript>
+  <english_manuscript>At a farm in &#xC5;restrup. Calves wouldn't live and so they got a witch master from the west, he was called Jens Ilder and he wrote a bunch of small notes and put them round about. Then there was a crack in the door post and he put one in there too. It blew out during windy weather, and a hired boy got hold of it and read what it said, "Give your calves both straw and hay, if they won't live, then let them die."</english_manuscript>
+  <danish_publication>I en g&#xE5;rd i &#xC5;restrup vilde deres kalve ikke leve, og s&#xE5; hentede de en heksemester vester fra, han hed Jern Ilder. Han skrev s&#xE5; mange sedler og puttede ind runden omkring. S&#xE5; var der en revne i d&#xF6;rstolpen, og d&#xE9;r satte han ogs&#xE5; &#xE9;n ind. Siden, da det gav bl&#xE6;sevejr, var den lokkedes ud, og en tjenestedreng fik fat i den og l&#xE6;ste: "Giv dine kalve b&#xE5;de halm og h&#xF8;, vil de ikk' lev', s&#xE5; lad dem d&#xF8;."</danish_publication>
+  <english_publication>Calves couldn&#x2019;t survive at a farm in &#xC5;restrup and so they got a witch master from the west, he was called Jens Ilder. He wrote a bunch of small notes and put them round about. Then there was a crack in the door post and he put one in there too. After, when the weather was windy, it had worked its way out and a hired boy got it and read, &#x201C;Give your calves both straw and hay, if they won&#x2019;t live, then let them die.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="169" frequency="2" keyword="calf">calf</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="511" frequency="1" keyword="hay">hay</keyword>
+    <keyword id="581" frequency="1" keyword="jens_ilder">Jens Ilder</keyword>
+    <keyword id="979" frequency="1" keyword="post">post</keyword>
+    <keyword id="1206" frequency="1" keyword="straw">straw</keyword>
+    <keyword id="1324" frequency="1" keyword="weather">weather</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+    <keyword id="1351" frequency="1" keyword="witch">witch</keyword>
+    <keyword id="1367" frequency="1" keyword="writing">writing</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

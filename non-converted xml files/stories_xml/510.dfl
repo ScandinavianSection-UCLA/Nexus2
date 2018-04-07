@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<story story_id="510">
+  <publication_info>DS_I_44</publication_info>
+  <full_name>368 - 0.00 - DS_I_44</full_name>
+  <informant_id>368</informant_id>
+  <informant_last_name>Grundtvig</informant_last_name>
+  <informant_first_name>F. L.</informant_first_name>
+  <informant_full_name>F. L. Grundtvig</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>338</place_id>
+      <name>K&#xF8;benhavn</name>
+      <display_name>K&#xF8;benhavn (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>187</place_id>
+      <name>Gildebj&#xE6;rg</name>
+      <display_name>Gildebj&#xE6;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="326">
+      <informant_id>90</informant_id>
+      <publication_info>DS_I_685</publication_info>
+      <full_name>90 - 1.03 - DS_I_685</full_name>
+      <url>data/stories/326.dfl</url>
+    </story>
+    <story story_id="759">
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_A_26</publication_info>
+      <full_name>348 - 0.00 - DS_II_A_26</full_name>
+      <url>data/stories/759.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gang var der i skumringen en del drenge oppe p&#xE5; en bakke, som kaldes Gildebj&#xE6;rg (i H&#xF6;sterkj&#xF8;b) at kj&#xF8;re i sl&#xE6;de ned ad bakken i en stor mose. Midt under legen kom der en hel m&#xE6;ngde sm&#xE5;, sorte m&#xE6;nd mylrende op p&#xE5; bakken; nu l&#xF8;b drengene, alt hvad de kunde, hjem, men f&#xF8;rst n&#xE6;ste morgen fandtes sl&#xE6;derne.</danish_publication>
+  <english_publication>At dusk one time there was a group of boys up on a hill that was called Gildebj&#xE6;rg (in H&#xF8;sterk&#xF8;b). They were riding sleds down the hill down to a big swamp. As they were playing, a huge crowd of small black men came wandering up the hill; the boys ran home as fast as they could, and didn't go to get their sleds back until the next morning.</english_publication>
+  <keywords>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="130" frequency="2" keyword="boy">boy</keyword>
+    <keyword id="284" frequency="1" keyword="crowd">crowd</keyword>
+    <keyword id="365" frequency="1" keyword="dusk">dusk</keyword>
+    <keyword id="530" frequency="3" keyword="hill">hill</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1141" frequency="2" keyword="sled">sled</keyword>
+    <keyword id="1228" frequency="1" keyword="swamp">swamp</keyword>
+    <keyword id="1315" frequency="1" keyword="wandering">wandering</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="5" display_name="People: Children"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="116" display_name="Time, Season, Weather: Winter"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

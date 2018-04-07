@@ -1,0 +1,46 @@
+<informant><person_id>356</person_id>
+  <core_informant/>
+  <full_name>Martin Dyrholm</full_name>
+  <last_name>Dyrholm</last_name>
+  <first_name>Martin</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>709</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>356</informant_id>
+      <publication_info>DS_VII_1180</publication_info>
+      <full_name>356 - 0.00 - DS_VII_1180</full_name>
+      <url>data/stories/709.dfl</url>
+      <place_recorded><id>761</id>Brudager</place_recorded>
+      <places_mentioned>
+        <place><id>1055</id>
+          <name>Voermark</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>761</place_id>
+      <name>Brudager</name>
+      <display_name>Brudager (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1055</place_id>
+      <name>Voermark</name>
+      <display_name>Voermark (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<story story_id="552">
+  <publication_info>DS_VI_66</publication_info>
+  <full_name>554 - 0.00 - DS_VI_66</full_name>
+  <informant_id>554</informant_id>
+  <informant_last_name>West</informant_last_name>
+  <informant_first_name>J. L.</informant_first_name>
+  <informant_full_name>J. L. West</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>913</place_id>
+      <name>Voldby</name>
+      <display_name>Voldby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>76</place_id>
+      <name>Bornholm</name>
+      <display_name>Bornholm (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="159">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1052</publication_info>
+      <full_name>241 - 2.09 - DS_IV_1052</full_name>
+      <url>data/stories/159.dfl</url>
+    </story>
+    <story story_id="586">
+      <informant_id>144</informant_id>
+      <publication_info>DS_VI_48</publication_info>
+      <full_name>144 - 0.00 - DS_VI_48</full_name>
+      <url>data/stories/586.dfl</url>
+    </story>
+    <story story_id="701">
+      <informant_id>378</informant_id>
+      <publication_info>DS_VI_68</publication_info>
+      <full_name>378 - 0.00 - DS_VI_68</full_name>
+      <url>data/stories/701.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En g&#xE5;rdmand p&#xE5; Bornholm var frimurer, og derfor skulde Fanden have ham &#x2014; for han skal jo have alle frimurerne. N&#xE5;r han gik til alters, n&#xF8;d han ikke af br&#xF8;det eller af vinen. Da han var d&#xF8;d og skulde jordes, og de kom til kirken med liget, sprang l&#xE5;get af kisten, og da var der ikke andet i den end en sort oksehud. Fanden havde jo taget ham.</danish_publication>
+  <english_publication>A farmer on Bornholm was a Freemason, and so the devil was supposed to get him--because he is supposed to get all Freemasons. When he went to communion, he didn't take bread or wine. When he was dead and was to be buried and they brought his corpse to the church, the lid of the casket burst open and there was nothing in there but a black ox hide. The devil had taken him.</english_publication>
+  <keywords>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="139" frequency="1" keyword="bread">bread</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="185" frequency="1" keyword="casket">casket</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="252" frequency="1" keyword="communion">communion</keyword>
+    <keyword id="262" frequency="1" keyword="corpse">corpse</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="324" frequency="2" keyword="devil">devil</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="444" frequency="2" keyword="freemason">freemason</keyword>
+    <keyword id="892" frequency="1" keyword="ox">ox</keyword>
+    <keyword id="1347" frequency="1" keyword="wine">wine</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="75" display_name="Animals: Ox"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

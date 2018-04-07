@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<story story_id="163">
+  <publication_info>DS_III_1850</publication_info>
+  <full_name>241 - 2.13 - DS_III_1850</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>2.13</order_told>
+  <fieldtrip id="11">October 1893</fieldtrip>
+  <fieldtrip_start_date>1893-09-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1893-10-26</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>300</place_id>
+      <name>Hvidstedg&#xE5;rd</name>
+      <display_name>Hvidstedg&#xE5;rd (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>732</place_id>
+      <name>Vrejlev</name>
+      <display_name>Vrejlev (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="181">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_B_203</publication_info>
+      <full_name>241 - 4.10 - DSnr_II_B_203</full_name>
+      <url>data/stories/181.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6296b</fielddiary_page_start>
+  <fielddiary_page_end>6296b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens Peter's storytelling provides a map for reading features of the local landscape, instilling significance in features that others might not notice. In this manner, Jens Peter emerges as a knowledgeable guide to local topography, and provides a reading of the landscape that infuses it with tragedy and danger. The loss of the local minister in a horrible accident would have been a memorable event. 
+
+     It is about five kilometers from Vrejlev to Hvidstedg&#xE5;rd, and one can easily imagine a shortcut over the meadow between the road from Vrejlev to T&#xE5;rs, across Boller k&#xE6;r (marsh), and on through the meadow at Hvidstedg&#xE5;rd.
+
+     In the published version of the story, Tang Kristensen reversed the order of several sentences for no apparent reason. He also mistranscribed the name of the farm as Hvilstedg&#xE5;rd. The meadow near Hvidstedg&#xE5;rd is fed by the Uggerby river.</annotation>
+  <danish_manuscript>I Hvidstedgaards Enge er der et sv&#xE6;re
+stort Hul de kalder Pr&#xE6;stehullet den Dag
+i Dag er. Der kj&#xF8;rte en Pr&#xE6;st fra Vrej
+lev i paa Isen baade med Sl&#xE6;de og
+Kusk og det hele blev v&#xE6;k. Det er
+nu groet sammen og er ikke n&#xE6;r s. stort
+som f&#xF8;r.</danish_manuscript>
+  <english_manuscript>In Hvidstedg&#xE5;rd's meadows, there is a really big hole, they called it Minister Hole to this very day. A minister from Vrejlev drove onto the ice and into it with his sleigh and driver and everything disappeared. It has grown in a bit and isn't nearly as big as it was before.</english_manuscript>
+  <danish_publication>I Hvilstedg&#xE5;rds enge er der et sv&#xE6;re stort hul, de kalder Pr&#xE6;steh&#xF8;llet den dag i dag er. Men det er groet meget sammen og ikke n&#xE6;r s&#xE5; stort som f&#xF6;r. Her kj&#xF8;rte en pr&#xE6;st fra Vrejlev i p&#xE5; isen b&#xE5;de med sl&#xE6;de og kusk og det hele, og der blev det.</danish_publication>
+  <english_publication>In Hvilstedg&#xE5;rd&#x2019;s meadows, there is a really big hole, they called it the Minister Hole to this very day. It has grown in a bit and isn&#x2019;t nearly as big as it was before. A minister from Vrejlev drove onto the ice and into it with his sleigh and driver and everything, and they stayed there.</english_publication>
+  <keywords>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="357" frequency="1" keyword="driver">driver</keyword>
+    <keyword id="553" frequency="1" keyword="ice">ice</keyword>
+    <keyword id="764" frequency="1" keyword="meadow">meadow</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="1143" frequency="1" keyword="sleigh">sleigh</keyword>
+  </keywords>
+  <etk_index id="14">
+    <heading_danish>Forskjellige stedsagn</heading_danish>
+    <heading_english>Diverse place legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="36" display_name="Places: Meadow"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="85" display_name="Actions or events: Drowning"/>
+    <tango_index id="116" display_name="Time, Season, Weather: Winter"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

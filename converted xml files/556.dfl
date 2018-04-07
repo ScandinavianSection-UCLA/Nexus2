@@ -1,0 +1,91 @@
+<story><story_id>556</story_id>
+  <publication_info>DS_III_2292</publication_info>
+  <full_name>68 - 0.00 - DS_III_2292</full_name>
+  <informant_id>68</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Mikkel</informant_first_name>
+  <informant_full_name>Mikkel Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <secondary_informants>
+    <informant><id>25</id>Jens Nielsen B&#230;k</informant>
+  </secondary_informants>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_mentioned</type>
+      <place_id>1020</place_id>
+      <name>Addit</name>
+      <display_name>Addit (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>383</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_744</publication_info>
+      <full_name>123 - 2.09 - DS_III_744</full_name>
+      <url>data/stories/383.dfl</url>
+    </story>
+    <story><story_id>536</story_id>
+      <informant_id>374</informant_id>
+      <publication_info>DS_III_2256</publication_info>
+      <full_name>374 - 0.00 - DS_III_2256</full_name>
+      <url>data/stories/536.dfl</url>
+    </story>
+    <story><story_id>736</story_id>
+      <informant_id>345</informant_id>
+      <publication_info>DS_III_2326</publication_info>
+      <full_name>345 - 0.00 - DS_III_2326</full_name>
+      <url>data/stories/736.dfl</url>
+    </story>
+    <story><story_id>804</story_id>
+      <informant_id>306</informant_id>
+      <publication_info>DS_III_2302</publication_info>
+      <full_name>306 - 0.00 - DS_III_2302</full_name>
+      <url>data/stories/804.dfl</url>
+    </story>
+    <story><story_id>838</story_id>
+      <informant_id>428</informant_id>
+      <publication_info>DS_III_2296</publication_info>
+      <full_name>428 - 0.00 - DS_III_2296</full_name>
+      <url>data/stories/838.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Ude i Ajt er der s&#229; mange h&#246;je, og iblandt dem er en, der kaldes Kongeh&#246;j. Der mente de, der var en konge begravet. S&#229; blev de Ajt m&#230;nd enige om at grave i den h&#246;j for at finde nogle skatte. De gravede, og der kom lige s&#229;dan b&#229;de et og andet, f&#248;rst en hund, og han rendte og hoppede l&#230;nge, men de blev ved at grave. Endelig kom de n&#230;r til skatten, og s&#229; kom der en stor r&#248;d kok. Da havde de f&#229;et fat i kisten og var ved at hive den op. Kokken rendte og gjorde s&#229; mange kunster, og s&#229; slog den en stor s ... Da siger den ene: "Det var da en allerhelvedes s ... af en kok." S&#229; var det forbi. Folkene str&#248;g nu hen i nogle h&#246;je ikke langt derfra, som hedder Klovnh&#246;je, der troede de, kokken var rendt hen med skatten, og s&#229; begyndte de der. Men det var forbi, der var ingen ting at finde.</danish_publication>
+  <english_publication>Out in Ajt there are so many mounds, and among them is one called Kongeh&#248;j (King&#8217;s mound). They believed that there was a king buried there. Then the men from Ajt agreed to dig in the mound to see if they could find a treasure. They dug and all sorts of things appeared, first a dog, and he ran and hopped a long time, but they continued to dig. Finally, they got close to the treasure, and then a large red rooster came up. They had gotten hold of the chest and were in the process of heaving it up out of the hole. The rooster ran about and did all sorts of tricks and then it let loose a huge fart. Then one of the men says: &#8220;That was one helluva fart for a rooster." Then it was over. People dug a bit in some mounds not too far from there, which are called Klovnh&#248;je, they thought that the rooster had run off over there with the treasure, and so they started there. But it was over, there was nothing to find.</english_publication>
+  <keywords>
+    <keyword><id>15</id><frequency>1</frequency><keyword>agreement</keyword>agreement</keyword>
+    <keyword><id>87</id><frequency>1</frequency><keyword>belief</keyword>belief</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>215</id><frequency>1</frequency><keyword>chest</keyword>chest</keyword>
+    <keyword><id>326</id><frequency>4</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>343</id><frequency>1</frequency><keyword>dog</keyword>dog</keyword>
+    <keyword><id>397</id><frequency>2</frequency><keyword>fart</keyword>fart</keyword>
+    <keyword><id>624</id><frequency>2</frequency><keyword>king</keyword>king</keyword>
+    <keyword><id>804</id><frequency>4</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>1021</id><frequency>1</frequency><keyword>red</keyword>red</keyword>
+    <keyword><id>1042</id><frequency>4</frequency><keyword>rooster</keyword>rooster</keyword>
+    <keyword><id>1280</id><frequency>3</frequency><keyword>treasure</keyword>treasure</keyword>
+    <keyword><id>1282</id><frequency>1</frequency><keyword>trickery</keyword>trickery</keyword>
+  </keywords>
+  <etk_index><id>15</id>
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

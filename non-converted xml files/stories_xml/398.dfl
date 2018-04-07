@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<story story_id="398">
+  <publication_info>DS_III_870</publication_info>
+  <full_name>123 - 2.24 - DS_III_870</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.24</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>122</place_id>
+      <name>Dover kirke</name>
+      <display_name>Dover kirke (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>615</place_id>
+      <name>Svejstrup</name>
+      <display_name>Svejstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="534">
+      <informant_id>469</informant_id>
+      <publication_info>DS_III_898</publication_info>
+      <full_name>469 - 0.00 - DS_III_898</full_name>
+      <url>data/stories/534.dfl</url>
+    </story>
+    <story story_id="581">
+      <informant_id>375</informant_id>
+      <publication_info>DS_IV_1788</publication_info>
+      <full_name>375 - 0.00 - DS_IV_1788</full_name>
+      <url>data/stories/581.dfl</url>
+    </story>
+    <story story_id="616">
+      <informant_id>283</informant_id>
+      <publication_info>DS_IV_1253</publication_info>
+      <full_name>283 - 0.00 - DS_IV_1253</full_name>
+      <url>data/stories/616.dfl</url>
+    </story>
+    <story story_id="676">
+      <informant_id>377</informant_id>
+      <publication_info>DS_IV_1783</publication_info>
+      <full_name>377 - 0.00 - DS_IV_1783</full_name>
+      <url>data/stories/676.dfl</url>
+    </story>
+    <story story_id="842">
+      <informant_id>437</informant_id>
+      <publication_info>DS_V_97</publication_info>
+      <full_name>437 - 0.00 - DS_V_97</full_name>
+      <url>data/stories/842.dfl</url>
+    </story>
+    <story story_id="854">
+      <informant_id>468</informant_id>
+      <publication_info>DS_III_880</publication_info>
+      <full_name>468 - 0.00 - DS_III_880</full_name>
+      <url>data/stories/854.dfl</url>
+    </story>
+    <story story_id="462">
+      <informant_id>417</informant_id>
+      <publication_info>DS_IV_1777</publication_info>
+      <full_name>417 - 0.00 - DS_IV_1777</full_name>
+      <url>data/stories/462.dfl</url>
+    </story>
+    <story story_id="682">
+      <informant_id>494</informant_id>
+      <publication_info>DS_IV_1787</publication_info>
+      <full_name>494 - 0.00 - DS_IV_1787</full_name>
+      <url>data/stories/682.dfl</url>
+    </story>
+    <story story_id="237">
+      <informant_id>235</informant_id>
+      <publication_info>DS_III_887</publication_info>
+      <full_name>235 - 1.18 - DS_III_887</full_name>
+      <url>data/stories/237.dfl</url>
+    </story>
+    <story story_id="359">
+      <informant_id>90</informant_id>
+      <publication_info>DSnr_III_478</publication_info>
+      <full_name>90 - 3.05 - DSnr_III_478</full_name>
+      <url>data/stories/359.dfl</url>
+    </story>
+    <story story_id="312">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_III_213</publication_info>
+      <full_name>235 - 3.10 - JAT_III_213</full_name>
+      <url>data/stories/312.dfl</url>
+    </story>
+    <story story_id="373">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1517</publication_info>
+      <full_name>123 - 1.01 - DS_IV_1517</full_name>
+      <url>data/stories/373.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3780a</fielddiary_page_start>
+  <fielddiary_page_end>3780b</fielddiary_page_end>
+  <bibliographic_info>Ball 2009</bibliographic_info>
+  <bibliography_references>
+    <reference id="795" category="general">
+      <display_string>[Thesis] Ball, Kimberly. 2009. The Otherworld Vessel as Metatraditional Motif in Northern European Literature and Folk Narrative. Vol. PhD of &lt;i&gt;Comparative Literature&lt;/i&gt;PhD diss., University of California Press.</display_string>
+    </reference>
+    <reference id="793" category="general">
+      <display_string>[Article] Lindow, John. 1973-1974. Personification and Narrative Structure in Scandinavian Plague Legends. Vol. 29-30 of &lt;i&gt;Arv&lt;/i&gt;, 83-92.</display_string>
+    </reference>
+    <reference id="794" category="general">
+      <display_string>[Article] Tangherlini, Timothy R. 1988. Ships, Fogs and Traveling Pairs. Plague Legend-migration in Scandinavia. Vol. 101 of &lt;i&gt;Journal of American Folklore&lt;/i&gt; 400: 176-206.</display_string>
+    </reference>
+    <reference id="47" category="general">
+      <display_string>[Article] Str&#xF6;mb&#xE4;ck, Dag. 1958. Den f&#xF6;rsta kyrkplatsen i s&#xE4;gen och folklig tro. Vol. 17 of &lt;i&gt;Religion och bibel&lt;/i&gt;, 3-13.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The corpse lamb does not appear overtly as a portent for death. Rather, the lamb acts as a foundation sacrifice for the building of the church. Such sacrifices were intended to dispel the affects of harmful spirits or haunts. The most extreme form of such sacrifice occurs in stories about the plague. In some of those stories, children are buried at the boundary to the town or in churchyard walls to stop the disease (DS IV 1777). In other variants, the live burial is intended to help reestablish the community, and is not related to disease (DS IV 1787). The ghost of the sacrificed lamb subsequently haunts in the shape of the corpse lamb. Paradoxically, the people of the parish, in an attempt to guarantee the success of their church, unleash the innocent haunt of the lamb on the community.
+
+     The foundation sacrifice is clearly not sufficient to guarantee the successful building of the church. Usually instructions for finding the building site come from a cunning person or a community member. In this case, they come clearly from outside the community. (See also KMP 1.18 and 3.10; and AMJ 3.05).
+
+     In the published version, Tang Kristensen deleted the meta-performative reference to the story about the manor lord at Illerup, and the naming of the church, which are found in the manuscript (PJ 1.01).</annotation>
+  <danish_manuscript>Der gaar et Liglam for Dover Kirke, det
+gaar paa 3 Ben. Da Kirken blev bygt skul-
+de de have et levende Kreatur begravet
+under grunden. S. var de s. forarmede at
+de kunde ikke anskaffe andet end et Lam,
+for ellers andre Steder har de en So eller
+Hest eller Ko. Da den Kirke skulle bygges
+eller retter de have en ny Kirke, for den 
+gl. laa ellers i Illerup. Men den var ble
+ven s. br&#xF8;stf&#xE6;ldig at den kunde ikke h&#xE6;nge
+sammen, og s. skulde der bygges en ny. S. vilde
+de have den lagt i Svejstrup, det var ikke
+saadan i den 1 Side af sognet, men der
+
+3780B
+var Pr&#xE6;stegaarden og Skolen. Men alt det de
+byggede vilde ikke h&#xE6;nge sammen og ikke de
+kunde faa Kirke paa det Sted. Aldrig deres 
+Raad. S. kom der en vejfarende forbi en
+Dag som de stod og dundrede med det Mur-
+v&#xE6;rk og s. Hvad er det. I har for lille Fol-
+kens for a tykkes dh. ser saadan lidt
+broklere ud. Ja vi vilde have os en Kirke
+her, men kan ikke faa den til at staa, den
+falder ned for os. Ja s. h. I skal ikke saa
+dan b&#xE6;re jer ad. tage to Stude der har
+aldrig gaaet i T&#xF8;j og dem l&#xE6;gge Tr&#xE6;kt&#xF8;j
+paa og sp&#xE6;nd dem sammen og s. for et
+Par Hjul og lade dem gaa efter at Solen
+er gaaet ned. S. vandt Studene s. langt
+at de kom over til hvor nu D. K. ligger
+der var et stort Elmorads, der kom de in
+i den og kunde ikke komme derfra. Se der
+blev s. Kirken lagt. S. kom den Hist. knap
+----
+efter om Hm. fra Illerup og s. fik Kirken
+sit Navn. Det Liglam er set af enkel-
+te. Smede Rask har set det og min Olde-
+fader, h. troede da det var det.
+</danish_manuscript>
+  <english_manuscript>There's a corpse lamb over at Dover church, it goes about on three legs. When the church was built, they were supposed to bury a living creature under the foundation. They were so poor that they couldn't get a hold of anything other than a lamb, at other places there was usually a sow, a horse or a cow. The old church was actually in Illerup, but it had become so dilapidated, that it couldn't stay up and then they were going to build a new one. They wanted to build in Svejstrup, it wasn't in one end of the parish like that, and the parsonage and school were there too. But everything they built wouldn't stay together and they couldn't get a church at that place. So they didn't know what to do. Then one day a traveler came by and while they stood there and hammered on the walls, he said, "What have you got here, little people, this looks like it's falling apart to me." - "Well, we want to build a church here, but we can't get it to stand; it falls down for us." - "Well," he says, "you shouldn't do it like this, you should get two oxen, which have never been in a harness before, and put a pulling harness on them, and then harness them to a pair of wheels, and let them go after the sun has set." Then the oxen wandered so far during the night that they came over to where Dover church now stands; there was a big alder swamp, and they went out into that and they couldn't get out. And so that's where the church was built. Then the story about the Manor Lord from Illerup came right after and that's how the church got it's name. The corpse lamb has been seen by a few people. Smede-Rask has seen it, and my grandfather, he believed that that is what it was.</english_manuscript>
+  <danish_publication>Der g&#xE5;r et liglam for Dover kirke, det g&#xE5;r p&#xE5; tre ben. Da kirken blev bygt, skulde de have et levende kreatur begravet under grunden. S&#xE5; var de s&#xE5; forarmede, at de kunde ikke anskaffe andet end et lam, for ellers andre steder har de en so eller hest eller ko. Den gamle kirke l&#xE5; ellers i Illerup, men den var bleven s&#xE5; br&#xF8;stf&#xE6;ldig, at den kunde ikke h&#xE6;nge sammen, og s&#xE5; skulde der bygges en ny. S&#xE5; vilde folkene have den lagt i Svejstrup, det var ikke s&#xE5;dan i den ene side af sognet, og der var pr&#xE6;steg&#xE5;rden og skolen. Men alt det, de byggede, vilde ikke h&#xE6;nge sammen, og ikke de kunde f&#xE5; kirke p&#xE5; det sted. S&#xE5; vidste de aldrig deres r&#xE5;d. Da kom der en vejfarende forbi en dag, som de stod og dundrede med det murv&#xE6;rk, og han siger: "Hvad er det, I har for, lille folkens, for a tykkes, det her ser s&#xE5;dan lidt broklere ud." &#x2014; "Ja, vi vilde have os en kirke her, men kan ikke f&#xE5; den til at st&#xE5;; den falder ned for os." &#x2014; "Ja," siger han, "I skal ikke s&#xE5;dan b&#xE6;re jer ad, I skal tage to stude, der har aldrig g&#xE5;et i t&#xF6;j, og l&#xE6;gge tr&#xE6;kt&#xF6;j p&#xE5; dem og s&#xE5; sp&#xE6;nde dem sammen for et par hjul og lade dem g&#xE5;, efter at solen er g&#xE5;et ned." S&#xE5; vandt studene s&#xE5; langt om natten, at de kom over til, hvor Dover kirke nu ligger; der var et stort ellemorads, og det kom de ind i, og kunde ikke komme der fra. Se, der blev s&#xE5; kirken lagt.
+Det liglam er set af enkelte, og Smede-Rask har da set det, og min oldefader ogs&#xE5;; han troede, det var det.</danish_publication>
+  <english_publication>There&#x2019;s a corpse lamb over at Dover church, it goes about on three legs. When the church was built, they were supposed to bury a living creature under the foundation. They were so poor that they couldn&#x2019;t get a hold of anything other than a lamb, at other places there was usually a sow, a horse or a cow. The old church was actually in Illerup, but it had become so dilapidated, that it couldn&#x2019;t stay up and then they were going to build a new one. The people wanted it built in Svejstrup, it wasn&#x2019;t in one end of the parish, and the parsonage and school were there too. But everything they built wouldn&#x2019;t stay together and they couldn&#x2019;t get a church to stand there. So they didn&#x2019;t know what to do. Then one day a traveler came by and while they stood there hammering on the walls, he said, &#x201C;What have you got here, little people, this looks like it's falling apart to me.&#x201D; &#x2013; &#x201C;Well, we want to build a church here, but we can&#x2019;t get it to stand; it keeps on falling down.&#x201D; &#x2013; &#x201C;Well,&#x201D; he says, &#x201C;you shouldn&#x2019;t do it like this, you should get two oxen, which have never been in a harness before, and put a pulling harness on them, and then harness them to a pair of wheels, and let them go after sunset.&#x201D; Then the oxen wandered so far during the night that they came over to where Dover church now stands; there was a big swamp, and the oxen went out into that and they couldn&#x2019;t get out. And so that&#x2019;s where the church was built. The corpse lamb has been seen by a few, and Smede-Rask has seen it, and also my great grandfather; he believed that that is what it was.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="227" frequency="7" keyword="church">church</keyword>
+    <keyword id="262" frequency="1" keyword="corpse">corpse</keyword>
+    <keyword id="263" frequency="1" keyword="corpse_lamb">corpse lamb</keyword>
+    <keyword id="274" frequency="1" keyword="cow">cow</keyword>
+    <keyword id="280" frequency="1" keyword="creature">creature</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="440" frequency="1" keyword="foundation">foundation</keyword>
+    <keyword id="478" frequency="1" keyword="grandfather">grandfather</keyword>
+    <keyword id="502" frequency="3" keyword="harness">harness</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="680" frequency="1" keyword="lamb">lamb</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="892" frequency="2" keyword="ox">ox</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="906" frequency="1" keyword="parsonage">parsonage</keyword>
+    <keyword id="974" frequency="1" keyword="poor">poor</keyword>
+    <keyword id="1075" frequency="1" keyword="school">school</keyword>
+    <keyword id="1170" frequency="1" keyword="sow">sow</keyword>
+    <keyword id="1219" frequency="1" keyword="sunset">sunset</keyword>
+    <keyword id="1228" frequency="1" keyword="swamp">swamp</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1279" frequency="1" keyword="traveler">traveler</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+    <keyword id="1315" frequency="1" keyword="wandering">wandering</keyword>
+    <keyword id="1335" frequency="1" keyword="wheel">wheel</keyword>
+  </keywords>
+  <etk_index id="12">
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="75" display_name="Animals: Ox"/>
+    <tango_index id="77" display_name="Animals: Sheep"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="109" display_name="Time, Season, Weather: Morning"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

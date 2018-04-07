@@ -1,0 +1,74 @@
+<story><story_id>688</story_id>
+  <publication_info>DS_II_B_60</publication_info>
+  <full_name>410 - 0.00 - DS_II_B_60</full_name>
+  <informant_id>410</informant_id>
+  <informant_last_name>Jepsen</informant_last_name>
+  <informant_first_name>Mads</informant_first_name>
+  <informant_full_name>Ungkarl Mads Jepsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>759</place_id>
+      <name>Bredstrup</name>
+      <display_name>Bredstrup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1051</place_id>
+      <name>Nebbeg&#229;rd</name>
+      <display_name>Nebbeg&#229;rd (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>488</story_id>
+      <informant_id>524</informant_id>
+      <publication_info>DS_II_B_29</publication_info>
+      <full_name>524 - 0.00 - DS_II_B_29</full_name>
+      <url>data/stories/488.dfl</url>
+    </story>
+    <story><story_id>767</story_id>
+      <informant_id>338</informant_id>
+      <publication_info>DS_II_B_41</publication_info>
+      <full_name>338 - 0.00 - DS_II_B_41</full_name>
+      <url>data/stories/767.dfl</url>
+    </story>
+    <story><story_id>275</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_B_90</publication_info>
+      <full_name>235 - 1.55 - DS_II_B_90</full_name>
+      <url>data/stories/275.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Nebbeg&#229;rd ligger ikke l&#230;ngere, hvor den f&#246;r l&#229;, og grunden dertil er f&#248;lgende: Nebbeg&#229;rd og &#216;dstedg&#229;rd havde hver sin nisse. Disse to levede ikke i et videre godt forhold til hinanden, da de for at berige deres herskaber stjal korn fra hverandre. En aften traf det sig da hverken v&#230;rre eller bedre, end at de m&#246;dtes hver med en god ladning korn. Nu sloges de, til det stod efter, men enden blev, at nissen fra Nebbe m&#229;tte give sig, og han blev dr&#230;bt. Nu tumlede den &#216;dsted nisse sig s&#229;dan ovre p&#229; Nebbe, at de m&#229;tte flytte g&#229;rden lidt bort, da nissen s&#229; ingen magt havde. Det blev gjort, og siden var der fred.</danish_publication>
+  <english_publication>Nebbeg&#229;rd no longer stands where it used to, and the reason for that is the following: Nebbeg&#229;rd and &#216;sterg&#229;rd both had a nisse. These two did not have good relations with each other because, to enrich their masters, they stole grain from each other. One night they wound up meeting each other, and each one had a giant cargo of stolen grain. Now they fought for a long time, but the end result was that the nisse from Nebbe had to give in and he was killed. Then the &#216;dsted nisse trounced all over Nebbe, so they were forced to move the farm a little ways away so the nisse wouldn&#8217;t have any power. They did that, and since then there was peace.</english_publication>
+  <keywords>
+    <keyword><id>179</id><frequency>1</frequency><keyword>cargo</keyword>cargo</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>465</id><frequency>1</frequency><keyword>giant</keyword>giant</keyword>
+    <keyword><id>477</id><frequency>2</frequency><keyword>grain</keyword>grain</keyword>
+    <keyword><id>622</id><frequency>1</frequency><keyword>kill</keyword>kill</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>857</id><frequency>4</frequency><keyword>nisse</keyword>nisse</keyword>
+    <keyword><id>988</id><frequency>1</frequency><keyword>power</keyword>power</keyword>
+  </keywords>
+  <etk_index><id>3</id>
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>65</id><display_name>Supernatural Beings: Nisse</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

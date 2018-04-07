@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<story story_id="591">
+  <publication_info>DS_VII_612</publication_info>
+  <full_name>375 - 0.00 - DS_VII_612</full_name>
+  <informant_id>375</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>J&#xF8;rgen</informant_first_name>
+  <informant_full_name>Friskolel&#xE6;rer J&#xF8;rgen Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>899</place_id>
+      <name>V&#xE6;rslev</name>
+      <display_name>V&#xE6;rslev (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="88">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_43</publication_info>
+      <full_name>150 - 3.25 - JAH_I_43</full_name>
+      <url>data/stories/88.dfl</url>
+    </story>
+    <story story_id="211">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_611</publication_info>
+      <full_name>241 - 4.39 - DS_VII_611</full_name>
+      <url>data/stories/211.dfl</url>
+    </story>
+    <story story_id="694">
+      <informant_id>337</informant_id>
+      <publication_info>DS_VII_608</publication_info>
+      <full_name>337 - 0.00 - DS_VII_608</full_name>
+      <url>data/stories/694.dfl</url>
+    </story>
+    <story story_id="644">
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_609</publication_info>
+      <full_name>331 - 0.00 - DS_VII_609</full_name>
+      <url>data/stories/644.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>An Larses kj&#xE6;rnede en gang, mens en skr&#xE6;dder s&#xE5; p&#xE5;. Medens hun en gang var ude et &#xF6;jeblik, f&#xE5;r han &#xF6;je p&#xE5; en seddel p&#xE5; kj&#xE6;rnen. Han tog den af og puttede den i lommen. Da hun kom ind, l&#xF8;b sm&#xF6;rret ud af bukserne p&#xE5; ham. P&#xE5; den m&#xE5;de tog hun sm&#xF6;r fra de andre bykoner. N&#xE5;r hun satte sedlen p&#xE5;, sagde hun: "En skefuld sm&#xF6;r fra hver kone."</danish_publication>
+  <english_publication>An Larses was churning once while a tailor watched. When she stepped out for a moment, he noticed a little note on the churn. He took it off and put it in his pocket. When she came back in, the butter poured out of his pockets. That's the way she took butter from the other women in town. When she put the note on, she said, "A spoonful of butter from each woman."</english_publication>
+  <keywords>
+    <keyword id="163" frequency="3" keyword="butter">butter</keyword>
+    <keyword id="229" frequency="2" keyword="churn">churn</keyword>
+    <keyword id="969" frequency="2" keyword="pocket">pocket</keyword>
+    <keyword id="1176" frequency="1" keyword="spoon">spoon</keyword>
+    <keyword id="1240" frequency="1" keyword="tailor">tailor</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1356" frequency="2" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

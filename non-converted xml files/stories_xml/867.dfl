@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<story story_id="867">
+  <publication_info>DS_II_G_266</publication_info>
+  <full_name>225 - 0.00 - DS_II_G_266</full_name>
+  <informant_id>225</informant_id>
+  <informant_last_name>N&#xF8;rregaard</informant_last_name>
+  <informant_first_name>Rasmus</informant_first_name>
+  <informant_full_name>Rasmus N&#xF8;rregaard</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>137</place_id>
+      <name>Egholt</name>
+      <display_name>Egholt (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="65">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_G_267</publication_info>
+      <full_name>150 - 3.03 - DS_II_G_267</full_name>
+      <url>data/stories/65.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En dum (stum) kom ind til en kj&#xF6;bmand, der l&#xE5; p&#xE5; hans sygeseng, og det var lige ved, at &#xE5;nden vilde slippe af ham. S&#xE5; giver den dumme sig til at huje og klage og jamre sig og skrige. En lille tid efter kom han ind i en kj&#xF6;bstad, og i det samme kom en krigskarl ridende, og det var st&#xE6;rkt. S&#xE5; styrtede hans hest, og han br&#xE6;kkede hans hals. Lav den dumme ser det, s&#xE5; klapper han i hans h&#xE6;nder og er s&#xE5; glad og forn&#xF6;jet, te det var forskr&#xE6;kkeligt. Da folk s&#xE5;, hvordan han forn&#xF6;jede sig, vilde de gj&#xE6;rne have at vide, hvad det var over. S&#xE5; blev der bedt en b&#xF6;n p&#xE5; pr&#xE6;kestolen ang&#xE5;ende, om Vorherre vilde oplade den dummes mund, s&#xE5; han kunde komme til at tale. B&#xF6;nnen blev opfyldt, og s&#xE5; sagde han: "Da jeg kom ind til kj&#xF6;bmanden, da sad Dj&#xE6;velen i hovedet af sengen og tog hans sj&#xE6;l, for han havde bedraget mennesker p&#xE5; alle mulige m&#xE5;der med hans v&#xE6;gt og hans m&#xE5;l. Men krigskarlen, i det lag fra han styrtede af hans hest og s&#xE5; til jorden, s&#xE5; kom han til at give et dybt suk til Vorherre, og s&#xE5; kom der en engel fra himmelen og tog hans sj&#xE6;l og foer til himmels med."</danish_publication>
+  <english_publication>A person who was mute came into a grocer's house who was lying on his deathbed, it was just at the moment that the spirit was going to leave him. Then the mute begins to howl and complain and make noises and shout. A little later, he goes into a market town, and at the same moment a soldier comes riding by quickly. Then his horse trips and he broke his neck. When the mute saw that, he claps his hands and is so happy and pleased that it is alarming. When people saw how he was enjoying himself, they wanted to know why. Then a prayer was said at the pulpit asking the Lord to open the mute's mouth so he could talk. The prayer was answered and then he said, "When I got to the grocer, the devil was sitting at the head of his bed and took his soul, because he had cheated people in all sorts of ways with his weights and measures. But the soldier, when he fell from his horse and slammed into the ground, he gave a deep sigh to our Lord, and then an angel came from heaven and took his soul and went off to heaven with it."</english_publication>
+  <keywords>
+    <keyword id="35" frequency="1" keyword="angels">angels</keyword>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="212" frequency="1" keyword="cheat">cheat</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="324" frequency="1" keyword="devil">devil</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="488" frequency="2" keyword="grocer">grocer</keyword>
+    <keyword id="498" frequency="1" keyword="happy">happy</keyword>
+    <keyword id="519" frequency="2" keyword="heaven">heaven</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="725" frequency="1" keyword="lord">lord</keyword>
+    <keyword id="751" frequency="1" keyword="market">market</keyword>
+    <keyword id="813" frequency="1" keyword="mouth">mouth</keyword>
+    <keyword id="817" frequency="4" keyword="mute">mute</keyword>
+    <keyword id="825" frequency="1" keyword="neck">neck</keyword>
+    <keyword id="858" frequency="1" keyword="noises">noises</keyword>
+    <keyword id="887" frequency="1" keyword="our_lord">Our Lord</keyword>
+    <keyword id="989" frequency="2" keyword="prayer">prayer</keyword>
+    <keyword id="1003" frequency="1" keyword="pulpit">pulpit</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1153" frequency="2" keyword="soldier">soldier</keyword>
+    <keyword id="1164" frequency="2" keyword="soul">soul</keyword>
+    <keyword id="1175" frequency="1" keyword="spirit">spirit</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="19" display_name="People: Soldier"/>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

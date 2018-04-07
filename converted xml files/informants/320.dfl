@@ -1,0 +1,37 @@
+<informant><person_id>320</person_id>
+  <core_informant/>
+  <full_name>Thomas Andb&#230;k</full_name>
+  <last_name>Andb&#230;k</last_name>
+  <first_name>Thomas</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>852</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>320</informant_id>
+      <publication_info>DS_VI_926</publication_info>
+      <full_name>320 - 0.00 - DS_VI_926</full_name>
+      <url>data/stories/852.dfl</url>
+      <place_recorded><id>845</id>&#216;ster Lem</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>845</place_id>
+      <name>&#216;ster Lem</name>
+      <display_name>&#216;ster Lem (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

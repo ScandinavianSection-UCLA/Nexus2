@@ -1,0 +1,54 @@
+<informant><person_id>494</person_id>
+  <core_informant/>
+  <full_name>Graver M. Nielsen</full_name>
+  <last_name>Nielsen</last_name>
+  <first_name>M.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>682</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>494</informant_id>
+      <publication_info>DS_IV_1787</publication_info>
+      <full_name>494 - 0.00 - DS_IV_1787</full_name>
+      <url>data/stories/682.dfl</url>
+      <place_recorded><id>297</id>Hvidbj&#230;rg</place_recorded>
+      <places_mentioned>
+        <place><id>297</id>
+          <name>Hvidbj&#230;rg</name>
+        </place>
+        <place><id>73</id>
+          <name>B&#248;rglum</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>297</place_id>
+      <name>Hvidbj&#230;rg</name>
+      <display_name>Hvidbj&#230;rg (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>73</place_id>
+      <name>B&#248;rglum</name>
+      <display_name>B&#248;rglum (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>297</place_id>
+      <name>Hvidbj&#230;rg</name>
+      <display_name>Hvidbj&#230;rg (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

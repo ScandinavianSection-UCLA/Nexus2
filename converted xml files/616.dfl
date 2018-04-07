@@ -1,0 +1,89 @@
+<story><story_id>616</story_id>
+  <publication_info>DS_IV_1253</publication_info>
+  <full_name>283 - 0.00 - DS_IV_1253</full_name>
+  <informant_id>283</informant_id>
+  <informant_last_name>S&#248;rensdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie S&#248;rensdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>208</place_id>
+      <name>Gr&#248;nfeld</name>
+      <display_name>Gr&#248;nfeld (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1037</place_id>
+      <name>Egens</name>
+      <display_name>Egens (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>524</story_id>
+      <informant_id>330</informant_id>
+      <publication_info>DS_IV_1242</publication_info>
+      <full_name>330 - 0.00 - DS_IV_1242</full_name>
+      <url>data/stories/524.dfl</url>
+    </story>
+    <story><story_id>711</story_id>
+      <informant_id>516</informant_id>
+      <publication_info>DS_IV_1239</publication_info>
+      <full_name>516 - 0.00 - DS_IV_1239</full_name>
+      <url>data/stories/711.dfl</url>
+    </story>
+    <story><story_id>398</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_870</publication_info>
+      <full_name>123 - 2.24 - DS_III_870</full_name>
+      <url>data/stories/398.dfl</url>
+    </story>
+    <story><story_id>858</story_id>
+      <informant_id>328</informant_id>
+      <publication_info>DS_IV_1249</publication_info>
+      <full_name>328 - 0.00 - DS_IV_1249</full_name>
+      <url>data/stories/858.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var to piger fra Egens, der gik til Bregnet kirke. De var fra den g&#229;rd, der hedder Munkens sted. Men da de kom i skoven, s&#229; kom der r&#246;vere efter dem, det var ved en b&#230;k inde i Kalv&#248; skov, som endnu kaldes R&#246;verb&#230;kken. De kom dog fra dem og blev frelst. Til tak derfor byggede deres fader Egens kirke. Han tog hans salmebog og lod et blad af den flyve for vinden, hvor det faldt ned, skulde kirken ligge. Derfor ligger Egens kirke lidt udenfor byen.</danish_publication>
+  <english_publication>There were two girls from Egens who went to Bregnet church. They were from the farm called Munkens sted (the monk&#8217;s place). But when they went into the forest, robbers came after them, it was near a stream in Kalv&#248; woods, which is still called R&#248;verb&#230;kken (Robber stream). But they got away from them and were saved. In thanks, they built their father Egens church. He took out his book of psalms and let a page of it fly to the wind, and where it fell, that&#8217;s where the church was to be built. That&#8217;s why Egens church lies a bit outside of the town.</english_publication>
+  <keywords>
+    <keyword><id>123</id><frequency>1</frequency><keyword>books</keyword>books</keyword>
+    <keyword><id>227</id><frequency>4</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>392</id><frequency>1</frequency><keyword>fall</keyword>fall</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>425</id><frequency>1</frequency><keyword>flying</keyword>flying</keyword>
+    <keyword><id>438</id><frequency>1</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>467</id><frequency>1</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>794</id><frequency>1</frequency><keyword>monk</keyword>monk</keyword>
+    <keyword><id>1002</id><frequency>1</frequency><keyword>psalms</keyword>psalms</keyword>
+    <keyword><id>1037</id><frequency>2</frequency><keyword>robber</keyword>robber</keyword>
+    <keyword><id>1207</id><frequency>2</frequency><keyword>stream</keyword>stream</keyword>
+    <keyword><id>1246</id><frequency>1</frequency><keyword>thank</keyword>thank</keyword>
+    <keyword><id>1275</id><frequency>1</frequency><keyword>town</keyword>town</keyword>
+    <keyword><id>1345</id><frequency>1</frequency><keyword>wind</keyword>wind</keyword>
+    <keyword><id>1360</id><frequency>1</frequency><keyword>woods</keyword>woods</keyword>
+  </keywords>
+  <etk_index><id>20</id>
+    <heading_danish>R&#248;vere, drabsm&#230;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>17</id><display_name>People: Robber / Thief</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>42</id><display_name>Places: Stream / River</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

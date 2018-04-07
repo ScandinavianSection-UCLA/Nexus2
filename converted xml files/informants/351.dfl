@@ -1,0 +1,46 @@
+<informant><person_id>351</person_id>
+  <core_informant/>
+  <full_name>Sidsel Andersdatter Dahl</full_name>
+  <last_name>Dahl</last_name>
+  <first_name>Sidsel Andersdatter</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>814</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>351</informant_id>
+      <publication_info>DS_IV_1588</publication_info>
+      <full_name>351 - 0.00 - DS_IV_1588</full_name>
+      <url>data/stories/814.dfl</url>
+      <place_recorded><id>877</id>S&#248;nderkj&#230;r</place_recorded>
+      <places_mentioned>
+        <place><id>437</id>
+          <name>N&#248;rre Vosborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>877</place_id>
+      <name>S&#248;nderkj&#230;r</name>
+      <display_name>S&#248;nderkj&#230;r (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>437</place_id>
+      <name>N&#248;rre Vosborg</name>
+      <display_name>N&#248;rre Vosborg (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

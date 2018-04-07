@@ -1,0 +1,79 @@
+<informant><person_id>523</person_id>
+  <core_informant/>
+  <full_name>Maren Primdal</full_name>
+  <last_name>Primdal</last_name>
+  <first_name>Maren</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>698</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>523</informant_id>
+      <publication_info>DS_IV_1378</publication_info>
+      <full_name>523 - 0.00 - DS_IV_1378</full_name>
+      <url>data/stories/698.dfl</url>
+      <place_recorded><id>422</id>Navtrup</place_recorded>
+      <places_mentioned>
+        <place><id>639</id>
+          <name>Tise</name>
+        </place>
+        <place><id>747</id>
+          <name>&#197;sted</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>699</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>523</informant_id>
+      <publication_info>DS_IV_1466</publication_info>
+      <full_name>523 - 0.00 - DS_IV_1466</full_name>
+      <url>data/stories/699.dfl</url>
+      <place_recorded><id>422</id>Navtrup</place_recorded>
+      <places_mentioned>
+        <place><id>116</id>
+          <name>Dalstrup</name>
+        </place>
+        <place><id>240</id>
+          <name>Harre</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>422</place_id>
+      <name>Navtrup</name>
+      <display_name>Navtrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>240</place_id>
+      <name>Harre</name>
+      <display_name>Harre (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>116</place_id>
+      <name>Dalstrup</name>
+      <display_name>Dalstrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>747</place_id>
+      <name>&#197;sted</name>
+      <display_name>&#197;sted (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>639</place_id>
+      <name>Tise</name>
+      <display_name>Tise (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

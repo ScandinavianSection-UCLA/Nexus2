@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<story story_id="343">
+  <publication_info>MA_I_450</publication_info>
+  <full_name>90 - 2.11 - MA_I_450</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>2.11</order_told>
+  <fieldtrip id="9">October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="344">
+      <informant_id>90</informant_id>
+      <publication_info>JAH_IV_218</publication_info>
+      <full_name>90 - 2.12 - JAH_IV_218</full_name>
+      <url>data/stories/344.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4785a</fielddiary_page_start>
+  <fielddiary_page_end>4785a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This humorous  nonsense rhyme is put together by switching word positions in otherwise normal expressions or by using words that have multiple meanings.</annotation>
+  <danish_manuscript>Jeg rejste mig 3 Mile f&#xF8;r dag jeg kj&#xF8;rte
+f&#xF8;rend jeg sm&#xF8;rte jeg kom til solen
+end skoven stod op de grise fl&#xF8;j over
+B&#xF8;getop de Br&#xE6;mser de gik s. fede.
+</danish_manuscript>
+  <english_manuscript>I traveled three miles before daybreak, I drove off before I had greased up, I came to the sun before the forest had risen, the pigs flew over the birch tops, the honeybees were standing there so fat.</english_manuscript>
+  <danish_publication>Jeg rejste mig tre mile f&#xF8;r dag. 
+jeg kj&#xF8;rte, f&#xF8;rend jeg sm&#xF8;rte,
+jeg kom til solen, ind' skoven stod op.
+de grise fl&#xF8;j over b&#xF8;getop, 
+de br&#xE6;mser de gik s&#xE5; fede.</danish_publication>
+  <english_publication>I traveled three miles before daybreak, 
+I drove off before I had greased up, 
+I came to the sun before the forest had risen, 
+the pigs flew over the birch tops, 
+the honeybees were standing there so fat.</english_publication>
+  <keywords>
+    <keyword id="98" frequency="1" keyword="birch">birch</keyword>
+    <keyword id="307" frequency="1" keyword="daybreak">daybreak</keyword>
+    <keyword id="398" frequency="1" keyword="fat">fat</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="951" frequency="1" keyword="pig">pig</keyword>
+    <keyword id="1217" frequency="1" keyword="sun">sun</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+  </keywords>
+  <etk_index id="42">
+    <heading_danish>Molbo og Aggerbohistorier</heading_danish>
+    <heading_english>Stories of Molbo and Aggerbo (Numbskull tales)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="78" display_name="Animals: Swine"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="7" name="Saying / Proverb"/>
+</story>

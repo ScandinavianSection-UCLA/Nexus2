@@ -1,0 +1,46 @@
+<informant><person_id>451</person_id>
+  <core_informant/>
+  <full_name>Fru Stine Lauritsen</full_name>
+  <last_name>Lauritsen</last_name>
+  <first_name>Stine</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>839</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>451</informant_id>
+      <publication_info>DS_II_E_48</publication_info>
+      <full_name>451 - 0.00 - DS_II_E_48</full_name>
+      <url>data/stories/839.dfl</url>
+      <place_recorded><id>742</id>Amerika</place_recorded>
+      <places_mentioned>
+        <place><id>978</id>
+          <name>Toksv&#230;rd</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>742</place_id>
+      <name>Amerika</name>
+      <display_name>Amerika (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>978</place_id>
+      <name>Toksv&#230;rd</name>
+      <display_name>Toksv&#230;rd (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

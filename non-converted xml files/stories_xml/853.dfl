@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<story story_id="853">
+  <publication_info>DS_V_331</publication_info>
+  <full_name>354 - 0.00 - DS_V_331</full_name>
+  <informant_id>354</informant_id>
+  <informant_last_name>Dissing</informant_last_name>
+  <informant_first_name>T&#xF8;ger</informant_first_name>
+  <informant_full_name>L&#xE6;rer T&#xF8;ger Dissing</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>146</place_id>
+      <name>Erslev</name>
+      <display_name>Erslev (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>985</place_id>
+      <name>T&#xF8;ving</name>
+      <display_name>T&#xF8;ving (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="480">
+      <informant_id>544</informant_id>
+      <publication_info>DS_V_359</publication_info>
+      <full_name>544 - 0.00 - DS_V_359</full_name>
+      <url>data/stories/480.dfl</url>
+    </story>
+    <story story_id="77">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_271</publication_info>
+      <full_name>150 - 3.14 - JAH_II_271</full_name>
+      <url>data/stories/77.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der er en g&#xE5;rd i T&#xF8;ving, der hedder Tingh&#xF6;jg&#xE5;rd, og her boede en gang en gammel mand, der gik s&#xE5;dan noget underlig kl&#xE6;dt, han gik altid i nogle gamle brogede l&#xE6;derbukser og s&#xE5; en stor ulden tr&#xF6;je, der h&#xE6;ngte og slubrede runden om ham, og endelig en gammel rundpuldet hat p&#xE5; hovedet. Den samme gamle mand gik hen og h&#xE6;ngte sig, og siden sagde de, at han sp&#xF6;gte p&#xE5; g&#xE5;rden og gik, ligesom han gik i levende live. Min gamlefader kom s&#xE5; til at forpagte den g&#xE5;rd. Der var s&#xE5;dan en voldsom stor dagligstue, og henne i bagsiden var to senge, der var panelet inde, men i forsiden var forstued&#xF6;ren og kj&#xF8;kkend&#xF6;ren lige for hinanden. Min moder og s&#xE5; deres tjenestepige l&#xE5; i den ene seng. S&#xE5; var det en aften ved midnatstide, min moder l&#xE5; v&#xE5;gen, og m&#xE5;nen skinnede ind, s&#xE5; hun kunde se alting, da kom der pludselig en skikkelse ind ad stued&#xF6;ren. Hun kunde tydelig kjende, at det var den her gamle mand, hun havde jo set ham s&#xE5; mange gange, og det var, ligesom han gik og stod. Hun s&#xE5; ikke, d&#xF6;ren gik op, men han skred lige s&#xE5; stille over stuegulvet og keg sig runden omkring. Hun tykte tydelig, hun kunde h&#xF8;re, det sukkede, og endelig skred det ud af kj&#xF8;kkend&#xF6;ren, og s&#xE5; m&#xE6;rkede hun ikke til videre. De kunde aldrig holde deres staldd&#xF6;r lukt om aftenen, og de kunde h&#xF8;re, det slog med den, i hvor tit de lukte den.</danish_publication>
+  <english_publication>There is a farm in T&#xF8;ving which is called Tingh&#xF8;jg&#xE5;rd and an old man used to live there, he went about dressed oddly, he always went about in old spotted leather pants and a big woolen sweater which hung and flopped about him, and finally an old round hat on his head. That same old man went and hanged himself and, ever since, they said that he haunted at the farm and went about at the farm just as he had when he was alive. My grandfather got a lease on that farm. There was a really big living room, and in the back there were two beds which were paneled in but, in the front, there was the door to the front room and the kitchen door right beside each other. My mother and their serving girl lay in one of the beds. One night about midnight, my mother was lying awake and the moon was shining in so she could see everything, then all of a sudden a shape came in through the door. She clearly recognized that it was the old man, she had seen him many times and it seemed like he walked in and stood there. She didn&#x2019;t see the door open, but he went so quietly over the floor and looked around. She thought she could clearly hear that he sighed. Finally it went out the kitchen door. They could never keep their barn door closed at night and they could hear it banging regardless how often they closed it.</english_publication>
+  <keywords>
+    <keyword id="68" frequency="1" keyword="banging">banging</keyword>
+    <keyword id="72" frequency="1" keyword="barn">barn</keyword>
+    <keyword id="83" frequency="2" keyword="bed">bed</keyword>
+    <keyword id="344" frequency="6" keyword="door">door</keyword>
+    <keyword id="394" frequency="4" keyword="farm">farm</keyword>
+    <keyword id="422" frequency="1" keyword="floor">floor</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="478" frequency="1" keyword="grandfather">grandfather</keyword>
+    <keyword id="506" frequency="1" keyword="hat">hat</keyword>
+    <keyword id="508" frequency="1" keyword="haunting">haunting</keyword>
+    <keyword id="631" frequency="2" keyword="kitchen">kitchen</keyword>
+    <keyword id="700" frequency="1" keyword="lease">lease</keyword>
+    <keyword id="701" frequency="1" keyword="leather">leather</keyword>
+    <keyword id="776" frequency="1" keyword="midnight">midnight</keyword>
+    <keyword id="797" frequency="1" keyword="moon">moon</keyword>
+    <keyword id="803" frequency="2" keyword="mother">mother</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="873" frequency="5" keyword="old">old</keyword>
+    <keyword id="899" frequency="1" keyword="pants">pants</keyword>
+    <keyword id="1230" frequency="1" keyword="sweater">sweater</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="96" display_name="Actions or events: Suicide"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

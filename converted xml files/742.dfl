@@ -1,0 +1,104 @@
+<story><story_id>742</story_id>
+  <publication_info>DS_VII_576</publication_info>
+  <full_name>111 - 0.00 - DS_VII_576</full_name>
+  <informant_id>111</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels ((Jens Jensen?)) Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>783</place_id>
+      <name>Glenstrup</name>
+      <display_name>Glenstrup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>783</place_id>
+      <name>Glenstrup</name>
+      <display_name>Glenstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>228</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_724</publication_info>
+      <full_name>235 - 1.09 - JAH_V_724</full_name>
+      <url>data/stories/228.dfl</url>
+    </story>
+    <story><story_id>516</story_id>
+      <informant_id>545</informant_id>
+      <publication_info>DS_VII_588</publication_info>
+      <full_name>545 - 0.00 - DS_VII_588</full_name>
+      <url>data/stories/516.dfl</url>
+    </story>
+    <story><story_id>706</story_id>
+      <informant_id>424</informant_id>
+      <publication_info>DS_VII_577</publication_info>
+      <full_name>424 - 0.00 - DS_VII_577</full_name>
+      <url>data/stories/706.dfl</url>
+    </story>
+    <story><story_id>891</story_id>
+      <informant_id/>
+      <publication_info>DS_VII_574</publication_info>
+      <full_name>0 - 0.00 - DS_VII_574</full_name>
+      <url>data/stories/891.dfl</url>
+    </story>
+    <story><story_id>519</story_id>
+      <informant_id>438</informant_id>
+      <publication_info>DS_VII_584</publication_info>
+      <full_name>438 - 0.00 - DS_VII_584</full_name>
+      <url>data/stories/519.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der boede en gang en pr&#230;st her i Glenstrup, som var meget fattig. S&#229; havde hans kone klaget sig l&#230;nge for, at de havde s&#229; lidt m&#230;lk, det kneb for at f&#229; sm&#246;r og s&#229;danne sager. Men s&#229; en dag kommer pr&#230;sten ned ad g&#229;rden, og da sidder hans datter der ude ved en hyld og malker m&#230;lk ud af hylden, pr&#230;stens kone var naturligvis en heks, der havde sendt hende ud at malke, men det kjendte pr&#230;sten ikke noget til. Pr&#230;sten kom fra marken og s&#229; det. "Hvad er det, du sidder og bestiller her, min pige?" siger han, "hvem har bedt dig det?" Det havde hendes moder, men nu vilde koen ikke give mere m&#230;lk, for nu kom der blod. Ja, hun skulde blive ved, s&#229; l&#230;nge der kom noget, enten det s&#229; var blod eller m&#230;lk. S&#229; blev hun ved, og s&#229; d&#248;de koen. Det skal have v&#230;ret en g&#229;rdmands ko her oppe i byen. Han bliver s&#229; elendig over det, te han mistede hans helsen og d&#248;de omsider. Den hyld st&#229;r ved pr&#230;steg&#229;rden endnu, den st&#229;r s&#230;rskilt i det vestre hj&#246;rne af k&#229;lhaven.</danish_publication>
+  <english_publication>A minister who was very poor once lived here in Glenstrup. His wife had complained for a long time that they had too little milk, they had a hard time getting butter and other such things. But then one day the minister comes out into the farm and his daughter is sitting by an elder bush and is milking milk out of the elder. Naturally, the minister&#8217;s wife was a witch, and she had sent her out to milk, but the minister knew nothing about this. The minister came from the field and saw this. &#8220;What&#8217;s that you&#8217;re sitting and doing here, my girl?&#8221; he says, &#8220;Who asked you to do this?&#8221; Her mother had, but now the cow couldn&#8217;t give any more milk, because now there came blood. Yes, she should continue as long as something came, if it was either blood or milk. Then she continued and then the cow died. It was supposedly a farmer&#8217;s cow here in the town. The minister got so upset about it, that he lost his health and died a little later. The elder stands in the parsonage even now, it stands a little apart in the western corner of the cabbage patch.</english_publication>
+  <keywords>
+    <keyword><id>17</id><frequency>3</frequency><keyword>alderwood</keyword>alderwood</keyword>
+    <keyword><id>111</id><frequency>2</frequency><keyword>blood</keyword>blood</keyword>
+    <keyword><id>163</id><frequency>1</frequency><keyword>butter</keyword>butter</keyword>
+    <keyword><id>166</id><frequency>1</frequency><keyword>cabbage_patch</keyword>cabbage patch</keyword>
+    <keyword><id>274</id><frequency>3</frequency><keyword>cow</keyword>cow</keyword>
+    <keyword><id>304</id><frequency>1</frequency><keyword>daughter</keyword>daughter</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>317</id><frequency>2</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>396</id><frequency>1</frequency><keyword>farmer</keyword>farmer</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>467</id><frequency>1</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>782</id><frequency>6</frequency><keyword>milk</keyword>milk</keyword>
+    <keyword><id>786</id><frequency>5</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>803</id><frequency>1</frequency><keyword>mother</keyword>mother</keyword>
+    <keyword><id>906</id><frequency>1</frequency><keyword>parsonage</keyword>parsonage</keyword>
+    <keyword><id>974</id><frequency>1</frequency><keyword>poor</keyword>poor</keyword>
+    <keyword><id>1275</id><frequency>1</frequency><keyword>town</keyword>town</keyword>
+    <keyword><id>1281</id><frequency>2</frequency><keyword>tree</keyword>tree</keyword>
+    <keyword><id>1331</id><frequency>1</frequency><keyword>west</keyword>west</keyword>
+    <keyword><id>1343</id><frequency>2</frequency><keyword>wife</keyword>wife</keyword>
+    <keyword><id>1351</id><frequency>1</frequency><keyword>witch</keyword>witch</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>49</id><display_name>Tools, Items and Conveyances: Food and Drink</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

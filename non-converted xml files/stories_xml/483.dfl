@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<story story_id="483">
+  <publication_info>DS_II_D_48</publication_info>
+  <full_name>346 - 0.00 - DS_II_D_48</full_name>
+  <informant_id>346</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Chr. Adolf</informant_first_name>
+  <informant_full_name>Chr. Adolf Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>190</place_id>
+      <name>Gjedved</name>
+      <display_name>Gjedved (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>378</place_id>
+      <name>Liver &#xE5;</name>
+      <display_name>Liver &#xE5; (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>647</place_id>
+      <name>Tornby</name>
+      <display_name>Tornby (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>266</place_id>
+      <name>Hj&#xF8;rring</name>
+      <display_name>Hj&#xF8;rring (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="280">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_D_50</publication_info>
+      <full_name>235 - 1.59 - DS_II_D_50</full_name>
+      <url>data/stories/280.dfl</url>
+    </story>
+    <story story_id="540">
+      <informant_id>512</informant_id>
+      <publication_info>DS_II_D_45</publication_info>
+      <full_name>512 - 0.00 - DS_II_D_45</full_name>
+      <url>data/stories/540.dfl</url>
+    </story>
+    <story story_id="566">
+      <informant_id>187</informant_id>
+      <publication_info>DS_II_D_40</publication_info>
+      <full_name>187 - 0.00 - DS_II_D_40</full_name>
+      <url>data/stories/566.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Liver &#xE5;, som l&#xF8;ber en halv mil vest for Hj&#xF6;rring og udmunder i havet ved Tornby, har et slemt ord p&#xE5; sig. Hvert &#xE5;r kr&#xE6;ver den et menneskeliv. Man har somme tider fra &#xE5;en h&#xF8;rt f&#xF8;lgende ord: "Tiden er kommen, men manden er endnu ikke kommen." Da varer det ikke l&#xE6;nge, inden et menneske drukner, og det menneske, som er bestemt, undg&#xE5;r ikke sin skj&#xE6;bne, ti det har ingen ro p&#xE5; sig, f&#xF6;r det kommer ned til &#xE5;en.</danish_publication>
+  <english_publication>Liver river, which runs a half mile west of Hj&#xF8;rring and drains into the ocean near Tornby, has a bad reputation. Every year, it craves a human life. Sometimes they've heard the following words come from the river: "The time has come, but not the man." Then it isn't too long before a person drowns, and the person who is chosen can't avoid that fate, since they'll have no rest until they come down to the river.</english_publication>
+  <keywords>
+    <keyword id="358" frequency="1" keyword="drowning">drowning</keyword>
+    <keyword id="872" frequency="1" keyword="ocean">ocean</keyword>
+    <keyword id="1025" frequency="1" keyword="reputation">reputation</keyword>
+    <keyword id="1026" frequency="1" keyword="rest">rest</keyword>
+    <keyword id="1034" frequency="3" keyword="river">river</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="5">
+    <heading_danish>Vandets &#xE5;nder</heading_danish>
+    <heading_english>Water spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="42" display_name="Places: Stream / River"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="85" display_name="Actions or events: Drowning"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

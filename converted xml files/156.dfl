@@ -1,0 +1,217 @@
+<story><story_id>156</story_id>
+  <publication_info>DSnr_VI_65</publication_info>
+  <full_name>241 - 2.06 - DSnr_VI_65</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>2.06</order_told>
+  <fieldtrip><id>11</id>October 1893</fieldtrip>
+  <fieldtrip_start_date>1893-09-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1893-10-26</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>306</place_id>
+      <name>Ilbj&#230;rge</name>
+      <display_name>Ilbj&#230;rge (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>43</place_id>
+      <name>Baggesvogn</name>
+      <display_name>Baggesvogn (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>86</place_id>
+      <name>Bragholdt</name>
+      <display_name>Bragholdt (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>157</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_897</publication_info>
+      <full_name>241 - 2.07 - DS_VI_897</full_name>
+      <url>data/stories/157.dfl</url>
+    </story>
+    <story><story_id>187</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_191</publication_info>
+      <full_name>241 - 4.15 - DS_VI_191</full_name>
+      <url>data/stories/187.dfl</url>
+    </story>
+    <story><story_id>192</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_167</publication_info>
+      <full_name>241 - 4.20 - DS_VI_167</full_name>
+      <url>data/stories/192.dfl</url>
+    </story>
+    <story><story_id>200</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_V_889</publication_info>
+      <full_name>241 - 4.28 - DSnr_V_889</full_name>
+      <url>data/stories/200.dfl</url>
+    </story>
+    <story><story_id>597</story_id>
+      <informant_id>420</informant_id>
+      <publication_info>DS_VI_122</publication_info>
+      <full_name>420 - 0.00 - DS_VI_122</full_name>
+      <url>data/stories/597.dfl</url>
+    </story>
+    <story><story_id>674</story_id>
+      <informant_id>376</informant_id>
+      <publication_info>DS_VI_592</publication_info>
+      <full_name>376 - 0.00 - DS_VI_592</full_name>
+      <url>data/stories/674.dfl</url>
+    </story>
+    <story><story_id>705</story_id>
+      <informant_id>124</informant_id>
+      <publication_info>DS_VII_1179</publication_info>
+      <full_name>124 - 0.00 - DS_VII_1179</full_name>
+      <url>data/stories/705.dfl</url>
+    </story>
+    <story><story_id>709</story_id>
+      <informant_id>356</informant_id>
+      <publication_info>DS_VII_1180</publication_info>
+      <full_name>356 - 0.00 - DS_VII_1180</full_name>
+      <url>data/stories/709.dfl</url>
+    </story>
+    <story><story_id>49</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_VI_81</publication_info>
+      <full_name>150 - 2.02 - JAH_VI_81</full_name>
+      <url>data/stories/49.dfl</url>
+    </story>
+    <story><story_id>492</story_id>
+      <informant_id>412</informant_id>
+      <publication_info>DS_VI_144</publication_info>
+      <full_name>412 - 0.00 - DS_VI_144</full_name>
+      <url>data/stories/492.dfl</url>
+    </story>
+    <story><story_id>649</story_id>
+      <informant_id>372</informant_id>
+      <publication_info>DS_VI_150</publication_info>
+      <full_name>372 - 0.00 - DS_VI_150</full_name>
+      <url>data/stories/649.dfl</url>
+    </story>
+    <story><story_id>155</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>JAT_II_56</publication_info>
+      <full_name>241 - 2.05 - JAT_II_56</full_name>
+      <url>data/stories/155.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6294a</fielddiary_page_start>
+  <fielddiary_page_end>6294b</fielddiary_page_end>
+  <bibliographic_info>Christiansen 1958
+R&#248;rbye 1976, 260</bibliographic_info>
+  <bibliography_references>
+    <reference><id>623</id><category>general</category>
+      <display_string>[Book] Christiansen, Reidar Thoralf. 1992. &lt;i&gt;The migratory legends (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+    <reference><id>398</id><category>general</category>
+      <display_string>[Book] R&#248;rbye, Birgitte. 1976. &lt;i&gt;Kloge folk og skidtfolk. Kvaksalveriets epoke i Danmark&lt;/i&gt;. Copenhagen: Politiken.</display_string>
+    </reference>
+    <reference><id>789</id><category>general</category>
+      <display_string>[Article] Stokker, Kathleen. 1995. Between Sin and Salvation : The Human Condition in Legends of the Black Book Minister. Vol. 67 of &lt;i&gt;Scandinavian Studies&lt;/i&gt; 1: 91-108.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Jens Peter's story is a variant of legends about inexperienced use of the black book. Although Christiansen (1958) describes legends in which the devil is set to an innocuous task (for example making ropes of sand) while the person waits for assistance from a person more skilled in magic, there is no such salvation for the countess in this story.
+
+     One can read the countess's grisly death at the hands of the devil as a form of narrative retribution. In the previous legend, Jens Peter told of the poor treatment that the peasants received from the count, as well as the lax morals of the countess herself. In this story, the countess arrogantly attempts to undue the curse on the farm herself, rather than rely on the services of the Bragholdt hag for example, and her arrogance is punished decisively. 
+
+      The punishment meted out by the devil is reminiscent of punishments suffered by those who have a pact with the devil (DS VI 144 and 150), and the countess's status as a wealthy landowner would make her equally suspect of this type of unholy alliance.
+
+     The countess transgresses numerous social norms during her s&#233;ance. Bringing a draught animal into the house is unusual at best, and at worst proposes an inversion of the normal household organization. Enlisting the help of women of lower social status enacts two transgressions at once: First, it crosses the social boundaries that divide the classes and thus is reminiscent of her sexual dalliance with the farmer (JPP 2.05). Second, it exposes her hired hands to extraordinary danger, a reification of the mistreatment of workers for which she and her husband are known.
+
+     The black book, in Denmark referred to as Cyprianus, was often in the possession of both wise ministers and cunning folk. The name of the book is linked to Cyprian who was martyred in 290 (R&#248;rbye 1976, 260). Here, the Bragholdt hag is a local cunning woman, even though Jens Peter describes her as a witch. Even though a Cyprianus would have been a prized possession, the countess would likely have had enough power to convince the Bragholdt hag to lend her the book.
+
+     Bragholt lies three kilometers slightly to the north and east of Baggesvogn. Later maps indicate two farms at Bragholt, "Stor Bragholt" and "Lille Bragholt," probably a result of a division of the properties of the original Bragholt. It is unlikely that Bragholt was a manor farm; it was probably a large farm, perhaps a propriet&#230;rg&#229;rd. Again, the dating of the story seems unlikely, as the count at Baggesvogn in 1808 was Georg Moltke-Rosenkrantz, and not de F&#230;dder. Of course, de F&#230;dder's wife Kirstine did not die until 1826; she married Moltke-Rosenkrantz after her husband Chr. Peter de F&#230;dder died, making Moltke-Rosenkrantz the count at Baggesvogn.</annotation>
+  <danish_manuscript>De havde
+s. mange stude paa Bagg. S. var det 
+en Vinter de halve af dem d&#248;de. S. troede
+hu der var nogle [af dem] der havde forheg-
+set dem. Der var en Kj&#230;lling paa
+Godset i Bragholt de kaldte Brag-
+holt Kj&#230;ll. hu var en rigtig Hegs
+og havde Cyprianus. De B&#248;ger laaner
+Grevinden ad hende. Der bliver en
+Stud slagtet og der bliver gjort mange
+Kunster og der var 2 gl. kj&#230;llinger
+hu havde ved sig i et Kammer den
+Nat ude ved Studen. Og s. kalder de
+Fanden ind til dem, h. skulde [kom] sige
+hvem der havde forhegset Studene.
+Men s. kjendte de ikke rigtig hvordan
+de skulde tale med ham. Det gik da
+saadan at de 3 Kvinder blev split
+ad af ham i ene Stumper der inde
+i Kammeret baade Grevinden og de 2
+kj&#230;ll. De sagde formelig at Blodet
+af dem sad rundt omkring paa Mu
+rene. Det var 1808. Min fader kunde
+
+6294B
+endelig huske det som Barn, Bragholt
+kj&#230;ll. var jo ikke med, for havde hu
+v&#230;ret med, s. havde det gaaet godt.
+Den ene af de Kj&#230;ll. havde en S&#248;n der
+tjente paa Gaarden som Studer&#248;gter. Lige
+som det passerede s. kom der tre Rif
+ter paa Dynen som de vilde have
+revet Dynen i Stykker over ham, mens
+h. laa i Sengen. Den var virkelig reven
+i Stykker.</danish_manuscript>
+  <english_manuscript>They had many oxen at Baggesvogn. One winter, half of them died and then the countess thought that there was someone who had bewitched them. There was a hag on the estate in Bragholdt they called the Bragholdt's hag, she was a real witch and had Cyprianus. The countess borrows these books from her. Then an ox was slaughtered and many spells were cast and there were two old women with her that night in the room with the ox. And then they call the Devil in to them, he was to tell them who had bewitched the oxen. But then they didn't really know how to talk to him. So what happened was that the three women were torn apart into small stumps in there in the room by him, both the countess and the two women. They said that their blood was spattered about on the walls. That was in 1808. My father remembered it as a child. The Bragholdt hag wasn't there, because if she'd been there, it would have gone fine. One of the women had a son who worked at the farm as an ox handler. Just as it happened, three slashes appeared in the comforter over him, like it was going to tear the comforter to pieces on top of him, while he lay there in bed. It was really torn to pieces.</english_manuscript>
+  <danish_publication>De havde saa mange Stude paa Baggesvogn. En Vinter d&#248;de de halve af dem, og saa troede Grevinden, der var nogen, der havde forhegset dem. Der var en Kj&#230;lling paa Godset, de kaldte Bragholt-Kj&#230;lling, hun boede i Bragholt og var en rigtig Hegs og havde Cyprianus. De B&#248;ger laaner Grevinden af hende. Der bliver en Stud slagtet, og der bliver gjort mange Kunster. Grevinden havde den Nat to gamle Kj&#230;llinger inde ved sig i Kammeret, hvor de gjorde Kunstnerne med Studene. De kalder Fanden ind til dem, han skulde sige dem, hvem der havde forhegset Studene. Men saa kjender de ikke rigtig til, hvordan de skulde tale med ham, og det gik da saadan, at de tre Kvinder blev split ad af ham i ene Stumper. Om Morgenen laa de der inde, baade af Grevinden og de to Kj&#230;llinger, og Blodet af dem sad formelig rundt omkring paa Murene. Det var i 1808. Min Fader kunde endelig huske det som Barn. Den ene af de Kj&#230;llinger havde en S&#248;n, der tjente paa Gaarden som Studer&#248;gter. Ligesom det passerede, kom der tre Rifter i Dynen over ham, saa det var, ligesom det vilde have revet den i tre Stykker. Havde Bragholt-Kj&#230;llingen nu ogsaa v&#230;ret til Stede, saa havde det gaaet godt, for hun kj endte Kunsterne til Gavns.</danish_publication>
+  <english_publication>They had so many oxen at Baggesvogn. One winter, half of them died and then the countess thought that there was someone who had bewitched them. There was a hag on the estate they called Bragholdt's hag, she lived in Bragholdt and was a real witch and had Cyprianus. The countess borrows these books from her. Then an ox was slaughtered and many spells were cast. The countess had two women with her that night in the room where they cast spells with the ox. They call the devil in to them, he was to tell them who had cursed the oxen. But then they don't really know how they should speak to him and so it happened that the three women were torn apart into small stumps. In the morning they lay in there, both the countess and the two women, and their blood was spattered about on the walls. That was in 1808. My father remembered it as a child. One of the women had a son who worked at the farm as an ox handler. Just as it happened, three slashes appeared in the comforter over him, so it was just like it was going to tear it into three pieces. If the Bragholdt hag had also been there, then it would have gone well because she knew the spells really well.</english_publication>
+  <keywords>
+    <keyword><id>111</id><frequency>1</frequency><keyword>blood</keyword>blood</keyword>
+    <keyword><id>123</id><frequency>1</frequency><keyword>books</keyword>books</keyword>
+    <keyword><id>125</id><frequency>1</frequency><keyword>borrow</keyword>borrow</keyword>
+    <keyword><id>134</id><frequency>1</frequency><keyword>bragholdt_hag</keyword>Bragholdt Hag</keyword>
+    <keyword><id>219</id><frequency>1</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>249</id><frequency>1</frequency><keyword>comforter</keyword>comforter</keyword>
+    <keyword><id>268</id><frequency>4</frequency><keyword>countess</keyword>countess</keyword>
+    <keyword><id>291</id><frequency>1</frequency><keyword>curse</keyword>curse</keyword>
+    <keyword><id>292</id><frequency>1</frequency><keyword>cyprianus</keyword>cyprianus</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>324</id><frequency>1</frequency><keyword>devil</keyword>devil</keyword>
+    <keyword><id>385</id><frequency>1</frequency><keyword>estate</keyword>estate</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>493</id><frequency>5</frequency><keyword>hag</keyword>hag</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>892</id><frequency>5</frequency><keyword>ox</keyword>ox</keyword>
+    <keyword><id>1139</id><frequency>1</frequency><keyword>slaughter</keyword>slaughter</keyword>
+    <keyword><id>1154</id><frequency>1</frequency><keyword>son</keyword>son</keyword>
+    <keyword><id>1174</id><frequency>3</frequency><keyword>spell</keyword>spell</keyword>
+    <keyword><id>1256</id><frequency>3</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1313</id><frequency>1</frequency><keyword>walls</keyword>walls</keyword>
+    <keyword><id>1351</id><frequency>1</frequency><keyword>witch</keyword>witch</keyword>
+    <keyword><id>1353</id><frequency>1</frequency><keyword>witchcraft</keyword>witchcraft</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>27</id>
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>48</id><display_name>Tools, Items and Conveyances: Books</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>92</id><display_name>Actions or events: Murder</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,99 @@
+<story><story_id>871</story_id>
+  <publication_info>DS_IV_1490</publication_info>
+  <full_name>0 - 0.00 - DS_IV_1490</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>190</place_id>
+      <name>Gjedved</name>
+      <display_name>Gjedved (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>682</place_id>
+      <name>Vedslet</name>
+      <display_name>Vedslet (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>938</place_id>
+      <name>Hoved kro</name>
+      <display_name>Hoved kro (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>152</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1485</publication_info>
+      <full_name>241 - 2.02 - DS_IV_1485</full_name>
+      <url>data/stories/152.dfl</url>
+    </story>
+    <story><story_id>151</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1486</publication_info>
+      <full_name>241 - 2.01 - DS_IV_1486</full_name>
+      <url>data/stories/151.dfl</url>
+    </story>
+    <story><story_id>770</story_id>
+      <informant_id>392</informant_id>
+      <publication_info>DS_IV_1481</publication_info>
+      <full_name>392 - 0.00 - DS_IV_1481</full_name>
+      <url>data/stories/770.dfl</url>
+    </story>
+    <story><story_id>153</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1488</publication_info>
+      <full_name>241 - 2.03 - DS_IV_1488</full_name>
+      <url>data/stories/153.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>De r&#246;vere i Hjordekjelde havde klokker over vejen. En kr&#230;mmer var kommen til Hoved kro og havde f&#229;et losi der. Hen ad aften, han var kommen i hans kammer, kom en pige og sagde, at han skulde se at rejse sig, ellers gik det galt, "og det skal v&#230;re hastig, men a skal selv med." Ja, hans hest stod i stalden. Den skulde hun nok f&#229; ud. Hun havde nogle hosesokker, og dem f&#229;r hun p&#229; f&#246;dderne af dem. Aldrig s&#229; snart de var komne et stykke ud, s&#229; var hundene efter dem. De halede ud og n&#229;ede Vedslet kirke. S&#229; stod der en stige op til klokken, og den farer de jo op p&#229; og tr&#230;kker stigen op, men hesten m&#229;tte de jo lade l&#248;be. Nu m&#229;tte de v&#230;re der, til det blev dag, og folk kom med vejen, for de var jo omringede af r&#246;verne. S&#229; slap de fra den fare, og da de kom af sted igjen, tog han jo pigen med sig. Kromanden der i Hoved stod naturligvis i forbindelse med r&#246;verne der i Hjordekjelde.</danish_publication>
+  <english_publication>The robbers in Hjordekjelde had bells over the road. A peddler had come to Hoved Inn and had gotten a room there. Sometime during the night, he had gone to his room when a girl came and said to him that he should leave quickly, otherwise something terrible would happen, &#8220;and it has to be quickly, but I want to come too.&#8221; Well, his best horse was down in the barn. She&#8217;d get it out. She had some long stockings and she puts them on the horses hooves. As soon as they had gotten a little bit away, the dogs came after them. They let it out a bit and reached Vedslet church. Then there was a ladder up to the bell and they scrambled up that and pulled it up after them, but they had to let the horse run free. Now they had to stay there until it was daytime and people came along the road because they were surrounded by robbers. Then they escaped from that danger, and when they started out again, he took the girl with him. The innkeeper there in Hoved was in cahoots with the robbers there in Hjordekjelde of course.</english_publication>
+  <keywords>
+    <keyword><id>72</id><frequency>1</frequency><keyword>barn</keyword>barn</keyword>
+    <keyword><id>88</id><frequency>2</frequency><keyword>bells</keyword>bells</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>298</id><frequency>1</frequency><keyword>danger</keyword>danger</keyword>
+    <keyword><id>309</id><frequency>1</frequency><keyword>daytime</keyword>daytime</keyword>
+    <keyword><id>343</id><frequency>1</frequency><keyword>dog</keyword>dog</keyword>
+    <keyword><id>384</id><frequency>1</frequency><keyword>escape</keyword>escape</keyword>
+    <keyword><id>443</id><frequency>1</frequency><keyword>free</keyword>free</keyword>
+    <keyword><id>467</id><frequency>2</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>545</id><frequency>3</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>560</id><frequency>1</frequency><keyword>inn</keyword>inn</keyword>
+    <keyword><id>561</id><frequency>1</frequency><keyword>inn_keeper</keyword>inn keeper</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>924</id><frequency>1</frequency><keyword>peddler</keyword>peddler</keyword>
+    <keyword><id>1036</id><frequency>2</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1037</id><frequency>3</frequency><keyword>robber</keyword>robber</keyword>
+    <keyword><id>1193</id><frequency>1</frequency><keyword>stockings</keyword>stockings</keyword>
+  </keywords>
+  <etk_index><id>20</id>
+    <heading_danish>R&#248;vere, drabsm&#230;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>17</id><display_name>People: Robber / Thief</display_name></tango_index>
+    <tango_index><id>21</id><display_name>People: Wanderer</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>33</id><display_name>Places: Inn</display_name></tango_index>
+    <tango_index><id>71</id><display_name>Animals: Dog</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>109</id><display_name>Time, Season, Weather: Morning</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

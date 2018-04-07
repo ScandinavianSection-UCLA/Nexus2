@@ -1,0 +1,37 @@
+<informant><person_id>330</person_id>
+  <core_informant/>
+  <full_name>H. Anton Bering</full_name>
+  <last_name>Bering</last_name>
+  <first_name>H. Anton</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>524</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>330</informant_id>
+      <publication_info>DS_IV_1242</publication_info>
+      <full_name>330 - 0.00 - DS_IV_1242</full_name>
+      <url>data/stories/524.dfl</url>
+      <place_recorded><id>896</id>Tyholm</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>896</place_id>
+      <name>Tyholm</name>
+      <display_name>Tyholm (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

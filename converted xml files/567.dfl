@@ -1,0 +1,92 @@
+<story><story_id>567</story_id>
+  <publication_info>DS_IV_1120</publication_info>
+  <full_name>205 - 0.00 - DS_IV_1120</full_name>
+  <informant_id>205</informant_id>
+  <informant_last_name>Mosen</informant_last_name>
+  <informant_first_name>Jens Kr. Kristensen</informant_first_name>
+  <informant_full_name>Jens Kr. Kristensen (Mossi-Jens) Mosen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>455</place_id>
+      <name>&#216;ster Br&#248;nderslev</name>
+      <display_name>&#216;ster Br&#248;nderslev (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>329</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_IV_988</publication_info>
+      <full_name>90 - 1.06 - DS_IV_988</full_name>
+      <url>data/stories/329.dfl</url>
+    </story>
+    <story><story_id>746</story_id>
+      <informant_id>480</informant_id>
+      <publication_info>DS_IV_1121</publication_info>
+      <full_name>480 - 0.00 - DS_IV_1121</full_name>
+      <url>data/stories/746.dfl</url>
+    </story>
+    <story><story_id>191</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_574</publication_info>
+      <full_name>241 - 4.19 - DSnr_IV_574</full_name>
+      <url>data/stories/191.dfl</url>
+    </story>
+    <story><story_id>148</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1134</publication_info>
+      <full_name>241 - 1.07 - DS_IV_1134</full_name>
+      <url>data/stories/148.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Her oppe i pr&#230;steg&#229;rden skal have boet en pr&#230;st, der hed den sorte Jens. Han var s&#229; slem til at g&#229; p&#229; kirkeg&#229;rden om aftenen, og det fandt konen nu for uret. S&#229; fik hun kusken til at tage et lagen over sig og forskr&#230;kke ham. S&#229; r&#229;ber pr&#230;sten: "Er du et menneske, sig, er du Satan, vig!" S&#229;dan sagde han tre gange. Karlen bier jo for l&#230;nge med at svare, og da han skal se til, er han i jorden til kn&#230;erne. Det var ved enden af laden, dether gik for sig, og s&#229; siger han: "Det er mig, f&#229;&#229;r." &#8212; "Nu er det for sildig, nu kan jeg ikke redde dig." Han gik ind og hentede vin og br&#248;d og berettede ham p&#229;, og satte ham derefter ned. Det er p&#229; det sted, hvor man lige drejer ind til pr&#230;steg&#229;rden.</danish_publication>
+  <english_publication>Up here in the parsonage there used to be a minister who was called Black Jens. He was really bad about walking in the cemetery at night, and his wife felt that this was improper. So she gets the driver to put a sheet over himself to frighten him. Then the minister yells: &#8220;Are you a human, then talk, if you are Satan, then yield!&#8221; He said this three times. The farmhand waits too long to answer and, when he looks around, he is in the ground up to his knees. It was near the end of the barn that this happened, and then he says: &#8220;It is me, Father.&#8221; &#8220;Now it&#8217;s too late, I can&#8217;t save you.&#8221; He went in and got wine and bread and gave him the last rites and then conjured him down. It&#8217;s at that place just where you turn into the parsonage.</english_publication>
+  <keywords>
+    <keyword><id>72</id><frequency>1</frequency><keyword>barn</keyword>barn</keyword>
+    <keyword><id>106</id><frequency>1</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>139</id><frequency>1</frequency><keyword>bread</keyword>bread</keyword>
+    <keyword><id>196</id><frequency>1</frequency><keyword>cemetery</keyword>cemetery</keyword>
+    <keyword><id>255</id><frequency>1</frequency><keyword>conjuring</keyword>conjuring</keyword>
+    <keyword><id>357</id><frequency>1</frequency><keyword>driver</keyword>driver</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>576</id><frequency>1</frequency><keyword>jens</keyword>Jens</keyword>
+    <keyword><id>637</id><frequency>1</frequency><keyword>knee</keyword>knee</keyword>
+    <keyword><id>786</id><frequency>2</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>906</id><frequency>2</frequency><keyword>parsonage</keyword>parsonage</keyword>
+    <keyword><id>1068</id><frequency>1</frequency><keyword>satan</keyword>Satan</keyword>
+    <keyword><id>1096</id><frequency>1</frequency><keyword>sheet</keyword>sheet</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1343</id><frequency>1</frequency><keyword>wife</keyword>wife</keyword>
+    <keyword><id>1347</id><frequency>1</frequency><keyword>wine</keyword>wine</keyword>
+  </keywords>
+  <etk_index><id>18</id>
+    <heading_danish>Pr&#230;ster</heading_danish>
+    <heading_english>Ministers</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>8</id><display_name>People: Farmwife</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>27</id><display_name>Places: Cemetery</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>80</id><display_name>Actions or events: Church ceremony</display_name></tango_index>
+    <tango_index><id>81</id><display_name>Actions or events: Conjuring</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>85</id><display_name>Actions or events: Drowning</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

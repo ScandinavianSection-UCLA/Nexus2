@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<story story_id="96">
+  <publication_info>JAH_IV_48</publication_info>
+  <full_name>150 - 3.33 - JAH_IV_48</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.33</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="95">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_IV_397</publication_info>
+      <full_name>150 - 3.32 - JAH_IV_397</full_name>
+      <url>data/stories/95.dfl</url>
+    </story>
+    <story story_id="97">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_IV_41</publication_info>
+      <full_name>150 - 3.34 - JAH_IV_41</full_name>
+      <url>data/stories/97.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4102b</fielddiary_page_start>
+  <fielddiary_page_end>4102b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens continues in this and the subsequent record to describe local seasonal festivals, games and the verses associated with them. This record describes a fairly well-known dancing game. Dances and other parties (lejestue) attracted farmhands and hired girls from all the surrounding farms, and offered these young men and women an opportunity to socialize and find potential mates.</annotation>
+  <danish_manuscript>Adams Leg til Legestue midt om Natten.
+Bruges endnu.
+Adam h. gjorde et Gilde s. skj&#xF8;n
+havde alle sine D&#xF8;tre forsamlet i L&#xF8;n
+og hver af dem giver h. en Mand
+som al deres Sorrig borttage kan
+stat op skj&#xF8;n Junker og skage din Lok
+tag hverken den yngste ej heller den &#xE6;ldst
+men den dig af Hj&#xE6;rtet behager allerbedst.
+Til sidst sang de:
+Stat op [skj&#xF8;n] enhver is&#xE6;r og skager din Lok
+tag s. en Pige ud af vores Flok.
+Alle Pigerne stod midt paa Gulvet og en fik
+den koblet sammen s. de tog i Armene af
+hinanden og s. svingede de rundt paa Gulvet
+idet de sang. H. var vel Adam.</danish_manuscript>
+  <english_manuscript>Adam's game for parties, in the middle of the night. Still used. Adam he had a wonderful party and he'd hidden all his daughters away and he gives each one of them a man who can carry away all their troubles. Get up, you junkers, and shake your head Take neither the youngest, nor the oldest but the one who makes your heart happiest Then at the end they'd sing: Get up everyone and shake your head and take a girl out of our flock! All the girls stood in the middle of the floor and one linked them all together so they held onto each others arms and then they'd swing about on the floor while they sang. He was Adam.</english_manuscript>
+  <danish_publication>"Adamslegen" har v&#xE6;ret brugt her i legestuerne den tid a kan huske, og bruges endnu. N&#xE5;r de midt om natten er blevne noget tr&#xE6;tte af at dandse, tager de fat p&#xE5; den. Det g&#xE5;r s&#xE5;dan til.
+
+Alle pigerne st&#xE5;r midt p&#xE5; gulvet og &#xE9;n f&#xE5;r dem koblet sammen, s&#xE5; de tager i armene af hinanden. Den, der gj&#xF6;r det, er vel Adam. S&#xE5; svinger de rundt p&#xE5; gulvet, idet de synger:
+"Adam han gjorde et gilde s&#xE5; skj&#xF6;n, 
+havde alle sine d&#xF6;tre forsamlet i l&#xF6;n, 
+og hver af dem giver han en mand, 
+som al deres sorrig borttage kan. 
+Stat op, skj&#xF6;n junker, og skage din lok, 
+og tag s&#xE5; en pige ud af vores flok! 
+tag hverken den yngste, 
+ej heller den &#xE6;ldst', 
+men den, dig af hj&#xE6;rtet behager allerbedst. 
+
+Til sidst sang de:
+Stat op enhver is&#xE6;r og skage din lok, 
+og tag s&#xE5; en pige ud af vores flok!" 
+S&#xE5; blev dandsen almindelig.</danish_publication>
+  <english_publication>Adam&#x2019;s game has been played here at parties for as long as I can remember, and it's still played today. When they got tired of dancing around midnight, they&#x2019;d start playing. It goes like this. 
+
+All the girls stand in the middle of the floor and somebody links them together, they hold on to each others arms. The one who does that is Adam. Then they swing about on the floor while singing: 
+Adam he had a wonderful party
+gathered all his daughters together
+and he gives each one of them a man
+who can carry away all their troubles.
+Get up, you junkers, and shake your head
+and take a girl out of our flock!
+Take neither the youngest, nor the oldest
+but the one who makes your heart happiest
+
+Then at the end they&#x2019;d sing:
+Get up everyone and shake your head
+and take a girl out of our flock!
+
+Then the dance would become normal.</english_publication>
+  <keywords>
+    <keyword id="10" frequency="3" keyword="adam">Adam</keyword>
+    <keyword id="46" frequency="1" keyword="arms">arms</keyword>
+    <keyword id="297" frequency="2" keyword="dancing">dancing</keyword>
+    <keyword id="304" frequency="1" keyword="daughter">daughter</keyword>
+    <keyword id="421" frequency="2" keyword="flock">flock</keyword>
+    <keyword id="422" frequency="2" keyword="floor">floor</keyword>
+    <keyword id="455" frequency="1" keyword="game">game</keyword>
+    <keyword id="467" frequency="3" keyword="girl">girl</keyword>
+    <keyword id="516" frequency="1" keyword="heart">heart</keyword>
+    <keyword id="776" frequency="1" keyword="midnight">midnight</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="907" frequency="2" keyword="party">party</keyword>
+    <keyword id="1122" frequency="2" keyword="singing">singing</keyword>
+    <keyword id="1262" frequency="1" keyword="tired">tired</keyword>
+    <keyword id="1265" frequency="1" keyword="today">today</keyword>
+    <keyword id="1374" frequency="1" keyword="young">young</keyword>
+  </keywords>
+  <etk_index id="34">
+    <heading_danish>De selskabelige sammenkomster og festerne</heading_danish>
+    <heading_english>Social gatherings and parties</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="86" display_name="Actions or events: Feast / Celebration"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="14" name="Game"/>
+</story>

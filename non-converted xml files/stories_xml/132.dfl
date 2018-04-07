@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<story story_id="132">
+  <publication_info>DS_I_43</publication_info>
+  <full_name>150 - 4.21 - DS_I_43</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.21</order_told>
+  <fieldtrip id="5">June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="624">
+      <informant_id>557</informant_id>
+      <publication_info>DS_I_50</publication_info>
+      <full_name>557 - 0.00 - DS_I_50</full_name>
+      <url>data/stories/624.dfl</url>
+    </story>
+    <story story_id="864">
+      <informant_id/>
+      <publication_info>DS_I_87</publication_info>
+      <full_name>0 - 0.00 - DS_I_87</full_name>
+      <url>data/stories/864.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4595a (1)</fielddiary_page_start>
+  <fielddiary_page_end>4595a (1)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references>
+    <reference id="464" category="general">
+      <display_string>[Edited book] Bj&#xF8;rn, Claus, Dahlerup, Troels, Jensen, S. P., Helmer Pedersen, Erik. 1988. Vol. 1-4 of &lt;i&gt;Det danske landbrugs historie&lt;/i&gt;. Odense: Landbohistorisk Selskab.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Disturbing mound dwellers can lead to unusual calamity. Kold-Jens relies on his own personal experience with a piece of rope to influence the actions of his successors. The story is not so much about a threat made good as it is about potential threat, one informed by other stories of unfortunate interactions with mound dwellers. 
+
+     Mounds were often leveled during the nineteenth century in a bid to increase arable land and for marl. Marl, coupled to better crop rotation policies, and improved drainage radically changed the yield of Danish fields up through the latter decades of the century (Bj&#xF8;rn and Dahlerup 1988, vol. 3).
+
+     There are several prominent mounds in the area south of Ersted, although none of them are labeled Persh&#xF8;j on any maps. Local names for topographic features often did not make it on to maps, and Jens reveals here more of his knowledge of the topography of the immediate area.</annotation>
+  <danish_manuscript>Paa den Mark som Kold-Jens har eget ligger
+Pers H&#xF8;j, den er lige her s&#xF8;nden for og der
+er Bj&#xE6;rgfolk i. Det tror h. bestemt og h. har
+forbudt baade Rasmus og Krogsen (Krogs
+Niels), den ene efter den anden at r&#xF8;re ved
+den H&#xF8;j, for det vilde gaa skidt. En Aften
+havde han smidt et Stykke Reb ved den
+og lad det ligge til om Morgen. Da var
+det skaaret i 4, 5 Stykker. Der har mis-
+sen ingen Mskr v&#xE6;ret ved det, det ved
+a, sagde h.</danish_manuscript>
+  <english_manuscript>Pers mound lies on the field that Kold-Jens owned, it is just south of here and there are mound dwellers inside it. He really believes that and he has forbidden both Rasmus and Krogsen (Krogs Niels), the one after the other, to touch that mound, because then things would go bad. One evening he'd thrown a piece of rope on top of it and let it lie there. The next morning, it had been cut into four or five pieces. "There haven't been any people doing that, that I know," he said.</english_manuscript>
+  <danish_publication>P&#xE5; den mark, som Kold-Jens har ejet, ligger Pers h&#xF6;j, og den er der bj&#xE6;rgfolk i. Den er lige her s&#xF8;nden for. Kold-Jens troede bestemt, at de var der, og han forb&#xF8;d begge hans efterm&#xE6;nd, b&#xE5;de Rasmus og Krogsen (Krogs-Niels), den ene efter den anden, at r&#xF8;re ved den h&#xF6;j, for s&#xE5; vilde det g&#xE5; dem skidt, En aften havde han smidt et stykke reb ved den og lod det ligge til om morgenen. Da var det sk&#xE5;ret i 4, 5 stykker. "Der har missen ingen mennesker v&#xE6;ret ved det, det v&#xE9;d a," sagde han.</danish_publication>
+  <english_publication>Pers mound lies on the field that Kold-Jens owned, and there are mound dwellers inside it. It's just south of here. Kold-Jens really believed that they were there, and he prohibited both of his successors, both Rasmus and Krogsen (Krogs-Niels), the one after the other, to touch that mound, because then it would go bad for them. One evening he&#x2019;d thrown a piece of rope on top of it and let it lie there until the next morning. Then it had been cut into four or five pieces. &#x201C;There haven&#x2019;t been any people doing that, that I know,&#x201D; he said.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="646" frequency="2" keyword="kold_jens">Kold Jens</keyword>
+    <keyword id="674" frequency="1" keyword="krogs_niels">Krogs Niels</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="805" frequency="1" keyword="mound_dweller">mound dweller</keyword>
+    <keyword id="1017" frequency="1" keyword="rasmus">Rasmus</keyword>
+    <keyword id="1044" frequency="1" keyword="rope">rope</keyword>
+    <keyword id="1167" frequency="1" keyword="south">south</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="52" display_name="Tools, Items and Conveyances: Tools"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

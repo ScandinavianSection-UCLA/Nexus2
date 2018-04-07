@@ -1,0 +1,63 @@
+<informant><person_id>454</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer Th. Leth</full_name>
+  <last_name>Leth</last_name>
+  <first_name>Th.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>850</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>454</informant_id>
+      <publication_info>DS_V_477</publication_info>
+      <full_name>454 - 0.00 - DS_V_477</full_name>
+      <url>data/stories/850.dfl</url>
+      <place_recorded><id>858</id>Sale</place_recorded>
+      <places_mentioned>
+        <place><id>984</id>
+          <name>Sj&#230;llands odde</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>851</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>454</informant_id>
+      <publication_info>DS_V_700</publication_info>
+      <full_name>454 - 0.00 - DS_V_700</full_name>
+      <url>data/stories/851.dfl</url>
+      <place_recorded><id>858</id>Sale</place_recorded>
+      <places_mentioned>
+        <place><id>900</id>
+          <name>Vallekilde</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>858</place_id>
+      <name>Sale</name>
+      <display_name>Sale (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>900</place_id>
+      <name>Vallekilde</name>
+      <display_name>Vallekilde (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>984</place_id>
+      <name>Sj&#230;llands odde</name>
+      <display_name>Sj&#230;llands odde (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

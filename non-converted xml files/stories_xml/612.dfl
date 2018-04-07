@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<story story_id="612">
+  <publication_info>DS_V_386</publication_info>
+  <full_name>540 - 0.00 - DS_V_386</full_name>
+  <informant_id>540</informant_id>
+  <informant_last_name>S&#xF8;rensen</informant_last_name>
+  <informant_first_name>Karl</informant_first_name>
+  <informant_full_name>Karl S&#xF8;rensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>906</place_id>
+      <name>Vester T&#xF8;rslev</name>
+      <display_name>Vester T&#xF8;rslev (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>32</place_id>
+      <name>Andrup</name>
+      <display_name>Andrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="855">
+      <informant_id>386</informant_id>
+      <publication_info>DS_V_384</publication_info>
+      <full_name>386 - 0.00 - DS_V_384</full_name>
+      <url>data/stories/855.dfl</url>
+    </story>
+    <story story_id="379">
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_822</publication_info>
+      <full_name>123 - 2.05 - DS_V_822</full_name>
+      <url>data/stories/379.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En skomager i Andrup var slem imod konen, og hun kom da i tanker om at ville drukne sig. De havde tre b&#xF6;rn, og det mindste l&#xE5; i vuggen. Hun gik tre gange fra huset og til s&#xF8;en, og endelig samlede hun skj&#xF6;rterne op over hovedet, stampede hul i isen med hendes f&#xF6;dder og puttede sig ned. De kunde se p&#xE5; hendes tr&#xE5;d, hvordan hun havde vandret frem og tilbage, og manden udtalte sig senere om, at hvis barnet ikke havde v&#xE6;ret roligt, s&#xE5; vilde hun ikke have gjort det. Siden s&#xE5; man tit hendes gjenf&#xE6;rd og h&#xF8;rte hende ved juletid klage sig s&#xE5; jammerlig der ude. To skr&#xE6;dderpiger, der gik p&#xE5; is tv&#xE6;rs over s&#xF8;en, m&#xF6;dte hende med skj&#xF6;rtet over hovedet, og da de kom til Glenstrup, blev de s&#xE5; syge.</danish_publication>
+  <english_publication>A cobbler in Andrup was bad to his wife and she decided to drown herself. They had three children and the littlest was in the crib. She went three times from the house to the lake, and finally she pulled her skirts up over her head, stamped a hole in the ice with her feet and put herself down. They could see by her her footprints how she had wandered back and forth, and the husband later said that if the child hadn&#x2019;t been quiet, then she wouldn&#x2019;t have done it. Later they often saw her revenant and heard her at Christmas time complain so loudly out there. Two sewing girls who walked across the lake on the ice met her with her skirt over her head and when they got to Glenstrup they got sick.</english_publication>
+  <keywords>
+    <keyword id="219" frequency="2" keyword="children">children</keyword>
+    <keyword id="225" frequency="1" keyword="christmas">Christmas</keyword>
+    <keyword id="242" frequency="1" keyword="cobbler">cobbler</keyword>
+    <keyword id="281" frequency="1" keyword="crib">crib</keyword>
+    <keyword id="358" frequency="1" keyword="drowning">drowning</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="552" frequency="1" keyword="husband">husband</keyword>
+    <keyword id="553" frequency="2" keyword="ice">ice</keyword>
+    <keyword id="679" frequency="2" keyword="lake">lake</keyword>
+    <keyword id="1027" frequency="1" keyword="revenant">revenant</keyword>
+    <keyword id="1090" frequency="1" keyword="sewing">sewing</keyword>
+    <keyword id="1111" frequency="1" keyword="sickness">sickness</keyword>
+    <keyword id="1130" frequency="2" keyword="skirt">skirt</keyword>
+    <keyword id="1256" frequency="2" keyword="three">three</keyword>
+    <keyword id="1315" frequency="1" keyword="wandering">wandering</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="5" display_name="People: Children"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="96" display_name="Actions or events: Suicide"/>
+    <tango_index id="116" display_name="Time, Season, Weather: Winter"/>
+    <tango_index id="120" display_name="Time, Season, Weather: Christmas"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

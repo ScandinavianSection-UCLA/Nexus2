@@ -1,0 +1,63 @@
+<informant><person_id>410</person_id>
+  <core_informant/>
+  <full_name>Ungkarl Mads Jepsen</full_name>
+  <last_name>Jepsen</last_name>
+  <first_name>Mads</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>688</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>410</informant_id>
+      <publication_info>DS_II_B_60</publication_info>
+      <full_name>410 - 0.00 - DS_II_B_60</full_name>
+      <url>data/stories/688.dfl</url>
+      <place_recorded><id>759</id>Bredstrup</place_recorded>
+      <places_mentioned>
+        <place><id>1051</id>
+          <name>Nebbeg&#229;rd</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>689</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>410</informant_id>
+      <publication_info>DS_VI_21</publication_info>
+      <full_name>410 - 0.00 - DS_VI_21</full_name>
+      <url>data/stories/689.dfl</url>
+      <place_recorded><id>759</id>Bredstrup</place_recorded>
+      <places_mentioned>
+        <place><id>516</id>
+          <name>Seest m&#248;lle</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>759</place_id>
+      <name>Bredstrup</name>
+      <display_name>Bredstrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>516</place_id>
+      <name>Seest m&#248;lle</name>
+      <display_name>Seest m&#248;lle (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1051</place_id>
+      <name>Nebbeg&#229;rd</name>
+      <display_name>Nebbeg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

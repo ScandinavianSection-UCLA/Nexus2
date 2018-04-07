@@ -1,0 +1,83 @@
+<story><story_id>494</story_id>
+  <publication_info>DS_II_B_146</publication_info>
+  <full_name>505 - 0.00 - DS_II_B_146</full_name>
+  <informant_id>505</informant_id>
+  <informant_last_name>Olsen</informant_last_name>
+  <informant_first_name>N. P.</informant_first_name>
+  <informant_full_name>L&#230;rer N. P. Olsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>861</place_id>
+      <name>Selsingg&#229;rde, Sams&#248;</name>
+      <display_name>Selsingg&#229;rde, Sams&#248; (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>339</place_id>
+      <name>Kolby</name>
+      <display_name>Kolby (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>182</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_B_212</publication_info>
+      <full_name>241 - 4.11 - DSnr_II_B_212</full_name>
+      <url>data/stories/182.dfl</url>
+    </story>
+    <story><story_id>518</story_id>
+      <informant_id>388</informant_id>
+      <publication_info>DS_II_B_183</publication_info>
+      <full_name>388 - 0.00 - DS_II_B_183</full_name>
+      <url>data/stories/518.dfl</url>
+    </story>
+    <story><story_id>704</story_id>
+      <informant_id>413</informant_id>
+      <publication_info>DS_II_B_34</publication_info>
+      <full_name>413 - 0.00 - DS_II_B_34</full_name>
+      <url>data/stories/704.dfl</url>
+    </story>
+    <story><story_id>348</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_B_147</publication_info>
+      <full_name>90 - 2.16 - DS_II_B_147</full_name>
+      <url>data/stories/348.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I en g&#229;rd i Kolby var der en nisse, som var vant til regelm&#230;ssig at f&#229; sine m&#230;lk og gr&#248;d hver aften, hvorfor ogs&#229; alt stod vel til i g&#229;rden. Men p&#229; &#233;n gang fandt manden p&#229;, at han ikke mere vilde give nis noget; dette var imidlertid uklogt af ham, ti fra den tid af gik det stadig tilbage for ham, s&#229; han blev lige s&#229; fattig, som han f&#246;r havde v&#230;ret velhavende, og deri var nis skyld, ti han bar om natten fra ham og over til en anden bonde. </danish_publication>
+  <english_publication>In a farm in Kolby, there was a nisse who was used to regularly getting his milk and porridge every night and, because of that, every thing was OK at the farm. But all at once, the man decided that he didn&#8217;t want to give the nisse anything anymore; that was unwise of him because, from that point on, it went continuously downhill for him, so he became just as poor as he&#8217;d been wealthy before, and it was the nisse&#8217;s fault, since at night he carried stuff away from the farm and over to another farmer.</english_publication>
+  <keywords>
+    <keyword><id>394</id><frequency>3</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>396</id><frequency>1</frequency><keyword>farmer</keyword>farmer</keyword>
+    <keyword><id>400</id><frequency>1</frequency><keyword>fault</keyword>fault</keyword>
+    <keyword><id>782</id><frequency>1</frequency><keyword>milk</keyword>milk</keyword>
+    <keyword><id>848</id><frequency>2</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>857</id><frequency>3</frequency><keyword>nisse</keyword>nisse</keyword>
+    <keyword><id>974</id><frequency>1</frequency><keyword>poor</keyword>poor</keyword>
+    <keyword><id>977</id><frequency>1</frequency><keyword>porridge</keyword>porridge</keyword>
+    <keyword><id>1321</id><frequency>1</frequency><keyword>wealth</keyword>wealth</keyword>
+  </keywords>
+  <etk_index><id>3</id>
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>49</id><display_name>Tools, Items and Conveyances: Food and Drink</display_name></tango_index>
+    <tango_index><id>65</id><display_name>Supernatural Beings: Nisse</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

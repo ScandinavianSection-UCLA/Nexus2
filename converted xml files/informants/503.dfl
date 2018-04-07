@@ -1,0 +1,46 @@
+<informant><person_id>503</person_id>
+  <core_informant/>
+  <full_name>L&#230;rerinde Maren Noesg&#229;rd</full_name>
+  <last_name>Noesg&#229;rd</last_name>
+  <first_name>Maren</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>697</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>503</informant_id>
+      <publication_info>DS_V_177</publication_info>
+      <full_name>503 - 0.00 - DS_V_177</full_name>
+      <url>data/stories/697.dfl</url>
+      <place_recorded><id>796</id>Holev</place_recorded>
+      <places_mentioned>
+        <place><id>1052</id>
+          <name>Rynkeby</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>796</place_id>
+      <name>Holev</name>
+      <display_name>Holev (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1052</place_id>
+      <name>Rynkeby</name>
+      <display_name>Rynkeby (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

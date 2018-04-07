@@ -1,0 +1,46 @@
+<informant><person_id>553</person_id>
+  <core_informant/>
+  <full_name>H&#248;jskoleforstander J. L. West</full_name>
+  <last_name>West</last_name>
+  <first_name>J. L.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>551</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>553</informant_id>
+      <publication_info>DS_II_F_104</publication_info>
+      <full_name>553 - 0.00 - DS_II_F_104</full_name>
+      <url>data/stories/551.dfl</url>
+      <place_recorded><id>913</id>Voldby</place_recorded>
+      <places_mentioned>
+        <place><id>1019</id>
+          <name>&#197;ker</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>913</place_id>
+      <name>Voldby</name>
+      <display_name>Voldby (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1019</place_id>
+      <name>&#197;ker</name>
+      <display_name>&#197;ker (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,69 @@
+<story><story_id>583</story_id>
+  <publication_info>DS_I_1383</publication_info>
+  <full_name>398 - 0.00 - DS_I_1383</full_name>
+  <informant_id>398</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Johan</informant_first_name>
+  <informant_full_name>L&#230;rer Johan Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>412</place_id>
+      <name>Mollerup</name>
+      <display_name>Mollerup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1032</place_id>
+      <name>Stovbak</name>
+      <display_name>Stovbak (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>756</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1340</publication_info>
+      <full_name>348 - 0.00 - DS_I_1340</full_name>
+      <url>data/stories/756.dfl</url>
+    </story>
+    <story><story_id>180</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_901</publication_info>
+      <full_name>241 - 4.09 - DSnr_I_901</full_name>
+      <url>data/stories/180.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Stovbak boede en gang en bj&#230;rgmand, og han skulde flytte med hele sin familie, ti han kunde ikke bo der for de mange dingdanger. Han gik da ned til Anders Kusk for at l&#229;ne et par stude, men denne syntes ikke godt om at sige ja, og at sige nej turde han heller ikke. Bj&#230;rgmanden fik dem da, men om morgenen l&#229; de og var d&#248;de, og foran hver l&#229; der en skj&#230;ppe penge til at betale dem med.</danish_publication>
+  <english_publication>A mound man lived once in Stovbak and he was going to move with his entire family since he couldn&#8217;t live there because of all the dingdangers. He went down to Anders Kusk to borrow a pair of oxen, but he didn&#8217;t really think much of saying yes, but he didn&#8217;t dare say no. The mound man got them but the next morning they lay and were dead, and in front of each lay a bushel of money to pay for them.</english_publication>
+  <keywords>
+    <keyword><id>28</id><frequency>1</frequency><keyword>anders_kusk</keyword>Anders Kusk</keyword>
+    <keyword><id>125</id><frequency>1</frequency><keyword>borrow</keyword>borrow</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>393</id><frequency>1</frequency><keyword>family</keyword>family</keyword>
+    <keyword><id>793</id><frequency>1</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>807</id><frequency>2</frequency><keyword>mound_man</keyword>mound man</keyword>
+    <keyword><id>892</id><frequency>1</frequency><keyword>ox</keyword>ox</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>46</id><display_name>Tools, Items and Conveyances: Bell</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>75</id><display_name>Animals: Ox</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

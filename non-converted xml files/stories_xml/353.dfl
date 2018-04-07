@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<story story_id="353">
+  <publication_info>Lege_0_1945</publication_info>
+  <full_name>90 - 2.21 - Lege_0_1945</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>2.21</order_told>
+  <fieldtrip id="9">October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="345">
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_1912</publication_info>
+      <full_name>90 - 2.13 - Lege_0_1912</full_name>
+      <url>data/stories/345.dfl</url>
+    </story>
+    <story story_id="32">
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_781</publication_info>
+      <full_name>150 - 1.29 - JAT_VI_781</full_name>
+      <url>data/stories/32.dfl</url>
+    </story>
+    <story story_id="346">
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_1949</publication_info>
+      <full_name>90 - 2.14 - Lege_0_1949</full_name>
+      <url>data/stories/346.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4788b</fielddiary_page_start>
+  <fielddiary_page_end>4788b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references>
+    <reference id="85" category="general">
+      <display_string>[Book] Feilberg, Henning F. 1905. &lt;i&gt;Bro-brille-legen, en sammenlignende studie (Bidrag till k&#xE4;nnedom om de svenska landsm&#xE5;len ock svenskt folkliv)&lt;/i&gt;. Stockholm: Norstedt.</display_string>
+    </reference>
+    <reference id="181" category="general">
+      <display_string>[Book] Feilberg, Henning F. 1977. &lt;i&gt;Bidrag til en ordbog over jyske almuesm&#xE5;l&lt;/i&gt;. Copenhagen: Dansk Historisk H&#xE5;ndbogsforlag.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Margrete performs a second and slightly fuller variant of "Holde for Kongens port" at the very end of the session (AMJ 2.14).  It is quite possible that during the course of the session she had remembered it. Her opening formula aligns better with other variants of the game, although her formulation "Bro, bro, brede", which means "Bridge, bridge, broad" differs from the more common "Bro, bro, brille", which means "Bridge, bridge, catch." In the more common version, the word brille is a form of the word bregle which means "to catch or to capture," and thus refers to the action of the game (Feilberg 1977 vol 1, 116-117). In the  field diaries, Tang Kristensen made several corrections for dialect pronunciation. In the penultimate line, the published version omits an "a" after "si", changing the meter of the line.</annotation>
+  <danish_manuscript>Brow brow brede Storken allerede i Fj&#xF8;wr
+drow vi herome, i Aar Oer gj&#xF8;r vi lisse dan
+luk op for Kongens Krigsfolk.- Hvis Folk
+Kongens Folk i England. Hus &#xE6;&#x2019;et Pas?
+I Bolden af min Tr&#xE6;skow &#xE5; h&#xF8;wt &#xE5;p i
+kippere T&#xE5;p. Di f&#xE5;rre mo di si a &#xE5;
+di bager mo di ta om di ka.
+</danish_manuscript>
+  <english_manuscript>Bridge bridge wide, the Stork has already, yesterday we came by here, this year we do the same, open up for the King's soldiers. Whose people? - The King of England's people - Where is your passport? - In the ball of my wooden shoe and high up in the tippy-top. The front ones you must let pass through and the last one take if you can.</english_manuscript>
+  <danish_publication>Brow brow brede, Storken allerede, i Fj&#xF6;wr drow vi herom, i &#xC5;r gj&#xF6;r vi lissedan, luk op for Kongens Krigsfolk. Hvis Folk? &#x2014; Kongens Folk i England. &#x2014; Hur &#xE6; et Pas. &#x2014; I B&#xE5;lden af min Tr&#xE6;skow &#xE5; h&#xF6;wt&#xE5;p i kippere T&#xE5;p. Di f&#xE5;re mo di si, &#xE5; di bage mo di ta, om di ka.</danish_publication>
+  <english_publication>Bridge bridge wide, the Stork has already, yesterday we came by here, this year we do the same, open up for the King&#x2019;s soldiers. Whose people? &#x2013; The King of England&#x2019;s people &#x2013; Where is your passport? &#x2013; In the ball of my wooden shoe and high up in the tippy-top. The front ones you must let pass through and the last one take if you can.</english_publication>
+  <keywords>
+    <keyword id="66" frequency="1" keyword="ball">ball</keyword>
+    <keyword id="144" frequency="2" keyword="bridge">bridge</keyword>
+    <keyword id="381" frequency="1" keyword="england">england</keyword>
+    <keyword id="624" frequency="2" keyword="king">king</keyword>
+    <keyword id="1104" frequency="1" keyword="shoe">shoe</keyword>
+    <keyword id="1153" frequency="1" keyword="soldier">soldier</keyword>
+    <keyword id="1198" frequency="1" keyword="stork">stork</keyword>
+    <keyword id="1359" frequency="1" keyword="wooden">wooden</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+    <keyword id="1373" frequency="1" keyword="yesterday">yesterday</keyword>
+  </keywords>
+  <etk_index id="41">
+    <heading_danish>Danske B&#xF8;rnerim, Remser og Lege</heading_danish>
+    <heading_english>Danish Children's Rhymes, Counting-out Rhymes, and Games</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="19" display_name="People: Soldier"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="136" display_name="Animals: Wild"/>
+  </tango_indices>
+  <genre id="14" name="Game"/>
+</story>

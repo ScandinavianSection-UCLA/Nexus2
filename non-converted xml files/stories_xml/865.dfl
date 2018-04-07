@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<story story_id="865">
+  <publication_info>DS_II_C_106</publication_info>
+  <full_name>0 - 0.00 - DS_II_C_106</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>697</place_id>
+      <name>Vesterb&#xF8;lle</name>
+      <display_name>Vesterb&#xF8;lle (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="764">
+      <informant_id>112</informant_id>
+      <publication_info>DS_II_C_104</publication_info>
+      <full_name>112 - 0.00 - DS_II_C_104</full_name>
+      <url>data/stories/764.dfl</url>
+    </story>
+    <story story_id="55">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_110</publication_info>
+      <full_name>150 - 2.08 - DS_II_C_110</full_name>
+      <url>data/stories/55.dfl</url>
+    </story>
+    <story story_id="54">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_115</publication_info>
+      <full_name>150 - 2.07 - DS_II_C_115</full_name>
+      <url>data/stories/54.dfl</url>
+    </story>
+    <story story_id="715">
+      <informant_id>401</informant_id>
+      <publication_info>DS_II_C_112</publication_info>
+      <full_name>401 - 0.00 - DS_II_C_112</full_name>
+      <url>data/stories/715.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Mens a var en bitte kn&#xE6;gt, havde a tit h&#xF8;rt tale om Natravnen, men aldrig set den. M&#xE6;ndene hentede lyng langt henne, og det blev tit sent for dem, inden de kom hjem. Det var nu om sommertiden, sent om natten, a kom forbi en mand, der skulde efter lyng. S&#xE5; h&#xF8;rer vi en fugl, der kom langt vester fra og svingede lige oven over os, og den sagde: "Baw-u-u! baw-u-u!" s&#xE5; det skingrede i luften. Bag efter kom en anden fugl, der var mere pib i lyden. "Hvad var det?" siger a. "Det skal du ikke befatte dig med," siger han, "det er Natravnen." &#x2014; "A befatter mig heller ikke med det, men a sp&#xF6;rger blot om det." Bag efter har a h&#xF8;rt efter de gamles fort&#xE6;lling, at alle dem, der ombragte dem selv, skulde begraves i et trebundet markskjel, og de m&#xE5;tte grave eller skyde dem til siden et sandkorn om &#xE5;ret, og endelig efter mangfoldige &#xE5;rs forl&#xF8;b kunde de da komme op og komme til fl&#xF6;vt for at flyve efter den hellige grav, men de m&#xE5;tte kun flyve et vist stykke hvert &#xE5;r. Det kunde kanske vare flere hundrede &#xE5;r, inden de n&#xE5;ede det.</danish_publication>
+  <english_publication>When I was a little boy, I often heard tell of the nightraven, but I never saw it. The men went and got heather far away, and it was often quite late before they got home. One time late at night during the summer I went past a man who was going to get heather. Then we heard a bird that came from far out to the west and swung right in over us and it said, "Baw-u-u! baw-u-u!" so it echoed in the air. Another bird came after it that had more of a peep in its voice. "What was that?" I say. "Don't worry about it," he says. "That's the nightraven." -- "I'm not worrying about it, I'm just asking about it." Later I heard the old peoples' stories, that all those who committed suicide were to be buried in a T-shaped field divide, and they could dig or push a grain of sand aside each year so that, after many years, they could come up to the surface and fly off toward the holy grave, but they could only fly a certain distance each year. It could take many hundreds of years before they reached it.</english_publication>
+  <keywords>
+    <keyword id="16" frequency="1" keyword="air">air</keyword>
+    <keyword id="99" frequency="2" keyword="birds">birds</keyword>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="425" frequency="2" keyword="flying">flying</keyword>
+    <keyword id="477" frequency="1" keyword="grain">grain</keyword>
+    <keyword id="483" frequency="1" keyword="grave">grave</keyword>
+    <keyword id="518" frequency="2" keyword="heather">heather</keyword>
+    <keyword id="536" frequency="1" keyword="holy">holy</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="853" frequency="2" keyword="nightraven">nightraven</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1066" frequency="1" keyword="sand">sand</keyword>
+    <keyword id="1200" frequency="1" keyword="story">story</keyword>
+    <keyword id="1212" frequency="1" keyword="suicide">suicide</keyword>
+    <keyword id="1215" frequency="1" keyword="summer">summer</keyword>
+    <keyword id="1307" frequency="1" keyword="voice">voice</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+    <keyword id="1370" frequency="2" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="4">
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="32" display_name="Places: Heath"/>
+    <tango_index id="64" display_name="Supernatural Beings: Nightraven"/>
+    <tango_index id="79" display_name="Animals: None / Unspecified"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="115" display_name="Time, Season, Weather: Summer"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

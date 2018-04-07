@@ -1,0 +1,71 @@
+<story><story_id>626</story_id>
+  <publication_info>DS_II_C_91</publication_info>
+  <full_name>409 - 0.00 - DS_II_C_91</full_name>
+  <informant_id>409</informant_id>
+  <informant_last_name>Jepsen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Jepsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>855</place_id>
+      <name>R&#248;dhus, Hune</name>
+      <display_name>R&#248;dhus, Hune (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>56</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_90</publication_info>
+      <full_name>150 - 2.09 - DS_II_C_90</full_name>
+      <url>data/stories/56.dfl</url>
+    </story>
+    <story><story_id>517</story_id>
+      <informant_id>6</informant_id>
+      <publication_info>DS_III_2316</publication_info>
+      <full_name>6 - 0.00 - DS_III_2316</full_name>
+      <url>data/stories/517.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Min moders fader og en anden mand gik ned til havet en morgen og vilde fiske. Der skulde jo komme flere, og da de var komne for tidlig, lagde de dem nede p&#229; stranden ved b&#229;den. S&#229; kommer der to kvindemennesker l&#248;bende langs stranden af &#246;sten, og de vendte dem og s&#229; dem tilbage. Nu s&#229; de vel ikke deher to, der l&#229;, og s&#229; sagde de til hverandre: "Han kan ikke n&#229; os, for han er fnattet." Ikke s&#229; meget l&#230;nge efter kommer der &#233;n ridende, og han spurgte m&#230;ndene, om de ikke havde set nogle. De siger jo, de havde set deher to kvindemennesker, og de havde sagt til hverandre, at han kunde ikke n&#229; dem, for han var fnattet. S&#229; s&#230;tter han sig af hesten og pisser og toer sig i vandet, og s&#229; rider han igjen. Det varer s&#229; ikke l&#230;nge, inden han kommer tilbage, og havde dem bag ved sig p&#229; hesten. De hang hver til sin side og var knyttet sammen i deres h&#229;r.</danish_publication>
+  <english_publication>My mother's father and another man went down to the sea one morning and wanted to fish. Some more people were supposed to come, and since they'd gotten there too early, they lay down on the beach near the boats. Then two women come running along the beach from the east, and they turned and looked behind themselves. Now, they didn't see these two who were lying there, and then they said to each other: "He can't catch us, because he's lousy (has lice)" Not too much later someone comes riding along and he asked the men if they hadn't seen something. They say yes, they'd seen these two women, and they had said to each other that he couldn't catch them because he was lousy. Then he gets off the horse, pisses in his hands, and wipes himself with the water, and then he rides off again. It doesn't take too long before he comes back, and he had them with him on the back of his horse. They hung each to one side and were tied together by their hair.</english_publication>
+  <keywords>
+    <keyword><id>78</id><frequency>2</frequency><keyword>beach</keyword>beach</keyword>
+    <keyword><id>116</id><frequency>1</frequency><keyword>boat</keyword>boat</keyword>
+    <keyword><id>369</id><frequency>1</frequency><keyword>east</keyword>east</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>416</id><frequency>1</frequency><keyword>fishing</keyword>fishing</keyword>
+    <keyword><id>494</id><frequency>1</frequency><keyword>hair</keyword>hair</keyword>
+    <keyword><id>545</id><frequency>2</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>707</id><frequency>1</frequency><keyword>lice</keyword>lice</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>803</id><frequency>1</frequency><keyword>mother</keyword>mother</keyword>
+    <keyword><id>1030</id><frequency>2</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1079</id><frequency>1</frequency><keyword>sea</keyword>sea</keyword>
+    <keyword><id>1261</id><frequency>1</frequency><keyword>tie</keyword>tie</keyword>
+    <keyword><id>1320</id><frequency>1</frequency><keyword>water</keyword>water</keyword>
+    <keyword><id>1356</id><frequency>2</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>4</id>
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>18</id><display_name>People: Sailor / Fisherman</display_name></tango_index>
+    <tango_index><id>39</id><display_name>Places: Ocean / Sea</display_name></tango_index>
+    <tango_index><id>58</id><display_name>Supernatural Beings: Elf</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>109</id><display_name>Time, Season, Weather: Morning</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

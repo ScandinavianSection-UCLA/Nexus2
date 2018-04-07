@@ -1,0 +1,94 @@
+<story><story_id>734</story_id>
+  <publication_info>DS_II_B_20</publication_info>
+  <full_name>414 - 0.00 - DS_II_B_20</full_name>
+  <informant_id>414</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels Johansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>886</place_id>
+      <name>Svendborg</name>
+      <display_name>Svendborg (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>956</place_id>
+      <name>Sk&#229;rup&#248;re</name>
+      <display_name>Sk&#229;rup&#248;re (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>957</place_id>
+      <name>Drag&#248;r</name>
+      <display_name>Drag&#248;r (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>717</story_id>
+      <informant_id>541</informant_id>
+      <publication_info>DS_II_B_15</publication_info>
+      <full_name>541 - 0.00 - DS_II_B_15</full_name>
+      <url>data/stories/717.dfl</url>
+    </story>
+    <story><story_id>824</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_B_11</publication_info>
+      <full_name>69 - 0.00 - DS_II_B_11</full_name>
+      <url>data/stories/824.dfl</url>
+    </story>
+    <story><story_id>825</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_B_18</publication_info>
+      <full_name>69 - 0.00 - DS_II_B_18</full_name>
+      <url>data/stories/825.dfl</url>
+    </story>
+    <story><story_id>609</story_id>
+      <informant_id>546</informant_id>
+      <publication_info>DS_II_B_4</publication_info>
+      <full_name>546 - 0.00 - DS_II_B_4</full_name>
+      <url>data/stories/609.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En nabo til min fader, Johan Nielsen i Sk&#229;rup&#248;re ved Svendborg, havde en jagt, hvormed han en gang l&#229; til ankers ved Drag&#248;r. Som skipperen om natten l&#229; i sin k&#246;je og sov, v&#229;gnede han ved, at der blev lukket op ned til ham, og han s&#229; et lille menneske som en nisse, der sagde til ham: "Du skal aldrig ligge for det store anker mere." Om morgenen tog han ind til Kj&#246;benhavn til en ankersmed og byttede sit anker bort med et nyt, men b&#229;de han og det &#248;vrige mandskab m&#229;tte f&#248;rst gj&#248;re ed p&#229;, at de ingen fejl vidste med deres anker, som der heller ingen var at se. Men s&#229; snart ankerstokken blev sl&#229;et fra, skiltes ankeret ad neden under i to stykker.</danish_publication>
+  <english_publication>My father&#8217;s neighbor, Johan Nielsen from Sk&#229;rup&#248;re near Svendborg, had a cutter which he anchored once at Drag&#248;r. As the skipper lay at night in his bunk and slept, he woke up when the hatch down to him was opened, and then he saw a little person like a nisse who said to him: &#8220;You will never lay at the big anchor again.&#8221; The next morning he went into Copenhagen to an anchor smith and traded his anchor away for a new one, but both he and his crew had to first swear that they knew of no problems with their anchor, and there weren't any to be seen either. But as soon as the anchor stock was knocked off, the anchor broke into two pieces.</english_publication>
+  <keywords>
+    <keyword><id>23</id><frequency>7</frequency><keyword>anchor</keyword>anchor</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>602</id><frequency>1</frequency><keyword>johan_nielsen</keyword>Johan Nielsen</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>828</id><frequency>1</frequency><keyword>neighbor</keyword>neighbor</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>857</id><frequency>1</frequency><keyword>nisse</keyword>nisse</keyword>
+    <keyword><id>1129</id><frequency>1</frequency><keyword>skipper</keyword>skipper</keyword>
+    <keyword><id>1146</id><frequency>1</frequency><keyword>smithing</keyword>smithing</keyword>
+    <keyword><id>1229</id><frequency>1</frequency><keyword>swear</keyword>swear</keyword>
+  </keywords>
+  <etk_index><id>3</id>
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>18</id><display_name>People: Sailor / Fisherman</display_name></tango_index>
+    <tango_index><id>47</id><display_name>Tools, Items and Conveyances: Boat</display_name></tango_index>
+    <tango_index><id>65</id><display_name>Supernatural Beings: Nisse</display_name></tango_index>
+    <tango_index><id>94</id><display_name>Actions or events: Oath</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,46 @@
+<informant><person_id>514</person_id>
+  <core_informant/>
+  <full_name>G&#229;rdejer L. Chr. Pedersen</full_name>
+  <last_name>Pedersen</last_name>
+  <first_name>L. Chr.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>646</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>514</informant_id>
+      <publication_info>DS_III_2168</publication_info>
+      <full_name>514 - 0.00 - DS_III_2168</full_name>
+      <url>data/stories/646.dfl</url>
+      <place_recorded><id>871</id>Skj&#248;rtholt</place_recorded>
+      <places_mentioned>
+        <place><id>1047</id>
+          <name>Skj&#248;rb&#230;ks hede</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>871</place_id>
+      <name>Skj&#248;rtholt</name>
+      <display_name>Skj&#248;rtholt (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1047</place_id>
+      <name>Skj&#248;rb&#230;ks hede</name>
+      <display_name>Skj&#248;rb&#230;ks hede (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

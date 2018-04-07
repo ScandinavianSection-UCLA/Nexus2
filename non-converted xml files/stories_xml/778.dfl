@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<story story_id="778">
+  <publication_info>DS_III_529</publication_info>
+  <full_name>402 - 0.00 - DS_III_529</full_name>
+  <informant_id>402</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>P.</informant_first_name>
+  <informant_full_name>Dyrl&#xE6;ge P. Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>664</place_id>
+      <name>Trunderup</name>
+      <display_name>Trunderup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>357</place_id>
+      <name>Kv&#xE6;rndrup</name>
+      <display_name>Kv&#xE6;rndrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="189">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_III_1380</publication_info>
+      <full_name>241 - 4.17 - DSnr_III_1380</full_name>
+      <url>data/stories/189.dfl</url>
+    </story>
+    <story story_id="383">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_744</publication_info>
+      <full_name>123 - 2.09 - DS_III_744</full_name>
+      <url>data/stories/383.dfl</url>
+    </story>
+    <story story_id="417">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_528</publication_info>
+      <full_name>123 - 3.14 - DS_III_528</full_name>
+      <url>data/stories/417.dfl</url>
+    </story>
+    <story story_id="672">
+      <informant_id>281</informant_id>
+      <publication_info>DS_III_535</publication_info>
+      <full_name>281 - 0.00 - DS_III_535</full_name>
+      <url>data/stories/672.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>For mange &#xE5;r siden skulde kirkeklokkerne i Kv&#xE6;rndrup gj&#xF8;res i stand, da de ikke var rigtig vellydende. En hr. Essi blev antaget hertil og fik udleveret en del s&#xF8;lv og messing til at lappe med. Han stak imidlertid disse gode sager i sin egen lomme og lempede dem med kobber og bly. Da man s&#xE5; skulde til at ringe med klokkerne, var de alt for d&#xF8;de i klangen, og man trak derfor st&#xE6;rkere og st&#xE6;rkere i rebet, og til sidst blev det s&#xE5; voldsomt, at den ene klokke slog sig l&#xF8;s og foer ud af lydhullerne, helt hen over byen, og faldt f&#xF8;rst ned i "Dybe Mae", en eng vesten for Kv&#xE6;rndrup h&#xF8;rende under Egeskovg&#xE5;rd. Det s&#xE6;re af det var imidlertid, at klokken p&#xE5; vejen hen over byen sang f&#xF8;lgende vers, der r&#xF8;bede Essings bedragerier:
+"S&#xF8;lv og messing det gjemte hr. Essi,
+kobber og bli det satte han i."
+Der blev nu sendt en tre, fire karle ud for at lede om klokken, og de fandt ogs&#xE5; godt nok hullet, hvori den sad, og fik lagt et reb om den. De havde allerede f&#xE5;et den op til overfladen, da en af karlene bandte en stor ed, at nu var de den da vis; men aldrig s&#xE5; snart havde han sagt dette, f&#xF6;r klokken igjen gik til bunds, og siden efter er der ingen, der har h&#xF8;rt eller set noget til den.</danish_publication>
+  <english_publication>Many years ago, the church bells in Kv&#xE6;rndrup were to be repaired, since they weren&#x2019;t really ringing properly. They contracted with a Mr. Essi to do the repairs and he was given some silver and brass to patch the bells with. In the meantime, he pocketed this good stuff and patched them with copper and lead instead. When they went to ring the bells, they were far too dead in their sound, and so they pulled harder and harder in the ropes and finally the pulling was so violent that one of the bells knocked itself loose and flew out of the sound holes, and flew all the way over the town and finally down into &#x201C;Dybe M&#xE6;,&#x201D; a marsh west of Kv&#xE6;ndrup which belongs to Egeskov farm. The weird thing about it was that while the bell was flying over the town, it sang the following verse, which revealed Essing's swindel: 
+&#x201C;Silver and brass has Mr. Essi hidden, 
+Copper and lead, that&#x2019;s what he put in!&#x201D; 
+Now three or four young men were sent out to look for the bell, and they found the hole where it was and got a rope put around it. They had already gotten it up to the surface when one of the young men swore that now they had it; but as soon as he said that, the bell went down to the bottom, and since then nobody has seen or heard from it.</english_publication>
+  <keywords>
+    <keyword id="88" frequency="7" keyword="bells">bells</keyword>
+    <keyword id="137" frequency="2" keyword="brass">brass</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="259" frequency="2" keyword="copper">copper</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="425" frequency="1" keyword="flying">flying</keyword>
+    <keyword id="754" frequency="1" keyword="marsh">marsh</keyword>
+    <keyword id="1033" frequency="1" keyword="ringing">ringing</keyword>
+    <keyword id="1044" frequency="2" keyword="rope">rope</keyword>
+    <keyword id="1118" frequency="2" keyword="silver">silver</keyword>
+    <keyword id="1122" frequency="1" keyword="singing">singing</keyword>
+    <keyword id="1165" frequency="2" keyword="sounds">sounds</keyword>
+    <keyword id="1229" frequency="1" keyword="swear">swear</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1275" frequency="2" keyword="town">town</keyword>
+    <keyword id="1295" frequency="1" keyword="verse">verse</keyword>
+    <keyword id="1302" frequency="1" keyword="violent">violent</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+    <keyword id="1374" frequency="2" keyword="young">young</keyword>
+  </keywords>
+  <etk_index id="12">
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="46" display_name="Tools, Items and Conveyances: Bell"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

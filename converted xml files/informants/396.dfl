@@ -1,0 +1,54 @@
+<informant><person_id>396</person_id>
+  <core_informant/>
+  <full_name>Peder Lavrids Jakobsen</full_name>
+  <last_name>Jakobsen</last_name>
+  <first_name>Peder Lavrids</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>796</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>396</informant_id>
+      <publication_info>DS_VII_423</publication_info>
+      <full_name>396 - 0.00 - DS_VII_423</full_name>
+      <url>data/stories/796.dfl</url>
+      <place_recorded><id>797</id>H&#248;rret skov</place_recorded>
+      <places_mentioned>
+        <place><id>660</id>
+          <name>Troms kirke</name>
+        </place>
+        <place><id>1063</id>
+          <name>Vilhelmsborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>797</place_id>
+      <name>H&#248;rret skov</name>
+      <display_name>H&#248;rret skov (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1063</place_id>
+      <name>Vilhelmsborg</name>
+      <display_name>Vilhelmsborg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>660</place_id>
+      <name>Troms kirke</name>
+      <display_name>Troms kirke (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

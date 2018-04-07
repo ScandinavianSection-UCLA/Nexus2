@@ -1,0 +1,109 @@
+<story><story_id>796</story_id>
+  <publication_info>DS_VII_423</publication_info>
+  <full_name>396 - 0.00 - DS_VII_423</full_name>
+  <informant_id>396</informant_id>
+  <informant_last_name>Jakobsen</informant_last_name>
+  <informant_first_name>Peder Lavrids</informant_first_name>
+  <informant_full_name>Peder Lavrids Jakobsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>797</place_id>
+      <name>H&#248;rret skov</name>
+      <display_name>H&#248;rret skov (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>660</place_id>
+      <name>Troms kirke</name>
+      <display_name>Troms kirke (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1063</place_id>
+      <name>Vilhelmsborg</name>
+      <display_name>Vilhelmsborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>587</story_id>
+      <informant_id>144</informant_id>
+      <publication_info>DS_VII_426</publication_info>
+      <full_name>144 - 0.00 - DS_VII_426</full_name>
+      <url>data/stories/587.dfl</url>
+    </story>
+    <story><story_id>713</story_id>
+      <informant_id>324</informant_id>
+      <publication_info>DSnr_VI_534</publication_info>
+      <full_name>324 - 0.00 - DSnr_VI_534</full_name>
+      <url>data/stories/713.dfl</url>
+    </story>
+    <story><story_id>408</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_419</publication_info>
+      <full_name>123 - 3.05 - DS_VII_419</full_name>
+      <url>data/stories/408.dfl</url>
+    </story>
+    <story><story_id>59</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_437</publication_info>
+      <full_name>150 - 2.12 - DS_VII_437</full_name>
+      <url>data/stories/59.dfl</url>
+    </story>
+    <story><story_id>604</story_id>
+      <informant_id>536</informant_id>
+      <publication_info>DS_VII_436</publication_info>
+      <full_name>536 - 0.00 - DS_VII_436</full_name>
+      <url>data/stories/604.dfl</url>
+    </story>
+    <story><story_id>645</story_id>
+      <informant_id>453</informant_id>
+      <publication_info>DS_VII_435</publication_info>
+      <full_name>453 - 0.00 - DS_VII_435</full_name>
+      <url>data/stories/645.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Frederik Glarmester, der var r&#248;gter p&#229; Vilhelmsborg, han fortalte, at hans moder var en trold, og hun skulde til Troms kirke hver Voldborg aften. Da han var bleven en stor kn&#230;gt, s&#229; tykte han, han vilde ogs&#229; gj&#230;rne pr&#248;ve denher riden. Han red p&#229; et limeskaft, og hans moder red p&#229; en rage. Men han havde jo ikke rigtig f&#229;et fat p&#229;, hvad hun sagde, og s&#229; sagde han: "Op og ned og op og ned", og s&#229; blev han ved til det &#248;verste af skorstenen og s&#229; ned igjen, og s&#229;dan blev han ved, til det blev dag, og sled alle kl&#230;derne af sig, b&#229;de tr&#246;je og bukser, s&#229; der var snart ikke kl&#230;detr&#229;d p&#229; ham, da han endelig var fri og kunde g&#229; hans vej.</danish_publication>
+  <english_publication>Frederik Glarmester was a cowhand at Vilhelmsborg, he said that his mother was a troll (witch), she had to go to Troms church every Voldborg eve (Midsummer&#8217;s eve). When he had become a big boy he decided that he also wanted to try that ride. He rode on a broomstick and his mother rode on a rake. But he hadn&#8217;t really caught what she had said and then he said: &#8220;Up and down and up and down&#8221; and then he continued to the top of the chimney and then down again, and he continued like that until it daybreak, and the ride wore all his clothes off of him, his shirt and his pants, so there wasn&#8217;t a stitch of clothes left on him when he finally got free and could go his way.</english_publication>
+  <keywords>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>147</id><frequency>1</frequency><keyword>broom</keyword>broom</keyword>
+    <keyword><id>220</id><frequency>1</frequency><keyword>chimney</keyword>chimney</keyword>
+    <keyword><id>236</id><frequency>2</frequency><keyword>clothing</keyword>clothing</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>442</id><frequency>1</frequency><keyword>frederik</keyword>Frederik</keyword>
+    <keyword><id>443</id><frequency>1</frequency><keyword>free</keyword>free</keyword>
+    <keyword><id>777</id><frequency>1</frequency><keyword>midsummer</keyword>midsummer</keyword>
+    <keyword><id>803</id><frequency>2</frequency><keyword>mother</keyword>mother</keyword>
+    <keyword><id>899</id><frequency>1</frequency><keyword>pants</keyword>pants</keyword>
+    <keyword><id>1012</id><frequency>1</frequency><keyword>rake</keyword>rake</keyword>
+    <keyword><id>1030</id><frequency>3</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1102</id><frequency>1</frequency><keyword>shirt</keyword>shirt</keyword>
+    <keyword><id>1186</id><frequency>1</frequency><keyword>stall</keyword>stall</keyword>
+    <keyword><id>1283</id><frequency>1</frequency><keyword>troll</keyword>troll</keyword>
+    <keyword><id>1284</id><frequency>1</frequency><keyword>troms_church</keyword>Troms church</keyword>
+    <keyword><id>1308</id><frequency>1</frequency><keyword>voldborg_eve</keyword>Voldborg Eve</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>34</id><display_name>Places: Manor / Castle</display_name></tango_index>
+    <tango_index><id>52</id><display_name>Tools, Items and Conveyances: Tools</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

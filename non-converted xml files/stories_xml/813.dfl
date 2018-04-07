@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<story story_id="813">
+  <publication_info>DS_VII_1478</publication_info>
+  <full_name>427 - 0.00 - DS_VII_1478</full_name>
+  <informant_id>427</informant_id>
+  <informant_last_name>Kj&#xE6;r</informant_last_name>
+  <informant_first_name>Severin</informant_first_name>
+  <informant_full_name>L&#xE6;rer Severin Kj&#xE6;r</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>815</place_id>
+      <name>Kongsted</name>
+      <display_name>Kongsted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>487</place_id>
+      <name>Risby</name>
+      <display_name>Risby (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="427">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_1487</publication_info>
+      <full_name>123 - 3.24 - DS_VII_1487</full_name>
+      <url>data/stories/427.dfl</url>
+    </story>
+    <story story_id="802">
+      <informant_id>404</informant_id>
+      <publication_info>DS_VII_1488</publication_info>
+      <full_name>404 - 0.00 - DS_VII_1488</full_name>
+      <url>data/stories/802.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Det var den gamle Mads Jensen i Risby, han red en gang hen ad vejen. S&#xE5; var der &#xE9;n, der sk&#xF8;d efter ham, og han blev ogs&#xE5; ramt, men kuglen gik kun gjennem ydertr&#xF6;jen og nattr&#xF6;jen. S&#xE5; tog han den og red tilbage med den til manden, der havde skudt, idet han sagde: "Du skal ikke ulejlige dig med at skyde efter mig mere." Manden blev helt forbl&#xF8;ffet, da han fik sin kugle igjen. Men Rasmus Jensen var ogs&#xE5; f&#xF8;dt i en sejrsskjorte, og den havde han gjemt.</danish_publication>
+  <english_publication>It was old Mads Jensen in Risby, he was riding along the road once. Then someone shot at him, and the bullet hit him, but it only went through his sweater and nightshirt. Then he took the bullet, and rode back with it to the man who had shot and said, "Don't trouble yourself with shooting at me any more." The man was utterly surprised when he got his bullet back. But Rasmus (Mads) Jensen had been born in a victory shirt, and he had kept it.</english_publication>
+  <keywords>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="157" frequency="2" keyword="bullet">bullet</keyword>
+    <keyword id="595" frequency="1" keyword="jensen">Jensen</keyword>
+    <keyword id="879" frequency="1" keyword="old_mads">Old Mads</keyword>
+    <keyword id="1018" frequency="1" keyword="rasmus_jensen">Rasmus Jensen</keyword>
+    <keyword id="1030" frequency="2" keyword="riding">riding</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1106" frequency="3" keyword="shooting">shooting</keyword>
+    <keyword id="1230" frequency="1" keyword="sweater">sweater</keyword>
+    <keyword id="1299" frequency="1" keyword="victory_shirt">victory shirt</keyword>
+  </keywords>
+  <etk_index id="30">
+    <heading_danish>Menneskets og kv&#xE6;gets sygdomme</heading_danish>
+    <heading_english>Human and cattle illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

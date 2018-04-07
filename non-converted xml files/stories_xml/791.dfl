@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<story story_id="791">
+  <publication_info>DS_V_1545</publication_info>
+  <full_name>382 - 0.00 - DS_V_1545</full_name>
+  <informant_id>382</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>824</place_id>
+      <name>Lin&#xE5;</name>
+      <display_name>Lin&#xE5; (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>412</place_id>
+      <name>Mollerup</name>
+      <display_name>Mollerup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>531</place_id>
+      <name>Skanderborg</name>
+      <display_name>Skanderborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="227">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1542</publication_info>
+      <full_name>235 - 1.08 - DS_V_1542</full_name>
+      <url>data/stories/227.dfl</url>
+    </story>
+    <story story_id="573">
+      <informant_id>534</informant_id>
+      <publication_info>DS_V_1546</publication_info>
+      <full_name>534 - 0.00 - DS_V_1546</full_name>
+      <url>data/stories/573.dfl</url>
+    </story>
+    <story story_id="766">
+      <informant_id>339</informant_id>
+      <publication_info>DS_V_1422</publication_info>
+      <full_name>339 - 0.00 - DS_V_1422</full_name>
+      <url>data/stories/766.dfl</url>
+    </story>
+    <story story_id="234">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1430</publication_info>
+      <full_name>235 - 1.15 - DS_V_1430</full_name>
+      <url>data/stories/234.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Man har h&#xF8;rt nogle g&#xE5; ude i Vesterkj&#xE6;r lige vesten for Mollerup og skj&#xE6;ndes om natten. Det er jo skjellene, de er komne i tr&#xE6;de om, og man siger, at det skal v&#xE6;re et par m&#xE6;nd, der hed Kr&#xE6;n Pejersen og Kr&#xE6;n Rask. En gang kom a kj&#xF8;rende fra Skanderborg ved midnatstide, og da a kom p&#xE5; denher side af Bomholtshule, h&#xF8;rte a noget, der kj&#xF8;rte og pl&#xF6;jede en tre agre fra vejen. A sad og s&#xE5; p&#xE5; det, som a kj&#xF8;rte hen ad landevejen, b&#xE6;sterne s&#xE5; a godt nok, og det gik lige s&#xE5; tydelig, som n&#xE5;r vores b&#xE6;ster g&#xE5;r og pl&#xF6;jer, men folk s&#xE5; a ingen af. Koblerne klingrede ogs&#xE5;, ligesom n&#xE5;r b&#xE6;sterne g&#xE5;r med l&#xE6;nkerne op i koblerne for en anden plov. N&#xE5;r det kom hen imod skoven, vendte det og kj&#xF8;rte tilbage igjen. A var n&#xE6;r ved at have bedt god-aften til det, inden a blev klog p&#xE5;, hvad det virkelig var.</danish_publication>
+  <english_publication>They&#x2019;ve heard somebody going out in Vesterkj&#xE6;r just west of Mollerup and fighting at night. It's the field markers that they are fighting about, and they say it's a couple of men who were called Kr&#xE6;n Pejersen and Kr&#xE6;n Rask. One time I came driving from Skanderborg at midnight, and when I got to this side of Bomholtshule, I heard something driving and plowing about three fields over from the road. I sat and watched it as I drove home along the highway, I saw the plow animals well enough, and they went as clearly as when our animals go and plow, but people, I didn&#x2019;t see any. The couplings clinked, just like when oxen go with a chain up to the coupling of a plow. When it got to the woods, it turned and came back again. I almost said &#x201C;Good evening&#x201D; to it, before I figured out what it really was.</english_publication>
+  <keywords>
+    <keyword id="37" frequency="2" keyword="animals">animals</keyword>
+    <keyword id="200" frequency="1" keyword="chain">chain</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="410" frequency="2" keyword="field">field</keyword>
+    <keyword id="411" frequency="2" keyword="fight">fight</keyword>
+    <keyword id="529" frequency="1" keyword="highway">highway</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="655" frequency="1" keyword="kr&#xE6;n_pejersen">Kr&#xE6;n Pejersen</keyword>
+    <keyword id="657" frequency="1" keyword="kr&#xE6;n_rask">Kr&#xE6;n Rask</keyword>
+    <keyword id="776" frequency="1" keyword="midnight">midnight</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="892" frequency="1" keyword="ox">ox</keyword>
+    <keyword id="964" frequency="3" keyword="plow">plow</keyword>
+    <keyword id="966" frequency="1" keyword="plowing">plowing</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="25">
+    <heading_danish>Gjenf&#xE6;rd p&#xE5; uretf&#xE6;rdig jord</heading_danish>
+    <heading_english>Revenants on ill-gotten land</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="113" display_name="Time, Season, Weather: Midnight"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

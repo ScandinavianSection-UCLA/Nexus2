@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<story story_id="64">
+  <publication_info>DS_VI_428</publication_info>
+  <full_name>150 - 3.02 - DS_VI_428</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.02</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>443</place_id>
+      <name>Nysum</name>
+      <display_name>Nysum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="110">
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_1129</publication_info>
+      <full_name>150 - 3.47 - JAT_VI_1129</full_name>
+      <url>data/stories/110.dfl</url>
+    </story>
+    <story story_id="772">
+      <informant_id>41</informant_id>
+      <publication_info>DS_VI_434</publication_info>
+      <full_name>41 - 0.00 - DS_VI_434</full_name>
+      <url>data/stories/772.dfl</url>
+    </story>
+    <story story_id="807">
+      <informant_id>406</informant_id>
+      <publication_info>DS_VI_427</publication_info>
+      <full_name>406 - 0.00 - DS_VI_427</full_name>
+      <url>data/stories/807.dfl</url>
+    </story>
+    <story story_id="38">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_1299</publication_info>
+      <full_name>150 - 1.35 - DS_VII_1299</full_name>
+      <url>data/stories/38.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4088a</fielddiary_page_start>
+  <fielddiary_page_end>4088a</fielddiary_page_end>
+  <bibliographic_info>Valk 2001.</bibliographic_info>
+  <bibliography_references>
+    <reference id="623" category="general">
+      <display_string>[Book] Christiansen, Reidar Thoralf. 1992. &lt;i&gt;The migratory legends (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+    <reference id="437" category="general">
+      <display_string>[Book] Valk, &#xDC;lo. 2001. &lt;i&gt;The black gentleman : manifestations of the Devil in Estonian folk religion (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Getting a ride from the devil is widely attested in Scandinavian legend tradition (ML3025). According to Christiansen, the devil often reveals his real errand to his traveling companion, and asks that he not reveal it (1992, 35-8). The devil's errand in this case is to assist in an infanticide. More often, the devil is on an errand to collect a soul owed him for a previously sworn pact. Stories of averted infanticide are also common (DS VI 427). The devil, tricked by the girl's swell of maternal feelings for her intended victim, regrets having helped her during childbirth.  
+
+    Tang Kristensen eliminates the coda that appears in the manuscript, attributing the story to Peder B&#xF8;dker. The only other person named B&#xF8;dker who appears in Jens's stories is Anders B&#xF8;dker, a cunning man (BJK 1.35). Sixty Danish miles is roughly equivalent to 280 US miles.</annotation>
+  <danish_manuscript>Der var en Soldat der havde 60 Mil hjem og s. kom
+h. til en Kj&#xF8;rende og s. spurgte h. om Forlov til 
+at kj&#xF8;re med. Ja h. fik ogsaa Lov og satte sig
+op. S. kj&#xF8;rte de ikke uden saadan som en Times
+Tid, s. kom de til en By og s. sp. h. om h.
+kjendte den By. Ja det kom ham for, men det
+kunde da ingen Rimelighed have, for h. vidste
+jo h. havde 60 Mil hjem og havde ikke kj&#xF8;rt
+uden en Times Tid. [S. ka] Ja da var det rig-
+tig nok. her skulde h. af, og nu kunde h.
+sige, at F. havde gjort vel imod en stakkels
+Soldat, men h. skulde 60 Mil l&#xE6;ngere
+hen og hj&#xE6;lpe en stakkels Pige at faa et
+Barn. Pigen vilde [den] jo have den undlivet
+og det skulde h. jo komme og hj&#xE6;lpe hende
+med. Men hendes Kj&#xE6;reste havde sagt
+til hende, at hu maatte ikke gj&#xF8;re det, inden
+ha havde faaet det at se. S. lagde hu
+Barnet til hendes h&#xF8;jre Bryst og den tog til
+at suge. S. s. h. om hu vilde nu ikke gj&#xF8;re
+det. Men nu kunde hun ikke gj&#xF8;re det for
+det Barnet havde [sug] faaet hendes Bryst.
+S. [skvaldrede] skadrede F. oppe paa Hanebj&#xE6;lken og
+sagde, at s. skulde h. ikke have holdt s.
+godt ved hendes L&#xE6;nd, hvis h. havde t&#xE6;nkt
+det skulde saadan have [gjort] gaaet til.
+-----
+Det er vel passeret i Nysum, sagde Per
+B&#xF8;dker, h. fortalte s. meget og det var 
+hans f&#xF8;deby.</danish_manuscript>
+  <english_manuscript>There was a soldier who was sixty miles from home, and then he goes up to a person who was driving and asked permission to ride with him. Well, he got permission and he gets up (in the wagon). Then they drove for about an hour and they get to a town and then he asks him if he knows that town. Well, it looked familiar but there was no reason it should because he knew he had sixty miles to go to get home and they hadn't been driving for more than an hour. Well, it was right, he was to get off here, and now he could say that the devil had done right by a poor soldier, but he himself had to go another sixty miles and help a poor girl have a child. The girl wanted it killed and he had to go and help her with that. But her boyfriend had told her that she shouldn't do it until he'd had a chance to see it. Then she put the child to her right breast and it began to suck. Then he asks her if she won't do it. No, now she couldn't because the child had had her breast. Then the devil cackled up on the cock's roost and said that he wouldn't have held her lower back so well if he'd thought it would go like this. It was supposed to have happened in Nysum, that's what Peter B&#xF8;dker said, he told a lot of stories and that was the town in which he was born.</english_manuscript>
+  <danish_publication>Der var en soldat, der havde 60 mil hjem, og s&#xE5; kom han til en kj&#xF8;rende og spurgte om forlov til at kj&#xF8;re med. Ja, han fik s&#xE5; lov og satte sig op. S&#xE5; kj&#xF8;rte de ikke uden som en times tid, s&#xE5; kom de til en by. Kusken sp&#xF6;rger ham da, om han kjender den by. Ja, det kom ham for, men det kunde da ingen rimelighed have, for han vidste jo, han havde 60 mil hjem og havde ikke kj&#xF8;rt uden en times tid. Ja, det var rigtigt nok, her skulde han af, og nu kunde han sige, at Fanden havde gjort vel imod en stakkels soldat, men han skulde selv 60 mil l&#xE6;ngere hen og hj&#xE6;lpe en stakkels pige at f&#xE5; et barn. Pigen vilde jo have det undlivet, og det skulde han komme og hj&#xE6;lpe hende med. Men hendes kj&#xE6;reste havde sagt til hende, at hun m&#xE5;tte ikke gj&#xF8;re det, inden han havde f&#xE5;et det at se. S&#xE5; lagde hun barnet til hendes h&#xF6;jre bryst, og det tog til at suge. S&#xE5; siger han, om hun vilde nu ikke gj&#xF8;re det. Nej, nu kunde hun ikke, for det barnet havde f&#xE5;et hendes bryst. S&#xE5; skvadrede Fanden oppe p&#xE5; hanebj&#xE6;lken og sagde, at s&#xE5; skulde han ikke have holdt s&#xE5; godt ved hendes l&#xE6;nd, hvis han havde t&#xE6;nkt, det skulde s&#xE5;dan have g&#xE5;et til.</danish_publication>
+  <english_publication>There was a soldier who had sixty miles to go to get home, and then he goes up to a person who is driving in a wagon and asked permission to ride with him. Well, he got permission and he gets up (in the wagon). Then they drove for about an hour and they get to a town. The coachman asks him if he knows the town. Well, it looked familiar but there was no reason it should, because he knew he had sixty miles to go to get home and they hadn&#x2019;t been driving for more than an hour. Well, it was right, he was to get off here, and now he could say that the devil had done right by a poor soldier, but he himself had to go another sixty miles and help a poor girl have a child. The girl wanted the baby killed and he had to go and help her with that. But her boyfriend had told her that she shouldn&#x2019;t do it until he&#x2019;d had a chance to see it. Then she put the child to her right breast and it began to suck. Then he asks her if she won&#x2019;t do it. No, now she couldn&#x2019;t, because the child had had her breast. Then the devil cackled up on the cock&#x2019;s roost and said that he wouldn&#x2019;t have held her lower back if he&#x2019;d thought it would go like this.</english_publication>
+  <keywords>
+    <keyword id="131" frequency="1" keyword="boyfriend">boyfriend</keyword>
+    <keyword id="141" frequency="2" keyword="breasts">breasts</keyword>
+    <keyword id="219" frequency="3" keyword="children">children</keyword>
+    <keyword id="240" frequency="1" keyword="coachman">coachman</keyword>
+    <keyword id="243" frequency="1" keyword="cock">cock</keyword>
+    <keyword id="324" frequency="2" keyword="devil">devil</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="537" frequency="2" keyword="home">home</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="946" frequency="2" keyword="permission">permission</keyword>
+    <keyword id="974" frequency="2" keyword="poor">poor</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1153" frequency="2" keyword="soldier">soldier</keyword>
+    <keyword id="1275" frequency="2" keyword="town">town</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="19" display_name="People: Soldier"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="91" display_name="Actions or events: Midwifery"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

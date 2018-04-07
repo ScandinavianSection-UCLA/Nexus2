@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<story story_id="447">
+  <publication_info>DS_I_270</publication_info>
+  <full_name>485 - 0.00 - DS_I_270</full_name>
+  <informant_id>485</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Anton</informant_first_name>
+  <informant_full_name>L&#xE6;rer Anton Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>832</place_id>
+      <name>Munkebj&#xE6;rgby</name>
+      <display_name>Munkebj&#xE6;rgby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>14</place_id>
+      <name>&#xC5;gerup m&#xF8;lle</name>
+      <display_name>&#xC5;gerup m&#xF8;lle (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>318</place_id>
+      <name>Kalundborg</name>
+      <display_name>Kalundborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="327">
+      <informant_id>90</informant_id>
+      <publication_info>DS_I_263</publication_info>
+      <full_name>90 - 1.04 - DS_I_263</full_name>
+      <url>data/stories/327.dfl</url>
+    </story>
+    <story story_id="584">
+      <informant_id>548</informant_id>
+      <publication_info>DS_I_265</publication_info>
+      <full_name>548 - 0.00 - DS_I_265</full_name>
+      <url>data/stories/584.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gang, da jeg kjorte fra Kalundborg, var jeg da n&#xE6;sten kommen til broen ved &#xC5;gerup m&#xF8;lle, og det var s&#xE5; m&#xF8;rkt som en b&#xE6;lg. S&#xE5; s&#xE5; jeg nede ved broen, at der var noget, som gnistrede. "Det var ogs&#xE5; godt" t&#xE6;nkte jeg, "nu kan du f&#xE5; t&#xE6;ndt din pibe". Jeg troede begribeligvis, at det var et menneske, der r&#xF8;g tobak. S&#xE5; gav jeg da pillekerne et rap og n&#xE5;ede snart broen. Ja, det var rigtig nok nogen, der r&#xF8;g tobak, men mennesker var det ikke. Det var bare sm&#xE5; puslinger med m&#xF8;rke tr&#xF6;jer og hvide bukser, og hver af dem havde en s&#xF8;lvpibe (pibe med s&#xF8;lvbeslag). De bakkede godt, og n&#xE5;r ilden gnistrede, s&#xE5; kunde jeg s&#xE5; rivelig se dem. De gik p&#xE5; kanten af vejen, &#xE9;n for &#xE9;n, og de skulde formodentlig til gilde i en h&#xF6;j der omkring. Jeg sagde god-aften, men de svarede ikke, og jeg turde nok ikke vove at bede om ild p&#xE5; min pibe, b&#xE6;sterne de fnyste og skabede sig, og jeg lod dem jo l&#xF8;be, s&#xE5; det varede ikke ret l&#xE6;nge, inden jeg kom fra dj&#xE6;velskabet. Men det kan nok h&#xE6;nde sig, at jeg var ikke rigtig glad, f&#xF6;rend jeg kom hjem til vor mo'r.</danish_publication>
+  <english_publication>Once when I was driving from Kalundborg, I'd almost gotten to bridge at &#xC5;gerup mill, and it was dark as pitch. Then I noticed that something was sparkling down by the bridge. "That's good," I thought, "now I can get my pipe lit." I thought that maybe it was some people smoking. So I gave the horses a whack and soon reached the bridge. Well, it was  someone smoking, sure enough, but it wasn't people. They were small little ones with dark sweaters and white pants, and each one of them had a silver plated pipe. They were puffing away and when the fire sparked I could see them well. They were walking along the side of the road, one behind the other, and they were presumably going to a party in a mound near there. I said good evening, but they didn't answer, and I didn't dare ask them for a light for my pipe, the horses were snorting and restless, and I let them run, so it didn't take long before I got away from that devilishness. But I wasn't really happy until I got home to mom.</english_publication>
+  <keywords>
+    <keyword id="144" frequency="3" keyword="bridge">bridge</keyword>
+    <keyword id="302" frequency="2" keyword="dark">dark</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="498" frequency="1" keyword="happy">happy</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="783" frequency="1" keyword="mill">mill</keyword>
+    <keyword id="804" frequency="1" keyword="mound">mound</keyword>
+    <keyword id="899" frequency="1" keyword="pants">pants</keyword>
+    <keyword id="907" frequency="1" keyword="party">party</keyword>
+    <keyword id="954" frequency="3" keyword="pipe">pipe</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1118" frequency="1" keyword="silver">silver</keyword>
+    <keyword id="1230" frequency="1" keyword="sweater">sweater</keyword>
+    <keyword id="1340" frequency="1" keyword="white">white</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="26" display_name="Places: Bridge"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

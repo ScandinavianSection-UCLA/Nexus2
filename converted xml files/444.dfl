@@ -1,0 +1,82 @@
+<story><story_id>444</story_id>
+  <publication_info>DS_V_520</publication_info>
+  <full_name>456 - 0.00 - DS_V_520</full_name>
+  <informant_id>456</informant_id>
+  <informant_last_name>Ludvigsen</informant_last_name>
+  <informant_first_name>Anna Christ.</informant_first_name>
+  <informant_full_name>Fru Anna Christ. Ludvigsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>766</place_id>
+      <name>D&#248;strup</name>
+      <display_name>D&#248;strup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>993</place_id>
+      <name>Brede</name>
+      <display_name>Brede (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>994</place_id>
+      <name>Harris</name>
+      <display_name>Harris (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>557</story_id>
+      <informant_id>68</informant_id>
+      <publication_info>DS_V_513</publication_info>
+      <full_name>68 - 0.00 - DS_V_513</full_name>
+      <url>data/stories/557.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Da herredsfogden (Himmark?) i Harris d&#248;de, var der nogen snak om, at han gik igjen, og man fort&#230;ller, at han p&#229; begravelsesdagen var f&#246;r hjemme i sin g&#229;rd end ligf&#248;lget. Samme dags aften blev der banket h&#229;rdt p&#229; pr&#230;steg&#229;rdens d&#246;r i Brede, og pigen lukkede op, men der var ingen. Det bankede anden gang og endnu st&#230;rkere, og der var endnu ingen. Da sagde pr&#230;sten til pigen: "Banker det tredje gang, vil jeg selv g&#229; ud". Snart bankede det st&#230;rkere end f&#246;r, og pr&#230;sten gik da selv ud for at lukke op, og pigen, som lyttede, kjendte herredsfogdens r&#246;st, som sagde: "Min sag er tabt". Hans solgte ridehest fandtes n&#230;sten altid skumbed&#230;kket om morgenen af det natlige ridt, som den brugtes til af sin forrige ejer.</danish_publication>
+  <english_publication>When the district bailiff from Harris died, there was some talk about him walking again and they say that on the day of his funeral he arrived back at his house before the funeral procession. That same night, there was a loud knock at the door of the parsonage in Brede, and the serving girl opened the door, but nobody was there. There was a second knock, even louder than the first but, once again, there was nobody there. Then the minister said to the girl: &#8220;If there is a third knock, I&#8217;ll go out myself.&#8221; Soon there was a louder knock than before, and the minister went to open the door himself, and the girl, who was listening, recognized the bailiff&#8217;s voice who said: &#8220;My case has been lost.&#8221; The bailiff's riding horse, which had been sold after his death, was found almost every morning covered with foam from the nightly ride its previous owner (the bailiff) used it for.</english_publication>
+  <keywords>
+    <keyword><id>64</id><frequency>1</frequency><keyword>bailiff</keyword>bailiff</keyword>
+    <keyword><id>183</id><frequency>1</frequency><keyword>case</keyword>case</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>337</id><frequency>1</frequency><keyword>district_bailiff</keyword>district bailiff</keyword>
+    <keyword><id>344</id><frequency>3</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>450</id><frequency>2</frequency><keyword>funeral</keyword>funeral</keyword>
+    <keyword><id>467</id><frequency>3</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>548</id><frequency>1</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>786</id><frequency>2</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>891</id><frequency>1</frequency><keyword>owner</keyword>owner</keyword>
+    <keyword><id>906</id><frequency>1</frequency><keyword>parsonage</keyword>parsonage</keyword>
+    <keyword><id>999</id><frequency>1</frequency><keyword>procession</keyword>procession</keyword>
+    <keyword><id>1030</id><frequency>2</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1307</id><frequency>1</frequency><keyword>voice</keyword>voice</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>2</id><display_name>People: Bailiff</display_name></tango_index>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

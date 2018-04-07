@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<story story_id="308">
+  <publication_info>JAT_IV_68</publication_info>
+  <full_name>235 - 3.06 - JAT_IV_68</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>3.06</order_told>
+  <fieldtrip id="3">January 1894</fieldtrip>
+  <fieldtrip_start_date>1894-01-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-02-19</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="307">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_VI_187</publication_info>
+      <full_name>235 - 3.05 - JAT_VI_187</full_name>
+      <url>data/stories/307.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6421a (3)</fielddiary_page_start>
+  <fielddiary_page_end>6421a (3)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Kirsten Marie explains in slightly greater detail the types of food served at banquets. Her description is prompted by her mention of the birth celebration in the previous story and is linked closely to the next description as well. It is unclear why Tang Kristensen separated the previous account from this and the following description.</annotation>
+  <danish_manuscript>De brugte sur ost paa Fade til Gilder
+Sur Osten med godt &#xD8;l til. Det fik
+de om Natten naar de skulde hjem.
+tilligemed Br&#xF8;d og Fl&#xE6;skeskinker der
+var p&#xE6;nt smykkede med Blomster og
+gr&#xF8;nt af Papir.
+</danish_manuscript>
+  <english_manuscript>They were served sour cheese on platters at banquets. Sour cheese with good beer to go with it. They got that at night when they were going to go home, along with bread and roast ham that was nicely decorated with paper flowers and vegetables.</english_manuscript>
+  <danish_publication>De fik surost p&#xE5; fade til gilder. Disse stod hen ad bordene, og man spiste surosten med godt &#xF6;l til.   De fik det om natten, n&#xE5;r de skulde hjem, tillige med br&#xF8;d og fl&#xE6;skeskinker, der var p&#xE6;nt smykkede med gr&#xF6;nt og blomster af papir.</danish_publication>
+  <english_publication>They were served sour cheese on platters at banquets. These were put out on the tables and they got good beer as well. They got that at night when they were going to go home, along with bread and roast ham that was nicely decorated with greens and paper flowers.</english_publication>
+  <keywords>
+    <keyword id="69" frequency="1" keyword="banquet">banquet</keyword>
+    <keyword id="84" frequency="1" keyword="beer">beer</keyword>
+    <keyword id="139" frequency="1" keyword="bread">bread</keyword>
+    <keyword id="214" frequency="1" keyword="cheese">cheese</keyword>
+    <keyword id="424" frequency="1" keyword="flower">flower</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="900" frequency="1" keyword="paper">paper</keyword>
+    <keyword id="962" frequency="1" keyword="platter">platter</keyword>
+    <keyword id="1238" frequency="1" keyword="table">table</keyword>
+  </keywords>
+  <etk_index id="34">
+    <heading_danish>De selskabelige sammenkomster og festerne</heading_danish>
+    <heading_english>Social gatherings and parties</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="86" display_name="Actions or events: Feast / Celebration"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

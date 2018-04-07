@@ -1,0 +1,54 @@
+<informant><person_id>329</person_id>
+  <core_informant/>
+  <full_name>L&#230;rerinde Ane Birgitte Berg</full_name>
+  <last_name>Berg</last_name>
+  <first_name>Ane Birgitte</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>461</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>329</informant_id>
+      <publication_info>DS_V_482</publication_info>
+      <full_name>329 - 0.00 - DS_V_482</full_name>
+      <url>data/stories/461.dfl</url>
+      <place_recorded><id>756</id>Bovlstrup</place_recorded>
+      <places_mentioned>
+        <place><id>531</id>
+          <name>Skanderborg</name>
+        </place>
+        <place><id>998</id>
+          <name>Odder</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>756</place_id>
+      <name>Bovlstrup</name>
+      <display_name>Bovlstrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>998</place_id>
+      <name>Odder</name>
+      <display_name>Odder (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>531</place_id>
+      <name>Skanderborg</name>
+      <display_name>Skanderborg (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

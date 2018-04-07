@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<story story_id="318">
+  <publication_info>Unpub_KMP_316</publication_info>
+  <full_name>235 - 3.16 - Unpub_KMP_316</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>3.16</order_told>
+  <fieldtrip id="3">January 1894</fieldtrip>
+  <fieldtrip_start_date>1894-01-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-02-19</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="316">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_III_1737</publication_info>
+      <full_name>235 - 3.14 - JAT_III_1737</full_name>
+      <url>data/stories/316.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6422b (6)</fielddiary_page_start>
+  <fielddiary_page_end>6422b (6)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Once again, it is unclear to which troops Kirsten Marie is referring: it could be any of the various foreign troops who were stationed in Denmark during the various wars in the nineteenth century or, more likely, a reference to the Danish troops. While the troops in the wars of 1848 and of 1864 were certainly brave, they were often poorly equipped and poorly fed. The surprise in the soup, of course, is that there are no berries. This recipe was published along with another recipe, for "k&#xE5;&#xE5;nds" (KMP 3.14).</annotation>
+  <danish_manuscript>Regimentforskr&#xE6;kkelse: S&#xF8;dsuppe uden B&#xE6;r for at gj&#xF8;re Nar ad det.</danish_manuscript>
+  <english_manuscript>Sweet soup without any berries is called regiment's surprise to make fun of them.</english_manuscript>
+  <danish_publication>S&#xF8;dsuppe uden b&#xE6;r kaldes Regimentsforskr&#xE6;kkelse for at gj&#xF8;re nar ad dem. [K&#xE5;&#xE5;nds er lavet af gryn og vand, kogt f. ex. p&#xE5; et fl&#xE6;skeben. Der er ingen k&#xE5;l p&#xE5;, og de kaldes ogs&#xE5; fedtv&#xE6;lling.]</danish_publication>
+  <english_publication>Sweet soup without any berries is called "regiment&#x2019;s surprise" to make fun of them. [K&#xE5;&#xE5;nds is made from oats and water, cooked for example with a pork bone. There&#x2019;s no cabbage in it and it was also known as fat gruel.]</english_publication>
+  <keywords>
+    <keyword id="92" frequency="1" keyword="berries">berries</keyword>
+    <keyword id="449" frequency="1" keyword="fun">fun</keyword>
+    <keyword id="1022" frequency="1" keyword="regiment">regiment</keyword>
+    <keyword id="1166" frequency="1" keyword="soup">soup</keyword>
+  </keywords>
+  <etk_index id="44">
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="19" display_name="People: Soldier"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="15" name="Recipe"/>
+</story>

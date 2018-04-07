@@ -1,0 +1,1081 @@
+<informant><person_id>123</person_id>
+  <core_informant>1</core_informant>
+  <full_name>Peder Johansen</full_name>
+  <last_name>Johansen</last_name>
+  <first_name>Peder</first_name>
+  <gender>m</gender>
+  <image>data/informants/123.jpg</image>
+  <fullbio>data/informants/123_full.dfl</fullbio>
+  <intro_bio>Peder was the son of miller and fiddler, &#8220;Kat-S&#248;ren,&#8221; and this led him to become a miller. His grandfather was a well-known folk healer and an exceptional story teller. Peder had learned many of his stories from this grandfather, but could not remember all of the stories he had heard from him. He lived in a house near the mill, and his sister kept house for him, as he had never been married. He was apparently a slob, and these habits carried over to the hygienic standards of his mill. He later moved to Vrold and then Dover. He was good story teller, but was often busy with fiddling for area parties. Tang Kristensen collected many of his stories in the millhouse, while the mill guests sat about drinking.
+</intro_bio>
+  <birth_date>1855-04-15</birth_date>
+  <death_date>1928-11-04</death_date>
+  <occupations>
+    <occupation><occupation_id>43</occupation_id>Journeyman miller</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>373</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1517</publication_info>
+      <full_name>123 - 1.01 - DS_IV_1517</full_name>
+      <url>data/stories/373.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>122</id>
+          <name>Dover kirke</name>
+        </place>
+        <place><id>263</id>
+          <name>Hjelmslev</name>
+        </place>
+        <place><id>309</id>
+          <name>Illerup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>374</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XII_64</publication_info>
+      <full_name>123 - 1.02 - JFm_XII_64</full_name>
+      <url>data/stories/374.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>89</id>
+          <name>Brandstrup</name>
+        </place>
+        <place><id>196</id>
+          <name>Glentholm</name>
+        </place>
+        <place><id>298</id>
+          <name>Hvidsminde</name>
+        </place>
+        <place><id>504</id>
+          <name>Ry</name>
+        </place>
+        <place><id>520</id>
+          <name>Siem</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>375</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_720</publication_info>
+      <full_name>123 - 2.01 - DS_IV_720</full_name>
+      <url>data/stories/375.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>679</id>
+          <name>Urup</name>
+        </place>
+        <place><id>691</id>
+          <name>Veng</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>376</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_607</publication_info>
+      <full_name>123 - 2.02 - DS_V_607</full_name>
+      <url>data/stories/376.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>582</id>
+          <name>Stadsg&#229;rd</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>377</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_959</publication_info>
+      <full_name>123 - 2.03 - DS_I_959</full_name>
+      <url>data/stories/377.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>19</id>
+          <name>&#197;kj&#230;r</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>378</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1163</publication_info>
+      <full_name>123 - 2.04 - DS_V_1163</full_name>
+      <url>data/stories/378.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>615</id>
+          <name>Svejstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>379</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_822</publication_info>
+      <full_name>123 - 2.05 - DS_V_822</full_name>
+      <url>data/stories/379.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>615</id>
+          <name>Svejstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>380</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>JAH_VI_639</publication_info>
+      <full_name>123 - 2.06 - JAH_VI_639</full_name>
+      <url>data/stories/380.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>615</id>
+          <name>Svejstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>381</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1153</publication_info>
+      <full_name>123 - 2.07 - DS_V_1153</full_name>
+      <url>data/stories/381.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>122</id>
+          <name>Dover kirke</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>382</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1370</publication_info>
+      <full_name>123 - 2.08 - DS_V_1370</full_name>
+      <url>data/stories/382.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>161</id>
+          <name>Flensted</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>383</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_744</publication_info>
+      <full_name>123 - 2.09 - DS_III_744</full_name>
+      <url>data/stories/383.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>595</id>
+          <name>Stilling s&#248;</name>
+        </place>
+        <place><id>617</id>
+          <name>Svolbj&#230;rg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>384</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_2367</publication_info>
+      <full_name>123 - 2.10 - DS_III_2367</full_name>
+      <url>data/stories/384.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>522</id>
+          <name>Silkeborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>385</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_767</publication_info>
+      <full_name>123 - 2.11 - DS_I_767</full_name>
+      <url>data/stories/385.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>22</id>
+          <name>Alken</name>
+        </place>
+        <place><id>110</id>
+          <name>Dakbj&#230;rg</name>
+        </place>
+        <place><id>400</id>
+          <name>M&#229;nnes</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>386</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>MA_II_424</publication_info>
+      <full_name>123 - 2.12 - MA_II_424</full_name>
+      <url>data/stories/386.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>615</id>
+          <name>Svejstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>387</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_872</publication_info>
+      <full_name>123 - 2.13 - DS_V_872</full_name>
+      <url>data/stories/387.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>615</id>
+          <name>Svejstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>388</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_830</publication_info>
+      <full_name>123 - 2.14 - DS_I_830</full_name>
+      <url>data/stories/388.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>651</id>
+          <name>T&#248;rring</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>389</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_20</publication_info>
+      <full_name>123 - 2.15 - DS_II_E_20</full_name>
+      <url>data/stories/389.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>390</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_121</publication_info>
+      <full_name>123 - 2.16 - DS_IV_121</full_name>
+      <url>data/stories/390.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>362</id>
+          <name>Leg&#229;rdslyst</name>
+        </place>
+        <place><id>418</id>
+          <name>Moss&#248;</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>391</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_202</publication_info>
+      <full_name>123 - 2.17 - DS_V_202</full_name>
+      <url>data/stories/391.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>441</id>
+          <name>Nyg&#229;rd</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>392</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>393</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>JAH_I_263</publication_info>
+      <full_name>123 - 2.19 - JAH_I_263</full_name>
+      <url>data/stories/393.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>418</id>
+          <name>Moss&#248;</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>394</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>JAH_V_579</publication_info>
+      <full_name>123 - 2.20 - JAH_V_579</full_name>
+      <url>data/stories/394.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>395</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>JAH_VI_176</publication_info>
+      <full_name>123 - 2.21 - JAH_VI_176</full_name>
+      <url>data/stories/395.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>396</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_1140</publication_info>
+      <full_name>123 - 2.22 - DS_I_1140</full_name>
+      <url>data/stories/396.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>122</id>
+          <name>Dover kirke</name>
+        </place>
+        <place><id>459</id>
+          <name>&#216;sterg&#229;rd</name>
+        </place>
+        <place><id>615</id>
+          <name>Svejstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>397</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>JAH_V_357</publication_info>
+      <full_name>123 - 2.23 - JAH_V_357</full_name>
+      <url>data/stories/397.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>504</id>
+          <name>Ry</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>398</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_870</publication_info>
+      <full_name>123 - 2.24 - DS_III_870</full_name>
+      <url>data/stories/398.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>122</id>
+          <name>Dover kirke</name>
+        </place>
+        <place><id>615</id>
+          <name>Svejstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>399</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>JAH_V_212</publication_info>
+      <full_name>123 - 2.25 - JAH_V_212</full_name>
+      <url>data/stories/399.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>615</id>
+          <name>Svejstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>400</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>JAH_III_456</publication_info>
+      <full_name>123 - 2.26 - JAH_III_456</full_name>
+      <url>data/stories/400.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>401</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XIII_36</publication_info>
+      <full_name>123 - 2.27 - JFm_XIII_36</full_name>
+      <url>data/stories/401.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>8</id>
+          <name>Aarhus</name>
+        </place>
+        <place><id>122</id>
+          <name>Dover kirke</name>
+        </place>
+        <place><id>253</id>
+          <name>Hemstok</name>
+        </place>
+        <place><id>480</id>
+          <name>Ravns&#248;</name>
+        </place>
+        <place><id>531</id>
+          <name>Skanderborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>402</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>FK_0_483</publication_info>
+      <full_name>123 - 2.28 - FK_0_483</full_name>
+      <url>data/stories/402.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>406</id>
+          <name>Mesing</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>403</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>Unpub_PJ_229</publication_info>
+      <full_name>123 - 2.29 - Unpub_PJ_229</full_name>
+      <url>data/stories/403.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>406</id>
+          <name>Mesing</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>404</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_C_120</publication_info>
+      <full_name>123 - 3.01 - DS_II_C_120</full_name>
+      <url>data/stories/404.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>405</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>JAH_I_62</publication_info>
+      <full_name>123 - 3.02 - JAH_I_62</full_name>
+      <url>data/stories/405.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>406</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_1036</publication_info>
+      <full_name>123 - 3.03 - DS_I_1036</full_name>
+      <url>data/stories/406.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>713</id>
+          <name>Vissing</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>407</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_F_78</publication_info>
+      <full_name>123 - 3.04 - DS_II_F_78</full_name>
+      <url>data/stories/407.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>408</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_419</publication_info>
+      <full_name>123 - 3.05 - DS_VII_419</full_name>
+      <url>data/stories/408.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>661</id>
+          <name>Troms&#248;</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>409</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_515</publication_info>
+      <full_name>123 - 3.06 - DS_III_515</full_name>
+      <url>data/stories/409.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>122</id>
+          <name>Dover kirke</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>410</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_B_13</publication_info>
+      <full_name>123 - 3.07 - DS_II_B_13</full_name>
+      <url>data/stories/410.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>412</id>
+          <name>Mollerup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>411</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VI_98</publication_info>
+      <full_name>123 - 3.08 - DS_VI_98</full_name>
+      <url>data/stories/411.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>161</id>
+          <name>Flensted</name>
+        </place>
+        <place><id>531</id>
+          <name>Skanderborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>412</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_169</publication_info>
+      <full_name>123 - 3.09 - DS_VII_169</full_name>
+      <url>data/stories/412.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>541</id>
+          <name>Skjoldelev</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>413</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1075</publication_info>
+      <full_name>123 - 3.10 - DS_IV_1075</full_name>
+      <url>data/stories/413.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>62</id>
+          <name>Blegind</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>414</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_222</publication_info>
+      <full_name>123 - 3.11 - DS_III_222</full_name>
+      <url>data/stories/414.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>67</id>
+          <name>Boes</name>
+        </place>
+        <place><id>122</id>
+          <name>Dover kirke</name>
+        </place>
+        <place><id>615</id>
+          <name>Svejstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>415</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_340</publication_info>
+      <full_name>123 - 3.12 - DS_III_340</full_name>
+      <url>data/stories/415.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>615</id>
+          <name>Svejstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>416</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_61</publication_info>
+      <full_name>123 - 3.13 - DS_V_61</full_name>
+      <url>data/stories/416.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>417</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_528</publication_info>
+      <full_name>123 - 3.14 - DS_III_528</full_name>
+      <url>data/stories/417.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>691</id>
+          <name>Veng</name>
+        </place>
+        <place><id>693</id>
+          <name>Venges&#248;</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>418</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_G356</publication_info>
+      <full_name>123 - 3.15 - DS_II_G356</full_name>
+      <url>data/stories/418.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>418</id>
+          <name>Moss&#248;</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>419</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_1779</publication_info>
+      <full_name>123 - 3.16 - DS_III_1779</full_name>
+      <url>data/stories/419.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>480</id>
+          <name>Ravns&#248;</name>
+        </place>
+        <place><id>691</id>
+          <name>Veng</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>420</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_1851</publication_info>
+      <full_name>123 - 3.17 - DS_III_1851</full_name>
+      <url>data/stories/420.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>459</id>
+          <name>&#216;sterg&#229;rd</name>
+        </place>
+        <place><id>615</id>
+          <name>Svejstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>421</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>JAH_II_413</publication_info>
+      <full_name>123 - 3.18 - JAH_II_413</full_name>
+      <url>data/stories/421.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>235</id>
+          <name>Hammel</name>
+        </place>
+        <place><id>929</id>
+          <name>Frisenborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>422</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_120</publication_info>
+      <full_name>123 - 3.19 - DS_II_E_120</full_name>
+      <url>data/stories/422.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>192</id>
+          <name>Gjern</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>423</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_186</publication_info>
+      <full_name>123 - 3.20 - DS_II_E_186</full_name>
+      <url>data/stories/423.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>424</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VI_995</publication_info>
+      <full_name>123 - 3.21 - DS_VI_995</full_name>
+      <url>data/stories/424.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>425</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_J_69</publication_info>
+      <full_name>123 - 3.22 - DS_II_J_69</full_name>
+      <url>data/stories/425.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>67</id>
+          <name>Boes</name>
+        </place>
+        <place><id>110</id>
+          <name>Dakbj&#230;rg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>426</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_J_47</publication_info>
+      <full_name>123 - 3.23 - DS_II_J_47</full_name>
+      <url>data/stories/426.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>427</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_1487</publication_info>
+      <full_name>123 - 3.24 - DS_VII_1487</full_name>
+      <url>data/stories/427.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>428</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>GKV</publication_info>
+      <full_name>123 - 4.00 - GKV</full_name>
+      <url>data/stories/428.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>429</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>Unpub_PJ_401</publication_info>
+      <full_name>123 - 4.01 - Unpub_PJ_401</full_name>
+      <url>data/stories/429.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>122</id>
+          <name>Dover kirke</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>430</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>FK_0_196</publication_info>
+      <full_name>123 - 4.02 - FK_0_196</full_name>
+      <url>data/stories/430.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>406</id>
+          <name>Mesing</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>431</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DSnr_IV_357</publication_info>
+      <full_name>123 - 4.03 - DSnr_IV_357</full_name>
+      <url>data/stories/431.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>174</id>
+          <name>Fuldbro</name>
+        </place>
+        <place><id>201</id>
+          <name>Gravold</name>
+        </place>
+        <place><id>418</id>
+          <name>Moss&#248;</name>
+        </place>
+        <place><id>465</id>
+          <name>Pitters&#248;</name>
+        </place>
+        <place><id>562</id>
+          <name>Sofiendal</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>432</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XIII_38</publication_info>
+      <full_name>123 - 4.04 - JFm_XIII_38</full_name>
+      <url>data/stories/432.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>433</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>DSnr_IV_657</publication_info>
+      <full_name>123 - 4.05 - DSnr_IV_657</full_name>
+      <url>data/stories/433.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned>
+        <place><id>8</id>
+          <name>Aarhus</name>
+        </place>
+        <place><id>42</id>
+          <name>Baastrup mark</name>
+        </place>
+        <place><id>94</id>
+          <name>Bremerholm</name>
+        </place>
+        <place><id>104</id>
+          <name>Bukballe</name>
+        </place>
+        <place><id>209</id>
+          <name>Grumstrup</name>
+        </place>
+        <place><id>251</id>
+          <name>Hede m&#248;lle</name>
+        </place>
+        <place><id>283</id>
+          <name>Horsens</name>
+        </place>
+        <place><id>682</id>
+          <name>Vedslet</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>434</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>123</informant_id>
+      <publication_info>Unpub_PJ_406</publication_info>
+      <full_name>123 - 4.06 - Unpub_PJ_406</full_name>
+      <url>data/stories/434.dfl</url>
+      <place_recorded><id>175</id>Fuldbro m&#248;lle</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>615</place_id>
+      <name>Svejstrup</name>
+      <display_name>Svejstrup (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>110</place_id>
+      <name>Dakbj&#230;rg</name>
+      <display_name>Dakbj&#230;rg (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>175</place_id>
+      <name>Fuldbro m&#248;lle</name>
+      <display_name>Fuldbro m&#248;lle (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>615</place_id>
+      <name>Svejstrup</name>
+      <display_name>Svejstrup (mentioned in 11 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>122</place_id>
+      <name>Dover kirke</name>
+      <display_name>Dover kirke (mentioned in 8 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>418</place_id>
+      <name>Moss&#248;</name>
+      <display_name>Moss&#248; (mentioned in 4 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>406</place_id>
+      <name>Mesing</name>
+      <display_name>Mesing (mentioned in 3 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>691</place_id>
+      <name>Veng</name>
+      <display_name>Veng (mentioned in 3 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>161</place_id>
+      <name>Flensted</name>
+      <display_name>Flensted (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>110</place_id>
+      <name>Dakbj&#230;rg</name>
+      <display_name>Dakbj&#230;rg (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>459</place_id>
+      <name>&#216;sterg&#229;rd</name>
+      <display_name>&#216;sterg&#229;rd (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>531</place_id>
+      <name>Skanderborg</name>
+      <display_name>Skanderborg (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>480</place_id>
+      <name>Ravns&#248;</name>
+      <display_name>Ravns&#248; (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>67</place_id>
+      <name>Boes</name>
+      <display_name>Boes (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>8</place_id>
+      <name>Aarhus</name>
+      <display_name>Aarhus (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>504</place_id>
+      <name>Ry</name>
+      <display_name>Ry (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>929</place_id>
+      <name>Frisenborg</name>
+      <display_name>Frisenborg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>192</place_id>
+      <name>Gjern</name>
+      <display_name>Gjern (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>235</place_id>
+      <name>Hammel</name>
+      <display_name>Hammel (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>174</place_id>
+      <name>Fuldbro</name>
+      <display_name>Fuldbro (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>693</place_id>
+      <name>Venges&#248;</name>
+      <display_name>Venges&#248; (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>541</place_id>
+      <name>Skjoldelev</name>
+      <display_name>Skjoldelev (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>62</place_id>
+      <name>Blegind</name>
+      <display_name>Blegind (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>263</place_id>
+      <name>Hjelmslev</name>
+      <display_name>Hjelmslev (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>201</place_id>
+      <name>Gravold</name>
+      <display_name>Gravold (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>465</place_id>
+      <name>Pitters&#248;</name>
+      <display_name>Pitters&#248; (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>251</place_id>
+      <name>Hede m&#248;lle</name>
+      <display_name>Hede m&#248;lle (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>283</place_id>
+      <name>Horsens</name>
+      <display_name>Horsens (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>682</place_id>
+      <name>Vedslet</name>
+      <display_name>Vedslet (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>209</place_id>
+      <name>Grumstrup</name>
+      <display_name>Grumstrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>104</place_id>
+      <name>Bukballe</name>
+      <display_name>Bukballe (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>562</place_id>
+      <name>Sofiendal</name>
+      <display_name>Sofiendal (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>42</place_id>
+      <name>Baastrup mark</name>
+      <display_name>Baastrup mark (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>94</place_id>
+      <name>Bremerholm</name>
+      <display_name>Bremerholm (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>412</place_id>
+      <name>Mollerup</name>
+      <display_name>Mollerup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>661</place_id>
+      <name>Troms&#248;</name>
+      <display_name>Troms&#248; (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>679</place_id>
+      <name>Urup</name>
+      <display_name>Urup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>400</place_id>
+      <name>M&#229;nnes</name>
+      <display_name>M&#229;nnes (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>651</place_id>
+      <name>T&#248;rring</name>
+      <display_name>T&#248;rring (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>22</place_id>
+      <name>Alken</name>
+      <display_name>Alken (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>522</place_id>
+      <name>Silkeborg</name>
+      <display_name>Silkeborg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>582</place_id>
+      <name>Stadsg&#229;rd</name>
+      <display_name>Stadsg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>595</place_id>
+      <name>Stilling s&#248;</name>
+      <display_name>Stilling s&#248; (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>617</place_id>
+      <name>Svolbj&#230;rg</name>
+      <display_name>Svolbj&#230;rg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>362</place_id>
+      <name>Leg&#229;rdslyst</name>
+      <display_name>Leg&#229;rdslyst (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>520</place_id>
+      <name>Siem</name>
+      <display_name>Siem (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>89</place_id>
+      <name>Brandstrup</name>
+      <display_name>Brandstrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>309</place_id>
+      <name>Illerup</name>
+      <display_name>Illerup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>713</place_id>
+      <name>Vissing</name>
+      <display_name>Vissing (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>196</place_id>
+      <name>Glentholm</name>
+      <display_name>Glentholm (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>253</place_id>
+      <name>Hemstok</name>
+      <display_name>Hemstok (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>441</place_id>
+      <name>Nyg&#229;rd</name>
+      <display_name>Nyg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>298</place_id>
+      <name>Hvidsminde</name>
+      <display_name>Hvidsminde (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>19</place_id>
+      <name>&#197;kj&#230;r</name>
+      <display_name>&#197;kj&#230;r (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

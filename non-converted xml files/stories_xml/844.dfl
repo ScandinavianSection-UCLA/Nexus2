@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<story story_id="844">
+  <publication_info>DS_IV_1470</publication_info>
+  <full_name>391 - 0.00 - DS_IV_1470</full_name>
+  <informant_id>391</informant_id>
+  <informant_last_name>Holm</informant_last_name>
+  <informant_first_name>Ove</informant_first_name>
+  <informant_full_name>Pens. L&#xE6;rer Ove Holm</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>843</place_id>
+      <name>&#xD8;rsted</name>
+      <display_name>&#xD8;rsted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>833</place_id>
+      <name>Nimtoft</name>
+      <display_name>Nimtoft (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="562">
+      <informant_id>59</informant_id>
+      <publication_info>DS_IV_1478</publication_info>
+      <full_name>59 - 0.00 - DS_IV_1478</full_name>
+      <url>data/stories/562.dfl</url>
+    </story>
+    <story story_id="154">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1465</publication_info>
+      <full_name>241 - 2.04 - DS_IV_1465</full_name>
+      <url>data/stories/154.dfl</url>
+    </story>
+    <story story_id="501">
+      <informant_id>508</informant_id>
+      <publication_info>DS_IV_1467</publication_info>
+      <full_name>508 - 0.00 - DS_IV_1467</full_name>
+      <url>data/stories/501.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Nimtoft ligger Ramten m&#xF8;lle, hvor der tidligere har boet meget rige folk. For mange &#xE5;r siden var her en m&#xF8;ller, som endog havde skibe i s&#xF8;en. M&#xF8;llen h&#xF8;rte den gang under Mejlg&#xE5;rd, og herremanden der beskyldtes for b&#xE5;de selv at ville r&#xF8;ve p&#xE5; landevejen og st&#xE5; i forbindelse med en r&#xF6;verbande, som huserede i N&#xF6;rre herred. Endskj&#xF6;ndt m&#xF8;lleren betalte sine afgifter bestemt hver termin, s&#xE5; herremanden dog med onde &#xF6;jne til ham n&#xE6;rmest p&#xE5; grund af hans rigdom. S&#xE5; skete det en nat, at r&#xF6;verne overfaldt m&#xF8;llen, mishandlede manden og konen, og efter at have plyndret alt hvad der var, stak ild p&#xE5; g&#xE5;rden. M&#xF8;lleren klagede til herremanden, som jo var hans husbond, endskj&#xF6;ndt han havde mistanke til, at herren selv stod bag ved, og som han formodede, gjorde herren ingen ting ved sagen. Men en del &#xE5;r efter blev en r&#xF6;verbande fanget i Fjeld skov, og de blev halshuggede ved Skindvad oppe i N&#xF6;rre herred. Inden de kom af med livet, bekjendte de, at de havde &#xF8;vet indbrud i Ramten m&#xF8;lle efter samr&#xE5;d med herremanden, og han havde betalt dem noget for at &#xF8;ve den gjerning.
+     Det er ingen m&#xF8;lle l&#xE6;ngere, men dammen er der. I mange &#xE5;r var det blot en bondeg&#xE5;rd, men nu er det blevet til en stampem&#xF8;lle.</danish_publication>
+  <english_publication>Ramten mill is in Nimtoft where a lot of rich people used to live. Many years ago there was a miller who also had ships at sea. The mill belonged at that time to Mejlg&#xE5;rd, and the manor lord there was accused of both robbing people on the highways himself and being connected to a robber band that lodged in N&#xF8;rre province. Even though the miller paid his debts promptly each due date, the manor lord always looked at him with an evil eye, probably because of the miller&#x2019;s wealth. Then it happened one night that the robbers attacked the mill, beat up the man and his wife and, after they had plundered everything that there was, they set fire to the farm. The miller complained to the manor lord, who was his master, even though he suspected that the manor lord was behind it and, as he anticipated, the manor lord did nothing about the case. But several years later, a robber band was caught in Fjeld forest, and they were decapitated near Skindvad up in N&#xF8;rre province. Before they were executed, they admitted that they had committed the break-in at Ramten mill after consultation with the manor lord, and he had paid them something to commit the crime. 
+     The mill doesn&#x2019;t exist any more, but the mill pond is there. For many years, it was just a little farm, but now it has been made into a stamping mill.</english_publication>
+  <keywords>
+    <keyword id="8" frequency="1" keyword="accused">accused</keyword>
+    <keyword id="11" frequency="1" keyword="admission">admission</keyword>
+    <keyword id="53" frequency="1" keyword="attack">attack</keyword>
+    <keyword id="183" frequency="1" keyword="case">case</keyword>
+    <keyword id="282" frequency="1" keyword="crime">crime</keyword>
+    <keyword id="318" frequency="1" keyword="debt">debt</keyword>
+    <keyword id="319" frequency="1" keyword="decapitate">decapitate</keyword>
+    <keyword id="387" frequency="1" keyword="evil">evil</keyword>
+    <keyword id="388" frequency="1" keyword="execution">execution</keyword>
+    <keyword id="389" frequency="1" keyword="eye">eye</keyword>
+    <keyword id="394" frequency="3" keyword="farm">farm</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="529" frequency="1" keyword="highway">highway</keyword>
+    <keyword id="743" frequency="6" keyword="manor_lord">manor lord</keyword>
+    <keyword id="757" frequency="1" keyword="master">master</keyword>
+    <keyword id="783" frequency="6" keyword="mill">mill</keyword>
+    <keyword id="784" frequency="1" keyword="mill_pond">mill pond</keyword>
+    <keyword id="785" frequency="4" keyword="miller">miller</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="968" frequency="1" keyword="plunder">plunder</keyword>
+    <keyword id="1029" frequency="1" keyword="rich">rich</keyword>
+    <keyword id="1037" frequency="3" keyword="robber">robber</keyword>
+    <keyword id="1039" frequency="1" keyword="robbery">robbery</keyword>
+    <keyword id="1079" frequency="1" keyword="sea">sea</keyword>
+    <keyword id="1101" frequency="1" keyword="ship">ship</keyword>
+    <keyword id="1225" frequency="1" keyword="suspect">suspect</keyword>
+    <keyword id="1321" frequency="1" keyword="wealth">wealth</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="34" display_name="Places: Manor / Castle"/>
+    <tango_index id="37" display_name="Places: Mill"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

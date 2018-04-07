@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<story story_id="95">
+  <publication_info>JAH_IV_397</publication_info>
+  <full_name>150 - 3.32 - JAH_IV_397</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.32</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>546</place_id>
+      <name>Sk&#xF8;rb&#xE6;k</name>
+      <display_name>Sk&#xF8;rb&#xE6;k (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="96">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_IV_48</publication_info>
+      <full_name>150 - 3.33 - JAH_IV_48</full_name>
+      <url>data/stories/96.dfl</url>
+    </story>
+    <story story_id="2">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_IV_348</publication_info>
+      <full_name>150 - 0.02 - JAH_IV_348</full_name>
+      <url>data/stories/2.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4102a</fielddiary_page_start>
+  <fielddiary_page_end>4102b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens sings a song that accompanies the procession that occurs during Hellig Tre Kongers (Feast of the Magi) [January 6]. In many villages, either groups of men or a man would wander from house to house with a picture of a star or a lantern with a star shaped lens, and sing a ballad known as the "Star Ballad." The ballad Jens sang is unlike most of the other ballads associated with this practice and much more like a church hymn. The ballad is not included in DgF.
+
+    In the manuscript, there is an odd parenthetical interruption where Tang Kristensen has recorded several phrases that have nothing to do with the ballad. It is unclear exactly what these two lines mean. The published version adds additional detail in the final verse that is not found in the manuscript.</annotation>
+  <danish_manuscript>Kr&#xE6;n Tind fra Skj&#xF8;rb&#xE6;k h. gik med Stj&#xE6;rnen.
+Med denne her Stj&#xE6;rn som vi nu her har ville
+vi nu kun alene erindre den Stj&#xE6;rne de vise fra
+&#xD8;sterland blev var da de s&#xF8;gte Jesus at finde
+paa at s&#xE6;tte noget andet til,
+(nemlig naar noget af det var glemt, s. kom det ikke m
+Fanden skulde forringe en Sladder for et ords skyld
+
+4102B
+og nu
+Men da Kong Herodes det h&#xF8;rte blev han for
+skr&#xE6;kket og alle med ham, h. kaldte tilsam
+men de skriftkloge M&#xE6;nd og spurgte hvor Kristus
+skulde f&#xF8;des paa hvilkeen et Sted og udi hvilken
+By
+de svarte ham: [Ju] Jud&#xE6;a
+--
+De nu fulgte stj&#xE6;rnen som steds. gik frem, ind
+til den blev staaende stille.</danish_manuscript>
+  <english_manuscript>Kr&#xE6;n Tind from Skj&#xF8;rb&#xE6;k went with the star. He sang,
+With this here star, that we now have here,
+could we alone remember
+that star, that the wise men from the east watched, 
+when they went to find Jesus;
+
+to add something else
+(Particularly when things had been forgotten, they weren&#x2019;t included, 
+the devil would make horrible gossip for one word&#x2019;s sake)
+
+
+Now when King Herod heard this he became
+alarmed, and all those with him,
+and he called together all the learned men
+and asked them at which place and in which town Christ was to be born
+They answered him, &#x201C;Jud&#xE6;a!&#x201D;
+
+They now followed the star that went steadily forward, 
+until it stood still</english_manuscript>
+  <danish_publication>Kr&#xE6;n Tind fra Skj&#xF8;rb&#xE6;k han gik med stj&#xE6;rnen. Han sang:
+Med denne her stj&#xE6;rne, som vi nu her har,
+ville vi kun alene erindre
+den stj&#xE6;rne, de vise fra &#xD6;sterland blev vaer,
+da de s&#xF6;gte Jesus at finde;
+og der hvor de s&#xE5;
+den stj&#xE6;rne at st&#xE5;,
+var huset, hvor Jesus var inde.
+Men da kong Herodes det h&#xF8;rte, blev han
+forskr&#xE6;kket, og alle med  hannem,
+han kaldte tilsammen de skriftkloge m&#xE6;nd,
+og udspurgte n&#xF6;je af dennem,
+p&#xE5; hvilken et sted
+at Kristus blev f&#xF8;d.
+De svarte hannem: "I Jud&#xE6;a!"
+S&#xE5; ginge de vise fra Herodes igjen,
+der han havde sagt dem sin ville,
+og med fulgte stj&#xE6;rnen, som stedse gik frem,
+indtil den blev st&#xE5;ende stille,
+alt over det hus,
+hvorudi verdens lys
+vor Frelser han l&#xE5; i en krybbe.</danish_publication>
+  <english_publication>Kr&#xE6;n Tind from Skj&#xF8;rb&#xE6;k went with the star. He sang,
+With this here star, that we now have here,
+could we alone remember
+that star, that the wise men from the east watched, 
+when they went to find Jesus;
+and there where they saw 
+that the star stood still
+was the house that Jesus was in
+
+But when King Herod heard this he became
+alarmed, and all those with him,
+and he called together all the learned men
+and asked each of them
+at which place
+Christ had been born
+They answered him, &#x201C;In Jud&#xE6;a!&#x201D;
+
+Then the wise ones left Herod again
+when he&#x2019;d told them his wish,
+and the star which went steadily forward followed along
+until it stood still
+all over a house
+where with the light of the world
+our Savior lay in a manger.</english_publication>
+  <keywords>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="222" frequency="1" keyword="christ">Christ</keyword>
+    <keyword id="286" frequency="2" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="369" frequency="1" keyword="east">east</keyword>
+    <keyword id="548" frequency="2" keyword="house">house</keyword>
+    <keyword id="598" frequency="2" keyword="jesus">Jesus</keyword>
+    <keyword id="624" frequency="1" keyword="king">king</keyword>
+    <keyword id="658" frequency="1" keyword="kr&#xE6;n_tind">Kr&#xE6;n Tind</keyword>
+    <keyword id="699" frequency="1" keyword="learning">learning</keyword>
+    <keyword id="739" frequency="1" keyword="manger">manger</keyword>
+    <keyword id="1071" frequency="1" keyword="savior">savior</keyword>
+    <keyword id="1122" frequency="1" keyword="singing">singing</keyword>
+    <keyword id="1188" frequency="5" keyword="star">star</keyword>
+    <keyword id="1350" frequency="1" keyword="wish">wish</keyword>
+    <keyword id="1363" frequency="1" keyword="world">world</keyword>
+  </keywords>
+  <etk_index id="34">
+    <heading_danish>De selskabelige sammenkomster og festerne</heading_danish>
+    <heading_english>Social gatherings and parties</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="5" name="Ballad"/>
+</story>

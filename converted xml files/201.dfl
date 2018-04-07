@@ -1,0 +1,76 @@
+<story><story_id>201</story_id>
+  <publication_info>DSnr_III_142</publication_info>
+  <full_name>241 - 4.29 - DSnr_III_142</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>4.29</order_told>
+  <fieldtrip><id>8</id>May-June 1898</fieldtrip>
+  <fieldtrip_start_date>1898-05-23</fieldtrip_start_date>
+  <fieldtrip_end_date>1898-06-08</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>306</place_id>
+      <name>Ilbj&#230;rge</name>
+      <display_name>Ilbj&#230;rge (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>674</place_id>
+      <name>Ugilt kirke</name>
+      <display_name>Ugilt kirke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>570</story_id>
+      <informant_id>488</informant_id>
+      <publication_info>DS_III_122</publication_info>
+      <full_name>488 - 0.00 - DS_III_122</full_name>
+      <url>data/stories/570.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7815b</fielddiary_page_start>
+  <fielddiary_page_end>7815b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The minister's cryptic response to the stone splitter implies that a revenant has been conjured down under the stone. That the stone has been named further supports this conclusion. Jens Peter, oddly, did not tell any stories about a haunt named Terkild, although the landscape surrounding Ugilt and Sindal is, in Jens Peter's repertoire, littered with artifacts of haunts and conjuring.</annotation>
+  <danish_manuscript>Der har ligget en Sten i Ugiltsgaards
+Mark s&#248;nden for Ugilts Kirke som
+kaldtes Terkilds sten. Pr. havde en
+Stenkl&#248;ver et Aar til at kl&#248;ve Sten 
+for sig. S. kom h. og sagde Nu
+er de kl&#248;ven allesammen s. n&#230;r som
+Terkilds sten. Hm hm hm sagde
+Pr. den sten skal ikke kl&#248;ves, den 
+skal blive liggende.</danish_manuscript>
+  <english_manuscript>There was a stone in Ugilt farm's field, south of Ugilt church which was called Terkild's stone. One year, the minister had a stone splitter splitting stones for him and then he came and said, "They've all been split except for Terkild's stone."--"Hm hm hm," said the minister, "that stone is not to be split, let it be."</english_manuscript>
+  <danish_publication>Der har ligget en Sten i Ugiltsgaards Mark, s&#248;nden for Ugilts Kirke, som kaldtes Terkilds Sten. Et Aar havde Pr&#230;sten en Stenkl&#248;ver til at kl&#248;ve Sten for sig, og saa kom han og sagde: "Nu er de kl&#248;vne allesammen saa n&#230;r som Terkilds Sten." &#8212; "Hm hm hm," sagde Pr&#230;sten, "den Sten skal ikke kl&#248;ves, den skal blive liggende."</danish_publication>
+  <english_publication>There was a stone in Ugilt farm&#8217;s field, south of Ugilt church which was called Terkild&#8217;s stone. One year, the minister had a stone splitter splitting stones for him and then he came and said, &#8220;They&#8217;ve all been split except for Terkild&#8217;s stone.&#8221;&#8212;&#8220;Hm hm hm,&#8221; said the minister, &#8220;that stone is not to be split, let it be.&#8221;</english_publication>
+  <keywords>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>786</id><frequency>2</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>1167</id><frequency>1</frequency><keyword>south</keyword>south</keyword>
+    <keyword><id>1195</id><frequency>6</frequency><keyword>stone</keyword>stone</keyword>
+    <keyword><id>1245</id><frequency>2</frequency><keyword>terkild</keyword>terkild</keyword>
+    <keyword><id>1370</id><frequency>1</frequency><keyword>year</keyword>year</keyword>
+  </keywords>
+  <etk_index><id>11</id>
+    <heading_danish>Kj&#230;mper og deres idr&#230;tter</heading_danish>
+    <heading_english>Heroes and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

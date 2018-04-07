@@ -1,0 +1,310 @@
+<story><story_id>18</story_id>
+  <publication_info>DS_VI_139</publication_info>
+  <full_name>150 - 1.15 - DS_VI_139</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.15</order_told>
+  <fieldtrip><id>1</id>Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>102</place_id>
+      <name>Buderup</name>
+      <display_name>Buderup (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>542</place_id>
+      <name>Skj&#248;rping</name>
+      <display_name>Skj&#248;rping (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>631</place_id>
+      <name>Teglg&#229;rden</name>
+      <display_name>Teglg&#229;rden (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>15</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_112</publication_info>
+      <full_name>150 - 1.12 - Unpub_BJK_112</full_name>
+      <url>data/stories/15.dfl</url>
+    </story>
+    <story><story_id>43</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_383</publication_info>
+      <full_name>150 - 1.40 - JAH_I_383</full_name>
+      <url>data/stories/43.dfl</url>
+    </story>
+    <story><story_id>146</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_146</publication_info>
+      <full_name>241 - 1.05 - DS_VII_146</full_name>
+      <url>data/stories/146.dfl</url>
+    </story>
+    <story><story_id>537</story_id>
+      <informant_id>379</informant_id>
+      <publication_info>DS_VI_141</publication_info>
+      <full_name>379 - 0.00 - DS_VI_141</full_name>
+      <url>data/stories/537.dfl</url>
+    </story>
+    <story><story_id>597</story_id>
+      <informant_id>420</informant_id>
+      <publication_info>DS_VI_122</publication_info>
+      <full_name>420 - 0.00 - DS_VI_122</full_name>
+      <url>data/stories/597.dfl</url>
+    </story>
+    <story><story_id>649</story_id>
+      <informant_id>372</informant_id>
+      <publication_info>DS_VI_150</publication_info>
+      <full_name>372 - 0.00 - DS_VI_150</full_name>
+      <url>data/stories/649.dfl</url>
+    </story>
+    <story><story_id>798</story_id>
+      <informant_id>65</informant_id>
+      <publication_info>DS_V_289</publication_info>
+      <full_name>65 - 0.00 - DS_V_289</full_name>
+      <url>data/stories/798.dfl</url>
+    </story>
+    <story><story_id>783</story_id>
+      <informant_id>467</informant_id>
+      <publication_info>DS_VI_75</publication_info>
+      <full_name>467 - 0.00 - DS_VI_75</full_name>
+      <url>data/stories/783.dfl</url>
+    </story>
+    <story><story_id>492</story_id>
+      <informant_id>412</informant_id>
+      <publication_info>DS_VI_144</publication_info>
+      <full_name>412 - 0.00 - DS_VI_144</full_name>
+      <url>data/stories/492.dfl</url>
+    </story>
+    <story><story_id>149</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_975</publication_info>
+      <full_name>241 - 1.08 - DS_V_975</full_name>
+      <url>data/stories/149.dfl</url>
+    </story>
+    <story><story_id>375</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_720</publication_info>
+      <full_name>123 - 2.01 - DS_IV_720</full_name>
+      <url>data/stories/375.dfl</url>
+    </story>
+    <story><story_id>411</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VI_98</publication_info>
+      <full_name>123 - 3.08 - DS_VI_98</full_name>
+      <url>data/stories/411.dfl</url>
+    </story>
+    <story><story_id>63</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_301</publication_info>
+      <full_name>150 - 3.01 - Unpub_BJK_301</full_name>
+      <url>data/stories/63.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3241b</fielddiary_page_start>
+  <fielddiary_page_end>3242a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references>
+    <reference><id>437</id><category>general</category>
+      <display_string>[Book] Valk, &#220;lo. 2001. &lt;i&gt;The black gentleman : manifestations of the Devil in Estonian folk religion (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Pacts with the Devil usually end in calamity. Here, the manor lord recognizes the sign of impending peril--the blood red socks--and tries to develop a strategy to avoid the Devil. Unable to do so, he decides to take his money with him, by ingesting it. In other stories, "taking it with you" inevitably leads to haunting (JPP 1.08). Although the manor lord is unsuccessful in his rather pitiful attempt to eat the silver and generously gives the fortune to the hired girl, he apparently haunts the farm later (his haunting only appears in Tang Kristensen's emended published version).
+
+     The Devil in this story appears as the well-dressed gentleman, a widely attested form throughout northern Europe (V&#228;lk 2001). His arrival in a fine carriage is also widely attested, mimicking the carriages of manor lords (PJ 2.01; 3.08).
+
+     While cutting live wood in forests was forbidden without specific permission from the forest owner (usually a manor lord or the Crown), collecting fallen wood was generally permitted. That people would not touch a fallen oak is significant in this context, and speaks to the fear that was attached through narrative to touching that particular tree.
+
+     Tang Kristensen makes some significant changes to the published story, adding detail that is not included in the manuscript. Most notable among these additions is the inclusion of a farmhand who confirms the haunting at the farm. Jens alludes to this haunting at the farm in a later, short unpublished narrative about Peder Yde and the place where Peder and the Devil crossed the stream (BJK 3.01). Several of the episodes--such as the girl's discovery of the manor lord's brain hanging on the walls of the room--are moved to later in the narrative.
+
+     The story has an elaborate coda that could stand as an independent story. The response to the villagers' query about the passengers stands as an amusing indictment of the power elites and their corruption in rural Denmark.</annotation>
+  <danish_manuscript>Det var en [B] Mand der boede i Teglgaarden
+en bitte Herregaard imellem Buderup og Skj&#248;r
+ping og h. havde gjort sig F. i Vold. S. skulde
+F. vise ham et Tegn f&#248;r h. kom og tog ham 
+for at h. kunde v&#230;re noget belavet paa Rejsen
+S. var det en S&#248;ndag Morgen hans Pige gik og
+skulde hente hans Kl&#230;der til ham h. vilde 
+til Kirke, s. kom hu med et Par hvide Hoser
+til ham, men de var r&#248;de for hans &#216;jne.
+S. s. h. hu skulde hente ham et Par andre, di
+vilde ha ikke have. Hu henter et andet Par, men
+de var ogsaa r&#248;de og alle dem h. kom med de var
+r&#248;de. S. s. h. til hende dede h vilde ikke til Kirke
+hu kunde l&#230;gge dem nok igjen. S. gjente han alle 
+Folken til Kirke, de skulde af Sted hverjen, s. 
+n&#230;r som den Pige hun skulde blive hjem. Hu
+skulde hente ham et Fadfulder sur M&#230;lk s. h.
+og der kom h. s. mange S&#248;lvpenge i og di vilde
+h. til at s&#248;be, ha skulde [sobe] tage ham en Ske
+men h. kunde ikke s&#248;kke dem, s. skod (ikke sk&#248;d) h. dem
+hen til Pigen, dem kunde h. tage. S. strags kom
+der den stadseste Befording ind i Grden og kom og
+
+3242A
+holdt uden for den store D&#248;r. Hu troede det var
+store fremmede de fik, og s. gik ha ind til Peder
+Yde det gjorde Herren der sad paa Vognen. Hvad
+h. gjorde ved ham det saa hun ikke, men hu
+h&#248;rte nok h. klagede sig, og ha havde ikke Stunder
+at gaa ud af D&#248;ren med ham, men ud af et
+Karm Vinduer og s. af sted med ham. Den Gang
+Pigen s. kom ind i V&#230;relset da saa hun Hj&#230;rn
+sad opo V&#230;ggene, h. havde taget noget haardt
+ved ham, og s. kj&#248;rte h opo en Eg, der stod saadan
+nogle Egepurkler ved den B&#230;k der imellem
+Skj&#248;rping og Teglgaarden, noget Egev&#230;rkeri den
+gang, og gr&#248;ttede den, s. den kom halvt af og
+den h&#230;ngte saadan og groede i mange Aar for
+det F. havde kj&#248;rt paa den, var der vel ingen
+der turde tage den. Dg. de nu rejste nord
+paa til Helvede -- nu var der jo ingen der saa
+F&#230;r til ham videre men de spurgte siden &#230;bag
+efter, at dg. h. rejste over Havet med ham, da
+[saa]  kom en, hvem h. var. Ja det var Djywlen
+Hvad h. havde til Fragt. Ja h. havde Andreas
+og Andreas Fal og Peder Yd. Hvor de var fra
+Ja [de va] den ene var Bispen o Bremen og 2
+var en Provst et andet sted fra, men det [kunde]
+kan a ikke huske, hvor det var fra, det var langt
+henne, s&#248;nder opo, og 3 var fra Teglgaarden.</danish_manuscript>
+  <english_manuscript>There was a man who lived in Teglg&#229;rden, a little manor farm between Buderup and Skj&#248;rping, and he'd given himself to the devil. The devil was supposed to give him a sign before he came and took him, so that he could be somewhat prepared for the trip. Then one Sunday morning, his hired girl was to go and get his clothes for him, he wanted to go to church. So she brings him a pair of white stockings, but they looked red to his eyes. He says to her that she should get him another pair, he didn't want those. She got him another pair, but they were red too, and all the ones she brought were red. Then he says that he doesn't want to go to church today and she should put them away. Then he chased all the people off to church, everyone of them was to go except for the girl, she was to stay home. She was to get him a big bowl of sour milk, he said to her, and he put a bunch of silver coins in it, he wanted to spoon the coins into himself. She was to give him a spoon, but he couldn't swallow them. So he pushed them over to the girl, she could have them. Immediately, the finest carriage drove into the courtyard and stopped in front of the main door. She thought that it was important guests arriving and he went in to see Peder Yde, that's what the man who was sitting in the wagon did. She didn't see what he did to him, but she did hear that he complained and he didn't have the chance to leave out the door with him, but rather had to leave through a corner window, and then off with him. When the girl went into the room she saw his brains hanging on the walls, he'd grabbed him pretty hard. They drove over an oak by Hv&#230;ldam, there were some scrub oak trees and other oaks down by the stream that runs between Skj&#248;rping and Teglg&#229;rden, some oaks at the time, and cleaved it so that it almost broke in two, and it hung down and grew like that for many years, and because the devil had driven over it there was no one who dared take it. When they drove north to Hell--no one saw a trace of him any more but they asked about him later when he went over the sea with him, who he was. Well, it was the devil. And what freight did he have? Well, he had Andreas the bishop and Andreas Fal and Peder Yd'. Where were they from? Well, one was the bishop of Bremen, and the other was a dean--I can't remember now where he was from, but it was a place way down south, and the third was the man from Teglg&#229;rden.</english_manuscript>
+  <danish_publication>Der var en mand, der boede i Teglg&#229;rden, en bitte herreg&#229;rd imellem Buderup og Skj&#246;rping, og han havde givet sig Fanden i vold. Men Fanden var g&#229;et ind p&#229; den akkord, at han nok skulde vise ham et tegn, f&#246;r han kom og tog ham, s&#229;dan at han kunde v&#230;re noget belavet p&#229; rejsen. S&#229; var det en s&#248;ndag morgen, hans pige skulde hen og hente hans s&#248;ndagskl&#230;der til ham, han vilde til kirke, og da hun nu f&#248;rst kommer med et par hvide hoser til ham, var de r&#248;de for hans &#246;jne. S&#229; siger han, at hun skulde hente ham et par andre, s&#229;dan nogle vilde han ikke have. Hun hentede et andet par, men de var ogs&#229; r&#248;de, og alle dem, hun kom med, de var r&#248;de. S&#229; bliver han helt kjed af det og siger, dede han vilde ikke til kirke i dag, hun skulde l&#230;gge dem v&#230;k igjen. Dern&#230;st gjente han alle folkene til kirken, de skulde af sted hver &#233;n s&#229; n&#230;r som den pige, der havde givet ham hoserne, hun skulde blive hjemme. Nu skulde hun hente ham et fadfulder sur m&#230;lk, sagde han til hende, og der kom han s&#229;dan en m&#230;ngde s&#248;lvpenge i. "Nu skal du tage mig en ske," sagde han, og s&#229; vilde han til at s&#248;be pengene i sig, men han kunde ikke s&#248;kke dem. S&#229; sk&#248;d han fadet hen til pigen, nu kunde hun tage dem. Straks efter kom den stadseste befordring ind i g&#229;rden og holdt uden for den store d&#246;r. Hun troede, det var store fremmede, de fik, og den mand, der sad i vognen, kom ogs&#229; ind til herren, men hvad han gjorde ved ham, det s&#229; hun ikke, hun h&#248;rte derimod nok, at han klagede sig, og han havde heller ikke stunder at g&#229; ud af d&#246;ren med ham, men ud af en karm vinduer, og s&#229; af sted med ham, og det gik i en fart, for da de kom til den b&#230;k, der er mellem Skj&#246;rping og Teglg&#229;rden, da kj&#248;rte de &#230;p&#229; en eg ved Hv&#230;ldam, der stod jo s&#229;dan noget egepurkler og egev&#230;rkeri den gang ved den b&#230;k, og gr&#248;ttede den, s&#229; den kom halvt af og h&#230;ngte s&#229;dan og groede i mange &#229;r, og for det Fanden havde kj&#248;rt p&#229; den, var der vel ingen, der turde tage den. Nu var der jo ingen, der s&#229; f&#230;rd til Per Yde videre &#8212; ja for s&#229;dan hed herren p&#229; Teglg&#229;rden &#8212; men de rejste jo nord p&#229; til Helvede med hverandre, og siden &#230;bag efter spurgte folk, at den gang Fanden rejste over havet med ham, da kom der et skib sejlende lige forbi i det samme, og folkene der r&#229;bte ham an, hvem han var. Ja, det var Djywlen. Hvad han havde til fragt? Ja, han havde Andreas bisp og Andreas Fal og Peder Yd'. Hvor de var fra? siger skibsfolkene. &#197;, den ene var bispen af Bremen, og den anden var en provst &#8212; a kan nu ikke huske, hvor han var fra, men det var da et sted langt s&#248;nder &#230;p&#229;, og den tredje det var manden fra Teglg&#229;rden. Se, det var det sidste, folk h&#248;rte til Peder Yde, men den gang pigen kom ind i v&#230;relset, hvor Fanden havde taget ham ud fra, da s&#229; hun hj&#230;rnen sidde &#229;p&#229; v&#230;ggene, s&#229; han m&#229; have taget noget h&#229;rdt ved ham. Der tjente en karl her i byen, som sagde, at der var s&#229;dant spektakel p&#229; loftet i Teglg&#229;rden om natten.</danish_publication>
+  <english_publication>There was a man who lived in Teglg&#229;rden, a little manor farm between Buderup and Skj&#248;rping, and he&#8217;d given himself to the devil&#8217;s power. But the devil had agreed to give him a sign before he came and took him so that he could be somewhat prepared for the trip. Then one Sunday morning his hired girl was to go and get his Sunday clothes for him, he wanted to go to church, and when she brings him a pair of white stockings first, they looked red to his eyes. He says to her that she should get him another pair, he didn&#8217;t want ones like that. She got him another pair, but they were red too, and all the ones she brought were red. Then he gets quite upset and says that he doesn&#8217;t want to go to church today and she should put them away. After that, he chased everyone off to church, they all had to go except for the girl who&#8217;d given him the stockings, she was to stay home. Now she was to get him a big bowl of sour milk, he said to her, and he put a bunch of silver coins in it. &#8220;Now I want you to give me a spoon,&#8221; he said, and he wanted to spoon the coins into himself, but he couldn&#8217;t swallow the them. So he pushed them over to the girl, she could have them. Immediately, the finest carriage drove into the courtyard and stopped in front of the main door. She thought that it was important guests, and the man who was sitting in the wagon also went in to see the lord, but she didn&#8217;t see what he did to him, but she did hear that the lord complained quite a bit and he wasn't allowed to leave out through the door with the visitor, but instead he had to leave through a corner window, and then off the lord went with him, and they went fast because they drove right over an oak by Hv&#230;ldam. When they got to the stream that runs between Skj&#248;rping and Teglg&#229;rden, there were some scrub oak trees and other oaks down by the stream at that time, and they cleaved that oak tree so that it almost broke in two, and it hung down and grew like that for many years, and because the devil had driven over it there was no one who dared take it for firewood. Now no one saw Per Yde any more--you see that&#8217;s what the manor lord at Teglg&#229;rden was called--but they traveled north to hell with each other, and after that people heard that when the devil traveled over the sea with him, a ship came sailing right by at the same moment and the people called out asking who he was. Well, it was the devil. And what freight did he have? Well, he had Andreas the bishop and Andreas Fal and Peder Yde. Where were they from?, ask the shipspeople. Well, one was the bishop of Bremen, and the other was a dean--I can&#8217;t remember now where he was from, but it was a place way down south--and the third was the man from Teglg&#229;rden. You see, that was the last people heard of Peder Yde, but when the girl came into the room where the devil had taken him, she saw his brains hanging on the walls, so he must have grabbed him pretty hard. There was a farmhand who worked here in the town who said that there was always a ruckus in the attic at Teglg&#229;rden at night.</english_publication>
+  <keywords>
+    <keyword><id>15</id><frequency>1</frequency><keyword>agreement</keyword>agreement</keyword>
+    <keyword><id>33</id><frequency>2</frequency><keyword>andreas</keyword>Andreas</keyword>
+    <keyword><id>55</id><frequency>1</frequency><keyword>attic</keyword>attic</keyword>
+    <keyword><id>103</id><frequency>2</frequency><keyword>bishop</keyword>bishop</keyword>
+    <keyword><id>128</id><frequency>1</frequency><keyword>bowl</keyword>bowl</keyword>
+    <keyword><id>181</id><frequency>1</frequency><keyword>carriage</keyword>carriage</keyword>
+    <keyword><id>211</id><frequency>1</frequency><keyword>chase</keyword>chase</keyword>
+    <keyword><id>227</id><frequency>3</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>236</id><frequency>1</frequency><keyword>clothing</keyword>clothing</keyword>
+    <keyword><id>246</id><frequency>1</frequency><keyword>coins</keyword>coins</keyword>
+    <keyword><id>272</id><frequency>1</frequency><keyword>courtyard</keyword>courtyard</keyword>
+    <keyword><id>313</id><frequency>1</frequency><keyword>dean</keyword>dean</keyword>
+    <keyword><id>324</id><frequency>6</frequency><keyword>devil</keyword>devil</keyword>
+    <keyword><id>344</id><frequency>2</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>389</id><frequency>1</frequency><keyword>eye</keyword>eye</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>12</id><frequency>1</frequency><keyword>advice</keyword>advice</keyword>
+    <keyword><id>13</id><frequency>1</frequency><keyword>afraid</keyword>afraid</keyword>
+    <keyword><id>65</id><frequency>1</frequency><keyword>baking</keyword>baking</keyword>
+    <keyword><id>83</id><frequency>1</frequency><keyword>bed</keyword>bed</keyword>
+    <keyword><id>87</id><frequency>2</frequency><keyword>belief</keyword>belief</keyword>
+    <keyword><id>88</id><frequency>1</frequency><keyword>bells</keyword>bells</keyword>
+    <keyword><id>130</id><frequency>4</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>139</id><frequency>3</frequency><keyword>bread</keyword>bread</keyword>
+    <keyword><id>144</id><frequency>1</frequency><keyword>bridge</keyword>bridge</keyword>
+    <keyword><id>169</id><frequency>3</frequency><keyword>calf</keyword>calf</keyword>
+    <keyword><id>222</id><frequency>1</frequency><keyword>christ</keyword>Christ</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>278</id><frequency>1</frequency><keyword>crazy</keyword>crazy</keyword>
+    <keyword><id>283</id><frequency>1</frequency><keyword>crow</keyword>crow</keyword>
+    <keyword><id>306</id><frequency>4</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>392</id><frequency>1</frequency><keyword>fall</keyword>fall</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>400</id><frequency>1</frequency><keyword>fault</keyword>fault</keyword>
+    <keyword><id>404</id><frequency>1</frequency><keyword>feed</keyword>feed</keyword>
+    <keyword><id>467</id><frequency>4</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>490</id><frequency>1</frequency><keyword>guest</keyword>guest</keyword>
+    <keyword><id>520</id><frequency>1</frequency><keyword>hell</keyword>hell</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>725</id><frequency>1</frequency><keyword>lord</keyword>lord</keyword>
+    <keyword><id>742</id><frequency>1</frequency><keyword>manor_farm</keyword>manor farm</keyword>
+    <keyword><id>743</id><frequency>1</frequency><keyword>manor_lord</keyword>manor lord</keyword>
+    <keyword><id>782</id><frequency>1</frequency><keyword>milk</keyword>milk</keyword>
+    <keyword><id>793</id><frequency>1</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>431</id><frequency>5</frequency><keyword>food</keyword>food</keyword>
+    <keyword><id>493</id><frequency>1</frequency><keyword>hag</keyword>hag</keyword>
+    <keyword><id>505</id><frequency>1</frequency><keyword>harvest_time</keyword>harvest time</keyword>
+    <keyword><id>508</id><frequency>1</frequency><keyword>haunting</keyword>haunting</keyword>
+    <keyword><id>537</id><frequency>4</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>548</id><frequency>5</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>552</id><frequency>1</frequency><keyword>husband</keyword>husband</keyword>
+    <keyword><id>565</id><frequency>1</frequency><keyword>island</keyword>island</keyword>
+    <keyword><id>622</id><frequency>2</frequency><keyword>kill</keyword>kill</keyword>
+    <keyword><id>764</id><frequency>1</frequency><keyword>meadow</keyword>meadow</keyword>
+    <keyword><id>766</id><frequency>1</frequency><keyword>meat</keyword>meat</keyword>
+    <keyword><id>782</id><frequency>3</frequency><keyword>milk</keyword>milk</keyword>
+    <keyword><id>801</id><frequency>2</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>803</id><frequency>3</frequency><keyword>mother</keyword>mother</keyword>
+    <keyword><id>863</id><frequency>1</frequency><keyword>north</keyword>north</keyword>
+    <keyword><id>870</id><frequency>3</frequency><keyword>oak</keyword>oak</keyword>
+    <keyword><id>925</id><frequency>1</frequency><keyword>peder</keyword>peder</keyword>
+    <keyword><id>932</id><frequency>1</frequency><keyword>peder_yde</keyword>Peder Yde</keyword>
+    <keyword><id>945</id><frequency>1</frequency><keyword>per_yde</keyword>Per Yde</keyword>
+    <keyword><id>988</id><frequency>1</frequency><keyword>power</keyword>power</keyword>
+    <keyword><id>1021</id><frequency>3</frequency><keyword>red</keyword>red</keyword>
+    <keyword><id>1052</id><frequency>1</frequency><keyword>ruckus</keyword>ruckus</keyword>
+    <keyword><id>1060</id><frequency>1</frequency><keyword>sailing</keyword>sailing</keyword>
+    <keyword><id>1079</id><frequency>1</frequency><keyword>sea</keyword>sea</keyword>
+    <keyword><id>1101</id><frequency>1</frequency><keyword>ship</keyword>ship</keyword>
+    <keyword><id>1118</id><frequency>1</frequency><keyword>silver</keyword>silver</keyword>
+    <keyword><id>1167</id><frequency>1</frequency><keyword>south</keyword>south</keyword>
+    <keyword><id>1176</id><frequency>2</frequency><keyword>spoon</keyword>spoon</keyword>
+    <keyword><id>1193</id><frequency>2</frequency><keyword>stockings</keyword>stockings</keyword>
+    <keyword><id>1207</id><frequency>2</frequency><keyword>stream</keyword>stream</keyword>
+    <keyword><id>1218</id><frequency>2</frequency><keyword>sunday</keyword>Sunday</keyword>
+    <keyword><id>1265</id><frequency>1</frequency><keyword>today</keyword>today</keyword>
+    <keyword><id>1275</id><frequency>1</frequency><keyword>town</keyword>town</keyword>
+    <keyword><id>894</id><frequency>1</frequency><keyword>pail</keyword>pail</keyword>
+    <keyword><id>903</id><frequency>2</frequency><keyword>parish</keyword>parish</keyword>
+    <keyword><id>975</id><frequency>1</frequency><keyword>poorhouse</keyword>poorhouse</keyword>
+    <keyword><id>1030</id><frequency>1</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1033</id><frequency>1</frequency><keyword>ringing</keyword>ringing</keyword>
+    <keyword><id>1034</id><frequency>1</frequency><keyword>river</keyword>river</keyword>
+    <keyword><id>1095</id><frequency>4</frequency><keyword>sheep</keyword>sheep</keyword>
+    <keyword><id>1099</id><frequency>1</frequency><keyword>shepherd</keyword>shepherd</keyword>
+    <keyword><id>1111</id><frequency>2</frequency><keyword>sickness</keyword>sickness</keyword>
+    <keyword><id>1139</id><frequency>1</frequency><keyword>slaughter</keyword>slaughter</keyword>
+    <keyword><id>1195</id><frequency>1</frequency><keyword>stone</keyword>stone</keyword>
+    <keyword><id>1203</id><frequency>3</frequency><keyword>st&#248;vkaren</keyword>st&#248;vkaren</keyword>
+    <keyword><id>1265</id><frequency>2</frequency><keyword>today</keyword>today</keyword>
+    <keyword><id>1281</id><frequency>1</frequency><keyword>tree</keyword>tree</keyword>
+    <keyword><id>1311</id><frequency>1</frequency><keyword>wagon</keyword>wagon</keyword>
+    <keyword><id>1313</id><frequency>1</frequency><keyword>walls</keyword>walls</keyword>
+    <keyword><id>1340</id><frequency>1</frequency><keyword>white</keyword>white</keyword>
+    <keyword><id>1346</id><frequency>1</frequency><keyword>window</keyword>window</keyword>
+    <keyword><id>1320</id><frequency>1</frequency><keyword>water</keyword>water</keyword>
+    <keyword><id>1331</id><frequency>2</frequency><keyword>west</keyword>west</keyword>
+    <keyword><id>1343</id><frequency>4</frequency><keyword>wife</keyword>wife</keyword>
+    <keyword><id>1356</id><frequency>5</frequency><keyword>woman</keyword>woman</keyword>
+    <keyword><id>1370</id><frequency>1</frequency><keyword>year</keyword>year</keyword>
+  </keywords>
+  <etk_index><id>27</id>
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>42</id><display_name>Places: Stream / River</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>94</id><display_name>Actions or events: Oath</display_name></tango_index>
+    <tango_index><id>102</id><display_name>Time, Season, Weather: Sunday</display_name></tango_index>
+    <tango_index><id>109</id><display_name>Time, Season, Weather: Morning</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

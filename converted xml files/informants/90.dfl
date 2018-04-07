@@ -1,0 +1,732 @@
+<informant><person_id>90</person_id>
+  <core_informant>1</core_informant>
+  <full_name>(Ane) Margrete Jensdatter</full_name>
+  <last_name>Jensdatter</last_name>
+  <first_name>(Ane) Margrete</first_name>
+  <gender>f</gender>
+  <image>data/informants/90.jpg</image>
+  <fullbio>data/informants/90_full.dfl</fullbio>
+  <intro_bio>Margrete was the illegitimate daughter of Bodil Nielsdatter and cobbler/husmand, Jens Hansen. She was raised by her father, as her mother had died when Margrete was four years old. According to family tradition, her grandfather had worked in the royal court and her father had been playmates with King Frederik the Sixth. Her father had traveled out of the country as a soldier and, upon his return, had received land from the court. He had many books and was a good story teller and singer, especially of folk tales and ballads. She learned many of her stories and ballads from traveling tradesmen and learned them easily. She was a congenial and adept narrator and singer.
+</intro_bio>
+  <birth_date>1813-09-22</birth_date>
+  <death_date>1902-05-28</death_date>
+  <occupations>
+    <occupation><occupation_id>17</occupation_id>field worker</occupation>
+    <occupation><occupation_id>63</occupation_id>Pensioner</occupation>
+    <occupation><occupation_id>83</occupation_id>wheatbread woman</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>324</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>JFm_XI_46</publication_info>
+      <full_name>90 - 1.01 - JFm_XI_46</full_name>
+      <url>data/stories/324.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>496</id>
+          <name>Rosenholm</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>325</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>JFm_XI_22C</publication_info>
+      <full_name>90 - 1.02 - JFm_XI_22C</full_name>
+      <url>data/stories/325.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>383</id>
+          <name>L&#248;ndum</name>
+        </place>
+        <place><id>109</id>
+          <name>Clausholm</name>
+        </place>
+        <place><id>496</id>
+          <name>Rosenholm</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>326</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_I_685</publication_info>
+      <full_name>90 - 1.03 - DS_I_685</full_name>
+      <url>data/stories/326.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>408</id>
+          <name>M&#248;gelh&#248;je</name>
+        </place>
+        <place><id>48</id>
+          <name>Bastruph&#248;j</name>
+        </place>
+        <place><id>107</id>
+          <name>Bygballe</name>
+        </place>
+        <place><id>540</id>
+          <name>Skj&#248;dstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>327</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_I_263</publication_info>
+      <full_name>90 - 1.04 - DS_I_263</full_name>
+      <url>data/stories/327.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>66</id>
+          <name>Boelsh&#248;j</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>328</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_I_1412</publication_info>
+      <full_name>90 - 1.05 - DS_I_1412</full_name>
+      <url>data/stories/328.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>329</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_IV_988</publication_info>
+      <full_name>90 - 1.06 - DS_IV_988</full_name>
+      <url>data/stories/329.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>540</id>
+          <name>Skj&#248;dstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>330</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>&#198;v_0_1459</publication_info>
+      <full_name>90 - 1.07 - &#198;v_0_1459</full_name>
+      <url>data/stories/330.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>338</id>
+          <name>K&#248;benhavn</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>331</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>&#198;v_0_1462</publication_info>
+      <full_name>90 - 1.08 - &#198;v_0_1462</full_name>
+      <url>data/stories/331.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>332</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>JAT_VI_1040</publication_info>
+      <full_name>90 - 1.09 - JAT_VI_1040</full_name>
+      <url>data/stories/332.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>333</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>JFm_XI_129</publication_info>
+      <full_name>90 - 2.01 - JFm_XI_129</full_name>
+      <url>data/stories/333.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>334</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>&#198;v_0_1458</publication_info>
+      <full_name>90 - 2.02 - &#198;v_0_1458</full_name>
+      <url>data/stories/334.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>335</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>&#198;v_0_1460</publication_info>
+      <full_name>90 - 2.03 - &#198;v_0_1460</full_name>
+      <url>data/stories/335.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>336</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DSk_I_13_(23)</publication_info>
+      <full_name>90 - 2.04 - DSk_I_13_(23)</full_name>
+      <url>data/stories/336.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>337</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_1449</publication_info>
+      <full_name>90 - 2.05 - Lege_0_1449</full_name>
+      <url>data/stories/337.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>338</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_206</publication_info>
+      <full_name>90 - 2.06 - Unpub_AMJ_206</full_name>
+      <url>data/stories/338.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>339</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_810</publication_info>
+      <full_name>90 - 2.07 - DS_VI_810</full_name>
+      <url>data/stories/339.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>575</id>
+          <name>Sorte Mose</name>
+        </place>
+        <place><id>90</id>
+          <name>Brandstrup</name>
+        </place>
+        <place><id>243</id>
+          <name>H&#229;rup</name>
+        </place>
+        <place><id>267</id>
+          <name>Hjortsh&#248;j</name>
+        </place>
+        <place><id>380</id>
+          <name>L&#248;gten</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>340</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_IV_650</publication_info>
+      <full_name>90 - 2.08 - DS_IV_650</full_name>
+      <url>data/stories/340.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>532</id>
+          <name>Sk&#229;rupg&#229;rd</name>
+        </place>
+        <place><id>642</id>
+          <name>Todbj&#230;rg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>341</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>JAH_VI_753</publication_info>
+      <full_name>90 - 2.09 - JAH_VI_753</full_name>
+      <url>data/stories/341.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>342</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_313</publication_info>
+      <full_name>90 - 2.10 - Lege_0_313</full_name>
+      <url>data/stories/342.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>730</id>
+          <name>Vraa</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>343</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>MA_I_450</publication_info>
+      <full_name>90 - 2.11 - MA_I_450</full_name>
+      <url>data/stories/343.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>344</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>JAH_IV_218</publication_info>
+      <full_name>90 - 2.12 - JAH_IV_218</full_name>
+      <url>data/stories/344.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>471</id>
+          <name>Randers</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>345</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_1912</publication_info>
+      <full_name>90 - 2.13 - Lege_0_1912</full_name>
+      <url>data/stories/345.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>346</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_1949</publication_info>
+      <full_name>90 - 2.14 - Lege_0_1949</full_name>
+      <url>data/stories/346.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>347</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_A_98</publication_info>
+      <full_name>90 - 2.15 - DS_II_A_98</full_name>
+      <url>data/stories/347.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>540</id>
+          <name>Skj&#248;dstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>348</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_B_147</publication_info>
+      <full_name>90 - 2.16 - DS_II_B_147</full_name>
+      <url>data/stories/348.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>132</id>
+          <name>Eg&#229;</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>349</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1100</publication_info>
+      <full_name>90 - 2.17 - DS_VI_1100</full_name>
+      <url>data/stories/349.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>350</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_218</publication_info>
+      <full_name>90 - 2.18 - Unpub_AMJ_218</full_name>
+      <url>data/stories/350.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>351</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_H_34</publication_info>
+      <full_name>90 - 2.19 - DS_II_H_34</full_name>
+      <url>data/stories/351.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>540</id>
+          <name>Skj&#248;dstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>352</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1028</publication_info>
+      <full_name>90 - 2.20 - DS_VI_1028</full_name>
+      <url>data/stories/352.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>8</id>
+          <name>Aarhus</name>
+        </place>
+        <place><id>540</id>
+          <name>Skj&#248;dstrup</name>
+        </place>
+        <place><id>729</id>
+          <name>Vosn&#230;sg&#229;rd</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>353</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_1945</publication_info>
+      <full_name>90 - 2.21 - Lege_0_1945</full_name>
+      <url>data/stories/353.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>354</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>JAT_VI_805</publication_info>
+      <full_name>90 - 2.22 - JAT_VI_805</full_name>
+      <url>data/stories/354.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>405</id>
+          <name>Mejlby</name>
+        </place>
+        <place><id>540</id>
+          <name>Skj&#248;dstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>355</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_51</publication_info>
+      <full_name>90 - 3.01 - DS_V_51</full_name>
+      <url>data/stories/355.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>540</id>
+          <name>Skj&#248;dstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>356</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_1232</publication_info>
+      <full_name>90 - 3.02 - DS_V_1232</full_name>
+      <url>data/stories/356.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>182</id>
+          <name>Galgeknolden</name>
+        </place>
+        <place><id>540</id>
+          <name>Skj&#248;dstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>357</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_831</publication_info>
+      <full_name>90 - 3.03 - DS_V_831</full_name>
+      <url>data/stories/357.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>265</id>
+          <name>Hj&#248;rre</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>358</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DSnr_II_B_130</publication_info>
+      <full_name>90 - 3.04 - DSnr_II_B_130</full_name>
+      <url>data/stories/358.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>132</id>
+          <name>Eg&#229;</name>
+        </place>
+        <place><id>380</id>
+          <name>L&#248;gten</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>359</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DSnr_III_478</publication_info>
+      <full_name>90 - 3.05 - DSnr_III_478</full_name>
+      <url>data/stories/359.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>350</id>
+          <name>Krajbj&#230;rg mark</name>
+        </place>
+        <place><id>642</id>
+          <name>Todbj&#230;rg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>360</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_III_2378</publication_info>
+      <full_name>90 - 3.06 - DS_III_2378</full_name>
+      <url>data/stories/360.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>320</id>
+          <name>Kalv&#248;</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>361</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DSnr_III_564</publication_info>
+      <full_name>90 - 3.07 - DSnr_III_564</full_name>
+      <url>data/stories/361.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>320</id>
+          <name>Kalv&#248;</name>
+        </place>
+        <place><id>497</id>
+          <name>Rosenholm</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>362</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VII_505</publication_info>
+      <full_name>90 - 3.08 - DS_VII_505</full_name>
+      <url>data/stories/362.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>363</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1271</publication_info>
+      <full_name>90 - 3.09 - DS_VI_1271</full_name>
+      <url>data/stories/363.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>364</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_310</publication_info>
+      <full_name>90 - 3.10 - Unpub_AMJ_310</full_name>
+      <url>data/stories/364.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>365</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>DSnr_II_E_65</publication_info>
+      <full_name>90 - 3.11 - DSnr_II_E_65</full_name>
+      <url>data/stories/365.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>243</id>
+          <name>H&#229;rup</name>
+        </place>
+        <place><id>351</id>
+          <name>Krannestrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>366</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_312</publication_info>
+      <full_name>90 - 3.12 - Unpub_AMJ_312</full_name>
+      <url>data/stories/366.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>367</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>&#198;v_0_1667</publication_info>
+      <full_name>90 - 3.13 - &#198;v_0_1667</full_name>
+      <url>data/stories/367.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>368</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_401</publication_info>
+      <full_name>90 - 4.01 - Unpub_AMJ_401</full_name>
+      <url>data/stories/368.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>8</id>
+          <name>Aarhus</name>
+        </place>
+        <place><id>540</id>
+          <name>Skj&#248;dstrup</name>
+        </place>
+        <place><id>729</id>
+          <name>Vosn&#230;sg&#229;rd</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>369</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>JFm_XI_22C</publication_info>
+      <full_name>90 - 4.02 - JFm_XI_22C</full_name>
+      <url>data/stories/369.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>370</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>&#198;v_0_1907</publication_info>
+      <full_name>90 - 4.03 - &#198;v_0_1907</full_name>
+      <url>data/stories/370.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>371</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_404</publication_info>
+      <full_name>90 - 4.04 - Unpub_AMJ_404</full_name>
+      <url>data/stories/371.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>405</id>
+          <name>Mejlby</name>
+        </place>
+        <place><id>471</id>
+          <name>Randers</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>372</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>90</informant_id>
+      <publication_info>&#198;v_0_1963</publication_info>
+      <full_name>90 - 4.05 - &#198;v_0_1963</full_name>
+      <url>data/stories/372.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>540</place_id>
+      <name>Skj&#248;dstrup</name>
+      <display_name>Skj&#248;dstrup (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>540</place_id>
+      <name>Skj&#248;dstrup</name>
+      <display_name>Skj&#248;dstrup (mentioned in 9 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>471</place_id>
+      <name>Randers</name>
+      <display_name>Randers (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>642</place_id>
+      <name>Todbj&#230;rg</name>
+      <display_name>Todbj&#230;rg (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>496</place_id>
+      <name>Rosenholm</name>
+      <display_name>Rosenholm (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>132</place_id>
+      <name>Eg&#229;</name>
+      <display_name>Eg&#229; (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>8</place_id>
+      <name>Aarhus</name>
+      <display_name>Aarhus (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>320</place_id>
+      <name>Kalv&#248;</name>
+      <display_name>Kalv&#248; (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>729</place_id>
+      <name>Vosn&#230;sg&#229;rd</name>
+      <display_name>Vosn&#230;sg&#229;rd (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>243</place_id>
+      <name>H&#229;rup</name>
+      <display_name>H&#229;rup (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>380</place_id>
+      <name>L&#248;gten</name>
+      <display_name>L&#248;gten (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>265</place_id>
+      <name>Hj&#248;rre</name>
+      <display_name>Hj&#248;rre (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>182</place_id>
+      <name>Galgeknolden</name>
+      <display_name>Galgeknolden (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>109</place_id>
+      <name>Clausholm</name>
+      <display_name>Clausholm (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>350</place_id>
+      <name>Krajbj&#230;rg mark</name>
+      <display_name>Krajbj&#230;rg mark (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>383</place_id>
+      <name>L&#248;ndum</name>
+      <display_name>L&#248;ndum (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>351</place_id>
+      <name>Krannestrup</name>
+      <display_name>Krannestrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>497</place_id>
+      <name>Rosenholm</name>
+      <display_name>Rosenholm (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>408</place_id>
+      <name>M&#248;gelh&#248;je</name>
+      <display_name>M&#248;gelh&#248;je (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>48</place_id>
+      <name>Bastruph&#248;j</name>
+      <display_name>Bastruph&#248;j (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>532</place_id>
+      <name>Sk&#229;rupg&#229;rd</name>
+      <display_name>Sk&#229;rupg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>575</place_id>
+      <name>Sorte Mose</name>
+      <display_name>Sorte Mose (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>267</place_id>
+      <name>Hjortsh&#248;j</name>
+      <display_name>Hjortsh&#248;j (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>730</place_id>
+      <name>Vraa</name>
+      <display_name>Vraa (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>107</place_id>
+      <name>Bygballe</name>
+      <display_name>Bygballe (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>66</place_id>
+      <name>Boelsh&#248;j</name>
+      <display_name>Boelsh&#248;j (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>90</place_id>
+      <name>Brandstrup</name>
+      <display_name>Brandstrup (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

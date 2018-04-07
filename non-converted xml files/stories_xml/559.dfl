@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<story story_id="559">
+  <publication_info>DS_II_G_324</publication_info>
+  <full_name>440 - 0.00 - DS_II_G_324</full_name>
+  <informant_id>440</informant_id>
+  <informant_last_name>Kristiansdatter</informant_last_name>
+  <informant_first_name>Maren</informant_first_name>
+  <informant_full_name>Maren Kristiansdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>885</place_id>
+      <name>Sundstrup</name>
+      <display_name>Sundstrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>387</place_id>
+      <name>Lovns</name>
+      <display_name>Lovns (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="204">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_G_250</publication_info>
+      <full_name>241 - 4.32 - DSnr_II_G_250</full_name>
+      <url>data/stories/204.dfl</url>
+    </story>
+    <story story_id="548">
+      <informant_id>466</informant_id>
+      <publication_info>DS_II_G_323</publication_info>
+      <full_name>466 - 0.00 - DS_II_G_323</full_name>
+      <url>data/stories/548.dfl</url>
+    </story>
+    <story story_id="418">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_G356</publication_info>
+      <full_name>123 - 3.15 - DS_II_G356</full_name>
+      <url>data/stories/418.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Holger Danske sidder et sted i en h&#xF6;j. Min moder sagde, at han sad ude i en k&#xE6;mpeh&#xF6;j i Lovns sogn, og der var ogs&#xE5; mange indgange og indretninger ned til ham. Hvert &#xE5;r skal de give ham h&#xE5;nd, for han vil f&#xF8;le, om der er magt i det danske blod endnu, og s&#xE5; r&#xE6;kker de en st&#xE5;lgreb ned til ham, de t&#xF6;r jo ikke r&#xE6;kke h&#xE5;nden ned. Han skal jo op at sl&#xE5; for Danmark endnu en gang.</danish_publication>
+  <english_publication>Holger Danske sits in a mound somewhere. My mother said that he sat out in a giant mound in Lovns parish, and there were all sorts of entrances and passages down to him. Every year, they are supposed to give him their hand, because he wants to feel if there is still power in the Danish blood, and then they reach a steel pole down to him, they don't dare reach a hand down. He is supposed to come up and fight for Denmark one more time.</english_publication>
+  <keywords>
+    <keyword id="111" frequency="1" keyword="blood">blood</keyword>
+    <keyword id="300" frequency="1" keyword="danish">Danish</keyword>
+    <keyword id="323" frequency="1" keyword="denmark">denmark</keyword>
+    <keyword id="411" frequency="1" keyword="fight">fight</keyword>
+    <keyword id="465" frequency="1" keyword="giant">giant</keyword>
+    <keyword id="533" frequency="1" keyword="holger_danske">Holger Danske</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="971" frequency="1" keyword="pole">pole</keyword>
+    <keyword id="988" frequency="1" keyword="power">power</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="20" display_name="People: Strong Man / Hero"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

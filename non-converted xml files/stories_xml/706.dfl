@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<story story_id="706">
+  <publication_info>DS_VII_577</publication_info>
+  <full_name>424 - 0.00 - DS_VII_577</full_name>
+  <informant_id>424</informant_id>
+  <informant_last_name>Kalmar</informant_last_name>
+  <informant_first_name>Marie</informant_first_name>
+  <informant_full_name>Marie Kalmar</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>892</place_id>
+      <name>Tislum</name>
+      <display_name>Tislum (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="88">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_43</publication_info>
+      <full_name>150 - 3.25 - JAH_I_43</full_name>
+      <url>data/stories/88.dfl</url>
+    </story>
+    <story story_id="516">
+      <informant_id>545</informant_id>
+      <publication_info>DS_VII_588</publication_info>
+      <full_name>545 - 0.00 - DS_VII_588</full_name>
+      <url>data/stories/516.dfl</url>
+    </story>
+    <story story_id="179">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_565</publication_info>
+      <full_name>241 - 4.08 - DS_VII_565</full_name>
+      <url>data/stories/179.dfl</url>
+    </story>
+    <story story_id="499">
+      <informant_id>547</informant_id>
+      <publication_info>DS_VII_592</publication_info>
+      <full_name>547 - 0.00 - DS_VII_592</full_name>
+      <url>data/stories/499.dfl</url>
+    </story>
+    <story story_id="742">
+      <informant_id>111</informant_id>
+      <publication_info>DS_VII_576</publication_info>
+      <full_name>111 - 0.00 - DS_VII_576</full_name>
+      <url>data/stories/742.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand gik og harvede p&#xE5; marken, og en t&#xF8;s, han havde, gik ved siden af og vogtede h&#xF6;vderne. S&#xE5; kom hun til at sige, dede hun kunde nok malke af en harvet&#xE6;nd. Ja, da vilde han nok se det, s&#xE5; kunde hun malke af den r&#xF8;de ko. Hun malkede ogs&#xE5;, men s&#xE5; sagde hun, hun var r&#xE6;d for, den skulde g&#xE5; til. "Ja, det kan v&#xE6;re det samme", siger manden "Koen er min, og d&#xF8;er den, skal du ikke bryde dig om det." Hun malkede nu, s&#xE5; det pr&#xE5;sede. "Nu kommer der bl&#xF8;w", sagde hun. Siden vilde han have besked af t&#xF8;sen om, hvem der havde l&#xE6;rt hende det. Ja, det havde hendes bedstemoder.</danish_publication>
+  <english_publication>A man went and harrowed out on the field and a young girl who he had went along side and took care of the cattle. Then she happened to mention that she could milk from a harrow's tooth. Well, he'd like to see that, she could go ahead and milk from the red cow. She milked too, but then she said that she was afraid that it would die. "That doesn't matter," says the man, "The cow is mine and if dies, don't worry about it." She milked now so that it foamed. "Now blood is coming," she said. After that he wanted the girl to tell him who had taught her how to do that. Well, her grandmother had.</english_publication>
+  <keywords>
+    <keyword id="13" frequency="1" keyword="afraid">afraid</keyword>
+    <keyword id="111" frequency="1" keyword="blood">blood</keyword>
+    <keyword id="190" frequency="1" keyword="cattle">cattle</keyword>
+    <keyword id="274" frequency="2" keyword="cow">cow</keyword>
+    <keyword id="317" frequency="2" keyword="death">death</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="479" frequency="1" keyword="grandmother">grandmother</keyword>
+    <keyword id="503" frequency="2" keyword="harrow">harrow</keyword>
+    <keyword id="782" frequency="4" keyword="milk">milk</keyword>
+    <keyword id="1021" frequency="1" keyword="red">red</keyword>
+    <keyword id="1271" frequency="1" keyword="tooth">tooth</keyword>
+    <keyword id="1374" frequency="1" keyword="young">young</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

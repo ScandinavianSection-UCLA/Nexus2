@@ -1,0 +1,46 @@
+<informant><person_id>374</person_id>
+  <core_informant/>
+  <full_name>Hans Peder Hansen</full_name>
+  <last_name>Hansen</last_name>
+  <first_name>Hans Peder</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>536</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>374</informant_id>
+      <publication_info>DS_III_2256</publication_info>
+      <full_name>374 - 0.00 - DS_III_2256</full_name>
+      <url>data/stories/536.dfl</url>
+      <place_recorded><id>788</id>Halskov</place_recorded>
+      <places_mentioned>
+        <place><id>1015</id>
+          <name>Bellinge</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>788</place_id>
+      <name>Halskov</name>
+      <display_name>Halskov (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1015</place_id>
+      <name>Bellinge</name>
+      <display_name>Bellinge (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

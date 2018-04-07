@@ -1,0 +1,78 @@
+<story><story_id>89</story_id>
+  <publication_info>JAH_I_37</publication_info>
+  <full_name>150 - 3.26 - JAH_I_37</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.26</order_told>
+  <fieldtrip><id>6</id>May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>175</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_324</publication_info>
+      <full_name>241 - 4.04 - DSnr_I_324</full_name>
+      <url>data/stories/175.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4101a (1)</fielddiary_page_start>
+  <fielddiary_page_end>4101a (1)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens &#216;sterg&#229;rd's elaborate curse is the focus of this very short account.</annotation>
+  <danish_manuscript>De red &#216;gene i Skoven. Jens &#216;stergaard kom 
+hjem og kunde ikke finde &#216;gene for Drengen
+havde ikke slaaet dem l&#248;s, hvor h. havde bedt
+ham og Trude Niels stod og tarsk og [h] J. &#216;.
+var meget hidsig og kom han og raabte: Sa-
+tan skulde kn&#230;kke jer Hals i 100 tusinde 
+Stumper I Hundepandekn&#230;gte.
+</danish_manuscript>
+  <english_manuscript>They rode the nags into the woods. Jens &#214;sterg&#229;rd came home and couldn't find the nags, because the boy hadn't set them out where he'd asked him to, and Trude-Niels was out in the barn threshing, and Jens &#216;stergaard was quite worked up and he came and shouted, "Satan should break your necks into a thousand pieces, you dog-headed bastards!"</english_manuscript>
+  <danish_publication>De red &#248;gene i skoven om natten. Jens &#214;sterg&#229;rd i Ersted var en morgen g&#229;et ud at finde sine &#248;g, men drengen havde ikke sl&#229;et dem l&#248;se, hvor han havde bedt ham, og han kunde ingen &#248;g finde. Nu var Jens &#214;sterg&#229;rd meget hidsig af sig, og s&#229; kom han og r&#229;bte. Trude-Niels stod i loen og tarsk og h&#248;rte det: "Satan skulde kn&#230;kke jer hals i tusende stumper, I hundepandekn&#230;gte!"</danish_publication>
+  <english_publication>They rode the nags into the woods at night. Jens &#214;sterg&#229;rd from Ersted went out one morning to find his nag, but the boy hadn&#8217;t set them out where he&#8217;d asked them to, and he couldn&#8217;t find the nag. Now Jens &#214;sterg&#229;rd got quite worked up, and Trude-Niels, who was out in the barn threshing, heard him say, &#8220;Satan should break your necks into a thousand pieces, you dog-headed bastards!&#8221;</english_publication>
+  <keywords>
+    <keyword><id>72</id><frequency>1</frequency><keyword>barn</keyword>barn</keyword>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>343</id><frequency>1</frequency><keyword>dog</keyword>dog</keyword>
+    <keyword><id>576</id><frequency>2</frequency><keyword>jens</keyword>Jens</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>819</id><frequency>3</frequency><keyword>nag</keyword>nag</keyword>
+    <keyword><id>826</id><frequency>1</frequency><keyword>necks</keyword>necks</keyword>
+    <keyword><id>834</id><frequency>1</frequency><keyword>niels</keyword>Niels</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1030</id><frequency>1</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1068</id><frequency>1</frequency><keyword>satan</keyword>Satan</keyword>
+    <keyword><id>1257</id><frequency>1</frequency><keyword>threshing</keyword>threshing</keyword>
+    <keyword><id>1360</id><frequency>1</frequency><keyword>woods</keyword>woods</keyword>
+  </keywords>
+  <etk_index><id>31</id>
+    <heading_danish>Om fortidens landbrug</heading_danish>
+    <heading_english>Concerning earlier agricultural practices</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>25</id><display_name>Places: Barn</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

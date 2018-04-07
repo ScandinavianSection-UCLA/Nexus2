@@ -1,0 +1,86 @@
+<story><story_id>889</story_id>
+  <publication_info>DS_VII_304</publication_info>
+  <full_name>570 - 0.00 - DS_VII_304</full_name>
+  <informant_id>570</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Mads</informant_first_name>
+  <informant_full_name>Mads Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>950</place_id>
+      <name>Vester Gr&#248;nning</name>
+      <display_name>Vester Gr&#248;nning (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>660</place_id>
+      <name>Troms kirke</name>
+      <display_name>Troms kirke (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>947</place_id>
+      <name>Grinderslevkloster</name>
+      <display_name>Grinderslevkloster (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>817</story_id>
+      <informant_id>336</informant_id>
+      <publication_info>DS_VII_310</publication_info>
+      <full_name>336 - 0.00 - DS_VII_310</full_name>
+      <url>data/stories/817.dfl</url>
+    </story>
+    <story><story_id>681</story_id>
+      <informant_id>478</informant_id>
+      <publication_info>DS_VII_335</publication_info>
+      <full_name>478 - 0.00 - DS_VII_335</full_name>
+      <url>data/stories/681.dfl</url>
+    </story>
+    <story><story_id>478</story_id>
+      <informant_id>446</informant_id>
+      <publication_info>DS_VII_336</publication_info>
+      <full_name>446 - 0.00 - DS_VII_336</full_name>
+      <url>data/stories/478.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Heksene skulde samles st. Hans aften ved Breum kilde &#246;sten for Grinderslev klosterkirke ved den vej, der g&#229;r over til Langesg&#229;rd. Det var, inden de skulde af sted til Troms kirke. Der skulde de dandse, og der sad &#233;n og spilte p&#229; et gammelt hestehoved. N&#229;r de havde gode katte, kunde de ogs&#229; ride p&#229; dem der over. Derfor m&#230;rkede folkene i nabolaget altid deres katte i deres &#248;rer, for n&#229;r de var m&#230;rkede, s&#229; kunde heksene ikke tage dem.</danish_publication>
+  <english_publication>The witches are supposed to gather on St. Hans eve at Breum Spring east of the Grinderslev monastery church by the road which goes over to Langesg&#229;rd. That was before they&#8217;d go off to Troms church. They were supposed to dance there and there was one who sat and played on an old horse&#8217;s head. When they had good cats, they could also ride on them over there. Because of that, everybody in the neighborhood always marked their cats in their ears, because when the cats were marked, then the witches couldn&#8217;t take them.</english_publication>
+  <keywords>
+    <keyword><id>187</id><frequency>2</frequency><keyword>cat</keyword>cat</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>297</id><frequency>1</frequency><keyword>dancing</keyword>dancing</keyword>
+    <keyword><id>367</id><frequency>1</frequency><keyword>ear</keyword>ear</keyword>
+    <keyword><id>369</id><frequency>1</frequency><keyword>east</keyword>east</keyword>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>791</id><frequency>1</frequency><keyword>monastery</keyword>monastery</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1030</id><frequency>1</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1177</id><frequency>1</frequency><keyword>spring</keyword>spring</keyword>
+    <keyword><id>1178</id><frequency>1</frequency><keyword>st_hans</keyword>St Hans</keyword>
+    <keyword><id>1284</id><frequency>1</frequency><keyword>troms_church</keyword>Troms church</keyword>
+    <keyword><id>1351</id><frequency>2</frequency><keyword>witch</keyword>witch</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>69</id><display_name>Animals: Cat</display_name></tango_index>
+    <tango_index><id>82</id><display_name>Actions or events: Dancing</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>119</id><display_name>Time, Season, Weather: Skt. Hans</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

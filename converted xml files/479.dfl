@@ -1,0 +1,56 @@
+<story><story_id>479</story_id>
+  <publication_info>DS_IV_2018</publication_info>
+  <full_name>530 - 0.00 - DS_IV_2018</full_name>
+  <informant_id>530</informant_id>
+  <informant_last_name>Schade</informant_last_name>
+  <informant_first_name>C.</informant_first_name>
+  <informant_full_name>Provst C. Schade</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>837</place_id>
+      <name>Nykj&#248;bing, Mors</name>
+      <display_name>Nykj&#248;bing, Mors (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>135</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_424</publication_info>
+      <full_name>150 - 4.24 - Unpub_BJK_424</full_name>
+      <url>data/stories/135.dfl</url>
+    </story>
+    <story><story_id>876</story_id>
+      <informant_id>375</informant_id>
+      <publication_info>DS_IV_2016</publication_info>
+      <full_name>375 - 0.00 - DS_IV_2016</full_name>
+      <url>data/stories/876.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>For tandpine. Man skj&#230;rer en sp&#229;n af en pil, som groer p&#229; vildig grund, og stanger t&#230;nderne med, s&#230;tter sp&#229;nen igjen p&#229; sit sted og forbinder den.</danish_publication>
+  <english_publication>For toothache: You cut a sliver from a willow growing on uncultivated land and poke the teeth with it, put the sliver back and tie it up.</english_publication>
+  <keywords>
+    <keyword><id>682</id><frequency>1</frequency><keyword>land</keyword>land</keyword>
+    <keyword><id>1244</id><frequency>1</frequency><keyword>teeth</keyword>teeth</keyword>
+    <keyword><id>1261</id><frequency>1</frequency><keyword>tie</keyword>tie</keyword>
+    <keyword><id>1272</id><frequency>1</frequency><keyword>toothache</keyword>toothache</keyword>
+    <keyword><id>1344</id><frequency>1</frequency><keyword>willow</keyword>willow</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

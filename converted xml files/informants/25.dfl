@@ -1,0 +1,54 @@
+<informant><person_id>25</person_id>
+  <core_informant/>
+  <full_name>Jens Nielsen B&#230;k</full_name>
+  <last_name>B&#230;k</last_name>
+  <first_name>Jens Nielsen</first_name>
+  <gender>m</gender>
+  <birth_date>0000-00-00</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>555</story_id><secondary_informant>1</secondary_informant>
+      <informant_id>25</informant_id>
+      <publication_info>DS_II_F_71</publication_info>
+      <full_name>25 - 0.00 - DS_II_F_71*</full_name>
+      <url>data/stories/555.dfl</url>
+    </story>
+    <story><story_id>556</story_id><secondary_informant>1</secondary_informant>
+      <informant_id>25</informant_id>
+      <publication_info>DS_III_2292</publication_info>
+      <full_name>25 - 0.00 - DS_III_2292*</full_name>
+      <url>data/stories/556.dfl</url>
+    </story>
+    <story><story_id>557</story_id><secondary_informant>1</secondary_informant>
+      <informant_id>25</informant_id>
+      <publication_info>DS_V_513</publication_info>
+      <full_name>25 - 0.00 - DS_V_513*</full_name>
+      <url>data/stories/557.dfl</url>
+    </story>
+    <story><story_id>560</story_id><secondary_informant>1</secondary_informant>
+      <informant_id>25</informant_id>
+      <publication_info>DS_IV_1405</publication_info>
+      <full_name>25 - 0.00 - DS_IV_1405*</full_name>
+      <url>data/stories/560.dfl</url>
+    </story>
+    <story><story_id>714</story_id><secondary_informant>1</secondary_informant>
+      <informant_id>25</informant_id>
+      <publication_info>DS_II_A_106</publication_info>
+      <full_name>25 - 0.00 - DS_II_A_106*</full_name>
+      <url>data/stories/714.dfl</url>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+  </places>
+</informant>

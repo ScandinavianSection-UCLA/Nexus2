@@ -1,0 +1,179 @@
+<informant><person_id>348</person_id>
+  <core_informant/>
+  <full_name>Student Nikolaj Christensen</full_name>
+  <last_name>Christensen</last_name>
+  <first_name>Nikolaj</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>732</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>348</informant_id>
+      <publication_info>DS_V_1091</publication_info>
+      <full_name>348 - 0.00 - DS_V_1091</full_name>
+      <url>data/stories/732.dfl</url>
+      <place_recorded><id>1</id>Aaby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>733</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>348</informant_id>
+      <publication_info>DS_V_116</publication_info>
+      <full_name>348 - 0.00 - DS_V_116</full_name>
+      <url>data/stories/733.dfl</url>
+      <place_recorded><id>1</id>Aaby</place_recorded>
+      <places_mentioned>
+        <place><id>460</id>
+          <name>&#216;ster L&#248;gum</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>755</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1164</publication_info>
+      <full_name>348 - 0.00 - DS_I_1164</full_name>
+      <url>data/stories/755.dfl</url>
+      <place_recorded><id>1</id>Aaby</place_recorded>
+      <places_mentioned>
+        <place><id>547</id>
+          <name>Skotrup</name>
+        </place>
+        <place><id>74</id>
+          <name>B&#248;rglum kloster</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>756</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1340</publication_info>
+      <full_name>348 - 0.00 - DS_I_1340</full_name>
+      <url>data/stories/756.dfl</url>
+      <place_recorded><id>1</id>Aaby</place_recorded>
+      <places_mentioned>
+        <place><id>513</id>
+          <name>Sandalsbj&#230;rg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>757</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1414</publication_info>
+      <full_name>348 - 0.00 - DS_I_1414</full_name>
+      <url>data/stories/757.dfl</url>
+      <place_recorded><id>1</id>Aaby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>758</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_A_132</publication_info>
+      <full_name>348 - 0.00 - DS_II_A_132</full_name>
+      <url>data/stories/758.dfl</url>
+      <place_recorded><id>1</id>Aaby</place_recorded>
+      <places_mentioned>
+        <place><id>961</id>
+          <name>Hesselager</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>759</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_A_26</publication_info>
+      <full_name>348 - 0.00 - DS_II_A_26</full_name>
+      <url>data/stories/759.dfl</url>
+      <place_recorded><id>1</id>Aaby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>760</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_B_141</publication_info>
+      <full_name>348 - 0.00 - DS_II_B_141</full_name>
+      <url>data/stories/760.dfl</url>
+      <place_recorded><id>1</id>Aaby</place_recorded>
+      <places_mentioned>
+        <place><id>962</id>
+          <name>Voerg&#229;rd</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>761</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_D_99</publication_info>
+      <full_name>348 - 0.00 - DS_II_D_99</full_name>
+      <url>data/stories/761.dfl</url>
+      <place_recorded><id>1</id>Aaby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>895</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_G_94</publication_info>
+      <full_name>348 - 0.00 - DS_II_G_94</full_name>
+      <url>data/stories/895.dfl</url>
+      <place_recorded><id>1</id>Aaby</place_recorded>
+      <places_mentioned>
+        <place><id>921</id>
+          <name>Barmer</name>
+        </place>
+        <place><id>920</id>
+          <name>Sebber kloster</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>1</place_id>
+      <name>Aaby</name>
+      <display_name>Aaby (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>962</place_id>
+      <name>Voerg&#229;rd</name>
+      <display_name>Voerg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>921</place_id>
+      <name>Barmer</name>
+      <display_name>Barmer (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>920</place_id>
+      <name>Sebber kloster</name>
+      <display_name>Sebber kloster (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>961</place_id>
+      <name>Hesselager</name>
+      <display_name>Hesselager (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>513</place_id>
+      <name>Sandalsbj&#230;rg</name>
+      <display_name>Sandalsbj&#230;rg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>547</place_id>
+      <name>Skotrup</name>
+      <display_name>Skotrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>74</place_id>
+      <name>B&#248;rglum kloster</name>
+      <display_name>B&#248;rglum kloster (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>460</place_id>
+      <name>&#216;ster L&#248;gum</name>
+      <display_name>&#216;ster L&#248;gum (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

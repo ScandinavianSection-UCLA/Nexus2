@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<story story_id="696">
+  <publication_info>DS_II_A_118</publication_info>
+  <full_name>497 - 0.00 - DS_II_A_118</full_name>
+  <informant_id>497</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Maren</informant_first_name>
+  <informant_full_name>Maren Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>763</place_id>
+      <name>Dalager</name>
+      <display_name>Dalager (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="805">
+      <informant_id>357</informant_id>
+      <publication_info>DS_II_A_131</publication_info>
+      <full_name>357 - 0.00 - DS_II_A_131</full_name>
+      <url>data/stories/805.dfl</url>
+    </story>
+    <story story_id="214">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_370</publication_info>
+      <full_name>241 - 4.42 - DSnr_I_370</full_name>
+      <url>data/stories/214.dfl</url>
+    </story>
+    <story story_id="180">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_901</publication_info>
+      <full_name>241 - 4.09 - DSnr_I_901</full_name>
+      <url>data/stories/180.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I en anden g&#xE5;rd var der ogs&#xE5; mange ellefolk, som voldte megen uro. S&#xE5; en aften kom manden hjem og fortalte, at nu var han vis p&#xE5;, de nok skulde f&#xE5; ro i g&#xE5;rden, han havde set, at alle ellefolkene flyttede om i naboens g&#xE5;rd. Fra den dag af var de ogs&#xE5; fri for dem. Der, hvor de nu kom til, var en kone, som slet ikke kunde h&#xF8;re. Men om natten, n&#xE5;r andre sov, kunde hun h&#xF8;re, ellefolkene tumlede med &#xF6;lt&#xF8;nderne, for da var de ved at brygge. Da de s&#xE5; havde boet i denne g&#xE5;rd en tid lang, var det en nat, at f&#xE6;rgemanden roede over sundet uafbrudt den hele nat uden at vide, hvad han roede med og uden at kunne f&#xE5; lov at g&#xE5; i land. Han kunde m&#xE6;rke, der var noget i b&#xE5;den for hver gang, men han s&#xE5; ingen ting. Endelig, da han atter var ved den anden side, kom der &#xE9;n og satte ham en anden hat p&#xE5; hovedet, og s&#xE5; kunde han se en forf&#xE6;rdelig m&#xE6;ngde st&#xE5; p&#xE5; stranden. F&#xF8;rst nu forstod han, hvad han havde sejlet med. Der kom s&#xE5; &#xE9;n af dem og stak ham en fyldt pengepung i h&#xE5;nden, s&#xE5; f&#xE6;rgemanden fra den dag af var en rig mand. Siden hin nat har der ingen ellefolk v&#xE6;ret p&#xE5; &#xF8;en.</danish_publication>
+  <english_publication>In another farm there were also a lot of elves who caused a great deal of commotion. Then one night the man came home and said that now he knew that they&#x2019;d have peace in the farm, he had seen that the elves were moving over to his neighbor&#x2019;s farm. From that day on, they were free of them too. Then there was a woman who couldn&#x2019;t hear at all where they now were. But at night when the others slept she could hear that the elves tumbled about with the beer kegs because they were brewing at the time. Then, when they&#x2019;d lived in that farm for a long time, one night the ferryman rowed back and forth over the sound without stop without knowing what he&#x2019;d been rowing over and without being allowed to go ashore. He could feel that there was something in the boat each time, but he didn&#x2019;t see anything. Finally, when he was at the other side yet again, one came up to him and put another hat on his head, and then he could see an enormous crowd standing on the beach. Not until then did he understand what he&#x2019;d been sailing with. Then one of them came and gave him a full money bag, so the ferryman was from that day on a rich man. Since that night there haven&#x2019;t been any elves on the island.</english_publication>
+  <keywords>
+    <keyword id="19" frequency="1" keyword="allow">allow</keyword>
+    <keyword id="63" frequency="1" keyword="bags">bags</keyword>
+    <keyword id="78" frequency="1" keyword="beach">beach</keyword>
+    <keyword id="84" frequency="1" keyword="beer">beer</keyword>
+    <keyword id="116" frequency="1" keyword="boat">boat</keyword>
+    <keyword id="142" frequency="1" keyword="brewing">brewing</keyword>
+    <keyword id="284" frequency="1" keyword="crowd">crowd</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="339" frequency="1" keyword="disturbance">disturbance</keyword>
+    <keyword id="373" frequency="4" keyword="elf">elf</keyword>
+    <keyword id="394" frequency="4" keyword="farm">farm</keyword>
+    <keyword id="408" frequency="2" keyword="ferry">ferry</keyword>
+    <keyword id="443" frequency="1" keyword="free">free</keyword>
+    <keyword id="506" frequency="1" keyword="hat">hat</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="565" frequency="1" keyword="island">island</keyword>
+    <keyword id="617" frequency="1" keyword="keg">keg</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="828" frequency="1" keyword="neighbor">neighbor</keyword>
+    <keyword id="848" frequency="4" keyword="night">night</keyword>
+    <keyword id="1029" frequency="1" keyword="rich">rich</keyword>
+    <keyword id="1060" frequency="1" keyword="sailing">sailing</keyword>
+    <keyword id="1165" frequency="1" keyword="sounds">sounds</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="18" display_name="People: Sailor / Fisherman"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="39" display_name="Places: Ocean / Sea"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

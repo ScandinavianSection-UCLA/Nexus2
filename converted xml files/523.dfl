@@ -1,0 +1,59 @@
+<story><story_id>523</story_id>
+  <publication_info>DS_VI_216</publication_info>
+  <full_name>525 - 0.00 - DS_VI_216</full_name>
+  <informant_id>525</informant_id>
+  <informant_last_name>Rasmussen</informant_last_name>
+  <informant_first_name>H. V.</informant_first_name>
+  <informant_full_name>Professor H. V. Rasmussen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>187</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_191</publication_info>
+      <full_name>241 - 4.15 - DS_VI_191</full_name>
+      <url>data/stories/187.dfl</url>
+    </story>
+    <story><story_id>673</story_id>
+      <informant_id>376</informant_id>
+      <publication_info>DS_VI_240</publication_info>
+      <full_name>376 - 0.00 - DS_VI_240</full_name>
+      <url>data/stories/673.dfl</url>
+    </story>
+    <story><story_id>363</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1271</publication_info>
+      <full_name>90 - 3.09 - DS_VI_1271</full_name>
+      <url>data/stories/363.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Cyprianus kan man ikke br&#230;nde.</danish_publication>
+  <english_publication>You can't burn Cyprianus.</english_publication>
+  <keywords>
+    <keyword><id>292</id><frequency>1</frequency><keyword>cyprianus</keyword>cyprianus</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+  </keywords>
+  <etk_index><id>27</id>
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>48</id><display_name>Tools, Items and Conveyances: Books</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

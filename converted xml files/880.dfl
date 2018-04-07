@@ -1,0 +1,85 @@
+<story><story_id>880</story_id>
+  <publication_info>DS_V_43</publication_info>
+  <full_name>0 - 0.00 - DS_V_43</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>504</place_id>
+      <name>Ry</name>
+      <display_name>Ry (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>204</place_id>
+      <name>Grindslev</name>
+      <display_name>Grindslev (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>479</place_id>
+      <name>Ravnsbakke</name>
+      <display_name>Ravnsbakke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>569</story_id>
+      <informant_id>205</informant_id>
+      <publication_info>DS_V_37</publication_info>
+      <full_name>205 - 0.00 - DS_V_37</full_name>
+      <url>data/stories/569.dfl</url>
+    </story>
+    <story><story_id>835</story_id>
+      <informant_id>470</informant_id>
+      <publication_info>DS_V_39</publication_info>
+      <full_name>470 - 0.00 - DS_V_39</full_name>
+      <url>data/stories/835.dfl</url>
+    </story>
+    <story><story_id>834</story_id>
+      <informant_id>383</informant_id>
+      <publication_info>DS_V_45</publication_info>
+      <full_name>383 - 0.00 - DS_V_45</full_name>
+      <url>data/stories/834.dfl</url>
+    </story>
+    <story><story_id>564</story_id>
+      <informant_id>158</informant_id>
+      <publication_info>DS_V_47</publication_info>
+      <full_name>158 - 0.00 - DS_V_47</full_name>
+      <url>data/stories/564.dfl</url>
+    </story>
+    <story><story_id>496</story_id>
+      <informant_id>434</informant_id>
+      <publication_info>DS_V_49</publication_info>
+      <full_name>434 - 0.00 - DS_V_49</full_name>
+      <url>data/stories/496.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der g&#229;r en hovedl&#248;s so med nogle grise p&#229; Ravnsbakke i Grinderslev.</danish_publication>
+  <english_publication>There's a headless sow with some piglets that walks on Ravnsbakke in Grindslev.</english_publication>
+  <keywords>
+    <keyword><id>514</id><frequency>1</frequency><keyword>headless</keyword>headless</keyword>
+    <keyword><id>951</id><frequency>1</frequency><keyword>pig</keyword>pig</keyword>
+    <keyword><id>1170</id><frequency>1</frequency><keyword>sow</keyword>sow</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>78</id><display_name>Animals: Swine</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

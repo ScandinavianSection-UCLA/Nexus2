@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<story story_id="666">
+  <publication_info>DS_V_215</publication_info>
+  <full_name>492 - 0.00 - DS_V_215</full_name>
+  <informant_id>492</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Lars</informant_first_name>
+  <informant_full_name>Lars Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>910</place_id>
+      <name>Vinkel</name>
+      <display_name>Vinkel (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="391">
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_202</publication_info>
+      <full_name>123 - 2.17 - DS_V_202</full_name>
+      <url>data/stories/391.dfl</url>
+    </story>
+    <story story_id="582">
+      <informant_id>489</informant_id>
+      <publication_info>DS_V_1307</publication_info>
+      <full_name>489 - 0.00 - DS_V_1307</full_name>
+      <url>data/stories/582.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Den gamle Kr&#xE6;n Mejlhedes fader var en aften ude at flytte b&#xE6;sterne. Da han kom tilbage og vilde g&#xE5; tv&#xE6;rs over vejen, h&#xF8;rte han ved diget en st&#xE6;rk puslen, og s&#xE5; kom der en hovedl&#xF8;s hest med vejen, og rytteren var ogs&#xE5; hovedl&#xF8;s. Det tog efter byen til, og r&#xF8;gen stod langt &#xE6;for ud af hestens n&#xE6;se. "A str&#xE6;bte mis&#xE6;l at komme hjem, for a blev r&#xE6;d," sagde han, da han fortalte det.</danish_publication>
+  <english_publication>Old Kr&#xE6;n Mejlhede&#x2019;s father was out one night to move the animals. When he was coming back and was going to cross the road, he heard down by the wall a loud rustling and then a headless horse came along the road, and the rider was also headless. They went off towards the town, and steam came far out of the horse&#x2019;s nose. &#x201C;I hurried on home, since I got scared,&#x201D; he said when he told about it.</english_publication>
+  <keywords>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="514" frequency="1" keyword="headless">headless</keyword>
+    <keyword id="515" frequency="1" keyword="headless_horse">headless horse</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="653" frequency="1" keyword="kr&#xE6;n_mejlhede">Kr&#xE6;n Mejlhede</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="868" frequency="1" keyword="nose">nose</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1036" frequency="2" keyword="road">road</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

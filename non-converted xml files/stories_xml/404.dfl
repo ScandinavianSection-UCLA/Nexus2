@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<story story_id="404">
+  <publication_info>DS_II_C_120</publication_info>
+  <full_name>123 - 3.01 - DS_II_C_120</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.01</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="603">
+      <informant_id>536</informant_id>
+      <publication_info>DS_V_694</publication_info>
+      <full_name>536 - 0.00 - DS_V_694</full_name>
+      <url>data/stories/603.dfl</url>
+    </story>
+    <story story_id="764">
+      <informant_id>112</informant_id>
+      <publication_info>DS_II_C_104</publication_info>
+      <full_name>112 - 0.00 - DS_II_C_104</full_name>
+      <url>data/stories/764.dfl</url>
+    </story>
+    <story story_id="715">
+      <informant_id>401</informant_id>
+      <publication_info>DS_II_C_112</publication_info>
+      <full_name>401 - 0.00 - DS_II_C_112</full_name>
+      <url>data/stories/715.dfl</url>
+    </story>
+    <story story_id="768">
+      <informant_id>555</informant_id>
+      <publication_info>DS_II_C_118</publication_info>
+      <full_name>555 - 0.00 - DS_II_C_118</full_name>
+      <url>data/stories/768.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3797b</fielddiary_page_start>
+  <fielddiary_page_end>3797b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Peder's third session with Tang Kristensen begins with this description of a supernatural creature more commonly referred to as natravn or night raven. The night raven is closely related to haunts (DS  II C 104 and II C 112), and in particular, the haunts of suicides (DS II C 106). In Peder's story, there is no indication that the raven had at one point been a human. In Danske sagn, the story is situated somewhat unusually in a section with stories about a giant bird that kills a bull, a story best known from the collections of Ole Worm (DS II C 118).
+
+    The motif of ravens participating in battle might be linked to Nordic mythology (Sk&#xE1;ldskapam&#xE1;l 60), which had been made broadly available to the Danish rural populace in large part through the efforts of NFS Grundtvig, and the h&#xF8;jskole movement. 
+
+     Svend Grundtvig proposes that the word valravn is related to the word varulv or werewolf, since in his interpretation, the valravn is a person who assumes the shape of a raven (DgF II, 480). This interpretation of the valravn derives from the ballad tradition, but does not align with Peder's description here. Rather, Peder's description aligns better with one of the etymologies that Grundtvig discards, namely the Old Icelandic word valr, which means "the slain in battle" (the name of Odin's hall, Valh&#xF6;ll, hall of the battle slain, derives from valr, and offers an analogous example of compound formation with the stem val-).
+
+     The valravn appears in Danish ballad tradition (see in particular DgF 60; also DgF 61 and 62). The ballad was included in Vedel's collection and was also popular as a broadsheet (DgF II, 479). Oehlenschl&#xE4;ger also wrote a poem, Valravnen (1803), that was based on the ballad German Gladesvend (DgF 33). Given Peder's description of the creature, it is unlikely that he was aware of the ballad or Oehlenschl&#xE4;ger's poem.</annotation>
+  <danish_manuscript>Wolravne de blev af, naar de i Slaget ikke
+fik Kongen eller H&#xF8;vdingen funden og begravet
+og der saa kom Ravne og aad af ham, de blev 
+til V. og den der aad hans Hj&#xE6;rte den fik
+Mskeforstand og kunde gj&#xF8;re ondt og forvende
+Msker og var nogle skr&#xE6;kk. Dyr og havde over
+mskelig Magt.
+</danish_manuscript>
+  <english_manuscript>The Wolravens came into being if, during a battle, they didn&#x2019;t find the king or chieftain and bury him, and then ravens came and ate part of him, these would become Valravens, and the one that ate his heart got the knowledge of a human and could do evil and twist (bewitch) people and they were really frightening animals and they also had supernatural powers.</english_manuscript>
+  <danish_publication>N&#xE5;r de i et slag ikke fik kongen eller h&#xF6;vdingen funden og begravet, s&#xE5; kom der ravne og &#xE5;d af ham, og disse ravne blev til Valravne, og den, der &#xE5;d hans hj&#xE6;rte, den fik menneskeforstand og kunde gj&#xF8;re ondt og forvende mennesker og havde overmenneskelig magt, og det var nogle skr&#xE6;kkelige dyr.</danish_publication>
+  <english_publication>If during a battle they didn&#x2019;t find the king or chieftain and bury him, then ravens would come and eat part of him, and these ravens became Valravens, and the one that ate his heart got the knowledge of a human and could do evil and twist (bewitch) people and they had supernatural power and they were really frightening animals.</english_publication>
+  <keywords>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="77" frequency="1" keyword="battle">battle</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="387" frequency="1" keyword="evil">evil</keyword>
+    <keyword id="516" frequency="1" keyword="heart">heart</keyword>
+    <keyword id="624" frequency="1" keyword="king">king</keyword>
+    <keyword id="988" frequency="1" keyword="power">power</keyword>
+    <keyword id="1020" frequency="3" keyword="raven">raven</keyword>
+    <keyword id="1220" frequency="1" keyword="supernatural">supernatural</keyword>
+    <keyword id="1353" frequency="1" keyword="witchcraft">witchcraft</keyword>
+  </keywords>
+  <etk_index id="4">
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

@@ -1,0 +1,37 @@
+<informant><person_id>362</person_id>
+  <core_informant/>
+  <full_name>Hans Pedersen Fladbirk</full_name>
+  <last_name>Fladbirk</last_name>
+  <first_name>Hans Pedersen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>528</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>362</informant_id>
+      <publication_info>DS_VII_696</publication_info>
+      <full_name>362 - 0.00 - DS_VII_696</full_name>
+      <url>data/stories/528.dfl</url>
+      <place_recorded><id>875</id>S&#248;heden</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>875</place_id>
+      <name>S&#248;heden</name>
+      <display_name>S&#248;heden (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

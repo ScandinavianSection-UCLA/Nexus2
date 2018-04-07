@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<story story_id="892">
+  <publication_info>DS_VII_591</publication_info>
+  <full_name>0 - 0.00 - DS_VII_591</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>142</place_id>
+      <name>Eltang</name>
+      <display_name>Eltang (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>379</place_id>
+      <name>L&#xF8;gst&#xF8;r</name>
+      <display_name>L&#xF8;gst&#xF8;r (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>472</place_id>
+      <name>Randum</name>
+      <display_name>Randum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="179">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_565</publication_info>
+      <full_name>241 - 4.08 - DS_VII_565</full_name>
+      <url>data/stories/179.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Oves kone i Randum ved L&#xF6;gst&#xF8;r var skrap til at hekse. Hun havde en handskefinger h&#xE6;ngende over sin seng, og n&#xE5;r hun trak i den, fik hun sin spand fuld af m&#xE6;lk, men hun sagde samtidig som s&#xE5;: "Nu malker a Per Nielsens ko", og m&#xE6;lken gik s&#xE5; fra koen til hende.</danish_publication>
+  <english_publication>Ove's wife in Randum near L&#xF8;gst&#xF8;r was good at doing witchcraft. She had the finger of a glove hanging over her bed, and when she pulled on it, she got her bucket filled with milk, but she said at the same time, "Now I'm milking Per Nielsen's cow," and the milk then went from the cow to her.</english_publication>
+  <keywords>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="151" frequency="1" keyword="bucket">bucket</keyword>
+    <keyword id="274" frequency="2" keyword="cow">cow</keyword>
+    <keyword id="412" frequency="1" keyword="finger">finger</keyword>
+    <keyword id="469" frequency="1" keyword="glove">glove</keyword>
+    <keyword id="782" frequency="3" keyword="milk">milk</keyword>
+    <keyword id="940" frequency="1" keyword="per_nielsen">Per Nielsen</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+    <keyword id="1353" frequency="1" keyword="witchcraft">witchcraft</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

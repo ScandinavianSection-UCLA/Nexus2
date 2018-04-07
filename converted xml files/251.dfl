@@ -1,0 +1,50 @@
+<story><story_id>251</story_id>
+  <publication_info>Unpub_KMP_131</publication_info>
+  <full_name>235 - 1.31 - Unpub_KMP_131</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.31</order_told>
+  <fieldtrip><id>7</id>May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>312</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>JAT_III_213</publication_info>
+      <full_name>235 - 3.10 - JAT_III_213</full_name>
+      <url>data/stories/312.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5218b (2)</fielddiary_page_start>
+  <fielddiary_page_end>5218b (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This brief bit of folk speech seems to interrupt Kirsten Marie's storytelling. It might well have come after an interruption of one sort or another, since the next story continues in the vein of stories about wanderers, mendicants and gypsies. It seems unlikely that this marks the end of the first day of collecting (Tang Kristensen's first visit with Kirsten Marie broke over two days). Tang Kristensen never published this short saying, and it is unclear what exactly it means, as the word kokkene can be interpreted as cooks, roosters or penises. The last two meanings of the word make even less sense in this context than the first.</annotation>
+  <danish_manuscript>Dragonerne sagde: Vi skider paa alle Kokkene
+og dem l&#230;ngre ned.</danish_manuscript>
+  <english_manuscript>The dragoons said, we shit on all the cooks and those further down.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: The dragoons said, we shit on all the cooks and those further down.</english_publication>
+  <keywords>
+    <keyword><id>257</id><frequency>1</frequency><keyword>cooking</keyword>cooking</keyword>
+    <keyword><id>1103</id><frequency>1</frequency><keyword>shit</keyword>shit</keyword>
+  </keywords>
+  <etk_index><id>44</id>
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>19</id><display_name>People: Soldier</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>7</id><name>Saying / Proverb</name></genre>
+</story>

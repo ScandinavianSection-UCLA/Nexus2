@@ -1,0 +1,64 @@
+<story><story_id>900</story_id>
+  <publication_info>DS_V_820</publication_info>
+  <full_name>564 - 0.00 - DS_V_820</full_name>
+  <informant_id>564</informant_id>
+  <informant_last_name>Andersen</informant_last_name>
+  <informant_first_name>Hans</informant_first_name>
+  <informant_full_name>Hans Andersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>863</place_id>
+      <name>Sinding</name>
+      <display_name>Sinding (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>349</place_id>
+      <name>Kragelund</name>
+      <display_name>Kragelund (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>379</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_822</publication_info>
+      <full_name>123 - 2.05 - DS_V_822</full_name>
+      <url>data/stories/379.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Kragelund h&#230;ngte der sig for nogle &#229;r tilbage en kone i en f&#229;resti. P&#229; denne tid var der en pr&#230;st der i sognet ved navn Ermandinger. Da hun nu var bleven begravet, kom pr&#230;sten p&#229; den tanke at mane hende op for at f&#229; at vide, hvorledes hun havde det. Han gik da ud og manede hende frem, og hun kom som en sort &#229;nd op over ham. P&#229; sp&#246;rgsm&#229;let, hvorledes hun havde det, svarede hun, at hun havde det godt, n&#229;r det bare ikke var skr&#230;kken for Dommedag.
+
+C. H. Ermandinger. 1697 &#8212; 1745.   F. C. Ermandinger.   1745&#8212;1778
+</danish_publication>
+  <english_publication>Several years ago in Kragelund, a woman hung herself in a sheep pen. At that time, there was a minister in the parish named Ermandinger. After she had been buried, the minister decided that he wanted to conjure her up to find out how she was doing. So he went out and conjured her up, and she appeared like a black spirit up above him. To the question how she was doing, she answered that she was doing fine as long as it wasn&#8217;t fear of Judgment Day.
+
+C. H. Ermandinger 1697-1745. F. C. Ermandinger 1745-1778
+</english_publication>
+  <keywords>
+    <keyword><id>1</id><frequency>2</frequency><keyword>1745</keyword>1745</keyword>
+    <keyword><id>106</id><frequency>1</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>255</id><frequency>2</frequency><keyword>conjuring</keyword>conjuring</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>382</id><frequency>3</frequency><keyword>ermandinger</keyword>ermandinger</keyword>
+    <keyword><id>786</id><frequency>2</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>822</id><frequency>1</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>903</id><frequency>1</frequency><keyword>parish</keyword>parish</keyword>
+    <keyword><id>1095</id><frequency>1</frequency><keyword>sheep</keyword>sheep</keyword>
+    <keyword><id>1175</id><frequency>1</frequency><keyword>spirit</keyword>spirit</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

@@ -1,0 +1,76 @@
+<story><story_id>461</story_id>
+  <publication_info>DS_V_482</publication_info>
+  <full_name>329 - 0.00 - DS_V_482</full_name>
+  <informant_id>329</informant_id>
+  <informant_last_name>Berg</informant_last_name>
+  <informant_first_name>Ane Birgitte</informant_first_name>
+  <informant_full_name>L&#230;rerinde Ane Birgitte Berg</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>756</place_id>
+      <name>Bovlstrup</name>
+      <display_name>Bovlstrup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>531</place_id>
+      <name>Skanderborg</name>
+      <display_name>Skanderborg (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>998</place_id>
+      <name>Odder</name>
+      <display_name>Odder (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>850</story_id>
+      <informant_id>454</informant_id>
+      <publication_info>DS_V_477</publication_info>
+      <full_name>454 - 0.00 - DS_V_477</full_name>
+      <url>data/stories/850.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En r&#246;ver fra Skanderborg blev halshugget i Odder. Hovedet blev liggende p&#229; gaden og ilde medhandlet, hvorfor pr&#230;sten tog det hjem og lagde det p&#229; sit loft. Dette bevirkede imidlertid, at der kom sp&#248;geri i pr&#230;steg&#229;rden, s&#229; hver nat klokken 12 sprang alle porte og d&#246;re op. Man begravede nu hovedet; men det kom stadig tilbage igjen. En karl, som har tjent i pr&#230;steg&#229;rden, har fortalt det, og han har ogs&#229; set hovedet.</danish_publication>
+  <english_publication>A robber from Skanderborg was decapitated in Odder. The head lay in the street and was abused and, because of this, the minister took it home and put it up in his attic. The result of that, in the meanwhile, was that the parsonage became haunted, so that every night at twelve, all the doors and gates sprang open. They buried the head then; but it kept coming back. A farmhand who worked in the parsonage told that story and he had also seen the head.</english_publication>
+  <keywords>
+    <keyword><id>55</id><frequency>1</frequency><keyword>attic</keyword>attic</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>319</id><frequency>1</frequency><keyword>decapitate</keyword>decapitate</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>457</id><frequency>1</frequency><keyword>gate</keyword>gate</keyword>
+    <keyword><id>508</id><frequency>1</frequency><keyword>haunting</keyword>haunting</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>906</id><frequency>2</frequency><keyword>parsonage</keyword>parsonage</keyword>
+    <keyword><id>1037</id><frequency>1</frequency><keyword>robber</keyword>robber</keyword>
+    <keyword><id>1208</id><frequency>1</frequency><keyword>street</keyword>street</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>17</id><display_name>People: Robber / Thief</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>113</id><display_name>Time, Season, Weather: Midnight</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

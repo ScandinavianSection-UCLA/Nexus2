@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<story story_id="106">
+  <publication_info>Unpub_BJK_343</publication_info>
+  <full_name>150 - 3.43 - Unpub_BJK_343</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.43</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="105">
+      <informant_id>150</informant_id>
+      <publication_info>FK_0_551</publication_info>
+      <full_name>150 - 3.42 - FK_0_551</full_name>
+      <url>data/stories/105.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4105a</fielddiary_page_start>
+  <fielddiary_page_end>4105a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens's humor, and delight in amusing verbal juxtapositions comes through in this short, unpublished statement of the woman's response to her cow's desire. In the manuscript, the statement appears at the bottom of a page (4105a), and is not related to any of the surrounding stories. It may, however, be related in performance to the humorous statement that begins the story of the Rold minister (BJK 3.41).</annotation>
+  <danish_manuscript>Det er menneskeligt sagde Konen hendes Ko var ovsen</danish_manuscript>
+  <english_manuscript>It's human, said the woman, her cow wanted to mate.</english_manuscript>
+  <danish_publication>Unpublished.</danish_publication>
+  <english_publication>Unpublished version reads: It&#x2019;s human, said the woman, her cow wanted to mate.</english_publication>
+  <keywords>
+    <keyword id="274" frequency="1" keyword="cow">cow</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="44">
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="7" name="Saying / Proverb"/>
+</story>

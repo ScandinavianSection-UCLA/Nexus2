@@ -1,0 +1,80 @@
+<story><story_id>824</story_id>
+  <publication_info>DS_II_B_11</publication_info>
+  <full_name>69 - 0.00 - DS_II_B_11</full_name>
+  <informant_id>69</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#248;ren</informant_first_name>
+  <informant_full_name>S&#248;ren Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>870</place_id>
+      <name>Skjolde</name>
+      <display_name>Skjolde (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>410</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_B_13</publication_info>
+      <full_name>123 - 3.07 - DS_II_B_13</full_name>
+      <url>data/stories/410.dfl</url>
+    </story>
+    <story><story_id>609</story_id>
+      <informant_id>546</informant_id>
+      <publication_info>DS_II_B_4</publication_info>
+      <full_name>546 - 0.00 - DS_II_B_4</full_name>
+      <url>data/stories/609.dfl</url>
+    </story>
+    <story><story_id>717</story_id>
+      <informant_id>541</informant_id>
+      <publication_info>DS_II_B_15</publication_info>
+      <full_name>541 - 0.00 - DS_II_B_15</full_name>
+      <url>data/stories/717.dfl</url>
+    </story>
+    <story><story_id>825</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_B_18</publication_info>
+      <full_name>69 - 0.00 - DS_II_B_18</full_name>
+      <url>data/stories/825.dfl</url>
+    </story>
+    <story><story_id>734</story_id>
+      <informant_id>414</informant_id>
+      <publication_info>DS_II_B_20</publication_info>
+      <full_name>414 - 0.00 - DS_II_B_20</full_name>
+      <url>data/stories/734.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>N&#229;r man forhen vilde fange en nisse, brugtes f&#248;lgende fremgangsm&#229;de: Man gik ud i skoven for at f&#230;lde tr&#230;er. Ved lyden af et tr&#230;es fald kom &#230; nisser l&#248;bende, alt hvad de kunde, for at se, hvordan folkene bar sig ad med det, og de satte sig da ved siden af dem og snakkede med dem b&#229;de om det ene og det andet. Folk vilde den gang gj&#230;rne have en nisse i deres huse, for de vilde da gj&#230;rne fange &#233;n. N&#229;r de s&#229; kilede tr&#230;et ud, traf det s&#229; tit, at nissens lille hale kom ned i spr&#230;kken, og n&#229;r de s&#229; str&#230;bte at f&#229; kilen ud, sad halen i klemme. S&#229; var nis fangen, og p&#229; den m&#229;de fangede man mange nisser i gamle dage.</danish_publication>
+  <english_publication>When one wanted to catch a nisse, one would use the following procedure: One went out into the woods to cut down trees. With the sound of the falling tree, the nisser would come running as fast as they could to see how people managed that and they&#8217;d sit down next to them and would talk to them about both this and that. People at that time wanted to have a nisse in their house, and so they wanted to catch one. Then when they&#8217;d wedge the tree out, it often happened that the nisse&#8217;s little tail would get caught in the chink and then when they&#8217;d try to get the tail out, it would be caught. Then the nis was caught and in that way they caught a lot of nisser in the old days.</english_publication>
+  <keywords>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>548</id><frequency>1</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>855</id><frequency>1</frequency><keyword>nis</keyword>Nis</keyword>
+    <keyword><id>857</id><frequency>5</frequency><keyword>nisse</keyword>nisse</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1165</id><frequency>1</frequency><keyword>sounds</keyword>sounds</keyword>
+    <keyword><id>1239</id><frequency>2</frequency><keyword>tail</keyword>tail</keyword>
+    <keyword><id>1281</id><frequency>3</frequency><keyword>tree</keyword>tree</keyword>
+    <keyword><id>1360</id><frequency>1</frequency><keyword>woods</keyword>woods</keyword>
+  </keywords>
+  <etk_index><id>3</id>
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>65</id><display_name>Supernatural Beings: Nisse</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<story story_id="767">
+  <publication_info>DS_II_B_41</publication_info>
+  <full_name>338 - 0.00 - DS_II_B_41</full_name>
+  <informant_id>338</informant_id>
+  <informant_last_name>Bonde</informant_last_name>
+  <informant_first_name>Ole</informant_first_name>
+  <informant_full_name>Ole Bonde</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>861</place_id>
+      <name>Selsingg&#xE5;rde, Sams&#xF8;</name>
+      <display_name>Selsingg&#xE5;rde, Sams&#xF8; (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>963</place_id>
+      <name>H&#xE5;rmark</name>
+      <display_name>H&#xE5;rmark (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="688">
+      <informant_id>410</informant_id>
+      <publication_info>DS_II_B_60</publication_info>
+      <full_name>410 - 0.00 - DS_II_B_60</full_name>
+      <url>data/stories/688.dfl</url>
+    </story>
+    <story story_id="275">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_B_90</publication_info>
+      <full_name>235 - 1.55 - DS_II_B_90</full_name>
+      <url>data/stories/275.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I H&#xE5;rmark var der tidligere to g&#xE5;rde, som hver havde sin nisse. Nisserne blev godt bev&#xE6;rtede, i det der ofte blev sat et fad m&#xE6;lk op p&#xE5; st&#xE6;nget til dem, og p&#xE5; h&#xF6;jtidsaftener fik de gr&#xF8;d med en god klat sm&#xF6;r i. Nisserne var derfor ogs&#xE5; meget tjenstvillige og s&#xF6;gte p&#xE5; alle m&#xE5;der at gavne deres husbond. S&#xE5;ledes var det meget almindeligt, at de kastede neg og halm ned fra st&#xE6;nget. Stundom kunde de ogs&#xE5; for sp&#xF8;g, n&#xE5;r der kom folk ud i loen om aftenen, kaste neg i hovedet p&#xE5; dem. Undertiden kunde det ogs&#xE5; falde nisserne ind at stj&#xE6;le fra naboen. Imellem g&#xE5;rdene var en dam, og n&#xE5;r denne var tillagt med is, s&#xE5; man dem ofte g&#xE5; derover med noget, de havde nappet hos naboens. Det traf flere gange, at de efter at have v&#xE6;ret ude i samme &#xE6;rende m&#xF6;dtes p&#xE5; hjemvejen ude p&#xE5; isen, og ved s&#xE5;danne lejligheder kom det gj&#xE6;rne til s&#xE5; heftige slagsm&#xE5;l, at tyvekosterne r&#xF8;g til alle sider.</danish_publication>
+  <english_publication>In H&#xE5;rmark, there had once been two farms, each of which had a nisse. The nisser were treated well since there was often a bowl of milk set out in the hayloft for them, and on holidays they got porridge with a big pat of butter in it. Because of this, the nisser were very willing to serve and sought out all different ways to benefit their masters. Thus it was common that they tossed hay and sheaves down from the hayloft. Sometimes for a joke they would throw sheaves down on people who came into the barn at night. Sometimes, the nisser would also steal from the neighbors. Between the farms there was a pond and when that was iced over, one often saw them crossing over it with something they had swiped from the neighbor&#x2019;s. It happened many times that they had both been out on similar errands and met on the way home out on the ice and on such occasions it often turned into an incredible fight, so that the plunder was scattered about all over the place.</english_publication>
+  <keywords>
+    <keyword id="72" frequency="1" keyword="barn">barn</keyword>
+    <keyword id="128" frequency="1" keyword="bowl">bowl</keyword>
+    <keyword id="163" frequency="1" keyword="butter">butter</keyword>
+    <keyword id="383" frequency="1" keyword="errand">errand</keyword>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="411" frequency="1" keyword="fight">fight</keyword>
+    <keyword id="511" frequency="1" keyword="hay">hay</keyword>
+    <keyword id="512" frequency="2" keyword="hayloft">hayloft</keyword>
+    <keyword id="534" frequency="1" keyword="holiday">holiday</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="553" frequency="1" keyword="ice">ice</keyword>
+    <keyword id="604" frequency="1" keyword="joke">joke</keyword>
+    <keyword id="782" frequency="1" keyword="milk">milk</keyword>
+    <keyword id="828" frequency="2" keyword="neighbor">neighbor</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="857" frequency="4" keyword="nisse">nisse</keyword>
+    <keyword id="968" frequency="1" keyword="plunder">plunder</keyword>
+    <keyword id="973" frequency="1" keyword="pond">pond</keyword>
+    <keyword id="977" frequency="1" keyword="porridge">porridge</keyword>
+    <keyword id="1094" frequency="2" keyword="sheaf">sheaf</keyword>
+    <keyword id="1248" frequency="1" keyword="theft">theft</keyword>
+  </keywords>
+  <etk_index id="3">
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="65" display_name="Supernatural Beings: Nisse"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

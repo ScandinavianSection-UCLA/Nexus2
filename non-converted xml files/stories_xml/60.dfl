@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<story story_id="60">
+  <publication_info>DS_II_A_1</publication_info>
+  <full_name>150 - 2.13 - DS_II_A_1</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>2.13</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="774">
+      <informant_id>402</informant_id>
+      <publication_info>DS_I_1</publication_info>
+      <full_name>402 - 0.00 - DS_I_1</full_name>
+      <url>data/stories/774.dfl</url>
+    </story>
+    <story story_id="61">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_VI_85</publication_info>
+      <full_name>150 - 2.14 - JAH_VI_85</full_name>
+      <url>data/stories/61.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3267b</fielddiary_page_start>
+  <fielddiary_page_end>3267b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens's etiological story about the origin of the elves is inventive and idiosyncratic. The Danish word for elves, "ellefolk", could also be heard as "l" folk. Tang Kristensen splits the manuscript record into two distinct stories, publishing this first one in Danske sagn and the second part in Jyske Almueliv (2.14).</annotation>
+  <danish_manuscript>Adam havde en Kone, f&#xF8;rst hu hed Lillis, h. kunde
+flyve og hu kunde sv&#xF8;mme og naar hu bekom B&#xF8;rn
+det var en halv Snes Stykker paa Tiden og det var
+alle deher Ellefolk, de var s. bitte, lille og de fik
+det Navn efter deres Moder for det hu havde
+alle de Ler til hendes Navn. Det var en gl. 
+Mand der bildte sig ind h. var noget bibell&#xE6;st
+h. sagde til min M om h. vidste hvad Adams 
+2 Kone hed. S. bandte hu ja vidste hu s. for
+hu hed Kjedsten Moskovs. H. kjendte jo en
+Mand der hed Adam og h. havde hans 2 Kone.
+De gl. vilde have til at Vh skabte 2 Msker
+paa en G. og s. blev Herren kjed af hende
+og skabte Eva.</danish_manuscript>
+  <english_manuscript>Adam had first a wife named Lillith, she could fly and she could swim, and when she had children, it was ten at a time. It was all these little elves, and they were so tiny. They got that name from their mother, because she had all those l's in her name. There was an old man who'd convinced himself that he knew the bible well and he asked my mother if she knew the name of Adam's second wife. Then she swore and said she certainly did, she was called Kjesten Mosskovs. She knew a man who was called Adam and he had a second wife. The old ones wanted the Lord to make two people at a time, and so the Lord got tired of her and made Eve, as told in the bible.</english_manuscript>
+  <danish_publication>Adam havde f&#xF8;rst en kone, der hed Lillis, hun knude flyve, og hun kunde sv&#xF6;mme, og n&#xE5;r hun bekom b&#xF6;rn, var det en halv snes stykker p&#xE5; tiden. Det var alle deher ellefolk, og de var s&#xE5; bitte lille. De fik det navn efter deres moder, for det hun havde alle de l-er i hendes navn. De gamle vilde have til, at Vorherre skabte to mennesker p&#xE5; &#xE9;n gang, og s&#xE5; blev Herren kjed af kvinden, som hed Lillis, og skabte Eva, som det fort&#xE6;lles i Bibelen.</danish_publication>
+  <english_publication>Adam first had a wife named Lillith, she could fly and she could swim, and when she had children, it was ten at a time. It was all these little elves, and they were so tiny. They got that name from their mother because she had all those l&#x2019;s in her name. The old ones wanted the Lord to make two people at a time, and so the Lord got tired of the woman who was called Lillith and made Eve, as told in the bible.</english_publication>
+  <keywords>
+    <keyword id="10" frequency="1" keyword="adam">Adam</keyword>
+    <keyword id="94" frequency="1" keyword="bible">Bible</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="373" frequency="1" keyword="elf">elf</keyword>
+    <keyword id="425" frequency="1" keyword="flying">flying</keyword>
+    <keyword id="709" frequency="2" keyword="lillith">Lillith</keyword>
+    <keyword id="725" frequency="2" keyword="lord">lord</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="822" frequency="3" keyword="name">name</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1233" frequency="1" keyword="swimming">swimming</keyword>
+    <keyword id="1262" frequency="1" keyword="tired">tired</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="48" display_name="Tools, Items and Conveyances: Books"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

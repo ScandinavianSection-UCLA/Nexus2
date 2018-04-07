@@ -1,0 +1,95 @@
+<informant><person_id>466</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer Jens Madsen</full_name>
+  <last_name>Madsen</last_name>
+  <first_name>Jens</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>546</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>466</informant_id>
+      <publication_info>DS_II_E_108</publication_info>
+      <full_name>466 - 0.00 - DS_II_E_108</full_name>
+      <url>data/stories/546.dfl</url>
+      <place_recorded><id>767</id>Ellund</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>547</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>466</informant_id>
+      <publication_info>DS_II_F_50</publication_info>
+      <full_name>466 - 0.00 - DS_II_F_50</full_name>
+      <url>data/stories/547.dfl</url>
+      <place_recorded><id>767</id>Ellund</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>548</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>466</informant_id>
+      <publication_info>DS_II_G_323</publication_info>
+      <full_name>466 - 0.00 - DS_II_G_323</full_name>
+      <url>data/stories/548.dfl</url>
+      <place_recorded><id>767</id>Ellund</place_recorded>
+      <places_mentioned>
+        <place><id>25</id>
+          <name>Almind banker</name>
+        </place>
+        <place><id>346</id>
+          <name>Konge&#229;en</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>549</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>466</informant_id>
+      <publication_info>DS_VI_95</publication_info>
+      <full_name>466 - 0.00 - DS_VI_95</full_name>
+      <url>data/stories/549.dfl</url>
+      <place_recorded><id>767</id>Ellund</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>553</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>466</informant_id>
+      <publication_info>DS_VI_720</publication_info>
+      <full_name>466 - 0.00 - DS_VI_720</full_name>
+      <url>data/stories/553.dfl</url>
+      <place_recorded><id>767</id>Ellund</place_recorded>
+      <places_mentioned>
+        <place><id>684</id>
+          <name>Veerst</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>767</place_id>
+      <name>Ellund</name>
+      <display_name>Ellund (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>684</place_id>
+      <name>Veerst</name>
+      <display_name>Veerst (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>346</place_id>
+      <name>Konge&#229;en</name>
+      <display_name>Konge&#229;en (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>25</place_id>
+      <name>Almind banker</name>
+      <display_name>Almind banker (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

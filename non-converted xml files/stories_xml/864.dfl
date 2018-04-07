@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<story story_id="864">
+  <publication_info>DS_I_87</publication_info>
+  <full_name>0 - 0.00 - DS_I_87</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>180</place_id>
+      <name>Gadbj&#xE6;rg</name>
+      <display_name>Gadbj&#xE6;rg (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>935</place_id>
+      <name>Tyrskind</name>
+      <display_name>Tyrskind (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="132">
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_43</publication_info>
+      <full_name>150 - 4.21 - DS_I_43</full_name>
+      <url>data/stories/132.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Rongenbj&#xE6;rg i Tyrskind har min fader lagt m&#xE6;rke til nogle s&#xE6;re tilf&#xE6;lde. Flere gange, n&#xE5;r han har ligget der ude om aftenen eller tidlig om morgenen og gr&#xE6;sset med hestene, har han h&#xF8;rt kister sl&#xE5; i l&#xE5;se der inde. Med det samme har hestene sl&#xE5;et op og sprunget omkring og snoret (prustet) i t&#xF6;jrslaget. Oppe midt p&#xE5; banken grov vi mergel, og da vi kom en tre alen ind i mergelen, fandt vi en sort gang, der hverken udmundede til den ene eller den anden side, og der fandt vi en lille vedde garn i den gang. Det tykte vi var m&#xE6;rkeligt. I den banke var der udgravet store fordybninger, som Polakkerne har haft at s&#xE6;tte deres heste ind i, mens de var her.</danish_publication>
+  <english_publication>In Rongenbj&#xE6;rg in Tyrskind my father noticed some weird happenings. Many times when he had been lying out there at night or early in the morning grazing the horses, he heard chests being slammed shut inside it (the mound). Immediately, the horses would rear up and jump about and snort in their halters. Midways up the hill we dug for marl, we discovered a black corridor which didn&#x2019;t open out on either side, and we found a little ball of yarn in the corridor. We thought that that was weird. Deep holes had been dug in the mounds and the Poles had put their horses in them when they were here.</english_publication>
+  <keywords>
+    <keyword id="66" frequency="1" keyword="ball">ball</keyword>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="145" frequency="1" keyword="bridle">bridle</keyword>
+    <keyword id="215" frequency="1" keyword="chest">chest</keyword>
+    <keyword id="326" frequency="2" keyword="digging">digging</keyword>
+    <keyword id="333" frequency="1" keyword="discovery">discovery</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="484" frequency="1" keyword="grazing">grazing</keyword>
+    <keyword id="530" frequency="1" keyword="hill">hill</keyword>
+    <keyword id="545" frequency="3" keyword="horse">horse</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="971" frequency="1" keyword="pole">pole</keyword>
+    <keyword id="1369" frequency="1" keyword="yarn">yarn</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="109" display_name="Time, Season, Weather: Morning"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

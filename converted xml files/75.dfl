@@ -1,0 +1,91 @@
+<story><story_id>75</story_id>
+  <publication_info>DS_VI_1270</publication_info>
+  <full_name>150 - 3.12 - DS_VI_1270</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.12</order_told>
+  <fieldtrip><id>6</id>May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>200</place_id>
+      <name>Gravlev</name>
+      <display_name>Gravlev (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>493</place_id>
+      <name>Rold skov</name>
+      <display_name>Rold skov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>478</story_id>
+      <informant_id>446</informant_id>
+      <publication_info>DS_VII_336</publication_info>
+      <full_name>446 - 0.00 - DS_VII_336</full_name>
+      <url>data/stories/478.dfl</url>
+    </story>
+    <story><story_id>719</story_id>
+      <informant_id>541</informant_id>
+      <publication_info>DS_V_1111</publication_info>
+      <full_name>541 - 0.00 - DS_V_1111</full_name>
+      <url>data/stories/719.dfl</url>
+    </story>
+    <story><story_id>363</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1271</publication_info>
+      <full_name>90 - 3.09 - DS_VI_1271</full_name>
+      <url>data/stories/363.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4095a</fielddiary_page_start>
+  <fielddiary_page_end>4095a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Second sight is not only reserved for the physically disabled in Jens's legends. Here, the unwitting poacher gets a magical seed in his shoes and acquires second sight. In this story, he witnesses the witches churning butter, no doubt from the cream of all the cows in the parish. Numerous stories attest to the magical qualities of bregnefr&#248; [bracken seed] harvested on a liminal night, generally the night of the witches' ride to the sabbath (Valborg or St. Hans eve) (AMJ 3.09). Part of the magic resides in the fact that bracken, as ferns, do not produce seeds but rather spores. Consequently bracken seeds, a biological impossibility, would necessarily be magical.</annotation>
+  <danish_manuscript>En Krybskytte rendte en Gang her inde i Sko-
+ven, Rold Skov, og h. havde faaet noget i
+hans Sko og da h. kom ned til Katkjelde
+ved Gravlev i Kj&#230;ret, der sad Heksene 
+og kj&#230;rnede, det kunde h. se ved det h.
+havde dh. Br&#230;gnefr&#248; i hans Sko. Det
+blomsterer og b&#230;rer Fr&#248; i to Timer, og det
+var St. Hans aften. H. sk&#248;d vist nok ind
+imellem dem.</danish_manuscript>
+  <english_manuscript>At one time there was a poacher running about here in the forest, Rold forest, and he'd gotten something in his shoe. When he got down to the marsh by Katkjelde near Gravlev in the marsh, the witches were sitting there churning, he could see that, since he'd gotten this bracken seed in his shoe. They bloom and produce seed for just two hours, that was Skt. Hans eve. I suppose he shot at them.</english_manuscript>
+  <danish_publication>En krybskytte rendte en gang her inde i Rold skov, og han havde f&#229;et noget i hans sko. Da han kom ned i kj&#230;ret til Katkjelde ved Gravlev, sad heksene der og kj&#230;rnede, det kunde han se, ved det han havde f&#229;et dether bregnefr&#248; i hans sko, og han sk&#248;d vist nok ind imellem dem. De blomstrer sankt Hans aften og b&#230;re fr&#248; den samme nat blot i to timer.</danish_publication>
+  <english_publication>A poacher ran once here in Rold forest and he&#8217;d gotten something in his shoe. When he got down to the marsh by Katkjelde (Cat's well) near Gravlev, the witches were sitting there churning, he could see that, since he&#8217;d gotten this bracken seed in his shoe, and I suppose he shot at them. On Saint Hans eve they bloom and produce seed the same night for only two hours.</english_publication>
+  <keywords>
+    <keyword><id>229</id><frequency>1</frequency><keyword>churn</keyword>churn</keyword>
+    <keyword><id>438</id><frequency>1</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>496</id><frequency>1</frequency><keyword>hans</keyword>hans</keyword>
+    <keyword><id>754</id><frequency>1</frequency><keyword>marsh</keyword>marsh</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1084</id><frequency>2</frequency><keyword>seeds</keyword>seeds</keyword>
+    <keyword><id>1104</id><frequency>2</frequency><keyword>shoe</keyword>shoe</keyword>
+    <keyword><id>1106</id><frequency>1</frequency><keyword>shooting</keyword>shooting</keyword>
+    <keyword><id>1351</id><frequency>1</frequency><keyword>witch</keyword>witch</keyword>
+  </keywords>
+  <etk_index><id>28</id>
+    <heading_danish>Kloge m&#230;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>111</id><display_name>Time, Season, Weather: Evening</display_name></tango_index>
+    <tango_index><id>119</id><display_name>Time, Season, Weather: Skt. Hans</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

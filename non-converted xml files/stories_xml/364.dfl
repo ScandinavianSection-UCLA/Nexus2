@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<story story_id="364">
+  <publication_info>Unpub_AMJ_310</publication_info>
+  <full_name>90 - 3.10 - Unpub_AMJ_310</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>3.10</order_told>
+  <fieldtrip id="4">July 1894</fieldtrip>
+  <fieldtrip_start_date>1894-07-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-07-15</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="366">
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_312</publication_info>
+      <full_name>90 - 3.12 - Unpub_AMJ_312</full_name>
+      <url>data/stories/366.dfl</url>
+    </story>
+    <story story_id="368">
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_401</publication_info>
+      <full_name>90 - 4.01 - Unpub_AMJ_401</full_name>
+      <url>data/stories/368.dfl</url>
+    </story>
+    <story story_id="371">
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_404</publication_info>
+      <full_name>90 - 4.04 - Unpub_AMJ_404</full_name>
+      <url>data/stories/371.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6719a (3)</fielddiary_page_start>
+  <fielddiary_page_end>6719a (3)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The first of several outlines of biographical information that Tang Kristensen collected from Margrete.</annotation>
+  <danish_manuscript>Margrete er nu i 82de Aar og gik og tog op
+efter Medm i H&#xF8;st i 7 halve og 3 hele
+Dage og dern&#xE6;st 1 dag et andet sted i
+Kartofler og Roer i flere Dage Har 
+ikke haft sygm fra hu var 7 Aar til det
+andet Aar hu havde Influenza (78
+Aar) undtagen en g. Kolden ryst hende
+nogle faale gange. 
+</danish_manuscript>
+  <english_manuscript>Margrete is now in her 82nd year and had gone and picked up after the men during the harvest for 7 half and three whole days and then 1 day another place with potatoes and beets for several days. Hadn't been sick since she was seven years old until the time she had influenza (78 years old), except for once she had some cold shivers a few times.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: Margrete is now in her 82nd year and had gone and picked up after the men during the harvest for 7 half and three whole days and then 1 day another place with potatoes and beets for several days. Hadn&#x2019;t been sick since she was seven years old until the time she had influenza (78 years old), except for once she had some cold shivers a few times.</english_publication>
+  <keywords>
+    <keyword id="247" frequency="1" keyword="cold">cold</keyword>
+    <keyword id="306" frequency="3" keyword="day">day</keyword>
+    <keyword id="504" frequency="1" keyword="harvest">harvest</keyword>
+    <keyword id="747" frequency="1" keyword="margrete">Margrete</keyword>
+    <keyword id="873" frequency="2" keyword="old">old</keyword>
+    <keyword id="1089" frequency="1" keyword="seven">seven</keyword>
+    <keyword id="1111" frequency="1" keyword="sickness">sickness</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="44">
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

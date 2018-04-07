@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<story story_id="292">
+  <publication_info>DS_II_E_84</publication_info>
+  <full_name>235 - 2.09 - DS_II_E_84</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>2.09</order_told>
+  <fieldtrip id="10">October 1892</fieldtrip>
+  <fieldtrip_start_date>1892-10-09</fieldtrip_start_date>
+  <fieldtrip_end_date>1892-10-12</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>8</place_id>
+      <name>Aarhus</name>
+      <display_name>Aarhus (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="16">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_E_2</publication_info>
+      <full_name>150 - 1.13 - DS_II_E_2</full_name>
+      <url>data/stories/16.dfl</url>
+    </story>
+    <story story_id="389">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_20</publication_info>
+      <full_name>123 - 2.15 - DS_II_E_20</full_name>
+      <url>data/stories/389.dfl</url>
+    </story>
+    <story story_id="598">
+      <informant_id>490</informant_id>
+      <publication_info>DS_II_E_22</publication_info>
+      <full_name>490 - 0.00 - DS_II_E_22</full_name>
+      <url>data/stories/598.dfl</url>
+    </story>
+    <story story_id="735">
+      <informant_id>505</informant_id>
+      <publication_info>DS_II_E_91</publication_info>
+      <full_name>505 - 0.00 - DS_II_E_91</full_name>
+      <url>data/stories/735.dfl</url>
+    </story>
+    <story story_id="607">
+      <informant_id>399</informant_id>
+      <publication_info>DS_II_E_42</publication_info>
+      <full_name>399 - 0.00 - DS_II_E_42</full_name>
+      <url>data/stories/607.dfl</url>
+    </story>
+    <story story_id="839">
+      <informant_id>451</informant_id>
+      <publication_info>DS_II_E_48</publication_info>
+      <full_name>451 - 0.00 - DS_II_E_48</full_name>
+      <url>data/stories/839.dfl</url>
+    </story>
+    <story story_id="237">
+      <informant_id>235</informant_id>
+      <publication_info>DS_III_887</publication_info>
+      <full_name>235 - 1.18 - DS_III_887</full_name>
+      <url>data/stories/237.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5756a (1)</fielddiary_page_start>
+  <fielddiary_page_end>5756a (1)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Stories about the lindorm are widely attested in Danish tradition (DS II E 42, E 48). Supernatural threats to churches can also be read as threats to the community. The serpent that encircles the church prevents the people from using the church as a place to gather and to worship. Such an inversion of the normal social order is best counteracted by another inversion. Accordingly, the villagers raise a bull on food that makes little sense for a bull to eat. Eventually, it gains enough strength to retake the church.
+
+     The story is reminiscent of stories in which steers or oxen are used to determine the place to build a church (KMP 1.18).</annotation>
+  <danish_manuscript>Der var en Lindorm om Aarhus Domkirke.
+Den var vet at gaa helt om Kirken. S. vidste
+de aldrig hvordan de skulde faa den kv&#xE6;lt.
+De havde v&#xE6;ret efter den flere Gange, og kun
+de ikke faa Magt ved den. S. opf&#xF8;dte 
+de [den] en Tyr i 3 Aar med s&#xF8;d M&#xE6;lk og
+N&#xF8;ddehj&#xE6;rner. Den kom imod den, men
+kunde ikke staa sig. De f&#xF8;dte den op i
+3 Aar til og s. fik den Magten.
+</danish_manuscript>
+  <english_manuscript>There was a lindorm around &#xC5;rhus cathedral. It was about ready to encircle the whole church. They had no idea how they were going to kill it. They'd been after it several times but they couldn't get the upper hand. Finally they raised a bull for three years on sweet milk and nuts. It went out against it but couldn't stand up to it. Then they fed it for three more years, and then it got the upper hand.</english_manuscript>
+  <danish_publication>Der l&#xE5; en lindorm om &#xC5;rhus Domkirke, og den var tilsidst ved at g&#xE5; helt om kirken. S&#xE5; vidste de aldrig, hvordan de skulde f&#xE5; den kv&#xE6;lt. De havde nemlig v&#xE6;ret efter den flere gange og kunde ikke f&#xE5; magt med den. Endelig opf&#xF6;dte de en tyr i tre &#xE5;r med sod m&#xE6;lk og n&#xF8;dde-kj&#xE6;rner. Den kom nu imod lindormen, men kunde ikke st&#xE5; sig. S&#xE5; f&#xF8;dte de den i tre &#xE5;r til, og nu fik den magten.</danish_publication>
+  <english_publication>There was a lindorm that lay around &#xC5;rhus cathedral, and by the end it was just about ready to encircle the church completely. They&#x2019;d gone after it several times but they couldn&#x2019;t get the upper hand. Finally they raised a bull for three years on sweet milk and nuts. It went out against the lindorm but couldn&#x2019;t stand up to it. Then they fed the bull for three more years, and then it got the upper hand.</english_publication>
+  <keywords>
+    <keyword id="156" frequency="1" keyword="bull">bull</keyword>
+    <keyword id="189" frequency="1" keyword="cathedral">cathedral</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="404" frequency="1" keyword="feed">feed</keyword>
+    <keyword id="712" frequency="2" keyword="lindorm">lindorm</keyword>
+    <keyword id="782" frequency="1" keyword="milk">milk</keyword>
+    <keyword id="1256" frequency="2" keyword="three">three</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="76" display_name="Animals: Serpent / Snake"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="134" display_name="Supernatural Beings: Lindorm / Basilisk"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

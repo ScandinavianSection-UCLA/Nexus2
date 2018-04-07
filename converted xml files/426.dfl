@@ -1,0 +1,54 @@
+<informant><person_id>426</person_id>
+  <core_informant/>
+  <full_name>Jens Kjellerup</full_name>
+  <last_name>Kjellerup</last_name>
+  <first_name>Jens</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>565</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>426</informant_id>
+      <publication_info>DS_V_1376</publication_info>
+      <full_name>426 - 0.00 - DS_V_1376</full_name>
+      <url>data/stories/565.dfl</url>
+      <place_recorded><id>800</id>Hvidbj&#230;rg hede</place_recorded>
+      <places_mentioned>
+        <place><id>1023</id>
+          <name>Hostrup Hovedg&#229;rd</name>
+        </place>
+        <place><id>1024</id>
+          <name>Egebjerg</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>800</place_id>
+      <name>Hvidbj&#230;rg hede</name>
+      <display_name>Hvidbj&#230;rg hede (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1024</place_id>
+      <name>Egebjerg</name>
+      <display_name>Egebjerg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1023</place_id>
+      <name>Hostrup Hovedg&#229;rd</name>
+      <display_name>Hostrup Hovedg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

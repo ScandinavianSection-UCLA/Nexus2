@@ -1,0 +1,58 @@
+<story><story_id>877</story_id>
+  <publication_info>DS_V_1389</publication_info>
+  <full_name>0 - 0.00 - DS_V_1389</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>944</place_id>
+      <name>Hoven h&#248;jskole</name>
+      <display_name>Hoven h&#248;jskole (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>467</story_id>
+      <informant_id>432</informant_id>
+      <publication_info>DS_V_1390</publication_info>
+      <full_name>432 - 0.00 - DS_V_1390</full_name>
+      <url>data/stories/467.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En pige gik en aften med en vej. Lidt foran s&#229; hun en skikkelse g&#229;. Hun syntes, den lignede hendes kj&#230;reste, og r&#229;bte derfor, at han skulde vente, men der kom intet svar, og skikkelsen blev ved at g&#229;. Hun gik nu hurtigere, men den gik ogs&#229; hurtigere. Da r&#229;bte hun, om han ikke kunde vente, han plejede ellers nok at vente og f&#248;lge med hende. Da standsede skikkelsen, men da hun kom derhen, s&#229; hun, at det var en anden &#233;n, som spurgte, om hun kunde bede fadervor. Det gjorde hun, og skikkelsen forsvandt. Pigen blev kort efter syg og d&#248;de.</danish_publication>
+  <english_publication>A girl walked along a road one night. A little ahead of her she saw a shape walking. She thought it looked like her boyfriend, and so she yelled that he should wait, but there was no answer and the shape continued to walk. She walked faster now, but it also went faster. Then she yelled and asked him to wait, he usually waited for her and walked with her. Then the shape stopped but when she got there, she noticed it was someone else, who asked if she could say the &#8220;Our Father.&#8221; She did that, and the shape disappeared. The girl got sick shortly thereafter and died.</english_publication>
+  <keywords>
+    <keyword><id>131</id><frequency>1</frequency><keyword>boyfriend</keyword>boyfriend</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>467</id><frequency>2</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>886</id><frequency>1</frequency><keyword>our_father</keyword>Our Father</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1111</id><frequency>1</frequency><keyword>sickness</keyword>sickness</keyword>
+  </keywords>
+  <etk_index><id>24</id>
+    <heading_danish>Kvindelige gjenf&#230;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

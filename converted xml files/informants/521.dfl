@@ -1,0 +1,70 @@
+<informant><person_id>521</person_id>
+  <core_informant/>
+  <full_name>Redakt&#248;r Anders H. Poulsen</full_name>
+  <last_name>Poulsen</last_name>
+  <first_name>Anders H.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>439</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>521</informant_id>
+      <publication_info>DS_IV_691</publication_info>
+      <full_name>521 - 0.00 - DS_IV_691</full_name>
+      <url>data/stories/439.dfl</url>
+      <place_recorded><id>822</id>Lervad</place_recorded>
+      <places_mentioned>
+        <place><id>198</id>
+          <name>Gravballeg&#229;rd</name>
+        </place>
+        <place><id>207</id>
+          <name>Gr&#248;nb&#230;k</name>
+        </place>
+        <place><id>619</id>
+          <name>Svostrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>911</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>521</informant_id>
+      <publication_info>DS_II_F_90</publication_info>
+      <full_name>521 - 0.00 - DS_II_F_90</full_name>
+      <url>data/stories/911.dfl</url>
+      <place_recorded><id>822</id>Lervad</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>822</place_id>
+      <name>Lervad</name>
+      <display_name>Lervad (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>619</place_id>
+      <name>Svostrup</name>
+      <display_name>Svostrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>207</place_id>
+      <name>Gr&#248;nb&#230;k</name>
+      <display_name>Gr&#248;nb&#230;k (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>198</place_id>
+      <name>Gravballeg&#229;rd</name>
+      <display_name>Gravballeg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

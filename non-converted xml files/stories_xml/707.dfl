@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<story story_id="707">
+  <publication_info>DS_IV_1510</publication_info>
+  <full_name>332 - 0.00 - DS_IV_1510</full_name>
+  <informant_id>332</informant_id>
+  <informant_last_name>Birk</informant_last_name>
+  <informant_first_name>Marie Kirstine</informant_first_name>
+  <informant_full_name>Marie Kirstine Birk</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>422</place_id>
+      <name>Navtrup</name>
+      <display_name>Navtrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1053</place_id>
+      <name>Klode m&#xF8;lle</name>
+      <display_name>Klode m&#xF8;lle (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="832">
+      <informant_id>130</informant_id>
+      <publication_info>DS_IV_1518</publication_info>
+      <full_name>130 - 0.00 - DS_IV_1518</full_name>
+      <url>data/stories/832.dfl</url>
+    </story>
+    <story story_id="373">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1517</publication_info>
+      <full_name>123 - 1.01 - DS_IV_1517</full_name>
+      <url>data/stories/373.dfl</url>
+    </story>
+    <story story_id="708">
+      <informant_id>332</informant_id>
+      <publication_info>DS_IV_1512</publication_info>
+      <full_name>332 - 0.00 - DS_IV_1512</full_name>
+      <url>data/stories/708.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En bissekr&#xE6;mmer kom til Klode m&#xF8;lle og gik derfra og dertil og var der i flere dage. Det var et par gamle folk, der boede der. Pigen blev mist&#xE6;nkelig ved ham, da han gik og s&#xE5; alting efter, og en dag, han fik hans kniv sleben, kom de i gale tanker. Derfor passede de p&#xE5;, og konen fik en &#xF8;kse ind til sig om natten, og manden havde en kniv. En nat br&#xE6;kkede han ind til dem og vilde sl&#xE5; dem ihjel. Manden fik lige godt det, han havde godt af, men konen r&#xE5;bte p&#xE5; karlen, skj&#xF6;ndt de ingen havde, og tog s&#xE5;dan imod r&#xF6;veren, at han blev r&#xE6;d og sprang ud af en overd&#xF6;r i bryggerset. Han mistede en s&#xF8;lvknap, som blev reven af hans kjole i den skynding, og den fandt de. S&#xE5; rejste den anden mand omkring med den til kroer og s&#xE5;danne steder, hvor kr&#xE6;mmerne s&#xF8;ger til. Endelig traf han den mand, der havde de samme knapper i hans tr&#xF6;je. Han snakkede s&#xE5; til ham, om han ikke manglede en knap. Nej, han sagde nej. "Jo, lad os se, for her har a magen til dem." De andre i stuen hjalp ham at f&#xE5; seet efter, og han manglede den godt nok. S&#xE5; blev han greben og lagt p&#xE5; stejle der ude p&#xE5; heden t&#xE6;t ved kroen, hvor manden var bleven dr&#xE6;bt af ham.</danish_publication>
+  <english_publication>A peddler arrived at Klode mill and went about there and was in the area for several days. It was an elderly couple who lived there. The hired girl got suspicious of him since he wandered about and looked so closely at everything, and one day when he got his knife sharpened they started to think the worst. Therefore they kept a watch out, and the miller&#x2019;s wife had an axe nearby at night, and her husband had a knife. One night the peddler broke in and wanted to kill them. The husband got exactly what he had coming, but the wife called out for the farmhand, even though they didn&#x2019;t have one, to attack the robber so he got scared and jumped out of the upper door in the scullery. In his haste, he lost a silver button, and they found it. Then another man took it around to various inns in the area and other such places that peddlers seek out. Finally he met the man who had the same buttons on his jacket. He talked to him and asked him if he wasn&#x2019;t missing a button. No, he said, no. &#x201C;Well, well let&#x2019;s take a look, since I've got one here that matches those.&#x201D; The others in the room helped him see, and he was missing one sure enough. Then he was grabbed and put out on a rack out there on the heath near the inn where he had killed the other man.</english_publication>
+  <keywords>
+    <keyword id="53" frequency="1" keyword="attack">attack</keyword>
+    <keyword id="59" frequency="1" keyword="axe">axe</keyword>
+    <keyword id="164" frequency="2" keyword="button">button</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="517" frequency="1" keyword="heath">heath</keyword>
+    <keyword id="552" frequency="2" keyword="husband">husband</keyword>
+    <keyword id="560" frequency="2" keyword="inn">inn</keyword>
+    <keyword id="622" frequency="2" keyword="kill">kill</keyword>
+    <keyword id="623" frequency="1" keyword="killed">killed</keyword>
+    <keyword id="638" frequency="2" keyword="knife">knife</keyword>
+    <keyword id="783" frequency="1" keyword="mill">mill</keyword>
+    <keyword id="785" frequency="1" keyword="miller">miller</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="924" frequency="2" keyword="peddler">peddler</keyword>
+    <keyword id="1037" frequency="1" keyword="robber">robber</keyword>
+    <keyword id="1077" frequency="1" keyword="scullery">scullery</keyword>
+    <keyword id="1119" frequency="1" keyword="silver_button">silver button</keyword>
+    <keyword id="1225" frequency="1" keyword="suspect">suspect</keyword>
+    <keyword id="1315" frequency="1" keyword="wandering">wandering</keyword>
+    <keyword id="1343" frequency="2" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="32" display_name="Places: Heath"/>
+    <tango_index id="37" display_name="Places: Mill"/>
+    <tango_index id="52" display_name="Tools, Items and Conveyances: Tools"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

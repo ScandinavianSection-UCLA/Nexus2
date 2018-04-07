@@ -1,0 +1,12 @@
+* {
+    font-family: 'Lato', sans-serif !important;
+    margin:0;
+}
+body{
+    overflow-x:hidden;
+}
+.tab-header{
+    background-color:#0652DD;
+    color:white;
+    padding:.5%;
+}

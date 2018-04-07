@@ -1,0 +1,62 @@
+<informant><person_id>457</person_id>
+  <core_informant/>
+  <full_name>Seminarist F. P. J. Lund</full_name>
+  <last_name>Lund</last_name>
+  <first_name>F. P. J.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>511</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>457</informant_id>
+      <publication_info>DS_I_755</publication_info>
+      <full_name>457 - 0.00 - DS_I_755</full_name>
+      <url>data/stories/511.dfl</url>
+      <place_recorded><id>911</id>Vinten-Enner</place_recorded>
+      <places_mentioned>
+        <place><id>145</id>
+          <name>Enner</name>
+        </place>
+        <place><id>181</id>
+          <name>Galgebanke</name>
+        </place>
+        <place><id>627</id>
+          <name>Tamdrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>911</place_id>
+      <name>Vinten-Enner</name>
+      <display_name>Vinten-Enner (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>627</place_id>
+      <name>Tamdrup</name>
+      <display_name>Tamdrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>181</place_id>
+      <name>Galgebanke</name>
+      <display_name>Galgebanke (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>145</place_id>
+      <name>Enner</name>
+      <display_name>Enner (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,66 @@
+<story><story_id>876</story_id>
+  <publication_info>DS_IV_2016</publication_info>
+  <full_name>375 - 0.00 - DS_IV_2016</full_name>
+  <informant_id>375</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>J&#248;rgen</informant_first_name>
+  <informant_full_name>Friskolel&#230;rer J&#248;rgen Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>899</place_id>
+      <name>V&#230;rslev</name>
+      <display_name>V&#230;rslev (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1064</place_id>
+      <name>Frankerup</name>
+      <display_name>Frankerup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>479</story_id>
+      <informant_id>530</informant_id>
+      <publication_info>DS_IV_2018</publication_info>
+      <full_name>530 - 0.00 - DS_IV_2018</full_name>
+      <url>data/stories/479.dfl</url>
+    </story>
+    <story><story_id>795</story_id>
+      <informant_id>445</informant_id>
+      <publication_info>DS_IV_2015</publication_info>
+      <full_name>445 - 0.00 - DS_IV_2015</full_name>
+      <url>data/stories/795.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Den gl. Kirsten i Frankerup, Udby sogn, satte tandpine bort ved at stikke tanden med et nysl&#229;et hesteskos&#246;m og bag efter banke det i t&#248;jrep&#230;len til en hest.</danish_publication>
+  <english_publication>Old Kirsten in Frankerup, Udby parish, got rid of toothaches by poking the tooth with a newly made horseshoe nail and then banging the nail into a hitching post.</english_publication>
+  <keywords>
+    <keyword><id>68</id><frequency>1</frequency><keyword>banging</keyword>banging</keyword>
+    <keyword><id>547</id><frequency>1</frequency><keyword>horseshoe</keyword>horseshoe</keyword>
+    <keyword><id>820</id><frequency>2</frequency><keyword>nail</keyword>nail</keyword>
+    <keyword><id>878</id><frequency>1</frequency><keyword>old_kirsten</keyword>Old Kirsten</keyword>
+    <keyword><id>903</id><frequency>1</frequency><keyword>parish</keyword>parish</keyword>
+    <keyword><id>979</id><frequency>1</frequency><keyword>post</keyword>post</keyword>
+    <keyword><id>1271</id><frequency>1</frequency><keyword>tooth</keyword>tooth</keyword>
+    <keyword><id>1272</id><frequency>1</frequency><keyword>toothache</keyword>toothache</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>25</id><display_name>Places: Barn</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

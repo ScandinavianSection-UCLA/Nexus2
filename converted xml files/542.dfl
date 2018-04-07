@@ -1,0 +1,77 @@
+<story><story_id>542</story_id>
+  <publication_info>DS_VI_882</publication_info>
+  <full_name>370 - 0.00 - DS_VI_882</full_name>
+  <informant_id>370</informant_id>
+  <informant_last_name>Halkj&#230;r</informant_last_name>
+  <informant_first_name>Inger</informant_first_name>
+  <informant_full_name>Inger Halkj&#230;r</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>189</place_id>
+      <name>Gjedsted</name>
+      <display_name>Gjedsted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>189</place_id>
+      <name>Gjedsted</name>
+      <display_name>Gjedsted (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>708</place_id>
+      <name>Vindbl&#230;s</name>
+      <display_name>Vindbl&#230;s (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>260</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_IV_1839</publication_info>
+      <full_name>235 - 1.40 - DS_IV_1839</full_name>
+      <url>data/stories/260.dfl</url>
+    </story>
+    <story><story_id>261</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_VI_884</publication_info>
+      <full_name>235 - 1.41 - DS_VI_884</full_name>
+      <url>data/stories/261.dfl</url>
+    </story>
+    <story><story_id>618</story_id>
+      <informant_id>323</informant_id>
+      <publication_info>DS_VI_886</publication_info>
+      <full_name>323 - 0.00 - DS_VI_886</full_name>
+      <url>data/stories/618.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>A var nede ved den kloge kone i Vindbl&#230;s for at f&#229; nogle penge vist igjen, der var blevne henne for en mand her i Gjedsted. Men hun vilde ikke og viste mig d&#248;ren. "Ja, bitte madamme m&#229; undskylde...", begyndte a jo igjen og vilde have noget mere fremf&#248;rt. Men hun afbr&#248;d mig straks: "Nej, a vil ikke sl&#229;s med Fanden i 24 gange 2 timer for s&#229; ringe en ting. Min fader havde kanske gjort det, og a har vel de samme b&#248;ger, som min fader havde, men a vil nu ikke have med det at gj&#248;re."</danish_publication>
+  <english_publication>I was down to see the cunning woman in Vindbl&#230;s to have some coins that had gone missing for a man here in Gjedsted shown again. But she wouldn't and she showed me the door. "Well, little madam, please excuse me but..." I began again and wanted to tell her a bit more. But she interrupted me immediately, "No, I don't want to fight the devil twenty-four times for two hours each time over such a little thing. Sure my father did it, and I have the same books that my father had, but I don't want to have anything to do with that."</english_publication>
+  <keywords>
+    <keyword><id>123</id><frequency>1</frequency><keyword>books</keyword>books</keyword>
+    <keyword><id>246</id><frequency>1</frequency><keyword>coins</keyword>coins</keyword>
+    <keyword><id>286</id><frequency>1</frequency><keyword>cunning_folk</keyword>Cunning Folk</keyword>
+    <keyword><id>324</id><frequency>1</frequency><keyword>devil</keyword>devil</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>399</id><frequency>2</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>411</id><frequency>1</frequency><keyword>fight</keyword>fight</keyword>
+  </keywords>
+  <etk_index><id>28</id>
+    <heading_danish>Kloge m&#230;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

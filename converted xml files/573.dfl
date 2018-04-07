@@ -1,0 +1,77 @@
+<story><story_id>573</story_id>
+  <publication_info>DS_V_1546</publication_info>
+  <full_name>534 - 0.00 - DS_V_1546</full_name>
+  <informant_id>534</informant_id>
+  <informant_last_name>Smed</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens Smed</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>807</place_id>
+      <name>J&#230;vngryde</name>
+      <display_name>J&#230;vngryde (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>807</place_id>
+      <name>J&#230;vngryde</name>
+      <display_name>J&#230;vngryde (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>651</place_id>
+      <name>T&#248;rring</name>
+      <display_name>T&#248;rring (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>791</story_id>
+      <informant_id>382</informant_id>
+      <publication_info>DS_V_1545</publication_info>
+      <full_name>382 - 0.00 - DS_V_1545</full_name>
+      <url>data/stories/791.dfl</url>
+    </story>
+    <story><story_id>227</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1542</publication_info>
+      <full_name>235 - 1.08 - DS_V_1542</full_name>
+      <url>data/stories/227.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand fra T&#246;rring, Ras Povlsen, var til bryllup hos Jon p&#229; J&#230;vngyde mark, og da han gik hjem om natten og kom ud i Rander Krog, var der &#233;n, der gik og plovede. S&#229; m&#229;tte han til at kj&#248;re ploven for den, og blev ikke fri, inden det blev dag. Han m&#229;tte kj&#248;re hele natten. Da det dagedes, blev det henne alt sammen, og han vidste ikke, hvor det blev af. "S&#229; gik a sku hjem."</danish_publication>
+  <english_publication>A man from T&#248;rring, Ras Poulsen, was at a wedding at Jon&#8217;s out on J&#230;vngyde field, and when he went home at night and came to Rander Krog, there was someone plowing. Then he had to go and plow for it, and wasn&#8217;t free before daybreak. He had to plow all night. When day broke, all of it disappeared and he didn&#8217;t know where it had gone. &#8220;Then I went home, damn it.&#8221;</english_publication>
+  <keywords>
+    <keyword><id>306</id><frequency>2</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>443</id><frequency>1</frequency><keyword>free</keyword>free</keyword>
+    <keyword><id>537</id><frequency>2</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>605</id><frequency>1</frequency><keyword>jon</keyword>Jon</keyword>
+    <keyword><id>848</id><frequency>2</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>964</id><frequency>1</frequency><keyword>plow</keyword>plow</keyword>
+    <keyword><id>966</id><frequency>1</frequency><keyword>plowing</keyword>plowing</keyword>
+    <keyword><id>1016</id><frequency>1</frequency><keyword>ras_poulsen</keyword>Ras Poulsen</keyword>
+    <keyword><id>1327</id><frequency>1</frequency><keyword>wedding</keyword>wedding</keyword>
+  </keywords>
+  <etk_index><id>25</id>
+    <heading_danish>Gjenf&#230;rd p&#229; uretf&#230;rdig jord</heading_danish>
+    <heading_english>Revenants on ill-gotten land</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>51</id><display_name>Tools, Items and Conveyances: Plow</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

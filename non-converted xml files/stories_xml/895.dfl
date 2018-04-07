@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<story story_id="895">
+  <publication_info>DS_II_G_94</publication_info>
+  <full_name>348 - 0.00 - DS_II_G_94</full_name>
+  <informant_id>348</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Nikolaj</informant_first_name>
+  <informant_full_name>Student Nikolaj Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>1</place_id>
+      <name>Aaby</name>
+      <display_name>Aaby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>921</place_id>
+      <name>Barmer</name>
+      <display_name>Barmer (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>920</place_id>
+      <name>Sebber kloster</name>
+      <display_name>Sebber kloster (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="894">
+      <informant_id>217</informant_id>
+      <publication_info>DS_II_G_93</publication_info>
+      <full_name>217 - 0.00 - DS_II_G_93</full_name>
+      <url>data/stories/894.dfl</url>
+    </story>
+    <story story_id="285">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_G_85</publication_info>
+      <full_name>235 - 2.02 - DS_II_G_85</full_name>
+      <url>data/stories/285.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>For omtrent tredsindstyve &#xE5;r siden var det kj&#xE6;r, som nu h&#xF8;rer til Sebberkloster, et stort morads fuldt af damme og b&#xE6;kke. En morgen tidlig gik en mand fra Barmer by ad vejen til Store-Ajstrup, der nu er anneks til Sebber, men tidligere h&#xF8;rte til Lundby. Han s&#xE5; da en mand sv&#xE6;ve hen over kj&#xE6;ret, og ikke bedre manden kunde se, s&#xE5; havde han en skomagerl&#xE6;st p&#xE5; ryggen. Han r&#xF8;rte ikke ved jorden med f&#xF6;dderne, og det kunde heller ikke lade sig gj&#xF8;re, da der ikke var s&#xE5; meget t&#xF6;r plet, at en fugl kunde sidde p&#xE5;. Det var Jerusalems skomager.</danish_publication>
+  <english_publication>About sixty years ago, the marsh that now belongs to Sebberkloster (Sebber monastery) was a big morass filled with ponds and streams. Early one morning, a man walked along the road from Barmer township to Store Ajstrup which is now an annex of Sebber but used to belong to Lundby. He saw a man floating above the marsh, and as far as the man could tell, he was carrying a large load of cobbler&#x2019;s work on his back. He didn&#x2019;t touch the ground with his feet, and he couldn&#x2019;t have anyway as there wasn&#x2019;t as much as a dry spot that a bird could land on. That was the Jerusalem&#x2019;s Cobbler.</english_publication>
+  <keywords>
+    <keyword id="99" frequency="1" keyword="birds">birds</keyword>
+    <keyword id="242" frequency="2" keyword="cobbler">cobbler</keyword>
+    <keyword id="682" frequency="1" keyword="land">land</keyword>
+    <keyword id="754" frequency="2" keyword="marsh">marsh</keyword>
+    <keyword id="791" frequency="1" keyword="monastery">monastery</keyword>
+    <keyword id="800" frequency="1" keyword="morass">morass</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="973" frequency="1" keyword="pond">pond</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1196" frequency="1" keyword="store">store</keyword>
+    <keyword id="1277" frequency="1" keyword="township">township</keyword>
+    <keyword id="1361" frequency="1" keyword="work">work</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

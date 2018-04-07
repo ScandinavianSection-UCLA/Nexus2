@@ -1,0 +1,46 @@
+<informant><person_id>443</person_id>
+  <core_informant/>
+  <full_name>Maler Rasmus H. Kruse</full_name>
+  <last_name>Kruse</last_name>
+  <first_name>Rasmus H.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>803</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>443</informant_id>
+      <publication_info>DS_IV_1702</publication_info>
+      <full_name>443 - 0.00 - DS_IV_1702</full_name>
+      <url>data/stories/803.dfl</url>
+      <place_recorded><id>763</id>Dalager</place_recorded>
+      <places_mentioned>
+        <place><id>971</id>
+          <name>Roum</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>763</place_id>
+      <name>Dalager</name>
+      <display_name>Dalager (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>971</place_id>
+      <name>Roum</name>
+      <display_name>Roum (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

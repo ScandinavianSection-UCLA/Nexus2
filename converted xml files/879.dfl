@@ -1,0 +1,77 @@
+<story><story_id>879</story_id>
+  <publication_info>DS_V_421</publication_info>
+  <full_name>0 - 0.00 - DS_V_421</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>913</place_id>
+      <name>Voldby</name>
+      <display_name>Voldby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>203</place_id>
+      <name>Grenaa</name>
+      <display_name>Grenaa (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>945</place_id>
+      <name>Bavneh&#248;j-m&#248;lle</name>
+      <display_name>Bavneh&#248;j-m&#248;lle (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>744</story_id>
+      <informant_id>325</informant_id>
+      <publication_info>DS_V_433</publication_info>
+      <full_name>325 - 0.00 - DS_V_433</full_name>
+      <url>data/stories/744.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#229; Bavneh&#246;j-m&#248;llen ved Gren&#229; forsvandt karlen pludselig. Folk mente, at nogen havde sl&#229;et ham ihjel og br&#230;ndt ham op i bagerovnen. Siden sp&#246;gte det der, og kort efter solgte ejeren m&#248;llen. Den ny ejers broder var der i bes&#248;g og skulde ligge der om natten. Han v&#229;gnede ved at se to mennesker sl&#229;s ved siden af sengen. Alle d&#246;re og vinduer var sprungne op, og der blev et stort rabalder.</danish_publication>
+  <english_publication>At Bavneh&#248;j mill, the farmhand disappeared suddenly. People believed that somebody had killed him and burned his body in the baker&#8217;s oven. Since then, it was haunted there and a little later the owner sold the mill. The new owner&#8217;s brother visited there and was going to sleep there at night. He woke up to see two people fighting by the bed. All the doors and windows had sprung open and there was a huge commotion.</english_publication>
+  <keywords>
+    <keyword><id>65</id><frequency>1</frequency><keyword>baking</keyword>baking</keyword>
+    <keyword><id>83</id><frequency>1</frequency><keyword>bed</keyword>bed</keyword>
+    <keyword><id>87</id><frequency>1</frequency><keyword>belief</keyword>belief</keyword>
+    <keyword><id>118</id><frequency>1</frequency><keyword>body</keyword>body</keyword>
+    <keyword><id>148</id><frequency>1</frequency><keyword>brother</keyword>brother</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>411</id><frequency>1</frequency><keyword>fight</keyword>fight</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>508</id><frequency>1</frequency><keyword>haunting</keyword>haunting</keyword>
+    <keyword><id>622</id><frequency>1</frequency><keyword>kill</keyword>kill</keyword>
+    <keyword><id>783</id><frequency>2</frequency><keyword>mill</keyword>mill</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>890</id><frequency>1</frequency><keyword>oven</keyword>oven</keyword>
+    <keyword><id>891</id><frequency>2</frequency><keyword>owner</keyword>owner</keyword>
+    <keyword><id>1142</id><frequency>1</frequency><keyword>sleep</keyword>sleep</keyword>
+    <keyword><id>1346</id><frequency>1</frequency><keyword>window</keyword>window</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>92</id><display_name>Actions or events: Murder</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<story story_id="319">
+  <publication_info>Unpub_KMP_317</publication_info>
+  <full_name>235 - 3.17 - Unpub_KMP_317</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>3.17</order_told>
+  <fieldtrip id="3">January 1894</fieldtrip>
+  <fieldtrip_start_date>1894-01-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-02-19</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned/>
+  <fielddiary_page_start>6422b</fielddiary_page_start>
+  <fielddiary_page_end>6422b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Near the end of the session, Kirsten Marie appears to be wracking her brains for any bits of wisdom that she might not have told Tang Kristensen. Here she talks a bit about the care of animals. The thought that you might brush a horse against the direction in which its hair lies is amusing. These instructions for the care of horses were never published.</annotation>
+  <danish_manuscript>De skal strigle Hesten med L&#xF8;ben.</danish_manuscript>
+  <english_manuscript>You're supposed to brush the horse in the direction the hair lies.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: You&#x2019;re supposed to brush the horse in the direction the hair lies.</english_publication>
+  <keywords>
+    <keyword id="150" frequency="1" keyword="brush">brush</keyword>
+    <keyword id="494" frequency="1" keyword="hair">hair</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+  </keywords>
+  <etk_index id="44">
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

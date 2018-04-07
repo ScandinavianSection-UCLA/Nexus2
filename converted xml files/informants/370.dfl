@@ -1,0 +1,54 @@
+<informant><person_id>370</person_id>
+  <core_informant/>
+  <full_name>Inger Halkj&#230;r</full_name>
+  <last_name>Halkj&#230;r</last_name>
+  <first_name>Inger</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>542</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>370</informant_id>
+      <publication_info>DS_VI_882</publication_info>
+      <full_name>370 - 0.00 - DS_VI_882</full_name>
+      <url>data/stories/542.dfl</url>
+      <place_recorded><id>189</id>Gjedsted</place_recorded>
+      <places_mentioned>
+        <place><id>189</id>
+          <name>Gjedsted</name>
+        </place>
+        <place><id>708</id>
+          <name>Vindbl&#230;s</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>189</place_id>
+      <name>Gjedsted</name>
+      <display_name>Gjedsted (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>708</place_id>
+      <name>Vindbl&#230;s</name>
+      <display_name>Vindbl&#230;s (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>189</place_id>
+      <name>Gjedsted</name>
+      <display_name>Gjedsted (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<story story_id="490">
+  <publication_info>DS_IV_1391</publication_info>
+  <full_name>551 - 0.00 - DS_IV_1391</full_name>
+  <informant_id>551</informant_id>
+  <informant_last_name>Weiss</informant_last_name>
+  <informant_first_name>Christian</informant_first_name>
+  <informant_full_name>L&#xE6;rer Christian Weiss</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>890</place_id>
+      <name>Tingerup</name>
+      <display_name>Tingerup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="205">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_627</publication_info>
+      <full_name>241 - 4.33 - DSnr_I_627</full_name>
+      <url>data/stories/205.dfl</url>
+    </story>
+    <story story_id="509">
+      <informant_id>334</informant_id>
+      <publication_info>DS_IV_1400</publication_info>
+      <full_name>334 - 0.00 - DS_IV_1400</full_name>
+      <url>data/stories/509.dfl</url>
+    </story>
+    <story story_id="698">
+      <informant_id>523</informant_id>
+      <publication_info>DS_IV_1378</publication_info>
+      <full_name>523 - 0.00 - DS_IV_1378</full_name>
+      <url>data/stories/698.dfl</url>
+    </story>
+    <story story_id="574">
+      <informant_id>65</informant_id>
+      <publication_info>DS_IV_1388</publication_info>
+      <full_name>65 - 0.00 - DS_IV_1388</full_name>
+      <url>data/stories/574.dfl</url>
+    </story>
+    <story story_id="615">
+      <informant_id>57</informant_id>
+      <publication_info>DS_IV_1381</publication_info>
+      <full_name>57 - 0.00 - DS_IV_1381</full_name>
+      <url>data/stories/615.dfl</url>
+    </story>
+    <story story_id="475">
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1376</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1376</full_name>
+      <url>data/stories/475.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En karl havde en gang i hidsighed sl&#xE5;et en tjenestedreng ihjel og nedgravet ham i marken. Man savnede ham vel, men ingen havde mistanke til karlen, og der gik flere &#xE5;r. S&#xE5; traf det sig, at de havde s&#xE6;d p&#xE5; den mark, hvor den d&#xF8;de dreng var gravet ned. Da s&#xE6;den blev mejet, gik karlen forrest i r&#xE6;kken, og han huggede sin le fast i noget, der blev h&#xE6;ngende ved leen. Da han s&#xE5; til, var det en menneskeknokkel, og da han tog den af leen, fl&#xF8;d der blod ud af benet. Nu bekjendte han for de andre folk, hvad han havde gjort, og led sin straf for sin misgjerning.</danish_publication>
+  <english_publication>A farmhand once lost his temper and killed a hired boy and buried him out in the field. The boy was missed but no one had any suspicions about the farmhand and several years passed. Then it happened that they had seeded the field where the dead boy lay buried. When the seed was mowed, the farmhand was at the very front of the mowing line, and his scythe got caught in something, and it stuck to the scythe. When he looked to see what it was, it was a human bone, and when he took it off the scythe, blood bled out of the bone. Now he admitted what he had done to the other people and suffered his punishment for his misdeed.</english_publication>
+  <keywords>
+    <keyword id="11" frequency="1" keyword="admission">admission</keyword>
+    <keyword id="111" frequency="1" keyword="blood">blood</keyword>
+    <keyword id="121" frequency="2" keyword="bones">bones</keyword>
+    <keyword id="130" frequency="2" keyword="boy">boy</keyword>
+    <keyword id="158" frequency="2" keyword="burial">burial</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="395" frequency="3" keyword="farm_hand">farmhand</keyword>
+    <keyword id="410" frequency="2" keyword="field">field</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="1004" frequency="1" keyword="punishment">punishment</keyword>
+    <keyword id="1078" frequency="3" keyword="scythe">scythe</keyword>
+    <keyword id="1084" frequency="1" keyword="seeds">seeds</keyword>
+    <keyword id="1225" frequency="1" keyword="suspect">suspect</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,54 @@
+<informant><person_id>551</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer Christian Weiss</full_name>
+  <last_name>Weiss</last_name>
+  <first_name>Christian</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>489</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>551</informant_id>
+      <publication_info>DS_V_1484</publication_info>
+      <full_name>551 - 0.00 - DS_V_1484</full_name>
+      <url>data/stories/489.dfl</url>
+      <place_recorded><id>890</id>Tingerup</place_recorded>
+      <places_mentioned>
+        <place><id>1007</id>
+          <name>Gisselfeld</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>490</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>551</informant_id>
+      <publication_info>DS_IV_1391</publication_info>
+      <full_name>551 - 0.00 - DS_IV_1391</full_name>
+      <url>data/stories/490.dfl</url>
+      <place_recorded><id>890</id>Tingerup</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>890</place_id>
+      <name>Tingerup</name>
+      <display_name>Tingerup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1007</place_id>
+      <name>Gisselfeld</name>
+      <display_name>Gisselfeld (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

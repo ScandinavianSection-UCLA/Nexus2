@@ -1,0 +1,48 @@
+<informant><person_id>567</person_id>
+  <core_informant/>
+  <full_name>Kristian Kristensen Norge</full_name>
+  <last_name>Kristensen Norge</last_name>
+  <first_name>Kristian</first_name>
+  <gender>m</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations>
+    <occupation><occupation_id>33</occupation_id>husmand</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>906</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>567</informant_id>
+      <publication_info>JAH_II_255</publication_info>
+      <full_name>567 - 0.00 - JAH_II_255</full_name>
+      <url>data/stories/906.dfl</url>
+      <place_recorded><id>928</id>G&#248;ttrup</place_recorded>
+      <places_mentioned>
+        <place><id>992</id>
+          <name>Aggersborgg&#229;rd</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>928</place_id>
+      <name>G&#248;ttrup</name>
+      <display_name>G&#248;ttrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>992</place_id>
+      <name>Aggersborgg&#229;rd</name>
+      <display_name>Aggersborgg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

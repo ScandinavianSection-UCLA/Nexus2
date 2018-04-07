@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<story story_id="309">
+  <publication_info>JAT_IV_212</publication_info>
+  <full_name>235 - 3.07 - JAT_IV_212</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>3.07</order_told>
+  <fieldtrip id="3">January 1894</fieldtrip>
+  <fieldtrip_start_date>1894-01-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-02-19</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="290">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_574</publication_info>
+      <full_name>235 - 2.07 - JAH_V_574</full_name>
+      <url>data/stories/290.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6421a</fielddiary_page_start>
+  <fielddiary_page_end>6421a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The foods served at this particular banquet would be considered unusual since they constitute everyday fare and not particularly exciting everyday fare at that. In this case, the poor food makes the celebration memorable. 
+
+      Kirsten Marie had previously told a story about another banquet that was memorable, in that case because the hosts should not have been able to afford such an elaborate celebration (KMP 2.07). In both cases, she emphasizes the violation of expectations.
+
+     In the published version, Tang Kristensen separated these descriptions and, in so doing, erased the continuity of the descriptions and the clear sense of expectations for banquets.</annotation>
+  <danish_manuscript>Til et stort Barselgilde
+fik de ikke andet end Velling (Boghvede)
+og Fisk det f&#xF8;rste a kan huske.
+</danish_manuscript>
+  <english_manuscript>At one big birth celebration, they weren't served anything but (buckwheat) gruel and fish as far as I can remember.</english_manuscript>
+  <danish_publication>Til et stort barselgilde fik de ikke andet end v&#xE6;lling (boghvede-) og fisk det f&#xF6;rste a kan huske.</danish_publication>
+  <english_publication>At one big birth celebration, they weren&#x2019;t served anything but (buckwheat) gruel and fish as far as I can remember.</english_publication>
+  <keywords>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="153" frequency="1" keyword="buckwheat">buckwheat</keyword>
+    <keyword id="194" frequency="1" keyword="celebration">celebration</keyword>
+    <keyword id="416" frequency="1" keyword="fishing">fishing</keyword>
+  </keywords>
+  <etk_index id="34">
+    <heading_danish>De selskabelige sammenkomster og festerne</heading_danish>
+    <heading_english>Social gatherings and parties</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="86" display_name="Actions or events: Feast / Celebration"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

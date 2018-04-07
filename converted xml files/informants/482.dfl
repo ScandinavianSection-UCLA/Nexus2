@@ -1,0 +1,46 @@
+<informant><person_id>482</person_id>
+  <core_informant/>
+  <full_name>Fru Signe Christensen M&#248;ller</full_name>
+  <last_name>M&#248;ller</last_name>
+  <first_name>Signe Christensen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>816</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>482</informant_id>
+      <publication_info>DS_VI_1078</publication_info>
+      <full_name>482 - 0.00 - DS_VI_1078</full_name>
+      <url>data/stories/816.dfl</url>
+      <place_recorded><id>762</id>Charlottenlund</place_recorded>
+      <places_mentioned>
+        <place><id>575</id>
+          <name>Sorte Mose</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>762</place_id>
+      <name>Charlottenlund</name>
+      <display_name>Charlottenlund (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>575</place_id>
+      <name>Sorte Mose</name>
+      <display_name>Sorte Mose (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

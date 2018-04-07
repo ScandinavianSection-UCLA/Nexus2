@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="478">
+  <publication_info>DS_VII_336</publication_info>
+  <full_name>446 - 0.00 - DS_VII_336</full_name>
+  <informant_id>446</informant_id>
+  <informant_last_name>Larsen</informant_last_name>
+  <informant_first_name>C. M.</informant_first_name>
+  <informant_full_name>L&#xE6;rer C. M. Larsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>839</place_id>
+      <name>Ommel, &#xC6;r&#xF8;</name>
+      <display_name>Ommel, &#xC6;r&#xF8; (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="58">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_447</publication_info>
+      <full_name>150 - 2.11 - DS_VII_447</full_name>
+      <url>data/stories/58.dfl</url>
+    </story>
+    <story story_id="889">
+      <informant_id>570</informant_id>
+      <publication_info>DS_VII_304</publication_info>
+      <full_name>570 - 0.00 - DS_VII_304</full_name>
+      <url>data/stories/889.dfl</url>
+    </story>
+    <story story_id="681">
+      <informant_id>478</informant_id>
+      <publication_info>DS_VII_335</publication_info>
+      <full_name>478 - 0.00 - DS_VII_335</full_name>
+      <url>data/stories/681.dfl</url>
+    </story>
+    <story story_id="817">
+      <informant_id>336</informant_id>
+      <publication_info>DS_VII_310</publication_info>
+      <full_name>336 - 0.00 - DS_VII_310</full_name>
+      <url>data/stories/817.dfl</url>
+    </story>
+    <story story_id="645">
+      <informant_id>453</informant_id>
+      <publication_info>DS_VII_435</publication_info>
+      <full_name>453 - 0.00 - DS_VII_435</full_name>
+      <url>data/stories/645.dfl</url>
+    </story>
+    <story story_id="131">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_292</publication_info>
+      <full_name>150 - 4.20 - DS_VII_292</full_name>
+      <url>data/stories/131.dfl</url>
+    </story>
+    <story story_id="75">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_1270</publication_info>
+      <full_name>150 - 3.12 - DS_VI_1270</full_name>
+      <url>data/stories/75.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Heksene rider til Bloksbj&#xE6;rg Midsommeraften.</danish_publication>
+  <english_publication>The witches ride to Bloksbj&#xE6;rg on Midsummer night.</english_publication>
+  <keywords>
+    <keyword id="777" frequency="1" keyword="midsummer">midsummer</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1353" frequency="1" keyword="witchcraft">witchcraft</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="119" display_name="Time, Season, Weather: Skt. Hans"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

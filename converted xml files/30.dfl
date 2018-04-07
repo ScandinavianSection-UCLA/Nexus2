@@ -1,0 +1,90 @@
+<story><story_id>30</story_id>
+  <publication_info>DS_IV_149</publication_info>
+  <full_name>150 - 1.27 - DS_IV_149</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.27</order_told>
+  <fieldtrip><id>1</id>Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>28</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_IV_149</publication_info>
+      <full_name>150 - 1.25 - DS_IV_149</full_name>
+      <url>data/stories/28.dfl</url>
+    </story>
+    <story><story_id>29</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_IV_627</publication_info>
+      <full_name>150 - 1.26 - DS_IV_627</full_name>
+      <url>data/stories/29.dfl</url>
+    </story>
+    <story><story_id>677</story_id>
+      <informant_id>496</informant_id>
+      <publication_info>DS_IV_146</publication_info>
+      <full_name>496 - 0.00 - DS_IV_146</full_name>
+      <url>data/stories/677.dfl</url>
+    </story>
+    <story><story_id>872</story_id>
+      <informant_id/>
+      <publication_info>DS_IV_151</publication_info>
+      <full_name>0 - 0.00 - DS_IV_151</full_name>
+      <url>data/stories/872.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3248a</fielddiary_page_start>
+  <fielddiary_page_end>3248b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens returns to his story of Margrethe's siege of the robbers at Stubberuphus and her clever ruse that leads to their capture (BJK 1.25). Mylius's manipulation of the lands allocated to the local farms allows him to quickly become a large landholder but, along with his poor treatment of his copyholders, it consigns him to becoming a guilty haunt (BJK 1.26).
+     
+     Small lines separate this and the previous two records from each other in the manuscript.</annotation>
+  <danish_manuscript>Dr. Margrete laa s. l&#230;nge med hendes Kavalleri
+og Artill. Kommen med at de skulde vende Skoene
+avet paa deres Heste, Hagerne til frem. R&#248;-
+verne turde ikke hjem, da de havde nu skudt
+Stubberuphus ned. Men s. kunde de se de var
+
+3248B
+reden derfra og s. red de frisk ind. Blev s. skudt
+ned. Omkr. Egh. og Stub. har der v&#230;ret store
+Grave. Dg. Mylius fik fat i deher Grde lod
+h. indf&#248;re i Papirerne, dede dersom der var noget
+af deres Ejendom der laa ham til Hinder
+maatte h. have lov til at tage det. S. tog h.
+Engene og gav dem noget Hedev&#230;rkeri for dem.
+De gl. F&#230;stere havde ogsaa Lov til at gr&#230;sse deres
+Kreaturer i Skoven. Men det blev dem for-
+b&#248;jen. Sk. skulde v&#230;re i Hegne. Da de gl. F&#230;-
+stere s. var udd&#248;de tog h. alle Engene fra dem.
+og s. blev gr&#248;ftede og vandede. H. vilde have haft
+det hele skulde have v&#230;ret en stor Herrem&#230;nd
+og smaa Arbejdsfolk.</danish_manuscript>
+  <english_manuscript>Queen Margaret stayed for a long time with her cavalry and artillery. Finally they decided to turn the shoes on their horses, with the heels toward the front. The robbers didn't dare go home now that they'd blown up Stubberuphus. But now they could see that they'd ridden away from there, and so they rode quickly in and then they were shot. Around Egholm and Stubberup there were big moats. When Mylius got hold of these farms, he included in the papers a clause that allowed him to take possession of any of their property that hindered him. Then he took the meadows and gave them heath instead. The old copyholders also had permission to graze their animals in the woods, but he forbade them that as well. The woods were to be fenced in. When the old copyholders had died off, he took all the meadows from them, and then he dug drainage ditches and irrigated them. He wanted it all to be one big manor lord and a lot of small workers.</english_manuscript>
+  <danish_publication>See BJK 1.25</danish_publication>
+  <english_publication>See BJK 1.25</english_publication>
+  <keywords/>
+  <etk_index><id>16</id>
+    <heading_danish>Sm&#229;konger og deres fejder. Konger. Fjenders indfald</heading_danish>
+    <heading_english>Small kings and their feuds. Kings. Enemy invasions</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>17</id><display_name>People: Robber / Thief</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

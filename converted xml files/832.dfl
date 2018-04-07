@@ -1,0 +1,98 @@
+<story><story_id>832</story_id>
+  <publication_info>DS_IV_1518</publication_info>
+  <full_name>130 - 0.00 - DS_IV_1518</full_name>
+  <informant_id>130</informant_id>
+  <informant_last_name>J&#248;rgensen</informant_last_name>
+  <informant_first_name>S&#248;ren</informant_first_name>
+  <informant_full_name>S&#248;ren J&#248;rgensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>22</place_id>
+      <name>Alken</name>
+      <display_name>Alken (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>309</place_id>
+      <name>Illerup</name>
+      <display_name>Illerup (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>253</place_id>
+      <name>Hemstok</name>
+      <display_name>Hemstok (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>373</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1517</publication_info>
+      <full_name>123 - 1.01 - DS_IV_1517</full_name>
+      <url>data/stories/373.dfl</url>
+    </story>
+    <story><story_id>707</story_id>
+      <informant_id>332</informant_id>
+      <publication_info>DS_IV_1510</publication_info>
+      <full_name>332 - 0.00 - DS_IV_1510</full_name>
+      <url>data/stories/707.dfl</url>
+    </story>
+    <story><story_id>708</story_id>
+      <informant_id>332</informant_id>
+      <publication_info>DS_IV_1512</publication_info>
+      <full_name>332 - 0.00 - DS_IV_1512</full_name>
+      <url>data/stories/708.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#229; Illerup mark op efter Hemstok har ligget en g&#229;rd der kaldtes Hjelmslev, og efter den har hele herredet navn, for det skal v&#230;re midtpunktet i det. Manden p&#229; den g&#229;rd hed Hjelm. Der er ingen g&#229;rd nu, men kun en kjelde. Til den g&#229;rd kom en s&#248;ndag eftermiddag en pottemand kj&#248;rende. Folkene var g&#229;ede til kirke. Han f&#229;r lov at blive der og f&#229;r hans b&#230;ster sat p&#229; gr&#230;s. Vognen stod ved siden p&#229; en dam, og da det blev aften, m&#230;rkede folkene, te pottemanden gik til vognen og snakkede s&#229; stille. S&#229; kom de i tanker om, hvad det var for folk. Den tid han var s&#229; g&#229;et til leje, gik de ud og v&#230;ltede vognen ned i dammen, og s&#229; druknede r&#246;verne. A har v&#230;ret ved den kjelde &#233;n gang, og der var et hus lidt derfra, som kaldtes Hjelmslev-huset. </danish_publication>
+  <english_publication>There used to be a farm called Hjelmslev on Illerup field up near Hemstok and that&#8217;s where the whole district gets its name, since it's supposed to be the center of it. The man at the farm was called Hjelm. There&#8217;s no farm now, just a well. One Sunday afternoon a potter came driving by there. The people had gone to church. He&#8217;s allowed to stay there, and he let his horses out to graze. The wagon stood next to a pond and when it got to be evening, the people noticed that the potter went over to the wagon and spoke quietly. Then they realized what kind of a person he was. Then when he had gone off to bed, they went out and tipped the wagon out into the pond and then the robbers drowned. I&#8217;ve been to that spring once, and there was a house not too far from there which was called the Hjelmslev house.</english_publication>
+  <keywords>
+    <keyword><id>14</id><frequency>1</frequency><keyword>afternoon</keyword>afternoon</keyword>
+    <keyword><id>19</id><frequency>1</frequency><keyword>allow</keyword>allow</keyword>
+    <keyword><id>83</id><frequency>1</frequency><keyword>bed</keyword>bed</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>336</id><frequency>1</frequency><keyword>district</keyword>district</keyword>
+    <keyword><id>358</id><frequency>1</frequency><keyword>drowning</keyword>drowning</keyword>
+    <keyword><id>386</id><frequency>1</frequency><keyword>evening</keyword>evening</keyword>
+    <keyword><id>394</id><frequency>3</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>484</id><frequency>1</frequency><keyword>grazing</keyword>grazing</keyword>
+    <keyword><id>531</id><frequency>2</frequency><keyword>hjelmslev</keyword>hjelmslev</keyword>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>548</id><frequency>2</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>822</id><frequency>1</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>973</id><frequency>2</frequency><keyword>pond</keyword>pond</keyword>
+    <keyword><id>981</id><frequency>2</frequency><keyword>pot</keyword>pot</keyword>
+    <keyword><id>1037</id><frequency>1</frequency><keyword>robber</keyword>robber</keyword>
+    <keyword><id>1177</id><frequency>2</frequency><keyword>spring</keyword>spring</keyword>
+    <keyword><id>1218</id><frequency>1</frequency><keyword>sunday</keyword>Sunday</keyword>
+    <keyword><id>1311</id><frequency>3</frequency><keyword>wagon</keyword>wagon</keyword>
+  </keywords>
+  <etk_index><id>20</id>
+    <heading_danish>R&#248;vere, drabsm&#230;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>21</id><display_name>People: Wanderer</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>40</id><display_name>Places: Pond / Lake</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>85</id><display_name>Actions or events: Drowning</display_name></tango_index>
+    <tango_index><id>102</id><display_name>Time, Season, Weather: Sunday</display_name></tango_index>
+    <tango_index><id>110</id><display_name>Time, Season, Weather: Noon</display_name></tango_index>
+    <tango_index><id>111</id><display_name>Time, Season, Weather: Evening</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<story story_id="208">
+  <publication_info>DSnr_IV_880</publication_info>
+  <full_name>241 - 4.36 - DSnr_IV_880</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>4.36</order_told>
+  <fieldtrip id="8">May-June 1898</fieldtrip>
+  <fieldtrip_start_date>1898-05-23</fieldtrip_start_date>
+  <fieldtrip_end_date>1898-06-08</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>307</place_id>
+      <name>Ilbj&#xE6;rge-bro</name>
+      <display_name>Ilbj&#xE6;rge-bro (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="161">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_E_105</publication_info>
+      <full_name>241 - 2.11 - DSnr_II_E_105</full_name>
+      <url>data/stories/161.dfl</url>
+    </story>
+    <story story_id="162">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1605</publication_info>
+      <full_name>241 - 2.12 - DS_IV_1605</full_name>
+      <url>data/stories/162.dfl</url>
+    </story>
+    <story story_id="577">
+      <informant_id>65</informant_id>
+      <publication_info>DS_V_900</publication_info>
+      <full_name>65 - 0.00 - DS_V_900</full_name>
+      <url>data/stories/577.dfl</url>
+    </story>
+    <story story_id="850">
+      <informant_id>454</informant_id>
+      <publication_info>DS_V_477</publication_info>
+      <full_name>454 - 0.00 - DS_V_477</full_name>
+      <url>data/stories/850.dfl</url>
+    </story>
+    <story story_id="146">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_146</publication_info>
+      <full_name>241 - 1.05 - DS_VII_146</full_name>
+      <url>data/stories/146.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7818b</fielddiary_page_start>
+  <fielddiary_page_end>7819a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>In this elaborate variant of a story that Jens Peter had told previously (JPP 2.11), Jens Peter links the events at the inn to Skytte-Kr&#xE6;n, who appears in some of Jens Peter's other stories (JPP 1.05). 
+
+     Tang Kristensen published only part of this story, omitting the story of the basilisk. The story of the basilisk is also a variant of another story Jens Peter had told previously (JPP 2.11).</annotation>
+  <danish_manuscript>Der skal have v&#xE6;ret Kro i &#xE6;ldre
+Tid i det Hus, der ligger lidt &#xF8;sten
+for Il[bj&#xE6;rge] bro ved s&#xF8;ndre Side
+af Ugilt vejen og der boede en 
+de kaldte Skyt Kr&#xE6;n. H. skal have
+v&#xE6;ret noget hegsevorn og der gik
+Sagn om at h. havde taget Livet
+[Lig] af et Mske. De fandt et helt
+Skelet af en og hoved af to i
+Haven. De havde en G. en T&#xF8;nde
+Mj&#xF8;d der blev for gl. og der blev
+en Tingesten i det Mj&#xF8;d de kaldte
+
+7819A
+en Basilisk. Den slog da i T&#xF8;nden 
+s. de var bange for den skulde gaa
+i Stykk. Den skulde v&#xE6;re s. farlig
+at dersom den slog T&#xF8;nden i Stykk
+og den saa et Msk f&#xF8;rst, den d&#xF8;de.
+Men s fik de den kj&#xF8;rt ud og fik
+et stort Hul kastet og fik den be-
+gravet i Spanger hede Brin-
+ker. De kunde h&#xF8;re den banke 
+der nede i T&#xF8;nden i l&#xE6;ngere Tid
+snart et helt Aar og s. blev det
+underlig stille. S. var det af med
+Livet det Skidt.</danish_manuscript>
+  <english_manuscript>There's supposed to have been an inn in the house that's a little east of Il[bj&#xE6;rge] Bro on the southern side of the Ugilt road, and there lived one who was called Skytte-Kr&#xE6;n. He was supposed to have been a bit given to witchcraft, and there's a legend that he'd killed someone. They found an entire skeleton of one person and the heads of two out in the yard. They once had a cask of mead that had gotten too old and a thingamajig they called a basilisk grew in the mead. It thrashed about so much in the barrel that they were afraid it was going to break. It was supposed to be so dangerous that, as soon as it broke the barrel and it saw a person first, they would die. But they drove it out and dug a big hole and buried it in an embankment at Spangerhede. They could hear it knocking about down in the barrel for a long time, almost a whole year and then it got strangely quiet. Then that shit was dead.</english_manuscript>
+  <danish_publication>Der skal i &#xE6;ldre Tid have v&#xE6;ret Kro i det Hus, der ligger lidt &#xF8;sten for Il-Bro ved s&#xF8;ndre Side af Ugilt-Vejen, og der boede &#xE9;n, de kaldte Skytte-Kr&#xE6;n. Han skal have v&#xE6;ret noget heksevorn, og der gik Sagn om, at han havde taget Livet af et Menneske. Folk har da ude i Haven funden et helt Skelet af &#xE9;n og Hoveder af to.</danish_publication>
+  <english_publication>There&#x2019;s supposed to have been an inn in the house that&#x2019;s a little east of Il-Bro on the southern side of the Ugilt road, and one who was called Skytte-Kr&#xE6;n lived there. He was supposed to be a bit given to witchcraft, and there&#x2019;s a legend that he&#x2019;d killed someone. People found the entire skeleton of a person and the heads of two others out in the yard.</english_publication>
+  <keywords>
+    <keyword id="369" frequency="1" keyword="east">east</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="560" frequency="1" keyword="inn">inn</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="705" frequency="1" keyword="legend">legend</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1127" frequency="1" keyword="skeleton">skeleton</keyword>
+    <keyword id="1138" frequency="1" keyword="skytte_kr&#xE6;n">Skytte Kr&#xE6;n</keyword>
+    <keyword id="1167" frequency="1" keyword="south">south</keyword>
+    <keyword id="1353" frequency="1" keyword="witchcraft">witchcraft</keyword>
+    <keyword id="1368" frequency="1" keyword="yard">yard</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="26" display_name="Places: Bridge"/>
+    <tango_index id="33" display_name="Places: Inn"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="134" display_name="Supernatural Beings: Lindorm / Basilisk"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

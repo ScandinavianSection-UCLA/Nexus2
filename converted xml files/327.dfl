@@ -1,0 +1,95 @@
+<story><story_id>327</story_id>
+  <publication_info>DS_I_263</publication_info>
+  <full_name>90 - 1.04 - DS_I_263</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>1.04</order_told>
+  <fieldtrip><id>9</id>October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>66</place_id>
+      <name>Boelsh&#248;j</name>
+      <display_name>Boelsh&#248;j (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>447</story_id>
+      <informant_id>485</informant_id>
+      <publication_info>DS_I_270</publication_info>
+      <full_name>485 - 0.00 - DS_I_270</full_name>
+      <url>data/stories/447.dfl</url>
+    </story>
+    <story><story_id>584</story_id>
+      <informant_id>548</informant_id>
+      <publication_info>DS_I_265</publication_info>
+      <full_name>548 - 0.00 - DS_I_265</full_name>
+      <url>data/stories/584.dfl</url>
+    </story>
+    <story><story_id>520</story_id>
+      <informant_id>335</informant_id>
+      <publication_info>DS_I_1098</publication_info>
+      <full_name>335 - 0.00 - DS_I_1098</full_name>
+      <url>data/stories/520.dfl</url>
+    </story>
+    <story><story_id>630</story_id>
+      <informant_id>217</informant_id>
+      <publication_info>DS_I_1122</publication_info>
+      <full_name>217 - 0.00 - DS_I_1122</full_name>
+      <url>data/stories/630.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4767b (1)</fielddiary_page_start>
+  <fielddiary_page_end>4767b (1)</fielddiary_page_end>
+  <bibliographic_info>Boberg 1938
+Feilberg 1910</bibliographic_info>
+  <bibliography_references>
+    <reference><id>180</id><category>general</category>
+      <display_string>[Book] Feilberg, Henning F. 1910. Vol. 5 of &lt;i&gt;Bj&#230;rgtagen. Studie over en gruppe tr&#230;k fra nordisk alfetro (Danmarks folkeminder)&lt;/i&gt;. Copenhagen: Det Sch&#248;nbergske forlag.</display_string>
+    </reference>
+    <reference><id>167</id><category>general</category>
+      <display_string>[Book] Boberg, Inger M. 1938. &lt;i&gt;Bj&#230;rgfolkenes bagning. Sagntypen "grissel og rage." En sagnunders&#248;gelse (Danmarks folkeminder)&lt;/i&gt;. Copenhagen: Det Sch&#248;nbergske forlag.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Boels-Maren appears to be the name of a mound dweller, given the close connection of her name to the local mound Boelsh&#248;j. Danish nicknames often include place name referents. The boy has mistaken the mound dweller for a human, a common occurrence in variants of this story (DS I 270). In some variants, the story revolves around the discovery that the seemingly human figure is actually a mound dweller (DS I 266). In this variant, the interaction between the boy and the girl is one between peers as both of them doing chores for their respective employers. 
+
+     There are numerous other stories where humans encounter mound dwellers on their way to or from birth celebrations or baking. In this case, the little girl is bringing food to the presumably sick or old Boels-Maren from a feast celebrating the birth of another mound dweller, as "barselmad" is glossed by Feilberg as "the food sent from a birth celebration to sick people in town" (Feilberg 1910, vol. 1, 52). "Barselmad" or birth food can, according to Feilberg, also refer food given to a woman who is pregnant or has just given birth ("food for a birth celebration or for a woman who has just given birth"). If one reads the term in this latter manner, then Boels-Maren is possibly a kidnapped human who has just given birth inside the mound. The story succinctly confirms the parallel nature of mound dwellers' society and human society. In other stories of mound dwellers' births, a human is kidnapped by the mound dwellers to assist in the birth (DS I 1098 and 1122 ).</annotation>
+  <danish_manuscript>Der kom en bitte Pige om ved en Tjeneste
+dreng, og s. spurgte h. hende efter hvor
+hun skulde hen. Ja hun skulde til Boels
+Maren med Barselmad. Der er en 
+H&#248;j der kaldes Boelsh&#248;j.
+</danish_manuscript>
+  <english_manuscript>A tiny little girl passed by a hired boy and he asked her where she was going. Well, she was going to Boels-Maren with birth food. There's a mound they call Boelsh&#248;j.</english_manuscript>
+  <danish_publication>Der kom en bitte pige om ved en tjenestedreng, og s&#229; spurgte han hende efter, hvor hun skulde hen. Ja, hun skulde til Boels-Maren med barselmad. Der er en h&#246;j, der kaldes Boelsh&#246;j.</danish_publication>
+  <english_publication>A tiny little girl passed by a hired boy and he asked her where she was going. Well, she was going to Boels-Maren with birth food. There&#8217;s a mound they call Boelsh&#248;j.</english_publication>
+  <keywords>
+    <keyword><id>102</id><frequency>1</frequency><keyword>birth</keyword>birth</keyword>
+    <keyword><id>119</id><frequency>1</frequency><keyword>boels_maren</keyword>Boels Maren</keyword>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>431</id><frequency>1</frequency><keyword>food</keyword>food</keyword>
+    <keyword><id>467</id><frequency>1</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>804</id><frequency>1</frequency><keyword>mound</keyword>mound</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>91</id><display_name>Actions or events: Midwifery</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

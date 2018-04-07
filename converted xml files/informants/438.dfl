@@ -1,0 +1,54 @@
+<informant><person_id>438</person_id>
+  <core_informant/>
+  <full_name>T. Kr. Kristensen</full_name>
+  <last_name>Kristensen</last_name>
+  <first_name>T. Kr.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>519</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>438</informant_id>
+      <publication_info>DS_VII_584</publication_info>
+      <full_name>438 - 0.00 - DS_VII_584</full_name>
+      <url>data/stories/519.dfl</url>
+      <place_recorded><id>866</id>Skallerup, Hj&#248;rring</place_recorded>
+      <places_mentioned>
+        <place><id>18</id>
+          <name>Ajstrup</name>
+        </place>
+        <place><id>97</id>
+          <name>Br&#248;nderslev</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>866</place_id>
+      <name>Skallerup, Hj&#248;rring</name>
+      <display_name>Skallerup, Hj&#248;rring (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>97</place_id>
+      <name>Br&#248;nderslev</name>
+      <display_name>Br&#248;nderslev (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>18</place_id>
+      <name>Ajstrup</name>
+      <display_name>Ajstrup (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

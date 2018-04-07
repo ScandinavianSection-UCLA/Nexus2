@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<story story_id="780">
+  <publication_info>DS_V_690</publication_info>
+  <full_name>403 - 0.00 - DS_V_690</full_name>
+  <informant_id>403</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>P. K.</informant_first_name>
+  <informant_full_name>L&#xE6;rer P. K. Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>747</place_id>
+      <name>&#xC5;sted</name>
+      <display_name>&#xC5;sted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>310</place_id>
+      <name>Jebj&#xE6;rg</name>
+      <display_name>Jebj&#xE6;rg (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>535</place_id>
+      <name>Skive</name>
+      <display_name>Skive (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="603">
+      <informant_id>536</informant_id>
+      <publication_info>DS_V_694</publication_info>
+      <full_name>536 - 0.00 - DS_V_694</full_name>
+      <url>data/stories/603.dfl</url>
+    </story>
+    <story story_id="727">
+      <informant_id>542</informant_id>
+      <publication_info>DS_V_686</publication_info>
+      <full_name>542 - 0.00 - DS_V_686</full_name>
+      <url>data/stories/727.dfl</url>
+    </story>
+    <story story_id="224">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_687</publication_info>
+      <full_name>235 - 1.05 - DS_V_687</full_name>
+      <url>data/stories/224.dfl</url>
+    </story>
+    <story story_id="851">
+      <informant_id>454</informant_id>
+      <publication_info>DS_V_700</publication_info>
+      <full_name>454 - 0.00 - DS_V_700</full_name>
+      <url>data/stories/851.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Pr&#xE6;sten Patberg i Jebj&#xE6;rg, som er meget bekjendt i Salling for sin dygtighed til at mane, skulde en nat hen og mane et sp&#xF8;gelse. Pr&#xE6;sten var kj&#xF8;rende, og da han kommer i n&#xE6;rheden af stedet, hvor sp&#xF8;gelset g&#xE5;r, siger han til sin kusk, at nu skulde han blive holdende her med vognen og ingen ting bryde sig om, hvad han end h&#xF8;rte og s&#xE5;. Lidt efter at pr&#xE6;sten er g&#xE5;et, h&#xF8;rer kusken da en voldsom st&#xF6;j, og da den bliver ved i l&#xE6;ngere tid, t&#xE6;nker han ved sig selv, at det nok kneb for pr&#xE6;sten, hvorfor han tager en vognkj&#xE6;p i h&#xE5;nden for at ile til hj&#xE6;lp, men da karlen n&#xE6;sten kommer hen til pr&#xE6;sten, r&#xE5;ber denne, at han skal blive v&#xE6;k, da han ellers ikke kan f&#xE5; bugt med sp&#xF8;gelset. Endelig bliver pr&#xE6;sten f&#xE6;rdig og kommer hen til karlen; han siger da til ham: "Hvis du nogensinde i fremtiden kj&#xF8;rer p&#xE5; den vej, vi holder her p&#xE5;, s&#xE5; vil det koste dit liv." Karlen huskede ogs&#xE5; p&#xE5; advarslen en tid, men s&#xE5; en aften, han kommer fra marked i Skive, synes han, det er sv&#xE6;rt meget af vejen at kj&#xF8;re forbi den forbudne vej, kj&#xF8;rer ind p&#xE5; den, men v&#xE6;lter og br&#xE6;kker sin hals.</danish_publication>
+  <english_publication>Minister Patberg from Jebj&#xE6;rg, who is well known in Salling for his ability to conjure, had to go one night and conjure a ghost. The minister drove and when he got close to the place where the ghost went, he says to his coachman that he should wait there with the wagon and not be bothered by anything he saw or heard. A little after the minister left, the coachman hears an incredible noise, and since it continues for a long time, he thinks that the minister is probably having difficulties, so he takes the wagon whip in hand and rushes off to help the minister. But when he gets almost up to the minister, he [the minister] yells at him to stay away, because otherwise he can&#x2019;t get power over the ghost. Finally the minister is finished and he comes over to the farmhand; he then says to him: &#x201C;If you ever in the future drive on this road where we&#x2019;re stopped, it will cost you your life.&#x201D; The farmhand remembered the warning for a while but then one night when he was coming home from market in Skive, he thinks that it&#x2019;s quite a way to go just to avoid the forbidden road, he drives in on it but then tips over and breaks his neck.</english_publication>
+  <keywords>
+    <keyword id="255" frequency="2" keyword="conjuring">conjuring</keyword>
+    <keyword id="357" frequency="2" keyword="driver">driver</keyword>
+    <keyword id="395" frequency="3" keyword="farm_hand">farmhand</keyword>
+    <keyword id="452" frequency="1" keyword="future">future</keyword>
+    <keyword id="464" frequency="3" keyword="ghost">ghost</keyword>
+    <keyword id="751" frequency="1" keyword="market">market</keyword>
+    <keyword id="786" frequency="8" keyword="minister">minister</keyword>
+    <keyword id="825" frequency="1" keyword="neck">neck</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="858" frequency="1" keyword="noises">noises</keyword>
+    <keyword id="988" frequency="1" keyword="power">power</keyword>
+    <keyword id="1036" frequency="2" keyword="road">road</keyword>
+    <keyword id="1311" frequency="2" keyword="wagon">wagon</keyword>
+    <keyword id="1336" frequency="1" keyword="whip">whip</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="81" display_name="Actions or events: Conjuring"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

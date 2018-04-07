@@ -1,0 +1,84 @@
+<informant><person_id>111</person_id>
+  <core_informant/>
+  <full_name>Niels ((Jens Jensen?)) Jensen</full_name>
+  <last_name>Jensen</last_name>
+  <first_name>Niels</first_name>
+  <gender>m</gender>
+  <birth_date>0000-00-00</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>740</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>111</informant_id>
+      <publication_info>DS_V_733</publication_info>
+      <full_name>111 - 0.00 - DS_V_733</full_name>
+      <url>data/stories/740.dfl</url>
+      <place_recorded><id>783</id>Glenstrup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>741</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>111</informant_id>
+      <publication_info>DS_VI_1004</publication_info>
+      <full_name>111 - 0.00 - DS_VI_1004</full_name>
+      <url>data/stories/741.dfl</url>
+      <place_recorded><id>435</id>N&#248;rre Tranders</place_recorded>
+      <places_mentioned>
+        <place><id>331</id>
+          <name>Klarup</name>
+        </place>
+        <place><id>435</id>
+          <name>N&#248;rre Tranders</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>742</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>111</informant_id>
+      <publication_info>DS_VII_576</publication_info>
+      <full_name>111 - 0.00 - DS_VII_576</full_name>
+      <url>data/stories/742.dfl</url>
+      <place_recorded><id>783</id>Glenstrup</place_recorded>
+      <places_mentioned>
+        <place><id>783</id>
+          <name>Glenstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>783</place_id>
+      <name>Glenstrup</name>
+      <display_name>Glenstrup (stories recorded here)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>435</place_id>
+      <name>N&#248;rre Tranders</name>
+      <display_name>N&#248;rre Tranders (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>783</place_id>
+      <name>Glenstrup</name>
+      <display_name>Glenstrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>435</place_id>
+      <name>N&#248;rre Tranders</name>
+      <display_name>N&#248;rre Tranders (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>331</place_id>
+      <name>Klarup</name>
+      <display_name>Klarup (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

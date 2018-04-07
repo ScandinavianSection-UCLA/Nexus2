@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<story story_id="884">
+  <publication_info>DS_VI_222</publication_info>
+  <full_name>0 - 0.00 - DS_VI_222</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>734</place_id>
+      <name>Vrinders</name>
+      <display_name>Vrinders (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>481</place_id>
+      <name>Regtrup</name>
+      <display_name>Regtrup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>109</place_id>
+      <name>Clausholm</name>
+      <display_name>Clausholm (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="187">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_191</publication_info>
+      <full_name>241 - 4.15 - DS_VI_191</full_name>
+      <url>data/stories/187.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Den tredje, der fik Cyprianus, kunde ikke blive af med den. Der var en smed i Regtrup ved Klavsholm, han hed Anders Lyng, og han havde f&#xE5;et den, men var uheldigvis bleven den tredje, og alt hvad han gjorde for at blive den kvit, hjalp ikke. F&#xF6;r han kom til Regtrup, havde han boet i en anden by, som hed Matrup, og det flytte havde han gjort for at blive af med Cyprianus. Da han havde solgt huset, sm&#xE6;kkede han den fast til et sp&#xE6;ndtr&#xE6; og rejste. Men da han nu kom til Regtrup, l&#xE5; den p&#xE5; bordet i hans ny bop&#xE6;l. Da han nu atter s&#xE5; den, blev han s&#xE5; &#xE6;rgerlig, at han gik hen og gjorde ild p&#xE5; i smedjen og tog den og puttede i ilden, og det kom ham for, at den var br&#xE6;ndt aldeles i aske. Men da han kom ind i sin stue, fandt han den atter p&#xE5; bordet. Fra den tid af havde han uheld med sig bestandig.</danish_publication>
+  <english_publication>The third person to get Cyprianus couldn&#x2019;t get rid of it. There was a smith in Regtrup near Klausholm, he was called Anders Lyng, and he had gotten it, but was unluckily the third owner, and everything he did to get rid of it didn&#x2019;t help. Before he came to Regtrup, he had lived in another town which was called Matrup and he had moved to get away from the Cyprianus. When he had sold the house, he had nailed it to a hitching post and left. But when he got to Regtrup, it was lying on the table in his new lodgings. When he saw it again, he got so upset that he went and set the smithy on fire and took it and threw it in the fire and it seemed to him that it was burned to ashes. But when he came into his living room, he found it again on the table. From that point on he always had bad luck.</english_publication>
+  <keywords>
+    <keyword id="29" frequency="1" keyword="anders_lyng">Anders Lyng</keyword>
+    <keyword id="36" frequency="1" keyword="angry">angry</keyword>
+    <keyword id="50" frequency="1" keyword="ashes">ashes</keyword>
+    <keyword id="292" frequency="2" keyword="cyprianus">cyprianus</keyword>
+    <keyword id="413" frequency="3" keyword="fire">fire</keyword>
+    <keyword id="548" frequency="2" keyword="house">house</keyword>
+    <keyword id="633" frequency="1" keyword="klavsholm">Klavsholm</keyword>
+    <keyword id="727" frequency="1" keyword="luck">luck</keyword>
+    <keyword id="979" frequency="1" keyword="post">post</keyword>
+    <keyword id="1146" frequency="2" keyword="smithing">smithing</keyword>
+    <keyword id="1238" frequency="2" keyword="table">table</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="48" display_name="Tools, Items and Conveyances: Books"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

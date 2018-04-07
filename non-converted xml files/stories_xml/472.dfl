@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<story story_id="472">
+  <publication_info>DS_V_972</publication_info>
+  <full_name>326 - 0.00 - DS_V_972</full_name>
+  <informant_id>326</informant_id>
+  <informant_last_name>Andresen</informant_last_name>
+  <informant_first_name>Anne</informant_first_name>
+  <informant_full_name>Anne Andresen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>873</place_id>
+      <name>Snogb&#xE6;k, Sundeved</name>
+      <display_name>Snogb&#xE6;k, Sundeved (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>599</place_id>
+      <name>St&#xF8;rtum</name>
+      <display_name>St&#xF8;rtum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="149">
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_975</publication_info>
+      <full_name>241 - 1.08 - DS_V_975</full_name>
+      <url>data/stories/149.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I St&#xF8;rtum var der en gang en gammel kone, som d&#xF8;de, hun havde boet sammen med hendes s&#xF6;n og hans kone. Da hun s&#xE5; var begravet, gik hun igjen og var helt hvidkl&#xE6;dt, hun gik og rodede inde i sengen ved b&#xF6;rnene og ude i loen. S&#xE5; s&#xE5; de efter i sengen og fandt der nogle n&#xF8;gler garn, og i loen hang der et r&#xF6;dt skj&#xF6;rt, som havde tilh&#xF8;rt den d&#xF8;de. Det tog de da og h&#xE6;ngte ind i kj&#xF8;kkenet, men s&#xE5; gik gjengangeren der. Engang s&#xF6;nnekonen vilde g&#xE5; ud i kj&#xF8;kkenet med en b&#xF8;tte m&#xE6;lk, stod hun der. Da blev hun s&#xE5; bange, at hun tabte m&#xE6;lken. Hun spurgte s&#xE5; pr&#xE6;sten ad, om hun m&#xE5;tte tale hende til. Pr&#xE6;sten sagde da, at det kunde hun godt, men hun skulde tage en salmebog i h&#xE5;nden, for hun vilde vist komme til at love hende noget, som hun skulde give hende h&#xE5;nden p&#xE5;, og s&#xE5; m&#xE5;tte hun ikke give hende h&#xE5;nden, men hun skulde r&#xE6;kke hende salmebogen. S&#xE5; spurgte hun da en gang gjengangeren: "Hvad g&#xE5;r I efter, moer ?" &#x2014; "Fem skilling i de r&#xF6;i skj&#xF6;rt, s&#xE5; kan a f&#xE5; ro i jorden, men lov mig, at du vil give min datter dem, og giv mig h&#xE5;nden derp&#xE5;." Hun rakte hende da salmebogen, og den tog hun s&#xE5; h&#xE5;rdt p&#xE5;, at det blev at se i den. De skar nu skj&#xF6;rtet op, og fandt fem skilling syet ind i livet. S&#xE5; s&#xE5; de ikke mere til hende.</danish_publication>
+  <english_publication>Once there was an old woman in St&#xF8;rtum who died, she had lived with her son and his wife. After she had been buried, she went again and she was dressed all in white, she went and rummaged about in the bed by the children and out in the barn. Then they looked in the bed and found some balls of yarn and in the barn there was a red skirt that had belonged to the deceased. They took it and hung it in the kitchen, but then the revenant appeared there. One time, when the son's wife went out to the kitchen with a pail of milk, she was standing there. She got so scared that she dropped the milk. She asked the minister if it would be alright if she spoke with her. The minister said that she certainly could, but that she should bring a book of psalms with her, since she would probably wind up promising the ghost something and the ghost would ask her to give her her hand on it, but she should not give her her hand but rather hand her the psalm book. So she asked the revenant once, "What are you looking for, mother?" -- "Five shillings in the red skirt, then I can have peace in the ground, but promise me that you will give them to my daughter, and give me your hand on that." She handed her the psalm book, and the ghost grabbed it so hard that it left a mark. They cut the skirt up and found five shillings sewn into the waistband. Then they didn't see her anymore.</english_publication>
+  <keywords>
+    <keyword id="66" frequency="1" keyword="ball">ball</keyword>
+    <keyword id="72" frequency="2" keyword="barn">barn</keyword>
+    <keyword id="83" frequency="2" keyword="bed">bed</keyword>
+    <keyword id="123" frequency="1" keyword="books">books</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="304" frequency="1" keyword="daughter">daughter</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="631" frequency="2" keyword="kitchen">kitchen</keyword>
+    <keyword id="782" frequency="2" keyword="milk">milk</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="894" frequency="1" keyword="pail">pail</keyword>
+    <keyword id="1001" frequency="2" keyword="psalm_book">psalm book</keyword>
+    <keyword id="1002" frequency="1" keyword="psalms">psalms</keyword>
+    <keyword id="1021" frequency="2" keyword="red">red</keyword>
+    <keyword id="1027" frequency="2" keyword="revenant">revenant</keyword>
+    <keyword id="1090" frequency="1" keyword="sewing">sewing</keyword>
+    <keyword id="1100" frequency="2" keyword="shilling">shilling</keyword>
+    <keyword id="1130" frequency="3" keyword="skirt">skirt</keyword>
+    <keyword id="1154" frequency="2" keyword="son">son</keyword>
+    <keyword id="1340" frequency="1" keyword="white">white</keyword>
+    <keyword id="1343" frequency="2" keyword="wife">wife</keyword>
+    <keyword id="1345" frequency="1" keyword="wind">wind</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+    <keyword id="1369" frequency="1" keyword="yarn">yarn</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="48" display_name="Tools, Items and Conveyances: Books"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="94" display_name="Actions or events: Oath"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

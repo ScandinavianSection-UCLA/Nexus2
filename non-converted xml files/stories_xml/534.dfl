@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<story story_id="534">
+  <publication_info>DS_III_898</publication_info>
+  <full_name>469 - 0.00 - DS_III_898</full_name>
+  <informant_id>469</informant_id>
+  <informant_last_name>Mand</informant_last_name>
+  <informant_first_name>Hans Jensen</informant_first_name>
+  <informant_full_name>Hans Jensen Mand</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>849</place_id>
+      <name>Pilemark, Sams&#xF8;</name>
+      <display_name>Pilemark, Sams&#xF8; (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>670</place_id>
+      <name>Tvilum</name>
+      <display_name>Tvilum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="237">
+      <informant_id>235</informant_id>
+      <publication_info>DS_III_887</publication_info>
+      <full_name>235 - 1.18 - DS_III_887</full_name>
+      <url>data/stories/237.dfl</url>
+    </story>
+    <story story_id="854">
+      <informant_id>468</informant_id>
+      <publication_info>DS_III_880</publication_info>
+      <full_name>468 - 0.00 - DS_III_880</full_name>
+      <url>data/stories/854.dfl</url>
+    </story>
+    <story story_id="398">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_870</publication_info>
+      <full_name>123 - 2.24 - DS_III_870</full_name>
+      <url>data/stories/398.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Tvilum kirkes bygning faldt to gange. S&#xE5; bestemte de at sp&#xE6;nde to stude sammen med et reb og lade dem g&#xE5;. Hvor de fandt dem liggende om morgenen, skulde kirken st&#xE5;. S&#xE5; lagde de dem s&#xE5;dan i et morads, og s&#xE5; var der en gammel mand, der sagde: "Ja, a tvivlte nok om det." Deraf fik kirken sit navn.</danish_publication>
+  <english_publication>The Tvilum church building collapsed twice. Then they decided to hitch two steers together with a rope and let them go. The church was to stand where they found them lying the next morning. They lay down in a morass, and then there was an old man who said, "Well, I doubted (tvilte) that." And that's where the church got its name.</english_publication>
+  <keywords>
+    <keyword id="155" frequency="1" keyword="buildings">buildings</keyword>
+    <keyword id="227" frequency="3" keyword="church">church</keyword>
+    <keyword id="800" frequency="1" keyword="morass">morass</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1044" frequency="1" keyword="rope">rope</keyword>
+    <keyword id="1190" frequency="1" keyword="steer">steer</keyword>
+  </keywords>
+  <etk_index id="12">
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

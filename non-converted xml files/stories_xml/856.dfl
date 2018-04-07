@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<story story_id="856">
+  <publication_info>DS_II_F_65</publication_info>
+  <full_name>328 - 0.00 - DS_II_F_65</full_name>
+  <informant_id>328</informant_id>
+  <informant_last_name>Bennike</informant_last_name>
+  <informant_first_name>V.</informant_first_name>
+  <informant_full_name>L&#xE6;rer V. Bennike</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>900</place_id>
+      <name>Vallekilde</name>
+      <display_name>Vallekilde (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="849">
+      <informant_id>444</informant_id>
+      <publication_info>DS_II_F_73</publication_info>
+      <full_name>444 - 0.00 - DS_II_F_73</full_name>
+      <url>data/stories/849.dfl</url>
+    </story>
+    <story story_id="866">
+      <informant_id/>
+      <publication_info>DS_II_F_101</publication_info>
+      <full_name>0 - 0.00 - DS_II_F_101</full_name>
+      <url>data/stories/866.dfl</url>
+    </story>
+    <story story_id="442">
+      <informant_id>456</informant_id>
+      <publication_info>DS_II_F_58</publication_info>
+      <full_name>456 - 0.00 - DS_II_F_58</full_name>
+      <url>data/stories/442.dfl</url>
+    </story>
+    <story story_id="547">
+      <informant_id>466</informant_id>
+      <publication_info>DS_II_F_50</publication_info>
+      <full_name>466 - 0.00 - DS_II_F_50</full_name>
+      <url>data/stories/547.dfl</url>
+    </story>
+    <story story_id="655">
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_F_54</publication_info>
+      <full_name>539 - 0.00 - DS_II_F_54</full_name>
+      <url>data/stories/655.dfl</url>
+    </story>
+    <story story_id="407">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_F_78</publication_info>
+      <full_name>123 - 3.04 - DS_II_F_78</full_name>
+      <url>data/stories/407.dfl</url>
+    </story>
+    <story story_id="497">
+      <informant_id>465</informant_id>
+      <publication_info>DS_II_F_62</publication_info>
+      <full_name>465 - 0.00 - DS_II_F_62</full_name>
+      <url>data/stories/497.dfl</url>
+    </story>
+    <story story_id="555">
+      <informant_id>68</informant_id>
+      <publication_info>DS_II_F_71</publication_info>
+      <full_name>68 - 0.00 - DS_II_F_71</full_name>
+      <url>data/stories/555.dfl</url>
+    </story>
+    <story story_id="551">
+      <informant_id>553</informant_id>
+      <publication_info>DS_II_F_104</publication_info>
+      <full_name>553 - 0.00 - DS_II_F_104</full_name>
+      <url>data/stories/551.dfl</url>
+    </story>
+    <story story_id="606">
+      <informant_id>546</informant_id>
+      <publication_info>DS_II_F_106</publication_info>
+      <full_name>546 - 0.00 - DS_II_F_106</full_name>
+      <url>data/stories/606.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En karl og en dreng l&#xE5; sammen, men karlen var al tid slemt plaget med mareridt. S&#xE5; en aften borede han et hul helt igjennem d&#xF6;rstolpen og sagde derp&#xE5; til drengen: "N&#xE5;r det nu kommer p&#xE5; mig, skal du rask springe op og sl&#xE5; denne pind i hullet," og dermed rakte han ham en told, han lige havde snittet, s&#xE5; den passede i hullet. Da det s&#xE5; om natten kom igjen,  gjorde drengen ogs&#xE5;, som karlen havde sagt. De t&#xE6;ndte s&#xE5; lys og s&#xE5; da, der stod en n&#xF8;gen kvinde midt i stuen. I det de trak pinden ud af d&#xF6;rstolpen, forsvandt hun.</danish_publication>
+  <english_publication>A farm hand and a boy were asleep in a room together, but the farm hand was always plagued with nightmares. Then one night he bores a hole completely through the door post and then says to the boy: &#x201C;When it gets up on me now, you should quickly jump up and drive this peg into the hole.&#x201D; and with that he handed him a stopper he had just cut so that it fit the hole. Then when it came again that night, the boy did just as the farm hand had told him. Then they lit a candle and saw that there was a naked woman standing there in the middle of the room. As soon as they pulled the peg out of the door post, she disappeared.</english_publication>
+  <keywords>
+    <keyword id="130" frequency="3" keyword="boy">boy</keyword>
+    <keyword id="171" frequency="1" keyword="candle">candle</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="344" frequency="2" keyword="door">door</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="395" frequency="3" keyword="farm_hand">farmhand</keyword>
+    <keyword id="678" frequency="1" keyword="lady">lady</keyword>
+    <keyword id="821" frequency="1" keyword="naked">naked</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="852" frequency="1" keyword="nightmare">nightmare</keyword>
+    <keyword id="979" frequency="2" keyword="post">post</keyword>
+    <keyword id="1273" frequency="1" keyword="torment">torment</keyword>
+  </keywords>
+  <etk_index id="7">
+    <heading_danish>Varulve og marer</heading_danish>
+    <heading_english>Werewolves and nightmares</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="61" display_name="Supernatural Beings: Mare"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

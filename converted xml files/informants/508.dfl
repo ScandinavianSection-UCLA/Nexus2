@@ -1,0 +1,54 @@
+<informant><person_id>508</person_id>
+  <core_informant/>
+  <full_name>Else Marie Pedersdatter</full_name>
+  <last_name>Pedersdatter</last_name>
+  <first_name>Else Marie</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>501</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>508</informant_id>
+      <publication_info>DS_IV_1467</publication_info>
+      <full_name>508 - 0.00 - DS_IV_1467</full_name>
+      <url>data/stories/501.dfl</url>
+      <place_recorded><id>737</id>Abildg&#229;rd, Navtrup</place_recorded>
+      <places_mentioned>
+        <place><id>303</id>
+          <name>Hvivelstov</name>
+        </place>
+        <place><id>422</id>
+          <name>Navtrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>737</place_id>
+      <name>Abildg&#229;rd, Navtrup</name>
+      <display_name>Abildg&#229;rd, Navtrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>422</place_id>
+      <name>Navtrup</name>
+      <display_name>Navtrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>303</place_id>
+      <name>Hvivelstov</name>
+      <display_name>Hvivelstov (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,46 @@
+<informant><person_id>462</person_id>
+  <core_informant/>
+  <full_name>Pastor J. H. Madelung</full_name>
+  <last_name>Madelung</last_name>
+  <first_name>J. H.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>685</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>462</informant_id>
+      <publication_info>DS_IV_1680</publication_info>
+      <full_name>462 - 0.00 - DS_IV_1680</full_name>
+      <url>data/stories/685.dfl</url>
+      <place_recorded><id>865</id>Sj&#248;rring, Tisted</place_recorded>
+      <places_mentioned>
+        <place><id>635</id>
+          <name>Thisted</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>865</place_id>
+      <name>Sj&#248;rring, Tisted</name>
+      <display_name>Sj&#248;rring, Tisted (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>635</place_id>
+      <name>Thisted</name>
+      <display_name>Thisted (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

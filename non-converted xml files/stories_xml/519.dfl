@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<story story_id="519">
+  <publication_info>DS_VII_584</publication_info>
+  <full_name>438 - 0.00 - DS_VII_584</full_name>
+  <informant_id>438</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>T. Kr.</informant_first_name>
+  <informant_full_name>T. Kr. Kristensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>866</place_id>
+      <name>Skallerup, Hj&#xF8;rring</name>
+      <display_name>Skallerup, Hj&#xF8;rring (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>18</place_id>
+      <name>Ajstrup</name>
+      <display_name>Ajstrup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>97</place_id>
+      <name>Br&#xF8;nderslev</name>
+      <display_name>Br&#xF8;nderslev (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="228">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_724</publication_info>
+      <full_name>235 - 1.09 - JAH_V_724</full_name>
+      <url>data/stories/228.dfl</url>
+    </story>
+    <story story_id="412">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_169</publication_info>
+      <full_name>123 - 3.09 - DS_VII_169</full_name>
+      <url>data/stories/412.dfl</url>
+    </story>
+    <story story_id="499">
+      <informant_id>547</informant_id>
+      <publication_info>DS_VII_592</publication_info>
+      <full_name>547 - 0.00 - DS_VII_592</full_name>
+      <url>data/stories/499.dfl</url>
+    </story>
+    <story story_id="516">
+      <informant_id>545</informant_id>
+      <publication_info>DS_VII_588</publication_info>
+      <full_name>545 - 0.00 - DS_VII_588</full_name>
+      <url>data/stories/516.dfl</url>
+    </story>
+    <story story_id="742">
+      <informant_id>111</informant_id>
+      <publication_info>DS_VII_576</publication_info>
+      <full_name>111 - 0.00 - DS_VII_576</full_name>
+      <url>data/stories/742.dfl</url>
+    </story>
+    <story story_id="888">
+      <informant_id/>
+      <publication_info>DS_VII_268</publication_info>
+      <full_name>0 - 0.00 - DS_VII_268</full_name>
+      <url>data/stories/888.dfl</url>
+    </story>
+    <story story_id="915">
+      <informant_id>573</informant_id>
+      <publication_info>DS_I_597</publication_info>
+      <full_name>573 - 0.00 - DS_I_597</full_name>
+      <url>data/stories/915.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Ajstrup ved Br&#xF8;nderslev var der en heks, der tog en mands m&#xE6;lk ved at malke af sine str&#xF8;mpeb&#xE5;nd. Da heksen tit l&#xF8;b ved g&#xE5;rden som en hare, gav Hals Pr&#xE6;st det r&#xE5;d, at hun skulde skydes med en s&#xF8;lvknap. S&#xE5; en aften blev haren skudt, s&#xE5; det ene ben sl&#xE6;bte efter, og n&#xE6;ste dag var heksen til sengs og havde br&#xE6;kket et l&#xE5;r. Hun sagde, hun var falden ude ved br&#xF8;nden.</danish_publication>
+  <english_publication>In Ajstrup near Br&#xF8;nderslev there was a witch who took a man's milk by milking through her garters. Since the witch often ran about the farm in the shape of a hare, Hals Pr&#xE6;st gave them the advice that they should shoot it with a silver button. Then one evening the hare was shot so that it dragged one of its legs behind it and the next day the witch was bedridden and had broken her thigh. She said she'd fallen down out by the well.</english_publication>
+  <keywords>
+    <keyword id="12" frequency="1" keyword="advice">advice</keyword>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="500" frequency="2" keyword="hare">hare</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="782" frequency="2" keyword="milk">milk</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1106" frequency="2" keyword="shooting">shooting</keyword>
+    <keyword id="1119" frequency="1" keyword="silver_button">silver button</keyword>
+    <keyword id="1251" frequency="1" keyword="thigh">thigh</keyword>
+    <keyword id="1351" frequency="3" keyword="witch">witch</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="50" display_name="Tools, Items and Conveyances: Metal"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="73" display_name="Animals: Hare"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

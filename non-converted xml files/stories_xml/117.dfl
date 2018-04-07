@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<story story_id="117">
+  <publication_info>Unpub_BJK_406</publication_info>
+  <full_name>150 - 4.06 - Unpub_BJK_406</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.06</order_told>
+  <fieldtrip id="5">June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned/>
+  <fielddiary_page_start>4592b (1)</fielddiary_page_start>
+  <fielddiary_page_end>4592b (1)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Tang Kristensen did not publish this short statement about predicting the weather based on other weather phenomena. The statement is similar to the Anglo-American "April showers bring May flowers."</annotation>
+  <danish_manuscript>En t&#xF8;r M&#xE5;rst gir et varmt Ruggulv en vaad April og vaad Maj</danish_manuscript>
+  <english_manuscript>A dry March gives a warm rye floor, a wet April and wet May</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: A dry March gives a warm rye floor, a wet April and wet May</english_publication>
+  <keywords>
+    <keyword id="422" frequency="1" keyword="floor">floor</keyword>
+    <keyword id="1055" frequency="1" keyword="rye">rye</keyword>
+    <keyword id="1333" frequency="2" keyword="wet">wet</keyword>
+  </keywords>
+  <etk_index id="44">
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="114" display_name="Time, Season, Weather: Spring"/>
+    <tango_index id="124" display_name="Time, Season, Weather: Rain"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

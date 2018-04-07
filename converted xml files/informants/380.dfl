@@ -1,0 +1,46 @@
+<informant><person_id>380</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer N. E. Hansen</full_name>
+  <last_name>Hansen</last_name>
+  <first_name>N. E.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>725</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>380</informant_id>
+      <publication_info>DS_V_1171</publication_info>
+      <full_name>380 - 0.00 - DS_V_1171</full_name>
+      <url>data/stories/725.dfl</url>
+      <place_recorded><id>77</id>Borre</place_recorded>
+      <places_mentioned>
+        <place><id>77</id>
+          <name>Borre</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>77</place_id>
+      <name>Borre</name>
+      <display_name>Borre (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>77</place_id>
+      <name>Borre</name>
+      <display_name>Borre (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

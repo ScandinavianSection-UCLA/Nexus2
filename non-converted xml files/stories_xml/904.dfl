@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<story story_id="904">
+  <publication_info>JAH_II_253</publication_info>
+  <full_name>0 - 0.00 - JAH_II_253</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>282</place_id>
+      <name>Hornum</name>
+      <display_name>Hornum (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>338</place_id>
+      <name>K&#xF8;benhavn</name>
+      <display_name>K&#xF8;benhavn (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="76">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_256</publication_info>
+      <full_name>150 - 3.13 - JAH_II_256</full_name>
+      <url>data/stories/76.dfl</url>
+    </story>
+    <story story_id="906">
+      <informant_id>567</informant_id>
+      <publication_info>JAH_II_255</publication_info>
+      <full_name>567 - 0.00 - JAH_II_255</full_name>
+      <url>data/stories/906.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Hr. Speitzer p&#xE5; &#xD6;rndrup var ilde lidt af b&#xF8;nderne for sin str&#xE6;ngheds skyld. Dette f&#xF8;rte til, at han en gang p&#xE5; hjemrejsen fra L&#xF8;gst&#xF8;r blev overfalden af to karle p&#xE5; heden, de knuste hans h&#xF6;jre h&#xE5;nd mellem to stene og flygtede s&#xE5; bort. Han solgte g&#xE5;rden ved 1777 og skal siden i Kj&#xF6;benhavn have truffet den ene af karlene p&#xE5; gaden. Han undslap dog og kom nok til Rendsborg, hvor han blev v&#xE6;rtshusholder. Han hed Kristen Roed og var broder til nuv&#xE6;rende g&#xE5;rdejer i Sj&#xF8;rup Kristen Roeds farfader.</danish_publication>
+  <english_publication>Hr. Speitzer at &#xD6;rndrup was not well liked by the peasants because of his harshness. That led to him being attacked by two farmhands out on the heath once when he was on his way home from L&#xF8;gst&#xF8;r, they crushed his right hand between two stones, and then they fled. He sold the farm in 1777 and supposedly met one of the farmhands on the street in Copenhagen later. The farmhand got away, though, and apparently came to Rendsborg where he became an innkeeper. He was called Kristen Roed and was the brother of the current farm owner in Sj&#xF8;rup, Kristen Roed's paternal grandfather.</english_publication>
+  <keywords>
+    <keyword id="53" frequency="1" keyword="attack">attack</keyword>
+    <keyword id="148" frequency="1" keyword="brother">brother</keyword>
+    <keyword id="290" frequency="1" keyword="current">current</keyword>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="395" frequency="2" keyword="farm_hand">farmhand</keyword>
+    <keyword id="478" frequency="1" keyword="grandfather">grandfather</keyword>
+    <keyword id="517" frequency="1" keyword="heath">heath</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="561" frequency="1" keyword="inn_keeper">inn keeper</keyword>
+    <keyword id="668" frequency="2" keyword="kristen_roed">Kristen Roed</keyword>
+    <keyword id="891" frequency="1" keyword="owner">owner</keyword>
+    <keyword id="921" frequency="1" keyword="peasantry">peasantry</keyword>
+    <keyword id="1173" frequency="1" keyword="speitzer">speitzer</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1208" frequency="1" keyword="street">street</keyword>
+  </keywords>
+  <etk_index id="32">
+    <heading_danish>Fra hoveriets tid</heading_danish>
+    <heading_english>From the time of villeinage</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

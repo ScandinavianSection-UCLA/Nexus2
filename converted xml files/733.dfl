@@ -1,0 +1,73 @@
+<story><story_id>733</story_id>
+  <publication_info>DS_V_116</publication_info>
+  <full_name>348 - 0.00 - DS_V_116</full_name>
+  <informant_id>348</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Nikolaj</informant_first_name>
+  <informant_full_name>Student Nikolaj Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>1</place_id>
+      <name>Aaby</name>
+      <display_name>Aaby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>460</place_id>
+      <name>&#216;ster L&#248;gum</name>
+      <display_name>&#216;ster L&#248;gum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>830</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_V_129</publication_info>
+      <full_name>69 - 0.00 - DS_V_129</full_name>
+      <url>data/stories/830.dfl</url>
+    </story>
+    <story><story_id>383</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_744</publication_info>
+      <full_name>123 - 2.09 - DS_III_744</full_name>
+      <url>data/stories/383.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Ved den kgl. Lerskov plantage ligger et vand, som kaldes Klarvand. Det vand har ikke altid v&#230;ret der, det er nemlig opfyldt med en m&#230;ngde omstyrtede tr&#230;er, og der m&#229; i gamle dage have v&#230;ret en stor skov. Per Jensen fra &#214;ster-L&#246;gum var en gang der ude, og da s&#229; han med &#233;t en k&#230;mpestor mand rejse sig, han havde h&#230;gter i kl&#230;derne i stedet for knapper og s&#229; for&#248;vrigt underlig ud. Men som nu Per begyndte at se p&#229; ham, gav han et br&#246;l fra sig, s&#229; &#214;sterl&#248;gum kirket&#229;rn revnede.</danish_publication>
+  <english_publication>Near the Royal Lerskov Orchard there is a pond, which is called Klarvand (Clear pond). The pond hasn&#8217;t always been there, it&#8217;s been filled up with a large number of fallen trees since then, and there must have been a big forest there in the olden days. Per Jensen from &#216;ster L&#248;gum was out there once and then he saw a gigantic man get up all of a sudden, he had hooks on his clothes instead of buttons and looked quite odd. But now while Per began to look at him, he roared so loud that the church tower in &#216;ster L&#248;gum cracked.</english_publication>
+  <keywords>
+    <keyword><id>164</id><frequency>1</frequency><keyword>button</keyword>button</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>236</id><frequency>1</frequency><keyword>clothing</keyword>clothing</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>392</id><frequency>1</frequency><keyword>fall</keyword>fall</keyword>
+    <keyword><id>438</id><frequency>1</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>595</id><frequency>1</frequency><keyword>jensen</keyword>Jensen</keyword>
+    <keyword><id>885</id><frequency>1</frequency><keyword>orchard</keyword>orchard</keyword>
+    <keyword><id>937</id><frequency>2</frequency><keyword>per</keyword>Per</keyword>
+    <keyword><id>973</id><frequency>3</frequency><keyword>pond</keyword>pond</keyword>
+    <keyword><id>1051</id><frequency>1</frequency><keyword>royal</keyword>royal</keyword>
+    <keyword><id>1274</id><frequency>1</frequency><keyword>tower</keyword>tower</keyword>
+    <keyword><id>1281</id><frequency>1</frequency><keyword>tree</keyword>tree</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>40</id><display_name>Places: Pond / Lake</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

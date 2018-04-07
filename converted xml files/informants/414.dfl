@@ -1,0 +1,70 @@
+<informant><person_id>414</person_id>
+  <core_informant/>
+  <full_name>Niels Johansen</full_name>
+  <last_name>Johansen</last_name>
+  <first_name>Niels</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>726</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>414</informant_id>
+      <publication_info>DS_II_A_74</publication_info>
+      <full_name>414 - 0.00 - DS_II_A_74</full_name>
+      <url>data/stories/726.dfl</url>
+      <place_recorded><id>886</id>Svendborg</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>734</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>414</informant_id>
+      <publication_info>DS_II_B_20</publication_info>
+      <full_name>414 - 0.00 - DS_II_B_20</full_name>
+      <url>data/stories/734.dfl</url>
+      <place_recorded><id>886</id>Svendborg</place_recorded>
+      <places_mentioned>
+        <place><id>956</id>
+          <name>Sk&#229;rup&#248;re</name>
+        </place>
+        <place><id>338</id>
+          <name>K&#248;benhavn</name>
+        </place>
+        <place><id>957</id>
+          <name>Drag&#248;r</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>886</place_id>
+      <name>Svendborg</name>
+      <display_name>Svendborg (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>957</place_id>
+      <name>Drag&#248;r</name>
+      <display_name>Drag&#248;r (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>956</place_id>
+      <name>Sk&#229;rup&#248;re</name>
+      <display_name>Sk&#229;rup&#248;re (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,46 @@
+<informant><person_id>439</person_id>
+  <core_informant/>
+  <full_name>Tellef Kristensen</full_name>
+  <last_name>Kristensen</last_name>
+  <first_name>Tellef</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>848</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>439</informant_id>
+      <publication_info>DS_VI_1252</publication_info>
+      <full_name>439 - 0.00 - DS_VI_1252</full_name>
+      <url>data/stories/848.dfl</url>
+      <place_recorded><id>904</id>Vendsted, &#197;bybro</place_recorded>
+      <places_mentioned>
+        <place><id>194</id>
+          <name>Gj&#248;l</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>904</place_id>
+      <name>Vendsted, &#197;bybro</name>
+      <display_name>Vendsted, &#197;bybro (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>194</place_id>
+      <name>Gj&#248;l</name>
+      <display_name>Gj&#248;l (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

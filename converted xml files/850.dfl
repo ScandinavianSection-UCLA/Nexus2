@@ -1,0 +1,81 @@
+<story><story_id>850</story_id>
+  <publication_info>DS_V_477</publication_info>
+  <full_name>454 - 0.00 - DS_V_477</full_name>
+  <informant_id>454</informant_id>
+  <informant_last_name>Leth</informant_last_name>
+  <informant_first_name>Th.</informant_first_name>
+  <informant_full_name>L&#230;rer Th. Leth</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>858</place_id>
+      <name>Sale</name>
+      <display_name>Sale (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>984</place_id>
+      <name>Sj&#230;llands odde</name>
+      <display_name>Sj&#230;llands odde (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>461</story_id>
+      <informant_id>329</informant_id>
+      <publication_info>DS_V_482</publication_info>
+      <full_name>329 - 0.00 - DS_V_482</full_name>
+      <url>data/stories/461.dfl</url>
+    </story>
+    <story><story_id>577</story_id>
+      <informant_id>65</informant_id>
+      <publication_info>DS_V_900</publication_info>
+      <full_name>65 - 0.00 - DS_V_900</full_name>
+      <url>data/stories/577.dfl</url>
+    </story>
+    <story><story_id>208</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_880</publication_info>
+      <full_name>241 - 4.36 - DSnr_IV_880</full_name>
+      <url>data/stories/208.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I en bondeg&#229;rd p&#229; Sj&#230;llands odde var det for en 40 &#229;r siden s&#229; slemt til at sp&#248;ge. En gang havde folkene der en f&#248;lhoppe, som gik inde i en lille lade, og det var netop der, hvor det sp&#248;gede allerv&#230;rst. De lagde nu m&#230;rke til, at der i laden var en krog, hvilken b&#229;de hoppen og f&#248;llet n&#246;jagtig undgik at komme til, og det var heller ikke mulig for nogen at jage dyrene der hen. Folkene t&#230;nkte nok, at der i den krog m&#229;tte v&#230;re skjult noget, med hvilket det ikke m&#229;tte h&#230;nge rigtig sammen. Derfor huggede de gulvet op og grov ned i jorden, hvor de fandt benraden af et menneske. De samlede nu benene op og bar dem p&#229; kirkeg&#229;rden og nedgrov dem der, og siden har det aldrig sp&#248;get der i g&#229;rden.</danish_publication>
+  <english_publication>In a farm up in Sj&#230;llands odde, about forty years ago, there was really bad haunting. Once the people had a little foal which stood in a little barn and it was exactly there that the haunting was the worst. They noticed now that in the barn there was a little nook that both the mare and the foal avoided quite precisely, and it was also impossible for people to chase the animals into it. The people thought that something must be hidden in that nook because of things that weren&#8217;t quite right there. So they broke up the floor and dug down in the ground where they found a human skeleton. They gathered the bones together and carried them up to the cemetery and buried them there and since that time there has never been a haunting in the farm.</english_publication>
+  <keywords>
+    <keyword><id>37</id><frequency>1</frequency><keyword>animals</keyword>animals</keyword>
+    <keyword><id>72</id><frequency>2</frequency><keyword>barn</keyword>barn</keyword>
+    <keyword><id>121</id><frequency>1</frequency><keyword>bones</keyword>bones</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>196</id><frequency>1</frequency><keyword>cemetery</keyword>cemetery</keyword>
+    <keyword><id>211</id><frequency>1</frequency><keyword>chase</keyword>chase</keyword>
+    <keyword><id>326</id><frequency>1</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>394</id><frequency>2</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>422</id><frequency>1</frequency><keyword>floor</keyword>floor</keyword>
+    <keyword><id>427</id><frequency>2</frequency><keyword>foal</keyword>foal</keyword>
+    <keyword><id>508</id><frequency>3</frequency><keyword>haunting</keyword>haunting</keyword>
+    <keyword><id>744</id><frequency>1</frequency><keyword>mare</keyword>mare</keyword>
+    <keyword><id>860</id><frequency>2</frequency><keyword>nook</keyword>nook</keyword>
+    <keyword><id>1127</id><frequency>1</frequency><keyword>skeleton</keyword>skeleton</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>25</id><display_name>Places: Barn</display_name></tango_index>
+    <tango_index><id>27</id><display_name>Places: Cemetery</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

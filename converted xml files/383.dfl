@@ -1,0 +1,46 @@
+<informant><person_id>383</person_id>
+  <core_informant/>
+  <full_name>S&#248;ren Lavrsen Hansen</full_name>
+  <last_name>Hansen</last_name>
+  <first_name>S&#248;ren Lavrsen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>834</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>383</informant_id>
+      <publication_info>DS_V_45</publication_info>
+      <full_name>383 - 0.00 - DS_V_45</full_name>
+      <url>data/stories/834.dfl</url>
+      <place_recorded><id>414</id>M&#248;ltrup</place_recorded>
+      <places_mentioned>
+        <place><id>414</id>
+          <name>M&#248;ltrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>414</place_id>
+      <name>M&#248;ltrup</name>
+      <display_name>M&#248;ltrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>414</place_id>
+      <name>M&#248;ltrup</name>
+      <display_name>M&#248;ltrup (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

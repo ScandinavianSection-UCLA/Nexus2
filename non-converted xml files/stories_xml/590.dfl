@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="590">
+  <publication_info>DS_VII_700</publication_info>
+  <full_name>151 - 0.00 - DS_VII_700</full_name>
+  <informant_id>151</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jokum</informant_first_name>
+  <informant_full_name>Jokum Kristensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>510</place_id>
+      <name>S&#xE6;sing</name>
+      <display_name>S&#xE6;sing (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>690</place_id>
+      <name>Vendsyssel</name>
+      <display_name>Vendsyssel (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="43">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_383</publication_info>
+      <full_name>150 - 1.40 - JAH_I_383</full_name>
+      <url>data/stories/43.dfl</url>
+    </story>
+    <story story_id="188">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_698</publication_info>
+      <full_name>241 - 4.16 - DS_VII_698</full_name>
+      <url>data/stories/188.dfl</url>
+    </story>
+    <story story_id="588">
+      <informant_id>144</informant_id>
+      <publication_info>DS_VII_690</publication_info>
+      <full_name>144 - 0.00 - DS_VII_690</full_name>
+      <url>data/stories/588.dfl</url>
+    </story>
+    <story story_id="848">
+      <informant_id>439</informant_id>
+      <publication_info>DS_VI_1252</publication_info>
+      <full_name>439 - 0.00 - DS_VI_1252</full_name>
+      <url>data/stories/848.dfl</url>
+    </story>
+    <story story_id="528">
+      <informant_id>362</informant_id>
+      <publication_info>DS_VII_696</publication_info>
+      <full_name>362 - 0.00 - DS_VII_696</full_name>
+      <url>data/stories/528.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En kj&#xE6;lling her fra Vendsyssel drev ulvene v&#xE6;k. Hun koblede dem i en r&#xF8;d j&#xF8;ntr&#xE5;d, og s&#xE5; satte hun sig p&#xE5; &#xE9;n af dem og red og satte s&#xE5; ud ad N&#xF6;rrehav. N&#xE5;r nogen m&#xF6;dte hende, skulde de &#xF8;nske hende til lykke med hendes plage, de m&#xE5;tte ikke sige ulve, for s&#xE5; vilde de &#xE6;de hende op. Der kom ogs&#xE5; &#xE9;n til hende, og han sagde godt nok: "Til lykke med dine mange plage."</danish_publication>
+  <english_publication>An old woman from here in Vendsyssel drove the wolves away. She bound them together with a red iron cable, and then she got up on one of them and rode off and then went out into the North Sea. When anyone met her, they were to congratulate her on her foals, they couldn't say wolves, because then they would eat her up. Someone came up to her too, and he said well enough, "Congratulations with your many foals."</english_publication>
+  <keywords>
+    <keyword id="427" frequency="2" keyword="foal">foal</keyword>
+    <keyword id="493" frequency="1" keyword="hag">hag</keyword>
+    <keyword id="564" frequency="1" keyword="iron">iron</keyword>
+    <keyword id="864" frequency="1" keyword="north_sea">North Sea</keyword>
+    <keyword id="1021" frequency="1" keyword="red">red</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1294" frequency="1" keyword="vendsyssel">vendsyssel</keyword>
+    <keyword id="1355" frequency="2" keyword="wolf">wolf</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="39" display_name="Places: Ocean / Sea"/>
+    <tango_index id="79" display_name="Animals: None / Unspecified"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

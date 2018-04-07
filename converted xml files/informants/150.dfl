@@ -1,0 +1,2032 @@
+<informant><person_id>150</person_id>
+  <core_informant>1</core_informant>
+  <full_name>Jens (Bitte Jens) Kristensen</full_name>
+  <last_name>Kristensen</last_name>
+  <first_name>Jens</first_name>
+  <gender>m</gender>
+  <image>data/informants/150.jpg</image>
+  <fullbio>data/informants/150_full.dfl</fullbio>
+  <intro_bio>Jens&#8217;s father was a cobbler and fiddler from Tveden and his mother was from &#197;restrup. He had always helped his father with shoemaking but, when he was strong enough, he also helped with the harvest. He had lived his whole life in the same area. He was a veteran of the 1848 war. His mother often sang the many ballads she knew, but did so mono-tonally. His father was a good singer, and Jens learned the melodies to his ballads from him. Jens had sung many ballads with highwayman and railroad guard Johan Pingel. Jens said that everything he told was drivel and nonsense which was not worth listening to. His wife did not like him telling such stories. Tang Kristensen mentions that &#8220;Heldigvis stikker hun j&#230;vnlig ud til naboerne&#8221;. He was an eager narrator, well-versed in the ways and mind-set of the old people, including the old dialect of the area. His sister also was able to sing several ballads for Tang Kristensen, but was not as good an informant. His son from his second marriage, Anders Bundgaards, became a famous sculptor.
+</intro_bio>
+  <birth_date>1825-06-03</birth_date>
+  <death_date>1906-11-30</death_date>
+  <occupations>
+    <occupation><occupation_id>10</occupation_id>Clog maker</occupation>
+    <occupation><occupation_id>70</occupation_id>small holder</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>1</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_D_5</publication_info>
+      <full_name>150 - 0.01 - DS_II_D_5</full_name>
+      <url>data/stories/1.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>2</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_IV_348</publication_info>
+      <full_name>150 - 0.02 - JAH_IV_348</full_name>
+      <url>data/stories/2.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>3</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_1045</publication_info>
+      <full_name>150 - 0.03 - DS_VII_1045</full_name>
+      <url>data/stories/3.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>368</id>
+          <name>Lille Arden</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>4</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JFm_X_42</publication_info>
+      <full_name>150 - 1.01 - JFm_X_42</full_name>
+      <url>data/stories/4.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>5</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DSkv_0_11e</publication_info>
+      <full_name>150 - 1.02 - DSkv_0_11e</full_name>
+      <url>data/stories/5.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>6</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_103</publication_info>
+      <full_name>150 - 1.03 - Unpub_BJK_103</full_name>
+      <url>data/stories/6.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>7</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JFm_X_79c</publication_info>
+      <full_name>150 - 1.04 - JFm_X_79c</full_name>
+      <url>data/stories/7.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>8</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DSkv_0_19Ed</publication_info>
+      <full_name>150 - 1.05 - DSkv_0_19Ed</full_name>
+      <url>data/stories/8.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>9</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JFm_XI_102</publication_info>
+      <full_name>150 - 1.06 - JFm_XI_102</full_name>
+      <url>data/stories/9.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>10</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JFm_XI_23C</publication_info>
+      <full_name>150 - 1.07 - JFm_XI_23C</full_name>
+      <url>data/stories/10.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>11</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JFm_X_46e</publication_info>
+      <full_name>150 - 1.08 - JFm_X_46e</full_name>
+      <url>data/stories/11.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>498</id>
+          <name>Rosenlund bakker</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>12</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DSkv_0_4_Anm.</publication_info>
+      <full_name>150 - 1.09 - DSkv_0_4_Anm.</full_name>
+      <url>data/stories/12.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>13</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DSkv_0_59</publication_info>
+      <full_name>150 - 1.10 - DSkv_0_59</full_name>
+      <url>data/stories/13.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>14</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_111</publication_info>
+      <full_name>150 - 1.11 - Unpub_BJK_111</full_name>
+      <url>data/stories/14.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>469</id>
+          <name>Rebild</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>15</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_112</publication_info>
+      <full_name>150 - 1.12 - Unpub_BJK_112</full_name>
+      <url>data/stories/15.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>16</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_E_2</publication_info>
+      <full_name>150 - 1.13 - DS_II_E_2</full_name>
+      <url>data/stories/16.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+        <place><id>656</id>
+          <name>Torstedlund</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>17</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_VI_248</publication_info>
+      <full_name>150 - 1.14 - JAH_VI_248</full_name>
+      <url>data/stories/17.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+        <place><id>656</id>
+          <name>Torstedlund</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>18</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_139</publication_info>
+      <full_name>150 - 1.15 - DS_VI_139</full_name>
+      <url>data/stories/18.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>102</id>
+          <name>Buderup</name>
+        </place>
+        <place><id>542</id>
+          <name>Skj&#248;rping</name>
+        </place>
+        <place><id>631</id>
+          <name>Teglg&#229;rden</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>19</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_303</publication_info>
+      <full_name>150 - 1.16 - DS_III_303</full_name>
+      <url>data/stories/19.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+        <place><id>49</id>
+          <name>Bavnh&#248;j</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>20</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_117</publication_info>
+      <full_name>150 - 1.17 - Unpub_BJK_117</full_name>
+      <url>data/stories/20.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>21</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_127</publication_info>
+      <full_name>150 - 1.18 - DS_III_127</full_name>
+      <url>data/stories/21.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+        <place><id>469</id>
+          <name>Rebild</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>22</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_505</publication_info>
+      <full_name>150 - 1.19 - JAH_V_505</full_name>
+      <url>data/stories/22.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>450</id>
+          <name>Oplev</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>23</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_212</publication_info>
+      <full_name>150 - 1.20 - JAH_I_212</full_name>
+      <url>data/stories/23.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>720</id>
+          <name>Vokslev</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>24</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>&#198;v_0_1248</publication_info>
+      <full_name>150 - 1.21 - &#198;v_0_1248</full_name>
+      <url>data/stories/24.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>25</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DSkv_0_78</publication_info>
+      <full_name>150 - 1.22 - DSkv_0_78</full_name>
+      <url>data/stories/25.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>26</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_553</publication_info>
+      <full_name>150 - 1.23 - DS_I_553</full_name>
+      <url>data/stories/26.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+        <place><id>669</id>
+          <name>Tveden</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>27</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_A_150</publication_info>
+      <full_name>150 - 1.24 - DS_II_A_150</full_name>
+      <url>data/stories/27.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>21</id>
+          <name>Aldal</name>
+        </place>
+        <place><id>105</id>
+          <name>Bukkj&#230;r</name>
+        </place>
+        <place><id>151</id>
+          <name>F&#229;res&#248;</name>
+        </place>
+        <place><id>493</id>
+          <name>Rold skov</name>
+        </place>
+        <place><id>608</id>
+          <name>Stubberup</name>
+        </place>
+        <place><id>609</id>
+          <name>Stubberuphus</name>
+        </place>
+        <place><id>666</id>
+          <name>Tryds&#248;</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>28</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_IV_149</publication_info>
+      <full_name>150 - 1.25 - DS_IV_149</full_name>
+      <url>data/stories/28.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>21</id>
+          <name>Aldal</name>
+        </place>
+        <place><id>136</id>
+          <name>Egholm slot</name>
+        </place>
+        <place><id>542</id>
+          <name>Skj&#248;rping</name>
+        </place>
+        <place><id>609</id>
+          <name>Stubberuphus</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>29</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_IV_627</publication_info>
+      <full_name>150 - 1.26 - DS_IV_627</full_name>
+      <url>data/stories/29.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>419</id>
+          <name>Mylenberg</name>
+        </place>
+        <place><id>493</id>
+          <name>Rold skov</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>30</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_IV_149</publication_info>
+      <full_name>150 - 1.27 - DS_IV_149</full_name>
+      <url>data/stories/30.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>31</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_128</publication_info>
+      <full_name>150 - 1.28 - Unpub_BJK_128</full_name>
+      <url>data/stories/31.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>429</id>
+          <name>N&#248;rlund</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>32</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_781</publication_info>
+      <full_name>150 - 1.29 - JAT_VI_781</full_name>
+      <url>data/stories/32.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+        <place><id>469</id>
+          <name>Rebild</name>
+        </place>
+        <place><id>478</id>
+          <name>Ravnkilde</name>
+        </place>
+        <place><id>710</id>
+          <name>Vint&#248;nden</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>33</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_1236</publication_info>
+      <full_name>150 - 1.30 - DS_III_1236</full_name>
+      <url>data/stories/33.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>172</id>
+          <name>Freggelund</name>
+        </place>
+        <place><id>398</id>
+          <name>Madum s&#248;</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>34</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_1712</publication_info>
+      <full_name>150 - 1.31 - DS_III_1712</full_name>
+      <url>data/stories/34.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>213</id>
+          <name>Guds&#248; mose</name>
+        </place>
+        <place><id>430</id>
+          <name>N&#248;rlund skov</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>35</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_1589</publication_info>
+      <full_name>150 - 1.32 - DS_III_1589</full_name>
+      <url>data/stories/35.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>36</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_1873</publication_info>
+      <full_name>150 - 1.33 - DS_III_1873</full_name>
+      <url>data/stories/36.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+        <place><id>489</id>
+          <name>R&#248;de m&#248;lle</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>37</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_134</publication_info>
+      <full_name>150 - 1.34 - Unpub_BJK_134</full_name>
+      <url>data/stories/37.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>424</id>
+          <name>Nibe</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>38</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_1299</publication_info>
+      <full_name>150 - 1.35 - DS_VII_1299</full_name>
+      <url>data/stories/38.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>164</id>
+          <name>Fl&#248;&#248;</name>
+        </place>
+        <place><id>200</id>
+          <name>Gravlev</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>39</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_136</publication_info>
+      <full_name>150 - 1.36 - Unpub_BJK_136</full_name>
+      <url>data/stories/39.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>4</id>
+          <name>Aalborg</name>
+        </place>
+        <place><id>471</id>
+          <name>Randers</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>40</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_137</publication_info>
+      <full_name>150 - 1.37 - Unpub_BJK_137</full_name>
+      <url>data/stories/40.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>146</id>
+          <name>Erslev</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>41</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_1248</publication_info>
+      <full_name>150 - 1.38 - DS_VI_1248</full_name>
+      <url>data/stories/41.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>352</id>
+          <name>Kras</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>42</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_139</publication_info>
+      <full_name>150 - 1.39 - Unpub_BJK_139</full_name>
+      <url>data/stories/42.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>43</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_383</publication_info>
+      <full_name>150 - 1.40 - JAH_I_383</full_name>
+      <url>data/stories/43.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>656</id>
+          <name>Torstedlund</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>44</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_1409</publication_info>
+      <full_name>150 - 1.41 - DS_VII_1409</full_name>
+      <url>data/stories/44.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>186</id>
+          <name>Gandrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>45</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_593</publication_info>
+      <full_name>150 - 1.42 - DS_VI_593</full_name>
+      <url>data/stories/45.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>419</id>
+          <name>Mylenberg</name>
+        </place>
+        <place><id>537</id>
+          <name>Skjelhuse</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>46</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_E_156</publication_info>
+      <full_name>150 - 1.43 - DS_II_E_156</full_name>
+      <url>data/stories/46.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>47</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_144</publication_info>
+      <full_name>150 - 1.44 - Unpub_BJK_144</full_name>
+      <url>data/stories/47.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>48</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>MA_I_404</publication_info>
+      <full_name>150 - 2.01 - MA_I_404</full_name>
+      <url>data/stories/48.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>194</id>
+          <name>Gj&#248;l</name>
+        </place>
+        <place><id>424</id>
+          <name>Nibe</name>
+        </place>
+        <place><id>669</id>
+          <name>Tveden</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>49</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_VI_81</publication_info>
+      <full_name>150 - 2.02 - JAH_VI_81</full_name>
+      <url>data/stories/49.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>50</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_203</publication_info>
+      <full_name>150 - 2.03 - Unpub_BJK_203</full_name>
+      <url>data/stories/50.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>51</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_204</publication_info>
+      <full_name>150 - 2.04 - Unpub_BJK_204</full_name>
+      <url>data/stories/51.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>52</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DSkv_Till_3</publication_info>
+      <full_name>150 - 2.05 - DSkv_Till_3</full_name>
+      <url>data/stories/52.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>53</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_V_1028</publication_info>
+      <full_name>150 - 2.06 - DS_V_1028</full_name>
+      <url>data/stories/53.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>548</id>
+          <name>Skovhul</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>54</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_115</publication_info>
+      <full_name>150 - 2.07 - DS_II_C_115</full_name>
+      <url>data/stories/54.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>200</id>
+          <name>Gravlev</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>55</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_110</publication_info>
+      <full_name>150 - 2.08 - DS_II_C_110</full_name>
+      <url>data/stories/55.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>200</id>
+          <name>Gravlev</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>56</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_90</publication_info>
+      <full_name>150 - 2.09 - DS_II_C_90</full_name>
+      <url>data/stories/56.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+        <place><id>268</id>
+          <name>Hobro</name>
+        </place>
+        <place><id>283</id>
+          <name>Horsens</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>57</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_66</publication_info>
+      <full_name>150 - 2.10 - DS_II_C_66</full_name>
+      <url>data/stories/57.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>58</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_447</publication_info>
+      <full_name>150 - 2.11 - DS_VII_447</full_name>
+      <url>data/stories/58.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>4</id>
+          <name>Aalborg</name>
+        </place>
+        <place><id>100</id>
+          <name>Brorstrup</name>
+        </place>
+        <place><id>478</id>
+          <name>Ravnkilde</name>
+        </place>
+        <place><id>556</id>
+          <name>Smorup</name>
+        </place>
+        <place><id>434</id>
+          <name>N&#248;rre Sundby</name>
+        </place>
+        <place><id>661</id>
+          <name>Troms&#248;</name>
+        </place>
+        <place><id>660</id>
+          <name>Troms kirke</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>59</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_437</publication_info>
+      <full_name>150 - 2.12 - DS_VII_437</full_name>
+      <url>data/stories/59.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>660</id>
+          <name>Troms kirke</name>
+        </place>
+        <place><id>1065</id>
+          <name>Hasseris</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>60</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_A_1</publication_info>
+      <full_name>150 - 2.13 - DS_II_A_1</full_name>
+      <url>data/stories/60.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>61</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_VI_85</publication_info>
+      <full_name>150 - 2.14 - JAH_VI_85</full_name>
+      <url>data/stories/61.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>62</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_F_14</publication_info>
+      <full_name>150 - 2.15 - DS_II_F_14</full_name>
+      <url>data/stories/62.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>63</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_301</publication_info>
+      <full_name>150 - 3.01 - Unpub_BJK_301</full_name>
+      <url>data/stories/63.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>631</id>
+          <name>Teglg&#229;rden</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>64</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_428</publication_info>
+      <full_name>150 - 3.02 - DS_VI_428</full_name>
+      <url>data/stories/64.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>443</id>
+          <name>Nysum</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>65</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_G_267</publication_info>
+      <full_name>150 - 3.03 - DS_II_G_267</full_name>
+      <url>data/stories/65.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>55</id>
+          <name>Bislev</name>
+        </place>
+        <place><id>325</id>
+          <name>Kirketerp</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>66</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_576</publication_info>
+      <full_name>150 - 3.04 - DS_I_576</full_name>
+      <url>data/stories/66.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+        <place><id>1066</id>
+          <name>Lundb&#230;k</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>67</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>&#198;v_0_1360</publication_info>
+      <full_name>150 - 3.05 - &#198;v_0_1360</full_name>
+      <url>data/stories/67.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>568</id>
+          <name>S&#248;nder Tranders</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>68</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_305</publication_info>
+      <full_name>150 - 3.05 - Unpub_BJK_305</full_name>
+      <url>data/stories/68.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>69</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_797</publication_info>
+      <full_name>150 - 3.06 - JAT_VI_797</full_name>
+      <url>data/stories/69.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+        <place><id>655</id>
+          <name>Torsted</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>70</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>&#198;v_0_1359</publication_info>
+      <full_name>150 - 3.07 - &#198;v_0_1359</full_name>
+      <url>data/stories/70.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>71</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_308</publication_info>
+      <full_name>150 - 3.08 - Unpub_BJK_308</full_name>
+      <url>data/stories/71.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>72</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DSkv_0_43</publication_info>
+      <full_name>150 - 3.09 - DSkv_0_43</full_name>
+      <url>data/stories/72.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>73</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_310</publication_info>
+      <full_name>150 - 3.10 - Unpub_BJK_310</full_name>
+      <url>data/stories/73.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>200</id>
+          <name>Gravlev</name>
+        </place>
+        <place><id>424</id>
+          <name>Nibe</name>
+        </place>
+        <place><id>669</id>
+          <name>Tveden</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>74</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JFm_X_46e</publication_info>
+      <full_name>150 - 3.11 - JFm_X_46e</full_name>
+      <url>data/stories/74.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>75</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_1270</publication_info>
+      <full_name>150 - 3.12 - DS_VI_1270</full_name>
+      <url>data/stories/75.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>200</id>
+          <name>Gravlev</name>
+        </place>
+        <place><id>493</id>
+          <name>Rold skov</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>76</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_256</publication_info>
+      <full_name>150 - 3.13 - JAH_II_256</full_name>
+      <url>data/stories/76.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>1067</id>
+          <name>Vester Hornum</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>77</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_271</publication_info>
+      <full_name>150 - 3.14 - JAH_II_271</full_name>
+      <url>data/stories/77.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>450</id>
+          <name>Oplev</name>
+        </place>
+        <place><id>542</id>
+          <name>Skj&#248;rping</name>
+        </place>
+        <place><id>631</id>
+          <name>Teglg&#229;rden</name>
+        </place>
+        <place><id>656</id>
+          <name>Torstedlund</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>78</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_315</publication_info>
+      <full_name>150 - 3.15 - Unpub_BJK_315</full_name>
+      <url>data/stories/78.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>79</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_183</publication_info>
+      <full_name>150 - 3.16 - JAH_II_183</full_name>
+      <url>data/stories/79.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>656</id>
+          <name>Torstedlund</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>80</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_531</publication_info>
+      <full_name>150 - 3.17 - JAH_V_531</full_name>
+      <url>data/stories/80.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>597</id>
+          <name>Store Restrup</name>
+        </place>
+        <place><id>656</id>
+          <name>Torstedlund</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>81</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_535</publication_info>
+      <full_name>150 - 3.18 - JAH_V_535</full_name>
+      <url>data/stories/81.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>492</id>
+          <name>Rold</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>82</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_796</publication_info>
+      <full_name>150 - 3.19 - JAT_VI_796</full_name>
+      <url>data/stories/82.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>83</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_48</publication_info>
+      <full_name>150 - 3.20 - JAH_V_48</full_name>
+      <url>data/stories/83.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>348</id>
+          <name>Konradsminde</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>84</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_172</publication_info>
+      <full_name>150 - 3.21 - JAH_V_172</full_name>
+      <url>data/stories/84.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+        <place><id>602</id>
+          <name>St&#248;vring</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>85</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_358</publication_info>
+      <full_name>150 - 3.22 - JAH_II_358</full_name>
+      <url>data/stories/85.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>86</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_174</publication_info>
+      <full_name>150 - 3.23 - JAH_V_174</full_name>
+      <url>data/stories/86.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>424</id>
+          <name>Nibe</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>87</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_358</publication_info>
+      <full_name>150 - 3.24 - JAH_II_358</full_name>
+      <url>data/stories/87.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>88</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_43</publication_info>
+      <full_name>150 - 3.25 - JAH_I_43</full_name>
+      <url>data/stories/88.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>89</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_37</publication_info>
+      <full_name>150 - 3.26 - JAH_I_37</full_name>
+      <url>data/stories/89.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>90</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_75</publication_info>
+      <full_name>150 - 3.27 - JAH_V_75</full_name>
+      <url>data/stories/90.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>91</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_328</publication_info>
+      <full_name>150 - 3.28 - Unpub_BJK_328</full_name>
+      <url>data/stories/91.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>492</id>
+          <name>Rold</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>92</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_201</publication_info>
+      <full_name>150 - 3.29 - JAH_II_201</full_name>
+      <url>data/stories/92.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>268</id>
+          <name>Hobro</name>
+        </place>
+        <place><id>492</id>
+          <name>Rold</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>93</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_330</publication_info>
+      <full_name>150 - 3.30 - Unpub_BJK_330</full_name>
+      <url>data/stories/93.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>94</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DSkv_0_13</publication_info>
+      <full_name>150 - 3.31 - DSkv_0_13</full_name>
+      <url>data/stories/94.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>95</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_IV_397</publication_info>
+      <full_name>150 - 3.32 - JAH_IV_397</full_name>
+      <url>data/stories/95.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>546</id>
+          <name>Sk&#248;rb&#230;k</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>96</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_IV_48</publication_info>
+      <full_name>150 - 3.33 - JAH_IV_48</full_name>
+      <url>data/stories/96.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>97</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_IV_41</publication_info>
+      <full_name>150 - 3.34 - JAH_IV_41</full_name>
+      <url>data/stories/97.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>98</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_IV_42</publication_info>
+      <full_name>150 - 3.35 - JAH_IV_42</full_name>
+      <url>data/stories/98.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>49</id>
+          <name>Bavnh&#248;j</name>
+        </place>
+        <place><id>546</id>
+          <name>Sk&#248;rb&#230;k</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>99</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_331</publication_info>
+      <full_name>150 - 3.36 - JAH_II_331</full_name>
+      <url>data/stories/99.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+        <place><id>424</id>
+          <name>Nibe</name>
+        </place>
+        <place><id>429</id>
+          <name>N&#248;rlund</name>
+        </place>
+        <place><id>655</id>
+          <name>Torsted</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>100</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_364</publication_info>
+      <full_name>150 - 3.37 - JAH_V_364</full_name>
+      <url>data/stories/100.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>101</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_141</publication_info>
+      <full_name>150 - 3.38 - JAH_II_141</full_name>
+      <url>data/stories/101.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+        <place><id>656</id>
+          <name>Torstedlund</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>102</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_102</publication_info>
+      <full_name>150 - 3.39 - JAH_II_102</full_name>
+      <url>data/stories/102.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>103</id>
+          <name>Buderupholm</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>103</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_27</publication_info>
+      <full_name>150 - 3.40 - JAH_V_27</full_name>
+      <url>data/stories/103.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>4</id>
+          <name>Aalborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>104</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_84</publication_info>
+      <full_name>150 - 3.41 - JAH_I_84</full_name>
+      <url>data/stories/104.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>492</id>
+          <name>Rold</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>105</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>FK_0_551</publication_info>
+      <full_name>150 - 3.42 - FK_0_551</full_name>
+      <url>data/stories/105.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>492</id>
+          <name>Rold</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>106</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_343</publication_info>
+      <full_name>150 - 3.43 - Unpub_BJK_343</full_name>
+      <url>data/stories/106.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>107</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>FK_0_2</publication_info>
+      <full_name>150 - 3.44 - FK_0_2</full_name>
+      <url>data/stories/107.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>492</id>
+          <name>Rold</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>108</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DSnr_IV_452</publication_info>
+      <full_name>150 - 3.45 - DSnr_IV_452</full_name>
+      <url>data/stories/108.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>492</id>
+          <name>Rold</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>109</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>FK_0_586</publication_info>
+      <full_name>150 - 3.46 - FK_0_586</full_name>
+      <url>data/stories/109.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>4</id>
+          <name>Aalborg</name>
+        </place>
+        <place><id>407</id>
+          <name>Mjels</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>110</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_1129</publication_info>
+      <full_name>150 - 3.47 - JAT_VI_1129</full_name>
+      <url>data/stories/110.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>407</id>
+          <name>Mjels</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>111</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_1549</publication_info>
+      <full_name>150 - 3.48 - DS_III_1549</full_name>
+      <url>data/stories/111.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>657</id>
+          <name>Torup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>112</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_401</publication_info>
+      <full_name>150 - 4.01 - Unpub_BJK_401</full_name>
+      <url>data/stories/112.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>113</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_VI_738</publication_info>
+      <full_name>150 - 4.02 - JAH_VI_738</full_name>
+      <url>data/stories/113.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>556</id>
+          <name>Smorup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>114</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_738</publication_info>
+      <full_name>150 - 4.03 - DS_VII_738</full_name>
+      <url>data/stories/114.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>92</id>
+          <name>Bratbjerg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>115</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_VI_738</publication_info>
+      <full_name>150 - 4.04 - JAH_VI_738</full_name>
+      <url>data/stories/115.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>116</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_1179</publication_info>
+      <full_name>150 - 4.05 - DS_I_1179</full_name>
+      <url>data/stories/116.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>12</id>
+          <name>&#197;by  &#197;byen</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>117</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_406</publication_info>
+      <full_name>150 - 4.06 - Unpub_BJK_406</full_name>
+      <url>data/stories/117.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>118</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_407</publication_info>
+      <full_name>150 - 4.07 - Unpub_BJK_407</full_name>
+      <url>data/stories/118.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>119</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_408</publication_info>
+      <full_name>150 - 4.08 - Unpub_BJK_408</full_name>
+      <url>data/stories/119.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>120</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_887</publication_info>
+      <full_name>150 - 4.09 - DS_VII_887</full_name>
+      <url>data/stories/120.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>602</id>
+          <name>St&#248;vring</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>121</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_410</publication_info>
+      <full_name>150 - 4.10 - Unpub_BJK_410</full_name>
+      <url>data/stories/121.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>122</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_1181</publication_info>
+      <full_name>150 - 4.11 - DS_VII_1181</full_name>
+      <url>data/stories/122.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>123</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_240</publication_info>
+      <full_name>150 - 4.12 - JAH_V_240</full_name>
+      <url>data/stories/123.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>443</id>
+          <name>Nysum</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>124</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_540</publication_info>
+      <full_name>150 - 4.13 - JAH_V_540</full_name>
+      <url>data/stories/124.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>125</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_541</publication_info>
+      <full_name>150 - 4.14 - JAH_V_541</full_name>
+      <url>data/stories/125.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>126</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_240</publication_info>
+      <full_name>150 - 4.15 - JAH_V_240</full_name>
+      <url>data/stories/126.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>127</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_G_113</publication_info>
+      <full_name>150 - 4.16 - DS_II_G_113</full_name>
+      <url>data/stories/127.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>128</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_G_100</publication_info>
+      <full_name>150 - 4.17 - DS_II_G_100</full_name>
+      <url>data/stories/128.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>129</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_418</publication_info>
+      <full_name>150 - 4.18 - Unpub_BJK_418</full_name>
+      <url>data/stories/129.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>661</id>
+          <name>Troms&#248;</name>
+        </place>
+        <place><id>338</id>
+          <name>K&#248;benhavn</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>130</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_445</publication_info>
+      <full_name>150 - 4.19 - DS_III_445</full_name>
+      <url>data/stories/130.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>4</id>
+          <name>Aalborg</name>
+        </place>
+        <place><id>123</id>
+          <name>Dragstrup sige</name>
+        </place>
+        <place><id>611</id>
+          <name>Suldrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>131</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_292</publication_info>
+      <full_name>150 - 4.20 - DS_VII_292</full_name>
+      <url>data/stories/131.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>132</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_43</publication_info>
+      <full_name>150 - 4.21 - DS_I_43</full_name>
+      <url>data/stories/132.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>133</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_402</publication_info>
+      <full_name>150 - 4.22 - DS_I_402</full_name>
+      <url>data/stories/133.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>49</id>
+          <name>Bavnh&#248;j</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>134</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_303</publication_info>
+      <full_name>150 - 4.23 - DS_III_303</full_name>
+      <url>data/stories/134.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>135</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_424</publication_info>
+      <full_name>150 - 4.24 - Unpub_BJK_424</full_name>
+      <url>data/stories/135.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>136</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_425</publication_info>
+      <full_name>150 - 4.25 - Unpub_BJK_425</full_name>
+      <url>data/stories/136.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>137</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>KO_I_73</publication_info>
+      <full_name>150 - 4.26 - KO_I_73</full_name>
+      <url>data/stories/137.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>138</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_427</publication_info>
+      <full_name>150 - 4.27 - Unpub_BJK_427</full_name>
+      <url>data/stories/138.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>139</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_428</publication_info>
+      <full_name>150 - 4.28 - Unpub_BJK_428</full_name>
+      <url>data/stories/139.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>140</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_66</publication_info>
+      <full_name>150 - 4.29 - JAH_V_66</full_name>
+      <url>data/stories/140.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>7</id>
+          <name>Aarestrup</name>
+        </place>
+        <place><id>443</id>
+          <name>Nysum</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>141</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_896</publication_info>
+      <full_name>150 - 5.01 - JAT_VI_896</full_name>
+      <url>data/stories/141.dfl</url>
+      <place_recorded><id>147</id>Ersted</place_recorded>
+      <places_mentioned>
+        <place><id>147</id>
+          <name>Ersted</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (mentioned in 14 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>7</place_id>
+      <name>Aarestrup</name>
+      <display_name>Aarestrup (mentioned in 13 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>656</place_id>
+      <name>Torstedlund</name>
+      <display_name>Torstedlund (mentioned in 7 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>492</place_id>
+      <name>Rold</name>
+      <display_name>Rold (mentioned in 7 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>4</place_id>
+      <name>Aalborg</name>
+      <display_name>Aalborg (mentioned in 5 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>424</place_id>
+      <name>Nibe</name>
+      <display_name>Nibe (mentioned in 5 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>200</place_id>
+      <name>Gravlev</name>
+      <display_name>Gravlev (mentioned in 5 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>669</place_id>
+      <name>Tveden</name>
+      <display_name>Tveden (mentioned in 3 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>443</place_id>
+      <name>Nysum</name>
+      <display_name>Nysum (mentioned in 3 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>493</place_id>
+      <name>Rold skov</name>
+      <display_name>Rold skov (mentioned in 3 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>631</place_id>
+      <name>Teglg&#229;rden</name>
+      <display_name>Teglg&#229;rden (mentioned in 3 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>469</place_id>
+      <name>Rebild</name>
+      <display_name>Rebild (mentioned in 3 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>542</place_id>
+      <name>Skj&#248;rping</name>
+      <display_name>Skj&#248;rping (mentioned in 3 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>49</place_id>
+      <name>Bavnh&#248;j</name>
+      <display_name>Bavnh&#248;j (mentioned in 3 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>478</place_id>
+      <name>Ravnkilde</name>
+      <display_name>Ravnkilde (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>546</place_id>
+      <name>Sk&#248;rb&#230;k</name>
+      <display_name>Sk&#248;rb&#230;k (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>602</place_id>
+      <name>St&#248;vring</name>
+      <display_name>St&#248;vring (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>660</place_id>
+      <name>Troms kirke</name>
+      <display_name>Troms kirke (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>661</place_id>
+      <name>Troms&#248;</name>
+      <display_name>Troms&#248; (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>268</place_id>
+      <name>Hobro</name>
+      <display_name>Hobro (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>429</place_id>
+      <name>N&#248;rlund</name>
+      <display_name>N&#248;rlund (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>655</place_id>
+      <name>Torsted</name>
+      <display_name>Torsted (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>419</place_id>
+      <name>Mylenberg</name>
+      <display_name>Mylenberg (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>556</place_id>
+      <name>Smorup</name>
+      <display_name>Smorup (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>450</place_id>
+      <name>Oplev</name>
+      <display_name>Oplev (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>609</place_id>
+      <name>Stubberuphus</name>
+      <display_name>Stubberuphus (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>21</place_id>
+      <name>Aldal</name>
+      <display_name>Aldal (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>407</place_id>
+      <name>Mjels</name>
+      <display_name>Mjels (mentioned in 2 stories)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>55</place_id>
+      <name>Bislev</name>
+      <display_name>Bislev (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1065</place_id>
+      <name>Hasseris</name>
+      <display_name>Hasseris (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>103</place_id>
+      <name>Buderupholm</name>
+      <display_name>Buderupholm (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>434</place_id>
+      <name>N&#248;rre Sundby</name>
+      <display_name>N&#248;rre Sundby (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>611</place_id>
+      <name>Suldrup</name>
+      <display_name>Suldrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>123</place_id>
+      <name>Dragstrup sige</name>
+      <display_name>Dragstrup sige (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>325</place_id>
+      <name>Kirketerp</name>
+      <display_name>Kirketerp (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1066</place_id>
+      <name>Lundb&#230;k</name>
+      <display_name>Lundb&#230;k (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1067</place_id>
+      <name>Vester Hornum</name>
+      <display_name>Vester Hornum (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>597</place_id>
+      <name>Store Restrup</name>
+      <display_name>Store Restrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>657</place_id>
+      <name>Torup</name>
+      <display_name>Torup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>92</place_id>
+      <name>Bratbjerg</name>
+      <display_name>Bratbjerg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>568</place_id>
+      <name>S&#248;nder Tranders</name>
+      <display_name>S&#248;nder Tranders (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>12</place_id>
+      <name>&#197;by  &#197;byen</name>
+      <display_name>&#197;by  &#197;byen (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>348</place_id>
+      <name>Konradsminde</name>
+      <display_name>Konradsminde (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>471</place_id>
+      <name>Randers</name>
+      <display_name>Randers (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>136</place_id>
+      <name>Egholm slot</name>
+      <display_name>Egholm slot (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>666</place_id>
+      <name>Tryds&#248;</name>
+      <display_name>Tryds&#248; (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>710</place_id>
+      <name>Vint&#248;nden</name>
+      <display_name>Vint&#248;nden (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>172</place_id>
+      <name>Freggelund</name>
+      <display_name>Freggelund (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>398</place_id>
+      <name>Madum s&#248;</name>
+      <display_name>Madum s&#248; (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>608</place_id>
+      <name>Stubberup</name>
+      <display_name>Stubberup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>151</place_id>
+      <name>F&#229;res&#248;</name>
+      <display_name>F&#229;res&#248; (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>498</place_id>
+      <name>Rosenlund bakker</name>
+      <display_name>Rosenlund bakker (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>102</place_id>
+      <name>Buderup</name>
+      <display_name>Buderup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>720</place_id>
+      <name>Vokslev</name>
+      <display_name>Vokslev (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>105</place_id>
+      <name>Bukkj&#230;r</name>
+      <display_name>Bukkj&#230;r (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>213</place_id>
+      <name>Guds&#248; mose</name>
+      <display_name>Guds&#248; mose (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>430</place_id>
+      <name>N&#248;rlund skov</name>
+      <display_name>N&#248;rlund skov (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>537</place_id>
+      <name>Skjelhuse</name>
+      <display_name>Skjelhuse (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>194</place_id>
+      <name>Gj&#248;l</name>
+      <display_name>Gj&#248;l (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>548</place_id>
+      <name>Skovhul</name>
+      <display_name>Skovhul (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>283</place_id>
+      <name>Horsens</name>
+      <display_name>Horsens (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>186</place_id>
+      <name>Gandrup</name>
+      <display_name>Gandrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>352</place_id>
+      <name>Kras</name>
+      <display_name>Kras (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>489</place_id>
+      <name>R&#248;de m&#248;lle</name>
+      <display_name>R&#248;de m&#248;lle (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>164</place_id>
+      <name>Fl&#248;&#248;</name>
+      <display_name>Fl&#248;&#248; (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>368</place_id>
+      <name>Lille Arden</name>
+      <display_name>Lille Arden (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>146</place_id>
+      <name>Erslev</name>
+      <display_name>Erslev (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>100</place_id>
+      <name>Brorstrup</name>
+      <display_name>Brorstrup (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

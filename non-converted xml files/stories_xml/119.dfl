@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<story story_id="119">
+  <publication_info>Unpub_BJK_408</publication_info>
+  <full_name>150 - 4.08 - Unpub_BJK_408</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.08</order_told>
+  <fieldtrip id="5">June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="412">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_169</publication_info>
+      <full_name>123 - 3.09 - DS_VII_169</full_name>
+      <url>data/stories/412.dfl</url>
+    </story>
+    <story story_id="121">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_410</publication_info>
+      <full_name>150 - 4.10 - Unpub_BJK_410</full_name>
+      <url>data/stories/121.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4592 (3)</fielddiary_page_start>
+  <fielddiary_page_end>4592 (3)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens relates several more folk sayings and short descriptions of folk belief. The belief about turning sawdust into fleas is given narrative confirmation in the story related by Johannes. Getting fleas was a constant worry on Danish farms, and Tang Kristensen also related his own numerous experiences with fleas and other bed bugs in Minder og Oplevelser.</annotation>
+  <danish_manuscript>Ja hvor[dan] naar bliver alle Eneb&#xE6;r modne 
+Naar alle Katter bliver brune (bron) 
+sagde de gamle. 
+Gamle Egesavspaan kommer i en Flaske 
+og pisses paa, s. bliver de til Lopper. 
+Johannes Kontramands [Kone] Moder i Aal- 
+borg gjorde det som Pige. Kom det i en 
+Flaske og lagde den i Karlens S&#xE6;ng, for 
+ham var hu vred paa.</danish_manuscript>
+  <english_manuscript>When are all the juniper berries ripe? When all the cats turn brown, that's what the old ones said. Old sawdust is put in a bottle and pissed on, and then they turn into fleas. Johannes Kontramand's [wife] mother did it when she was a hired girl. She put it in a bottle and placed it in the farmhand's bed because she was mad at him.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: When are all the juniper berries ripe? When all the cats turn brown, that&#x2019;s what the old ones said. Old sawdust is put in a bottle, and pissed on, and then they turn into fleas. Johannes Kontramand&#x2019;s [wife] mother did it when she was a hired girl. She put it in a bottle and placed it in the farmhand&#x2019;s bed because she was mad at him.</english_publication>
+  <keywords>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="92" frequency="1" keyword="berries">berries</keyword>
+    <keyword id="126" frequency="2" keyword="bottle">bottle</keyword>
+    <keyword id="149" frequency="1" keyword="brown">brown</keyword>
+    <keyword id="187" frequency="1" keyword="cat">cat</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="419" frequency="1" keyword="fleas">fleas</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="610" frequency="1" keyword="juniper">juniper</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="873" frequency="2" keyword="old">old</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="44">
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="69" display_name="Animals: Cat"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="7" name="Saying / Proverb"/>
+</story>

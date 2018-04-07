@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<story story_id="715">
+  <publication_info>DS_II_C_112</publication_info>
+  <full_name>401 - 0.00 - DS_II_C_112</full_name>
+  <informant_id>401</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Mikkel</informant_first_name>
+  <informant_full_name>G&#xE5;rdejer Mikkel Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>786</place_id>
+      <name>Grynderup</name>
+      <display_name>Grynderup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>216</place_id>
+      <name>Gunderupg&#xE5;rd</name>
+      <display_name>Gunderupg&#xE5;rd (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="404">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_C_120</publication_info>
+      <full_name>123 - 3.01 - DS_II_C_120</full_name>
+      <url>data/stories/404.dfl</url>
+    </story>
+    <story story_id="865">
+      <informant_id/>
+      <publication_info>DS_II_C_106</publication_info>
+      <full_name>0 - 0.00 - DS_II_C_106</full_name>
+      <url>data/stories/865.dfl</url>
+    </story>
+    <story story_id="54">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_115</publication_info>
+      <full_name>150 - 2.07 - DS_II_C_115</full_name>
+      <url>data/stories/54.dfl</url>
+    </story>
+    <story story_id="764">
+      <informant_id>112</informant_id>
+      <publication_info>DS_II_C_104</publication_info>
+      <full_name>112 - 0.00 - DS_II_C_104</full_name>
+      <url>data/stories/764.dfl</url>
+    </story>
+    <story story_id="55">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_110</publication_info>
+      <full_name>150 - 2.08 - DS_II_C_110</full_name>
+      <url>data/stories/55.dfl</url>
+    </story>
+    <story story_id="768">
+      <informant_id>555</informant_id>
+      <publication_info>DS_II_C_118</publication_info>
+      <full_name>555 - 0.00 - DS_II_C_118</full_name>
+      <url>data/stories/768.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Natravnen det er &#xE9;n, der er manet. Der skal v&#xE6;re &#xE9;n manet her ude i Gunderupg&#xE5;rds hede. A kan ikke huske, hvor mange tusende kokketrin det er fra g&#xE5;rden, men hvert &#xE5;r s&#xE5;dan ind f&#xF6;r jul, s&#xE5; giver det da et forskr&#xE6;kkeligt br&#xF8;l, og s&#xE5; tager det et trin ind mod g&#xE5;rden.
+     S&#xE5;dan var der tre, der fulgtes ad en aften ind for jul, og s&#xE5; giver det da s&#xE5;dan et forskr&#xE6;kkeligt hv&#xE6;l. S&#xE5; siger de til hverandre, hvad det kunde v&#xE6;re, det kunde de ikke forst&#xE5;, og de l&#xF8;b, alt hvad de kunde. S&#xE5; kom de til et sted, og der g&#xE5;r de ind og fort&#xE6;ller om det, de kunde da ikke udgranske, hvad det kunde v&#xE6;re. Da siger den gamle mand i huset: "Der var I i held, te I var ikke komne i vejen for det; det er noget forskr&#xE6;kkeligt noget, der er mange mennesker komne galt af sted med det." S&#xE5; sp&#xF6;rger den ene karl om, hvad det var for noget. Det var natravnen, siger han.
+     En anden &#xE9;n blev en aften sl&#xE5;et om kuld s&#xE5; mange gange, for det han var kommen i det; han var r&#xF6;gter p&#xE5; g&#xE5;rden, og han havde fortalt den her gamle mand det.</danish_publication>
+  <english_publication>The night raven is someone who has been conjured. There's supposed to be one who was conjured out here in Gunrderupg&#xE5;rd heath. I can't remember how many thousand rooster steps it is from the farm but every year, just before Christmas, there's a horrible noise and then it takes a step toward the farm. 
+     There were three like that who followed along with each other one evening before Christmas, and then there's a horrible wail. They ask each other what it could possibly be, they couldn't understand it, and they ran as fast as they could. Then they come to a place and they go in and tell them about it, they couldn't figure out what it could possibly be. "You were lucky you didn't get in its way; it's a horrible thing, and many people have had real problems with it." Then one of the farmhands asks what it is. That was the nightraven, he says. 
+     Another one was knocked out cold so many times because he'd encountered it; he was the cowhand at the farm, and he'd told this old man about it.</english_publication>
+  <keywords>
+    <keyword id="225" frequency="2" keyword="christmas">Christmas</keyword>
+    <keyword id="247" frequency="1" keyword="cold">cold</keyword>
+    <keyword id="255" frequency="2" keyword="conjuring">conjuring</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="394" frequency="3" keyword="farm">farm</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="517" frequency="1" keyword="heath">heath</keyword>
+    <keyword id="543" frequency="3" keyword="horrible">horrible</keyword>
+    <keyword id="727" frequency="1" keyword="luck">luck</keyword>
+    <keyword id="849" frequency="1" keyword="night_raven">night raven</keyword>
+    <keyword id="853" frequency="1" keyword="nightraven">nightraven</keyword>
+    <keyword id="858" frequency="1" keyword="noises">noises</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1042" frequency="1" keyword="rooster">rooster</keyword>
+    <keyword id="1182" frequency="1" keyword="stable_hand">stable hand</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="4">
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="32" display_name="Places: Heath"/>
+    <tango_index id="64" display_name="Supernatural Beings: Nightraven"/>
+    <tango_index id="79" display_name="Animals: None / Unspecified"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<story story_id="502">
+  <publication_info>DS_V_1007</publication_info>
+  <full_name>191 - 0.00 - DS_V_1007</full_name>
+  <informant_id>191</informant_id>
+  <informant_last_name>Mikaelsdatter</informant_last_name>
+  <informant_first_name>Else Marie</informant_first_name>
+  <informant_full_name>Else Marie Mikaelsdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>205</place_id>
+      <name>Grindsted</name>
+      <display_name>Grindsted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="149">
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_975</publication_info>
+      <full_name>241 - 1.08 - DS_V_975</full_name>
+      <url>data/stories/149.dfl</url>
+    </story>
+    <story story_id="647">
+      <informant_id>377</informant_id>
+      <publication_info>DS_V_1016</publication_info>
+      <full_name>377 - 0.00 - DS_V_1016</full_name>
+      <url>data/stories/647.dfl</url>
+    </story>
+    <story story_id="749">
+      <informant_id>182</informant_id>
+      <publication_info>DS_V_1002</publication_info>
+      <full_name>182 - 0.00 - DS_V_1002</full_name>
+      <url>data/stories/749.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En soldat, der var i tjenesten, blev syg og d&#xF8;de der. Han havde seks daler i hans kiste p&#xE5; et s&#xE6;regent sted, s&#xE5;dan at folk skulde ikke nemt kunne finde dem. S&#xE5; havde han en yngre broder, der l&#xE5; oppe i et kammer der hjemme, og han kunde se ham om natten st&#xE5; og pille ved hans kiste, som stod inde i storstuen. Den var jo bleven f&#xF8;rt hjem og sat der. Denher dreng fort&#xE6;ller s&#xE5;, hvad han s&#xE5;. "Sp&#xF6;rg ham, hvad han vil," sagde for&#xE6;ldrene. Det vovede han ikke, men s&#xE5; fik han faderen ind til sig en nat. Han kunde ogs&#xE5; se ham, og han sp&#xF6;rger ham efter det. Ja, han havde forvart de penge der mellem l&#xE6;ddiken og kisten. Dagen efter unders&#xF8;gte faderen stedet og fandt pengene, og siden s&#xE5; de ham aldrig mere.</danish_publication>
+  <english_publication>A soldier, who was working at a farm, got sick and died there. He had six daler in his trunk in a special place so that people could not find them easily.Then he had a younger brother who was lying up in a room at home, and he could see him at night standing fiddling with his trunk, which had been placed in the main room. It had been brought home and placed there. This boy then tells the others about what he'd seen. "Ask him what he wants," his parents said. He didn't dare do that, but then he got his father in there one night. He could see him too, and he asks him what he wants. Well, he'd hidden some money between the inner shelf and the walls of the trunk. The next day, the father examined the place and found the money and since then they never saw him again.</english_publication>
+  <keywords>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="148" frequency="1" keyword="brother">brother</keyword>
+    <keyword id="204" frequency="1" keyword="chamber">chamber</keyword>
+    <keyword id="215" frequency="1" keyword="chest">chest</keyword>
+    <keyword id="295" frequency="1" keyword="daler">daler</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="399" frequency="2" keyword="father">father</keyword>
+    <keyword id="409" frequency="1" keyword="fiddling">fiddling</keyword>
+    <keyword id="537" frequency="2" keyword="home">home</keyword>
+    <keyword id="793" frequency="2" keyword="money">money</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="901" frequency="1" keyword="parents">parents</keyword>
+    <keyword id="1111" frequency="1" keyword="sickness">sickness</keyword>
+    <keyword id="1153" frequency="1" keyword="soldier">soldier</keyword>
+    <keyword id="1361" frequency="1" keyword="work">work</keyword>
+    <keyword id="1374" frequency="1" keyword="young">young</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="19" display_name="People: Soldier"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

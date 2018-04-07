@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<story story_id="306">
+  <publication_info>DSk_I_248</publication_info>
+  <full_name>235 - 3.04 - DSk_I_248</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>3.04</order_told>
+  <fieldtrip id="3">January 1894</fieldtrip>
+  <fieldtrip_start_date>1894-01-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-02-19</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="320">
+      <informant_id>235</informant_id>
+      <publication_info>DSk_I_14</publication_info>
+      <full_name>235 - 3.18 - DSk_I_14</full_name>
+      <url>data/stories/320.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6421a</fielddiary_page_start>
+  <fielddiary_page_end>6421a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Payment for hired hands was low on Danish farms. Because of a relative glut of young men and women looking for work, wages were poor and in many places consisted of little more than room, board, some cloth, and a nominal cash payment on a quarterly basis. Consequently, the hired hands paid close attention to the quality and quantity of food that they were served.
+
+     The farmer's wife probably used grated cheese to save cheese since it would look to be much more than it actually was. The boy's amusing attempt to catch his cheese, throwing off his clogs so that he could run faster, has the desired effect, and he gets better food in the future.</annotation>
+  <danish_manuscript>En dreng sad i Marken med reven Ost.
+Det vilde bl&#xE6;se hen. Han smed Tr&#xE6;sloen
+Hvor vil du hen. A vil rende efter min
+ost for ellers faar a ikke noget af det.
+Det hjalp. h. fik skaaren Ost siden. 
+</danish_manuscript>
+  <english_manuscript>A hired boy sat in the field with some grated cheese. It was going to blow away. He threw off his clogs. Where are you going? I'm going to run after my cheese otherwise I won't get any of it. It helped. He got cheese slices instead.</english_manuscript>
+  <danish_publication>En Dreng sad i Marken og spiste sin Meldmad. Der var reven Ost paa den, og det vilde bl&#xE6;se hen. Saa smed han Tr&#xE6;skoene. "Hvor vil du hen?" siger husbonden. "A vil rende efter min Ost, for ellers faar a ikke noget af det." Det hjalp, siden fik han ikke reven Ost i Marken.</danish_publication>
+  <english_publication>A hired boy sat in the field eating his sandwich. There was grated cheese on it and it started to blow away. So he threw his clogs off. &#x201C;Where are you going?&#x201D; asked the farmer. &#x201C;I&#x2019;m going to run after my cheese, otherwise I won&#x2019;t get any of it.&#x201D; It helped since he never got grated cheese when he was out in the field again.</english_publication>
+  <keywords>
+    <keyword id="113" frequency="1" keyword="blow">blow</keyword>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="214" frequency="3" keyword="cheese">cheese</keyword>
+    <keyword id="234" frequency="1" keyword="clogs">clogs</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="410" frequency="2" keyword="field">field</keyword>
+    <keyword id="1067" frequency="1" keyword="sandwich">sandwich</keyword>
+  </keywords>
+  <etk_index id="37">
+    <heading_danish>Danske Skj&#xE6;mtesagn</heading_danish>
+    <heading_english>Danish Jocular Tales</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

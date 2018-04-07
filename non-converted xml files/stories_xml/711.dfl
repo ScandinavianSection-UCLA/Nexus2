@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<story story_id="711">
+  <publication_info>DS_IV_1239</publication_info>
+  <full_name>516 - 0.00 - DS_IV_1239</full_name>
+  <informant_id>516</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Mathias</informant_first_name>
+  <informant_full_name>Mathias Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>741</place_id>
+      <name>Allerup, Varde</name>
+      <display_name>Allerup, Varde (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1058</place_id>
+      <name>Tj&#xE6;reborg</name>
+      <display_name>Tj&#xE6;reborg (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1057</place_id>
+      <name>Trasborg</name>
+      <display_name>Trasborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="524">
+      <informant_id>330</informant_id>
+      <publication_info>DS_IV_1242</publication_info>
+      <full_name>330 - 0.00 - DS_IV_1242</full_name>
+      <url>data/stories/524.dfl</url>
+    </story>
+    <story story_id="616">
+      <informant_id>283</informant_id>
+      <publication_info>DS_IV_1253</publication_info>
+      <full_name>283 - 0.00 - DS_IV_1253</full_name>
+      <url>data/stories/616.dfl</url>
+    </story>
+    <story story_id="858">
+      <informant_id>328</informant_id>
+      <publication_info>DS_IV_1249</publication_info>
+      <full_name>328 - 0.00 - DS_IV_1249</full_name>
+      <url>data/stories/858.dfl</url>
+    </story>
+    <story story_id="373">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1517</publication_info>
+      <full_name>123 - 1.01 - DS_IV_1517</full_name>
+      <url>data/stories/373.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Imellem Tj&#xE6;reborg og Trasborg til nord for Vadg&#xE5;rd og inde i Bondeg&#xE5;rds mark ligger Helleg&#xE5;rd banke og Borreg&#xE5;rd banke. Her har ligget to borge. Fjenderne anfaldt manden p&#xE5; den sidste og stak ham ihjel, te indvoldene v&#xE6;ltede ud. S&#xE5; sagde han: "Nu er det bedst, lille b&#xF6;rn, I gj&#xF6;r ende p&#xE5; det." Hans kone hed Buurgier, og hun fulgte dem udenfor, da de rejste af. Da de kom ud, t&#xF6;rrede de deres blodige dolke af i hendes forkl&#xE6;de. S&#xE5; tog de vejen efter Helleg&#xE5;rd. De kom til nogle hyrder, og de flygtede. Manden flygtede for dem ud i en stendynge. "Er r&#xE6;ven her inde?" r&#xE5;bte de, stak ind med deres spyd og stak ham ihjel. S&#xE5;dan faldt Helleg&#xE5;rd, og bakken har navn efter ham endnu.</danish_publication>
+  <english_publication>Between Tj&#xE6;rborg and Tr&#xE6;sborg north of Vadg&#xE5;rd and in Bondeg&#xE5;rd&#x2019;s field lie Helleg&#xE5;rd hill and Borreg&#xE5;rd hill. There used to be two forts there. The enemies attacked the man at the last one and stabbed him to death until his innards ran out. Then he said: &#x201C;Now it's best, little children, that you make an end of it.&#x201D; His wife was called Buurgier, and she followed them outside when they left. When they came out, they wiped off their bloody daggers in her apron. Then they took the road towards Helleg&#xE5;rd. They came across some shepherds who fled. The farmer fled from them too out into a stone pile. &#x201C;Is the fox in here?&#x201D; they yelled, and stuck their spears into the pile and stabbed him to death. That&#x2019;s how Helleg&#xE5;rd fell, and the hill is named after him even now.</english_publication>
+  <keywords>
+    <keyword id="44" frequency="1" keyword="apron">apron</keyword>
+    <keyword id="53" frequency="1" keyword="attack">attack</keyword>
+    <keyword id="111" frequency="1" keyword="blood">blood</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="293" frequency="1" keyword="dagger">dagger</keyword>
+    <keyword id="317" frequency="2" keyword="death">death</keyword>
+    <keyword id="380" frequency="1" keyword="enemy">enemy</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="439" frequency="1" keyword="fort">fort</keyword>
+    <keyword id="441" frequency="1" keyword="fox">fox</keyword>
+    <keyword id="530" frequency="3" keyword="hill">hill</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1099" frequency="1" keyword="shepherd">shepherd</keyword>
+    <keyword id="1179" frequency="2" keyword="stab">stab</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="10" display_name="People: Foreigner"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="34" display_name="Places: Manor / Castle"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+    <tango_index id="136" display_name="Animals: Wild"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

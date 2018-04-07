@@ -1,0 +1,46 @@
+<informant><person_id>512</person_id>
+  <core_informant/>
+  <full_name>Stationsforstander Herman Pedersen</full_name>
+  <last_name>Pedersen</last_name>
+  <first_name>Herman</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>540</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>512</informant_id>
+      <publication_info>DS_II_D_45</publication_info>
+      <full_name>512 - 0.00 - DS_II_D_45</full_name>
+      <url>data/stories/540.dfl</url>
+      <place_recorded><id>789</id>Hammerum</place_recorded>
+      <places_mentioned>
+        <place><id>949</id>
+          <name>Odense</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>789</place_id>
+      <name>Hammerum</name>
+      <display_name>Hammerum (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>949</place_id>
+      <name>Odense</name>
+      <display_name>Odense (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

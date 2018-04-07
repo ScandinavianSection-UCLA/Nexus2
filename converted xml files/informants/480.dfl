@@ -1,0 +1,37 @@
+<informant><person_id>480</person_id>
+  <core_informant/>
+  <full_name>Seminarist Niels Kr. M&#248;ller</full_name>
+  <last_name>M&#248;ller</last_name>
+  <first_name>Niels Kr.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>746</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>480</informant_id>
+      <publication_info>DS_IV_1121</publication_info>
+      <full_name>480 - 0.00 - DS_IV_1121</full_name>
+      <url>data/stories/746.dfl</url>
+      <place_recorded><id>773</id>F&#229;rup</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>773</place_id>
+      <name>F&#229;rup</name>
+      <display_name>F&#229;rup (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

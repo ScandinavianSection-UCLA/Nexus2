@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<story story_id="733">
+  <publication_info>DS_V_116</publication_info>
+  <full_name>348 - 0.00 - DS_V_116</full_name>
+  <informant_id>348</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Nikolaj</informant_first_name>
+  <informant_full_name>Student Nikolaj Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>1</place_id>
+      <name>Aaby</name>
+      <display_name>Aaby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>460</place_id>
+      <name>&#xD8;ster L&#xF8;gum</name>
+      <display_name>&#xD8;ster L&#xF8;gum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="830">
+      <informant_id>69</informant_id>
+      <publication_info>DS_V_129</publication_info>
+      <full_name>69 - 0.00 - DS_V_129</full_name>
+      <url>data/stories/830.dfl</url>
+    </story>
+    <story story_id="383">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_744</publication_info>
+      <full_name>123 - 2.09 - DS_III_744</full_name>
+      <url>data/stories/383.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Ved den kgl. Lerskov plantage ligger et vand, som kaldes Klarvand. Det vand har ikke altid v&#xE6;ret der, det er nemlig opfyldt med en m&#xE6;ngde omstyrtede tr&#xE6;er, og der m&#xE5; i gamle dage have v&#xE6;ret en stor skov. Per Jensen fra &#xD6;ster-L&#xF6;gum var en gang der ude, og da s&#xE5; han med &#xE9;t en k&#xE6;mpestor mand rejse sig, han havde h&#xE6;gter i kl&#xE6;derne i stedet for knapper og s&#xE5; for&#xF8;vrigt underlig ud. Men som nu Per begyndte at se p&#xE5; ham, gav han et br&#xF6;l fra sig, s&#xE5; &#xD6;sterl&#xF8;gum kirket&#xE5;rn revnede.</danish_publication>
+  <english_publication>Near the Royal Lerskov Orchard there is a pond, which is called Klarvand (Clear pond). The pond hasn&#x2019;t always been there, it&#x2019;s been filled up with a large number of fallen trees since then, and there must have been a big forest there in the olden days. Per Jensen from &#xD8;ster L&#xF8;gum was out there once and then he saw a gigantic man get up all of a sudden, he had hooks on his clothes instead of buttons and looked quite odd. But now while Per began to look at him, he roared so loud that the church tower in &#xD8;ster L&#xF8;gum cracked.</english_publication>
+  <keywords>
+    <keyword id="164" frequency="1" keyword="button">button</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="236" frequency="1" keyword="clothing">clothing</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="595" frequency="1" keyword="jensen">Jensen</keyword>
+    <keyword id="885" frequency="1" keyword="orchard">orchard</keyword>
+    <keyword id="937" frequency="2" keyword="per">Per</keyword>
+    <keyword id="973" frequency="3" keyword="pond">pond</keyword>
+    <keyword id="1051" frequency="1" keyword="royal">royal</keyword>
+    <keyword id="1274" frequency="1" keyword="tower">tower</keyword>
+    <keyword id="1281" frequency="1" keyword="tree">tree</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

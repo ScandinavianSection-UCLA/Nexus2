@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<story story_id="629">
+  <publication_info>DS_IV_1682</publication_info>
+  <full_name>474 - 0.00 - DS_IV_1682</full_name>
+  <informant_id>474</informant_id>
+  <informant_last_name>Meldg&#xE5;rd</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Meldg&#xE5;rd</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>888</place_id>
+      <name>Tapdrup</name>
+      <display_name>Tapdrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>471</place_id>
+      <name>Randers</name>
+      <display_name>Randers (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>423</place_id>
+      <name>Nedre Hornb&#xE6;k</name>
+      <display_name>Nedre Hornb&#xE6;k (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="392">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story story_id="530">
+      <informant_id>425</informant_id>
+      <publication_info>DS_IV_1684</publication_info>
+      <full_name>425 - 0.00 - DS_IV_1684</full_name>
+      <url>data/stories/530.dfl</url>
+    </story>
+    <story story_id="723">
+      <informant_id>507</informant_id>
+      <publication_info>DS_IV_1679</publication_info>
+      <full_name>507 - 0.00 - DS_IV_1679</full_name>
+      <url>data/stories/723.dfl</url>
+    </story>
+    <story story_id="751">
+      <informant_id>479</informant_id>
+      <publication_info>DS_IV_1687</publication_info>
+      <full_name>479 - 0.00 - DS_IV_1687</full_name>
+      <url>data/stories/751.dfl</url>
+    </story>
+    <story story_id="873">
+      <informant_id/>
+      <publication_info>DS_IV_1686</publication_info>
+      <full_name>0 - 0.00 - DS_IV_1686</full_name>
+      <url>data/stories/873.dfl</url>
+    </story>
+    <story story_id="648">
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1678</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1678</full_name>
+      <url>data/stories/648.dfl</url>
+    </story>
+    <story story_id="685">
+      <informant_id>462</informant_id>
+      <publication_info>DS_IV_1680</publication_info>
+      <full_name>462 - 0.00 - DS_IV_1680</full_name>
+      <url>data/stories/685.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En kone fra Nedre-Hornb&#xE6;k var med hendes to s&#xF6;nner g&#xE5;et til Randers. Da de gik hjem igjen, og hun tr&#xE5;j ud af Hvidem&#xF8;lle vold og alts&#xE5; lige kom p&#xE5; Hornb&#xE6;k ejendom, da h&#xF8;rte hun, det gav sig til at ringe underneden dem i jorden. S&#xE5; l&#xF8;b en af s&#xF6;nnerne hjem til deres hus efter en spade, og s&#xE5; kastede han, hvor det ringede, og nu begyndte det at kime, og s&#xE5; kimede det i Stimer. Ikke svar l&#xE6;nge efter udbr&#xF8;d den sorte pest. Den udbr&#xF8;d i Randers f&#xF8;rst, og de mente, den var f&#xF8;rt dertil ved skibslejlighed.</danish_publication>
+  <english_publication>A woman from Nedre-Hornb&#xE6;k had gone to Randers with her two sons. When they were on their way home again, and just as they stepped out of Videm&#xF8;lle vold and had come back on the Hornb&#xE6;k property, she heard that it was ringing underneath them in the ground. So one of the boys ran home to get a shovel and he dug where it was ringing, and now it began to chime, and it chimed for three hours. Not too long after, the black plague broke out. It broke out first in Randers and they believe it was brought there by ship.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="537" frequency="2" keyword="home">home</keyword>
+    <keyword id="1033" frequency="2" keyword="ringing">ringing</keyword>
+    <keyword id="1101" frequency="1" keyword="ship">ship</keyword>
+    <keyword id="1110" frequency="1" keyword="shovel">shovel</keyword>
+    <keyword id="1154" frequency="1" keyword="son">son</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="46" display_name="Tools, Items and Conveyances: Bell"/>
+    <tango_index id="47" display_name="Tools, Items and Conveyances: Boat"/>
+    <tango_index id="52" display_name="Tools, Items and Conveyances: Tools"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

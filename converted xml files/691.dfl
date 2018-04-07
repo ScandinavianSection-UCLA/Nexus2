@@ -1,0 +1,88 @@
+<story><story_id>691</story_id>
+  <publication_info>DS_II_E_115</publication_info>
+  <full_name>337 - 0.00 - DS_II_E_115</full_name>
+  <informant_id>337</informant_id>
+  <informant_last_name>Bonde</informant_last_name>
+  <informant_first_name>Maren Mogensen</informant_first_name>
+  <informant_full_name>L&#230;rerinde Maren Mogensen Bonde</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>902</place_id>
+      <name>Veders&#248;</name>
+      <display_name>Veders&#248; (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>397</place_id>
+      <name>Madum</name>
+      <display_name>Madum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>422</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_120</publication_info>
+      <full_name>123 - 3.19 - DS_II_E_120</full_name>
+      <url>data/stories/422.dfl</url>
+    </story>
+    <story><story_id>656</story_id>
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_E_119</publication_info>
+      <full_name>539 - 0.00 - DS_II_E_119</full_name>
+      <url>data/stories/656.dfl</url>
+    </story>
+    <story><story_id>847</story_id>
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_E_117</publication_info>
+      <full_name>539 - 0.00 - DS_II_E_117</full_name>
+      <url>data/stories/847.dfl</url>
+    </story>
+    <story><story_id>546</story_id>
+      <informant_id>466</informant_id>
+      <publication_info>DS_II_E_108</publication_info>
+      <full_name>466 - 0.00 - DS_II_E_108</full_name>
+      <url>data/stories/546.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En kone i Madum har fortalt mig, at hendes fader havde kjendt en mand, der en dag gik og h&#246;stede korn i n&#230;rheden af en &#229;, og der kom han af vanvare til at s&#229;re en hugorm. Om middagen lagde han sig til at sove, men aldrig s&#229; snart han havde lagt sig, kom en hugorm og vilde sl&#229; ham. Han skj&#246;nnede nok, at det var dens mage, han havde s&#229;ret, der vilde h&#230;vne sig, og derfor tog han og kastede den over p&#229; den anden side af &#229;en, s&#229; var den da godt af vejen, syntes han, og s&#229; lagde han sig igjen rolig til at sove, men han v&#229;gnede ved et hugormeslag, s&#229; den fik sig alligevel h&#230;vnet.</danish_publication>
+  <english_publication>A woman in Madum told me that her father had known a man who one day had been out harvesting grain near a river and out of habit he wound up injuring a viper there. At noontime, he lay down to sleep, but no sooner had he lain down than a viper came and wanted to hit him. He noticed that it was just like the one he'd injured, and it wanted revenge, and so he took it and threw over to the other side of the river, and so then he figured that it was well out of the way, and so he lay quietly down to sleep again, but he woke with the hit of a viper bite, and so it got its revenge anyway.</english_publication>
+  <keywords>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>477</id><frequency>1</frequency><keyword>grain</keyword>grain</keyword>
+    <keyword><id>504</id><frequency>1</frequency><keyword>harvest</keyword>harvest</keyword>
+    <keyword><id>559</id><frequency>2</frequency><keyword>injury</keyword>injury</keyword>
+    <keyword><id>861</id><frequency>1</frequency><keyword>noon</keyword>noon</keyword>
+    <keyword><id>1028</id><frequency>2</frequency><keyword>revenge</keyword>revenge</keyword>
+    <keyword><id>1034</id><frequency>2</frequency><keyword>river</keyword>river</keyword>
+    <keyword><id>1142</id><frequency>2</frequency><keyword>sleep</keyword>sleep</keyword>
+    <keyword><id>1303</id><frequency>3</frequency><keyword>viper</keyword>viper</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+    <keyword><id>1365</id><frequency>1</frequency><keyword>wound</keyword>wound</keyword>
+  </keywords>
+  <etk_index><id>6</id>
+    <heading_danish>Lindorme og sm&#229;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>42</id><display_name>Places: Stream / River</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>76</id><display_name>Animals: Serpent / Snake</display_name></tango_index>
+    <tango_index><id>89</id><display_name>Actions or events: Injury</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>110</id><display_name>Time, Season, Weather: Noon</display_name></tango_index>
+    <tango_index><id>117</id><display_name>Time, Season, Weather: Fall</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

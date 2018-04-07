@@ -1,0 +1,46 @@
+<informant><person_id>522</person_id>
+  <core_informant/>
+  <full_name>Martinus Poulsen</full_name>
+  <last_name>Poulsen</last_name>
+  <first_name>Martinus</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>710</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>522</informant_id>
+      <publication_info>DS_V_1182</publication_info>
+      <full_name>522 - 0.00 - DS_V_1182</full_name>
+      <url>data/stories/710.dfl</url>
+      <place_recorded><id>889</id>Testrup</place_recorded>
+      <places_mentioned>
+        <place><id>1056</id>
+          <name>&#216;sl&#248;s</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>889</place_id>
+      <name>Testrup</name>
+      <display_name>Testrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1056</place_id>
+      <name>&#216;sl&#248;s</name>
+      <display_name>&#216;sl&#248;s (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<story story_id="726">
+  <publication_info>DS_II_A_74</publication_info>
+  <full_name>414 - 0.00 - DS_II_A_74</full_name>
+  <informant_id>414</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels Johansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>886</place_id>
+      <name>Svendborg</name>
+      <display_name>Svendborg (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="281">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_100</publication_info>
+      <full_name>235 - 1.60 - DS_II_A_100</full_name>
+      <url>data/stories/281.dfl</url>
+    </story>
+    <story story_id="220">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_57</publication_info>
+      <full_name>235 - 1.01 - DS_II_A_57</full_name>
+      <url>data/stories/220.dfl</url>
+    </story>
+    <story story_id="571">
+      <informant_id>240</informant_id>
+      <publication_info>DS_II_A_95</publication_info>
+      <full_name>240 - 0.00 - DS_II_A_95</full_name>
+      <url>data/stories/571.dfl</url>
+    </story>
+    <story story_id="572">
+      <informant_id>240</informant_id>
+      <publication_info>DS_II_A_96</publication_info>
+      <full_name>240 - 0.00 - DS_II_A_96</full_name>
+      <url>data/stories/572.dfl</url>
+    </story>
+    <story story_id="262">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_99</publication_info>
+      <full_name>235 - 1.42 - DS_II_A_99</full_name>
+      <url>data/stories/262.dfl</url>
+    </story>
+    <story story_id="498">
+      <informant_id>455</informant_id>
+      <publication_info>DS_II_A_59</publication_info>
+      <full_name>455 - 0.00 - DS_II_A_59</full_name>
+      <url>data/stories/498.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En pige har fortalt, at da hun var fuldvoksen, l&#xE5; hun og sov i en ellemose. Men da hun rejste sig, var hun forstyrret i hovedet og blev siden rent tosset. Da hun var tyve &#xE5;r, blev hun d&#xF6;bt i kirken og blev straks bedre. </danish_publication>
+  <english_publication>A hired girl told a story about when she was fully grown, she had lain and slept in an alder swamp. But when she got up, she was disturbed in the head and went totally crazy. When she was twenty, she was baptized in the church, and got better immediately.</english_publication>
+  <keywords>
+    <keyword id="17" frequency="1" keyword="alderwood">alderwood</keyword>
+    <keyword id="70" frequency="1" keyword="baptism">baptism</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="278" frequency="1" keyword="crazy">crazy</keyword>
+    <keyword id="340" frequency="1" keyword="disturbed">disturbed</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="1228" frequency="1" keyword="swamp">swamp</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="80" display_name="Actions or events: Church ceremony"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

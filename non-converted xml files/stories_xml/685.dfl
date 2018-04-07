@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<story story_id="685">
+  <publication_info>DS_IV_1680</publication_info>
+  <full_name>462 - 0.00 - DS_IV_1680</full_name>
+  <informant_id>462</informant_id>
+  <informant_last_name>Madelung</informant_last_name>
+  <informant_first_name>J. H.</informant_first_name>
+  <informant_full_name>Pastor J. H. Madelung</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>865</place_id>
+      <name>Sj&#xF8;rring, Tisted</name>
+      <display_name>Sj&#xF8;rring, Tisted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>635</place_id>
+      <name>Thisted</name>
+      <display_name>Thisted (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="392">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story story_id="530">
+      <informant_id>425</informant_id>
+      <publication_info>DS_IV_1684</publication_info>
+      <full_name>425 - 0.00 - DS_IV_1684</full_name>
+      <url>data/stories/530.dfl</url>
+    </story>
+    <story story_id="629">
+      <informant_id>474</informant_id>
+      <publication_info>DS_IV_1682</publication_info>
+      <full_name>474 - 0.00 - DS_IV_1682</full_name>
+      <url>data/stories/629.dfl</url>
+    </story>
+    <story story_id="723">
+      <informant_id>507</informant_id>
+      <publication_info>DS_IV_1679</publication_info>
+      <full_name>507 - 0.00 - DS_IV_1679</full_name>
+      <url>data/stories/723.dfl</url>
+    </story>
+    <story story_id="751">
+      <informant_id>479</informant_id>
+      <publication_info>DS_IV_1687</publication_info>
+      <full_name>479 - 0.00 - DS_IV_1687</full_name>
+      <url>data/stories/751.dfl</url>
+    </story>
+    <story story_id="648">
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1678</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1678</full_name>
+      <url>data/stories/648.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#xE5; den sorte d&#xF8;ds tid strandede et fremmed skib p&#xE5; vestsiden af Ty. Af mandskabet var de fleste d&#xF8;de, men nogle kom dog levende i land, der iblandt en biskop fra England, som trak sig tilbage for strandboerne, der n&#xE6;rmede sig, og i frastand lod dem forst&#xE5;, at pesten havde raset om bord p&#xE5; deres skib, samt at han selv og de &#xF8;vrige skibsfolk, der var komne i land, var syge og uundg&#xE5;elig m&#xE5;tte d&#xF8;, hvorfor han advarede dem fra at komme n&#xE6;rmere. Kystboerne agtede dog ikke p&#xE5; advarselen, og f&#xF8;lgen deraf blev, at de smittedes, og at pesten udbredte sig videre og ogs&#xE5; her i landet anrettede de st&#xF6;rste &#xF8;del&#xE6;ggelser. Sagnet m&#xE6;lder til sidst, at den omkomne biskop blev begraven her p&#xE5; kirkeg&#xE5;rden, hvor der desforuden findes et andet minde om hin s&#xF6;rgelige tid i en fordybning p&#xE5; kirkeg&#xE5;rden t&#xE6;t sydvest for kirken, der endnu kaldes pestkulen, og hvor der ikke findes spor af gl. grave, lige s&#xE5; lidt som den n&#xE6;rv&#xE6;rende sl&#xE6;gt har grave der.</danish_publication>
+  <english_publication>During the time of the black death, a foreign ship stranded on the west side of Thy. Most of the crew was dead, but some came ashore alive, among them a bishop from England, who held back from the people who lived there by the shore when they approached. He let it be known from a distance that the plague had raged aboard their ship and that he and the others who had made it ashore were sick and inevitably would die and so he warned them from coming any nearer. The people paid no attention to the warning and the result was that they were infected and then the plague spread even wider and also here in this country it resulted in great destruction. The legend tells lastly that the dead bishop was buried here in the cemetery. One can find another reminder of that sorrowful time there in the cemetery in a depression immediately to the south west of the church, which is still called the plague hole, where there are no traces of old graves even when their closest relatives have their graves at the cemetery.</english_publication>
+  <keywords>
+    <keyword id="54" frequency="1" keyword="attention">attention</keyword>
+    <keyword id="103" frequency="2" keyword="bishop">bishop</keyword>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="196" frequency="2" keyword="cemetery">cemetery</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="269" frequency="1" keyword="country">country</keyword>
+    <keyword id="317" frequency="4" keyword="death">death</keyword>
+    <keyword id="381" frequency="1" keyword="england">england</keyword>
+    <keyword id="435" frequency="1" keyword="foreign">foreign</keyword>
+    <keyword id="483" frequency="2" keyword="grave">grave</keyword>
+    <keyword id="705" frequency="1" keyword="legend">legend</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="959" frequency="3" keyword="plague">plague</keyword>
+    <keyword id="1101" frequency="2" keyword="ship">ship</keyword>
+    <keyword id="1108" frequency="1" keyword="shore">shore</keyword>
+    <keyword id="1111" frequency="1" keyword="sickness">sickness</keyword>
+    <keyword id="1163" frequency="1" keyword="sorrow">sorrow</keyword>
+    <keyword id="1167" frequency="1" keyword="south">south</keyword>
+    <keyword id="1204" frequency="1" keyword="stranded">stranded</keyword>
+    <keyword id="1331" frequency="2" keyword="west">west</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="10" display_name="People: Foreigner"/>
+    <tango_index id="39" display_name="Places: Ocean / Sea"/>
+    <tango_index id="47" display_name="Tools, Items and Conveyances: Boat"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

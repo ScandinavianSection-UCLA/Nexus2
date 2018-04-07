@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<story story_id="461">
+  <publication_info>DS_V_482</publication_info>
+  <full_name>329 - 0.00 - DS_V_482</full_name>
+  <informant_id>329</informant_id>
+  <informant_last_name>Berg</informant_last_name>
+  <informant_first_name>Ane Birgitte</informant_first_name>
+  <informant_full_name>L&#xE6;rerinde Ane Birgitte Berg</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>756</place_id>
+      <name>Bovlstrup</name>
+      <display_name>Bovlstrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>531</place_id>
+      <name>Skanderborg</name>
+      <display_name>Skanderborg (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>998</place_id>
+      <name>Odder</name>
+      <display_name>Odder (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="850">
+      <informant_id>454</informant_id>
+      <publication_info>DS_V_477</publication_info>
+      <full_name>454 - 0.00 - DS_V_477</full_name>
+      <url>data/stories/850.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En r&#xF6;ver fra Skanderborg blev halshugget i Odder. Hovedet blev liggende p&#xE5; gaden og ilde medhandlet, hvorfor pr&#xE6;sten tog det hjem og lagde det p&#xE5; sit loft. Dette bevirkede imidlertid, at der kom sp&#xF8;geri i pr&#xE6;steg&#xE5;rden, s&#xE5; hver nat klokken 12 sprang alle porte og d&#xF6;re op. Man begravede nu hovedet; men det kom stadig tilbage igjen. En karl, som har tjent i pr&#xE6;steg&#xE5;rden, har fortalt det, og han har ogs&#xE5; set hovedet.</danish_publication>
+  <english_publication>A robber from Skanderborg was decapitated in Odder. The head lay in the street and was abused and, because of this, the minister took it home and put it up in his attic. The result of that, in the meanwhile, was that the parsonage became haunted, so that every night at twelve, all the doors and gates sprang open. They buried the head then; but it kept coming back. A farmhand who worked in the parsonage told that story and he had also seen the head.</english_publication>
+  <keywords>
+    <keyword id="55" frequency="1" keyword="attic">attic</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="319" frequency="1" keyword="decapitate">decapitate</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="457" frequency="1" keyword="gate">gate</keyword>
+    <keyword id="508" frequency="1" keyword="haunting">haunting</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="906" frequency="2" keyword="parsonage">parsonage</keyword>
+    <keyword id="1037" frequency="1" keyword="robber">robber</keyword>
+    <keyword id="1208" frequency="1" keyword="street">street</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="113" display_name="Time, Season, Weather: Midnight"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

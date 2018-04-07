@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<story story_id="550">
+  <publication_info>DS_VII_1482</publication_info>
+  <full_name>549 - 0.00 - DS_VII_1482</full_name>
+  <informant_id>549</informant_id>
+  <informant_last_name>V&#xE5;nde</informant_last_name>
+  <informant_first_name>Jens Jensen</informant_first_name>
+  <informant_full_name>Jens Jensen V&#xE5;nde</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>826</place_id>
+      <name>L&#xF8;t, Lendum</name>
+      <display_name>L&#xF8;t, Lendum (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="427">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_1487</publication_info>
+      <full_name>123 - 3.24 - DS_VII_1487</full_name>
+      <url>data/stories/427.dfl</url>
+    </story>
+    <story story_id="712">
+      <informant_id>61</informant_id>
+      <publication_info>DS_VII_1481</publication_info>
+      <full_name>61 - 0.00 - DS_VII_1481</full_name>
+      <url>data/stories/712.dfl</url>
+    </story>
+    <story story_id="802">
+      <informant_id>404</informant_id>
+      <publication_info>DS_VII_1488</publication_info>
+      <full_name>404 - 0.00 - DS_VII_1488</full_name>
+      <url>data/stories/802.dfl</url>
+    </story>
+    <story story_id="465">
+      <informant_id>431</informant_id>
+      <publication_info>DS_II_G_334</publication_info>
+      <full_name>431 - 0.00 - DS_II_G_334</full_name>
+      <url>data/stories/465.dfl</url>
+    </story>
+    <story story_id="204">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_G_250</publication_info>
+      <full_name>241 - 4.32 - DSnr_II_G_250</full_name>
+      <url>data/stories/204.dfl</url>
+    </story>
+    <story story_id="785">
+      <informant_id>340</informant_id>
+      <publication_info>DS_II_G_317</publication_info>
+      <full_name>340 - 0.00 - DS_II_G_317</full_name>
+      <url>data/stories/785.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Dem, der er f&#xF8;dt i en sejrsskjorte, de er ikke til at overmande. Holger Danske var f&#xF8;dt i s&#xE5;dan &#xE9;n.</danish_publication>
+  <english_publication>The one who is born in a victory shirt cannot be overpowered. Holger Danske was born in one of those.</english_publication>
+  <keywords>
+    <keyword id="102" frequency="2" keyword="birth">birth</keyword>
+    <keyword id="533" frequency="1" keyword="holger_danske">Holger Danske</keyword>
+    <keyword id="1299" frequency="1" keyword="victory_shirt">victory shirt</keyword>
+  </keywords>
+  <etk_index id="30">
+    <heading_danish>Menneskets og kv&#xE6;gets sygdomme</heading_danish>
+    <heading_english>Human and cattle illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="20" display_name="People: Strong Man / Hero"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

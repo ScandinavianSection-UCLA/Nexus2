@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<story story_id="437">
+  <publication_info>DS_VII_1183</publication_info>
+  <full_name>212 - 0.00 - DS_VII_1183</full_name>
+  <informant_id>212</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>A. C.</informant_first_name>
+  <informant_full_name>A. C. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>828</place_id>
+      <name>Malle, L&#xF8;gst&#xF8;r</name>
+      <display_name>Malle, L&#xF8;gst&#xF8;r (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="145">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_1182</publication_info>
+      <full_name>241 - 1.04 - DS_VII_1182</full_name>
+      <url>data/stories/145.dfl</url>
+    </story>
+    <story story_id="705">
+      <informant_id>124</informant_id>
+      <publication_info>DS_VII_1179</publication_info>
+      <full_name>124 - 0.00 - DS_VII_1179</full_name>
+      <url>data/stories/705.dfl</url>
+    </story>
+    <story story_id="709">
+      <informant_id>356</informant_id>
+      <publication_info>DS_VII_1180</publication_info>
+      <full_name>356 - 0.00 - DS_VII_1180</full_name>
+      <url>data/stories/709.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Det kan undertiden h&#xE6;nde i en bondeg&#xE5;rd, at enhver sp&#xE6;dekalv, som s&#xE6;ttes ind i en vis bestemt b&#xF8;vl for sig selv, d&#xF8;er, inden den kan bindes i b&#xE5;s. Det bedste middel derimod er en gang at f&#xE5; &#xE9;n til at for&#xE6;re sig en kalv. Men slige uheld kan ogs&#xE5; skyldes visse &#xE5;rsager og afhj&#xE6;lpes ved at fjerne disse. S&#xE5;ledes s&#xF6;gte en gang en mand til en klog kone og fortalte hende, at alle hans kalve d&#xF8;de, som kom til at st&#xE5; i den og den sti, og han bad hende da om et r&#xE5;d derfor. Ja, det havde sine gode grunde, svarede konen, nu skulde han bare gj&#xF8;re rent i kalvestien, s&#xE5; fandt de nok en tilhuggen s&#xE6;ttesten (kantsten), den skulde tages bort, ti s&#xE5; l&#xE6;nge den var der, kunde ingen kalv leve i stien, men han m&#xE5;tte ikke give tabt, f&#xF6;r han fandt stenen, da det var ganske bestemt, at den fandtes der. Manden tog nu hjem med den besked og gav sig straks til at rydde op i kalvestien, men han gravede og gravede og fandt ingen sten. Endelig langt om l&#xE6;nge, da han var kommen to alen ned i jorden, fandt han ganske rigtig en lang, smal tilhuggen sten. Den blev nu tagen bort, og siden d&#xF8;de aldrig nogen kalv i stien.</danish_publication>
+  <english_publication>Sometimes it happens at farms that a newborn calf that is put in a manger alone dies before it can be put into a stall. The best defense against that is to get someone to give you a calf. But this kind of misfortune can also be due to certain things, and the situation can be improved by getting rid of these things. That's how a man once went and sought help from a cunning woman and he told her that his calves died if they stood in such and such a stall, and he asked her for advice. Yes, there were reasons for that, he should go ahead and clean the calf stall, they would likely find a carved runner stone, they should take that away, because as long as it was there, no calf would be able to live in the stall, but he must not stop until he found the stone, because it was quite certain it was there. The man went home with this message and immediately began cleaning the calf stall, but he dug and dug and didn't find a stone. Finally, after a long while, when he had gotten down four feet, he sure enough found a long, thin, carved stone. That was now taken away and after that not a single calf died in the stall.</english_publication>
+  <keywords>
+    <keyword id="12" frequency="1" keyword="advice">advice</keyword>
+    <keyword id="169" frequency="5" keyword="calf">calf</keyword>
+    <keyword id="182" frequency="2" keyword="carved">carved</keyword>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="317" frequency="3" keyword="death">death</keyword>
+    <keyword id="326" frequency="2" keyword="digging">digging</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="680" frequency="2" keyword="lamb">lamb</keyword>
+    <keyword id="739" frequency="1" keyword="manger">manger</keyword>
+    <keyword id="770" frequency="1" keyword="message">message</keyword>
+    <keyword id="788" frequency="1" keyword="misfortune">misfortune</keyword>
+    <keyword id="832" frequency="1" keyword="newborn">newborn</keyword>
+    <keyword id="1186" frequency="6" keyword="stall">stall</keyword>
+    <keyword id="1195" frequency="4" keyword="stone">stone</keyword>
+    <keyword id="1252" frequency="1" keyword="thin">thin</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

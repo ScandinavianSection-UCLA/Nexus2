@@ -1,0 +1,54 @@
+<informant><person_id>534</person_id>
+  <core_informant/>
+  <full_name>Jens Smed</full_name>
+  <last_name>Smed</last_name>
+  <first_name>Jens</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>573</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>534</informant_id>
+      <publication_info>DS_V_1546</publication_info>
+      <full_name>534 - 0.00 - DS_V_1546</full_name>
+      <url>data/stories/573.dfl</url>
+      <place_recorded><id>807</id>J&#230;vngryde</place_recorded>
+      <places_mentioned>
+        <place><id>807</id>
+          <name>J&#230;vngryde</name>
+        </place>
+        <place><id>651</id>
+          <name>T&#248;rring</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>807</place_id>
+      <name>J&#230;vngryde</name>
+      <display_name>J&#230;vngryde (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>651</place_id>
+      <name>T&#248;rring</name>
+      <display_name>T&#248;rring (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>807</place_id>
+      <name>J&#230;vngryde</name>
+      <display_name>J&#230;vngryde (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<story story_id="323">
+  <publication_info>JAT_VI_865</publication_info>
+  <full_name>235 - 4.01 - JAT_VI_865</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>4.01</order_told>
+  <fieldtrip id="12">Photo 1: August 1895</fieldtrip>
+  <fieldtrip_start_date>1895-08-01</fieldtrip_start_date>
+  <fieldtrip_end_date>1895-08-05</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>63</place_id>
+      <name>Bodholm</name>
+      <display_name>Bodholm (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>425</place_id>
+      <name>Nielstrup</name>
+      <display_name>Nielstrup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>503</place_id>
+      <name>Rud</name>
+      <display_name>Rud (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="315">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_V_109</publication_info>
+      <full_name>235 - 3.13 - JAT_V_109</full_name>
+      <url>data/stories/315.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7052b</fielddiary_page_start>
+  <fielddiary_page_end>7053a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Tang Kristensen recorded this short biographical sketch during his photographic trip with Peter Olsen.</annotation>
+  <danish_manuscript>Kirsten Marie Pedersdatter er f&#xF8;dt 27de Ok
+tober 1827 i Bovholm, Nielstrup, Rud
+s&#xF8;nden for Rud kirke. Hendes Moder er
+f&#xF8;dt i det sted der endnu er lige ved Kirken
+og Faderen fra Nielstrup, noget der kaldtes
+Sah&#xE5;le blev af min Bedstefader flyttet
+ud fra Byen ved Sahowlested, og til Kirken
+
+7053A
+Faderen kj&#xF8;bte senere en Gaard i Villen-
+drup og derfra er K.M. bleven gift.
+Har sine Historier fra sin Moder og 
+hun havde dem atter fra sin Fader
+H. kunde samle alle Folk om sig ved
+gilder. Var ogsaa fra Nielstrup.
+</danish_manuscript>
+  <english_manuscript>Kirsten Marie Pedersdatter was born the 27th of October, 1827 in Bodholm, Nielstrup, Rud, south of Rud church. Her mother was born in the house that is still right by the church and her father is from Nielstrup, something called Sahule, that was moved by my grandfather out of the town by Sahowlested, and to the church. Her father later bought a farm in Villendrup and K.M. was married from there. She has her stories from her mother and she had them from her father. He could gather all the people around him at parties. Was also from Nielstrup.</english_manuscript>
+  <danish_publication>Kirsten Marie Pedersdatter er f&#xF8;dt den 27. oktober 1827 i Bodholm i Nielstrup, Rud sogn, s&#xF8;nden for Rud kirke. Faderen var fra Nielstrup fra noget, der kaldes Sahule. Stedet blev af bedstefaderen flyttet ud fra byen og op til Sahulested. Moderen er f&#xF8;dt i det sted, der endnu er lige ved kirken. Senere kj&#xF6;bte faderen en g&#xE5;rd i Villendrup, som Kirsten Maries broder endnu har, og derfra er hun bleven gift. Sine historier og sagn har hun efter moderen, der atter havde dem fra sin fader, som ogs&#xE5; var fra Nielstrup. Ved gilder kunde han samle alle folk om sig, da han var s&#xE5; udm&#xE6;rket til at fort&#xE6;lle. Kirsten Marie blev gift med Niels M&#xF8;ller, og de boer endnu p&#xE5; Hornslet mark vesten for stationen. En af hendes d&#xF6;tre har taget l&#xE6;rerindeeksamen.</danish_publication>
+  <english_publication>Kirsten Marie Pedersdatter was born on the twenty-seventh of October, 1827 in Bodholm, Nielstrup, Rud, south of Rud church. Her father came from Nielstrup from a place called Sahule. It was moved by the grandfather out of the town and up to Sahulested. Her mother was born in the house that is still right by the church. Her father later bought a farm in Villendrup which Kirsten Marie's brother still has, and she was married from there. She has her stories from her mother and she had them from her father who was also from Nielstrup. At parties, he could gather all the people around him since he was such a good storyteller. Kirsten Marie married Niels M&#xF8;ller, and they still live on Hornslet mark, west of the station. One of her daughters has taken the teacher certification exam.</english_publication>
+  <keywords>
+    <keyword id="102" frequency="2" keyword="birth">birth</keyword>
+    <keyword id="148" frequency="1" keyword="brother">brother</keyword>
+    <keyword id="227" frequency="2" keyword="church">church</keyword>
+    <keyword id="304" frequency="1" keyword="daughter">daughter</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="399" frequency="3" keyword="father">father</keyword>
+    <keyword id="478" frequency="1" keyword="grandfather">grandfather</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="627" frequency="3" keyword="kirsten">Kirsten</keyword>
+    <keyword id="749" frequency="2" keyword="marie">Marie</keyword>
+    <keyword id="750" frequency="1" keyword="marie_pedersdatter">Marie Pedersdatter</keyword>
+    <keyword id="753" frequency="2" keyword="marriage">marriage</keyword>
+    <keyword id="803" frequency="2" keyword="mother">mother</keyword>
+    <keyword id="843" frequency="1" keyword="niels_m&#xF8;ller">Niels M&#xF8;ller</keyword>
+    <keyword id="907" frequency="1" keyword="party">party</keyword>
+    <keyword id="1167" frequency="1" keyword="south">south</keyword>
+    <keyword id="1200" frequency="1" keyword="story">story</keyword>
+    <keyword id="1242" frequency="1" keyword="teacher">teacher</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+  </keywords>
+  <etk_index id="36">
+    <heading_danish>Vore f&#xE6;dres tankes&#xE6;t og &#xE5;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

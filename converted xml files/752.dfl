@@ -1,0 +1,112 @@
+<story><story_id>752</story_id>
+  <publication_info>DS_VII_141</publication_info>
+  <full_name>550 - 0.00 - DS_VII_141</full_name>
+  <informant_id>550</informant_id>
+  <informant_last_name>V&#230;ver</informant_last_name>
+  <informant_first_name>Niels Nielsen</informant_first_name>
+  <informant_full_name>Niels Nielsen V&#230;ver</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>111</place_id>
+      <name>Dalby</name>
+      <display_name>Dalby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>327</place_id>
+      <name>Kj&#230;rteminde</name>
+      <display_name>Kj&#230;rteminde (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>402</place_id>
+      <name>Martofte</name>
+      <display_name>Martofte (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>146</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_146</publication_info>
+      <full_name>241 - 1.05 - DS_VII_146</full_name>
+      <url>data/stories/146.dfl</url>
+    </story>
+    <story><story_id>769</story_id>
+      <informant_id>333</informant_id>
+      <publication_info>DS_VII_145</publication_info>
+      <full_name>333 - 0.00 - DS_VII_145</full_name>
+      <url>data/stories/769.dfl</url>
+    </story>
+    <story><story_id>633</story_id>
+      <informant_id>217</informant_id>
+      <publication_info>DS_VII_144</publication_info>
+      <full_name>217 - 0.00 - DS_VII_144</full_name>
+      <url>data/stories/633.dfl</url>
+    </story>
+    <story><story_id>143</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_285</publication_info>
+      <full_name>241 - 1.02 - DS_VII_285</full_name>
+      <url>data/stories/143.dfl</url>
+    </story>
+    <story><story_id>412</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_169</publication_info>
+      <full_name>123 - 3.09 - DS_VII_169</full_name>
+      <url>data/stories/412.dfl</url>
+    </story>
+    <story><story_id>619</story_id>
+      <informant_id>422</informant_id>
+      <publication_info>DS_VII_106</publication_info>
+      <full_name>422 - 0.00 - DS_VII_106</full_name>
+      <url>data/stories/619.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en gammel kone i Martofte, der hed Ma &#214;sterg&#229;rds. Hun var s&#229; dygtig til at s&#230;lge sm&#248;r, men s&#229; en gang hun kom ud til Kj&#230;rteminde med hendes sm&#246;r, da havde hun taget fejl otting, og de blev ved at tage af den der ude, og den var lige fuld, den var ikke til at t&#246;mme. De slog den s&#229; i stykker, og da var der en stor skruptusse i bunden, det var den, der lavede sm&#248;rret. I den samme kones g&#229;rd tjente en karl, de kaldte Lars Rytter, og han var uens med hende. S&#229; en aften, han kom g&#229;ende hjem ad til g&#229;rden og kom forbi Kristen Andersens hus, da kom der en kat og sprang op p&#229; ham og rev ham i ansigtet. S&#229; siger han: "Du skal ikke komme til at gj&#248;re mig stort, for jeg v&#233;d D&#230;wlen l&#230;nke mig nok, du er Ma &#214;sterg&#229;rds." S&#229; forsvandt katten. Det passerede i gamle Lars Madsens g&#229;rd, for det var hans kone og Mads Larsens moder.</danish_publication>
+  <english_publication>There was an old woman in Martofte who was called Ma &#216;sterg&#229;rds. She was very good at selling butter, but one time when she came to Kj&#230;rteminde with her butter, she had taken the wrong container (eighth), and they kept taking from it there, it couldn't be emptied. They broke it into pieces, and then there was a large toad in the bottom, that was what was making the butter. A farmhand worked in the same woman's farm, they called him Lars Rytter, and he had a disagreement with her. Then one evening, he came walking along on his way home, and came past Kristen Andersen's house, when a cat came and jumped up on him and scratched his face. Then he says, "You aren't going to hurt me too bad, since I know, the devil chain me up, that you are Ma &#216;sterg&#229;rds." Then the cat disappeared. It happened in old Lars Madsen's farm, since that was his wife and Mads Larsen's mother.</english_publication>
+  <keywords>
+    <keyword><id>163</id><frequency>3</frequency><keyword>butter</keyword>butter</keyword>
+    <keyword><id>187</id><frequency>2</frequency><keyword>cat</keyword>cat</keyword>
+    <keyword><id>324</id><frequency>1</frequency><keyword>devil</keyword>devil</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>386</id><frequency>1</frequency><keyword>evening</keyword>evening</keyword>
+    <keyword><id>394</id><frequency>2</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>548</id><frequency>1</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>661</id><frequency>1</frequency><keyword>kristen_andersen</keyword>Kristen Andersen</keyword>
+    <keyword><id>688</id><frequency>1</frequency><keyword>lars_madsen</keyword>Lars Madsen</keyword>
+    <keyword><id>689</id><frequency>1</frequency><keyword>lars_rytter</keyword>Lars Rytter</keyword>
+    <keyword><id>731</id><frequency>1</frequency><keyword>mads_larsen</keyword>Mads Larsen</keyword>
+    <keyword><id>803</id><frequency>1</frequency><keyword>mother</keyword>mother</keyword>
+    <keyword><id>873</id><frequency>2</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1264</id><frequency>1</frequency><keyword>toad</keyword>toad</keyword>
+    <keyword><id>1343</id><frequency>1</frequency><keyword>wife</keyword>wife</keyword>
+    <keyword><id>1356</id><frequency>2</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>69</id><display_name>Animals: Cat</display_name></tango_index>
+    <tango_index><id>89</id><display_name>Actions or events: Injury</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>111</id><display_name>Time, Season, Weather: Evening</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

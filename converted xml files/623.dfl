@@ -1,0 +1,95 @@
+<story><story_id>623</story_id>
+  <publication_info>DS_I_869</publication_info>
+  <full_name>532 - 0.00 - DS_I_869</full_name>
+  <informant_id>532</informant_id>
+  <informant_last_name>Skovmand</informant_last_name>
+  <informant_first_name>Kr.</informant_first_name>
+  <informant_full_name>L&#230;rer Kr. Skovmand</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>844</place_id>
+      <name>&#216;st Marie, Bornholm</name>
+      <display_name>&#216;st Marie, Bornholm (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>212</place_id>
+      <name>Gudhjem</name>
+      <display_name>Gudhjem (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>239</place_id>
+      <name>H&#229;rkaraklippen</name>
+      <display_name>H&#229;rkaraklippen (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>14</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_111</publication_info>
+      <full_name>150 - 1.11 - Unpub_BJK_111</full_name>
+      <url>data/stories/14.dfl</url>
+    </story>
+    <story><story_id>205</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_627</publication_info>
+      <full_name>241 - 4.33 - DSnr_I_627</full_name>
+      <url>data/stories/205.dfl</url>
+    </story>
+    <story><story_id>296</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DSnr_I_240</publication_info>
+      <full_name>235 - 2.13 - DSnr_I_240</full_name>
+      <url>data/stories/296.dfl</url>
+    </story>
+    <story><story_id>388</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_830</publication_info>
+      <full_name>123 - 2.14 - DS_I_830</full_name>
+      <url>data/stories/388.dfl</url>
+    </story>
+    <story><story_id>561</story_id>
+      <informant_id>513</informant_id>
+      <publication_info>DS_I_889</publication_info>
+      <full_name>513 - 0.00 - DS_I_889</full_name>
+      <url>data/stories/561.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var nogle folk, der boede i Gudhjem lige op under en klippe, og de havde en datter, der sang s&#229; dejligt. Hun sang salmer, s&#229; det kunde h&#248;res langt ud, og det havde ogs&#229; frydet underjordsfolkene; de vilde gj&#230;rne have hende ned til dem og fik da ogs&#229; held til at stj&#230;le hende en gang. Hun forsvandt nemlig lige med &#233;t, og siden kunde de h&#248;re hende at synge inde i H&#229;rkaraklippen, det er en stor klippe nede ved havet.</danish_publication>
+  <english_publication>There were some people who lived in Gudhjem right below a cliff, and they had a daughter who sang beautifully. She sang psalms so one could hear them far away, and that had also delighted the underground dwellers; they wanted to bring her home to themselves and they also were lucky enough to steal her. She disappeared all at once, and since then they could hear her singing inside the H&#229;rkara cliff, that's a big cliff down by the sea.</english_publication>
+  <keywords>
+    <keyword><id>232</id><frequency>2</frequency><keyword>cliff</keyword>cliff</keyword>
+    <keyword><id>304</id><frequency>1</frequency><keyword>daughter</keyword>daughter</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>727</id><frequency>1</frequency><keyword>luck</keyword>luck</keyword>
+    <keyword><id>1002</id><frequency>1</frequency><keyword>psalms</keyword>psalms</keyword>
+    <keyword><id>1079</id><frequency>1</frequency><keyword>sea</keyword>sea</keyword>
+    <keyword><id>1122</id><frequency>3</frequency><keyword>singing</keyword>singing</keyword>
+    <keyword><id>1248</id><frequency>1</frequency><keyword>theft</keyword>theft</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>5</id><display_name>People: Children</display_name></tango_index>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>39</id><display_name>Places: Ocean / Sea</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>90</id><display_name>Actions or events: Kidnapping</display_name></tango_index>
+    <tango_index><id>93</id><display_name>Actions or events: Music</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

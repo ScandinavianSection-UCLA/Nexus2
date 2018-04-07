@@ -1,0 +1,87 @@
+<story><story_id>774</story_id>
+  <publication_info>DS_I_1</publication_info>
+  <full_name>402 - 0.00 - DS_I_1</full_name>
+  <informant_id>402</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>P.</informant_first_name>
+  <informant_full_name>Dyrl&#230;ge P. Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>664</place_id>
+      <name>Trunderup</name>
+      <display_name>Trunderup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>718</story_id>
+      <informant_id>541</informant_id>
+      <publication_info>DS_II_B_36</publication_info>
+      <full_name>541 - 0.00 - DS_II_B_36</full_name>
+      <url>data/stories/718.dfl</url>
+    </story>
+    <story><story_id>348</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_B_147</publication_info>
+      <full_name>90 - 2.16 - DS_II_B_147</full_name>
+      <url>data/stories/348.dfl</url>
+    </story>
+    <story><story_id>60</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_A_1</publication_info>
+      <full_name>150 - 2.13 - DS_II_A_1</full_name>
+      <url>data/stories/60.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der blev nisser og bj&#230;rgm&#230;nd og s&#229;dan noget til p&#229; den m&#229;de, at da Vorherre styrtede de onde engle ned fra himlen, s&#229; faldt nogle af dem p&#229; bj&#230;rge og banker, og det blev til bj&#230;rgm&#230;nd; nogle faldt i skove og moser, og det blev ellefolk, og de, der faldt ned i bygninger, blev til nisser. Det er jo sm&#229;dj&#230;vle alt sammen.
+     Hvor de ellers havde en nisse i g&#229;rdene forhen, der kunde de altid have kreaturer og heste i god stand, for nissen han gik og stjal fra naboerne og gav til sin egen g&#229;rds bes&#230;tning.</danish_publication>
+  <english_publication>Nisser and mound dwellers and things like that came into being because our Lord threw the evil angels down from heaven, and then some of them fell on mountains (bj&#230;rge) and hills, and they became bj&#230;rgm&#230;nd (mound dwellers); some fell in forests and swamps and they became elves, and those that fell down into buildings became nisser. They are small devils every one of them.            
+     Where ever a farm had a nisse, they could always keep cattle and horses in good condition because the nisse went and stole from the neighbors and gave the food to his own farm&#8217;s animals.</english_publication>
+  <keywords>
+    <keyword><id>35</id><frequency>1</frequency><keyword>angels</keyword>angels</keyword>
+    <keyword><id>37</id><frequency>1</frequency><keyword>animals</keyword>animals</keyword>
+    <keyword><id>155</id><frequency>1</frequency><keyword>buildings</keyword>buildings</keyword>
+    <keyword><id>190</id><frequency>1</frequency><keyword>cattle</keyword>cattle</keyword>
+    <keyword><id>324</id><frequency>1</frequency><keyword>devil</keyword>devil</keyword>
+    <keyword><id>373</id><frequency>1</frequency><keyword>elf</keyword>elf</keyword>
+    <keyword><id>387</id><frequency>1</frequency><keyword>evil</keyword>evil</keyword>
+    <keyword><id>392</id><frequency>3</frequency><keyword>fall</keyword>fall</keyword>
+    <keyword><id>394</id><frequency>2</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>438</id><frequency>1</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>519</id><frequency>1</frequency><keyword>heaven</keyword>heaven</keyword>
+    <keyword><id>530</id><frequency>1</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>805</id><frequency>2</frequency><keyword>mound_dweller</keyword>mound dweller</keyword>
+    <keyword><id>809</id><frequency>1</frequency><keyword>mountain</keyword>mountain</keyword>
+    <keyword><id>828</id><frequency>1</frequency><keyword>neighbor</keyword>neighbor</keyword>
+    <keyword><id>857</id><frequency>4</frequency><keyword>nisse</keyword>nisse</keyword>
+    <keyword><id>887</id><frequency>1</frequency><keyword>our_lord</keyword>Our Lord</keyword>
+    <keyword><id>1228</id><frequency>1</frequency><keyword>swamp</keyword>swamp</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>58</id><display_name>Supernatural Beings: Elf</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>65</id><display_name>Supernatural Beings: Nisse</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

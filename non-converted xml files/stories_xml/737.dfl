@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<story story_id="737">
+  <publication_info>DS_II_B_188</publication_info>
+  <full_name>358 - 0.00 - DS_II_B_188</full_name>
+  <informant_id>358</informant_id>
+  <informant_last_name>Ebbesen</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels Ebbesen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>32</place_id>
+      <name>Andrup</name>
+      <display_name>Andrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>257</place_id>
+      <name>Hesthave</name>
+      <display_name>Hesthave (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="182">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_B_212</publication_info>
+      <full_name>241 - 4.11 - DSnr_II_B_212</full_name>
+      <url>data/stories/182.dfl</url>
+    </story>
+    <story story_id="703">
+      <informant_id>413</informant_id>
+      <publication_info>DS_II_B_211</publication_info>
+      <full_name>413 - 0.00 - DS_II_B_211</full_name>
+      <url>data/stories/703.dfl</url>
+    </story>
+    <story story_id="518">
+      <informant_id>388</informant_id>
+      <publication_info>DS_II_B_183</publication_info>
+      <full_name>388 - 0.00 - DS_II_B_183</full_name>
+      <url>data/stories/518.dfl</url>
+    </story>
+    <story story_id="514">
+      <informant_id>429</informant_id>
+      <publication_info>DS_II_B_185</publication_info>
+      <full_name>429 - 0.00 - DS_II_B_185</full_name>
+      <url>data/stories/514.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Jens H&#xE5;rby p&#xE5; Hesthave stod sig sv&#xE6;rt godt med g&#xE5;rdboen. Det var skik at s&#xE6;tte s&#xF8;dgrod med dygtig sm&#xF6;r i ud til ham juleaften. Men nu var der noget kunster i Jens H&#xE5;rby, og han stopper da sm&#xF6;rret ned til bunden af fadet. Ud ad aftenen kommer g&#xE5;rdboen hen til gr&#xF8;den, og han bliver vred, g&#xE5;r op i n&#xF8;dset og sl&#xE5;r den bedste ko ihjel. Derefter g&#xE5;r han tilbage til gr&#xF8;den og finder sm&#xF6;rret. Nu vidste han, at der var mage til den ko ovre i Mors, de var bestemt p&#xE5; ens l&#xF8;d, og s&#xE5; bytter han dem om. Pigen kunde ikke kjende dem fra hinanden, da hun var ude at malke, men det kunde Jens H&#xE5;rby, og han fik g&#xE5;rdboen til at bekjende. Men de led jo ikke noget tab, for det var en meget bedre ko til brug.</danish_publication>
+  <english_publication>Jens H&#xE5;rby at Hesthave had a very good relationship with the nisse. It was the custom to leave sweet porridge with lots of butter in it out on Christmas eve for him. Now there was a bit of mischief in Jens H&#xE5;rby, and he pushes the butter all the way down to the bottom of the dish. Late at night, the nisse comes out to the porridge and he gets mad and he kills the best cow. After that he goes back to the porridge and finds the butter. Now he knew that there was a similar cow over in Mors, they looked exactly alike, and so he switches them. The girl couldn't tell the difference between the two when she went out to milk, but Jens H&#xE5;rby could and he got the nisse to admit it. But they didn't suffer any loss, since it was a much better cow.</english_publication>
+  <keywords>
+    <keyword id="11" frequency="1" keyword="admission">admission</keyword>
+    <keyword id="163" frequency="3" keyword="butter">butter</keyword>
+    <keyword id="225" frequency="1" keyword="christmas">Christmas</keyword>
+    <keyword id="274" frequency="3" keyword="cow">cow</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="580" frequency="3" keyword="jens_h&#xE5;rby">Jens H&#xE5;rby</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="782" frequency="1" keyword="milk">milk</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="857" frequency="3" keyword="nisse">nisse</keyword>
+    <keyword id="977" frequency="3" keyword="porridge">porridge</keyword>
+  </keywords>
+  <etk_index id="3">
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="65" display_name="Supernatural Beings: Nisse"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="109" display_name="Time, Season, Weather: Morning"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="118" display_name="Time, Season, Weather: Holiday"/>
+    <tango_index id="120" display_name="Time, Season, Weather: Christmas"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<story story_id="354">
+  <publication_info>JAT_VI_805</publication_info>
+  <full_name>90 - 2.22 - JAT_VI_805</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>2.22</order_told>
+  <fieldtrip id="9">October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>540</place_id>
+      <name>Skj&#xF8;dstrup</name>
+      <display_name>Skj&#xF8;dstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="352">
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1028</publication_info>
+      <full_name>90 - 2.20 - DS_VI_1028</full_name>
+      <url>data/stories/352.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4788b</fielddiary_page_start>
+  <fielddiary_page_end>4788b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Tang Kristensen finished the collecting session with these notations about local pronunciation. Margrete's unusual pronunciation of the word furrow, fonen (AMJ 2.20) triggers this observation. The contrasting remark, "Here in Mejlby...but in Skj&#xF8;dstrup" indicates that these may well be Margrete's comments and not simply Tang Kristensen's own observations.</annotation>
+  <danish_manuscript>Her siger de Fonen (s: Furen) men i Skj&#xF8;dstr.
+siger de F&#xE5;ren.
+</danish_manuscript>
+  <english_manuscript>Here in Mejlby they say "fonen" (furen) [furrow], but in Skj&#xF8;dstrup, they say f&#xE5;ren.</english_manuscript>
+  <danish_publication>Her (i Mejlby) siger de fonen (furen), men i Skj&#xF8;dstrup siger de f&#xE5;ren.</danish_publication>
+  <english_publication>Here (in Mejlby) they say &#x201C;fonen&#x201D; (furen), but in Skj&#xF8;dstrup, they say f&#xE5;ren.</english_publication>
+  <keywords/>
+  <etk_index id="36">
+    <heading_danish>Vore f&#xE6;dres tankes&#xE6;t og &#xE5;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="12" name="Dialect"/>
+</story>

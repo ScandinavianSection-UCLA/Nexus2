@@ -1,0 +1,80 @@
+<story><story_id>695</story_id>
+  <publication_info>DS_I_1043</publication_info>
+  <full_name>497 - 0.00 - DS_I_1043</full_name>
+  <informant_id>497</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Maren</informant_first_name>
+  <informant_full_name>Maren Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>763</place_id>
+      <name>Dalager</name>
+      <display_name>Dalager (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>406</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_1036</publication_info>
+      <full_name>123 - 3.03 - DS_I_1036</full_name>
+      <url>data/stories/406.dfl</url>
+    </story>
+    <story><story_id>820</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_I_1033</publication_info>
+      <full_name>69 - 0.00 - DS_I_1033</full_name>
+      <url>data/stories/820.dfl</url>
+    </story>
+    <story><story_id>454</story_id>
+      <informant_id>394</informant_id>
+      <publication_info>DS_I_1051</publication_info>
+      <full_name>394 - 0.00 - DS_I_1051</full_name>
+      <url>data/stories/454.dfl</url>
+    </story>
+    <story><story_id>658</story_id>
+      <informant_id>355</informant_id>
+      <publication_info>DS_I_975</publication_info>
+      <full_name>355 - 0.00 - DS_I_975</full_name>
+      <url>data/stories/658.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en tid, da der f&#248;dtes nogle b&#246;rn her, som var vanf&#248;re b&#229;de p&#229; sj&#230;l og legeme. Der var da is&#230;r to, der var s&#229; gruelig vanskabte, og det er ikke l&#230;ngere siden, end at jeg husker at have set det ene i min barndom, og jeg er nu snart fire og fyrretyve &#229;r. Det hed sig jo, at ellefolkene var kommen og havde byttet b&#246;rnene. Der var nogle folk her en gang, som havde taget deres barn med i marken og lagt det p&#229; jorden. Der var s&#229; kommet en ellekvinde, som havde taget det og sat sit eget i steden. For&#230;ldrene tog barnet med hjem, men var onde mod det. Da kom ellekvinden igjen med deres barn og vilde have sit barn byttet, "for du slog mit, men jeg kyssede dit."</danish_publication>
+  <english_publication>There was a time when some children were born here who were crippled both in body and soul. There were in particular two children who were so terribly crippled and it isn&#8217;t too long ago, since I remember seeing one of them in my childhood, and I&#8217;m now almost forty-four. It was said that the elves had come and switched the children. There were some people here once who had taken their child along to the field and lain it on the ground. Then an elf woman came who had taken it and put her own in its place. The parents took the child home but were cruel to it. Then the elf woman came again with their child and wanted her child switched back, &#8220;because you hit mine and I kissed yours.&#8221;</english_publication>
+  <keywords>
+    <keyword><id>102</id><frequency>1</frequency><keyword>birth</keyword>birth</keyword>
+    <keyword><id>118</id><frequency>1</frequency><keyword>body</keyword>body</keyword>
+    <keyword><id>218</id><frequency>1</frequency><keyword>childhood</keyword>childhood</keyword>
+    <keyword><id>219</id><frequency>6</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>373</id><frequency>3</frequency><keyword>elf</keyword>elf</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>630</id><frequency>1</frequency><keyword>kiss</keyword>kiss</keyword>
+    <keyword><id>901</id><frequency>1</frequency><keyword>parents</keyword>parents</keyword>
+    <keyword><id>1164</id><frequency>1</frequency><keyword>soul</keyword>soul</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>5</id><display_name>People: Children</display_name></tango_index>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>8</id><display_name>People: Farmwife</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>56</id><display_name>Supernatural Beings: Changeling</display_name></tango_index>
+    <tango_index><id>58</id><display_name>Supernatural Beings: Elf</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

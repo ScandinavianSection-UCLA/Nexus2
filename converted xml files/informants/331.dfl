@@ -1,0 +1,112 @@
+<informant><person_id>331</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer Lavst Nikolaj Bertelsen</full_name>
+  <last_name>Bertelsen</last_name>
+  <first_name>Lavst Nikolaj</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>641</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>331</informant_id>
+      <publication_info>DS_VI_1251</publication_info>
+      <full_name>331 - 0.00 - DS_VI_1251</full_name>
+      <url>data/stories/641.dfl</url>
+      <place_recorded><id>846</id>&#216;ster Vandet</place_recorded>
+      <places_mentioned>
+        <place><id>370</id>
+          <name>Limfjorden</name>
+        </place>
+        <place><id>635</id>
+          <name>Thisted</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>642</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_167</publication_info>
+      <full_name>331 - 0.00 - DS_VII_167</full_name>
+      <url>data/stories/642.dfl</url>
+      <place_recorded><id>846</id>&#216;ster Vandet</place_recorded>
+      <places_mentioned>
+        <place><id>1046</id>
+          <name>Vestervig</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>643</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_443</publication_info>
+      <full_name>331 - 0.00 - DS_VII_443</full_name>
+      <url>data/stories/643.dfl</url>
+      <place_recorded><id>846</id>&#216;ster Vandet</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>644</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_609</publication_info>
+      <full_name>331 - 0.00 - DS_VII_609</full_name>
+      <url>data/stories/644.dfl</url>
+      <place_recorded><id>846</id>&#216;ster Vandet</place_recorded>
+      <places_mentioned>
+        <place><id>50</id>
+          <name>Bedsted</name>
+        </place>
+        <place><id>211</id>
+          <name>Grurup</name>
+        </place>
+        <place><id>285</id>
+          <name>H&#248;rup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>846</place_id>
+      <name>&#216;ster Vandet</name>
+      <display_name>&#216;ster Vandet (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>211</place_id>
+      <name>Grurup</name>
+      <display_name>Grurup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>285</place_id>
+      <name>H&#248;rup</name>
+      <display_name>H&#248;rup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>50</place_id>
+      <name>Bedsted</name>
+      <display_name>Bedsted (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1046</place_id>
+      <name>Vestervig</name>
+      <display_name>Vestervig (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>635</place_id>
+      <name>Thisted</name>
+      <display_name>Thisted (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>370</place_id>
+      <name>Limfjorden</name>
+      <display_name>Limfjorden (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

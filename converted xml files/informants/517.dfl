@@ -1,0 +1,45 @@
+<informant><person_id>517</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer N. Kr. Pedersen</full_name>
+  <last_name>Pedersen</last_name>
+  <first_name>N. Kr.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>729</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>517</informant_id>
+      <publication_info>DS_V_1501</publication_info>
+      <full_name>517 - 0.00 - DS_V_1501</full_name>
+      <url>data/stories/729.dfl</url>
+      <place_recorded><id>786</id>Grynderup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>730</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>517</informant_id>
+      <publication_info>DS_II_E_210</publication_info>
+      <full_name>517 - 0.00 - DS_II_E_210</full_name>
+      <url>data/stories/730.dfl</url>
+      <place_recorded><id>786</id>Grynderup</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>786</place_id>
+      <name>Grynderup</name>
+      <display_name>Grynderup (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

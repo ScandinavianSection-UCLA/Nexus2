@@ -1,0 +1,62 @@
+<story><story_id>823</story_id>
+  <publication_info>DS_II_A_149</publication_info>
+  <full_name>69 - 0.00 - DS_II_A_149</full_name>
+  <informant_id>69</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#248;ren</informant_first_name>
+  <informant_full_name>S&#248;ren Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>243</place_id>
+      <name>H&#229;rup</name>
+      <display_name>H&#229;rup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>976</place_id>
+      <name>Laven</name>
+      <display_name>Laven (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>27</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_A_150</publication_info>
+      <full_name>150 - 1.24 - DS_II_A_150</full_name>
+      <url>data/stories/27.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Ogs&#229; fra Laven, som skjeller med Sejs, g&#229;r der sagn om ellefolk. Ved Milestederne var der s&#229;dan opfort en lille jordhytte, hvor den, som skulde passe milerne, kunde g&#229; i ly for vejret. Der br&#230;ndte gj&#230;rne en ild foran hytten, for at de kunde have den at varme sig p&#229; og tillige for at give lys, og en gammel mand s&#229; da tit ellefolkene komme og varme sig og dandse om ilden. Han vilde pr&#248;ve p&#229; at gj&#248;re dem forskr&#230;kkede og tog en brand ud af ilden og kastede efter &#233;n af dem. Men hvordan det s&#229; gik, vidste han ikke. Da han kom til sig selv igjen, var hans mile splittet ad, og han selv l&#229; et stykke fra jordhytten og var n&#230;sten stivfrossen.</danish_publication>
+  <english_publication>There are stories from Laven, which is separated from Sejs, about elves. A small earthen hut was built by the charcoal piles where the people who were supposed to watch the charcoal piles could take shelter from the weather. There was often a fire burning in front of the hut, so they could warm themselves by it and also so they could have some light, and a man often saw elves come and warm themselves and dance around the fire. He wanted to try and scare them and so he took an ember out of the fire and threw it at one of them. But he has no idea what happened next. When he regained consciousness, his charcoal pile was split apart and he himself lay a ways away from the earthen hut and was almost frozen solid.</english_publication>
+  <keywords>
+    <keyword><id>209</id><frequency>2</frequency><keyword>charcoal</keyword>charcoal</keyword>
+    <keyword><id>297</id><frequency>1</frequency><keyword>dancing</keyword>dancing</keyword>
+    <keyword><id>373</id><frequency>2</frequency><keyword>elf</keyword>elf</keyword>
+    <keyword><id>413</id><frequency>4</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>448</id><frequency>1</frequency><keyword>frozen</keyword>frozen</keyword>
+    <keyword><id>1200</id><frequency>1</frequency><keyword>story</keyword>story</keyword>
+    <keyword><id>1324</id><frequency>1</frequency><keyword>weather</keyword>weather</keyword>
+  </keywords>
+  <etk_index><id>2</id>
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>58</id><display_name>Supernatural Beings: Elf</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

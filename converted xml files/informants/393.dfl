@@ -1,0 +1,46 @@
+<informant><person_id>393</person_id>
+  <core_informant/>
+  <full_name>Peder Holskov</full_name>
+  <last_name>Holskov</last_name>
+  <first_name>Peder</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>792</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>393</informant_id>
+      <publication_info>DS_V_57</publication_info>
+      <full_name>393 - 0.00 - DS_V_57</full_name>
+      <url>data/stories/792.dfl</url>
+      <place_recorded><id>782</id>Gjesing</place_recorded>
+      <places_mentioned>
+        <place><id>120</id>
+          <name>D&#248;rup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>782</place_id>
+      <name>Gjesing</name>
+      <display_name>Gjesing (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>120</place_id>
+      <name>D&#248;rup</name>
+      <display_name>D&#248;rup (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

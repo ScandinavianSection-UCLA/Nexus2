@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<story story_id="823">
+  <publication_info>DS_II_A_149</publication_info>
+  <full_name>69 - 0.00 - DS_II_A_149</full_name>
+  <informant_id>69</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#xF8;ren</informant_first_name>
+  <informant_full_name>S&#xF8;ren Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>243</place_id>
+      <name>H&#xE5;rup</name>
+      <display_name>H&#xE5;rup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>976</place_id>
+      <name>Laven</name>
+      <display_name>Laven (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="27">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_A_150</publication_info>
+      <full_name>150 - 1.24 - DS_II_A_150</full_name>
+      <url>data/stories/27.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Ogs&#xE5; fra Laven, som skjeller med Sejs, g&#xE5;r der sagn om ellefolk. Ved Milestederne var der s&#xE5;dan opfort en lille jordhytte, hvor den, som skulde passe milerne, kunde g&#xE5; i ly for vejret. Der br&#xE6;ndte gj&#xE6;rne en ild foran hytten, for at de kunde have den at varme sig p&#xE5; og tillige for at give lys, og en gammel mand s&#xE5; da tit ellefolkene komme og varme sig og dandse om ilden. Han vilde pr&#xF8;ve p&#xE5; at gj&#xF8;re dem forskr&#xE6;kkede og tog en brand ud af ilden og kastede efter &#xE9;n af dem. Men hvordan det s&#xE5; gik, vidste han ikke. Da han kom til sig selv igjen, var hans mile splittet ad, og han selv l&#xE5; et stykke fra jordhytten og var n&#xE6;sten stivfrossen.</danish_publication>
+  <english_publication>There are stories from Laven, which is separated from Sejs, about elves. A small earthen hut was built by the charcoal piles where the people who were supposed to watch the charcoal piles could take shelter from the weather. There was often a fire burning in front of the hut, so they could warm themselves by it and also so they could have some light, and a man often saw elves come and warm themselves and dance around the fire. He wanted to try and scare them and so he took an ember out of the fire and threw it at one of them. But he has no idea what happened next. When he regained consciousness, his charcoal pile was split apart and he himself lay a ways away from the earthen hut and was almost frozen solid.</english_publication>
+  <keywords>
+    <keyword id="209" frequency="2" keyword="charcoal">charcoal</keyword>
+    <keyword id="297" frequency="1" keyword="dancing">dancing</keyword>
+    <keyword id="373" frequency="2" keyword="elf">elf</keyword>
+    <keyword id="413" frequency="4" keyword="fire">fire</keyword>
+    <keyword id="448" frequency="1" keyword="frozen">frozen</keyword>
+    <keyword id="1200" frequency="1" keyword="story">story</keyword>
+    <keyword id="1324" frequency="1" keyword="weather">weather</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

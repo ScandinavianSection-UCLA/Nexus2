@@ -1,0 +1,79 @@
+<story><story_id>449</story_id>
+  <publication_info>DS_II_F_4</publication_info>
+  <full_name>485 - 0.00 - DS_II_F_4</full_name>
+  <informant_id>485</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Anton</informant_first_name>
+  <informant_full_name>L&#230;rer Anton Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>832</place_id>
+      <name>Munkebj&#230;rgby</name>
+      <display_name>Munkebj&#230;rgby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>62</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_F_14</publication_info>
+      <full_name>150 - 2.15 - DS_II_F_14</full_name>
+      <url>data/stories/62.dfl</url>
+    </story>
+    <story><story_id>595</story_id>
+      <informant_id>387</informant_id>
+      <publication_info>DS_II_F_18</publication_info>
+      <full_name>387 - 0.00 - DS_II_F_18</full_name>
+      <url>data/stories/595.dfl</url>
+    </story>
+    <story><story_id>622</story_id>
+      <informant_id>449</informant_id>
+      <publication_info>DS_II_F_2</publication_info>
+      <full_name>449 - 0.00 - DS_II_F_2</full_name>
+      <url>data/stories/622.dfl</url>
+    </story>
+    <story><story_id>660</story_id>
+      <informant_id>364</informant_id>
+      <publication_info>DS_II_F_8</publication_info>
+      <full_name>364 - 0.00 - DS_II_F_8</full_name>
+      <url>data/stories/660.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>N&#229;r piger kryber n&#248;gne igjennem en f&#248;lleham, skal de kunne f&#248;de b&#246;rn lige s&#229; let, som n&#229;r et &#248;g foler... Varulven g&#229;r omkring i skikkelse af et vildt dyr eller en stor hund og graver sig ind under syldstenene.</danish_publication>
+  <english_publication>When girls crawl naked through a foal's skin, then they'll have children just as easily as a jade foals&#8230; The werewolf goes about in the shape of a wild animal or a big dog and digs itself in under the foundation stones of a house.</english_publication>
+  <keywords>
+    <keyword><id>37</id><frequency>1</frequency><keyword>animals</keyword>animals</keyword>
+    <keyword><id>219</id><frequency>1</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>326</id><frequency>1</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>343</id><frequency>1</frequency><keyword>dog</keyword>dog</keyword>
+    <keyword><id>427</id><frequency>2</frequency><keyword>foal</keyword>foal</keyword>
+    <keyword><id>440</id><frequency>1</frequency><keyword>foundation</keyword>foundation</keyword>
+    <keyword><id>467</id><frequency>1</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>548</id><frequency>1</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>571</id><frequency>1</frequency><keyword>jade</keyword>jade</keyword>
+    <keyword><id>821</id><frequency>1</frequency><keyword>naked</keyword>naked</keyword>
+    <keyword><id>1128</id><frequency>1</frequency><keyword>skin</keyword>skin</keyword>
+    <keyword><id>1195</id><frequency>1</frequency><keyword>stone</keyword>stone</keyword>
+    <keyword><id>1330</id><frequency>1</frequency><keyword>werewolf</keyword>werewolf</keyword>
+  </keywords>
+  <etk_index><id>7</id>
+    <heading_danish>Varulve og marer</heading_danish>
+    <heading_english>Werewolves and nightmares</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>67</id><display_name>Supernatural Beings: Werewolf</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<story story_id="829">
+  <publication_info>DS_IV_1707</publication_info>
+  <full_name>69 - 0.00 - DS_IV_1707</full_name>
+  <informant_id>69</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#xF8;ren</informant_first_name>
+  <informant_full_name>S&#xF8;ren Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>870</place_id>
+      <name>Skjolde</name>
+      <display_name>Skjolde (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>977</place_id>
+      <name>Hjarn&#xF8;</name>
+      <display_name>Hjarn&#xF8; (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>473</place_id>
+      <name>R&#xE5;rup</name>
+      <display_name>R&#xE5;rup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="459">
+      <informant_id>418</informant_id>
+      <publication_info>DS_IV_1705</publication_info>
+      <full_name>418 - 0.00 - DS_IV_1705</full_name>
+      <url>data/stories/459.dfl</url>
+    </story>
+    <story story_id="476">
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1711</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1711</full_name>
+      <url>data/stories/476.dfl</url>
+    </story>
+    <story story_id="803">
+      <informant_id>443</informant_id>
+      <publication_info>DS_IV_1702</publication_info>
+      <full_name>443 - 0.00 - DS_IV_1702</full_name>
+      <url>data/stories/803.dfl</url>
+    </story>
+    <story story_id="637">
+      <informant_id>245</informant_id>
+      <publication_info>DS_IV_1729</publication_info>
+      <full_name>245 - 0.00 - DS_IV_1729</full_name>
+      <url>data/stories/637.dfl</url>
+    </story>
+    <story story_id="392">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Den gang den sorte pest rasede her, da d&#xF8;de de alle p&#xE5; Hjarn&#xF8; s&#xE5; n&#xE6;r som &#xE9;n, og det var en gammel kone, der blev tilbage. Hun havde n&#xE6;r aldrig f&#xE5;et de d&#xF8;de begravet, for hun var b&#xE5;de gammel og svag. Endelig kom der folk over til &#xF8;en, og det f&#xF8;rste de s&#xE5; efter var, om de kunde finde ler til at bygge huse af. Der var efter pesten mange byer, hvor der ikke var et menneske i. Men s&#xE5; fandt nogle p&#xE5; at t&#xE6;nde b&#xE5;l om natten for at finde hverandre. Mange gik til kirke eller i marken eller byen, men d&#xF8;de, inden de kom hjem. Sygdommen kom med en nysen, og n&#xE5;r den syge havde nyst tre gange var han d&#xF8;d. Liget blev straks sort, og derfor fik pesten navnet af den sorte d&#xF8;d. Siden den tid har det v&#xE6;ret skik at sige til den, der nyser: Gud velsigne dig.
+     Jeg har ogs&#xE5; h&#xF8;rt fort&#xE6;lle, at den, der gravede grave p&#xE5; B&#xE5;rup kirkeg&#xE5;rd, kunde st&#xE5; og se, n&#xE5;r de kom med et lig ovre ved Klejs by (i samme sogn) og s&#xE5; endda selv komme f&#xF8;rst i graven, alts&#xE5; forend liget, de kom med fra Klejs.  </danish_publication>
+  <english_publication>During the time when the plague raged here, all the people on Hjan island died except for one, and that was an old woman who was left. She was almost unable to get all the dead buried since she was both old and weak. Finally people came over to the island, and the first thing they looked for was to see if they could find clay to build houses out of. After the plague, there were a lot of villages in which there wasn&#x2019;t a single person. But then some figured out that they could light fires at night to find each other. A lot went off to church or to work in the fields or to town but died before they got home. The sickness started with sneezing, and when the sick person had sneezed three times, he was dead. The corpse quickly became black, and therefore the plague got the name the black death. Since that time, it's been the custom to say to someone who sneezes: God bless you. 
+     I also heard told that the person who dug graves at R&#xE5;rup cemetery could stand and see when they came with a corpse from Klejs village (in the same parish) and then get to the grave first before the corpse they were bringing from Klejs.</english_publication>
+  <keywords>
+    <keyword id="106" frequency="2" keyword="black">black</keyword>
+    <keyword id="110" frequency="1" keyword="blessing">blessing</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="196" frequency="1" keyword="cemetery">cemetery</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="231" frequency="1" keyword="clay">clay</keyword>
+    <keyword id="262" frequency="3" keyword="corpse">corpse</keyword>
+    <keyword id="317" frequency="5" keyword="death">death</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="472" frequency="1" keyword="god">god</keyword>
+    <keyword id="483" frequency="2" keyword="grave">grave</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="565" frequency="2" keyword="island">island</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="873" frequency="2" keyword="old">old</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="959" frequency="3" keyword="plague">plague</keyword>
+    <keyword id="1111" frequency="2" keyword="sickness">sickness</keyword>
+    <keyword id="1149" frequency="3" keyword="sneeze">sneeze</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1300" frequency="2" keyword="village">village</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+    <keyword id="1361" frequency="1" keyword="work">work</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,77 @@
+<story><story_id>689</story_id>
+  <publication_info>DS_VI_21</publication_info>
+  <full_name>410 - 0.00 - DS_VI_21</full_name>
+  <informant_id>410</informant_id>
+  <informant_last_name>Jepsen</informant_last_name>
+  <informant_first_name>Mads</informant_first_name>
+  <informant_full_name>Ungkarl Mads Jepsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>759</place_id>
+      <name>Bredstrup</name>
+      <display_name>Bredstrup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>516</place_id>
+      <name>Seest m&#248;lle</name>
+      <display_name>Seest m&#248;lle (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>271</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_VI_2</publication_info>
+      <full_name>235 - 1.51 - DS_VI_2</full_name>
+      <url>data/stories/271.dfl</url>
+    </story>
+    <story><story_id>541</story_id>
+      <informant_id>538</informant_id>
+      <publication_info>DS_VI_33</publication_info>
+      <full_name>538 - 0.00 - DS_VI_33</full_name>
+      <url>data/stories/541.dfl</url>
+    </story>
+    <story><story_id>349</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1100</publication_info>
+      <full_name>90 - 2.17 - DS_VI_1100</full_name>
+      <url>data/stories/349.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Seest m&#248;lle var der for en god del &#229;r siden en m&#248;ller, der var, hvad man kalder en dobbeltgj&#230;nger. Ofte vidste folkene udtrykkelig, at han var til marked eller arbejdede flere mil fra hjemmet, og alligevel s&#229; de ham g&#229; omkring p&#229; marken og i udhusene. De holdt ikke af ham, ti aldrig kunde de tage sig det med ro, da han tit kom to steder p&#229; &#233;n gang. Ofte gik m&#248;llen midt om natten, og n&#229;r folkene s&#229; rejste sig, var der intet.</danish_publication>
+  <english_publication>Many years ago, there was a miller at Seest mill who was a doppelg&#228;nger (double walker). Often, people knew for sure that he had gone to market or was working many miles from home, and yet they saw him walking about in the outlying buildings or out in the fields. They didn't like him, because they could never relax since he often was two places at the same time. The mill often ran in the middle of the night, and when people got up to investigate, it was nothing.</english_publication>
+  <keywords>
+    <keyword><id>155</id><frequency>1</frequency><keyword>buildings</keyword>buildings</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>464</id><frequency>1</frequency><keyword>ghost</keyword>ghost</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>751</id><frequency>1</frequency><keyword>market</keyword>market</keyword>
+    <keyword><id>783</id><frequency>2</frequency><keyword>mill</keyword>mill</keyword>
+    <keyword><id>785</id><frequency>1</frequency><keyword>miller</keyword>miller</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1361</id><frequency>1</frequency><keyword>work</keyword>work</keyword>
+  </keywords>
+  <etk_index><id>27</id>
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>37</id><display_name>Places: Mill</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

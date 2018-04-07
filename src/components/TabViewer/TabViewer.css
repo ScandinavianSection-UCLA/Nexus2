@@ -1,0 +1,44 @@
+.tabs{
+
+}
+.tab{
+    display:none;
+}
+.tabs{
+    list-style:none;
+}
+.tabs li{
+    position:relative;
+    cursor:pointer;
+    display: inline;
+    padding:3px 2vw 3px 2vw;
+    margin:1px;
+    background-color: #dddddd;
+    border-radius:0 0 5px 5px;
+    border: 1px solid #909090;
+}
+.tabs li.active{
+    background-color: #ffffff;
+}
+.closeIcon{
+    width:.75em;
+    position:absolute;
+    top:30%;
+    right:5px;
+}
+.closeIcon.noClose{
+    display:none;
+}
+.closeIcon:hover{
+    border:1px solid black;
+    border-radius:100%;
+}
+.view{
+    height:89vh;
+}
+.associated-items{
+    cursor:pointer;
+}
+.pdfViewer .mgrpdf__wrapper canvas{
+    height:87vh !important;
+}

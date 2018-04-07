@@ -1,0 +1,87 @@
+<story><story_id>462</story_id>
+  <publication_info>DS_IV_1777</publication_info>
+  <full_name>417 - 0.00 - DS_IV_1777</full_name>
+  <informant_id>417</informant_id>
+  <informant_last_name>Justsdatter</informant_last_name>
+  <informant_first_name>Ane Bolette</informant_first_name>
+  <informant_full_name>Ane Bolette Justsdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>803</place_id>
+      <name>Imer, Klim</name>
+      <display_name>Imer, Klim (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>398</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_870</publication_info>
+      <full_name>123 - 2.24 - DS_III_870</full_name>
+      <url>data/stories/398.dfl</url>
+    </story>
+    <story><story_id>581</story_id>
+      <informant_id>375</informant_id>
+      <publication_info>DS_IV_1788</publication_info>
+      <full_name>375 - 0.00 - DS_IV_1788</full_name>
+      <url>data/stories/581.dfl</url>
+    </story>
+    <story><story_id>875</story_id>
+      <informant_id/>
+      <publication_info>DS_IV_1778</publication_info>
+      <full_name>0 - 0.00 - DS_IV_1778</full_name>
+      <url>data/stories/875.dfl</url>
+    </story>
+    <story><story_id>676</story_id>
+      <informant_id>377</informant_id>
+      <publication_info>DS_IV_1783</publication_info>
+      <full_name>377 - 0.00 - DS_IV_1783</full_name>
+      <url>data/stories/676.dfl</url>
+    </story>
+    <story><story_id>682</story_id>
+      <informant_id>494</informant_id>
+      <publication_info>DS_IV_1787</publication_info>
+      <full_name>494 - 0.00 - DS_IV_1787</full_name>
+      <url>data/stories/682.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Da pesten rasede i Ust troede de, at der skulde g&#229; en h&#230;vn over sognet, og s&#229; s&#246;gte de r&#229;d derfor. Der blev svaret, at sygdommen kunde ikke stilles, uden der blev et barn begravet levende. S&#229; skulde der have v&#230;ret kastet lod om, hvem der skulde levere barnet. Men s&#229; underkj&#246;bte de et fattigt barn til det. Det blev sat ned i graven med en meldmad i h&#229;nden, og s&#229; begyndte de at kaste jord p&#229; det. S&#229; sagde barnet: "I kaster snavs p&#229; mit sm&#246;rrebr&#248;d," og det var det sidste, de h&#248;rte af det.</danish_publication>
+  <english_publication>When the plague raged in Ust, they believed that it was a revenge against the parish, and they sought advice for this. They were told that the disease couldn&#8217;t be stopped unless a child was buried alive. So they were supposed to cast lots for who should provide the child. But instead they bought a poor child for that purpose. The child was put down in the grave with a sandwich in its hand, and then they began to toss dirt on it. Then the child said: "You&#8217;re throwing dirt on my sandwich," and that was the last they heard from the child.</english_publication>
+  <keywords>
+    <keyword><id>12</id><frequency>1</frequency><keyword>advice</keyword>advice</keyword>
+    <keyword><id>87</id><frequency>1</frequency><keyword>belief</keyword>belief</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>219</id><frequency>6</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>330</id><frequency>2</frequency><keyword>dirt</keyword>dirt</keyword>
+    <keyword><id>334</id><frequency>1</frequency><keyword>disease</keyword>disease</keyword>
+    <keyword><id>483</id><frequency>1</frequency><keyword>grave</keyword>grave</keyword>
+    <keyword><id>903</id><frequency>1</frequency><keyword>parish</keyword>parish</keyword>
+    <keyword><id>959</id><frequency>1</frequency><keyword>plague</keyword>plague</keyword>
+    <keyword><id>974</id><frequency>1</frequency><keyword>poor</keyword>poor</keyword>
+    <keyword><id>1028</id><frequency>1</frequency><keyword>revenge</keyword>revenge</keyword>
+    <keyword><id>1067</id><frequency>2</frequency><keyword>sandwich</keyword>sandwich</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>5</id><display_name>People: Children</display_name></tango_index>
+    <tango_index><id>49</id><display_name>Tools, Items and Conveyances: Food and Drink</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,45 @@
+<informant><person_id>429</person_id>
+  <core_informant/>
+  <full_name>Frederik Knudsen</full_name>
+  <last_name>Knudsen</last_name>
+  <first_name>Frederik</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>514</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>429</informant_id>
+      <publication_info>DS_II_B_185</publication_info>
+      <full_name>429 - 0.00 - DS_II_B_185</full_name>
+      <url>data/stories/514.dfl</url>
+      <place_recorded><id>738</id>Agerskov, Bording</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>515</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>429</informant_id>
+      <publication_info>DS_V_234</publication_info>
+      <full_name>429 - 0.00 - DS_V_234</full_name>
+      <url>data/stories/515.dfl</url>
+      <place_recorded><id>738</id>Agerskov, Bording</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>738</place_id>
+      <name>Agerskov, Bording</name>
+      <display_name>Agerskov, Bording (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

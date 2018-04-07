@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<story story_id="219">
+  <publication_info>JAT_II_200</publication_info>
+  <full_name>241 - 4.47 - JAT_II_200</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>4.47</order_told>
+  <fieldtrip id="8">May-June 1898</fieldtrip>
+  <fieldtrip_start_date>1898-05-23</fieldtrip_start_date>
+  <fieldtrip_end_date>1898-06-08</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>31</place_id>
+      <name>Ammitsb&#xF8;l</name>
+      <display_name>Ammitsb&#xF8;l (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>373</place_id>
+      <name>Linderumg&#xE5;rd</name>
+      <display_name>Linderumg&#xE5;rd (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="910">
+      <informant_id/>
+      <publication_info>JAT_II_192</publication_info>
+      <full_name>0 - 0.00 - JAT_II_192</full_name>
+      <url>data/stories/910.dfl</url>
+    </story>
+    <story story_id="421">
+      <informant_id>123</informant_id>
+      <publication_info>JAH_II_413</publication_info>
+      <full_name>123 - 3.18 - JAH_II_413</full_name>
+      <url>data/stories/421.dfl</url>
+    </story>
+    <story story_id="218">
+      <informant_id>241</informant_id>
+      <publication_info>JAT_II_194</publication_info>
+      <full_name>241 - 4.46 - JAT_II_194</full_name>
+      <url>data/stories/218.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7826b</fielddiary_page_start>
+  <fielddiary_page_end>7827a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The strength of the journeyman bricklayer, Ketting, reaches absurd proportions in this story. Bets between strongmen and their doubters are widely attested (PJ 3.18). In some stories, supernatural strength is related to eating cakes proffered by the mound dwellers (JAT II 192).</annotation>
+  <danish_manuscript>Der var en Mursvend der arbejde
+de her i Linderumsgaard for
+en 30 Aar siden, h. hed K&#xE6;tting
+og h. kunde l&#xF8;fte 2 Heste paa
+en G. Der var sp&#xE6;ndt D&#xE6;kkengjorde
+
+7827A
+om Hestene og s. kunde h. gaa ud imellem
+dem og tage dem. Han var 77 1/2 Tm h&#xF8;j. H.
+parerede en Dag med Forpagt paa Grden
+Ilag at dersom Hestene ikke kunde tage et
+L&#xE6;s af Grusgraven, s. kunde h. tage det med
+en Haand. Paa den Maade vandt h. 20 Da-
+ler. Forp. hed Ammidsb&#xF8;l. Kunde l&#xF8;fte
+en Kalkballe op paa [La] Murlaget som 2
+Mand ikke kunde l&#xF8;fte.</danish_manuscript>
+  <english_manuscript>There was a bricklayer journeyman who worked here in Linderumg&#xE5;rd thirty years ago, he was called K&#xE6;tting and he could lift two horses at once. A belt was strapped around the horses and then he could go in between them and lift them. He was seventy-seven and a half inches tall. Once he bet the feed master at the farm that he could pull a load of gravel from the pit with one hand that the horses couldn't pull. He won twenty rixdollars that way. The feed master was called Ammidsb&#xF8;l. He could lift a mortar tub up onto the wall which two men couldn't get off the ground.</english_manuscript>
+  <danish_publication>En murersvend, der hed Ketting, han arbejdede her i Linderumsg&#xE5;rd for en 30 &#xE5;r siden, og var s&#xE5; st&#xE6;rk, at han kunde l&#xF8;fte to heste p&#xE5; &#xE9;n gang. Der var sp&#xE6;ndt d&#xE6;kkengjorde om hestene, og s&#xE5; kunde han g&#xE5; ind imellem dem og tage dem. Han parerede en gang med forpagteren p&#xE5; g&#xE5;rden, han hed Ammidsb&#xF8;l, om, at dersom hestene ikke kunde tage et l&#xE6;s af grusgraven, s&#xE5; kunde han tage det med &#xE9;n h&#xE5;nd. P&#xE5; denne m&#xE5;de vandt han tyve daler. Han kunde l&#xF8;fte en kalkballe op p&#xE5; murlaget, som to mand ikke kunde l&#xF8;fte fra jorden, men han var ogs&#xE5; 77 &#xBD; tomme h&#xF6;j.</danish_publication>
+  <english_publication>A bricklayer journeyman who was named Ketting worked here in Linderumg&#xE5;rd thirty years ago. He was so strong that he could lift two horses at once. A belt was strapped around the horses and then he could go in between them and lift them. Once he bet the feed master at the farm, he was called Ammidsb&#xF8;l, that he could pull a load of gravel from the pit with one hand that the horses couldn't pull. He won twenty rixdollars that way. He could lift a mortar tub up onto the wall which two men couldn't get off the ground. But he was also seventy-seven and a half inches tall.</english_publication>
+  <keywords>
+    <keyword id="90" frequency="1" keyword="belt">belt</keyword>
+    <keyword id="93" frequency="1" keyword="bet">bet</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="545" frequency="3" keyword="horse">horse</keyword>
+    <keyword id="608" frequency="1" keyword="journeyman">journeyman</keyword>
+    <keyword id="757" frequency="1" keyword="master">master</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="1035" frequency="1" keyword="rix_dollars">rix dollars</keyword>
+    <keyword id="1089" frequency="1" keyword="seven">seven</keyword>
+    <keyword id="1180" frequency="1" keyword="stable">stable</keyword>
+    <keyword id="1209" frequency="1" keyword="strength">strength</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+  </keywords>
+  <etk_index id="32">
+    <heading_danish>Fra hoveriets tid</heading_danish>
+    <heading_english>From the time of villeinage</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="20" display_name="People: Strong Man / Hero"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="87" display_name="Actions or events: Gambling"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

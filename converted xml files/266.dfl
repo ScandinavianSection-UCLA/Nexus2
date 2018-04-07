@@ -1,0 +1,64 @@
+<story><story_id>266</story_id>
+  <publication_info>Unpub_KMP_146</publication_info>
+  <full_name>235 - 1.46 - Unpub_KMP_146</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.46</order_told>
+  <fieldtrip><id>7</id>May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>423</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_186</publication_info>
+      <full_name>123 - 3.20 - DS_II_E_186</full_name>
+      <url>data/stories/423.dfl</url>
+    </story>
+    <story><story_id>255</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_VII_1658</publication_info>
+      <full_name>235 - 1.35 - DS_VII_1658</full_name>
+      <url>data/stories/255.dfl</url>
+    </story>
+    <story><story_id>256</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_VII_1628</publication_info>
+      <full_name>235 - 1.36 - DS_VII_1628</full_name>
+      <url>data/stories/256.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5220b (3)</fielddiary_page_start>
+  <fielddiary_page_end>5220b (3)</fielddiary_page_end>
+  <bibliographic_info>MO III, 313</bibliographic_info>
+  <bibliography_references/>
+  <annotation>Kirsten Marie ends what amounts to a series of stories about wanderers, cunning folk, cures and spells with this ominous statement. It is likely that this short statement marked the end of the first half of the collecting session (MO 3, 313). Supporting this inference is a single line that Tang Kristensen drew across the page, a notation that he usually used to mark the end of a session.</annotation>
+  <danish_manuscript>Den der bliver bidt af en &#198;ve, de kan ikke
+l&#230;ges. Har Hoved i begge Ender.</danish_manuscript>
+  <english_manuscript>If a person gets bitten by a hawk moth caterpillar, they can't be cured. It has a head on both ends.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: If a person gets bitten by a hawk moth caterpillar, they can&#8217;t be cured. It has a head on both ends.</english_publication>
+  <keywords>
+    <keyword><id>188</id><frequency>1</frequency><keyword>caterpillar</keyword>caterpillar</keyword>
+    <keyword><id>289</id><frequency>1</frequency><keyword>cure</keyword>cure</keyword>
+    <keyword><id>510</id><frequency>1</frequency><keyword>hawkmoth</keyword>hawkmoth</keyword>
+  </keywords>
+  <etk_index><id>44</id>
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>89</id><display_name>Actions or events: Injury</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+    <tango_index><id>135</id><display_name>Animals: Insects</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

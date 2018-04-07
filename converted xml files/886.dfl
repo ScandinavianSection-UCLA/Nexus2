@@ -1,0 +1,76 @@
+<story><story_id>886</story_id>
+  <publication_info>DS_VI_87</publication_info>
+  <full_name>0 - 0.00 - DS_VI_87</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>925</place_id>
+      <name>Ovsted</name>
+      <display_name>Ovsted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>783</story_id>
+      <informant_id>467</informant_id>
+      <publication_info>DS_VI_75</publication_info>
+      <full_name>467 - 0.00 - DS_VI_75</full_name>
+      <url>data/stories/783.dfl</url>
+    </story>
+    <story><story_id>411</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VI_98</publication_info>
+      <full_name>123 - 3.08 - DS_VI_98</full_name>
+      <url>data/stories/411.dfl</url>
+    </story>
+    <story><story_id>549</story_id>
+      <informant_id>466</informant_id>
+      <publication_info>DS_VI_95</publication_info>
+      <full_name>466 - 0.00 - DS_VI_95</full_name>
+      <url>data/stories/549.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>J&#246;rgen Birkeb&#230;k knappede blot den &#248;verste del af hans vest, og folk fortalte om ham, at han havde gjort akkord med den Slemme, og han m&#229;tte komme og tage ham, n&#229;r han blev f&#230;rdig, men p&#229; den m&#229;de blev han aldrig f&#230;rdig med at tr&#230;kke i kl&#230;derne. Han var en s&#230;r tv&#230;r &#233;n til at svare. &#201;n spurgte: "Hvordan er dit boget i &#229;r, J&#246;rgen?" &#8212; "Trekantet." &#8212; "Jamen hvad giver det af sig?" &#8212; "S&#229; meget, som vi t&#230;rsker af det." P&#229; Kollemorten marked skulde han s&#230;lge en stud. "Hvad holder du den stud i?" &#8212; "I reb." &#8212; "Jamen hvor meget vil du have for den?" &#8212; "Penge." &#8212; "Ja, hvor mange?" &#8212; "S&#229; mange, som vi kan komme til rette om."</danish_publication>
+  <english_publication>J&#248;rgen Birkeb&#230;k only buttoned the top part of his vest, and people said that he had made a pact with the Evil One that he could come and take him when he'd finished dressing but, because of that, he never finished putting on his clothes. He was a hard one to get a straight answer from. "How is your buckwheat this year, J&#248;rgen?" -- "Triangular." -- "What does that give you?" -- "As much as we thresh from it." He was supposed to sell a steer at Kollemorten market. "What did you feed it [What did you hold it with]?" -- "Rope." -- "But what do you want for it?" -- "Money." -- "Sure, but how much?" -- "As much as we can agree on."</english_publication>
+  <keywords>
+    <keyword><id>15</id><frequency>1</frequency><keyword>agreement</keyword>agreement</keyword>
+    <keyword><id>153</id><frequency>1</frequency><keyword>buckwheat</keyword>buckwheat</keyword>
+    <keyword><id>164</id><frequency>1</frequency><keyword>button</keyword>button</keyword>
+    <keyword><id>236</id><frequency>1</frequency><keyword>clothing</keyword>clothing</keyword>
+    <keyword><id>387</id><frequency>1</frequency><keyword>evil</keyword>evil</keyword>
+    <keyword><id>569</id><frequency>2</frequency><keyword>j&#248;rgen</keyword>J&#248;rgen</keyword>
+    <keyword><id>606</id><frequency>2</frequency><keyword>j&#248;rgen</keyword>J&#248;rgen</keyword>
+    <keyword><id>751</id><frequency>1</frequency><keyword>market</keyword>market</keyword>
+    <keyword><id>793</id><frequency>1</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>893</id><frequency>1</frequency><keyword>pact</keyword>pact</keyword>
+    <keyword><id>1044</id><frequency>1</frequency><keyword>rope</keyword>rope</keyword>
+    <keyword><id>1190</id><frequency>1</frequency><keyword>steer</keyword>steer</keyword>
+    <keyword><id>1257</id><frequency>1</frequency><keyword>threshing</keyword>threshing</keyword>
+    <keyword><id>1370</id><frequency>1</frequency><keyword>year</keyword>year</keyword>
+  </keywords>
+  <etk_index><id>27</id>
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

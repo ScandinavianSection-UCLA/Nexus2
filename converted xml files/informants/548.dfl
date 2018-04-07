@@ -1,0 +1,62 @@
+<informant><person_id>548</person_id>
+  <core_informant/>
+  <full_name>Johan Vorm</full_name>
+  <last_name>Vorm</last_name>
+  <first_name>Johan</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>584</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>548</informant_id>
+      <publication_info>DS_I_265</publication_info>
+      <full_name>548 - 0.00 - DS_I_265</full_name>
+      <url>data/stories/584.dfl</url>
+      <place_recorded><id>883</id>Sundby</place_recorded>
+      <places_mentioned>
+        <place><id>155</id>
+          <name>Firebakke</name>
+        </place>
+        <place><id>227</id>
+          <name>Halds bakke</name>
+        </place>
+        <place><id>506</id>
+          <name>Rygs bakke</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>883</place_id>
+      <name>Sundby</name>
+      <display_name>Sundby (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>506</place_id>
+      <name>Rygs bakke</name>
+      <display_name>Rygs bakke (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>227</place_id>
+      <name>Halds bakke</name>
+      <display_name>Halds bakke (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>155</place_id>
+      <name>Firebakke</name>
+      <display_name>Firebakke (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<story story_id="708">
+  <publication_info>DS_IV_1512</publication_info>
+  <full_name>332 - 0.00 - DS_IV_1512</full_name>
+  <informant_id>332</informant_id>
+  <informant_last_name>Birk</informant_last_name>
+  <informant_first_name>Marie Kirstine</informant_first_name>
+  <informant_full_name>Marie Kirstine Birk</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>422</place_id>
+      <name>Navtrup</name>
+      <display_name>Navtrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1054</place_id>
+      <name>R&#xF8;verstuen i Borris</name>
+      <display_name>R&#xF8;verstuen i Borris (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="707">
+      <informant_id>332</informant_id>
+      <publication_info>DS_IV_1510</publication_info>
+      <full_name>332 - 0.00 - DS_IV_1510</full_name>
+      <url>data/stories/707.dfl</url>
+    </story>
+    <story story_id="832">
+      <informant_id>130</informant_id>
+      <publication_info>DS_IV_1518</publication_info>
+      <full_name>130 - 0.00 - DS_IV_1518</full_name>
+      <url>data/stories/832.dfl</url>
+    </story>
+    <story story_id="373">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1517</publication_info>
+      <full_name>123 - 1.01 - DS_IV_1517</full_name>
+      <url>data/stories/373.dfl</url>
+    </story>
+    <story story_id="627">
+      <informant_id>409</informant_id>
+      <publication_info>DS_IV_1535</publication_info>
+      <full_name>409 - 0.00 - DS_IV_1535</full_name>
+      <url>data/stories/627.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der er en fort&#xE6;lling om r&#xF6;vere, der skal stamme fra dem, der var i R&#xF6;verstuerne i Borris. I W&#xE5;tkj&#xE6;r var folk en dag i kirke s&#xE5; n&#xE6;r som en gammel kone. S&#xE5; seer hun, r&#xF6;verne kommer, og l&#xE5;ser d&#xF6;rene med en fart. En bitte dreng, der gik udenfor, ham truede de med at sl&#xE5; ihjel, hvis hun ikke lukkede op. Da lukte hun dem ind, og &#xE9;n af dem kom ind til en gammel kiste. Den skulde hun lukke op. S&#xE5; bildte hun r&#xF6;veren ind, at der var penge i en pose i den kiste, og manden vil nu rage ned, men hun tager i benene af ham og smider ham ned p&#xE5; hovedet og lukker s&#xE5; kisten i l&#xE5;se. S&#xE5; var hun af med ham, og i det samme kom folk fra kirke. Der kom bud til Lunden&#xE6;s, og de kom med deres folk og fik dem fingret.</danish_publication>
+  <english_publication>There&#x2019;s a story about some robbers who were supposed to be the descendants of those who were in the robber dens in Borris. In W&#xE5;tkj&#xE6;r, all the people were at church one day, except an old woman. Then she sees the robbers coming and she quickly locks the doors. A little boy who was walking outside, they threatened to kill him, unless she opened up. Then she let them in and one of them went over to an old chest. She was told to open it. Then she convinced one of the robbers that there was money in a bag in the chest so the man rummages down in it, but she takes his legs and tosses him down on his head into it and then locks the chest. So then she had gotten rid of him and at the same time the people came back from church. A message was sent over to Lunden&#xE6;s and they brought their people and caught them.</english_publication>
+  <keywords>
+    <keyword id="63" frequency="1" keyword="bags">bags</keyword>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="215" frequency="3" keyword="chest">chest</keyword>
+    <keyword id="227" frequency="2" keyword="church">church</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="770" frequency="1" keyword="message">message</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="873" frequency="2" keyword="old">old</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="1037" frequency="4" keyword="robber">robber</keyword>
+    <keyword id="1200" frequency="1" keyword="story">story</keyword>
+    <keyword id="1255" frequency="1" keyword="threat">threat</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

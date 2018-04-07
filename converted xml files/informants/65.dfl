@@ -1,0 +1,124 @@
+<informant><person_id>65</person_id>
+  <core_informant/>
+  <full_name>Jensine Hansen</full_name>
+  <last_name>Hansen</last_name>
+  <first_name>Jensine</first_name>
+  <gender>f</gender>
+  <birth_date>1859-02-13</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>32</occupation_id>huskone</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>574</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>65</informant_id>
+      <publication_info>DS_IV_1388</publication_info>
+      <full_name>65 - 0.00 - DS_IV_1388</full_name>
+      <url>data/stories/574.dfl</url>
+      <place_recorded><id>398</id>Madum s&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>1026</id>
+          <name>Obbelstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>575</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>65</informant_id>
+      <publication_info>DS_IV_1407</publication_info>
+      <full_name>65 - 0.00 - DS_IV_1407</full_name>
+      <url>data/stories/575.dfl</url>
+      <place_recorded><id>398</id>Madum s&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>154</id>
+          <name>Ferslev</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>576</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>65</informant_id>
+      <publication_info>DS_V_860</publication_info>
+      <full_name>65 - 0.00 - DS_V_860</full_name>
+      <url>data/stories/576.dfl</url>
+      <place_recorded><id>398</id>Madum s&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>388</id>
+          <name>Lund</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>577</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>65</informant_id>
+      <publication_info>DS_V_900</publication_info>
+      <full_name>65 - 0.00 - DS_V_900</full_name>
+      <url>data/stories/577.dfl</url>
+      <place_recorded><id>398</id>Madum s&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>37</id>
+          <name>Astrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>578</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>65</informant_id>
+      <publication_info>DS_VI_431</publication_info>
+      <full_name>65 - 0.00 - DS_VI_431</full_name>
+      <url>data/stories/578.dfl</url>
+      <place_recorded><id>398</id>Madum s&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>493</id>
+          <name>Rold skov</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>798</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>65</informant_id>
+      <publication_info>DS_V_289</publication_info>
+      <full_name>65 - 0.00 - DS_V_289</full_name>
+      <url>data/stories/798.dfl</url>
+      <place_recorded><id>398</id>Madum s&#248;</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>398</place_id>
+      <name>Madum s&#248;</name>
+      <display_name>Madum s&#248; (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>493</place_id>
+      <name>Rold skov</name>
+      <display_name>Rold skov (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>37</place_id>
+      <name>Astrup</name>
+      <display_name>Astrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>388</place_id>
+      <name>Lund</name>
+      <display_name>Lund (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>154</place_id>
+      <name>Ferslev</name>
+      <display_name>Ferslev (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1026</place_id>
+      <name>Obbelstrup</name>
+      <display_name>Obbelstrup (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

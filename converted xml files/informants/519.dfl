@@ -1,0 +1,54 @@
+<informant><person_id>519</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer H. Petersen</full_name>
+  <last_name>Petersen</last_name>
+  <first_name>H.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>522</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>519</informant_id>
+      <publication_info>DS_I_774</publication_info>
+      <full_name>519 - 0.00 - DS_I_774</full_name>
+      <url>data/stories/522.dfl</url>
+      <place_recorded><id>771</id>F&#229;rb&#230;k</place_recorded>
+      <places_mentioned>
+        <place><id>699</id>
+          <name>Viborg</name>
+        </place>
+        <place><id>273</id>
+          <name>Holstebro</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>771</place_id>
+      <name>F&#229;rb&#230;k</name>
+      <display_name>F&#229;rb&#230;k (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>273</place_id>
+      <name>Holstebro</name>
+      <display_name>Holstebro (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>699</place_id>
+      <name>Viborg</name>
+      <display_name>Viborg (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

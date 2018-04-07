@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<story story_id="283">
+  <publication_info>Unpub_KMP_162</publication_info>
+  <full_name>235 - 1.62 - Unpub_KMP_162</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.62</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>729</place_id>
+      <name>Vosn&#xE6;sg&#xE5;rd</name>
+      <display_name>Vosn&#xE6;sg&#xE5;rd (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned/>
+  <fielddiary_page_start>5230a</fielddiary_page_start>
+  <fielddiary_page_end>5230a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This unpublished story is probably not told by Kirsten Marie, and should not be considered part of her repertoire. The story was written in pencil in the field diaries, while all of Kirsten Marie's stories were written in ink. There is a line across the page below the preceding story, a mark that usually indicated that the collecting was complete.
+
+     After leaving Kirsten Marie, Tang Kristensen continued on to Ryumg&#xE5;rd, where he began collecting from Inger Marie Ravn; those stories are also written in ink. This story appears in between the last of Kirsten Marie's stories and the first of Inger Marie's stories. It may have been told by a teacher Christensen whom Tang Kristensen mentioned in his memoirs, although that seems unlikely since he wrote he collected aspects of Mols folk speech from him, and not a short story about Vosn&#xE6;sg&#xE5;rd. Interestingly, Vosn&#xE6;sg&#xE5;rd figures in the biography of Ane Margrete Jensdatter.</annotation>
+  <danish_manuscript>Jfr paa Vesn&#xE6;sgrd gik ud til en Stenkyll
+i Skoven et Sted. Ved Nattetid. De anklagede
+hende for at det var en Kj&#xE6;reste h. havde. Men
+s. blev det bevist at det var hendes Broder.</danish_manuscript>
+  <english_manuscript>The mistress at Vosn&#xE6;sg&#xE5;rd went out to a stone pile in the forest somewhere. At night. They accused her of having a lover. But then it was proved that it was her brother.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: The mistress at Vosn&#xE6;sg&#xE5;rd went out to a stone pile in the forest somewhere. At night. They accused her of having a lover. But then it was proved that it was her brother.</english_publication>
+  <keywords>
+    <keyword id="8" frequency="1" keyword="accused">accused</keyword>
+    <keyword id="148" frequency="1" keyword="brother">brother</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="726" frequency="1" keyword="love">love</keyword>
+    <keyword id="789" frequency="1" keyword="mistress">mistress</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+  </keywords>
+  <etk_index id="44">
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="9" name="Fragment"/>
+</story>

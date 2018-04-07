@@ -1,0 +1,74 @@
+<story><story_id>452</story_id>
+  <publication_info>DS_V_42</publication_info>
+  <full_name>510 - 0.00 - DS_V_42</full_name>
+  <informant_id>510</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Andreas</informant_first_name>
+  <informant_full_name>Dyrl&#230;ge Andreas Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>859</place_id>
+      <name>Sams&#248;</name>
+      <display_name>Sams&#248; (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>339</place_id>
+      <name>Kolby</name>
+      <display_name>Kolby (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>711</place_id>
+      <name>Visborg</name>
+      <display_name>Visborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>158</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_252</publication_info>
+      <full_name>241 - 2.08 - DS_V_252</full_name>
+      <url>data/stories/158.dfl</url>
+    </story>
+    <story><story_id>564</story_id>
+      <informant_id>158</informant_id>
+      <publication_info>DS_V_47</publication_info>
+      <full_name>158 - 0.00 - DS_V_47</full_name>
+      <url>data/stories/564.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Jens Madsen kjendte en gammel smed, der boede n&#230;r ved gaden gjennem Kolby. Han s&#229; hyppig om natten store flokke af svin, der l&#248;b gjennem Kolby og s&#248;nden p&#229; efter Visborg. Det var de berygtede Visborg svin, der ikke er sete i de senere &#229;r.</danish_publication>
+  <english_publication>Jens Madsen knew an old smith who lived near the road through Kolby. At night, he frequently saw large flocks of swine running through Kolby and on south toward Visborg. These were the well-known Visborg swine that haven't been seen in recent years.</english_publication>
+  <keywords>
+    <keyword><id>589</id><frequency>1</frequency><keyword>jens_madsen</keyword>Jens Madsen</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1146</id><frequency>1</frequency><keyword>smithing</keyword>smithing</keyword>
+    <keyword><id>1167</id><frequency>1</frequency><keyword>south</keyword>south</keyword>
+    <keyword><id>1235</id><frequency>2</frequency><keyword>swine</keyword>swine</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>44</id><display_name>Places: Town / Village</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>78</id><display_name>Animals: Swine</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

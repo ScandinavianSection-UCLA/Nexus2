@@ -1,0 +1,46 @@
+<informant><person_id>481</person_id>
+  <core_informant/>
+  <full_name>Pastor Otto M&#248;ller</full_name>
+  <last_name>M&#248;ller</last_name>
+  <first_name>Otto</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>786</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>481</informant_id>
+      <publication_info>DS_I_962</publication_info>
+      <full_name>481 - 0.00 - DS_I_962</full_name>
+      <url>data/stories/786.dfl</url>
+      <place_recorded><id>787</id>Gylling</place_recorded>
+      <places_mentioned>
+        <place><id>53</id>
+          <name>Bilsb&#230;k</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>787</place_id>
+      <name>Gylling</name>
+      <display_name>Gylling (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>53</place_id>
+      <name>Bilsb&#230;k</name>
+      <display_name>Bilsb&#230;k (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

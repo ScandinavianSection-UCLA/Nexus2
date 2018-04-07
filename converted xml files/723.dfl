@@ -1,0 +1,96 @@
+<story><story_id>723</story_id>
+  <publication_info>DS_IV_1679</publication_info>
+  <full_name>507 - 0.00 - DS_IV_1679</full_name>
+  <informant_id>507</informant_id>
+  <informant_last_name>Overg&#229;rd</informant_last_name>
+  <informant_first_name>Morten</informant_first_name>
+  <informant_full_name>Morten Overg&#229;rd</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>812</place_id>
+      <name>Kjelstrup, Tisted</name>
+      <display_name>Kjelstrup, Tisted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>865</place_id>
+      <name>Sj&#248;rring, Tisted</name>
+      <display_name>Sj&#248;rring, Tisted (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>392</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story><story_id>530</story_id>
+      <informant_id>425</informant_id>
+      <publication_info>DS_IV_1684</publication_info>
+      <full_name>425 - 0.00 - DS_IV_1684</full_name>
+      <url>data/stories/530.dfl</url>
+    </story>
+    <story><story_id>648</story_id>
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1678</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1678</full_name>
+      <url>data/stories/648.dfl</url>
+    </story>
+    <story><story_id>685</story_id>
+      <informant_id>462</informant_id>
+      <publication_info>DS_IV_1680</publication_info>
+      <full_name>462 - 0.00 - DS_IV_1680</full_name>
+      <url>data/stories/685.dfl</url>
+    </story>
+    <story><story_id>629</story_id>
+      <informant_id>474</informant_id>
+      <publication_info>DS_IV_1682</publication_info>
+      <full_name>474 - 0.00 - DS_IV_1682</full_name>
+      <url>data/stories/629.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Pesten skal v&#230;re kommen i land her vester for Sj&#246;rring ved et skib, og den udbr&#248;d, da folkene kom ud fra kirken, efter at de havde begravet de skibbrudne. Pr&#230;sten v&#230;ltede f&#248;rst om, lige da han stod og kastede muld p&#229; ligene. Det tog dem lige s&#229; fast, de nyste tre gange, og s&#229; v&#230;ltede de. Deraf kom den skik at sige: Gud velsigne dig. Folkene, der blev angrebne, blev helt sorte, og gr&#230;sset blev ogs&#229; sort, deraf kommer navnet den sorte d&#248;d. Over den d&#248;de bisps grav ligger en gammel, m&#230;rkelig ligsten, og der er p&#229; den indhugget en bispestav.</danish_publication>
+  <english_publication>The plague was supposed to have come ashore west of Sj&#248;rring with a ship, and it broke out when people came out from church after they had buried the shipwrecked. The minister keeled over first, just as he stood and tossed dirt on the corpses. It took them really fast: they sneezed three times and then they died. That is where the custom of saying "God bless you," comes from. People who were afflicted became totally black and the grass also became black, that&#8217;s where the name "The Black Death" comes from. Over the bishop&#8217;s grave there is an old strange headstone with a bishop&#8217;s staff engraved on it.</english_publication>
+  <keywords>
+    <keyword><id>103</id><frequency>2</frequency><keyword>bishop</keyword>bishop</keyword>
+    <keyword><id>106</id><frequency>3</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>110</id><frequency>1</frequency><keyword>blessing</keyword>blessing</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>262</id><frequency>1</frequency><keyword>corpse</keyword>corpse</keyword>
+    <keyword><id>317</id><frequency>2</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>330</id><frequency>1</frequency><keyword>dirt</keyword>dirt</keyword>
+    <keyword><id>472</id><frequency>1</frequency><keyword>god</keyword>god</keyword>
+    <keyword><id>481</id><frequency>1</frequency><keyword>grass</keyword>grass</keyword>
+    <keyword><id>483</id><frequency>1</frequency><keyword>grave</keyword>grave</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>822</id><frequency>1</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>959</id><frequency>1</frequency><keyword>plague</keyword>plague</keyword>
+    <keyword><id>1101</id><frequency>1</frequency><keyword>ship</keyword>ship</keyword>
+    <keyword><id>1149</id><frequency>1</frequency><keyword>sneeze</keyword>sneeze</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1331</id><frequency>1</frequency><keyword>west</keyword>west</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>47</id><display_name>Tools, Items and Conveyances: Boat</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,77 @@
+<story><story_id>293</story_id>
+  <publication_info>DS_II_E_213</publication_info>
+  <full_name>235 - 2.10 - DS_II_E_213</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>2.10</order_told>
+  <fieldtrip><id>10</id>October 1892</fieldtrip>
+  <fieldtrip_start_date>1892-10-09</fieldtrip_start_date>
+  <fieldtrip_end_date>1892-10-12</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>161</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_E_105</publication_info>
+      <full_name>241 - 2.11 - DSnr_II_E_105</full_name>
+      <url>data/stories/161.dfl</url>
+    </story>
+    <story><story_id>602</story_id>
+      <informant_id>536</informant_id>
+      <publication_info>DS_II_E_211</publication_info>
+      <full_name>536 - 0.00 - DS_II_E_211</full_name>
+      <url>data/stories/602.dfl</url>
+    </story>
+    <story><story_id>631</story_id>
+      <informant_id>217</informant_id>
+      <publication_info>DS_II_E_214</publication_info>
+      <full_name>217 - 0.00 - DS_II_E_214</full_name>
+      <url>data/stories/631.dfl</url>
+    </story>
+    <story><story_id>664</story_id>
+      <informant_id>492</informant_id>
+      <publication_info>DS_II_E_217</publication_info>
+      <full_name>492 - 0.00 - DS_II_E_217</full_name>
+      <url>data/stories/664.dfl</url>
+    </story>
+    <story><story_id>730</story_id>
+      <informant_id>517</informant_id>
+      <publication_info>DS_II_E_210</publication_info>
+      <full_name>517 - 0.00 - DS_II_E_210</full_name>
+      <url>data/stories/730.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5756a (2)</fielddiary_page_start>
+  <fielddiary_page_end>5756a (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Kirsten Marie's short description of the basilisk is unusual in that she does not actually name the creature. Other stories suggest that the basilisk hatches from the eggs of roosters (DS II E 210).</annotation>
+  <danish_manuscript>I Mj&#248;dt&#248;nderne kan der avles nogle store
+Dyr, der ordentlig kan slaa imod saa det kan skvalpe inden i
+dem.
+</danish_manuscript>
+  <english_manuscript>Some big animals could grow in mead casks that could really hit on the sides so that it would splash about inside them.</english_manuscript>
+  <danish_publication>I mj&#248;dt&#248;nderne kan der avles nogle store dyr, der ordentlig kan sl&#229; mod siderne, s&#229; det kan skvalpe inden i t&#248;nderne.</danish_publication>
+  <english_publication>Some big animals could grow in mead casks, and they could really hit on the sides so that it would splash about inside the casks.</english_publication>
+  <keywords>
+    <keyword><id>37</id><frequency>1</frequency><keyword>animals</keyword>animals</keyword>
+    <keyword><id>184</id><frequency>3</frequency><keyword>cask</keyword>cask</keyword>
+    <keyword><id>763</id><frequency>1</frequency><keyword>mead</keyword>mead</keyword>
+  </keywords>
+  <etk_index><id>6</id>
+    <heading_danish>Lindorme og sm&#229;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+    <tango_index><id>134</id><display_name>Supernatural Beings: Lindorm / Basilisk</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

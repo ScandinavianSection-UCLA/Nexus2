@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<story story_id="820">
+  <publication_info>DS_I_1033</publication_info>
+  <full_name>69 - 0.00 - DS_I_1033</full_name>
+  <informant_id>69</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#xF8;ren</informant_first_name>
+  <informant_full_name>S&#xF8;ren Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>243</place_id>
+      <name>H&#xE5;rup</name>
+      <display_name>H&#xE5;rup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="406">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_1036</publication_info>
+      <full_name>123 - 3.03 - DS_I_1036</full_name>
+      <url>data/stories/406.dfl</url>
+    </story>
+    <story story_id="695">
+      <informant_id>497</informant_id>
+      <publication_info>DS_I_1043</publication_info>
+      <full_name>497 - 0.00 - DS_I_1043</full_name>
+      <url>data/stories/695.dfl</url>
+    </story>
+    <story story_id="454">
+      <informant_id>394</informant_id>
+      <publication_info>DS_I_1051</publication_info>
+      <full_name>394 - 0.00 - DS_I_1051</full_name>
+      <url>data/stories/454.dfl</url>
+    </story>
+    <story story_id="14">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_111</publication_info>
+      <full_name>150 - 1.11 - Unpub_BJK_111</full_name>
+      <url>data/stories/14.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Bj&#xE6;rgmanden vilde komme og tage sm&#xE5; b&#xF6;rn fra folk og l&#xE6;gge sit eget i steden. Et s&#xE5;dant tilf&#xE6;lde indtraf en gang med en kone, som tydelig kunde se, at hun havde f&#xE5;et et bj&#xE6;rgmandsbarn, for det blev alle tider ved at v&#xE6;re s&#xE5; lille, det blev blot tykkere og tykkere. Derover klagede hun sin n&#xF8;d til alle og enhver. Men en dag kom en kone, som l&#xE6;rte hende et godt r&#xE5;d: "Du skal," sagde hun, "p&#xE5; s&#xF8;ndag og hver dag, du fejer dit gulv, l&#xE6;gge barnet ved d&#xF6;ren, ligesom du vilde feje det ud, s&#xE5; skal bj&#xE6;rgmanden snart komme med dit og tage sit eget igjen." Det gjorde hun ogs&#xE5;, og det varede heller ikke l&#xE6;nge, f&#xF6;r han kom, men vred var han. "Se," sagde han, "s&#xE5;dan har jeg ikke passet dit, som du har passet mit." Dermed tog han sit eget og forsvandt. Hvem der blev glad, det var konen, som havde f&#xE5;et sit eget barn igjen.</danish_publication>
+  <english_publication>The mound man would come and take little children from people and put his own in their place. This happened once to a woman who could clearly see that she had gotten the mound man&#x2019;s child, since it stayed little, it just got fatter and fatter. She complained about this to everybody. But one day a woman came and gave her some good advice: &#x201C;On Sunday and every day you sweep your floor, you should lay the child by the door, just like you were going to sweep it out, then the mound man will come soon with yours and take his own again,&#x201D; she said. She did that, too, and it didn&#x2019;t take too long before he came, but he was angry. &#x201C;Look,&#x201D; he said, &#x201C;I didn&#x2019;t take care of your child like you took care of my child.&#x201D; With that he took his own and disappeared. The one who was happy, that was the woman who had gotten her own child again.</english_publication>
+  <keywords>
+    <keyword id="12" frequency="1" keyword="advice">advice</keyword>
+    <keyword id="36" frequency="1" keyword="angry">angry</keyword>
+    <keyword id="219" frequency="6" keyword="children">children</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="422" frequency="1" keyword="floor">floor</keyword>
+    <keyword id="498" frequency="1" keyword="happy">happy</keyword>
+    <keyword id="807" frequency="3" keyword="mound_man">mound man</keyword>
+    <keyword id="1218" frequency="1" keyword="sunday">Sunday</keyword>
+    <keyword id="1232" frequency="2" keyword="sweep">sweep</keyword>
+    <keyword id="1356" frequency="3" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="56" display_name="Supernatural Beings: Changeling"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="102" display_name="Time, Season, Weather: Sunday"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

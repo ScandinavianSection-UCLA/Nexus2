@@ -1,0 +1,76 @@
+<story><story_id>558</story_id>
+  <publication_info>DS_IV_1696</publication_info>
+  <full_name>344 - 0.00 - DS_IV_1696</full_name>
+  <informant_id>344</informant_id>
+  <informant_last_name>B&#230;rtelsen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens B&#230;rtelsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>914</place_id>
+      <name>Vole</name>
+      <display_name>Vole (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>824</place_id>
+      <name>Lin&#229;</name>
+      <display_name>Lin&#229; (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>392</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story><story_id>459</story_id>
+      <informant_id>418</informant_id>
+      <publication_info>DS_IV_1705</publication_info>
+      <full_name>418 - 0.00 - DS_IV_1705</full_name>
+      <url>data/stories/459.dfl</url>
+    </story>
+    <story><story_id>466</story_id>
+      <informant_id>432</informant_id>
+      <publication_info>DS_IV_1695</publication_info>
+      <full_name>432 - 0.00 - DS_IV_1695</full_name>
+      <url>data/stories/466.dfl</url>
+    </story>
+    <story><story_id>637</story_id>
+      <informant_id>245</informant_id>
+      <publication_info>DS_IV_1729</publication_info>
+      <full_name>245 - 0.00 - DS_IV_1729</full_name>
+      <url>data/stories/637.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der d&#248;de s&#229; mange i Lin&#229; af den sorte pest, at der kun blev 2 b&#246;rn tilbage. De var lige s&#229; store, at de kunde g&#229; ene, og s&#229; gik de til hver sin side af den b&#230;k, der g&#229;r gjennem byen, men de kunde ikke g&#229; over den, og s&#229; stod de der og snakkede sammen.</danish_publication>
+  <english_publication>So many died in Lin&#229; of the Black Plague that there were only two children left. They were just big enough that they could walk alone, and so they went each on their side of the stream that flowed through the village, but they couldn&#8217;t cross it, and so they stood there and talked together.</english_publication>
+  <keywords>
+    <keyword><id>108</id><frequency>1</frequency><keyword>black_plague</keyword>Black Plague</keyword>
+    <keyword><id>219</id><frequency>1</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>1207</id><frequency>1</frequency><keyword>stream</keyword>stream</keyword>
+    <keyword><id>1300</id><frequency>1</frequency><keyword>village</keyword>village</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>5</id><display_name>People: Children</display_name></tango_index>
+    <tango_index><id>42</id><display_name>Places: Stream / River</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

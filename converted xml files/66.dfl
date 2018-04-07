@@ -1,0 +1,95 @@
+<story><story_id>66</story_id>
+  <publication_info>DS_I_576</publication_info>
+  <full_name>150 - 3.04 - DS_I_576</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.04</order_told>
+  <fieldtrip><id>6</id>May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1066</place_id>
+      <name>Lundb&#230;k</name>
+      <display_name>Lundb&#230;k (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>654</story_id>
+      <informant_id>504</informant_id>
+      <publication_info>DS_I_593</publication_info>
+      <full_name>504 - 0.00 - DS_I_593</full_name>
+      <url>data/stories/654.dfl</url>
+    </story>
+    <story><story_id>915</story_id>
+      <informant_id>573</informant_id>
+      <publication_info>DS_I_597</publication_info>
+      <full_name>573 - 0.00 - DS_I_597</full_name>
+      <url>data/stories/915.dfl</url>
+    </story>
+    <story><story_id>65</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_G_267</publication_info>
+      <full_name>150 - 3.03 - DS_II_G_267</full_name>
+      <url>data/stories/65.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4089a</fielddiary_page_start>
+  <fielddiary_page_end>4089a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens tells another story of a deaf mute person with second sight (BJK 3.03). Here, the indication is that the mound dwellers resent any tampering with their home.</annotation>
+  <danish_manuscript>Lars Kusk her i Ersted der [boede] tjente i Lundb&#230;k
+hos Baronen, har fortalt, at der var en 
+Dum, som opholdt sig der, maaske de
+fik noget for at have ham. S. var de en
+Dag ude for at grave en H&#248;j ud, og da Manden
+kom derud, fik h. da ham jaget v&#230;k. Den
+dumme pegte op ad i Vejret mod Himmelen og ned
+mod Jorden og gjorde s. mange Tegn og s.
+blev Baronen bange og sagde, de skulde
+lade H&#248;jen v&#230;re. De skulde have kj&#248;rt
+H&#248;jen hen i en Mergelgrav og alle andre
+steder vilde h. godt arbejde, men der vil-
+de h. ikke. H. pludrede og h. pegte og s.
+r&#230;dede h. Baronen v&#230;k, da h. kom ud
+til dem.</danish_manuscript>
+  <english_manuscript>Lars Kusk from Ersted, who worked for the baron at Lundb&#230;k, said that there was a mute person who lived there, perhaps they got something for having him there. One day they were out digging out a mound and when he came out there, they chased him away. The mute one pointed up to the sky and then down to the ground and made so many signs, and then the baron got scared and said that they should let the mound be. The mound was supposed to be driven off to a marl pit, and he'd work everywhere else but he wouldn't work there. He babbled and pointed, and then he scared the baron off, when he came out to them.</english_manuscript>
+  <danish_publication>Lars Kusk her i Ersted, der tjente i Lundb&#230;k hos baronen, har fortalt, at der var en dum, som opholdt sig der, m&#229;ske de fik noget for at have ham, og s&#229; var de en dag ude at grave en h&#246;j ud, og den dumme var med. Han pegte op ad i vejret og ned mod jorden og gjorde s&#229; mange tegn, og s&#229; blev baronen bange og sagde, at de skulde lade h&#246;jen v&#230;re. H&#246;jen skulde have v&#230;ret kj&#248;rt hen i en mergelgrav, og alle andre steder vilde den dumme godt arbejde, men p&#229; h&#246;jen vilde han ikke. Han stod blot og pludrede og pegte, og s&#229; r&#230;dede han baronen v&#230;k, da han kom ud til dem.</danish_publication>
+  <english_publication>Lars Kusk from Ersted, who&#8217;d worked for the baron at Lundb&#230;k, he said that there was a mute person who lived there, perhaps they got something for having him there, and one day they were out digging out a mound and the mute one had come along. He pointed up to the sky and then down to the ground and made so many signs, and then the baron got scared and said that they should let the mound be. The mound was supposed to be driven off to a marl pit, and the mute one would work everywhere except for on the mound. He&#8217;d just stand there babbling and pointing and then he scared the baron off when he came out to them.</english_publication>
+  <keywords>
+    <keyword><id>73</id><frequency>3</frequency><keyword>baron</keyword>baron</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>326</id><frequency>1</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>362</id><frequency>3</frequency><keyword>dumb</keyword>dumb</keyword>
+    <keyword><id>687</id><frequency>1</frequency><keyword>lars_kusk</keyword>Lars Kusk</keyword>
+    <keyword><id>804</id><frequency>4</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>1137</id><frequency>1</frequency><keyword>sky</keyword>sky</keyword>
+    <keyword><id>1361</id><frequency>1</frequency><keyword>work</keyword>work</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,90 @@
+<story><story_id>672</story_id>
+  <publication_info>DS_III_535</publication_info>
+  <full_name>281 - 0.00 - DS_III_535</full_name>
+  <informant_id>281</informant_id>
+  <informant_last_name>Sommer</informant_last_name>
+  <informant_first_name>Laust</informant_first_name>
+  <informant_full_name>Laust Sommer</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>369</place_id>
+      <name>Lille Taaning</name>
+      <display_name>Lille Taaning (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>925</place_id>
+      <name>Ovsted</name>
+      <display_name>Ovsted (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>189</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_III_1380</publication_info>
+      <full_name>241 - 4.17 - DSnr_III_1380</full_name>
+      <url>data/stories/189.dfl</url>
+    </story>
+    <story><story_id>417</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_528</publication_info>
+      <full_name>123 - 3.14 - DS_III_528</full_name>
+      <url>data/stories/417.dfl</url>
+    </story>
+    <story><story_id>526</story_id>
+      <informant_id>361</informant_id>
+      <publication_info>DS_III_533</publication_info>
+      <full_name>361 - 0.00 - DS_III_533</full_name>
+      <url>data/stories/526.dfl</url>
+    </story>
+    <story><story_id>739</story_id>
+      <informant_id>54</informant_id>
+      <publication_info>DS_III_527</publication_info>
+      <full_name>54 - 0.00 - DS_III_527</full_name>
+      <url>data/stories/739.dfl</url>
+    </story>
+    <story><story_id>778</story_id>
+      <informant_id>402</informant_id>
+      <publication_info>DS_III_529</publication_info>
+      <full_name>402 - 0.00 - DS_III_529</full_name>
+      <url>data/stories/778.dfl</url>
+    </story>
+    <story><story_id>846</story_id>
+      <informant_id>423</informant_id>
+      <publication_info>DS_III_531</publication_info>
+      <full_name>423 - 0.00 - DS_III_531</full_name>
+      <url>data/stories/846.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Her i T&#229;ning skulde de have en kirkeklokke, og den blev sejlet over havet sammen med Ovsted og Tandrup klokker. Skibet kom i havsn&#248;d, og s&#229; har de vel haft for stor last og har da kylt T&#229;ning klokke ud. Men de andre to kom i land og blev h&#230;ngt op. Den i Tandrup er en sv&#230;r klokke og lyder s&#229; kj&#246;nt; de kan h&#248;re den helt til Elling. Der har for resten v&#230;ret to klokker i Tandrup.</danish_publication>
+  <english_publication>They were supposed to get a church bell here in T&#229;ning, and it was sailed across the sea along with the bells for Ovsted and Tandrup. The ship ran into difficulty at sea, they probably had too big a cargo, and so they tossed the T&#229;ning bell overboard. But the other two made it ashore and were hung in their steeples. The one in Tandrup is a massive bell and has a beautiful sound; they can hear it all the way to Elling. By the way, there have been two bells in Tandrup.</english_publication>
+  <keywords>
+    <keyword><id>82</id><frequency>1</frequency><keyword>beautiful</keyword>beautiful</keyword>
+    <keyword><id>88</id><frequency>5</frequency><keyword>bells</keyword>bells</keyword>
+    <keyword><id>179</id><frequency>1</frequency><keyword>cargo</keyword>cargo</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>1060</id><frequency>1</frequency><keyword>sailing</keyword>sailing</keyword>
+    <keyword><id>1079</id><frequency>2</frequency><keyword>sea</keyword>sea</keyword>
+    <keyword><id>1101</id><frequency>1</frequency><keyword>ship</keyword>ship</keyword>
+    <keyword><id>1165</id><frequency>1</frequency><keyword>sounds</keyword>sounds</keyword>
+  </keywords>
+  <etk_index><id>12</id>
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>39</id><display_name>Places: Ocean / Sea</display_name></tango_index>
+    <tango_index><id>46</id><display_name>Tools, Items and Conveyances: Bell</display_name></tango_index>
+    <tango_index><id>47</id><display_name>Tools, Items and Conveyances: Boat</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

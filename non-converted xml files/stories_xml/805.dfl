@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<story story_id="805">
+  <publication_info>DS_II_A_131</publication_info>
+  <full_name>357 - 0.00 - DS_II_A_131</full_name>
+  <informant_id>357</informant_id>
+  <informant_last_name>Dyrholm</informant_last_name>
+  <informant_first_name>Rasmus</informant_first_name>
+  <informant_full_name>Rasmus Dyrholm</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>753</place_id>
+      <name>Bode</name>
+      <display_name>Bode (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>972</place_id>
+      <name>T&#xF8;jstrup</name>
+      <display_name>T&#xF8;jstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="758">
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_A_132</publication_info>
+      <full_name>348 - 0.00 - DS_II_A_132</full_name>
+      <url>data/stories/758.dfl</url>
+    </story>
+    <story story_id="696">
+      <informant_id>497</informant_id>
+      <publication_info>DS_II_A_118</publication_info>
+      <full_name>497 - 0.00 - DS_II_A_118</full_name>
+      <url>data/stories/696.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En karl fortalte mig f&#xF8;lgende: Hans fader tjente i T&#xF6;jstrup, og den gang gik skoven helt ned til T&#xF6;jstrup by, nu er der kanske en hel fjerdingvej op til den. Der i skoven var ellefolk, som var hule op ad ryggen. De kom tit hen til ham, n&#xE5;r han var hyrde, og de vilde gj&#xE6;rne liste hans meldmad fra ham, det var jo det, de gik efter. De gik ogs&#xE5; ind i byen og var slemme til at stj&#xE6;le der og tage deres katte. Dem spiste de, sagde man. Folkene skulde se n&#xF6;je p&#xE5;, at deres katte ikke var ene i stuen, for ellers snappede de dem.</danish_publication>
+  <english_publication>A farmhand told me the following: His father worked in T&#xF8;jstrup and at that time the woods went all the way down to T&#xF8;jstrup town, now there&#x2019;s practically a mile up to it. There in the woods there were elves who had hollow backs. They often came to him when he was a shepherd, and they wanted to steal his sandwich from him, that&#x2019;s what they were after. They also went into town and they were bad about stealing down there and taking people's cats. It was said that they ate them. People had to be careful that their cats weren&#x2019;t alone in the living room because otherwise they&#x2019;d snatch them.</english_publication>
+  <keywords>
+    <keyword id="187" frequency="2" keyword="cat">cat</keyword>
+    <keyword id="373" frequency="1" keyword="elf">elf</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="535" frequency="1" keyword="hollow">hollow</keyword>
+    <keyword id="1067" frequency="1" keyword="sandwich">sandwich</keyword>
+    <keyword id="1099" frequency="1" keyword="shepherd">shepherd</keyword>
+    <keyword id="1248" frequency="2" keyword="theft">theft</keyword>
+    <keyword id="1275" frequency="2" keyword="town">town</keyword>
+    <keyword id="1360" frequency="2" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="69" display_name="Animals: Cat"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<story story_id="600">
+  <publication_info>DS_II_G_87</publication_info>
+  <full_name>327 - 0.00 - DS_II_G_87</full_name>
+  <informant_id>327</informant_id>
+  <informant_last_name>Bak</informant_last_name>
+  <informant_first_name>J&#xF8;rgen Rasmussen</informant_first_name>
+  <informant_full_name>J&#xF8;rgen Rasmussen Bak</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>895</place_id>
+      <name>Tulstrup</name>
+      <display_name>Tulstrup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="285">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_G_85</publication_info>
+      <full_name>235 - 2.02 - DS_II_G_85</full_name>
+      <url>data/stories/285.dfl</url>
+    </story>
+    <story story_id="731">
+      <informant_id>347</informant_id>
+      <publication_info>DS_II_G_88</publication_info>
+      <full_name>347 - 0.00 - DS_II_G_88</full_name>
+      <url>data/stories/731.dfl</url>
+    </story>
+    <story story_id="827">
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_G_89</publication_info>
+      <full_name>69 - 0.00 - DS_II_G_89</full_name>
+      <url>data/stories/827.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Hver s&#xF8;ndag m&#xE5; Jerusalems skomager hvile sig en time under en harve. </danish_publication>
+  <english_publication>The Jerusalem's cobbler must rest every Sunday under a harrow.</english_publication>
+  <keywords>
+    <keyword id="242" frequency="1" keyword="cobbler">cobbler</keyword>
+    <keyword id="503" frequency="1" keyword="harrow">harrow</keyword>
+    <keyword id="1026" frequency="1" keyword="rest">rest</keyword>
+    <keyword id="1218" frequency="1" keyword="sunday">Sunday</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="51" display_name="Tools, Items and Conveyances: Plow"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="102" display_name="Time, Season, Weather: Sunday"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

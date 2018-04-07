@@ -1,0 +1,54 @@
+<informant><person_id>335</person_id>
+  <core_informant/>
+  <full_name>Harald Boisen</full_name>
+  <last_name>Boisen</last_name>
+  <first_name>Harald</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>520</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>335</informant_id>
+      <publication_info>DS_I_1098</publication_info>
+      <full_name>335 - 0.00 - DS_I_1098</full_name>
+      <url>data/stories/520.dfl</url>
+      <place_recorded><id>702</id>Viksn&#230;s</place_recorded>
+      <places_mentioned>
+        <place><id>621</id>
+          <name>Syvstykkeh&#248;jen</name>
+        </place>
+        <place><id>702</id>
+          <name>Viksn&#230;s</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>702</place_id>
+      <name>Viksn&#230;s</name>
+      <display_name>Viksn&#230;s (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>702</place_id>
+      <name>Viksn&#230;s</name>
+      <display_name>Viksn&#230;s (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>621</place_id>
+      <name>Syvstykkeh&#248;jen</name>
+      <display_name>Syvstykkeh&#248;jen (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

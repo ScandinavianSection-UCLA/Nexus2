@@ -1,0 +1,65 @@
+<story><story_id>624</story_id>
+  <publication_info>DS_I_50</publication_info>
+  <full_name>557 - 0.00 - DS_I_50</full_name>
+  <informant_id>557</informant_id>
+  <informant_last_name>Andersen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Andersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>915</place_id>
+      <name>Vore</name>
+      <display_name>Vore (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1039</place_id>
+      <name>&#216;ster Velling</name>
+      <display_name>&#216;ster Velling (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>132</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_43</publication_info>
+      <full_name>150 - 4.21 - DS_I_43</full_name>
+      <url>data/stories/132.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Nede i &#214;stervelling skov var en stor bakke, de kaldte Mandbj&#230;rg, og der var bj&#230;rgfolk i. Mens a var en lille dreng, passerede det, at en kone fra &#214;stervelling, der havde v&#230;ret nede i engen ved N&#246;rre-&#229;, kom g&#229;ende op gjennem skoven, og da s&#229; hun to sm&#229; drenge l&#248;be p&#229; den h&#246;j. S&#229; troede hun jo, det var hendes egen dreng og mig, og hun kaldte ad os og gik siden runden om h&#246;jen, men da var der ingen at hitte. S&#229; gik hun hjemad og skj&#230;ldte ud over de slemme drenge. Da hun kom til hjemmet, var vi der jo og havde ingen steder v&#230;ret. S&#229; kunde hun forst&#229;, at det var bj&#230;rgfolkene, hun havde set. De havde r&#248;de luer p&#229;, og s&#229;dan nogle brugte vi ogs&#229; den gang.</danish_publication>
+  <english_publication>Down in &#216;stervelling woods there was a big hill, which they called Mandbj&#230;rg, and there were mound dwellers in it. When I was a little boy, it happened that a woman from &#216;stervelling who had been down in the meadow near N&#248;rre river came walking up through the woods and then she saw two little boys running on the mound. Then she thought that it was her own boy and me and she called to us and then went around the mound, but then there was nobody to see. Then she went home, scolding the boys for being bad. When she got home, we were there and hadn&#8217;t gone anywhere. Then she realized that it was mound dwellers she had seen. They had red hats on and we wore ones like that at the time.</english_publication>
+  <keywords>
+    <keyword><id>130</id><frequency>4</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>506</id><frequency>1</frequency><keyword>hat</keyword>hat</keyword>
+    <keyword><id>530</id><frequency>1</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>537</id><frequency>2</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>764</id><frequency>1</frequency><keyword>meadow</keyword>meadow</keyword>
+    <keyword><id>804</id><frequency>2</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>805</id><frequency>2</frequency><keyword>mound_dweller</keyword>mound dweller</keyword>
+    <keyword><id>1021</id><frequency>1</frequency><keyword>red</keyword>red</keyword>
+    <keyword><id>1034</id><frequency>1</frequency><keyword>river</keyword>river</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+    <keyword><id>1360</id><frequency>2</frequency><keyword>woods</keyword>woods</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>5</id><display_name>People: Children</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>42</id><display_name>Places: Stream / River</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

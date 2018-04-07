@@ -1,0 +1,79 @@
+<story><story_id>566</story_id>
+  <publication_info>DS_II_D_40</publication_info>
+  <full_name>187 - 0.00 - DS_II_D_40</full_name>
+  <informant_id>187</informant_id>
+  <informant_last_name>Mark</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens Mark</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>720</place_id>
+      <name>Vokslev</name>
+      <display_name>Vokslev (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1025</place_id>
+      <name>Birkelse</name>
+      <display_name>Birkelse (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>483</story_id>
+      <informant_id>346</informant_id>
+      <publication_info>DS_II_D_48</publication_info>
+      <full_name>346 - 0.00 - DS_II_D_48</full_name>
+      <url>data/stories/483.dfl</url>
+    </story>
+    <story><story_id>540</story_id>
+      <informant_id>512</informant_id>
+      <publication_info>DS_II_D_45</publication_info>
+      <full_name>512 - 0.00 - DS_II_D_45</full_name>
+      <url>data/stories/540.dfl</url>
+    </story>
+    <story><story_id>280</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_D_50</publication_info>
+      <full_name>235 - 1.59 - DS_II_D_50</full_name>
+      <url>data/stories/280.dfl</url>
+    </story>
+    <story><story_id>294</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DSnr_II_D_39</publication_info>
+      <full_name>235 - 2.11 - DSnr_II_D_39</full_name>
+      <url>data/stories/294.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Ry &#229; er meget dyb, og den skal r&#229;be en gang hvert &#229;r: "Tiden er kommen, men manden er endnu ikke kommen," og s&#229; skal &#233;n drukne. S&#229; var det en gang i tolv &#229;r, der var ingen, der druknede, men da h&#230;ndte det, at tolv t&#230;rskere, der om vinteren havde v&#230;ret til hove p&#229; Birkelse og om aftenen gik hjem, de druknede alle tolv. For hvis det driver over et &#229;r eller flere, s&#229; tager &#229;en p&#229; &#233;n gang alle dem, den har til gode.</danish_publication>
+  <english_publication>Ry River is very deep, and it is supposed to yell out each year: &#8220;The time has come, but the man has yet to come,&#8221; and then somebody drowns. One time, nobody had drowned for twelve years, but then it happened that twelve threshers who had been working at Birkelse during the winter were walking home at night, all twelve of them drowned. Because if it is carried over one or more years, then the river takes all of them it has due all at once.</english_publication>
+  <keywords>
+    <keyword><id>358</id><frequency>3</frequency><keyword>drowning</keyword>drowning</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1034</id><frequency>2</frequency><keyword>river</keyword>river</keyword>
+    <keyword><id>1257</id><frequency>1</frequency><keyword>threshing</keyword>threshing</keyword>
+    <keyword><id>1361</id><frequency>1</frequency><keyword>work</keyword>work</keyword>
+    <keyword><id>1370</id><frequency>1</frequency><keyword>year</keyword>year</keyword>
+  </keywords>
+  <etk_index><id>5</id>
+    <heading_danish>Vandets &#229;nder</heading_danish>
+    <heading_english>Water spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>42</id><display_name>Places: Stream / River</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>85</id><display_name>Actions or events: Drowning</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

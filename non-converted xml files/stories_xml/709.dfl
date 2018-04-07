@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<story story_id="709">
+  <publication_info>DS_VII_1180</publication_info>
+  <full_name>356 - 0.00 - DS_VII_1180</full_name>
+  <informant_id>356</informant_id>
+  <informant_last_name>Dyrholm</informant_last_name>
+  <informant_first_name>Martin</informant_first_name>
+  <informant_full_name>Martin Dyrholm</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>761</place_id>
+      <name>Brudager</name>
+      <display_name>Brudager (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1055</place_id>
+      <name>Voermark</name>
+      <display_name>Voermark (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="145">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_1182</publication_info>
+      <full_name>241 - 1.04 - DS_VII_1182</full_name>
+      <url>data/stories/145.dfl</url>
+    </story>
+    <story story_id="705">
+      <informant_id>124</informant_id>
+      <publication_info>DS_VII_1179</publication_info>
+      <full_name>124 - 0.00 - DS_VII_1179</full_name>
+      <url>data/stories/705.dfl</url>
+    </story>
+    <story story_id="122">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_1181</publication_info>
+      <full_name>150 - 4.11 - DS_VII_1181</full_name>
+      <url>data/stories/122.dfl</url>
+    </story>
+    <story story_id="437">
+      <informant_id>212</informant_id>
+      <publication_info>DS_VII_1183</publication_info>
+      <full_name>212 - 0.00 - DS_VII_1183</full_name>
+      <url>data/stories/437.dfl</url>
+    </story>
+    <story story_id="156">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_VI_65</publication_info>
+      <full_name>241 - 2.06 - DSnr_VI_65</full_name>
+      <url>data/stories/156.dfl</url>
+    </story>
+    <story story_id="192">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_167</publication_info>
+      <full_name>241 - 4.20 - DS_VI_167</full_name>
+      <url>data/stories/192.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand, som har tjent i Voermark, har fortalt mig f&#xF8;lgende: "Da jeg tjente der, havde vi altid uheld med vore kalve; n&#xE5;r de var vokset noget til, s&#xE5; l&#xE5; de gj&#xE6;rne om morgenen og var d&#xF8;de i b&#xE5;sene. Vi hentede den kloge mand fra Fr&#xF8;rup; han kom en aften, da det var et forf&#xE6;rdeligt m&#xF8;rke og regnvejr. Jeg tilb&#xF8;d ham at f&#xF8;lge ham ud omkring med en lygte, han skulde nemlig have noget lagt under hver d&#xF8;rt&#xE6;rskel, hvor der var kreaturer inde; men han vilde ikke have mig med, han gik ene ud. Da han var f&#xE6;rdig, skulde jeg kj&#xF8;re ham til Fr&#xF8;rup; det vilde jeg n&#xF8;dig, da det var s&#xE5; m&#xF8;rkt. Jeg sagde til ham, at han kunde blive til n&#xE6;ste dag. Hertil svarede han nej. "Er jeg ikke ude af g&#xE5;rden inden kl. tolv, s&#xE5; g&#xE5;r det nok galt." Jeg m&#xE5;tte af sted med ham; men efter den tid trivedes vore kalve godt. Han havde dog glemt et sted, og det var f&#xE5;rehuset, s&#xE5; nu gik det ud over lammene, indtil vi flyttede huset, s&#xE5; var alting godt.</danish_publication>
+  <english_publication>A man who worked at Voermark told me the following: When I worked there, we always had misfortune with our calves; after they had grown a bit, they would often be lying dead in their stalls the next morning. We got the cunning man from Fr&#xF8;rup; he come one evening when it was really dark and rainy. I offered to follow him out there and around with a lantern, he was supposed to put something under the threshold of each stall where there were animals; but he didn't want me along, he went out alone. When he was done, I was to drive him to Fr&#xF8;rup; I didn't want to since it was so dark. I told him that he could stay until the next day. He answered no. "If I am not out of the farm by twelve o'clock, things will go wrong." I had to leave with him; but after that time, our calves did well. He had forgotten a place though, and that was the sheep house, and so now it affected the lambs, until we moved that house, and then everything was OK.</english_publication>
+  <keywords>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="169" frequency="2" keyword="calf">calf</keyword>
+    <keyword id="233" frequency="1" keyword="clock">clock</keyword>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="302" frequency="2" keyword="dark">dark</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="548" frequency="2" keyword="house">house</keyword>
+    <keyword id="680" frequency="1" keyword="lamb">lamb</keyword>
+    <keyword id="685" frequency="1" keyword="lantern">lantern</keyword>
+    <keyword id="788" frequency="1" keyword="misfortune">misfortune</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="1011" frequency="1" keyword="rain">rain</keyword>
+    <keyword id="1095" frequency="2" keyword="sheep">sheep</keyword>
+    <keyword id="1186" frequency="1" keyword="stall">stall</keyword>
+    <keyword id="1258" frequency="1" keyword="threshold">threshold</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="77" display_name="Animals: Sheep"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="113" display_name="Time, Season, Weather: Midnight"/>
+    <tango_index id="124" display_name="Time, Season, Weather: Rain"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

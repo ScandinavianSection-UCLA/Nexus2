@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<story story_id="701">
+  <publication_info>DS_VI_68</publication_info>
+  <full_name>378 - 0.00 - DS_VI_68</full_name>
+  <informant_id>378</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Louise</informant_first_name>
+  <informant_full_name>Louise Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>799</place_id>
+      <name>Hurup</name>
+      <display_name>Hurup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>71</place_id>
+      <name>Boller</name>
+      <display_name>Boller (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>629</place_id>
+      <name>T&#xE5;rs</name>
+      <display_name>T&#xE5;rs (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="552">
+      <informant_id>554</informant_id>
+      <publication_info>DS_VI_66</publication_info>
+      <full_name>554 - 0.00 - DS_VI_66</full_name>
+      <url>data/stories/552.dfl</url>
+    </story>
+    <story story_id="159">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1052</publication_info>
+      <full_name>241 - 2.09 - DS_IV_1052</full_name>
+      <url>data/stories/159.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der fortaltes om pastor Trap i T&#xE5;rs, at han var frimurer, hvorfor han ogs&#xE5; vidste, hvad dag og stund han skulde d&#xF8;. En dag bad han kusken om at sp&#xE6;nde for vognen, og han satte sig da op og bad ham om at kj&#xF8;re til hovedg&#xE5;rden Boller. N&#xE5;r han s&#xE5; kom ind i borgg&#xE5;rden, skulde han efter gammel skik kj&#xF8;re i ottetal om de store lindetr&#xE6;er og derp&#xE5; vende hestene og kj&#xF8;re tilbage den vej, han var kommen, uden at &#xE6;ndse p&#xE5; nogen ting. Men hvor forbavsedes man ikke p&#xE5; Boller, ti just som de stod med de allergladeste ansigter for at tage imod pr&#xE6;sten, vender kusken hestene og kj&#xF8;rer tilbage til T&#xE5;rs pr&#xE6;steg&#xE5;rd, alt hvad remmer og t&#xF6;j kan holde; pr&#xE6;sten bad nemlig kusken om at lade hestene l&#xF8;be, da det havde hastv&#xE6;rk. S&#xE5; snart han atter var kommen hjem, gik han ind og lagde sig i sengen og var d&#xF8;d. Han vilde blot p&#xE5; den m&#xE5;de tage afsked med sine venner i Boller, eftersom det var den sidste dag, han havde at leve i. Fort&#xE6;llersken har selv som barn kjendt den omtalte pr&#xE6;st.</danish_publication>
+  <english_publication>It was told about pastor Trap in T&#xE5;rs that he was a Freemason, and that is why he knew when he was going to die. One day, he asked his driver to hitch up the wagon, and he climbed up and asked him to drive over to Boller manor farm. When he got into the farm he was supposed to drive a figure eight around the large linden trees according to old custom, and thus turn the horses around and then drive back the way that he had come, without paying attention to anything. But imagine their surprise at Boller when, just as they stood there with happy faces ready to greet the minister, the driver turned the horses around and drove off as fast as the horses could go; the minister had asked the driver to let the horses run since they were in a hurry. As soon as they had gotten home, the minister went in and lay down on his bed and was dead. He just wanted to say goodbye to his friends in Boller that way, since it was his last day alive. The person who told this story had, as a child, known the minister.</english_publication>
+  <keywords>
+    <keyword id="54" frequency="1" keyword="attention">attention</keyword>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="317" frequency="2" keyword="death">death</keyword>
+    <keyword id="357" frequency="3" keyword="driver">driver</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="444" frequency="1" keyword="freemason">freemason</keyword>
+    <keyword id="445" frequency="1" keyword="friend">friend</keyword>
+    <keyword id="498" frequency="1" keyword="happy">happy</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="3" keyword="horse">horse</keyword>
+    <keyword id="742" frequency="1" keyword="manor_farm">manor farm</keyword>
+    <keyword id="786" frequency="3" keyword="minister">minister</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="908" frequency="1" keyword="pastor">pastor</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1281" frequency="1" keyword="tree">tree</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="34" display_name="Places: Manor / Castle"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

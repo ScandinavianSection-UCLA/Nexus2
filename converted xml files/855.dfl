@@ -1,0 +1,83 @@
+<story><story_id>855</story_id>
+  <publication_info>DS_V_384</publication_info>
+  <full_name>386 - 0.00 - DS_V_384</full_name>
+  <informant_id>386</informant_id>
+  <informant_last_name>Henneberg</informant_last_name>
+  <informant_first_name>U. N.</informant_first_name>
+  <informant_full_name>L&#230;rer U. N. Henneberg</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>868</place_id>
+      <name>Skals</name>
+      <display_name>Skals (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>868</place_id>
+      <name>Skals</name>
+      <display_name>Skals (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>612</story_id>
+      <informant_id>540</informant_id>
+      <publication_info>DS_V_386</publication_info>
+      <full_name>540 - 0.00 - DS_V_386</full_name>
+      <url>data/stories/612.dfl</url>
+    </story>
+    <story><story_id>845</story_id>
+      <informant_id>499</informant_id>
+      <publication_info>DS_IV_1289</publication_info>
+      <full_name>499 - 0.00 - DS_IV_1289</full_name>
+      <url>data/stories/845.dfl</url>
+    </story>
+    <story><story_id>378</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1163</publication_info>
+      <full_name>123 - 2.04 - DS_V_1163</full_name>
+      <url>data/stories/378.dfl</url>
+    </story>
+    <story><story_id>381</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1153</publication_info>
+      <full_name>123 - 2.07 - DS_V_1153</full_name>
+      <url>data/stories/381.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en kone, som havde druknet sig selv i Skals &#229;. Siden den tid gik hun igjen, og der var mange, som havde set hendes gjenf&#230;rd. Om det s&#229; var hendes r&#248;de skj&#246;rt og r&#248;de bind&#230;rmer, kunde man se dem. S&#229; var der en mand, som vilde snakke til hende, for at hun kunde f&#229; fred i sin grav. Men da han kom til hende og n&#230;vnede hende ved navn, sagde hun til ham: "Det kan ikke nytte noget; for lige s&#229; mange &#229;r som jeg er d&#248;d, forend bestemmelsen var, lige s&#229; mange &#229;r skal jeg vandre omkring ved det sted, hvor jeg har undlivet mig selv."</danish_publication>
+  <english_publication>There was a woman who had drowned herself in Skals river. Ever since, she has walked again and there were many who had seen her revenant. Either it was her red shirt or her red sleeves, one could see them. Then there was a man who wanted to talk to her so that she could have peace in her grave. But when he came to her and named her by name, she said to him: &#8220;It won&#8217;t help; just as many years that I died before I was supposed to, that&#8217;s how many years I will wander about the place where I killed myself.&#8221;</english_publication>
+  <keywords>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>358</id><frequency>1</frequency><keyword>drowning</keyword>drowning</keyword>
+    <keyword><id>483</id><frequency>1</frequency><keyword>grave</keyword>grave</keyword>
+    <keyword><id>622</id><frequency>1</frequency><keyword>kill</keyword>kill</keyword>
+    <keyword><id>822</id><frequency>2</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>1021</id><frequency>2</frequency><keyword>red</keyword>red</keyword>
+    <keyword><id>1027</id><frequency>1</frequency><keyword>revenant</keyword>revenant</keyword>
+    <keyword><id>1034</id><frequency>1</frequency><keyword>river</keyword>river</keyword>
+    <keyword><id>1102</id><frequency>1</frequency><keyword>shirt</keyword>shirt</keyword>
+    <keyword><id>1315</id><frequency>1</frequency><keyword>wandering</keyword>wandering</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>42</id><display_name>Places: Stream / River</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>96</id><display_name>Actions or events: Suicide</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

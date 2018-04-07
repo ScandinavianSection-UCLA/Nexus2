@@ -1,0 +1,56 @@
+<story><story_id>868</story_id>
+  <publication_info>DS_II_G_351</publication_info>
+  <full_name>0 - 0.00 - DS_II_G_351</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>709</place_id>
+      <name>Vinding</name>
+      <display_name>Vinding (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>83</place_id>
+      <name>Br&#230;dstrup</name>
+      <display_name>Br&#230;dstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>793</story_id>
+      <informant_id>535</informant_id>
+      <publication_info>DS_II_G_340</publication_info>
+      <full_name>535 - 0.00 - DS_II_G_340</full_name>
+      <url>data/stories/793.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Bruds&#248; ved Br&#230;dstrup skal der gro en birk op, hvor den tyrkiske konge skal binde hans hest. Nogle siger, at birken er kommen.</danish_publication>
+  <english_publication>In Brud lake in Br&#230;dstrup, a birch is supposed to grow, and the Turkish king is supposed to tie his horse there. Some say that the birch is already there.</english_publication>
+  <keywords>
+    <keyword><id>98</id><frequency>2</frequency><keyword>birch</keyword>birch</keyword>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>624</id><frequency>1</frequency><keyword>king</keyword>king</keyword>
+    <keyword><id>679</id><frequency>1</frequency><keyword>lake</keyword>lake</keyword>
+    <keyword><id>1261</id><frequency>1</frequency><keyword>tie</keyword>tie</keyword>
+  </keywords>
+  <etk_index><id>8</id>
+    <heading_danish>Religi&#248;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>40</id><display_name>Places: Pond / Lake</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

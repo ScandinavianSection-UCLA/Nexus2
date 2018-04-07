@@ -1,0 +1,67 @@
+<story><story_id>768</story_id>
+  <publication_info>DS_II_C_118</publication_info>
+  <full_name>555 - 0.00 - DS_II_C_118</full_name>
+  <informant_id>555</informant_id>
+  <informant_last_name>Worm</informant_last_name>
+  <informant_first_name>Ole</informant_first_name>
+  <informant_full_name>Ole Worm</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places/>
+  <stories_mentioned>
+    <story><story_id>404</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_C_120</publication_info>
+      <full_name>123 - 3.01 - DS_II_C_120</full_name>
+      <url>data/stories/404.dfl</url>
+    </story>
+    <story><story_id>715</story_id>
+      <informant_id>401</informant_id>
+      <publication_info>DS_II_C_112</publication_info>
+      <full_name>401 - 0.00 - DS_II_C_112</full_name>
+      <url>data/stories/715.dfl</url>
+    </story>
+    <story><story_id>764</story_id>
+      <informant_id>112</informant_id>
+      <publication_info>DS_II_C_104</publication_info>
+      <full_name>112 - 0.00 - DS_II_C_104</full_name>
+      <url>data/stories/764.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Det er almindeligt hos de gamle i sognene, at Gjems&#248; i gamle dage haver v&#230;ret kaldet Broby, men af en h&#230;ndelse skulde navnet forvendt blevet, ti der siges, at der en gang skulde en grif, som indbyggerne kalde en gam, kommet flyvendes og sat sig p&#229; et h&#246;jt bj&#230;rg hos byen, som kaldes Hellebj&#230;rget, og blev der siddendes hart ved to dage, og ingen midlertid turde g&#229; af sit hus eller lade sit kv&#230;g ud. Omsider haver de ladet en tyr ud p&#229; gaden og gik og b&#248;lede, og gammen blev hannem vaer og svingede til og tog ham i sin klo og fl&#246;j p&#229; bj&#230;rget igjen med hannem og fort&#230;rede hans blod og hans kj&#248;d. Derefter haver gammen fl&#246;jet sin vej. Og siden er byen kaldet Gamsh&#246;j og nu siden ved idelig brug kaldet Gjems&#248;.</danish_publication>
+  <english_publication>It is common knowledge among the old people in the local parishes that Gjems&#248; in the old days was called Broby, but because of something that happened the name was changed. They say that one time a griffen, called a gam by the people, came flying and sat itself down on a tall mountain near the town, called Hellebj&#230;rg, and sat there for two days, and nobody dared leave their house or let their cattle out. After a while, they let a bull out on the road and it went and brayed, and the gam became aware of it, and swung down and grabbed him in his claws and flew up on the mountain again with him, and ate his blood and his flesh. After that, the gam flew off on his way. And since then the town is called Gamsh&#248;j and now, after normal usage, Gjems&#248;.</english_publication>
+  <keywords>
+    <keyword><id>111</id><frequency>1</frequency><keyword>blood</keyword>blood</keyword>
+    <keyword><id>156</id><frequency>1</frequency><keyword>bull</keyword>bull</keyword>
+    <keyword><id>190</id><frequency>1</frequency><keyword>cattle</keyword>cattle</keyword>
+    <keyword><id>306</id><frequency>2</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>425</id><frequency>1</frequency><keyword>flying</keyword>flying</keyword>
+    <keyword><id>548</id><frequency>1</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>809</id><frequency>2</frequency><keyword>mountain</keyword>mountain</keyword>
+    <keyword><id>822</id><frequency>1</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>873</id><frequency>2</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>903</id><frequency>1</frequency><keyword>parish</keyword>parish</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1275</id><frequency>2</frequency><keyword>town</keyword>town</keyword>
+  </keywords>
+  <etk_index><id>4</id>
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

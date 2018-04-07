@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<story story_id="893">
+  <publication_info>DS_II_J_248</publication_info>
+  <full_name>347 - 0.00 - DS_II_J_248</full_name>
+  <informant_id>347</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>N. P.</informant_first_name>
+  <informant_full_name>Pastor N. P. Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>555</place_id>
+      <name>Smidstrup</name>
+      <display_name>Smidstrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>989</place_id>
+      <name>M&#xF8;lby</name>
+      <display_name>M&#xF8;lby (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="286">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_J_363</publication_info>
+      <full_name>235 - 2.03 - DS_II_J_363</full_name>
+      <url>data/stories/286.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gang stod en mand i hans d&#xF6;r i M&#xF8;lby, Spandet sogn, og det var lidt f&#xF6;r solen gik ned. Han s&#xE5; da et hus st&#xE5; i fuld brand. Ligesom han nu kalder p&#xE5; konen og folkene, at de skal se det, s&#xE5; var det hele forbi. Nu var han alts&#xE5; vis p&#xE5;, at Verresig-huset skulde br&#xE6;nde, og fortalte det til andre, og manden i huset var meget kjed af den historie. Men M&#xF8;lby-manden d&#xF8;de, og Verresig-manden d&#xF8;de, og huset st&#xF8;d endda. Omtrent firs &#xE5;r efter at forbranden var set, se s&#xE5; br&#xE6;ndte det en dag f&#xF6;r solnedgang.</danish_publication>
+  <english_publication>One time, a man stood in his doorway in M&#xF8;lby, Spandet parish, and it was a little bit before the sun set. Then he saw a house fully engulfed in flames. Just as he called to his wife and the others that they had to see this, it was all over. Now he became convinced that the Verresig house was going to burn, and he told others about it, and the man who lived there was quite upset by that story. But the man in M&#xF8;lby died, and then the man in Verresig died, and the house was still standing. About eighty years after the fire had been seen the house burned one day just before sunset.</english_publication>
+  <keywords>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="2" keyword="death">death</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="413" frequency="4" keyword="fire">fire</keyword>
+    <keyword id="548" frequency="4" keyword="house">house</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="1200" frequency="1" keyword="story">story</keyword>
+    <keyword id="1217" frequency="1" keyword="sun">sun</keyword>
+    <keyword id="1219" frequency="1" keyword="sunset">sunset</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="10">
+    <heading_danish>Lys og varsler</heading_danish>
+    <heading_english>Lights and portents</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

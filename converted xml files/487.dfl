@@ -1,0 +1,87 @@
+<story><story_id>487</story_id>
+  <publication_info>DS_I_676</publication_info>
+  <full_name>524 - 0.00 - DS_I_676</full_name>
+  <informant_id>524</informant_id>
+  <informant_last_name>Rasmussen</informant_last_name>
+  <informant_first_name>Chr.</informant_first_name>
+  <informant_full_name>Friskolel&#230;rer Chr. Rasmussen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>840</place_id>
+      <name>Ormitslev</name>
+      <display_name>Ormitslev (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1005</place_id>
+      <name>Sor&#248;</name>
+      <display_name>Sor&#248; (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>716</story_id>
+      <informant_id>541</informant_id>
+      <publication_info>DS_I_639</publication_info>
+      <full_name>541 - 0.00 - DS_I_639</full_name>
+      <url>data/stories/716.dfl</url>
+    </story>
+    <story><story_id>464</story_id>
+      <informant_id>527</informant_id>
+      <publication_info>DS_I_860</publication_info>
+      <full_name>527 - 0.00 - DS_I_860</full_name>
+      <url>data/stories/464.dfl</url>
+    </story>
+    <story><story_id>1</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_D_5</publication_info>
+      <full_name>150 - 0.01 - DS_II_D_5</full_name>
+      <url>data/stories/1.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Henne ved Sor&#248; gik en mand og pl&#246;jede sin banke. Han blev da s&#229; s&#230;r forunderlig over, at der fra banken og ned til hans g&#229;rd var en sti, som han aldrig f&#246;r havde set; men da fandt han en vante, som var s&#229; stor, at fingrene kunde rumme en t&#248;nde s&#230;d, og nu havde han opl&#248;sning p&#229; g&#229;den. Han tog da vanten med sig hjem om aftenen. Men om natten kom en r&#246;st uden for vinduet, som sagde: "Vante og ven, giv mig min vante igjen! ellers ligger to af dine heste, de st&#246;rste og bedste, d&#248;de i morgen p&#229; mosen." Manden h&#230;ngte da vanten ud p&#229; et bj&#230;lkehoved, og lidt efter blev den reven v&#230;k, s&#229; huset n&#230;r havde v&#230;ltet. Men siden efter trivedes al ting vel der p&#229; g&#229;rden.</danish_publication>
+  <english_publication>Near Sor&#248;, a man went and plowed over his mound. He was somewhat surprised by a path which he&#8217;d never seen before that went from the mound down to his house; but then he found a glove which was so big that the fingers could hold a barrel of seed, and the farm was going insolvent at the time. The man took the glove home that night. But at night a voice came from outside the window and said: &#8220;Gloves and friend, give me my glove again! Otherwise two of your horses, the biggest and best, will lie dead tomorrow out in the swamp.&#8221; The man hung the glove out on the end of a beam and a little later it was torn away so hard that the house almost tipped over. But after that time everything prospered on the farm.</english_publication>
+  <keywords>
+    <keyword><id>74</id><frequency>1</frequency><keyword>barrel</keyword>barrel</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>394</id><frequency>2</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>412</id><frequency>1</frequency><keyword>finger</keyword>finger</keyword>
+    <keyword><id>445</id><frequency>1</frequency><keyword>friend</keyword>friend</keyword>
+    <keyword><id>469</id><frequency>5</frequency><keyword>glove</keyword>glove</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>548</id><frequency>2</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>804</id><frequency>2</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>848</id><frequency>2</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>889</id><frequency>1</frequency><keyword>outside</keyword>outside</keyword>
+    <keyword><id>966</id><frequency>1</frequency><keyword>plowing</keyword>plowing</keyword>
+    <keyword><id>1084</id><frequency>1</frequency><keyword>seeds</keyword>seeds</keyword>
+    <keyword><id>1228</id><frequency>1</frequency><keyword>swamp</keyword>swamp</keyword>
+    <keyword><id>1267</id><frequency>1</frequency><keyword>tomorrow</keyword>tomorrow</keyword>
+    <keyword><id>1307</id><frequency>1</frequency><keyword>voice</keyword>voice</keyword>
+    <keyword><id>1346</id><frequency>1</frequency><keyword>window</keyword>window</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>51</id><display_name>Tools, Items and Conveyances: Plow</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

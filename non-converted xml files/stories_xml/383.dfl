@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<story story_id="383">
+  <publication_info>DS_III_744</publication_info>
+  <full_name>123 - 2.09 - DS_III_744</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.09</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>595</place_id>
+      <name>Stilling s&#xF8;</name>
+      <display_name>Stilling s&#xF8; (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>617</place_id>
+      <name>Svolbj&#xE6;rg</name>
+      <display_name>Svolbj&#xE6;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="228">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_724</publication_info>
+      <full_name>235 - 1.09 - JAH_V_724</full_name>
+      <url>data/stories/228.dfl</url>
+    </story>
+    <story story_id="632">
+      <informant_id>217</informant_id>
+      <publication_info>DS_III_2175</publication_info>
+      <full_name>217 - 0.00 - DS_III_2175</full_name>
+      <url>data/stories/632.dfl</url>
+    </story>
+    <story story_id="733">
+      <informant_id>348</informant_id>
+      <publication_info>DS_V_116</publication_info>
+      <full_name>348 - 0.00 - DS_V_116</full_name>
+      <url>data/stories/733.dfl</url>
+    </story>
+    <story story_id="804">
+      <informant_id>306</informant_id>
+      <publication_info>DS_III_2302</publication_info>
+      <full_name>306 - 0.00 - DS_III_2302</full_name>
+      <url>data/stories/804.dfl</url>
+    </story>
+    <story story_id="809">
+      <informant_id>77</informant_id>
+      <publication_info>DS_III_2198</publication_info>
+      <full_name>77 - 0.00 - DS_III_2198</full_name>
+      <url>data/stories/809.dfl</url>
+    </story>
+    <story story_id="743">
+      <informant_id>416</informant_id>
+      <publication_info>DS_III_2228</publication_info>
+      <full_name>416 - 0.00 - DS_III_2228</full_name>
+      <url>data/stories/743.dfl</url>
+    </story>
+    <story story_id="747">
+      <informant_id>441</informant_id>
+      <publication_info>DS_III_2233</publication_info>
+      <full_name>441 - 0.00 - DS_III_2233</full_name>
+      <url>data/stories/747.dfl</url>
+    </story>
+    <story story_id="536">
+      <informant_id>374</informant_id>
+      <publication_info>DS_III_2256</publication_info>
+      <full_name>374 - 0.00 - DS_III_2256</full_name>
+      <url>data/stories/536.dfl</url>
+    </story>
+    <story story_id="556">
+      <informant_id>68</informant_id>
+      <publication_info>DS_III_2292</publication_info>
+      <full_name>68 - 0.00 - DS_III_2292</full_name>
+      <url>data/stories/556.dfl</url>
+    </story>
+    <story story_id="838">
+      <informant_id>428</informant_id>
+      <publication_info>DS_III_2296</publication_info>
+      <full_name>428 - 0.00 - DS_III_2296</full_name>
+      <url>data/stories/838.dfl</url>
+    </story>
+    <story story_id="417">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_528</publication_info>
+      <full_name>123 - 3.14 - DS_III_528</full_name>
+      <url>data/stories/417.dfl</url>
+    </story>
+    <story story_id="778">
+      <informant_id>402</informant_id>
+      <publication_info>DS_III_529</publication_info>
+      <full_name>402 - 0.00 - DS_III_529</full_name>
+      <url>data/stories/778.dfl</url>
+    </story>
+    <story story_id="846">
+      <informant_id>423</informant_id>
+      <publication_info>DS_III_531</publication_info>
+      <full_name>423 - 0.00 - DS_III_531</full_name>
+      <url>data/stories/846.dfl</url>
+    </story>
+    <story story_id="526">
+      <informant_id>361</informant_id>
+      <publication_info>DS_III_533</publication_info>
+      <full_name>361 - 0.00 - DS_III_533</full_name>
+      <url>data/stories/526.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3775a</fielddiary_page_start>
+  <fielddiary_page_end>3775a</fielddiary_page_end>
+  <bibliographic_info>Lindow 1982
+Foster 1965</bibliographic_info>
+  <bibliography_references>
+    <reference id="745" category="general">
+      <display_string>[Article] Lindow, John. 1982. Swedish Legends of Buried Treasure. Vol. 95 of &lt;i&gt;The Journal of American Folklore&lt;/i&gt; 377: 257-279.</display_string>
+    </reference>
+    <reference id="423" category="general">
+      <display_string>[Article] Foster, George. 1965. Peasant Society and the Image of Limited Good. Vol. 67 of &lt;i&gt;American Anthropologist&lt;/i&gt;, 293-315.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Stories of buried treasure are common in Denmark (DS III 2198, 2228, 2233, 2256, 2292, 2296; see also Lindow 1982). There are also many stories about churches or church bells that sink to the bottom of lakes as a form of divine punishment for the transgressions of the minister or parishioners (DS III 528, 529, 531, 533). Peder combines both motifs in this account.
+
+     The minister's ungodliness causes the church, perhaps the clearest symbol of the human community, to sink into the water, rendering it useless. That the church is still visible acts as an ongoing reminder to the fate that can befall the ungodly.
+
+     The parishioners' attempt to seize the treasure is also worthy of censure. In stories of the drinking cup stolen from the mound folk, the cup is most often used to build a church, or in some other way figures in the communal treasure kept at the church. The church itself stands as a form of community treasure as it represents the clearest protection against the various threatening supernatural forces that confront the human community. 
+
+     The goal of the treasure hunt is personal enrichment, as opposed to the communal enrichment espoused by the drinking cup theft narratives. Not surprisingly, the treasure hunt fails (Lindow 1982). The apparent conflagration engulfing the town that interrupts the erstwhile treasure hunters, a common motif in these stories, is a clear physical representation of the destruction of the community's social structures that would ensue if their treasure hunt were to succeed. 
+
+     The treasure hunters' solitary pursuit of wealth contradicts the ideal of community solidarity, yet aligns well with the emerging capitalist economy and incentives for individual success. The "limited good" model suggests that any such personal gain would come at the expense of others in the community; the new, capitalist model stressing individual initiative and success proposes an "unlimited good" model, where one man's fortune is not necessarily congruent with others' misfortune (Foster 1965).</annotation>
+  <danish_manuscript>Stilling S&#xF8; ligger der Kirke paa Bunden
+af. I stille Vejr kan en se Murene og
+der ligger en stor Skat der nede i en j&#xE6;rn-
+beslaaet Kiste. De Svolbj&#xE6;rg Folk de var
+sejlet ud med to Baade efter at ville
+have den. De havde ladet dem slaa Ha-
+ger ved Smeden: de kunde slaa i og havde
+ogsaa faaet den lige til Kanten af begge
+Baadene og var ved at sejle ind til Land
+med den. Men i det de kommer derind s.
+forekommer det dem som deres By den
+stod i Lys Lue og s. gav de slip paa den og den
+gik til Bunds igien. Det sank for en Pr&#xE6;
+stes Skyld der var s. ugudelig og under Mes-
+sen gik Kirken under med ham.
+</danish_manuscript>
+  <english_manuscript>There's a church at the bottom of Stilling lake. In still weather, you can see the walls, and there's a large treasure down there in an ironclad chest. These people from Svolbj&#xE6;rg had sailed out there in two boats, and they wanted to get hold of it. They'd had some hooks made at the smithy which they could hook onto it with, and they'd also managed to get the chest right up to the gunwales of both boats and they were about to sail to shore with it. But before they get there, it looks to them like their town was on fire, and so they let the chest go and it went back down to the bottom. It had sunk on account of a minister who was so ungodly and during a mass the church went down with him.</english_manuscript>
+  <danish_publication>Stilling s&#xF8; ligger der en kirke p&#xE5; bunden af. I stille vejr kan en se murene, og der ligger en stor skat der nede i en j&#xE6;rnbesl&#xE5;et kiste. De Svolbj&#xE6;rg folk var sejlede ud med to b&#xE5;de efter at ville have den, og de havde ladet dem sl&#xE5; hager ved smeden, som de kunde sl&#xE5; i, og de havde ogs&#xE5; f&#xE5;et kisten lige til kanten af begge b&#xE5;dene og var ved at sejle ind til land med den. Men idet de kommer derind, s&#xE5; forekommer det dem, som deres by st&#xE5;r i lys lue, og s&#xE5; gav de slip p&#xE5; kisten, og den gik til bunds igjen.
+Den kirke var sunken for en pr&#xE6;stes skyld, der var s&#xE5; ugudelig, og under messen var det, kirken gik under med ham.</danish_publication>
+  <english_publication>There&#x2019;s a church at the bottom of Stilling lake. In still weather, you can see the walls, and there&#x2019;s a large treasure down there in an ironclad chest. These people from Svolbj&#xE6;rg had sailed out there in two boats, and they wanted to get hold of it, and they&#x2019;d had some hooks made at the smithy which they could hook onto it with, and they also managed to get the chest right up to the gunwales of both boats and they were about to sail to shore with it. But before they get there, it looks to them like their town was on fire, and so they let the chest go and it went back down to the bottom. The church had sunk on account of a minister who was so ungodly that during a mass the church went down with him.</english_publication>
+  <keywords>
+    <keyword id="116" frequency="2" keyword="boat">boat</keyword>
+    <keyword id="215" frequency="3" keyword="chest">chest</keyword>
+    <keyword id="227" frequency="3" keyword="church">church</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="679" frequency="1" keyword="lake">lake</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="1060" frequency="2" keyword="sailing">sailing</keyword>
+    <keyword id="1108" frequency="1" keyword="shore">shore</keyword>
+    <keyword id="1123" frequency="1" keyword="sinking">sinking</keyword>
+    <keyword id="1146" frequency="1" keyword="smithing">smithing</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1280" frequency="1" keyword="treasure">treasure</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+    <keyword id="1324" frequency="1" keyword="weather">weather</keyword>
+  </keywords>
+  <etk_index id="12">
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

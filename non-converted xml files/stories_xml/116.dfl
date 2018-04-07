@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<story story_id="116">
+  <publication_info>DS_I_1179</publication_info>
+  <full_name>150 - 4.05 - DS_I_1179</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.05</order_told>
+  <fieldtrip id="5">June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>12</place_id>
+      <name>&#xC5;by  &#xC5;byen</name>
+      <display_name>&#xC5;by  &#xC5;byen (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="722">
+      <informant_id>498</informant_id>
+      <publication_info>DS_I_1158</publication_info>
+      <full_name>498 - 0.00 - DS_I_1158</full_name>
+      <url>data/stories/722.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4592a</fielddiary_page_start>
+  <fielddiary_page_end>4592b</fielddiary_page_end>
+  <bibliographic_info>Lindow 1982.</bibliographic_info>
+  <bibliography_references>
+    <reference id="745" category="general">
+      <display_string>[Article] Lindow, John. 1982. Swedish Legends of Buried Treasure. Vol. 95 of &lt;i&gt;The Journal of American Folklore&lt;/i&gt; 377: 257-279.</display_string>
+    </reference>
+    <reference id="795" category="general">
+      <display_string>[Thesis] Ball, Kimberly. 2009. The Otherworld Vessel as Metatraditional Motif in Northern European Literature and Folk Narrative. Vol. PhD of &lt;i&gt;Comparative Literature&lt;/i&gt;PhD diss., University of California Press.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The story plays on well known stories of treasure hunting, where the treasure disappears out of reach because someone talks. In this case, though, the man actually gets the treasure and the kettle in which it is held. But, as in other stories of interactions with the mound dwellers, their fortune appears as valueless. Here, there is no recourse to recover the lost treasure (as in some stories of midwife to the mound dwellers). Instead, he is left with the quite functional consolation prize of the coffee pot.
+     In the published version, Tang Kristensen eliminated the frame narrative, in which a junk peddler told of the treasure hunter. He also deleted the reference to swearing, thus rendering the story incomplete.</annotation>
+  <danish_manuscript>En Pjaltekr&#xE6;mmer fort&#xE6;ller, at en Mand i hans
+Egn (Aaby) var ved at kaste i en H&#xF8;j, han
+vilde have v&#xE6;k paa hans Mark og s. kom h.
+til en Kobberkjedel. Der finder a, som han kun-
+
+4592B
+de bande, en Kjedel fuld af Penge. Men da h.
+s. skulde til at r&#xF8;re ved det, var det det bare
+skidt og M&#xF8;g. Men h. skulde ikke have snak-
+ket, s. var det Penge. Den Tro havde h nu.
+Fik sig lavet en Kaffekjedel af den.</danish_manuscript>
+  <english_manuscript>A junk peddler said that a man from his district (&#xC5;by) was digging on a mound that he had on his field and he wanted to get rid of and he found a copper kettle. "Wow, I've found," boy could he swear, "a kettle full of money." But when he went to touch it, it was just shit and dung. He shouldn't have talked, then it would have been money. He still believed that. He had a coffee pot made from the copper kettle.</english_manuscript>
+  <danish_publication>En mand i &#xC5;by var ved at kaste i en h&#xF6;j, han havde p&#xE5; hans mark og vilde have v&#xE6;k. S&#xE5; kom han til en kobberkjedel, og den var fuld af penge. Men da han skulde til at r&#xF8;re ved dem, var det det bare skidt og m&#xF8;g, for det han havde v&#xE6;ret uforsigtig nok til at snakke. Den tro havde han da. Han fik sig lavet en kaffekjedel af den kobberkjedel.</danish_publication>
+  <english_publication>A man in &#xC5;by was digging on a mound that he had on his field and he wanted to get rid of. Then he comes to a copper kettle and it was full of money. But when he was going to touch it, it was just shit and dung, because he&#x2019;d been so careless as to talk. At least he had that belief. He made a coffee pot of the copper kettle.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="244" frequency="1" keyword="coffee">coffee</keyword>
+    <keyword id="260" frequency="2" keyword="copper_kettle">copper kettle</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="364" frequency="1" keyword="dung">dung</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="804" frequency="1" keyword="mound">mound</keyword>
+    <keyword id="981" frequency="1" keyword="pot">pot</keyword>
+    <keyword id="1103" frequency="1" keyword="shit">shit</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

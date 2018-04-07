@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<story story_id="521">
+  <publication_info>DS_II_E_136</publication_info>
+  <full_name>487 - 0.00 - DS_II_E_136</full_name>
+  <informant_id>487</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>H. P.</informant_first_name>
+  <informant_full_name>L&#xE6;rer H. P. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>860</place_id>
+      <name>Sejling</name>
+      <display_name>Sejling (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="265">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_145</publication_info>
+      <full_name>235 - 1.45 - DS_II_E_145</full_name>
+      <url>data/stories/265.dfl</url>
+    </story>
+    <story story_id="656">
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_E_119</publication_info>
+      <full_name>539 - 0.00 - DS_II_E_119</full_name>
+      <url>data/stories/656.dfl</url>
+    </story>
+    <story story_id="765">
+      <informant_id>502</informant_id>
+      <publication_info>DS_II_E_125</publication_info>
+      <full_name>502 - 0.00 - DS_II_E_125</full_name>
+      <url>data/stories/765.dfl</url>
+    </story>
+    <story story_id="847">
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_E_117</publication_info>
+      <full_name>539 - 0.00 - DS_II_E_117</full_name>
+      <url>data/stories/847.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Snogene vil tvinge tusserne til at udruge deres &#xE6;g.</danish_publication>
+  <english_publication>Grass snakes force toads to hatch their eggs.</english_publication>
+  <keywords>
+    <keyword id="372" frequency="1" keyword="egg">egg</keyword>
+    <keyword id="482" frequency="1" keyword="grass_snake">grass snake</keyword>
+    <keyword id="1264" frequency="1" keyword="toad">toad</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="79" display_name="Animals: None / Unspecified"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<story story_id="371">
+  <publication_info>Unpub_AMJ_404</publication_info>
+  <full_name>90 - 4.04 - Unpub_AMJ_404</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>4.04</order_told>
+  <fieldtrip id="12">Photo 1: August 1895</fieldtrip>
+  <fieldtrip_start_date>1895-08-01</fieldtrip_start_date>
+  <fieldtrip_end_date>1895-08-05</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>471</place_id>
+      <name>Randers</name>
+      <display_name>Randers (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="366">
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_312</publication_info>
+      <full_name>90 - 3.12 - Unpub_AMJ_312</full_name>
+      <url>data/stories/366.dfl</url>
+    </story>
+    <story story_id="364">
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_310</publication_info>
+      <full_name>90 - 3.10 - Unpub_AMJ_310</full_name>
+      <url>data/stories/364.dfl</url>
+    </story>
+    <story story_id="368">
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_401</publication_info>
+      <full_name>90 - 4.01 - Unpub_AMJ_401</full_name>
+      <url>data/stories/368.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7052a</fielddiary_page_start>
+  <fielddiary_page_end>7052a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>More biographical notes that Tang Kristensen was able to compile concerning Margrete.</annotation>
+  <danish_manuscript>V&#xE6;ret i Mejlby i 64 Aar. Pige til 30te
+Aar. gift i 26 Aar med Kristen Jensen
+Ottesen. [Husmand] Indsidder, nu Enke
+i 26 Aar. 6 B&#xF8;rn og de 4 endnu levende.
+S. rask, at hu fornylig gik til Randers
+og tilbage paa en Dag og var blot noget
+stivbenet Dagen efter. I Fjor paa
+H&#xF8;starbejde i 7 halve og 3 hele Dage.
+og i Aar ude at luge Roer, og for nylig
+henne at tage Kl&#xF8;ver fra. gaar stadig
+paa Arbejde, naar nogen vil have hende.
+Faar nu 130 Kr. i Alderdomsfors&#xF8;rgel
+se. Har ogsaa l&#xE6;rt baade Viser og Histo
+rier af Kr&#xE6;mmere, der noget laa i den
+Gaard, hvor a tjente. De gav mig 4 s
+for at sm&#xF8;re deres st&#xF8;vler og a l&#xE6;rte deres
+Historier for a var s. nem til at l&#xE6;re.
+Gaaet som Hvedebr&#xF8;dskone i mange
+Aar.
+Hendes Moder, Birte Nielsdatter, d&#xF8;de, da
+hun var i sit fjerde Aar.
+</danish_manuscript>
+  <english_manuscript>Has been in Mejlby for sixty-four years. She was a hired girl until she was thirty. Married for twenty-six years to Kristen Jensen Ottesen. Pensioner, now a widow for twenty-six years. Six children of which four are still alive. So healthy that she recently went to Randers and back in one day, and was just a little stiff in her legs the next day. Last year she worked in the harvest seven half and three whole days, and this year she'd been out weeding beets, and recently she'd gone to gather clover. Still goes to work whenever someone wants her. She receives one hundred thirty crowns in old age pension. She also learned stories and ballads from wandering merchants, when they stayed at that farm where I worked. They gave me four shillings to polish their boots and I learned their stories since I learned things so easily. Had worked as a wheat bread woman for many years. Her mother, Birte Nielsdatter, died when she was four years old.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: Has been in Mejlby for sixty-four years. She was a hired girl until she was thirty. Married for twenty-six years to Kristen Jensen Ottesen. Pensioner, now a widow for twenty-six years. Six children, of which four are still alive. So healthy that she recently went to Randers and back in one day, and was just a little stiff in her legs the next day. Last year she worked in the harvest seven half and three whole days, and this year she&#x2019;d been out weeding beets, and recently she&#x2019;d gone to gather clover. Still goes to work whenever someone wants her. She receives one hundred thirty crowns in old age pension. She also learned stories and ballads from wandering merchants, when they stayed at that farm where I worked. They gave me four shillings to polish their boots and I learned their stories since I learned things so easily. Had worked as a wheat bread woman for many years. Her mother, Birte Nielsdatter, died when she was four years old.</english_publication>
+  <keywords>
+    <keyword id="67" frequency="1" keyword="ballad">ballad</keyword>
+    <keyword id="101" frequency="1" keyword="birte_nielsdatter">Birte Nielsdatter</keyword>
+    <keyword id="124" frequency="1" keyword="boots">boots</keyword>
+    <keyword id="139" frequency="1" keyword="bread">bread</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="238" frequency="1" keyword="clover">clover</keyword>
+    <keyword id="306" frequency="3" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="504" frequency="1" keyword="harvest">harvest</keyword>
+    <keyword id="665" frequency="1" keyword="kristen_jensen">Kristen Jensen</keyword>
+    <keyword id="699" frequency="3" keyword="learning">learning</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="753" frequency="1" keyword="marriage">marriage</keyword>
+    <keyword id="767" frequency="1" keyword="merchant">merchant</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="873" frequency="2" keyword="old">old</keyword>
+    <keyword id="936" frequency="1" keyword="pensioner">pensioner</keyword>
+    <keyword id="972" frequency="1" keyword="polish">polish</keyword>
+    <keyword id="1089" frequency="1" keyword="seven">seven</keyword>
+    <keyword id="1100" frequency="1" keyword="shilling">shilling</keyword>
+    <keyword id="1200" frequency="2" keyword="story">story</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1315" frequency="1" keyword="wandering">wandering</keyword>
+    <keyword id="1334" frequency="1" keyword="wheat">wheat</keyword>
+    <keyword id="1342" frequency="1" keyword="widow">widow</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+    <keyword id="1361" frequency="1" keyword="work">work</keyword>
+    <keyword id="1370" frequency="2" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="44">
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

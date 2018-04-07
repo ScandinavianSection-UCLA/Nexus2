@@ -1,0 +1,63 @@
+<story><story_id>852</story_id>
+  <publication_info>DS_VI_926</publication_info>
+  <full_name>320 - 0.00 - DS_VI_926</full_name>
+  <informant_id>320</informant_id>
+  <informant_last_name>Andb&#230;k</informant_last_name>
+  <informant_first_name>Thomas</informant_first_name>
+  <informant_full_name>Thomas Andb&#230;k</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>845</place_id>
+      <name>&#216;ster Lem</name>
+      <display_name>&#216;ster Lem (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>216</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_930</publication_info>
+      <full_name>241 - 4.44 - DS_VI_930</full_name>
+      <url>data/stories/216.dfl</url>
+    </story>
+    <story><story_id>848</story_id>
+      <informant_id>439</informant_id>
+      <publication_info>DS_VI_1252</publication_info>
+      <full_name>439 - 0.00 - DS_VI_1252</full_name>
+      <url>data/stories/848.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der gik en gammel Nordmand her omkring, og han var klog. Der var s&#229; mange muldhvalpe her p&#229; marken. S&#229; klagede min oldefader sig til ham over det. Han svarte, te han kunde vise dem et vist sted hen, s&#229; de skulde ikke s&#229;dan g&#229; over det hele. S&#229; lavede han det s&#229;dan, te der i flere &#229;r efter ikke var muldhvalpe andre steder end lige norden for de h&#246;je, der er her norden for. Samme Nordmand sp&#229;ede af, te der i den midterste h&#246;j var begravet 60.000 daler.</danish_publication>
+  <english_publication>An old Norwegian walked about here in the area and he was cunning. There were so many moles here in the fields. Then my great grandfather complained to him about that. Then he answered that he could show them to a place so they wouldn't go everywhere. So then he made it so that, for many years, there weren't any moles except for one place just to the north of the mounds that are out to the north here. The same Norwegian predicted that there were sixty thousand rixdollars buried in the middle mound.</english_publication>
+  <keywords>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>286</id><frequency>1</frequency><keyword>cunning_folk</keyword>Cunning Folk</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>478</id><frequency>1</frequency><keyword>grandfather</keyword>grandfather</keyword>
+    <keyword><id>804</id><frequency>2</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>863</id><frequency>2</frequency><keyword>north</keyword>north</keyword>
+    <keyword><id>867</id><frequency>2</frequency><keyword>norwegian</keyword>Norwegian</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+  </keywords>
+  <etk_index><id>28</id>
+    <heading_danish>Kloge m&#230;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>79</id><display_name>Animals: None / Unspecified</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

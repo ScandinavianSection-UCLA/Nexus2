@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<story story_id="295">
+  <publication_info>JAT_VI_1042</publication_info>
+  <full_name>235 - 2.12 - JAT_VI_1042</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>2.12</order_told>
+  <fieldtrip id="10">October 1892</fieldtrip>
+  <fieldtrip_start_date>1892-10-09</fieldtrip_start_date>
+  <fieldtrip_end_date>1892-10-12</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="317">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_VI_1042</publication_info>
+      <full_name>235 - 3.15 - JAT_VI_1042</full_name>
+      <url>data/stories/317.dfl</url>
+    </story>
+    <story story_id="316">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_III_1737</publication_info>
+      <full_name>235 - 3.14 - JAT_III_1737</full_name>
+      <url>data/stories/316.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5756b (1)</fielddiary_page_start>
+  <fielddiary_page_end>5756b (1)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Tang Kristensen recorded some of Kirsten Marie's dialect phrases. Both of the phrases presented here are of little note by themselves. In his published collections, Tang Kristensen combined these two short phrases with another phrase and included an explanation of the last phrase (KMP 3.14).</annotation>
+  <danish_manuscript>kom ellenes med ham
+di st&#xF6;&#xF6;st Byrre a h&#xE5; sit: Byer
+</danish_manuscript>
+  <english_manuscript>came alone with him The largest towns I've seen</english_manuscript>
+  <danish_publication>Di st&#xF6;&#xF6;st byrre a h&#xE5; sit: byer; kom elenes m&#xE6; ham. A vilde gj&#xE6;rne have en ny kjole, men s&#xE5; sagde min fader: du kan f&#xE5; en flos. Dermed vilde han sige: du f&#xE5;r ingen.</danish_publication>
+  <english_publication>The largest towns I&#x2019;ve seen; came alone with him. [I wanted a new dress, but then my father said, you can have a fray. With that he meant, you can&#x2019;t have one.]</english_publication>
+  <keywords>
+    <keyword id="353" frequency="1" keyword="dress">dress</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+  </keywords>
+  <etk_index id="36">
+    <heading_danish>Vore f&#xE6;dres tankes&#xE6;t og &#xE5;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="9" name="Fragment"/>
+</story>

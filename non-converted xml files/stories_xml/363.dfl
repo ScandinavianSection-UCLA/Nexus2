@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<story story_id="363">
+  <publication_info>DS_VI_1271</publication_info>
+  <full_name>90 - 3.09 - DS_VI_1271</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>3.09</order_told>
+  <fieldtrip id="4">July 1894</fieldtrip>
+  <fieldtrip_start_date>1894-07-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-07-15</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="75">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_1270</publication_info>
+      <full_name>150 - 3.12 - DS_VI_1270</full_name>
+      <url>data/stories/75.dfl</url>
+    </story>
+    <story story_id="352">
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1028</publication_info>
+      <full_name>90 - 2.20 - DS_VI_1028</full_name>
+      <url>data/stories/352.dfl</url>
+    </story>
+    <story story_id="523">
+      <informant_id>525</informant_id>
+      <publication_info>DS_VI_216</publication_info>
+      <full_name>525 - 0.00 - DS_VI_216</full_name>
+      <url>data/stories/523.dfl</url>
+    </story>
+    <story story_id="529">
+      <informant_id>373</informant_id>
+      <publication_info>DS_IV_744</publication_info>
+      <full_name>373 - 0.00 - DS_IV_744</full_name>
+      <url>data/stories/529.dfl</url>
+    </story>
+    <story story_id="719">
+      <informant_id>541</informant_id>
+      <publication_info>DS_V_1111</publication_info>
+      <full_name>541 - 0.00 - DS_V_1111</full_name>
+      <url>data/stories/719.dfl</url>
+    </story>
+    <story story_id="120">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_887</publication_info>
+      <full_name>150 - 4.09 - DS_VII_887</full_name>
+      <url>data/stories/120.dfl</url>
+    </story>
+    <story story_id="121">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_410</publication_info>
+      <full_name>150 - 4.10 - Unpub_BJK_410</full_name>
+      <url>data/stories/121.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6719a (2)</fielddiary_page_start>
+  <fielddiary_page_end>6719a (2)</fielddiary_page_end>
+  <bibliographic_info>Hale 1984</bibliographic_info>
+  <bibliography_references>
+    <reference id="48" category="general">
+      <display_string>[Book] Hale, Frederick. 1984. &lt;i&gt;Danes in North America&lt;/i&gt;. Seattle: University of Washington Press.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Margrete continues her discussion of magically efficacious flora and fauna. Seeds gathered at calendrically liminal periods, such as Saint Hans, a summer solstice celebration, are considered to be magically powerful. Bracken seeds were generally considered to be associated with witchcraft (BJK 3.12). Bracken, or ferns, do not actually produce seeds, but rather produce spores. Another magical seed is linseed, used to prevent the passage of witches (DS V 1111 and DS IV 744). The written piece of paper to which Margrete alludes was a common feature in magical practice. The most complete magical writings are found in compendia of magic verses, incantations and directions known as Cyprianus. These books were mostly in the possession of cunning folk and not witches. 
+
+      Margrete does not seem overly concerned about her failure to collect any seeds, and there is a hint that she did not believe that her companion was successful either.
+
+     The published version changes the order of the wording slightly, moving the identification of Margrete's companion to the beginning of the account.</annotation>
+  <danish_manuscript>Bregner skal ikke b&#xE6;re Fr&#xF8; uden Skt Hans
+Aften. A var med en inde i Skoven
+og vi havde noget Papir med, der var
+skrevet noget paa. Hu havde skrevet
+det der skulde skrives. S. skulde vi l&#xE6;gge
+det Papir under Bregnerne og hu sag
+de hu fik nok, men a fik intet.
+Det var til at gj&#xF8;re Kunster med.
+Det var en der hed Karen Marie. Jens
+Br&#xE5;ndstrups Datter og er nu i Amerika.
+</danish_manuscript>
+  <english_manuscript>Bracken aren't supposed to bear seeds except on Sankt Hans eve. I went with someone into the woods and we had some paper with us, which had something written on it. She'd written what was supposed to be written. We were supposed to put that paper under the bracken and she said that she got plenty, but I didn't get any. It was to do magic with. It was someone called Karen Marie, Jens Br&#xE5;ndstrup's daughter, she's in America now.</english_manuscript>
+  <danish_publication>Bregner skal ikke b&#xE6;re fr&#xF8; uden selve sankt-Hans aften. Der var en pige, der hed Karen Marie, det var Jens Brandstrups datter &#x2014; hun er nu i Amerika &#x2014; og hun kom og vilde have mig med ind i skoven den aften. Vi havde noget papir med hver, der var skrevet noget p&#xE5;, og hun havde skrevet det, der skulde skrives. Det papir skulde vi l&#xE6;gge under bregnerne, og hun sagde, at hun fik nok, men a fik intet. Det fr&#xF8; var jo til at gj&#xF8;re kunster med.</danish_publication>
+  <english_publication>Bracken aren&#x2019;t supposed to bear seeds except on Saint Hans eve. There was a girl called Karen Marie, that was Jens Brandstrup&#x2019;s daughter--she&#x2019;s now in America--and she came and wanted me to go out into the woods with her that night. We each had some paper with us which had something written on it and she&#x2019;d written what was supposed to be written. We were supposed to put that paper under the bracken and she said that she got plenty, but I didn&#x2019;t get any. Those seeds were used to do magic.</english_publication>
+  <keywords>
+    <keyword id="22" frequency="1" keyword="america">America</keyword>
+    <keyword id="79" frequency="1" keyword="bear">bear</keyword>
+    <keyword id="132" frequency="2" keyword="bracken">bracken</keyword>
+    <keyword id="304" frequency="1" keyword="daughter">daughter</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="496" frequency="1" keyword="hans">hans</keyword>
+    <keyword id="576" frequency="1" keyword="jens">Jens</keyword>
+    <keyword id="614" frequency="1" keyword="karen_marie">Karen Marie</keyword>
+    <keyword id="734" frequency="1" keyword="magic">magic</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="900" frequency="2" keyword="paper">paper</keyword>
+    <keyword id="1084" frequency="2" keyword="seeds">seeds</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+    <keyword id="1367" frequency="3" keyword="writing">writing</keyword>
+  </keywords>
+  <etk_index id="28">
+    <heading_danish>Kloge m&#xE6;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="119" display_name="Time, Season, Weather: Skt. Hans"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

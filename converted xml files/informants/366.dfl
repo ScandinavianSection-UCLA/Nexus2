@@ -1,0 +1,54 @@
+<informant><person_id>366</person_id>
+  <core_informant/>
+  <full_name>Fr&#248;ken Katrine Glud</full_name>
+  <last_name>Glud</last_name>
+  <first_name>Katrine</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>613</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>366</informant_id>
+      <publication_info>DS_V_248</publication_info>
+      <full_name>366 - 0.00 - DS_V_248</full_name>
+      <url>data/stories/613.dfl</url>
+      <place_recorded><id>310</id>Jebj&#230;rg</place_recorded>
+      <places_mentioned>
+        <place><id>124</id>
+          <name>Drenderupg&#229;rd</name>
+        </place>
+        <place><id>444</id>
+          <name>&#216;dis</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>310</place_id>
+      <name>Jebj&#230;rg</name>
+      <display_name>Jebj&#230;rg (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>444</place_id>
+      <name>&#216;dis</name>
+      <display_name>&#216;dis (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>124</place_id>
+      <name>Drenderupg&#229;rd</name>
+      <display_name>Drenderupg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

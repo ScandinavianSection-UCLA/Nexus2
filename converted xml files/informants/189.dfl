@@ -1,0 +1,48 @@
+<informant><person_id>189</person_id>
+  <core_informant/>
+  <full_name>A. J. Meldgaard</full_name>
+  <last_name>Meldgaard</last_name>
+  <first_name>A. J.</first_name>
+  <gender>m</gender>
+  <birth_date>0000-00-00</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>52</occupation_id>L&#230;rer</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>652</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>189</informant_id>
+      <publication_info>DS_V_1164</publication_info>
+      <full_name>189 - 0.00 - DS_V_1164</full_name>
+      <url>data/stories/652.dfl</url>
+      <place_recorded><id>59</id>Bjedstrup</place_recorded>
+      <places_mentioned>
+        <place><id>615</id>
+          <name>Svejstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>59</place_id>
+      <name>Bjedstrup</name>
+      <display_name>Bjedstrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>615</place_id>
+      <name>Svejstrup</name>
+      <display_name>Svejstrup (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

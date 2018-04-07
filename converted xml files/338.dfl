@@ -1,0 +1,82 @@
+<story><story_id>338</story_id>
+  <publication_info>Unpub_AMJ_206</publication_info>
+  <full_name>90 - 2.06 - Unpub_AMJ_206</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>2.06</order_told>
+  <fieldtrip><id>9</id>October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>84</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_172</publication_info>
+      <full_name>150 - 3.21 - JAH_V_172</full_name>
+      <url>data/stories/84.dfl</url>
+    </story>
+    <story><story_id>87</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_358</publication_info>
+      <full_name>150 - 3.24 - JAH_II_358</full_name>
+      <url>data/stories/87.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4783b</fielddiary_page_start>
+  <fielddiary_page_end>4783b</fielddiary_page_end>
+  <bibliographic_info>Feilberg 1977</bibliographic_info>
+  <bibliography_references>
+    <reference><id>181</id><category>general</category>
+      <display_string>[Book] Feilberg, Henning F. 1977. &lt;i&gt;Bidrag til en ordbog over jyske almuesm&#229;l&lt;/i&gt;. Copenhagen: Dansk Historisk H&#229;ndbogsforlag.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Tang Kristensen was keen on collecting as much information as he could concerning Jutlandic dialects, and much of this information was used by Feilberg when he compiled his dictionary of Jutlandic dialects. In this short annotation, Tang Kristensen made some observations on local pronunciations.</annotation>
+  <danish_manuscript>Her er ikke monillerede Lyd. R er inter-
+stumt, men ved at tr&#230;nge frem ligesom
+er det bl&#248;de d ved at tr&#230;nge igennem
+For 25 Aar siden var det n&#230;sten ikke
+muligt at faa B&#248;rnene til at sige bl&#248;dt 
+d nu siger de det strags
+--
+S&#229;gen g[&#230;]a u i l&#229;jen &#229; ta sp&#229;jen &#229; g&#229;
+ui i m&#229;jen a skj&#230; t&#229;re, vi ska ha
+m&#248;nd i M&#248;jen. Siger i Skj&#248;dstrup
+og Krajbjerg (r siges noget tilbage i
+Ganen)
+Mejlby: Strangel G&#248;ng fl&#248;ng kjern bes
+sk&#248;dder Knop. gang kjern b&#230;js,
+</danish_manuscript>
+  <english_manuscript>There is no palatalization here. R is unvoiced, but is starting to come forward just as the soft d is coming forward. Twenty-five years ago it was impossible to get children to say a soft d, but now they say it immediately. S&#248;ren, go out in the barn, to take the spade, to go out in the field, to start raining, we need to fix the roof tomorrow. This is how they said it in Skj&#248;dstrup and Krajbjerg (r is pronounced somewhat back in the throat). Mejlby: Stengel, g&#248;ng, fl&#248;ng, kjern, bes, sk&#248;dder, Knop. Gang kjern b&#230;js.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: There isn&#8217;t palatalization here. R is unvoiced, but is starting to come forward just as the soft d is coming forward. Twenty-five years ago it was impossible to get children to say a soft d, but now they say it immediately. S&#248;ren, go out in the barn, to take the spade, to go out in the field, to start raining, we need to fix the roof tomorrow. This is how they said it in Skj&#248;dstrup and Krajbjerg (r is pronounced somewhat back in the throat). Mejlby: Stengel, g&#248;ng, fl&#248;ng, kjern, bes, sk&#248;dder, Knop. Gang kjern b&#230;js.</english_publication>
+  <keywords>
+    <keyword><id>72</id><frequency>1</frequency><keyword>barn</keyword>barn</keyword>
+    <keyword><id>219</id><frequency>1</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>417</id><frequency>1</frequency><keyword>fix</keyword>fix</keyword>
+    <keyword><id>1011</id><frequency>1</frequency><keyword>rain</keyword>rain</keyword>
+    <keyword><id>1041</id><frequency>1</frequency><keyword>roof</keyword>roof</keyword>
+    <keyword><id>1165</id><frequency>1</frequency><keyword>sounds</keyword>sounds</keyword>
+    <keyword><id>1171</id><frequency>1</frequency><keyword>spade</keyword>spade</keyword>
+    <keyword><id>1057</id><frequency>1</frequency><keyword>s&#248;ren</keyword>S&#248;ren</keyword>
+    <keyword><id>1156</id><frequency>1</frequency><keyword>s&#248;ren</keyword>S&#248;ren</keyword>
+    <keyword><id>1259</id><frequency>1</frequency><keyword>throat</keyword>throat</keyword>
+    <keyword><id>1267</id><frequency>1</frequency><keyword>tomorrow</keyword>tomorrow</keyword>
+  </keywords>
+  <etk_index><id>44</id>
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>12</id><name>Dialect</name></genre>
+</story>

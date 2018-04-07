@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<story story_id="523">
+  <publication_info>DS_VI_216</publication_info>
+  <full_name>525 - 0.00 - DS_VI_216</full_name>
+  <informant_id>525</informant_id>
+  <informant_last_name>Rasmussen</informant_last_name>
+  <informant_first_name>H. V.</informant_first_name>
+  <informant_full_name>Professor H. V. Rasmussen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>338</place_id>
+      <name>K&#xF8;benhavn</name>
+      <display_name>K&#xF8;benhavn (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="187">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_191</publication_info>
+      <full_name>241 - 4.15 - DS_VI_191</full_name>
+      <url>data/stories/187.dfl</url>
+    </story>
+    <story story_id="673">
+      <informant_id>376</informant_id>
+      <publication_info>DS_VI_240</publication_info>
+      <full_name>376 - 0.00 - DS_VI_240</full_name>
+      <url>data/stories/673.dfl</url>
+    </story>
+    <story story_id="363">
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1271</publication_info>
+      <full_name>90 - 3.09 - DS_VI_1271</full_name>
+      <url>data/stories/363.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Cyprianus kan man ikke br&#xE6;nde.</danish_publication>
+  <english_publication>You can't burn Cyprianus.</english_publication>
+  <keywords>
+    <keyword id="292" frequency="1" keyword="cyprianus">cyprianus</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="48" display_name="Tools, Items and Conveyances: Books"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

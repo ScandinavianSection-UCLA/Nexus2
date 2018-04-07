@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<story story_id="546">
+  <publication_info>DS_II_E_108</publication_info>
+  <full_name>466 - 0.00 - DS_II_E_108</full_name>
+  <informant_id>466</informant_id>
+  <informant_last_name>Madsen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>L&#xE6;rer Jens Madsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>767</place_id>
+      <name>Ellund</name>
+      <display_name>Ellund (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="422">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_120</publication_info>
+      <full_name>123 - 3.19 - DS_II_E_120</full_name>
+      <url>data/stories/422.dfl</url>
+    </story>
+    <story story_id="691">
+      <informant_id>337</informant_id>
+      <publication_info>DS_II_E_115</publication_info>
+      <full_name>337 - 0.00 - DS_II_E_115</full_name>
+      <url>data/stories/691.dfl</url>
+    </story>
+    <story story_id="847">
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_E_117</publication_info>
+      <full_name>539 - 0.00 - DS_II_E_117</full_name>
+      <url>data/stories/847.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Kroppen af en hugorm er god mod edder og mod eddervol hos kreaturerne. Derfor n&#xE5;r karlene gik til mose i gamle dage med den skarpe klynespade i h&#xE5;nden, s&#xE5; de aldrig en hugorm uden straks at skille den fra hovedet, de trak da b&#xE6;lgen af den, og satte den op under hatteb&#xE5;ndet, hvor den sad og vred sig til aften, for en slange d&#xF8;r ikke, f&#xF6;r solen er nede.</danish_publication>
+  <english_publication>The body of a viper is good against poison and against tympanitis in cattle. That's why when the farmhands went to the swamp in the old days with the sharp peat shovel in their hand, they never hesitated to decapitate the vipers, they pulled the skin off it and put it up under their hatband, where it sat and wriggled until evening, because a snake doesn't die before sundown.</english_publication>
+  <keywords>
+    <keyword id="118" frequency="1" keyword="body">body</keyword>
+    <keyword id="190" frequency="1" keyword="cattle">cattle</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="319" frequency="1" keyword="decapitate">decapitate</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="922" frequency="1" keyword="peat">peat</keyword>
+    <keyword id="970" frequency="1" keyword="poison">poison</keyword>
+    <keyword id="1110" frequency="1" keyword="shovel">shovel</keyword>
+    <keyword id="1128" frequency="1" keyword="skin">skin</keyword>
+    <keyword id="1148" frequency="1" keyword="snake">snake</keyword>
+    <keyword id="1228" frequency="1" keyword="swamp">swamp</keyword>
+    <keyword id="1303" frequency="2" keyword="viper">viper</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="76" display_name="Animals: Serpent / Snake"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

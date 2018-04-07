@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="85">
+  <publication_info>JAH_II_358</publication_info>
+  <full_name>150 - 3.22 - JAH_II_358</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.22</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="84">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_172</publication_info>
+      <full_name>150 - 3.21 - JAH_V_172</full_name>
+      <url>data/stories/84.dfl</url>
+    </story>
+    <story story_id="87">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_358</publication_info>
+      <full_name>150 - 3.24 - JAH_II_358</full_name>
+      <url>data/stories/87.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4100a, 4100b</fielddiary_page_start>
+  <fielddiary_page_end>4100a, 4100b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>In his published collections, Tang Kristensen split the previous record (BJK 3.21) into two stories, appending BJK 3.24 to this record to complete the description of the vagabonds/thugs hiding out in the forest near Ersted. The clothing described is old-fashioned, and similar to descriptions of the clothing of rakkere (rakker means executioner's assistant and, later, nightman or refuse collector; it was often used as slang to denote a vagabond). "Langovrede tr&#xE6;sko" were clogs with a long front worn primarily by men in contradistinction to women's "kortovrede tr&#xE6;sko" with a short front, more in keeping with modern clogs. "Basarer" are also known as "nisse tr&#xE6;sko". This type of clog turns up in a point at the front. There is nothing to suggest that Jens Ingvorsen and S&#xF8;ren &#xD8;sterg&#xE5;rd were anything other than two local farmers given to drink.</annotation>
+  <danish_manuscript>See BJK 3.21</danish_manuscript>
+  <english_manuscript>See BJK 3.21</english_manuscript>
+  <danish_publication>De Ersted m&#xE6;nd l&#xE5; og stjal i skoven, og s&#xE5; var de endda nogle stoddere. Manden og karlen sad om dagen og gjorde tr&#xE6;sko, og konen og pigen paste avlen og h&#xF6;vderne. S&#xE5;dan var skikken i mine unge dage, men nu er der ikke en g&#xE5;rdmand, der laver et par tr&#xE6;sko. Dem langovrede tr&#xE6;sko kalder vi her sorte tr&#xE6;sko og basarerne hvide tr&#xE6;sko.
+     M&#xE6;ndene gik i kofter uden opslag og kraver, og s&#xE5; havde de store tasker p&#xE5; siderne og metalknapper i dem.</danish_publication>
+  <english_publication>Those Ersted men lay out in the woods and stole, and they were vagabonds to boot. The man and the farmhand sat making clogs during the day, and the wife and the hired girl took care of the animals and the cattle. That was the custom when I was young, but now there isn&#x2019;t a single farmer who makes a pair of clogs. Those langovrede clogs we call black clogs here and the basarer white clogs.
+    The men wore long homespun jackets with neither cuffs nor collar, and they had large bags by their sides with metal buttons.</english_publication>
+  <keywords>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="63" frequency="1" keyword="bags">bags</keyword>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="124" frequency="1" keyword="boots">boots</keyword>
+    <keyword id="164" frequency="1" keyword="button">button</keyword>
+    <keyword id="190" frequency="1" keyword="cattle">cattle</keyword>
+    <keyword id="234" frequency="5" keyword="clogs">clogs</keyword>
+    <keyword id="248" frequency="1" keyword="collar">collar</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="539" frequency="1" keyword="homespun">homespun</keyword>
+    <keyword id="772" frequency="1" keyword="metal">metal</keyword>
+    <keyword id="1292" frequency="1" keyword="vagabond">vagabond</keyword>
+    <keyword id="1340" frequency="1" keyword="white">white</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+    <keyword id="1374" frequency="1" keyword="young">young</keyword>
+  </keywords>
+  <etk_index id="32">
+    <heading_danish>Fra hoveriets tid</heading_danish>
+    <heading_english>From the time of villeinage</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

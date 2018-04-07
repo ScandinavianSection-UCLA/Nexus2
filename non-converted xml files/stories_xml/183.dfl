@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<story story_id="183">
+  <publication_info>Unpub_JPP_411</publication_info>
+  <full_name>241 - 4.11 - Unpub_JPP_411</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>4.11</order_told>
+  <fieldtrip id="8">May-June 1898</fieldtrip>
+  <fieldtrip_start_date>1898-05-23</fieldtrip_start_date>
+  <fieldtrip_end_date>1898-06-08</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="182">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_B_212</publication_info>
+      <full_name>241 - 4.11 - DSnr_II_B_212</full_name>
+      <url>data/stories/182.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7808a</fielddiary_page_start>
+  <fielddiary_page_end>7808a</fielddiary_page_end>
+  <bibliographic_info>Feilberg 1977</bibliographic_info>
+  <bibliography_references/>
+  <annotation>Tang Kristensen in this record appears to be puzzling out an expression that Jens Peter used in the preceding story. Tang Kristensen was quite interested in local usage and dialect, and often tried to collect phrases and expressions as part of his collections. These notes, along with Tang Kristensen's stories, were used by Feilberg when he compiled his dictionary of Jutlandic dialect. This appears at the end of the previous record in the collection Danske sagn, ny r&#xE6;kke.</annotation>
+  <danish_manuscript>Gaa og hylrede over sig selv. hylre over hinanden (om to).</danish_manuscript>
+  <english_manuscript>Went and complained? Complained to each other (about two).</english_manuscript>
+  <danish_publication>Om to siges: hylre over hinanden.</danish_publication>
+  <english_publication>About two one says, went and complained to each other.</english_publication>
+  <keywords/>
+  <etk_index id="44">
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="9" name="Fragment"/>
+</story>

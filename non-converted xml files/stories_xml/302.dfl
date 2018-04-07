@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<story story_id="302">
+  <publication_info>JAT_V_18</publication_info>
+  <full_name>235 - 2.19 - JAT_V_18</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>2.19</order_told>
+  <fieldtrip id="10">October 1892</fieldtrip>
+  <fieldtrip_start_date>1892-10-09</fieldtrip_start_date>
+  <fieldtrip_end_date>1892-10-12</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="81">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_535</publication_info>
+      <full_name>150 - 3.18 - JAH_V_535</full_name>
+      <url>data/stories/81.dfl</url>
+    </story>
+    <story story_id="320">
+      <informant_id>235</informant_id>
+      <publication_info>DSk_I_14</publication_info>
+      <full_name>235 - 3.18 - DSk_I_14</full_name>
+      <url>data/stories/320.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4757b</fielddiary_page_start>
+  <fielddiary_page_end>4758a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The tailors are puzzled by the girl's question, but her response pokes fun at their preferred work place.</annotation>
+  <danish_manuscript>En Pige kom ind et Sted hvor de havde Skr&#xE6;d-
+
+5758A
+dre. [ Har I no] A saa ingen Svin herude
+og vores er bunden. Hvad mener du
+med det. Jo a t&#xE6;nkte I var r&#xE6;d 
+for Svine, siden I er kl&#xF8;ven op paa 
+Bordet.
+</danish_manuscript>
+  <english_manuscript>A girl came to a place where they had tailors. "I didn't see any swine out here, and ours are tied up." -- "What are you talking about?" "Yes, I thought you were afraid of swine since you've crawled up on the table."</english_manuscript>
+  <danish_publication>En pige kom ind et sted, hvor de havde skr&#xE6;ddere. "A s&#xE5; ingen svin herude", sagde hun, "og vores er bunden". &#x2014; "Hvad mener du med det?" sagde de. "Ja, a t&#xE6;nkte, I var r&#xE6;d for svinene, siden I er kl&#xF6;ven op p&#xE5; bordet".</danish_publication>
+  <english_publication>A girl came to a place where they had tailors. &#x201C;I didn&#x2019;t see any swine out here,&#x201D; she said, &#x201C;and ours are tied up.&#x201D; &#x2013; &#x201C;What are you talking about?&#x201D; they said. &#x201C;Yes, I thought you were afraid of swine since you&#x2019;ve crawled up on the table.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="13" frequency="1" keyword="afraid">afraid</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="1235" frequency="2" keyword="swine">swine</keyword>
+    <keyword id="1238" frequency="1" keyword="table">table</keyword>
+    <keyword id="1240" frequency="1" keyword="tailor">tailor</keyword>
+    <keyword id="1261" frequency="1" keyword="tie">tie</keyword>
+  </keywords>
+  <etk_index id="35">
+    <heading_danish>Livet uden d&#xF8;re</heading_danish>
+    <heading_english>Life outdoors</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="78" display_name="Animals: Swine"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="11" name="Jocular Tale"/>
+</story>

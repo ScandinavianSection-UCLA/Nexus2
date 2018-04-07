@@ -1,0 +1,71 @@
+<informant><person_id>379</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer Mads Hansen</full_name>
+  <last_name>Hansen</last_name>
+  <first_name>Mads</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>537</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>379</informant_id>
+      <publication_info>DS_VI_141</publication_info>
+      <full_name>379 - 0.00 - DS_VI_141</full_name>
+      <url>data/stories/537.dfl</url>
+      <place_recorded><id>772</id>F&#229;rdrup</place_recorded>
+      <places_mentioned>
+        <place><id>302</id>
+          <name>Hvirring</name>
+        </place>
+        <place><id>474</id>
+          <name>Rask</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>843</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>379</informant_id>
+      <publication_info>DS_II_A_76</publication_info>
+      <full_name>379 - 0.00 - DS_II_A_76</full_name>
+      <url>data/stories/843.dfl</url>
+      <place_recorded><id>772</id>F&#229;rdrup</place_recorded>
+      <places_mentioned>
+        <place><id>981</id>
+          <name>Bog&#248;</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>772</place_id>
+      <name>F&#229;rdrup</name>
+      <display_name>F&#229;rdrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>981</place_id>
+      <name>Bog&#248;</name>
+      <display_name>Bog&#248; (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>474</place_id>
+      <name>Rask</name>
+      <display_name>Rask (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>302</place_id>
+      <name>Hvirring</name>
+      <display_name>Hvirring (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

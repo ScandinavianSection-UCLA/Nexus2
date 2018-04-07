@@ -1,0 +1,72 @@
+<story><story_id>860</story_id>
+  <publication_info>DS_I_1154</publication_info>
+  <full_name>569 - 0.00 - DS_I_1154</full_name>
+  <informant_id>569</informant_id>
+  <informant_last_name>Gjerding</informant_last_name>
+  <informant_first_name>Klavs</informant_first_name>
+  <informant_full_name>Klavs Gjerding</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_mentioned</type>
+      <place_id>574</place_id>
+      <name>Sorteh&#248;j</name>
+      <display_name>Sorteh&#248;j (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>4</place_id>
+      <name>Aalborg</name>
+      <display_name>Aalborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>794</story_id>
+      <informant_id>435</informant_id>
+      <publication_info>DS_I_796</publication_info>
+      <full_name>435 - 0.00 - DS_I_796</full_name>
+      <url>data/stories/794.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info>From Klavs Gjerding's manuscript at the Royal Library</bibliographic_info>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Anders Baks farfader og farmoder og en karl kom en aften kj&#248;rende fra &#197;lborg og s&#229; et blus p&#229; Sorte-h&#248;j og en hel del sm&#229;puslinger, der l&#248;b fra ilden ned p&#229; agrene og tilbage igjen. Mandfolkene vilde have haft konen til at holde hestene, medens de unders&#248;gte, hvad det var, men dertil var hun ikke til at bev&#230;ge.</danish_publication>
+  <english_publication>Anders Bak's paternal grandfather and grandmother and a farmhand came driving one night from Aalborg and saw a fire at Sorteh&#248;j (Black Mound) and a whole flock of small beings that ran from the fire down to the field and back again. The men wanted the woman to hold the horses while they investigated what it was, but she wouldn't let them.</english_publication>
+  <keywords>
+    <keyword><id>24</id><frequency>1</frequency><keyword>anders_bak</keyword>Anders Bak</keyword>
+    <keyword><id>106</id><frequency>1</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>413</id><frequency>2</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>421</id><frequency>1</frequency><keyword>flock</keyword>flock</keyword>
+    <keyword><id>478</id><frequency>1</frequency><keyword>grandfather</keyword>grandfather</keyword>
+    <keyword><id>479</id><frequency>1</frequency><keyword>grandmother</keyword>grandmother</keyword>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>804</id><frequency>1</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>8</id><display_name>People: Farmwife</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>82</id><display_name>Actions or events: Dancing</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

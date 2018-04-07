@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<story story_id="583">
+  <publication_info>DS_I_1383</publication_info>
+  <full_name>398 - 0.00 - DS_I_1383</full_name>
+  <informant_id>398</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Johan</informant_first_name>
+  <informant_full_name>L&#xE6;rer Johan Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>412</place_id>
+      <name>Mollerup</name>
+      <display_name>Mollerup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1032</place_id>
+      <name>Stovbak</name>
+      <display_name>Stovbak (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="756">
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1340</publication_info>
+      <full_name>348 - 0.00 - DS_I_1340</full_name>
+      <url>data/stories/756.dfl</url>
+    </story>
+    <story story_id="180">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_901</publication_info>
+      <full_name>241 - 4.09 - DSnr_I_901</full_name>
+      <url>data/stories/180.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Stovbak boede en gang en bj&#xE6;rgmand, og han skulde flytte med hele sin familie, ti han kunde ikke bo der for de mange dingdanger. Han gik da ned til Anders Kusk for at l&#xE5;ne et par stude, men denne syntes ikke godt om at sige ja, og at sige nej turde han heller ikke. Bj&#xE6;rgmanden fik dem da, men om morgenen l&#xE5; de og var d&#xF8;de, og foran hver l&#xE5; der en skj&#xE6;ppe penge til at betale dem med.</danish_publication>
+  <english_publication>A mound man lived once in Stovbak and he was going to move with his entire family since he couldn&#x2019;t live there because of all the dingdangers. He went down to Anders Kusk to borrow a pair of oxen, but he didn&#x2019;t really think much of saying yes, but he didn&#x2019;t dare say no. The mound man got them but the next morning they lay and were dead, and in front of each lay a bushel of money to pay for them.</english_publication>
+  <keywords>
+    <keyword id="28" frequency="1" keyword="anders_kusk">Anders Kusk</keyword>
+    <keyword id="125" frequency="1" keyword="borrow">borrow</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="393" frequency="1" keyword="family">family</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="807" frequency="2" keyword="mound_man">mound man</keyword>
+    <keyword id="892" frequency="1" keyword="ox">ox</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="46" display_name="Tools, Items and Conveyances: Bell"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="75" display_name="Animals: Ox"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

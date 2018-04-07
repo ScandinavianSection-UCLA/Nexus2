@@ -1,0 +1,81 @@
+<story><story_id>837</story_id>
+  <publication_info>DS_VI_315</publication_info>
+  <full_name>518 - 0.00 - DS_VI_315</full_name>
+  <informant_id>518</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>S&#248;ren</informant_first_name>
+  <informant_full_name>S&#248;ren Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>798</place_id>
+      <name>Hosby</name>
+      <display_name>Hosby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>326</place_id>
+      <name>Kirkholm</name>
+      <display_name>Kirkholm (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>329</place_id>
+      <name>Klakring</name>
+      <display_name>Klakring (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>166</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_1706</publication_info>
+      <full_name>241 - 2.16 - DS_V_1706</full_name>
+      <url>data/stories/166.dfl</url>
+    </story>
+    <story><story_id>610</story_id>
+      <informant_id>448</informant_id>
+      <publication_info>DS_VI_323</publication_info>
+      <full_name>448 - 0.00 - DS_VI_323</full_name>
+      <url>data/stories/610.dfl</url>
+    </story>
+    <story><story_id>818</story_id>
+      <informant_id>460</informant_id>
+      <publication_info>DS_V_728</publication_info>
+      <full_name>460 - 0.00 - DS_V_728</full_name>
+      <url>data/stories/818.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gang, hr. Jens kj&#248;rte fra Kirkholm til Klakring, fik han Fanden op at kj&#248;re, han h&#230;ngte bag i vognen som en sort puddelhund, og hestene kunde ikke tr&#230;kke den l&#230;ngere. S&#229; skulde kusken tage det venstre baghjul af, og nu m&#229;tte Fanden b&#230;re vognen.</danish_publication>
+  <english_publication>One time, Mr. Jens drove from Kirkholm to Klakring, and he got the devil up for a ride, he hung on back in the wagon like a large poodle, and the horses couldn't pull the wagon any longer. Then the driver had to take the left back wheel off, and now the devil had to carry the wagon.</english_publication>
+  <keywords>
+    <keyword><id>324</id><frequency>2</frequency><keyword>devil</keyword>devil</keyword>
+    <keyword><id>357</id><frequency>1</frequency><keyword>driver</keyword>driver</keyword>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>576</id><frequency>1</frequency><keyword>jens</keyword>Jens</keyword>
+    <keyword><id>1030</id><frequency>1</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1311</id><frequency>3</frequency><keyword>wagon</keyword>wagon</keyword>
+    <keyword><id>1335</id><frequency>1</frequency><keyword>wheel</keyword>wheel</keyword>
+  </keywords>
+  <etk_index><id>27</id>
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>71</id><display_name>Animals: Dog</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

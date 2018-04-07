@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<story story_id="189">
+  <publication_info>DSnr_III_1380</publication_info>
+  <full_name>241 - 4.17 - DSnr_III_1380</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>4.17</order_told>
+  <fieldtrip id="8">May-June 1898</fieldtrip>
+  <fieldtrip_start_date>1898-05-23</fieldtrip_start_date>
+  <fieldtrip_end_date>1898-06-08</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>266</place_id>
+      <name>Hj&#xF8;rring</name>
+      <display_name>Hj&#xF8;rring (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>384</place_id>
+      <name>L&#xF8;rslev</name>
+      <display_name>L&#xF8;rslev (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>577</place_id>
+      <name>S&#xF8;rup s&#xF8;</name>
+      <display_name>S&#xF8;rup s&#xF8; (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>600</place_id>
+      <name>Stovh&#xF8;j</name>
+      <display_name>Stovh&#xF8;j (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="190">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_C_91</publication_info>
+      <full_name>241 - 4.18 - DSnr_II_C_91</full_name>
+      <url>data/stories/190.dfl</url>
+    </story>
+    <story story_id="203">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_C_86</publication_info>
+      <full_name>241 - 4.31 - DSnr_II_C_86</full_name>
+      <url>data/stories/203.dfl</url>
+    </story>
+    <story story_id="358">
+      <informant_id>90</informant_id>
+      <publication_info>DSnr_II_B_130</publication_info>
+      <full_name>90 - 3.04 - DSnr_II_B_130</full_name>
+      <url>data/stories/358.dfl</url>
+    </story>
+    <story story_id="736">
+      <informant_id>345</informant_id>
+      <publication_info>DS_III_2326</publication_info>
+      <full_name>345 - 0.00 - DS_III_2326</full_name>
+      <url>data/stories/736.dfl</url>
+    </story>
+    <story story_id="755">
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1164</publication_info>
+      <full_name>348 - 0.00 - DS_I_1164</full_name>
+      <url>data/stories/755.dfl</url>
+    </story>
+    <story story_id="794">
+      <informant_id>435</informant_id>
+      <publication_info>DS_I_796</publication_info>
+      <full_name>435 - 0.00 - DS_I_796</full_name>
+      <url>data/stories/794.dfl</url>
+    </story>
+    <story story_id="777">
+      <informant_id>402</informant_id>
+      <publication_info>DS_III_2164</publication_info>
+      <full_name>402 - 0.00 - DS_III_2164</full_name>
+      <url>data/stories/777.dfl</url>
+    </story>
+    <story story_id="804">
+      <informant_id>306</informant_id>
+      <publication_info>DS_III_2302</publication_info>
+      <full_name>306 - 0.00 - DS_III_2302</full_name>
+      <url>data/stories/804.dfl</url>
+    </story>
+    <story story_id="282">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_783</publication_info>
+      <full_name>235 - 1.61 - DS_I_783</full_name>
+      <url>data/stories/282.dfl</url>
+    </story>
+    <story story_id="517">
+      <informant_id>6</informant_id>
+      <publication_info>DS_III_2316</publication_info>
+      <full_name>6 - 0.00 - DS_III_2316</full_name>
+      <url>data/stories/517.dfl</url>
+    </story>
+    <story story_id="173">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_D13</publication_info>
+      <full_name>241 - 4.02 - DSnr_II_D13</full_name>
+      <url>data/stories/173.dfl</url>
+    </story>
+    <story story_id="417">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_528</publication_info>
+      <full_name>123 - 3.14 - DS_III_528</full_name>
+      <url>data/stories/417.dfl</url>
+    </story>
+    <story story_id="739">
+      <informant_id>54</informant_id>
+      <publication_info>DS_III_527</publication_info>
+      <full_name>54 - 0.00 - DS_III_527</full_name>
+      <url>data/stories/739.dfl</url>
+    </story>
+    <story story_id="778">
+      <informant_id>402</informant_id>
+      <publication_info>DS_III_529</publication_info>
+      <full_name>402 - 0.00 - DS_III_529</full_name>
+      <url>data/stories/778.dfl</url>
+    </story>
+    <story story_id="846">
+      <informant_id>423</informant_id>
+      <publication_info>DS_III_531</publication_info>
+      <full_name>423 - 0.00 - DS_III_531</full_name>
+      <url>data/stories/846.dfl</url>
+    </story>
+    <story story_id="526">
+      <informant_id>361</informant_id>
+      <publication_info>DS_III_533</publication_info>
+      <full_name>361 - 0.00 - DS_III_533</full_name>
+      <url>data/stories/526.dfl</url>
+    </story>
+    <story story_id="672">
+      <informant_id>281</informant_id>
+      <publication_info>DS_III_535</publication_info>
+      <full_name>281 - 0.00 - DS_III_535</full_name>
+      <url>data/stories/672.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7811a</fielddiary_page_start>
+  <fielddiary_page_end>7811b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references>
+    <reference id="745" category="general">
+      <display_string>[Article] Lindow, John. 1982. Swedish Legends of Buried Treasure. Vol. 95 of &lt;i&gt;The Journal of American Folklore&lt;/i&gt; 377: 257-279.</display_string>
+    </reference>
+    <reference id="795" category="general">
+      <display_string>[Thesis] Ball, Kimberly. 2009. The Otherworld Vessel as Metatraditional Motif in Northern European Literature and Folk Narrative. Vol. PhD of &lt;i&gt;Comparative Literature&lt;/i&gt;PhD diss., University of California Press.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Legends of buried treasure are quite common. The acquisition of great wealth without the proper input of work, such as occurs with successful treasure hunts or gambling, is related in these stories to antisocial behavior. The "absenting" from community implicit in the prohibition against speaking during the treasure hunt is a precondition for attaining great riches (from a clearly demonic creature). But the successful treasure hunt comes with a considerable downside: the destruction of the community, often represented by visions of the church or village burning. In this story, as in many of these stories, one of the treasure hunters breaks the taboo by speaking and the treasure sinks out of reach. But the community ties are reaffirmed. To emphasize the reestablishment of community, the handle of the chest is enshrined in the local church, a parallel to the use of the mound dweller's drinking horn to build a new church (KMP 1.61). 
+
+     The verse the dragon quotes in this story is attested in several variant forms in Tang Kristensen's collection (DS III 2316; See also DS III 2318, 2320, and 2321). One of these variants was told by Gerhard Peter (G.P.) Andersen, who is mentioned in relation to one of Jens' stories about merfolk (DS III 2316; JPP 4.02). In some variants, witnesses see the dragon relocating, along with the treasure, from the mound to the lake. The buried treasure in the lake offers a clear parallel to stories of church bells in lakes (PJ 3.14; DS III 527, 529, 531, 533, 535). They too are often difficult to get up, but in those stories, the community's godlessness is often at the root of their inability to reacquire this clear symbol of community.
+
+     The motif of a dragon guarding a treasure is best known from the V&#xF6;lsunga saga, where Fafnir, transformed from man into dragon, jealously guards his horde, only to be slain by Sigurd.</annotation>
+  <danish_manuscript>Der gik Sagn af at der skulde v&#xE6;re s. mange
+Penge i Stovh&#xF8;j--den st&#xF8;rste Top af
+Ilbj&#xE6;rge. S. var der en Del Folk fra
+L&#xF8;rslev her oppe at kaste og de kastede
+i flere Dage. S. kommer de ogsaa til en
+grum stor Kiste med et Guldhaandtag
+S. raaber en Kj&#xE6;lling der var med: Hold
+endelig faste og dermed fik de ingen
+Ting. S. s. Dragen: Ja maat h. ent i St&#xF8;v
+hyw blyww a skuld de hejer aldrig 
+&#xE5; S&#xF8;rup s&#xF8; dryww&#x2014;
+
+7811B
+[Norden] Det Guldhaandtag blev f&#xF8;rt til Hj&#xF8;r-
+ring og opbevaret i Kirken og nu skal
+det v&#xE6;re muret ind i Taarnet siges
+der -- a h&#xF8;rte det, mens a var i Hj.</danish_manuscript>
+  <english_manuscript>There was a legend that there was supposed to be a lot of money in Stovh&#xF8;j--the highest part of Ilbj&#xE6;rge. Then there was a group of people from L&#xF8;rslev up here digging and they dug for several days. Then they reached an enormous chest with a golden handle. Then a hag who was with them shouted: Hold on tight and with that they got nothing. Then the dragon said: Well, if she can't stay in Stov mound, then they'll never pull me out of S&#xF8;rup lake either. That golden handle was brought to Hj&#xF8;rring and kept in the church and now it is supposed to be walled up in the tower so they say. I heard about it when I was in Hj&#xF8;rring.</english_manuscript>
+  <danish_publication>Der gik Sagn af, at der skulde v&#xE6;re saa mange Penge gravet ned i Stovh&#xF8;j; det er den h&#xF8;jeste Top af Ilbj&#xE6;rge. En Del Folk fra L&#xF8;rslev besluttede sig saa til at gaa derop at kaste, og de kastede i flere Dage. Endelig kommer de ogsaa til en grumme stor Kiste med et Guldhaandtag. Der var en Kj&#xE6;lling med, og hun raaber, da hun ser den: "Hold endelig fast!" men saa fik de ingen Ting. Saa sagde Dragen:
+      Ja, maatt hun int i Stovhyw blyww, 
+      saa skuld de hejer aldrig &#xE5; S&#xF8;rup S&#xF8; dryww. 
+Det Guldhaandtag blev f&#xF8;rt til Hj&#xF8;rring og opbevaret i Kirken, og nu skal det v&#xE6;re muret ind i Taarnet, siges der. A h&#xF8;rte det da,
+mens a var i Hj&#xF8;rring.</danish_publication>
+  <english_publication>There was a legend going around that there was an awful lot of money buried in Stovh&#xF8;j mound, that&#x2019;s the highest part of Ilbj&#xE6;rge. A group of people from L&#xF8;rslev decided to go up there and dig, and they dug for several days. Finally they reach an enormous chest with a golden handle. There was an old woman along, and she yells when she sees it, &#x201C;Hold on tight!&#x201D; but then they didn&#x2019;t get anything. Then the dragon said,
+     Well, if she can&#x2019;t stay in Stovh&#xF8;j mound,
+     then they&#x2019;ll never pull me out of S&#xF8;rup lake either
+The golden handle was brought over to Hj&#xF8;rring and was kept in the church, and now it's supposed to be walled up in the tower, that&#x2019;s what they say. I heard that while I was in Hj&#xF8;rring.</english_publication>
+  <keywords>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="215" frequency="1" keyword="chest">chest</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="326" frequency="2" keyword="digging">digging</keyword>
+    <keyword id="349" frequency="1" keyword="dragon">dragon</keyword>
+    <keyword id="473" frequency="2" keyword="gold">gold</keyword>
+    <keyword id="679" frequency="1" keyword="lake">lake</keyword>
+    <keyword id="705" frequency="1" keyword="legend">legend</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1274" frequency="1" keyword="tower">tower</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="15">
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="76" display_name="Animals: Serpent / Snake"/>
+    <tango_index id="76" display_name="Animals: Serpent / Snake"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+    <tango_index id="137" display_name="Supernatural Beings: Dragon"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

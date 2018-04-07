@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<story story_id="428">
+  <publication_info>GKV</publication_info>
+  <full_name>123 - 4.00 - GKV</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>4.00</order_told>
+  <fieldtrip id="16">Photo 5: September 1895</fieldtrip>
+  <fieldtrip_start_date>1895-09-15</fieldtrip_start_date>
+  <fieldtrip_end_date>1895-09-22</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="415">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_340</publication_info>
+      <full_name>123 - 3.12 - DS_III_340</full_name>
+      <url>data/stories/415.dfl</url>
+    </story>
+    <story story_id="424">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VI_995</publication_info>
+      <full_name>123 - 3.21 - DS_VI_995</full_name>
+      <url>data/stories/424.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7123B</fielddiary_page_start>
+  <fielddiary_page_end>7123B</fielddiary_page_end>
+  <bibliographic_info>MO III 158</bibliographic_info>
+  <bibliography_references/>
+  <annotation>Biographical information about Peder Johansen that Tang Kristensen collected on his photographic field trip with Peter Olsen (JAT VI 924). In some of the stories Peder tells, he refers to his foster father. Inspection of the census records and church records does not indicate that Peder was ever in foster care. His father, on the other hand, apparently was. References Peder makes to his foster father should probably be understood as references to his father's foster father (PJ 3.12 and 3.21).</annotation>
+  <danish_manuscript>7123B
+Peder Johansen f. 15de April 1855
+i Svejstrup. M&#xF8;llersvend. Faderen 
+M&#xF8;ller i Svejstrup M&#xF8;lle. V&#xE6;ret her
+en 6 Aar med en Afbrydelse. Hans Faders
+Plejefader var klog Mand og var god
+til at fort&#xE6;lle og fra ham har h. det.
+Det er umuligt at huske alt det h.
+kunde fort&#xE6;lle. Han d&#xF8;de 80 Aar gl.
+da Peder blev konfirmeret og var alle-
+rede da noget sv&#xE6;kket.
+</danish_manuscript>
+  <english_manuscript>Peder Johansen f. 15de April 1855 i Svejstrup. Journeyman miller. Father the miller in Svejstrup M&#xF8;lle. Has been here for 6 years with an interruption. His father's foster father was a cunning man and was good at telling stories and he got it from him. It is impossible to remember everything that he could tell. He died when he was 80 years old when Peder was confirmed, and he was already weak by then.</english_manuscript>
+  <danish_publication>45  Peder Johansen, Fuldbro M&#xF8;lle. f. 15. April 1855 i Svejstrup, Dover Sogn. Han var M&#xF8;llersvend der og tillige Spillemand. Piben h&#xE6;ngte n&#xE6;sten altid i Munden paa ham. Se: J. A. Tillb. VI 310. Omt.: M. og O. III 158.</danish_publication>
+  <english_publication>45  Peder Johansen, Fuldbro M&#xF8;lle. born 15. April 1855 in Svejstrup, Dover Sogn. He was a Journeyman miller there and also a fiddler. He almost always had his pipe hanging from his mouth.</english_publication>
+  <keywords>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="409" frequency="1" keyword="fiddling">fiddling</keyword>
+    <keyword id="608" frequency="1" keyword="journeyman">journeyman</keyword>
+    <keyword id="785" frequency="1" keyword="miller">miller</keyword>
+    <keyword id="813" frequency="1" keyword="mouth">mouth</keyword>
+    <keyword id="927" frequency="1" keyword="peder_johansen">Peder Johansen</keyword>
+  </keywords>
+  <etk_index/>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

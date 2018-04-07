@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<story story_id="418">
+  <publication_info>DS_II_G356</publication_info>
+  <full_name>123 - 3.15 - DS_II_G356</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.15</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>418</place_id>
+      <name>Moss&#xF8;</name>
+      <display_name>Moss&#xF8; (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="465">
+      <informant_id>431</informant_id>
+      <publication_info>DS_II_G_334</publication_info>
+      <full_name>431 - 0.00 - DS_II_G_334</full_name>
+      <url>data/stories/465.dfl</url>
+    </story>
+    <story story_id="559">
+      <informant_id>440</informant_id>
+      <publication_info>DS_II_G_324</publication_info>
+      <full_name>440 - 0.00 - DS_II_G_324</full_name>
+      <url>data/stories/559.dfl</url>
+    </story>
+    <story story_id="34">
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_1712</publication_info>
+      <full_name>150 - 1.31 - DS_III_1712</full_name>
+      <url>data/stories/34.dfl</url>
+    </story>
+    <story story_id="419">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_1779</publication_info>
+      <full_name>123 - 3.16 - DS_III_1779</full_name>
+      <url>data/stories/419.dfl</url>
+    </story>
+    <story story_id="504">
+      <informant_id>318</informant_id>
+      <publication_info>DS_II_G_339</publication_info>
+      <full_name>318 - 0.00 - DS_II_G_339</full_name>
+      <url>data/stories/504.dfl</url>
+    </story>
+    <story story_id="793">
+      <informant_id>535</informant_id>
+      <publication_info>DS_II_G_340</publication_info>
+      <full_name>535 - 0.00 - DS_II_G_340</full_name>
+      <url>data/stories/793.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3800b</fielddiary_page_start>
+  <fielddiary_page_end>3801a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Peder's story of the disappearance of Mos lake borders on the apocryphal. Mos lake is Denmark's fourth largest lake with an area of seventeen square kilometers.
+
+     It is unclear who the Turk to whom he alludes might be, although the Turk is mentioned in numerous other apocryphal legends (DS II G 339). The Turk may be an allusion to stories of Holger Danske and his fight against a Turkish king. Turks were often represented as a frightening, distant yet threatening group. In some legends, there is an implication that the Turkish king would eventually overthrow the Danish crown (DS II G 351). In several legends, the Turks are replaced with Germans, a substitution that resonates with the clear threat of Bismark's Prussia from the 1860s up through the end of the nineteenth century (DS II G 340). The substitution of German for Turk is linguistically simple given the closeness in Danish between the words "tyrkere" (Turk) and "tyskere" (German).
+
+     Given immigration patterns in the past forty years to Denmark, there is a strong possibility that someone from Turkey has swum in the lake. At the same time, it seems somewhat unlikely that any modern Dane of Turkish heritage has cattle that need watering. Mos s&#xF8; is still quite large and shows no signs of turning into a stream.</annotation>
+  <danish_manuscript>Der gaar et Sagn om Mos S&#xF8; te den skal for
+
+3801A
+svinde og blive til en lille B&#xE6;k og s. skal den
+blive til S&#xF8; igien og s. s. de naar te Moss&#xF8;
+b&#xE6;k er bleven til en S&#xF8; s. skal Tyrken van
+de hans B&#xE6;ster i den og n&#xE6;renstid de V&#xE6;i
+(Vad) Eller s. her hvor a bor, de bliver til
+en stor Skov, s. bliver Verden ikke l&#xE6;nge.
+</danish_manuscript>
+  <english_manuscript>There's a legend about Mos lake, it's supposed to disappear and become a little stream, and then it's supposed to become a lake again. When that's happened, that Mos lake stream has become a lake, the Turk will water his cattle there. And as soon as the swamps, like here where I live, have become large forests, then the world won't exist much longer.</english_manuscript>
+  <danish_publication>Der g&#xE5;r et sagn om Mos s&#xF8;, at den skal forsvinde og blive til en lille b&#xE6;k, og derefter skal den atter blive til s&#xF8; igjen. N&#xE5;r s&#xE5; det er sket, at Mos-s&#xF8;-b&#xE6;k er bleven til s&#xF8;, s&#xE5; skal Tyrken vande hans b&#xE6;ster i den. Og n&#xE5;rentid de v&#xE6;i (vad) elle de bliver til stor skov, s&#xE5; bliver verden ikke l&#xE6;nge. V&#xE6;i elle er der, hvor a boer.</danish_publication>
+  <english_publication>There&#x2019;s a legend about Mos lake, it's supposed to disappear and become a little stream, and then it's supposed to become a lake again. When that&#x2019;s happened, that Mos lake stream has become a lake again, the Turk will water his cattle there. And as soon as the wet ells have become large forests, then the world won&#x2019;t have much time. There are wet ells near where I live.</english_publication>
+  <keywords>
+    <keyword id="190" frequency="1" keyword="cattle">cattle</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="679" frequency="4" keyword="lake">lake</keyword>
+    <keyword id="705" frequency="1" keyword="legend">legend</keyword>
+    <keyword id="1207" frequency="2" keyword="stream">stream</keyword>
+    <keyword id="1286" frequency="1" keyword="turk">turk</keyword>
+    <keyword id="1320" frequency="1" keyword="water">water</keyword>
+    <keyword id="1333" frequency="2" keyword="wet">wet</keyword>
+    <keyword id="1363" frequency="1" keyword="world">world</keyword>
+  </keywords>
+  <etk_index/>
+  <tango_indices>
+    <tango_index id="10" display_name="People: Foreigner"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

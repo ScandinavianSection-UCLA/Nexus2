@@ -1,0 +1,88 @@
+<story><story_id>777</story_id>
+  <publication_info>DS_III_2164</publication_info>
+  <full_name>402 - 0.00 - DS_III_2164</full_name>
+  <informant_id>402</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>P.</informant_first_name>
+  <informant_full_name>Dyrl&#230;ge P. Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>664</place_id>
+      <name>Trunderup</name>
+      <display_name>Trunderup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>357</place_id>
+      <name>Kv&#230;rndrup</name>
+      <display_name>Kv&#230;rndrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>384</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_2367</publication_info>
+      <full_name>123 - 2.10 - DS_III_2367</full_name>
+      <url>data/stories/384.dfl</url>
+    </story>
+    <story><story_id>646</story_id>
+      <informant_id>514</informant_id>
+      <publication_info>DS_III_2168</publication_info>
+      <full_name>514 - 0.00 - DS_III_2168</full_name>
+      <url>data/stories/646.dfl</url>
+    </story>
+    <story><story_id>662</story_id>
+      <informant_id>493</informant_id>
+      <publication_info>DS_III_2180</publication_info>
+      <full_name>493 - 0.00 - DS_III_2180</full_name>
+      <url>data/stories/662.dfl</url>
+    </story>
+    <story><story_id>755</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1164</publication_info>
+      <full_name>348 - 0.00 - DS_I_1164</full_name>
+      <url>data/stories/755.dfl</url>
+    </story>
+    <story><story_id>189</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_III_1380</publication_info>
+      <full_name>241 - 4.17 - DSnr_III_1380</full_name>
+      <url>data/stories/189.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der sees stundom et lys br&#230;nde p&#229; marken et eller andet sted, og der er da en eller anden skat fjernt, siger man. Det er imidlertid slemt at gj&#248;re fortr&#230;d med s&#229;dant et lys, hvis man tr&#230;ffer p&#229; det. S&#229;ledes var der en skovfoged, som ude i Nordtorpe &#8212; en skov &#246;st for Kv&#230;rndrup by &#8212; fik et s&#229;dant lys at se, og han gik da hen og slog til det med sin kj&#230;p, men s&#229; kunde han ikke straks slippe derfra igjen. Da han kom l&#248;s, var hans mund trukken skj&#230;vt op efter det ene &#248;re, og det varede l&#230;nge, inden han nogenlunde kom sig igjen.</danish_publication>
+  <english_publication>A light is seen burning occasionally somewhere out in the field, and there is some sort of treasure hidden out there they say. It&#8217;s bad to harm such a light if you happen upon it. There was this forest ranger who saw a light like that out in Nordtorpe&#8212;a forest east of Kv&#230;ndrup town&#8212;and he went over to it and swung at it with his staff, but then he couldn&#8217;t get away from there again. When he got free, his mouth was pulled askew up under one ear, and it was a long time before he was back to his normal self.</english_publication>
+  <keywords>
+    <keyword><id>367</id><frequency>1</frequency><keyword>ear</keyword>ear</keyword>
+    <keyword><id>369</id><frequency>1</frequency><keyword>east</keyword>east</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>438</id><frequency>1</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>443</id><frequency>1</frequency><keyword>free</keyword>free</keyword>
+    <keyword><id>501</id><frequency>1</frequency><keyword>harm</keyword>harm</keyword>
+    <keyword><id>813</id><frequency>1</frequency><keyword>mouth</keyword>mouth</keyword>
+    <keyword><id>1280</id><frequency>1</frequency><keyword>treasure</keyword>treasure</keyword>
+  </keywords>
+  <etk_index><id>15</id>
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>89</id><display_name>Actions or events: Injury</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

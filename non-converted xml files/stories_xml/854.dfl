@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<story story_id="854">
+  <publication_info>DS_III_880</publication_info>
+  <full_name>468 - 0.00 - DS_III_880</full_name>
+  <informant_id>468</informant_id>
+  <informant_last_name>Madsen</informant_last_name>
+  <informant_first_name>Tue</informant_first_name>
+  <informant_full_name>Tue Madsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>825</place_id>
+      <name>Lindeballe</name>
+      <display_name>Lindeballe (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>986</place_id>
+      <name>Nykirke</name>
+      <display_name>Nykirke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="237">
+      <informant_id>235</informant_id>
+      <publication_info>DS_III_887</publication_info>
+      <full_name>235 - 1.18 - DS_III_887</full_name>
+      <url>data/stories/237.dfl</url>
+    </story>
+    <story story_id="534">
+      <informant_id>469</informant_id>
+      <publication_info>DS_III_898</publication_info>
+      <full_name>469 - 0.00 - DS_III_898</full_name>
+      <url>data/stories/534.dfl</url>
+    </story>
+    <story story_id="398">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_870</publication_info>
+      <full_name>123 - 2.24 - DS_III_870</full_name>
+      <url>data/stories/398.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Ny-kirke skulde have v&#xE6;ret bygget midt i sognet... S&#xE5; begyndte de at bygge et andet sted, men det blev ogs&#xE5; revet ned. De tog nu fat det tredje sted, men det var lige n&#xE6;r. Endelig lod de to kviekalve dr&#xE6;tte op med s&#xF8;d m&#xE6;lk, til de var &#xE5;r gamle, og s&#xE5; blev de sp&#xE6;ndt for en ny vogn. N&#xE6;ste morgen fandt de dem p&#xE5; kirkens nuv&#xE6;rende plads.</danish_publication>
+  <english_publication>Ny-kirke (New church) was supposed to have been built in the middle of the parish... Then they began to build it in another place, but that got torn down as well. They started at a third place, but it was the same thing. Finally, they raised two calves on sweet milk until they were a year old, and then they were hitched to a new wagon. The next morning they found them at the current church's location.</english_publication>
+  <keywords>
+    <keyword id="169" frequency="1" keyword="calf">calf</keyword>
+    <keyword id="227" frequency="2" keyword="church">church</keyword>
+    <keyword id="290" frequency="1" keyword="current">current</keyword>
+    <keyword id="782" frequency="1" keyword="milk">milk</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="12">
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,37 @@
+<informant><person_id>479</person_id>
+  <core_informant/>
+  <full_name>Niels M&#248;ller</full_name>
+  <last_name>M&#248;ller</last_name>
+  <first_name>Niels</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>751</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>479</informant_id>
+      <publication_info>DS_IV_1687</publication_info>
+      <full_name>479 - 0.00 - DS_IV_1687</full_name>
+      <url>data/stories/751.dfl</url>
+      <place_recorded><id>864</id>Sjellerup</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>864</place_id>
+      <name>Sjellerup</name>
+      <display_name>Sjellerup (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

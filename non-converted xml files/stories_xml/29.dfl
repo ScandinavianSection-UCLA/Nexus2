@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<story story_id="29">
+  <publication_info>DS_IV_627</publication_info>
+  <full_name>150 - 1.26 - DS_IV_627</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.26</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>419</place_id>
+      <name>Mylenberg</name>
+      <display_name>Mylenberg (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>493</place_id>
+      <name>Rold skov</name>
+      <display_name>Rold skov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="30">
+      <informant_id>150</informant_id>
+      <publication_info>DS_IV_149</publication_info>
+      <full_name>150 - 1.27 - DS_IV_149</full_name>
+      <url>data/stories/30.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3248a</fielddiary_page_start>
+  <fielddiary_page_end>3248a</fielddiary_page_end>
+  <bibliographic_info>Georges 1983</bibliographic_info>
+  <bibliography_references>
+    <reference id="916" category="general">
+      <display_string>[Article] Georges, Robert A. 1981. Do Narrators Really Digress? A Reconsideration of "Audience Asides" in Narrating. Vol. 40 of &lt;i&gt;Western Folklore&lt;/i&gt;, 245-252.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The cruel manor lord returns as a guilty haunt. Not only does he threaten the livelihood of the local farmers in life, but he continues to do so after death. Jens provided no detail as to how the revenant was dealt with. The reference to Mylius likely was triggered by mention of Stubberuphus in the previous story, where the unfortunate Hoffman lived. That reference also explains this seeming digression (Georges 1983). Presumably, it is a duel between Mylius and Hoffman that leads to Hoffman's death. 
+
+     Collapsing independent landholdings into one large manor farm was a practice that ended by the late eighteenth century and was, in fact, reversed through partitioning. There had been a long standing prohibition against deserting hearths to prevent the abandonment of land, and to prevent exactly the type of consolidation that Mylius attempts in this story.
+
+     In the published version of this story, Tang Kristensen combined and rearranged BJK 1.26 and BJK 1.27 into a single narrative.</annotation>
+  <danish_manuscript>Ham den gl. der byggede [paa] Mylenbj&#xE6;rg, h. kj&#xF8;rte igien
+efter hans D&#xF8;d, de kaldte det f&#xF8;r Skjelhusene.
+men h. vilde gj&#xF8;re det til en stor Grd. kommer
+til visse Tider med 4 sorte for. Mylius hed
+han. Forskr. Kokkepigen. Hvarregaard har
+v&#xE6;ret en By, men Myl. lagde alle Gaarden
+&#xF8;de og maatte bygge lige s. mange Huse
+som der var f&#xF8;r Grde, de maatte ikke saa-
+dan l&#xE6;gge Ildstederne &#xF8;de. Hofman der
+boede paa Stubberuphus skal v&#xE6;re bleven slaaet
+ihjel i en Tvekamp.</danish_manuscript>
+  <english_manuscript>The old one who built Mylenberg, he drove again after his death, they called it Skjelhusene, but he wanted to turn it into a big farm. He'd appear every now and then with four horses before his wagon. He was called Mylius. He scared the kitchen girl. Hvarregaard used to be a town, but Mylius forced all the farms to be deserted, but he had to build just as many houses as there'd been farms, they weren't allowed to desert hearths like that. Hoffman, who lived at Stubberuphus, was supposed to have been killed in a duel.</english_manuscript>
+  <danish_publication>Ham den gamle, der byggede Mylenberg, han kj&#xF8;rte igjen efter hans d&#xF8;d, han kunde komme til visse tider med fire sorte for. Han hed Mylius, og efter ham fik s&#xE5; g&#xE5;rden navn. De kaldte det f&#xF6;r Skjelhusene, men han vilde gj&#xF8;re det til en stor g&#xE5;rd, og s&#xE5; vilde han have Hvarreg&#xE5;rd lagt ind under den ogs&#xE5;. Det var en hel by, men s&#xE5; lagde han alle g&#xE5;rdene &#xF8;de. Rigtig nok m&#xE5;tte han bygge lige s&#xE5; mange huse, som der f&#xF6;r var g&#xE5;rde, de m&#xE5;tte ikke s&#xE5;dan l&#xE6;gge ildstederne &#xF8;de, men jorden fik han da. Den gang Mylius blev ejer af g&#xE5;rdene, lod han indf&#xF8;re i papirerne, dede dersom der var noget af deres ejendomme, der l&#xE5; ham til hinder, m&#xE5;tte han tage det. Derefter tog han engene fra de her f&#xE6;stere og gav dem noget hedev&#xE6;rkeri i steden. De gamle f&#xE6;stere havde ligeledes haft lov til at gr&#xE6;sse deres kreaturer i skoven, men det forb&#xF8;d han dem ogs&#xE5;. Skoven skulde v&#xE6;re i hegne. Efter som de gamle f&#xE6;stere udd&#xF8;de, var det han tog engene, og s&#xE5; blev de gr&#xF8;ftede og vandede. Det var jo i den tid, da der skulde v&#xE6;re ene store herrem&#xE6;nd og sm&#xE5; arbejdsfolk.</danish_publication>
+  <english_publication>The old one who built Mylenberg, he drove again after his death, he&#x2019;d appear every now and then with four horses before his wagon. He was called Mylius and the farm was named after him. They called it Skjelhusene, but he wanted to turn it into a big farm, and so he wanted Hvarre farm to be merged into it as well. It was a whole town, but then he lay waste to all the farms. Of course, he had to build just as many houses as there&#x2019;d been farms, they weren&#x2019;t allowed to desert hearths like that, but he got the land. Then when Mylius became owner of the farms, he made them sign papers that allowed him to take any of their property that hindered him. After that, he took the meadows from these copyholders and gave them some heath instead. The old copyholders had had permission to graze their animals in the woods, but he forbade them that as well. The woods was to be fenced in. As the old copyholders died off, he took the meadows, and then they were drained and irrigated. That was at the time that there was supposed to be one big manor lord and a lot of small workers.</english_publication>
+  <keywords>
+    <keyword id="19" frequency="2" keyword="allow">allow</keyword>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="317" frequency="2" keyword="death">death</keyword>
+    <keyword id="394" frequency="6" keyword="farm">farm</keyword>
+    <keyword id="407" frequency="1" keyword="fence">fence</keyword>
+    <keyword id="451" frequency="1" keyword="furrow">furrow</keyword>
+    <keyword id="484" frequency="1" keyword="grazing">grazing</keyword>
+    <keyword id="517" frequency="1" keyword="heath">heath</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="682" frequency="1" keyword="land">land</keyword>
+    <keyword id="743" frequency="1" keyword="manor_lord">manor lord</keyword>
+    <keyword id="764" frequency="2" keyword="meadow">meadow</keyword>
+    <keyword id="818" frequency="2" keyword="mylius">mylius</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="873" frequency="3" keyword="old">old</keyword>
+    <keyword id="891" frequency="1" keyword="owner">owner</keyword>
+    <keyword id="946" frequency="1" keyword="permission">permission</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+    <keyword id="1360" frequency="2" keyword="woods">woods</keyword>
+    <keyword id="1362" frequency="1" keyword="worker">worker</keyword>
+  </keywords>
+  <etk_index id="17">
+    <heading_danish>Herrem&#xE6;nd, fruer, jomfruer</heading_danish>
+    <heading_english>Manor lords, ladies and misstresses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

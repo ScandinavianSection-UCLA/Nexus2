@@ -1,0 +1,54 @@
+<informant><person_id>487</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer H. P. Nielsen</full_name>
+  <last_name>Nielsen</last_name>
+  <first_name>H. P.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>521</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>487</informant_id>
+      <publication_info>DS_II_E_136</publication_info>
+      <full_name>487 - 0.00 - DS_II_E_136</full_name>
+      <url>data/stories/521.dfl</url>
+      <place_recorded><id>860</id>Sejling</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>525</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>487</informant_id>
+      <publication_info>DS_II_B_103</publication_info>
+      <full_name>487 - 0.00 - DS_II_B_103</full_name>
+      <url>data/stories/525.dfl</url>
+      <place_recorded><id>860</id>Sejling</place_recorded>
+      <places_mentioned>
+        <place><id>1012</id>
+          <name>Sandvig</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>860</place_id>
+      <name>Sejling</name>
+      <display_name>Sejling (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1012</place_id>
+      <name>Sandvig</name>
+      <display_name>Sandvig (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

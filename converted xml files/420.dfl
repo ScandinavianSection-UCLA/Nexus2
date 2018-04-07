@@ -1,0 +1,46 @@
+<informant><person_id>420</person_id>
+  <core_informant/>
+  <full_name>J&#248;rgen J&#248;rgensen</full_name>
+  <last_name>J&#248;rgensen</last_name>
+  <first_name>J&#248;rgen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>597</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>420</informant_id>
+      <publication_info>DS_VI_122</publication_info>
+      <full_name>420 - 0.00 - DS_VI_122</full_name>
+      <url>data/stories/597.dfl</url>
+      <place_recorded><id>805</id>J&#230;rnelund</place_recorded>
+      <places_mentioned>
+        <place><id>1034</id>
+          <name>S&#248;nderskov</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>805</place_id>
+      <name>J&#230;rnelund</name>
+      <display_name>J&#230;rnelund (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1034</place_id>
+      <name>S&#248;nderskov</name>
+      <display_name>S&#248;nderskov (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

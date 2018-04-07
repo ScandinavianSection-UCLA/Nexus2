@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<story story_id="260">
+  <publication_info>DS_IV_1839</publication_info>
+  <full_name>235 - 1.40 - DS_IV_1839</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.40</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>708</place_id>
+      <name>Vindbl&#xE6;s</name>
+      <display_name>Vindbl&#xE6;s (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="261">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VI_884</publication_info>
+      <full_name>235 - 1.41 - DS_VI_884</full_name>
+      <url>data/stories/261.dfl</url>
+    </story>
+    <story story_id="542">
+      <informant_id>370</informant_id>
+      <publication_info>DS_VI_882</publication_info>
+      <full_name>370 - 0.00 - DS_VI_882</full_name>
+      <url>data/stories/542.dfl</url>
+    </story>
+    <story story_id="618">
+      <informant_id>323</informant_id>
+      <publication_info>DS_VI_886</publication_info>
+      <full_name>323 - 0.00 - DS_VI_886</full_name>
+      <url>data/stories/618.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5219b</fielddiary_page_start>
+  <fielddiary_page_end>5220a</fielddiary_page_end>
+  <bibliographic_info>R&#xF8;rbye 1976</bibliographic_info>
+  <bibliography_references>
+    <reference id="398" category="general">
+      <display_string>[Book] R&#xF8;rbye, Birgitte. 1976. &lt;i&gt;Kloge folk og skidtfolk. Kvaksalveriets epoke i Danmark&lt;/i&gt;. Copenhagen: Politiken.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Kirsten Marie's performance of folk cures leads to a legend about a cunning person, in this case the well-known Vindbl&#xE6;skone, also known as Maren Haaning (R&#xF8;rbye 1976, 104-9). 
+
+     R&#xF8;rbye points out that Vindbl&#xE6;skonen was essentially a company name for all the cunning folk who were descendants of Maren Kirstine Christensdatter Haaning (1782-1853) (R&#xF8;rbye 1976, 104). This family became the most famous family of cunning folk in Denmark. There are numerous stories related to their practice in Danske sagn (DS VI 882, 886).
+
+    Up through the nineteenth century, there was considerable competition among cunning folk. Because of strict laws against quacksalvery and practicing medicine without a license, cunning folk often relied on word of mouth to support their practices. Despite the laws, authorities often "looked the other way" at these practices since the cunning folk represented, in many cases, the only access to health care for many people living in rural areas. Indeed, the Haaning family had a close working relationship with the pharmacy in L&#xF8;gst&#xF8;r (R&#xF8;rbye 1976, 105). 
+
+     Stories such as this attest to the considerable discussion among the rural population not only of whether the cunning folk could help but also about which cunning folk were worth visiting. In this story, and the following story, the cunning woman's cures are shown to be ineffective.</annotation>
+  <danish_manuscript>A havde en Farbroder der var n&#xE6;sten blind.
+Han var hos Konen i Vindbl&#xE6;s og hun gav ham
+nogle Urter (Owter) der skulde koges, og h.
+
+5220A
+skulde drikke. s gaa til en M&#xF8;lle og faa noget
+Knagfedt og s. sm&#xF8;rre et Plaster og l&#xE6;gge i
+hans Nakke. I Urterne laa et Stykke Papir 
+med 9 Takker [tegning] og tage en Tak hver
+Morgen i 9 Morgener, begynde fra den spidse
+Ende. Det hjalp lige godt ikke.</danish_manuscript>
+  <english_manuscript>I had an uncle who was almost blind. He went to the woman in Vindbl&#xE6;s and she gave him some herbs that were to be boiled and then he was supposed to drink it. He was also supposed to go to a mill and get some mill shaft grease and put it on a poultice and put it on his neck. Amongst the herbs, there was a piece of paper with nine notches [picture], and he was supposed to take one notch each morning for nine mornings, starting from the narrow end. It didn't help at all.</english_manuscript>
+  <danish_publication>A havde en farbroder, der var n&#xE6;sten blind, og s&#xE5; s&#xF6;gte han r&#xE5;d for det ved den kloge kone i Vindbl&#xE6;s. Hun gav ham nogle urter, der skulde koges, og s&#xE5; skulde han drikke det. I urterne l&#xE5; et stykke papir med 9 takker snart som en redekam, men papiret var spidsere ved den ene ende end ved den anden. S&#xE5; skulde han tilligemed tage en tak hver morgen i 9 morgener, og begynde ved den spidse ende. S&#xE5; skulde han ogs&#xE5; g&#xE5; til en m&#xF8;lle og f&#xE5; noget knagfedt og sm&#xF8;re et plaster af og l&#xE6;gge i hans nakke. Men det hjalp lige godt ikke.</danish_publication>
+  <english_publication>I had an uncle who was almost blind and so he went to seek advice from the cunning woman in Vindbl&#xE6;s. She gave him some herbs that were to be boiled and then he was supposed to drink it. Amongst the herbs, there was a piece of paper with nine notches like a comb, but the paper was narrower at one end than at the other. He was supposed to take one notch each morning for nine mornings, and start at the narrow end. He was also supposed to go to a mill and get some shaft grease and put it on a poultice and put it on his neck. But it didn&#x2019;t help at all.</english_publication>
+  <keywords>
+    <keyword id="12" frequency="1" keyword="advice">advice</keyword>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="355" frequency="1" keyword="drinking">drinking</keyword>
+    <keyword id="524" frequency="2" keyword="herbs">herbs</keyword>
+    <keyword id="783" frequency="1" keyword="mill">mill</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="825" frequency="1" keyword="neck">neck</keyword>
+    <keyword id="900" frequency="2" keyword="paper">paper</keyword>
+    <keyword id="1289" frequency="1" keyword="uncle">uncle</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

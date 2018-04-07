@@ -1,0 +1,849 @@
+<story><story_id>374</story_id>
+  <publication_info>JFm_XII_64</publication_info>
+  <full_name>123 - 1.02 - JFm_XII_64</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>1.02</order_told>
+  <fieldtrip><id>2</id>Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>175</place_id>
+      <name>Fuldbro m&#248;lle</name>
+      <display_name>Fuldbro m&#248;lle (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>89</place_id>
+      <name>Brandstrup</name>
+      <display_name>Brandstrup (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>196</place_id>
+      <name>Glentholm</name>
+      <display_name>Glentholm (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>298</place_id>
+      <name>Hvidsminde</name>
+      <display_name>Hvidsminde (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>504</place_id>
+      <name>Ry</name>
+      <display_name>Ry (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>520</place_id>
+      <name>Siem</name>
+      <display_name>Siem (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>22</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_505</publication_info>
+      <full_name>150 - 1.19 - JAH_V_505</full_name>
+      <url>data/stories/22.dfl</url>
+    </story>
+    <story><story_id>55</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_110</publication_info>
+      <full_name>150 - 2.08 - DS_II_C_110</full_name>
+      <url>data/stories/55.dfl</url>
+    </story>
+    <story><story_id>81</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_535</publication_info>
+      <full_name>150 - 3.18 - JAH_V_535</full_name>
+      <url>data/stories/81.dfl</url>
+    </story>
+    <story><story_id>166</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_1706</publication_info>
+      <full_name>241 - 2.16 - DS_V_1706</full_name>
+      <url>data/stories/166.dfl</url>
+    </story>
+    <story><story_id>400</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>JAH_III_456</publication_info>
+      <full_name>123 - 2.26 - JAH_III_456</full_name>
+      <url>data/stories/400.dfl</url>
+    </story>
+    <story><story_id>410</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_B_13</publication_info>
+      <full_name>123 - 3.07 - DS_II_B_13</full_name>
+      <url>data/stories/410.dfl</url>
+    </story>
+    <story><story_id>421</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>JAH_II_413</publication_info>
+      <full_name>123 - 3.18 - JAH_II_413</full_name>
+      <url>data/stories/421.dfl</url>
+    </story>
+    <story><story_id>432</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XIII_38</publication_info>
+      <full_name>123 - 4.04 - JFm_XIII_38</full_name>
+      <url>data/stories/432.dfl</url>
+    </story>
+    <story><story_id>481</story_id>
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1307</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1307</full_name>
+      <url>data/stories/481.dfl</url>
+    </story>
+    <story><story_id>859</story_id>
+      <informant_id>531</informant_id>
+      <publication_info>JFm_V_49</publication_info>
+      <full_name>531 - 0.00 - JFm_V_49</full_name>
+      <url>data/stories/859.dfl</url>
+    </story>
+    <story><story_id>103</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_27</publication_info>
+      <full_name>150 - 3.40 - JAH_V_27</full_name>
+      <url>data/stories/103.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3754b</fielddiary_page_start>
+  <fielddiary_page_end>3762b</fielddiary_page_end>
+  <bibliographic_info>Pentik&#228;inen 1969
+J&#248;rgensen 1940
+Christiansen 1975
+Hvidt 1990, 250-252
+Uther 2004 vol. 2, 267-269</bibliographic_info>
+  <bibliography_references>
+    <reference><id>434</id><category>general</category>
+      <display_string>[Article] Pentik&#228;inen, Juha. 1969. The Dead without Status. Vol. 4 of &lt;i&gt;Temenos&lt;/i&gt;, 92-102.</display_string>
+    </reference>
+    <reference><id>37</id><category>general</category>
+      <display_string>[Book] J&#248;rgensen, Harald. 1979. &lt;i&gt;Studier over det offentlige Fattigv&#230;sens historiske Udvikling i Danmark i det 19. Aarhundrede&lt;/i&gt;. Copenhagen: Selskabet for Udgivelse af Kilder til Dansk Historie.</display_string>
+    </reference>
+    <reference><id>649</id><category>general</category>
+      <display_string>[Book] Uther, Hans-J&#246;rg. 2004. &lt;i&gt;The types of international folktales : a classification and bibliography, based on the system of Antti Aarne and Stith Thompson (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+    <reference><id>276</id><category>general</category>
+      <display_string>[Book] Christiansen, Palle Ove. 1975. &lt;i&gt;Husmandsbev&#230;gelse og jordreform i Danmark en etnologisk oversigt&lt;/i&gt;. Copenhagen: Etnologisk Arbejdsgruppe for Nordiske og Europ&#230;iske Studier.</display_string>
+    </reference>
+    <reference><id>464</id><category>general</category>
+      <display_string>[Edited book] Bj&#248;rn, Claus, Dahlerup, Troels, Jensen, S. P., Helmer Pedersen, Erik. 1988. Vol. 1-4 of &lt;i&gt;Det danske landbrugs historie&lt;/i&gt;. Odense: Landbohistorisk Selskab.</display_string>
+    </reference>
+    <reference><id>920</id><category>general</category>
+      <display_string>[Book section] Tangherlini, Timothy R. 2012. 'To market! To market!': Markets and the M&#228;rchen in Nineteenth Century Denmark. In Vol. 1 of &lt;i&gt;News from Other Worlds: Studies in Nordic Folklore, Mythology, and Culture&lt;/i&gt;: 267-289. Berkeley: North Pinehurst Press.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>This story provides a close reading of the organization of two local farms. Outlying farms date back to the partitioning of the lands from the end of the eighteenth century. Once fields had been consolidated, farmhouses were physically moved from the village center out onto the new fields. The timbers would be saved from the original farm, and placed on a new foundation sometimes made with stones from the original farm. The new farm building would then be given new stucco walls as most farms at the time were half-timber construction. The result of this physical removal of buildings from the villages onto the fields was the wide dispersal of farms across the landscape. Farms that had once nestled up to each other cheek-by-jowl in earlier villages could end up quite a distance from each other. Peder also draws attention to the difference in the quality of the land attached to these newly created farms, and it is this disparity in distribution that informs this story. 
+
+     The financial difficulties of the farmer at Hell resonate with those confronting the farmer Klaus in the previous story (PJ 1.01). But where Klaus in that story had brought calamity on himself--and therefore deserved to be punished--the farmer at Hell was the victim of the capriciousness of the partitioning system and the forces of the newly emerging free market system.
+
+     The story balances precariously on the border between tall tale and legend. This type of generic fence sitting is a characteristic of Peder's storytelling. The hiring of the farmhand on the way to market is a narrative cue that aligns the story with the folk tale. Although the commerce laws forbade making deals on the way to or from market towns, the negotiation here for the services of a hired hand possibly fell outside the parameters of that law (Tangherlini 2012). 
+
+     The agreement that the farmhand would take over the farm once the farmer was too old to continue was a standard agreement, usually between a  farmer or cotter and his children: a child would take over the farm in exchange for continued lodging and a specified amount of foodstuffs for the parent once the parent had gotten too old to continue farming. This system was known as aft&#230;gt. The unusual aspect to the agreement made in this story is that it is made outside of the family with a virtual stranger. The farmhand's later actions suggest that even this agreement may be part of his larger confidence game. As such, the farmhand's actions align well with those of untrustworthy wanderers. 
+
+     The farmhand's solution to the problems at Hell are at first clever, and later downright criminal. The first con that the farmhand undertakes is an elaborate switch at the mill. The switch is rather complicated, and relies on an understanding of local milling practice. The farmhand can only get this information by befriending and ultimately bribing the journeyman miller. Peder's own work as a journeyman miller doubtlessly informs this part of the story. The implication is, of course, that the miller is not beyond reproach. In the story, Peder endorses the actions of the farmhand, since he succeeds (with the help of the miller), to cheat another farmer out of his grain. Endorsing a strategy that puts personal gain first, rather than communal protection, is unusual. 
+
+     The second part of the story focuses on the poor relationship between the two preposterously named farms. The farmhand's actions are extreme in every thing he does: his theft from the mill, his deceit of the neighbors, his murder of the old woman, his multiple thefts from the farm at "Heaven," his subsequent cons concerning the conjuring of the woman's spirit, and his multiple manipulations to get people to pay compensation to him for her death. Indeed, his actions align him more with a particularly malicious household spirit or perhaps with the devil than an ambitious or entrepreneurial farmhand. This identification of the farmhand as the devil might help explain the names of the two farms.
+
+     The appearance of a peddler in the final episode of the story aligns well with other stories Peder tells in which these wanderers figure prominently. The final conjuring is clearly unsuccessful since the ghost of the murdered woman continues to haunt.
+
+     The story is reminiscent of Hans Christian Andersen's fairy tale "Lille Claus og store Claus" (1835). The story was widely known throughout Scandinavia, and is classified as ATU 1535, "The Rich and the Poor Farmer." 
+
+     The reference to "specier" as the unit of money points to a time prior to the monetary reform of 1873 (Hvidt 1990, 250-252). For a discussion of the monetary systems in Denmark during the nineteenth century, see the annotation for BJK 3.40.
+
+     Peder only told two stories in his first session with Tang Kristensen, although they were both quite long. According to Minder og Oplevelser, this first session was split over two evenings in the mill, and so it is likely that each of these stories was told on subsequent nights. 
+
+      This story is cataloged in the fair copy collection of fairy tales as &#198;v 1295 and can be compared with a story in the first published volume of &#198;ventyr fra Jylland (JFm V 49).</annotation>
+  <danish_manuscript>Der vesten for Svejstrup der ligger Siem og
+i den &#248;stre Kant af S. ligger den Grd som
+kaldes Brandstup. grd og s. langt som Mands
+Minde gaar har det v&#230;ret et Ensted Sted og
+bebygget. Norden for saadan omtr midt
+vejs mellem Br. og Hvidsminde laa der
+ogsaa en Grd og der var der Velstand til Huset
+
+----
+3755A
+for Jorden var s. meget bedre men det
+andet Sted Armod og ikke andet. Af den
+grund n&#230;vntes Stederne H&#230;llede og Hun-
+nerig. En aften omkr. ved Novembers 
+tide da sad M. i H&#230;ll. der og snakk. med
+hans Kone om, at de kunde ikke svare hvad
+de skulde og blev n&#248;dt til at opgive det der
+som der blev ikke andre Raad. S. gav hu
+ham det Raad at ha skulde se at faa sig
+en st&#230;rk Karl og arbejde lidt paa Jorden s.
+maatte de nok kunde faa Foden ud af
+saadan en Mark og h. befandt at Raadet
+var godt og gik til Ry Marked for der var
+Folkemarked dg. Da h. kommer herned til
+Glentholm, dg kaldtes det Ry M&#248;lle s. kom-
+mer h. i F&#248;lge med en stor Karl og gaar og
+sn. med hinanden og s. viste det sig at
+de gik efter det samme og kommer til Rette
+paa halvvejs og gik hjem igien. L&#248;nnen blev
+saadan at K. skulde faa for hvad M. kunde
+give, og siden naar M. faldt fra skulde h.
+have St&#248;tterue (s: Ejendommen). De kommer
+hjem til Konen og M. fort&#230;ll. hende: Der
+er nu Karlen. Ha h. er lidt storagtig, men
+vi faa vel F&#248;den. S. s. K. Ja det ser jo
+smaat ud ved jer, men det kan vel bedres
+Har i noget Kj&#248;ret&#248;j. Ja vi har s. M. vi
+
+3755B
+har et Par Stude og s. en Vogn. Har I ogsaa
+nogle tomme S&#230;kke. Ja, vi har s. mange te
+vi kan kj&#248;re til M&#248;lle til Ordentlighed for
+Posens Skyld, men vi maa blive derfra,
+for det vi har ikke Korn. Ja da lad mig
+kuns faa Poserne s. K. og dem fik h.
+og s. kj&#248;rte h. ud i en Landgrav og fyldte
+dem med Sand, 2 Skp i somme og 4 i somme
+efter som der skulde v&#230;re til Mel ell. Gryn
+ell. Br&#248;d. Kj&#248;rer s. til M&#248;lle. Ikke saa-
+dan som nu, spandt en fra og hvor
+M. bar sine Poser ind og s. skulde h. passe
+paa at naar den der fik malet lige f&#248;r
+ham, var f&#230;rdig skulde h. holde sig til, el
+lers fik h. ikke malet den Dag. Saadan
+gik til den G. Karl gaar jo og vr&#248;vler s.
+l&#230;nge til h. bliver for l&#230;nge og de kommer
+til at male paa deres, der var kommen n&#230;st
+efter ham. Hen til Mestersv. og klager
+hans N&#248;d til ham, om h. kunde ikke sige
+ham noget Raad til dh. Ja s. Msv. det
+ved jeg ingen Raad for, du kommer til at
+vente til i Morgen ellers ogsaa s. langt
+ud ad Aften til vi bliver f&#230;rdig. Ja, 
+men a skulde absolut hjem og putter en
+Mark til Sv. Ja nu skal a sige dig, du kan
+passe paa, naar der kommer en og skal have
+
+3756A
+sin S&#230;k taget fra, s. skal du komme f&#248;rst og
+tage fra og s&#230;tte din egne i Stedet, enhver
+skulde jo tage sit fra. H. var s. godt om
+sig te h. faar en godt Korn og s. kj&#248;rer h.
+hjem. S. fik de jo bagt Br&#248;d og da de
+nu havde lavet s. meget Br&#248;d oppe i 
+Himmerig, skulde de have et nyt Br&#248;d hos
+dem, ellers tr&#230;ngte de jo ikke saa haardt.
+Havde en gl. Kone der oppe i den Grd og hun
+var s. f&#230;ll. nysgj. efter at sp&#248;rge ud om
+den ny Karl de havde faaet og Konen var
+n&#230;rved at blive kjed af det og sagde det
+da ogsaa tung, hu kom hjem. S. s. K. Ja
+t&#248;v kuns lidt, hu skal faa mere at t&#230;nke
+paa. Nu kan du gaa op og laane os deres
+Skp. S. gjorde hu det og bar den hjem
+2 Dagen. Den gl. Mad. hen og fik fat i
+Skp og set efter og da var der en Lybekker
+gaaet fast mellem Stavene nede i Bun
+den og den havde h. sat fast med Villi.
+Nej se s. hu den gl. nu kan a missel
+sige jer, hvad de har brug Skp. til for de
+har maalt Penge med den. Hun blev s. nys
+gj. efter det te hun omsider faar [Lov t]
+M. til at gaa derned og faa Lov til at
+s&#230;tte en Kiste derind og vilde selv v&#230;re i.
+H. gaar derned og hilser Godaften. Karlen ikke
+
+3756B
+hjem. H&#248;r a har en Strandkiste a vilde ha-
+ve herned. Der er Linned i den og vi skal
+have fremmede. Holder ikke af at s&#230;tte den
+ud i Laden. Ut&#248;jet kan jo spolere Linne
+det. Tillige med heller ikke godt staa ude i
+Fygtighed. Jo, baade ham og hans Hus
+stod til deres Tjeneste. 2 dags Form. Kisten
+kj&#248;rt derned, l&#230;st af, sat ved Siden af
+Kakkelo. om Midd. kom Karlen fra
+Skovs og ser den Kiste. Hvad, hvordan er
+den kommen der. Det fort&#230;ll. de. Der er
+andet under det. Da vil du da vel ikke
+til at br&#230;kke Kisten. Det gj&#248;r ingen Ting
+vi kan lukke den lige saa godt igien. Ruk-
+ker op, og der sidder dh gl. Hex og slaar
+et Par Brikker paa dem s. meget geval-
+dig. Da var det dg et sv&#230;rt Spil, da skal
+a se, om a kan ikke faa hendes Nysgj.
+tilfredsstillet. Tager hans Bind&#248;kse og
+slaar hende for Panden med. Det kunde
+hun lige godt ikke taale og sov hen. Jaja
+s. Ko. du er mins&#230;l en Karl til at gj&#248;re
+det af en gl. Folk. Men hvad skal vi nu
+gj&#248;re, naar det bliver opdaget. Jamen
+det bliver aldrig opdaget, for nu skal I se,
+og tog en af de st&#248;rste P&#248;lser og putter i Mun-
+den af hende, s. den kunde hverken kom
+
+3757A
+frem eller tilbage, s. lukte h. Kist. ganske
+forsigtig til igien, og s. lod de hende staa.
+M. paa Him kj&#248;rte jo ned og hentede hende
+da Dagen var om, og h. kunde ikke vel
+kom fra Stedet inden h. begyndte at
+snakke til hende, men hu vilde jo ikke
+svare. S. t&#230;nkte h. Da skal a se om a 
+kan ikke faa Liv i hende. Kj&#248;rt af en
+Stendynge og paa en anden. Men lige me-
+get hjalp det, ikke s. meget som et Kvab
+hu sagde. N. hvordan har min Moder
+det s. s. Ko da h. kom ind i Grden. Ja
+nu kan du jo sp&#248;rge hende om det, for
+a er miss&#230;l kyv opo et. N. det er du,
+ja lad os s. faa hende af for hun kan ogsaa
+v&#230;re kyv opo at ligge i den Kiste, og de
+faa hende jo l&#230;st af, og ind og lukt op
+Ja der har vi det, s. Ko, a har tit og man
+ge G. advaret hende det gl. Skind, for hun
+har aldrig rigtig forstaaet at passe Munden
+og nu er det lige vel gaaet hen og gaaet
+hende over. De tog og lagde hende paa
+straa og beg. at spekulere paa at danne
+til Begr. der var jo ikke andet at se ef
+ter. Fik sp&#230;ndt for og kj&#248;rte til M&#248;lle
+Det f&#248;rste de kom hjem, gav de dem til 
+at brygge for at have nogle Gj&#230;r til
+
+3757B
+Br&#248;det. S. sidder de om Aftenen og danner
+Skeer der nede i H&#230;ll. for de var n&#248;dt til
+at tage Tiden i Betragten. S. s. ha de har
+lavet noget godt &#216;l oppe i Him. i dag
+Ja det har de, s. M. hvem der havde
+haft sig en Drik af det. Ja det kan vi
+sagt faa, mente Karlen og de to Karle de
+snakkes ved s. l&#230;nge til de kommer til Ret
+te om at hente &#216;llet. Karlen sp&#230;ndte
+Stud. for og de faar en tom T&#248;nde i Vog
+og rumler op der i N&#230;rheden og mens
+M. holdt ved Stud. da bar Karl &#216;llet
+ud i T&#248;nde s. l&#230;nge til der var kun en
+bitte Slat i Bunden, den lod h. staa og
+satte Karret paa Kant og M. kj&#248;rer hjem
+selv gik h. ind og tog den gl. Mad. der
+laa paa Straa og satte hende paa Hovedet
+ind i den Smule der var tilbage. Om
+Morg. det f&#248;rste M. vaagnede raaber h.
+ad hans Kone og s. Aa h&#248;r ved du hvad
+l&#248;b ud og hent mig en Taar af det nye &#216;l
+a er da s. knust&#248;rstig, det var jo en L&#230;k
+kermund. Hu gaar ogsaa derud, og fandt
+Karret, og der var noget koldt der laa
+derinde, men hu vidste ikke hvad det
+var. Fulgtes begge ad der ud med Lyset og
+kunde se hvad det var. Naada, da
+
+3758A
+har hu drukken godt, hu har her drukket
+alt &#216;llet, men vi maa jo helst s&#248;rge for
+at faa bagt, da vi har stilt an. Ja det
+maa vi helst, og de bager s. den Dag og
+faar Br&#248;den af Ovnen og faar sat i Bag-
+truget paa Enden som Skik og Brug er. 
+S. gik de til Sengs der oppe, men dem
+der nede i H&#230;ll. gj&#248;r ikke. De hentede
+jo Br&#248;den og dragede hjem med det og s.
+lagde de den gl. langs hen ad Truget,
+men f&#248;rst tog de en Skalk og over tyggede
+den lidt saadan at de kunde bedre komme
+i Tanker om, at det var hende der havde
+spist Br. og anden Dags Morgen s. M.
+da h. nu ser hvordan Sagerne staar.
+I Dag vil vi ikke brygge for ovenpaa saadan
+et Maaltid kan hun miss&#230;l gj&#230;rne tr&#230;n
+ge til noget at drikke. Men [I] i morgen
+vil vi have Studen slagtet, for vi vil
+lige godt se om hu i Nat kan gaa ud
+og &#230;de en levende Stud. Kan hun gj&#248;re det
+s. skal der andre Kneb til. Hen ved Aftens
+tid da gik Ma, ned til H&#230;ll. og faar Lov
+opaa M. der at Ka maatte kom op
+og holde ved Studen 2 Dags Morgen og
+s. blev Aftalen at ha skulde m&#248;de om Morg
+
+3758B
+Kl. 6 og det var omkring ved Jul, s det
+var jo tidlig. S. sildig paa Aft. s. Kar. Det
+lod til ligesom de var r&#230;dde for Studen
+de kunde jo gj&#230;rne skaan dem for den
+Ulejlighed de kom til at have med ham.
+Aa nej s. M. det kan aldrig gaa. Husk
+paa te det er tredje G. og ha var lide
+overtroisk. Ja du ved nok, s. Ka. te
+alle gode Gange det er tre, og s. var der jo
+ikke noget at sige, de fulgtes ad op efter
+Studen, fik den lykkelig og vel ud af N&#248;d
+set og hjem og slagtet med det samme. S. var
+der ikke mere ved det. Ka tog Halen,
+skar den af og gik op til Him. med og s.
+gik han ind og hentede Kon. og lagde hende 
+i Studens Baas men hendes Bent&#248;j 
+det lagde han i Klaven og hendes Hoved
+vendte h. ind mod Grevningen og s. stop
+pede h. Halen i Munden af hende og
+dermed gik h. hjem. Om Morg. Kl. 6 som
+der var befalet s. stilte h. oppe ved Gaar
+den igien. S. kalder h paa M. de var
+ikke komme op. Jaja s. M. kom indenfor
+vi kan faa os en Bid Br&#248;d. H. kommer 
+jo ogsaa ind. Ja nu skal du ikke skaane
+ved s. M. at tage for dig af Retterne
+
+3759A
+for du kan tro du vil faa dine Kr&#230;fter
+n&#248;dig og Ka lod sig det ikke sige to gange
+h. tog for sig af Maden. Da de var f&#230;r-
+dig gik de ud i N&#248;dset og havde Lygten
+med. Ja den staar enlig i sin Baas, den
+er nem at kjende, den er lige her ved Siden
+af D&#248;ren. Ja a kan ingen Stud se s. Ka.
+Og er det en Stud, s. er det mins&#230;l af
+ de smaa da. Forvar jer s. Ma lad mig
+kom til med Lygten: I kan jo ingen Ting
+se, og da h. kommer og ser, da havde h. n&#230;r
+smidt Lygten af en Forskr. for der laa
+Konen og havde gjort af med Studen s.
+n&#230;r som den lille Stump Hale, den kunde
+hun ikke have med at skaffee. Ja s....! [K M]
+naar du har set s. meget s. kan a lige
+s. godt fort&#230;lle det hele og s. fortalte h.
+hvordan det hele var gaaet til fra det
+f&#248;rste og til det sidste. Kan du nu sige
+mig et Raad s. h. til Ka hvordan vi skal
+blive hende ledig. Ja a ved jo et Raad s.
+K. men det er jo lidt dyr og det er hu skal
+manes, der er ikke andet at gj&#248;re ved hende.
+Ja hvem kan gj&#248;re det. Ja a kan sige dig
+en og det er ingen andre end mig selv, a kan
+gj&#248;re det, og vil ogsaa da, men a vil have
+
+3759B
+det godt betalt, for mislykkes det, s. er
+det mig det kommer til at gaa ud over. Men
+vil du give mig 25 Spesier, s. vil a gj&#248;re
+det. Ja det er jo mange Penge s. M. men
+n&#230;renstid hu s. skal ikke komme igien,
+vil a ogsaa indgaa paa det. Ja, s. K. a
+stiller ikke andre Beting. end a kj&#248;rer hjem
+efter vort Kj&#248;ret&#248;j, for du vil vel ikke laane
+mig dit Kj&#248;ret. VI har jo ikke andet end
+Stude og det skulde helst have v&#230;ret B&#230;st
+Jo det vil a s. meget gj&#230;rne s. M. Jaja
+s. skal hu vaskes ren over hele hendes
+Krop og hu skal i rent Linned, og s. skal
+hu i hendes Altarskl&#230;der og s. skal hu
+kl&#230;des paa med Kl&#230;der og Kaabe, ligesom
+hun ellers blev kl&#230;dt paa i levende Live
+n&#230;renstid det var koldt og s. er der kun
+det tilbage. De f&#248;rste 3 Maanem&#230;rker
+maa I ikke snakke om hende her i Gaar
+den for s. vil a ikke indstaa for F&#248;lger
+ne, s. kunde det ske, I kunde komme
+til at &#248;nske hende tilbage. Ja n&#230;renstid
+der er ikke andet end det, det kan vi sagt
+overholde og gaa med paa allesammen. 
+S. fik Ka. hende i hendes fulde Stads og
+s. kj&#248;rte h. med hende. Nu var det faldt
+
+3760A
+ned med Frostvejr og s. mente Ka. hu kun
+de nok blive ved at holde sig lidt og ha kj&#248;
+rer til Aarhus med hende og det f&#248;rste
+h. kommer derind s. kj&#248;rer h. hen for en
+Skomager D&#248;r og holder der. S. gaar h. ind 
+og s. H&#248;r her Skom. a har en gl. M. der sid-
+der her ude i Vog. du skulde da vel ikke have
+haft det saadan at en kunde faa et Par
+St&#248;vler til hende, hun kan ikke vel n&#230;re
+sig med dem hun har. Det har a jo nok
+s. h. men a skulde helst vide hvor stor
+Foden var. Ja det kan du gaa ud og snak
+ke med hende om, men du kommer til at
+snakke lidt h&#248;jt, for hun er lidt tung-
+h&#248;rende. Skom. gik ud til hende og siger
+om hu vil ikke fly ham Foden han kan
+se hvor stor den er. Men hu svarte ikke
+S. bliver h. hidsig, s. l&#230;nge staar h. og
+pr&#230;ker med hende og vipper hende over i 
+noget Skramleri ha havde bag i Vog, for
+hun var jo lidt stiv, da h. griber i Foden
+Nej holdt s. h. det gj&#248;r Ka, a vil nok
+have St&#248;vler til hende, men have Hovedet
+slaaet i Stykk. af hende det bryder a mig
+ikke om. Ak den lebendige Kj&#230;ll. hun
+kan vel taale et Skrup. s. Skom. h rev
+
+3760B
+lidt paa det tyste men det viste sig hu
+kunde ikke, for hu var slaaet Stend&#248;d.
+Ja holdt nu god Karl, nu skal du i Retten.
+Aa nej det [gj&#248;r] maa du ikke gj&#248;re, husk
+paa, a har baade Kone og B&#248;rn, kan vi ikke
+kom til Rette i Mindlighed. S. sn. de
+samme og det blev saadan at Skom. skulde
+give 25 Sp. og s. skulde Karlen kj&#248;re. S. 
+kj&#248;rte h. ogsaa ud af Byen. Nu maa a
+vel egentlig helst se at kom hjem, for
+hvem kan vide, om det ikke kunde blive op
+lyst. S. tog Karlen Vejen om ad H&#248;ve
+og efter Vissing og i de Dage var der Kroer
+som den er endnu, men den Kromand var
+bekjendt for at v&#230;re saadan et knurendis
+hidsigt Mske. Ham kj&#248;rte Ka. til og s.
+gik h. ind til ham og s. H&#248;r kan a ikke
+faa dig til at gaa ud og give min Moder et
+godt glas Drikkels, det kan hun tr&#230;nge til
+og det fr&#248;s klingrendes haardt den Dag. Ja
+har du noget at betale med s. M. s. kan
+det nok lade sig gj&#248;re. Ja v&#230;rsgo her er
+Penge. Da Kr. havde faaet Pengene skynder
+h. sig. Hun er lidt tungh&#248;rig, s. du kom
+mer til at r&#248;vsle lidt med hende inden
+[h] kan hu ikke forstaa hvad det er. H. gik
+ud til Vog og sn. til hende, men alt det
+
+3761A
+h. raabte det hjalp ikke. Var ikke vant
+til at f&#230;rdes med Lumpe. Uden videre
+giver h. hende Krus og Indhold lige ind
+i Hovedet. Det Slag det v&#230;ltede hun for.
+N. s. h. det gj&#248;r Ka. n&#229; gj&#230;sterne de bliver
+behandlede paa den Maade her. Ja s. Kr. saa-
+dant L&#230;der, saadant Sm&#248;relse. Det er hverken
+hun eller mig godt tjent med, her ligger hun
+nu og h. begynder [at] at fl&#230;tte til Side ved
+Ansigtet af hende, og det viste sig at h.
+havde ramt hende med Kruset lige midt
+i Panden, der var bleven et stort blaat
+Sted. Da Krm. fik det at se, s. blev h.
+lidt lavm&#230;let. S. s. h. det havde a lige godt
+ikke troet, te a havde slaaet s. haardt til
+for det ser jo ud som hu er d&#248;d. Ja, det er
+hun, men [d] du vilde vel nok [gron] v&#230;re
+s. god og sige mig hvor det n&#230;reste Tingsted
+det er. Aa det er ligevalle da ikke v&#230;rd
+at tage det s. haardt, vi maa hellere se
+om vi ikke kan kom til ens i Mindelighed
+Ja, det er knap a kan det s. Ka. for de
+vil knaske ude af mig hvor a har gj&#248;rt
+af min Moder, men er det saadan, det er
+dig meget om at gi&#248;re, vil a lige godt tag
+B&#248;de for hende, s. kommer a ud af Lagerne
+
+3761B
+som a kan bedst. Hvor stor den B&#248;de blev
+var der ingen der fik at vide, for det var en
+velhavende Mand, men den blev vel noget
+stor, og s. kj&#248;rte h. v&#230;k. Kj&#248;rte paa J&#230;vngyde
+og [alle] over ved Byens M&#248;llevad og op til
+Nygaard Skov og op gjennem H&#248;ve Hule. Se da
+h. kommer til Munden af H. H. da var det
+blivet Aften og Maanen skinte s. dejlig, da laa
+der en Kr&#230;m og sover og hans S&#230;k laa ved Si
+den ved ham. Da ka faar den her at se
+t&#230;nker h. ved sig selv: Der kan maaske gj&#248;
+res Forretning og h. tager Posen og h&#230;lder
+alt Kr&#230;mmet af i Vog. og tager Kj. og stop
+per h nede i Posen i Stedet med Hovedet op
+ad. og s. kj&#248;rer h. ganske forsigtig derfra,
+indtil h. er kommen oven ud af Skoven og
+s. kj&#248;rte h. til det sang i Toldene derfra
+og s. hjem. Kj&#248;rte op og leveret B&#230;sterne
+af og takkede for Laan og bad dem huske
+paa hvad h. havde bedt dem med Hensyn
+til Konen. S. hen ad Kl. 7 1/2 s. vaagner
+h. det gj&#248;r Kr&#230;mmeren og h. siger til sig selv
+Du har nok sovet vel l&#230;nge Kr&#230;sten, men
+det kan vel naaes endnu, da kan vel kom 
+der til N&#230;tterdags, han plejede alle Tider
+at losere i Him. om Natten og det var
+der h. vilde til. S. beg. h. at sp&#230;nde Posen
+paa og ilav s. h. til sig selv: A
+3762A
+tykker den er bleven s. sv&#230;r den Pose, men
+a kan vel nok drage den derop. S. faar a
+at hvile og s. kan a strags beg. at hand
+le og det sykker i Posen. S. vandrede h. af
+sted. H. svedte jo, men endelig omsider h.
+dertil og kommer ind ligesom de sidder og spi-
+ser N&#230;tter. Godaften og Gudfred. Tak s. h.
+det gjorde Ma. Det er jo Kristen. Ja der er
+sku saa mig selv og ingen andre. Det er
+l&#230;nge siden du har v&#229;r her nu. Ja a
+kommer lige fra Hamborg af. Den Vej
+vandrer en ikke i to Dage. Ja da s&#230;t dig
+s. herhen til Bordet og faa lidt til dine
+N&#230;tter. Ja Tak s. h. og de spiste og da de
+var s. omtr. f&#230;rdig s. h. a tykker a sav-
+ner et Mske. Naa det gj&#248;r du s. M.
+og det var saadan lidt studs. Ja vor gl.
+M. hvor hu henne. Hun er d&#248;d s.
+h. det gj&#248;r M. S. var de f&#230;rdig med Nat
+teren og Kr. havde faaet hans Pose sat
+op paa Bordet. Aa Herre G. den Sj&#230;l
+da gad a nok set hende endnu en G. det
+var en skj&#248;n Kvinde at tale med, og som
+h. siger det har h. faaet l&#248;st op for Posen
+og Mad. stikker Hovedet der ud af. Hvad
+er dh. s. Kr. I det er jo min s&#230;l den gl.
+og der blev en Forf&#230;rdelse over det hele
+
+3762B
+samlingen. Vi er bliven forb&#248;jen s. M. 
+at &#248;nske hende hertil og saadan en Land-
+stryger skal s. kom og f&#248;re os i det Uf&#248;re.
+Det kommer til Skj&#230;ldmaal imellem ham
+og kr&#230;mmeren og omsider fik Kr. flest
+at vide, hvordan det var gaaet til og s.
+str&#248;g h. derfra det villeste h. havde l&#230;rt, h.
+vilde ikke have med deres V&#230;rk at skaffe.
+En 2 Dags Morg. stillede M. nede ved Kar
+len og fortalte ham, hvordan det hele var
+gaaet til, og bad ham nok s. mindelig om
+h. vilde ikke s&#230;tte hende hen igien, heller
+vidste h. ingen Raad. Jo s. h. K. nu skal
+a s. gj&#248;re det en Gang til, og s. skal hu
+nok blive henne, men den g. vil a have
+12 Spes. for det og s. skal du sv&#248;be hende
+i et Jordlage, hu skal ingen andre Ting
+v&#230;re i. S. tog han en Skubkarre og kj&#248;rt
+derop og der satte h. hende paa den og s.
+kj&#248;rte h. hende ned i Siem D&#248;jer og man
+te hende der. Men siden den Dag har det 
+ogsaa sp&#248;get der.
+</danish_manuscript>
+  <english_manuscript>West of Svejstrup is Siem and on the eastern edge of Siem there's a farm that's called Brandstrup farm and as long as people can remember, it's been an outlying farm and it's been built up. North of it, about half way between Brandstrup and Hvidsminde there was another farm and the farm was well off since the earth there was so much better and at the other place, there was poverty and nothing else. Because of that, the places were called Hell and Heaven. One evening, around November, the farmer in Hell sat and talked to his wife and said they couldn't pay what they owed and they'd be forced to give up the farm unless they figured something out. She told him that he should find a good strong farmhand and work the land a little, then they should be able to get food from such a field and he thought the advice was sound and he went to Ry market, since in those days there was a general market there. When he gets down here to Glentholm, they called it Ry Mill in those days, he catches up with a big farmhand, and they start talking together and it turned out that they were headed to find the same thing and they reach an agreement about half the way there and they went back home. The farmhand was to get what the farmer could afford in payment, and when the farmer later gave up, he was to get the property. They come home to the wife and the farmer tells her: Here's the farmhand. He's a little bit big, but we'll probably get food. Then the farmhand says, well it looks pretty meager here, but it can probably be made better. Do you have anything to drive with? Yes, we do, said the farmer, we have a pair of oxen, and a wagon. Do you have any empty sacks. Yes, we have so many that we can easily drive to the mill for the sacks' sake, but we have to stay away, since we don't have any grain. Well, just give me the sacks, said the farmhand, and he got them and then he drove out into a pit and filled them with sand, two measures in some and four in others, depending on whether it was to be for flour or meal or bread. Drives off to the mill. It isn't like now, you unhitched the horses and carried your sacks in and then you had to watch out, when the one in front of you had finished milling, you were to step up, otherwise you wouldn't get your grain milled that day. That's how it went then. The farmhand goes and complains, says he's taking too long and they're milling the grain of the one who'd come after him. Goes over to the master journeyman and complains to him, if he couldn't give him advice for this. Well, said the master journeyman, I don't have any advice for that, you'll have to wait to tomorrow or very late tonight until we're finished. Yes, but I absolutely have to get home, and he slips the journeyman a mark. Sure, well now I'll tell you, keep an eye out, when someone comes and is to have a sack taken away, you should come up first and take it away and put your own sack in its place, each person was supposed to take their own sacks away. He was so good at it, that he got some good grain and then he drives home. Then they got some baked bread since they baked so many loaves up in Heaven, they'd get a new loaf from them, otherwise they weren't in such bad shape. They had an old woman up there in that farm and she was so incredibly nosy and asked about the new farmhand they'd gotten and the wife was quite tired of that and complained about it when she got home. Yes, said the farmhand, wait just a little while, then she'll have more to think about. Now, you can go up and borrow their measure. So she did that and brought it home the next day. The old woman grabbed hold of the measure and inspected it and there was a L&#252;beck coin stuck in between the ribs down in the bottom and he'd put it there on purpose. No, lookie here, said the old woman, now I can certainly say what they've used this measure for, they've been measuring money with it. She gets so curious about this that she gets her husband to go down there and get permission to store a chest in there and she wants to be in it herself. He goes down there and greets them. Good evening. The farmhand isn't home. Listen, I have a storage chest I want to keep down here. There's linen in it and we're going to have guests. I don't want to put it out in the barn. The bugs could spoil the linen. And it wouldn't be so good to have it out in the moist air. Sure, both he and his house were at his service. The next morning. The chest is driven down there, unloaded and placed next to the wood-burning stove. Around noon, the farmhand comes back from the woods and sees the chest. Hunh, what's this? They tell him. There's something else in there. You aren't going to break the chest open. It wouldn't matter, we can always close it up well again. Breaks it open and the old witch is sitting there and she throws a couple of playing pieces at them and they were quite big. That's quite a game, now I'll see if I can't satisfy her curiosity. He takes his hatchet and hits her in the forehead with it. She couldn't handle that and she dies. Well, well, you're quite a young man, doing that to an old person. What are we going to do now, when they find out. Well, it will never be discovered, now you'll see and he took one of the biggest sausages and puts it in her mouth, it couldn't budge either forward or backward, and then they let her be. The man from Heaven drove down and picked her up at the end of the day, and he hadn't gotten too far from the place when he began to talk to her. But she wouldn't answer. Then he thought, well I'll see if I can't liven her up. Drove down one rock pile and over another. But nothing helped, she didn't say a peep. Well, how is my mother, said his wife when he came to the farm. Well, you can ask her yourself, since I can't get a word out of her. Pretty darn sick of it. Oh, you are are you? Well let's get her down, because she might be sick of lying in that chest herself, and they unloaded her and brought her in and opened it up. Well there you have it. I often warned her, that old bag, that she should watch her mouth, and now its gone and done her in. They took her and lay her on straw and began thinking about her funeral, there was nothing else they could do. They hitched up the horses and drove to the mill. As soon as they got home, they began to brew so they could have some yeast for the bread. At night they sit down there in Hell making spoons, since they had to make use of all their time. Then he said, they've made some good beer up in Heaven today. Yes, they have, says the husband, who'd had a taste of it. Well, we can get it, said the farmhand, and those two guys talk about it for a while and they decide to go get the beer. The farmhand hitched up the oxen and they put an empty barrel in the wagon and rumble up nearby and while the husband held the oxen, the farmhand carried the beer out to the barrel, until there was only a little puddle left in the bottom, he left that there, and he put the tub up on its side and the man drives home. The farmhand goes in and takes the old woman who is lying on straw and puts her head first into the little bit that was left. The next morning, the first thing the husband does when he wakes up is to call to his wife and say, hey, listen, could you go out and get me a taste of the new beer, I'm so incredibly thirsty, he had a real sweet tooth (l&#230;kkermund). She goes out there, too, and she finds the tub, and there was something cold lying in there, but she didn't know what it was. They both went out there with a candle and they could see what it was. Well, well, you've drunk well, she's drunk all of the beer, but we better bake, since we've gotten everything ready for that. Yes, we'd better, and then they bake that day, and get the bread out of the oven and they put the loaves on their end in the baking trough as is the custom. Then they went to bed up there, but the one's down in Hell don't. They went and got the bread and went on home with it and then they lay the old one along the trough, but first they took a crust and chewed it a bit, so it'd be more likely they'd think that it was her who'd eaten the bread and then the next morning, the husband said, when he saw how things stood, we aren't going to brew today because on top of a meal like that, she'll probably need something to drink. But tomorrow, we can slaughter the ox, since we can see if she can go out tonight and eat a living ox. If she can do that, then we'll have to do something else. Around evening time, the husband there goes down to Hell and gets permission to have the farmhand come and hold the ox the following morning, and they agree that he is to come up there at six in the morning, it was right about Christmastime, and so that was early. It almost sounded like they were afraid of the ox, they could have easily spared themselves the trouble that they were going to have with him. Oh no, said the husband, it will never work. Remember that this is the third time, and he was a little superstitious. Yes, well you know that all good things happen in threes, said the farmhand, and then there was nothing else to say, and they went up together to the ox, got it happily out of the barn and got it home and slaughtered it immediately. Then there was nothing more to it. The farmhand took the tail, cut it off and went up to Heaven with it, and then he went in and got the woman and put her in the ox's stall, but he put her legs in the ties and he put her head out toward the gutter and then he stuffed the tail into her mouth and then he went home. The next morning at six o'clock as agreed, he was up at the farm again. Then he calls to the husband who hadn't gotten up yet. OK, OK, said the husband, come inside, we can have us a bite of bread. He goes in too. Don't be shy, says the husband, take as much as you'd like since you're going to need all your strength, and the farmhand didn't need to be told twice, he took a lot of food. When they were done, they went out into the barn and had the lamp with them. Yes, it's standing alone in its stall, it's easy to recognize, it's right here by the door. Well, I can't see any ox, says the farmhand. And if it's an ox, then it's certainly one of the small ones. Watch out, says the husband, let me come with the lamp, you can't see anything, and when he comes and sees, he almost dropped the lamp out of fear, because there lay the woman and she'd done away with the ox, except for a little piece of tail, she couldn't finish that. Goddammit! since you've seen this much, I can tell you the whole story, and then he told him how things had gone from the beginning to the end. Can you give me some advice, he says to the farmhand, how can we get rid of her? Well, I know one thing, said the farmhand, but it is a little expensive and it's that she needs to be conjured, there's nothing else to do with her. Well, who can do that. I can give you the name of one who can, and it is no other than myself, I can do it, and I will gladly do it too, but I need to be paid well for it, because if it goes bad, it will be me who suffers. But if you give me 25 spesier, then I'll do it. Well, that's a lot of money, said the husband, but if she won't come again, I'll agree to that. OK, says the farmhand, I'll make no other conditions than you let me go home and get our wagon, since you probably don't want to lend me your wagon. We don't have anything other than oxen, and it really should be horses. Sure, I'll gladly lend you mine, said the husband. OK, well then, she needs to be washed clean over her whole body, and she is to be put in clean linen, and then she should be dressed in her church clothes, and then she is to be dressed in regular clothing with a cape, just like she'd be dressed when she was alive when it was cold outside, and that's all there is left to do. You can't mention her here at the farm for the first three months, because then I can't say what might happen, it might happen that you'd wish her back. Well, as long as there's nothing other than that, we can certainly observe those rules, and go along with all of that. Then the farmhand got her in all her finery and then he drove off with her. Now, frost had set in and the farmhand thought she'd probably keep for a little while and he drives to Aarhus with her, and as soon as he gets there, he drives up to a cobbler's door and he stops there. Then he goes in and says, Listen here, cobbler, I have an old woman sitting out here in a wagon, do you think you might have a pair of boots for her, she can't continue with the ones she has. I probably do, he says, but I probably better know how big her feet are. Well, he could go out and talk to her about that, but you'll have to speak loudly, because she's a little hard of hearing. The cobbler goes out and asks if she couldn't give him her foot, so he can see how big it is. But she didn't answer. Then he gets angry, he's stood there so long, preaching to her and he knocks her over back into some junk he had there in the back of the wagon, because she was a little stiff, when he grabs hold of her foot. Hey, stop, the farmhand says, sure I want boots for her, but to have her head smashed in, I'm not really interested in that. Oh, that damn hag, she can probably take a little push, said the cobbler, he shook her a little, but it turned out she couldn't, because she'd been knocked stone dead. Wait a second, my good man, you're going to court. Oh, no, please don't do that, I have a wife and children, can't we come to an agreement? Then they talked to each other and they agreed that the cobbler would give him 25 specier and then the farmhand would drive off. Then he drove out of the town. Now I'd better see about coming home, since who knows if someone might figure this out. Then the farmhand took the road past H&#248;ve and past Vissing, and in those days there was an inn as there is now, but the innkeeper then was known for being a really short tempered guy. The farmhand drove over to him and then he went in and said, Listen, can't I get you to go out and give my mother a good glass of something to drink, she probably needs it and it was freezing cold that day. Sure, do you have anything to pay with, asked the man, then I certainly can do it. Yes, here you are, here's some money. When the innkeeper had gotten the money, he hurries. She's a little hard of hearing, so you're going to have to shake her a bit to get her to understand what's going on. He went out to the wagon and spoke to her, but it didn't matter how much he shouted. Wasn't used to dealing with the infirm. Without further ado, he throws the mug and its contents at her head. The blow knocked her over. Oh, said the farmhand, so that's how guests are treated here. Yes, said the innkeeper, that kind of leather, that kind of grease. Neither she nor I is well served by that, now she's lying here and he begins to brush at the side of her face, and it turned out that the mug had hit her right in the middle of the forehead, there was a big black and blue mark there. When the innkeeper saw that, he dropped his voice. Then he said, he didn't think he'd hit her that hard since it looked like she was dead. Yes, she is, and so you'll be good enough to tell me where the closest court is. Oh come on, you needn't take it so hard, we should better see if we can't figure something out. We'll I can't really do that, since they'll get it out of me what I've done with my mother, but if it's so that you can do something, then I'll take a fine for her, and then I'll get out of it as best I can. No one found out how big that fine was, because he was a wealthy man, but it was certainly pretty big, and then he drove off. He drove up along J&#230;vngyde and over by the town's mill and up to Nygaard Woods and up through H&#248;ve Hollow. Then when he gets to the mouth of H&#248;ve Hollow, it was night and the moon was shining so beautifully, and there was a peddler lying there sleeping, and his bag lay beside him. When the farmhand sees this, he thinks to himself: I can do some business here and he takes the bag and pours all of the wares into the wagon and takes the old hag and stuffs her down into the bag instead, with her head up and then he drives carefully away, until he gets out of the woods and then he drove until the reins sang and drove home. Drove up and delivered the horses and thanked them for loaning them to him and asked them to remember what he'd asked them in regards to the woman. Then around seven thirty, he wakes up, the peddler does, and he says to himself, you've certainly slept late Kr&#230;sten, but you can probably still make it, you can get there by nightfall, he would always sleep at Heaven at night and that's where he was headed. Then he started to put his bag on and he says to himself: boy it seems like this bag has gotten so heavy, but I can certainly drag it up there. Then I'll get a rest and then I can start selling things right away and then the bag will get lighter. Then he wandered off. He was sweating, but finally he gets there and comes in just as they're sitting there eating dinner. Good evening and god bless. Thank you, he said, the husband does. It's Kristen. Yes, it certainly is me and no one else. It's been a while since you've been here. Yes, I'm coming straight from Hamburg. You don't walk that road in two days. Well, sit down here at the table and have a little dinner. Why thank you, he says and they ate and when they were more or less done, he says, it seems there's a person missing. Yes, there is, said the husband, and it was quiet for a little bit. Yes, our old mother, where is she. She's dead, he says, the husband does. Then they were done with dinner and the peddler had put his bag up on the table. Oh dear God, I'd love to see that soul one more time, she was a wonderful woman to talk to, and as he says that, he's untied his bag and the old woman sticks her head out. What's this, says the peddler. God help me that's the old woman, and the whole group was shocked. We've been forbidden to wish her here and then a hobo like this comes and brings us into this trouble. They start arguing, him and the peddler and after a while, the peddler learns most of it, how things had happened and then he got out of there as fast as he could, he didn't want to have anything to do with their problems. The next morning, the husband went down to the farmhand and told him what had happened, and asked nicely if he wouldn't please conjure her again, he didn't know what else to do. OK, said the farmhand, now I'll do it one more time, and she'll certainly stay away, but this time I want 12 specier and I want you to wrap her in a burial cloth, she's not to be in anything else. Then he took a wheelbarrow and drove up there and they put her on it and then he drove her down to Siem D&#248;jer and conjured her there. But since then, there's been haunting down there.</english_manuscript>
+  <danish_publication>Vesten for Svejstrup ligger Siem By, og i den &#248;stre Kant af den ligger den Gaard, som kaldes Brandstrup Gaarden. Saa langt som Mands Minde gaar, har det v&#230;ret et Ensted-Sted og bebygget. Saadan omtrent midt vejs mellem Brandstrup og Hvidsminde laa der ogsaa en Gaard, og der var Velstand til huse, for der var Jorden saa meget bedre, men i Brandstrup-Gaarden var der Armod og ikke andet. Af den Grund n&#230;vntes Stederne Hellede og Himmerig. En Aften omkring ved Novembers Tide sad Manden i Hellede og Snakkede med hans Kone om, at de ikke kunde Svare, hvad de kunde, og at de blev n&#248;dt til at opgive det, dersom der ikke blev andet Raad. Saa gav hun ham det Raad, at han skulde se at faa sig en st&#230;rk Karl, og saa skulde de arbejde dygtig paa Jorden, saa maatte de nok kunne saa F&#248;den ud af saadan en Mark. Han befandt, at Raadet var godt, og gik saa til Ry Marked, hvor der var Folkemarked den Gang. Da han kommer ned til Glentholm, som den Gang kaldtes Ry M&#248;lle, saa kom han i F&#248;lge med en stor Karl, og de gik og snakkede med hinanden. Saa viste det sig, at de gik efter det samme, og kom ogsaa til Rette paa halvvejs. De gik da hjem igjen, og L&#248;nnen blev saadan, at Karlen skulde gaa for, hvad Manden kunde give, og siden, naar Manden faldt fra, skulde han have St&#248;tterne (hus og det hele). De kommer hjem til Konen, og Manden siger til hende: "Der er nu Karlen; ja, han er lidt storagtig, (velvogsen), men vi faar vel F&#248;den." "Ja, det ser jo smaat ud ved jer," siger Karlen, "men det kan vel bedres. Har I noget Kj&#248;ret&#248;j?" &#8212; "Ja, vi har," siger Manden, "vi har et Par Stude og saa en Vogn." -"Har I nogle tomme S&#230;kke?" &#8212; "Ja, vi har saa mange, te vi kan kj&#248;re til M&#248;lle til Ordentlighed for Posers Skyld. Men vi maa kj&#248;nt blive derfra, for det vi har ikke Korn." &#8212; "Ja, da lad kuns mig faa Poserne," siger Karlen, og saa fik han dem, de havde. Saa kj&#248;rte han ud i en Sandgrav og fyldte dem med Sand, to Skj&#230;pper i somme og fire Skj&#230;pper i somme, eftersom de skulde v&#230;re til Mel eller Gryn eller Br&#248;d, og saa kj&#248;rer han til M&#248;lle.
+Den Gang var det ikke saadan som nu; da spandt en fra, og hver Mand bar sine Poser ind. Naar han kom ind med dem, skulde han passe paa at holde sig til, og naar den var f&#230;rdig, der fik malet lige f&#248;r ham, saa skulde han have sit Korn slaaet paa, ellers fik han ikke malet den Dag. Saadan gik det nu til den Gang. Karlen gaar jo og vr&#248;vler saa l&#230;nge, te den n&#230;ste kommer ind, og de kommer til at male paa hans, der var bag efter. Saa gaar han hen til Mestersvenden og klager hans N&#248;d til ham, saadan og saadan var det gaaet, om han kunde ikke sige ham noget Raad til det. "Ja," siger Svenden, "det v&#233;d a ingen Raad for, du kommer til at vente til i Morgen, eller ogsaa maa du blive her saa langt ud paa Aftenen, til vi bliver f&#230;rdig."&#8212; "Jammen a skulde absolut hjem," og saa putter han en Mark til Svenden. "Ja, nu skal a sige dig noget. Du kan passe paa, naar der kommer &#233;n og skal have sin S&#230;k taget fra, at du kan komme f&#248;rst og tage fra, og saa kan du s&#230;tte din egen S&#230;k i Stedet."
+Naa, han var saa godt om sig, te han faar den ene S&#230;k efter den anden, ene godt Korn, og saa kj&#248;rer han jo hjem med hele L&#230;sset. Nu fik de bagt Br&#248;d, og da de forhen havde laant saa meget Br&#248;d oppe i Himmerig, skulde de jo have sendt et nyt Br&#248;d der op til at begynde med. Oppe i den Gaard havde de en gammel Kone, og hun var saa f&#230;lt nysgjerrig efter at h&#248;re ud om den nye Karl, de havde faaet.  Konen i Hellede gik selv derop med Br&#248;det, og hun var n&#230;rved at blive kjed af den gamles Snak og sagde det ogsaa, den Gang hun kom hjem. Saa siger Karlen: "Ja, t&#248;v kuns lidt, hun skal nok faa mere at t&#230;nke paa. Nu kan du gaa op og laane os deres Skj&#230;ppe." Saa gjorde hun det og bar den hjem Andendagen. Den gamle Kone skulde strags hen og have fat i Skj&#230;ppen for at se efter, og da var der en Lyb&#230;kker gaaet fast imellem Staverne nede i Bunden. "Nej se," siger hun den gamle, "nu kan a missel sige jer, hvad de har brugt skj&#230;ppen til, for de har maalt Penge med den." Men Karlen havde jo sat den fast der med Vilje. Den gamle blev saa nysgjerrig efter at faa at vide, hvordan det forhavde sig med de Penge, te hun omsider faar Manden til at gaa derned og faa Lov til at s&#230;tte en Kiste, og saa vilde hun selv v&#230;re i den. Han gaar altsaa derned og hilser Godaften. Karlen var ikke hjemme lige i Tiden. "H&#248;r," siger Manden, "a har en Standkiste, a vilde have sat herned, den er fuld af Linned. Vi stal have fremmede, og saa holder vi ikke af at s&#230;tte den ud i Laden, for Ut&#248;jet kunde jo gaa hen og spolere Linnedet; tillige med kan den heller ikke godt taale at staa ude i den Fugtighed." Jo, siger den fattige Mand, det kunde den godt, baade ham og hans Hus stod til deres Tjeneste. Anden Dags Formiddag blev saa Kisten kj&#248;rt derned og l&#230;sset af og sat ved siden af Kakkelovnen.
+Saa om Middagen kommer Karlen fra Skovs og ser den Kiste. Nu havde han jo ikke h&#248;rt den omtale. "Hvad, hvordan er den kommen der?" siger han. Det fort&#230;ller de. "Ja, der er andet under det."&#8212;"Ja vil du da vel ikke til at br&#230;kke Kisten."&#8212;"Det gj&#248;r ingen Ting," siger han, "vi kan lukke den lige saa godt igjen." Han lukker op, og der sidder denher gamle Hegs og slaar et Par Brikker paa dem saa meget gevaltig store. "Ja var det dog et sv&#230;rt spil, da skal a se, om a kan ikke faa hendes Nysgjerrighed tilfredsstillet." Han tager saa hans Bind&#248;gse og slaar hende for Panden med. Det kunde hun lige godt ikke taale og sov hen med det samme. "Jaja," siger Konen, "du er mins&#230;l en Karl til at gj&#248;re det af med gamle Folk. Men hvad skal vi nu gj&#248;re, naar det bliver opdaget?"&#8212;"Jammen det bliver aldrig opdaget," siger han, "for nu skal I se." Saa tager han en af de st&#248;rste P&#248;lser og putter i Munden af hende, saa den hverken kan komme frem eller tilbage. Derefter lukte han Kisten ganske forsigtig til igjen og lod hende staa.
+Manden paa Himmerig kj&#248;rte jo ned og hentede hende, da Dagen var omme, og han kunde ikke vel komme fra Stedet, inden han begyndte at snakke til hende, men hun svarte jo ikke. Saa t&#230;nkte han: "Da skal a se, om a kan ikke faa Liv i hende," og han kj&#248;rte af &#233;n Stendynge og paa en anden. Men lige meget hjalp det, ikke saa meget som et Kvab hun sagde. "Naa, hvordan har min Moder det?" siger Konen, da han kom ind i Gaarden. "Ja, nu kan du jo selv sp&#248;rge hende om det, for a er missel kyv opaa 'et."&#8212;"Naa, det er du, ja lad os saa faa hende af, for hun kan ogsaa v&#230;re kyv opaa at ligge i den Kiste." De faar hende jo l&#230;sset af og faar Kisten ind og faar den lukket op. "Ja, der har vi det," siger Konen, "a har tit og mange Gange advaret hende, det gamle Skind, for hun har aldrig rigtig forstaaet at passe Maaden, og nu er det ligevel gaaet hen og gaaet hende over." De tog saa og lagde hende paa Straa og begyndte nu at spekulere paa at danne til Begravelse, der var jo ikke andet at se efter. De fik sp&#230;ndt for og kj&#248;rte til M&#248;lle, og det f&#248;rste de kom hjem, gav de dem til at brygge for at have nogle Gj&#230;r til Br&#248;det.
+Om Aftenen sidder de der nede i Hellede og danner Skeer, for de var n&#248;dt til at tage Tiden i Betragtning. Saa lige med et siger Karlen: "De har lavet noget godt &#216;l oppe i Himmerig i Dag." &#8212; "Ja, det har de," siger Manden, "hvem der havde haft sig en Drik af det." &#8212; "Ja, det kan vi sagt faa," mente Karlen, og de to Mandfolk snakker ved saa l&#230;nge, til de kommer til Rette om at hente &#216;llet. Karlen sp&#230;nder Studene for, og de faar en tom T&#248;nde i Vognen og rumler der op i N&#230;rheden. Mens nu Manden holder ved Studene, da bar Karlen &#216;llet ud i T&#248;nden, saa l&#230;nge til der var kun en bitte Slat i Bunden, den lod han staa, og saa satte han Karret paa Kant. Imens nu Manden kj&#248;rte hjem med &#216;llet, gik han selv ind og tog den gamle Madamme, der laa paa Straa, og bar hende ud og satte hende paa hovedet ned i den Smule &#216;l, der var tilbage. Om Morgenen, det f&#248;rste Manden vaagnede, raabte han ad hans Kone og sagde: "Aa h&#248;r, v&#233;d du hvad, l&#248;b ub og hent mig en Taar af det nye &#216;l, a er da saa knust&#248;rstig." Det var jo en L&#230;kkermund, kan vi nok forstaa. Hun gik ogsaa derud og fandt Karret, og hun m&#230;rkede noget koldt, der laa der nede, men vidste ikke, hvad det var, og l&#248;b saa ind til Manden igjen og fortalte ham det. De fulgtes begge ad derud med Lyset, og saa kunde de jo se, hvad det var. "Naa da, da har hun drukket godt, hun har drukket alt &#216;llet. Men vi maa jo helst s&#248;rge for at faa bagt, da vi har stilt an."&#8212;"Ja, det maa vi helst,' og de bager saa den Dag og faar Br&#248;dene af Ovnen og faar dem sat paa Enden i Bagetruget, som Skik og Brug er.
+Saa gik de til Sengs der oppe, de var jo noget tr&#230;tte af Dagens Travlhed, men dem der nede i Hellede de gjorde ikke. De hentede Br&#248;dene og dragede hjem med dem, og faa lagde de den gamle langs hen ad Truget. Men f&#248;rst tog de en Skalk og overtyggede den lidt, saadan at Folkene bedre kunde komme i Tanker om, at det var hende, der havde spist Br&#248;dene, og den Skalk laa hun med i H&#230;nderne. Anden Dags Morgen, da de nu ser, hvordan Sagerne staar, siger Manden: "I Dag vil vi ikke brygge, for oven paa saadant et Maaltid kan hun missel gj&#230;rne tr&#230;nge til noget at drikke, og saa beholder vi jo ikke noget af det. Men i Morgen vil vi have Studen slagtet, for vi vil lige godt se, om hun i Nat kan gaa ud og &#230;de en levende Stud. Kan hun gj&#248;re det, saa skal der andre Kneb til."
+Hen ved Aftenstid da gik Manden ned til Hellede og fik Lov opaa Manden der, at Karlen maatte komme op og holde ved Studen anden Dags Morgen, og saa blev Aftalen, at han skulde m&#248;de Klokken seks. Det var omkring ved Jul, saa det var jo tidlig, og det var endnu helt m&#248;rkt; men det var alligevel ikke for tidlig at faa begyndt paa Slagteriet.
+Sildig paa Aftenen siger Karlen: "Det lod til, ligesom de var r&#230;dde for at miste deres Stud. Vi kunde jo gj&#230;rne skaane dem for den Ulejlighed, de t&#230;nker paa at have med den." - "Aanej," siger Manden, "det kan aldrig gaa, husk paa, te de er tredje Gang." Det sagde han jo, for det han var lidt overtroisk. "Ja, du v&#233;d nok," siger Karlen, "te alle gode Gange det er tre," og saa var der jo ikke noget at sige. De fulgtes ad op efter Studen, fik den lykkelig og vel ud af N&#248;dset og trukken hjem og slagtet med det samme. Saa var det til Side. Bag efter tog Karlen halen, skar den af og gik op til Himmerig med den. Der gik han ind og hentede Konen og lagde hende saa i Studens Baas. Men hendes Bent&#248;j det lagde han i Klaven, og hendes hoved vendte han ud mod Gr&#230;vningen. Derefter stoppede han Studehalen i Munden af hende, og saa gik han hjem.
+Om Morgenen Klokken segs, som Aftalen var bleven, stillede han oppe ved Gaarden igjen. De var ikke kommen op, og saa kaldte han paa Manden. "Jaja," siger han henne i Sengen, "kom inden for, vi kan faa os en Bid Br&#248;d f&#248;rst." Han kommer jo ogsaa ind. "Ja, nu skal du ikke skaane ved," siger Manden, "at tage for dig af Retterne, for du kan tro, du vil faa dine Kr&#230;fter n&#248;dig. Karlen lod sig det ikke sige to Gange, og tog dygtig for sig af Retterne. Da de var f&#230;rdige, gik de ud i N&#248;dset og de havde jo Lygten med. "Ja, den staar enlig i sin Baas," siger Manden, idet de gaar over Gaarden, "den er nem at finde, og den staar lige her ved Siden af D&#248;ren." Saa lukker de D&#248;ren op. "Ja, a kan ingen Stud se," siger Karlen. "Og er det en Stud, saa er det mins&#230;l en af de smaa da." "Forvar jer," siger Manden, "lad mig komme til med Lygten. I kan jo ingen Ting se." Da han nu kommer og faar rigtig set til, da havde han n&#230;r smidt Lygten af ene Forskr&#230;kkelse, for der laa den gamle Kone og havde helt gjort det af med Studen, saa n&#230;r som den lille Stump hale, den kunde hun ikke have med at skaffe. "Ja," siger Manden, "nu du har set saa meget, saa kan a lige godt fort&#230;lle det hele," og saa fortalte han, hvordan det altsammen var gaaet til lige fra det f&#248;rste og til det sidste.
+"Kan du nu sige mig et Raad," siger han til Karlen, "hvordan vi Skal blive hende ledig."&#8212;"Ja&#8212;, a ved jo &#233;t Raad," siger Karlen, "men det er lidt dyrt." &#8212; "Og det er?" "Ja &#8212; a, hun skal manes, der er ikke andet at gj&#248;re ved hende." &#8212; "Ja, hvem kan gj&#248;re det?" &#8212; "J&#8212;a, a kan sige dig &#233;n, og det er ingen andre end mig selv, a kan justement gj&#248;re det og vil ogsaa da, men a vil have det godt betalt, for mislykkes det, saa er det mig, det kommer til at gaa ud over." &#8212; "Ja, hvor meget mener du, du skal have?" &#8212; "Aa, vil du give mig 25 Specier, saa vil a gj&#248;re det." &#8212; "Ja &#8212; a, det er jo mange Penge," siger Manden, "men n&#230;renstid a kan v&#230;re forvisset paa, hun skal ikke komme igjen, vil a ogsaa gaa ind paa det." &#8212; "Ja," siger Karlen, "a stiller ikke andre Betingelser, end a kj&#248;rer hjem efter vort Kj&#248;ret&#248;j, for du vil vel ikke laane mig dit. Vi har jo ikke andet end Stude, og det skulde jo rigtig nok helst have v&#230;ret B&#230;ster." &#8212; "Jo, det vil a saa meget gj&#230;rne," siger Manden. "Jaja, saa skal hun vaskes ren over hele hendes Krop, og hun skal i en ren S&#230;rk, og saa skal vi have hende i hendes Alterskl&#230;der, for hun stal kl&#230;des paa baade med Kl&#230;der og Kaabe, ligesom hun ellers blev kl&#230;dt paa i levende Live, n&#230;renstid det var koldt. Saa er der kun det tilbage: De tre f&#248;rste Maanem&#230;rker maa I ikke snakke om hende her i Gaarden, for hvis det sker, saa vil a ikke indestaa for F&#248;lgerne. Det kunde jo ske, I kunde komme til at &#248;nske hende tilbage, og det blev v&#230;rst for mig." &#8212; "Ja, n&#230;renstid der er ikke andet end det," siger Manden, "det kan vi sagt overholde og gaa ind paa alt sammen."
+Saa fik Karlen hende i hendes fulde Stads, og derefter kj&#248;rte han med hende. Nu var det faldt ind med Frostvejr, og han mente nok, hun kunde blive ved at holde sig lidt endnu, saa han kj&#248;rer til Aarhus med hende. Det f&#248;rste hun kommer der ind, saa kj&#248;rer han hen for en Skomagers D&#248;r og holder der. Saa gaar han ind og siger: "H&#248;r, Hr. Skomager, a har en gammel Moder, der sidder her ude i Vognen, du skulde da vel ikke have haft set saadan, te en kunde faa et Par St&#248;vler til hende, hun kan ikke vel n&#230;re sig med dem, hun har." &#8212; "Det har jeg jo nok," siger Skomageren, "men jeg skulde helst vide, hvor stor Foden var." &#8212; "Ja, det kan du jo gaa ud og snakke med hende om, men du kommer til at snakke lidt h&#248;jt, for hun er noget tungh&#248;rende." Skomageren gaar saa ud til hende og siger, om hun vil ikke fly ham hendes Fod, han kan se, hvor stor den er. Men hun svarte ikke. Saa bliver han hidsig, han skal staa der og pr&#230;ke med hende saa l&#230;nge, og endelig griber han i Foden. Men hun var jo lidt stiv, og saa Vipper han hende over i noget Skramleri, Karlen havde bag i Vognen. "Nej holdt," siger han, det gj&#248;r Karlen, "a vil nok have St&#248;vler til hende, men have hovedet flaaet i Stykker paa hende, det bryder a mig ikke om."&#8212; "Ak, den lebendige Kj&#230;lling," siger Skomageren, "hun kan Vel taale et Skrup &#8212; for han rev lidt paa det tyske &#8212;; " men saa viste det sig alligevel, at hun ikke havde kunnet taale det Skrup, for hun var slaaet stend&#248;d. "Ja holdt nu, go Karl, nu skal du i Retten." Saa begynder Skomageren at klage sig: "Ak nej, det maa du ikke gj&#248;re, jeg har baade Kone og B&#248;rn, kan vi ikke komme til Rette i Mindelighed?" Saa snakker de sammen, og det blev saadan, at Skomageren skulde give 25 Specier, og saa skulde Karlen frafalde Sagen.
+Saa kj&#248;rte han ogsaa ud af Byen. "Nu maa a vel egentlig helst se at komme hjem, for hvem kan vide, om det ikke kunde blive opdaget." Han tog saa Vejen om ad H&#248;ve og efter Vissing, og da der i de Dage var Kroerer, som der er endnu, saa kj&#248;rte Karlen ind i Kroeret. Nu var den Kromand bekjendt for at v&#230;re saadan et knusendes hidsigt Menneneske, og saa kommer Karlen ind til ham og siger: "H&#248;r, kan a ikke faa dig til at gaa ud og give min Moder et godt Glas Drikkelse, det kan hun tr&#230;nge til, for det fryser klingrendes haardt i Dag." &#8212; "Ja, har du noget at betale med?" siger Kromanden, "saa kan det nok lade sig gj&#248;re." &#8212; "Jo, v&#230;rsgo, her er Penge." Da Kromanden havde faaet Pengene, saa skyndte han sig jo med Drikkelset. "Hun er lidt tungh&#248;rende," siger Karlen, "saa du kommer til at r&#248;vsle lidt med hende, inden kan hun ikke forstaa, hvad det er." Han gaar ud til Vognen og snakker til hende; men alt det han raabte, det hjalp ikke, og da han nu ikke var vant til at f&#230;rdes med Lempe, saa uden videre giver han hende baade Krus og Indhold lige ind i hovedet. Det Slag det v&#230;ltede hun for. "Naa," siger han, det gj&#248;r Karlen, der kommer til i det samme, "naa, Gj&#230;sterne de bliver behandlede paa den Maade her." &#8212; "Ja," siger Kromanden, "saadant L&#230;ber, saadan Sm&#248;relse." &#8212; "Det er hverken hun eller mig godt tjent med," siger Karlen igjen, "nu ligger hun her." Han begynder at fl&#230;tte til Side ved Ansigtet af hende, og det viste sig da, at Kromanden havde ramt hende med Kruset lige midt i Panden, og der var bleven et stort blaat Sted. Da Kromanden fik det at se, saa blev han dog lidt lavm&#230;let, og saa siger han: "Det havde a lige godt ikke troet, te a havde slaaet saa haardt til, for det ser jo ud, som hun er d&#248;d." &#8212; "Ja, det er hun, men du vilde vel nok v&#230;re saa god at sige mig, hvor det n&#230;reste Tingsted det er."&#8212; "Aa, det er ligevalle dog ikke v&#230;rd at tage det saa haardt, vi maa hellere se, om vi ikke kan komme til ens i Mindelighed." &#8212; "Ja, det er knap nok, a kan det," siger Karlen, "for de vil kanske vide af mig, hvor a har gjort af min Moder. Men er det saadan, det er dig meget om at gj&#248;re, vil a lige godt tage B&#248;de for hende, saa kommer a vel ud af Sagerne, som a kan bedst." Hvor stor den B&#248;de blev, var der ingen der fik at vide, for Kromanden var en velhavende Mand, men den blev vel noget stor.
+Saa kj&#248;rte han v&#230;k fra Kroen, kj&#248;rte op ad J&#230;vngyde og over ved Bjens M&#248;llevad og derpaa op til Nygaard Skov og op gjennem H&#248;ve Hule. Se, da han kommer til Munden af Hulen, da var det blevet Aften, og Maanen skinte saa dejlig. Saa ser han, der ligger en Kr&#230;mmer og sover, og hans S&#230;k laa ved Siden af ham. Da Karlen faar denne her Kr&#230;mmer at se, t&#230;nker han ved sig selv: "Her kan maaske gj&#248;res Forretning, og han tager Posen og h&#230;lder alt Krammet ud i Vognen, men Kj&#230;llingen tager han og stopper i Posen i Steden, med hovedet op ad. Saa kj&#248;rer han ganske forsigtig derfra, indtil han kom oven ud af Skoven, og derefter kj&#248;rte han, te det sang i Toldene, derfra og hjem. Saa kj&#248;rte han op til Himmerig og leverede B&#230;sterne af og takkede for Laan, og da han sagde Godnat, bad han dem huske paa, hvad han havde bedt dem med hensyn til Konen.
+Hen ad Klokken halv otte saa vaagner han, det gj&#248;r Kr&#230;mmeren, og han siger jo til sig selv: "Du har nok sovet vel l&#230;nge, Kr&#230;sten, men det kan nok naaes endnu. Du kan komme der til N&#230;tterdags, naar du skynder dig." Han plejede alle Tider at logere i Himmerig om Natten, og det var altsaa der, han vilde til. Saa begynder han jo at sp&#230;nde Posen paa. "A tykkes, den er bleven saa sv&#230;r, den Pose," staar han og siger til sig selv, "men a kan vel nok drage den endda. Naar a kommer derop, saa faar a at hvile, og der kan a strags begynde at handle, saa sykker det i Posen." Han vandrede altsaa af Sted og sl&#230;bte, saa han kom til at svede ved det; men endelig omsider naaer han dertil, og han kommer ind, ligesom de sidder og spiser N&#230;tter. "Godaften og Gudsfred!" siger han. "Tak," siger han, det gjorde Manden, "det er jo Kr&#230;sten."&#8212; "Ja, det er sku saa mig selv og ingen andre."&#8212; "Det er l&#230;nge siden du har vaaer her nu, Kr&#230;sten." &#8212; "Ja, a kommer og lige fra Hamborg af, den Vej render en ikke ind i to Dage." &#8212; "Ja, da saa s&#230;t dig herhen til Bordet og faa lidt til din N&#230;tter."&#8212;"Ja Tak," siger han og de spiste. Da de var saa omtrent f&#230;rdige, siger han: "A tykkes, a savner et Menneske." &#8212; "Naa, det gj&#248;r du." siger Manden, og det var saadan lidt studs. "Ja, vor gamle Moder, hvor er hun henne?" siger Kr&#230;mmeren igjen,  "Hun er d&#248;d," siger han, det gj&#248;r Manden. Saa var de f&#230;rdige med N&#230;tteren, og Kr&#230;sten faar hans Pose sat op paa Bordet i det samme. "Aa Herre Gud, den Sj&#230;l," siger han, "da gad a nok set hende endnu en Gang, det var en skj&#248;n Kvinde at tale med." Som han siger det, har han l&#248;ft op for Posen, og saa stikker Madammen hovedet der ud af. "Hvad er dether!" siger Kr&#230;sten, "ii, det er jo min S&#230;l den gamle," og der blev jo en Forf&#230;rdelse over det i hele Forsamlingen. "Vi er blevne forb&#248;jen," siger Manden, "at &#248;nske hende her til, og saadan en Landstryger skal saa komme og f&#248;re os i det Uf&#248;re!" Det kommer til Skj&#230;ldsmaal imellem ham og Kr&#230;mmeren, og omsider fik jo Kr&#230;mmeren Historien at vide, hvordan det var gaaet til. Saa str&#248;g han derfra, det villeste han havde l&#230;rt, han vilde ikke have med deres V&#230;rt at skaffe.
+Om anden Dags Morgen stillede Manden nede ved Karlen og fortalte ham, hvordan det hele var gaaet til, og saa bad han ham nok saa mindelig, om han vilde ikke s&#230;tte hende hen igjen, hellers vidste han ingen Raad. "Ja," siger han Karlen, "nu skal a gj&#248;re det &#233;n Gang til, og saa skal hun nok blive henne, men den Gang vil a have 12 Specier for det, og saa skal du sv&#248;be hende i et Jordelagen, hun skal ingen andre Ting v&#230;re i." Karlen tog saa en Skubkarre og kj&#248;rte derop, og der satte han hende paa den, og saa kj&#248;rte han hende ned i Siem D&#248;jer (Dyndhuller) og mante hende der. Men siden den Dag har det ogsaa sp&#248;gt paa det Sted.
+</danish_publication>
+  <english_publication>West of Svejstrup is Siem Town, and on the eastern edge of Siem there&#8217;s a farm that&#8217;s called Brandstrup farm. As long as people can remember it&#8217;s been an outlying farm and built up. About halfway between Brandstrup and Hvidsminde there was another farm, and the farm was well off since the earth there was so much better, but at Brandstrup farm there was poverty and nothing else. Because of that, the places were called Hell and Heaven.
+     One evening, around November, the farmer in Hell sat and talked to his wife and said they couldn&#8217;t pay what they owed and they&#8217;d be forced to give up, unless they figured something out. She told him that he should find a good strong farmhand and work hard on the land, then they should be able to get food from a field such as theirs. He thought the advice was sound and he went to Ry market where, in those days, there was a general market. When he gets down here to Glentholm, they called it Ry Mill in those days, he catches up with a big farmhand, and they went along and talked together. It turned out that they were headed to find the same thing and they reach an agreement about halfway there. They went back home and the pay was going to be that the farmhand was to get what the farmer could afford, and when the farmer later gave up farming, he was to get the property (the house and everything). They come home to the wife and the farmer says to her: &#8220;Here&#8217;s the farmhand. He&#8217;s a little bit big, but we&#8217;ll probably get the food.&#8221;
+     &#8220;Things look pretty meager here,&#8221; says the farmhand, &#8220;but it can probably be made better. Do you have anything to drive with?&#8221;&#8212;&#8220;Yes, we do,&#8221; says the farmer, &#8220;we have a pair of oxen and a wagon.&#8221;&#8212;&#8220;Do you have any empty sacks?&#8221;&#8212;&#8220;Yes, we have so many that we can easily drive to the mill for the sacks&#8217; sake. But we have to stay away, since we don&#8217;t have any grain.&#8221;&#8212;&#8220;Well, just give me the sacks,&#8221; says the farmhand, and he got all that they had. Then he drove out into a pit and filled them with sand, two measures in some and four in others, depending on whether they were to be for flour or meal or bread, and then he drives off to the mill.
+     Back then it wasn&#8217;t like it is now; back then one unhitched the horses and each man carried his own sacks in. When he came in with them, he had to pay attention, and then when the one right in front of him had finished milling, he had to throw his grain into the hopper, otherwise he wouldn&#8217;t get his grain milled that day. That&#8217;s how it went back then. The farmhand goes and blabbers for so long that the next one comes in, and the newcomer winds up milling on top of the one who was right in front of the farmhand. Then he goes over to the master journeyman and complains to him, such and such had happened, couldn&#8217;t he give him some advice about how to handle the situation. &#8220;Well,&#8221; says the master journeyman, &#8220;I don&#8217;t have any advice for that, you&#8217;ll have to wait to tomorrow or until we&#8217;re finished late tonight.&#8221;&#8212;&#8220;But I absolutely have to get back home,&#8221; and he slips the journeyman a mark. &#8220;Sure, well now, I&#8217;ll tell you something. Keep an eye out, when someone comes and is going to have a sack taken away, you can come up first, take it away and put your own sack in its place.&#8221;
+     He was so good at doing that that he got the one sack after another, all of it good grain, and then he drives home with the whole load.
+     Then they baked bread and since they had borrowed so many loaves of bread from Heaven in the past, they sent a new loaf up to them as a start. There was an old woman up there in that farm and she was so incredibly curious about the new farmhand they&#8217;d gotten. The wife from Hell went up with the bread herself, and she was getting quite tired of the old woman&#8217;s chatting and complained about it when she got home. Then the farmhand says, &#8220;Well, wait just a little while, then she&#8217;ll have more to think about. Now, you can go up and borrow their measure.&#8221; So she did that and then she brought it back the next day. The old woman wanted to get hold of the measure immediately to inspect it, and there was a L&#252;beck coin stuck in between the tines down in the bottom. &#8220;No, lookie here,&#8221; says the old woman, &#8220;now I sure as heck can say what they&#8217;ve used this measure for, they&#8217;ve been measuring money with it.&#8221; But the farmhand had put it there on purpose. The old woman gets so curious about this money that she eventually gets the husband to go down there and get permission to store a chest in the house down there and she wants to be in it herself.
+     He goes down there and greets them, wishing them a good evening. The farmhand wasn&#8217;t home at the moment. &#8220;Listen,&#8221; says the farmer, &#8220;I have a storage chest I want to keep down here, it&#8217;s full of linen. We&#8217;re going to have guests and I don&#8217;t want to put it out in the barn, because the bugs could get in there and spoil the linen; and it wouldn&#8217;t be so good to have it out in the moist air.&#8221; Sure, says the poor man, he could do that, both he and his house were at his service. The next morning the chest is driven down there, unloaded, and placed next to the wood-burning stove.
+     Around noon the farmhand comes back from the woods and sees the chest. He hadn&#8217;t heard about this arrangement. &#8220;Hunh, how did this get here?&#8221; he says. They tell him. &#8220;Well, there&#8217;s something else behind this.&#8221;&#8212;&#8220;You aren&#8217;t going to break the chest open.&#8221;&#8212;&#8220;It won&#8217;t matter,&#8221; he says, &#8220;we can always close it up again.&#8221; He opens it up and the old witch is sitting there and she throws a couple of really big wooden plates at them. &#8220;That&#8217;s quite a rough game, now I&#8217;ll see if I can&#8217;t satisfy her curiosity.&#8221; He takes his hatchet and hits her in the forehead with it. She couldn&#8217;t quite handle that and she immediately dies. &#8220;Well, well,&#8221; says the wife, &#8220;you&#8217;re quite a young man, killing off an old person. What are we going to do now, when it gets discovered?&#8221;&#8212;&#8220;Well, it will never be discovered,&#8221; he says, &#8220;now you&#8217;ll see.&#8221; Then he takes one of the biggest sausages and shoves it into her mouth, so that it can&#8217;t budge either forward or backward. Then he carefully closes the chest again and lets her be.
+     The man from Heaven drove down and picked her up at the end of the day, and he hadn&#8217;t gotten too far from the place when he began to talk to her, but she didn&#8217;t answer. Then he thought, &#8220;Well, I&#8217;ll see if I can&#8217;t liven her up a bit,&#8221; and he drove down one rock pile and over another. But it didn&#8217;t help, she didn&#8217;t say as much as a peep. &#8220;Well, how is my mother?&#8221; said his wife when he came back up to the farm. &#8220;Well, you can ask her yourself, since I sure as heck am pretty darn sick of it.&#8221; &#8220;Oh, you are, are you? Well let&#8217;s get her down off the wagon, because she might be sick of lying in that chest herself.&#8221; They unloaded her and brought her in and opened it up. &#8220;Well there you have it,&#8221; says the wife. &#8220;I often warned her, that poor old thing, that she should eat in moderation, and now it&#8217;s gone and done her in.&#8221; They took her and lay her on straw and began thinking about her funeral, there was nothing else they could do. They hitched up the horses and drove to the mill and as soon as they got home, they began to brew so they could have some yeast for the bread. 
+     At night they sit down there in Hell making spoons, since they had to make use of all their time. Then all of a sudden, the farmhand says: &#8220;They&#8217;ve made some good beer up in Heaven today.&#8221;&#8212;&#8220;Yes, they have,&#8221; says the husband, &#8220;everyone who has had a taste of it says that.&#8221;&#8212;&#8220;Well, we can certainly get a taste,&#8221; says the farmhand, and those two guys talk about it for a while and they decide to go get the beer. The farmhand hitches up the oxen and they put an empty barrel in the wagon and rumble up nearby. While the husband holds the oxen, the farmhand carries out the beer in the barrel, until there was only a little puddle left in the bottom of the brewing tub, he left that there, and then he put the tub up on its side. While the man drives home, the farmhand goes in and takes the old woman who is lying on straw and puts her headfirst into the little bit that was left. The next morning, the first thing the husband [from Heaven] does when he wakes up is to call to his wife and says, &#8220;Hey, listen, could you go out and get me a taste of the new beer, I&#8217;m so incredibly thirsty.&#8221; You see he had a real soft spot for treats. She goes out there, too, and she finds the tub, and there was something cold lying in there, but she didn&#8217;t know what it was and she ran in and told her husband. They both went out there with a candle and they could see what it was. &#8220;Well, well, you&#8217;ve drunk well, she&#8217;s drunk all the beer. But we better make sure we bake, since we&#8217;ve gotten everything ready for that.&#8221;&#8212;&#8220;Yes, we&#8217;d better,&#8221; and then they bake that day and get the bread out of the oven and they put the loaves on their ends in the baking trough as is the custom.
+     Then they went to bed up there, they were a bit tired from the busy day, but the ones down in Hell didn&#8217;t. They [the man and the farmhand from Hell] went up to Heaven and got the loaves of bread and took them home and they laid the old one out along the baking trough. But first they took a crust of bread and chewed it a bit so it&#8217;d be more likely that the ones from Heaven would think that it was she who&#8217;d eaten the bread and she lay there with that crust in her hands. The next morning, when they saw how things stood, the husband [from Heaven] says, &#8220;We aren&#8217;t going to brew today because on top of a meal like that, she&#8217;ll probably need something to drink, and then we won&#8217;t be able to keep any of it. But tomorrow, we can slaughter the ox, since we can see if she can go out tonight and eat a living ox. If she can do that, then we&#8217;ll have to do something else.&#8221;
+     Around evening time, the husband there goes down to Hell and gets permission to have the farmhand come and hold the ox the following morning so that they can slaughter it, and they agree that he is to come up there at six in the morning. It was right about Christmastime, and so that was early, and it was completely dark; but it still wasn&#8217;t too early to start slaughtering.
+     Late that evening, the farmhand says, &#8220;It almost sounded like they were afraid of losing their ox. We could easily spare them the trouble they think they&#8217;re going to have with him.&#8221; &#8220;Oh no,&#8221; said the husband, &#8220;it will never work, remember that this is the third time.&#8221; He said that because he was a little superstitious. &#8220;Yes, we all probably know,&#8221; says the farmhand, &#8220;that all good things happen in threes,&#8221; and then there was nothing else to say. They went up together to get the ox, got it safely out of the barn, and got it home and slaughtered it immediately. Then that was out of the way. Afterward, the farmhand took the tail, cut it off, and went up to Heaven with it. Then he went in and got the [dead] woman and put her in the ox&#8217;s stall. But he put her legs in the ties and he put her head out toward the gutter. Then he stuffed the tail into her mouth and then he went home.
+     The next morning at six o&#8217;clock, as was agreed, he was up at the farm again. They hadn&#8217;t gotten up yet, so he calls to the husband. &#8220;OK, OK,&#8221; he says from bed, &#8220;come inside, we can have us a bite of bread first.&#8221; He goes in too. &#8220;Don&#8217;t be shy,&#8221; says the husband, &#8220;take as much as you like since you&#8217;re going to need all your strength.&#8221; The farmhand didn&#8217;t need to be told twice, and he took a lot of food. When they were done, they went out into the barn and had the lamp with them. &#8220;Yes, it&#8217;s standing alone in its stall,&#8221; says the man as they are crossing the farmyard, &#8220;it&#8217;s easy to find, it&#8217;s right here by the door.&#8221; Then they open the door. &#8220;Well, I can&#8217;t see any ox,&#8221; says the farmhand, &#8220;and if it&#8217;s an ox, then it&#8217;s certainly one of the small ones.&#8221;&#8212;&#8220;Watch out,&#8221; says the husband, &#8220;let me come with the lamp. You can&#8217;t see anything.&#8221; When he comes and gets a good look, he almost dropped the lamp out of fear, because there lay the old woman and she&#8217;d done away with the entire ox, except for a little piece of tail, she couldn&#8217;t finish that. &#8220;Well,&#8221; says the man, &#8220;since you&#8217;ve seen this much, I might as well tell you the whole story,&#8221; and then he told him how things had gone from the beginning to the end.
+     &#8220;Can you give me some advice,&#8221; he says to the farmhand, &#8220;how can we get rid of her?&#8221;&#8212;&#8220;Well, I know one thing,&#8221; says the farmhand, &#8220;but it is a little expensive.&#8221;&#8212;&#8220;And that is?&#8221;&#8212;&#8220;Well, uh, she needs to be conjured, there&#8217;s nothing else to do with her.&#8221;&#8212;&#8220;Well, who can do that?&#8221;&#8212;&#8220;Well, I can tell you about someone who can, and it's no other than myself, I can do it, and I will gladly do it too, but I need to be paid well for it, because if it goes bad, it will be me who suffers.&#8221;&#8212;&#8220;Well, how much do you think you want?&#8221;&#8212;&#8220;Well, if you give me twenty-five specier, then I&#8217;ll do it.&#8221;&#8212;&#8220;Well, that&#8217;s a lot of money,&#8221; says the husband, &#8220;but if I can be sure that she won&#8217;t come again, I&#8217;ll agree to that.&#8221;&#8212;&#8220;OK,&#8221; says the farmhand, &#8220;I&#8217;ll make no other conditions than you let me go home and get our wagon, since you probably don&#8217;t want to lend me your wagon. We don&#8217;t have anything other than oxen, and it really should be horses.&#8221;&#8212;&#8220;Sure, I&#8217;ll gladly lend you mine,&#8221; says the husband. &#8220;Ok, well then she needs to be washed clean over her whole body, and she is to be put in a clean shift, she should be dressed in her church clothes, she is to be dressed in regular clothing with a cape, just like she&#8217;d be dressed when she was alive when it was cold outside. Then all that&#8217;s left to do is this: for the first three months, you can&#8217;t mention her here at the farm, because then I can&#8217;t say what the consequences might be. It might happen that you&#8217;d wish her back, and that would be the worst outcome for me.&#8221;&#8212;&#8220;Well, as long as there&#8217;s nothing other than that,&#8221; says the man, &#8220;we can certainly observe those rules and go along with all of that.&#8221;
+     Then the farmhand got her in all her finery and then he drove off with her. Now, frost had set in and the farmhand thought she&#8217;d probably keep for a little while and he drives to &#197;rhus with her. As soon as he gets there, he drives up to a cobbler&#8217;s door and he stops there. Then he goes in and says, &#8220;Listen here, cobbler, I have an old woman sitting out here in the wagon, do you think you might have a pair of boots for her, she can&#8217;t continue with the ones she has.&#8221;&#8212;&#8220;I probably do,&#8221; says the cobbler, &#8220;but I probably better know how big her feet are.&#8221;&#8212;&#8220;Well, you can go out and talk to her about that, but you&#8217;ll have to speak loudly, because she&#8217;s a little hard of hearing.&#8221; The cobbler goes out and asks if she couldn&#8217;t give him her foot, so he can see how big it is. But she didn&#8217;t answer. Then he gets angry, he&#8217;s stood there so long, preaching to her and finally he grabs her foot. But she was a little stiff, he knocks her over into some junk the farmhand had there in the back of the wagon. &#8220;Hey, stop,&#8221; he says, the farmhand does, &#8220;sure I want boots for her, but to have her head smashed in, I&#8217;m not really interested in that.&#8221;&#8212;&#8220;Oh, that damn hag,&#8221; says the cobbler, &#8220;she can probably take a little push&#8221;&#8212;he was a bit on the German side, but then it turned out that she couldn&#8217;t, because she&#8217;d been knocked stone dead. &#8220;Wait a second, my good man, you&#8217;re going to court.&#8221; Then the cobbler began to moan, &#8220;Oh, no, please don&#8217;t do that, I have a wife and children, can&#8217;t we come to an agreement?&#8221; Then they talked to each other and they agreed that the cobbler would give him twenty-five specier and then the farmhand would drop the case.
+     Then he drove out of town. &#8220;Now I&#8217;d better see about coming home, since who knows if someone might figure this out.&#8221; Then he took the road past H&#248;ve and past Vissing, and in those days there was an inn there as there is now, and so he drove to the inn.
+     Now the innkeeper there was known for being a really short-tempered guy and then the farmhand goes in and says, &#8220;Listen, can&#8217;t I get you to go out and give my mother a good glass of something to drink, she probably needs it, it&#8217;s really freezing cold today.&#8221;&#8212;&#8220;Sure, do you have anything to pay with?&#8221; says the innkeeper, &#8220;then I certainly can do it.&#8221; When the innkeeper had gotten the money, he hurried out with the drink. &#8220;She&#8217;s a little hard of hearing,&#8221; says the farmhand, &#8220;so you&#8217;re going to have to shake her a bit, otherwise she won&#8217;t understand what&#8217;s going on.&#8221; He goes out to the wagon and speaks to her, but it didn&#8217;t matter how much he shouted and since he wasn&#8217;t used to dealing with the infirm, without further ado, he throws the mug and its contents at her head. The blow knocked her over. &#8220;Oh,&#8221; he says, the farmhand does, as he shows up at that moment, &#8220;so that&#8217;s how guests are treated here?&#8221;&#8212;&#8220;Yes,&#8221; says the innkeeper, &#8220;that kind of leather, that kind of grease.&#8221;&#8212;&#8220;Neither she nor I is well served by that,&#8221; says the farmhand again, &#8220;now she&#8217;s lying here.&#8221; He begins to brush at the side of her face, and it turned out that the mug had hit her right in the middle of the forehead; there was a big black and blue mark there. When the innkeeper saw that, he dropped his voice and then he says, &#8220;I didn&#8217;t think I&#8217;d hit her that hard because it looks like she is dead.&#8221;&#8212;&#8220;Yes, she is, and so you&#8217;ll be good enough to tell me where the closest court is.&#8221;&#8212;&#8220;Oh come on, you needn&#8217;t take it so hard, we should better see if we can&#8217;t figure something out.&#8221;&#8212;&#8220;Well, I can&#8217;t really do that,&#8221; says the farmhand, &#8220;because they&#8217;ll want to know what I&#8217;ve done with my mother. But if it&#8217;s so that you can do something, then I&#8217;ll take a fine for her, and then I&#8217;ll get out of it as best I can.&#8221; No one found out how big that fine was, because the innkeeper was a wealthy man, but it was certainly pretty big.
+     Then he drove off from the inn. He drove up along J&#230;vngyde and over by the town&#8217;s mill and up to Nygaard Woods and up through H&#248;ve Hollow. See, when he gets to the mouth of H&#248;ve Hollow, it was night and the moon was shining so beautifully. Then he saw a peddler lying there sleeping, and his bag lay beside him. When the farmhand sees this here peddler, he thinks to himself: &#8220;Maybe I can do some business here,&#8221; and he takes the peddler&#8217;s bag and pours all the wares into the wagon, but the old woman he takes and stuffs down into the bag instead, with her head pointing up. Then he drives carefully away, until he gets out of the woods and then he drove home going as fast as he could until the reins sang. Then he drove up to Heaven and delivered the horses and thanked them for loaning them to him and asked them to remember what he&#8217;d asked them in regard to the woman.
+     Around seven thirty, he wakes up, the peddler does, and he says to himself: &#8220;You&#8217;ve certainly slept late, Kr&#230;sten, but you can probably still make it. You can get there by nightfall, if you hurry.&#8221; He would always sleep at Heaven at night and that&#8217;s where he was headed. Then he started to put his bag on. &#8220;It seems like this bag has gotten so heavy,&#8221; he stands there and says to himself, &#8220;but I can certainly drag it up there. When I get up there, I&#8217;ll get a rest and then I can start selling things right away and then the bag will get lighter.&#8221; Then he wandered off lugging the bag, and it was so heavy that he wound up sweating; but finally he gets there and comes in just as they&#8217;re sitting there eating dinner. &#8220;Good evening and God bless!&#8221; he says. &#8220;Thank you,&#8221; he says, the husband does, &#8220;It&#8217;s Kr&#230;sten.&#8221;&#8212;&#8220;Yes, it certainly is me and no one else.&#8221;&#8212;&#8220;It&#8217;s been a while since you&#8217;ve been here, Kr&#230;sten.&#8221;&#8212;&#8220;Yes, I&#8217;m coming straight from Hamburg, you don&#8217;t walk that road in two days.&#8221;&#8212;&#8220;Well, sit down here at the table and have a little dinner.&#8221;&#8212;&#8220;Why thank you,&#8221; he says and they ate. When they were more or less done, he says, &#8220;I seem to be missing a person.&#8221;&#8212;&#8220;Oh, you are, are you?&#8221; says the husband, and it was quiet for a little bit. &#8220;Yes, our old mother, where is she?&#8221; says the peddler. &#8220;She&#8217;s dead,&#8221; he says, the husband does.
+     Then they were done with dinner and the peddler had put his bag up on the table. &#8220;Oh dear God, that soul,&#8221; he says, &#8220;I&#8217;d love to see her one more time, she was a wonderful woman to talk to.&#8221; As he says that, he&#8217;s untied his bag and the old woman sticks her head out. &#8220;What&#8217;s this?&#8221; says the peddler, &#8220;God help me that&#8217;s the old woman,&#8221; and the whole group was shocked. &#8220;We&#8217;ve been forbidden,&#8221; says the man, &#8220;to wish her here and then a hobo like this comes and brings us into this trouble.&#8221; They start arguing, him and the peddler, and after a while the peddler learns most of the story, how things had happened. Then he got out of there as fast as he could, he didn&#8217;t want to have anything to do with their problems.
+     The next morning, the husband from Heaven went down to the farmhand at Hell and told him what had happened and asked nicely if he wouldn&#8217;t please conjure her again, he didn&#8217;t know what else to do. &#8220;OK,&#8221; says the farmhand, &#8220;I&#8217;ll do it one more time, and she&#8217;ll certainly stay away, but this time I want twelve specier to do it, and I want you to wrap her in a burial cloth, she&#8217;s not to be in anything else.&#8221; The farmhand then got a wheelbarrow and drove up there and put her on it and then he drove her down to Siem D&#248;jer [the Siem mudholes] and conjured her there. But since then, there&#8217;s been haunting down there.</english_publication>
+  <keywords>
+    <keyword><id>12</id><frequency>4</frequency><keyword>advice</keyword>advice</keyword>
+    <keyword><id>13</id><frequency>1</frequency><keyword>afraid</keyword>afraid</keyword>
+    <keyword><id>15</id><frequency>6</frequency><keyword>agreement</keyword>agreement</keyword>
+    <keyword><id>16</id><frequency>1</frequency><keyword>air</keyword>air</keyword>
+    <keyword><id>36</id><frequency>1</frequency><keyword>angry</keyword>angry</keyword>
+    <keyword><id>54</id><frequency>1</frequency><keyword>attention</keyword>attention</keyword>
+    <keyword><id>63</id><frequency>10</frequency><keyword>bags</keyword>bags</keyword>
+    <keyword><id>65</id><frequency>4</frequency><keyword>baking</keyword>baking</keyword>
+    <keyword><id>72</id><frequency>3</frequency><keyword>barn</keyword>barn</keyword>
+    <keyword><id>74</id><frequency>2</frequency><keyword>barrel</keyword>barrel</keyword>
+    <keyword><id>83</id><frequency>2</frequency><keyword>bed</keyword>bed</keyword>
+    <keyword><id>84</id><frequency>5</frequency><keyword>beer</keyword>beer</keyword>
+    <keyword><id>106</id><frequency>1</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>110</id><frequency>1</frequency><keyword>blessing</keyword>blessing</keyword>
+    <keyword><id>113</id><frequency>1</frequency><keyword>blow</keyword>blow</keyword>
+    <keyword><id>114</id><frequency>1</frequency><keyword>blue</keyword>blue</keyword>
+    <keyword><id>118</id><frequency>1</frequency><keyword>body</keyword>body</keyword>
+    <keyword><id>124</id><frequency>2</frequency><keyword>boots</keyword>boots</keyword>
+    <keyword><id>125</id><frequency>1</frequency><keyword>borrow</keyword>borrow</keyword>
+    <keyword><id>139</id><frequency>8</frequency><keyword>bread</keyword>bread</keyword>
+    <keyword><id>142</id><frequency>2</frequency><keyword>brewing</keyword>brewing</keyword>
+    <keyword><id>150</id><frequency>1</frequency><keyword>brush</keyword>brush</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>171</id><frequency>1</frequency><keyword>candle</keyword>candle</keyword>
+    <keyword><id>174</id><frequency>1</frequency><keyword>cape</keyword>cape</keyword>
+    <keyword><id>183</id><frequency>1</frequency><keyword>case</keyword>case</keyword>
+    <keyword><id>215</id><frequency>7</frequency><keyword>chest</keyword>chest</keyword>
+    <keyword><id>219</id><frequency>1</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>225</id><frequency>1</frequency><keyword>christmas</keyword>Christmas</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>233</id><frequency>1</frequency><keyword>clock</keyword>clock</keyword>
+    <keyword><id>236</id><frequency>3</frequency><keyword>clothing</keyword>clothing</keyword>
+    <keyword><id>242</id><frequency>7</frequency><keyword>cobbler</keyword>cobbler</keyword>
+    <keyword><id>246</id><frequency>1</frequency><keyword>coins</keyword>coins</keyword>
+    <keyword><id>247</id><frequency>3</frequency><keyword>cold</keyword>cold</keyword>
+    <keyword><id>255</id><frequency>3</frequency><keyword>conjuring</keyword>conjuring</keyword>
+    <keyword><id>271</id><frequency>2</frequency><keyword>court</keyword>court</keyword>
+    <keyword><id>302</id><frequency>1</frequency><keyword>dark</keyword>dark</keyword>
+    <keyword><id>303</id><frequency>1</frequency><keyword>darning</keyword>darning</keyword>
+    <keyword><id>306</id><frequency>9</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>317</id><frequency>4</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>329</id><frequency>3</frequency><keyword>dinner</keyword>dinner</keyword>
+    <keyword><id>333</id><frequency>2</frequency><keyword>discovery</keyword>discovery</keyword>
+    <keyword><id>344</id><frequency>3</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>355</id><frequency>3</frequency><keyword>drinking</keyword>drinking</keyword>
+    <keyword><id>359</id><frequency>2</frequency><keyword>drunkard</keyword>drunkard</keyword>
+    <keyword><id>368</id><frequency>1</frequency><keyword>earth</keyword>earth</keyword>
+    <keyword><id>369</id><frequency>1</frequency><keyword>east</keyword>east</keyword>
+    <keyword><id>386</id><frequency>5</frequency><keyword>evening</keyword>evening</keyword>
+    <keyword><id>389</id><frequency>1</frequency><keyword>eye</keyword>eye</keyword>
+    <keyword><id>394</id><frequency>10</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>395</id><frequency>40</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>396</id><frequency>6</frequency><keyword>farmer</keyword>farmer</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>423</id><frequency>1</frequency><keyword>flour</keyword>flour</keyword>
+    <keyword><id>431</id><frequency>3</frequency><keyword>food</keyword>food</keyword>
+    <keyword><id>433</id><frequency>2</frequency><keyword>foot</keyword>foot</keyword>
+    <keyword><id>434</id><frequency>2</frequency><keyword>forehead</keyword>forehead</keyword>
+    <keyword><id>447</id><frequency>1</frequency><keyword>frost</keyword>frost</keyword>
+    <keyword><id>450</id><frequency>1</frequency><keyword>funeral</keyword>funeral</keyword>
+    <keyword><id>455</id><frequency>1</frequency><keyword>game</keyword>game</keyword>
+    <keyword><id>462</id><frequency>1</frequency><keyword>german</keyword>german</keyword>
+    <keyword><id>468</id><frequency>1</frequency><keyword>glass</keyword>glass</keyword>
+    <keyword><id>472</id><frequency>3</frequency><keyword>god</keyword>god</keyword>
+    <keyword><id>477</id><frequency>4</frequency><keyword>grain</keyword>grain</keyword>
+    <keyword><id>490</id><frequency>2</frequency><keyword>guest</keyword>guest</keyword>
+    <keyword><id>493</id><frequency>2</frequency><keyword>hag</keyword>hag</keyword>
+    <keyword><id>507</id><frequency>1</frequency><keyword>hatchet</keyword>hatchet</keyword>
+    <keyword><id>508</id><frequency>1</frequency><keyword>haunting</keyword>haunting</keyword>
+    <keyword><id>519</id><frequency>7</frequency><keyword>heaven</keyword>heaven</keyword>
+    <keyword><id>520</id><frequency>6</frequency><keyword>hell</keyword>hell</keyword>
+    <keyword><id>535</id><frequency>2</frequency><keyword>hollow</keyword>hollow</keyword>
+    <keyword><id>537</id><frequency>15</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>545</id><frequency>4</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>548</id><frequency>2</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>552</id><frequency>17</frequency><keyword>husband</keyword>husband</keyword>
+    <keyword><id>560</id><frequency>3</frequency><keyword>inn</keyword>inn</keyword>
+    <keyword><id>561</id><frequency>6</frequency><keyword>inn_keeper</keyword>inn keeper</keyword>
+    <keyword><id>608</id><frequency>3</frequency><keyword>journeyman</keyword>journeyman</keyword>
+    <keyword><id>622</id><frequency>1</frequency><keyword>kill</keyword>kill</keyword>
+    <keyword><id>659</id><frequency>3</frequency><keyword>kr&#230;sten</keyword>Kr&#230;sten</keyword>
+    <keyword><id>681</id><frequency>3</frequency><keyword>lamp</keyword>lamp</keyword>
+    <keyword><id>682</id><frequency>1</frequency><keyword>land</keyword>land</keyword>
+    <keyword><id>699</id><frequency>1</frequency><keyword>learning</keyword>learning</keyword>
+    <keyword><id>701</id><frequency>1</frequency><keyword>leather</keyword>leather</keyword>
+    <keyword><id>704</id><frequency>1</frequency><keyword>leg</keyword>leg</keyword>
+    <keyword><id>713</id><frequency>2</frequency><keyword>linen</keyword>linen</keyword>
+    <keyword><id>726</id><frequency>1</frequency><keyword>love</keyword>love</keyword>
+    <keyword><id>751</id><frequency>2</frequency><keyword>market</keyword>market</keyword>
+    <keyword><id>757</id><frequency>2</frequency><keyword>master</keyword>master</keyword>
+    <keyword><id>765</id><frequency>2</frequency><keyword>meal</keyword>meal</keyword>
+    <keyword><id>783</id><frequency>8</frequency><keyword>mill</keyword>mill</keyword>
+    <keyword><id>793</id><frequency>4</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>796</id><frequency>1</frequency><keyword>month</keyword>month</keyword>
+    <keyword><id>797</id><frequency>1</frequency><keyword>moon</keyword>moon</keyword>
+    <keyword><id>801</id><frequency>7</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>803</id><frequency>4</frequency><keyword>mother</keyword>mother</keyword>
+    <keyword><id>813</id><frequency>3</frequency><keyword>mouth</keyword>mouth</keyword>
+    <keyword><id>848</id><frequency>3</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>850</id><frequency>1</frequency><keyword>nightfall</keyword>nightfall</keyword>
+    <keyword><id>861</id><frequency>1</frequency><keyword>noon</keyword>noon</keyword>
+    <keyword><id>869</id><frequency>1</frequency><keyword>november</keyword>November</keyword>
+    <keyword><id>873</id><frequency>15</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>889</id><frequency>1</frequency><keyword>outside</keyword>outside</keyword>
+    <keyword><id>890</id><frequency>1</frequency><keyword>oven</keyword>oven</keyword>
+    <keyword><id>892</id><frequency>13</frequency><keyword>ox</keyword>ox</keyword>
+    <keyword><id>924</id><frequency>8</frequency><keyword>peddler</keyword>peddler</keyword>
+    <keyword><id>946</id><frequency>2</frequency><keyword>permission</keyword>permission</keyword>
+    <keyword><id>961</id><frequency>1</frequency><keyword>plate</keyword>plate</keyword>
+    <keyword><id>974</id><frequency>1</frequency><keyword>poor</keyword>poor</keyword>
+    <keyword><id>987</id><frequency>1</frequency><keyword>poverty</keyword>poverty</keyword>
+    <keyword><id>990</id><frequency>1</frequency><keyword>preaching</keyword>preaching</keyword>
+    <keyword><id>1023</id><frequency>1</frequency><keyword>reins</keyword>reins</keyword>
+    <keyword><id>1026</id><frequency>1</frequency><keyword>rest</keyword>rest</keyword>
+    <keyword><id>1036</id><frequency>2</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1066</id><frequency>1</frequency><keyword>sand</keyword>sand</keyword>
+    <keyword><id>1070</id><frequency>1</frequency><keyword>sausage</keyword>sausage</keyword>
+    <keyword><id>1089</id><frequency>1</frequency><keyword>seven</keyword>seven</keyword>
+    <keyword><id>1111</id><frequency>2</frequency><keyword>sickness</keyword>sickness</keyword>
+    <keyword><id>1122</id><frequency>1</frequency><keyword>singing</keyword>singing</keyword>
+    <keyword><id>1139</id><frequency>3</frequency><keyword>slaughter</keyword>slaughter</keyword>
+    <keyword><id>1142</id><frequency>2</frequency><keyword>sleep</keyword>sleep</keyword>
+    <keyword><id>1164</id><frequency>1</frequency><keyword>soul</keyword>soul</keyword>
+    <keyword><id>1165</id><frequency>1</frequency><keyword>sounds</keyword>sounds</keyword>
+    <keyword><id>1176</id><frequency>1</frequency><keyword>spoon</keyword>spoon</keyword>
+    <keyword><id>1186</id><frequency>2</frequency><keyword>stall</keyword>stall</keyword>
+    <keyword><id>1195</id><frequency>1</frequency><keyword>stone</keyword>stone</keyword>
+    <keyword><id>1196</id><frequency>1</frequency><keyword>store</keyword>store</keyword>
+    <keyword><id>1200</id><frequency>2</frequency><keyword>story</keyword>story</keyword>
+    <keyword><id>1202</id><frequency>1</frequency><keyword>stove</keyword>stove</keyword>
+    <keyword><id>1206</id><frequency>2</frequency><keyword>straw</keyword>straw</keyword>
+    <keyword><id>1209</id><frequency>2</frequency><keyword>strength</keyword>strength</keyword>
+    <keyword><id>1221</id><frequency>1</frequency><keyword>superstition</keyword>superstition</keyword>
+    <keyword><id>1238</id><frequency>2</frequency><keyword>table</keyword>table</keyword>
+    <keyword><id>1239</id><frequency>3</frequency><keyword>tail</keyword>tail</keyword>
+    <keyword><id>1246</id><frequency>3</frequency><keyword>thank</keyword>thank</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1261</id><frequency>1</frequency><keyword>tie</keyword>tie</keyword>
+    <keyword><id>1262</id><frequency>2</frequency><keyword>tired</keyword>tired</keyword>
+    <keyword><id>1265</id><frequency>3</frequency><keyword>today</keyword>today</keyword>
+    <keyword><id>1267</id><frequency>2</frequency><keyword>tomorrow</keyword>tomorrow</keyword>
+    <keyword><id>1269</id><frequency>2</frequency><keyword>tonight</keyword>tonight</keyword>
+    <keyword><id>1275</id><frequency>3</frequency><keyword>town</keyword>town</keyword>
+    <keyword><id>1291</id><frequency>1</frequency><keyword>unharnessed</keyword>unharnessed</keyword>
+    <keyword><id>1307</id><frequency>1</frequency><keyword>voice</keyword>voice</keyword>
+    <keyword><id>1311</id><frequency>8</frequency><keyword>wagon</keyword>wagon</keyword>
+    <keyword><id>1315</id><frequency>1</frequency><keyword>wandering</keyword>wandering</keyword>
+    <keyword><id>1318</id><frequency>1</frequency><keyword>wares</keyword>wares</keyword>
+    <keyword><id>1321</id><frequency>1</frequency><keyword>wealth</keyword>wealth</keyword>
+    <keyword><id>1331</id><frequency>1</frequency><keyword>west</keyword>west</keyword>
+    <keyword><id>1343</id><frequency>8</frequency><keyword>wife</keyword>wife</keyword>
+    <keyword><id>1345</id><frequency>1</frequency><keyword>wind</keyword>wind</keyword>
+    <keyword><id>1350</id><frequency>2</frequency><keyword>wish</keyword>wish</keyword>
+    <keyword><id>1351</id><frequency>1</frequency><keyword>witch</keyword>witch</keyword>
+    <keyword><id>1356</id><frequency>13</frequency><keyword>woman</keyword>woman</keyword>
+    <keyword><id>1357</id><frequency>1</frequency><keyword>wood</keyword>wood</keyword>
+    <keyword><id>1359</id><frequency>1</frequency><keyword>wooden</keyword>wooden</keyword>
+    <keyword><id>1360</id><frequency>3</frequency><keyword>woods</keyword>woods</keyword>
+    <keyword><id>1361</id><frequency>2</frequency><keyword>work</keyword>work</keyword>
+    <keyword><id>1365</id><frequency>1</frequency><keyword>wound</keyword>wound</keyword>
+    <keyword><id>1371</id><frequency>1</frequency><keyword>yeast</keyword>yeast</keyword>
+    <keyword><id>1374</id><frequency>1</frequency><keyword>young</keyword>young</keyword>
+  </keywords>
+  <etk_index><id>40</id>
+    <heading_danish>Jyske Folkeminder</heading_danish>
+    <heading_english>Folklore from Jutland</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>8</id><display_name>People: Farmwife</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>33</id><display_name>Places: Inn</display_name></tango_index>
+    <tango_index><id>37</id><display_name>Places: Mill</display_name></tango_index>
+    <tango_index><id>49</id><display_name>Tools, Items and Conveyances: Food and Drink</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>81</id><display_name>Actions or events: Conjuring</display_name></tango_index>
+    <tango_index><id>92</id><display_name>Actions or events: Murder</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>116</id><display_name>Time, Season, Weather: Winter</display_name></tango_index>
+    <tango_index><id>135</id><display_name>Animals: Insects</display_name></tango_index>
+  </tango_indices>
+  <genre><id>6</id><name>Folktale</name></genre>
+</story>

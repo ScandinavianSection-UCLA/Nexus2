@@ -1,0 +1,82 @@
+<story><story_id>729</story_id>
+  <publication_info>DS_V_1501</publication_info>
+  <full_name>517 - 0.00 - DS_V_1501</full_name>
+  <informant_id>517</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>N. Kr.</informant_first_name>
+  <informant_full_name>L&#230;rer N. Kr. Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>786</place_id>
+      <name>Grynderup</name>
+      <display_name>Grynderup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>543</story_id>
+      <informant_id>343</informant_id>
+      <publication_info>DS_V_1507</publication_info>
+      <full_name>343 - 0.00 - DS_V_1507</full_name>
+      <url>data/stories/543.dfl</url>
+    </story>
+    <story><story_id>812</story_id>
+      <informant_id>104</informant_id>
+      <publication_info>DS_V_1477</publication_info>
+      <full_name>104 - 0.00 - DS_V_1477</full_name>
+      <url>data/stories/812.dfl</url>
+    </story>
+    <story><story_id>489</story_id>
+      <informant_id>551</informant_id>
+      <publication_info>DS_V_1484</publication_info>
+      <full_name>551 - 0.00 - DS_V_1484</full_name>
+      <url>data/stories/489.dfl</url>
+    </story>
+    <story><story_id>234</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1430</publication_info>
+      <full_name>235 - 1.15 - DS_V_1430</full_name>
+      <url>data/stories/234.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Et steds p&#229; Salling i n&#230;rheden af et markskjel havde de vejfarende ofte h&#248;rt &#233;n r&#229;be: "Hvor m&#229; jeg s&#230;tte den?" men ingen turde svare ham. En aften, da en lille dreng fulgtes med sin fader over marken der i n&#230;rheden, og de ogs&#229; fik r&#248;sten at h&#248;re, bad drengen om faderens minde til at m&#229;tte svare, n&#229;r der atter blev r&#229;bt. Faderen skyndte sig at i rette s&#230;tte drengen ved at love ham en ordentlig dragt prygl, hvis han indlod sig p&#229; sligt, "ti", lagde han til, "ingen kan vide, om du ikke nok, hvis du svarer, kan f&#229; mere med den gamle gjenganger at bestille, end du sk&#248;tter om." Lidt efter h&#248;rte de atter: "Hvor m&#229; jeg s&#230;tte den?" og uden at bet&#230;nke sig svarede drengen: "S&#230;t den, hvor du st&#229;r!" &#8212; "Tak," blev der svaret, og siden h&#248;rte man aldrig til noget. Folk der p&#229; egnen mente, at den, der havde r&#229;bt, m&#229;tte i levende live have flyttet et markskjel, hvorfor han ikke kunde finde ro i sin grav, f&#246;rend den sag var bragt i rigtighed.</danish_publication>
+  <english_publication>In a place in Salling near a field marker, travelers along the road had often heard someone cry out: &#8220;Where can I set it down?&#8221; but nobody dared answer him. One night, a little boy, who was accompanying his father over to the field near there, also heard the voice, and the boy asked the father permission to answer if they heard the cry again. The father hurried to correct the boy by promising him a severe beating if he tried doing something like that, &#8220;since&#8221; he added &#8220;no one can know, if you answer, whether or not you&#8217;ll end up having more to do with the revenant than you&#8217;d want to.&#8221; A little later they heard the cry, &#8220;Where can I set it down?&#8221; and without thinking the boy said: &#8220;Set it down where you&#8217;re standing!&#8221; &#8220;Thanks,&#8221; came the answer and, after that, it was never heard again. The people in the area thought that the one who had cried out had probably moved a marker when he was alive, and that&#8217;s why he couldn&#8217;t get peace in the grave until that matter was righted.</english_publication>
+  <keywords>
+    <keyword><id>130</id><frequency>4</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>285</id><frequency>3</frequency><keyword>crying</keyword>crying</keyword>
+    <keyword><id>399</id><frequency>3</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>410</id><frequency>2</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>483</id><frequency>1</frequency><keyword>grave</keyword>grave</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>946</id><frequency>1</frequency><keyword>permission</keyword>permission</keyword>
+    <keyword><id>1027</id><frequency>1</frequency><keyword>revenant</keyword>revenant</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1246</id><frequency>1</frequency><keyword>thank</keyword>thank</keyword>
+    <keyword><id>1279</id><frequency>1</frequency><keyword>traveler</keyword>traveler</keyword>
+    <keyword><id>1307</id><frequency>1</frequency><keyword>voice</keyword>voice</keyword>
+  </keywords>
+  <etk_index><id>25</id>
+    <heading_danish>Gjenf&#230;rd p&#229; uretf&#230;rdig jord</heading_danish>
+    <heading_english>Revenants on ill-gotten land</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>21</id><display_name>People: Wanderer</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

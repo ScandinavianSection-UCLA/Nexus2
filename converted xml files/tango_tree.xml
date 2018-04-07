@@ -1,0 +1,153 @@
+<tango_tree>
+  <node><label>indices</label>
+    <node><label>Actions or events</label><level>parent</level>
+      <node><id>80</id><label>Church ceremony</label><level>child</level></node>
+      <node><id>81</id><label>Conjuring</label><level>child</level></node>
+      <node><id>82</id><label>Dancing</label><level>child</level></node>
+      <node><id>83</id><label>Death</label><level>child</level></node>
+      <node><id>84</id><label>Disease</label><level>child</level></node>
+      <node><id>85</id><label>Drowning</label><level>child</level></node>
+      <node><id>86</id><label>Feast / Celebration</label><level>child</level></node>
+      <node><id>87</id><label>Gambling</label><level>child</level></node>
+      <node><id>88</id><label>Haunting</label><level>child</level></node>
+      <node><id>89</id><label>Injury</label><level>child</level></node>
+      <node><id>90</id><label>Kidnapping</label><level>child</level></node>
+      <node><id>91</id><label>Midwifery</label><level>child</level></node>
+      <node><id>92</id><label>Murder</label><level>child</level></node>
+      <node><id>93</id><label>Music</label><level>child</level></node>
+      <node><id>94</id><label>Oath</label><level>child</level></node>
+      <node><id>132</id><label>Pregnancy and birth</label><level>child</level></node>
+      <node><id>95</id><label>Punishment</label><level>child</level></node>
+      <node><id>133</id><label>Seduction</label><level>child</level></node>
+      <node><id>96</id><label>Suicide</label><level>child</level></node>
+      <node><id>97</id><label>Theft</label><level>child</level></node>
+      <node><id>98</id><label>Transaction</label><level>child</level></node>
+      <node><id>99</id><label>Witchcraft</label><level>child</level></node>
+      <node><id>100</id><label>Work</label><level>child</level></node>
+    </node>
+    <node><label>Animals</label><level>parent</level>
+      <node><id>69</id><label>Cat</label><level>child</level></node>
+      <node><id>70</id><label>Cow</label><level>child</level></node>
+      <node><id>71</id><label>Dog</label><level>child</level></node>
+      <node><id>72</id><label>Farm animal</label><level>child</level></node>
+      <node><id>73</id><label>Hare</label><level>child</level></node>
+      <node><id>74</id><label>Horse</label><level>child</level></node>
+      <node><id>135</id><label>Insects</label><level>child</level></node>
+      <node><id>79</id><label>None / Unspecified</label><level>child</level></node>
+      <node><id>75</id><label>Ox</label><level>child</level></node>
+      <node><id>76</id><label>Serpent / Snake</label><level>child</level></node>
+      <node><id>77</id><label>Sheep</label><level>child</level></node>
+      <node><id>78</id><label>Swine</label><level>child</level></node>
+      <node><id>136</id><label>Wild</label><level>child</level></node>
+    </node>
+    <node><label>People</label><level>parent</level>
+      <node><id>1</id><label>Aristocrat / Royal</label><level>child</level></node>
+      <node><id>2</id><label>Bailiff</label><level>child</level></node>
+      <node><id>3</id><label>Beggar / Poor person</label><level>child</level></node>
+      <node><id>4</id><label>Boy</label><level>child</level></node>
+      <node><id>5</id><label>Children</label><level>child</level></node>
+      <node><id>6</id><label>Cunning Folk</label><level>child</level></node>
+      <node><id>7</id><label>Farmer</label><level>child</level></node>
+      <node><id>9</id><label>Farmhand / Shepherd</label><level>child</level></node>
+      <node><id>8</id><label>Farmwife</label><level>child</level></node>
+      <node><id>10</id><label>Foreigner</label><level>child</level></node>
+      <node><id>11</id><label>Girl</label><level>child</level></node>
+      <node><id>12</id><label>Man</label><level>child</level></node>
+      <node><id>13</id><label>Midwife</label><level>child</level></node>
+      <node><id>14</id><label>Minister</label><level>child</level></node>
+      <node><id>16</id><label>Parish Clerk</label><level>child</level></node>
+      <node><id>17</id><label>Robber / Thief</label><level>child</level></node>
+      <node><id>18</id><label>Sailor / Fisherman</label><level>child</level></node>
+      <node><id>19</id><label>Soldier</label><level>child</level></node>
+      <node><id>20</id><label>Strong Man / Hero</label><level>child</level></node>
+      <node><id>24</id><label>Unspecified</label><level>child</level></node>
+      <node><id>21</id><label>Wanderer</label><level>child</level></node>
+      <node><id>22</id><label>Witch</label><level>child</level></node>
+      <node><id>23</id><label>Woman</label><level>child</level></node>
+    </node>
+    <node><label>Places</label><level>parent</level>
+      <node><id>25</id><label>Barn</label><level>child</level></node>
+      <node><id>26</id><label>Bridge</label><level>child</level></node>
+      <node><id>27</id><label>Cemetery</label><level>child</level></node>
+      <node><id>28</id><label>Church</label><level>child</level></node>
+      <node><id>29</id><label>Farm</label><level>child</level></node>
+      <node><id>30</id><label>Field</label><level>child</level></node>
+      <node><id>31</id><label>Forest / Woods</label><level>child</level></node>
+      <node><id>32</id><label>Heath</label><level>child</level></node>
+      <node><id>33</id><label>Inn</label><level>child</level></node>
+      <node><id>34</id><label>Manor / Castle</label><level>child</level></node>
+      <node><id>35</id><label>Market</label><level>child</level></node>
+      <node><id>36</id><label>Meadow</label><level>child</level></node>
+      <node><id>37</id><label>Mill</label><level>child</level></node>
+      <node><id>38</id><label>Mound</label><level>child</level></node>
+      <node><id>39</id><label>Ocean / Sea</label><level>child</level></node>
+      <node><id>40</id><label>Pond / Lake</label><level>child</level></node>
+      <node><id>41</id><label>Road</label><level>child</level></node>
+      <node><id>42</id><label>Stream / River</label><level>child</level></node>
+      <node><id>43</id><label>Swamp</label><level>child</level></node>
+      <node><id>44</id><label>Town / Village</label><level>child</level></node>
+    </node>
+    <node><label>Resolution</label><level>parent</level>
+      <node><id>129</id><label>Ambiguous</label><level>child</level></node>
+      <node><id>128</id><label>Negative</label><level>child</level></node>
+      <node><id>130</id><label>None / Unspecified</label><level>child</level></node>
+      <node><id>127</id><label>Positive</label><level>child</level></node>
+    </node>
+    <node><label>Stylistics</label><level>parent</level>
+      <node><id>131</id><label>Direct Conversation</label><level>child</level></node>
+    </node>
+    <node><label>Supernatural Beings</label><level>parent</level>
+      <node><id>56</id><label>Changeling</label><level>child</level></node>
+      <node><id>57</id><label>Devil</label><level>child</level></node>
+      <node><id>137</id><label>Dragon</label><level>child</level></node>
+      <node><id>58</id><label>Elf</label><level>child</level></node>
+      <node><id>59</id><label>Ghost / Revenant</label><level>child</level></node>
+      <node><id>60</id><label>Giant</label><level>child</level></node>
+      <node><id>134</id><label>Lindorm / Basilisk</label><level>child</level></node>
+      <node><id>61</id><label>Mare</label><level>child</level></node>
+      <node><id>62</id><label>Merfolk</label><level>child</level></node>
+      <node><id>63</id><label>Mound folk</label><level>child</level></node>
+      <node><id>64</id><label>Nightraven</label><level>child</level></node>
+      <node><id>65</id><label>Nisse</label><level>child</level></node>
+      <node><id>66</id><label>Troll</label><level>child</level></node>
+      <node><id>68</id><label>Unspecified</label><level>child</level></node>
+      <node><id>67</id><label>Werewolf</label><level>child</level></node>
+    </node>
+    <node><label>Time, Season, Weather</label><level>parent</level>
+      <node><id>120</id><label>Christmas</label><level>child</level></node>
+      <node><id>122</id><label>Easter</label><level>child</level></node>
+      <node><id>111</id><label>Evening</label><level>child</level></node>
+      <node><id>117</id><label>Fall</label><level>child</level></node>
+      <node><id>107</id><label>Friday</label><level>child</level></node>
+      <node><id>118</id><label>Holiday</label><level>child</level></node>
+      <node><id>113</id><label>Midnight</label><level>child</level></node>
+      <node><id>103</id><label>Monday</label><level>child</level></node>
+      <node><id>125</id><label>Moon</label><level>child</level></node>
+      <node><id>109</id><label>Morning</label><level>child</level></node>
+      <node><id>121</id><label>New Years</label><level>child</level></node>
+      <node><id>112</id><label>Night </label><level>child</level></node>
+      <node><id>110</id><label>Noon</label><level>child</level></node>
+      <node><id>124</id><label>Rain</label><level>child</level></node>
+      <node><id>108</id><label>Saturday</label><level>child</level></node>
+      <node><id>119</id><label>Skt. Hans</label><level>child</level></node>
+      <node><id>123</id><label>Snow</label><level>child</level></node>
+      <node><id>114</id><label>Spring</label><level>child</level></node>
+      <node><id>115</id><label>Summer</label><level>child</level></node>
+      <node><id>102</id><label>Sunday</label><level>child</level></node>
+      <node><id>106</id><label>Thursday</label><level>child</level></node>
+      <node><id>116</id><label>Winter</label><level>child</level></node>
+    </node>
+    <node><label>Tools, Items and Conveyances</label><level>parent</level>
+      <node><id>46</id><label>Bell</label><level>child</level></node>
+      <node><id>47</id><label>Boat</label><level>child</level></node>
+      <node><id>48</id><label>Books</label><level>child</level></node>
+      <node><id>49</id><label>Food and Drink</label><level>child</level></node>
+      <node><id>50</id><label>Metal</label><level>child</level></node>
+      <node><id>51</id><label>Plow</label><level>child</level></node>
+      <node><id>52</id><label>Tools</label><level>child</level></node>
+      <node><id>53</id><label>Treasure / Money</label><level>child</level></node>
+      <node><id>55</id><label>Unspecified</label><level>child</level></node>
+      <node><id>54</id><label>Wagon</label><level>child</level></node>
+    </node>
+  </node>
+</tango_tree>

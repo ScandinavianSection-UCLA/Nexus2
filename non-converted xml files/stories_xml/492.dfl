@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<story story_id="492">
+  <publication_info>DS_VI_144</publication_info>
+  <full_name>412 - 0.00 - DS_VI_144</full_name>
+  <informant_id>412</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Diderik</informant_first_name>
+  <informant_full_name>L&#xE6;rer Diderik Johansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>905</place_id>
+      <name>Vester Egede</name>
+      <display_name>Vester Egede (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>561</place_id>
+      <name>S&#xF8;by S&#xF8;g&#xE5;rd</name>
+      <display_name>S&#xF8;by S&#xF8;g&#xE5;rd (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="156">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_VI_65</publication_info>
+      <full_name>241 - 2.06 - DSnr_VI_65</full_name>
+      <url>data/stories/156.dfl</url>
+    </story>
+    <story story_id="18">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_139</publication_info>
+      <full_name>150 - 1.15 - DS_VI_139</full_name>
+      <url>data/stories/18.dfl</url>
+    </story>
+    <story story_id="192">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_167</publication_info>
+      <full_name>241 - 4.20 - DS_VI_167</full_name>
+      <url>data/stories/192.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der har ogs&#xE5; v&#xE6;ret en herremand p&#xE5; S&#xF8;by S&#xF8;g&#xE5;rd, som var bleven enig med den Slemme om, at han skulde f&#xF6;je ham en vis tid, og derfor skulde han s&#xE5; have ham med hud og h&#xE5;r. Da nu tiden n&#xE6;rmede sig, at Dj&#xE6;velen skulde hente ham, vidste han aldrig sit levende r&#xE5;d for at slippe fri. Endelig fandt han p&#xE5; at lade sine v&#xE6;relser bekl&#xE6;de med dyner overalt. Som nu tiden var udl&#xF8;ben, kom Fanden ogs&#xE5; rigtig, og det hjalp kun lidt, at de bl&#xF8;de dyner skulde tage af for synderen, ti nu blev der dandset s&#xE5;ledes omkring i stuen med ham, at snart var der ikke en hel stump tilbage enten af herremanden eller af dynerne. Blodet, som st&#xE6;nkede omkring p&#xE5; v&#xE6;ggene, kan aldrig udslettes og er alts&#xE5; at se endnu.</danish_publication>
+  <english_publication>There was also a manor lord at S&#xF8;by S&#xF8;g&#xE5;rd who had made an agreement with the Evil One that the Devil would indulge him for a while and, because of that, the Devil could have possession of him with skin and hair later. Now when the time approached when the Devil was supposed to come get him, he didn&#x2019;t have the slightest idea how to get free. Finally he came up with the idea of covering his entire room with down comforters. Now when his time had run out, the Devil came sure enough and it only helped a little bit that the soft comforters could cushion the sinner, because now he danced around the room with him so that soon there wasn&#x2019;t a stump left of neither the comforters nor the manor lord. The blood, which splattered about on the walls, can never be cleaned off and can even be seen now.</english_publication>
+  <keywords>
+    <keyword id="15" frequency="1" keyword="agreement">agreement</keyword>
+    <keyword id="111" frequency="1" keyword="blood">blood</keyword>
+    <keyword id="249" frequency="3" keyword="comforter">comforter</keyword>
+    <keyword id="297" frequency="1" keyword="dancing">dancing</keyword>
+    <keyword id="324" frequency="2" keyword="devil">devil</keyword>
+    <keyword id="387" frequency="1" keyword="evil">evil</keyword>
+    <keyword id="443" frequency="1" keyword="free">free</keyword>
+    <keyword id="494" frequency="1" keyword="hair">hair</keyword>
+    <keyword id="743" frequency="2" keyword="manor_lord">manor lord</keyword>
+    <keyword id="1121" frequency="1" keyword="sin">sin</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="34" display_name="Places: Manor / Castle"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="94" display_name="Actions or events: Oath"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<story story_id="860">
+  <publication_info>DS_I_1154</publication_info>
+  <full_name>569 - 0.00 - DS_I_1154</full_name>
+  <informant_id>569</informant_id>
+  <informant_last_name>Gjerding</informant_last_name>
+  <informant_first_name>Klavs</informant_first_name>
+  <informant_full_name>Klavs Gjerding</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_mentioned">
+      <place_id>574</place_id>
+      <name>Sorteh&#xF8;j</name>
+      <display_name>Sorteh&#xF8;j (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>4</place_id>
+      <name>Aalborg</name>
+      <display_name>Aalborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="794">
+      <informant_id>435</informant_id>
+      <publication_info>DS_I_796</publication_info>
+      <full_name>435 - 0.00 - DS_I_796</full_name>
+      <url>data/stories/794.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info>From Klavs Gjerding's manuscript at the Royal Library</bibliographic_info>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Anders Baks farfader og farmoder og en karl kom en aften kj&#xF8;rende fra &#xC5;lborg og s&#xE5; et blus p&#xE5; Sorte-h&#xF8;j og en hel del sm&#xE5;puslinger, der l&#xF8;b fra ilden ned p&#xE5; agrene og tilbage igjen. Mandfolkene vilde have haft konen til at holde hestene, medens de unders&#xF8;gte, hvad det var, men dertil var hun ikke til at bev&#xE6;ge.</danish_publication>
+  <english_publication>Anders Bak's paternal grandfather and grandmother and a farmhand came driving one night from Aalborg and saw a fire at Sorteh&#xF8;j (Black Mound) and a whole flock of small beings that ran from the fire down to the field and back again. The men wanted the woman to hold the horses while they investigated what it was, but she wouldn't let them.</english_publication>
+  <keywords>
+    <keyword id="24" frequency="1" keyword="anders_bak">Anders Bak</keyword>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="413" frequency="2" keyword="fire">fire</keyword>
+    <keyword id="421" frequency="1" keyword="flock">flock</keyword>
+    <keyword id="478" frequency="1" keyword="grandfather">grandfather</keyword>
+    <keyword id="479" frequency="1" keyword="grandmother">grandmother</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="804" frequency="1" keyword="mound">mound</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

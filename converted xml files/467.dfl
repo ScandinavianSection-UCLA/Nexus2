@@ -1,0 +1,78 @@
+<story><story_id>467</story_id>
+  <publication_info>DS_V_1390</publication_info>
+  <full_name>432 - 0.00 - DS_V_1390</full_name>
+  <informant_id>432</informant_id>
+  <informant_last_name>Kristensdatter</informant_last_name>
+  <informant_first_name>Ane Marie</informant_first_name>
+  <informant_full_name>Ane Marie Kristensdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>452</place_id>
+      <name>&#216;rum</name>
+      <display_name>&#216;rum (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1001</place_id>
+      <name>Hornum</name>
+      <display_name>Hornum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>565</story_id>
+      <informant_id>426</informant_id>
+      <publication_info>DS_V_1376</publication_info>
+      <full_name>426 - 0.00 - DS_V_1376</full_name>
+      <url>data/stories/565.dfl</url>
+    </story>
+    <story><story_id>877</story_id>
+      <informant_id/>
+      <publication_info>DS_V_1389</publication_info>
+      <full_name>0 - 0.00 - DS_V_1389</full_name>
+      <url>data/stories/877.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En kone i Hornum var i byen en aften, og s&#229; m&#246;dte hun en kn&#230;gt p&#229; gaden. Hun var noget mundst&#230;rk, og s&#229; siger hun: "M&#229; a ligge ved dig, min dreng?" Han svarede ikke. Men om natten var der &#233;n i sengen ved hende. Hun vilde nu s&#230;tte sig p&#229; en stol og overkomme natten der, men han satte sig under stolen, og s&#229; v&#230;ltede den med hende. Hun klagede sig over det om morgenen til andre folk, men de sagde, at hun var t&#229;belig. S&#229; gik hun til deres pr&#230;st, og han sagde, at det var der ingen fare for. Nu vilde han skrive et brev, og det skulde hun s&#230;tte oven for hendes stued&#246;r p&#229; sned ved et s&#246;m. S&#229; blev hun fri, og brevet blev henne af sig selv.</danish_publication>
+  <english_publication>A woman had been in Hornum one night and then she met a young man along the road. She was a little bit saucy and so she says: &#8220;Can I sleep with you, my boy?&#8221; He didn&#8217;t answer. But that night there was somebody in bed with her. She decided to sit in a chair and wait the night out there, but he sat under the chair and then it tipped over with her in it. She complained about it the next morning to other people, but they said that she was hopeless. Then she went to their minister and he said that there was no danger. Now he would write a letter and she should put it askew over her room door with a nail. Then she was free and the letter disappeared by itself.</english_publication>
+  <keywords>
+    <keyword><id>83</id><frequency>1</frequency><keyword>bed</keyword>bed</keyword>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>201</id><frequency>2</frequency><keyword>chair</keyword>chair</keyword>
+    <keyword><id>298</id><frequency>1</frequency><keyword>danger</keyword>danger</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>443</id><frequency>1</frequency><keyword>free</keyword>free</keyword>
+    <keyword><id>706</id><frequency>2</frequency><keyword>letter</keyword>letter</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>820</id><frequency>1</frequency><keyword>nail</keyword>nail</keyword>
+    <keyword><id>848</id><frequency>3</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1142</id><frequency>1</frequency><keyword>sleep</keyword>sleep</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+    <keyword><id>1367</id><frequency>1</frequency><keyword>writing</keyword>writing</keyword>
+    <keyword><id>1374</id><frequency>1</frequency><keyword>young</keyword>young</keyword>
+  </keywords>
+  <etk_index><id>24</id>
+    <heading_danish>Kvindelige gjenf&#230;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>81</id><display_name>Actions or events: Conjuring</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

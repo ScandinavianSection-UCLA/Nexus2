@@ -1,0 +1,63 @@
+<story><story_id>732</story_id>
+  <publication_info>DS_V_1091</publication_info>
+  <full_name>348 - 0.00 - DS_V_1091</full_name>
+  <informant_id>348</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Nikolaj</informant_first_name>
+  <informant_full_name>Student Nikolaj Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>1</place_id>
+      <name>Aaby</name>
+      <display_name>Aaby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>470</story_id>
+      <informant_id>433</informant_id>
+      <publication_info>DS_V_1106</publication_info>
+      <full_name>433 - 0.00 - DS_V_1106</full_name>
+      <url>data/stories/470.dfl</url>
+    </story>
+    <story><story_id>356</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_1232</publication_info>
+      <full_name>90 - 3.02 - DS_V_1232</full_name>
+      <url>data/stories/356.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#229; en g&#229;rd gik en afd&#248;d frue slemt igjen, dog var der kun en pige, der kunde se hende, men hun s&#229; hende ogs&#229; tit. Gjengangersken gik al tid i en stue, hvor der var et skab med s&#248;lvt&#246;j i, og det stod hun og ramlede i. En gang pigerne bagte, s&#229; den pige igjen fruen og r&#229;bte til en anden pige, som med en potte i h&#229;nden stod i vejen for fruen, at hun skulde str&#230;be at g&#229; af vejen, men det var pigen imidlertid ikke rede til, og fruen st&#246;dte til hende, s&#229; potten faldt fra hende, og hun blev meget syg. Men hun s&#229; ingen ting.</danish_publication>
+  <english_publication>In one farm, a dead woman walked again a lot, even though there was only one hired girl who could see her, but she saw her often. The revenant always went about in a room where there was a cupboard with silverware and she stood there and rummaged about in it. One time the girls were baking, the girl saw the woman again and yelled to another girl who was standing with a pot in her hand in the way of the dead woman, that she should hurry out of the way, but the girl wasn&#8217;t prepared to do that and the dead woman bumped into her and she dropped the pot and she got very sick. But she didn&#8217;t see anything.</english_publication>
+  <keywords>
+    <keyword><id>65</id><frequency>1</frequency><keyword>baking</keyword>baking</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>467</id><frequency>5</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>981</id><frequency>2</frequency><keyword>pot</keyword>pot</keyword>
+    <keyword><id>1027</id><frequency>1</frequency><keyword>revenant</keyword>revenant</keyword>
+    <keyword><id>1111</id><frequency>1</frequency><keyword>sickness</keyword>sickness</keyword>
+    <keyword><id>1356</id><frequency>4</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>24</id>
+    <heading_danish>Kvindelige gjenf&#230;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

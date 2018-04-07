@@ -1,0 +1,96 @@
+<story><story_id>93</story_id>
+  <publication_info>Unpub_BJK_330</publication_info>
+  <full_name>150 - 3.30 - Unpub_BJK_330</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.30</order_told>
+  <fieldtrip><id>6</id>May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>634</story_id>
+      <informant_id>108</informant_id>
+      <publication_info>DS_IV_1591</publication_info>
+      <full_name>108 - 0.00 - DS_IV_1591</full_name>
+      <url>data/stories/634.dfl</url>
+    </story>
+    <story><story_id>814</story_id>
+      <informant_id>351</informant_id>
+      <publication_info>DS_IV_1588</publication_info>
+      <full_name>351 - 0.00 - DS_IV_1588</full_name>
+      <url>data/stories/814.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4102a (1)</fielddiary_page_start>
+  <fielddiary_page_end>4102a (1)</fielddiary_page_end>
+  <bibliographic_info>Vedel and Syv 1695.</bibliographic_info>
+  <bibliography_references>
+    <reference><id>492</id><category>general</category>
+      <display_string>[Book] Vedel, Anders S&#248;rensen, Syv, Peder. 1695. &lt;i&gt;Et hundrede udvalde danske viser, om allehaande m&#230;rkelige krigs-bedrivt og anden selsom eventyr, som sig her udi riget ved gamle k&#230;mper, navnkundige konger, og ellers fornemme personer begivet haver, af arilds tid til denne n&#230;rv&#230;rende dag. For&#248;gede med det andet hundrede viser, om danske konger, k&#230;mper og andre, samt hosf&#248;yede antegnelser, til lyst og l&#230;rdom&lt;/i&gt;. Copenhagen: P.M. H&#248;pffner.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>These are two verses of a widely attested ballad, cataloged in DgF as 258, "Skj&#248;n Anna" [Pretty Anna]. Grundtvig proposed that the ballad came to Denmark via northern Germany, and was no older than the fifteenth century. It was widely circulated as a broadside, and was published as number 17 in Peder Syv's collection. The version that Jens knows is based on a broadside, with an earliest attestation of 1648. Jens's two verses correspond to a concatenation of the first four verses of the F variant.
+
+     Tang Kristensen did not publish this fragment nor do the verses appear in DgF. The annotation in DgF mentions solely that the fragment was collected by Tang Kristensen from Jens (DgF X, 637).</annotation>
+  <danish_manuscript>De R&#248;vere vilde stj&#230;le gaa s. langt i frem
+mede Lande, s. stjal de bort det Kongebarn
+den Jfr. hedte Skj&#248;n Anna
+De f&#248;rte hende til Meklenborg Land
+og solgte hende til en Hertugs&#248;n-
+---
+For hendes Dyd og Ydmyghed blev denne Herre
+til en Konge.</danish_manuscript>
+  <english_manuscript>Those robbers wanted to steal
+and go so far into foreign lands
+then they stole away that child of a king
+that virgin was named Pretty Anna
+They carried her off to Mecklenborg land
+and sold her to the son of a duke
+For her virtue and her humility
+that gentleman became a king</english_manuscript>
+  <danish_publication>Unpublished.</danish_publication>
+  <english_publication>Unpublished version reads:
+Those robbers wanted to steal
+and go so far into foreign lands
+then they stole away that child of a king
+that virgin was named Pretty Anna
+They carried her off to Mecklenborg land
+and sold her to the son of a duke
+For her virtue and her humility
+that gentleman became a king
+</english_publication>
+  <keywords>
+    <keyword><id>219</id><frequency>1</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>435</id><frequency>1</frequency><keyword>foreign</keyword>foreign</keyword>
+    <keyword><id>461</id><frequency>1</frequency><keyword>gentleman</keyword>gentleman</keyword>
+    <keyword><id>624</id><frequency>2</frequency><keyword>king</keyword>king</keyword>
+    <keyword><id>682</id><frequency>2</frequency><keyword>land</keyword>land</keyword>
+    <keyword><id>822</id><frequency>1</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>1037</id><frequency>1</frequency><keyword>robber</keyword>robber</keyword>
+    <keyword><id>1154</id><frequency>1</frequency><keyword>son</keyword>son</keyword>
+    <keyword><id>1248</id><frequency>1</frequency><keyword>theft</keyword>theft</keyword>
+    <keyword><id>1305</id><frequency>1</frequency><keyword>virgin</keyword>virgin</keyword>
+  </keywords>
+  <etk_index><id>44</id>
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>17</id><display_name>People: Robber / Thief</display_name></tango_index>
+    <tango_index><id>90</id><display_name>Actions or events: Kidnapping</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>5</id><name>Ballad</name></genre>
+</story>

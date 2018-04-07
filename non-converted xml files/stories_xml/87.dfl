@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<story story_id="87">
+  <publication_info>JAH_II_358</publication_info>
+  <full_name>150 - 3.24 - JAH_II_358</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.24</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="85">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_358</publication_info>
+      <full_name>150 - 3.22 - JAH_II_358</full_name>
+      <url>data/stories/85.dfl</url>
+    </story>
+    <story story_id="32">
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_781</publication_info>
+      <full_name>150 - 1.29 - JAT_VI_781</full_name>
+      <url>data/stories/32.dfl</url>
+    </story>
+    <story story_id="338">
+      <informant_id>90</informant_id>
+      <publication_info>Unpub_AMJ_206</publication_info>
+      <full_name>90 - 2.06 - Unpub_AMJ_206</full_name>
+      <url>data/stories/338.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4100b</fielddiary_page_start>
+  <fielddiary_page_end>4100b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Tang Kristensen published this short description of local expressions along with BJK 3.22 above, despite its location in the manuscript.  "Langovrede tr&#xE6;sko" were clogs with a long front worn primarily by men in contradistinction to women's "kortovrede tr&#xE6;sko" with a short front, more in keeping with modern clogs. "Basarer" are also known as "nisse tr&#xE6;sko". This type of clog turns up in a point at the front.</annotation>
+  <danish_manuscript>De langovrede T&#xE6;sko kalder her sorte Tr&#xE6;sko
+og Basareren hvide Tr&#xE6;sko.
+</danish_manuscript>
+  <english_manuscript>We call the langovrede clogs black clogs and the basarer white clogs.</english_manuscript>
+  <danish_publication>Fra BJK 3.22: Dem langovrede tr&#xE6;sko kalder vi her sorte tr&#xE6;sko og basarerne hvide tr&#xE6;sko.</danish_publication>
+  <english_publication>From BJK 3.22: Those langovrede clogs we call black clogs here and the basarer white clogs.</english_publication>
+  <keywords>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="234" frequency="3" keyword="clogs">clogs</keyword>
+    <keyword id="1340" frequency="1" keyword="white">white</keyword>
+  </keywords>
+  <etk_index id="32">
+    <heading_danish>Fra hoveriets tid</heading_danish>
+    <heading_english>From the time of villeinage</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="12" name="Dialect"/>
+</story>

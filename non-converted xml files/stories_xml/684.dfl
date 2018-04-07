@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<story story_id="684">
+  <publication_info>DS_III_215</publication_info>
+  <full_name>533 - 0.00 - DS_III_215</full_name>
+  <informant_id>533</informant_id>
+  <informant_last_name>Skriver</informant_last_name>
+  <informant_first_name>Mads Kristensen</informant_first_name>
+  <informant_full_name>G&#xE5;rdejer Mads Kristensen Skriver</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>412</place_id>
+      <name>Mollerup</name>
+      <display_name>Mollerup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>321</place_id>
+      <name>Karby</name>
+      <display_name>Karby (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="414">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_222</publication_info>
+      <full_name>123 - 3.11 - DS_III_222</full_name>
+      <url>data/stories/414.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Karby kirke har to klokker, fordi det fra f&#xF8;rst af var bestemmelsen, at det skulde v&#xE6;re en kj&#xF6;bstad. Da kirken var f&#xE6;rdig, og man begyndte at ringe med klokkerne, blev troldene s&#xE5; rasende og fortumlede, at de straks vilde have kirken reven ned, men det stod dog ikke i deres magt. Der skulde nu begyndes p&#xE5; at anl&#xE6;gge havn, men her fik troldene sig h&#xE6;vnet, ti hvor st&#xE6;rkt der end arbejdedes om dagen, blev det tilintetgjort om natten, s&#xE5; det blev umuligt at f&#xE5; havn, og derfor blev Karby, hvad den er den dag i dag, nemlig en ligefrem landsby.</danish_publication>
+  <english_publication>Karby church has two bells because, from the very beginning, it had been decided that it was to be a market town. When the church was finished and they began to ring the bells, the trolls got so angry and upset that they wanted to tear the church down immediately, but they didn't have the power to do that. The people were now going to start building a harbor, but the trolls got their revenge there, because no matter how hard people worked during the day, it was destroyed at night, so it was impossible for them to get a harbor and that's why Karby became what it is today, namely a small rural town.</english_publication>
+  <keywords>
+    <keyword id="36" frequency="1" keyword="angry">angry</keyword>
+    <keyword id="88" frequency="2" keyword="bells">bells</keyword>
+    <keyword id="155" frequency="1" keyword="buildings">buildings</keyword>
+    <keyword id="227" frequency="3" keyword="church">church</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="499" frequency="2" keyword="harbor">harbor</keyword>
+    <keyword id="751" frequency="1" keyword="market">market</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="988" frequency="1" keyword="power">power</keyword>
+    <keyword id="1028" frequency="1" keyword="revenge">revenge</keyword>
+    <keyword id="1033" frequency="1" keyword="ringing">ringing</keyword>
+    <keyword id="1265" frequency="1" keyword="today">today</keyword>
+    <keyword id="1275" frequency="2" keyword="town">town</keyword>
+    <keyword id="1283" frequency="2" keyword="troll">troll</keyword>
+  </keywords>
+  <etk_index id="11">
+    <heading_danish>Kj&#xE6;mper og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Heroes and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="39" display_name="Places: Ocean / Sea"/>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="66" display_name="Supernatural Beings: Troll"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

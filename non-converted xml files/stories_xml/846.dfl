@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<story story_id="846">
+  <publication_info>DS_III_531</publication_info>
+  <full_name>423 - 0.00 - DS_III_531</full_name>
+  <informant_id>423</informant_id>
+  <informant_last_name>J&#xF8;rgensen</informant_last_name>
+  <informant_first_name>S.</informant_first_name>
+  <informant_full_name>L&#xE6;rer S. J&#xF8;rgensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>810</place_id>
+      <name>Kistrup, Assens</name>
+      <display_name>Kistrup, Assens (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>854</place_id>
+      <name>Ringe, Fyn</name>
+      <display_name>Ringe, Fyn (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>983</place_id>
+      <name>Nyborg</name>
+      <display_name>Nyborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="189">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_III_1380</publication_info>
+      <full_name>241 - 4.17 - DSnr_III_1380</full_name>
+      <url>data/stories/189.dfl</url>
+    </story>
+    <story story_id="383">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_744</publication_info>
+      <full_name>123 - 2.09 - DS_III_744</full_name>
+      <url>data/stories/383.dfl</url>
+    </story>
+    <story story_id="417">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_528</publication_info>
+      <full_name>123 - 3.14 - DS_III_528</full_name>
+      <url>data/stories/417.dfl</url>
+    </story>
+    <story story_id="672">
+      <informant_id>281</informant_id>
+      <publication_info>DS_III_535</publication_info>
+      <full_name>281 - 0.00 - DS_III_535</full_name>
+      <url>data/stories/672.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Syd for landevejen mellem Ringe og Nyborg i Jens Andersens mark overfor "B&#xE6;ksmedens" hus findes en lille mose, som kaldes Klokkemose eller Klokkelong. Om oprindelsen til dette navn fort&#xE6;lles f&#xF8;lgende: Medens klokket&#xE5;rnet endnu stod over den vestlige kirkehv&#xE6;lving, skete det en dag, da der ringedes over et lig, at klokkerebet blev revet ud af h&#xE6;nderne p&#xE5; den mand, der ringede, og klokken fl&#xF6;j ud af lydhullet og sank ned i n&#xE6;vnte mose, hvor den siges at ringe de h&#xF6;jtidsaftener. I den tid man arbejdede p&#xE5; at flytte t&#xE5;rnet, h&#xF8;rtes ofte en lyd fra mosen, som om der klemtedes med klokken i det fj&#xE6;rne.</danish_publication>
+  <english_publication>South of the highway between Nyborg and Ringe in Jens Andersen's field across the way from B&#xE6;ksmeden&#x2019;s house there is a small swamp, which is called Bell swamp or Bell sump. The following is told concerning the origin of that name: During the time when the bell tower was above the western church arch, one day while they were ringing for a corpse, the bell rope was torn out of the hands of the man who was ringing, and the bell flew out of the sound holes and sank down in the named swamp, where it is said to ring on the high holy days. During the time that they were moving the tower, they often heard a sound from the swamp as if they were ringing a bell in the distance.</english_publication>
+  <keywords>
+    <keyword id="88" frequency="6" keyword="bells">bells</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="262" frequency="1" keyword="corpse">corpse</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="529" frequency="1" keyword="highway">highway</keyword>
+    <keyword id="536" frequency="1" keyword="holy">holy</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="576" frequency="1" keyword="jens">Jens</keyword>
+    <keyword id="822" frequency="2" keyword="name">name</keyword>
+    <keyword id="1033" frequency="4" keyword="ringing">ringing</keyword>
+    <keyword id="1044" frequency="1" keyword="rope">rope</keyword>
+    <keyword id="1165" frequency="2" keyword="sounds">sounds</keyword>
+    <keyword id="1167" frequency="1" keyword="south">south</keyword>
+    <keyword id="1228" frequency="4" keyword="swamp">swamp</keyword>
+    <keyword id="1274" frequency="2" keyword="tower">tower</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+  </keywords>
+  <etk_index id="12">
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="46" display_name="Tools, Items and Conveyances: Bell"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

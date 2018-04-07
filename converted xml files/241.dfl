@@ -1,0 +1,121 @@
+<story><story_id>241</story_id>
+  <publication_info>MA_I_100</publication_info>
+  <full_name>235 - 1.21 - MA_I_100</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.21</order_told>
+  <fieldtrip><id>7</id>May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>219</place_id>
+      <name>Hadbj&#230;rg</name>
+      <display_name>Hadbj&#230;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>300</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_465</publication_info>
+      <full_name>235 - 2.17 - MA_I_465</full_name>
+      <url>data/stories/300.dfl</url>
+    </story>
+    <story><story_id>307</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>JAT_VI_187</publication_info>
+      <full_name>235 - 3.05 - JAT_VI_187</full_name>
+      <url>data/stories/307.dfl</url>
+    </story>
+    <story><story_id>320</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DSk_I_14</publication_info>
+      <full_name>235 - 3.18 - DSk_I_14</full_name>
+      <url>data/stories/320.dfl</url>
+    </story>
+    <story><story_id>240</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_63</publication_info>
+      <full_name>235 - 1.21 - MA_I_63</full_name>
+      <url>data/stories/240.dfl</url>
+    </story>
+    <story><story_id>242</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>Unpub_KMP_122</publication_info>
+      <full_name>235 - 1.22 - Unpub_KMP_122</full_name>
+      <url>data/stories/242.dfl</url>
+    </story>
+    <story><story_id>243</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_107</publication_info>
+      <full_name>235 - 1.23 - MA_I_107</full_name>
+      <url>data/stories/243.dfl</url>
+    </story>
+    <story><story_id>244</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>JAH_VI_527</publication_info>
+      <full_name>235 - 1.24 - JAH_VI_527</full_name>
+      <url>data/stories/244.dfl</url>
+    </story>
+    <story><story_id>245</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_70</publication_info>
+      <full_name>235 - 1.25 - MA_I_70</full_name>
+      <url>data/stories/245.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5216a</fielddiary_page_start>
+  <fielddiary_page_end>5216b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This story and the next three (KMP 1.22, 1.23 and 1.24) all follow directly from the preceding one (KMP 1.20). All of them explore the foolish actions of the unnamed Molbo. By breaking the stories up and publishing them in different collections, the clear narrative flow between the stories is erased.</annotation>
+  <danish_manuscript>D&#230;nd s&#229;m man han kam i h&#229;w om j&#230;n
+daw han vild kj&#248; ti m&#248;l m&#230;n s&#229; gl&#230;mt
+han &#229; l&#230;g m&#248;lkornet i won[enen] &#229; har
+ren wa op&#229; en [won], d&#230;n ha st&#229;n d&#230; fra
+d&#230;wen i forve, han ha w&#229;n uu &#229; harre.
+S&#229; kj&#248;r han te m&#248;ll m&#230; harren. S&#229; s&#229;
+m&#248;lleren te ham, da han hoel [ud] uen
+f&#229; m&#229;llen: hwa han vil. Han vil gj&#230;n
+ha m&#229;l &#229; ha m&#230; s&#230;. S&#229; s&#229; han: M&#230;n hue
+&#230; s&#229; mollkoenet. Di h&#229; a W&#229;h&#230;rre min
+
+5216B
+s&#229;end gl&#230;mt hj&#230;m, da wa de da slemt,
+f&#229; vi ska ha lawet te &#229; b&#229;g iawtin.</danish_manuscript>
+  <english_manuscript>The same man remembered one day that he was to drive to the mill, but then he forgot to put the mill grain in the wagon, and the flax was up in one, it had stood there from the day before when he'd been gathering flax. Then he drove to the mill with the flax. Then the miller said to him, when he stopped in front of the mill: What do you want? He wanted to have his grain milled and take it with him. Then he said: "Where's the mill grain?" - "God, I forgot it, and that's bad because we were supposed to bake tonight."</english_manuscript>
+  <danish_publication>En man i Hajjbj&#246;re han kam i h&#229;ww om j&#230;n daw, han vil kj&#248; te m&#248;ll, m&#230;n s&#229; gl&#230;mt han &#229; l&#230;g m&#248;llkonet i wonen, &#229; haren wa opo en, d&#230;n ha st&#229;nn d&#230; fr&#230; dawen i f&#229;rve, han ha w&#229;n uu &#229; hare. S&#229; kj&#248;r han te m&#248;ll m&#230; haren. S&#229; s&#229; m&#248;leren te ham, da han hoel uen f&#229; m&#248;len: hwa han vill? Han vil gj&#230;nn ha m&#229;l &#229; ha m&#230; s&#230;. S&#229; s&#229;&#229; han: "M&#230;n hue &#230; s&#229; m&#248;llkoenet?" &#8212; "De h&#229; a &#229; W&#229;h&#230;re min saen gl&#230;mt hj&#230;mm, da wa de da slemt, f&#229; vi sku ha lawet te &#229; baag i awten."</danish_publication>
+  <english_publication>A man in Hajjbj&#246;re remembered one day that he was to drive to the mill, but then he forgot to put the mill grain in the wagon, and the flax was up in one, it had stood there from the day before when he&#8217;d been gathering flax. Then he drove to the mill with the flax. Then the miller said to him, when he stopped in front of the mill: What do you want? He wanted to have his grain milled and take it with him. Then he said: &#8220;Where&#8217;s the mill grain?&#8221; &#8211; &#8220;God, I forgot it, and that&#8217;s bad because we were supposed to bake tonight.&#8221;</english_publication>
+  <keywords>
+    <keyword><id>65</id><frequency>1</frequency><keyword>baking</keyword>baking</keyword>
+    <keyword><id>306</id><frequency>2</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>418</id><frequency>3</frequency><keyword>flax</keyword>flax</keyword>
+    <keyword><id>472</id><frequency>1</frequency><keyword>god</keyword>god</keyword>
+    <keyword><id>477</id><frequency>3</frequency><keyword>grain</keyword>grain</keyword>
+    <keyword><id>783</id><frequency>6</frequency><keyword>mill</keyword>mill</keyword>
+    <keyword><id>785</id><frequency>1</frequency><keyword>miller</keyword>miller</keyword>
+    <keyword><id>1269</id><frequency>1</frequency><keyword>tonight</keyword>tonight</keyword>
+    <keyword><id>1311</id><frequency>1</frequency><keyword>wagon</keyword>wagon</keyword>
+  </keywords>
+  <etk_index><id>42</id>
+    <heading_danish>Molbo og Aggerbohistorier</heading_danish>
+    <heading_english>Stories of Molbo and Aggerbo (Numbskull tales)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>37</id><display_name>Places: Mill</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>11</id><name>Jocular Tale</name></genre>
+</story>

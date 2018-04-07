@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<story story_id="455">
+  <publication_info>DS_VII_129</publication_info>
+  <full_name>464 - 0.00 - DS_VII_129</full_name>
+  <informant_id>464</informant_id>
+  <informant_last_name>Madsdatter</informant_last_name>
+  <informant_first_name>Marianne</informant_first_name>
+  <informant_full_name>Marianne Madsdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>752</place_id>
+      <name>Bj&#xE6;rgby</name>
+      <display_name>Bj&#xE6;rgby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>896</place_id>
+      <name>Tyholm</name>
+      <display_name>Tyholm (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="503">
+      <informant_id>353</informant_id>
+      <publication_info>DS_VII_128</publication_info>
+      <full_name>353 - 0.00 - DS_VII_128</full_name>
+      <url>data/stories/503.dfl</url>
+    </story>
+    <story story_id="209">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_120</publication_info>
+      <full_name>241 - 4.37 - DS_VII_120</full_name>
+      <url>data/stories/209.dfl</url>
+    </story>
+    <story story_id="445">
+      <informant_id>456</informant_id>
+      <publication_info>DS_VII_237</publication_info>
+      <full_name>456 - 0.00 - DS_VII_237</full_name>
+      <url>data/stories/445.dfl</url>
+    </story>
+    <story story_id="143">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_285</publication_info>
+      <full_name>241 - 1.02 - DS_VII_285</full_name>
+      <url>data/stories/143.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Ty var der en hare, der gik og luskede ved folks huse og var til f&#xE6;rds alle steder, de kunde n&#xE6;sten g&#xE5; til den. De tykte s&#xE5;, det var bedst at gj&#xF8;re rette side p&#xE5; det, og manden f&#xE5;r hans b&#xF8;sse ladt og skyder p&#xE5; den. Den blev ramt i det ene l&#xE5;r og l&#xF8;b haltende v&#xE6;k. Han gav agt p&#xE5;, hvor den l&#xF8;b hen, og da smuttede den ind ad h&#xF6;nsehullet i et bitte hus. Der vilde han ind og se. S&#xE5; sad konen ved siden af kakkelovnen og klagede sig, det gjorde s&#xE5; ondt i hendes ene l&#xE5;r, hun var falden og havde sl&#xE5;et sig s&#xE5;dan. S&#xE5; gik han hjem og sagde til hans kone, at nu kom den hare ikke tiere.</danish_publication>
+  <english_publication>In Ty there was a hare which went and sniffed around peoples&#x2019; houses and was running about everywhere, they could almost walk up to it. Then they realized that it was best if they made the situation right, so the man loads his rifle and shoots at it. The hare gets hit in the one thigh and runs limping away. He watched where it ran and it scooted in through the hen hole in a little house. Then he wanted to go in there and see. The woman of the house was sitting next to the wood burning stove complaining that it hurt so much in one of her thighs, she had fallen and hit herself so. So then he went home and said to his wife that the hare wouldn&#x2019;t be coming around anymore. </english_publication>
+  <keywords>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="500" frequency="2" keyword="hare">hare</keyword>
+    <keyword id="522" frequency="1" keyword="hen">hen</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="548" frequency="4" keyword="house">house</keyword>
+    <keyword id="1031" frequency="1" keyword="rifle">rifle</keyword>
+    <keyword id="1106" frequency="1" keyword="shooting">shooting</keyword>
+    <keyword id="1202" frequency="1" keyword="stove">stove</keyword>
+    <keyword id="1251" frequency="2" keyword="thigh">thigh</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+    <keyword id="1357" frequency="1" keyword="wood">wood</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="73" display_name="Animals: Hare"/>
+    <tango_index id="73" display_name="Animals: Hare"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<story story_id="594">
+  <publication_info>DS_V_1158</publication_info>
+  <full_name>412 - 0.00 - DS_V_1158</full_name>
+  <informant_id>412</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Diderik</informant_first_name>
+  <informant_full_name>L&#xE6;rer Diderik Johansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>905</place_id>
+      <name>Vester Egede</name>
+      <display_name>Vester Egede (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="378">
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1163</publication_info>
+      <full_name>123 - 2.04 - DS_V_1163</full_name>
+      <url>data/stories/378.dfl</url>
+    </story>
+    <story story_id="593">
+      <informant_id>375</informant_id>
+      <publication_info>DS_V_1157</publication_info>
+      <full_name>375 - 0.00 - DS_V_1157</full_name>
+      <url>data/stories/593.dfl</url>
+    </story>
+    <story story_id="381">
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1153</publication_info>
+      <full_name>123 - 2.07 - DS_V_1153</full_name>
+      <url>data/stories/381.dfl</url>
+    </story>
+    <story story_id="652">
+      <informant_id>189</informant_id>
+      <publication_info>DS_V_1164</publication_info>
+      <full_name>189 - 0.00 - DS_V_1164</full_name>
+      <url>data/stories/652.dfl</url>
+    </story>
+    <story story_id="725">
+      <informant_id>380</informant_id>
+      <publication_info>DS_V_1171</publication_info>
+      <full_name>380 - 0.00 - DS_V_1171</full_name>
+      <url>data/stories/725.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En frugtsommelig kone d&#xF8;de, fik en flaske vand og b&#xF6;rnet&#xF6;j med i graven; men da tiden var omme, at hun skulde f&#xF8;de, gik hun igjen og gjorde en voldsom uro. S&#xE5; spurgte en dristig karl, hvad hun gik efter. "Jeg fejler b&#xF6;rnet&#xF6;j. Jeg har kun til &#xE9;t barn, men ikke til to." Skar en flig af hans skjorte og begge hans str&#xF6;mpeb&#xE5;nd. Da blev der ro.</danish_publication>
+  <english_publication>A pregnant woman had died, and she got a bottle of water and some baby clothes in her grave with her; but when her delivery date came, she walked again and caused a terrible disturbance. But then a brave farmhand asked her why she was haunting. "I need more baby clothes. I only have enough for one child, not two." So he cut a strip off of his shirt and both of his stockings. Then there was peace.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="102" frequency="3" keyword="birth">birth</keyword>
+    <keyword id="219" frequency="2" keyword="children">children</keyword>
+    <keyword id="236" frequency="1" keyword="clothing">clothing</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="483" frequency="2" keyword="grave">grave</keyword>
+    <keyword id="508" frequency="1" keyword="haunting">haunting</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="991" frequency="1" keyword="pregnant">pregnant</keyword>
+    <keyword id="1288" frequency="1" keyword="unborn">unborn</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="24">
+    <heading_danish>Kvindelige gjenf&#xE6;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="132" display_name="Actions or events: Pregnancy and birth"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

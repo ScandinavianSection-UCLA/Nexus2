@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<story story_id="511">
+  <publication_info>DS_I_755</publication_info>
+  <full_name>457 - 0.00 - DS_I_755</full_name>
+  <informant_id>457</informant_id>
+  <informant_last_name>Lund</informant_last_name>
+  <informant_first_name>F. P. J.</informant_first_name>
+  <informant_full_name>Seminarist F. P. J. Lund</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>911</place_id>
+      <name>Vinten-Enner</name>
+      <display_name>Vinten-Enner (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>145</place_id>
+      <name>Enner</name>
+      <display_name>Enner (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>181</place_id>
+      <name>Galgebanke</name>
+      <display_name>Galgebanke (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>627</place_id>
+      <name>Tamdrup</name>
+      <display_name>Tamdrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="180">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_901</publication_info>
+      <full_name>241 - 4.09 - DSnr_I_901</full_name>
+      <url>data/stories/180.dfl</url>
+    </story>
+    <story story_id="385">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_767</publication_info>
+      <full_name>123 - 2.11 - DS_I_767</full_name>
+      <url>data/stories/385.dfl</url>
+    </story>
+    <story story_id="790">
+      <informant_id>382</informant_id>
+      <publication_info>DS_I_898</publication_info>
+      <full_name>382 - 0.00 - DS_I_898</full_name>
+      <url>data/stories/790.dfl</url>
+    </story>
+    <story story_id="862">
+      <informant_id/>
+      <publication_info>DS_I_756</publication_info>
+      <full_name>0 - 0.00 - DS_I_756</full_name>
+      <url>data/stories/862.dfl</url>
+    </story>
+    <story story_id="238">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_782</publication_info>
+      <full_name>235 - 1.19 - DS_I_782</full_name>
+      <url>data/stories/238.dfl</url>
+    </story>
+    <story story_id="282">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_783</publication_info>
+      <full_name>235 - 1.61 - DS_I_783</full_name>
+      <url>data/stories/282.dfl</url>
+    </story>
+    <story story_id="579">
+      <informant_id>106</informant_id>
+      <publication_info>DS_I_748</publication_info>
+      <full_name>106 - 0.00 - DS_I_748</full_name>
+      <url>data/stories/579.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Galgebanke p&#xE5; Enner bymark, Tamdrup sogn, findes endnu bj&#xE6;rgfolk, og hver h&#xF6;jtidsaften har de gilde og lystighed, banken h&#xE6;ver sig da op p&#xE5; h&#xF6;je ildpiller, og man kan se bj&#xE6;rgfolkene f&#xE6;rdes inde under banken, der er oplyst. De spiser ved lange gildeborde, og bag efter holder de dands.</danish_publication>
+  <english_publication>At Galgebanke on Enner village commons, Tamdrup parish, there are still mound dwellers, and they hold a party every holiday evening and celebrate, and the mound rises up on tall pillars of fire and one can see the mound folk going in under the mound which is all lit up. They eat at long party tables and afterward they hold a dance.</english_publication>
+  <keywords>
+    <keyword id="194" frequency="1" keyword="celebration">celebration</keyword>
+    <keyword id="251" frequency="1" keyword="commons">commons</keyword>
+    <keyword id="297" frequency="1" keyword="dancing">dancing</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="534" frequency="1" keyword="holiday">holiday</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="805" frequency="1" keyword="mound_dweller">mound dweller</keyword>
+    <keyword id="806" frequency="1" keyword="mound_folk">mound folk</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="907" frequency="2" keyword="party">party</keyword>
+    <keyword id="1238" frequency="1" keyword="table">table</keyword>
+    <keyword id="1300" frequency="1" keyword="village">village</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="86" display_name="Actions or events: Feast / Celebration"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="118" display_name="Time, Season, Weather: Holiday"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<story story_id="495">
+  <publication_info>DS_VII_664</publication_info>
+  <full_name>452 - 0.00 - DS_VII_664</full_name>
+  <informant_id>452</informant_id>
+  <informant_last_name>Lavrsdatter</informant_last_name>
+  <informant_first_name>Dorte</informant_first_name>
+  <informant_full_name>Dorte Lavrsdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>793</place_id>
+      <name>Hesselbakke</name>
+      <display_name>Hesselbakke (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="642">
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_167</publication_info>
+      <full_name>331 - 0.00 - DS_VII_167</full_name>
+      <url>data/stories/642.dfl</url>
+    </story>
+    <story story_id="211">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_611</publication_info>
+      <full_name>241 - 4.39 - DS_VII_611</full_name>
+      <url>data/stories/211.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gang kunde vi ikke f&#xE5; sm&#xF6;r og kj&#xE6;rnede i 2, 3 dage. Fl&#xF8;den var sej og ingen ting til, s&#xE5; vi kunde ikke en gang bage pandekager af det, men slog det hen. S&#xE5; kommer der en gammel Nordmand, som gik med bikuber, og han vilde da bede om noget at spise. Min moder gav ham noget surt m&#xE6;lk at s&#xF8;be og s&#xE5; en bid br&#xF8;d til. "Det er godt m&#xE6;lk", siger han, som han nu sidder d&#xE9;r. Ja, m&#xE6;lken var god nok, siger hun helt kort. Han siger det nok en gang. "Da har vi ingen nytte af det", siger hun, "ihvor godt det er." Ja, det kunde han nok m&#xE6;rke. Men nu skulde han give dem et r&#xE5;d. De skulde f&#xE5; et stykke j&#xE6;rn smedet med tre huller p&#xE5;. S&#xE5; skulde de tage noget svovl og lade drippe i hvert eneste karmon, de havde. Derefter skulde hun gj&#xF8;re det j&#xE6;rn gloende og s&#xE5; si m&#xE6;lken over det j&#xE6;rn ned i hvert kar. "S&#xE5; t&#xE6;nker a nok, de skal f&#xE5; deres n&#xE6;se varmet, der har gjort det. Kan det nu ikke hj&#xE6;lpe, s&#xE5; skal a nok lave det s&#xE5;dan, te det skal hj&#xE6;lpe, men det vil a ikke svar gj&#xE6;rne." Det hjalp ogs&#xE5; godt nok.</danish_publication>
+  <english_publication>One day we couldn&#x2019;t get butter and churned for two or three days. The cream was viscous and good for nothing so we couldn&#x2019;t even use it for pancakes, but had to throw it away. Then an old Norwegian who went about with beehives comes by and he wants to beg for something to eat. My mother gave him some sour milk to spoon up and a bite of bread as well. &#x201C;This is some fine milk,&#x201D; he says now as he&#x2019;s sitting there. Yes, the milk was good enough, she says snappishly. He says it one more time. &#x201C;But we get nothing out of it,&#x201D; she says, &#x201C;no matter how good it is.&#x201D; Yes, he could see that well enough. But now he&#x2019;d give them some advice. They should get a piece of iron forged with three holes in it. Then they should take some sulfur and drip it into each barrel they had. After that, they should get the iron glowing hot and pour the milk over the iron into each barrel. &#x201C;Then I think that the person who did this will get their nose warmed. If that doesn&#x2019;t help, I&#x2019;ll make it so it does help, but I don&#x2019;t really want to do that.&#x201D; It helped too.</english_publication>
+  <keywords>
+    <keyword id="12" frequency="1" keyword="advice">advice</keyword>
+    <keyword id="74" frequency="2" keyword="barrel">barrel</keyword>
+    <keyword id="85" frequency="1" keyword="bees">bees</keyword>
+    <keyword id="86" frequency="1" keyword="beggar">beggar</keyword>
+    <keyword id="139" frequency="1" keyword="bread">bread</keyword>
+    <keyword id="163" frequency="1" keyword="butter">butter</keyword>
+    <keyword id="229" frequency="1" keyword="churn">churn</keyword>
+    <keyword id="279" frequency="1" keyword="cream">cream</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="564" frequency="3" keyword="iron">iron</keyword>
+    <keyword id="782" frequency="4" keyword="milk">milk</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="867" frequency="1" keyword="norwegian">Norwegian</keyword>
+    <keyword id="868" frequency="1" keyword="nose">nose</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="898" frequency="1" keyword="pancake">pancake</keyword>
+    <keyword id="1146" frequency="1" keyword="smithing">smithing</keyword>
+    <keyword id="1176" frequency="1" keyword="spoon">spoon</keyword>
+    <keyword id="1256" frequency="2" keyword="three">three</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="10" display_name="People: Foreigner"/>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="50" display_name="Tools, Items and Conveyances: Metal"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<story story_id="352">
+  <publication_info>DS_VI_1028</publication_info>
+  <full_name>90 - 2.20 - DS_VI_1028</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>2.20</order_told>
+  <fieldtrip id="9">October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>8</place_id>
+      <name>Aarhus</name>
+      <display_name>Aarhus (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>540</place_id>
+      <name>Skj&#xF8;dstrup</name>
+      <display_name>Skj&#xF8;dstrup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>729</place_id>
+      <name>Vosn&#xE6;sg&#xE5;rd</name>
+      <display_name>Vosn&#xE6;sg&#xE5;rd (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="157">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_897</publication_info>
+      <full_name>241 - 2.07 - DS_VI_897</full_name>
+      <url>data/stories/157.dfl</url>
+    </story>
+    <story story_id="354">
+      <informant_id>90</informant_id>
+      <publication_info>JAT_VI_805</publication_info>
+      <full_name>90 - 2.22 - JAT_VI_805</full_name>
+      <url>data/stories/354.dfl</url>
+    </story>
+    <story story_id="382">
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1370</publication_info>
+      <full_name>123 - 2.08 - DS_V_1370</full_name>
+      <url>data/stories/382.dfl</url>
+    </story>
+    <story story_id="424">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VI_995</publication_info>
+      <full_name>123 - 3.21 - DS_VI_995</full_name>
+      <url>data/stories/424.dfl</url>
+    </story>
+    <story story_id="445">
+      <informant_id>456</informant_id>
+      <publication_info>DS_VII_237</publication_info>
+      <full_name>456 - 0.00 - DS_VII_237</full_name>
+      <url>data/stories/445.dfl</url>
+    </story>
+    <story story_id="642">
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_167</publication_info>
+      <full_name>331 - 0.00 - DS_VII_167</full_name>
+      <url>data/stories/642.dfl</url>
+    </story>
+    <story story_id="661">
+      <informant_id>364</informant_id>
+      <publication_info>DS_VII_527</publication_info>
+      <full_name>364 - 0.00 - DS_VII_527</full_name>
+      <url>data/stories/661.dfl</url>
+    </story>
+    <story story_id="741">
+      <informant_id>111</informant_id>
+      <publication_info>DS_VI_1004</publication_info>
+      <full_name>111 - 0.00 - DS_VI_1004</full_name>
+      <url>data/stories/741.dfl</url>
+    </story>
+    <story story_id="252">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_697</publication_info>
+      <full_name>235 - 1.32 - JAH_V_697</full_name>
+      <url>data/stories/252.dfl</url>
+    </story>
+    <story story_id="363">
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1271</publication_info>
+      <full_name>90 - 3.09 - DS_VI_1271</full_name>
+      <url>data/stories/363.dfl</url>
+    </story>
+    <story story_id="719">
+      <informant_id>541</informant_id>
+      <publication_info>DS_V_1111</publication_info>
+      <full_name>541 - 0.00 - DS_V_1111</full_name>
+      <url>data/stories/719.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4787b</fielddiary_page_start>
+  <fielddiary_page_end>4788b</fielddiary_page_end>
+  <bibliographic_info>Tangherlini 1998
+Tangherlini 2000
+Muchembled 1979</bibliographic_info>
+  <bibliography_references>
+    <reference id="735" category="general">
+      <display_string>[Book] Johansen, Jens Christian V. 1991. &lt;i&gt;Da dj&#xE6;velen var ude... Trolddom i det 17. &#xE5;rhundredes Danmark (Odense University studies in history and social sciences)&lt;/i&gt;. Odense: Odense Universitetsforlag.</display_string>
+    </reference>
+    <reference id="487" category="general">
+      <display_string>[Article] Tangherlini, Timothy R. 2000. "How do you know she's a witch"? : Witches, cunning folk, and competition in Denmark. Vol. 59 of &lt;i&gt;Western Folklore&lt;/i&gt; 3-4: 279-303.</display_string>
+    </reference>
+    <reference id="792" category="general">
+      <display_string>[Book] Muchembled, Robert. 1979. &lt;i&gt;La Sorci&#xE8;re au village : XVe-XVIIIe si&#xE8;cle (Collection Archives)&lt;/i&gt;. Paris: Gallimard/Julliard.</display_string>
+    </reference>
+    <reference id="609" category="general">
+      <display_string>[Article] Tangherlini, Timothy R. 1998. "Who ya gonna call?" : Ministers and the Mediation of Ghostly Threat in Danish Legend Tradition. Vol. 57 of &lt;i&gt;Western Folklore&lt;/i&gt; 2/3: 153-178.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>In these two closely linked legends, Margrete characterizes Puust-Maren (Puff-Maren) as a witch, a far more disruptive figure than the generally positive figure of the folk healer, who appears in the second story to restore order.
+
+      In the first story, Puust-Maren launches an attack on the economic productivity of the manor farm, disrupting the farmhands' plowing. Furrows are often seen as efficacious against magic, but usually only when they are crossed (thereby inscribing a cross into the ground), rather than being followed as they are here. 
+
+      The manor lord's actions are intriguing: he brings into the open Puust-Maren's abilities as a witch, but does not raise a formal accusation of witchcraft against her. Her actions could be seen as self incrimination, a form of testimony that was not allowed in the Danish witch trials that ended in the eighteenth century (Johansen 1991; Tangherlini 2000). This prohibition against self incrimination may also explain Puust-Maren's willingness to admit to having caused her daughter's deformity.
+
+      The second story highlights another common belief about witches, namely their ability to cause illness. Certain methods, such as placing a broom at the threshold to the house, were seen as efficacious against the ability of the witch to gain entrance to a house. Strewing certain seeds, such as linseed at the threshold, could be similarly efficacious (DS V 1111). 
+
+     The story may point toward the fierce competition that existed between local folk healers. Stories such as this could bolster the reputation of the successful folk healer, while casting aspersions on another. In this context, it is worth noting that one person's folk healer might be another person's witch (Muchembled 1979).</annotation>
+  <danish_manuscript>Der var en Kone i Skj&#xF8;dstrup h. hed Puust
+Maren og kunde hegse og gj&#xF8;re s. mange Kun-
+ster. Kam ved Vosn&#xE6;sgaard havde spurgt det
+og s. kommer hun ned til ham en Dag og stod
+ved ham. H&#xF8;r Maren s. h. er det ogsaa sandt
+at du kan s. mange Kunster og kan hegse
+Marin: Ja er det ogsaa sandt. Ja, det var.
+Dersommeti hu nu kunde faa alle hans
+Plove til at staa, s. vilde h. tro det. Alle
+hans Folk gik jo ude paa Marken og plovede
+Jo det var en let Sag for hende at gj&#xF8;re s.  n&#xE6;r
+som en, h. kunde ogsaa mange Kunster selv
+den Karl., s. [n&#xE6;r]  l&#xE6;nge h. var i Fonen s.
+kunde hun ikke gj&#xF8;re det, for h. kunde ogsaa
+mange Kunster. S. snart h. kom af den s.
+kunde hun. Hun kunde jo vel gj&#xF8;re det, men
+ikke paa andre Maader end at gi&#xF8;re B&#xE6;sterne
+l&#xF8;bsk, og s. maatte Herren ikke blive vred, hu
+
+4788A
+kunde ikke gi&#xF8;re det n&#xE6;rere end at gi&#xF8;re det
+med dem ogsaa. S var det alle Plove standse
+de s. n&#xE6;r [be] som ham. Alle Karlene pan
+dede noget ved Plovene og somme bankede paa
+skj&#xE6;r og nogle paa langj&#xE6;rn og som gik sele
+t&#xF8;jet i Stykker ved. Men da h. kom ud af
+enden s. blev B&#xE6;sterne s. l&#xE5;bsk for ham
+og de split Ploved ad og rend over flere og giorde
+skade baade ved B&#xE6;ster og alting. Nu vil
+jeg tro, I kan, siden I har giort mig det
+Puds. Det var et slemt Puds nok, men det
+skal I nu ikke have Straf for, men hvis
+I gj&#xF8;r det ved flere, som jeg nok har h&#xF8;rt
+om, saadan som I gj ved jer egen Dat
+ter. Hende har I gjort vingmundet for
+det hu vilde have Per Vissing. Ja det var
+sandt nok. En gang havde hun lavet en 
+Kone s. syg og s. skulde der en anden Kone
+fra Aarhus ud at kurere hende for hun var
+noget klogere end Maren. Men hun kunde ikke gi&#xF8;re det
+n&#xE6;rere end den syges Mand vilde staa for hen
+de, naar hun Maren, kom og give hende et Slag.
+for [hende] Panden mend en N&#xF8;dde, ellers kunde
+hun fra Aarhus ikke gi&#xF8;re det. Saa slog han hende vel
+[igjen] ihjel. Nej hende kunde de ikke slaa
+ihjel. Det gjorde hende ikke [godt] ondt. Manden var
+bange for at hun skulle smutte ind ad D&#xF8;ren
+4788B
+forbi ham, og s. sagde Konen fra Aarhus at
+nu vilde hun l&#xE6;gge en Ruflim ell. Slik
+lime i D&#xF8;ren, den vidste hu hu kunde ikke
+gaa over. Da hu var nu ved at l&#xE6;se (hende 
+fra A.hus) og vilde kurere hende, s. kom Maren
+s. forhidset det var farligt, og s. stod Man
+den til Rede med N&#xF8;dden og slog lige s. haardt
+h. kunde og M. fik ikke noget indf&#xF8;rt men
+hun maatte gaa igien. Det havde a ikke troet
+te her var saadan Kunster, s. M. for s. kunde
+I have ladet mig vide det, s. kunde a ogsaa
+have kureret hende. Men kan a nu ikke
+gj&#xF8;re andet s. skal hu da blive vingmun
+det ligesom min egen Datter.
+</danish_manuscript>
+  <english_manuscript>There was a woman in Skj&#xF8;dstrup, she was called Puust-Maren and she could witch and she could do so much magic. The man at Vosn&#xE6;sg&#xE5;rd had asked around about this, and so she comes down and was standing with him one day. "Listen, Maren," he says, "is it true that you know a lot of magic and can witch?" Maren: "Yes, that's true." Yes, it was. If she could make all his plows to stop at once, then he'd believe it. All his people were out in the fields plowing. Sure, that was an easy matter for her, she could stop all of them except for one, he knew a lot of magic himself, that farmhand, because as long as he was in the furrow, she couldn't do it, since he knew a lot of magic too. As soon as he got out of it, then she could. But the only way she could do it was to make the horses stampede, and the manor lord had to promise not to get angry, she couldn't do it without doing that to them as well. Then all the plows stopped except one. Something broke on all the farmhands' plows, some broke in the blade, some in the long iron, and for some the harnesses broke. When he came out at the end, the horses became so wild that they smashed the plow and they ran off across several fields and hurt the horses and everything. "Now I believe that you can, since you've done that to me. That was bad enough, but you won't be punished for it, but if you do it to others... I've heard tell about, like what you did to your daughter, you made her wing-mouthed because she wanted Per Virring." Yes, that was true enough. One time she'd also made a woman so sick and then another woman from Aarhus had to cure her because she was a bit wiser than Maren. But she couldn't do it unless the sick woman's husband would stand when Maren came--because she would come--and hit her in the forehead with a wooden club [n&#xF8;dde], otherwise the one from Aarhus couldn't do it. "But I'll probably kill her." "No, they couldn't kill her, it wouldn't even hurt." The man was afraid that she'd sneak in the door past him, but then the woman from Aarhus said that she'd put a birch broom [ruflime] or another kind of broom [sliklime] in the door, she knew that she couldn't go over that. Now when she was reading (the woman from Aarhus) and was curing the sick one, then Maren came and was so upset that it was dangerous and the man stood at the ready with the club and hit her as hard as he could and Maren didn't manage to do anything and had to go home. "I wouldn't have thought that there was such magic here," said Maren, "because then you could have let me known, and I could have cured her as well. But if I can't do anything else, well then she'll be wing-mouthed just like my daughter."</english_manuscript>
+  <danish_publication>Der var en kone i Skj&#xF6;dstrup, hun hed Puust-Maren og kunde hekse og gj&#xF8;re s&#xE5; mange kunster. Manden ved Vos-n&#xE6;sg&#xE5;rd havde spurgt det, og en dag hun kommer ned til ham og stod og snakkede med ham, siger han: "H&#xF8;r, Maren, er det ogs&#xE5; sandt, at du kan s&#xE5; mange kunster og kan hekse?" Ja, det var. "Dersommetid du nu kan f&#xE5; alle mine plove til at st&#xE5;, s&#xE5; vil jeg tro det." Alle hans folk gik jo ude p&#xE5; marken og plovede. Ja, det var en let sag for hende at gj&#xF8;re, hun kunde standse dem s&#xE5; n&#xE6;r som &#xE9;n, men han kunde ogs&#xE5; mange kunster selv, den karl, for s&#xE5; l&#xE6;nge han var i fonen (furen), kunde hun ikke gj&#xF8;re det, s&#xE5; snart han kom af den, s&#xE5; kunde hun. Men hun kunde ikke gj&#xF8;re det p&#xE5; andre m&#xE5;der end at gj&#xF8;re b&#xE6;sterne l&#xE5;bsk, og det m&#xE5;tte herremanden s&#xE5; ikke fortryde p&#xE5; eller blive vred over. Nej, han skulde ikke. S&#xE5; var det, alle plove standsede s&#xE5; n&#xE6;r som den ene. Alle karlene pandede noget p&#xE5; plovene (der gik br&#xE6;k p&#xE5; dem), somme bankede p&#xE5; skj&#xE6;r, og nogle p&#xE5; langj&#xE6;rn, og somme gik selet&#xF6;jet i stykker ved. Men da den ene karl, der endnu pl&#xF6;jede, kom ud af enden, blev b&#xE6;sterne s&#xE5; l&#xE5;bske for ham, og de splittede ploven ad og rendte over flere agre og gjorde skade b&#xE5;de ved b&#xE6;ster og alting. "Nu vil jeg tro, I kan", siger herremanden, "siden I har gjort det. Det var et slemt puds nok, men det skal I nu ikke have straf for. Gj&#xF6;r I det derimod ved flere, s&#xE5; kan I ikke undg&#xE5; at blive tiltalt. Jeg har nok h&#xF8;rt om, hvordan I har gjort jer egen datter vingmundet, for det hun vilde have Per Virring."  Ja, det var sandt nok.
+En gang havde hun ogs&#xE5; lavet en kone s&#xE5; syg, og s&#xE5; skulde der en anden kone fra &#xC5;rhus ud at kurere hende, for hun var noget klogere end Maren. Man s&#xE5; skulde den syge kones mand st&#xE5;, n&#xE5;r Maren kom &#x2014; for hun vilde jo komme &#x2014; og give hende et slag for panden med en n&#xF8;dde, hun kunde ikke helbrede hende n&#xE6;rere. "Men s&#xE5; sl&#xE5;r a hende vel ihjel." Nej, hende kunde de ikke sl&#xE5; ihjel, det gjorde slet ikke ondt. S&#xE5; var manden r&#xE6;d for, at hun skulde smutte ind ad d&#xF6;ren forbi ham, men s&#xE5; sagde konen fra &#xC5;rhus, at nu vilde hun l&#xE6;gge en ruflime eller sliklime i d&#xF6;ren, den vidste hun, hun kunde ikke g&#xE5; over. Da nu den kloge kone var ved at l&#xE6;se og kurere p&#xE5; den syge, s&#xE5; kom Maren s&#xE5; forhidset, te det var farligt. Manden stod til rede med n&#xF8;dden og slog lige s&#xE5; h&#xE5;rdt han kunde. Maren fik nu ikke noget indf&#xF8;rt, men m&#xE5;tte g&#xE5; igjen. "Det havde a ikke troet, te her var s&#xE5;danne kunster", sagde hun, "for s&#xE5; kunde I have ladet mig vide d&#xE9;t, s&#xE5; kunde a ogs&#xE5; have kureret hende. Men kan a nu ikke gj&#xF8;re andet, s&#xE5; skal hun da blive vingmundet ligesom min egen datter."</danish_publication>
+  <english_publication>There was a woman in Skj&#xF8;dstrup, she was called Puust-Maren and she could witch and she could do so much magic. The man at Vosn&#xE6;sg&#xE5;rd had asked about that, and one day she comes down to him and stood and talked with him, he says, &#x201C;Listen, Maren, is it true that you know a lot of magic and can witch?&#x201D; Maren: "Yes, it was." "If you can get all my plows to stop at once, then I&#x2019;ll believe it." All his people were out in the fields plowing. Sure, that was an easy matter for her, she could stop all of them except for one, he knew a lot of magic himself, that farmhand, because as long as he was in the furrow, she couldn&#x2019;t do it, as soon as he got out of it, then she could. But she couldn&#x2019;t do it in any other way than to make the horses stampede, and the manor lord had to promise not to regret that or get angry about that. No, he wouldn&#x2019;t. Then all the plows except one stopped. Something broke on all the farmhands&#x2019; plows: for some, the blade broke, for some, the jointer knife broke, and for others, the harnesses broke. But when the one farmhand, who was still plowing, came out at the end, the horses got so wild, and they smashed the plow and they ran off across several fields and damaged the horses and everything. &#x201C;Now I believe that you can,&#x201D; says the manor lord, &#x201C;since you&#x2019;ve done it. That was bad enough, but you won&#x2019;t be punished for it. But if you do it to others, then you won&#x2019;t be able to avoid being accused [of witchcraft]. I&#x2019;ve heard how you even made your own daughter wing-mouthed because she wanted Per Virring.&#x201D; Yes, that&#x2019;s was true enough.
+     One time she&#x2019;d also made a woman so sick and then another woman from &#xC5;rhus had to cure her because she was a bit wiser than Maren. But then the sick woman&#x2019;s husband was supposed to stand when Maren came--because come she would--and hit her in the forehead with a wooden club [n&#xF8;dde], otherwise the one from &#xC5;rhus couldn&#x2019;t cure her. &#x201C;But I&#x2019;ll probably kill her.&#x201D; No, they couldn&#x2019;t kill her, it wouldn&#x2019;t even hurt. Then the man was so afraid that she&#x2019;d sneak in the door past him, but then the woman from &#xC5;rhus said that she&#x2019;d put a birch broom [ruflime] or a straw broom [sliklime] in the door, she knew that she couldn&#x2019;t go over that. Now when the cunning woman was reading and curing the sick one, then Maren came and was incredibly angry. The man was ready with the club and hit her as hard as he could. Maren couldn't to do anything then and had to go home. &#x201C;I wouldn&#x2019;t have thought that there was such magic here,&#x201D; she said, &#x201C;because then you could have let me known, and I could have cured her as well. But if I can&#x2019;t do anything else now, well then she&#x2019;ll be wing-mouthed just like my daughter.&#x201D;
+</english_publication>
+  <keywords>
+    <keyword id="8" frequency="1" keyword="accused">accused</keyword>
+    <keyword id="13" frequency="1" keyword="afraid">afraid</keyword>
+    <keyword id="36" frequency="1" keyword="angry">angry</keyword>
+    <keyword id="87" frequency="2" keyword="belief">belief</keyword>
+    <keyword id="98" frequency="1" keyword="birch">birch</keyword>
+    <keyword id="147" frequency="2" keyword="broom">broom</keyword>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="289" frequency="4" keyword="cure">cure</keyword>
+    <keyword id="304" frequency="2" keyword="daughter">daughter</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="344" frequency="2" keyword="door">door</keyword>
+    <keyword id="395" frequency="3" keyword="farm_hand">farmhand</keyword>
+    <keyword id="410" frequency="2" keyword="field">field</keyword>
+    <keyword id="434" frequency="1" keyword="forehead">forehead</keyword>
+    <keyword id="451" frequency="1" keyword="furrow">furrow</keyword>
+    <keyword id="502" frequency="1" keyword="harness">harness</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="3" keyword="horse">horse</keyword>
+    <keyword id="552" frequency="1" keyword="husband">husband</keyword>
+    <keyword id="564" frequency="1" keyword="iron">iron</keyword>
+    <keyword id="622" frequency="2" keyword="kill">kill</keyword>
+    <keyword id="734" frequency="4" keyword="magic">magic</keyword>
+    <keyword id="743" frequency="2" keyword="manor_lord">manor lord</keyword>
+    <keyword id="745" frequency="6" keyword="maren">Maren</keyword>
+    <keyword id="944" frequency="1" keyword="per_virring">Per Virring</keyword>
+    <keyword id="964" frequency="1" keyword="plow">plow</keyword>
+    <keyword id="966" frequency="5" keyword="plowing">plowing</keyword>
+    <keyword id="1004" frequency="1" keyword="punishment">punishment</keyword>
+    <keyword id="1006" frequency="1" keyword="puust_maren">Puust Maren</keyword>
+    <keyword id="1111" frequency="3" keyword="sickness">sickness</keyword>
+    <keyword id="1187" frequency="1" keyword="stampede">stampede</keyword>
+    <keyword id="1348" frequency="2" keyword="wing">wing</keyword>
+    <keyword id="1351" frequency="2" keyword="witch">witch</keyword>
+    <keyword id="1353" frequency="1" keyword="witchcraft">witchcraft</keyword>
+    <keyword id="1356" frequency="5" keyword="woman">woman</keyword>
+    <keyword id="1359" frequency="1" keyword="wooden">wooden</keyword>
+  </keywords>
+  <etk_index id="28">
+    <heading_danish>Kloge m&#xE6;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="51" display_name="Tools, Items and Conveyances: Plow"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

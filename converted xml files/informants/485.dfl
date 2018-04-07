@@ -1,0 +1,87 @@
+<informant><person_id>485</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer Anton Nielsen</full_name>
+  <last_name>Nielsen</last_name>
+  <first_name>Anton</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>447</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>485</informant_id>
+      <publication_info>DS_I_270</publication_info>
+      <full_name>485 - 0.00 - DS_I_270</full_name>
+      <url>data/stories/447.dfl</url>
+      <place_recorded><id>832</id>Munkebj&#230;rgby</place_recorded>
+      <places_mentioned>
+        <place><id>14</id>
+          <name>&#197;gerup m&#248;lle</name>
+        </place>
+        <place><id>318</id>
+          <name>Kalundborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>448</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>485</informant_id>
+      <publication_info>DS_II_F_35</publication_info>
+      <full_name>485 - 0.00 - DS_II_F_35</full_name>
+      <url>data/stories/448.dfl</url>
+      <place_recorded><id>832</id>Munkebj&#230;rgby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>449</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>485</informant_id>
+      <publication_info>DS_II_F_4</publication_info>
+      <full_name>485 - 0.00 - DS_II_F_4</full_name>
+      <url>data/stories/449.dfl</url>
+      <place_recorded><id>832</id>Munkebj&#230;rgby</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>450</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>485</informant_id>
+      <publication_info>DS_IV_131</publication_info>
+      <full_name>485 - 0.00 - DS_IV_131</full_name>
+      <url>data/stories/450.dfl</url>
+      <place_recorded><id>832</id>Munkebj&#230;rgby</place_recorded>
+      <places_mentioned>
+        <place><id>342</id>
+          <name>Koldinghus</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>832</place_id>
+      <name>Munkebj&#230;rgby</name>
+      <display_name>Munkebj&#230;rgby (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>342</place_id>
+      <name>Koldinghus</name>
+      <display_name>Koldinghus (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>318</place_id>
+      <name>Kalundborg</name>
+      <display_name>Kalundborg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>14</place_id>
+      <name>&#197;gerup m&#248;lle</name>
+      <display_name>&#197;gerup m&#248;lle (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

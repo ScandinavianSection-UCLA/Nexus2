@@ -1,0 +1,93 @@
+<story><story_id>578</story_id>
+  <publication_info>DS_VI_431</publication_info>
+  <full_name>65 - 0.00 - DS_VI_431</full_name>
+  <informant_id>65</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Jensine</informant_first_name>
+  <informant_full_name>Jensine Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>398</place_id>
+      <name>Madum s&#248;</name>
+      <display_name>Madum s&#248; (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>493</place_id>
+      <name>Rold skov</name>
+      <display_name>Rold skov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>176</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_429</publication_info>
+      <full_name>241 - 4.05 - DS_VI_429</full_name>
+      <url>data/stories/176.dfl</url>
+    </story>
+    <story><story_id>512</story_id>
+      <informant_id>552</informant_id>
+      <publication_info>DS_VI_430</publication_info>
+      <full_name>552 - 0.00 - DS_VI_430</full_name>
+      <url>data/stories/512.dfl</url>
+    </story>
+    <story><story_id>772</story_id>
+      <informant_id>41</informant_id>
+      <publication_info>DS_VI_434</publication_info>
+      <full_name>41 - 0.00 - DS_VI_434</full_name>
+      <url>data/stories/772.dfl</url>
+    </story>
+    <story><story_id>807</story_id>
+      <informant_id>406</informant_id>
+      <publication_info>DS_VI_427</publication_info>
+      <full_name>406 - 0.00 - DS_VI_427</full_name>
+      <url>data/stories/807.dfl</url>
+    </story>
+    <story><story_id>193</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_VI_130</publication_info>
+      <full_name>241 - 4.21 - DSnr_VI_130</full_name>
+      <url>data/stories/193.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I gamle dage var der &#233;n, der havde h&#230;ngt sig i Rold skov. Kn&#230;gtene de gik jo og var hjorder der omkring ligesom andre steder, og s&#229; skulde de til at at pr&#248;ve p&#229; ogs&#229; at h&#230;nge dem. Den, der var oppe at h&#230;nge, den skulde de andre da hj&#230;lpe ned. Men de gjorde den aftale med ham, at han skulde ikke ned, inden han havde ladt sit vand. S&#229; havde der v&#230;ret tre oppe at h&#230;nge, men da den fjerde kommer op, s&#229; kommer der en kok, der var sp&#230;ndt for et stort l&#230;s h&#248;. Alle de andre de faldt i forundring over det syn, og de glemte at f&#229; ham ned, te han h&#230;ngte og kvollest.</danish_publication>
+  <english_publication>In the old days, there was one who had hung himself in Rold forest. The boys went and worked as shepherds just like in other places, and then they wanted to try hanging themselves. The one who was up hanging, the others were supposed to help down. But they made an agreement with him, that they weren't supposed to let him down until he'd made his water. So, three had been up hanging, but when the fourth was up hanging, a rooster comes by, pulling a large load of hay. All of the others fell down in amazement at that sight, and they forgot to get him down, and so he hung and died.</english_publication>
+  <keywords>
+    <keyword><id>15</id><frequency>1</frequency><keyword>agreement</keyword>agreement</keyword>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>392</id><frequency>1</frequency><keyword>fall</keyword>fall</keyword>
+    <keyword><id>438</id><frequency>1</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>511</id><frequency>1</frequency><keyword>hay</keyword>hay</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1042</id><frequency>1</frequency><keyword>rooster</keyword>rooster</keyword>
+    <keyword><id>1099</id><frequency>1</frequency><keyword>shepherd</keyword>shepherd</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1320</id><frequency>1</frequency><keyword>water</keyword>water</keyword>
+  </keywords>
+  <etk_index><id>27</id>
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>77</id><display_name>Animals: Sheep</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>96</id><display_name>Actions or events: Suicide</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<story story_id="33">
+  <publication_info>DS_III_1236</publication_info>
+  <full_name>150 - 1.30 - DS_III_1236</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.30</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>172</place_id>
+      <name>Freggelund</name>
+      <display_name>Freggelund (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>398</place_id>
+      <name>Madum s&#xF8;</name>
+      <display_name>Madum s&#xF8; (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="690">
+      <informant_id>533</informant_id>
+      <publication_info>DS_III_1233</publication_info>
+      <full_name>533 - 0.00 - DS_III_1233</full_name>
+      <url>data/stories/690.dfl</url>
+    </story>
+    <story story_id="460">
+      <informant_id>369</informant_id>
+      <publication_info>DS_III_1238</publication_info>
+      <full_name>369 - 0.00 - DS_III_1238</full_name>
+      <url>data/stories/460.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3248b</fielddiary_page_start>
+  <fielddiary_page_end>3249a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references>
+    <reference id="747" category="general">
+      <display_string>[Article] Stokker, Kathleen. 1992. Migratory Legend 3005 : 'The Would- Be Ghost' -- Why Be He a Ghost?. Vol. 48 of &lt;i&gt;Arv&lt;/i&gt;, 143-152.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The attempt of the farmers to play a seemingly harmless trick on the minister backfires with calamitous results. In that respect, this widely attested legend is closely related to legends of the would-be ghost (ML3005). In most variants of this legend, the minister is called to offer last rites, another parallel to stories of the would-be ghost (DS III 1233). There is a suggestion in some stories that playing tricks on the minister was a common occurrence (DS III 1238). The trick, although seemingly innocuous (and amusingly similar to contemporary "crank calls"), clearly violates the minister's trust. As with stories of the would-be ghost, the stories do not agree on the involvement of the minister in the sinking: does he cause it, or is it caused by the ungodliness of the actions? The forgotten Bible is always recovered.
+
+     The published version is slightly abbreviated, with several inexplicable deletions.</annotation>
+  <danish_manuscript>I Madum S&#xF8;je har der staaet en Grd. Fregge
+lund, den sujt. De havde slagtet et Svin
+og lagt i en Seng. Bud efter Pr. at gj&#xF8;re Nar
+ad ham. H. lagde hans Bog paa en Stol og
+skulde hen at berette den syge. S. kom der en
+Plask Vand op midt paa Stuegulvet og s. siger
+h. til Kusken, h. skulde vende derfra og afsted
+
+3249A
+s. raa de kunde, for nu sujt Grden. De satte
+dem paa Vognen og af Sted s. raa de kunde og
+da de kom over Ejendommen, da var Grden sujt
+Hans Bog glemt paa Stolen, men den kom
+sejlende i Land med Bogen paa.
+</danish_manuscript>
+  <english_manuscript>There was a farm in Madum S&#xF8;. Freggelund, it sank. They had slaughtered a pig and put it in a bed. Then they sent for the minister to make a fool of him. He put his book on a chair and went to go give the last sacrament to the sick person. Then a splash of water came up right in the middle of living room floor, and he says to his driver that he should turn around and get out of there as fast as they could, because now the farm would sink. They got up in the wagon and got out of there as fast as they could, and when they had gotten off the property, the farm had sunk. He'd forgotten his book on the chair, but it came sailing ashore with the book on it.</english_manuscript>
+  <danish_publication>I Madum s&#xF8; har der st&#xE5;et en g&#xE5;rd, som er sunken, og den kaldtes Freggelund... slagtet et svin... lagde hans bog p&#xE5; en stol og vilde s&#xE5; trine hen at berette den syge, men da kom der en plask vand op midt p&#xE5; stuegulvet, og s&#xE5; siger han til hans kusk, at han skulde vende derfra og komme af sted s&#xE5; r&#xE5; de kunde, for nu sujt g&#xE5;rden. De satte dem da p&#xE5; vognen, og af sted lod de tage, og da de kom over ejendommen, da var g&#xE5;rden sujt. Pr&#xE6;sten havde glemt hans bog p&#xE5; stolen, men den kom sejlende i land med bogen p&#xE5;.</danish_publication>
+  <english_publication>There was a farm in Madum S&#xF8; [Madum Lake], which sank and it was called Freggelund&#x2026; slaughtered a pig&#x2026; left his book on a chair and then wanted to go off and give the last sacrament to the sick person, but a splash of water appeared right in the middle of living room floor, and then he says to his coachman that he should turn around and get out of there as fast as they could, because now the farm would sink. They got up in the wagon and left, and when they had gotten off the property, the farm had sunk. The minister had forgotten his book on the chair, but it came sailing ashore with the book on it.</english_publication>
+  <keywords>
+    <keyword id="123" frequency="3" keyword="books">books</keyword>
+    <keyword id="201" frequency="2" keyword="chair">chair</keyword>
+    <keyword id="357" frequency="1" keyword="driver">driver</keyword>
+    <keyword id="394" frequency="3" keyword="farm">farm</keyword>
+    <keyword id="422" frequency="1" keyword="floor">floor</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="951" frequency="1" keyword="pig">pig</keyword>
+    <keyword id="1058" frequency="1" keyword="sacrament">sacrament</keyword>
+    <keyword id="1060" frequency="1" keyword="sailing">sailing</keyword>
+    <keyword id="1111" frequency="1" keyword="sickness">sickness</keyword>
+    <keyword id="1123" frequency="2" keyword="sinking">sinking</keyword>
+    <keyword id="1139" frequency="1" keyword="slaughter">slaughter</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+    <keyword id="1320" frequency="1" keyword="water">water</keyword>
+  </keywords>
+  <etk_index id="13">
+    <heading_danish>Sagn om g&#xE5;rde og byer</heading_danish>
+    <heading_english>Legends about farms and towns</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="48" display_name="Tools, Items and Conveyances: Books"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="78" display_name="Animals: Swine"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

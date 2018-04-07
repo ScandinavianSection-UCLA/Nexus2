@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<story story_id="148">
+  <publication_info>DS_IV_1134</publication_info>
+  <full_name>241 - 1.07 - DS_IV_1134</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>1.07</order_told>
+  <fieldtrip id="11">October 1893</fieldtrip>
+  <fieldtrip_start_date>1893-09-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1893-10-26</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>417</place_id>
+      <name>Mosbj&#xE6;rg</name>
+      <display_name>Mosbj&#xE6;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="159">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1052</publication_info>
+      <full_name>241 - 2.09 - DS_IV_1052</full_name>
+      <url>data/stories/159.dfl</url>
+    </story>
+    <story story_id="191">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_574</publication_info>
+      <full_name>241 - 4.19 - DSnr_IV_574</full_name>
+      <url>data/stories/191.dfl</url>
+    </story>
+    <story story_id="198">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_V_539b</publication_info>
+      <full_name>241 - 4.26 - DSnr_V_539b</full_name>
+      <url>data/stories/198.dfl</url>
+    </story>
+    <story story_id="567">
+      <informant_id>205</informant_id>
+      <publication_info>DS_IV_1120</publication_info>
+      <full_name>205 - 0.00 - DS_IV_1120</full_name>
+      <url>data/stories/567.dfl</url>
+    </story>
+    <story story_id="746">
+      <informant_id>480</informant_id>
+      <publication_info>DS_IV_1121</publication_info>
+      <full_name>480 - 0.00 - DS_IV_1121</full_name>
+      <url>data/stories/746.dfl</url>
+    </story>
+    <story story_id="890">
+      <informant_id/>
+      <publication_info>DS_VII_506</publication_info>
+      <full_name>0 - 0.00 - DS_VII_506</full_name>
+      <url>data/stories/890.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6193a</fielddiary_page_start>
+  <fielddiary_page_end>6193b</fielddiary_page_end>
+  <bibliographic_info>Stokker 1992
+Tangherlini 1999
+Woods 1959
+Christiansen 1958</bibliographic_info>
+  <bibliography_references>
+    <reference id="623" category="general">
+      <display_string>[Book] Christiansen, Reidar Thoralf. 1992. &lt;i&gt;The migratory legends (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+    <reference id="747" category="general">
+      <display_string>[Article] Stokker, Kathleen. 1992. Migratory Legend 3005 : 'The Would- Be Ghost' -- Why Be He a Ghost?. Vol. 48 of &lt;i&gt;Arv&lt;/i&gt;, 143-152.</display_string>
+    </reference>
+    <reference id="609" category="general">
+      <display_string>[Article] Tangherlini, Timothy R. 1998. "Who ya gonna call?" : Ministers and the Mediation of Ghostly Threat in Danish Legend Tradition. Vol. 57 of &lt;i&gt;Western Folklore&lt;/i&gt; 2/3: 153-178.</display_string>
+    </reference>
+    <reference id="155" category="general">
+      <display_string>[Book] Woods, Barbara Allen. 1959. &lt;i&gt;The Devil in dog form. A partial type-index of Devil legends (Folklore studies)&lt;/i&gt;. Berkeley: University of California Press.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The story of the would-be ghost is attested throughout Scandinavia (Christiansen 1958). Ghosts in the cemetery need to be conjured back into the ground, as they threaten to disrupt the world of the living. In a Lutheran accommodation of folk belief surrounding ghosts, ghosts were linked to manifestations of Satan (Tangherlini 1998). There could hardly be a more threatening figure than Satan in a Lutheran community, and one of the most common strategies for dealing with him was to call for the minister (Tangherlini 1998).
+
+     Kathleen Stokker links this story to questions about the power of the minister, confession and salvation, focusing particularly on the "Black Book minister" of Norwegian tradition (Stokker 1992). She proposes that the minister is essentially powerless to stop the farmhand from sinking, and resorts to confession and extreme unction to at least guarantee the young man salvation. An alternate reading of these stories is less supportive of the minister: if he is powerful enough to conjure the young man, he should be powerful enough to unconjure him as it were. Instead, he continues with the conjuring--and effective burial--as a form of extreme punishment.
+
+      The resolution of this story is stark--the farmhand is dead and the minister's wife has gone mad. So, while the farmhand intended only to restore the minister to the parsonage (and his wife) at night where under all other circumstances he rightfully belonged, his actions lead to a horrific dissolution of the minister's family.</annotation>
+  <danish_manuscript>En pr&#xE6;st i Mosbj&#xE6;rg skulde op paa Kirke-
+gaarden 1 Time hver eneste Aften. S. 
+fik hans Kone Kusken til at skr. ham
+med et Lagen over sig. L&#xF8;b foran Pr.
+fra en Grav til en 2. S. talte Pr. til
+ham: Er du Msk. s. tal, er du
+Satan s. vig. Saadan talte h. 3 G.
+men Karl. svarte ikke. S. tog h. i hans
+Lomme og fik en Bog op og gav sig til at
+
+6193B
+l&#xE6;se. Nu sank h. en 3 Tommer ned til
+Anklerne. Da raabte Karlen: Faer
+Faer, det er mig. Ja svarte Pr. om
+du var s. min egen Broder, kan jeg ikke
+hj&#xE6;lpe dig nu. S. l&#xF8;b h. ned til Degn
+og fik Kirken&#xF8;glen, hentede Vin og Br&#xF8;d
+og berettede ham. Pr.s Kone tog sig
+s. meget af det, at hu gik fra Forstan
+den.</danish_manuscript>
+  <english_manuscript>A minister in Mosbj&#xE6;rg had to go up to the cemetery every night for an hour. Then his wife got their coachman to scare him by putting a sheet over himself. He ran in front of the minister from one grave to the next. Then the minister said to him, "If you're a person, speak, if you're Satan, then give way!" He said that three times, but the farmhand didn't answer. Then he reached into his pocket and took out a book and began reading. Then he sank down three inches to his ankles. Then the farmhand yelled, "Father, Father, it's me!" - "Well," answered the minister, "even if you were my own brother, I can't help you now." Then he ran down to the parish clerk and got the church keys, got wine and bread and gave him the last rites. The minister's wife was so horrified by this, that she lost her mind.</english_manuscript>
+  <danish_publication>En pr&#xE6;st i Mosbj&#xE6;rg skulde op p&#xE5; kirkeg&#xE5;rden en time hver eneste aften. S&#xE5; fik hans kone kusken til at skr&#xE6;mme ham med et lagen over sig. Han l&#xF8;b foran pr&#xE6;sten fra &#xE9;n grav til en anden. . . "Er du menneske, s&#xE5; tal, er du Satan, s&#xE5; vig!" Siger det 3 gange... Tager i lommen og f&#xE5;r en bog op... Nu synker han en 3 tommer ned. Da r&#xE5;ber karlen: "Faer, faer, det er mig!" &#x2014; "Ja," svarte pr&#xE6;sten, "om du var s&#xE5; min egen broder, kan jeg ikke hj&#xE6;lpe dig nu." S&#xE5; l&#xF8;b han ned til degnen og fik kirken&#xF6;glen, hentede vin og br&#xF8;d og berettede ham. Pr&#xE6;stens kone tog sig s&#xE5; meget af det, at hun gik fra forstanden.</danish_publication>
+  <english_publication>A minister in Mosbj&#xE6;rg had to go up to the cemetery every night for an hour. Then his wife got their coachman to scare him by putting a sheet over himself. He ran in front of the minister from one grave to the next&#x2026;. &#x201C;If you&#x2019;re a person, speak, if you&#x2019;re Satan, then give way!&#x201D; He says it three times&#x2026; He reaches into his pocket and takes out a book&#x2026; Then he sinks down three inches. Then the farmhand yells, &#x201C;Father, Father, it's me!&#x201D; &#x2013; &#x201C;Well,&#x201D; answered the minister, &#x201C;even if you were my own brother, I wouldn&#x2019;t be able to help you now.&#x201D; Then he ran down to the parish clerk and got the church keys, got the wine and bread and gave him the last rites. The minister&#x2019;s wife was so horrified by this, that she lost her mind.</english_publication>
+  <keywords>
+    <keyword id="123" frequency="1" keyword="books">books</keyword>
+    <keyword id="139" frequency="1" keyword="bread">bread</keyword>
+    <keyword id="148" frequency="1" keyword="brother">brother</keyword>
+    <keyword id="196" frequency="1" keyword="cemetery">cemetery</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="240" frequency="1" keyword="coachman">coachman</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="399" frequency="2" keyword="father">father</keyword>
+    <keyword id="483" frequency="1" keyword="grave">grave</keyword>
+    <keyword id="619" frequency="1" keyword="key">key</keyword>
+    <keyword id="786" frequency="4" keyword="minister">minister</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="904" frequency="1" keyword="parish_clerk">parish clerk</keyword>
+    <keyword id="969" frequency="1" keyword="pocket">pocket</keyword>
+    <keyword id="1068" frequency="1" keyword="satan">Satan</keyword>
+    <keyword id="1096" frequency="1" keyword="sheet">sheet</keyword>
+    <keyword id="1123" frequency="1" keyword="sinking">sinking</keyword>
+    <keyword id="1256" frequency="2" keyword="three">three</keyword>
+    <keyword id="1343" frequency="2" keyword="wife">wife</keyword>
+    <keyword id="1347" frequency="1" keyword="wine">wine</keyword>
+  </keywords>
+  <etk_index id="18">
+    <heading_danish>Pr&#xE6;ster</heading_danish>
+    <heading_english>Ministers</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="81" display_name="Actions or events: Conjuring"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<story story_id="565">
+  <publication_info>DS_V_1376</publication_info>
+  <full_name>426 - 0.00 - DS_V_1376</full_name>
+  <informant_id>426</informant_id>
+  <informant_last_name>Kjellerup</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens Kjellerup</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>800</place_id>
+      <name>Hvidbj&#xE6;rg hede</name>
+      <display_name>Hvidbj&#xE6;rg hede (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1023</place_id>
+      <name>Hostrup Hovedg&#xE5;rd</name>
+      <display_name>Hostrup Hovedg&#xE5;rd (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1024</place_id>
+      <name>Egebjerg</name>
+      <display_name>Egebjerg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="382">
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1370</publication_info>
+      <full_name>123 - 2.08 - DS_V_1370</full_name>
+      <url>data/stories/382.dfl</url>
+    </story>
+    <story story_id="467">
+      <informant_id>432</informant_id>
+      <publication_info>DS_V_1390</publication_info>
+      <full_name>432 - 0.00 - DS_V_1390</full_name>
+      <url>data/stories/467.dfl</url>
+    </story>
+    <story story_id="356">
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_1232</publication_info>
+      <full_name>90 - 3.02 - DS_V_1232</full_name>
+      <url>data/stories/356.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En aften siger en karl til mig, om a vil ikke med over til Egebj&#xE6;rg, og vi f&#xF8;lges da ad. Omsider skal vi til at hjem, og vi f&#xF8;lges da om ved blegehaven, der er ved Hostrup hovedg&#xE5;rd. Der f&#xE5;r karlen syn p&#xE5; et fruentimmer. "Det er nok stuepigen," siger han, "der er omme efter noget p&#xE5; bleg. Hold bi", siger han, "s&#xE5; kan vi f&#xF8;lges ad!" S&#xE5; kommer hun hen og ser ham lige ind i ansigtet, og hun var s&#xE5; kridendes hvid og var i helt hvide kl&#xE6;der. Det giver mig en forf&#xE6;rdelig forbluffelse, og a tager trit til siden, og s&#xE5; g&#xE5;r a ind i folkestuen, og da a har siddet der en tid, g&#xE5;r a op i mit kammer. Jomfruen blev ved at f&#xF8;lge den anden karl op til hans kammer og huggede ham om uden for hans d&#xF6;r, og da han kom ind, hug hun ham atter omkuld og siedes med ham, ilav han kom af hans kl&#xE6;der. Han d&#xF8;vede ogs&#xE5; med at v&#xE6;re i sengen for hende, og det skrumlede sv&#xE6;rt p&#xE5; hans tr&#xE6;sko. Det skal have v&#xE6;ret en jomfru, der havde taget hendes barn af med livet omme i blegehaven og havde sin gang op til Skakkenborg h&#xF6;j p&#xE5; marken.</danish_publication>
+  <english_publication>One night a farmhand asks me if I didn&#x2019;t want to go over to Egebj&#xE6;rg, and then we could walk together. After a while, we&#x2019;re supposed to go home and we go along together over past the bleaching ground over near Hostrup main farm. Then the farmhand sees a woman. &#x201C;That&#x2019;s probably the servant girl&#x201D;, he says, &#x201C;who is out to get something that&#x2019;s been bleached. Be quiet,&#x201D; he says, &#x201C;then we can follow her!&#x201D; Then she comes over and looks right into his face, and she was so chalk white and was dressed in all white clothes. It gives me a terrible scare, and I take a step aside, and then I go into the big room, and after I&#x2019;ve sat there a while, I go up to my room. The young lady continues to follow the farmhand up to his room and smacks him out cold in front of his room and, when he gets into his room, she smacks him out cold again and tears at him so that he is wripped out of his clothes. He was also afraid of getting into bed because of her, and his clogs rattled really loudly. It was a young woman who had killed her child out in the bleaching yard and had her walk up toward Skakkenborg mound out in the field.</english_publication>
+  <keywords>
+    <keyword id="13" frequency="1" keyword="afraid">afraid</keyword>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="109" frequency="3" keyword="bleaching">bleaching</keyword>
+    <keyword id="203" frequency="1" keyword="chalk">chalk</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="234" frequency="1" keyword="clogs">clogs</keyword>
+    <keyword id="236" frequency="2" keyword="clothing">clothing</keyword>
+    <keyword id="247" frequency="2" keyword="cold">cold</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="395" frequency="3" keyword="farm_hand">farmhand</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="678" frequency="1" keyword="lady">lady</keyword>
+    <keyword id="804" frequency="1" keyword="mound">mound</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1088" frequency="1" keyword="servant">servant</keyword>
+    <keyword id="1340" frequency="2" keyword="white">white</keyword>
+    <keyword id="1356" frequency="2" keyword="woman">woman</keyword>
+    <keyword id="1368" frequency="1" keyword="yard">yard</keyword>
+    <keyword id="1374" frequency="1" keyword="young">young</keyword>
+  </keywords>
+  <etk_index id="24">
+    <heading_danish>Kvindelige gjenf&#xE6;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

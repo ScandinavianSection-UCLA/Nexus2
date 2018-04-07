@@ -1,0 +1,58 @@
+<story><story_id>910</story_id>
+  <publication_info>JAT_II_192</publication_info>
+  <full_name>0 - 0.00 - JAT_II_192</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>930</place_id>
+      <name>K&#229;strup</name>
+      <display_name>K&#229;strup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>930</place_id>
+      <name>K&#229;strup</name>
+      <display_name>K&#229;strup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>219</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>JAT_II_200</publication_info>
+      <full_name>241 - 4.47 - JAT_II_200</full_name>
+      <url>data/stories/219.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En stakkels dreng blev sendt ud p&#229; marken at lede om nogle bortl&#248;bne kreaturer i slud og ondt vejr. Som han nu gik der gjennemv&#229;d og forsulten, kom han til en h&#246;j. Da kom en bj&#230;rgkone op og gav ham en skefuld gr&#248;d. Det smagte ham s&#229; udm&#230;rket godt, at han forlangte &#233;n til, og han fik ogs&#229; den, men den tredje m&#229;tte han ikke f&#229;, sagde bj&#230;rgkonen, for s&#229; blev han for st&#230;rk. Han var nu bleven s&#229; ualmindelig st&#230;rk, og det var den st&#230;rkeste mand i K&#229;strup.</danish_publication>
+  <english_publication>A poor boy was sent out onto the fields to look for some run away cattle in sleet and bad weather. As he walked out there soaking wet and hungry, he comes to a mound. Then a mound woman comes and gives him a spoonful of porridge. It tasted so amazingly good that he asked for one more, and he got it too. But he couldn&#8217;t have a third, said the mound woman, because then he&#8217;d get too strong. He had now become so unusually strong, and he was the strongest man in K&#229;strup.</english_publication>
+  <keywords>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>190</id><frequency>1</frequency><keyword>cattle</keyword>cattle</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>549</id><frequency>1</frequency><keyword>hungry</keyword>hungry</keyword>
+    <keyword><id>804</id><frequency>1</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>808</id><frequency>2</frequency><keyword>mound_woman</keyword>mound woman</keyword>
+    <keyword><id>974</id><frequency>1</frequency><keyword>poor</keyword>poor</keyword>
+    <keyword><id>977</id><frequency>1</frequency><keyword>porridge</keyword>porridge</keyword>
+    <keyword><id>1176</id><frequency>1</frequency><keyword>spoon</keyword>spoon</keyword>
+    <keyword><id>1209</id><frequency>3</frequency><keyword>strength</keyword>strength</keyword>
+    <keyword><id>1324</id><frequency>1</frequency><keyword>weather</keyword>weather</keyword>
+    <keyword><id>1333</id><frequency>1</frequency><keyword>wet</keyword>wet</keyword>
+  </keywords>
+  <etk_index><id>32</id>
+    <heading_danish>Fra hoveriets tid</heading_danish>
+    <heading_english>From the time of villeinage</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

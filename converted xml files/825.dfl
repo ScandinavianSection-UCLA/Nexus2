@@ -1,0 +1,75 @@
+<story><story_id>825</story_id>
+  <publication_info>DS_II_B_18</publication_info>
+  <full_name>69 - 0.00 - DS_II_B_18</full_name>
+  <informant_id>69</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#248;ren</informant_first_name>
+  <informant_full_name>S&#248;ren Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>870</place_id>
+      <name>Skjolde</name>
+      <display_name>Skjolde (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>824</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_B_11</publication_info>
+      <full_name>69 - 0.00 - DS_II_B_11</full_name>
+      <url>data/stories/824.dfl</url>
+    </story>
+    <story><story_id>734</story_id>
+      <informant_id>414</informant_id>
+      <publication_info>DS_II_B_20</publication_info>
+      <full_name>414 - 0.00 - DS_II_B_20</full_name>
+      <url>data/stories/734.dfl</url>
+    </story>
+    <story><story_id>717</story_id>
+      <informant_id>541</informant_id>
+      <publication_info>DS_II_B_15</publication_info>
+      <full_name>541 - 0.00 - DS_II_B_15</full_name>
+      <url>data/stories/717.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Det havde v&#230;ret en sv&#230;r storm i Vesterhavet, og mange skibe havde v&#230;ret n&#230;rved at g&#229; under. Da det omsider blev bedre vejr, m&#246;dtes to skibe der ude og kom hinanden s&#229; n&#230;r, at folkene kunde r&#229;be sammen om, hvor de kom fra, og hvor de h&#248;rte hjemme og s&#229;dan noget. I det samme h&#248;rer de, at to nisser r&#229;ber til hinanden fra toppen af masten, &#233;n p&#229; hvert skib, om, hvordan de har haft det i denne storm. Den ene sagde: "Jeg har haft nok at bestille med at holde fokkestaget, for ellers var masten falden om." Da folkene s&#229; vilde se til vejrs efter r&#246;sten, slap nis staget, som med det samme faldt ned p&#229; d&#230;kket, og han gav sig til at le af fuld hals. Nu fik folkene andet at t&#230;nke p&#229; end at se efter nis, for masten var n&#230;r g&#229;et over borde. I lag de havde travlt med at danne det igjen, s&#229; nis hans snit til at smutte ned i lasten, hvor de ikke kunde finde ham.</danish_publication>
+  <english_publication>There had been a harsh storm on the North Sea and many ships had nearly foundered. When it eventually became better weather, two ships met out on the sea and came so close to each other, that the people could shout to each other about where they came from and where their home harbor was and so on. At the same time, they hear that two nisser are shouting to each other from the tops of the masts, one on each ship, about how they had fared during the storm. The first one said: &#8220;I&#8217;ve had enough to do holding the jib stay, otherwise the mast would have fallen down.&#8221; When the people looked up to see about the voice, the nisse let go of the stay, which immediately fell down on deck, and he started to laugh hysterically. Now the people had something else to think about than to look for the nisse, because the mast nearly fell overboard. While they were busy getting the mast set again, the nisse saw his chance to take off down into the hold where they couldn&#8217;t find him.</english_publication>
+  <keywords>
+    <keyword><id>320</id><frequency>1</frequency><keyword>deck</keyword>deck</keyword>
+    <keyword><id>392</id><frequency>3</frequency><keyword>fall</keyword>fall</keyword>
+    <keyword><id>499</id><frequency>1</frequency><keyword>harbor</keyword>harbor</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>691</id><frequency>1</frequency><keyword>laughter</keyword>laughter</keyword>
+    <keyword><id>756</id><frequency>4</frequency><keyword>mast</keyword>mast</keyword>
+    <keyword><id>857</id><frequency>4</frequency><keyword>nisse</keyword>nisse</keyword>
+    <keyword><id>864</id><frequency>1</frequency><keyword>north_sea</keyword>North Sea</keyword>
+    <keyword><id>1079</id><frequency>1</frequency><keyword>sea</keyword>sea</keyword>
+    <keyword><id>1101</id><frequency>3</frequency><keyword>ship</keyword>ship</keyword>
+    <keyword><id>1199</id><frequency>2</frequency><keyword>storm</keyword>storm</keyword>
+    <keyword><id>1307</id><frequency>1</frequency><keyword>voice</keyword>voice</keyword>
+    <keyword><id>1324</id><frequency>1</frequency><keyword>weather</keyword>weather</keyword>
+  </keywords>
+  <etk_index><id>3</id>
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>18</id><display_name>People: Sailor / Fisherman</display_name></tango_index>
+    <tango_index><id>39</id><display_name>Places: Ocean / Sea</display_name></tango_index>
+    <tango_index><id>47</id><display_name>Tools, Items and Conveyances: Boat</display_name></tango_index>
+    <tango_index><id>65</id><display_name>Supernatural Beings: Nisse</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

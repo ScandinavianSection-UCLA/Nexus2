@@ -1,0 +1,92 @@
+<story><story_id>890</story_id>
+  <publication_info>DS_VII_506</publication_info>
+  <full_name>0 - 0.00 - DS_VII_506</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>504</place_id>
+      <name>Ry</name>
+      <display_name>Ry (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>949</place_id>
+      <name>Odense</name>
+      <display_name>Odense (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>948</place_id>
+      <name>&#197;sum</name>
+      <display_name>&#197;sum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>148</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1134</publication_info>
+      <full_name>241 - 1.07 - DS_IV_1134</full_name>
+      <url>data/stories/148.dfl</url>
+    </story>
+    <story><story_id>191</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_574</publication_info>
+      <full_name>241 - 4.19 - DSnr_IV_574</full_name>
+      <url>data/stories/191.dfl</url>
+    </story>
+    <story><story_id>702</story_id>
+      <informant_id>389</informant_id>
+      <publication_info>DS_VII_517</publication_info>
+      <full_name>389 - 0.00 - DS_VII_517</full_name>
+      <url>data/stories/702.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der boede en g&#229;rdmand i &#197;sum ved Odense, han tjente i sine unge dage som karl et sted i byen, og i den samme g&#229;rd var ogs&#229; en stor dreng. S&#229; en Mortensaften siger karlen til drengen, om han vilde tjene penge. Ja, det vilde jo drengen nok. S&#229; skulde han have 8 sk. for at g&#229; hen til kirken og l&#248;be tre gange rundt om den og hver gang r&#229;be indad n&#248;glehullet: "Jeg vil h&#248;re Fanden til!" Da han kom til d&#246;ren tredje gang, kom der en hvid skikkelse, som der stod ild ud af munden p&#229;. Det var jo karlen, der havde f&#229;et et lagen over sig og noget tr&#248;ske i munden. Drengen fik ikke r&#229;bt tredje gang, men gik fra forstanden over det.</danish_publication>
+  <english_publication>There was a farmer in &#197;sum near Odense, he had worked in his youth as a farmhand in the town, and in the same farm there was also a big hired boy. Then one Mortens eve the farmhand asks the boy if he wants to earn some money. Yes, the boy wanted to. Then he&#8217;d get eight shillings if he&#8217;d go to the church and run around it three times and each time yell into the keyhole, &#8220;I want to belong to the devil!&#8221; When he got to the door the third time, a white form with fire coming out of its mouth appeared. It was the farmhand who had put a sheet over himself and some rotted wood in his mouth. The boy didn&#8217;t yell the third time, but went crazy from the experience.</english_publication>
+  <keywords>
+    <keyword><id>130</id><frequency>4</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>278</id><frequency>1</frequency><keyword>crazy</keyword>crazy</keyword>
+    <keyword><id>324</id><frequency>1</frequency><keyword>devil</keyword>devil</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>395</id><frequency>3</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>396</id><frequency>1</frequency><keyword>farmer</keyword>farmer</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>620</id><frequency>1</frequency><keyword>keyhole</keyword>keyhole</keyword>
+    <keyword><id>793</id><frequency>1</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>813</id><frequency>2</frequency><keyword>mouth</keyword>mouth</keyword>
+    <keyword><id>1096</id><frequency>1</frequency><keyword>sheet</keyword>sheet</keyword>
+    <keyword><id>1100</id><frequency>1</frequency><keyword>shilling</keyword>shilling</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1275</id><frequency>1</frequency><keyword>town</keyword>town</keyword>
+    <keyword><id>1340</id><frequency>1</frequency><keyword>white</keyword>white</keyword>
+    <keyword><id>1357</id><frequency>1</frequency><keyword>wood</keyword>wood</keyword>
+    <keyword><id>1375</id><frequency>1</frequency><keyword>youth</keyword>youth</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>89</id><display_name>Actions or events: Injury</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

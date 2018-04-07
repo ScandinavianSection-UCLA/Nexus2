@@ -1,0 +1,62 @@
+<informant><person_id>536</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer K. N. Stegger</full_name>
+  <last_name>Stegger</last_name>
+  <first_name>K. N.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>602</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>536</informant_id>
+      <publication_info>DS_II_E_211</publication_info>
+      <full_name>536 - 0.00 - DS_II_E_211</full_name>
+      <url>data/stories/602.dfl</url>
+      <place_recorded><id>396</id>Lystrup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>603</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>536</informant_id>
+      <publication_info>DS_V_694</publication_info>
+      <full_name>536 - 0.00 - DS_V_694</full_name>
+      <url>data/stories/603.dfl</url>
+      <place_recorded><id>396</id>Lystrup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>604</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>536</informant_id>
+      <publication_info>DS_VII_436</publication_info>
+      <full_name>536 - 0.00 - DS_VII_436</full_name>
+      <url>data/stories/604.dfl</url>
+      <place_recorded><id>396</id>Lystrup</place_recorded>
+      <places_mentioned>
+        <place><id>660</id>
+          <name>Troms kirke</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>396</place_id>
+      <name>Lystrup</name>
+      <display_name>Lystrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>660</place_id>
+      <name>Troms kirke</name>
+      <display_name>Troms kirke (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

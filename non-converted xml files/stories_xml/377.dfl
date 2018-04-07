@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<story story_id="377">
+  <publication_info>DS_I_959</publication_info>
+  <full_name>123 - 2.03 - DS_I_959</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.03</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>19</place_id>
+      <name>&#xC5;kj&#xE6;r</name>
+      <display_name>&#xC5;kj&#xE6;r (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="238">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_782</publication_info>
+      <full_name>235 - 1.19 - DS_I_782</full_name>
+      <url>data/stories/238.dfl</url>
+    </story>
+    <story story_id="347">
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_A_98</publication_info>
+      <full_name>90 - 2.15 - DS_II_A_98</full_name>
+      <url>data/stories/347.dfl</url>
+    </story>
+    <story story_id="348">
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_B_147</publication_info>
+      <full_name>90 - 2.16 - DS_II_B_147</full_name>
+      <url>data/stories/348.dfl</url>
+    </story>
+    <story story_id="432">
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XIII_38</publication_info>
+      <full_name>123 - 4.04 - JFm_XIII_38</full_name>
+      <url>data/stories/432.dfl</url>
+    </story>
+    <story story_id="457">
+      <informant_id>342</informant_id>
+      <publication_info>DS_II_A_17</publication_info>
+      <full_name>342 - 0.00 - DS_II_A_17</full_name>
+      <url>data/stories/457.dfl</url>
+    </story>
+    <story story_id="794">
+      <informant_id>435</informant_id>
+      <publication_info>DS_I_796</publication_info>
+      <full_name>435 - 0.00 - DS_I_796</full_name>
+      <url>data/stories/794.dfl</url>
+    </story>
+    <story story_id="671">
+      <informant_id>281</informant_id>
+      <publication_info>DS_I_960</publication_info>
+      <full_name>281 - 0.00 - DS_I_960</full_name>
+      <url>data/stories/671.dfl</url>
+    </story>
+    <story story_id="786">
+      <informant_id>481</informant_id>
+      <publication_info>DS_I_962</publication_info>
+      <full_name>481 - 0.00 - DS_I_962</full_name>
+      <url>data/stories/786.dfl</url>
+    </story>
+    <story story_id="282">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_783</publication_info>
+      <full_name>235 - 1.61 - DS_I_783</full_name>
+      <url>data/stories/282.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3772b</fielddiary_page_start>
+  <fielddiary_page_end>3773a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references>
+    <reference id="795" category="general">
+      <display_string>[Thesis] Ball, Kimberly. 2009. The Otherworld Vessel as Metatraditional Motif in Northern European Literature and Folk Narrative. Vol. PhD of &lt;i&gt;Comparative Literature&lt;/i&gt;PhD diss., University of California Press.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Variants of legends concerning theft from supernatural beings, most commonly mound dwellers, are widely attested (see AMJ 1.19 and KMP 1.61). The elaborate taxonomies that some scholars propose to differentiate between supernatural beings is hard to reconcile with stories such as this one. Although the tradition dominant for the story proposes mound dwellers, Peder clearly chooses the more seductive female elves to fulfill the motifemic slot of supernatural threat. Svend Felding proves himself more clever than the elves, managing to get both his wish and the drinking chalice. Peder makes no mention of what becomes of the drinking chalice. In other variants of the story, the chalice is used to build a church--the theft from the supernatural outsiders is made acceptable since the proceeds are not used for personal gain, but rather for the good of the community (Ball 2009; DS I 818). Felding was a well known figure in local legends (DS I 960; DS I 962). His enormous appetite offers an amusing contrast to the equally strong nisse who survives on a bowl of porridge that he receives but once a year (AMJ 2.16).
+
+     The expression "snild i Bygning" is somewhat ambiguous. It has been translated here as "good at building," but it can also be translated as "really well built", in which case the elves do not want him for his abilities but rather for his body.</annotation>
+  <danish_manuscript>Svend Felding h. var f&#xF8;dt paa Aakj&#xE6;r og
+blev bosiddende der som M. og h. var s.
+grov snild i Bygning, s. Ellefolkene fik
+Lyst til ham og en Aft. silde som h.
+red hjem, da kommer der 2 Ellepiger hen
+til ham og den 1 sang for ham og den 2
+b&#xF8;d ham Drikke af et B&#xE6;g. og s. s. 
+hu til ham at nu maatte h. &#xF8;nske sig
+et &#xD8;nske n&#xE6;renstid h. s. vilde t&#xF8;mme B&#xE6;g
+skulde det gaa i Opfyld. S. &#xF8;nskede h. te h.
+maatte faa 12 Karls Styrke og s. tog h. B&#xE6;g
+og smed det bag over sig, men hvor det
+faldt paa B&#xE6;stet der sved det Haar. Og
+s. red h. tv&#xE6;rt over et Fald Plovejord,
+der kunde Ellef. ikke f&#xF8;lge ham og paa
+den Maade slap h. fra dem. Se men s.
+var der en Ulempe ved det og Ellef. narre
+
+3773A
+de ham med det, for h. havde glemt at
+tage fra med Spisen. Da h. nu havde
+faaet 12 K. st. skulde h. og have 12 Ks.
+Mad. Den Dovregryde har v&#xE6;ret paa Aakj.
+og haft Navnet Sv. Fs Dovr. gryde.
+</danish_manuscript>
+  <english_manuscript>Svend Felding, he was born in &#xC5;kj&#xE6;r and continued to live there as a man, and he was so good at building that the elves wanted him and late one evening, when he was riding home, two elf girls come to him and one of them sang for him and the other one asked him to drink from a chalice, and then she says to him that he could have a wish and as soon as he'd emptied the chalice it would be granted. So he wished that he could have the strength of twelve farmhands and then he took the chalice and threw the drink over his back and where it landed on the horse, the hair was burned off. Then he rode directly across a newly plowed field, and the elves couldn't follow him there and he got away like that. See there was a problem with that, and the elves trick him with that, he'd forgotten to mention eating. Now that he had twelve farmhands' strength, he also needed twelve farmhands' food. That breakfast bowl used to be kept at &#xC5;kj&#xE6;r and it was called Svend Felding's breakfast bowl.</english_manuscript>
+  <danish_publication>Svend Felding han var f&#xF8;dt p&#xE5; &#xC5;kj&#xE6;r og blev bosiddende der som mand, og han var s&#xE5; snild i bygning, s&#xE5; ellefolkene fik lyst til ham. En aften sildig, som han red hjem, da kommer der to ellepiger hen til ham, og den ene sang for ham, og den anden b&#xF8;d ham drikke af et b&#xE6;ger. S&#xE5; siger hun til ham, at nu m&#xE5;tte han &#xF8;nske sig et &#xF8;nske, og n&#xE6;renstid han s&#xE5; vilde t&#xF6;mme b&#xE6;geret, skulde det g&#xE5; i opfyldelse. S&#xE5; &#xF8;nskede han, te han m&#xE5;tte f&#xE5; tolv karles styrke, og s&#xE5; tog han b&#xE6;geret og smed drikken bag over sig, men hvor det faldt p&#xE5; b&#xE6;stet, der sved det h&#xE5;r og det hele af. S&#xE5; red han tv&#xE6;rt over et fald plovjord, der kunde ellefolkene ikke f&#xF8;lge ham. P&#xE5; den m&#xE5;de slap han fra dem. Men ellefolkene narrede ham lige godt, for der var den ul&#xE6;mpe ved det, at han havde glemt at tage det fra med spisen. Da han nu havde f&#xE5;et tolv karles styrke, skulde han ogs&#xE5; have tolv karles mad. Den dovregryde, han fik hans mad i, har v&#xE6;ret p&#xE5; &#xC5;kj&#xE6;r og haft navnet Svend Feldings dovregryde.</danish_publication>
+  <english_publication>Svend Felding was born at &#xC5;kj&#xE6;r and continued to live there as an adult, and he was so good at building that the elves wanted him. Late one evening, when he was riding home, two elf girls come to him and one of them sang for him and the other one asked him to drink from a chalice. Then she says to him that he could have a wish and as soon as he&#x2019;d emptied the chalice it would be granted. So he wished that he could have the strength of twelve farmhands and then he took the chalice and threw the drink over his back, and where it landed on the horse, it lost all its hair and everything. Then he rode directly across a newly plowed field, and the elves couldn&#x2019;t follow him there. He got away that way. But the elves tricked him anyway, because there was the problem that he&#x2019;d forgotten to mention eating. Now that he had the strength of twelve farmhands, he also needed to eat for twelve farmhands. The breakfast bowl that he used to get his food in used to be kept at &#xC5;kj&#xE6;r and it was called Svend Felding&#x2019;s breakfast bowl.</english_publication>
+  <keywords>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="128" frequency="2" keyword="bowl">bowl</keyword>
+    <keyword id="140" frequency="2" keyword="breakfast">breakfast</keyword>
+    <keyword id="155" frequency="1" keyword="buildings">buildings</keyword>
+    <keyword id="202" frequency="3" keyword="chalice">chalice</keyword>
+    <keyword id="355" frequency="2" keyword="drinking">drinking</keyword>
+    <keyword id="373" frequency="4" keyword="elf">elf</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="395" frequency="3" keyword="farm_hand">farmhand</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="431" frequency="1" keyword="food">food</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="494" frequency="1" keyword="hair">hair</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="966" frequency="1" keyword="plowing">plowing</keyword>
+    <keyword id="1030" frequency="2" keyword="riding">riding</keyword>
+    <keyword id="1122" frequency="1" keyword="singing">singing</keyword>
+    <keyword id="1209" frequency="2" keyword="strength">strength</keyword>
+    <keyword id="1226" frequency="2" keyword="svend_felding">Svend Felding</keyword>
+    <keyword id="1350" frequency="1" keyword="wish">wish</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="20" display_name="People: Strong Man / Hero"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

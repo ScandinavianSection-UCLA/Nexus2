@@ -1,0 +1,102 @@
+<story><story_id>662</story_id>
+  <publication_info>DS_III_2180</publication_info>
+  <full_name>493 - 0.00 - DS_III_2180</full_name>
+  <informant_id>493</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Lars Kristian</informant_first_name>
+  <informant_full_name>Lars Kristian Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>901</place_id>
+      <name>Vangeskrog</name>
+      <display_name>Vangeskrog (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>127</place_id>
+      <name>Dronninglund</name>
+      <display_name>Dronninglund (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>646</story_id>
+      <informant_id>514</informant_id>
+      <publication_info>DS_III_2168</publication_info>
+      <full_name>514 - 0.00 - DS_III_2168</full_name>
+      <url>data/stories/646.dfl</url>
+    </story>
+    <story><story_id>500</story_id>
+      <informant_id>258</informant_id>
+      <publication_info>DS_V_956</publication_info>
+      <full_name>258 - 0.00 - DS_V_956</full_name>
+      <url>data/stories/500.dfl</url>
+    </story>
+    <story><story_id>632</story_id>
+      <informant_id>217</informant_id>
+      <publication_info>DS_III_2175</publication_info>
+      <full_name>217 - 0.00 - DS_III_2175</full_name>
+      <url>data/stories/632.dfl</url>
+    </story>
+    <story><story_id>777</story_id>
+      <informant_id>402</informant_id>
+      <publication_info>DS_III_2164</publication_info>
+      <full_name>402 - 0.00 - DS_III_2164</full_name>
+      <url>data/stories/777.dfl</url>
+    </story>
+    <story><story_id>809</story_id>
+      <informant_id>77</informant_id>
+      <publication_info>DS_III_2198</publication_info>
+      <full_name>77 - 0.00 - DS_III_2198</full_name>
+      <url>data/stories/809.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I en g&#229;rd i Dronninglund tjente en karl, og han var der en tre &#229;r. Hver gang han var ude og kom hjem om aftenen, s&#229; han et lys st&#229; p&#229; deres havedige. S&#229; en vinter havde de f&#229;et tidlig optorsken og havde ikke videre noget at bestille. S&#246;nnen i g&#229;rden sagde da til karlen: "Kan du g&#229; hen og gj&#248;re havediget op." Han tog s&#229; en spade og gik hen og begyndte at grave t&#246;rv neden for diget. I det han nu grov en t&#246;rv og lagde op, s&#229; v&#230;ltede der nogle store skillinger ud af t&#246;rven. Han s&#229; n&#246;jere efter og fandt nogle og tredive. S&#229; gik han ind og fortalte enken det. "N&#229;", siger hun, "nu er det opdaget. Min mand tabte en gang en l&#230;derpung med 60 daler i, og han kunde aldrig finde den. Han ledte i foderloen og i m&#248;ngen og i udhusene, for han troede jo, han havde tabt den der &#233;t steder." Men siden s&#229; karlen aldrig lyset. S&#230;rt nok var det for resten, at de aldrig fandt flere af pengene. Hvordan de var kommen til at ligge ved havediget, v&#233;d man jo ikke, men manden har vel sagt v&#230;ret der i et naturligt &#230;rende.</danish_publication>
+  <english_publication>A farmhand worked at a farm in Dronninglund, and he was there for three years. Every time he was out and came home at night, he saw a light out on their garden wall. So one winter, when they'd finished threshing early and didn&#8217;t have anything to do, the son in the farm said to the farmhand: &#8220;Can you go out and dig up the garden wall." So he took a shovel and went out there and began to dig peat at the foot of the wall. Just when he dug up a peat divot, some big shillings tumbled out of the peat. He looked a bit closer and found some thirty and something. Then he went in and told the widow that. &#8220;Ahh,&#8221; she says, &#8220;now it&#8217;s been discovered. My husband lost a leather purse with sixty daler in it, and he was never able to find it. He looked in the feed bins, in the compost heap, in the outhouses, since he thought he had lost it in one of those places." But the farmhand never saw the light again. It was odd that they never found any more of the money. They have no idea how the money came to lie out there by the garden wall but the man most likely was out there on a call of nature.</english_publication>
+  <keywords>
+    <keyword><id>295</id><frequency>1</frequency><keyword>daler</keyword>daler</keyword>
+    <keyword><id>326</id><frequency>3</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>333</id><frequency>1</frequency><keyword>discovery</keyword>discovery</keyword>
+    <keyword><id>383</id><frequency>1</frequency><keyword>errand</keyword>errand</keyword>
+    <keyword><id>394</id><frequency>2</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>395</id><frequency>3</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>404</id><frequency>1</frequency><keyword>feed</keyword>feed</keyword>
+    <keyword><id>433</id><frequency>1</frequency><keyword>foot</keyword>foot</keyword>
+    <keyword><id>456</id><frequency>3</frequency><keyword>garden</keyword>garden</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>552</id><frequency>1</frequency><keyword>husband</keyword>husband</keyword>
+    <keyword><id>701</id><frequency>1</frequency><keyword>leather</keyword>leather</keyword>
+    <keyword><id>793</id><frequency>2</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>824</id><frequency>1</frequency><keyword>nature</keyword>nature</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>922</id><frequency>3</frequency><keyword>peat</keyword>peat</keyword>
+    <keyword><id>1100</id><frequency>1</frequency><keyword>shilling</keyword>shilling</keyword>
+    <keyword><id>1110</id><frequency>1</frequency><keyword>shovel</keyword>shovel</keyword>
+    <keyword><id>1154</id><frequency>1</frequency><keyword>son</keyword>son</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1257</id><frequency>1</frequency><keyword>threshing</keyword>threshing</keyword>
+    <keyword><id>1313</id><frequency>4</frequency><keyword>walls</keyword>walls</keyword>
+    <keyword><id>1342</id><frequency>1</frequency><keyword>widow</keyword>widow</keyword>
+  </keywords>
+  <etk_index><id>15</id>
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>8</id><display_name>People: Farmwife</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>34</id><display_name>Places: Manor / Castle</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

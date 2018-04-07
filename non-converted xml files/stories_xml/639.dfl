@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<story story_id="639">
+  <publication_info>DS_I_897</publication_info>
+  <full_name>509 - 0.00 - DS_I_897</full_name>
+  <informant_id>509</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kristiane</informant_first_name>
+  <informant_full_name>Kristiane Pedersdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>819</place_id>
+      <name>Kvotrup, Mundelstrup</name>
+      <display_name>Kvotrup, Mundelstrup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="205">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_627</publication_info>
+      <full_name>241 - 4.33 - DSnr_I_627</full_name>
+      <url>data/stories/205.dfl</url>
+    </story>
+    <story story_id="561">
+      <informant_id>513</informant_id>
+      <publication_info>DS_I_889</publication_info>
+      <full_name>513 - 0.00 - DS_I_889</full_name>
+      <url>data/stories/561.dfl</url>
+    </story>
+    <story story_id="790">
+      <informant_id>382</informant_id>
+      <publication_info>DS_I_898</publication_info>
+      <full_name>382 - 0.00 - DS_I_898</full_name>
+      <url>data/stories/790.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gammel hjorde fortalte, at han havde en s&#xF8;ster, der var kohjorde et sted, og s&#xE5; kom hun til at dandse p&#xE5; h&#xF6;jene med bj&#xE6;rgfolkene. De fik hende besnakket til at komme igjen og dandse med dem, n&#xE5;r hun fik k&#xF8;erne ind om aftenen. Aldrig s&#xE5; snart hun fik k&#xF8;erne i g&#xE5;rden, smed hun t&#xF6;jrerne og s&#xE5; af sted. De fik da en karl p&#xE5; en usk&#xE5;r hest, og han af sted og n&#xE5;ede hende, ligesom hun var kommen til h&#xF6;jen og skulde der ind. Han fik hende s&#xE5; op, og af sted gik det. Ellers havde hun vel aldrig kommet tilbage fra dem.</danish_publication>
+  <english_publication>An old shepherd said that he had a sister who was the cowherd one place and she wound up dancing with the mound dwellers on the mounds. They convinced her to come again and dance with them once she'd gotten the cows in at night. Just as soon as she'd gotten the cows in, she threw the tethers and went off. They got a farmhand up on a stallion and he went after her, and he reached her just as she got to the mound and was to go in there. He got her up on the horse and off they went. Otherwise she never would have come back from them.</english_publication>
+  <keywords>
+    <keyword id="274" frequency="3" keyword="cow">cow</keyword>
+    <keyword id="297" frequency="2" keyword="dancing">dancing</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="525" frequency="1" keyword="herd">herd</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="805" frequency="1" keyword="mound_dweller">mound dweller</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1099" frequency="1" keyword="shepherd">shepherd</keyword>
+    <keyword id="1124" frequency="1" keyword="sister">sister</keyword>
+    <keyword id="1365" frequency="1" keyword="wound">wound</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<story story_id="622">
+  <publication_info>DS_II_F_2</publication_info>
+  <full_name>449 - 0.00 - DS_II_F_2</full_name>
+  <informant_id>449</informant_id>
+  <informant_last_name>Larsen</informant_last_name>
+  <informant_first_name>Kristian</informant_first_name>
+  <informant_full_name>Kristian Larsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>774</place_id>
+      <name>Finderup</name>
+      <display_name>Finderup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="62">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_F_14</publication_info>
+      <full_name>150 - 2.15 - DS_II_F_14</full_name>
+      <url>data/stories/62.dfl</url>
+    </story>
+    <story story_id="660">
+      <informant_id>364</informant_id>
+      <publication_info>DS_II_F_8</publication_info>
+      <full_name>364 - 0.00 - DS_II_F_8</full_name>
+      <url>data/stories/660.dfl</url>
+    </story>
+    <story story_id="443">
+      <informant_id>456</informant_id>
+      <publication_info>DS_II_F_7</publication_info>
+      <full_name>456 - 0.00 - DS_II_F_7</full_name>
+      <url>data/stories/443.dfl</url>
+    </story>
+    <story story_id="449">
+      <informant_id>485</informant_id>
+      <publication_info>DS_II_F_4</publication_info>
+      <full_name>485 - 0.00 - DS_II_F_4</full_name>
+      <url>data/stories/449.dfl</url>
+    </story>
+    <story story_id="595">
+      <informant_id>387</informant_id>
+      <publication_info>DS_II_F_18</publication_info>
+      <full_name>387 - 0.00 - DS_II_F_18</full_name>
+      <url>data/stories/595.dfl</url>
+    </story>
+    <story story_id="826">
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_F_15</publication_info>
+      <full_name>69 - 0.00 - DS_II_F_15</full_name>
+      <url>data/stories/826.dfl</url>
+    </story>
+    <story story_id="448">
+      <informant_id>485</informant_id>
+      <publication_info>DS_II_F_35</publication_info>
+      <full_name>485 - 0.00 - DS_II_F_35</full_name>
+      <url>data/stories/448.dfl</url>
+    </story>
+    <story story_id="745">
+      <informant_id>112</informant_id>
+      <publication_info>DS_II_F_32</publication_info>
+      <full_name>112 - 0.00 - DS_II_F_32</full_name>
+      <url>data/stories/745.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En varulv lignede en almindelig ulv p&#xE5; det n&#xE6;r, at den kun havde tre ben. Den var et forgjort mandfolk, der om dagen var som andre, men i enkelte n&#xE6;tter blev til en varulv og f&#xE6;rdedes vidt omkring. Et menneske kunde frigj&#xF8;res for denne ulykkelige tilstand ved at fort&#xE6;re et uskyldigt (uf&#xF8;dt) barns hj&#xE6;rte. Frugtsommelige kvinder gik derfor gruelig n&#xF8;dig ene om aftenen, og n&#xE5;r de blot havde en lille dreng med dem, havde varulven ingen magt. Ligedan blev varulvemennesket forl&#xF8;st, n&#xE5;r der blev sagt til det, idet det angreb en frugtsommelig kvinde: "Du er jo en varulv!"</danish_publication>
+  <english_publication>A werewolf looked like a normal wolf except that it only had three legs. It was a cursed man, who during the day was like everyone else, but on certain nights became a werewolf and wandered widely about. A person could be freed from this unfortunate condition by eating a child's heart. Pregnant women therefore would only under great duress walk alone at night, but even if they had but a little boy with them, then the werewolf had no power. In the same way, a werewolf could be freed if someone said to it when it attacked a pregnant woman, "You're a werewolf!"</english_publication>
+  <keywords>
+    <keyword id="53" frequency="1" keyword="attack">attack</keyword>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="291" frequency="1" keyword="curse">curse</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="443" frequency="2" keyword="free">free</keyword>
+    <keyword id="516" frequency="1" keyword="heart">heart</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="988" frequency="1" keyword="power">power</keyword>
+    <keyword id="991" frequency="2" keyword="pregnant">pregnant</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1315" frequency="1" keyword="wandering">wandering</keyword>
+    <keyword id="1330" frequency="5" keyword="werewolf">werewolf</keyword>
+    <keyword id="1355" frequency="1" keyword="wolf">wolf</keyword>
+    <keyword id="1356" frequency="2" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="7">
+    <heading_danish>Varulve og marer</heading_danish>
+    <heading_english>Werewolves and nightmares</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="67" display_name="Supernatural Beings: Werewolf"/>
+    <tango_index id="79" display_name="Animals: None / Unspecified"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="132" display_name="Actions or events: Pregnancy and birth"/>
+    <tango_index id="136" display_name="Animals: Wild"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

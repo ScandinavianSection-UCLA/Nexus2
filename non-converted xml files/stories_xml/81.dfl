@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<story story_id="81">
+  <publication_info>JAH_V_535</publication_info>
+  <full_name>150 - 3.18 - JAH_V_535</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.18</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>492</place_id>
+      <name>Rold</name>
+      <display_name>Rold (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="32">
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_781</publication_info>
+      <full_name>150 - 1.29 - JAT_VI_781</full_name>
+      <url>data/stories/32.dfl</url>
+    </story>
+    <story story_id="80">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_531</publication_info>
+      <full_name>150 - 3.17 - JAH_V_531</full_name>
+      <url>data/stories/80.dfl</url>
+    </story>
+    <story story_id="243">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_107</publication_info>
+      <full_name>235 - 1.23 - MA_I_107</full_name>
+      <url>data/stories/243.dfl</url>
+    </story>
+    <story story_id="248">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_624</publication_info>
+      <full_name>235 - 1.28 - JAH_V_624</full_name>
+      <url>data/stories/248.dfl</url>
+    </story>
+    <story story_id="301">
+      <informant_id>235</informant_id>
+      <publication_info>MA_II_457</publication_info>
+      <full_name>235 - 2.18 - MA_II_457</full_name>
+      <url>data/stories/301.dfl</url>
+    </story>
+    <story story_id="302">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_V_18</publication_info>
+      <full_name>235 - 2.19 - JAT_V_18</full_name>
+      <url>data/stories/302.dfl</url>
+    </story>
+    <story story_id="374">
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XII_64</publication_info>
+      <full_name>123 - 1.02 - JFm_XII_64</full_name>
+      <url>data/stories/374.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4098b</fielddiary_page_start>
+  <fielddiary_page_end>4099b</fielddiary_page_end>
+  <bibliographic_info>J&#xF8;rgensen 1940.</bibliographic_info>
+  <bibliography_references>
+    <reference id="37" category="general">
+      <display_string>[Book] J&#xF8;rgensen, Harald. 1979. &lt;i&gt;Studier over det offentlige Fattigv&#xE6;sens historiske Udvikling i Danmark i det 19. Aarhundrede&lt;/i&gt;. Copenhagen: Selskabet for Udgivelse af Kilder til Dansk Historie.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The wandering tailor is a well known figure in Danish legend tradition (KMP 1.23), and they were often subject to ridicule (KMP 1.28, 2.18 and 2.19). Here, the tailor is described as unusually shy around women to the extent that he even refuses to measure them.
+
+     Labeling the tailor a beggar is somewhat unfair, since his possession of the poor board indicates clearly that his assistance was being supervised by the local authorities.   Prior to reforms in the poverty assistance laws in 1803, the most common form of care for the poor was "omgangsfors&#xF8;rgelsen" [revolving assistance]. Under this system, a person was assigned to a series of farms, and they would go from one farm to the next listed on their stakkelsfj&#xE6;l (poor board) to receive help  (J&#xF8;rgensen 1940 (1979), 10-11). After the land reforms of the late 1780s and the subsequent physical relocation of farms out onto the newly apportioned fields, the system was no longer sustainable since the distances between farms had become quite large. At the beginning of the nineteenth century, revolving assistance had been replaced by direct assistance, both in kind and monetary assistance, and the establishment of poor houses and, later, poor farms.
+
+   
+     The lengths to which Hjorde-Jens and then Truukr&#xE6;n go to avoid paying for the tailor's burial are morbidly comical. In that sense, the story parallels folktales in which corpses are posed to look like the living (PJ 1.02).The cost of burying those receiving poor help accrued to the local parish board, and not to the individual farmer who happened to be housing the person at the time of their death (J&#xF8;rgensen 1940). The story is apocryphal: since Jens apparently knew Truukr&#xE6;n, the events described here cannot have happened earlier than the 1820s, even though the system of assistance described here ended in the first decades of the century (J&#xF8;rgensen 1940, 11).
+
+     The manuscript makes no distinction between the preceding story and this one. In the published version of this story, Tang Kristensen changed the order of events, describing the tailor's death first. He also editorialized on Jens's performance of the story, noting: "It was quite funny to hear my informant pronounce the tailor's Jutish sentences, since he comes from &#xC5;restrup and always uses "w" in his speech, used "v" here to make it clear that the tailor was from Rold, where they use that sound." Although Tang Kristensen was primarily commenting on differences in local pronunciation, he inadvertently provided helpful information concerning the performance of the story. Because of this note, one can more easily imagine Jens switching voices and even speech patterns as he told the story, particularly when relating direct speech.</annotation>
+  <danish_manuscript>Naar en Tigger havde gaaet 
+her i Byen omkring og kr&#xE6;vet, s. skulde de kj&#xF8;re
+dem til n&#xE6;rmeste By. S. havde hver By saa
+dan sin Stakkelsfj&#xE6;l. Der var en gl. Skr&#xE6;d
+der fra Rold der d&#xF8;de her inde ved vore Nabo
+og den Mand der boede henne i den Grd her ve
+sten for h. var Oldersmand. Nu skulde den
+[Ma] By, hvori de d&#xF8;de, koste deres Begravelse
+Den Skr. var Broder til Sognefogeden i Rold
+og h. gik om og [to] syede for Folk, men til
+sidst gik h. og tiggede, de kaldte ham Rold-
+skr&#xE6;dderen, h. var sky for Kvindfolk. Et Sted
+h. [gik] sad paa Bordet og syede og B&#xF8;rnene
+stod paa Gulvet og bissede et Barn, og Moderen
+var ude at malke lige i Tiden, s. fik de
+Vuggen v&#xE6;lt og den kom oven paa Barnet,
+og Skr. var ikke Karl for at turde gaa hen og
+hj&#xE6;lpe Barnet op igien, for det det var et 
+Pigebarn. Da Mod. kom ind sagde hun kun
+de du da ikke have gjort det s&#xF8;lle Barn den
+Tjeneste at have rejst Bissen op, det kunde
+jo have ligget og kvaltes. Men h. svarede
+Vild a r&#xF8;r ved de it (skidt), nej s. Gu vild
+a [et] ek. Havde det (skidt) v&#xE6;ret et Drengebarn
+s. var det noget andet. Kold Jenses gl. Moder
+vilde have ham til at sy en Tr&#xF8;je til sig og vilde
+have ham til at tage M&#xE5;l. Aa Vejen med
+
+4099A
+dig a ka s. gu gjan paes ed. Ja hun vilde
+gj&#xE6;rne v&#xE6;re et Korn net. og p&#xE6;n og hun stod
+og skultrede sig ad ham. Men h. sagde: Af
+Vejen med dig og vilde ikke r&#xF8;re ved hende. Han
+kunde godt faa alle en Bys Hunde til at
+komme i en R&#xE6;kke bag efter sig. H. snakkede
+s godt med dem og klappede dem: Kommer 
+du her min Ven, du er min Ven i Verden,
+kan du how den gang a h&#xF8;ld og d&#xF8;ld 
+med dig de mange gode Sild du stal, a
+vidste det nok, men a vilde ikke sige det.
+---
+S. laa h. og d&#xF8;de der til Hjord. Jenses og
+s. kom h. ind til [Hjord] Gammel Per det
+var hans Nabo og fik ham til at hj&#xE6;lpe
+sig og fik ham baaret ud [paa] og satte ham
+der norden til op til [det] et Kalgudige,
+det var saadan skikkeligt h&#xF8;jt of fik hans
+Pose bunden paa ham og hans Kj&#xE6;p i hans
+Haand. Det var om Morgenen f&#xF8;r Dag.
+Da det blev Dag, havde jo s. Hjorde-Jens
+fundet Rold-skr&#xE6;dderen der og h. hen til
+Oldermanden, de kaldte ham Truukr&#xE6;n og
+sagde det. Naa, siger, det var D&#xF8; og og Pins
+slemt og h. siger til hans Karl at h. skal
+sp&#xE6;nde de to graa for en Mogvogn og hen og
+hente ham og s. kj&#xF8;rte de til Rold med ham
+
+4099B
+ind til sognefogedens. A kommer med din Bro-
+der sagde T. Kr. h. er d&#xF8;d. Ja s. kunde de
+tage ham med dem igien og lade ham begrave.
+Men s. sprang Tr. Kr. ud og h. tog i den ene
+Mogfj&#xE6;l og Byrri-Niels i den anden og
+s. sk&#xF8;d de Skr. af Vognen med hans Pose og
+hans Kurv og hans Sager og [nu] h. faldt
+paa Jorden og s. de op paa Vognen og af
+sted og da de kom til Trys-s&#xF8;, da kunde
+de h&#xF8;re, [Tro] de slog paa Trommen i Rold,
+s. skulde de jo samles og snakkes ved om,
+hvad de skulde have gjort ved Skr&#xE6;dderen.</danish_manuscript>
+  <english_manuscript>When a beggar had gone through a town and asked for alms, then the townsfolk were supposed to drive them to the nearest town. Each town had their own "poor board." There was an old tailor from Rold who died at our neighbor's house, and the man who lived in the farm to the west he was an alderman. Now, the town in which he died had to pay for his burial. The tailor was the brother of the parish bailiff in Rold, and he went around sewing for people, but by the end he just went about begging, they called him the Rold Tailor, he was shy around women. At one place, he was sitting on the table sewing and the children were standing on the floor rocking a baby, while their mother was out milking at the moment, and they tipped over the cradle and it landed on top of the baby. But the tailor wasn't man enough to go over and help the little baby up, because it was a girl. When the mother came back in she said, "Couldn't you have done the baby a favor and picked the cradle up, it could have lain there and suffocated?" But he answered, "Nah, I won't mess with that shit, no sirree. If that shit had been a boy, then it would have been a totally different story." Kold-Jen's old mother wanted him to sew a dress for her, and she wanted him to measure her. But he answered, "Get out of here, I can make it fit you." She wanted it to be a bit nice and pretty and she stood and wriggled her shoulders. But he said, "Get out of here," and he didn't want to touch her. He could get all the town's dogs to follow along behind him in a line and he patted them and called out to them, "Are you coming over here, my friend, you are my only friend in the world. Do you remember the time I helped you out when you'd stolen all those wonderful herrings, I knew it, but I didn't say anything." Then he lay there and died at Hjorde-Jens's, and then he went over to Old Per, that was his neighbor, and he got him to help him carry him out and they placed him up next to a stone wall that was pretty tall, and tied his bag on him, and put his staff in his hand. It was early in the morning, before dawn. When daylight came, Hjorde-Jens came out and found him there and went over to the alderman, they called him Truukr&#xE6;n, and told him that. "Well," he says, "that's really bad," and he told his farmhand that he should harness the two gray horses to a dung wagon and go over and get him and then they drove him over to Rold over to the parish bailiff's farm. "I've brought your brother," said Truukr&#xE6;n, "he's dead." Well, then they could take him with them again, and bury him. But then Truukr&#xE6;n jumped off the wagon and took hold of the one dung board and Byrri-Niels took hold of the other, and then they dumped the tailor out of the wagon with his bag, and his basket and his things, and he fell down onto the ground, and then they jumped back up into the wagon and rode off. When they got to Tryss&#xF8;, they could hear that they were beating on the drum in Rold, they were going to gather and talk about what they should do with the tailor.</english_manuscript>
+  <danish_publication>N&#xE5;r en tigger havde g&#xE5;et byen her omkring og kr&#xE6;vet ind, s&#xE5; skulde folkene kj&#xF8;re ham til n&#xE6;rmeste by, og det skulde den, der havde "stakkelsfj&#xE6;len". Det var en s&#xE6;defj&#xE6;l, der var s&#xE5; megen l&#xE6;sning t&#xE6;llet ud i. Hver by havde sin fj&#xE6;l, og n&#xE5;r en mand havde kj&#xF8;rt, s&#xE5; flyede han den hen til hans nabo. N&#xE5;r en tigger d&#xF8;de p&#xE5; hans vandring, skulde den by, hvori han d&#xF8;de, koste hans begravelse. S&#xE5; var der en gammel skr&#xE6;dder fra Rold, der d&#xF8;de her inde ved vor nabo, han var broder til sognefogden i Rold, den samme skr&#xE6;dder. Hjorde-Jens, som han var d&#xF8;d ved, kom ind til Gamle-Per, der var nabo til ham ved den anden side, og fik ham til at hj&#xE6;lpe sig med at b&#xE6;re skr&#xE6;dderen ud, og de fik ham stillet an op til et kalgudige, fik hans pose bunden p&#xE5; ham og hans kj&#xE6;p i hans h&#xE5;nd. Stedet l&#xE5; skikkelig h&#xF6;jt, s&#xE5; det var nemt at f&#xE5; ham at se. Dether gik nu for sig om morgenen f&#xF6;r dag, og da det s&#xE5; blev dag, kom Hjorde-Jens jo ud og fandt ham &#x2014; skulde det forestille &#x2014; og han hen til oldermanden, de kaldte ham Truukr&#xE6;en, og fortalte ham om Rold-skr&#xE6;dderen, som sad der henne. "N&#xE5;", siger han, "det var d&#xF8;d og pine slemt". Han befaler hans karl, at han skal sp&#xE6;nde de to gr&#xE5; for en mogvogn og kj&#xF8;re hen og hente ham. S&#xE5; kj&#xF8;rte de til Rold med ham og ind til sognefogdens. "A kommer med din broder", sagde Truukr&#xE6;en, "han er d&#xF8;d". Ja, s&#xE5; kunde de tage ham med dem igjen og lade ham begrave. Men s&#xE5; sprang Truukr&#xE6;en ud til vognen, og han tog i den ene mogfj&#xE6;l og Byrri-Niels, der var med ham, i den anden, og s&#xE5; sk&#xF8;d de skr&#xE6;dderen af vognen med hans pose og hans kurv og hans sager, s&#xE5; han faldt ned p&#xE5; jorden, og s&#xE5; de op p&#xE5; vognen og af sted. Da de kom til Trys-s&#xF8;, da kunde de h&#xF8;re, der blev sl&#xE5;et p&#xE5; trommen i Rold, for s&#xE5; skulde m&#xE6;ndene jo samles og snakkes ved om, hvad de skulde have gjort ved skr&#xE6;dderen.
+     Denher skr&#xE6;dder gik om og syede for folk, men til sidst gik han og tiggede. Han var sky for kvindfolk. Et sted han sad p&#xE5; bordet og syede, og b&#xF6;rnene stod p&#xE5; gulvet og bissede et barn, mens moderen lige i tiden var ude at malke, s&#xE5; fik de vuggen v&#xE6;ltet, og den kom oven p&#xE5; barnet. Men skr&#xE6;dderen var ikke karl for at turde g&#xE5; hen og hj&#xE6;lpe barnet op igjen, for det det var et pigebarn. Da moderen kom ind, sagde hun: "Kunde du ikke have gjort det s&#xF6;lle barn den tjeneste at have rejst bissen op, det kunde jo have ligget og kvaltes". Men han svarade: "Vild a r&#xE6;&#xE6;r ve de skit, nej s&#xE5;gu vild a ek. Havde det v&#xE6;ret et drengebarn, s&#xE5; havde det v&#xE6;ret noget andet". Kold-Jenses gamle moder vilde have ham til at sy en tr&#xF6;je til sig, og s&#xE5; skulde han tage m&#xE5;l af hende. Men han svarede: "&#xC5; vejen m&#xE6; d&#xE6;, a ka s&#xE5;gu gjaan paes ed". Han vilde ikke r&#xF8;re ved hende. Samme skr&#xE6;dder kunde godt f&#xE5; alle en bys hunde til at komme i en r&#xE6;kke bag efter sig. Han snakkede godt med dem og klappede dem, idet han sagde: "Kommer du her, min ven, du er mi ven i verden. Kan du howw, den gang a h&#xF8;lld &#xE5; d&#xF8;lld m&#xE6; d&#xE6; di manne gowe sild du stael, a vist ed n&#xE5;k, m&#xE6;n a vild et s&#xE6;jj ed".</danish_publication>
+  <english_publication>When a beggar had gone through a town and gotten alms, then the townsfolk were supposed to drive him to the nearest town, and the one who had the &#x201C;poor board" had to do that. It was a seat plank on which had been counted a number of loads. Each town had their own plank, and when a man had driven he&#x2019;d give the plank to his neighbor. If a beggar died on his wanderings, his burial had to be paid for by the town in which he died. There was an old tailor from Rold who died at our neighbor&#x2019;s, he was the brother of the parish bailiff in Rold, that tailor. Hjorde-Jens, the guy whose house he&#x2019;d died at, got his neighbor on the other side, Old Per, to help him carry the tailor out and they placed him up next to a stone wall, tied his bag on, and put a staff in his hand. The place was fairly high and so it was easy to see him. This happened early in the morning, before daylight, and when it became daylight, Hjorde-Jens came out and found him &#x2013; at least it was supposed to appear that way &#x2013; and he went to the alderman, they called him Truukr&#xE6;n, and told him about the Rold tailor, how it was. &#x201C;Well,&#x201D; he says, &#x201C;that&#x2019;s really bad.&#x201D; He told his farmhand that he should harness the two gray horses to the dung wagon and drive off and get him. Then they drove him over to Rold and into the parish bailiff&#x2019;s farm. &#x201C;I&#x2019;ve brought your brother,&#x201D; said Truukr&#xE6;n, &#x201C;he&#x2019;s dead.&#x201D; Well, the parish bailiff said, then they could take him back with them, and bury him. But then Truukr&#xE6;n jumped off the wagon and took hold of the one dung board and Byrri-Niels, who was with him, took hold of the other, and then they dumped the tailor out of the wagon with his bag, and his basket and his things, so that he fell down onto the ground, and then they jumped back up into the wagon and rode off. When they got to Try lake, they could hear that the drum was being beaten in Rold, so that the men could gather and talk about what they should do with the tailor. 
+     This here tailor went around sewing for people, but in the end he went around begging. He was shy with women. One place, he was sitting on the table sewing and the children were standing on the floor rocking a baby, while their mother was just out milking, and they tipped over her cradle and it landed on top of the baby. But the tailor wasn&#x2019;t man enough to go over and help the little baby up, because it was a girl. When the mother came back in she said, &#x201C;Couldn&#x2019;t you have done the baby a favor and picked the cradle up, it could have lain there and suffocated?&#x201D; But he answered, &#x201C;Nah, I won&#x2019;t mess with that shit, no sirree. If it had been a boy, then it would have been a totally different story.&#x201D; Kold-Jen&#x2019;s old mother wanted him to sew a dress for her, and then he was supposed to measure her. But he answered, &#x201C;Get out of here, I can make it fit her.&#x201D; He didn&#x2019;t want to touch her. The same tailor could get all the town&#x2019;s dogs to follow along behind him in a line. He talked well with them and patted them while he said, &#x201C;Are you coming over here, my friend, you are my only friend in the world. Do you remember the time I helped you out when you&#x2019;d stolen all those wonderful herrings, I knew it, but I didn&#x2019;t say anything.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="20" frequency="1" keyword="alms">alms</keyword>
+    <keyword id="61" frequency="4" keyword="baby">baby</keyword>
+    <keyword id="63" frequency="2" keyword="bags">bags</keyword>
+    <keyword id="64" frequency="2" keyword="bailiff">bailiff</keyword>
+    <keyword id="76" frequency="1" keyword="basket">basket</keyword>
+    <keyword id="86" frequency="3" keyword="beggar">beggar</keyword>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="148" frequency="2" keyword="brother">brother</keyword>
+    <keyword id="158" frequency="2" keyword="burial">burial</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="275" frequency="2" keyword="cradle">cradle</keyword>
+    <keyword id="308" frequency="2" keyword="daylight">daylight</keyword>
+    <keyword id="317" frequency="5" keyword="death">death</keyword>
+    <keyword id="343" frequency="1" keyword="dog">dog</keyword>
+    <keyword id="353" frequency="1" keyword="dress">dress</keyword>
+    <keyword id="364" frequency="2" keyword="dung">dung</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="401" frequency="1" keyword="favor">favor</keyword>
+    <keyword id="422" frequency="1" keyword="floor">floor</keyword>
+    <keyword id="445" frequency="2" keyword="friend">friend</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="502" frequency="1" keyword="harness">harness</keyword>
+    <keyword id="528" frequency="1" keyword="herring">herring</keyword>
+    <keyword id="532" frequency="2" keyword="hjorde_jens">Hjorde Jens</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="782" frequency="1" keyword="milk">milk</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="803" frequency="3" keyword="mother">mother</keyword>
+    <keyword id="828" frequency="3" keyword="neighbor">neighbor</keyword>
+    <keyword id="834" frequency="1" keyword="niels">Niels</keyword>
+    <keyword id="873" frequency="3" keyword="old">old</keyword>
+    <keyword id="903" frequency="2" keyword="parish">parish</keyword>
+    <keyword id="937" frequency="1" keyword="per">Per</keyword>
+    <keyword id="960" frequency="3" keyword="plank">plank</keyword>
+    <keyword id="974" frequency="1" keyword="poor">poor</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1090" frequency="3" keyword="sewing">sewing</keyword>
+    <keyword id="1103" frequency="1" keyword="shit">shit</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1200" frequency="1" keyword="story">story</keyword>
+    <keyword id="1238" frequency="1" keyword="table">table</keyword>
+    <keyword id="1240" frequency="9" keyword="tailor">tailor</keyword>
+    <keyword id="1261" frequency="1" keyword="tie">tie</keyword>
+    <keyword id="1275" frequency="5" keyword="town">town</keyword>
+    <keyword id="1276" frequency="1" keyword="townsfolk">townsfolk</keyword>
+    <keyword id="1285" frequency="3" keyword="truukr&#xE6;n">truukr&#xE6;n</keyword>
+    <keyword id="1311" frequency="4" keyword="wagon">wagon</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+    <keyword id="1363" frequency="1" keyword="world">world</keyword>
+  </keywords>
+  <etk_index id="35">
+    <heading_danish>Livet uden d&#xF8;re</heading_danish>
+    <heading_english>Life outdoors</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="2" display_name="People: Bailiff"/>
+    <tango_index id="3" display_name="People: Beggar / Poor person"/>
+    <tango_index id="5" display_name="People: Children"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="109" display_name="Time, Season, Weather: Morning"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

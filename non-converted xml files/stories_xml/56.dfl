@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<story story_id="56">
+  <publication_info>DS_II_C_90</publication_info>
+  <full_name>150 - 2.09 - DS_II_C_90</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>2.09</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>7</place_id>
+      <name>Aarestrup</name>
+      <display_name>Aarestrup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>268</place_id>
+      <name>Hobro</name>
+      <display_name>Hobro (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>283</place_id>
+      <name>Horsens</name>
+      <display_name>Horsens (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="458">
+      <informant_id>418</informant_id>
+      <publication_info>DS_II_C_25</publication_info>
+      <full_name>418 - 0.00 - DS_II_C_25</full_name>
+      <url>data/stories/458.dfl</url>
+    </story>
+    <story story_id="532">
+      <informant_id>511</informant_id>
+      <publication_info>DS_II_C_78</publication_info>
+      <full_name>511 - 0.00 - DS_II_C_78</full_name>
+      <url>data/stories/532.dfl</url>
+    </story>
+    <story story_id="57">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_66</publication_info>
+      <full_name>150 - 2.10 - DS_II_C_66</full_name>
+      <url>data/stories/57.dfl</url>
+    </story>
+    <story story_id="626">
+      <informant_id>409</informant_id>
+      <publication_info>DS_II_C_91</publication_info>
+      <full_name>409 - 0.00 - DS_II_C_91</full_name>
+      <url>data/stories/626.dfl</url>
+    </story>
+    <story story_id="169">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_C_10</publication_info>
+      <full_name>241 - 2.19 - DSnr_II_C_10</full_name>
+      <url>data/stories/169.dfl</url>
+    </story>
+    <story story_id="818">
+      <informant_id>460</informant_id>
+      <publication_info>DS_V_728</publication_info>
+      <full_name>460 - 0.00 - DS_V_728</full_name>
+      <url>data/stories/818.dfl</url>
+    </story>
+    <story story_id="14">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_111</publication_info>
+      <full_name>150 - 1.11 - Unpub_BJK_111</full_name>
+      <url>data/stories/14.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3265b</fielddiary_page_start>
+  <fielddiary_page_end>3266a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references>
+    <reference id="734" category="general">
+      <display_string>[Book section] Lindow, John. 2000. Wild Hunt. In &lt;i&gt;Medieval folklore : an encyclopedia of myths, legends, tales, beliefs, and customs&lt;/i&gt;: 1036-1037. Santa Barbara, Calif: ABC-CLIO.</display_string>
+    </reference>
+    <reference id="623" category="general">
+      <display_string>[Book] Christiansen, Reidar Thoralf. 1992. &lt;i&gt;The migratory legends (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+    <reference id="180" category="general">
+      <display_string>[Book] Feilberg, Henning F. 1910. Vol. 5 of &lt;i&gt;Bj&#xE6;rgtagen. Studie over en gruppe tr&#xE6;k fra nordisk alfetro (Danmarks folkeminder)&lt;/i&gt;. Copenhagen: Det Sch&#xF8;nbergske forlag.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The story of the elf hunter, often referred to as Odin's hunter, is widely attested in Danish and European traditions (JPP 2.19). The motif is often referred to as the "Wild Hunt," and is cataloged by Christiansen as ML5060 (Lindow 2000, 1036-1037). Jens adds an amusing element to his story, with the hunter's unusual way of cleaning himself. In another variant, the elves suggest that he cannot catch them because he has lice (DS II C 91). Using urine to combat lice may well have been a folk remedy.
+
+     The man who takes his fingers out of his ears is analogous to the farmhand or coachman who tries to witness the conjuring of a ghost, nearly causing the conjuring to fail (DS V 728). Here, the hunter is forced to chase the elf hags much further afield than he had intended. The payment the man receives for his assistance, despite its seeming banality, turns out to be extraordinary. This unusually high payment for services clearly parallels the payment the midwife to the mound dwellers receives for her help (1.11).</annotation>
+  <danish_manuscript>Jens J&#xE6;ger kom ridende en G. En Mand kom
+gaaende fra Ersted til Aarestrup og der kom
+to Ellekvinder l&#xF8;bende nok s. st&#xE6;rk imod ham
+og de satte ind der ad [Snd] s&#xF8;ndre Side af Byen
+og s. sagde de til hverandre: H. tager os ikke
+end, for h. er ikke ren. Nu s. blev h. jo ved
+at gaa ad Vejen hans Gang. S. kom der en ri-
+dende imod ham. S. s. h. til ham den ridende
+kom der ingen imod dig. Jo der kom to bitte
+nogle rendende s. st&#xE6;rk som de kunde. Hvad to
+sagde de til hveranden s. h. De sagde h. tager
+
+3266A
+os ikke end for h. er ikke ren. S. piste h. i hans
+Haand og toede sig med og s. sagde h. til ham
+vil du nu l&#xE6;gge dig ned og stoppe dine Fingre
+i dine &#xD8;rer, s. vilde h. betale ham for det,
+naar h. om et bitte Korn kom tilbage igien.
+Ja det gjorde h. ogsaa. Men s. tykte h. det varede
+vel l&#xE6;nge og s. vilde h. tage Fingrene af &#xD8;rene.
+Tog f&#xF8;rst den ene Finger af og s. h&#xF8;rte h ogsaa der
+var en der skod, men det tykte h. var ude ved
+Hobro. N. s. l&#xE6;gger h. sig ned igien et Korn. . 
+Tykte det blev for kjedsomt at ligge der og let-
+ter sig og tager Fingrene. Da h&#xF8;rer h. et Skud
+igien. Var s. langt henne som ved Horsens.
+N. s. stopper h. Fingrene i &#xD8;rene igien og l&#xE6;gger
+sig ned. Da kommer h. med dem begge to og de
+var bunden sammen i Haaren og h&#xE6;ngte over
+Hesten hver paa sin Side. S. til ham: Du skal
+faa en god Betaling, men den skulde ha bleven
+bedre, for du har taget dine Fingre af dine
+&#xD8;rer og det skaj ham, at h. maatte ride fra
+Hobro til Horsens for at fange den sidste.
+Men hans Hest den tabte en Sko der henne
+den kunde h. gaa hen og tage, s. havde h. Be-
+taling nok, for det var en Guldsko, da
+Manden kom hen og fandt den.</danish_manuscript>
+  <english_manuscript>Jens J&#xE6;ger came riding one time. A man came walking from Ersted to &#xC5;restrup and two elf women came running quickly towards him, and they came in on the south side of the town and said to each other, "He won't catch us yet, because he isn't clean." Well, the man continued to walk on his way along the road. Then someone came riding up to him. Then the one who is riding says to him, "Did any one come the other way?"--"Yes, these two little ones came by running as fast as they could." -- "What did they say to each other?" he asked. "They said: he won't catch us yet, because he isn't clean." Then he pissed in his hand and wiped himself with it, and then he said to the man, "If you'll lie down and stick your fingers in your ears, I'll pay you well when I come back in a little bit." He did that too. But then he thought that it was taking quite a while and he wanted to take his fingers out of his ears. First he took one finger out, and he heard a shot but he thought it might be over by Hobro. Well, he lies down again for a little while. But then he got bored lying there, and he gets up and takes his fingers out. Then he hears another shot. That was as far away as Horsens. Well, then he puts his fingers back in his ears and he lies down again. Then he comes back with both of them, and they were tied together by their hair and they were hanging over the horse each on a side. Then he says, "You'll be paid well for this, but it could have been better; you took your fingers out of your ears." That had hindered him and he had had to ride from Hobro to Horsens to catch the last one. But his horse had lost a shoe along the way, and he could go and get it, then he'd have ample payment, since it turned out to be a gold shoe when the man got out there and found it.</english_manuscript>
+  <danish_publication>En mand kom g&#xE5;ende fra Ersted til &#xC5;restrup. S&#xE5; kom der to ellekvinder l&#xF8;bende nok s&#xE5; st&#xE6;rkt imod ham, og de satte ned der ad s&#xF8;ndre side af byen, imens de sagde til hverandre: "Han tager os ikke end, for han er ikke r&#xE9;n." N&#xE5;, manden blev jo ved at g&#xE5; ad vejen hans gang, men s&#xE5; kom der &#xE9;n ridende imod ham, og det var ingen anden end Jons j&#xE6;ger. Han siger: "Kom der ingen imod dig?" &#x2014; "Jo, der kom to bitte n&#xF8;gne rendende s&#xE5; st&#xE6;rkt, som de kunde." &#x2014; "Hvad sagde de til hverandre?" spurgte den ridende. "De sagde: han tager os ikke end, for han er ikke r&#xE9;n." S&#xE5; piste han i hans h&#xE5;nd og toede sig med, og s&#xE5; sagde han til manden: "Vil du nu l&#xE6;gge dig ned og stoppe dine fingre i dine &#xF8;rer, s&#xE5; skal jeg betale dig godt for det, n&#xE5;r jeg om et bitte korn kommer tilbage igjen." Ja, det gjorde han ogs&#xE5;, men s&#xE5; tykte han, det varede vel l&#xE6;nge, og s&#xE5; vilde han tage fingrene af &#xF8;rene lidt. F&#xF8;rst tog han den ene finger af, og da h&#xF8;rte han &#xE9;n, der sk&#xF8;d; men det var ikke s&#xE5; stakket henne, han tykte, det kunde v&#xE6;re ude ved Hobro. N&#xE5;, s&#xE5; l&#xE6;gger han sig ned igjen et korn. Men det blev ham atter for kjedsomt at ligge s&#xE5;dan, og han letter sig og tager den anden finger fra. Da h&#xF8;rer han igjen et skud, men det var s&#xE5; langt henne som ved Horsens. N&#xE5;, s&#xE5; skynder han sig at stoppe fingrene i &#xF8;rene og l&#xE6;gger sig ned p&#xE5; sin gamle plads. Da kommer den ridende med dem begge to, og de var bundne sammen i h&#xE5;rene og h&#xE6;ngte over hesten hver p&#xE5; sin side. S&#xE5; siger han: "Du skal f&#xE5; en god betaling, men den skulde have blevet bedre; du har taget dine fingre af dine &#xF8;rer, og det skajj mig s&#xE5; meget, at jeg m&#xE5;tte ride fra Hobro til Horsens for at fange den sidste." Nu havde hans hest tabt en sko der henne p&#xE5; vejen, og den kunde han g&#xE5; hen og tage, s&#xE5; havde han betaling nok. Da manden kom hen og fandt den, viste det sig at v&#xE6;re en guldsko.</danish_publication>
+  <english_publication>A man came walking from Ersted to &#xC5;restrup. Then two elf women came running quickly towards him, and they came in on the south side of the town while they said to each other, &#x201C;He won&#x2019;t catch us yet, because he isn&#x2019;t clean.&#x201D; Well, the man continued to go on his way along the road, but then someone came riding up to him and it was none other than Jon&#x2019;s hunter. He says, &#x201C;Did anyone come the other way?&#x201D;--&#x201C;Yes, these two little ones came by running as fast as they could.&#x201D; -- &#x201C;What did they say to each other?&#x201D; asked the one who was riding. &#x201C;They said: he won&#x2019;t catch us yet, because he isn&#x2019;t clean.&#x201D; Then Jon's hunter pissed in his hand and wiped himself with it, and then he said to the man, &#x201C;If you&#x2019;ll lie down and stick your fingers in your ears, I&#x2019;ll pay you well when I come back in a little bit.&#x201D; Sure, he did that too, but then he thought that it was taking a while, and so he wanted to take his fingers out of his ears a little bit. First he took one finger out, and then he heard that somebody shot; but that wasn&#x2019;t too far away, he thought it might be over by Hobro. Well, he lies down again for a little while. But then he got bored again lying there like that, and he gets up and takes the other finger out. Then he hears a shot again, but that was as far away as Horsens. Well, then he quickly puts his fingers back in his ears and he lies down in his old place. Then the rider comes back with both of them, and they were tied together by their hair and they&#x2019;d been hung over the horse, each on their own side. Then he says, &#x201C;You&#x2019;ll be paid well for this, but it could have been better; you took your fingers out of your ears, and that hindered me so much that I had to ride from Hobro to Horsens to catch the last one.&#x201D; Now his horse had lost a shoe along the way, and the rider told the man that he could go and get it, then he&#x2019;d have received ample payment. When the man got out there and found it, it turned out to be a gold horseshoe.</english_publication>
+  <keywords>
+    <keyword id="367" frequency="4" keyword="ear">ear</keyword>
+    <keyword id="373" frequency="1" keyword="elf">elf</keyword>
+    <keyword id="412" frequency="6" keyword="finger">finger</keyword>
+    <keyword id="473" frequency="1" keyword="gold">gold</keyword>
+    <keyword id="494" frequency="1" keyword="hair">hair</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="547" frequency="1" keyword="horseshoe">horseshoe</keyword>
+    <keyword id="550" frequency="1" keyword="hunter">hunter</keyword>
+    <keyword id="605" frequency="1" keyword="jon">Jon</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1030" frequency="4" keyword="riding">riding</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1104" frequency="1" keyword="shoe">shoe</keyword>
+    <keyword id="1106" frequency="2" keyword="shooting">shooting</keyword>
+    <keyword id="1261" frequency="1" keyword="tie">tie</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+  </keywords>
+  <etk_index id="4">
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="50" display_name="Tools, Items and Conveyances: Metal"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

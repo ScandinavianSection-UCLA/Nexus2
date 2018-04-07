@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<story story_id="337">
+  <publication_info>Lege_0_1449</publication_info>
+  <full_name>90 - 2.05 - Lege_0_1449</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>2.05</order_told>
+  <fieldtrip id="9">October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="345">
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_1912</publication_info>
+      <full_name>90 - 2.13 - Lege_0_1912</full_name>
+      <url>data/stories/345.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4783a</fielddiary_page_start>
+  <fielddiary_page_end>4783b</fielddiary_page_end>
+  <bibliographic_info>Kamp 1877, 41.4</bibliographic_info>
+  <bibliography_references>
+    <reference id="32" category="general">
+      <display_string>[Book] Kamp, Jens. 1877. &lt;i&gt;Danske Folkeminder, &#xC6;ventyr, Folkesagn, Gaader, Rim og Folketro samlede fra Folkemunde&lt;/i&gt;. Odense: R. Nielsens forlag.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The amusing rhyme that ends the previous story spills over into this children's rhyme, and marks a narrative departure from the folk tale.
+
+     The first part of the rhyme appears to be a formula to induce rain, while the second part of the rhyme, starting with "Dear God," is more of a nonsense rhyme. Jens Kamp, in his collection, Danske folkeminder, included a variant of the second half of this children's rhyme that emphasized the nonsense aspect of it, while also poking fun at church functionaries (the minister, the parish clerk and the bell ringer).</annotation>
+  <danish_manuscript>Marri hon sad p&#xE6; Kj&#xE6;rki stent hon
+s&#xE5; &#xE5; fl&#xE6;t &#xE5; ba ti Gud d&#xE6;nd r&#xE6;jen
+sku h&#xE6;t s&#xE5; h&#xE6;t den R&#xE6;jen s. skend
+dend sul &#xE5;po Maries de b&#xE5;r Kn&#xE6;
+Kl&#xE5;r &#xE5;p i Sk&#xF8;j, la rengel i B&#xF8;j
+K&#xE6;rre Gu b&#xF8;je m&#xE6; arme Mand
+ingen Skie &#xE5; s&#xF8;v m&#xE6; m&#xE6; woen
+&#xE5; veldt m&#xE6; tejer &#xE6; speldte m&#xE6; Kowen
+hon hi M&#xE6;t hon bo i Skr&#xE6;p. hon &#xE6;
+f&#xF8;j i en &#xE6; m&#xF8;ll &#xE5; joret i en k&#xF8;ll,
+
+4783B
+it ande Pr&#xE6;jst end en stomph&#xE5;llit H&#xE6;jst
+it ande d&#xE6;jn end en stomph&#xE5;llit V&#xE6;jer</danish_manuscript>
+  <english_manuscript>Marri sat on the church stone, she sat and braided and prayed to God, the rain should stop, so the rain stopped, then the sun shone upon Marie's bare knees, clear up you clouds, let the rainbow shine. Dear God pray for the poor man, who has no spoon to eat with, my wagon has tipped over, my tar has spilled, my cow's name is Met, she lives in Skr&#xE6;p, she is born in a mill and buried in a clay pit.</english_manuscript>
+  <danish_publication>Marri hon sad po Kjerkistent, hon sa &#xE5; fl&#xE6;&#xE6;t &#xE5; ba te Guj, den R&#xE6;jn sku h&#xE6;&#xE6;t, s&#xE5; h&#xE6;&#xE6;t den R&#xE6;jn, s&#xE5; skennd den Suel &#xE5;po Maries de b&#xE5;&#xE5;r Kn&#xE6;, klar &#xE5;p i Sk&#xF8;j, la rengel i B&#xF8;j, Herre Gu b&#xE6;je arme Mand, ingen Skie &#xE5; sov m&#xE6;, me Woen &#xE6; v&#xE6;ldt, me Tejer &#xE6; speldt, me Kowen hon hit M&#xE6;t, hon boo i Skr&#xE6;p, hon &#xE6; f&#xF6;j i en M&#xF8;ll &#xE5; joret i en K&#xF8;ll, it ande Pr&#xE6;jst end en stomp-h&#xE5;llit H&#xE6;jst, it ande D&#xE6;jn end en stomph&#xE5;llit V&#xE6;jer.</danish_publication>
+  <english_publication>Marri sat on the church stone, she sat and braided and prayed to God, the rain should stop, so the rain stopped, then the sun shone upon Marie&#x2019;s bare knees, clear up you clouds, let the rainbow shine. Dear God pray for the poor man, who has no spoon to eat with, my wagon has tipped over, my tar has spilled, my cow&#x2019;s name is Met, she lives in Skr&#xE6;p, she is born in a mill and buried in a clay pit, no other priest than a short-tailed horse, no other parish clerk than a short-tailed ram.</english_publication>
+  <keywords>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="231" frequency="1" keyword="clay">clay</keyword>
+    <keyword id="237" frequency="1" keyword="cloud">cloud</keyword>
+    <keyword id="274" frequency="1" keyword="cow">cow</keyword>
+    <keyword id="472" frequency="2" keyword="god">god</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="637" frequency="1" keyword="knee">knee</keyword>
+    <keyword id="749" frequency="1" keyword="marie">Marie</keyword>
+    <keyword id="783" frequency="1" keyword="mill">mill</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="904" frequency="1" keyword="parish_clerk">parish clerk</keyword>
+    <keyword id="974" frequency="1" keyword="poor">poor</keyword>
+    <keyword id="989" frequency="2" keyword="prayer">prayer</keyword>
+    <keyword id="994" frequency="1" keyword="priest">priest</keyword>
+    <keyword id="1011" frequency="2" keyword="rain">rain</keyword>
+    <keyword id="1176" frequency="1" keyword="spoon">spoon</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1217" frequency="1" keyword="sun">sun</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+  </keywords>
+  <etk_index id="41">
+    <heading_danish>Danske B&#xF8;rnerim, Remser og Lege</heading_danish>
+    <heading_english>Danish Children's Rhymes, Counting-out Rhymes, and Games</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="37" display_name="Places: Mill"/>
+    <tango_index id="124" display_name="Time, Season, Weather: Rain"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="14" name="Game"/>
+</story>

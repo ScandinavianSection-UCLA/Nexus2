@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<story story_id="903">
+  <publication_info>DS_VII_597</publication_info>
+  <full_name>566 - 0.00 - DS_VII_597</full_name>
+  <informant_id>566</informant_id>
+  <informant_last_name>Gundesen</informant_last_name>
+  <informant_first_name>Gunde</informant_first_name>
+  <informant_full_name>Gunde Gundesen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>927</place_id>
+      <name>Kjelst</name>
+      <display_name>Kjelst (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>751</place_id>
+      <name>Billum</name>
+      <display_name>Billum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="88">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_43</publication_info>
+      <full_name>150 - 3.25 - JAH_I_43</full_name>
+      <url>data/stories/88.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Billum boede en gammel kone, om hvem de sagde, at hun kunde prikke i en s&#xE6;tte, og s&#xE5; kom m&#xE6;lken i den. Vi havde en provst Sehested, han sagde til hende, at hun kunde samle lige s&#xE5; meget sm&#xF6;r som alle bykonerne. Hun svarede, at hun havde ikke andet, end hun havde med Gud og &#xE6;ren. S&#xE5; siger han: "Det har jeg ikke sagt, at du ikke havde det med Gud og &#xE6;ren, det har jeg ikke sagt."</danish_publication>
+  <english_publication>There was an old woman who lived in Billum about whom they said that she could poke a little hole in a milk bucket and then milk would flow into it. We had a dean here by the name of Sehested who said to her that she could gather just as much butter as all the other village women. She answered that she had nothing other than what she had gotten by god and honor. Then he says: &#x201C;I didn&#x2019;t say that you didn&#x2019;t have it by god and honor, I didn&#x2019;t say that.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="151" frequency="1" keyword="bucket">bucket</keyword>
+    <keyword id="163" frequency="1" keyword="butter">butter</keyword>
+    <keyword id="313" frequency="1" keyword="dean">dean</keyword>
+    <keyword id="472" frequency="2" keyword="god">god</keyword>
+    <keyword id="541" frequency="2" keyword="honor">honor</keyword>
+    <keyword id="782" frequency="2" keyword="milk">milk</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1300" frequency="1" keyword="village">village</keyword>
+    <keyword id="1356" frequency="2" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

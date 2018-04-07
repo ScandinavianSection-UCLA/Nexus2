@@ -1,0 +1,46 @@
+<informant><person_id>390</person_id>
+  <core_informant/>
+  <full_name>Skovrider Mads Holdt</full_name>
+  <last_name>Holdt</last_name>
+  <first_name>Mads</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>687</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>390</informant_id>
+      <publication_info>DS_IV_1762</publication_info>
+      <full_name>390 - 0.00 - DS_IV_1762</full_name>
+      <url>data/stories/687.dfl</url>
+      <place_recorded><id>847</id>P&#229;b&#248;l</place_recorded>
+      <places_mentioned>
+        <place><id>1050</id>
+          <name>Hejnsvig</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>847</place_id>
+      <name>P&#229;b&#248;l</name>
+      <display_name>P&#229;b&#248;l (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1050</place_id>
+      <name>Hejnsvig</name>
+      <display_name>Hejnsvig (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

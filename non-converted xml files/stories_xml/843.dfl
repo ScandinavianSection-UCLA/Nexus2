@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<story story_id="843">
+  <publication_info>DS_II_A_76</publication_info>
+  <full_name>379 - 0.00 - DS_II_A_76</full_name>
+  <informant_id>379</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Mads</informant_first_name>
+  <informant_full_name>L&#xE6;rer Mads Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>772</place_id>
+      <name>F&#xE5;rdrup</name>
+      <display_name>F&#xE5;rdrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>981</place_id>
+      <name>Bog&#xF8;</name>
+      <display_name>Bog&#xF8; (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="281">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_100</publication_info>
+      <full_name>235 - 1.60 - DS_II_A_100</full_name>
+      <url>data/stories/281.dfl</url>
+    </story>
+    <story story_id="776">
+      <informant_id>402</informant_id>
+      <publication_info>DS_II_A_50</publication_info>
+      <full_name>402 - 0.00 - DS_II_A_50</full_name>
+      <url>data/stories/776.dfl</url>
+    </story>
+    <story story_id="571">
+      <informant_id>240</informant_id>
+      <publication_info>DS_II_A_95</publication_info>
+      <full_name>240 - 0.00 - DS_II_A_95</full_name>
+      <url>data/stories/571.dfl</url>
+    </story>
+    <story story_id="572">
+      <informant_id>240</informant_id>
+      <publication_info>DS_II_A_96</publication_info>
+      <full_name>240 - 0.00 - DS_II_A_96</full_name>
+      <url>data/stories/572.dfl</url>
+    </story>
+    <story story_id="608">
+      <informant_id>352</informant_id>
+      <publication_info>DS_II_A_91</publication_info>
+      <full_name>352 - 0.00 - DS_II_A_91</full_name>
+      <url>data/stories/608.dfl</url>
+    </story>
+    <story story_id="262">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_99</publication_info>
+      <full_name>235 - 1.42 - DS_II_A_99</full_name>
+      <url>data/stories/262.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I skoven p&#xE5; Bog&#xF8; gik beboernes kv&#xE6;g l&#xF8;st i f&#xE6;llig, og n&#xE5;r nu pigerne, som fulgtes ad ud at malke, havde malket hver sine k&#xF8;er, kaldte de p&#xE5; hverandre for at f&#xF8;lges ad hjem. Men en dag, som de skulde til at g&#xE5; hjem, manglede den ene pige, som slet ikke vilde svare, hvor meget de end kaldte. Til sidst gik de omkring for at lede hende op og traf hende da enlig siddende i en ellemose ganske forvirret i hovedet. De fik hende med n&#xF8;d og n&#xE6;ppe hjem med, og her fortalte hun, at der ved ellemosen var kommen en s&#xE5;dan dejlig mand til hende og havde spurgt hende, om hun vilde v&#xE6;re hans kj&#xE6;reste, og ved sin tale bed&#xE5;ret hende, s&#xE5; at hun ikke kunde komme v&#xE6;k fra ham; han havde ogs&#xE5; lokket hende til, at hun ikke skulde svare, n&#xE5;r de andre piger kaldte p&#xE5; hende. Siden skulde hun hver gang ned til ellemosen, men en gang gav nogen hende det r&#xE5;d, at n&#xE5;r ellekongen kom igjen, skulde hun tre gange sige til ham: "Vend dig, at jeg kan se, om du er bag som for." Dette gjorde hun n&#xE6;ste gang, og da hun nu s&#xE5;, at han var hul bagtil, r&#xE5;bte hun: "Nej fy, du er jo s&#xE5; hul som et dejtrug!" hvorp&#xE5; han forlod hende, og siden den tid havde hun fred for ham.</danish_publication>
+  <english_publication>In the woods on Bog&#xF8;, the people&#x2019;s cattle grazed in common, and when the maids who went out together to milk had milked their cows, they called to each other to walk home together. But one day when they were going to go home, one of the girls was missing and she wouldn&#x2019;t answer no matter how much they called. Finally they walked around to try and find her and they found her finally sitting in an alder swamp quite confused. They managed with great difficulty to get her home and there she told them that a wonderfully nice man had come to her by the alder swamp and asked her if she would be his lover, and with his speech he&#x2019;d entranced her so she couldn&#x2019;t get away from him. He had also entranced her so she couldn&#x2019;t answer when the other girls called to her. After that, she had to go down to the alder swamp each time they went out, but one time somebody advised her that when the elf king came again she should say to him three times, &#x201C;Turn around so I can see if you're the same in back as in front.&#x201D; She did that the next time and when she now saw that he was hollow in the back, she cried out: &#x201C;No, damn it, you&#x2019;re as hollow as a dough trough!&#x201D; at which point he deserted her and, after that time, she had peace from him.</english_publication>
+  <keywords>
+    <keyword id="12" frequency="1" keyword="advice">advice</keyword>
+    <keyword id="17" frequency="3" keyword="alderwood">alderwood</keyword>
+    <keyword id="190" frequency="1" keyword="cattle">cattle</keyword>
+    <keyword id="274" frequency="1" keyword="cow">cow</keyword>
+    <keyword id="285" frequency="1" keyword="crying">crying</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="347" frequency="1" keyword="dough_trough">dough trough</keyword>
+    <keyword id="373" frequency="1" keyword="elf">elf</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="484" frequency="1" keyword="grazing">grazing</keyword>
+    <keyword id="535" frequency="2" keyword="hollow">hollow</keyword>
+    <keyword id="537" frequency="3" keyword="home">home</keyword>
+    <keyword id="726" frequency="1" keyword="love">love</keyword>
+    <keyword id="735" frequency="1" keyword="maid">maid</keyword>
+    <keyword id="782" frequency="2" keyword="milk">milk</keyword>
+    <keyword id="1228" frequency="3" keyword="swamp">swamp</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+    <tango_index id="133" display_name="Actions or events: Seduction"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

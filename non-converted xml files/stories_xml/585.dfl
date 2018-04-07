@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<story story_id="585">
+  <publication_info>DS_IV_1406</publication_info>
+  <full_name>144 - 0.00 - DS_IV_1406</full_name>
+  <informant_id>144</informant_id>
+  <informant_last_name>Kristensdatter</informant_last_name>
+  <informant_first_name>Johanne Marie</informant_first_name>
+  <informant_full_name>Johanne Marie Kristensdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>313</place_id>
+      <name>Jerslev</name>
+      <display_name>Jerslev (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="164">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1408</publication_info>
+      <full_name>241 - 2.14 - DS_IV_1408</full_name>
+      <url>data/stories/164.dfl</url>
+    </story>
+    <story story_id="560">
+      <informant_id>68</informant_id>
+      <publication_info>DS_IV_1405</publication_info>
+      <full_name>68 - 0.00 - DS_IV_1405</full_name>
+      <url>data/stories/560.dfl</url>
+    </story>
+    <story story_id="574">
+      <informant_id>65</informant_id>
+      <publication_info>DS_IV_1388</publication_info>
+      <full_name>65 - 0.00 - DS_IV_1388</full_name>
+      <url>data/stories/574.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En smed og en kone levede godt sammen og var kj&#xF6;nne str&#xE6;bsomme folk, men s&#xE5; blev han syg og l&#xE5; to &#xE5;rs tid. De havde en svend, og han kunde godt forrette arbejdet, s&#xE5; kunderne blev lige godt ved at tage dertil. Konen tykte, at det kostede for meget at have manden der liggende, og blev til sidst led ved ham. Samtidig blev hun mere fortrolig med karlen, og de fandt p&#xE5; at tage livet af manden. Karlen skulde smede et langt s&#xF6;m til hende, og hun bildte ham ind, hun vilde sl&#xE5; det ind et sted at h&#xE6;nge noget p&#xE5;. Siden han havde smedet det, talte hun med ham om at sl&#xE5; det i hovedet p&#xE5; smeden, og s&#xE5; skulde de have hverandre. Hun holdt s&#xF6;mmet, og han slog til, og s&#xE5; blev de gift og levede sammen i 30 &#xE5;r. S&#xE5; var det en dag, graveren gravede p&#xE5; kirkeg&#xE5;rden, som han gjorde s&#xE5; tit, og kastede den hovedskal op med det s&#xF6;m i og kunde nok forst&#xE5;, at her var noget ford&#xF8;lgt. Han bar hovedskallen ned til pr&#xE6;sten, og graveren var s&#xE5; gammel, at han kunde huske, hvem der var begravet p&#xE5; den plads. Pr&#xE6;sten sender s&#xE5; bud efter konen og sp&#xF6;rger, om hun kan kjende hendes mand. Nej, det var da ikke at snakke om, da han var d&#xF8;d for 30 &#xE5;r siden. S&#xE5; kom han med den skal og viste hende, og s&#xE5; kunde hun nok kjende ham. De kom begge til at lide deres straf her i livet, b&#xE5;de svenden og konen.</danish_publication>
+  <english_publication>A smith and his wife lived well together and were hardworking folks, but then he fell ill and lay in bed for two years. They had a journeyman, and he could take care of the work, so the customers continued to come there. The woman felt that it cost too much with her husband lying about and finally became nasty toward him. At the same time, she became closer to the journeyman, and they decided to kill the man. The journeyman was to make a long nail for her, and she convinced him that she was going to bang it in some place so she could hang something on it. After he'd made it, she talked to him about banging it into the smith's head, and then they would have each other. She held the nail and he hit it, and then they got married and lived together for thirty years. Then one day, the gravedigger was digging at the cemetery, as he so often did, and he dug up the skull with the nail in it, and he realized that something had been covered up here. He carried the skull down to the minister, and the gravedigger was so old that he could remember who was buried there. The minister sends for the woman and asks if she could recognize her husband. No, there was no reason to talk about that since he'd been dead for thirty years. Then he came with the skull and showed it to her, and then she could recognize him. They both got to suffer their punishment here in this life, both the journeyman and the wife.</english_publication>
+  <keywords>
+    <keyword id="68" frequency="2" keyword="banging">banging</keyword>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="196" frequency="1" keyword="cemetery">cemetery</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="326" frequency="2" keyword="digging">digging</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="483" frequency="2" keyword="grave">grave</keyword>
+    <keyword id="552" frequency="1" keyword="husband">husband</keyword>
+    <keyword id="555" frequency="1" keyword="ill">ill</keyword>
+    <keyword id="608" frequency="4" keyword="journeyman">journeyman</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="753" frequency="1" keyword="marriage">marriage</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="820" frequency="3" keyword="nail">nail</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1004" frequency="1" keyword="punishment">punishment</keyword>
+    <keyword id="1136" frequency="3" keyword="skull">skull</keyword>
+    <keyword id="1146" frequency="2" keyword="smithing">smithing</keyword>
+    <keyword id="1343" frequency="2" keyword="wife">wife</keyword>
+    <keyword id="1356" frequency="2" keyword="woman">woman</keyword>
+    <keyword id="1361" frequency="1" keyword="work">work</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

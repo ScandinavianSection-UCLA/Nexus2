@@ -1,0 +1,86 @@
+<informant><person_id>130</person_id>
+  <core_informant/>
+  <full_name>S&#248;ren J&#248;rgensen</full_name>
+  <last_name>J&#248;rgensen</last_name>
+  <first_name>S&#248;ren</first_name>
+  <gender>m</gender>
+  <birth_date>0000-00-00</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>24</occupation_id>G&#229;rdmand</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>831</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>130</informant_id>
+      <publication_info>DS_VII_176</publication_info>
+      <full_name>130 - 0.00 - DS_VII_176</full_name>
+      <url>data/stories/831.dfl</url>
+      <place_recorded><id>768</id>Engesvang</place_recorded>
+      <places_mentioned>
+        <place><id>193</id>
+          <name>Gj&#248;dvad</name>
+        </place>
+        <place><id>349</id>
+          <name>Kragelund</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>832</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>130</informant_id>
+      <publication_info>DS_IV_1518</publication_info>
+      <full_name>130 - 0.00 - DS_IV_1518</full_name>
+      <url>data/stories/832.dfl</url>
+      <place_recorded><id>22</id>Alken</place_recorded>
+      <places_mentioned>
+        <place><id>309</id>
+          <name>Illerup</name>
+        </place>
+        <place><id>253</id>
+          <name>Hemstok</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>768</place_id>
+      <name>Engesvang</name>
+      <display_name>Engesvang (stories recorded here)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>22</place_id>
+      <name>Alken</name>
+      <display_name>Alken (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>253</place_id>
+      <name>Hemstok</name>
+      <display_name>Hemstok (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>309</place_id>
+      <name>Illerup</name>
+      <display_name>Illerup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>349</place_id>
+      <name>Kragelund</name>
+      <display_name>Kragelund (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>193</place_id>
+      <name>Gj&#248;dvad</name>
+      <display_name>Gj&#248;dvad (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

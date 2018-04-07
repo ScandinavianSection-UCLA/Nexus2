@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<story story_id="449">
+  <publication_info>DS_II_F_4</publication_info>
+  <full_name>485 - 0.00 - DS_II_F_4</full_name>
+  <informant_id>485</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Anton</informant_first_name>
+  <informant_full_name>L&#xE6;rer Anton Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>832</place_id>
+      <name>Munkebj&#xE6;rgby</name>
+      <display_name>Munkebj&#xE6;rgby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="62">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_F_14</publication_info>
+      <full_name>150 - 2.15 - DS_II_F_14</full_name>
+      <url>data/stories/62.dfl</url>
+    </story>
+    <story story_id="595">
+      <informant_id>387</informant_id>
+      <publication_info>DS_II_F_18</publication_info>
+      <full_name>387 - 0.00 - DS_II_F_18</full_name>
+      <url>data/stories/595.dfl</url>
+    </story>
+    <story story_id="622">
+      <informant_id>449</informant_id>
+      <publication_info>DS_II_F_2</publication_info>
+      <full_name>449 - 0.00 - DS_II_F_2</full_name>
+      <url>data/stories/622.dfl</url>
+    </story>
+    <story story_id="660">
+      <informant_id>364</informant_id>
+      <publication_info>DS_II_F_8</publication_info>
+      <full_name>364 - 0.00 - DS_II_F_8</full_name>
+      <url>data/stories/660.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>N&#xE5;r piger kryber n&#xF8;gne igjennem en f&#xF8;lleham, skal de kunne f&#xF8;de b&#xF6;rn lige s&#xE5; let, som n&#xE5;r et &#xF8;g foler... Varulven g&#xE5;r omkring i skikkelse af et vildt dyr eller en stor hund og graver sig ind under syldstenene.</danish_publication>
+  <english_publication>When girls crawl naked through a foal's skin, then they'll have children just as easily as a jade foals&#x2026; The werewolf goes about in the shape of a wild animal or a big dog and digs itself in under the foundation stones of a house.</english_publication>
+  <keywords>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="343" frequency="1" keyword="dog">dog</keyword>
+    <keyword id="427" frequency="2" keyword="foal">foal</keyword>
+    <keyword id="440" frequency="1" keyword="foundation">foundation</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="571" frequency="1" keyword="jade">jade</keyword>
+    <keyword id="821" frequency="1" keyword="naked">naked</keyword>
+    <keyword id="1128" frequency="1" keyword="skin">skin</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1330" frequency="1" keyword="werewolf">werewolf</keyword>
+  </keywords>
+  <etk_index id="7">
+    <heading_danish>Varulve og marer</heading_danish>
+    <heading_english>Werewolves and nightmares</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="67" display_name="Supernatural Beings: Werewolf"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

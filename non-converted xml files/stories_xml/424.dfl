@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<story story_id="424">
+  <publication_info>DS_VI_995</publication_info>
+  <full_name>123 - 3.21 - DS_VI_995</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.21</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="428">
+      <informant_id>123</informant_id>
+      <publication_info>GKV</publication_info>
+      <full_name>123 - 4.00 - GKV</full_name>
+      <url>data/stories/428.dfl</url>
+    </story>
+    <story story_id="258">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VI_981</publication_info>
+      <full_name>235 - 1.38 - DS_VI_981</full_name>
+      <url>data/stories/258.dfl</url>
+    </story>
+    <story story_id="741">
+      <informant_id>111</informant_id>
+      <publication_info>DS_VI_1004</publication_info>
+      <full_name>111 - 0.00 - DS_VI_1004</full_name>
+      <url>data/stories/741.dfl</url>
+    </story>
+    <story story_id="352">
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1028</publication_info>
+      <full_name>90 - 2.20 - DS_VI_1028</full_name>
+      <url>data/stories/352.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3802b (2)</fielddiary_page_start>
+  <fielddiary_page_end>3802b (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Stampeding animals were a danger not only to the animals (they could easily trip and break a leg on the fields, which would require them to be killed), but also to the shepherds (who could be trampled) and to the fields (where crops could be trampled). Accordingly, the ability to stop a stampede would be greatly valued. Here, the stopping of the stampede relies on supernatural intervention (KMP 1.38). In many cases, the person who stops the stampede is a cunning person (DS VI 1004); in some cases, the stampede is caused by a witch (AMJ 2.20). The cost of stopping the stampede is nevertheless significant, and leaves a clear imprint on the farm's economy, as horses were a greatly valued asset.</annotation>
+  <danish_manuscript>De B&#xE6;ster der bliver stilt. de duer aldrig
+mere. Min Plejefader kunde gj&#xF8;re det.
+</danish_manuscript>
+  <english_manuscript>Horses that have been stopped are never any good any longer. My foster father could do it.</english_manuscript>
+  <danish_publication>Min plejefader kunde stille l&#xF8;bske b&#xE6;ster, men de b&#xE6;ster, der s&#xE5;dan bliver stilt, de duer aldrig mere.</danish_publication>
+  <english_publication>My foster father could stop runaway horses, but horses that have been stopped like that are never any good any longer.</english_publication>
+  <keywords>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+  </keywords>
+  <etk_index id="28">
+    <heading_danish>Kloge m&#xE6;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

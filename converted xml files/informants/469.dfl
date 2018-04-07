@@ -1,0 +1,46 @@
+<informant><person_id>469</person_id>
+  <core_informant/>
+  <full_name>Hans Jensen Mand</full_name>
+  <last_name>Mand</last_name>
+  <first_name>Hans Jensen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>534</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>469</informant_id>
+      <publication_info>DS_III_898</publication_info>
+      <full_name>469 - 0.00 - DS_III_898</full_name>
+      <url>data/stories/534.dfl</url>
+      <place_recorded><id>849</id>Pilemark, Sams&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>670</id>
+          <name>Tvilum</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>849</place_id>
+      <name>Pilemark, Sams&#248;</name>
+      <display_name>Pilemark, Sams&#248; (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>670</place_id>
+      <name>Tvilum</name>
+      <display_name>Tvilum (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

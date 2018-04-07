@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<story story_id="190">
+  <publication_info>DSnr_II_C_91</publication_info>
+  <full_name>241 - 4.18 - DSnr_II_C_91</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>4.18</order_told>
+  <fieldtrip id="8">May-June 1898</fieldtrip>
+  <fieldtrip_start_date>1898-05-23</fieldtrip_start_date>
+  <fieldtrip_end_date>1898-06-08</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>509</place_id>
+      <name>S&#xE6;by</name>
+      <display_name>S&#xE6;by (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="189">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_III_1380</publication_info>
+      <full_name>241 - 4.17 - DSnr_III_1380</full_name>
+      <url>data/stories/189.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7811b</fielddiary_page_start>
+  <fielddiary_page_end>7811b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens Peter's coda to the previous story appears as a separate record in Tang Kristensen's printed collection. The statement makes little sense divorced from the performance context, since the pronoun "her" refers to the treasure (JPP 4.17) and not to the dragon, as it appears in the published version.</annotation>
+  <danish_manuscript>I nogle H&#xF8;je norden for S&#xE6;by var der
+ogsaa en Drage og der var ogsaa Kvinder
+til at grave hende ud.</danish_manuscript>
+  <english_manuscript>In some mounds north of S&#xE6;by there was also a dragon and there were also some women along to dig her out.</english_manuscript>
+  <danish_publication>I nogle H&#xF8;je norden for S&#xE6;by var der ogsaa en Drage, og der var ogsaa Kvinder med til at grave hende ud.</danish_publication>
+  <english_publication>In some mounds north of S&#xE6;by there was also a dragon and there were also some women along to dig her out.</english_publication>
+  <keywords>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="349" frequency="1" keyword="dragon">dragon</keyword>
+    <keyword id="804" frequency="1" keyword="mound">mound</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="4">
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="137" display_name="Supernatural Beings: Dragon"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

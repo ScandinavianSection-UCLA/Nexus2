@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<story story_id="419">
+  <publication_info>DS_III_1779</publication_info>
+  <full_name>123 - 3.16 - DS_III_1779</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.16</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>480</place_id>
+      <name>Ravns&#xF8;</name>
+      <display_name>Ravns&#xF8; (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>691</place_id>
+      <name>Veng</name>
+      <display_name>Veng (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="418">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_G356</publication_info>
+      <full_name>123 - 3.15 - DS_II_G356</full_name>
+      <url>data/stories/418.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3801a</fielddiary_page_start>
+  <fielddiary_page_end>3801a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Stories about apocalyptic changes in the landscape (PJ 3.15) leads Peder to make several short comments on local topography. The Danish landscape, particularly that of Jutland, changed fairly radically during the nineteenth century. Heathland was drained and turned into arable land, mounds were leveled both for marl and to make plowing and harvesting more efficient, and drain tile was laid to make drainage across fields consistent. All of these developments led to noticeable, and at times surprising, changes to seemingly stable features of the landscape.</annotation>
+  <danish_manuscript>Et sted om ved Vengegaard der kaldes Min-
+det. Der har v&#xE6;ret en S&#xF8; l&#xE6;ngre oppe, som
+kaldes den Dag i Dag Pittes&#xF8;en, d. er paa
+H&#xF8;ver Mark ved Gammelgaard og den S&#xF8;
+har staaet i Forbindelse med [Mos] Ravn S&#xF8; og
+Udl&#xF8;bet af den var ved Mindet. Det har
+v&#xE6;ret en v&#xE6;ldig stor S&#xF8; en G. men nu er
+det ikke andet end et Mosehul.
+</danish_manuscript>
+  <english_manuscript>There's a place over by Venge farm, which is called Mindet (the memorial). There's another lake farther up, that is still called Pittes&#xF8; to this very day, it's out on H&#xF8;ver Mark near Gammelgaard, and that lake was connected to Ravn s&#xF8; and it's outlet was in Mindet. It was a really big lake once but now it isn't much more than a swamp hole.</english_manuscript>
+  <danish_publication>Der er et sted omme ved Vengeg&#xE5;rd, der kaldes Mindet, det har v&#xE6;ret forbindelsen mellem Ravn s&#xF8; og en anden v&#xE6;ldig stor s&#xF8; l&#xE6;ngere oppe, der kaldes den dag i dag Pittes&#xF8;en, men nu er slet ikke andet end et mosehul. Den er p&#xE5; Hover mark ved Gammelg&#xE5;rd.</danish_publication>
+  <english_publication>There&#x2019;s a place over by Venge farm which is called Mindet (the memorial), it was the connection between Ravn lake and another really big lake farther up, which is still called Pitte Lake today, but it isn&#x2019;t anything but a little swamp now. It&#x2019;s on H&#xF8;ver field near Old Farm.</english_publication>
+  <keywords>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="679" frequency="3" keyword="lake">lake</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1228" frequency="1" keyword="swamp">swamp</keyword>
+    <keyword id="1265" frequency="1" keyword="today">today</keyword>
+  </keywords>
+  <etk_index id="14">
+    <heading_danish>Forskjellige stedsagn</heading_danish>
+    <heading_english>Diverse place legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

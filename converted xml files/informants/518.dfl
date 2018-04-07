@@ -1,0 +1,54 @@
+<informant><person_id>518</person_id>
+  <core_informant/>
+  <full_name>S&#248;ren Pedersen</full_name>
+  <last_name>Pedersen</last_name>
+  <first_name>S&#248;ren</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>837</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>518</informant_id>
+      <publication_info>DS_VI_315</publication_info>
+      <full_name>518 - 0.00 - DS_VI_315</full_name>
+      <url>data/stories/837.dfl</url>
+      <place_recorded><id>798</id>Hosby</place_recorded>
+      <places_mentioned>
+        <place><id>326</id>
+          <name>Kirkholm</name>
+        </place>
+        <place><id>329</id>
+          <name>Klakring</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>798</place_id>
+      <name>Hosby</name>
+      <display_name>Hosby (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>329</place_id>
+      <name>Klakring</name>
+      <display_name>Klakring (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>326</place_id>
+      <name>Kirkholm</name>
+      <display_name>Kirkholm (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

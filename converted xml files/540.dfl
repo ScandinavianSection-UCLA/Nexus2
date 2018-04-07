@@ -1,0 +1,46 @@
+<informant><person_id>540</person_id>
+  <core_informant/>
+  <full_name>Karl S&#248;rensen</full_name>
+  <last_name>S&#248;rensen</last_name>
+  <first_name>Karl</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>612</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>540</informant_id>
+      <publication_info>DS_V_386</publication_info>
+      <full_name>540 - 0.00 - DS_V_386</full_name>
+      <url>data/stories/612.dfl</url>
+      <place_recorded><id>906</id>Vester T&#248;rslev</place_recorded>
+      <places_mentioned>
+        <place><id>32</id>
+          <name>Andrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>906</place_id>
+      <name>Vester T&#248;rslev</name>
+      <display_name>Vester T&#248;rslev (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>32</place_id>
+      <name>Andrup</name>
+      <display_name>Andrup (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

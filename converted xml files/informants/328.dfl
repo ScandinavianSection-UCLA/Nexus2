@@ -1,0 +1,54 @@
+<informant><person_id>328</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer V. Bennike</full_name>
+  <last_name>Bennike</last_name>
+  <first_name>V.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>856</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>328</informant_id>
+      <publication_info>DS_II_F_65</publication_info>
+      <full_name>328 - 0.00 - DS_II_F_65</full_name>
+      <url>data/stories/856.dfl</url>
+      <place_recorded><id>900</id>Vallekilde</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>858</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>328</informant_id>
+      <publication_info>DS_IV_1249</publication_info>
+      <full_name>328 - 0.00 - DS_IV_1249</full_name>
+      <url>data/stories/858.dfl</url>
+      <place_recorded><id>900</id>Vallekilde</place_recorded>
+      <places_mentioned>
+        <place><id>987</id>
+          <name>Tang&#229;g&#229;rd</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>900</place_id>
+      <name>Vallekilde</name>
+      <display_name>Vallekilde (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>987</place_id>
+      <name>Tang&#229;g&#229;rd</name>
+      <display_name>Tang&#229;g&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

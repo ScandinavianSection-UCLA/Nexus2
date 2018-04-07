@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<story story_id="355">
+  <publication_info>DS_V_51</publication_info>
+  <full_name>90 - 3.01 - DS_V_51</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>3.01</order_told>
+  <fieldtrip id="4">July 1894</fieldtrip>
+  <fieldtrip_start_date>1894-07-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-07-15</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>540</place_id>
+      <name>Skj&#xF8;dstrup</name>
+      <display_name>Skj&#xF8;dstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="351">
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_H_34</publication_info>
+      <full_name>90 - 2.19 - DS_II_H_34</full_name>
+      <url>data/stories/351.dfl</url>
+    </story>
+    <story story_id="842">
+      <informant_id>437</informant_id>
+      <publication_info>DS_V_97</publication_info>
+      <full_name>437 - 0.00 - DS_V_97</full_name>
+      <url>data/stories/842.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6717a</fielddiary_page_start>
+  <fielddiary_page_end>6717b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The role of lamb as a portent of death relies on an inversion: while a lamb usually represents renewal, birth and innocence (and is closely linked to the symbol of the lamb in Christianity), the lamb here represents death. Often, the corpse lamb is missing a leg and travels about only at night.
+
+     This variant differs from the one Tang Kristensen collected from Margrete five years earlier (AMJ 2.19). Here we learn that Margrete's father was born on a holiday, a liminal time in the year, and this affords him second sight. The threat posed by the fox, a main component of the complicating action of the earlier variant, is missing from this variant, while the role of the corpse lamb as an omen for an impending death is more fully developed.</annotation>
+  <danish_manuscript>Min fader er f&#xF8;dt selve Pintsemorgen og
+6717B
+han kunde se alt Skidteri. Ved Kattesundet 
+en Dam midt i Skj&#xF8;dstrup saa h en Aften
+en R&#xE6;v der gik fra den op efter Kirker, der
+havde den sin Vandring. Der var mange
+der saa den. Han kunde og se Liglammet
+det kom og pikkede paa D&#xF8;rene hvor nogen skulde d&#xF8;
+</danish_manuscript>
+  <english_manuscript>My father was born on Whitsunday itself, and he could see all sorts of stuff. By Kattesund, a pond in the middle of Skj&#xF8;dstrup, he saw a fox one evening that went from it up to the church, that's where it tended to wander about. There were many who saw it. He could also see the corpse lamb that went and tapped on the doors where somebody was to die.</english_manuscript>
+  <danish_publication>Min fader var f&#xF8;dt selve pintsemorgen, og han kunde se alt skidteri. Ved Kattesundet, en dam midt i Skj&#xF6;dstrup, s&#xE5; han en aften en r&#xE6;v, der gik fra den op efter kirken. Der var mange, der s&#xE5; den, for der havde den sin vandring. Han kunde og se liglammet, det kom og pikkede p&#xE5; d&#xF6;rene, hvor nogen skulde d&#xF8;.</danish_publication>
+  <english_publication>My father was born on Whitsunday itself, and he could see all sorts of stuff. By Kattesund, a pond in the middle of Skj&#xF8;dstrup, he saw a fox one evening that went from it up to the church. There were many who saw that, because that&#x2019;s where it tended to wander. He could also see the corpse lamb that went and tapped on the doors where somebody was to die.</english_publication>
+  <keywords>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="263" frequency="1" keyword="corpse_lamb">corpse lamb</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="441" frequency="1" keyword="fox">fox</keyword>
+    <keyword id="973" frequency="1" keyword="pond">pond</keyword>
+    <keyword id="1218" frequency="1" keyword="sunday">Sunday</keyword>
+    <keyword id="1315" frequency="1" keyword="wandering">wandering</keyword>
+    <keyword id="1341" frequency="1" keyword="whitsun">whitsun</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="102" display_name="Time, Season, Weather: Sunday"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="136" display_name="Animals: Wild"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,93 @@
+<story><story_id>637</story_id>
+  <publication_info>DS_IV_1729</publication_info>
+  <full_name>245 - 0.00 - DS_IV_1729</full_name>
+  <informant_id>245</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>545</story_id>
+      <informant_id>407</informant_id>
+      <publication_info>DS_IV_1749</publication_info>
+      <full_name>407 - 0.00 - DS_IV_1749</full_name>
+      <url>data/stories/545.dfl</url>
+    </story>
+    <story><story_id>829</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_IV_1707</publication_info>
+      <full_name>69 - 0.00 - DS_IV_1707</full_name>
+      <url>data/stories/829.dfl</url>
+    </story>
+    <story><story_id>874</story_id>
+      <informant_id/>
+      <publication_info>DS_IV_1728</publication_info>
+      <full_name>0 - 0.00 - DS_IV_1728</full_name>
+      <url>data/stories/874.dfl</url>
+    </story>
+    <story><story_id>466</story_id>
+      <informant_id>432</informant_id>
+      <publication_info>DS_IV_1695</publication_info>
+      <full_name>432 - 0.00 - DS_IV_1695</full_name>
+      <url>data/stories/466.dfl</url>
+    </story>
+    <story><story_id>558</story_id>
+      <informant_id>344</informant_id>
+      <publication_info>DS_IV_1696</publication_info>
+      <full_name>344 - 0.00 - DS_IV_1696</full_name>
+      <url>data/stories/558.dfl</url>
+    </story>
+    <story><story_id>392</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Folk var s&#229; n&#230;r d&#248;de ud af pesten, at der kun var &#233;t menneske her i egnen. S&#229; t&#230;nkte han ved sig selv, hvad han skulde nu hitte p&#229;. Han g&#229;r da oven p&#229; Ilbj&#230;rgene, hvor en kan t&#230;lle 18 kirker oppe, og der kunde han se ned p&#229; Mosbj&#230;rg sogn. Der var en bitte hytte der nede, det r&#246;gte op fra, og s&#229; vilde han g&#229; derned. Det var en gammel kone, der endnu var i live. De to slog deres pjalter tilsammen og blev ved hinanden, og det var de eneste mennesker her i egnen. Hun havde kj&#248;rt alle de d&#248;de hen og havde et &#248;g at kj&#248;re dem hen med, men kunde ikke blive syg, for det hun r&#246;gte af en kridpibe.</danish_publication>
+  <english_publication>So many people had died because of the plague that there was only one person left here in the area. So then he asked himself what he should do. He goes over to the top of Ilbj&#230;rgene from where you can count eighteen church spires, and from there he could see down into Mosbj&#230;rg parish. There was a small hut down there from which smoke was coming and so he decided to go down there. It was an old woman who was still alive. The two got married and stayed with each other, and they were the only ones here in the area. She had driven all the dead away and had only had one oxen to drive them away with, but she couldn&#8217;t get sick because she smoked a chalk pipe.</english_publication>
+  <keywords>
+    <keyword><id>203</id><frequency>1</frequency><keyword>chalk</keyword>chalk</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>266</id><frequency>1</frequency><keyword>count</keyword>count</keyword>
+    <keyword><id>317</id><frequency>2</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>753</id><frequency>1</frequency><keyword>marriage</keyword>marriage</keyword>
+    <keyword><id>809</id><frequency>1</frequency><keyword>mountain</keyword>mountain</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>892</id><frequency>1</frequency><keyword>ox</keyword>ox</keyword>
+    <keyword><id>903</id><frequency>1</frequency><keyword>parish</keyword>parish</keyword>
+    <keyword><id>954</id><frequency>1</frequency><keyword>pipe</keyword>pipe</keyword>
+    <keyword><id>959</id><frequency>1</frequency><keyword>plague</keyword>plague</keyword>
+    <keyword><id>1111</id><frequency>1</frequency><keyword>sickness</keyword>sickness</keyword>
+    <keyword><id>1147</id><frequency>1</frequency><keyword>smoke</keyword>smoke</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

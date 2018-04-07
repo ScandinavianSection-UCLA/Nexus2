@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<story story_id="714">
+  <publication_info>DS_II_A_106</publication_info>
+  <full_name>68 - 0.00 - DS_II_A_106</full_name>
+  <informant_id>68</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Mikkel</informant_first_name>
+  <informant_full_name>Mikkel Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <secondary_informants>
+    <informant id="25">Jens Nielsen B&#xE6;k</informant>
+  </secondary_informants>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_mentioned">
+      <place_id>1059</place_id>
+      <name>Havreballe skov</name>
+      <display_name>Havreballe skov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="571">
+      <informant_id>240</informant_id>
+      <publication_info>DS_II_A_95</publication_info>
+      <full_name>240 - 0.00 - DS_II_A_95</full_name>
+      <url>data/stories/571.dfl</url>
+    </story>
+    <story story_id="572">
+      <informant_id>240</informant_id>
+      <publication_info>DS_II_A_96</publication_info>
+      <full_name>240 - 0.00 - DS_II_A_96</full_name>
+      <url>data/stories/572.dfl</url>
+    </story>
+    <story story_id="347">
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_A_98</publication_info>
+      <full_name>90 - 2.15 - DS_II_A_98</full_name>
+      <url>data/stories/347.dfl</url>
+    </story>
+    <story story_id="262">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_99</publication_info>
+      <full_name>235 - 1.42 - DS_II_A_99</full_name>
+      <url>data/stories/262.dfl</url>
+    </story>
+    <story story_id="281">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_100</publication_info>
+      <full_name>235 - 1.60 - DS_II_A_100</full_name>
+      <url>data/stories/281.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Gamle Johanne har fortalt, at der var ellefolk i Havreballe skov. En karl, der var ude at lede efter nogle h&#xF6;veder en middag, var kommen til dem, og de dandsede med ham, og han gik ned til dem hver dag til en bestemt tid, og han viste folk, hvor han gik ned. Det var ved en ellerod. Men n&#xE5;r han var hjemme, var han s&#xE5; s&#xE6;r og kunde hverken sandse eller samle. Der m&#xE5;tte tre pr&#xE6;ster til ham og l&#xE6;se for ham, inden de fik ham l&#xF8;st ud af det. S&#xE5; var han rele efter den tid, men han skulde jo passe p&#xE5; ikke at komme der ud mere.</danish_publication>
+  <english_publication>Old Johanne said that there were elves in Havreballe forest. A farmhand, who was out looking for some cattle one afternoon, came across them and they danced with him, and he went down to them every day at a specific time and he showed people where he went down. It was an alder root. But when he was at home, he was really strange and he couldn&#x2019;t get his act together. They needed three priests to read for him before they got him released from it. Then he was better after that, but he had to watch out not to go out there anymore.</english_publication>
+  <keywords>
+    <keyword id="14" frequency="1" keyword="afternoon">afternoon</keyword>
+    <keyword id="190" frequency="1" keyword="cattle">cattle</keyword>
+    <keyword id="297" frequency="1" keyword="dancing">dancing</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="373" frequency="1" keyword="elf">elf</keyword>
+    <keyword id="378" frequency="1" keyword="elm">elm</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="877" frequency="1" keyword="old_johanne">Old Johanne</keyword>
+    <keyword id="994" frequency="1" keyword="priest">priest</keyword>
+    <keyword id="1043" frequency="1" keyword="root">root</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="110" display_name="Time, Season, Weather: Noon"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

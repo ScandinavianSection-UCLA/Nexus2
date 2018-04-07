@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<story story_id="573">
+  <publication_info>DS_V_1546</publication_info>
+  <full_name>534 - 0.00 - DS_V_1546</full_name>
+  <informant_id>534</informant_id>
+  <informant_last_name>Smed</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens Smed</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>807</place_id>
+      <name>J&#xE6;vngryde</name>
+      <display_name>J&#xE6;vngryde (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>807</place_id>
+      <name>J&#xE6;vngryde</name>
+      <display_name>J&#xE6;vngryde (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>651</place_id>
+      <name>T&#xF8;rring</name>
+      <display_name>T&#xF8;rring (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="791">
+      <informant_id>382</informant_id>
+      <publication_info>DS_V_1545</publication_info>
+      <full_name>382 - 0.00 - DS_V_1545</full_name>
+      <url>data/stories/791.dfl</url>
+    </story>
+    <story story_id="227">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1542</publication_info>
+      <full_name>235 - 1.08 - DS_V_1542</full_name>
+      <url>data/stories/227.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand fra T&#xF6;rring, Ras Povlsen, var til bryllup hos Jon p&#xE5; J&#xE6;vngyde mark, og da han gik hjem om natten og kom ud i Rander Krog, var der &#xE9;n, der gik og plovede. S&#xE5; m&#xE5;tte han til at kj&#xF8;re ploven for den, og blev ikke fri, inden det blev dag. Han m&#xE5;tte kj&#xF8;re hele natten. Da det dagedes, blev det henne alt sammen, og han vidste ikke, hvor det blev af. "S&#xE5; gik a sku hjem."</danish_publication>
+  <english_publication>A man from T&#xF8;rring, Ras Poulsen, was at a wedding at Jon&#x2019;s out on J&#xE6;vngyde field, and when he went home at night and came to Rander Krog, there was someone plowing. Then he had to go and plow for it, and wasn&#x2019;t free before daybreak. He had to plow all night. When day broke, all of it disappeared and he didn&#x2019;t know where it had gone. &#x201C;Then I went home, damn it.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="443" frequency="1" keyword="free">free</keyword>
+    <keyword id="537" frequency="2" keyword="home">home</keyword>
+    <keyword id="605" frequency="1" keyword="jon">Jon</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="964" frequency="1" keyword="plow">plow</keyword>
+    <keyword id="966" frequency="1" keyword="plowing">plowing</keyword>
+    <keyword id="1016" frequency="1" keyword="ras_poulsen">Ras Poulsen</keyword>
+    <keyword id="1327" frequency="1" keyword="wedding">wedding</keyword>
+  </keywords>
+  <etk_index id="25">
+    <heading_danish>Gjenf&#xE6;rd p&#xE5; uretf&#xE6;rdig jord</heading_danish>
+    <heading_english>Revenants on ill-gotten land</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="51" display_name="Tools, Items and Conveyances: Plow"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

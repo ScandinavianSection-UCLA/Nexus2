@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<story story_id="232">
+  <publication_info>DS_IV_289</publication_info>
+  <full_name>235 - 1.13 - DS_IV_289</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.13</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>231</place_id>
+      <name>Halling skov</name>
+      <display_name>Halling skov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="312">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_III_213</publication_info>
+      <full_name>235 - 3.10 - JAT_III_213</full_name>
+      <url>data/stories/312.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5214b</fielddiary_page_start>
+  <fielddiary_page_end>5214b</fielddiary_page_end>
+  <bibliographic_info>http://www.milhist.dk/andre/spanien/spanien.htm</bibliographic_info>
+  <bibliography_references/>
+  <annotation>In 1808, Napoleon sent five regiments totaling fourteen thousand Spanish troops to Denmark to assist in a proposed French-Danish invasion of Sweden, an ally of England. They were quartered throughout Denmark, including Kolding, where they accidentally burned down the Koldinghus castle. While most Danes were anxious about the arrival of these troops, given their bad experiences with the Polish troops in the late seventeenth century, the Spanish troops turned out to be much better guests. The troops were eventually evacuated by the British, once they discovered that their fellow Spaniards were engaged in a guerrilla war against Napoleon's rule in Spain.</annotation>
+  <danish_manuscript>Der laa en Gaard ude i Halling Skov der kald-
+tes Jungstrup. Det var vist Jungstrup-
+manden der kom op at slaas med en Spa-
+niol og slog ham ihiel.</danish_manuscript>
+  <english_manuscript>There was a farm out in Halling forest called Jungstrup. I believe it was the Jungstrup man who fought with a Spaniard and killed him.</english_manuscript>
+  <danish_publication>I Balling skov er en spansk rytter bleven sl&#xE5;et ihjel af beboerne og kast ned der. Der l&#xE5; en g&#xE5;rd ude i skoven, der kaldtes Jungstrup, og det var vist Jungstrupmanden, der kom op at sl&#xE5;s med Spaniolen og slog ham ihjel.</danish_publication>
+  <english_publication>A Spanish cavalry soldier was killed in Halling forest by the inhabitants there and thrown down there. There was a farm out in the woods called Jungstrup, and it was probably the Jungstrup man who fought with the Spaniard and killed him.</english_publication>
+  <keywords>
+    <keyword id="191" frequency="1" keyword="cavalry">cavalry</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="622" frequency="2" keyword="kill">kill</keyword>
+    <keyword id="1153" frequency="1" keyword="soldier">soldier</keyword>
+    <keyword id="1172" frequency="2" keyword="spanish">spanish</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="16">
+    <heading_danish>Sm&#xE5;konger og deres fejder. Konger. Fjenders indfald</heading_danish>
+    <heading_english>Small kings and their feuds. Kings. Enemy invasions</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="10" display_name="People: Foreigner"/>
+    <tango_index id="19" display_name="People: Soldier"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

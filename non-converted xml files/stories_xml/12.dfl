@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<story story_id="12">
+  <publication_info>DSkv_0_4_Anm.</publication_info>
+  <full_name>150 - 1.09 - DSkv_0_4_Anm.</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.09</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="62">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_F_14</publication_info>
+      <full_name>150 - 2.15 - DS_II_F_14</full_name>
+      <url>data/stories/62.dfl</url>
+    </story>
+    <story story_id="826">
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_F_15</publication_info>
+      <full_name>69 - 0.00 - DS_II_F_15</full_name>
+      <url>data/stories/826.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3239b</fielddiary_page_start>
+  <fielddiary_page_end>3239b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>In Et hundrede gamle Danske skj&#xE6;mteviser, Jens's verse is relegated to the apparatus of the three main variants of "Den slemme kj&#xE6;lling" [The bad hag]. In variant A, to which Jens's verse alludes, a young man is initiated into sex by an old hag. When he tries to rid himself of her by approaching the bishop, she reveals herself to be a shape shifter, ultimately turning into a werewolf whose private parts are torn out by a fence pole. In variant B, a young man marries a hag who turns out to be a witch, a surmise made explicit in a verse sung by a child at Lime school (DSkv 4). Ultimately, the young man runs an old rusty knife up into her behind, loosing a torrent of devils. In variant C, a farmhand has an affair with what he thinks is a young girl, but she turns out to be a hag--in this case, a mound woman, recognizable by her oven rake and peel-board. 
+
+      It is not hard to imagine that Jens is playing somewhat with the earnest folklore collector. While he takes his ballad singing quite seriously, he also has a broad repertoire that includes obscene and amusing songs. Not surprisingly, the fragment does not appear in DgF, although Grundtvig proposes certain similarities between the ballad and DgF 115, "Dansk Kongetal" [Danish Kings]. The main similarity concerns the hag of whom one cannot rid oneself.</annotation>
+  <danish_manuscript>Kj&#xE6;llingen sig til en W&#xE5;rulv mon skav'
+i Skoven s. monne hun tonte
+s. sprang hun over de tv&#xE6;re Gjar
+der r&#xF8;v hun ud hende Kondte
+-------------------------------------
+[Det h&#xE6;ndte sig for gangen Aften
+forsildig]
+</danish_manuscript>
+  <english_manuscript>The bitch turned herself into a werewolf
+and she ran off into the woods;
+she jumped over the two fences
+and there she tore out her cunt
+----
+[It happened really late the other night]</english_manuscript>
+  <danish_publication>Kj&#xE6;llingen sig til en w&#xE5;&#xE5;rulv mon skab',
+i skoven s&#xE5; monne hun tondte:
+s&#xE5; sprang hun over de tw&#xE6;re gjaar,
+der r&#xF6;v hun ud hende k..dte.</danish_publication>
+  <english_publication>The bitch turned herself into a werewolf
+and she ran off into the woods;
+she jumped over the two fences
+and there she tore out her c.nt
+</english_publication>
+  <keywords>
+    <keyword id="407" frequency="1" keyword="fence">fence</keyword>
+    <keyword id="1330" frequency="1" keyword="werewolf">werewolf</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="38">
+    <heading_danish>Dansk Skj&#xE6;mteviser</heading_danish>
+    <heading_english>Danish Jocular Ballads</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="24" display_name="People: Unspecified"/>
+    <tango_index id="67" display_name="Supernatural Beings: Werewolf"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="5" name="Ballad"/>
+</story>

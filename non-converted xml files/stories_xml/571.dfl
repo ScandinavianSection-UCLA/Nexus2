@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<story story_id="571">
+  <publication_info>DS_II_A_95</publication_info>
+  <full_name>240 - 0.00 - DS_II_A_95</full_name>
+  <informant_id>240</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>807</place_id>
+      <name>J&#xE6;vngryde</name>
+      <display_name>J&#xE6;vngryde (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>23</place_id>
+      <name>Alling</name>
+      <display_name>Alling (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="262">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_99</publication_info>
+      <full_name>235 - 1.42 - DS_II_A_99</full_name>
+      <url>data/stories/262.dfl</url>
+    </story>
+    <story story_id="608">
+      <informant_id>352</informant_id>
+      <publication_info>DS_II_A_91</publication_info>
+      <full_name>352 - 0.00 - DS_II_A_91</full_name>
+      <url>data/stories/608.dfl</url>
+    </story>
+    <story story_id="714">
+      <informant_id>68</informant_id>
+      <publication_info>DS_II_A_106</publication_info>
+      <full_name>68 - 0.00 - DS_II_A_106</full_name>
+      <url>data/stories/714.dfl</url>
+    </story>
+    <story story_id="726">
+      <informant_id>414</informant_id>
+      <publication_info>DS_II_A_74</publication_info>
+      <full_name>414 - 0.00 - DS_II_A_74</full_name>
+      <url>data/stories/726.dfl</url>
+    </story>
+    <story story_id="843">
+      <informant_id>379</informant_id>
+      <publication_info>DS_II_A_76</publication_info>
+      <full_name>379 - 0.00 - DS_II_A_76</full_name>
+      <url>data/stories/843.dfl</url>
+    </story>
+    <story story_id="572">
+      <informant_id>240</informant_id>
+      <publication_info>DS_II_A_96</publication_info>
+      <full_name>240 - 0.00 - DS_II_A_96</full_name>
+      <url>data/stories/572.dfl</url>
+    </story>
+    <story story_id="220">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_57</publication_info>
+      <full_name>235 - 1.01 - DS_II_A_57</full_name>
+      <url>data/stories/220.dfl</url>
+    </story>
+    <story story_id="281">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_100</publication_info>
+      <full_name>235 - 1.60 - DS_II_A_100</full_name>
+      <url>data/stories/281.dfl</url>
+    </story>
+    <story story_id="347">
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_A_98</publication_info>
+      <full_name>90 - 2.15 - DS_II_A_98</full_name>
+      <url>data/stories/347.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Alling var der en pige, der gik og passede en ko, og s&#xE5; kom der nogle ellefolk til hende og dandste med hende, og hun kunde ikke blive skilt ved dem. Hun var snart helt fra sandsen, da de kom til hende.</danish_publication>
+  <english_publication>In Alling, there was a girl who was taking care of a cow, and them some elves came and danced with her, and she couldn't get away from them. She was just about totally out of her mind when people finally got to her.</english_publication>
+  <keywords>
+    <keyword id="274" frequency="1" keyword="cow">cow</keyword>
+    <keyword id="297" frequency="1" keyword="dancing">dancing</keyword>
+    <keyword id="373" frequency="1" keyword="elf">elf</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<story story_id="618">
+  <publication_info>DS_VI_886</publication_info>
+  <full_name>323 - 0.00 - DS_VI_886</full_name>
+  <informant_id>323</informant_id>
+  <informant_last_name>Andersen</informant_last_name>
+  <informant_first_name>Knud</informant_first_name>
+  <informant_full_name>Knud Andersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>835</place_id>
+      <name>N&#xF8;rbeg</name>
+      <display_name>N&#xF8;rbeg (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>238</place_id>
+      <name>Handest</name>
+      <display_name>Handest (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>708</place_id>
+      <name>Vindbl&#xE6;s</name>
+      <display_name>Vindbl&#xE6;s (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="260">
+      <informant_id>235</informant_id>
+      <publication_info>DS_IV_1839</publication_info>
+      <full_name>235 - 1.40 - DS_IV_1839</full_name>
+      <url>data/stories/260.dfl</url>
+    </story>
+    <story story_id="542">
+      <informant_id>370</informant_id>
+      <publication_info>DS_VI_882</publication_info>
+      <full_name>370 - 0.00 - DS_VI_882</full_name>
+      <url>data/stories/542.dfl</url>
+    </story>
+    <story story_id="261">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VI_884</publication_info>
+      <full_name>235 - 1.41 - DS_VI_884</full_name>
+      <url>data/stories/261.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Et sted her ovre i Handest havde de v&#xE6;ret nede i Vindbl&#xE6;s ved den kloge kone for at s&#xF8;ge r&#xE5;d i sygdomstilf&#xE6;lde. Da de kom hjem, havde de kastet recepten hen. Da pigen sad ude om aftenen og malkede, kom der et stykke papir flyvende i spanden, og det var recepten. Hun havde ikke v&#xE6;ret med der nede, s&#xE5; det var s&#xE6;rt nok, at den kom til hende.
+      En gang kom der to doktorer og herredsfogden til konen i Vindbl&#xE6;s for at f&#xE6;ngsle hende. Men hun bad dem blot drage hjem og l&#xF8;ske lusene af dem. Da de nu kom hjem, var de s&#xE5; lusede, at de m&#xE5;tte til hende igjen for at blive fri for dem.</danish_publication>
+  <english_publication>At a place over here in Handest, they'd gone down to Vindbl&#xE6;s and the cunning woman there to ask for advice about an illness. When they came home, they threw the prescription away. Then the hired girl was sitting outside in the evening milking and a piece of paper flew into the bucket, and it was the prescription. She hadn't been with them down there, so it was strange that it came to her.
+      One time two doctors and the district bailiff came down to the woman in Vindbl&#xE6;s to arrest her. But she asked them to go home and delouse themselves. When they got home, they were so covered with lice that they had to go back to her to get rid of them.</english_publication>
+  <keywords>
+    <keyword id="12" frequency="1" keyword="advice">advice</keyword>
+    <keyword id="48" frequency="1" keyword="arrest">arrest</keyword>
+    <keyword id="151" frequency="1" keyword="bucket">bucket</keyword>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="337" frequency="1" keyword="district_bailiff">district bailiff</keyword>
+    <keyword id="342" frequency="1" keyword="doctor">doctor</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="537" frequency="3" keyword="home">home</keyword>
+    <keyword id="556" frequency="1" keyword="illness">illness</keyword>
+    <keyword id="782" frequency="1" keyword="milk">milk</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="900" frequency="1" keyword="paper">paper</keyword>
+    <keyword id="992" frequency="2" keyword="prescription">prescription</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="28">
+    <heading_danish>Kloge m&#xE6;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="2" display_name="People: Bailiff"/>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

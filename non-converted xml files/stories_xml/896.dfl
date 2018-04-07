@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<story story_id="896">
+  <publication_info>DS_II_G_95</publication_info>
+  <full_name>467 - 0.00 - DS_II_G_95</full_name>
+  <informant_id>467</informant_id>
+  <informant_last_name>Madsen</informant_last_name>
+  <informant_first_name>P. K.</informant_first_name>
+  <informant_full_name>L&#xE6;rer P. K. Madsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>924</place_id>
+      <name>Gr&#xE5;kj&#xE6;r</name>
+      <display_name>Gr&#xE5;kj&#xE6;r (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>259</place_id>
+      <name>Himmerland</name>
+      <display_name>Himmerland (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="894">
+      <informant_id>217</informant_id>
+      <publication_info>DS_II_G_93</publication_info>
+      <full_name>217 - 0.00 - DS_II_G_93</full_name>
+      <url>data/stories/894.dfl</url>
+    </story>
+    <story story_id="285">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_G_85</publication_info>
+      <full_name>235 - 2.02 - DS_II_G_85</full_name>
+      <url>data/stories/285.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En Himmelbo har fortalt, at der en dag kom en mand ind et sted i Himmerland, han var s&#xE5; gammel, at hans kl&#xE6;der var mosgroede, og s&#xE5; stod han hele tiden og lettede p&#xE5; f&#xF6;dderne, s&#xE5; omme var de, men han sagde ingen ting. Man b&#xF8;d ham en meldmad, han tog den ikke. S&#xE5; gik manden ind efter en skilling til ham, men da han kom igjen, var den gamle henne. Man s&#xE5; ud, han var ingen steder at se, og s&#xE5; tvivlede man ikke om, at det var Jerusalems skomager.</danish_publication>
+  <english_publication>Someone from Himmerland said that one day a man came to a place in Himmerland, and he was so old that his clothes were covered with moss, and he stood the whole time shifting from one foot to the other, that&#x2019;s how sore they were, but he didn&#x2019;t say anything. They offered him a sandwich, but he didn&#x2019;t take it. Then the man of the house went in to get a shilling for him, but when he came back out, the old man had disappeared. They looked about, but he was nowhere to be seen, and then they had no doubt that that had been the Jerusalem&#x2019;s Cobbler.</english_publication>
+  <keywords>
+    <keyword id="236" frequency="1" keyword="clothing">clothing</keyword>
+    <keyword id="242" frequency="1" keyword="cobbler">cobbler</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="433" frequency="1" keyword="foot">foot</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="873" frequency="2" keyword="old">old</keyword>
+    <keyword id="1067" frequency="1" keyword="sandwich">sandwich</keyword>
+    <keyword id="1100" frequency="1" keyword="shilling">shilling</keyword>
+    <keyword id="1155" frequency="1" keyword="sore">sore</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

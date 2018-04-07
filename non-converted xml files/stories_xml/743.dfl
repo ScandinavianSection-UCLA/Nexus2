@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<story story_id="743">
+  <publication_info>DS_III_2228</publication_info>
+  <full_name>416 - 0.00 - DS_III_2228</full_name>
+  <informant_id>416</informant_id>
+  <informant_last_name>Jonsen</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels Jonsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>749</place_id>
+      <name>B&#xE6;kke</name>
+      <display_name>B&#xE6;kke (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>749</place_id>
+      <name>B&#xE6;kke</name>
+      <display_name>B&#xE6;kke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="383">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_744</publication_info>
+      <full_name>123 - 2.09 - DS_III_744</full_name>
+      <url>data/stories/383.dfl</url>
+    </story>
+    <story story_id="747">
+      <informant_id>441</informant_id>
+      <publication_info>DS_III_2233</publication_info>
+      <full_name>441 - 0.00 - DS_III_2233</full_name>
+      <url>data/stories/747.dfl</url>
+    </story>
+    <story story_id="127">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_G_113</publication_info>
+      <full_name>150 - 4.16 - DS_II_G_113</full_name>
+      <url>data/stories/127.dfl</url>
+    </story>
+    <story story_id="809">
+      <informant_id>77</informant_id>
+      <publication_info>DS_III_2198</publication_info>
+      <full_name>77 - 0.00 - DS_III_2198</full_name>
+      <url>data/stories/809.dfl</url>
+    </story>
+    <story story_id="436">
+      <informant_id>456</informant_id>
+      <publication_info>DS_III_2211</publication_info>
+      <full_name>456 - 0.00 - DS_III_2211</full_name>
+      <url>data/stories/436.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Den gamle Ulv gik og passede byens kr&#xE6;. S&#xE5; kom han til en kj&#xE6;rne fuld af penge, den stod ude i Store-mose eller Gjedsb&#xE6;k mose. Men s&#xE5; kunde han ikke b&#xE6;re den derfra, og han satte da hans tr&#xE6;sko og hans hjordekj&#xE6;p ved den og gik til B&#xE6;kke efter folk. Da de kom og vilde derud, kom han til hans tr&#xE6;sko og kj&#xE6;p ved B&#xE6;kke m&#xF8;lle. Pengene st&#xE5;r der da endnu, men de skal en gang findes og s&#xE5; tilh&#xF8;re familien af ham, der var ved den f&#xF8;rste gang.</danish_publication>
+  <english_publication>Old Ulv went and took care of the town&#x2019;s livestock. Then he came across a churn full of money, it was lying out in Store-mose (big swamp) or Gjedsb&#xE6;k swamp. But he couldn&#x2019;t carry it from there, so he put his clogs and his shepherd&#x2019;s staff next to it, and went to B&#xE6;kke to get some people to help. When they came and wanted to go out there, they came across his clogs and staff by B&#xE6;kke mill. The money is still out there now, but it&#x2019;ll be found someday and then it will belong to the family of the man who found it first.</english_publication>
+  <keywords>
+    <keyword id="229" frequency="1" keyword="churn">churn</keyword>
+    <keyword id="234" frequency="2" keyword="clogs">clogs</keyword>
+    <keyword id="393" frequency="1" keyword="family">family</keyword>
+    <keyword id="783" frequency="1" keyword="mill">mill</keyword>
+    <keyword id="793" frequency="2" keyword="money">money</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1099" frequency="1" keyword="shepherd">shepherd</keyword>
+    <keyword id="1196" frequency="1" keyword="store">store</keyword>
+    <keyword id="1228" frequency="2" keyword="swamp">swamp</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+  </keywords>
+  <etk_index id="15">
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="37" display_name="Places: Mill"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

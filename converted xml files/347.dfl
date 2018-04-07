@@ -1,0 +1,54 @@
+<informant><person_id>347</person_id>
+  <core_informant/>
+  <full_name>Pastor N. P. Christensen</full_name>
+  <last_name>Christensen</last_name>
+  <first_name>N. P.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>731</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>347</informant_id>
+      <publication_info>DS_II_G_88</publication_info>
+      <full_name>347 - 0.00 - DS_II_G_88</full_name>
+      <url>data/stories/731.dfl</url>
+      <place_recorded><id>555</id>Smidstrup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>893</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>347</informant_id>
+      <publication_info>DS_II_J_248</publication_info>
+      <full_name>347 - 0.00 - DS_II_J_248</full_name>
+      <url>data/stories/893.dfl</url>
+      <place_recorded><id>555</id>Smidstrup</place_recorded>
+      <places_mentioned>
+        <place><id>989</id>
+          <name>M&#248;lby</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>555</place_id>
+      <name>Smidstrup</name>
+      <display_name>Smidstrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>989</place_id>
+      <name>M&#248;lby</name>
+      <display_name>M&#248;lby (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

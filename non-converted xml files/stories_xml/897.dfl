@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<story story_id="897">
+  <publication_info>DS_II_J_306</publication_info>
+  <full_name>0 - 0.00 - DS_II_J_306</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>310</place_id>
+      <name>Jebj&#xE6;rg</name>
+      <display_name>Jebj&#xE6;rg (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>922</place_id>
+      <name>T&#xF8;ndering</name>
+      <display_name>T&#xF8;ndering (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="286">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_J_363</publication_info>
+      <full_name>235 - 2.03 - DS_II_J_363</full_name>
+      <url>data/stories/286.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gammel mand fra T&#xF8;ndering, der hed Per Sig, havde en aften v&#xE6;ret &#xF8;ster ude at g&#xE5;, og kom igjennem nogle lavninger. Der h&#xF8;rte han s&#xE5;dan underlig fl&#xF6;jten og skralren, og han blev halvt forskr&#xE6;kket. Da han kom hjem, sagde han: "Nu f&#xE5;r vi krig, for a har h&#xF8;rt varsel for fjenderne, det var snart ligesom i 1864, da artilleriet kj&#xF8;rte." Det blev dog ikke krig, men varsel for banen, der g&#xE5;r et lille st&#xF8;d fra hans hus.</danish_publication>
+  <english_publication>An old man from T&#xF8;ndering named Per Sig had been out walking one evening off to the east, and came through some hollows. There he heard such a strange whistle and rumbling that he got half scared. When he got home, he said, &#x201C;Now we&#x2019;re going to have war, because I&#x2019;ve heard a portent of the enemies, it was just like in 1864, when the artillery drove along.&#x201D; It wasn&#x2019;t for war, but a portent for the railroad, which passes a little ways from his house.</english_publication>
+  <keywords>
+    <keyword id="49" frequency="1" keyword="artillery">artillery</keyword>
+    <keyword id="369" frequency="1" keyword="east">east</keyword>
+    <keyword id="380" frequency="1" keyword="enemy">enemy</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="535" frequency="1" keyword="hollow">hollow</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="937" frequency="1" keyword="per">Per</keyword>
+    <keyword id="978" frequency="2" keyword="portent">portent</keyword>
+    <keyword id="1010" frequency="1" keyword="railroad">railroad</keyword>
+    <keyword id="1317" frequency="2" keyword="war">war</keyword>
+    <keyword id="1338" frequency="1" keyword="whistle">whistle</keyword>
+  </keywords>
+  <etk_index id="10">
+    <heading_danish>Lys og varsler</heading_danish>
+    <heading_english>Lights and portents</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

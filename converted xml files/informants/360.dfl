@@ -1,0 +1,63 @@
+<informant><person_id>360</person_id>
+  <core_informant/>
+  <full_name>Lars Peter Eriksen</full_name>
+  <last_name>Eriksen</last_name>
+  <first_name>Lars Peter</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>648</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1678</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1678</full_name>
+      <url>data/stories/648.dfl</url>
+      <place_recorded><id>246</id>Hassing</place_recorded>
+      <places_mentioned>
+        <place><id>865</id>
+          <name>Sj&#248;rring, Tisted</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>669</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1447</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1447</full_name>
+      <url>data/stories/669.dfl</url>
+      <place_recorded><id>246</id>Hassing</place_recorded>
+      <places_mentioned>
+        <place><id>50</id>
+          <name>Bedsted</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>246</place_id>
+      <name>Hassing</name>
+      <display_name>Hassing (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>50</place_id>
+      <name>Bedsted</name>
+      <display_name>Bedsted (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>865</place_id>
+      <name>Sj&#248;rring, Tisted</name>
+      <display_name>Sj&#248;rring, Tisted (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

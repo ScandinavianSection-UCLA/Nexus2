@@ -1,0 +1,93 @@
+<story><story_id>694</story_id>
+  <publication_info>DS_VII_608</publication_info>
+  <full_name>337 - 0.00 - DS_VII_608</full_name>
+  <informant_id>337</informant_id>
+  <informant_last_name>Bonde</informant_last_name>
+  <informant_first_name>Maren Mogensen</informant_first_name>
+  <informant_full_name>L&#230;rerinde Maren Mogensen Bonde</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>902</place_id>
+      <name>Veders&#248;</name>
+      <display_name>Veders&#248; (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>470</place_id>
+      <name>Ramme</name>
+      <display_name>Ramme (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>211</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_611</publication_info>
+      <full_name>241 - 4.39 - DS_VII_611</full_name>
+      <url>data/stories/211.dfl</url>
+    </story>
+    <story><story_id>591</story_id>
+      <informant_id>375</informant_id>
+      <publication_info>DS_VII_612</publication_info>
+      <full_name>375 - 0.00 - DS_VII_612</full_name>
+      <url>data/stories/591.dfl</url>
+    </story>
+    <story><story_id>644</story_id>
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_609</publication_info>
+      <full_name>331 - 0.00 - DS_VII_609</full_name>
+      <url>data/stories/644.dfl</url>
+    </story>
+    <story><story_id>88</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_43</publication_info>
+      <full_name>150 - 3.25 - JAH_I_43</full_name>
+      <url>data/stories/88.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Jens Plovg&#229;rds kone Maren i Ramme var ogs&#229; en heks, og n&#229;r hun skulde til at kj&#230;rne, stillede hun den tomme kj&#230;rne inde i stuen, og s&#229; sagde hun: "Nu i Guds navn en skefuld fra hver mand og en fadfuld fra Rammeg&#229;rd." S&#229; kunde hun f&#229; kj&#230;rnen fuld og f&#229; s&#229; dejligt sm&#246;r. En dag hun ikke var hjemme, skulde datteren til at kj&#230;rne, men hun var mere begj&#230;rlig end moderen og sagde: "Et fadfuld af hver mand og en spandfuld fra Rammeg&#229;rd." Da kom hun til at st&#229; i fl&#248;de til midt p&#229; livet.</danish_publication>
+  <english_publication>Jens Plovg&#229;rd's wife Maren in Ramme was also a witch and when she was going to churn, she put the empty churn in the room and then she said, "Now, in God's name, a spoonful from each man and a bowlful from Rammeg&#229;rd." Then the churn would be filled and she'd get wonderful butter. One day, when she wasn't home, her daughter was going to churn, but she was more demanding than her mother and said, "A bowlful from each man and a bucketful from Rammeg&#229;rd." She wound up standing there with cream half way up her waist.</english_publication>
+  <keywords>
+    <keyword><id>163</id><frequency>1</frequency><keyword>butter</keyword>butter</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>229</id><frequency>3</frequency><keyword>churn</keyword>churn</keyword>
+    <keyword><id>279</id><frequency>1</frequency><keyword>cream</keyword>cream</keyword>
+    <keyword><id>304</id><frequency>1</frequency><keyword>daughter</keyword>daughter</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>472</id><frequency>1</frequency><keyword>god</keyword>god</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>592</id><frequency>1</frequency><keyword>jens_plovg&#229;rd</keyword>Jens Plovg&#229;rd</keyword>
+    <keyword><id>745</id><frequency>1</frequency><keyword>maren</keyword>Maren</keyword>
+    <keyword><id>803</id><frequency>1</frequency><keyword>mother</keyword>mother</keyword>
+    <keyword><id>822</id><frequency>1</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>1176</id><frequency>1</frequency><keyword>spoon</keyword>spoon</keyword>
+    <keyword><id>1343</id><frequency>1</frequency><keyword>wife</keyword>wife</keyword>
+    <keyword><id>1351</id><frequency>1</frequency><keyword>witch</keyword>witch</keyword>
+    <keyword><id>1365</id><frequency>1</frequency><keyword>wound</keyword>wound</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>49</id><display_name>Tools, Items and Conveyances: Food and Drink</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

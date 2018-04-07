@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<story story_id="427">
+  <publication_info>DS_VII_1487</publication_info>
+  <full_name>123 - 3.24 - DS_VII_1487</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.24</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="465">
+      <informant_id>431</informant_id>
+      <publication_info>DS_II_G_334</publication_info>
+      <full_name>431 - 0.00 - DS_II_G_334</full_name>
+      <url>data/stories/465.dfl</url>
+    </story>
+    <story story_id="813">
+      <informant_id>427</informant_id>
+      <publication_info>DS_VII_1478</publication_info>
+      <full_name>427 - 0.00 - DS_VII_1478</full_name>
+      <url>data/stories/813.dfl</url>
+    </story>
+    <story story_id="550">
+      <informant_id>549</informant_id>
+      <publication_info>DS_VII_1482</publication_info>
+      <full_name>549 - 0.00 - DS_VII_1482</full_name>
+      <url>data/stories/550.dfl</url>
+    </story>
+    <story story_id="802">
+      <informant_id>404</informant_id>
+      <publication_info>DS_VII_1488</publication_info>
+      <full_name>404 - 0.00 - DS_VII_1488</full_name>
+      <url>data/stories/802.dfl</url>
+    </story>
+    <story story_id="712">
+      <informant_id>61</informant_id>
+      <publication_info>DS_VII_1481</publication_info>
+      <full_name>61 - 0.00 - DS_VII_1481</full_name>
+      <url>data/stories/712.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3803a (2)</fielddiary_page_start>
+  <fielddiary_page_end>3803a (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Stories of people born in a victory shirt are widely attested (DS  VII 1478). In many cases, these shirts provide protection against bullets and guarantee victory in battle. Among others, Holger Danske (DS VII 1482) and Frederik VII (DS VII 1488) are said to have been born with such shirts. Amusingly, Peder is not the only storyteller who muses over the outcome of a child born with a victory shirt who does not live up to expectations (DS VII 1481). It is likely that the victory shirt referred to in these accounts is the placental membrane.</annotation>
+  <danish_manuscript>Der er en Mand som [hed] er f&#xF8;dt i den samme
+By som a, hans Moder var lokket med
+ham. Han var f&#xF8;dt i en Sejrskjorte
+og den var dannet som en soldaterfrakke
+og hvor Knapperne skulde sidde var der
+nogle Knotter. Folk mente da, der skul
+de blive en stor H&#xE6;rf&#xF8;rer af ham, men
+der blev noget andet, for h. var en rig-
+tig Klods. Hans Skj. blev br&#xE6;ndt, for
+de Folk der de gik ud paa at udrydde
+al Overtro. Den, der har et Stykke af en
+Sejrskjorte med sig, den kan ingen Kugle
+ramme i Slag.
+</danish_manuscript>
+  <english_manuscript>There was a man who was born in the same town as me, his mother had him out of wedlock. He was born in a victory shirt and it was made like a soldier's jacket but where the buttons were supposed to be there were some knots. People believed that he was going to be a real army leader, but it turned out differently, because he was a real klutz. His shirt was burned because the people there wanted to get rid of all superstition. The person who has a piece of a victory shirt on him, no bullets can hit him during a battle.</english_manuscript>
+  <danish_publication>Der er en mand, som er f&#xF8;dt i samme by som a, hans moder var lokket med ham, og han var f&#xF8;dt i en sejrsskjorte. Den var dannet som en soldaterfrakke, og hvor knapperne skulde sidde, var der nogle knotter. Folk mente da, der skulde blive en stor h&#xE6;rf&#xF8;rer af ham, men der blev noget andet, for han var en rigtig klods. Hans skjorte blev br&#xE6;ndt, for de folk, han var hos, de gik ud p&#xE5; at udrydde al overtro.
+      Den, der har et stykke af en sejrsskjorte p&#xE5; sig, den kan ingen kugle ramme i slag.</danish_publication>
+  <english_publication>There was a man who was born in the same town as me, his mother had been seduced, he was born in a victory shirt. It was made like a soldier&#x2019;s jacket but where the buttons were supposed to be there were some knots. People believed that he was going to be a real army leader, but it turned out differently, because he was a real klutz. His shirt was burned because the people that he was living with wanted to get rid of all superstition. 
+     The person who has a piece of a victory shirt on him, no bullets can hit him during a battle.</english_publication>
+  <keywords>
+    <keyword id="47" frequency="1" keyword="army">army</keyword>
+    <keyword id="77" frequency="1" keyword="battle">battle</keyword>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="102" frequency="2" keyword="birth">birth</keyword>
+    <keyword id="157" frequency="1" keyword="bullet">bullet</keyword>
+    <keyword id="164" frequency="1" keyword="button">button</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="642" frequency="1" keyword="knot">knot</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="1083" frequency="1" keyword="seduction">seduction</keyword>
+    <keyword id="1102" frequency="1" keyword="shirt">shirt</keyword>
+    <keyword id="1153" frequency="1" keyword="soldier">soldier</keyword>
+    <keyword id="1221" frequency="1" keyword="superstition">superstition</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1299" frequency="2" keyword="victory_shirt">victory shirt</keyword>
+  </keywords>
+  <etk_index id="30">
+    <heading_danish>Menneskets og kv&#xE6;gets sygdomme</heading_danish>
+    <heading_english>Human and cattle illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="132" display_name="Actions or events: Pregnancy and birth"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

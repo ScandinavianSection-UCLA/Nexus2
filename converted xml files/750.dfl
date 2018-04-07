@@ -1,0 +1,70 @@
+<story><story_id>750</story_id>
+  <publication_info>DS_V_412</publication_info>
+  <full_name>182 - 0.00 - DS_V_412</full_name>
+  <informant_id>182</informant_id>
+  <informant_last_name>Madsen</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels Madsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>93</place_id>
+      <name>Bratten</name>
+      <display_name>Bratten (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>93</place_id>
+      <name>Bratten</name>
+      <display_name>Bratten (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>638</story_id>
+      <informant_id>363</informant_id>
+      <publication_info>DS_IV_1287</publication_info>
+      <full_name>363 - 0.00 - DS_IV_1287</full_name>
+      <url>data/stories/638.dfl</url>
+    </story>
+    <story><story_id>799</story_id>
+      <informant_id>442</informant_id>
+      <publication_info>DS_IV_1681</publication_info>
+      <full_name>442 - 0.00 - DS_IV_1681</full_name>
+      <url>data/stories/799.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en d&#248;dning begravet &#246;sten for Klemmensg&#229;rd i Bratten. Den d&#248;dning var vistnok meget hengiven til drik, for hvert &#229;r de bryggede jule&#246;l i Klemmensg&#229;rd, gik der al tid fald p&#229; det, enten gik bunden af karret eller tappen af t&#248;nden, eller b&#229;ndene sprang, og &#246;llet spildtes, og det fik d&#248;dningen skyld for. Men den er gravet op, og siden den tid har de intet &#246;l mistet.</danish_publication>
+  <english_publication>Once there was a dead person buried east of Klemmensg&#229;rd in Bratten. The dead one was apparently really predisposed to drink since every year when they brewed Christmas beer in Klemmensg&#229;rd something always went wrong, either the bottom fell out of the tub or the tap came off the keg or the keg bands burst and the beer spilled and the dead person was blamed for that. But the corpse was dug up and they haven&#8217;t lost any beer since then.</english_publication>
+  <keywords>
+    <keyword><id>84</id><frequency>3</frequency><keyword>beer</keyword>beer</keyword>
+    <keyword><id>142</id><frequency>1</frequency><keyword>brewing</keyword>brewing</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>225</id><frequency>1</frequency><keyword>christmas</keyword>Christmas</keyword>
+    <keyword><id>262</id><frequency>1</frequency><keyword>corpse</keyword>corpse</keyword>
+    <keyword><id>317</id><frequency>3</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>326</id><frequency>1</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>355</id><frequency>1</frequency><keyword>drinking</keyword>drinking</keyword>
+    <keyword><id>369</id><frequency>1</frequency><keyword>east</keyword>east</keyword>
+    <keyword><id>392</id><frequency>1</frequency><keyword>fall</keyword>fall</keyword>
+    <keyword><id>617</id><frequency>2</frequency><keyword>keg</keyword>keg</keyword>
+    <keyword><id>1370</id><frequency>1</frequency><keyword>year</keyword>year</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>120</id><display_name>Time, Season, Weather: Christmas</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

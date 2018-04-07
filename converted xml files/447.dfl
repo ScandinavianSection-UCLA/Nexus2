@@ -1,0 +1,86 @@
+<story><story_id>447</story_id>
+  <publication_info>DS_I_270</publication_info>
+  <full_name>485 - 0.00 - DS_I_270</full_name>
+  <informant_id>485</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Anton</informant_first_name>
+  <informant_full_name>L&#230;rer Anton Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>832</place_id>
+      <name>Munkebj&#230;rgby</name>
+      <display_name>Munkebj&#230;rgby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>14</place_id>
+      <name>&#197;gerup m&#248;lle</name>
+      <display_name>&#197;gerup m&#248;lle (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>318</place_id>
+      <name>Kalundborg</name>
+      <display_name>Kalundborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>327</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_I_263</publication_info>
+      <full_name>90 - 1.04 - DS_I_263</full_name>
+      <url>data/stories/327.dfl</url>
+    </story>
+    <story><story_id>584</story_id>
+      <informant_id>548</informant_id>
+      <publication_info>DS_I_265</publication_info>
+      <full_name>548 - 0.00 - DS_I_265</full_name>
+      <url>data/stories/584.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gang, da jeg kjorte fra Kalundborg, var jeg da n&#230;sten kommen til broen ved &#197;gerup m&#248;lle, og det var s&#229; m&#248;rkt som en b&#230;lg. S&#229; s&#229; jeg nede ved broen, at der var noget, som gnistrede. "Det var ogs&#229; godt" t&#230;nkte jeg, "nu kan du f&#229; t&#230;ndt din pibe". Jeg troede begribeligvis, at det var et menneske, der r&#248;g tobak. S&#229; gav jeg da pillekerne et rap og n&#229;ede snart broen. Ja, det var rigtig nok nogen, der r&#248;g tobak, men mennesker var det ikke. Det var bare sm&#229; puslinger med m&#248;rke tr&#246;jer og hvide bukser, og hver af dem havde en s&#248;lvpibe (pibe med s&#248;lvbeslag). De bakkede godt, og n&#229;r ilden gnistrede, s&#229; kunde jeg s&#229; rivelig se dem. De gik p&#229; kanten af vejen, &#233;n for &#233;n, og de skulde formodentlig til gilde i en h&#246;j der omkring. Jeg sagde god-aften, men de svarede ikke, og jeg turde nok ikke vove at bede om ild p&#229; min pibe, b&#230;sterne de fnyste og skabede sig, og jeg lod dem jo l&#248;be, s&#229; det varede ikke ret l&#230;nge, inden jeg kom fra dj&#230;velskabet. Men det kan nok h&#230;nde sig, at jeg var ikke rigtig glad, f&#246;rend jeg kom hjem til vor mo'r.</danish_publication>
+  <english_publication>Once when I was driving from Kalundborg, I'd almost gotten to bridge at &#197;gerup mill, and it was dark as pitch. Then I noticed that something was sparkling down by the bridge. "That's good," I thought, "now I can get my pipe lit." I thought that maybe it was some people smoking. So I gave the horses a whack and soon reached the bridge. Well, it was  someone smoking, sure enough, but it wasn't people. They were small little ones with dark sweaters and white pants, and each one of them had a silver plated pipe. They were puffing away and when the fire sparked I could see them well. They were walking along the side of the road, one behind the other, and they were presumably going to a party in a mound near there. I said good evening, but they didn't answer, and I didn't dare ask them for a light for my pipe, the horses were snorting and restless, and I let them run, so it didn't take long before I got away from that devilishness. But I wasn't really happy until I got home to mom.</english_publication>
+  <keywords>
+    <keyword><id>144</id><frequency>3</frequency><keyword>bridge</keyword>bridge</keyword>
+    <keyword><id>302</id><frequency>2</frequency><keyword>dark</keyword>dark</keyword>
+    <keyword><id>386</id><frequency>1</frequency><keyword>evening</keyword>evening</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>498</id><frequency>1</frequency><keyword>happy</keyword>happy</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>545</id><frequency>2</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>783</id><frequency>1</frequency><keyword>mill</keyword>mill</keyword>
+    <keyword><id>804</id><frequency>1</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>899</id><frequency>1</frequency><keyword>pants</keyword>pants</keyword>
+    <keyword><id>907</id><frequency>1</frequency><keyword>party</keyword>party</keyword>
+    <keyword><id>954</id><frequency>3</frequency><keyword>pipe</keyword>pipe</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1118</id><frequency>1</frequency><keyword>silver</keyword>silver</keyword>
+    <keyword><id>1230</id><frequency>1</frequency><keyword>sweater</keyword>sweater</keyword>
+    <keyword><id>1340</id><frequency>1</frequency><keyword>white</keyword>white</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>26</id><display_name>Places: Bridge</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

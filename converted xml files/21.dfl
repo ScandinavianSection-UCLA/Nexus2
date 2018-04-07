@@ -1,0 +1,89 @@
+<story><story_id>21</story_id>
+  <publication_info>DS_III_127</publication_info>
+  <full_name>150 - 1.18 - DS_III_127</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.18</order_told>
+  <fieldtrip><id>1</id>Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>7</place_id>
+      <name>Aarestrup</name>
+      <display_name>Aarestrup (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>469</place_id>
+      <name>Rebild</name>
+      <display_name>Rebild (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>570</story_id>
+      <informant_id>488</informant_id>
+      <publication_info>DS_III_122</publication_info>
+      <full_name>488 - 0.00 - DS_III_122</full_name>
+      <url>data/stories/570.dfl</url>
+    </story>
+    <story><story_id>763</story_id>
+      <informant_id>350</informant_id>
+      <publication_info>DS_III_81</publication_info>
+      <full_name>350 - 0.00 - DS_III_81</full_name>
+      <url>data/stories/763.dfl</url>
+    </story>
+    <story><story_id>438</story_id>
+      <informant_id>520</informant_id>
+      <publication_info>DS_III_128</publication_info>
+      <full_name>520 - 0.00 - DS_III_128</full_name>
+      <url>data/stories/438.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3242b (2)</fielddiary_page_start>
+  <fielddiary_page_end>3242b (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The kj&#230;mpekast or j&#230;ttekast [giant throw] is a widely attested legend motif (DS III 128). In almost all cases, the giant tries to knock over the local church steeple, perhaps because the ringing of the bells disturbs him, perhaps because the encroachment of Christianity, as marked by the church building, threatens his territory. Although the giant's throw most often comes up short, here he overthrows. These stories are considered to be "etiological" as they explain the existence of an unusually large stone in the landscape, often marked by the giant's hand. 
+
+     Denmark is a deeply glaciated landscape. Retreating glaciers from the last ice age littered the fertile soil with enormous rocks, known as glacial erratics. These erratics exhibit both striation, revealing the direction of the glacier's movement, and other types of fragmentation, that can lead to unusual patterns on their surface. Although originally buried in the silt and soil left by the glacier, these rocks are uncovered through normal processes of erosion.</annotation>
+  <danish_manuscript>Der ligger en Sten paa Kirketange s&#248;nden 
+for Aarestrup og den har en K&#230;mpe staaet
+paa R&#230;vild K&#229;ld og vild ha slaaet Aarestr
+Kirke ned med. H. maa have haft nogen Kraft
+i Fingrene for der var M&#230;rker af dem i Ste-
+nen. Den er kommen vel s&#248;nderlig, h. har draget
+vel meget &#230;d sig, h. slog den efter Kirken mens
+Folkene var i Kirke, det maa have gjort et
+slemt Balder.</danish_manuscript>
+  <english_manuscript>There&#8217;s a stone on Kirketange, south of &#197;restrup, and a giant stood on R&#230;vild mound and wanted to knock &#197;restrup church down with it. He must have had some strength in his fingers, because they left marks in the stone. It must have made an incredible noise. It landed a bit too far to the south so he must have really used a lot of his strength when he threw it. He threw it at the church while people were inside, it must have made a huge racket.</english_manuscript>
+  <danish_publication>Der ligger en sten p&#229; Kirketange, s&#248;nden for &#197;restrup, og den har en kj&#230;mpe st&#229;et p&#229; R&#230;vild k&#229;ld og vilde have sl&#229;et &#197;restrup kirke ned med, mens folkene var i kirke. Det m&#229; have givet et slemt balder, og han m&#229; have haft nogen kraft i fingrene, for der var m&#230;rker af dem i stenen. Han har draget vel meget &#230;d sig, den gang han kylte, for den er kommen vel s&#248;nderlig.</danish_publication>
+  <english_publication>There&#8217;s a stone on Kirketange, south of &#197;restrup, and a giant stood on R&#230;vild mound and wanted to knock &#197;restrup church down with it while people were in the church. It must have made a huge racket, and he must have had some strength in his fingers, because they left marks in the stone. He must have really used a lot of his strength when he threw it, because it landed a bit too far to the south.</english_publication>
+  <keywords>
+    <keyword><id>227</id><frequency>2</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>412</id><frequency>1</frequency><keyword>finger</keyword>finger</keyword>
+    <keyword><id>465</id><frequency>1</frequency><keyword>giant</keyword>giant</keyword>
+    <keyword><id>804</id><frequency>1</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>1167</id><frequency>2</frequency><keyword>south</keyword>south</keyword>
+    <keyword><id>1195</id><frequency>2</frequency><keyword>stone</keyword>stone</keyword>
+    <keyword><id>1209</id><frequency>2</frequency><keyword>strength</keyword>strength</keyword>
+  </keywords>
+  <etk_index><id>11</id>
+    <heading_danish>Kj&#230;mper og deres idr&#230;tter</heading_danish>
+    <heading_english>Heroes and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>60</id><display_name>Supernatural Beings: Giant</display_name></tango_index>
+    <tango_index><id>80</id><display_name>Actions or events: Church ceremony</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

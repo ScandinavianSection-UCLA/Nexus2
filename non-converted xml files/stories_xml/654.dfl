@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<story story_id="654">
+  <publication_info>DS_I_593</publication_info>
+  <full_name>504 - 0.00 - DS_I_593</full_name>
+  <informant_id>504</informant_id>
+  <informant_last_name>N&#xF8;rg&#xE5;rd</informant_last_name>
+  <informant_first_name>C. C.</informant_first_name>
+  <informant_full_name>L&#xE6;rer C. C. N&#xF8;rg&#xE5;rd</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>872</place_id>
+      <name>Snedsted</name>
+      <display_name>Snedsted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>50</place_id>
+      <name>Bedsted</name>
+      <display_name>Bedsted (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>644</place_id>
+      <name>Tofth&#xF8;j</name>
+      <display_name>Tofth&#xF8;j (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="215">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_404</publication_info>
+      <full_name>241 - 4.43 - DSnr_I_404</full_name>
+      <url>data/stories/215.dfl</url>
+    </story>
+    <story story_id="716">
+      <informant_id>541</informant_id>
+      <publication_info>DS_I_639</publication_info>
+      <full_name>541 - 0.00 - DS_I_639</full_name>
+      <url>data/stories/716.dfl</url>
+    </story>
+    <story story_id="915">
+      <informant_id>573</informant_id>
+      <publication_info>DS_I_597</publication_info>
+      <full_name>573 - 0.00 - DS_I_597</full_name>
+      <url>data/stories/915.dfl</url>
+    </story>
+    <story story_id="66">
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_576</publication_info>
+      <full_name>150 - 3.04 - DS_I_576</full_name>
+      <url>data/stories/66.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Bedsted er Tofth&#xF6;j, og den gav ejeren sig til at kaste i. Da mistede han en plag og dagen efter en ko og kort efter atter et kreatur. S&#xE5; kom han i tanker om, at det var h&#xF6;jens skyld. Han gik op til provst Bentzon her og fortalte ham det og spurgte ham, om han troede, det var en straf for det. Han svarede, at dersom han selv t&#xE6;nkte det, skulde han lade h&#xF6;jen v&#xE6;re, men t&#xE6;nkte han det ikke, s&#xE5; vilde han ingen ting sige. Han gik s&#xE5; hjem og d&#xE6;kkede hullet til. S&#xE5; h&#xF8;rte uheldet op. Han p&#xE5;lagde siden hans s&#xF6;n at frede h&#xF6;jen, og denne atter hans svigers&#xF6;n. Nu er den givet til staten.</danish_publication>
+  <english_publication>In Bedsted there's Tofth&#xF8;j, and the owner started digging in it. Then he lost a nag and the next day a cow and then a short while later another cow. Then he came to think that maybe it was the mound's fault. He went up to dean Bentzon here and told him about it and asked him if he thought that it was punishment for that. He answered that since he thought that himself he should leave the mound alone, but if he didn't think that, then he wouldn't say anything. He went home and covered up the hole. Then the bad luck stopped. He instructed his son to preserve the mound and he did the same later for his son-in-law. Now it has been given to the state.</english_publication>
+  <keywords>
+    <keyword id="274" frequency="2" keyword="cow">cow</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="315" frequency="1" keyword="dean_bentzon">Dean Bentzon</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="400" frequency="1" keyword="fault">fault</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="697" frequency="1" keyword="law">law</keyword>
+    <keyword id="727" frequency="1" keyword="luck">luck</keyword>
+    <keyword id="804" frequency="3" keyword="mound">mound</keyword>
+    <keyword id="819" frequency="1" keyword="nag">nag</keyword>
+    <keyword id="891" frequency="1" keyword="owner">owner</keyword>
+    <keyword id="1004" frequency="1" keyword="punishment">punishment</keyword>
+    <keyword id="1154" frequency="2" keyword="son">son</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

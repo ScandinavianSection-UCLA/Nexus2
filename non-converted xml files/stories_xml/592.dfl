@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<story story_id="592">
+  <publication_info>DS_II_E_142</publication_info>
+  <full_name>375 - 0.00 - DS_II_E_142</full_name>
+  <informant_id>375</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>J&#xF8;rgen</informant_first_name>
+  <informant_full_name>Friskolel&#xE6;rer J&#xF8;rgen Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>899</place_id>
+      <name>V&#xE6;rslev</name>
+      <display_name>V&#xE6;rslev (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>99</place_id>
+      <name>Br&#xF8;ndsted m&#xF8;lle</name>
+      <display_name>Br&#xF8;ndsted m&#xF8;lle (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="265">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_145</publication_info>
+      <full_name>235 - 1.45 - DS_II_E_145</full_name>
+      <url>data/stories/265.dfl</url>
+    </story>
+    <story story_id="847">
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_E_117</publication_info>
+      <full_name>539 - 0.00 - DS_II_E_117</full_name>
+      <url>data/stories/847.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der har al tid v&#xE6;ret s&#xE5; fuldt af snoge ved Br&#xF8;ndsted m&#xF8;lle, og s&#xE5; var det en dag, at begge den gamle S&#xF6;ren M&#xF8;llers s&#xF6;nner vilde ud at skyde p&#xE5; dem, som de l&#xE5; og solede sig rundt om p&#xE5; jorden ved de store elletr&#xE6;er. Da den gamle h&#xF8;rer skuddene, kommer han imidlertid ud til dem og siger: "Drenge, forvar jer! de har v&#xE6;ret her f&#xF6;r min tid og vil blive ved derefter, se jer op til tr&#xE6;erne og skynd jer bort herfra." Og da de s&#xE5; op, var tr&#xE6;erne fulde af snoge, der hang omkring p&#xE5; grenene. Det havde de ikke set.</danish_publication>
+  <english_publication>Br&#xF8;ndsted mill has always been filled with grass snakes, and so it was one day that both of old S&#xF8;ren M&#xF8;ller's sons wanted to go out and shoot them, as the snakes were laying there sunning themselves round about on the ground by the big alder trees. When the old man heard the shots, he comes out to them and says, "Boys, be careful! They've been here since before my time and they'll be here after, look up at the trees and hurry out of there!" And when they looked up, the trees were full of grass snakes, hanging on all the branches. They hadn't noticed that.</english_publication>
+  <keywords>
+    <keyword id="17" frequency="1" keyword="alderwood">alderwood</keyword>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="135" frequency="1" keyword="branches">branches</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="482" frequency="2" keyword="grass_snake">grass snake</keyword>
+    <keyword id="783" frequency="1" keyword="mill">mill</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="880" frequency="1" keyword="old_s&#xF8;ren">Old S&#xF8;ren</keyword>
+    <keyword id="1106" frequency="2" keyword="shooting">shooting</keyword>
+    <keyword id="1154" frequency="1" keyword="son">son</keyword>
+    <keyword id="1281" frequency="3" keyword="tree">tree</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="37" display_name="Places: Mill"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="79" display_name="Animals: None / Unspecified"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

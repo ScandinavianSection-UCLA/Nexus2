@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<story story_id="907">
+  <publication_info>JAH_II_412</publication_info>
+  <full_name>397 - 0.00 - JAH_II_412</full_name>
+  <informant_id>397</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>853</place_id>
+      <name>Refshaleg&#xE5;rd</name>
+      <display_name>Refshaleg&#xE5;rd (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>913</place_id>
+      <name>Voldby</name>
+      <display_name>Voldby (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>338</place_id>
+      <name>K&#xF8;benhavn</name>
+      <display_name>K&#xF8;benhavn (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>929</place_id>
+      <name>Frisenborg</name>
+      <display_name>Frisenborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="909">
+      <informant_id>568</informant_id>
+      <publication_info>JAH_II_414</publication_info>
+      <full_name>568 - 0.00 - JAH_II_414</full_name>
+      <url>data/stories/909.dfl</url>
+    </story>
+    <story story_id="421">
+      <informant_id>123</informant_id>
+      <publication_info>JAH_II_413</publication_info>
+      <full_name>123 - 3.18 - JAH_II_413</full_name>
+      <url>data/stories/421.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Kristen S&#xF8; i Voldby pr&#xF8;vede engang styrke med Englands st&#xE6;rkeste mand. Greven p&#xE5; Frisenborg var i Kj&#xF6;benhavn og var da ogs&#xE5; oppe hos kongen. Her traf han en engelsk general, med hvem han kom i samtale. Generalen fortalte da blandt andet, at i England havde man s&#xE5; st&#xE6;rk en mand, at ingen kunde overvinde ham, de kaldte ham derfor "Kj&#xE6;mpebryderen". Da siger greven, at i hans grevskab var en mand, ham troede han ikke, Kj&#xE6;mpebryderen kunde sl&#xE5;, men det, mente generalen, var en let sag. Enden blev da, at greven sendte bud til Frisenborg, og generalen til England, de to st&#xE6;rke m&#xE6;nd skulde da m&#xF8;des i Kj&#xF6;benhavn og pr&#xF8;ve kr&#xE6;fter. Dagen kom, og de fik fat i hinanden. F&#xF6;rst sank Kristen S&#xF8; i kn&#xE6;erne, men s&#xE5; siger han: "Hov, hov! De skal huske p&#xE5;, jeg er en gammel mand, lad os f&#xE5; rigtig ved hinanden!" men denne gang strakte Kristen S&#xF8; Engelskmanden hen ad gulvet, og s&#xE5; sagde han: "Lad os pr&#xF8;ve det en gang endnu." Engelskmanden m&#xE5;tte endnu en gang til jorden. For dette stykke arbejde fik Kristen S&#xF8; 200 daler af greven.</danish_publication>
+  <english_publication>One time, Kristen S&#xF8; from Voldby tried his strength against England&#x2019;s strongest man. The count at Frisenborg was in Copenhagen and was also up to visit the king. Here he met an English general with whom he fell into conversation. The general told him that he had a man who was so strong that nobody could beat him, and so they called him the &#x201C;Giant Wrestler.&#x201D; Then the count says that on his estate there was a man he didn&#x2019;t think the Giant Wrestler could beat, but the general thought it would be easy. The end of it was that the count sent a message to Frisenborg, and the general sent a message to England, that the two strong men were to meet in Copenhagen and try their strength. The day arrived, and they take hold of one another. First, Kristen S&#xF8; sank to his knees, but then he says, &#x201C;Hold on! You have to remember that I&#x2019;m an old man, let&#x2019;s get a good grip on each other!&#x201D; but that time Kristen S&#xF8; laid the Englishman flat out on the ground, and then he said: &#x201C;Let&#x2019;s try that again.&#x201D; The Englishman had to take one more trip to the ground. For that piece of work, Kristen S&#xF8; got two hundred rixdollars from the count.</english_publication>
+  <keywords>
+    <keyword id="266" frequency="4" keyword="count">count</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="381" frequency="5" keyword="england">england</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="465" frequency="2" keyword="giant">giant</keyword>
+    <keyword id="624" frequency="1" keyword="king">king</keyword>
+    <keyword id="637" frequency="1" keyword="knee">knee</keyword>
+    <keyword id="669" frequency="4" keyword="kristen_s&#xF8;">Kristen S&#xF8;</keyword>
+    <keyword id="770" frequency="1" keyword="message">message</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1209" frequency="5" keyword="strength">strength</keyword>
+    <keyword id="1361" frequency="1" keyword="work">work</keyword>
+    <keyword id="1366" frequency="2" keyword="wrestler">wrestler</keyword>
+  </keywords>
+  <etk_index id="32">
+    <heading_danish>Fra hoveriets tid</heading_danish>
+    <heading_english>From the time of villeinage</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

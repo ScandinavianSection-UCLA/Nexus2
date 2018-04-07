@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<story story_id="811">
+  <publication_info>DS_I_143</publication_info>
+  <full_name>405 - 0.00 - DS_I_143</full_name>
+  <informant_id>405</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Svend Peter</informant_first_name>
+  <informant_full_name>Svend Peter Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>670</place_id>
+      <name>Tvilum</name>
+      <display_name>Tvilum (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>974</place_id>
+      <name>Horns mark</name>
+      <display_name>Horns mark (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="220">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_57</publication_info>
+      <full_name>235 - 1.01 - DS_II_A_57</full_name>
+      <url>data/stories/220.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I en h&#xF6;j p&#xE5; Horns mark boede en trold, og han havde en sort ko, der gik ved en g&#xE5;rdmands k&#xF8;er, som boede i n&#xE6;rheden af h&#xF6;jen. Drengen, der passede k&#xF8;erne, m&#xE5;tte tillige passe troldens ko, men han fik ogs&#xE5; betaling derfor, ti hver dag stod der henne ved h&#xF6;jen en tallerken med en pandekage og en toskilling p&#xE5;. S&#xE5; et &#xE5;r fik g&#xE5;rdmanden en dreng, der var s&#xE5;dan en slemme kn&#xE6;gt. Den f&#xF8;rste dag han kom ud med k&#xF8;erne, kom jo ogs&#xE5; troldens sorte ko. Drengen gik nu hen til h&#xF6;jen for at se, om det passede, hvad han havde h&#xF8;rt, at der skulde st&#xE5; en tallerken med en pandekage og en toskilling p&#xE5;. Jo, det passede godt nok, og drengen spiste pandekagen og puttede skillingen i lommen. Men s&#xE5; knappede han hans bukser ned og gjorde hans behov p&#xE5; tallerkenen. Fra den dag af kom der hverken pandekage eller toskilling, men den sorte ko blev lige godt ved at komme, s&#xE5; den dreng m&#xE5;tte passe troldens ko uden betaling.</danish_publication>
+  <english_publication>A troll lived in a mound on Horns field, and he had a black cow which grazed along with the cows of the farmer who lived near the mound. The hired boy who took care of the cows also had to take care of the troll&#x2019;s cow but he also got paid for that because every day near the mound there would be a plate of pancakes with a two shilling piece on top. Then one year the farmer hired a boy who was really nasty. The first day he went out with the cows, the troll&#x2019;s black cow also came along. The boy now went over to the mound to see if it was true what he&#x2019;d heard that there was supposed to be a plate of pancakes with a two shilling piece on top there. Well, sure enough, it was true and the boy ate the pancakes and put the two shilling piece in his pocket. But then he unbuttoned his pants and did what he had to on the plate. From that day on, neither pancakes nor the two shilling piece appeared, but the black cow continued to appear, so the boy had to take care of the troll&#x2019;s cow without any pay.</english_publication>
+  <keywords>
+    <keyword id="106" frequency="3" keyword="black">black</keyword>
+    <keyword id="130" frequency="5" keyword="boy">boy</keyword>
+    <keyword id="274" frequency="8" keyword="cow">cow</keyword>
+    <keyword id="306" frequency="3" keyword="day">day</keyword>
+    <keyword id="396" frequency="2" keyword="farmer">farmer</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="484" frequency="1" keyword="grazing">grazing</keyword>
+    <keyword id="542" frequency="1" keyword="horn">horn</keyword>
+    <keyword id="804" frequency="4" keyword="mound">mound</keyword>
+    <keyword id="898" frequency="4" keyword="pancake">pancake</keyword>
+    <keyword id="899" frequency="1" keyword="pants">pants</keyword>
+    <keyword id="961" frequency="3" keyword="plate">plate</keyword>
+    <keyword id="969" frequency="1" keyword="pocket">pocket</keyword>
+    <keyword id="1100" frequency="4" keyword="shilling">shilling</keyword>
+    <keyword id="1283" frequency="4" keyword="troll">troll</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="66" display_name="Supernatural Beings: Troll"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

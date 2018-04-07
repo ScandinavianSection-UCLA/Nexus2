@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="842">
+  <publication_info>DS_V_97</publication_info>
+  <full_name>437 - 0.00 - DS_V_97</full_name>
+  <informant_id>437</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>T.</informant_first_name>
+  <informant_full_name>L&#xE6;rer T. Kristensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>857</place_id>
+      <name>R&#xF8;nslund</name>
+      <display_name>R&#xF8;nslund (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>980</place_id>
+      <name>Tyregod</name>
+      <display_name>Tyregod (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="147">
+      <informant_id>241</informant_id>
+      <publication_info>Unpub_JPP_106</publication_info>
+      <full_name>241 - 1.06 - Unpub_JPP_106</full_name>
+      <url>data/stories/147.dfl</url>
+    </story>
+    <story story_id="351">
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_H_34</publication_info>
+      <full_name>90 - 2.19 - DS_II_H_34</full_name>
+      <url>data/stories/351.dfl</url>
+    </story>
+    <story story_id="355">
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_51</publication_info>
+      <full_name>90 - 3.01 - DS_V_51</full_name>
+      <url>data/stories/355.dfl</url>
+    </story>
+    <story story_id="398">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_870</publication_info>
+      <full_name>123 - 2.24 - DS_III_870</full_name>
+      <url>data/stories/398.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand har selv fortalt mig, at det var en m&#xE5;neklar aften ved midnatstid, han kom g&#xE5;ende p&#xE5; vejen ad Tyregod kirke til. Lidt fra kirken s&#xE5; han noget komme g&#xE5;ende imod sig midt p&#xE5; vejen, og troede, det var en stor hund, men da han kom det n&#xE6;rmere, s&#xE5; det ud som et gr&#xE5;t f&#xE5;r. Han gik ved siden af vejen, og det gik i en rask gang midt p&#xE5; vejen t&#xE6;t om ved ham, og han kunde tydelig se, det havde r&#xF8;de &#xF6;jne, som var gloende. Han blev noget hed om &#xF8;rene, skj&#xF6;ndt det gjorde ham intet, men fortsatte sin gang med vejen ad Hindskov til. Ogs&#xE5; andre skal have set denne skikkelse som et f&#xE5;r.</danish_publication>
+  <english_publication>A man told me himself that it was a clear moonlit night about midnight, he was walking along the road to Tyregod church. A little bit away from the church, he saw something walking towards him in the middle of the road, and he thought it was a big dog, but when he got closer to it, it looked a lot like a gray sheep. He moved to the side of the road and it walked quickly down the middle of the street right past him, and he could clearly see that it had red eyes which were glowing. He got a little hot around the ears, even though it didn&#x2019;t do anything to him, but he continued along the way to Hindskov. Others are also supposed to have seen that figure like a sheep.</english_publication>
+  <keywords>
+    <keyword id="227" frequency="2" keyword="church">church</keyword>
+    <keyword id="343" frequency="1" keyword="dog">dog</keyword>
+    <keyword id="367" frequency="1" keyword="ear">ear</keyword>
+    <keyword id="389" frequency="1" keyword="eye">eye</keyword>
+    <keyword id="776" frequency="1" keyword="midnight">midnight</keyword>
+    <keyword id="799" frequency="1" keyword="moonlit">moonlit</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1021" frequency="1" keyword="red">red</keyword>
+    <keyword id="1036" frequency="3" keyword="road">road</keyword>
+    <keyword id="1095" frequency="2" keyword="sheep">sheep</keyword>
+    <keyword id="1208" frequency="1" keyword="street">street</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="77" display_name="Animals: Sheep"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="113" display_name="Time, Season, Weather: Midnight"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

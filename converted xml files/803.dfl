@@ -1,0 +1,82 @@
+<story><story_id>803</story_id>
+  <publication_info>DS_IV_1702</publication_info>
+  <full_name>443 - 0.00 - DS_IV_1702</full_name>
+  <informant_id>443</informant_id>
+  <informant_last_name>Kruse</informant_last_name>
+  <informant_first_name>Rasmus H.</informant_first_name>
+  <informant_full_name>Maler Rasmus H. Kruse</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>763</place_id>
+      <name>Dalager</name>
+      <display_name>Dalager (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>971</place_id>
+      <name>Roum</name>
+      <display_name>Roum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>392</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story><story_id>466</story_id>
+      <informant_id>432</informant_id>
+      <publication_info>DS_IV_1695</publication_info>
+      <full_name>432 - 0.00 - DS_IV_1695</full_name>
+      <url>data/stories/466.dfl</url>
+    </story>
+    <story><story_id>648</story_id>
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1678</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1678</full_name>
+      <url>data/stories/648.dfl</url>
+    </story>
+    <story><story_id>829</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_IV_1707</publication_info>
+      <full_name>69 - 0.00 - DS_IV_1707</full_name>
+      <url>data/stories/829.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Da den sorte d&#248;d grasserede i Jylland, blev i Roum sogn kun &#233;t menneske tilbage. Han ventede d&#248;den ligesom alle de &#248;vrige, hvorfor han kastede sig en grav p&#229; kirkeg&#229;rden, ved hvilken han vilde l&#230;gge sig, n&#229;r sygdommen angreb ham, h&#229;bende af et efterlevende menneske en gang at blive styrtet i graven. Imidlertid fik han ikke den gang graven n&#248;dig, ti han overlevede pesten.</danish_publication>
+  <english_publication>When the black plague raged in Jutland, only one person was left in Roum parish. He waited for death just like everybody else, and so he dug himself a grave in the cemetery, which he planned to lie down next to when the sickness attacked him, hoping that a survivor would at some point push him into the grave. But he never had use for the grave since he survived the plague.</english_publication>
+  <keywords>
+    <keyword><id>53</id><frequency>1</frequency><keyword>attack</keyword>attack</keyword>
+    <keyword><id>108</id><frequency>1</frequency><keyword>black_plague</keyword>Black Plague</keyword>
+    <keyword><id>196</id><frequency>1</frequency><keyword>cemetery</keyword>cemetery</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>326</id><frequency>1</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>483</id><frequency>3</frequency><keyword>grave</keyword>grave</keyword>
+    <keyword><id>611</id><frequency>1</frequency><keyword>jutland</keyword>Jutland</keyword>
+    <keyword><id>903</id><frequency>1</frequency><keyword>parish</keyword>parish</keyword>
+    <keyword><id>959</id><frequency>1</frequency><keyword>plague</keyword>plague</keyword>
+    <keyword><id>1111</id><frequency>1</frequency><keyword>sickness</keyword>sickness</keyword>
+    <keyword><id>1224</id><frequency>2</frequency><keyword>survivor</keyword>survivor</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>27</id><display_name>Places: Cemetery</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

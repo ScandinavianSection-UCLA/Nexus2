@@ -1,0 +1,83 @@
+<story><story_id>693</story_id>
+  <publication_info>DS_VI_900</publication_info>
+  <full_name>337 - 0.00 - DS_VI_900</full_name>
+  <informant_id>337</informant_id>
+  <informant_last_name>Bonde</informant_last_name>
+  <informant_first_name>Maren Mogensen</informant_first_name>
+  <informant_full_name>L&#230;rerinde Maren Mogensen Bonde</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>902</place_id>
+      <name>Veders&#248;</name>
+      <display_name>Veders&#248; (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>470</place_id>
+      <name>Ramme</name>
+      <display_name>Ramme (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>157</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_897</publication_info>
+      <full_name>241 - 2.07 - DS_VI_897</full_name>
+      <url>data/stories/157.dfl</url>
+    </story>
+    <story><story_id>657</story_id>
+      <informant_id>539</informant_id>
+      <publication_info>DS_VI_899</publication_info>
+      <full_name>539 - 0.00 - DS_VI_899</full_name>
+      <url>data/stories/657.dfl</url>
+    </story>
+    <story><story_id>628</story_id>
+      <informant_id>430</informant_id>
+      <publication_info>DS_VI_898</publication_info>
+      <full_name>430 - 0.00 - DS_VI_898</full_name>
+      <url>data/stories/628.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en mand fra Ty, hvis svin var blevne borte. Han gik s&#229; til Jens Plovg&#229;rd i Ramme for at sp&#246;rge efter dem. Det var aften, da han kom der, og Plovg&#229;rd var ikke hjemme. Konen viste ham s&#229; ud i laden, der kunde han sove om natten. Da manden kom hjem silde om aftenen, fortalte konen ham om den fremmede mand, og hvad hans &#230;rende var. Han gik s&#229; ud i laden, hvor han kaldte den Sorte frem og spurgte ham om svinene. Manden, som l&#229; der ude, s&#229; og h&#248;rte alt, han h&#248;rte, der blev sagt, at de l&#229; i hans naboes m&#248;dding. S&#229; rejste manden sig f&#246;r dag og gik hjem til Ty, for nu havde han jo selv h&#248;rt, hvor de var.</danish_publication>
+  <english_publication>There was a man from Ty whose pigs had disappeared. He went to Jens Plovg&#229;rd in Ramme to ask about them. It was night when he got there and Plovg&#229;rd wasn't home. The wife showed him out to the barn, he could sleep there that night. When Jens got home late that night, his wife told him about the foreign man and what his errand was. He went out to the barn where he called the Black One forth and asked him about the pigs. The man, who was lying out there, saw and heard everything, he heard what was said, they were lying in his neighbor's dung heap. Then the man left before daybreak and went home to Ty, since he'd heard where they were himself.</english_publication>
+  <keywords>
+    <keyword><id>72</id><frequency>2</frequency><keyword>barn</keyword>barn</keyword>
+    <keyword><id>106</id><frequency>1</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>307</id><frequency>1</frequency><keyword>daybreak</keyword>daybreak</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>364</id><frequency>1</frequency><keyword>dung</keyword>dung</keyword>
+    <keyword><id>383</id><frequency>1</frequency><keyword>errand</keyword>errand</keyword>
+    <keyword><id>435</id><frequency>1</frequency><keyword>foreign</keyword>foreign</keyword>
+    <keyword><id>537</id><frequency>3</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>592</id><frequency>1</frequency><keyword>jens_plovg&#229;rd</keyword>Jens Plovg&#229;rd</keyword>
+    <keyword><id>828</id><frequency>1</frequency><keyword>neighbor</keyword>neighbor</keyword>
+    <keyword><id>848</id><frequency>3</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>951</id><frequency>2</frequency><keyword>pig</keyword>pig</keyword>
+    <keyword><id>1142</id><frequency>1</frequency><keyword>sleep</keyword>sleep</keyword>
+    <keyword><id>1343</id><frequency>2</frequency><keyword>wife</keyword>wife</keyword>
+  </keywords>
+  <etk_index><id>28</id>
+    <heading_danish>Kloge m&#230;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>25</id><display_name>Places: Barn</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>78</id><display_name>Animals: Swine</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

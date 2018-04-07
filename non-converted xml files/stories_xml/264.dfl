@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<story story_id="264">
+  <publication_info>JAH_V_572</publication_info>
+  <full_name>235 - 1.44 - JAH_V_572</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.44</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>483</place_id>
+      <name>Rejstrup</name>
+      <display_name>Rejstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="290">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_574</publication_info>
+      <full_name>235 - 2.07 - JAH_V_574</full_name>
+      <url>data/stories/290.dfl</url>
+    </story>
+    <story story_id="263">
+      <informant_id>235</informant_id>
+      <publication_info>DS_III_1566</publication_info>
+      <full_name>235 - 1.43 - DS_III_1566</full_name>
+      <url>data/stories/263.dfl</url>
+    </story>
+    <story story_id="249">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_539</publication_info>
+      <full_name>235 - 1.29 - JAH_V_539</full_name>
+      <url>data/stories/249.dfl</url>
+    </story>
+    <story story_id="248">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_624</publication_info>
+      <full_name>235 - 1.28 - JAH_V_624</full_name>
+      <url>data/stories/248.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5220b</fielddiary_page_start>
+  <fielddiary_page_end>5220b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Kirsten Marie's worries about vagabonds find clear expression in this story. In the preceding story (1.43), she painted a picture of villages being overrun by wanderers, a position that was argued in the st&#xE6;nderforsamlinger (local assemblies) and later in the parliament by Jutlandic representatives in response to various proposals for laws concerning poverty assistance. In this case, the farm itself is overrun by wanderers who not only overwhelm the farm, but also bring disease with them.</annotation>
+  <danish_manuscript>En Pige fortalte, at hos hendes Faders der
+boede i Rejstrup kom et Par ind om Af-
+ten og vilde laane Hus. De tog noget
+Halm ud og redte til dem paa Gulvet i
+Stuen. Om Morgen da de kom op, da
+laa der 17. Der immellem dem var en der
+gik altid og sagde: Gud lad Kraft fort&#xE6;re
+mig. Min Moder sagde, at det sidste
+hun saa hende, da gik hun med Fingerne i
+Struben. Hun junde ikke drikke n&#xE6;rer end det l&#xF8;b derud.</danish_manuscript>
+  <english_manuscript>A girl said that at her father's place, he lived in Rejstrup, a couple came in one night and asked for lodgings. They took out some hay and made a place for them on the floor in the living room. When they woke up in the morning there were seventeen people there. Among them, there was one who always said, "God, let me be devoured by cancer." My mother said that the last time she saw her, she went about with her fingers in her larynx. She couldn't drink without it pouring out of there.</english_manuscript>
+  <danish_publication>En pige har fortalt, at hos hendes faders, der boede i Rejstrup, der kom et par ind om aftenen og vilde l&#xE5;ne hus. Folkene tog noget halm ind, og s&#xE5; redte de til dem p&#xE5; gulvet i stuen. Men om morgenen, de kom op, da l&#xE5; der 17. Der imellem dem var en, der altid gik og sagde: "Gud lad kraft fort&#xE6;re mig". Min moder sagde, at det sidste hun s&#xE5; hende, da gik hun med fingeren i struben, s&#xE5;dan havde kraft &#xE6;dt hende op, og hun kunde ikke drikke n&#xE6;rere, end det l&#xF8;b derud.</danish_publication>
+  <english_publication>A girl said that at her father's place--he lived in Rejstrup--a couple came in one night and asked for lodgings. The people at the farm brought some hay in and then they made a place for the couple on the floor in the living room. But when they woke up in the morning there were seventeen people there instead of just the two. There was one of them who always said, &#x201C;God, let me be devoured by cancer.&#x201D; My mother said that the last time she saw her, she was walking around with her finger in her larynx, that&#x2019;s how much the cancer had eaten her, and when she&#x2019;d drink, it would pour out of there.</english_publication>
+  <keywords>
+    <keyword id="170" frequency="2" keyword="cancer">cancer</keyword>
+    <keyword id="355" frequency="1" keyword="drinking">drinking</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="412" frequency="1" keyword="finger">finger</keyword>
+    <keyword id="422" frequency="1" keyword="floor">floor</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="472" frequency="1" keyword="god">god</keyword>
+    <keyword id="511" frequency="1" keyword="hay">hay</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+  </keywords>
+  <etk_index id="35">
+    <heading_danish>Livet uden d&#xF8;re</heading_danish>
+    <heading_english>Life outdoors</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="3" display_name="People: Beggar / Poor person"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<story story_id="899">
+  <publication_info>DS_II_G_90</publication_info>
+  <full_name>563 - 0.00 - DS_II_G_90</full_name>
+  <informant_id>563</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Dorthea</informant_first_name>
+  <informant_full_name>Dorthea Pedersdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>923</place_id>
+      <name>Skj&#xE6;ve</name>
+      <display_name>Skj&#xE6;ve (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="894">
+      <informant_id>217</informant_id>
+      <publication_info>DS_II_G_93</publication_info>
+      <full_name>217 - 0.00 - DS_II_G_93</full_name>
+      <url>data/stories/894.dfl</url>
+    </story>
+    <story story_id="285">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_G_85</publication_info>
+      <full_name>235 - 2.02 - DS_II_G_85</full_name>
+      <url>data/stories/285.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Her p&#xE5; egnen har de haft s&#xE5; ondt af det for Jerusalems skomager, at de har ladet deres plove st&#xE5; ude julen over, for at han kunde have noget at hvile sig p&#xE5;. "Vi har s&#xE5; ondt af det for ham, det s&#xF6;lle fjolter!" har a h&#xF8;rt mange sige, "han m&#xE5; have noget at hvile sig p&#xE5;, n&#xE5;r han kommer her igjennem."</danish_publication>
+  <english_publication>Here in the area they felt so bad for the Jerusalem&#x2019;s Cobbler that they left their plows outside during Christmas so that he&#x2019;d have some place to rest. &#x201C;We feel so bad for him, that poor fool!&#x201D; I&#x2019;ve heard lot&#x2019;s of people say, &#x201C;he needs to have a place to rest when he comes through here.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="225" frequency="1" keyword="christmas">Christmas</keyword>
+    <keyword id="242" frequency="1" keyword="cobbler">cobbler</keyword>
+    <keyword id="432" frequency="1" keyword="fool">fool</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="966" frequency="1" keyword="plowing">plowing</keyword>
+    <keyword id="974" frequency="1" keyword="poor">poor</keyword>
+    <keyword id="1026" frequency="2" keyword="rest">rest</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

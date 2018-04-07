@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<story story_id="69">
+  <publication_info>JAT_VI_797</publication_info>
+  <full_name>150 - 3.06 - JAT_VI_797</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.06</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>655</place_id>
+      <name>Torsted</name>
+      <display_name>Torsted (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="82">
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_796</publication_info>
+      <full_name>150 - 3.19 - JAT_VI_796</full_name>
+      <url>data/stories/82.dfl</url>
+    </story>
+    <story story_id="32">
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_781</publication_info>
+      <full_name>150 - 1.29 - JAT_VI_781</full_name>
+      <url>data/stories/32.dfl</url>
+    </story>
+    <story story_id="78">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_315</publication_info>
+      <full_name>150 - 3.15 - Unpub_BJK_315</full_name>
+      <url>data/stories/78.dfl</url>
+    </story>
+    <story story_id="67">
+      <informant_id>150</informant_id>
+      <publication_info>&#xC6;v_0_1360</publication_info>
+      <full_name>150 - 3.05 - &#xC6;v_0_1360</full_name>
+      <url>data/stories/67.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4091a</fielddiary_page_start>
+  <fielddiary_page_end>4091a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This recording is another of Tang Kristensen's annotations concerning regional differences in pronunciation. Some of these annotations were made during the recording of other stories as is the case here. The annotation appears at the top of the page and comes in the middle of a fairytale performance (BJK 3.05). 
+
+     It is unclear why Tang Kristensen, in the published version, changed the pronunciation in Ersted from t&#xF8;ste to toste. He used oe to designate &#xF8; in the second example.</annotation>
+  <danish_manuscript>I Torsted siger man T&#xE5;ste, st&#xE5;rk, men her
+T&#xF8;ste, st&#xF8;rk</danish_manuscript>
+  <english_manuscript>In Torsted, they say: T&#xE5;ste, st&#xE5;rk, but here in Ersted, they say, T&#xF8;ste, st&#xF8;rk.</english_manuscript>
+  <danish_publication>I Torsted siger man: Taste, stark, men her i Ersted siges: Toste, stoerk</danish_publication>
+  <english_publication>In Torsted, they say: T&#xE5;ste, st&#xE5;rk, but here in Ersted, they say, Toste, stoerk.</english_publication>
+  <keywords/>
+  <etk_index id="36">
+    <heading_danish>Vore f&#xE6;dres tankes&#xE6;t og &#xE5;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="12" name="Dialect"/>
+</story>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<story story_id="872">
+  <publication_info>DS_IV_151</publication_info>
+  <full_name>0 - 0.00 - DS_IV_151</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_mentioned">
+      <place_id>135</place_id>
+      <name>Egholm</name>
+      <display_name>Egholm (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="30">
+      <informant_id>150</informant_id>
+      <publication_info>DS_IV_149</publication_info>
+      <full_name>150 - 1.27 - DS_IV_149</full_name>
+      <url>data/stories/30.dfl</url>
+    </story>
+    <story story_id="28">
+      <informant_id>150</informant_id>
+      <publication_info>DS_IV_149</publication_info>
+      <full_name>150 - 1.25 - DS_IV_149</full_name>
+      <url>data/stories/28.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Dronning Margretes sten kaldes en nu kl&#xF8;vet sten p&#xE5; marken t&#xE6;t ved hj&#xF6;rnet af Egholm slots vold.</danish_publication>
+  <english_publication>A stone that has now been cloven on the field near Egholm castle's ramparts is called Queen Margrete's stone.</english_publication>
+  <keywords>
+    <keyword id="186" frequency="1" keyword="castle">castle</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="747" frequency="1" keyword="margrete">Margrete</keyword>
+    <keyword id="1007" frequency="1" keyword="queen">queen</keyword>
+    <keyword id="1195" frequency="2" keyword="stone">stone</keyword>
+  </keywords>
+  <etk_index id="16">
+    <heading_danish>Sm&#xE5;konger og deres fejder. Konger. Fjenders indfald</heading_danish>
+    <heading_english>Small kings and their feuds. Kings. Enemy invasions</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

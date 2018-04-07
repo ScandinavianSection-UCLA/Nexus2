@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<story story_id="901">
+  <publication_info>DS_VI_973</publication_info>
+  <full_name>492 - 0.00 - DS_VI_973</full_name>
+  <informant_id>492</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Lars</informant_first_name>
+  <informant_full_name>Lars Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>910</place_id>
+      <name>Vinkel</name>
+      <display_name>Vinkel (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="259">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VI_970</publication_info>
+      <full_name>235 - 1.39 - DS_VI_970</full_name>
+      <url>data/stories/259.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>N&#xE5;r bierne sv&#xE6;rmer, skal der siges: Du liden flue, flyv ikke fra mig, du har lige s&#xE5; lidt magt til at flyve fra mig, som pr&#xE6;sten har til at t&#xF6;mme din mave. I navn G. F. o. s. v. og s&#xE5; fadervor. A l&#xE6;ste det en gang, og bierne lagde sig ogs&#xE5;.</danish_publication>
+  <english_publication>When bees swarm, one should say: You little fly, do not fly away from me, you have just as little power to fly from me as the minister has to empty his stomach. In the name of Lord the Father, etc. and then an Our Father. I read (said) that one time, and the bees calmed down too.</english_publication>
+  <keywords>
+    <keyword id="85" frequency="2" keyword="bees">bees</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="425" frequency="3" keyword="flying">flying</keyword>
+    <keyword id="725" frequency="1" keyword="lord">lord</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="886" frequency="1" keyword="our_father">Our Father</keyword>
+    <keyword id="988" frequency="1" keyword="power">power</keyword>
+    <keyword id="1194" frequency="1" keyword="stomach">stomach</keyword>
+  </keywords>
+  <etk_index id="28">
+    <heading_danish>Kloge m&#xE6;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

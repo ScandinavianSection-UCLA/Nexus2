@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<story story_id="130">
+  <publication_info>DS_III_445</publication_info>
+  <full_name>150 - 4.19 - DS_III_445</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.19</order_told>
+  <fieldtrip id="5">June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>4</place_id>
+      <name>Aalborg</name>
+      <display_name>Aalborg (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>123</place_id>
+      <name>Dragstrup sige</name>
+      <display_name>Dragstrup sige (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>611</place_id>
+      <name>Suldrup</name>
+      <display_name>Suldrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="282">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_783</publication_info>
+      <full_name>235 - 1.61 - DS_I_783</full_name>
+      <url>data/stories/282.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4594a</fielddiary_page_start>
+  <fielddiary_page_end>4594b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens conflates several aspects of various stories in a legend that reflects aspects of class and perceived threat. The poor farmer fortunately recovers a treasure hidden presumably by robbers who pose a clear threat to the local economy (hence all the money). The man's discovery of the treasure is implicitly connected to his appeal to god, and the bargain that he strikes. When he begins the process of building the church--one of the few things that people can successfully do with found treasure since it represents a return of wealth to the community--he is approached by a wealthy local. The rich man, despite his promise, fails to build the other parts of the church, revealing the lack of trustworthiness of the wealthy. The rich man's failure to make good on his promise to build the bell tower potentially indicates a link between the rich man and the devil since, through his inaction, he damages the church. These actions are then used as part of an etiological tag to explain an unusual phenomenon in the man-made environment.
+
+     Suldrup church is six and a half kilometers north west of Ersted. Photographs of the church reveal that the bell tower was not completed initially. In 1944, a half timber spire was added to the otherwise foreshortened tower.</annotation>
+  <danish_manuscript>Skoven gik n&#xE6;sten til Aalborg. En Stodder der
+vilde til Aalb. og var fra Suldrup, kom i Dra-
+strup Sige, sp&#xE6;ndte B&#xE6;sterne fra og lod dem
+
+4594B
+gaa. En gik og raabte x) men h. vilde ikke svare
+ham. Da h. nu ikke vilde svare, h&#xE6;ldte den
+2 saa mange Penge ud i en hul Eg, lidt
+derfra og de klingrede saadan, kunde h. h&#xF8;re
+satte sig ned paa hans Kn&#xE6; og bad til Vorherre
+at h. vilde vise ham, hvor den Eg stod og s.
+vilde h. s&#xE6;tte et Tempel for ham til Guds &#xC6;re.
+Fandt ogsaa Tr&#xE6;et og fik fat paa Pengene.
+Hjem og gav sig til at j&#xE6;vne Pladsen, hvor
+Suldrup Kirke staar. En rig Mand i Byen
+sagde: Hvad vil du her, du gaar og j&#xE6;vner
+paa den Plads. A tror, a vil til at bygge
+en Kirke, vi har s. langt til Kirke. Ja naar
+du s&#xE6;tter en Kirke, s. skal a s&#xE6;tte Taarn
+og Sangkor og Altar. Den 2 M. satte Kirken,
+men [2] 1 mand d&#xF8;jede nok med at s&#xE6;tte
+Altaret og fik hverken Taarn eller Sangkor
+H. gik og hujede for at sikre sig, at ingen
+var i N&#xE6;rheden, for h. mente jo at de
+vilde svare, hvis nogen var i N&#xE6;rheden.</danish_manuscript>
+  <english_manuscript>The forest went almost to Aalborg. There was a vagabond who wanted to go to Aalborg. He was from Suldrup and when he got to Dra(g)strup Sige, he unharnessed his jades and let them go. Somebody was calling out but he didn't dare answer. Then the other one poured a huge amount of money down into a hollow oak a little ways away, and he could hear that it jingled. He got down on his knees and prayed to God that he'd show him the tree where the money was hidden then he'd build a temple to honor God. He found the tree too and got a hold of the money. When he got home he began leveling the place where Suldrup church stands. A rich man in the town said, "What are you doing here? Why are you leveling this place?."-- "I think I'll build a church, it's so far for us to church." -- "Well, if you build the church, then I'll put up the tower, the altar and the choir." The poor man built the church but the other one put off putting up the altar and built neither the tower nor the choir. He went calling out to make sure that nobody was nearby, because he figured they'd answer if anyone was nearby.</english_manuscript>
+  <danish_publication>Der var en gang en fattig g&#xE5;rdmand fra Suldrup, som kj&#xF8;rte til Aalborg. Da han kom til Dragstrup sige, ikke langt fra Aalborg, var hans krikker tr&#xE6;tte. Han sp&#xE6;ndte dem da fra og lod dem gr&#xE6;sse i skoven, som den gang n&#xE5;ede n&#xE6;sten til Aalborg. S&#xE5; h&#xF8;rte han &#xE9;n, der hujede, men han turde ikke svare, fordi han var r&#xE6;d, at det skulde blive opdaget, at han gr&#xE6;ssede hestene p&#xE5; andres ejendom. S&#xE5; hujede det anden gang, men han svarede alligevel ikke. Den anden hujede for at sikre sig, at ingen var i n&#xE6;rheden, for han mente jo, at hvis nogen h&#xF8;rte det, s&#xE5; vilde de svare. S&#xE5; h&#xF8;rte han en klingren, som &#xE9;n kunde h&#xE6;lde en m&#xE6;ngde penge ned i et hult tr&#xE6;, men han kunde ingen se. Han satte sig nu ned p&#xE5; hans kn&#xE6; og bad Gud om, at han vilde vise ham det tr&#xE6;, som pengene var gjemte i, s&#xE5; vilde han bygge et tempel for dem til Guds &#xE6;re. Han fandt da ogs&#xE5; tr&#xE6;et og fik fat i pengene. Da han s&#xE5; kom hjem, gav han sig til at j&#xE6;vne pladsen, som kirken st&#xE5;r p&#xE5;. S&#xE5; var der en rig mand der i byen, han f&#xE5;r det at se og siger: "Hvad vil du her? hvi g&#xE5;r du og j&#xE6;vner den plads?" &#x2014; Den fattige svarer: "A tror, a vil til at bygge en kirke, vi har s&#xE5; langt til Guds hus." &#x2014; "Ja", siger den rige mand, "vil du bygge kirken, s&#xE5; vil a s&#xE6;tte t&#xE5;rn, alter og sangkor." Det blev de da enige om, og den fattige mand byggede s&#xE5; kirken. Men den rige mand kunde ikke evne at s&#xE6;tte mere end alteret og sangkoret; t&#xE5;rn blev der intet af, og s&#xE5;ledes st&#xE5;r kirken den dag i dag.</danish_publication>
+  <english_publication>There was once a poor farmer from Suldrup who drove to Aalborg. When he got to Dra(g)strup Sige not too far from Aalborg, his jades were tired. He unharnessed them and let them graze in the woods which at that time reached almost all the way to Aalborg. Then he heard somebody who called out but he didn&#x2019;t dare answer because he was scared that he&#x2019;d be noticed grazing his animals on someone else&#x2019;s property. Then they called out a second time but he still didn&#x2019;t answer. The other one called out to make sure that nobody was nearby because he thought that if somebody heard him they&#x2019;d answer. Then the poor farmer heard a jingling as if someone had poured a huge amount of money down into a hollow tree but he couldn&#x2019;t see anything. He got down on his knees now and prayed to god that if he&#x2019;d show him the tree where the money was hidden then he&#x2019;d build a temple to honor god. He found the tree too and got hold of the money. When he got home he began leveling the place where the church now stands. Then there was a rich man in the town who saw this and said, &#x201C;What are you doing here? Why are you leveling this place?.&#x201D;--The poor man answers, &#x201C;I think I&#x2019;ll build a church, it&#x2019;s so far for us to go to god&#x2019;s house.&#x201D; -- &#x201C;Well,&#x201D; says the rich man, &#x201C;if you&#x2019;ll build the church, then I&#x2019;ll put up the tower, the altar and the choir box.&#x201D; They agreed to that and the poor man built the church. But the rich man wasn&#x2019;t able to add more than the altar and the choir box; the tower never came to be and that&#x2019;s how the church stands to this very day.</english_publication>
+  <keywords>
+    <keyword id="15" frequency="1" keyword="agreement">agreement</keyword>
+    <keyword id="21" frequency="2" keyword="altar">altar</keyword>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="129" frequency="2" keyword="box">box</keyword>
+    <keyword id="221" frequency="2" keyword="choir">choir</keyword>
+    <keyword id="227" frequency="5" keyword="church">church</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="472" frequency="3" keyword="god">god</keyword>
+    <keyword id="484" frequency="2" keyword="grazing">grazing</keyword>
+    <keyword id="535" frequency="1" keyword="hollow">hollow</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="541" frequency="1" keyword="honor">honor</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="571" frequency="1" keyword="jade">jade</keyword>
+    <keyword id="637" frequency="1" keyword="knee">knee</keyword>
+    <keyword id="793" frequency="3" keyword="money">money</keyword>
+    <keyword id="974" frequency="3" keyword="poor">poor</keyword>
+    <keyword id="989" frequency="1" keyword="prayer">prayer</keyword>
+    <keyword id="1029" frequency="3" keyword="rich">rich</keyword>
+    <keyword id="1262" frequency="1" keyword="tired">tired</keyword>
+    <keyword id="1274" frequency="2" keyword="tower">tower</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1281" frequency="3" keyword="tree">tree</keyword>
+    <keyword id="1291" frequency="1" keyword="unharnessed">unharnessed</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="12">
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="3" display_name="People: Beggar / Poor person"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="94" display_name="Actions or events: Oath"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

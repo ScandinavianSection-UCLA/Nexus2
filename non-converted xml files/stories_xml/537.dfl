@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<story story_id="537">
+  <publication_info>DS_VI_141</publication_info>
+  <full_name>379 - 0.00 - DS_VI_141</full_name>
+  <informant_id>379</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Mads</informant_first_name>
+  <informant_full_name>L&#xE6;rer Mads Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>772</place_id>
+      <name>F&#xE5;rdrup</name>
+      <display_name>F&#xE5;rdrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>302</place_id>
+      <name>Hvirring</name>
+      <display_name>Hvirring (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>474</place_id>
+      <name>Rask</name>
+      <display_name>Rask (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="798">
+      <informant_id>65</informant_id>
+      <publication_info>DS_V_289</publication_info>
+      <full_name>65 - 0.00 - DS_V_289</full_name>
+      <url>data/stories/798.dfl</url>
+    </story>
+    <story story_id="18">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_139</publication_info>
+      <full_name>150 - 1.15 - DS_VI_139</full_name>
+      <url>data/stories/18.dfl</url>
+    </story>
+    <story story_id="192">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_167</publication_info>
+      <full_name>241 - 4.20 - DS_VI_167</full_name>
+      <url>data/stories/192.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Om en herremand p&#xE5; Rask i Hvirring sogn fort&#xE6;lles, at han undertiden bes&#xF6;gte Dj&#xE6;velen i hans bolig. En sildig aften kom ordre til kusken at sp&#xE6;nde for kareten. Herren, fruen og flere satte sig op, og da kusken spurgte, hvor han skulde kj&#xF8;re hen, svarede manden: "F&#xF8;lg den sorte hund." Vejen var bred og j&#xE6;vn, og det varede ikke l&#xE6;nge, f&#xF6;r de holdt for et stort, med mange lamper oplyst slot med en j&#xE6;rnport for, som straks &#xE5;bnede sig, og p&#xE5; trappen stod den gamle grinende, modtog dem og f&#xF8;rte dem ind. Endelig kom de ud og blev vejviste af den sorte hund til deres hjem.</danish_publication>
+  <english_publication>It is said about a manor lord from Rask in Hvirring that he occasionally visited the devil in his abode. One night late the order came to the driver to get the carriage ready. The lord, the lady, and more people got up in it and when the driver asked where he was supposed to drive, the lord answered, &#x201C;Follow the black dog.&#x201D; The road was wide and level and it wasn&#x2019;t too long before they stopped by a big castle lit by many lanterns with an iron gate in front which immediately opened, and on the stairway stood the Old One laughing. He greeted them and brought them inside. Finally they came out and were directed by the black dog back to their home.</english_publication>
+  <keywords>
+    <keyword id="106" frequency="2" keyword="black">black</keyword>
+    <keyword id="181" frequency="1" keyword="carriage">carriage</keyword>
+    <keyword id="186" frequency="1" keyword="castle">castle</keyword>
+    <keyword id="324" frequency="1" keyword="devil">devil</keyword>
+    <keyword id="343" frequency="2" keyword="dog">dog</keyword>
+    <keyword id="357" frequency="2" keyword="driver">driver</keyword>
+    <keyword id="457" frequency="1" keyword="gate">gate</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="564" frequency="1" keyword="iron">iron</keyword>
+    <keyword id="678" frequency="1" keyword="lady">lady</keyword>
+    <keyword id="685" frequency="1" keyword="lantern">lantern</keyword>
+    <keyword id="691" frequency="1" keyword="laughter">laughter</keyword>
+    <keyword id="725" frequency="2" keyword="lord">lord</keyword>
+    <keyword id="743" frequency="1" keyword="manor_lord">manor lord</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1185" frequency="1" keyword="stairs">stairs</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

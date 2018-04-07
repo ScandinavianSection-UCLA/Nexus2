@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<story story_id="105">
+  <publication_info>FK_0_551</publication_info>
+  <full_name>150 - 3.42 - FK_0_551</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.42</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>492</place_id>
+      <name>Rold</name>
+      <display_name>Rold (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="107">
+      <informant_id>150</informant_id>
+      <publication_info>FK_0_2</publication_info>
+      <full_name>150 - 3.44 - FK_0_2</full_name>
+      <url>data/stories/107.dfl</url>
+    </story>
+    <story story_id="109">
+      <informant_id>150</informant_id>
+      <publication_info>FK_0_586</publication_info>
+      <full_name>150 - 3.46 - FK_0_586</full_name>
+      <url>data/stories/109.dfl</url>
+    </story>
+    <story story_id="106">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_343</publication_info>
+      <full_name>150 - 3.43 - Unpub_BJK_343</full_name>
+      <url>data/stories/106.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4105ab</fielddiary_page_start>
+  <fielddiary_page_end>4105b</fielddiary_page_end>
+  <bibliographic_info>Stevnsborg 1992.
+Anderson 1923.
+Feilberg 1977.</bibliographic_info>
+  <bibliography_references>
+    <reference id="649" category="general">
+      <display_string>[Book] Uther, Hans-J&#xF6;rg. 2004. &lt;i&gt;The types of international folktales : a classification and bibliography, based on the system of Antti Aarne and Stith Thompson (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+    <reference id="743" category="general">
+      <display_string>[Article] Stevnsborg, Henrik. 1992. Den bl&#xE5; jomfru. &lt;i&gt;Folkeminder 1991&lt;/i&gt; 2: 5-8.</display_string>
+    </reference>
+    <reference id="617" category="general">
+      <display_string>[Book] Anderson, Walter. 1923. &lt;i&gt;Kaiser und Abt. Die Geschichte eines Schwanks (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+    <reference id="181" category="general">
+      <display_string>[Book] Feilberg, Henning F. 1977. &lt;i&gt;Bidrag til en ordbog over jyske almuesm&#xE5;l&lt;/i&gt;. Copenhagen: Dansk Historisk H&#xE5;ndbogsforlag.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Jens's story of the minister in Rold is a variant of a widely attested tale, ATU 922, "The Shepherd Substituting for the Clergyman Answers the King's Questions." Aarne and Thompson list forty-nine Danish variants of this tale alone (ATU 922). The best known scholarly treatment of this tale is Walter Anderson's Kaiser und Abt (1923, 182ff). In the folktale fair copy collection, one finds another variant of this tale from the immediate area placing Rold minister in the role of foolish minister (&#xC6;v.1361b told by Kirsten Kristensdatter, Aarestrup). The closeness of the variants suggests that the Rold minister was a local tradition dominant for the foolish minister.
+
+     The "Blue maiden" was a much discussed torture device (Stevnsborg 1992). Feilberg offers the following description: "There were three steps up to the maiden; when the sinner stepped on the first step, she smiled; on the second step, she opened her arms; on the third she closed her arms around him and strangled him or cut his head off" (Feilberg 2, 43). It is closely related to the "Iron Maiden," the best known example of which was destroyed during the air raids in Nuremberg during World War II.
+
+     The manuscript is somewhat confusing since BJK 3.43 is interpolated in the midst of the story. The manuscript is also remarkably spare, and Tang Kristensen fills out the narrative considerably in the published version.</annotation>
+  <danish_manuscript>(Pr&#xE6;sten i Rold skrev over D&#xF8;ren
+Han boede uden [Bsk] Sorg og Modgang. Kg.
+der igiennem. M&#xF8;de og forklare 3 sp&#xF8;rgsmaal
+Hvis ikke kunde, kysse blaa Jfr. 1. Hvad 
+Kongens Stol var v&#xE6;rd. 2. Hvad h. var v&#xE6;rd.
+3. Hvad h. t&#xE6;nkte. Pr. forbavst og kun et halvt
+Mske. Hvis Pr. vilde give Byhyrden ny Kl&#xE6;der
+og Rejsepenge vilde h. rejse derover... og Pr.
+passe paa Byh&#xF8;vderne, mens h. var v&#xE6;k. Med For-
+n&#xF8;jelse.... --- Da h. kom ind til Kg. sad h. paa 
+en guldstol. Hvad v&#xE6;rd. Aa ikke mere
+v&#xE6;rd end en god Majmaaneds Regn kunde
+betale. Ja, men hvad er saa jeg v&#xE6;rd.
+Ja de gav 30 . . . . . naar en s. gav 29 for
+Majest&#xE6;ten saa kan De vel v&#xE6;re betalt.
+Naa ja, men hvad t&#xE6;nker jeg saa? Ja Kg.
+t&#xE6;nker, &#xC6; snakker med Rold Pr&#xE6;st, men s
+er det deres Byhyrde. Saadan slap h fra
+det.</danish_manuscript>
+  <english_manuscript>The minister in Rold wrote over his door that he lived without sorrow or adversity. The king passed through there. Meet and explain three questions. If he couldn't, kiss the blue virgin. 1. What the king's chair was worth. 2. What he was worth. 3. What he was thinking. Minister surprised and only half a person. If the minister would give the town shepherd new clothes and traveling money, he'd travel over there... and the minister was to take care of the town cattle while he was gone. Gladly. [3.44 appears here in the manuscript] When he got to the king, he was sitting on a gold chair. What's it worth. Oh not more than a good May rain could pay. Yes, but what am I worth then. Yes, they gave 30..... so if one gave twenty-nine for his majesty then you'd be well paid for. OK, yes, but then what am I thinking? Yes the king is thinking, I'm talking with Rold Minister, but in fact it is their town shepherd. That's how he got out of it.</english_manuscript>
+  <danish_publication>Pr&#xE6;sten i RoId skrev over sin D&#xF8;r, at han levede uden Sorg og Modgang. En Gang kom Kongen der igjennem, og da han saa den Overskrift, sagde han Pr&#xE6;sten til, at han skulde m&#xF8;de for ham og forklare ham tre Sp&#xF8;rgsmaal, eller, hvis han ikke kunde, skulde han kysse den blaa Jomfru. Det f&#xF8;rste Sp&#xF8;rgsmaal var, hvad Kongens Stol var v&#xE6;rd, det andet, hvad han selv var v&#xE6;rd, og det tredje, hvad han t&#xE6;nkte. Pr&#xE6;sten blev helt forbavset over dether og gik nu og var kun et halvt Menneske. Men saa kommer han i Snak med Byhyrden, der sagde, at hvis Pr&#xE6;sten vilde give ham nye Kl&#xE6;der og Rejsepenge, saa vilde han rejse over til Kj&#xF8;benhavn og m&#xF8;de for ham hos Kongen. Ja, det vilde han med Forn&#xF8;jelse, og saa rejste hyrden. Da han nu kommer ind for Kongen, sidder denne paa en Guldstol. Kongen sp&#xF8;rger ham f&#xF8;rst, hvad den Stol er v&#xE6;rd. "Aa, den er ikke mere v&#xE6;rd, end en god Majmaaneds Regn kan betale", siger Hyrden. "Jamen hvad er jeg saa v&#xE6;rd?" &#x2014; "Ja, de gav jo tredive S&#xF8;lvpenge for vor Frelser, naar man saa giver 29 for Majest&#xE6;ten, saa kan De vel v&#xE6;re betalt." &#x2014; "Naaja, men hvad t&#xE6;nker jeg paa?" &#x2014; "Ja, Kongen t&#xE6;nker, De snakker med Rold pr&#xE6;st, men saa er det deres Byhyrde." Saadan slap han godt fra det.</danish_publication>
+  <english_publication>The minister in Rold wrote over his door that he lived without sorrow or adversity. One time, the king came through there and when he saw that inscription he said to the minister that he was to come to an audience with him and answer three questions, otherwise, if he couldn&#x2019;t, he was to kiss the blue virgin. The first question was what the king&#x2019;s chair was worth, the second, what he himself was worth, and the third, what he was thinking. The minister was quite surprised by this and went about and was only half a person with worry. But then he falls into conversation with the town shepherd who said that if the minister would give him some new clothes and some traveling money, then he&#x2019;d travel over to Copenhagen and meet with the king in his stead. Yes, he&#x2019;d gladly do that and then the shepherd journeyed off. When he comes in to the king, the king is sitting on a gold chair. The king asks him first what the chair is worth. &#x201C;Oh, it isn&#x2019;t worth more than what a good May rain can pay,&#x201D; says the shepherd. &#x201C;Well then what am I worth?&#x201D; &#x2013; &#x201C;Yes, they paid thirty silver coins for our savior, so if you paid twenty-nine for your majesty, then you&#x2019;ve been well paid for.&#x201D; &#x2013; &#x201C;OK, then what am I thinking about?&#x201D;&#x2014;&#x201C;Yes, the king is thinking that you&#x2019;re talking to Rold Minister, but in fact it is their town shepherd.&#x201D; That&#x2019;s how he got out of it well.</english_publication>
+  <keywords>
+    <keyword id="114" frequency="1" keyword="blue">blue</keyword>
+    <keyword id="201" frequency="3" keyword="chair">chair</keyword>
+    <keyword id="236" frequency="1" keyword="clothing">clothing</keyword>
+    <keyword id="246" frequency="1" keyword="coins">coins</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="390" frequency="1" keyword="fact">fact</keyword>
+    <keyword id="473" frequency="1" keyword="gold">gold</keyword>
+    <keyword id="624" frequency="6" keyword="king">king</keyword>
+    <keyword id="630" frequency="1" keyword="kiss">kiss</keyword>
+    <keyword id="786" frequency="5" keyword="minister">minister</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="1011" frequency="1" keyword="rain">rain</keyword>
+    <keyword id="1071" frequency="1" keyword="savior">savior</keyword>
+    <keyword id="1099" frequency="4" keyword="shepherd">shepherd</keyword>
+    <keyword id="1118" frequency="1" keyword="silver">silver</keyword>
+    <keyword id="1163" frequency="1" keyword="sorrow">sorrow</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1275" frequency="2" keyword="town">town</keyword>
+    <keyword id="1305" frequency="1" keyword="virgin">virgin</keyword>
+    <keyword id="1367" frequency="1" keyword="writing">writing</keyword>
+  </keywords>
+  <etk_index id="39">
+    <heading_danish>Vore f&#xE6;dres kirketjeneste</heading_danish>
+    <heading_english>Our forebears' Church services</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="6" name="Folktale"/>
+</story>

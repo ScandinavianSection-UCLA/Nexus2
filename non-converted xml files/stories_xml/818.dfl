@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<story story_id="818">
+  <publication_info>DS_V_728</publication_info>
+  <full_name>460 - 0.00 - DS_V_728</full_name>
+  <informant_id>460</informant_id>
+  <informant_last_name>Lund</informant_last_name>
+  <informant_first_name>Sofie</informant_first_name>
+  <informant_full_name>Fr&#xF8;ken Sofie Lund</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>602</place_id>
+      <name>St&#xF8;vring</name>
+      <display_name>St&#xF8;vring (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>579</place_id>
+      <name>Spentrup</name>
+      <display_name>Spentrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="56">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_90</publication_info>
+      <full_name>150 - 2.09 - DS_II_C_90</full_name>
+      <url>data/stories/56.dfl</url>
+    </story>
+    <story story_id="165">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_687</publication_info>
+      <full_name>241 - 2.15 - DS_IV_687</full_name>
+      <url>data/stories/165.dfl</url>
+    </story>
+    <story story_id="247">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_V_612</publication_info>
+      <full_name>235 - 1.27 - JAH_V_612</full_name>
+      <url>data/stories/247.dfl</url>
+    </story>
+    <story story_id="379">
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_822</publication_info>
+      <full_name>123 - 2.05 - DS_V_822</full_name>
+      <url>data/stories/379.dfl</url>
+    </story>
+    <story story_id="740">
+      <informant_id>111</informant_id>
+      <publication_info>DS_V_733</publication_info>
+      <full_name>111 - 0.00 - DS_V_733</full_name>
+      <url>data/stories/740.dfl</url>
+    </story>
+    <story story_id="837">
+      <informant_id>518</informant_id>
+      <publication_info>DS_VI_315</publication_info>
+      <full_name>518 - 0.00 - DS_VI_315</full_name>
+      <url>data/stories/837.dfl</url>
+    </story>
+    <story story_id="881">
+      <informant_id/>
+      <publication_info>DS_V_714</publication_info>
+      <full_name>0 - 0.00 - DS_V_714</full_name>
+      <url>data/stories/881.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Spentrup var og en pr&#xE6;st, som var dygtig til at mane. En aften var han kj&#xF8;rt ud til et hus, hvor han skulde mane et sp&#xF8;gelse. Han kj&#xF8;rte alt hvad han kunde, indtil vognen blev s&#xE5; tung, at hestene ikke kunde tr&#xE6;kke den, han stod da efter pr&#xE6;stens ordre af og lagde det ene hjul i vognen. Nu gik det godt, indtil de kom ganske n&#xE6;r til hjemmet, men s&#xE5; gik karlen hen og satte hjulet p&#xE5; igjen. Det var for tidlig, ti da de kom i pr&#xE6;steg&#xE5;rden, m&#xE6;rkede pr&#xE6;sten, at det var galt fat, og sagde til karlen, at nu skulde han skynde sig at f&#xE5; hestene i stalden og s&#xE5; ikke komme ud derfra, f&#xF6;r han kaldte p&#xE5; ham. Men karlen var nysgjerrig og kikkede ud, og da var der noget f&#xE6;lt skidteri, der v&#xE6;ltede laden, idet det foer bort, men med pr&#xE6;sten fik det ingen magt.</danish_publication>
+  <english_publication>There was also a minister who was good at conjuring in Spentrup. One night he had driven out to a house where he was supposed to conjure a ghost. He drove as fast as he could until the wagon became so heavy that the horses couldn&#x2019;t pull it. He got out according to the minister&#x2019;s orders and put one of the wheels into the wagon. Now it went well until they got quite close to home, but then the farm hand went and put the wheel on again. It was too soon, since when they got into the parsonage, the minister noticed that something was wrong, and said to the farm hand that he should hurry and get the horses into the barn and to not come out of there until he called for him. But the farm hand was curious and looked out and then there was some evilness (haunting) which tipped the barn over before it went away, but it didn&#x2019;t get any power over the minister.</english_publication>
+  <keywords>
+    <keyword id="72" frequency="1" keyword="barn">barn</keyword>
+    <keyword id="255" frequency="2" keyword="conjuring">conjuring</keyword>
+    <keyword id="395" frequency="3" keyword="farm_hand">farmhand</keyword>
+    <keyword id="464" frequency="1" keyword="ghost">ghost</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="786" frequency="4" keyword="minister">minister</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="906" frequency="1" keyword="parsonage">parsonage</keyword>
+    <keyword id="988" frequency="1" keyword="power">power</keyword>
+    <keyword id="1186" frequency="1" keyword="stall">stall</keyword>
+    <keyword id="1311" frequency="2" keyword="wagon">wagon</keyword>
+    <keyword id="1335" frequency="2" keyword="wheel">wheel</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="81" display_name="Actions or events: Conjuring"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

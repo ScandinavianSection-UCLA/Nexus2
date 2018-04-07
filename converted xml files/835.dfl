@@ -1,0 +1,97 @@
+<story><story_id>835</story_id>
+  <publication_info>DS_V_39</publication_info>
+  <full_name>470 - 0.00 - DS_V_39</full_name>
+  <informant_id>470</informant_id>
+  <informant_last_name>Mand</informant_last_name>
+  <informant_first_name>S&#248;ren</informant_first_name>
+  <informant_full_name>S&#248;ren Mand</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>887</place_id>
+      <name>Tanderup</name>
+      <display_name>Tanderup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>144</place_id>
+      <name>Endelave</name>
+      <display_name>Endelave (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>158</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_252</publication_info>
+      <full_name>241 - 2.08 - DS_V_252</full_name>
+      <url>data/stories/158.dfl</url>
+    </story>
+    <story><story_id>834</story_id>
+      <informant_id>383</informant_id>
+      <publication_info>DS_V_45</publication_info>
+      <full_name>383 - 0.00 - DS_V_45</full_name>
+      <url>data/stories/834.dfl</url>
+    </story>
+    <story><story_id>880</story_id>
+      <informant_id/>
+      <publication_info>DS_V_43</publication_info>
+      <full_name>0 - 0.00 - DS_V_43</full_name>
+      <url>data/stories/880.dfl</url>
+    </story>
+    <story><story_id>569</story_id>
+      <informant_id>205</informant_id>
+      <publication_info>DS_V_37</publication_info>
+      <full_name>205 - 0.00 - DS_V_37</full_name>
+      <url>data/stories/569.dfl</url>
+    </story>
+    <story><story_id>496</story_id>
+      <informant_id>434</informant_id>
+      <publication_info>DS_V_49</publication_info>
+      <full_name>434 - 0.00 - DS_V_49</full_name>
+      <url>data/stories/496.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand p&#229; Endelave var ude ved et kj&#230;r (mod nord i retning af hagen) for at skyde. S&#229; snart han havde l&#246;snet det f&#248;rste skud, h&#248;rte han en forf&#230;rdelig larm og bulder. Manden blev da bange og skyndte sig af sted hjemad, men han havde ikke l&#248;bet ret l&#230;nge, f&#246;r en kalv med et par store r&#248;de &#246;jne sprang op p&#229; ryggen af ham og slog forbenene om hans hals. Endelig kom han i tanker om, at han havde h&#248;rt, at alt sp&#248;geri m&#229;tte vige for skarpt st&#229;l, og han fik da sin lommekniv op og stak med denne efter kalven, der s&#229; straks forlod ham.</danish_publication>
+  <english_publication>A man from Endelave was out shooting near a swamp (towards the northern end of it near the little peninsula). As soon as he had shot his first shot he heard a terrible noise and rumbling. The man got scared and hurried off home, but he hadn&#8217;t run very far before a calf with a pair of big red eyes jumped up on his back and threw its forelegs about his neck. Finally he remembered that he&#8217;d heard that all hauntings have to yield to sharp metal and so he got out his pocket knife and stabbed at the calf with it, which immediately abandoned him.</english_publication>
+  <keywords>
+    <keyword><id>169</id><frequency>2</frequency><keyword>calf</keyword>calf</keyword>
+    <keyword><id>389</id><frequency>1</frequency><keyword>eye</keyword>eye</keyword>
+    <keyword><id>508</id><frequency>1</frequency><keyword>haunting</keyword>haunting</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>543</id><frequency>1</frequency><keyword>horrible</keyword>horrible</keyword>
+    <keyword><id>551</id><frequency>1</frequency><keyword>hunting</keyword>hunting</keyword>
+    <keyword><id>638</id><frequency>1</frequency><keyword>knife</keyword>knife</keyword>
+    <keyword><id>754</id><frequency>1</frequency><keyword>marsh</keyword>marsh</keyword>
+    <keyword><id>772</id><frequency>1</frequency><keyword>metal</keyword>metal</keyword>
+    <keyword><id>825</id><frequency>1</frequency><keyword>neck</keyword>neck</keyword>
+    <keyword><id>858</id><frequency>1</frequency><keyword>noises</keyword>noises</keyword>
+    <keyword><id>863</id><frequency>1</frequency><keyword>north</keyword>north</keyword>
+    <keyword><id>969</id><frequency>1</frequency><keyword>pocket</keyword>pocket</keyword>
+    <keyword><id>1021</id><frequency>1</frequency><keyword>red</keyword>red</keyword>
+    <keyword><id>1106</id><frequency>2</frequency><keyword>shooting</keyword>shooting</keyword>
+    <keyword><id>1179</id><frequency>1</frequency><keyword>stab</keyword>stab</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>43</id><display_name>Places: Swamp</display_name></tango_index>
+    <tango_index><id>50</id><display_name>Tools, Items and Conveyances: Metal</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>77</id><display_name>Animals: Sheep</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<story story_id="459">
+  <publication_info>DS_IV_1705</publication_info>
+  <full_name>418 - 0.00 - DS_IV_1705</full_name>
+  <informant_id>418</informant_id>
+  <informant_last_name>J&#xF8;rgensen</informant_last_name>
+  <informant_first_name>Anders</informant_first_name>
+  <informant_full_name>Anders J&#xF8;rgensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>874</place_id>
+      <name>S&#xF8;by</name>
+      <display_name>S&#xF8;by (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>997</place_id>
+      <name>Kobberup</name>
+      <display_name>Kobberup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="392">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story story_id="829">
+      <informant_id>69</informant_id>
+      <publication_info>DS_IV_1707</publication_info>
+      <full_name>69 - 0.00 - DS_IV_1707</full_name>
+      <url>data/stories/829.dfl</url>
+    </story>
+    <story story_id="476">
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1711</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1711</full_name>
+      <url>data/stories/476.dfl</url>
+    </story>
+    <story story_id="466">
+      <informant_id>432</informant_id>
+      <publication_info>DS_IV_1695</publication_info>
+      <full_name>432 - 0.00 - DS_IV_1695</full_name>
+      <url>data/stories/466.dfl</url>
+    </story>
+    <story story_id="558">
+      <informant_id>344</informant_id>
+      <publication_info>DS_IV_1696</publication_info>
+      <full_name>344 - 0.00 - DS_IV_1696</full_name>
+      <url>data/stories/558.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I pestens tid kj&#xF8;rte de her oppe fra g&#xE5;rdene Ajstrup, R&#xF8;gind og Gamskj&#xE6;r med de d&#xF8;de til kirkeg&#xE5;rden. S&#xE5; havde en mand f&#xE5;et et meget stort l&#xE6;s p&#xE5;, og deriblandt var &#xE9;n, som ikke var helt d&#xF8;d. Da de kj&#xF8;rer om ved Tingvad forbi noget skov, f&#xE5;r han fat i en gren af et tr&#xE6; og hejser sig selv af vognen og kommer ind i skoven, og han bliver ved at leve. Det er ikke fri, der er lidt tr&#xE6;er endnu der ved Tingvad. Ved Halskov og B&#xE5;dsg&#xE5;rd har der v&#xE6;ret sv&#xE6;rt med skov.
+     P&#xE5; den &#xF8;stre side af Kobberup kirkeg&#xE5;rd er en pestkule. Den er groet til med lyng, og stedet er nok s&#xE5; h&#xF6;jt som det andet.</danish_publication>
+  <english_publication>During the time of the plague, the ones from the farms Ajstrup, R&#xF8;gind and Gamskj&#xE6;r drove the dead to the cemetery. One time a man had gotten a really big cargo in which there was one who wasn&#x2019;t quite dead yet. When they drove near Tingvad past some woods, he gets hold of a tree branch and pulls himself out of the wagon and gets off into the woods and he continues to live there. It isn&#x2019;t all open, there are still some trees over there by Tingvad. Near Halskov and B&#xE5;dsg&#xE5;rd it was once thick with woods. 
+     On the east side of Kobberup cemetery there is a plague pit. It is overgrown with heather, and the place is just as high as the surrounding area.</english_publication>
+  <keywords>
+    <keyword id="135" frequency="1" keyword="branches">branches</keyword>
+    <keyword id="179" frequency="1" keyword="cargo">cargo</keyword>
+    <keyword id="196" frequency="2" keyword="cemetery">cemetery</keyword>
+    <keyword id="317" frequency="2" keyword="death">death</keyword>
+    <keyword id="369" frequency="1" keyword="east">east</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="518" frequency="1" keyword="heather">heather</keyword>
+    <keyword id="959" frequency="2" keyword="plague">plague</keyword>
+    <keyword id="1281" frequency="2" keyword="tree">tree</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+    <keyword id="1360" frequency="3" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

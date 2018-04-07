@@ -1,0 +1,82 @@
+<informant><person_id>205</person_id>
+  <core_informant/>
+  <full_name>Jens Kr. Kristensen (Mossi-Jens) Mosen</full_name>
+  <last_name>Mosen</last_name>
+  <first_name>Jens Kr. Kristensen</first_name>
+  <gender>m</gender>
+  <birth_date>1825-02-02</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>19</occupation_id>forhen. Ridedreng</occupation>
+    <occupation><occupation_id>33</occupation_id>husmand</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>567</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>205</informant_id>
+      <publication_info>DS_IV_1120</publication_info>
+      <full_name>205 - 0.00 - DS_IV_1120</full_name>
+      <url>data/stories/567.dfl</url>
+      <place_recorded><id>455</id>&#216;ster Br&#248;nderslev</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>568</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>205</informant_id>
+      <publication_info>DS_V_1265</publication_info>
+      <full_name>205 - 0.00 - DS_V_1265</full_name>
+      <url>data/stories/568.dfl</url>
+      <place_recorded><id>455</id>&#216;ster Br&#248;nderslev</place_recorded>
+      <places_mentioned>
+        <place><id>802</id>
+          <name>Hvilsh&#248;j</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>569</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>205</informant_id>
+      <publication_info>DS_V_37</publication_info>
+      <full_name>205 - 0.00 - DS_V_37</full_name>
+      <url>data/stories/569.dfl</url>
+      <place_recorded><id>455</id>&#216;ster Br&#248;nderslev</place_recorded>
+      <places_mentioned>
+        <place><id>313</id>
+          <name>Jerslev</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>724</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>205</informant_id>
+      <publication_info>DS_II_G_102</publication_info>
+      <full_name>205 - 0.00 - DS_II_G_102</full_name>
+      <url>data/stories/724.dfl</url>
+      <place_recorded><id>455</id>&#216;ster Br&#248;nderslev</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>455</place_id>
+      <name>&#216;ster Br&#248;nderslev</name>
+      <display_name>&#216;ster Br&#248;nderslev (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>313</place_id>
+      <name>Jerslev</name>
+      <display_name>Jerslev (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>802</place_id>
+      <name>Hvilsh&#248;j</name>
+      <display_name>Hvilsh&#248;j (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

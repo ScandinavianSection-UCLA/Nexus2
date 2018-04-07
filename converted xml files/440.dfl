@@ -1,0 +1,53 @@
+<story><story_id>440</story_id>
+  <publication_info>DS_V_255</publication_info>
+  <full_name>529 - 0.00 - DS_V_255</full_name>
+  <informant_id>529</informant_id>
+  <informant_last_name>Schade</informant_last_name>
+  <informant_first_name>A. H.</informant_first_name>
+  <informant_full_name>Konsul A. H. Schade</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>837</place_id>
+      <name>Nykj&#248;bing, Mors</name>
+      <display_name>Nykj&#248;bing, Mors (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>613</story_id>
+      <informant_id>366</informant_id>
+      <publication_info>DS_V_248</publication_info>
+      <full_name>366 - 0.00 - DS_V_248</full_name>
+      <url>data/stories/613.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Under glamhullerne p&#229; Ovtrup kirket&#229;rns vestreside er der et lille hul, som aldrig kan tilmures, ti hver gang det er sket, spr&#230;ngtes der straks et stort stykke ud af muren. Efter flere forgj&#230;ves fors&#248;g p&#229; at d&#230;kke det har man oph&#248;rt dermed.</danish_publication>
+  <english_publication>Beneath the sound holes on Ovtrup church tower's west side, there's a small hole that can never be walled over, since every time that's been done, a large piece of the wall immediately cracked and fell out. After many failed attempts at covering it, they have given up.</english_publication>
+  <keywords>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>392</id><frequency>1</frequency><keyword>fall</keyword>fall</keyword>
+    <keyword><id>1165</id><frequency>1</frequency><keyword>sounds</keyword>sounds</keyword>
+    <keyword><id>1274</id><frequency>1</frequency><keyword>tower</keyword>tower</keyword>
+    <keyword><id>1313</id><frequency>2</frequency><keyword>walls</keyword>walls</keyword>
+    <keyword><id>1331</id><frequency>1</frequency><keyword>west</keyword>west</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

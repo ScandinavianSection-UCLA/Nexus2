@@ -1,0 +1,54 @@
+<informant><person_id>435</person_id>
+  <core_informant/>
+  <full_name>Peder Justesen Kristensen</full_name>
+  <last_name>Kristensen</last_name>
+  <first_name>Peder Justesen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>794</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>435</informant_id>
+      <publication_info>DS_I_796</publication_info>
+      <full_name>435 - 0.00 - DS_I_796</full_name>
+      <url>data/stories/794.dfl</url>
+      <place_recorded><id>112</id>Dalby Nedre</place_recorded>
+      <places_mentioned>
+        <place><id>471</id>
+          <name>Randers</name>
+        </place>
+        <place><id>970</id>
+          <name>Vinstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>112</place_id>
+      <name>Dalby Nedre</name>
+      <display_name>Dalby Nedre (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>970</place_id>
+      <name>Vinstrup</name>
+      <display_name>Vinstrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>471</place_id>
+      <name>Randers</name>
+      <display_name>Randers (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<story story_id="607">
+  <publication_info>DS_II_E_42</publication_info>
+  <full_name>399 - 0.00 - DS_II_E_42</full_name>
+  <informant_id>399</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Karl Kristian</informant_first_name>
+  <informant_full_name>Ungkarl Karl Kristian Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>214</place_id>
+      <name>Gudum</name>
+      <display_name>Gudum (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>801</place_id>
+      <name>Hvidbj&#xE6;rg, Tyholm</name>
+      <display_name>Hvidbj&#xE6;rg, Tyholm (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="292">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_84</publication_info>
+      <full_name>235 - 2.09 - DS_II_E_84</full_name>
+      <url>data/stories/292.dfl</url>
+    </story>
+    <story story_id="839">
+      <informant_id>451</informant_id>
+      <publication_info>DS_II_E_48</publication_info>
+      <full_name>451 - 0.00 - DS_II_E_48</full_name>
+      <url>data/stories/839.dfl</url>
+    </story>
+    <story story_id="598">
+      <informant_id>490</informant_id>
+      <publication_info>DS_II_E_22</publication_info>
+      <full_name>490 - 0.00 - DS_II_E_22</full_name>
+      <url>data/stories/598.dfl</url>
+    </story>
+    <story story_id="389">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_20</publication_info>
+      <full_name>123 - 2.15 - DS_II_E_20</full_name>
+      <url>data/stories/389.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Hvidbj&#xE6;rg kirke p&#xE5; Tyholm var der en gang en lindorm, og n&#xE5;r den blev s&#xE5; stor, at den kunde n&#xE5; rundt om kirken, troede man, at denne vilde blive v&#xE6;ltet. Det gjaldt da om at f&#xE5; den sl&#xE5;et ihjel. Men der var ingen, som turde binde sig ved den. S&#xE5; kom de i tanker om at l&#xE6;gge en tyrekalv til, og opfostre den med nymalket m&#xE6;lk i tre &#xE5;r. Folkene i Hvidbj&#xE6;rg sogn leverede m&#xE6;lk i f&#xE6;llesskab dertil, og i denne tid turde ingen mennesker komme i kirken. Da tiden nu var omme, var tyren bleven stor og st&#xE6;rk og skulde nu sl&#xE5;s med uhyret. S&#xE5; blev tyren lukket ind i kirken, og folkene stod udenfor i massevis for at f&#xE5; enden at vide. Nu blev der et forf&#xE6;rdeligt spektakel, og tyren br&#xF8;lte, s&#xE5; kirken rystede, men efter en tids forl&#xF8;b blev alt stille derinde, og nogle af de modigste kravlede op i vinduerne for at se, om uhyret var blevet dr&#xE6;bt. Da s&#xE5; de, at b&#xE5;de lindorm og tyr l&#xE5; d&#xF8;de og sv&#xF6;mmede i deres blod. Nu fik man i en hast kirked&#xF6;ren op og fik de d&#xF8;de kroppe sl&#xE6;bt ud. Lindormen fik de ned til fjorden og i en b&#xE5;d, og s&#xE5; sejlede de med den hen til en lille &#xF8; og begravede den der, og den &#xF8; kaldte man siden den tid Lind&#xF8;.</danish_publication>
+  <english_publication>In Hvidbj&#xE6;rg church at Tyholm there was once a lindorm, and when it got so big that it could reach around the church, they believed that the church would be toppled. Then it was important to get it killed. But there was nobody who dared go up against it. Then they decided to use a bull calf, and raise it on newly milked milk for three years. The people in Hvidbj&#xE6;rg provided the milk for that communally and during that time nobody dared go into the church. Now when the time was up, the bull had become big and strong and was to fight the monster. Then the bull was let into the church and the people stood in a crowd outside to find out the end. There was an incredible row and the bull snorted so loud that the church shook but after a while everything grew quiet in there and some of the bravest crawled up to the windows to see if the monster had been killed. Then they saw that both the lindorm and the bull lay dead and swam in their own blood. Then they opened the church door in a rush and dragged the dead bodies out. They got the lindorm down to the fjord and into a boat and they sailed with it to a little island, and buried it there and that island has been called Lind&#xF8; ever since.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="111" frequency="1" keyword="blood">blood</keyword>
+    <keyword id="116" frequency="1" keyword="boat">boat</keyword>
+    <keyword id="138" frequency="1" keyword="bravery">bravery</keyword>
+    <keyword id="156" frequency="5" keyword="bull">bull</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="227" frequency="7" keyword="church">church</keyword>
+    <keyword id="284" frequency="1" keyword="crowd">crowd</keyword>
+    <keyword id="310" frequency="1" keyword="dead_bodies">dead bodies</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="411" frequency="1" keyword="fight">fight</keyword>
+    <keyword id="565" frequency="2" keyword="island">island</keyword>
+    <keyword id="622" frequency="2" keyword="kill">kill</keyword>
+    <keyword id="712" frequency="3" keyword="lindorm">lindorm</keyword>
+    <keyword id="782" frequency="3" keyword="milk">milk</keyword>
+    <keyword id="795" frequency="2" keyword="monster">monster</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="1060" frequency="1" keyword="sailing">sailing</keyword>
+    <keyword id="1209" frequency="1" keyword="strength">strength</keyword>
+    <keyword id="1233" frequency="1" keyword="swimming">swimming</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1346" frequency="1" keyword="window">window</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="47" display_name="Tools, Items and Conveyances: Boat"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="134" display_name="Supernatural Beings: Lindorm / Basilisk"/>
+  </tango_indices>
+</story>

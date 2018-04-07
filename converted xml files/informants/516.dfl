@@ -1,0 +1,54 @@
+<informant><person_id>516</person_id>
+  <core_informant/>
+  <full_name>Mathias Pedersen</full_name>
+  <last_name>Pedersen</last_name>
+  <first_name>Mathias</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>711</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>516</informant_id>
+      <publication_info>DS_IV_1239</publication_info>
+      <full_name>516 - 0.00 - DS_IV_1239</full_name>
+      <url>data/stories/711.dfl</url>
+      <place_recorded><id>741</id>Allerup, Varde</place_recorded>
+      <places_mentioned>
+        <place><id>1058</id>
+          <name>Tj&#230;reborg</name>
+        </place>
+        <place><id>1057</id>
+          <name>Trasborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>741</place_id>
+      <name>Allerup, Varde</name>
+      <display_name>Allerup, Varde (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1057</place_id>
+      <name>Trasborg</name>
+      <display_name>Trasborg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1058</place_id>
+      <name>Tj&#230;reborg</name>
+      <display_name>Tj&#230;reborg (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

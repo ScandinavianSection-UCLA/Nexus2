@@ -1,0 +1,70 @@
+<informant><person_id>392</person_id>
+  <core_informant/>
+  <full_name>Uhrmager P. C. Holm</full_name>
+  <last_name>Holm</last_name>
+  <first_name>P. C.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>770</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>392</informant_id>
+      <publication_info>DS_IV_1481</publication_info>
+      <full_name>392 - 0.00 - DS_IV_1481</full_name>
+      <url>data/stories/770.dfl</url>
+      <place_recorded><id>685</id>Vejen</place_recorded>
+      <places_mentioned>
+        <place><id>964</id>
+          <name>&#216;llevad</name>
+        </place>
+        <place><id>965</id>
+          <name>Varde</name>
+        </place>
+        <place><id>966</id>
+          <name>Endrupholm</name>
+        </place>
+        <place><id>967</id>
+          <name>Gjellerup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>685</place_id>
+      <name>Vejen</name>
+      <display_name>Vejen (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>967</place_id>
+      <name>Gjellerup</name>
+      <display_name>Gjellerup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>966</place_id>
+      <name>Endrupholm</name>
+      <display_name>Endrupholm (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>965</place_id>
+      <name>Varde</name>
+      <display_name>Varde (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>964</place_id>
+      <name>&#216;llevad</name>
+      <display_name>&#216;llevad (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,63 @@
+<informant><person_id>418</person_id>
+  <core_informant/>
+  <full_name>Anders J&#248;rgensen</full_name>
+  <last_name>J&#248;rgensen</last_name>
+  <first_name>Anders</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>458</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>418</informant_id>
+      <publication_info>DS_II_C_25</publication_info>
+      <full_name>418 - 0.00 - DS_II_C_25</full_name>
+      <url>data/stories/458.dfl</url>
+      <place_recorded><id>874</id>S&#248;by</place_recorded>
+      <places_mentioned>
+        <place><id>719</id>
+          <name>Vojens</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>459</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>418</informant_id>
+      <publication_info>DS_IV_1705</publication_info>
+      <full_name>418 - 0.00 - DS_IV_1705</full_name>
+      <url>data/stories/459.dfl</url>
+      <place_recorded><id>874</id>S&#248;by</place_recorded>
+      <places_mentioned>
+        <place><id>997</id>
+          <name>Kobberup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>874</place_id>
+      <name>S&#248;by</name>
+      <display_name>S&#248;by (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>997</place_id>
+      <name>Kobberup</name>
+      <display_name>Kobberup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>719</place_id>
+      <name>Vojens</name>
+      <display_name>Vojens (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

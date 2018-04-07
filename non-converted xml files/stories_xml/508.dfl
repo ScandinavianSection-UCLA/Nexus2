@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<story story_id="508">
+  <publication_info>DS_III_2440</publication_info>
+  <full_name>319 - 0.00 - DS_III_2440</full_name>
+  <informant_id>319</informant_id>
+  <informant_last_name>Algreen-Ussing</informant_last_name>
+  <informant_first_name>Frederik</informant_first_name>
+  <informant_full_name>Cand. Jur. Frederik Algreen-Ussing</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>338</place_id>
+      <name>K&#xF8;benhavn</name>
+      <display_name>K&#xF8;benhavn (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="828">
+      <informant_id>69</informant_id>
+      <publication_info>DS_III_2412</publication_info>
+      <full_name>69 - 0.00 - DS_III_2412</full_name>
+      <url>data/stories/828.dfl</url>
+    </story>
+    <story story_id="384">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_2367</publication_info>
+      <full_name>123 - 2.10 - DS_III_2367</full_name>
+      <url>data/stories/384.dfl</url>
+    </story>
+    <story story_id="360">
+      <informant_id>90</informant_id>
+      <publication_info>DS_III_2378</publication_info>
+      <full_name>90 - 3.06 - DS_III_2378</full_name>
+      <url>data/stories/360.dfl</url>
+    </story>
+    <story story_id="755">
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1164</publication_info>
+      <full_name>348 - 0.00 - DS_I_1164</full_name>
+      <url>data/stories/755.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Til &#xE9;n af Scheelernes herreg&#xE5;rde i Jylland kom en mand (s&#xE5; vidt jeg mindes, hed han Bang) og l&#xE5; her en nat. Han havde da den dr&#xF6;m, at en skikkelse ved midnatstid viste sig ved hans seng og sagde ham, at der over porten var indmuret en skat i et j&#xE6;rnskrin, til hvilket den regjerende grev Scheel havde en guldn&#xF8;gle, og sagde ham, hvorledes stenene var stillede p&#xE5; det sted, for at han desto lettere kunde finde det. Den n&#xE6;ste dag rejste han videre, og i diligencen fortalte han denne dr&#xF6;m til sin nabo. Et &#xE5;rstid efter traf han tilf&#xE6;ldigvis grev Scheel og begyndte at tale med ham om denne sag. Greven havde ganske rigtig af sin bedstemoder f&#xE5;et en lille guldn&#xF8;gle, men hvortil den passede, havde aldrig nogen vidst. Han rejste nu hjem og lod hv&#xE6;lvingen unders&#xF8;ge, men fandt kun et tomt rum og spor til, at der for nylig var foretaget en unders&#xF8;gelse. Hvad der end mere bestyrkede denne tro var, at manden fra diligencen kort efter kj&#xF6;bte en stor herreg&#xE5;rd nede i Slesvig, uagtet det aldrig f&#xF6;r var bekjendt, at han var en rig mand.</danish_publication>
+  <english_publication>A man (who as far as I remember was called Bang) came to one of Scheeler&#x2019;s manor farms in Jutland, and stayed there overnight. He had a dream that a figure appeared by his bed at about midnight and told him that a treasure had been walled in above the door in an iron chest, and that the ruling Count Scheel had a gold key which fit it, and told him how the stones were arranged there, so it would be easier for him to find. The next day he continued his journey and in the stagecoach he told the dream to the person sitting next to him. A year later he coincidentally met up with Count Scheel and began to talk to him about this matter. The Count said that he had, as a matter of fact, received a small gold key from his grandmother, but what it fit, he had never known. He went home now and had the archway inspected, but found only an empty room and tracks suggesting that it had been recently searched. What supported this even more was that the man from the stagecoach bought a large manor farm down by Slesvig shortly after, although he had never been known as a wealthy man.</english_publication>
+  <keywords>
+    <keyword id="68" frequency="1" keyword="banging">banging</keyword>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="215" frequency="1" keyword="chest">chest</keyword>
+    <keyword id="266" frequency="1" keyword="count">count</keyword>
+    <keyword id="267" frequency="2" keyword="count_scheel">Count Scheel</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="352" frequency="2" keyword="dream">dream</keyword>
+    <keyword id="390" frequency="1" keyword="fact">fact</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="473" frequency="2" keyword="gold">gold</keyword>
+    <keyword id="479" frequency="1" keyword="grandmother">grandmother</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="564" frequency="1" keyword="iron">iron</keyword>
+    <keyword id="611" frequency="1" keyword="jutland">Jutland</keyword>
+    <keyword id="619" frequency="2" keyword="key">key</keyword>
+    <keyword id="741" frequency="1" keyword="manor">manor</keyword>
+    <keyword id="742" frequency="1" keyword="manor_farm">manor farm</keyword>
+    <keyword id="776" frequency="1" keyword="midnight">midnight</keyword>
+    <keyword id="1184" frequency="2" keyword="stagecoach">stagecoach</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1280" frequency="1" keyword="treasure">treasure</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+    <keyword id="1321" frequency="1" keyword="wealth">wealth</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="15">
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="34" display_name="Places: Manor / Castle"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

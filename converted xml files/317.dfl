@@ -1,0 +1,59 @@
+<story><story_id>317</story_id>
+  <publication_info>JAT_VI_1042</publication_info>
+  <full_name>235 - 3.15 - JAT_VI_1042</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>3.15</order_told>
+  <fieldtrip><id>3</id>January 1894</fieldtrip>
+  <fieldtrip_start_date>1894-01-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-02-19</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>312</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>JAT_III_213</publication_info>
+      <full_name>235 - 3.10 - JAT_III_213</full_name>
+      <url>data/stories/312.dfl</url>
+    </story>
+    <story><story_id>295</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>JAT_VI_1042</publication_info>
+      <full_name>235 - 2.12 - JAT_VI_1042</full_name>
+      <url>data/stories/295.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6422b (4)</fielddiary_page_start>
+  <fielddiary_page_end>6422b (4)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Kirsten Marie's short statement provides insight into the disappointments of a young girl growing up in a poor agrarian community. Presumably, she had asked for a new dress on a visit with her father to the local market town, maybe for her confirmation in 1842. Her father's harsh reaction, which Kirsten Marie then interprets, clearly stuck with her for her entire life.
+
+     Tang Kristensen published this short example of folk speech with two other examples (KMP 2.12).</annotation>
+  <danish_manuscript>A vilde gj&#230;rne have en ny Kjole. Saa
+sagde min Fader: Du kan faa en
+Flos. Det vil sige: ingen.</danish_manuscript>
+  <english_manuscript>I wanted a new dress, but then my father said, you can have a fray. That's to say none.</english_manuscript>
+  <danish_publication>[Di st&#246;&#246;st byrre a h&#229; sit: byer; kom elenes m&#230; ham.] A vilde gj&#230;rne have en ny kjole, men s&#229; sagde min fader: du kan f&#229; en flos. Dermed vilde han sige: du f&#229;r ingen.</danish_publication>
+  <english_publication>[The largest towns I&#8217;ve seen; came alone with him.] I wanted a new dress, but then my father said, you can have a fray. By saying that he wanted to say: you won't get one.</english_publication>
+  <keywords>
+    <keyword><id>353</id><frequency>1</frequency><keyword>dress</keyword>dress</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+  </keywords>
+  <etk_index><id>36</id>
+    <heading_danish>Vore f&#230;dres tankes&#230;t og &#229;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>5</id><display_name>People: Children</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>7</id><name>Saying / Proverb</name></genre>
+</story>

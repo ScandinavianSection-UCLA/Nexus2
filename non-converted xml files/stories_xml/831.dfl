@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<story story_id="831">
+  <publication_info>DS_VII_176</publication_info>
+  <full_name>130 - 0.00 - DS_VII_176</full_name>
+  <informant_id>130</informant_id>
+  <informant_last_name>J&#xF8;rgensen</informant_last_name>
+  <informant_first_name>S&#xF8;ren</informant_first_name>
+  <informant_full_name>S&#xF8;ren J&#xF8;rgensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>768</place_id>
+      <name>Engesvang</name>
+      <display_name>Engesvang (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>193</place_id>
+      <name>Gj&#xF8;dvad</name>
+      <display_name>Gj&#xF8;dvad (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>349</place_id>
+      <name>Kragelund</name>
+      <display_name>Kragelund (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="145">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_1182</publication_info>
+      <full_name>241 - 1.04 - DS_VII_1182</full_name>
+      <url>data/stories/145.dfl</url>
+    </story>
+    <story story_id="329">
+      <informant_id>90</informant_id>
+      <publication_info>DS_IV_988</publication_info>
+      <full_name>90 - 1.06 - DS_IV_988</full_name>
+      <url>data/stories/329.dfl</url>
+    </story>
+    <story story_id="284">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VII_177</publication_info>
+      <full_name>235 - 2.01 - DS_VII_177</full_name>
+      <url>data/stories/284.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Den gamle pastor &#xC5;boe i Kragelund havde lige godt tro til de kloge folk. Lige s&#xE5; s&#xE5;re et kreatur blev sygt for ham, sendte han bud efter en klog kone, der boede omme i byen, og hun kunde l&#xE6;se over det og signe. En pr&#xE6;st i Gj&#xF8;dvad var ikke s&#xE5;dan sindet, for en dag, han ikke var hjemme, og en ko blev syg, sendte folkene bud efter en klog kone, og koen kom sig, men da han h&#xF8;rte det, sagde han: han vilde hellere have mistet koen, end den skulde kureres p&#xE5; den m&#xE5;de.</danish_publication>
+  <english_publication>The old minister &#xC5;boe from Kragelund believed in the folk healers. Regardless of how sick an animal got, he sent for a woman folk healer, who lived over in the town, and she could read over it and bless it. A minister in Gj&#xF8;dvad was of a different mind, because one day when he wasn&#x2019;t home and a cow got sick, the people sent for the woman folk healer and the cow got better, but when he heard that, he said: he would rather have lost the cow then that it should be cured in that manner.</english_publication>
+  <keywords>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="110" frequency="1" keyword="blessing">blessing</keyword>
+    <keyword id="274" frequency="3" keyword="cow">cow</keyword>
+    <keyword id="286" frequency="3" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="289" frequency="1" keyword="cure">cure</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="908" frequency="1" keyword="pastor">pastor</keyword>
+    <keyword id="1111" frequency="2" keyword="sickness">sickness</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,88 @@
+<story><story_id>454</story_id>
+  <publication_info>DS_I_1051</publication_info>
+  <full_name>394 - 0.00 - DS_I_1051</full_name>
+  <informant_id>394</informant_id>
+  <informant_last_name>Jakobsen</informant_last_name>
+  <informant_first_name>A. E.</informant_first_name>
+  <informant_full_name>Friskolel&#230;rer A. E. Jakobsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>842</place_id>
+      <name>&#216;rritslev</name>
+      <display_name>&#216;rritslev (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>406</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_1036</publication_info>
+      <full_name>123 - 3.03 - DS_I_1036</full_name>
+      <url>data/stories/406.dfl</url>
+    </story>
+    <story><story_id>695</story_id>
+      <informant_id>497</informant_id>
+      <publication_info>DS_I_1043</publication_info>
+      <full_name>497 - 0.00 - DS_I_1043</full_name>
+      <url>data/stories/695.dfl</url>
+    </story>
+    <story><story_id>820</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_I_1033</publication_info>
+      <full_name>69 - 0.00 - DS_I_1033</full_name>
+      <url>data/stories/820.dfl</url>
+    </story>
+    <story><story_id>453</story_id>
+      <informant_id>520</informant_id>
+      <publication_info>DS_I_542</publication_info>
+      <full_name>520 - 0.00 - DS_I_542</full_name>
+      <url>data/stories/453.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der kom en gang en lille pusling ind til en bondemand i hans dagligstue, hvor hele familien var forsamlet for i f&#230;llesskab at nyde en gris, der var f&#248;dt samme dag, men kort efter d&#248;de, og nu var kommen i panden for at steges. Puslingen sagde intet, da han kom, og svarede heller ikke, da han blev spurgt, og det undrede folkene sig meget over. Nogle af dem antog ham for en lille hjeml&#248;s dreng, andre for en nisse, men de lod ham sidde, da det var synd at jage ham ud, hvis han var en fattig dreng, og ikke r&#229;deligt at forn&#230;rme ham, hvis han var en nisse. Da nu konen kom b&#230;rende med grisen ind p&#229; bordet, udbr&#248;d han: "Vidt har jeg rejst, og meget har jeg set; jeg har set Rold skov opbr&#230;nde, opbr&#230;nde, opbr&#230;nde tre gange, men jeg har aldrig f&#246;r set en p&#248;lse med fire ben og en tryne."</danish_publication>
+  <english_publication>Once a little goblin came in to a farmer in his living room where the whole family was gathered to enjoy a pig which had been born the same day, but died shortly thereafter, and now had been put in a pan to be fried. The goblin said nothing when he came in and didn&#8217;t answer either when he was asked, and this puzzled people a great deal. Some thought that he was a little homeless boy, others a nisse, but they let him sit since it was a shame to chase him out if he were a poor boy and not too smart to offend him if he were a nisse. Now when the wife came in carrying the pig to the table, he burst out: &#8220;Widely I&#8217;ve traveled and much have I seen; I've seen Rold forest burn up, burn up, burn up three times, but I&#8217;ve never before seen a sausage with four legs and a snout.&#8221;</english_publication>
+  <keywords>
+    <keyword><id>102</id><frequency>1</frequency><keyword>birth</keyword>birth</keyword>
+    <keyword><id>130</id><frequency>2</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>211</id><frequency>1</frequency><keyword>chase</keyword>chase</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>393</id><frequency>1</frequency><keyword>family</keyword>family</keyword>
+    <keyword><id>396</id><frequency>1</frequency><keyword>farmer</keyword>farmer</keyword>
+    <keyword><id>471</id><frequency>2</frequency><keyword>goblin</keyword>goblin</keyword>
+    <keyword><id>538</id><frequency>1</frequency><keyword>homeless</keyword>homeless</keyword>
+    <keyword><id>704</id><frequency>1</frequency><keyword>leg</keyword>leg</keyword>
+    <keyword><id>857</id><frequency>2</frequency><keyword>nisse</keyword>nisse</keyword>
+    <keyword><id>897</id><frequency>1</frequency><keyword>pan</keyword>pan</keyword>
+    <keyword><id>951</id><frequency>2</frequency><keyword>pig</keyword>pig</keyword>
+    <keyword><id>974</id><frequency>1</frequency><keyword>poor</keyword>poor</keyword>
+    <keyword><id>1070</id><frequency>1</frequency><keyword>sausage</keyword>sausage</keyword>
+    <keyword><id>1093</id><frequency>1</frequency><keyword>shame</keyword>shame</keyword>
+    <keyword><id>1144</id><frequency>1</frequency><keyword>smart</keyword>smart</keyword>
+    <keyword><id>1238</id><frequency>1</frequency><keyword>table</keyword>table</keyword>
+    <keyword><id>1343</id><frequency>1</frequency><keyword>wife</keyword>wife</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>49</id><display_name>Tools, Items and Conveyances: Food and Drink</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>65</id><display_name>Supernatural Beings: Nisse</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

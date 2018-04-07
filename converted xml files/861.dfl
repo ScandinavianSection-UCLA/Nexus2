@@ -1,0 +1,86 @@
+<story><story_id>861</story_id>
+  <publication_info>DS_I_1358</publication_info>
+  <full_name>0 - 0.00 - DS_I_1358</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>936</place_id>
+      <name>S&#248;dinge skole</name>
+      <display_name>S&#248;dinge skole (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>886</place_id>
+      <name>Svendborg</name>
+      <display_name>Svendborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>620</story_id>
+      <informant_id>359</informant_id>
+      <publication_info>DS_I_1354</publication_info>
+      <full_name>359 - 0.00 - DS_I_1354</full_name>
+      <url>data/stories/620.dfl</url>
+    </story>
+    <story><story_id>788</story_id>
+      <informant_id>382</informant_id>
+      <publication_info>DS_I_1356</publication_info>
+      <full_name>382 - 0.00 - DS_I_1356</full_name>
+      <url>data/stories/788.dfl</url>
+    </story>
+    <story><story_id>756</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1340</publication_info>
+      <full_name>348 - 0.00 - DS_I_1340</full_name>
+      <url>data/stories/756.dfl</url>
+    </story>
+    <story><story_id>441</story_id>
+      <informant_id>456</informant_id>
+      <publication_info>DS_I_1341</publication_info>
+      <full_name>456 - 0.00 - DS_I_1341</full_name>
+      <url>data/stories/441.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en gang en skipper fra Svendborg, der sejlede til Norge. P&#229; en af sine rejser der over traf han en dag en lille lav mand med en bred hat p&#229;, som kom til ham og spurgte, hvorfra han var. "Fra Svendborg." &#8212; "N&#229;, fra Svendborg, der har jeg f&#246;r boet." &#8212; "Hvordan er det, du er kommen her over?" spurgte skipperen. "Jo," svarede den lille mand, "jeg boede i en lille h&#246;j der nede, og havde det rigtig godt, og havde s&#229;dan en god omgang med fire kj&#246;bm&#230;nd inde i byen, vil du hilse! men s&#229; kom Morten Luther, og s&#229; ringede det, men det kunde jeg ikke t&#229;le at h&#248;re, og s&#229; rejste jeg her over, og her boer jeg nu i en h&#246;j her straks ved." De skiltes da, skipperen kom hjem og skulde til at lede efter kj&#246;bm&#230;ndene, kunde han ikke finde dem, ej heller nogen, der hed s&#229;dan. S&#229; s&#246;gte han pr&#230;sten, og de ledte i kirkebogen og fandt, at det var tre hundrede &#229;r, siden disse kj&#246;bm&#230;nd havde levet.</danish_publication>
+  <english_publication>Once there was a skipper from Svendborg who sailed to Norway. On one of his trips over there he met one day a little short man with a broad brimmed hat on who came to him and asked where he was from. &#8220;From Svendborg.&#8221; &#8220;Oh, from Svendborg. I used to live there.&#8221; &#8220;How is it that you&#8217;ve come here?&#8221; asked the skipper. &#8220;Well,&#8221; answered the little man, &#8220;I lived in a little mound down there, and had it really good, and hung out with four merchants in the town; will you give them my regards? But then Morten Luther came, and then it rang, and I couldn&#8217;t stand to listen to that, so I traveled over here, and now I live near here in a mound real close by.&#8221; They parted then but then when the skipper came home and was to look up the merchants, he couldn&#8217;t find them or anybody who was called that. Then he went to the minister and they looked in the parish register, and found that it was three hundred years ago that these merchants had lived.</english_publication>
+  <keywords>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>506</id><frequency>1</frequency><keyword>hat</keyword>hat</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>755</id><frequency>1</frequency><keyword>martin_luther</keyword>Martin Luther</keyword>
+    <keyword><id>767</id><frequency>3</frequency><keyword>merchant</keyword>merchant</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>804</id><frequency>2</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>866</id><frequency>1</frequency><keyword>norway</keyword>Norway</keyword>
+    <keyword><id>903</id><frequency>1</frequency><keyword>parish</keyword>parish</keyword>
+    <keyword><id>1060</id><frequency>1</frequency><keyword>sailing</keyword>sailing</keyword>
+    <keyword><id>1129</id><frequency>3</frequency><keyword>skipper</keyword>skipper</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1275</id><frequency>1</frequency><keyword>town</keyword>town</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>18</id><display_name>People: Sailor / Fisherman</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>46</id><display_name>Tools, Items and Conveyances: Bell</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<story story_id="826">
+  <publication_info>DS_II_F_15</publication_info>
+  <full_name>69 - 0.00 - DS_II_F_15</full_name>
+  <informant_id>69</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#xF8;ren</informant_first_name>
+  <informant_full_name>S&#xF8;ren Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>243</place_id>
+      <name>H&#xE5;rup</name>
+      <display_name>H&#xE5;rup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="622">
+      <informant_id>449</informant_id>
+      <publication_info>DS_II_F_2</publication_info>
+      <full_name>449 - 0.00 - DS_II_F_2</full_name>
+      <url>data/stories/622.dfl</url>
+    </story>
+    <story story_id="12">
+      <informant_id>150</informant_id>
+      <publication_info>DSkv_0_4_Anm.</publication_info>
+      <full_name>150 - 1.09 - DSkv_0_4_Anm.</full_name>
+      <url>data/stories/12.dfl</url>
+    </story>
+    <story story_id="62">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_F_14</publication_info>
+      <full_name>150 - 2.15 - DS_II_F_14</full_name>
+      <url>data/stories/62.dfl</url>
+    </story>
+    <story story_id="443">
+      <informant_id>456</informant_id>
+      <publication_info>DS_II_F_7</publication_info>
+      <full_name>456 - 0.00 - DS_II_F_7</full_name>
+      <url>data/stories/443.dfl</url>
+    </story>
+    <story story_id="538">
+      <informant_id>238</informant_id>
+      <publication_info>DS_II_F_1</publication_info>
+      <full_name>238 - 0.00 - DS_II_F_1</full_name>
+      <url>data/stories/538.dfl</url>
+    </story>
+    <story story_id="595">
+      <informant_id>387</informant_id>
+      <publication_info>DS_II_F_18</publication_info>
+      <full_name>387 - 0.00 - DS_II_F_18</full_name>
+      <url>data/stories/595.dfl</url>
+    </story>
+    <story story_id="660">
+      <informant_id>364</informant_id>
+      <publication_info>DS_II_F_8</publication_info>
+      <full_name>364 - 0.00 - DS_II_F_8</full_name>
+      <url>data/stories/660.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var forhen tale om, at n&#xE6;renstid en karl gik hen og tog den ham, som f&#xF8;llet ligger i, n&#xE5;r en hoppe foler, og s&#xE5; g&#xE5;r igjennem den, s&#xE5; kunde han blive skabt i en ulv. Der var en karl, som havde gjort det, og s&#xE5; var b&#xE5;de han og manden i engen at sl&#xE5;. Da kom det p&#xE5; ham, at han blev til en ulv, og han gik hen og rev f&#xF8;llet ihjel og fort&#xE6;rede en stor del af det. Lidt efter kom han og blev til en karl igjen og lagde sig ved manden, men klagede sig over, at han var d&#xE5;rlig tilpas, hvorp&#xE5; manden svarede og sagde: "Det er intet under, for du har fort&#xE6;ret mit f&#xF8;l."
+     Den slags dyr kaldte de varulve. Der skal nok gj&#xF8;res eller siges noget mere end blot at krybe gjennem den ham, men det kjender a ikke.</danish_publication>
+  <english_publication>There used to be talk that if a farmhand took the skin that the foal lies in when a mare foals (the placenta) and walks through it, he could turn into a wolf. There was a farmhand who had done it, and then he and his master were in the meadow haying. Then it came over him, and he turned into a wolf, and he went over and ripped the foal to death and tore a big part off of it. A little later he came back and turned into a farmhand again and lay down next to the master and complained that he didn&#x2019;t feel good, at which point the man said: &#x201C;No wonder, since you&#x2019;ve torn my foal apart.&#x201D; 
+     They called this kind of an animal a werewolf. One probably has to do something more or say something other than just crawling through that skin, but I don&#x2019;t know what.</english_publication>
+  <keywords>
+    <keyword id="37" frequency="1" keyword="animals">animals</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="395" frequency="3" keyword="farm_hand">farmhand</keyword>
+    <keyword id="427" frequency="4" keyword="foal">foal</keyword>
+    <keyword id="511" frequency="1" keyword="hay">hay</keyword>
+    <keyword id="744" frequency="1" keyword="mare">mare</keyword>
+    <keyword id="757" frequency="2" keyword="master">master</keyword>
+    <keyword id="764" frequency="1" keyword="meadow">meadow</keyword>
+    <keyword id="958" frequency="1" keyword="placenta">placenta</keyword>
+    <keyword id="1128" frequency="2" keyword="skin">skin</keyword>
+    <keyword id="1330" frequency="1" keyword="werewolf">werewolf</keyword>
+    <keyword id="1355" frequency="2" keyword="wolf">wolf</keyword>
+  </keywords>
+  <etk_index id="7">
+    <heading_danish>Varulve og marer</heading_danish>
+    <heading_english>Werewolves and nightmares</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="67" display_name="Supernatural Beings: Werewolf"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+    <tango_index id="136" display_name="Animals: Wild"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

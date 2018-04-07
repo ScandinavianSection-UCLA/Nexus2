@@ -1,0 +1,46 @@
+<informant><person_id>544</person_id>
+  <core_informant/>
+  <full_name>C. S&#248;rensen Thomaskj&#230;r</full_name>
+  <last_name>Thomaskj&#230;r</last_name>
+  <first_name>C. S&#248;rensen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>480</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>544</informant_id>
+      <publication_info>DS_V_359</publication_info>
+      <full_name>544 - 0.00 - DS_V_359</full_name>
+      <url>data/stories/480.dfl</url>
+      <place_recorded><id>912</id>Virklund</place_recorded>
+      <places_mentioned>
+        <place><id>504</id>
+          <name>Ry</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>912</place_id>
+      <name>Virklund</name>
+      <display_name>Virklund (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>504</place_id>
+      <name>Ry</name>
+      <display_name>Ry (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

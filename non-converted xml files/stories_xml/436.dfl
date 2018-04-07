@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<story story_id="436">
+  <publication_info>DS_III_2211</publication_info>
+  <full_name>456 - 0.00 - DS_III_2211</full_name>
+  <informant_id>456</informant_id>
+  <informant_last_name>Ludvigsen</informant_last_name>
+  <informant_first_name>Anna Christ.</informant_first_name>
+  <informant_full_name>Fru Anna Christ. Ludvigsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>766</place_id>
+      <name>D&#xF8;strup</name>
+      <display_name>D&#xF8;strup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="632">
+      <informant_id>217</informant_id>
+      <publication_info>DS_III_2175</publication_info>
+      <full_name>217 - 0.00 - DS_III_2175</full_name>
+      <url>data/stories/632.dfl</url>
+    </story>
+    <story story_id="743">
+      <informant_id>416</informant_id>
+      <publication_info>DS_III_2228</publication_info>
+      <full_name>416 - 0.00 - DS_III_2228</full_name>
+      <url>data/stories/743.dfl</url>
+    </story>
+    <story story_id="747">
+      <informant_id>441</informant_id>
+      <publication_info>DS_III_2233</publication_info>
+      <full_name>441 - 0.00 - DS_III_2233</full_name>
+      <url>data/stories/747.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>For mange &#xE5;r tilbage sad nogle folk og morede sig med at fort&#xE6;lle alle slags. Den ene af dem fiskede meget i &#xE5;en, og han fortalte da: "For et par dage siden, da jeg drev i min b&#xE5;d og stagede mig af sted, traf jeg i vandet p&#xE5; noget, som jeg ved n&#xE6;rmere unders&#xF8;gelse fandt at v&#xE6;re et j&#xE6;rnbundet skrin, &#x2014; som du v&#xE9;d, da du var med", sagde han til sin nabo. "Men vi kunde ikke f&#xE5; det op den gang, og nu vil vi i dag gj&#xF8;re fors&#xF8;g dermed." En anden mand h&#xF8;rte med tilsyneladende ligegyldighed p&#xE5; fiskerens fort&#xE6;lling. "&#xC5;", sagde han, "det har s&#xE5;m&#xE6;nd slet ikke v&#xE6;ret andet end en stor sten eller sligt". Imidlertid udforskede han n&#xF6;je, hvor stedet var. Fort&#xE6;lleren, som fortr&#xF8;d sin &#xE5;benmundethed, gav sig n&#xE6;ste dag i f&#xE6;rd med at f&#xE5; skrinet op, men det var alt sket om natten. Alle var fra Brede, og man vil vide, at de fundne gamle m&#xF8;nter var bleven vekslede i Kj&#xF6;benhavn. Velstand skal derefter v&#xE6;re sporet i den familie.</danish_publication>
+  <english_publication>Many years ago, some people sat about and amused themselves by telling stories about all sorts of things. One of them fished a lot in the river, and he told this: &#x201C;A couple of days ago, while I was drifting about in my boat and was poling myself along, I found something in the water which on closer inspection I discovered to be an iron-clad chest &#x2014; as you know since you were there,&#x201D; he said to his neighbor. &#x201C;But we couldn&#x2019;t get it up that time, and so today we decided to give it a try." Another man listened to the fisherman&#x2019;s story with indifference. &#x201C;Hmm...&#x201D; he said, &#x201C;it probably was nothing more than a big stone or the like.&#x201D; In the meantime, he researched exactly where the place was. The teller, who regretted his indiscretion, set out to get the chest up the next day, but everything had happened the night before. They were all from Brede, and they found out that the old coins that were found had been exchanged in Copenhagen. One could trace wealth in that family since then.</english_publication>
+  <keywords>
+    <keyword id="116" frequency="1" keyword="boat">boat</keyword>
+    <keyword id="215" frequency="2" keyword="chest">chest</keyword>
+    <keyword id="246" frequency="1" keyword="coins">coins</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="333" frequency="1" keyword="discovery">discovery</keyword>
+    <keyword id="354" frequency="1" keyword="drift">drift</keyword>
+    <keyword id="393" frequency="1" keyword="family">family</keyword>
+    <keyword id="416" frequency="2" keyword="fishing">fishing</keyword>
+    <keyword id="564" frequency="1" keyword="iron">iron</keyword>
+    <keyword id="828" frequency="1" keyword="neighbor">neighbor</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1034" frequency="1" keyword="river">river</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1200" frequency="2" keyword="story">story</keyword>
+    <keyword id="1265" frequency="1" keyword="today">today</keyword>
+    <keyword id="1320" frequency="1" keyword="water">water</keyword>
+    <keyword id="1321" frequency="1" keyword="wealth">wealth</keyword>
+  </keywords>
+  <etk_index id="15">
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="42" display_name="Places: Stream / River"/>
+    <tango_index id="47" display_name="Tools, Items and Conveyances: Boat"/>
+    <tango_index id="50" display_name="Tools, Items and Conveyances: Metal"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

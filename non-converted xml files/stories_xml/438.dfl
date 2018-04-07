@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<story story_id="438">
+  <publication_info>DS_III_128</publication_info>
+  <full_name>520 - 0.00 - DS_III_128</full_name>
+  <informant_id>520</informant_id>
+  <informant_last_name>Poulsen</informant_last_name>
+  <informant_first_name>A. C.</informant_first_name>
+  <informant_full_name>L&#xE6;rer A. C. Poulsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>111</place_id>
+      <name>Dalby</name>
+      <display_name>Dalby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>32</place_id>
+      <name>Andrup</name>
+      <display_name>Andrup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>360</place_id>
+      <name>Langkj&#xE6;r</name>
+      <display_name>Langkj&#xE6;r (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>592</place_id>
+      <name>Stepping</name>
+      <display_name>Stepping (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="21">
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_127</publication_info>
+      <full_name>150 - 1.18 - DS_III_127</full_name>
+      <url>data/stories/21.dfl</url>
+    </story>
+    <story story_id="570">
+      <informant_id>488</informant_id>
+      <publication_info>DS_III_122</publication_info>
+      <full_name>488 - 0.00 - DS_III_122</full_name>
+      <url>data/stories/570.dfl</url>
+    </story>
+    <story story_id="763">
+      <informant_id>350</informant_id>
+      <publication_info>DS_III_81</publication_info>
+      <full_name>350 - 0.00 - DS_III_81</full_name>
+      <url>data/stories/763.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Langkj&#xE6;r ved Andrup ligger en sten, som der skal en fire, seks karle til at l&#xF8;fte. Den skal en gang v&#xE6;re kastet af en kj&#xE6;mpe fra Hjerndrup efter Steppinge kirke, men n&#xE5;ede kun tre fjerdedele af vejen. Der ses tydelig spor i stenen af kj&#xE6;mpens fingre.</danish_publication>
+  <english_publication>In Langkj&#xE6;r near Andrup there is a stone that requires four to six farmhands to lift it. It was supposed to have been thrown once by a giant from Hjerndrup at Steppinge church, but only made it three quarters of the way. Traces of the giant's fingers can be clearly seen in the rock.</english_publication>
+  <keywords>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="412" frequency="1" keyword="finger">finger</keyword>
+    <keyword id="465" frequency="2" keyword="giant">giant</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+  </keywords>
+  <etk_index id="11">
+    <heading_danish>Kj&#xE6;mper og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Heroes and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="60" display_name="Supernatural Beings: Giant"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<story story_id="454">
+  <publication_info>DS_I_1051</publication_info>
+  <full_name>394 - 0.00 - DS_I_1051</full_name>
+  <informant_id>394</informant_id>
+  <informant_last_name>Jakobsen</informant_last_name>
+  <informant_first_name>A. E.</informant_first_name>
+  <informant_full_name>Friskolel&#xE6;rer A. E. Jakobsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>842</place_id>
+      <name>&#xD8;rritslev</name>
+      <display_name>&#xD8;rritslev (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="406">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_1036</publication_info>
+      <full_name>123 - 3.03 - DS_I_1036</full_name>
+      <url>data/stories/406.dfl</url>
+    </story>
+    <story story_id="695">
+      <informant_id>497</informant_id>
+      <publication_info>DS_I_1043</publication_info>
+      <full_name>497 - 0.00 - DS_I_1043</full_name>
+      <url>data/stories/695.dfl</url>
+    </story>
+    <story story_id="820">
+      <informant_id>69</informant_id>
+      <publication_info>DS_I_1033</publication_info>
+      <full_name>69 - 0.00 - DS_I_1033</full_name>
+      <url>data/stories/820.dfl</url>
+    </story>
+    <story story_id="453">
+      <informant_id>520</informant_id>
+      <publication_info>DS_I_542</publication_info>
+      <full_name>520 - 0.00 - DS_I_542</full_name>
+      <url>data/stories/453.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der kom en gang en lille pusling ind til en bondemand i hans dagligstue, hvor hele familien var forsamlet for i f&#xE6;llesskab at nyde en gris, der var f&#xF8;dt samme dag, men kort efter d&#xF8;de, og nu var kommen i panden for at steges. Puslingen sagde intet, da han kom, og svarede heller ikke, da han blev spurgt, og det undrede folkene sig meget over. Nogle af dem antog ham for en lille hjeml&#xF8;s dreng, andre for en nisse, men de lod ham sidde, da det var synd at jage ham ud, hvis han var en fattig dreng, og ikke r&#xE5;deligt at forn&#xE6;rme ham, hvis han var en nisse. Da nu konen kom b&#xE6;rende med grisen ind p&#xE5; bordet, udbr&#xF8;d han: "Vidt har jeg rejst, og meget har jeg set; jeg har set Rold skov opbr&#xE6;nde, opbr&#xE6;nde, opbr&#xE6;nde tre gange, men jeg har aldrig f&#xF6;r set en p&#xF8;lse med fire ben og en tryne."</danish_publication>
+  <english_publication>Once a little goblin came in to a farmer in his living room where the whole family was gathered to enjoy a pig which had been born the same day, but died shortly thereafter, and now had been put in a pan to be fried. The goblin said nothing when he came in and didn&#x2019;t answer either when he was asked, and this puzzled people a great deal. Some thought that he was a little homeless boy, others a nisse, but they let him sit since it was a shame to chase him out if he were a poor boy and not too smart to offend him if he were a nisse. Now when the wife came in carrying the pig to the table, he burst out: &#x201C;Widely I&#x2019;ve traveled and much have I seen; I've seen Rold forest burn up, burn up, burn up three times, but I&#x2019;ve never before seen a sausage with four legs and a snout.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="130" frequency="2" keyword="boy">boy</keyword>
+    <keyword id="211" frequency="1" keyword="chase">chase</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="393" frequency="1" keyword="family">family</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="471" frequency="2" keyword="goblin">goblin</keyword>
+    <keyword id="538" frequency="1" keyword="homeless">homeless</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="857" frequency="2" keyword="nisse">nisse</keyword>
+    <keyword id="897" frequency="1" keyword="pan">pan</keyword>
+    <keyword id="951" frequency="2" keyword="pig">pig</keyword>
+    <keyword id="974" frequency="1" keyword="poor">poor</keyword>
+    <keyword id="1070" frequency="1" keyword="sausage">sausage</keyword>
+    <keyword id="1093" frequency="1" keyword="shame">shame</keyword>
+    <keyword id="1144" frequency="1" keyword="smart">smart</keyword>
+    <keyword id="1238" frequency="1" keyword="table">table</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="65" display_name="Supernatural Beings: Nisse"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,46 @@
+<informant><person_id>498</person_id>
+  <core_informant/>
+  <full_name>Morten Nielsen</full_name>
+  <last_name>Nielsen</last_name>
+  <first_name>Morten</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>722</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>498</informant_id>
+      <publication_info>DS_I_1158</publication_info>
+      <full_name>498 - 0.00 - DS_I_1158</full_name>
+      <url>data/stories/722.dfl</url>
+      <place_recorded><id>58</id>Bj&#230;rggrav</place_recorded>
+      <places_mentioned>
+        <place><id>258</id>
+          <name>Hesth&#248;j</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>58</place_id>
+      <name>Bj&#230;rggrav</name>
+      <display_name>Bj&#230;rggrav (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>258</place_id>
+      <name>Hesth&#248;j</name>
+      <display_name>Hesth&#248;j (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

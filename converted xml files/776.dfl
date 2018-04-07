@@ -1,0 +1,84 @@
+<story><story_id>776</story_id>
+  <publication_info>DS_II_A_50</publication_info>
+  <full_name>402 - 0.00 - DS_II_A_50</full_name>
+  <informant_id>402</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>P.</informant_first_name>
+  <informant_full_name>Dyrl&#230;ge P. Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>664</place_id>
+      <name>Trunderup</name>
+      <display_name>Trunderup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>968</place_id>
+      <name>Lamdrup Kohave</name>
+      <display_name>Lamdrup Kohave (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>347</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_A_98</publication_info>
+      <full_name>90 - 2.15 - DS_II_A_98</full_name>
+      <url>data/stories/347.dfl</url>
+    </story>
+    <story><story_id>220</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_57</publication_info>
+      <full_name>235 - 1.01 - DS_II_A_57</full_name>
+      <url>data/stories/220.dfl</url>
+    </story>
+    <story><story_id>843</story_id>
+      <informant_id>379</informant_id>
+      <publication_info>DS_II_A_76</publication_info>
+      <full_name>379 - 0.00 - DS_II_A_76</full_name>
+      <url>data/stories/843.dfl</url>
+    </story>
+    <story><story_id>498</story_id>
+      <informant_id>455</informant_id>
+      <publication_info>DS_II_A_59</publication_info>
+      <full_name>455 - 0.00 - DS_II_A_59</full_name>
+      <url>data/stories/498.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Lamdrup Kohave, Svindinge, som for hundrede &#229;r siden var et stort overdrev til f&#230;llesgr&#230;sning for Lamdrup bym&#230;nd, er nu dels skov, dels agerland; men i den tid pigerne gik herud for at malke, var der en gang en pige, som flere gange traf en fremmed mand derude, som hun snakkede med. Det faldt hende dog omsider underligt, og s&#229; fortalte hun om ham hjemme. Der var da nogen, som sagde til hende, at n&#229;r han nu kom n&#230;ste gang igjen, s&#229; skulde hun sige til ham, at han skulde vende sig om. Dette gjorde hun ogs&#229; n&#230;ste dag, og da hun derved fik ham at se p&#229; ryggen, opdagede hun, at han bagtil lignede en elletrumpe. Det var alts&#229; en ellemand, hun var kommen i lag med.</danish_publication>
+  <english_publication>Lamdrup cow pasture, Svindinge, was a big surplus area for common grazing for the Lamdrup townsmen one hundred years ago. Now it is partly wooded and partly cultivated. Back when the maids used to go out there to milk, there was a girl who once met a foreign man out there several times with whom she talked. It seemed odd to her and so she told the people at home about him. There was somebody who told her that the next time he came she should tell him to turn around. She did that, too, the next day and when she got to see his back, she discovered that his back looked like an alder stump. It was an elf whom she had come into contact with.</english_publication>
+  <keywords>
+    <keyword><id>17</id><frequency>1</frequency><keyword>alderwood</keyword>alderwood</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>333</id><frequency>1</frequency><keyword>discovery</keyword>discovery</keyword>
+    <keyword><id>373</id><frequency>1</frequency><keyword>elf</keyword>elf</keyword>
+    <keyword><id>435</id><frequency>1</frequency><keyword>foreign</keyword>foreign</keyword>
+    <keyword><id>467</id><frequency>1</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>484</id><frequency>1</frequency><keyword>grazing</keyword>grazing</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>735</id><frequency>1</frequency><keyword>maid</keyword>maid</keyword>
+    <keyword><id>782</id><frequency>1</frequency><keyword>milk</keyword>milk</keyword>
+    <keyword><id>1278</id><frequency>1</frequency><keyword>townsmen</keyword>townsmen</keyword>
+  </keywords>
+  <etk_index><id>2</id>
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>10</id><display_name>People: Foreigner</display_name></tango_index>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>58</id><display_name>Supernatural Beings: Elf</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

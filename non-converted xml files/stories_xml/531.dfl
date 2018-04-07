@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<story story_id="531">
+  <publication_info>DS_VII_119</publication_info>
+  <full_name>447 - 0.00 - DS_VII_119</full_name>
+  <informant_id>447</informant_id>
+  <informant_last_name>Larsen</informant_last_name>
+  <informant_first_name>Hans Kristian</informant_first_name>
+  <informant_full_name>Hans Kristian Larsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>869</place_id>
+      <name>Skibsby</name>
+      <display_name>Skibsby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>530</place_id>
+      <name>Skagen</name>
+      <display_name>Skagen (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>736</place_id>
+      <name>W&#xE5;r bro</name>
+      <display_name>W&#xE5;r bro (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="209">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_120</publication_info>
+      <full_name>241 - 4.37 - DS_VII_120</full_name>
+      <url>data/stories/209.dfl</url>
+    </story>
+    <story story_id="720">
+      <informant_id>371</informant_id>
+      <publication_info>DS_VII_110</publication_info>
+      <full_name>371 - 0.00 - DS_VII_110</full_name>
+      <url>data/stories/720.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der boede en gammel kone henne ved W&#xE5;r bro, de kaldte hende Karen Rut, og hun kunde s&#xE5;dan gj&#xF6;re mange ting og skabe sig omkring til en hare og gj&#xF8;re mange resser til Skagen i den skikkelse. Hun gik s&#xE5;dan i mange &#xE5;r, men gjorde ellers ingen kunster.</danish_publication>
+  <english_publication>An old woman lived over by W&#xE5;r bridge, they called her Karen Rut, and she could do all sorts of things like change herself into a hare, and she made a lot of trips to Skagen in that shape. She went about like that for many years, but she didn't do any other acts of witchcraft.</english_publication>
+  <keywords>
+    <keyword id="144" frequency="1" keyword="bridge">bridge</keyword>
+    <keyword id="500" frequency="1" keyword="hare">hare</keyword>
+    <keyword id="615" frequency="1" keyword="karen_rut">Karen Rut</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1353" frequency="1" keyword="witchcraft">witchcraft</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="73" display_name="Animals: Hare"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

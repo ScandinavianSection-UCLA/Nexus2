@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<story story_id="402">
+  <publication_info>FK_0_483</publication_info>
+  <full_name>123 - 2.28 - FK_0_483</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.28</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>406</place_id>
+      <name>Mesing</name>
+      <display_name>Mesing (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="434">
+      <informant_id>123</informant_id>
+      <publication_info>Unpub_PJ_406</publication_info>
+      <full_name>123 - 4.06 - Unpub_PJ_406</full_name>
+      <url>data/stories/434.dfl</url>
+    </story>
+    <story story_id="110">
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_1129</publication_info>
+      <full_name>150 - 3.47 - JAT_VI_1129</full_name>
+      <url>data/stories/110.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3787a</fielddiary_page_start>
+  <fielddiary_page_end>3787a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The boy's unintentional comparison between the minister and a load of manure reveals the deep ambivalence that many rural workers felt toward the minister. Up until the constitutional reform in mid century, the minister was the local representative of the Crown. Even after these reforms, the minister maintained an important role in parish politics.
+
+    Prior to 1849, all farms had to provide transportation to the parish for official business, and this extended to driving for the minister. Many farmers found this to be burdensome since it often required them to interrupt their farm work, or to make do with fewer workers and fewer horses to help with the work.</annotation>
+  <danish_manuscript>En Dreng i H&#xF8;stens Tid skulde [hente] kj&#xF8;re Mjessing
+Pr&#xE6;st til Sogns. Der er ingen Pr&#xE6;st til Sogns. De 
+havde ingen andre at sende da det var travlt.
+kan du ogsaa kj&#xF8;re med mig min S&#xF8;n. Ja det
+skulde a missel mene, for a har kj&#xF8;rt  med et
+l&#xE6;s Mog f&#xF8;r.
+</danish_manuscript>
+  <english_manuscript>One time during the harvest they had to have the hired boy drive Mesing Minister to the church. They were busy and they had nobody else to send. "Can you drive with me as well, my boy?" "Yes, I should certainly hope so because I've driven a load of shit before."</english_manuscript>
+  <danish_publication>En dreng skulde i h&#xF8;stens tid kj&#xF8;re Mjessing pr&#xE6;st til Sogns. De havde ingen andre at sende, da det var travlt. "Kan du ogsaa kj&#xF8;re med mig, min S&#xF8;n?" siger han. "Ja, det skulde a missel mene, for a har kj&#xF8;rt med et L&#xE6;s Mog  f&#xF8;r."</danish_publication>
+  <english_publication>One time during the harvest, the hired boy was to drive Mesing Minister to the parish. They had nobody else to send since it was busy. &#x201C;Can you drive with me as well, my boy?&#x201D; he says. &#x201C;Yes, I should certainly hope so! I have driven a load of shit before.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="130" frequency="2" keyword="boy">boy</keyword>
+    <keyword id="504" frequency="1" keyword="harvest">harvest</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="1103" frequency="1" keyword="shit">shit</keyword>
+  </keywords>
+  <etk_index id="39">
+    <heading_danish>Vore f&#xE6;dres kirketjeneste</heading_danish>
+    <heading_english>Our forebears' Church services</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="11" name="Jocular Tale"/>
+</story>

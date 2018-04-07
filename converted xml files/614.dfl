@@ -1,0 +1,108 @@
+<story><story_id>614</story_id>
+  <publication_info>DS_II_D_8</publication_info>
+  <full_name>322 - 0.00 - DS_II_D_8</full_name>
+  <informant_id>322</informant_id>
+  <informant_last_name>Andersdatter</informant_last_name>
+  <informant_first_name>Kirsten</informant_first_name>
+  <informant_full_name>Kirsten Andersdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>77</place_id>
+      <name>Borre</name>
+      <display_name>Borre (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>77</place_id>
+      <name>Borre</name>
+      <display_name>Borre (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>560</place_id>
+      <name>S&#248;bj&#230;rg</name>
+      <display_name>S&#248;bj&#230;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>1</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_D_5</publication_info>
+      <full_name>150 - 0.01 - DS_II_D_5</full_name>
+      <url>data/stories/1.dfl</url>
+    </story>
+    <story><story_id>513</story_id>
+      <informant_id>368</informant_id>
+      <publication_info>DS_II_D_33</publication_info>
+      <full_name>368 - 0.00 - DS_II_D_33</full_name>
+      <url>data/stories/513.dfl</url>
+    </story>
+    <story><story_id>738</story_id>
+      <informant_id>358</informant_id>
+      <publication_info>DS_II_D_4</publication_info>
+      <full_name>358 - 0.00 - DS_II_D_4</full_name>
+      <url>data/stories/738.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en gang en s&#248;mand fra Borre, der var ude at sejle ved S&#248;bj&#230;rg. Her fandt han en stor vante, som han tog og lod forf&#230;rdige mage til i Borre, og lagde dem s&#229; begge, hvor han havde fundet den f&#248;rste. Da han s&#229; nogen tid efter igjen sejlede ud fra Borre, h&#248;rte han, i det han kom forbi S&#248;bj&#230;rg, en st&#230;rk stemme r&#229;be :
+"H&#248;r du, vantevennen min, 
+l&#230;g skuden til Borre ind, 
+ti Tolk skryer, 
+og egene knager i Norge."
+Skipperen lagde da ind til Borre igjen, og straks efter rejste sig en storm, som der ikke var set mage til, og alle de skibe, der var ude p&#229; havet, blev &#248;delagte.
+      Borre er en by p&#229; M&#248;en, hvortil man sejlede i gamle dage. S&#248;bj&#230;rg var i den tid et bj&#230;rg i s&#248;en, nu er der enge der omkring. Det ligger mellem S&#248;mose og Klinten. "Tolk" er navnet p&#229; vandet i Gr&#246;nsund; det tolker uvejr for M&#248;enboerne. Fortalt af Kirsten Andersdatter i Borre, som har det fra sin fader. </danish_publication>
+  <english_publication>Once there was a sailor from Borre who was out sailing near S&#248;bj&#230;rg. He found a big glove there, which he took and had its pair made in Borre, and he put them both down where he had found the first one. A little while later, when he sailed from Borre, he heard a loud voice yell when he came past S&#248;bj&#230;rg:
+"Listen, my glove friend, 
+put your skiff in at Borre,
+since Tolk is shivering 
+and the oaks in Norway are creaking." 
+The skipper lay in at Borre again and immediately after a storm came up, and no one had ever seen anything like it, and all the ships that were out at sea were destroyed.
+      Borre is a town on M&#248;en to which people sailed in the old days. S&#248;bj&#230;rg was at the time a mound out in the lake, but now it is surrounded by meadow. It is between S&#248;mose and Klinten. "Tolk" is the name of the water in Gr&#246;nsund (Green Sound); it predicts bad weather for the people of M&#248;en. This was told by Kirsten Andersdatter from Borre who learned it from her father.</english_publication>
+  <keywords>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>445</id><frequency>1</frequency><keyword>friend</keyword>friend</keyword>
+    <keyword><id>469</id><frequency>2</frequency><keyword>glove</keyword>glove</keyword>
+    <keyword><id>628</id><frequency>1</frequency><keyword>kirsten_andersdatter</keyword>Kirsten Andersdatter</keyword>
+    <keyword><id>679</id><frequency>1</frequency><keyword>lake</keyword>lake</keyword>
+    <keyword><id>699</id><frequency>1</frequency><keyword>learning</keyword>learning</keyword>
+    <keyword><id>764</id><frequency>1</frequency><keyword>meadow</keyword>meadow</keyword>
+    <keyword><id>804</id><frequency>1</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>866</id><frequency>1</frequency><keyword>norway</keyword>Norway</keyword>
+    <keyword><id>870</id><frequency>1</frequency><keyword>oak</keyword>oak</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1060</id><frequency>3</frequency><keyword>sailing</keyword>sailing</keyword>
+    <keyword><id>1061</id><frequency>1</frequency><keyword>sailor</keyword>sailor</keyword>
+    <keyword><id>1079</id><frequency>1</frequency><keyword>sea</keyword>sea</keyword>
+    <keyword><id>1101</id><frequency>1</frequency><keyword>ship</keyword>ship</keyword>
+    <keyword><id>1129</id><frequency>1</frequency><keyword>skipper</keyword>skipper</keyword>
+    <keyword><id>1165</id><frequency>1</frequency><keyword>sounds</keyword>sounds</keyword>
+    <keyword><id>1199</id><frequency>1</frequency><keyword>storm</keyword>storm</keyword>
+    <keyword><id>1209</id><frequency>1</frequency><keyword>strength</keyword>strength</keyword>
+    <keyword><id>1275</id><frequency>1</frequency><keyword>town</keyword>town</keyword>
+    <keyword><id>1307</id><frequency>1</frequency><keyword>voice</keyword>voice</keyword>
+    <keyword><id>1320</id><frequency>1</frequency><keyword>water</keyword>water</keyword>
+    <keyword><id>1324</id><frequency>1</frequency><keyword>weather</keyword>weather</keyword>
+  </keywords>
+  <etk_index><id>5</id>
+    <heading_danish>Vandets &#229;nder</heading_danish>
+    <heading_english>Water spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>18</id><display_name>People: Sailor / Fisherman</display_name></tango_index>
+    <tango_index><id>39</id><display_name>Places: Ocean / Sea</display_name></tango_index>
+    <tango_index><id>47</id><display_name>Tools, Items and Conveyances: Boat</display_name></tango_index>
+    <tango_index><id>62</id><display_name>Supernatural Beings: Merfolk</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

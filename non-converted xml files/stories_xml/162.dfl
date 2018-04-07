@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<story story_id="162">
+  <publication_info>DS_IV_1605</publication_info>
+  <full_name>241 - 2.12 - DS_IV_1605</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>2.12</order_told>
+  <fieldtrip id="11">October 1893</fieldtrip>
+  <fieldtrip_start_date>1893-09-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1893-10-26</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="475">
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1376</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1376</full_name>
+      <url>data/stories/475.dfl</url>
+    </story>
+    <story story_id="779">
+      <informant_id>402</informant_id>
+      <publication_info>DS_IV_1371</publication_info>
+      <full_name>402 - 0.00 - DS_IV_1371</full_name>
+      <url>data/stories/779.dfl</url>
+    </story>
+    <story story_id="164">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1408</publication_info>
+      <full_name>241 - 2.14 - DS_IV_1408</full_name>
+      <url>data/stories/164.dfl</url>
+    </story>
+    <story story_id="151">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1486</publication_info>
+      <full_name>241 - 2.01 - DS_IV_1486</full_name>
+      <url>data/stories/151.dfl</url>
+    </story>
+    <story story_id="152">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1485</publication_info>
+      <full_name>241 - 2.02 - DS_IV_1485</full_name>
+      <url>data/stories/152.dfl</url>
+    </story>
+    <story story_id="208">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_880</publication_info>
+      <full_name>241 - 4.36 - DSnr_IV_880</full_name>
+      <url>data/stories/208.dfl</url>
+    </story>
+    <story story_id="161">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_E_105</publication_info>
+      <full_name>241 - 2.11 - DSnr_II_E_105</full_name>
+      <url>data/stories/161.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6296a</fielddiary_page_start>
+  <fielddiary_page_end>6296b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens Peter continues with his exploration of the local area, and the terrifying landscape that surrounds Ugilt. The implication in this story is that the inn was the site of several grisly murders. The actual crime remains unsolved, and the skeletons are buried in properly consecrated ground. While one would expect Jens Peter to tell stories about hauntings occurring at the inn, he does not. He does however connect the appearance of the basilisk with the skeletons, proposing that all sorts of bad things--such as murder and witchcraft--plagued the area in the past.
+
+     Numerous stories tell of wandering merchants who have been murdered, and their remains found many years later (DS IV 1371). In these stories, murders often take place at inns (DS IV 1384 and JPP 2.14), or events leading up to a murder stem from an encounter at the inn (JPP 2.01 and 2.02). 
+
+     In a later telling of this story (JPP 4.36), Jens Peter reverses the order of the stories, recounting the grisly find at the location of the old inn before telling about the basilisk (JPP 2.11).</annotation>
+  <danish_manuscript>Ved den
+gl. Kro har der v&#xE6;ret fundet flere
+Mskehoveder i Haven: Et Efteraar
+mens a gik i Skole blev der saale
+des gravet 3 Mskehoveder op og de
+blev f&#xF8;rt til Ugilt Kirkegaard. S.
+
+6296B
+der maa ogsaa v&#xE6;re sket meget Gj&#xF8;gle-
+v&#xE6;rk i &#xE6;ldre Tid.</danish_manuscript>
+  <english_manuscript>Near the old inn in Ugilt they found several human skulls in the garden. One fall, while I was still in school, they dug three human skulls like that up and they were brought to Ugilt cemetery. There must have been some sort of trickery around here in the olden days.</english_manuscript>
+  <danish_publication>Ved den gamle kro i Ugilt er der i haven blevet fundet flere menneskehoveder. Et efter&#xE5;r, mens a gik i skole, blev der s&#xE5;ledes gravet 3 op, og de blev f&#xF8;rt til Ugilt kirkeg&#xE5;rd. Der m&#xE5; alts&#xE5; ogs&#xE5; v&#xE6;re skeet noget gj&#xF8;glev&#xE6;rk her i &#xE6;ldre tid.</danish_publication>
+  <english_publication>Near the old inn in Ugilt they found several human skulls in the garden. One fall, while I was still in school, they dug three like that up, and they were brought to Ugilt cemetery. There must have been some sort of trickery around here in the olden days.</english_publication>
+  <keywords>
+    <keyword id="196" frequency="1" keyword="cemetery">cemetery</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="456" frequency="1" keyword="garden">garden</keyword>
+    <keyword id="560" frequency="1" keyword="inn">inn</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1075" frequency="1" keyword="school">school</keyword>
+    <keyword id="1136" frequency="1" keyword="skull">skull</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1282" frequency="1" keyword="trickery">trickery</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="33" display_name="Places: Inn"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

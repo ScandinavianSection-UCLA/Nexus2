@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<story story_id="425">
+  <publication_info>DS_II_J_69</publication_info>
+  <full_name>123 - 3.22 - DS_II_J_69</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.22</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>67</place_id>
+      <name>Boes</name>
+      <display_name>Boes (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>110</place_id>
+      <name>Dakbj&#xE6;rg</name>
+      <display_name>Dakbj&#xE6;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="653">
+      <informant_id>477</informant_id>
+      <publication_info>DS_II_J_70</publication_info>
+      <full_name>477 - 0.00 - DS_II_J_70</full_name>
+      <url>data/stories/653.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3802b</fielddiary_page_start>
+  <fielddiary_page_end>3803a</fielddiary_page_end>
+  <bibliographic_info>Peter Weiss. 2002. "Anatomy of a Lightning Ball." Science News 161(6): 87.</bibliographic_info>
+  <bibliography_references>
+    <reference id="424" category="general">
+      <display_string>[Article] Weiss, Peter. 2002. Anatomy of a Lightning Ball. Vol. 161 of &lt;i&gt;Science News&lt;/i&gt; 6: 87.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Morild is a phenomenon similar to ball lightning that has been reported in conjunction with thunder storms (Weiss 2002). In most stories of morild, the light simply vanishes, with no ill effects. In some cases, the witnesses to the light become ill (DS  II J 70). Boes mill lies directly across Mos lake from Fuldbro mill.</annotation>
+  <danish_manuscript>A kommer en Nat og vil fra Boes M&#xF8;lle, a 
+arbejdede der, og s. tr&#xE6;kker det op med s. v&#xE6;l-
+dig et Tordenvejr, men det var ikke lige over
+og regnede heller ikke. Som a lige gaar om
+ved Dakbj&#xE6;rg. da m&#xE6;rker a noget omkring
+mig. Der stod en Lue op af Kaskjeten paa
+mig og Ild i Skj&#xE6;gget. A blev r&#xE6;d for a hav
+M&#xE5;rild
+
+3803A
+de h&#xF8;rt s. meget om det Bj&#xE6;rg og var ikke glad
+ved det. S. a l&#xF8;b hjem.
+</danish_manuscript>
+  <english_manuscript>I was walking one night and had left from Boes M&#xF8;lle where I'd been working, and then a real thunder storm starts, but it wasn't directly overhead and it hadn't started raining either. Just as I'm walking past Dakbj&#xE6;rg, I notice something around me. Flame shot up out of my hat, and I had fire in my beard. I got scared because I'd heard a lot about that mound and I wasn't happy about it. So I ran home. M&#xE5;rild.</english_manuscript>
+  <danish_publication>A g&#xE5;r en nat fra Boes m&#xF8;lle, hvor a havde arbejdet, og s&#xE5; tr&#xE6;kker det op med s&#xE5; v&#xE6;ldigt et tordenvejr, men det var ikke lige over og regnede heller ikke. Som a lige g&#xE5;r om ved Dakbj&#xE6;rg, da m&#xE6;rker a noget omkring mig. Der stod en lue op af kaskjetten p&#xE5; mig og var ild i skj&#xE6;gget. A blev r&#xE6;d, for a havde h&#xF8;rt meget om det bj&#xE6;rg og var ikke glad ved det, og l&#xF8;b hjem. Men det var jo m&#xE5;&#xE5;rild.</danish_publication>
+  <english_publication>I was walking one night from Boes mill where I&#x2019;d been working, and then a real thunder storm starts, but it wasn&#x2019;t directly overhead and it hadn&#x2019;t started raining either. Just as I&#x2019;m walking past Dakbj&#xE6;rg, I notice something around me. Flame shot up out of my hat and I had fire in my beard. I got scared because I&#x2019;d heard a lot about that mound and I wasn&#x2019;t happy being there and I ran home. But that was m&#xE5;&#xE5;rild. </english_publication>
+  <keywords>
+    <keyword id="80" frequency="1" keyword="beard">beard</keyword>
+    <keyword id="413" frequency="2" keyword="fire">fire</keyword>
+    <keyword id="498" frequency="1" keyword="happy">happy</keyword>
+    <keyword id="506" frequency="1" keyword="hat">hat</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="783" frequency="1" keyword="mill">mill</keyword>
+    <keyword id="809" frequency="1" keyword="mountain">mountain</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1011" frequency="1" keyword="rain">rain</keyword>
+    <keyword id="1106" frequency="1" keyword="shooting">shooting</keyword>
+    <keyword id="1199" frequency="1" keyword="storm">storm</keyword>
+    <keyword id="1361" frequency="1" keyword="work">work</keyword>
+  </keywords>
+  <etk_index id="10">
+    <heading_danish>Lys og varsler</heading_danish>
+    <heading_english>Lights and portents</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="124" display_name="Time, Season, Weather: Rain"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<story story_id="303">
+  <publication_info>Unpub_KMP_301</publication_info>
+  <full_name>235 - 3.01 - Unpub_KMP_301</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>3.01</order_told>
+  <fieldtrip id="3">January 1894</fieldtrip>
+  <fieldtrip_start_date>1894-01-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-02-19</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned/>
+  <fielddiary_page_start>6420b</fielddiary_page_start>
+  <fielddiary_page_end>6420b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Kirsten Marie starts her third session with this short, humorous folk saying. It was never published, possibly because Tang Kristensen considered it off-color.</annotation>
+  <danish_manuscript>Det r&#xF8;ger sa R&#xE6;ven i den fer i Sp&#xE5;nen</danish_manuscript>
+  <english_manuscript>It's smoking said the Fox as it farted in the bucket.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: It&#x2019;s smoking said the Fox as it farted in the bucket.</english_publication>
+  <keywords>
+    <keyword id="151" frequency="1" keyword="bucket">bucket</keyword>
+    <keyword id="397" frequency="1" keyword="fart">fart</keyword>
+    <keyword id="441" frequency="1" keyword="fox">fox</keyword>
+  </keywords>
+  <etk_index id="44">
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="136" display_name="Animals: Wild"/>
+  </tango_indices>
+  <genre id="7" name="Saying / Proverb"/>
+</story>

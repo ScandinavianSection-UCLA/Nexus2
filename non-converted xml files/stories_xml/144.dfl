@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<story story_id="144">
+  <publication_info>FK_0_400</publication_info>
+  <full_name>241 - 1.03 - FK_0_400</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>1.03</order_told>
+  <fieldtrip id="11">October 1893</fieldtrip>
+  <fieldtrip_start_date>1893-09-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1893-10-26</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="107">
+      <informant_id>150</informant_id>
+      <publication_info>FK_0_2</publication_info>
+      <full_name>150 - 3.44 - FK_0_2</full_name>
+      <url>data/stories/107.dfl</url>
+    </story>
+    <story story_id="113">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_VI_738</publication_info>
+      <full_name>150 - 4.02 - JAH_VI_738</full_name>
+      <url>data/stories/113.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6192a</fielddiary_page_start>
+  <fielddiary_page_end>6192a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens Peter's humorous story reflects the tensions that inform the relationships between the minister and the parish clerk and between the minister and the parishioners. The humor in the story relies on the obvious disconnect between the minister's description of the actions of a runaway cow, and the mourners' impression that he is describing the journey of the soul of the dearly departed. The punch line plays on the expression, "nu rejser hun ad helvede til," which can mean literally, "Now she journey's off to hell" or, more figuratively and descriptively, "Now she takes off running like hellfire." The word "kirkegaard" literally means churchyard but, as all Danish churches are surrounded by their cemeteries, it can also be translated as cemetery.</annotation>
+  <danish_manuscript>Pr. der kaster Jord paa: 1. Nu [rejs] s&#xE6;tter
+hu Halen i Vejret 2. Nu stikker hu
+i Rend. 3 Nu rejser hu ad Helvede til.
+Degnens K&#xF8;er stod [udenfor] paa Kirkegaarden.</danish_manuscript>
+  <english_manuscript>The minister who is throwing earth [on a grave]: 1. Now she puts her tail in the air 2. Now she starts to run. 3. Now she journeys off to Hell [Now she takes off running like hellfire]. The parish clerk's cows were grazing in the churchyard.</english_manuscript>
+  <danish_publication>Pr&#xE6;sten var bange for Beseh&#xF8;vder og staar og ser paa &#xE9;n, der vil til det paa Kirkegaarden, ilav han kastede Jord paa et Lig. Da han kaster den f&#xF8;rste Skovlfuld paa, siger han: "Nu s&#xE6;tter hun Halen i Vejret." Ved den anden Skovlfuld siger han: "Nu stikker hun i Rend," og da saa Koen i det samme er bleven l&#xF8;s og render afsted, siger han ved tredje Skovlfuld: "Nu rejser hun ad Helvede til." Det var Degnens K&#xF8;er, der stod paa Kirkegaarden.</danish_publication>
+  <english_publication>The minister was afraid of runaway cows and he stood watching one that was acting up by the cemetery while he was throwing dirt on a casket. When he tosses the first shovelful on it, he says, &#x201C;Now she&#x2019;s putting her tail in the air.&#x201D; At the second shovelful he says, &#x201C;Now she&#x2019;s starting to run,&#x201D; and at the moment that the cow gets loose and runs away, he says with the third shovelful, &#x201C;Now she journey&#x2019;s off to hell.&#x201D; [&#x201C;Now she takes off running like hellfire&#x201D;]. It was the parish clerk&#x2019;s cows who stood there by the cemetery.</english_publication>
+  <keywords>
+    <keyword id="13" frequency="1" keyword="afraid">afraid</keyword>
+    <keyword id="16" frequency="1" keyword="air">air</keyword>
+    <keyword id="227" frequency="2" keyword="church">church</keyword>
+    <keyword id="262" frequency="1" keyword="corpse">corpse</keyword>
+    <keyword id="274" frequency="3" keyword="cow">cow</keyword>
+    <keyword id="368" frequency="1" keyword="earth">earth</keyword>
+    <keyword id="520" frequency="1" keyword="hell">hell</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="904" frequency="1" keyword="parish_clerk">parish clerk</keyword>
+    <keyword id="1110" frequency="3" keyword="shovel">shovel</keyword>
+    <keyword id="1239" frequency="1" keyword="tail">tail</keyword>
+  </keywords>
+  <etk_index id="39">
+    <heading_danish>Vore f&#xE6;dres kirketjeneste</heading_danish>
+    <heading_english>Our forebears' Church services</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="80" display_name="Actions or events: Church ceremony"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="11" name="Jocular Tale"/>
+</story>

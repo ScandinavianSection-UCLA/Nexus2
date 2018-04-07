@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="727">
+  <publication_info>DS_V_686</publication_info>
+  <full_name>542 - 0.00 - DS_V_686</full_name>
+  <informant_id>542</informant_id>
+  <informant_last_name>Termansen</informant_last_name>
+  <informant_first_name>N. J.</informant_first_name>
+  <informant_full_name>Branddirekt&#xF8;r N. J. Termansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>781</place_id>
+      <name>Gammelby</name>
+      <display_name>Gammelby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="224">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_687</publication_info>
+      <full_name>235 - 1.05 - DS_V_687</full_name>
+      <url>data/stories/224.dfl</url>
+    </story>
+    <story story_id="603">
+      <informant_id>536</informant_id>
+      <publication_info>DS_V_694</publication_info>
+      <full_name>536 - 0.00 - DS_V_694</full_name>
+      <url>data/stories/603.dfl</url>
+    </story>
+    <story story_id="780">
+      <informant_id>403</informant_id>
+      <publication_info>DS_V_690</publication_info>
+      <full_name>403 - 0.00 - DS_V_690</full_name>
+      <url>data/stories/780.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#xE5; en herreg&#xE5;rd var en gjengangerske, som aldrig lod folk i ro. Da kom en aftenstund en fattig mand og bad om nattelogi. Nej, det lod sig ikke gj&#xF8;re, ti i nat vilde en hel del pr&#xE6;ster komme sammen her. Han sagde, at det kunde v&#xE6;re, han kunde gj&#xF8;re nytte, og man indr&#xF6;mmede ham da et lille kammer og en pr&#xE5;s. Pr&#xE6;sterne sad hver i sin stue med store lys og b&#xF8;ger for sig. Han satte sig for kaminen med lyset for sig, og en lille bog lagde han p&#xE5; kaminarmen. S&#xE5; tog han en lille kniv og en pind op af lommen, snittede en sp&#xE5;n og kastede i kaminen med de ord: "Nu stod han op". Ved det n&#xE6;ste snit: "Nu er han ved kirkeg&#xE5;rdsporten." Dern&#xE6;st: "Nu er han ved porten." Derp&#xE5; h&#xF8;rte man hundene tude, og s&#xE5; fl&#xF6;j d&#xF6;ren op, og gjenf&#xE6;rdet foer som en vind fra stue til stue og bl&#xE6;ste pr&#xE6;sternes lys ud og lod dem helt i m&#xF8;rke. Men betlerens pr&#xE5;s kunde han ikke f&#xE5; bl&#xE6;st ud. S&#xE5; begyndte han at l&#xE6;se o. s. v.</danish_publication>
+  <english_publication>There was a revenant at a manor farm that would never leave people alone. One evening, a poor man came and asked for lodgings. No, that wasn't possible, since that night a whole group of ministers were going to gather there. He said that he could perhaps be of service, and so they gave him a little room and a thin little candle. The ministers sat each one in their own room with a large candle and books in front of them. He sat down by the fireplace with the candle in front of him and he put a little book on the mantlepiece. Then he took a little knife and a stick out of his pocket, whittled a shaving and threw it into the fire, and said, "Now he is getting up." With the next piece: "Now he is at the cemetery gate." Next: "Now he is at the gate." With that they heard the dogs howl, and then the door flew open and the revenant raced from room to room like a wind and blew out the ministers' candles and left them in the dark. But he couldn't blow out the beggar's candle. Then he began to read. Etc.</english_publication>
+  <keywords>
+    <keyword id="86" frequency="1" keyword="beggar">beggar</keyword>
+    <keyword id="113" frequency="1" keyword="blow">blow</keyword>
+    <keyword id="123" frequency="2" keyword="books">books</keyword>
+    <keyword id="171" frequency="5" keyword="candle">candle</keyword>
+    <keyword id="197" frequency="1" keyword="cemetery_gate">cemetery gate</keyword>
+    <keyword id="302" frequency="1" keyword="dark">dark</keyword>
+    <keyword id="343" frequency="1" keyword="dog">dog</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="414" frequency="1" keyword="fireplace">fireplace</keyword>
+    <keyword id="457" frequency="1" keyword="gate">gate</keyword>
+    <keyword id="638" frequency="1" keyword="knife">knife</keyword>
+    <keyword id="723" frequency="1" keyword="lodgings">lodgings</keyword>
+    <keyword id="742" frequency="1" keyword="manor_farm">manor farm</keyword>
+    <keyword id="786" frequency="3" keyword="minister">minister</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="969" frequency="1" keyword="pocket">pocket</keyword>
+    <keyword id="974" frequency="1" keyword="poor">poor</keyword>
+    <keyword id="1027" frequency="2" keyword="revenant">revenant</keyword>
+    <keyword id="1252" frequency="1" keyword="thin">thin</keyword>
+    <keyword id="1345" frequency="1" keyword="wind">wind</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="3" display_name="People: Beggar / Poor person"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="81" display_name="Actions or events: Conjuring"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

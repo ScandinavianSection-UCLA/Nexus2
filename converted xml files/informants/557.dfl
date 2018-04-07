@@ -1,0 +1,46 @@
+<informant><person_id>557</person_id>
+  <core_informant/>
+  <full_name>Kristen Andersen</full_name>
+  <last_name>Andersen</last_name>
+  <first_name>Kristen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>624</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>557</informant_id>
+      <publication_info>DS_I_50</publication_info>
+      <full_name>557 - 0.00 - DS_I_50</full_name>
+      <url>data/stories/624.dfl</url>
+      <place_recorded><id>915</id>Vore</place_recorded>
+      <places_mentioned>
+        <place><id>1039</id>
+          <name>&#216;ster Velling</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>915</place_id>
+      <name>Vore</name>
+      <display_name>Vore (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1039</place_id>
+      <name>&#216;ster Velling</name>
+      <display_name>&#216;ster Velling (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

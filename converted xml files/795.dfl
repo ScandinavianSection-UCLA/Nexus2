@@ -1,0 +1,77 @@
+<story><story_id>795</story_id>
+  <publication_info>DS_IV_2015</publication_info>
+  <full_name>445 - 0.00 - DS_IV_2015</full_name>
+  <informant_id>445</informant_id>
+  <informant_last_name>Ladefoged</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Ladefoged</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>743</place_id>
+      <name>&#197;rup</name>
+      <display_name>&#197;rup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>135</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_424</publication_info>
+      <full_name>150 - 4.24 - Unpub_BJK_424</full_name>
+      <url>data/stories/135.dfl</url>
+    </story>
+    <story><story_id>876</story_id>
+      <informant_id>375</informant_id>
+      <publication_info>DS_IV_2016</publication_info>
+      <full_name>375 - 0.00 - DS_IV_2016</full_name>
+      <url>data/stories/876.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en pige, der havde s&#229;dan en frygtelig tandpine. S&#229; fik hun det r&#229;d, at hun skulde have kirkemuld i en klud og l&#230;gge ved dem, og det skulde hentes p&#229; kirkeg&#229;rden ved midnatstide. Men hun kunde ingen f&#229; til at g&#229; derop og hente det, de var bange hveren. Endelig tr&#229;j deres tjenestekarl frem, han mente, han var den mest modige. Men den gang han kom til kirkeg&#229;rdsdiget, faldt hans mod, og han turde heller ikke g&#229; derind. Da han s&#229; gik tilbage, gik han ind og tog muld i deres have og gav hende. Da standsede hendes tandpine. En tid efter kom karlen derfra og kom et andet sted hen at tjene. Han var henne en tre, fire &#229;r, men kom da til byen igjen i bes&#248;g. S&#229; vilde han ogs&#229; ind at bes&#248;ge dem, han havde tjent. "N&#229;, hvordan g&#229;r det med dine t&#230;nd?" siger han til pigen, "har de v&#230;ret gale siden?" Nej, han skulde have s&#229; mange tak, for det han tog sig den dristighed p&#229;. Han forklarer s&#229;, hvad muld det var. S&#229; snart hun fik det at vide, var &#230; t&#230;nd lige gale igjen.</danish_publication>
+  <english_publication>There was a girl who had a really terrible toothache. Then she was told that she should put some church dirt in a cloth and put it next to them, she was to get it from a cemetery at midnight. But she couldn't get anyone to go up there and get it, they were all afraid. Finally, a hired hand stepped forward, he felt that he was the bravest. But when he got to the cemetery wall, his courage failed him, and he didn't dare go in there either. When he was on the way back, he went in and took some dirt from their garden and he gave her that. Then her toothache stopped. A little later, the farmhand left that farm and got work at another place. He was gone for three or four years, but came back to the town for a visit. Then he also wanted to go in and visit with the people he'd worked for. "Well, how are things with your tooth?" he says to the girl, "has it been bad again since?" No, she thanked him because he'd done that daring thing. He told her what the dirt was. As soon as she heard that, the tooth was bad again.</english_publication>
+  <keywords>
+    <keyword><id>12</id><frequency>1</frequency><keyword>advice</keyword>advice</keyword>
+    <keyword><id>13</id><frequency>1</frequency><keyword>afraid</keyword>afraid</keyword>
+    <keyword><id>138</id><frequency>1</frequency><keyword>bravery</keyword>bravery</keyword>
+    <keyword><id>196</id><frequency>2</frequency><keyword>cemetery</keyword>cemetery</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>236</id><frequency>1</frequency><keyword>clothing</keyword>clothing</keyword>
+    <keyword><id>270</id><frequency>1</frequency><keyword>courage</keyword>courage</keyword>
+    <keyword><id>330</id><frequency>3</frequency><keyword>dirt</keyword>dirt</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>456</id><frequency>1</frequency><keyword>garden</keyword>garden</keyword>
+    <keyword><id>467</id><frequency>2</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>776</id><frequency>1</frequency><keyword>midnight</keyword>midnight</keyword>
+    <keyword><id>1246</id><frequency>1</frequency><keyword>thank</keyword>thank</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1271</id><frequency>3</frequency><keyword>tooth</keyword>tooth</keyword>
+    <keyword><id>1272</id><frequency>1</frequency><keyword>toothache</keyword>toothache</keyword>
+    <keyword><id>1275</id><frequency>1</frequency><keyword>town</keyword>town</keyword>
+    <keyword><id>1313</id><frequency>1</frequency><keyword>walls</keyword>walls</keyword>
+    <keyword><id>1361</id><frequency>1</frequency><keyword>work</keyword>work</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>27</id><display_name>Places: Cemetery</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>113</id><display_name>Time, Season, Weather: Midnight</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

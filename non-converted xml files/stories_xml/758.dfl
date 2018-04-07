@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<story story_id="758">
+  <publication_info>DS_II_A_132</publication_info>
+  <full_name>348 - 0.00 - DS_II_A_132</full_name>
+  <informant_id>348</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Nikolaj</informant_first_name>
+  <informant_full_name>Student Nikolaj Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>1</place_id>
+      <name>Aaby</name>
+      <display_name>Aaby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>961</place_id>
+      <name>Hesselager</name>
+      <display_name>Hesselager (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="805">
+      <informant_id>357</informant_id>
+      <publication_info>DS_II_A_131</publication_info>
+      <full_name>357 - 0.00 - DS_II_A_131</full_name>
+      <url>data/stories/805.dfl</url>
+    </story>
+    <story story_id="27">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_A_150</publication_info>
+      <full_name>150 - 1.24 - DS_II_A_150</full_name>
+      <url>data/stories/27.dfl</url>
+    </story>
+    <story story_id="262">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_99</publication_info>
+      <full_name>235 - 1.42 - DS_II_A_99</full_name>
+      <url>data/stories/262.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand i Hesselager t&#xE6;t ved Nyborg havde en mose, hvori der var ellefolk. En dag bagede hans kone og lagde br&#xF8;dene uden for huset i et dejtrug; men ellefolkene fik lyst til dem og tog dem alle sammen. En lille pige, som s&#xE5; dette, fortalte det til konen, og hun fortalte det igjen til manden, da han kom hjem. S&#xE5; blev han meget vred og gav sig til at grave i mosen efter dem. Han fandt dem imidlertid ikke, og ellefolkene blev fortrydelige og plagede ham p&#xE5; alle m&#xE5;der, s&#xE5; de til sidst plagede livet af ham. Efter hans d&#xF8;d m&#xE6;rkede man dem ikke.</danish_publication>
+  <english_publication>A man in Hesselager close to Nyborg had a swamp in which there were elves. One day his wife baked and put the bread outside of the house in a dough trough; but the elves wanted them and took all of them. A little girl, who saw that, told the wife and she told her husband when he got home. Then he got really angry and started to dig in the swamp after them. He didn&#x2019;t find them, and the elves became annoyed and bothered him in all sorts of ways, until finally they bothered him to death. After he died, no one noticed them any longer.</english_publication>
+  <keywords>
+    <keyword id="36" frequency="1" keyword="angry">angry</keyword>
+    <keyword id="65" frequency="1" keyword="baking">baking</keyword>
+    <keyword id="139" frequency="1" keyword="bread">bread</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="2" keyword="death">death</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="347" frequency="1" keyword="dough_trough">dough trough</keyword>
+    <keyword id="373" frequency="3" keyword="elf">elf</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="552" frequency="1" keyword="husband">husband</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="1228" frequency="2" keyword="swamp">swamp</keyword>
+    <keyword id="1343" frequency="2" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,104 @@
+<story><story_id>621</story_id>
+  <publication_info>DS_IV_1161</publication_info>
+  <full_name>400 - 0.00 - DS_IV_1161</full_name>
+  <informant_id>400</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Kr.</informant_first_name>
+  <informant_full_name>L&#230;rer Kr. Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>907</place_id>
+      <name>Vester Vedsted</name>
+      <display_name>Vester Vedsted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1038</place_id>
+      <name>Vilslev</name>
+      <display_name>Vilslev (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>740</story_id>
+      <informant_id>111</informant_id>
+      <publication_info>DS_V_733</publication_info>
+      <full_name>111 - 0.00 - DS_V_733</full_name>
+      <url>data/stories/740.dfl</url>
+    </story>
+    <story><story_id>448</story_id>
+      <informant_id>485</informant_id>
+      <publication_info>DS_II_F_35</publication_info>
+      <full_name>485 - 0.00 - DS_II_F_35</full_name>
+      <url>data/stories/448.dfl</url>
+    </story>
+    <story><story_id>226</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_810</publication_info>
+      <full_name>235 - 1.07 - DS_V_810</full_name>
+      <url>data/stories/226.dfl</url>
+    </story>
+    <story><story_id>610</story_id>
+      <informant_id>448</informant_id>
+      <publication_info>DS_VI_323</publication_info>
+      <full_name>448 - 0.00 - DS_VI_323</full_name>
+      <url>data/stories/610.dfl</url>
+    </story>
+    <story><story_id>721</story_id>
+      <informant_id>408</informant_id>
+      <publication_info>DS_V_713</publication_info>
+      <full_name>408 - 0.00 - DS_V_713</full_name>
+      <url>data/stories/721.dfl</url>
+    </story>
+    <story><story_id>633</story_id>
+      <informant_id>217</informant_id>
+      <publication_info>DS_VII_144</publication_info>
+      <full_name>217 - 0.00 - DS_VII_144</full_name>
+      <url>data/stories/633.dfl</url>
+    </story>
+    <story><story_id>146</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_146</publication_info>
+      <full_name>241 - 1.05 - DS_VII_146</full_name>
+      <url>data/stories/146.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En pr&#230;st i Vilslev (han levede i slutningen af forrige &#229;rhundrede) kj&#248;rte en nat hjemad. Pludselig vilde vognen ikke af stedet. Pr&#230;sten sagde da til karlen, der kj&#248;rte, at han skulde st&#229; af og l&#230;gge det ene baghjul op i vognen. Da dette var sket, kj&#248;rte de rask hjemad, og da de holdt i pr&#230;steg&#229;rden, sagde pr&#230;sten til karlen, at han skulde kj&#248;re vognen ud i andedammen og lade den st&#229; der. Om morgenen s&#229; de da, at der stod en gammel kj&#230;lling og bar p&#229; vognen i steden for det aftagne fjerde hjul.</danish_publication>
+  <english_publication>A minister in Vislev (he lived at the end of the last century) drove home one night. All of a sudden the wagon wouldn&#8217;t move. The minister said to the farmhand who was driving that he should get off and put one of the rear wheels up in the wagon. When he'd done that, they drove quickly home, and when they stopped in the parsonage, the minister told the farmhand to drive the wagon out into the duck pond and let it stand there. In the morning they saw that there was an old woman holding the wagon instead of the removed fourth wheel.</english_publication>
+  <keywords>
+    <keyword><id>395</id><frequency>2</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>537</id><frequency>2</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>786</id><frequency>3</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>906</id><frequency>1</frequency><keyword>parsonage</keyword>parsonage</keyword>
+    <keyword><id>1311</id><frequency>4</frequency><keyword>wagon</keyword>wagon</keyword>
+    <keyword><id>1335</id><frequency>2</frequency><keyword>wheel</keyword>wheel</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>18</id>
+    <heading_danish>Pr&#230;ster</heading_danish>
+    <heading_english>Ministers</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>40</id><display_name>Places: Pond / Lake</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,65 @@
+<story><story_id>759</story_id>
+  <publication_info>DS_II_A_26</publication_info>
+  <full_name>348 - 0.00 - DS_II_A_26</full_name>
+  <informant_id>348</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Nikolaj</informant_first_name>
+  <informant_full_name>Student Nikolaj Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>1</place_id>
+      <name>Aaby</name>
+      <display_name>Aaby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>510</story_id>
+      <informant_id>368</informant_id>
+      <publication_info>DS_I_44</publication_info>
+      <full_name>368 - 0.00 - DS_I_44</full_name>
+      <url>data/stories/510.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gammel kone, som hed Ellen Bisp, gik til Birkfuldsdal for at hente sin ko, som gr&#230;ssede der. Da hun kom til stedet, fik hun &#246;je p&#229; tre sm&#229;piger med hvide forkl&#230;der. Hun havde h&#248;rt, at nogle piger vilde g&#229; derhen og samle eneb&#230;rris, og troede da, at det var dem, og sagde, at de behovede ikke at v&#230;re bange for hende, hun skulde ikke r&#248;be dem for skovfogden. Men da hun havde sagt dette, forsvandt de pludselig for hendes &#246;jesyn, og da vidste hun, at det var gravelsm&#246;er.</danish_publication>
+  <english_publication>An old woman who was called Ellen Bisp went to Birkfuldsdal to get her cow which was grazing there. When she got there, she noticed three small girls with white aprons. She had heard that some girls went there and collected juniper berries and she thought that it was them and said that they didn&#8217;t have to be afraid of her since she wouldn&#8217;t report them to the forest ranger. But when she&#8217;d said that, they suddenly disappeared from her sight and then she knew that they were elf maidens.</english_publication>
+  <keywords>
+    <keyword><id>13</id><frequency>1</frequency><keyword>afraid</keyword>afraid</keyword>
+    <keyword><id>44</id><frequency>1</frequency><keyword>apron</keyword>apron</keyword>
+    <keyword><id>92</id><frequency>1</frequency><keyword>berries</keyword>berries</keyword>
+    <keyword><id>274</id><frequency>1</frequency><keyword>cow</keyword>cow</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>373</id><frequency>1</frequency><keyword>elf</keyword>elf</keyword>
+    <keyword><id>377</id><frequency>1</frequency><keyword>ellen_bisp</keyword>Ellen Bisp</keyword>
+    <keyword><id>438</id><frequency>1</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>467</id><frequency>2</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>484</id><frequency>1</frequency><keyword>grazing</keyword>grazing</keyword>
+    <keyword><id>610</id><frequency>1</frequency><keyword>juniper</keyword>juniper</keyword>
+    <keyword><id>736</id><frequency>1</frequency><keyword>maiden</keyword>maiden</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1340</id><frequency>1</frequency><keyword>white</keyword>white</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>2</id>
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>58</id><display_name>Supernatural Beings: Elf</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

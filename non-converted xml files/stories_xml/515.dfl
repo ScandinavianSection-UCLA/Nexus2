@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<story story_id="515">
+  <publication_info>DS_V_234</publication_info>
+  <full_name>429 - 0.00 - DS_V_234</full_name>
+  <informant_id>429</informant_id>
+  <informant_last_name>Knudsen</informant_last_name>
+  <informant_first_name>Frederik</informant_first_name>
+  <informant_full_name>Frederik Knudsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>738</place_id>
+      <name>Agerskov, Bording</name>
+      <display_name>Agerskov, Bording (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="351">
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_H_34</publication_info>
+      <full_name>90 - 2.19 - DS_II_H_34</full_name>
+      <url>data/stories/351.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Min husbond fortalte mig en gang f&#xF8;lgende: I min ungdomsdage var jeg en sommernat ude at spasere med en pige i skoven. Med et s&#xE5; jeg et stykke foran mig, at der kom en ridende mand med en hest ved h&#xE5;nden, og han kom hen imod mig. Jeg tr&#xE5;dte til siden med pigen ind imellem nogle tr&#xE6;er og blev st&#xE5;ende der, mens han red forbi med de to heste. Skj&#xF6;nt det var blikstille, var der dog ikke tale om, at jeg kunde h&#xF8;re den mindste lyd af hestenes hovslag p&#xE5; jorden, al ting skred ganske lydl&#xF8;st forbi os, og jeg troede virkelig, at det var et gjenf&#xE6;rd.</danish_publication>
+  <english_publication>My master once told me the following: In my youth I was out one summer night walking with a girl out in the woods. All at once I saw a little ways ahead of me that a man was riding a horse and had the reins of another in his hands and he was coming towards me. I stepped aside with the girl in between some trees and stood there while he rode past with the two horses. Even though it was totally quiet, I could not hear the slightest sound of the horses&#x2019; hoof beats on the ground, everything glided silently past us, and I truly believe it was a revenant.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="545" frequency="3" keyword="horse">horse</keyword>
+    <keyword id="757" frequency="1" keyword="master">master</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1023" frequency="1" keyword="reins">reins</keyword>
+    <keyword id="1027" frequency="1" keyword="revenant">revenant</keyword>
+    <keyword id="1030" frequency="2" keyword="riding">riding</keyword>
+    <keyword id="1165" frequency="1" keyword="sounds">sounds</keyword>
+    <keyword id="1215" frequency="1" keyword="summer">summer</keyword>
+    <keyword id="1281" frequency="1" keyword="tree">tree</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+    <keyword id="1375" frequency="1" keyword="youth">youth</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="115" display_name="Time, Season, Weather: Summer"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

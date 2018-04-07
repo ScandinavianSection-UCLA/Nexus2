@@ -1,0 +1,86 @@
+<story><story_id>646</story_id>
+  <publication_info>DS_III_2168</publication_info>
+  <full_name>514 - 0.00 - DS_III_2168</full_name>
+  <informant_id>514</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>L. Chr.</informant_first_name>
+  <informant_full_name>G&#229;rdejer L. Chr. Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>871</place_id>
+      <name>Skj&#248;rtholt</name>
+      <display_name>Skj&#248;rtholt (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1047</place_id>
+      <name>Skj&#248;rb&#230;ks hede</name>
+      <display_name>Skj&#248;rb&#230;ks hede (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>384</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_2367</publication_info>
+      <full_name>123 - 2.10 - DS_III_2367</full_name>
+      <url>data/stories/384.dfl</url>
+    </story>
+    <story><story_id>777</story_id>
+      <informant_id>402</informant_id>
+      <publication_info>DS_III_2164</publication_info>
+      <full_name>402 - 0.00 - DS_III_2164</full_name>
+      <url>data/stories/777.dfl</url>
+    </story>
+    <story><story_id>632</story_id>
+      <informant_id>217</informant_id>
+      <publication_info>DS_III_2175</publication_info>
+      <full_name>217 - 0.00 - DS_III_2175</full_name>
+      <url>data/stories/632.dfl</url>
+    </story>
+    <story><story_id>662</story_id>
+      <informant_id>493</informant_id>
+      <publication_info>DS_III_2180</publication_info>
+      <full_name>493 - 0.00 - DS_III_2180</full_name>
+      <url>data/stories/662.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#229; Skj&#248;rb&#230;kshede mark br&#230;ndte der ogs&#229; lys. En karl fra Stendrup, der gik fra Skj&#248;rb&#230;kshede til sit hjem en aften, s&#229; lyset, gik efter det og kom til det. Han vidste nu nok, al der skulde stikkes j&#230;rn ned p&#229; stedet, men han havde hverken kniv eller fyrt&#246;j hos sig, dog han fandt p&#229; r&#229;d. Han slog den ene af sine tr&#230;sko mod den anden, indtil de ganske splintredes, stak s&#229; krammerne i jorden og gik hjem i str&#246;mpef&#246;dderne. Anden dagen gik han ud for at finde sin skat, han traf den rigtignok, men gevinsten var ikke stor, ti der var kuns fire skilling. Der kan nemlig br&#230;nde lys p&#229; en firskilling, men heller ikke p&#229; mindre.</danish_publication>
+  <english_publication>A light burned out on Skj&#248;rb&#230;kshede field as well. A farmhand from Stendrup who was walking home from Skj&#248;rb&#230;kshede one night saw the light, went after it and came up to it. He knew well enough that one is supposed to put iron down at the place where the light burns, but he had neither knife nor flint and iron with him, but he figured out a plan. He hit one of his clogs with the other until it splintered, put the tacks into the ground and went home in stocking feet. The next day, he went out to find his treasure, and he found it sure enough, but the jackpot wasn&#8217;t too big, since it was only four shillings. A light can burn for four shillings, but not for anything less.</english_publication>
+  <keywords>
+    <keyword><id>234</id><frequency>1</frequency><keyword>clogs</keyword>clogs</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>413</id><frequency>2</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>420</id><frequency>1</frequency><keyword>flint</keyword>flint</keyword>
+    <keyword><id>537</id><frequency>2</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>564</id><frequency>2</frequency><keyword>iron</keyword>iron</keyword>
+    <keyword><id>638</id><frequency>1</frequency><keyword>knife</keyword>knife</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1100</id><frequency>2</frequency><keyword>shilling</keyword>shilling</keyword>
+    <keyword><id>1193</id><frequency>1</frequency><keyword>stockings</keyword>stockings</keyword>
+    <keyword><id>1280</id><frequency>1</frequency><keyword>treasure</keyword>treasure</keyword>
+  </keywords>
+  <etk_index><id>15</id>
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>32</id><display_name>Places: Heath</display_name></tango_index>
+    <tango_index><id>50</id><display_name>Tools, Items and Conveyances: Metal</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

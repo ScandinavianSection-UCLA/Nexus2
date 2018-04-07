@@ -1,0 +1,37 @@
+<informant><person_id>446</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer C. M. Larsen</full_name>
+  <last_name>Larsen</last_name>
+  <first_name>C. M.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>478</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>446</informant_id>
+      <publication_info>DS_VII_336</publication_info>
+      <full_name>446 - 0.00 - DS_VII_336</full_name>
+      <url>data/stories/478.dfl</url>
+      <place_recorded><id>839</id>Ommel, &#198;r&#248;</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>839</place_id>
+      <name>Ommel, &#198;r&#248;</name>
+      <display_name>Ommel, &#198;r&#248; (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

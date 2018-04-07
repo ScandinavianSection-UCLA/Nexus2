@@ -1,0 +1,79 @@
+<story><story_id>539</story_id>
+  <publication_info>DS_IV_1690</publication_info>
+  <full_name>238 - 0.00 - DS_IV_1690</full_name>
+  <informant_id>238</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Henrik</informant_first_name>
+  <informant_full_name>Henrik Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>829</place_id>
+      <name>Maribo</name>
+      <display_name>Maribo (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>392</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story><story_id>648</story_id>
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1678</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1678</full_name>
+      <url>data/stories/648.dfl</url>
+    </story>
+    <story><story_id>466</story_id>
+      <informant_id>432</informant_id>
+      <publication_info>DS_IV_1695</publication_info>
+      <full_name>432 - 0.00 - DS_IV_1695</full_name>
+      <url>data/stories/466.dfl</url>
+    </story>
+    <story><story_id>751</story_id>
+      <informant_id>479</informant_id>
+      <publication_info>DS_IV_1687</publication_info>
+      <full_name>479 - 0.00 - DS_IV_1687</full_name>
+      <url>data/stories/751.dfl</url>
+    </story>
+    <story><story_id>800</story_id>
+      <informant_id>442</informant_id>
+      <publication_info>DS_IV_1683</publication_info>
+      <full_name>442 - 0.00 - DS_IV_1683</full_name>
+      <url>data/stories/800.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Midtsj&#230;lland v&#233;d gamle folk at fort&#230;lle, at n&#229;r folk d&#248;de af den sorte d&#248;d, nyste de uafladelig i de sidste &#248;jeblikke. N&#229;r den d&#248;ende begyndte at nyse, vidste sl&#230;gt og venner, at det var d&#248;den, og de sagde da: "Gudvelsigne dig!" Siden den tid har dette &#248;nske v&#230;ret brugt, n&#229;r nogen nyser.</danish_publication>
+  <english_publication>In mid Sj&#230;lland the old people used to say that when people died of the Black Death, they sneezed incessantly in their last moments. When the dying person began to sneeze, relatives and friends knew that it was the death and then they said, "God bless you!" Since that time, that wish has been used when people sneeze.</english_publication>
+  <keywords>
+    <keyword><id>106</id><frequency>1</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>110</id><frequency>1</frequency><keyword>blessing</keyword>blessing</keyword>
+    <keyword><id>317</id><frequency>3</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>445</id><frequency>1</frequency><keyword>friend</keyword>friend</keyword>
+    <keyword><id>472</id><frequency>1</frequency><keyword>god</keyword>god</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1125</id><frequency>1</frequency><keyword>sj&#230;lland</keyword>sj&#230;lland</keyword>
+    <keyword><id>1149</id><frequency>3</frequency><keyword>sneeze</keyword>sneeze</keyword>
+    <keyword><id>1350</id><frequency>1</frequency><keyword>wish</keyword>wish</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

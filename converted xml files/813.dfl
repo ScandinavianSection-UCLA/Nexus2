@@ -1,0 +1,68 @@
+<story><story_id>813</story_id>
+  <publication_info>DS_VII_1478</publication_info>
+  <full_name>427 - 0.00 - DS_VII_1478</full_name>
+  <informant_id>427</informant_id>
+  <informant_last_name>Kj&#230;r</informant_last_name>
+  <informant_first_name>Severin</informant_first_name>
+  <informant_full_name>L&#230;rer Severin Kj&#230;r</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>815</place_id>
+      <name>Kongsted</name>
+      <display_name>Kongsted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>487</place_id>
+      <name>Risby</name>
+      <display_name>Risby (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>427</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_1487</publication_info>
+      <full_name>123 - 3.24 - DS_VII_1487</full_name>
+      <url>data/stories/427.dfl</url>
+    </story>
+    <story><story_id>802</story_id>
+      <informant_id>404</informant_id>
+      <publication_info>DS_VII_1488</publication_info>
+      <full_name>404 - 0.00 - DS_VII_1488</full_name>
+      <url>data/stories/802.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Det var den gamle Mads Jensen i Risby, han red en gang hen ad vejen. S&#229; var der &#233;n, der sk&#248;d efter ham, og han blev ogs&#229; ramt, men kuglen gik kun gjennem ydertr&#246;jen og nattr&#246;jen. S&#229; tog han den og red tilbage med den til manden, der havde skudt, idet han sagde: "Du skal ikke ulejlige dig med at skyde efter mig mere." Manden blev helt forbl&#248;ffet, da han fik sin kugle igjen. Men Rasmus Jensen var ogs&#229; f&#248;dt i en sejrsskjorte, og den havde han gjemt.</danish_publication>
+  <english_publication>It was old Mads Jensen in Risby, he was riding along the road once. Then someone shot at him, and the bullet hit him, but it only went through his sweater and nightshirt. Then he took the bullet, and rode back with it to the man who had shot and said, "Don't trouble yourself with shooting at me any more." The man was utterly surprised when he got his bullet back. But Rasmus (Mads) Jensen had been born in a victory shirt, and he had kept it.</english_publication>
+  <keywords>
+    <keyword><id>102</id><frequency>1</frequency><keyword>birth</keyword>birth</keyword>
+    <keyword><id>157</id><frequency>2</frequency><keyword>bullet</keyword>bullet</keyword>
+    <keyword><id>595</id><frequency>1</frequency><keyword>jensen</keyword>Jensen</keyword>
+    <keyword><id>879</id><frequency>1</frequency><keyword>old_mads</keyword>Old Mads</keyword>
+    <keyword><id>1018</id><frequency>1</frequency><keyword>rasmus_jensen</keyword>Rasmus Jensen</keyword>
+    <keyword><id>1030</id><frequency>2</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1106</id><frequency>3</frequency><keyword>shooting</keyword>shooting</keyword>
+    <keyword><id>1230</id><frequency>1</frequency><keyword>sweater</keyword>sweater</keyword>
+    <keyword><id>1299</id><frequency>1</frequency><keyword>victory_shirt</keyword>victory shirt</keyword>
+  </keywords>
+  <etk_index><id>30</id>
+    <heading_danish>Menneskets og kv&#230;gets sygdomme</heading_danish>
+    <heading_english>Human and cattle illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

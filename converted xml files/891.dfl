@@ -1,0 +1,84 @@
+<story><story_id>891</story_id>
+  <publication_info>DS_VII_574</publication_info>
+  <full_name>0 - 0.00 - DS_VII_574</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>488</place_id>
+      <name>R&#248;dding</name>
+      <display_name>R&#248;dding (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>146</place_id>
+      <name>Erslev</name>
+      <display_name>Erslev (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>179</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_565</publication_info>
+      <full_name>241 - 4.08 - DS_VII_565</full_name>
+      <url>data/stories/179.dfl</url>
+    </story>
+    <story><story_id>742</story_id>
+      <informant_id>111</informant_id>
+      <publication_info>DS_VII_576</publication_info>
+      <full_name>111 - 0.00 - DS_VII_576</full_name>
+      <url>data/stories/742.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En konfirmand i Erslev gik til T&#248;ds&#248; pr&#230;st. S&#229; vandede de deres k&#248;er ude i pr&#230;steg&#229;rden, og hun sidder inde i konfirmantstuen og siger: hvad de vilde give hende for at f&#229; deher k&#248;er til at dandse. Ja, det kunde hun ikke. Jo, det kunde hun retten. "A kan ogs&#229; sidde her inde og malke m&#230;lk af k&#248;erne." Nej, det kunde ikke lade sig gj&#248;re. Jo, n&#229;r hun kunde nu f&#229; en pregl og s&#229; et fad. S&#229; kom pr&#230;sten ind, og de andre fortalte ham det, hvad pigen havde sagt. "Kan du det, min pige?" Ja, hun kunde. S&#229; bliver preglen hentet og fadet ogs&#229;, og hun kom til at malke. Da hun havde malket et st&#248;d, vilde hun ikke l&#230;ngere, for nu kom der bl&#248;. S&#229; vilde han have at vide &#230;d hende, hvem der havde l&#230;rt hende det. Det var en gammel kone. Hun havde f&#229;et to kattehaler i ovnen, og n&#229;r hun fik nu &#233;n til, s&#229; var hun udl&#230;rt. S&#229; lod pr&#230;sten hende d&#248;be om, og s&#229; var det forbi, nu kunde hun ikke l&#230;re s&#229;dant noget siden.</danish_publication>
+  <english_publication>A confirmation student in Erslev went to the T&#248;ds&#248; minister. They were watering their cows at the parsonage, and she sits in the confirmation classroom and says: what would they give her to get those cows to dance. Well, she couldn't do that. Yes, she certainly could. "I can also sit in here and milk milk from the cows." No, that couldn't be done. Yes, well if she was given an awl and a bowl. Then the minister came in and the others told him what the girl had said. "Can you do that, my girl?" Then the awl is fetched and the bowl too, and then she started milking. After she had milked for a while, she didn't want to anymore, because now blood started to come. Then he wanted to know who had taught her that. It was an old woman. She had put two cat tails in the oven and when she got one more, then she'd be fully taught. Then the minister had her re-baptized and then that was over, now she couldn't do things like that anymore.</english_publication>
+  <keywords>
+    <keyword><id>58</id><frequency>2</frequency><keyword>awl</keyword>awl</keyword>
+    <keyword><id>70</id><frequency>1</frequency><keyword>baptism</keyword>baptism</keyword>
+    <keyword><id>111</id><frequency>1</frequency><keyword>blood</keyword>blood</keyword>
+    <keyword><id>128</id><frequency>2</frequency><keyword>bowl</keyword>bowl</keyword>
+    <keyword><id>187</id><frequency>1</frequency><keyword>cat</keyword>cat</keyword>
+    <keyword><id>254</id><frequency>2</frequency><keyword>confirmation</keyword>confirmation</keyword>
+    <keyword><id>274</id><frequency>3</frequency><keyword>cow</keyword>cow</keyword>
+    <keyword><id>297</id><frequency>1</frequency><keyword>dancing</keyword>dancing</keyword>
+    <keyword><id>467</id><frequency>2</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>782</id><frequency>4</frequency><keyword>milk</keyword>milk</keyword>
+    <keyword><id>786</id><frequency>3</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>890</id><frequency>1</frequency><keyword>oven</keyword>oven</keyword>
+    <keyword><id>906</id><frequency>1</frequency><keyword>parsonage</keyword>parsonage</keyword>
+    <keyword><id>1211</id><frequency>1</frequency><keyword>student</keyword>student</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>80</id><display_name>Actions or events: Church ceremony</display_name></tango_index>
+    <tango_index><id>89</id><display_name>Actions or events: Injury</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

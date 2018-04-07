@@ -1,0 +1,73 @@
+<story><story_id>534</story_id>
+  <publication_info>DS_III_898</publication_info>
+  <full_name>469 - 0.00 - DS_III_898</full_name>
+  <informant_id>469</informant_id>
+  <informant_last_name>Mand</informant_last_name>
+  <informant_first_name>Hans Jensen</informant_first_name>
+  <informant_full_name>Hans Jensen Mand</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>849</place_id>
+      <name>Pilemark, Sams&#248;</name>
+      <display_name>Pilemark, Sams&#248; (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>670</place_id>
+      <name>Tvilum</name>
+      <display_name>Tvilum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>237</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_III_887</publication_info>
+      <full_name>235 - 1.18 - DS_III_887</full_name>
+      <url>data/stories/237.dfl</url>
+    </story>
+    <story><story_id>854</story_id>
+      <informant_id>468</informant_id>
+      <publication_info>DS_III_880</publication_info>
+      <full_name>468 - 0.00 - DS_III_880</full_name>
+      <url>data/stories/854.dfl</url>
+    </story>
+    <story><story_id>398</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_870</publication_info>
+      <full_name>123 - 2.24 - DS_III_870</full_name>
+      <url>data/stories/398.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Tvilum kirkes bygning faldt to gange. S&#229; bestemte de at sp&#230;nde to stude sammen med et reb og lade dem g&#229;. Hvor de fandt dem liggende om morgenen, skulde kirken st&#229;. S&#229; lagde de dem s&#229;dan i et morads, og s&#229; var der en gammel mand, der sagde: "Ja, a tvivlte nok om det." Deraf fik kirken sit navn.</danish_publication>
+  <english_publication>The Tvilum church building collapsed twice. Then they decided to hitch two steers together with a rope and let them go. The church was to stand where they found them lying the next morning. They lay down in a morass, and then there was an old man who said, "Well, I doubted (tvilte) that." And that's where the church got its name.</english_publication>
+  <keywords>
+    <keyword><id>155</id><frequency>1</frequency><keyword>buildings</keyword>buildings</keyword>
+    <keyword><id>227</id><frequency>3</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>800</id><frequency>1</frequency><keyword>morass</keyword>morass</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>822</id><frequency>1</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1044</id><frequency>1</frequency><keyword>rope</keyword>rope</keyword>
+    <keyword><id>1190</id><frequency>1</frequency><keyword>steer</keyword>steer</keyword>
+  </keywords>
+  <etk_index><id>12</id>
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>43</id><display_name>Places: Swamp</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

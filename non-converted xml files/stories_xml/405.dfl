@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<story story_id="405">
+  <publication_info>JAH_I_62</publication_info>
+  <full_name>123 - 3.02 - JAH_I_62</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.02</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="32">
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_781</publication_info>
+      <full_name>150 - 1.29 - JAT_VI_781</full_name>
+      <url>data/stories/32.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3797b</fielddiary_page_start>
+  <fielddiary_page_end>3797b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Tang Kristensen, in recording this rhyme, seems most interested in capturing aspects of Peder's pronunciation. The lament captures well the trials and tribulations facing the young boys and girls who were employed in the summer months as shepherds. Peder himself did not work as a shepherd; he worked in his youth at a mill.</annotation>
+  <danish_manuscript>Dawen &#xE6; lang &#xE5; Tr&#xE6;skun &#xE6; tong,  M&#xE6;lma
+derne &#xE6; sm&#xE5; &#xE5; a h&#xE5; f&#xE5; lomk &#xE5; go tit
+for a &#xE6;w en h&#xE6;sselst&#xE5;k &#xE5;lder kan bestel 
+n&#xE5;k tile &#xE5;p &#xE5; silde i seng hier skul da
+F. tin fa dr&#xE6;ng. Hjorte drengens Hj&#xE6;rtesuk.
+</danish_manuscript>
+  <english_manuscript>The day is long, my clogs are heavy the sandwiches are small, and I have a long way to go often I get hit by a hazel staff I can never do enough early up and late to bed here the devil should serve as a hired boy The Shepherd's lament.</english_manuscript>
+  <danish_publication>Hjordedrengens hj&#xE6;rtesuk.
+Dawen &#xE6; lonng, &#xE5; tr&#xE6;skun &#xE6; tonng, 
+m&#xE6;lldmaderen &#xE6; smo,
+&#xE5; a h&#xE5; f&#xE5; londt &#xE5; go, 
+tit for a ow en h&#xE6;sselst&#xE5;k,
+&#xE5;lder kan a bestell n&#xE5;k,
+tiile &#xE5;p &#xE5; silde i seng,
+hier skuld da Fanden tien f&#xE5; dr&#xE6;ng.</danish_publication>
+  <english_publication>The Shepherd&#x2019;s lament:
+The day is long, my clogs are heavy
+the sandwiches are small, and I have a long way to go
+often I get hit by a hazel staff
+I can never do enough
+early up and late to bed
+here the devil should serve as a hired boy
+</english_publication>
+  <keywords>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="234" frequency="1" keyword="clogs">clogs</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="324" frequency="1" keyword="devil">devil</keyword>
+    <keyword id="513" frequency="1" keyword="hazel">hazel</keyword>
+    <keyword id="1067" frequency="1" keyword="sandwich">sandwich</keyword>
+    <keyword id="1099" frequency="1" keyword="shepherd">shepherd</keyword>
+  </keywords>
+  <etk_index id="31">
+    <heading_danish>Om fortidens landbrug</heading_danish>
+    <heading_english>Concerning earlier agricultural practices</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="13" name="Rhyme"/>
+</story>

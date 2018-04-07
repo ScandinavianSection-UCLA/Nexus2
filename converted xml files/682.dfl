@@ -1,0 +1,96 @@
+<story><story_id>682</story_id>
+  <publication_info>DS_IV_1787</publication_info>
+  <full_name>494 - 0.00 - DS_IV_1787</full_name>
+  <informant_id>494</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>M.</informant_first_name>
+  <informant_full_name>Graver M. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>297</place_id>
+      <name>Hvidbj&#230;rg</name>
+      <display_name>Hvidbj&#230;rg (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>297</place_id>
+      <name>Hvidbj&#230;rg</name>
+      <display_name>Hvidbj&#230;rg (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>73</place_id>
+      <name>B&#248;rglum</name>
+      <display_name>B&#248;rglum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>398</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_870</publication_info>
+      <full_name>123 - 2.24 - DS_III_870</full_name>
+      <url>data/stories/398.dfl</url>
+    </story>
+    <story><story_id>462</story_id>
+      <informant_id>417</informant_id>
+      <publication_info>DS_IV_1777</publication_info>
+      <full_name>417 - 0.00 - DS_IV_1777</full_name>
+      <url>data/stories/462.dfl</url>
+    </story>
+    <story><story_id>581</story_id>
+      <informant_id>375</informant_id>
+      <publication_info>DS_IV_1788</publication_info>
+      <full_name>375 - 0.00 - DS_IV_1788</full_name>
+      <url>data/stories/581.dfl</url>
+    </story>
+    <story><story_id>676</story_id>
+      <informant_id>377</informant_id>
+      <publication_info>DS_IV_1783</publication_info>
+      <full_name>377 - 0.00 - DS_IV_1783</full_name>
+      <url>data/stories/676.dfl</url>
+    </story>
+    <story><story_id>875</story_id>
+      <informant_id/>
+      <publication_info>DS_IV_1778</publication_info>
+      <full_name>0 - 0.00 - DS_IV_1778</full_name>
+      <url>data/stories/875.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Da den b&#246;rglumske bisp havde lyst Hvidbj&#230;rg kirke i band, nogle siger i 7, andre i 8 &#229;r, skulde der for at f&#229; kirken l&#248;st igjen begraves et menneske levende. Der blev da kj&#246;bt en dreng af en fattig kone, og s&#229; gav de ham en finmeldmad og et par skilling, for at han skulde g&#229; op og se, hvor stor graven var. Der var gjort den forn&#248;dne aftale med folkene, som gravede den, om det, og da han kom, sk&#248;d de ham ned i graven og begyndte at kaste den til. Det sidste, de h&#248;rte af ham, var: "I beskider min mad, I beskider min mad!" Der er sagt, at de to m&#230;nd skulde aldrig have v&#230;ret ved deres fulde fem siden, og de har ogs&#229; kunnet h&#248;re drengens r&#229;b i flere &#229;r efter om natten.</danish_publication>
+  <english_publication>When the bishop of B&#248;rglum had banished Hvidbj&#230;rg church, some say for seven years, others for eight years, they were to bury a person alive to get the banishment lifted. Then a boy was bought from a poor woman and they gave him a nice sandwich and some shillings to go up and see how big the pit was. They had made the proper arrangement with the people who were digging it, and when he came, they pushed him in and started filling it up. The last thing they heard from him was, "You're making my sandwich dirty! You're making my sandwich dirty!" It's said that the two men were never quite altogether there again, and for several years one could hear the boy's cries at night.</english_publication>
+  <keywords>
+    <keyword><id>103</id><frequency>1</frequency><keyword>bishop</keyword>bishop</keyword>
+    <keyword><id>130</id><frequency>2</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>285</id><frequency>1</frequency><keyword>crying</keyword>crying</keyword>
+    <keyword><id>326</id><frequency>1</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>974</id><frequency>1</frequency><keyword>poor</keyword>poor</keyword>
+    <keyword><id>1067</id><frequency>3</frequency><keyword>sandwich</keyword>sandwich</keyword>
+    <keyword><id>1089</id><frequency>1</frequency><keyword>seven</keyword>seven</keyword>
+    <keyword><id>1100</id><frequency>1</frequency><keyword>shilling</keyword>shilling</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

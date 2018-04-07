@@ -1,0 +1,107 @@
+<story><story_id>572</story_id>
+  <publication_info>DS_II_A_96</publication_info>
+  <full_name>240 - 0.00 - DS_II_A_96</full_name>
+  <informant_id>240</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>807</place_id>
+      <name>J&#230;vngryde</name>
+      <display_name>J&#230;vngryde (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>262</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_99</publication_info>
+      <full_name>235 - 1.42 - DS_II_A_99</full_name>
+      <url>data/stories/262.dfl</url>
+    </story>
+    <story><story_id>571</story_id>
+      <informant_id>240</informant_id>
+      <publication_info>DS_II_A_95</publication_info>
+      <full_name>240 - 0.00 - DS_II_A_95</full_name>
+      <url>data/stories/571.dfl</url>
+    </story>
+    <story><story_id>608</story_id>
+      <informant_id>352</informant_id>
+      <publication_info>DS_II_A_91</publication_info>
+      <full_name>352 - 0.00 - DS_II_A_91</full_name>
+      <url>data/stories/608.dfl</url>
+    </story>
+    <story><story_id>714</story_id>
+      <informant_id>68</informant_id>
+      <publication_info>DS_II_A_106</publication_info>
+      <full_name>68 - 0.00 - DS_II_A_106</full_name>
+      <url>data/stories/714.dfl</url>
+    </story>
+    <story><story_id>726</story_id>
+      <informant_id>414</informant_id>
+      <publication_info>DS_II_A_74</publication_info>
+      <full_name>414 - 0.00 - DS_II_A_74</full_name>
+      <url>data/stories/726.dfl</url>
+    </story>
+    <story><story_id>843</story_id>
+      <informant_id>379</informant_id>
+      <publication_info>DS_II_A_76</publication_info>
+      <full_name>379 - 0.00 - DS_II_A_76</full_name>
+      <url>data/stories/843.dfl</url>
+    </story>
+    <story><story_id>281</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_100</publication_info>
+      <full_name>235 - 1.60 - DS_II_A_100</full_name>
+      <url>data/stories/281.dfl</url>
+    </story>
+    <story><story_id>347</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_A_98</publication_info>
+      <full_name>90 - 2.15 - DS_II_A_98</full_name>
+      <url>data/stories/347.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En ungkarl, Jens Bovens, der var hjorde ude i skoven, kom om ved et sted, de kalder de d&#248;de eller. S&#229; kom han ikke hjem om middagen med k&#248;erne, og de skulde ud og lede om ham, og da de fandt ham, var han helt vanvittig. Ellefolkene havde dandst med ham, og siden den tid vokste han ikke. Han blev ikke st&#246;rre end en lille dreng nogen sinde.</danish_publication>
+  <english_publication>A bachelor, Jens Bovens, who was a shepherd out in the forest came by a place they called "the dead Alders." Then he didn't come home with the cows at midday and they were going to go out and look for him, and when they found him, he was totally crazy. The elves had danced with him, and since that time he didn't grow. He never got any bigger than a little boy.</english_publication>
+  <keywords>
+    <keyword><id>17</id><frequency>1</frequency><keyword>alderwood</keyword>alderwood</keyword>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>274</id><frequency>1</frequency><keyword>cow</keyword>cow</keyword>
+    <keyword><id>278</id><frequency>1</frequency><keyword>crazy</keyword>crazy</keyword>
+    <keyword><id>297</id><frequency>1</frequency><keyword>dancing</keyword>dancing</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>373</id><frequency>1</frequency><keyword>elf</keyword>elf</keyword>
+    <keyword><id>438</id><frequency>1</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>578</id><frequency>1</frequency><keyword>jens_bovens</keyword>Jens Bovens</keyword>
+    <keyword><id>775</id><frequency>1</frequency><keyword>midday</keyword>midday</keyword>
+    <keyword><id>1099</id><frequency>1</frequency><keyword>shepherd</keyword>shepherd</keyword>
+  </keywords>
+  <etk_index><id>2</id>
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>58</id><display_name>Supernatural Beings: Elf</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>82</id><display_name>Actions or events: Dancing</display_name></tango_index>
+    <tango_index><id>89</id><display_name>Actions or events: Injury</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>110</id><display_name>Time, Season, Weather: Noon</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="487">
+  <publication_info>DS_I_676</publication_info>
+  <full_name>524 - 0.00 - DS_I_676</full_name>
+  <informant_id>524</informant_id>
+  <informant_last_name>Rasmussen</informant_last_name>
+  <informant_first_name>Chr.</informant_first_name>
+  <informant_full_name>Friskolel&#xE6;rer Chr. Rasmussen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>840</place_id>
+      <name>Ormitslev</name>
+      <display_name>Ormitslev (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1005</place_id>
+      <name>Sor&#xF8;</name>
+      <display_name>Sor&#xF8; (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="716">
+      <informant_id>541</informant_id>
+      <publication_info>DS_I_639</publication_info>
+      <full_name>541 - 0.00 - DS_I_639</full_name>
+      <url>data/stories/716.dfl</url>
+    </story>
+    <story story_id="464">
+      <informant_id>527</informant_id>
+      <publication_info>DS_I_860</publication_info>
+      <full_name>527 - 0.00 - DS_I_860</full_name>
+      <url>data/stories/464.dfl</url>
+    </story>
+    <story story_id="1">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_D_5</publication_info>
+      <full_name>150 - 0.01 - DS_II_D_5</full_name>
+      <url>data/stories/1.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Henne ved Sor&#xF8; gik en mand og pl&#xF6;jede sin banke. Han blev da s&#xE5; s&#xE6;r forunderlig over, at der fra banken og ned til hans g&#xE5;rd var en sti, som han aldrig f&#xF6;r havde set; men da fandt han en vante, som var s&#xE5; stor, at fingrene kunde rumme en t&#xF8;nde s&#xE6;d, og nu havde han opl&#xF8;sning p&#xE5; g&#xE5;den. Han tog da vanten med sig hjem om aftenen. Men om natten kom en r&#xF6;st uden for vinduet, som sagde: "Vante og ven, giv mig min vante igjen! ellers ligger to af dine heste, de st&#xF6;rste og bedste, d&#xF8;de i morgen p&#xE5; mosen." Manden h&#xE6;ngte da vanten ud p&#xE5; et bj&#xE6;lkehoved, og lidt efter blev den reven v&#xE6;k, s&#xE5; huset n&#xE6;r havde v&#xE6;ltet. Men siden efter trivedes al ting vel der p&#xE5; g&#xE5;rden.</danish_publication>
+  <english_publication>Near Sor&#xF8;, a man went and plowed over his mound. He was somewhat surprised by a path which he&#x2019;d never seen before that went from the mound down to his house; but then he found a glove which was so big that the fingers could hold a barrel of seed, and the farm was going insolvent at the time. The man took the glove home that night. But at night a voice came from outside the window and said: &#x201C;Gloves and friend, give me my glove again! Otherwise two of your horses, the biggest and best, will lie dead tomorrow out in the swamp.&#x201D; The man hung the glove out on the end of a beam and a little later it was torn away so hard that the house almost tipped over. But after that time everything prospered on the farm.</english_publication>
+  <keywords>
+    <keyword id="74" frequency="1" keyword="barrel">barrel</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="412" frequency="1" keyword="finger">finger</keyword>
+    <keyword id="445" frequency="1" keyword="friend">friend</keyword>
+    <keyword id="469" frequency="5" keyword="glove">glove</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="548" frequency="2" keyword="house">house</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="966" frequency="1" keyword="plowing">plowing</keyword>
+    <keyword id="1084" frequency="1" keyword="seeds">seeds</keyword>
+    <keyword id="1228" frequency="1" keyword="swamp">swamp</keyword>
+    <keyword id="1267" frequency="1" keyword="tomorrow">tomorrow</keyword>
+    <keyword id="1307" frequency="1" keyword="voice">voice</keyword>
+    <keyword id="1346" frequency="1" keyword="window">window</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="51" display_name="Tools, Items and Conveyances: Plow"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

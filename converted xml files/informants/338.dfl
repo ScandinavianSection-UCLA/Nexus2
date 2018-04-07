@@ -1,0 +1,46 @@
+<informant><person_id>338</person_id>
+  <core_informant/>
+  <full_name>Ole Bonde</full_name>
+  <last_name>Bonde</last_name>
+  <first_name>Ole</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>767</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>338</informant_id>
+      <publication_info>DS_II_B_41</publication_info>
+      <full_name>338 - 0.00 - DS_II_B_41</full_name>
+      <url>data/stories/767.dfl</url>
+      <place_recorded><id>861</id>Selsingg&#229;rde, Sams&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>963</id>
+          <name>H&#229;rmark</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>861</place_id>
+      <name>Selsingg&#229;rde, Sams&#248;</name>
+      <display_name>Selsingg&#229;rde, Sams&#248; (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>963</place_id>
+      <name>H&#229;rmark</name>
+      <display_name>H&#229;rmark (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

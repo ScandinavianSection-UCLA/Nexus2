@@ -1,0 +1,72 @@
+<informant><person_id>6</person_id>
+  <core_informant/>
+  <full_name>Gerhard Peter Andersen</full_name>
+  <last_name>Andersen</last_name>
+  <first_name>Gerhard Peter</first_name>
+  <gender>m</gender>
+  <birth_date>1837-11-27</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>52</occupation_id>L&#230;rer</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>517</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>6</informant_id>
+      <publication_info>DS_III_2316</publication_info>
+      <full_name>6 - 0.00 - DS_III_2316</full_name>
+      <url>data/stories/517.dfl</url>
+      <place_recorded><id>384</id>L&#248;rslev</place_recorded>
+      <places_mentioned>
+        <place><id>306</id>
+          <name>Ilbj&#230;rge</name>
+        </place>
+        <place><id>384</id>
+          <name>L&#248;rslev</name>
+        </place>
+        <place><id>629</id>
+          <name>T&#229;rs</name>
+        </place>
+        <place><id>673</id>
+          <name>Ugilt</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>384</place_id>
+      <name>L&#248;rslev</name>
+      <display_name>L&#248;rslev (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>629</place_id>
+      <name>T&#229;rs</name>
+      <display_name>T&#229;rs (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>384</place_id>
+      <name>L&#248;rslev</name>
+      <display_name>L&#248;rslev (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>306</place_id>
+      <name>Ilbj&#230;rge</name>
+      <display_name>Ilbj&#230;rge (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<story story_id="322">
+  <publication_info>DS_III_462</publication_info>
+  <full_name>235 - 3.20 - DS_III_462</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>3.20</order_told>
+  <fieldtrip id="3">January 1894</fieldtrip>
+  <fieldtrip_start_date>1894-01-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-02-19</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="321">
+      <informant_id>235</informant_id>
+      <publication_info>DS_III_1793</publication_info>
+      <full_name>235 - 3.19 - DS_III_1793</full_name>
+      <url>data/stories/321.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6424b</fielddiary_page_start>
+  <fielddiary_page_end>6424b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Along with the previous story (KMP 3.19), this story is only included because of an ambiguity in the field diaries. The index to Danske Sagn lists this story as being told by Jakob J&#xF6;rgensen, Torsager, although markings in the field diaries suggest that the story was told by Kristiane Mogensdatter (see the annotation to KMP 3.19). In Minder og Oplevelser, Tang Kristensen remarks that, upon arrival in Torsager, he went to visit a grocer by the name J&#xF8;rgensen. It is likely that this story was told to him by the grocer, whose first name is not recorded in Minder og Oplevelser. It may be that his name was Jakob, or that the recording was accidentally attributed to another, older man in Torsager, from whom Tang Kristensen also collected. Recordings of the stories told by that Jakob J&#xF8;rgensen do not start until page 6429b in the field diaries.</annotation>
+  <danish_manuscript>De gamle fort&#xE6;ller som et gl. Sagn at
+Kirken er bygget til Krudttaarn. Det har
+sandsynligvis v&#xE6;ret Vagttaarn imod
+S&#xF8;r&#xF8;vere, der siden er blevet oph&#xE6;vet 
+da Sejladsen oph&#xF8;rte.
+</danish_manuscript>
+  <english_manuscript>The old ones told the old legend that the church is built to be a gunpowder tower. It was probably a watchtower against pirates, and later stopped once sailing there ended.</english_manuscript>
+  <danish_publication>Det er fortalt som et gammelt sagn, at Torsager kirket&#xE5;rn oprindelig har v&#xE6;ret brugt til krudtkammer. Sandsynligvis har det v&#xE6;ret et vagtt&#xE5;rn imod s&#xF8;r&#xF8;vere, og da sejladsen oph&#xF8;rte, idet den gamle fjordarm groede til, fik t&#xE5;rnet en anden bestemmelse.</danish_publication>
+  <english_publication>It is told as an old legend that Torsager church tower was originally used as a gunpowder tower.  It was probably a watchtower against pirates, and later, once sailing there ended because the fjord arm filled in, the tower was put to another use.</english_publication>
+  <keywords>
+    <keyword id="46" frequency="1" keyword="arms">arms</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="705" frequency="1" keyword="legend">legend</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1060" frequency="1" keyword="sailing">sailing</keyword>
+    <keyword id="1274" frequency="3" keyword="tower">tower</keyword>
+  </keywords>
+  <etk_index id="12">
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

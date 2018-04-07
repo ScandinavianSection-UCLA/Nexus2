@@ -1,0 +1,46 @@
+<informant><person_id>483</person_id>
+  <core_informant/>
+  <full_name>Ane Katrine Nielsdatter</full_name>
+  <last_name>Nielsdatter</last_name>
+  <first_name>Ane Katrine</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>463</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>483</informant_id>
+      <publication_info>DS_I_832</publication_info>
+      <full_name>483 - 0.00 - DS_I_832</full_name>
+      <url>data/stories/463.dfl</url>
+      <place_recorded><id>776</id>Fjellerup</place_recorded>
+      <places_mentioned>
+        <place><id>999</id>
+          <name>Skiffard</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>776</place_id>
+      <name>Fjellerup</name>
+      <display_name>Fjellerup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>999</place_id>
+      <name>Skiffard</name>
+      <display_name>Skiffard (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

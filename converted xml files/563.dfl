@@ -1,0 +1,88 @@
+<story><story_id>563</story_id>
+  <publication_info>DS_II_H_428</publication_info>
+  <full_name>104 - 0.00 - DS_II_H_428</full_name>
+  <informant_id>104</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>190</place_id>
+      <name>Gjedved</name>
+      <display_name>Gjedved (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1022</place_id>
+      <name>Bjarlev</name>
+      <display_name>Bjarlev (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>235</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_H_436</publication_info>
+      <full_name>235 - 1.16 - DS_II_H_436</full_name>
+      <url>data/stories/235.dfl</url>
+    </story>
+    <story><story_id>830</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_V_129</publication_info>
+      <full_name>69 - 0.00 - DS_V_129</full_name>
+      <url>data/stories/830.dfl</url>
+    </story>
+    <story><story_id>686</story_id>
+      <informant_id>475</informant_id>
+      <publication_info>DS_II_H_484</publication_info>
+      <full_name>475 - 0.00 - DS_II_H_484</full_name>
+      <url>data/stories/686.dfl</url>
+    </story>
+    <story><story_id>544</story_id>
+      <informant_id>397</informant_id>
+      <publication_info>DS_II_H_430</publication_info>
+      <full_name>397 - 0.00 - DS_II_H_430</full_name>
+      <url>data/stories/544.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Lille Hanne V&#230;vers i Bjarslev var kokkekone ved en begravelse. Det var et barn p&#229; en 4, 6 &#229;r, der var d&#248;d. Hun blev der jo natten over, og om natten, da liget var begravet, m&#230;rkede hun noget og sagde om morgenen: "Der kommer snart et barn herfra igjen," hun havde h&#248;rt kj&#248;ren om i g&#229;rden, ligesom da liget blev f&#248;rt hen dagen f&#246;r. S&#229; d&#248;de ogs&#229; et barn mere en fjorten dage efter. Det var ikke sygt uden en enlig nat.</danish_publication>
+  <english_publication>Little Hanne V&#230;vers from Bjarselv was the kitchen helper at a funeral. It was a four or six year old child who had died. She stayed the night, and during the night, after the body had been buried, she felt something and said the next morning, "A child is going to leave here soon again." She'd heard driving in the courtyard, just like when the body was driven away the day before. A child died fourteen days later there, too. It wasn't sick except for a single night.</english_publication>
+  <keywords>
+    <keyword><id>118</id><frequency>2</frequency><keyword>body</keyword>body</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>219</id><frequency>3</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>272</id><frequency>1</frequency><keyword>courtyard</keyword>courtyard</keyword>
+    <keyword><id>306</id><frequency>2</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>317</id><frequency>2</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>450</id><frequency>1</frequency><keyword>funeral</keyword>funeral</keyword>
+    <keyword><id>495</id><frequency>1</frequency><keyword>hanne_v&#230;vers</keyword>Hanne V&#230;vers</keyword>
+    <keyword><id>631</id><frequency>1</frequency><keyword>kitchen</keyword>kitchen</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>848</id><frequency>3</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1111</id><frequency>1</frequency><keyword>sickness</keyword>sickness</keyword>
+    <keyword><id>1370</id><frequency>1</frequency><keyword>year</keyword>year</keyword>
+  </keywords>
+  <etk_index><id>9</id>
+    <heading_danish>D&#248;dsvarsler</heading_danish>
+    <heading_english>Death portents</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>5</id><display_name>People: Children</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>109</id><display_name>Time, Season, Weather: Morning</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<story story_id="703">
+  <publication_info>DS_II_B_211</publication_info>
+  <full_name>413 - 0.00 - DS_II_B_211</full_name>
+  <informant_id>413</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Marie</informant_first_name>
+  <informant_full_name>Marie Johansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>754</place_id>
+      <name>B&#xF8;ffelkobbel</name>
+      <display_name>B&#xF8;ffelkobbel (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>130</place_id>
+      <name>Dybb&#xF8;l</name>
+      <display_name>Dybb&#xF8;l (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>26</place_id>
+      <name>Als</name>
+      <display_name>Als (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="182">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_B_212</publication_info>
+      <full_name>241 - 4.11 - DSnr_II_B_212</full_name>
+      <url>data/stories/182.dfl</url>
+    </story>
+    <story story_id="737">
+      <informant_id>358</informant_id>
+      <publication_info>DS_II_B_188</publication_info>
+      <full_name>358 - 0.00 - DS_II_B_188</full_name>
+      <url>data/stories/737.dfl</url>
+    </story>
+    <story story_id="514">
+      <informant_id>429</informant_id>
+      <publication_info>DS_II_B_185</publication_info>
+      <full_name>429 - 0.00 - DS_II_B_185</full_name>
+      <url>data/stories/514.dfl</url>
+    </story>
+    <story story_id="518">
+      <informant_id>388</informant_id>
+      <publication_info>DS_II_B_183</publication_info>
+      <full_name>388 - 0.00 - DS_II_B_183</full_name>
+      <url>data/stories/518.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der boede en g&#xE5;rdmand i Dybb&#xF8;l, som hver aften plejede at s&#xE6;tte et fad gr&#xF8;d med sm&#xF6;r i ud p&#xE5; kv&#xE6;rnen til en lille nisse, som havde sit ophold der p&#xE5; g&#xE5;rden. En aften havde pigen sat sm&#xF6;rret underst og gr&#xF8;den ovenp&#xE5;...... Ikke andet at gj&#xF8;re, end at han m&#xE5;tte se at finde en ko, som var helt mage til den, han havde sl&#xE5;et ihjel. Men den var ikke s&#xE5; nem at finde, og han fandt f&#xF8;rst s&#xE5;dan &#xE9;n langt oppe p&#xE5; Als. Det lykkedes alligevel for ham at f&#xE5; alt bragt i orden til n&#xE6;ste morgen. Da pigen nu skulde vande k&#xF8;erne, kunde denne ikke finde sin b&#xE5;s. Hun blev derover vred og slog koen. Da kom lille nis og sagde: "Du m&#xE5; ikke sl&#xE5; den, for den er ikke van," og derp&#xE5; m&#xE5;tte han fort&#xE6;lle pigen det hele.</danish_publication>
+  <english_publication>There was a farmer who lived in Dybb&#xF8;l, who every evening would leave a bowl of porridge out on the mill stone for a little nisse who lived there at the farm. One evening, the girl had put the porridge on top and the butter on the bottom... Nothing else to do than to find a cow that was exactly like the one he'd killed. But it wasn't that easy to find one, and he first found one way up in Als. Nonetheless, he managed to have everything arranged by the next morning. When the girl was to water the cows, the cow couldn't find its stall. She got mad about that and hit it. Then the little nis came and said, "You mustn't hit it, because it isn't used to this," and with that he had to tell the girl everything.</english_publication>
+  <keywords>
+    <keyword id="128" frequency="1" keyword="bowl">bowl</keyword>
+    <keyword id="163" frequency="1" keyword="butter">butter</keyword>
+    <keyword id="274" frequency="3" keyword="cow">cow</keyword>
+    <keyword id="386" frequency="2" keyword="evening">evening</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="467" frequency="3" keyword="girl">girl</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="783" frequency="1" keyword="mill">mill</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="855" frequency="1" keyword="nis">Nis</keyword>
+    <keyword id="857" frequency="1" keyword="nisse">nisse</keyword>
+    <keyword id="977" frequency="2" keyword="porridge">porridge</keyword>
+    <keyword id="1186" frequency="1" keyword="stall">stall</keyword>
+    <keyword id="1320" frequency="1" keyword="water">water</keyword>
+  </keywords>
+  <etk_index id="3">
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="65" display_name="Supernatural Beings: Nisse"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="109" display_name="Time, Season, Weather: Morning"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

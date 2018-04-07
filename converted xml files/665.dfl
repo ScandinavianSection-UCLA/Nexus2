@@ -1,0 +1,78 @@
+<story><story_id>665</story_id>
+  <publication_info>DS_IV_1608</publication_info>
+  <full_name>492 - 0.00 - DS_IV_1608</full_name>
+  <informant_id>492</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Lars</informant_first_name>
+  <informant_full_name>Lars Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>910</place_id>
+      <name>Vinkel</name>
+      <display_name>Vinkel (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>160</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1592</publication_info>
+      <full_name>241 - 2.10 - DS_IV_1592</full_name>
+      <url>data/stories/160.dfl</url>
+    </story>
+    <story><story_id>699</story_id>
+      <informant_id>523</informant_id>
+      <publication_info>DS_IV_1466</publication_info>
+      <full_name>523 - 0.00 - DS_IV_1466</full_name>
+      <url>data/stories/699.dfl</url>
+    </story>
+    <story><story_id>154</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1465</publication_info>
+      <full_name>241 - 2.04 - DS_IV_1465</full_name>
+      <url>data/stories/154.dfl</url>
+    </story>
+    <story><story_id>501</story_id>
+      <informant_id>508</informant_id>
+      <publication_info>DS_IV_1467</publication_info>
+      <full_name>508 - 0.00 - DS_IV_1467</full_name>
+      <url>data/stories/501.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>N&#229;r tyve br&#230;kkede ind om natten, s&#229; havde de en tyvefinger. Den tog de af en tyv i galgen, og den kunde de t&#230;nde i deres hals, n&#229;r de r&#230;kkede den derind. S&#229; kunde den lyse ligesom et lys, og hvor den stod og br&#230;ndte, der kunde folkene ikke v&#229;gne. De gik hen og s&#229; p&#229; dem og sagde: "Sover du, s&#229; skal du f&#229; stunder at sove, men sover du ikke, s&#229; skal du ske en ulykke." S&#229;dan skete det et sted, at en tyv br&#230;kkede ind og kom og sagde det. Manden sov ikke, men blev s&#229; r&#230;d, at han forestillede at sove og blev liggende og s&#229; p&#229;, at de tog hans penge. Tyven havde ogs&#229; en stor lang kniv liggende p&#229; bordet.</danish_publication>
+  <english_publication>When thieves broke in at night, they had a &#8220;thief finger.&#8221; They&#8217;d take it from a thief in the gallows, and they could light it in their throats, when they put it down there. Then it would light up just like a candle and wherever it stood and burned, people couldn&#8217;t wake up there. They went over to them and said: &#8220;If you&#8217;re sleeping, then you&#8217;ll have time to sleep, but if you&#8217;re not asleep, then something bad will happen to you.&#8221; This happened one place, a thief broke in and came and said that. The man wasn&#8217;t sleeping, but he got so scared that he pretended to be asleep and lay and watched as they took his money. The thief also had a big long knife lying on the table.</english_publication>
+  <keywords>
+    <keyword><id>51</id><frequency>1</frequency><keyword>asleep</keyword>asleep</keyword>
+    <keyword><id>171</id><frequency>1</frequency><keyword>candle</keyword>candle</keyword>
+    <keyword><id>412</id><frequency>1</frequency><keyword>finger</keyword>finger</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>453</id><frequency>1</frequency><keyword>gallows</keyword>gallows</keyword>
+    <keyword><id>638</id><frequency>1</frequency><keyword>knife</keyword>knife</keyword>
+    <keyword><id>793</id><frequency>1</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1142</id><frequency>4</frequency><keyword>sleep</keyword>sleep</keyword>
+    <keyword><id>1238</id><frequency>1</frequency><keyword>table</keyword>table</keyword>
+    <keyword><id>1250</id><frequency>5</frequency><keyword>thief</keyword>thief</keyword>
+    <keyword><id>1259</id><frequency>1</frequency><keyword>throat</keyword>throat</keyword>
+  </keywords>
+  <etk_index><id>20</id>
+    <heading_danish>R&#248;vere, drabsm&#230;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>17</id><display_name>People: Robber / Thief</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

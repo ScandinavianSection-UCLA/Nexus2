@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<story story_id="415">
+  <publication_info>DS_III_340</publication_info>
+  <full_name>123 - 3.12 - DS_III_340</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.12</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>615</place_id>
+      <name>Svejstrup</name>
+      <display_name>Svejstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="428">
+      <informant_id>123</informant_id>
+      <publication_info>GKV</publication_info>
+      <full_name>123 - 4.00 - GKV</full_name>
+      <url>data/stories/428.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3800a</fielddiary_page_start>
+  <fielddiary_page_end>3800b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Peder continues with descriptions of unusual finds in the local landscape. The description of a stone altar, and his story about its presumed use, allows him to emerge as an expert about local history. The suggestion is that this particular stone setting was a remnant of the middle ages. The earliest Nordic history was a topic that had gained great popularity in Denmark during the nineteenth century in large part due to the work of the theologian NFS Grundtvig and the folk high school movement.</annotation>
+  <danish_manuscript>Paa Svejstrup Mark fortalte min Plejefor&#xE6;ldre
+var et Offersted. Der var to Sten ved Siderne
+den bager Sten gik op med noget som et
+Bagslag og selve Kanten af det var helt hvas
+og s. var der to Liggere over Sidestenen med
+en Aabning imellem, s. naar de gjorde Ild under
+den, s. kunde den Ild br&#xE6;nde op imellem
+Stenene og br&#xE6;nde Msket der var sp&#xE6;ndt
+paa og Bagslavet var til at knuse Rygge
+
+3800B
+paa den med. Fra hans Drengetid af kaldtes 
+Stenen St&#xF8;en (st&#xE6;jet): St&#xE6;vnestedet. Se der 
+st&#xF8;ent de hinanden til det gjorde Folkene,
+naar noget skulde forhandles, de skulde v&#xE6;re
+f&#xE6;lles om. Marken den stod paa var lige
+saa flad som dh. Stuegulv.
+</danish_manuscript>
+  <english_manuscript>My foster father said that there was a spot where they made sacrifices on Svejstrup mark (field). There were two stones on the sides, the stone in back went up with something like a backrest and even the edge of it was very sharp, and then there were two stones on top of the side stones and there was an opening between them, so when they made a fire underneath them, the fire could burn up in between the stones and burn the person who was tied up on top, and the backrest was there to crush his back. Since his boyhood the stone was called St&#xF8;en (st&#xE6;jet): the meeting place. They used to summon each other to meet there, people did, when something that they had to decide together had to be worked out. The field that they stood on was just as flat as the floor in this room.</english_manuscript>
+  <danish_publication>Min plejefader fortalte, at der p&#xE5; Svejstrup mark var et offersted p&#xE5; den flade mark, og fra hans drengetid af kaldtes stenene St&#xF8;&#xF8;nsst&#xE6;jet (st&#xE6;vnestedet). Se der st&#xF8;ent de hinanden til, det gjorde folkene, n&#xE5;r noget skulde forhandles, de skulde v&#xE6;re f&#xE6;lles om. Der var to sten ved siderne, den bager sten gik op med noget som et bagslag, og selve kanten af det var helt hvas. S&#xE5; var der to liggere over sidestenene med en &#xE5;bning imellem, og n&#xE5;r de gjorde ild under den, s&#xE5; kunde den ild br&#xE6;nde op imellem stenene og br&#xE6;nde mennesket, der var sp&#xE6;ndt p&#xE5;, og bagslaget var til at knuse ryggen p&#xE5; ham med.</danish_publication>
+  <english_publication>My foster father said that there was an area for sacrifices on the flat part of the field on Svejstrup field, and from the time of his boyhood the stones were called St&#xF8;&#xF8;nst&#xE6;jet (the meeting place). People used to meet there when they had something that they had to decide together. There were two stones on the sides, the stone in back went up with something like a backrest, and even the edge of it was very sharp. Then there were two on top of the side stones and there was an opening between them, and when they made a fire underneath them, the fire could burn up in between the stones and burn the person who was tied up on top, and the backrest was there to crush his back.</english_publication>
+  <keywords>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="410" frequency="2" keyword="field">field</keyword>
+    <keyword id="413" frequency="4" keyword="fire">fire</keyword>
+    <keyword id="1195" frequency="5" keyword="stone">stone</keyword>
+    <keyword id="1261" frequency="1" keyword="tie">tie</keyword>
+  </keywords>
+  <etk_index id="11">
+    <heading_danish>Kj&#xE6;mper og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Heroes and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

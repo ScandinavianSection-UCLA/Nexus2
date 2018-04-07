@@ -1,0 +1,62 @@
+<informant><person_id>108</person_id>
+  <core_informant/>
+  <full_name>Kristen Peder Jensen</full_name>
+  <last_name>Jensen</last_name>
+  <first_name>Kristen Peder</first_name>
+  <gender>m</gender>
+  <birth_date>0000-00-00</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>634</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>108</informant_id>
+      <publication_info>DS_IV_1591</publication_info>
+      <full_name>108 - 0.00 - DS_IV_1591</full_name>
+      <url>data/stories/634.dfl</url>
+      <place_recorded><id>374</id>Linderumg&#229;rds mark</place_recorded>
+      <places_mentioned>
+        <place><id>353</id>
+          <name>Kratg&#229;rden</name>
+        </place>
+        <place><id>373</id>
+          <name>Linderumg&#229;rd</name>
+        </place>
+        <place><id>673</id>
+          <name>Ugilt</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>374</place_id>
+      <name>Linderumg&#229;rds mark</name>
+      <display_name>Linderumg&#229;rds mark (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>373</place_id>
+      <name>Linderumg&#229;rd</name>
+      <display_name>Linderumg&#229;rd (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>353</place_id>
+      <name>Kratg&#229;rden</name>
+      <display_name>Kratg&#229;rden (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

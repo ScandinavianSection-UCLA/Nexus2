@@ -1,0 +1,60 @@
+<story><story_id>679</story_id>
+  <publication_info>DS_IV_489</publication_info>
+  <full_name>473 - 0.00 - DS_IV_489</full_name>
+  <informant_id>473</informant_id>
+  <informant_last_name>Melbye</informant_last_name>
+  <informant_first_name>M.</informant_first_name>
+  <informant_full_name>Pastor M. Melbye</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>746</place_id>
+      <name>Asperup</name>
+      <display_name>Asperup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>61</place_id>
+      <name>Blanke</name>
+      <display_name>Blanke (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>473</place_id>
+      <name>R&#229;rup</name>
+      <display_name>R&#229;rup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>342</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_313</publication_info>
+      <full_name>90 - 2.10 - Lege_0_313</full_name>
+      <url>data/stories/342.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der boede en ridder Ranke i R&#229;rup, som red mellem dette og Blanke, da han havde ejendomme p&#229; begge steder, og der er endnu en plet, som efter ham kaldes Rankeh&#248;j. </danish_publication>
+  <english_publication>There was a knight named Ranke in R&#229;rup who rode between there and Blanke, as he had properties in both places. There's still a spot there that's named Rankeh&#248;j after him.</english_publication>
+  <keywords>
+    <keyword><id>639</id><frequency>1</frequency><keyword>knight</keyword>knight</keyword>
+    <keyword><id>822</id><frequency>2</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>1030</id><frequency>1</frequency><keyword>riding</keyword>riding</keyword>
+  </keywords>
+  <etk_index><id>17</id>
+    <heading_danish>Herrem&#230;nd, fruer, jomfruer</heading_danish>
+    <heading_english>Manor lords, ladies and misstresses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

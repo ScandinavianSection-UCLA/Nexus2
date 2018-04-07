@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<story story_id="764">
+  <publication_info>DS_II_C_104</publication_info>
+  <full_name>112 - 0.00 - DS_II_C_104</full_name>
+  <informant_id>112</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Niels Kristian</informant_first_name>
+  <informant_full_name>Niels Kristian (Pilmanden) Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>170</place_id>
+      <name>Fredbj&#xE6;rg</name>
+      <display_name>Fredbj&#xE6;rg (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="404">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_C_120</publication_info>
+      <full_name>123 - 3.01 - DS_II_C_120</full_name>
+      <url>data/stories/404.dfl</url>
+    </story>
+    <story story_id="715">
+      <informant_id>401</informant_id>
+      <publication_info>DS_II_C_112</publication_info>
+      <full_name>401 - 0.00 - DS_II_C_112</full_name>
+      <url>data/stories/715.dfl</url>
+    </story>
+    <story story_id="865">
+      <informant_id/>
+      <publication_info>DS_II_C_106</publication_info>
+      <full_name>0 - 0.00 - DS_II_C_106</full_name>
+      <url>data/stories/865.dfl</url>
+    </story>
+    <story story_id="55">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_110</publication_info>
+      <full_name>150 - 2.08 - DS_II_C_110</full_name>
+      <url>data/stories/55.dfl</url>
+    </story>
+    <story story_id="768">
+      <informant_id>555</informant_id>
+      <publication_info>DS_II_C_118</publication_info>
+      <full_name>555 - 0.00 - DS_II_C_118</full_name>
+      <url>data/stories/768.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En Natravn skal v&#xE6;re &#xE9;n, som er begravet i et trebundet skjel og har gjort uret. Der er visse &#xE5;rer i jorden, de skrider i, farenstid (f&#xF6;r end) de kommer ud. N&#xE5;r de kommer op, farer de jo omkring. En pige havde en gang v&#xE6;ret ude at malke til kv&#xE6;lds, og da h&#xF8;rte hun ogs&#xE5; Natravnen og skj&#xE6;ldte den noget ud. Men s&#xE5; kom den efter hende, og hun skyndte sig at springe ind og f&#xE5; d&#xF6;ren lukket. Men om morgenen var d&#xF6;ren helt blodig.</danish_publication>
+  <english_publication>A night raven is supposed to be someone who is buried at a T-shaped field marker and who has done something wrong. There are certain paths in the ground they follow before they come out. A girl had once been out doing the evening milking, and then she heard the night raven too, and she yelled at it. But then it came after her, and she hurried inside and locked the door. But the next morning, the door was completely covered with blood.</english_publication>
+  <keywords>
+    <keyword id="111" frequency="1" keyword="blood">blood</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="344" frequency="2" keyword="door">door</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="722" frequency="1" keyword="lock">lock</keyword>
+    <keyword id="782" frequency="1" keyword="milk">milk</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="849" frequency="2" keyword="night_raven">night raven</keyword>
+  </keywords>
+  <etk_index id="4">
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="64" display_name="Supernatural Beings: Nightraven"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="109" display_name="Time, Season, Weather: Morning"/>
+    <tango_index id="111" display_name="Time, Season, Weather: Evening"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

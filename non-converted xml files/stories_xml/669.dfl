@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<story story_id="669">
+  <publication_info>DS_IV_1447</publication_info>
+  <full_name>360 - 0.00 - DS_IV_1447</full_name>
+  <informant_id>360</informant_id>
+  <informant_last_name>Eriksen</informant_last_name>
+  <informant_first_name>Lars Peter</informant_first_name>
+  <informant_full_name>Lars Peter Eriksen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>246</place_id>
+      <name>Hassing</name>
+      <display_name>Hassing (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>50</place_id>
+      <name>Bedsted</name>
+      <display_name>Bedsted (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="151">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1486</publication_info>
+      <full_name>241 - 2.01 - DS_IV_1486</full_name>
+      <url>data/stories/151.dfl</url>
+    </story>
+    <story story_id="841">
+      <informant_id>437</informant_id>
+      <publication_info>DS_IV_1451</publication_info>
+      <full_name>437 - 0.00 - DS_IV_1451</full_name>
+      <url>data/stories/841.dfl</url>
+    </story>
+    <story story_id="154">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1465</publication_info>
+      <full_name>241 - 2.04 - DS_IV_1465</full_name>
+      <url>data/stories/154.dfl</url>
+    </story>
+    <story story_id="152">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1485</publication_info>
+      <full_name>241 - 2.02 - DS_IV_1485</full_name>
+      <url>data/stories/152.dfl</url>
+    </story>
+    <story story_id="153">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1488</publication_info>
+      <full_name>241 - 2.03 - DS_IV_1488</full_name>
+      <url>data/stories/153.dfl</url>
+    </story>
+    <story story_id="501">
+      <informant_id>508</informant_id>
+      <publication_info>DS_IV_1467</publication_info>
+      <full_name>508 - 0.00 - DS_IV_1467</full_name>
+      <url>data/stories/501.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der har v&#xE6;ret r&#xF6;vere i Bedsted hede, og de havde en r&#xF6;verkule med strikker over vejen. Der er endnu en gr&#xF6;n plet, der kaldes R&#xF6;verkulen.</danish_publication>
+  <english_publication>There were robbers in Bedsted heath, and they had a robber's den with ropes across the road. There's still a green spot out there called the Robbers' Den.</english_publication>
+  <keywords>
+    <keyword id="322" frequency="1" keyword="den">den</keyword>
+    <keyword id="517" frequency="1" keyword="heath">heath</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1037" frequency="2" keyword="robber">robber</keyword>
+    <keyword id="1038" frequency="1" keyword="robbers_den">robbers den</keyword>
+    <keyword id="1044" frequency="1" keyword="rope">rope</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="32" display_name="Places: Heath"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

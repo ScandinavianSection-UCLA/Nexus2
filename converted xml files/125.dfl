@@ -1,0 +1,78 @@
+<story><story_id>125</story_id>
+  <publication_info>JAH_V_541</publication_info>
+  <full_name>150 - 4.14 - JAH_V_541</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.14</order_told>
+  <fieldtrip><id>5</id>June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>124</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_540</publication_info>
+      <full_name>150 - 4.13 - JAH_V_540</full_name>
+      <url>data/stories/124.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4593a</fielddiary_page_start>
+  <fielddiary_page_end>4593b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens continues with his stories about ungrateful beggars, in short emphasizing the sentiments expressed in his previous story (BJK 4.13).</annotation>
+  <danish_manuscript>Et andet Sted i Ersted kom der en Stodder og
+
+4593B
+tiggede. S. gav Konen ham et Par &#198;g og s. puttede
+h. dem i hans Pose og s. hvor min Pose dog
+blev tyk af disse to &#198;g. Manden lavede
+Tr&#230;sko og idet h. nu gik og rendte Ryggen til
+tog Manden den Tr&#230;skoklump h. stod og hug
+paa og hug ham over Nakken, te h flyver
+paa N&#230;se og Mund ud af D&#248;ren.</danish_manuscript>
+  <english_manuscript>At another place in Ersted a vagabond came and begged. The farmwife gave him a couple of eggs and he put them in his bag and said, "Wow, my bag really got fat because of these two eggs." The husband was making clogs and when the beggar turned his back on him, he took the hunk of clog that he was chopping and smacked him on the back of the neck with it so that he flew flat on his face out the door.</english_manuscript>
+  <danish_publication>Et andet sted i Ersted kom der en stodder og tiggede. S&#229; gav konen ham et par &#230;g, og dem puttede han i hans pose med de ord: "Hvor min pose dog blev tyk af disse to &#230;g". Manden lavede tr&#230;sko, og idet nu stodderen vilde g&#229; og vendte ryggen til, tog manden den tr&#230;skoklump, han stod og hug p&#229;, og slog ham over nakken med, te han fl&#246;j p&#229; n&#230;se og mund ud af d&#246;ren.</danish_publication>
+  <english_publication>At another place in Ersted a vagabond came and begged. Then the farmwife gave him a couple of eggs and he put them in his bag with these words, &#8220;Wow, my bag really got fat because of those two eggs.&#8221; The husband was making clogs and when the beggar turned around and was about to go, he took the hunk of clog that he was chopping and smacked him on the back of the neck with it so that he flew flat on his face out the door.</english_publication>
+  <keywords>
+    <keyword><id>63</id><frequency>2</frequency><keyword>bags</keyword>bags</keyword>
+    <keyword><id>86</id><frequency>2</frequency><keyword>beggar</keyword>beggar</keyword>
+    <keyword><id>234</id><frequency>2</frequency><keyword>clogs</keyword>clogs</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>372</id><frequency>2</frequency><keyword>egg</keyword>egg</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>552</id><frequency>1</frequency><keyword>husband</keyword>husband</keyword>
+    <keyword><id>825</id><frequency>1</frequency><keyword>neck</keyword>neck</keyword>
+    <keyword><id>1292</id><frequency>1</frequency><keyword>vagabond</keyword>vagabond</keyword>
+    <keyword><id>1343</id><frequency>1</frequency><keyword>wife</keyword>wife</keyword>
+  </keywords>
+  <etk_index><id>35</id>
+    <heading_danish>Livet uden d&#248;re</heading_danish>
+    <heading_english>Life outdoors</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>3</id><display_name>People: Beggar / Poor person</display_name></tango_index>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>8</id><display_name>People: Farmwife</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>49</id><display_name>Tools, Items and Conveyances: Food and Drink</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

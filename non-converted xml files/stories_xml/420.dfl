@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<story story_id="420">
+  <publication_info>DS_III_1851</publication_info>
+  <full_name>123 - 3.17 - DS_III_1851</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.17</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>459</place_id>
+      <name>&#xD8;sterg&#xE5;rd</name>
+      <display_name>&#xD8;sterg&#xE5;rd (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>615</place_id>
+      <name>Svejstrup</name>
+      <display_name>Svejstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="202">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_996</publication_info>
+      <full_name>241 - 4.30 - DSnr_IV_996</full_name>
+      <url>data/stories/202.dfl</url>
+    </story>
+    <story story_id="152">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1485</publication_info>
+      <full_name>241 - 2.02 - DS_IV_1485</full_name>
+      <url>data/stories/152.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3801a (2)</fielddiary_page_start>
+  <fielddiary_page_end>3801a (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The hollows to which Peder refers also appear in stories about robbers (JPP 2.02 and 2.20). Peder's meta-narrative comment about storytelling implies that stories about the hollow were once well known. At the very least, the comment shows that he assumes that there were stories attached to the location, given its noteworthy name. "Who was this count?" one is inclined to ask.</annotation>
+  <danish_manuscript>Der er et Hul under de Svejstrup Bakker der
+kaldes Grevens Hul, men der fort&#xE6;lles ikke
+noget om det nu. I &#xD8;stergaards Skov er
+noget der kaldes Rask Halds Kammer, det
+er en bitte Sloge.
+</danish_manuscript>
+  <english_manuscript>There's a hollow (or watering hole) at the foot of the Svejstrup hills, called the Count's hollow (hole), but they don't tell any stories about it now. In &#xD8;sterg&#xE5;rd woods, there's something they call Rask Hald's room, it's a small hollow (sloge)</english_manuscript>
+  <danish_publication>Der er et hul under de Svejstrup bakker, der kaldes Grevens hul, men der fort&#xE6;lles ikke noget om det nu. I &#xD6;ster-g&#xE5;rd skov er noget, der kaldes Rask Halds kammer, det er en bitte sloge.</danish_publication>
+  <english_publication>There&#x2019;s a hollow below the Svejstrup hills, called the Count&#x2019;s hollow, but they don&#x2019;t tell any stories about it now. In &#xD8;sterg&#xE5;rd woods, there&#x2019;s something they call Rask Hald&#x2019;s room, it&#x2019;s a small hollow.</english_publication>
+  <keywords>
+    <keyword id="266" frequency="1" keyword="count">count</keyword>
+    <keyword id="530" frequency="1" keyword="hill">hill</keyword>
+    <keyword id="535" frequency="3" keyword="hollow">hollow</keyword>
+    <keyword id="1200" frequency="1" keyword="story">story</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="14">
+    <heading_danish>Forskjellige stedsagn</heading_danish>
+    <heading_english>Diverse place legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

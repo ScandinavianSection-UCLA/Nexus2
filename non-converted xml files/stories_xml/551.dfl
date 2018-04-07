@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<story story_id="551">
+  <publication_info>DS_II_F_104</publication_info>
+  <full_name>553 - 0.00 - DS_II_F_104</full_name>
+  <informant_id>553</informant_id>
+  <informant_last_name>West</informant_last_name>
+  <informant_first_name>J. L.</informant_first_name>
+  <informant_full_name>H&#xF8;jskoleforstander J. L. West</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>913</place_id>
+      <name>Voldby</name>
+      <display_name>Voldby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1019</place_id>
+      <name>&#xC5;ker</name>
+      <display_name>&#xC5;ker (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="606">
+      <informant_id>546</informant_id>
+      <publication_info>DS_II_F_106</publication_info>
+      <full_name>546 - 0.00 - DS_II_F_106</full_name>
+      <url>data/stories/606.dfl</url>
+    </story>
+    <story story_id="856">
+      <informant_id>328</informant_id>
+      <publication_info>DS_II_F_65</publication_info>
+      <full_name>328 - 0.00 - DS_II_F_65</full_name>
+      <url>data/stories/856.dfl</url>
+    </story>
+    <story story_id="655">
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_F_54</publication_info>
+      <full_name>539 - 0.00 - DS_II_F_54</full_name>
+      <url>data/stories/655.dfl</url>
+    </story>
+    <story story_id="866">
+      <informant_id/>
+      <publication_info>DS_II_F_101</publication_info>
+      <full_name>0 - 0.00 - DS_II_F_101</full_name>
+      <url>data/stories/866.dfl</url>
+    </story>
+    <story story_id="407">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_F_78</publication_info>
+      <full_name>123 - 3.04 - DS_II_F_78</full_name>
+      <url>data/stories/407.dfl</url>
+    </story>
+    <story story_id="58">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_447</publication_info>
+      <full_name>150 - 2.11 - DS_VII_447</full_name>
+      <url>data/stories/58.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gang kom en staldkarl i &#xC5;ker ud i stalden, og der st&#xE5;r en hoppe og springer og er meget urolig. Han st&#xE5;r og ser p&#xE5; den lidt, kommer s&#xE5; i tanker om at g&#xE5; op til den og f&#xF8;ler i manken. Da er der ved at danne sig en marelok. Han f&#xF8;ler i den og m&#xE6;rker noget ligesom en stoppen&#xE5;l, men den var s&#xE5; bl&#xF8;d, at han kunde b&#xF6;je den. S&#xE5; trak han den ud og gik tilbage i stalden med den. Jo, det var ganske rigtig en stoppen&#xE5;l med &#xF6;je, og han kunde alligevel b&#xF6;je den helt om. Han stak s&#xE5; spidsen ind i &#xF6;jet og kastede den i den tilstand ned i gr&#xE6;vningen. Om morgenen, da han kom ud i stalden, ser han til sin store forbavselse, at den n&#xE6;rmeste nabokone ligger og spj&#xE6;tter der i gr&#xE6;vningen med benene op over nakken og kunde ikke komme der fra.</danish_publication>
+  <english_publication>One time a stablehand in &#xC5;ker went out into the stable and there&#x2019;s a mare and it&#x2019;s skittish and very ill at ease. He stands and looks at it a bit, and he decides to go up to it and feel its mane. And he feels something like the beginning of a mare lock. He feels about some more and notices something just like a darning needle, but it was so soft that he could bend it. Then he pulled it out and went back into the stable with it. Yes, it was a darning needle with an eyelet sure enough, but he could bend it completely over itself. He put the point in through the eyelet and tossed it like that down into the dung heap. The next morning when he came out into the stable, he sees to his great surprise that the next door neighbor&#x2019;s wife is lying and kicking about down in the dung heap with her legs up behind her head and she couldn&#x2019;t get out of there.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="303" frequency="2" keyword="darning">darning</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="364" frequency="2" keyword="dung">dung</keyword>
+    <keyword id="555" frequency="1" keyword="ill">ill</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="722" frequency="1" keyword="lock">lock</keyword>
+    <keyword id="744" frequency="2" keyword="mare">mare</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="827" frequency="2" keyword="needle">needle</keyword>
+    <keyword id="828" frequency="1" keyword="neighbor">neighbor</keyword>
+    <keyword id="1180" frequency="3" keyword="stable">stable</keyword>
+    <keyword id="1182" frequency="1" keyword="stable_hand">stable hand</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="7">
+    <heading_danish>Varulve og marer</heading_danish>
+    <heading_english>Werewolves and nightmares</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="61" display_name="Supernatural Beings: Mare"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

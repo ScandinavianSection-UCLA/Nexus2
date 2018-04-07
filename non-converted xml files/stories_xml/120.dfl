@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<story story_id="120">
+  <publication_info>DS_VII_887</publication_info>
+  <full_name>150 - 4.09 - DS_VII_887</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.09</order_told>
+  <fieldtrip id="5">June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>602</place_id>
+      <name>St&#xF8;vring</name>
+      <display_name>St&#xF8;vring (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="121">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_410</publication_info>
+      <full_name>150 - 4.10 - Unpub_BJK_410</full_name>
+      <url>data/stories/121.dfl</url>
+    </story>
+    <story story_id="363">
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1271</publication_info>
+      <full_name>90 - 3.09 - DS_VI_1271</full_name>
+      <url>data/stories/363.dfl</url>
+    </story>
+    <story story_id="529">
+      <informant_id>373</informant_id>
+      <publication_info>DS_IV_744</publication_info>
+      <full_name>373 - 0.00 - DS_IV_744</full_name>
+      <url>data/stories/529.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4592b (5)</fielddiary_page_start>
+  <fielddiary_page_end>4592b (5)</fielddiary_page_end>
+  <bibliographic_info>Hansen 1960.</bibliographic_info>
+  <bibliography_references>
+    <reference id="487" category="general">
+      <display_string>[Article] Tangherlini, Timothy R. 2000. "How do you know she's a witch"? : Witches, cunning folk, and competition in Denmark. Vol. 59 of &lt;i&gt;Western Folklore&lt;/i&gt; 3-4: 279-303.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The blurry line dividing cunning folk and witches is apparent in this short account. Herbs played a significant role both in the work of cunning folk and in the alleged work of witches. Iver Andersen does not appear in earlier stories told by Jens.</annotation>
+  <danish_manuscript>Da Kristian Vilhjelm kom til St&#xF8;vring at bo
+var hans Stiffader der henne for at se hvad
+Urter der groede i Haven, for h. var Hegse-
+mester. H. hed Iver Andersen, sv&#xE6;rt be-
+r&#xF8;mt ude ved Nibekant, boede her i Ersted.
+S&#xF8;nnens Hus havde der nemlig forud boet
+en Hegs i. Hvor mange Urter der saa var
+til at gj&#xF8;re skade med.</danish_manuscript>
+  <english_manuscript>When Kristen Vilhjelm came to St&#xF8;vring to live, his stepfather came over to see what herbs grew in the garden because he was a witch master. His name was Iver Andersen and he was quite famous out there near Nibe, and he lived here in Ersted. You see, a witch had lived in the son's house before. He wanted to see how many herbs there were to do harm with.</english_manuscript>
+  <danish_publication>Da Kristen Vilhjelm kom til St&#xF6;vring at bo, var hans stiffader, Iver Andersen, f&#xF8;rst der henne for at se, hvad urter der groede i haven. Der havde nemlig forud boet en heks i huset, og s&#xE5; vilde han se, hvor mange urter der var til at gj&#xF8;re skade med. Han var nemlig klog og var sv&#xE6;rt ber&#xF6;mt nede ved Nibekant som heksemester.</danish_publication>
+  <english_publication>When Kristen Vilhjelm came to St&#xF8;vring to live, his stepfather, Iver Andersen, was over there first to see what herbs grew in the garden. You see, a witch had lived in that house before and he wanted to see how many herbs there were to do harm with. He was cunning you see and was really famous down by Nibe as a witch master.</english_publication>
+  <keywords>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="456" frequency="1" keyword="garden">garden</keyword>
+    <keyword id="501" frequency="1" keyword="harm">harm</keyword>
+    <keyword id="524" frequency="2" keyword="herbs">herbs</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="567" frequency="1" keyword="iver_andersen">Iver Andersen</keyword>
+    <keyword id="671" frequency="1" keyword="kristen_vilhjelm">Kristen Vilhjelm</keyword>
+    <keyword id="1351" frequency="2" keyword="witch">witch</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

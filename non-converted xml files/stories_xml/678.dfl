@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<story story_id="678">
+  <publication_info>DS_VII_296</publication_info>
+  <full_name>496 - 0.00 - DS_VII_296</full_name>
+  <informant_id>496</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>M. C.</informant_first_name>
+  <informant_full_name>L&#xE6;rer M. C. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>750</place_id>
+      <name>B&#xE6;lum</name>
+      <display_name>B&#xE6;lum (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>542</place_id>
+      <name>Skj&#xF8;rping</name>
+      <display_name>Skj&#xF8;rping (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="131">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_292</publication_info>
+      <full_name>150 - 4.20 - DS_VII_292</full_name>
+      <url>data/stories/131.dfl</url>
+    </story>
+    <story story_id="604">
+      <informant_id>536</informant_id>
+      <publication_info>DS_VII_436</publication_info>
+      <full_name>536 - 0.00 - DS_VII_436</full_name>
+      <url>data/stories/604.dfl</url>
+    </story>
+    <story story_id="59">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_437</publication_info>
+      <full_name>150 - 2.12 - DS_VII_437</full_name>
+      <url>data/stories/59.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Skj&#xF6;rping boede en mand, som fik alt sit kv&#xE6;g forgjort af en heks, der snusede om og gjorde ulykker der p&#xE5; egnen. Han lod da en klog mand hente, som unders&#xF6;gte huset og fandt, at der p&#xE5; alle stolper var smurt heksefedt. Da han havde set dette, vidste han vel, hvad han nu havde at gj&#xF8;re. F&#xF8;rst samlede han alt heksefedtet sammen, og efter at have lukket og tilstoppet alle vinduer og d&#xF6;re. kastede han fedtet p&#xE5; ilden, men dersom heksen kunde have kommet til at se flammerne, da vilde hans umage have v&#xE6;ret spildt. Imedens alt dette gik for sig i huset, var samme heks ude i mosen for at rive h&#xF8;. Pludselig gav hun sig til at skrige og l&#xF8;be det bedste hun kunde; men da hun ikke kunde f&#xE5; flammen at se, blev hun ganske forbr&#xE6;ndt i ansigtet.</danish_publication>
+  <english_publication>There was a man who lived in Skj&#xF8;rping who had all his calves bewitched by a witch who sniffed about and made trouble there in the area. He sent for a cunning man who came and inspected the house and discovered that witch fat had been smeared on all the posts. When he'd seen that, he knew what to do. First, he got all of the witch fat together, and after he had closed and stopped up all the doors and windows, he threw the fat on the fire, but if the witch managed to see the flames, then all his efforts would have been wasted. While this was going on in the house, the same witch was out in the swamp gathering hay. All of a sudden, she began screaming and running as fast as she could; but because she couldn't see the flames, her face got terribly burned.</english_publication>
+  <keywords>
+    <keyword id="169" frequency="1" keyword="calf">calf</keyword>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="333" frequency="1" keyword="discovery">discovery</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="398" frequency="3" keyword="fat">fat</keyword>
+    <keyword id="413" frequency="4" keyword="fire">fire</keyword>
+    <keyword id="511" frequency="1" keyword="hay">hay</keyword>
+    <keyword id="548" frequency="2" keyword="house">house</keyword>
+    <keyword id="1228" frequency="1" keyword="swamp">swamp</keyword>
+    <keyword id="1346" frequency="1" keyword="window">window</keyword>
+    <keyword id="1351" frequency="5" keyword="witch">witch</keyword>
+    <keyword id="1353" frequency="1" keyword="witchcraft">witchcraft</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

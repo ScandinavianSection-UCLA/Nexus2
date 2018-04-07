@@ -1,0 +1,54 @@
+<informant><person_id>510</person_id>
+  <core_informant/>
+  <full_name>Dyrl&#230;ge Andreas Pedersen</full_name>
+  <last_name>Pedersen</last_name>
+  <first_name>Andreas</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>452</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>510</informant_id>
+      <publication_info>DS_V_42</publication_info>
+      <full_name>510 - 0.00 - DS_V_42</full_name>
+      <url>data/stories/452.dfl</url>
+      <place_recorded><id>859</id>Sams&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>339</id>
+          <name>Kolby</name>
+        </place>
+        <place><id>711</id>
+          <name>Visborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>859</place_id>
+      <name>Sams&#248;</name>
+      <display_name>Sams&#248; (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>711</place_id>
+      <name>Visborg</name>
+      <display_name>Visborg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>339</place_id>
+      <name>Kolby</name>
+      <display_name>Kolby (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

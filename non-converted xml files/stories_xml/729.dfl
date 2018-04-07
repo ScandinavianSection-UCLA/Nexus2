@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<story story_id="729">
+  <publication_info>DS_V_1501</publication_info>
+  <full_name>517 - 0.00 - DS_V_1501</full_name>
+  <informant_id>517</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>N. Kr.</informant_first_name>
+  <informant_full_name>L&#xE6;rer N. Kr. Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>786</place_id>
+      <name>Grynderup</name>
+      <display_name>Grynderup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="543">
+      <informant_id>343</informant_id>
+      <publication_info>DS_V_1507</publication_info>
+      <full_name>343 - 0.00 - DS_V_1507</full_name>
+      <url>data/stories/543.dfl</url>
+    </story>
+    <story story_id="812">
+      <informant_id>104</informant_id>
+      <publication_info>DS_V_1477</publication_info>
+      <full_name>104 - 0.00 - DS_V_1477</full_name>
+      <url>data/stories/812.dfl</url>
+    </story>
+    <story story_id="489">
+      <informant_id>551</informant_id>
+      <publication_info>DS_V_1484</publication_info>
+      <full_name>551 - 0.00 - DS_V_1484</full_name>
+      <url>data/stories/489.dfl</url>
+    </story>
+    <story story_id="234">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1430</publication_info>
+      <full_name>235 - 1.15 - DS_V_1430</full_name>
+      <url>data/stories/234.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Et steds p&#xE5; Salling i n&#xE6;rheden af et markskjel havde de vejfarende ofte h&#xF8;rt &#xE9;n r&#xE5;be: "Hvor m&#xE5; jeg s&#xE6;tte den?" men ingen turde svare ham. En aften, da en lille dreng fulgtes med sin fader over marken der i n&#xE6;rheden, og de ogs&#xE5; fik r&#xF8;sten at h&#xF8;re, bad drengen om faderens minde til at m&#xE5;tte svare, n&#xE5;r der atter blev r&#xE5;bt. Faderen skyndte sig at i rette s&#xE6;tte drengen ved at love ham en ordentlig dragt prygl, hvis han indlod sig p&#xE5; sligt, "ti", lagde han til, "ingen kan vide, om du ikke nok, hvis du svarer, kan f&#xE5; mere med den gamle gjenganger at bestille, end du sk&#xF8;tter om." Lidt efter h&#xF8;rte de atter: "Hvor m&#xE5; jeg s&#xE6;tte den?" og uden at bet&#xE6;nke sig svarede drengen: "S&#xE6;t den, hvor du st&#xE5;r!" &#x2014; "Tak," blev der svaret, og siden h&#xF8;rte man aldrig til noget. Folk der p&#xE5; egnen mente, at den, der havde r&#xE5;bt, m&#xE5;tte i levende live have flyttet et markskjel, hvorfor han ikke kunde finde ro i sin grav, f&#xF6;rend den sag var bragt i rigtighed.</danish_publication>
+  <english_publication>In a place in Salling near a field marker, travelers along the road had often heard someone cry out: &#x201C;Where can I set it down?&#x201D; but nobody dared answer him. One night, a little boy, who was accompanying his father over to the field near there, also heard the voice, and the boy asked the father permission to answer if they heard the cry again. The father hurried to correct the boy by promising him a severe beating if he tried doing something like that, &#x201C;since&#x201D; he added &#x201C;no one can know, if you answer, whether or not you&#x2019;ll end up having more to do with the revenant than you&#x2019;d want to.&#x201D; A little later they heard the cry, &#x201C;Where can I set it down?&#x201D; and without thinking the boy said: &#x201C;Set it down where you&#x2019;re standing!&#x201D; &#x201C;Thanks,&#x201D; came the answer and, after that, it was never heard again. The people in the area thought that the one who had cried out had probably moved a marker when he was alive, and that&#x2019;s why he couldn&#x2019;t get peace in the grave until that matter was righted.</english_publication>
+  <keywords>
+    <keyword id="130" frequency="4" keyword="boy">boy</keyword>
+    <keyword id="285" frequency="3" keyword="crying">crying</keyword>
+    <keyword id="399" frequency="3" keyword="father">father</keyword>
+    <keyword id="410" frequency="2" keyword="field">field</keyword>
+    <keyword id="483" frequency="1" keyword="grave">grave</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="946" frequency="1" keyword="permission">permission</keyword>
+    <keyword id="1027" frequency="1" keyword="revenant">revenant</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1246" frequency="1" keyword="thank">thank</keyword>
+    <keyword id="1279" frequency="1" keyword="traveler">traveler</keyword>
+    <keyword id="1307" frequency="1" keyword="voice">voice</keyword>
+  </keywords>
+  <etk_index id="25">
+    <heading_danish>Gjenf&#xE6;rd p&#xE5; uretf&#xE6;rdig jord</heading_danish>
+    <heading_english>Revenants on ill-gotten land</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

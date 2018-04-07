@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<story story_id="579">
+  <publication_info>DS_I_748</publication_info>
+  <full_name>106 - 0.00 - DS_I_748</full_name>
+  <informant_id>106</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Jeppe</informant_first_name>
+  <informant_full_name>Jeppe Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>19</place_id>
+      <name>&#xC5;kj&#xE6;r</name>
+      <display_name>&#xC5;kj&#xE6;r (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1028</place_id>
+      <name>Vridsted</name>
+      <display_name>Vridsted (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1027</place_id>
+      <name>Vrove</name>
+      <display_name>Vrove (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="180">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_901</publication_info>
+      <full_name>241 - 4.09 - DSnr_I_901</full_name>
+      <url>data/stories/180.dfl</url>
+    </story>
+    <story story_id="385">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_767</publication_info>
+      <full_name>123 - 2.11 - DS_I_767</full_name>
+      <url>data/stories/385.dfl</url>
+    </story>
+    <story story_id="511">
+      <informant_id>457</informant_id>
+      <publication_info>DS_I_755</publication_info>
+      <full_name>457 - 0.00 - DS_I_755</full_name>
+      <url>data/stories/511.dfl</url>
+    </story>
+    <story story_id="554">
+      <informant_id>128</informant_id>
+      <publication_info>DS_I_717</publication_info>
+      <full_name>128 - 0.00 - DS_I_717</full_name>
+      <url>data/stories/554.dfl</url>
+    </story>
+    <story story_id="790">
+      <informant_id>382</informant_id>
+      <publication_info>DS_I_898</publication_info>
+      <full_name>382 - 0.00 - DS_I_898</full_name>
+      <url>data/stories/790.dfl</url>
+    </story>
+    <story story_id="862">
+      <informant_id/>
+      <publication_info>DS_I_756</publication_info>
+      <full_name>0 - 0.00 - DS_I_756</full_name>
+      <url>data/stories/862.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Mellem Vridsted og Vrove ligger Vroveh&#xF6;j, hvor der siges at have v&#xE6;ret mange bj&#xE6;rgfolk. En aften kj&#xF8;rte pr&#xE6;sten i Vrove tillige med sin kusk om ved h&#xF6;jen, og da rejste den sig p&#xE5; fire gl&#xF8;dende p&#xE6;le, og neden under dandsede bj&#xE6;rgfolkene. Kusken s&#xE5; ned efter det, men pr&#xE6;sten bad ham at passe p&#xE5; t&#xF6;mmen, da han ellers var bange for, han skulde blive ellevild.</danish_publication>
+  <english_publication>Between Virdsted and Vrove lies Vrove mound, where they say there used to be a lot of mound dwellers. One night, the minister from Vrove along with his coachman drove past the mound and then it raised itself up on four glowing poles and underneath it the mound dwellers danced. The coachman looked down at it, but the minister told him to watch the reins, since he was afraid that he [the coachman] would become elf-wild.</english_publication>
+  <keywords>
+    <keyword id="13" frequency="1" keyword="afraid">afraid</keyword>
+    <keyword id="240" frequency="3" keyword="coachman">coachman</keyword>
+    <keyword id="297" frequency="1" keyword="dancing">dancing</keyword>
+    <keyword id="373" frequency="1" keyword="elf">elf</keyword>
+    <keyword id="470" frequency="1" keyword="glowing_poles">glowing poles</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="805" frequency="2" keyword="mound_dweller">mound dweller</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1023" frequency="1" keyword="reins">reins</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

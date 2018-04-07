@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<story story_id="115">
+  <publication_info>JAH_VI_738</publication_info>
+  <full_name>150 - 4.04 - JAH_VI_738</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.04</order_told>
+  <fieldtrip id="5">June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="113">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_VI_738</publication_info>
+      <full_name>150 - 4.02 - JAH_VI_738</full_name>
+      <url>data/stories/113.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4592A</fielddiary_page_start>
+  <fielddiary_page_end>4592A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Dean Cilius's remarks are humorous if not inappropriate. In his response to the Lord's rhetorical query in the first part of the record, he responds by describing his literal flock of sheep--black, white and red--as well as his figurative flock (the parish)--damn foolish. Tang Kristensen sandwiches an earlier short account in between the two accounts recorded here in the published version (BJK 4.02).</annotation>
+  <danish_manuscript>Proust Cilius sagde: Herre, du gav mig Lam men
+hvordan var de, nogle var [r&#xF8;de] hvide og sorte,
+r&#xF8;de og rage Karnaljer.
+Herre du gav os Regn, men det faldt i
+N&#xF8;rlund Skov og Sorte Mose, de yderste
+Draaber kom n&#xE6;ppe til Sundsig paa
+min Mark, derfor staar mit Byg nu ved
+Lappen for &#xD8;ret.</danish_manuscript>
+  <english_manuscript>Dean Cilius from Sm&#xE5;rup said during a sermon, "Lord, you gave me lamb, but how were they? Some were white and black, red and damn foolish." "Lord, you gave us rain, but it fell in N&#xF6;rlund woods and Sorte-Mose; the furthest drops barely reached Sundsig on my field, and that's why my rye now stands there with its laps by its ears."</english_manuscript>
+  <danish_publication>Provst Cilius i Sm&#xE5;rup sagde i en pr&#xE6;ken: "Herre, du gav mig lam, men hvordan var de? Nogle var hvide og sorte, r&#xF8;de og rage karnaljer".
+     I en b&#xF6;n for regn sagde han: "Herre, du gav os regn, men det faldt i N&#xF6;rlund skov og Sorte-Mose; de yderste dr&#xE5;ber kom n&#xE6;ppe til Sundsig p&#xE5; min mark, derfor st&#xE5;r mit byg nu med lappen for &#xF8;ret".
+     Til en, han var henne at berette, sagde han: "Jeg ser d&#xF8;den n&#xE6;rme sig, og du er ud af det hegseparti".</danish_publication>
+  <english_publication>Provst Cilius from Sm&#xE5;rup said during a sermon, &#x201C;Lord, you gave me lamb, but how were they? Some were white and black, red and damn foolish.&#x201D;
+      In a prayer for rain he said, &#x201C;Lord, you gave us rain, but it fell in N&#xF6;rlund woods and Sorte-Mose; the furthest drops barely reached Sundsig on my field, and because of this my rye now stands there with its laps by its ears.&#x201D;
+     He said to someone that he&#x2019;d gone to give the last sacrament to, &#x201C;I can see death approaching, and you&#x2019;ll leave this witches&#x2019; feast.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="367" frequency="1" keyword="ear">ear</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="402" frequency="1" keyword="feast">feast</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="680" frequency="1" keyword="lamb">lamb</keyword>
+    <keyword id="725" frequency="2" keyword="lord">lord</keyword>
+    <keyword id="989" frequency="1" keyword="prayer">prayer</keyword>
+    <keyword id="1011" frequency="2" keyword="rain">rain</keyword>
+    <keyword id="1021" frequency="1" keyword="red">red</keyword>
+    <keyword id="1055" frequency="1" keyword="rye">rye</keyword>
+    <keyword id="1058" frequency="1" keyword="sacrament">sacrament</keyword>
+    <keyword id="1087" frequency="1" keyword="sermon">sermon</keyword>
+    <keyword id="1340" frequency="1" keyword="white">white</keyword>
+    <keyword id="1351" frequency="1" keyword="witch">witch</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="36">
+    <heading_danish>Vore f&#xE6;dres tankes&#xE6;t og &#xE5;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="11" name="Jocular Tale"/>
+</story>

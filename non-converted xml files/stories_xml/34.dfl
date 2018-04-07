@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<story story_id="34">
+  <publication_info>DS_III_1712</publication_info>
+  <full_name>150 - 1.31 - DS_III_1712</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.31</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>213</place_id>
+      <name>Guds&#xF8; mose</name>
+      <display_name>Guds&#xF8; mose (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>430</place_id>
+      <name>N&#xF8;rlund skov</name>
+      <display_name>N&#xF8;rlund skov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="418">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_G356</publication_info>
+      <full_name>123 - 3.15 - DS_II_G356</full_name>
+      <url>data/stories/418.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3249a (1)</fielddiary_page_start>
+  <fielddiary_page_end>3249a (1)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens offers a great number of descriptions of local topography, and provides various explanations for the appearance of certain of these topographical features. These short descriptions echo the detail he provided in his longer narratives that link his stories closely to the local area. 
+
+     One of the major agricultural advances was large-scale drainage projects that allowed heath land to be put under plow. Along with mergling, a process in which marl was added to the soil in the heath, large areas of arable land became available for the establishment of small holdings. Jens's description of the vestiges of plowing near the swamp suggest that swamp was not the "original" state of the land. The story offers indirect support to the large-scale drainage projects that would return the swamp to its "original" state of arability.</annotation>
+  <danish_manuscript>Der er ogsaa en S&#xF8; her inde i N&#xF8;rlund Skov
+de kalder Guds&#xF8;s Mose og en lille S&#xF8; har der
+v&#xE6;ret, udt&#xF8;rret. der saa ogsaa ligesom der
+havde v&#xE6;ret pl&#xF8;jet rundet omkring.</danish_manuscript>
+  <english_manuscript>There's also a lake here in N&#xF8;rlund forest, they call it Guds&#xF8; Swamp (G&#xE5;rds&#xF8; mose). It was a little lake and it's dried up now anyway. It also looks like they had plowed around it.</english_manuscript>
+  <danish_publication>Der er ogs&#xE5; en s&#xF8; herinde i N&#xF6;rlund skov, de kalder Guds&#xF8;. Ja, nu er den for resten udt&#xF6;rret, og der er blevet en mose i steden, som de kalder Guds&#xF8;s mose. Der ser ud runden omkring den mose, som der havde v&#xE6;ret pl&#xF6;jet i &#xE6;ldre tid.</danish_publication>
+  <english_publication>There was also a lake here in N&#xF8;rlund forest, they call it Guds&#xF8;. Well, it's dried up now anyway, and it's become a swamp instead, which they call Guds&#xF8;&#x2019;s swamp. Around the swamp, it looks like it had been plowed in the old days.</english_publication>
+  <keywords>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="679" frequency="1" keyword="lake">lake</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="966" frequency="1" keyword="plowing">plowing</keyword>
+    <keyword id="1228" frequency="3" keyword="swamp">swamp</keyword>
+  </keywords>
+  <etk_index id="14">
+    <heading_danish>Forskjellige stedsagn</heading_danish>
+    <heading_english>Diverse place legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

@@ -1,0 +1,90 @@
+<story><story_id>841</story_id>
+  <publication_info>DS_IV_1451</publication_info>
+  <full_name>437 - 0.00 - DS_IV_1451</full_name>
+  <informant_id>437</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>T.</informant_first_name>
+  <informant_full_name>L&#230;rer T. Kristensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>857</place_id>
+      <name>R&#248;nslund</name>
+      <display_name>R&#248;nslund (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>979</place_id>
+      <name>R&#248;rb&#230;k skov</name>
+      <display_name>R&#248;rb&#230;k skov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>154</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1465</publication_info>
+      <full_name>241 - 2.04 - DS_IV_1465</full_name>
+      <url>data/stories/154.dfl</url>
+    </story>
+    <story><story_id>669</story_id>
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1447</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1447</full_name>
+      <url>data/stories/669.dfl</url>
+    </story>
+    <story><story_id>797</story_id>
+      <informant_id>501</informant_id>
+      <publication_info>DS_IV_1449</publication_info>
+      <full_name>501 - 0.00 - DS_IV_1449</full_name>
+      <url>data/stories/797.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der skal en gang have v&#230;ret r&#246;vere i R&#248;rb&#230;k skov i Vester sogn. Der siges, at de havde en snor sp&#230;ndt over vejen, som gik gjennem skoven. N&#229;r nogen r&#248;rte ved den, ringede en klokke nede i deres hule, hvorp&#229; de foer op og overfaldt den vejfarende. En gang kom en mand med kone og b&#246;rn kj&#248;rende ad vejen, det m&#230;rkede r&#246;verne, overfaldt dem og slog dem ihjel p&#229; et lille barn n&#230;r, som de ikke n&#230;nnede at dr&#230;be. Men lidt efter kom en frav&#230;rende r&#246;ver, der hed J&#246;rgen, hjem. Da han s&#229; barnet, sagde han: "Hvad er det for en unge, ham skal jeg snart negle!" hvorp&#229; han tog barnet og slog det ihjel. Siden den tid kaldte de andre r&#246;vere ham altid J&#246;rgen Negl.</danish_publication>
+  <english_publication>There was supposed to have been robbers in R&#248;rb&#230;k forest in Vester parish. It is said that they had a rope tied across the road that went through the forest. When somebody touched it, a bell rang down in their den, at which point they&#8217;d fly up and attack the traveler. One time a man came driving down the road with his wife and children. The robbers noticed this, so they attacked them and killed them all except for the little child, whom they didn't have the heart to kill. But a little bit later a robber, who had been away, and who was called J&#248;rgen, came home. When he saw the child he said: &#8220;What&#8217;s this youngster; I&#8217;ll soon nick him!&#8221; at which point he grabbed the child and killed it. After that time, all the other robbers called him &#8220;J&#248;rgen Nick.&#8221;</english_publication>
+  <keywords>
+    <keyword><id>53</id><frequency>2</frequency><keyword>attack</keyword>attack</keyword>
+    <keyword><id>88</id><frequency>1</frequency><keyword>bells</keyword>bells</keyword>
+    <keyword><id>219</id><frequency>4</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>322</id><frequency>1</frequency><keyword>den</keyword>den</keyword>
+    <keyword><id>425</id><frequency>1</frequency><keyword>flying</keyword>flying</keyword>
+    <keyword><id>438</id><frequency>2</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>516</id><frequency>1</frequency><keyword>heart</keyword>heart</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>569</id><frequency>2</frequency><keyword>j&#248;rgen</keyword>J&#248;rgen</keyword>
+    <keyword><id>606</id><frequency>2</frequency><keyword>j&#248;rgen</keyword>J&#248;rgen</keyword>
+    <keyword><id>622</id><frequency>3</frequency><keyword>kill</keyword>kill</keyword>
+    <keyword><id>833</id><frequency>2</frequency><keyword>nick</keyword>Nick</keyword>
+    <keyword><id>903</id><frequency>1</frequency><keyword>parish</keyword>parish</keyword>
+    <keyword><id>1036</id><frequency>2</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1037</id><frequency>4</frequency><keyword>robber</keyword>robber</keyword>
+    <keyword><id>1044</id><frequency>1</frequency><keyword>rope</keyword>rope</keyword>
+    <keyword><id>1261</id><frequency>1</frequency><keyword>tie</keyword>tie</keyword>
+    <keyword><id>1279</id><frequency>1</frequency><keyword>traveler</keyword>traveler</keyword>
+    <keyword><id>1343</id><frequency>1</frequency><keyword>wife</keyword>wife</keyword>
+    <keyword><id>1374</id><frequency>1</frequency><keyword>young</keyword>young</keyword>
+  </keywords>
+  <etk_index><id>20</id>
+    <heading_danish>R&#248;vere, drabsm&#230;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>5</id><display_name>People: Children</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>17</id><display_name>People: Robber / Thief</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>92</id><display_name>Actions or events: Murder</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

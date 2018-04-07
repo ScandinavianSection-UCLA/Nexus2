@@ -1,0 +1,72 @@
+<story><story_id>127</story_id>
+  <publication_info>DS_II_G_113</publication_info>
+  <full_name>150 - 4.16 - DS_II_G_113</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.16</order_told>
+  <fieldtrip><id>5</id>June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>473</story_id>
+      <informant_id>321</informant_id>
+      <publication_info>DS_II_G_106</publication_info>
+      <full_name>321 - 0.00 - DS_II_G_106</full_name>
+      <url>data/stories/473.dfl</url>
+    </story>
+    <story><story_id>743</story_id>
+      <informant_id>416</informant_id>
+      <publication_info>DS_III_2228</publication_info>
+      <full_name>416 - 0.00 - DS_III_2228</full_name>
+      <url>data/stories/743.dfl</url>
+    </story>
+    <story><story_id>771</story_id>
+      <informant_id>349</informant_id>
+      <publication_info>DS_II_G_107</publication_info>
+      <full_name>349 - 0.00 - DS_II_G_107</full_name>
+      <url>data/stories/771.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4594a (1)</fielddiary_page_start>
+  <fielddiary_page_end>4594a (1)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens turns from the stories of portentous dreams to his own experiences, confirming that such dreams can come true. It is somewhat surprising that this story is separated from the preceding in Tang Kristensen's published collections, as the preceding story stands as the impetus for its performance and, similarly, this story confirms the validity of the preceding. It is worth noting that Jens's wife was known in the local community for being gifted with second sight and having portentous dreams.</annotation>
+  <danish_manuscript>A har ogsaa dr&#248;mt og det passede. Mens a var
+en Kn&#230;gt og gik i Aarestrup skole, dr&#248;mte
+a, te a i Skole paa et bestemt Sted fandt en
+Kobber 4 Sk og om Morg. a kom i Skolen, fandt
+a den ogsaa paa det selve sam Sted.</danish_manuscript>
+  <english_manuscript>I've also had dreams that turned out to be right. When I was a young lad and went to &#197;restrup school, I dreamed that I found at school a copper four-shilling coin in a specific place and the next morning, when I got to school, I found it in the very same place.</english_manuscript>
+  <danish_publication>A har ogs&#229; dr&#246;mt, og det passede. Mens a var en kn&#230;gt og gik i &#197;restrup skole, dr&#246;mte a, te a i skolen p&#229; et bestemt sted fandt en kobber-fireskilling. Om morgenen, a kom i skolen, fandt a den ogs&#229; p&#229; det selve samme sted.</danish_publication>
+  <english_publication>I&#8217;ve also had dreams that turned out to be right. When I was a young lad and went to &#197;restrup school, I dreamed that I found a copper four-shilling coin in a specific place. The next morning, when I got to school, I found it in the very same place.</english_publication>
+  <keywords>
+    <keyword><id>246</id><frequency>1</frequency><keyword>coins</keyword>coins</keyword>
+    <keyword><id>259</id><frequency>1</frequency><keyword>copper</keyword>copper</keyword>
+    <keyword><id>352</id><frequency>2</frequency><keyword>dream</keyword>dream</keyword>
+    <keyword><id>677</id><frequency>1</frequency><keyword>lad</keyword>lad</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>1075</id><frequency>2</frequency><keyword>school</keyword>school</keyword>
+    <keyword><id>1100</id><frequency>1</frequency><keyword>shilling</keyword>shilling</keyword>
+    <keyword><id>1374</id><frequency>1</frequency><keyword>young</keyword>young</keyword>
+  </keywords>
+  <etk_index><id>8</id>
+    <heading_danish>Religi&#248;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

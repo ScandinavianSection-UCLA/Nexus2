@@ -1,0 +1,46 @@
+<informant><person_id>363</person_id>
+  <core_informant/>
+  <full_name>Kristian Frederiksen</full_name>
+  <last_name>Frederiksen</last_name>
+  <first_name>Kristian</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>638</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>363</informant_id>
+      <publication_info>DS_IV_1287</publication_info>
+      <full_name>363 - 0.00 - DS_IV_1287</full_name>
+      <url>data/stories/638.dfl</url>
+      <place_recorded><id>700</id>Vidstrup</place_recorded>
+      <places_mentioned>
+        <place><id>1043</id>
+          <name>Asdal</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>700</place_id>
+      <name>Vidstrup</name>
+      <display_name>Vidstrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1043</place_id>
+      <name>Asdal</name>
+      <display_name>Asdal (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

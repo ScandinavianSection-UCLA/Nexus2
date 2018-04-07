@@ -1,0 +1,68 @@
+<story><story_id>350</story_id>
+  <publication_info>Unpub_AMJ_218</publication_info>
+  <full_name>90 - 2.18 - Unpub_AMJ_218</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>2.18</order_told>
+  <fieldtrip><id>9</id>October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>382</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1370</publication_info>
+      <full_name>123 - 2.08 - DS_V_1370</full_name>
+      <url>data/stories/382.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4787a</fielddiary_page_start>
+  <fielddiary_page_end>4787a</fielddiary_page_end>
+  <bibliographic_info>Steensberg 1964</bibliographic_info>
+  <bibliography_references>
+    <reference><id>257</id><category>general</category>
+      <display_string>[Book] Steensberg, Axel. 1964. &lt;i&gt;Dagligliv i Danmark i det nittende og tyvende &#229;rhundrede&lt;/i&gt;. Copenhagen: Nyt nordisk forlag.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>These short descriptions of folk belief come somewhat unexpectedly in the midst of Margrete's storytelling, but relate to beliefs about death. Bird calls and the behavior of birds are often considered portentous. Sometimes they signal changes in the seasons, but more often they portend bad, if not calamitous, events.</annotation>
+  <danish_manuscript>Naar Viben skriger, er det ondt Tegn.
+Naar storken vader i Vandet skal de faa
+megen Sorg og noget at gr&#230;de for det Aar.
+Det skal ikke v&#230;re godt, naar man gaar ud
+at m&#248;de et Kvindfolk, der er lokket.
+</danish_manuscript>
+  <english_manuscript>When the peewit screeches, it is a bad omen. When the stork wades in water, you'll have great sorrow and something to cry over for a whole year. It is not supposed to be good when you got out to meet a woman who is pregnant out of wedlock.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>Unpublished version reads: When the peewit screeches, it is a bad omen. When the stork wades in water, you&#8217;ll have great sorrow and something to cry over for a whole year. It is not supposed to be good when you got out to meet a woman who is pregnant out of wedlock.</english_publication>
+  <keywords>
+    <keyword><id>285</id><frequency>1</frequency><keyword>crying</keyword>crying</keyword>
+    <keyword><id>884</id><frequency>1</frequency><keyword>omen</keyword>omen</keyword>
+    <keyword><id>991</id><frequency>1</frequency><keyword>pregnant</keyword>pregnant</keyword>
+    <keyword><id>1163</id><frequency>1</frequency><keyword>sorrow</keyword>sorrow</keyword>
+    <keyword><id>1198</id><frequency>1</frequency><keyword>stork</keyword>stork</keyword>
+    <keyword><id>1320</id><frequency>1</frequency><keyword>water</keyword>water</keyword>
+    <keyword><id>1327</id><frequency>1</frequency><keyword>wedding</keyword>wedding</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+    <keyword><id>1370</id><frequency>1</frequency><keyword>year</keyword>year</keyword>
+  </keywords>
+  <etk_index><id>44</id>
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+    <tango_index><id>132</id><display_name>Actions or events: Pregnancy and birth</display_name></tango_index>
+    <tango_index><id>133</id><display_name>Actions or events: Seduction</display_name></tango_index>
+    <tango_index><id>136</id><display_name>Animals: Wild</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

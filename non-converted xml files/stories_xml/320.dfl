@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<story story_id="320">
+  <publication_info>DSk_I_14</publication_info>
+  <full_name>235 - 3.18 - DSk_I_14</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>3.18</order_told>
+  <fieldtrip id="3">January 1894</fieldtrip>
+  <fieldtrip_start_date>1894-01-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-02-19</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="47">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_144</publication_info>
+      <full_name>150 - 1.44 - Unpub_BJK_144</full_name>
+      <url>data/stories/47.dfl</url>
+    </story>
+    <story story_id="52">
+      <informant_id>150</informant_id>
+      <publication_info>DSkv_Till_3</publication_info>
+      <full_name>150 - 2.05 - DSkv_Till_3</full_name>
+      <url>data/stories/52.dfl</url>
+    </story>
+    <story story_id="231">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_VI_183</publication_info>
+      <full_name>235 - 1.12 - JAH_VI_183</full_name>
+      <url>data/stories/231.dfl</url>
+    </story>
+    <story story_id="233">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_H_141</publication_info>
+      <full_name>235 - 1.14 - DS_II_H_141</full_name>
+      <url>data/stories/233.dfl</url>
+    </story>
+    <story story_id="240">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_63</publication_info>
+      <full_name>235 - 1.21 - MA_I_63</full_name>
+      <url>data/stories/240.dfl</url>
+    </story>
+    <story story_id="241">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_100</publication_info>
+      <full_name>235 - 1.21 - MA_I_100</full_name>
+      <url>data/stories/241.dfl</url>
+    </story>
+    <story story_id="243">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_107</publication_info>
+      <full_name>235 - 1.23 - MA_I_107</full_name>
+      <url>data/stories/243.dfl</url>
+    </story>
+    <story story_id="244">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_VI_527</publication_info>
+      <full_name>235 - 1.24 - JAH_VI_527</full_name>
+      <url>data/stories/244.dfl</url>
+    </story>
+    <story story_id="245">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_70</publication_info>
+      <full_name>235 - 1.25 - MA_I_70</full_name>
+      <url>data/stories/245.dfl</url>
+    </story>
+    <story story_id="288">
+      <informant_id>235</informant_id>
+      <publication_info>JAH_VI_225</publication_info>
+      <full_name>235 - 2.05 - JAH_VI_225</full_name>
+      <url>data/stories/288.dfl</url>
+    </story>
+    <story story_id="289">
+      <informant_id>235</informant_id>
+      <publication_info>DS_IV_1092</publication_info>
+      <full_name>235 - 2.06 - DS_IV_1092</full_name>
+      <url>data/stories/289.dfl</url>
+    </story>
+    <story story_id="297">
+      <informant_id>235</informant_id>
+      <publication_info>MA_II_456</publication_info>
+      <full_name>235 - 2.14 - MA_II_456</full_name>
+      <url>data/stories/297.dfl</url>
+    </story>
+    <story story_id="299">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_468</publication_info>
+      <full_name>235 - 2.16 - MA_I_468</full_name>
+      <url>data/stories/299.dfl</url>
+    </story>
+    <story story_id="300">
+      <informant_id>235</informant_id>
+      <publication_info>MA_I_465</publication_info>
+      <full_name>235 - 2.17 - MA_I_465</full_name>
+      <url>data/stories/300.dfl</url>
+    </story>
+    <story story_id="301">
+      <informant_id>235</informant_id>
+      <publication_info>MA_II_457</publication_info>
+      <full_name>235 - 2.18 - MA_II_457</full_name>
+      <url>data/stories/301.dfl</url>
+    </story>
+    <story story_id="302">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_V_18</publication_info>
+      <full_name>235 - 2.19 - JAT_V_18</full_name>
+      <url>data/stories/302.dfl</url>
+    </story>
+    <story story_id="304">
+      <informant_id>235</informant_id>
+      <publication_info>Unpub_KMP_302</publication_info>
+      <full_name>235 - 3.02 - Unpub_KMP_302</full_name>
+      <url>data/stories/304.dfl</url>
+    </story>
+    <story story_id="305">
+      <informant_id>235</informant_id>
+      <publication_info>MA_II_6</publication_info>
+      <full_name>235 - 3.03 - MA_II_6</full_name>
+      <url>data/stories/305.dfl</url>
+    </story>
+    <story story_id="306">
+      <informant_id>235</informant_id>
+      <publication_info>DSk_I_248</publication_info>
+      <full_name>235 - 3.04 - DSk_I_248</full_name>
+      <url>data/stories/306.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6422b</fielddiary_page_start>
+  <fielddiary_page_end>6423a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Kirsten Marie concludes her storytelling with an amusing tale. The punch line plays on stupidity and misunderstanding, two things that often feature prominently in Kirsten Marie's humorous tales (KMP 1.12, 1.14, 1.21, 1.21b, 1.23-25, 2.05-06, 2.14, 2.16-19, 3.02-4). Although the losing party is upset over his wife's gossip, he seems more upset that he was duped into believing that three crows, rather than just the one, had flown out of his friend's behind. Tang Kristensen has filled out the tale considerably in the published version.</annotation>
+  <danish_manuscript>To M&#xE6;nd havde gjort V&#xE6;ddemaal med hin
+6423A
+anden om et Kvindfolkene vilde sladre
+den 1 sagde de vilde ikke og 2 at de vil
+de. S. siger 1 h. vilde gj&#xF8;re sig syg i
+Morgen og s. vilde h. sige til hans Kone
+at der fl&#xF8;j en Krage fra ham i Mor
+ges, da h. var ude at l&#xF8;se hans skuger??
+h. vidste aldrig hvad det vilde blive til
+med ham og h. var s. syg. S. siger 2
+Mands Kone over at se til ham.
+Kvindfolkene vidste jo ikke at der var
+sat V&#xE6;ddemaal. S. fort&#xE6;ller hu at
+der var fl&#xF8;jet 2 Krager fra ham i 
+Morges . . . . Hu fortalte det hjem
+til hendes Mand. Det var rent galt
+med ham, der fl&#xF8;jet 3 Krager
+.. S. gik h. over til ham og siger,
+om h. vilde nu ikke betale V&#xE6;ddemaa
+let for h. [??] havde jo sagt til hans
+. . . . . Aa s. skulde da ogsaa Pokker 
+have de Kvindfolk de vil jo baade
+lyve og sladre.
+</danish_manuscript>
+  <english_manuscript>Two men had made a bet about whether women would gossip. The first said that they wouldn't and the second that they would. The first one said that he'd pretend that he was sick the next day and he'd tell his wife that a crow had flown out of him that morning when he'd let down his pants, he had no idea what was going to happen to him and he was so sick. Then the other guy's wife came over to see to him. The women didn't know that there was a bet. Then she says that two crows had flown out of him that morning... She went home and told her husband. Things were really bad with him, three crows had flown... Then he went over to him and said that he had to pay him for the bet because he'd told his wife... The devil should take those women, they both gossip and lie.</english_manuscript>
+  <danish_publication>To M&#xE6;nd havde gjort V&#xE6;ddemaal med hinanden om, hvorvidt Kvindfolkene vilde sladre, den ene sagde, at de vilde ikke, og den anden, at de vilde. Saa siger den f&#xF8;rste, at han nu vilde gj&#xF8;re et Fors&#xF8;g men Kvindfolkene maatte jo ikke vide af, at V&#xE6;ddemaalet var gjort. Han gjorde sig saa syg n&#xE6;ste Morgen og sagde til hans Kone, at der fl&#xF8;j en Krage fra ham, da han for lidt siden var omme bag Laden paa Naturens Vegne, han vidste aldrig, hvad det vilde blive til med ham, og han var saa syg. Hans Kone gaar nu over til den anden Mands Kone og fort&#xE6;ller, at der var fl&#xF8;jet to Krager fra ham i Morges, da han var ude i naturlig Forretning, og det var da en s&#xF8;rgelig Ting. Nabokonen f&#xF8;lger med tilbage for at se til ham, og da hun kommer hjem igjen, fort&#xE6;ller hun for hendes Mand, at det var rent galt med Nabomanden, for der var fl&#xF8;jet tre Krager fra ham i Morges, da han var ude at forrette sit Behov. Lidt efter kommer han selv derover, taler Naboen ud og siger til ham, om han nu vilde betale V&#xE6;ddemaalet, for saadan og saadan var det gaaet til; han havde bildt hans Kone ind, at han var syg, og at der var fl&#xF8;jet en Krage fra ham, og det havde Konen jo bragt videre. Saa raaber Naboen: "Aa, saa skulde Pokker da ogsaa have de Kvindfolk, de vil jo baade lyve ag sladre, hun fortalte mig, at der var fl&#xF8;jet tre Krager fra dig."</danish_publication>
+  <english_publication>Two men had made a bet about the extent to which women would gossip, the one said that they wouldn&#x2019;t and the other one that they would. So then the first one says that he&#x2019;d give it a try, but that the women weren&#x2019;t to know that they&#x2019;d made a bet. He made himself really sick the next morning and told his wife that a crow had flown out of him when he&#x2019;d been out behind the barn for nature&#x2019;s call a little while ago, and he had no idea what was going to happen to him, he was so sick. His wife now goes over to the other man&#x2019;s wife and tells her that two crows had flown out of him that morning while he was taking care of nature&#x2019;s call and it was a really sorrowful thing. The neighbor wife comes back with her to see to him and then she goes back home, and she tells her husband that things were really wrong with the neighbor husband, because three crows had flown out of him that morning while he was out taking care of his needs. A little later, he goes over there himself, and the neighbor speaks up and asks him to pay the bet, because such and such had happened; he&#x2019;d convinced his wife that he was sick and that a crow had flown out of him and his wife had blabbed it on. Then the neighbor shouts: &#x201C;Well, then the devil should take those women, they both lie and gossip, she told me that three crows had flown out of you.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="72" frequency="1" keyword="barn">barn</keyword>
+    <keyword id="93" frequency="3" keyword="bet">bet</keyword>
+    <keyword id="283" frequency="2" keyword="crow">crow</keyword>
+    <keyword id="324" frequency="1" keyword="devil">devil</keyword>
+    <keyword id="476" frequency="2" keyword="gossip">gossip</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="552" frequency="1" keyword="husband">husband</keyword>
+    <keyword id="801" frequency="3" keyword="morning">morning</keyword>
+    <keyword id="824" frequency="2" keyword="nature">nature</keyword>
+    <keyword id="828" frequency="4" keyword="neighbor">neighbor</keyword>
+    <keyword id="1111" frequency="3" keyword="sickness">sickness</keyword>
+    <keyword id="1163" frequency="1" keyword="sorrow">sorrow</keyword>
+    <keyword id="1256" frequency="2" keyword="three">three</keyword>
+    <keyword id="1343" frequency="6" keyword="wife">wife</keyword>
+    <keyword id="1356" frequency="3" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="37">
+    <heading_danish>Danske Skj&#xE6;mtesagn</heading_danish>
+    <heading_english>Danish Jocular Tales</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="87" display_name="Actions or events: Gambling"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="11" name="Jocular Tale"/>
+</story>

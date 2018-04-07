@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<story story_id="828">
+  <publication_info>DS_III_2412</publication_info>
+  <full_name>69 - 0.00 - DS_III_2412</full_name>
+  <informant_id>69</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#xF8;ren</informant_first_name>
+  <informant_full_name>S&#xF8;ren Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>243</place_id>
+      <name>H&#xE5;rup</name>
+      <display_name>H&#xE5;rup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="508">
+      <informant_id>319</informant_id>
+      <publication_info>DS_III_2440</publication_info>
+      <full_name>319 - 0.00 - DS_III_2440</full_name>
+      <url>data/stories/508.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der har v&#xE6;ret en gammel tale om en spade, der skulde laves til af ni hug, og n&#xE5;r man satte den om aftenen, blev den flyt om natten til det sted, hvor der skulde v&#xE6;re guld gravet ned, og s&#xE5; kunde man grave det op. En s&#xE5;dan spade var af tr&#xE6;, og hvis der var en knot, kunde den godt blive siddende og bruges som trad. Man tog en gren af et tr&#xE6;, som egnede sig for det, og s&#xE5; skulde der hugges tre hug p&#xE5; den tre torsdag morgener i tr&#xE6;k, to hug &#xE6;for og &#xE9;t &#xE6;bag hver gang, og n&#xE5;r de tre torsdag morgener var g&#xE5;et, og de ni hug udf&#xF8;rte, skulde bladet v&#xE6;re f&#xE6;rdigt. Min fader gik til en mand og vilde have ham til at lave den spade. Ja, det vilde han godt. "Men a skal hugge de tre hug hver dag i Fandens navn, og det vil a ogs&#xE5; godt gj&#xF8;re. Dern&#xE6;st skal a i de tre uger l&#xE6;gge mig og rejse mig i Fandens navn." Da min fader h&#xF8;rte det, sagde han: "Det vil a mins&#xE6;l ikke have dig til." S&#xE5; blev der alts&#xE5; ikke noget ud af det arbejde.</danish_publication>
+  <english_publication>There was old talk of a spade that was made with nine blows and when you put it down at night it would be moved to the place where gold is supposed to be buried and then you could dig it up. That kind of spade was made of wood and if there was a knot, it could remain and be used as a foot tread. You took a tree branch which could be used for that, and then you were supposed to cut three blows on it three Thursdays in a row, two blows in the front and one in the back each time, and when the three Thursdays had passed, and the nine blows finished, the blade was supposed to be finished. My father went to a man and wanted to have a spade like that made. Well, he&#x2019;d do that. &#x201C;But I have to cut the three blows each day in the name of the devil, and I&#x2019;ll gladly do that. Then after that I&#x2019;ll have to go to bed and get up for the three weeks in the name of the devil." When my father heard that, he said: &#x201C;I certainly don&#x2019;t want to have you do that." So nothing came of that work.</english_publication>
+  <keywords>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="113" frequency="5" keyword="blow">blow</keyword>
+    <keyword id="135" frequency="1" keyword="branches">branches</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="324" frequency="1" keyword="devil">devil</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="399" frequency="2" keyword="father">father</keyword>
+    <keyword id="433" frequency="1" keyword="foot">foot</keyword>
+    <keyword id="473" frequency="1" keyword="gold">gold</keyword>
+    <keyword id="642" frequency="1" keyword="knot">knot</keyword>
+    <keyword id="822" frequency="2" keyword="name">name</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1068" frequency="1" keyword="satan">Satan</keyword>
+    <keyword id="1171" frequency="3" keyword="spade">spade</keyword>
+    <keyword id="1256" frequency="5" keyword="three">three</keyword>
+    <keyword id="1260" frequency="2" keyword="thursday">thursday</keyword>
+    <keyword id="1281" frequency="1" keyword="tree">tree</keyword>
+    <keyword id="1328" frequency="1" keyword="week">week</keyword>
+    <keyword id="1357" frequency="1" keyword="wood">wood</keyword>
+    <keyword id="1361" frequency="1" keyword="work">work</keyword>
+  </keywords>
+  <etk_index id="15">
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="52" display_name="Tools, Items and Conveyances: Tools"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

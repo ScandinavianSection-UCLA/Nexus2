@@ -1,0 +1,56 @@
+<informant><person_id>572</person_id>
+  <core_informant/>
+  <full_name>N Jakobsen</full_name>
+  <last_name>Jakobsen</last_name>
+  <first_name>N</first_name>
+  <gender>m</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations>
+    <occupation><occupation_id>85</occupation_id>Gartner</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>815</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>572</informant_id>
+      <publication_info>DS_V_1588</publication_info>
+      <full_name>572 - 0.00 - DS_V_1588</full_name>
+      <url>data/stories/815.dfl</url>
+      <place_recorded><id>951</id>H&#248;jby</place_recorded>
+      <places_mentioned>
+        <place><id>949</id>
+          <name>Odense</name>
+        </place>
+        <place><id>975</id>
+          <name>Bramstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>951</place_id>
+      <name>H&#248;jby</name>
+      <display_name>H&#248;jby (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>951</place_id>
+      <name>H&#248;jby</name>
+      <display_name>H&#248;jby (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>975</place_id>
+      <name>Bramstrup</name>
+      <display_name>Bramstrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>949</place_id>
+      <name>Odense</name>
+      <display_name>Odense (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

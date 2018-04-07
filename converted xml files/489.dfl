@@ -1,0 +1,78 @@
+<story><story_id>489</story_id>
+  <publication_info>DS_V_1484</publication_info>
+  <full_name>551 - 0.00 - DS_V_1484</full_name>
+  <informant_id>551</informant_id>
+  <informant_last_name>Weiss</informant_last_name>
+  <informant_first_name>Christian</informant_first_name>
+  <informant_full_name>L&#230;rer Christian Weiss</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>890</place_id>
+      <name>Tingerup</name>
+      <display_name>Tingerup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1007</place_id>
+      <name>Gisselfeld</name>
+      <display_name>Gisselfeld (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>234</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1430</publication_info>
+      <full_name>235 - 1.15 - DS_V_1430</full_name>
+      <url>data/stories/234.dfl</url>
+    </story>
+    <story><story_id>533</story_id>
+      <informant_id>458</informant_id>
+      <publication_info>DS_V_1454</publication_info>
+      <full_name>458 - 0.00 - DS_V_1454</full_name>
+      <url>data/stories/533.dfl</url>
+    </story>
+    <story><story_id>729</story_id>
+      <informant_id>517</informant_id>
+      <publication_info>DS_V_1501</publication_info>
+      <full_name>517 - 0.00 - DS_V_1501</full_name>
+      <url>data/stories/729.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Jeg har h&#248;rt fort&#230;lle, at en ejer af Gisselfeldt eller Bregentved skal have lokket et par m&#230;nd til at tage jord af vedkommende g&#229;rds have i deres sko og st&#229; p&#229; en anden mands grund, som denne herremand havde f&#229;et lyst til, og sv&#230;rge, at de stod p&#229; Gisselfeld jord. De fik heller ikke ro i graven, men g&#229;r og r&#229;ber: "Her er rette skjel!" og det skal de blive ved med, til den uretf&#230;rdig vundne jord er kommen tilbage til de rette ejeres efterkommere.</danish_publication>
+  <english_publication>I've heard tell that an owner of Gisselfeldt or Bregentved had convinced a couple of men to take some earth from his garden and put it in their shoes and then go to another man's land that this manor lord wanted, and swear that they were standing on Gisselfeld earth. They didn't get any peace in their graves either, and they go about shouting, "Here is the proper boundary!" and they have to keep doing that until the unfairly won land is given back to its proper owner.</english_publication>
+  <keywords>
+    <keyword><id>127</id><frequency>1</frequency><keyword>boundary</keyword>boundary</keyword>
+    <keyword><id>368</id><frequency>2</frequency><keyword>earth</keyword>earth</keyword>
+    <keyword><id>456</id><frequency>1</frequency><keyword>garden</keyword>garden</keyword>
+    <keyword><id>483</id><frequency>1</frequency><keyword>grave</keyword>grave</keyword>
+    <keyword><id>682</id><frequency>2</frequency><keyword>land</keyword>land</keyword>
+    <keyword><id>743</id><frequency>1</frequency><keyword>manor_lord</keyword>manor lord</keyword>
+    <keyword><id>891</id><frequency>2</frequency><keyword>owner</keyword>owner</keyword>
+    <keyword><id>1104</id><frequency>1</frequency><keyword>shoe</keyword>shoe</keyword>
+    <keyword><id>1229</id><frequency>1</frequency><keyword>swear</keyword>swear</keyword>
+  </keywords>
+  <etk_index><id>25</id>
+    <heading_danish>Gjenf&#230;rd p&#229; uretf&#230;rdig jord</heading_danish>
+    <heading_english>Revenants on ill-gotten land</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

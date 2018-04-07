@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<story story_id="878">
+  <publication_info>DS_V_1417</publication_info>
+  <full_name>0 - 0.00 - DS_V_1417</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>725</place_id>
+      <name>Vorde kirke</name>
+      <display_name>Vorde kirke (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>653</place_id>
+      <name>Torsbj&#xE6;rg</name>
+      <display_name>Torsbj&#xE6;rg (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>725</place_id>
+      <name>Vorde kirke</name>
+      <display_name>Vorde kirke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="766">
+      <informant_id>339</informant_id>
+      <publication_info>DS_V_1422</publication_info>
+      <full_name>339 - 0.00 - DS_V_1422</full_name>
+      <url>data/stories/766.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der g&#xE5;r en landm&#xE5;ler ved Torsbj&#xE6;rg her vesten for Vorde kirke. Han har sat nogle skjel forkert. Mange folk har h&#xF8;rt, at han g&#xE5;r og sl&#xE6;ber med hans kj&#xE6;de hver nat. En m&#xF8;rk morgen, jeg skulde hen at flytte heste og er p&#xE5; hjemvejen, h&#xF8;rer jeg en forskr&#xE6;kkelig raslen af en kj&#xE6;de. Nu havde jeg h&#xF8;rt de gamle fort&#xE6;llinger og er aldrig bleven s&#xE5; r&#xE6;d som den gang. Men da jeg kom n&#xE6;rmere til det, opdagede jeg, at det var pr&#xE6;stens hund.</danish_publication>
+  <english_publication>There is a land surveyor who haunts near Torsbj&#xE6;rg, west of Vorde church. He had placed some boundaries incorrectly. Many people have heard him dragging his chain every night. One dark morning, I was supposed to move the horses and I was on my way home, I heard a horrible rattling of a chain. Now I'd heard the old stories and never been as scared as I was then. But when I got closer to it, I discovered it was the minister's dog.</english_publication>
+  <keywords>
+    <keyword id="127" frequency="1" keyword="boundary">boundary</keyword>
+    <keyword id="200" frequency="2" keyword="chain">chain</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="302" frequency="1" keyword="dark">dark</keyword>
+    <keyword id="333" frequency="1" keyword="discovery">discovery</keyword>
+    <keyword id="343" frequency="1" keyword="dog">dog</keyword>
+    <keyword id="508" frequency="1" keyword="haunting">haunting</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="543" frequency="1" keyword="horrible">horrible</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="683" frequency="1" keyword="land_surveyor">land surveyor</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1200" frequency="1" keyword="story">story</keyword>
+    <keyword id="1331" frequency="1" keyword="west">west</keyword>
+  </keywords>
+  <etk_index id="25">
+    <heading_danish>Gjenf&#xE6;rd p&#xE5; uretf&#xE6;rdig jord</heading_danish>
+    <heading_english>Revenants on ill-gotten land</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

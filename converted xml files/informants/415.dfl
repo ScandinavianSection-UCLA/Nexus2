@@ -1,0 +1,46 @@
+<informant><person_id>415</person_id>
+  <core_informant/>
+  <full_name>Niels Johansen</full_name>
+  <last_name>Johansen</last_name>
+  <first_name>Niels</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>728</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>415</informant_id>
+      <publication_info>DS_V_804</publication_info>
+      <full_name>415 - 0.00 - DS_V_804</full_name>
+      <url>data/stories/728.dfl</url>
+      <place_recorded><id>338</id>K&#248;benhavn</place_recorded>
+      <places_mentioned>
+        <place><id>356</id>
+          <name>Kundby</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>356</place_id>
+      <name>Kundby</name>
+      <display_name>Kundby (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

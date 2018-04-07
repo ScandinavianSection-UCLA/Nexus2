@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<story story_id="810">
+  <publication_info>DS_II_C_24</publication_info>
+  <full_name>526 - 0.00 - DS_II_C_24</full_name>
+  <informant_id>526</informant_id>
+  <informant_last_name>Rasmussen</informant_last_name>
+  <informant_first_name>S. P.</informant_first_name>
+  <informant_full_name>L&#xE6;rer S. P. Rasmussen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>744</place_id>
+      <name>&#xC5;s, Tvingstrup</name>
+      <display_name>&#xC5;s, Tvingstrup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="169">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_C_10</publication_info>
+      <full_name>241 - 2.19 - DSnr_II_C_10</full_name>
+      <url>data/stories/169.dfl</url>
+    </story>
+    <story story_id="458">
+      <informant_id>418</informant_id>
+      <publication_info>DS_II_C_25</publication_info>
+      <full_name>418 - 0.00 - DS_II_C_25</full_name>
+      <url>data/stories/458.dfl</url>
+    </story>
+    <story story_id="57">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_66</publication_info>
+      <full_name>150 - 2.10 - DS_II_C_66</full_name>
+      <url>data/stories/57.dfl</url>
+    </story>
+    <story story_id="840">
+      <informant_id>472</informant_id>
+      <publication_info>DS_II_C_36</publication_info>
+      <full_name>472 - 0.00 - DS_II_C_36</full_name>
+      <url>data/stories/840.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en gang en j&#xE6;ger, han var s&#xE5; ivrig p&#xE5; jagten, at han &#xF8;nskede, han m&#xE5;tte jage til evig tid, s&#xE5; m&#xE5;tte Vorherre for ham beholde Himmerig. Hans &#xF8;nske opfyldtes ogs&#xE5;, s&#xE5; man endnu ved nattetid kan h&#xF8;re ham suse i luften, og hans tre hunde: Sink, Dink og Falli med gloende tunger ud af halsen f&#xF8;lger ham.</danish_publication>
+  <english_publication>Once there was a hunter, he was so eager to hunt, that he wished that he could hunt forever, then Our Lord could keep heaven. His wish was granted too, so one can hear him at night rush through the air, and his three dogs: Sink, Dink and Falli follow him with their glowing tongues hanging out of their mouths.</english_publication>
+  <keywords>
+    <keyword id="16" frequency="1" keyword="air">air</keyword>
+    <keyword id="343" frequency="1" keyword="dog">dog</keyword>
+    <keyword id="519" frequency="1" keyword="heaven">heaven</keyword>
+    <keyword id="550" frequency="1" keyword="hunter">hunter</keyword>
+    <keyword id="551" frequency="2" keyword="hunting">hunting</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="887" frequency="1" keyword="our_lord">Our Lord</keyword>
+    <keyword id="1123" frequency="1" keyword="sinking">sinking</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1268" frequency="1" keyword="tongue">tongue</keyword>
+    <keyword id="1350" frequency="1" keyword="wish">wish</keyword>
+  </keywords>
+  <etk_index id="4">
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

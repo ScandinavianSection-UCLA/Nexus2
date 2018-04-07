@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<story story_id="625">
+  <publication_info>DS_IV_1584</publication_info>
+  <full_name>48 - 0.00 - DS_IV_1584</full_name>
+  <informant_id>48</informant_id>
+  <informant_last_name>Ebbesen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Ebbesen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>139</place_id>
+      <name>Egtved</name>
+      <display_name>Egtved (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>505</place_id>
+      <name>Ry skov</name>
+      <display_name>Ry skov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="484">
+      <informant_id>346</informant_id>
+      <publication_info>DS_IV_1594</publication_info>
+      <full_name>346 - 0.00 - DS_IV_1594</full_name>
+      <url>data/stories/484.dfl</url>
+    </story>
+    <story story_id="605">
+      <informant_id>352</informant_id>
+      <publication_info>DS_IV_1566</publication_info>
+      <full_name>352 - 0.00 - DS_IV_1566</full_name>
+      <url>data/stories/605.dfl</url>
+    </story>
+    <story story_id="814">
+      <informant_id>351</informant_id>
+      <publication_info>DS_IV_1588</publication_info>
+      <full_name>351 - 0.00 - DS_IV_1588</full_name>
+      <url>data/stories/814.dfl</url>
+    </story>
+    <story story_id="160">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1592</publication_info>
+      <full_name>241 - 2.10 - DS_IV_1592</full_name>
+      <url>data/stories/160.dfl</url>
+    </story>
+    <story story_id="634">
+      <informant_id>108</informant_id>
+      <publication_info>DS_IV_1591</publication_info>
+      <full_name>108 - 0.00 - DS_IV_1591</full_name>
+      <url>data/stories/634.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var 12 r&#xF6;vere i Ry skov, og anf&#xF8;reren det var den trettende. Der gik en vej igjennem skoven, og de havde sp&#xE6;ndt snore med klokker ved, s&#xE5; de kunde h&#xF8;re, n&#xE5;r der kom nogen. De havde gjort akkord med Fanden, og s&#xE5; skulde han l&#xE6;re dem, hvordan de skulde b&#xE6;re dem ad med at komme til at flyve. De skulde have fat i en frugtsommelig kone og skj&#xE6;re barnet ud af hende, og var det s&#xE5; et drengebarn, skulde de tage hj&#xE6;rtet af det og spise, s&#xE5; kunde de flyve. S&#xE5; tog de f&#xF8;rst 13 kvinder af dage, men i dem alle var der pigeb&#xF6;rn, og det fik de da ikke noget ud af. Endelig var der en mand, som hed Store-Johan, han var noget i komplot med dem, og han solgte hans kone til dem. De bandt hende splittern&#xF8;gen til et tr&#xE6; og skulde s&#xE5; til at skj&#xE6;re i hende. Men i det samme kom der nogle herreg&#xE5;rdsskytter ridende, og de jog dem derfra, og s&#xE5; blev r&#xF6;verne fangede og manden med. Konen d&#xF8;de, og det viste sig, at hun var med to drengeb&#xF6;rn, men nu havde de jo ingen ting ud af det. Der er en vise om det, som a har h&#xF8;rt, men a v&#xE9;d ikke, om den er trykt.</danish_publication>
+  <english_publication>There were twelve robbers in Ry woods and their leader was the thirteenth. A road went through the woods and they had strung up a rope with bells on it so they could hear when somebody came by. They had made a pact with the devil and he was supposed to teach them what they needed to do so they could fly. They had to get hold of a pregnant woman and cut the child out of her, and if it was a male child, they were supposed to take its heart and eat it, then they could fly. So they killed thirteen women, but there were girls in all of them, and they didn&#x2019;t get much out of that. Finally there was a man who was called Store-Johan (Big Johan) who was in cahoots with them and he sold them his wife. They tied her stark-naked to a tree and were going to cut into her. But at that moment some riflemen from a manor farm came riding by and they chased them away and then the robbers and the man were caught. The woman died and it turned out that she was carrying two boys, but now they didn&#x2019;t get anything out of that. There&#x2019;s a ballad about that, which I&#x2019;ve heard, but I don&#x2019;t know if it has been printed.</english_publication>
+  <keywords>
+    <keyword id="67" frequency="1" keyword="ballad">ballad</keyword>
+    <keyword id="88" frequency="1" keyword="bells">bells</keyword>
+    <keyword id="95" frequency="1" keyword="big_johan">Big Johan</keyword>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="211" frequency="1" keyword="chase">chase</keyword>
+    <keyword id="219" frequency="2" keyword="children">children</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="324" frequency="1" keyword="devil">devil</keyword>
+    <keyword id="425" frequency="2" keyword="flying">flying</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="516" frequency="1" keyword="heart">heart</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="742" frequency="1" keyword="manor_farm">manor farm</keyword>
+    <keyword id="821" frequency="1" keyword="naked">naked</keyword>
+    <keyword id="893" frequency="1" keyword="pact">pact</keyword>
+    <keyword id="991" frequency="1" keyword="pregnant">pregnant</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1032" frequency="1" keyword="rifleman">rifleman</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1037" frequency="2" keyword="robber">robber</keyword>
+    <keyword id="1044" frequency="1" keyword="rope">rope</keyword>
+    <keyword id="1197" frequency="1" keyword="store_johan">Store Rohan</keyword>
+    <keyword id="1261" frequency="1" keyword="tie">tie</keyword>
+    <keyword id="1281" frequency="1" keyword="tree">tree</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+    <keyword id="1356" frequency="3" keyword="woman">woman</keyword>
+    <keyword id="1360" frequency="2" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="34" display_name="Places: Manor / Castle"/>
+    <tango_index id="46" display_name="Tools, Items and Conveyances: Bell"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="132" display_name="Actions or events: Pregnancy and birth"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

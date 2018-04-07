@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<story story_id="279">
+  <publication_info>Fab_0_531</publication_info>
+  <full_name>235 - 1.58 - Fab_0_531</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.58</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>8</place_id>
+      <name>Aarhus</name>
+      <display_name>Aarhus (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>322</place_id>
+      <name>Karlby</name>
+      <display_name>Karlby (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="32">
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_781</publication_info>
+      <full_name>150 - 1.29 - JAT_VI_781</full_name>
+      <url>data/stories/32.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5229a (2)</fielddiary_page_start>
+  <fielddiary_page_end>5229a (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Tang Kristensen's interest in local pronunciations and dialect inform this story. The story is not much of a story, and relies entirely on the reproduction of drunken dialect for its humorous effect.</annotation>
+  <danish_manuscript>M&#xE6;nd i Karlby kj&#xF8;rte ti Aarhus, de var
+fordrukne: De br&#xF8;lte: Ho! a vinder &#xE5;lder
+ti B&#xF8;j. S. s. Manden: N&#xE6; vi komme te
+bos, s ska du n&#xE5;k blyw snuer. Drak
+sig fuld. Hjem og rask: Do l&#xE5;wt m&#xE6; nod
+a f&#xE6;k et it, do l&#xE5;wt m&#xE6; nood....</danish_manuscript>
+  <english_manuscript>Some men from Karlby drove to Aarhus and they were drunk: Ha! We never go to town. Then the man said: When we get to town, you'll get greased up. Home and quickly: You promised me something, but I didn't get it, you promised me...</english_manuscript>
+  <danish_publication>M&#xE6;ndene i Karlby var meget fordrukne. N&#xE5;r de kj&#xF8;rte til &#xC5;rhus, s&#xE5; br&#xF8;lte Vognhjulene: "Hoo! a vinder &#xE5;lder te B&#xF8;j." Dertil svarede Manden: "N&#xE6;e vi komme te Oos, s&#xE5; ska du n&#xE5;k blyw smuer." Men s&#xE5; drak han sig fuld og glemte at sm&#xF8;re. Nu gik det rask hjemad, og da sagde Hjulene: "Do l&#xE5;wt m&#xE6; nood, a f&#xE6;k et it, do l&#xE5;wt m&#xE6; nood, men a f&#xE6;k et it."</danish_publication>
+  <english_publication>The men in Karlby were real drunks. When they drove to &#xC5;rhus, the wagon wheels roared, &#x201C;Hoo! We never go to town.&#x201D; To that, the man answered, &#x201C;When we get to town, then you&#x2019;ll get greased.&#x201D; But then he got drunk and forgot to grease them. Then they drove really fast on the way home, and then the wheels said, &#x201C;You promised me something, but I didn&#x2019;t get it, you promised me something, but I didn&#x2019;t get it.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="359" frequency="2" keyword="drunkard">drunkard</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="1275" frequency="2" keyword="town">town</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+    <keyword id="1335" frequency="2" keyword="wheel">wheel</keyword>
+  </keywords>
+  <etk_index id="46">
+    <heading_danish>Naturlyd</heading_danish>
+    <heading_english>Nature sounds</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="11" name="Jocular Tale"/>
+</story>

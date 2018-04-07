@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<story story_id="206">
+  <publication_info>DSnr_I_861</publication_info>
+  <full_name>241 - 4.34 - DSnr_I_861</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>4.34</order_told>
+  <fieldtrip id="8">May-June 1898</fieldtrip>
+  <fieldtrip_start_date>1898-05-23</fieldtrip_start_date>
+  <fieldtrip_end_date>1898-06-08</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>78</place_id>
+      <name>Borup</name>
+      <display_name>Borup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>629</place_id>
+      <name>T&#xE5;rs</name>
+      <display_name>T&#xE5;rs (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="184">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_286</publication_info>
+      <full_name>241 - 4.12 - DSnr_I_286</full_name>
+      <url>data/stories/184.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7817a</fielddiary_page_start>
+  <fielddiary_page_end>7817b</fielddiary_page_end>
+  <bibliographic_info>Boberg 1934
+Boberg 1938</bibliographic_info>
+  <bibliography_references>
+    <reference id="167" category="general">
+      <display_string>[Book] Boberg, Inger M. 1938. &lt;i&gt;Bj&#xE6;rgfolkenes bagning. Sagntypen "grissel og rage." En sagnunders&#xF8;gelse (Danmarks folkeminder)&lt;/i&gt;. Copenhagen: Det Sch&#xF8;nbergske forlag.</display_string>
+    </reference>
+    <reference id="164" category="general">
+      <display_string>[Book] Boberg, Inger M. 1934. &lt;i&gt;Sagnet om den store Pans d&#xF8;d&lt;/i&gt;. Copenhagen: Levin og Munksgaards Forlag.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The unusual phrase that is shouted from inside the mound is similar to the nearly incomprehensible death message in the Pan's Death legends (JPP 4.12). In this case, the girl has unwittingly placed herself over the mound dwellers' chimney (smoke hole), and they need to chase her away so they can continue their work. The story, then, is closely related to stories of the mound dwellers' baking and confirms that mound dwellers live in a society quite similar to human society.</annotation>
+  <danish_manuscript>Der er en H&#xF8;j paa Borup Mark
+i Taars. Hjorderne var forsamlet
+en 10. 12. de drev jo sammen den
+g. for det var ikke skilt ud. S. var
+der en Pige der sad midt i et Hul
+i H&#xF8;jen og havde et graat T&#xF8;rkl&#xE6;
+de over Hovedet. S. raaber det nede 
+i H&#xF8;jen og det h&#xF8;rte de allesammen,
+H&#xF8;vrerne, for det snakk min Moder
+
+7817B
+tit om. Aa tag den store Skum
+ske og rag det graa Fjolter af
+Lyren med, og s. med det samme
+var det ligesom hu var overslagen
+med ene Skum fra det &#xF8;verste og
+til det nederste. Men fra den
+Dag kom Hjorderne aldrig paa den
+H&#xF8;j mere. Min Moder var med.
+og hun sagde det var en Husmands
+Datter, hu sagde ogsaa hvis Datter
+det var.
+</danish_manuscript>
+  <english_manuscript>There's a mound on Borup field in Taars. Ten or twelve shepherds were gathered there one day, they drove their sheep together because the fields weren't separated at that time. Then there was a girl, she sat in the middle of a hole in the mound and had a gray scarf over her head. Then there's shouting down in the mound, and the shepherds all heard it, because my mother talked about this often: "Hey, take the big skimming spoon and chase the silly gray girl from the smoke hole." Then all of a sudden it was as if she'd been hit with skimmed fat from her head to her toe. From that day on the shepherds never went up on that mound again. My mother was along with them and she said it was a cotter's daughter, and she said whose daughter it was.</english_manuscript>
+  <danish_publication>Der er en H&#xF8;j paa Borup Mark i Taars, hvor der var en 10, 12 H&#xF8;vrer forsamlede en Dag og sad og snakkede sammen, for Markerne var jo ikke skilt ud den Gang, og saa drev de jo sammen med H&#xF8;vderne. Saa var der en Pige, hun sad midt i et Hul i H&#xF8;jen og havde et graat T&#xF8;rkl&#xE6;de over Hovedet. Min Moder var med og sagde siden, at det var en Husmandsdatter; hun sagde for Resten ogsaa, hvis Datter det var. Da raaber det nede i H&#xF8;jen, og H&#xF8;vrerne h&#xF8;rte det allesammen, for det snakkede min Moder saa tit om: "Aa, tag den store Skumske og rag det graa Fjolter af Lyren med." Saa med det samme var det, ligesom hun var overslagen med ene Skum fra det &#xF8;verste og til det nederste. Nu kan det nok v&#xE6;re, de kom af Sted i en Fart, og fra den Dag kom H&#xF8;vrerne aldrig paa den H&#xF8;j mere.</danish_publication>
+  <english_publication>There&#x2019;s a mound on Borup field in Taars, where ten or twelve shepherds met one day and sat and talked, because the fields weren&#x2019;t separated at that time, and so they drove their sheep together. Then there was a girl, she sat in the middle of a hole in the mound and had a gray scarf over her head. My mother was along and said later that it was the daughter of a cotter; she also said whose daughter it was. Then there&#x2019;s shouting down in the mound, and the shepherds all heard it, because my mother talked about this often: &#x201C;Hey, take the big skimming spoon and chase the silly gray girl from the smoke hole.&#x201D; Then all of a sudden it was as if she&#x2019;d been hit with skimmed fat from her head to her toe. Then they got out of there in a hurry and from that day on the shepherds never went up on that mound again.</english_publication>
+  <keywords>
+    <keyword id="211" frequency="1" keyword="chase">chase</keyword>
+    <keyword id="264" frequency="1" keyword="cotter">cotter</keyword>
+    <keyword id="304" frequency="2" keyword="daughter">daughter</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="398" frequency="1" keyword="fat">fat</keyword>
+    <keyword id="410" frequency="2" keyword="field">field</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="803" frequency="2" keyword="mother">mother</keyword>
+    <keyword id="804" frequency="4" keyword="mound">mound</keyword>
+    <keyword id="1073" frequency="1" keyword="scarf">scarf</keyword>
+    <keyword id="1095" frequency="1" keyword="sheep">sheep</keyword>
+    <keyword id="1099" frequency="3" keyword="shepherd">shepherd</keyword>
+    <keyword id="1147" frequency="1" keyword="smoke">smoke</keyword>
+    <keyword id="1176" frequency="1" keyword="spoon">spoon</keyword>
+    <keyword id="1266" frequency="1" keyword="toe">toe</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="52" display_name="Tools, Items and Conveyances: Tools"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="77" display_name="Animals: Sheep"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

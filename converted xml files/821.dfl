@@ -1,0 +1,71 @@
+<story><story_id>821</story_id>
+  <publication_info>DS_I_1413</publication_info>
+  <full_name>69 - 0.00 - DS_I_1413</full_name>
+  <informant_id>69</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#248;ren</informant_first_name>
+  <informant_full_name>S&#248;ren Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>243</place_id>
+      <name>H&#229;rup</name>
+      <display_name>H&#229;rup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>511</place_id>
+      <name>Sale</name>
+      <display_name>Sale (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>328</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_I_1412</publication_info>
+      <full_name>90 - 1.05 - DS_I_1412</full_name>
+      <url>data/stories/328.dfl</url>
+    </story>
+    <story><story_id>757</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1414</publication_info>
+      <full_name>348 - 0.00 - DS_I_1414</full_name>
+      <url>data/stories/757.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Henne ved Sale der var en bj&#230;rgmand. S&#229; skulde en mand t&#230;t ved have barn i kirke og b&#248;d ogs&#229; bj&#230;rgmanden. Han spurgte, om Vorherre og sankt Peder skulde med. "Ja, s&#229; kommer a ikke, for a var ude den anden dag, og da smed han en trommestik fra sig og slog mit ene ben i stykker. Men a skal nok give dig faddergave alligevel," og s&#229; gav han en hel pose fuld af penge.</danish_publication>
+  <english_publication>There was a mound man over in Sale. A man who lived nearby was going to bring his child to church and he invited the mound man as well. He asked if Our Lord and St. Peder were going to be there. "Well, then I won't come, because I was out another time, and he threw a drumstick at me and broke one of my legs. But I'll give you a baptism gift anyway," and he gave a whole bag of money.</english_publication>
+  <keywords>
+    <keyword><id>63</id><frequency>1</frequency><keyword>bags</keyword>bags</keyword>
+    <keyword><id>70</id><frequency>1</frequency><keyword>baptism</keyword>baptism</keyword>
+    <keyword><id>219</id><frequency>1</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>466</id><frequency>1</frequency><keyword>gift</keyword>gift</keyword>
+    <keyword><id>704</id><frequency>1</frequency><keyword>leg</keyword>leg</keyword>
+    <keyword><id>793</id><frequency>1</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>807</id><frequency>2</frequency><keyword>mound_man</keyword>mound man</keyword>
+    <keyword><id>887</id><frequency>1</frequency><keyword>our_lord</keyword>Our Lord</keyword>
+    <keyword><id>925</id><frequency>1</frequency><keyword>peder</keyword>peder</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>80</id><display_name>Actions or events: Church ceremony</display_name></tango_index>
+    <tango_index><id>86</id><display_name>Actions or events: Feast / Celebration</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

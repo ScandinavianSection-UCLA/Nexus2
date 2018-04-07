@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<story story_id="677">
+  <publication_info>DS_IV_146</publication_info>
+  <full_name>496 - 0.00 - DS_IV_146</full_name>
+  <informant_id>496</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>M. C.</informant_first_name>
+  <informant_full_name>L&#xE6;rer M. C. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>750</place_id>
+      <name>B&#xE6;lum</name>
+      <display_name>B&#xE6;lum (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>103</place_id>
+      <name>Buderupholm</name>
+      <display_name>Buderupholm (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>126</place_id>
+      <name>Dronningens h&#xF8;j</name>
+      <display_name>Dronningens h&#xF8;j (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>542</place_id>
+      <name>Skj&#xF8;rping</name>
+      <display_name>Skj&#xF8;rping (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="28">
+      <informant_id>150</informant_id>
+      <publication_info>DS_IV_149</publication_info>
+      <full_name>150 - 1.25 - DS_IV_149</full_name>
+      <url>data/stories/28.dfl</url>
+    </story>
+    <story story_id="30">
+      <informant_id>150</informant_id>
+      <publication_info>DS_IV_149</publication_info>
+      <full_name>150 - 1.27 - DS_IV_149</full_name>
+      <url>data/stories/30.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Skj&#xF6;rping sogn inde i Buderupholms skov er en plads, der kaldes Skj&#xF6;rping holme og er omgivet af volde og grave. Her skal der i dronning Margretes tid have v&#xE6;ret en r&#xF8;verbande, der drev sit uv&#xE6;sen fra en velbef&#xE6;stet borg. Om s&#xF8;ndagen s&#xF6;gte de til en af de omliggende kirker, hvor de lod, som om de var meget gudfrygtige; men p&#xE5; hjemvejen r&#xF8;vede og plyndrede de vidt og bredt. Ingen kunde s&#xE6;tte sig til modv&#xE6;rge, ti r&#xF8;verne var for mandst&#xE6;rke over for de d&#xE5;rligt bev&#xE6;bnede b&#xF8;nder. I denne n&#xF8;d sendte omegnens almue da bud til dronning Margrete om hj&#xE6;lp. Hun kom ogs&#xE5; med et vel bev&#xE6;bnet f&#xF8;lge just en s&#xF8;ndag, som r&#xF8;verne var i kirke. For at disse nu ikke skulde ane ur&#xE5;d, lod Margrete skoene p&#xE5; sine f&#xF8;lgesvendes heste vende om, s&#xE5;ledes at hagerne kom til at vende frem ad, og p&#xE5; denne m&#xE5;de red de ind i r&#xF8;verborgen. R&#xF8;verne kunde ved deres hjemkomst ikke se andet end spor af udadg&#xE5;ende heste, og da de troede, at det var af deres egne, red de ubekymrede ind i g&#xE5;rden. Men her blev de modtagne s&#xE5; varmt af dronningens ryttere, at de ikke kom til at gj&#xF8;re flere udflugter; og medens dette stod p&#xE5;, sad dronning Margrete p&#xE5; en h&#xF6;j udenfor borgen, hvorfra hun kunde overse det hele. Borgen blev &#xF8;delagt, men tomten og voldresterne p&#xE5;vises endnu, s&#xE5;vel som den h&#xF6;j, hvorfra dronningen overs&#xE5; tildragelsen, og som siden den tid b&#xE6;rer navnet Dronningens h&#xF6;j. </danish_publication>
+  <english_publication>In Sk&#xF8;rping parish, in Buderupholm forest, there's a place called Sk&#xF8;rping holme, and it is surrounded by moats and walls. During Queen Margrete's time, there was supposed to have been a robber band that worked out of a well-fortified fort. On Sunday, they would go to one of the nearby churches where they pretended to be very pious; but on the way home they would rob and plunder widely. No one could take them on since they were too strong for the poorly armed peasants. In their need, the local peasantry sent a call for help to Queen Margrete. She came with a well-armed group one Sunday when the robbers were at church. So they wouldn't realize something was up, she had her troops put their horseshoes on backwards so that the heel faced forward, and they rode into the robbers' fort that way. When they got back, the robbers couldn't see anything other than horse tracks going out of the fort, so they thought they were their own, and they rode into the fort without worry. But here they got such a warm reception from the Queen's knights that they never went on any more expeditions; and while this was going on, Margrete sat on a mound outside of the fort where she could observe everything. The fort was destroyed, but the field and the ruins of the walls can still be seen, as well as the mound where the Queen watched the events, and to this day it still carries the name the Queen's Mound.</english_publication>
+  <keywords>
+    <keyword id="45" frequency="2" keyword="armed">armed</keyword>
+    <keyword id="227" frequency="2" keyword="church">church</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="439" frequency="7" keyword="fort">fort</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="547" frequency="1" keyword="horseshoe">horseshoe</keyword>
+    <keyword id="639" frequency="1" keyword="knight">knight</keyword>
+    <keyword id="747" frequency="3" keyword="margrete">Margrete</keyword>
+    <keyword id="790" frequency="1" keyword="moat">moat</keyword>
+    <keyword id="804" frequency="3" keyword="mound">mound</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="921" frequency="2" keyword="peasantry">peasantry</keyword>
+    <keyword id="953" frequency="1" keyword="pious">pious</keyword>
+    <keyword id="968" frequency="1" keyword="plunder">plunder</keyword>
+    <keyword id="1007" frequency="5" keyword="queen">queen</keyword>
+    <keyword id="1030" frequency="2" keyword="riding">riding</keyword>
+    <keyword id="1037" frequency="4" keyword="robber">robber</keyword>
+    <keyword id="1039" frequency="1" keyword="robbery">robbery</keyword>
+    <keyword id="1053" frequency="1" keyword="ruins">ruins</keyword>
+    <keyword id="1209" frequency="1" keyword="strength">strength</keyword>
+    <keyword id="1218" frequency="2" keyword="sunday">Sunday</keyword>
+    <keyword id="1313" frequency="2" keyword="walls">walls</keyword>
+  </keywords>
+  <etk_index id="16">
+    <heading_danish>Sm&#xE5;konger og deres fejder. Konger. Fjenders indfald</heading_danish>
+    <heading_english>Small kings and their feuds. Kings. Enemy invasions</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="80" display_name="Actions or events: Church ceremony"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="102" display_name="Time, Season, Weather: Sunday"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

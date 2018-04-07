@@ -1,0 +1,65 @@
+<story><story_id>670</story_id>
+  <publication_info>DS_V_155</publication_info>
+  <full_name>110 - 0.00 - DS_V_155</full_name>
+  <informant_id>110</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Lavst</informant_first_name>
+  <informant_full_name>Lavst Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>813</place_id>
+      <name>Kokholm</name>
+      <display_name>Kokholm (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>469</story_id>
+      <informant_id>484</informant_id>
+      <publication_info>DS_V_146</publication_info>
+      <full_name>484 - 0.00 - DS_V_146</full_name>
+      <url>data/stories/469.dfl</url>
+    </story>
+    <story><story_id>697</story_id>
+      <informant_id>503</informant_id>
+      <publication_info>DS_V_177</publication_info>
+      <full_name>503 - 0.00 - DS_V_177</full_name>
+      <url>data/stories/697.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Ligesom solen var g&#229;et ned, s&#229; a en aften her i dalen s&#248;nden for to menneskeskikkelser, en grumme stor karl og et ussel bitte fruentimmer, der gik vester p&#229;. Han tog ved hende og h&#230;ldte sig over imod hende, og s&#229; pludrede de s&#229;dan. Det slog s&#229;dan tykken for mine &#246;jne, og da den lettede sig, s&#229; a dem. Men hvad de snakkede om, v&#233;d a ikke. A gik lige frem s&#248;nder imod dem, men de blev ved vester p&#229;. Der var et tyndt lag sne p&#229;, og a lagde straks m&#230;rke til, at mine spor s&#229; s&#229; tydelig i sneen, men deres var ikke synt, og s&#229; kom a jo i tanker om, at det var noget skidteri.</danish_publication>
+  <english_publication>Just as the sun had set, I saw in the southern part of the dale two human forms, a very big farmhand and a miserable little woman, who were walking west. He took hold of her and leaned over her and they plodded along like that. It got thick before my eyes and when it got lighter, I saw them. But what they were talking about, I don&#8217;t know. I went to the south right towards them but they continued off to the west. There was a thin layer of snow on the ground and I noticed immediately that my tracks were really clear in the snow but you couldn&#8217;t see theirs, and then I realized that it was some sort of evilness.</english_publication>
+  <keywords>
+    <keyword><id>294</id><frequency>1</frequency><keyword>dale</keyword>dale</keyword>
+    <keyword><id>387</id><frequency>1</frequency><keyword>evil</keyword>evil</keyword>
+    <keyword><id>389</id><frequency>1</frequency><keyword>eye</keyword>eye</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>1150</id><frequency>2</frequency><keyword>snow</keyword>snow</keyword>
+    <keyword><id>1167</id><frequency>2</frequency><keyword>south</keyword>south</keyword>
+    <keyword><id>1217</id><frequency>1</frequency><keyword>sun</keyword>sun</keyword>
+    <keyword><id>1252</id><frequency>1</frequency><keyword>thin</keyword>thin</keyword>
+    <keyword><id>1331</id><frequency>2</frequency><keyword>west</keyword>west</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

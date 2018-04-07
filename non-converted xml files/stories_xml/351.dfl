@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<story story_id="351">
+  <publication_info>DS_II_H_34</publication_info>
+  <full_name>90 - 2.19 - DS_II_H_34</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>2.19</order_told>
+  <fieldtrip id="9">October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>540</place_id>
+      <name>Skj&#xF8;dstrup</name>
+      <display_name>Skj&#xF8;dstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="515">
+      <informant_id>429</informant_id>
+      <publication_info>DS_V_234</publication_info>
+      <full_name>429 - 0.00 - DS_V_234</full_name>
+      <url>data/stories/515.dfl</url>
+    </story>
+    <story story_id="842">
+      <informant_id>437</informant_id>
+      <publication_info>DS_V_97</publication_info>
+      <full_name>437 - 0.00 - DS_V_97</full_name>
+      <url>data/stories/842.dfl</url>
+    </story>
+    <story story_id="355">
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_51</publication_info>
+      <full_name>90 - 3.01 - DS_V_51</full_name>
+      <url>data/stories/355.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4787a</fielddiary_page_start>
+  <fielddiary_page_end>4787b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Foxes and pigs are unusual omens, while the liglam  (corpse lamb) is more widely attested. In normal situations, these animals are unremarkable but when they appear in unusual places or have unexpected characteristics as they do here, they represent a threat to individual well-being and, by extension, social and economic organization. 
+
+      Margrete's father fortuitously escapes from the threatening animals, but Margrete provides no clear strategy for dealing with such encounters. She emphasized the role of the corpse lamb as an omen to a greater degree in this telling than in a version of the story she told five years later (AMJ 3.01).</annotation>
+  <danish_manuscript>En gang min Fader vilde gaa i Byen, kom 
+h. om ved en grumme stor R&#xE6;v der str&#xF8;g
+ham paa Benene. Det var ingen rigtig R&#xE6;v
+men den vilde have ham til at f&#xF8;lge med
+ned til Kats&#xE5;endet, det var en Dame der
+var i By. S. vilde R&#xE6;ven have sk&#xE5;dt min Fader 
+derned. Men s. bad h. om at blive
+4787B
+fri. Da h. gik hjem, s. kom der en stor So til
+ham i den var St&#xF8;rrelse som en [R&#xE6;v] Hest og
+s. blev h. s. r&#xE6;d, ti det var farligt. Men 
+da h blev r&#xE6;d, blev den s. bitte ti det var
+ikke st&#xF8;rre end et Liglam. Boede lige
+overfor Kirkegaarden. Vilde f&#xF8;lge med ham
+op til Kirkeporten og s. blev det henne for
+ham der.
+</danish_manuscript>
+  <english_manuscript>One time my father wanted to go to town, he ran into a really big fox that rubbed up against his legs. It wasn't a real fox, and it wanted him to follow it to Kats&#xE5;endet [Katsandet], there was a pond in the town called that. Then the fox wanted to push him down there, but he asked to be allowed to go free. When he was walking home, a big sow came up to him, it was the size of a horse, and he got so frightened because it was so dangerous. When he got scared, it got so little that it wasn't bigger than a corpse lamb. He lived right across from the cemetery. It wanted to follow him up to the church gate, and it disappeared there.</english_manuscript>
+  <danish_publication>En gang min fader vilde g&#xE5; i byen, kom han om ved en grumme stor r&#xE6;v, der str&#xF8;g ham p&#xE5; benene. Det var dog ingen rigtig r&#xE6;v, og den vilde have ham til at f&#xF8;lge med til Katsandet, det var en dam i byen, der kaldtes s&#xE5;dan. S&#xE5; vilde r&#xE6;ven have sk&#xE5;dt min fader der ned, men han bad om at blive fri. Da han gik hjem, kom der en stor so til ham; den var af st&#xF6;rrelse som en hest. Han blev nu s&#xE5; r&#xE6;d, te det var farligt, men da blev den s&#xE5; bitte, te den var ikke st&#xF6;rre end et liglam. Det vilde f&#xF8;lge med ham op til kirkeporten, han boede lige over for kirkeg&#xE5;rden, og s&#xE5; blev det henne for ham d&#xE9;r.</danish_publication>
+  <english_publication>One time my father wanted to go to town, he ran into a really big fox that rubbed up against his legs. It wasn&#x2019;t a real fox, and it wanted him to follow it to Kats&#xE5;endet [Katsandet], there was a pond in the town called that. Then the fox wanted to push him down there, but he asked to be allowed to go free. When he was on his way home, a big sow came up to him; it was the size of a horse. He got so scared because it was so frightening, then it became so little that it wasn&#x2019;t bigger than a corpse lamb. It wanted to follow him up to the church gate, he lived right across from the cemetery, and then it disappeared there. </english_publication>
+  <keywords>
+    <keyword id="19" frequency="1" keyword="allow">allow</keyword>
+    <keyword id="196" frequency="1" keyword="cemetery">cemetery</keyword>
+    <keyword id="228" frequency="1" keyword="church_gate">church gate</keyword>
+    <keyword id="263" frequency="1" keyword="corpse_lamb">corpse lamb</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="441" frequency="3" keyword="fox">fox</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="973" frequency="1" keyword="pond">pond</keyword>
+    <keyword id="1170" frequency="1" keyword="sow">sow</keyword>
+    <keyword id="1275" frequency="2" keyword="town">town</keyword>
+  </keywords>
+  <etk_index id="9">
+    <heading_danish>D&#xF8;dsvarsler</heading_danish>
+    <heading_english>Death portents</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="78" display_name="Animals: Swine"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="136" display_name="Animals: Wild"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

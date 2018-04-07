@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<story story_id="107">
+  <publication_info>FK_0_2</publication_info>
+  <full_name>150 - 3.44 - FK_0_2</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.44</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>492</place_id>
+      <name>Rold</name>
+      <display_name>Rold (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="104">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_84</publication_info>
+      <full_name>150 - 3.41 - JAH_I_84</full_name>
+      <url>data/stories/104.dfl</url>
+    </story>
+    <story story_id="108">
+      <informant_id>150</informant_id>
+      <publication_info>DSnr_IV_452</publication_info>
+      <full_name>150 - 3.45 - DSnr_IV_452</full_name>
+      <url>data/stories/108.dfl</url>
+    </story>
+    <story story_id="144">
+      <informant_id>241</informant_id>
+      <publication_info>FK_0_400</publication_info>
+      <full_name>241 - 1.03 - FK_0_400</full_name>
+      <url>data/stories/144.dfl</url>
+    </story>
+    <story story_id="105">
+      <informant_id>150</informant_id>
+      <publication_info>FK_0_551</publication_info>
+      <full_name>150 - 3.42 - FK_0_551</full_name>
+      <url>data/stories/105.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4105a</fielddiary_page_start>
+  <fielddiary_page_end>4105b</fielddiary_page_end>
+  <bibliographic_info>Woods 1959.</bibliographic_info>
+  <bibliography_references>
+    <reference id="155" category="general">
+      <display_string>[Book] Woods, Barbara Allen. 1959. &lt;i&gt;The Devil in dog form. A partial type-index of Devil legends (Folklore studies)&lt;/i&gt;. Berkeley: University of California Press.</display_string>
+    </reference>
+    <reference id="916" category="general">
+      <display_string>[Article] Georges, Robert A. 1981. Do Narrators Really Digress? A Reconsideration of "Audience Asides" in Narrating. Vol. 40 of &lt;i&gt;Western Folklore&lt;/i&gt;, 245-252.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The next two stories in Jens's repertoire (BJK 3.44 and BJK 3.45) play on the foolishness of the minister in Rold alluded to in the previous humorous statement (BJK 3.41). In this story, the parish clerk plays a prank on the minister, highlighting the perceived tension that existed between the parish clerk and the minister. The minister, caught off guard, loses his most important possession, first to the soup pot and then to the dog. The story also plays on the motif of the devil in dog form (Woods 1958), but this dog is hardly Satanic. 
+
+     The minister's amusing sermon to the parish relies on the common formulation "falde til F&#xF8;je og Takke," [submit and be thankful], but adds the absurd proposition that God's words are found in a dog's behind, a literal representation of what had happened but utterly incomprehensible--in fact blasphemous--in the context of a sermon. In that sense, the Rold minister's statement is reminiscent of the minister who described the antics of a runaway cow during a funeral (JPP 1.03).
+
+     This story is broken up in the manuscript, appearing unexpectedly after the episode in the preceding storyin which the shepherd agrees to stand in for the minister in Rold (BJK 3.42). It is likely that Jens digressed from his original story to tell this story, and then picked up with the shepherd confronting the king. The beginning of this story is not set off from the preceding in the manuscript, but after it ends, there is a short dash, before the other story begins once again.</annotation>
+  <danish_manuscript>Vidste ikke hvordan Tiden gik. Vilde have en... Birkelime hver Dag, mens h. gik der ude, om
+S&#xF8;ndagen skulde h. jo i Kirke S. faar Degnen
+fat i hvordan det havde sig og da h. nu t&#xE6;l
+ler hans Limer hver Morgen, s. har Degnen
+stjaalet en fra ham. Tror det er L&#xF8;verdag
+Kommer ned i Ellekj&#xE6;rnen med H&#xF8;vderne og
+beg. at skj&#xE6;re l&#xF8;s paa Birken, beg. Deg-
+nen at ringe. Maa kyle alting fra sig og
+rende hjem. Jager sig i Kl&#xE6;derne og Bog under
+Armen. Pigen ved at koge Kaal. Hun skal
+&#xF8;se nogle Kaal op at svales og der falder
+Bogen fra ham ned i Kaalgryden, og Fadet
+stod ved Siden af mens h. s&#xF8;b. lagde 
+den paa en trebenet Stol. Kom Sulten
+Hund og snappede den. Da h. kom i Kirken
+sagde h. De fik at falde til f&#xF8;je og tage
+til Takke for det rene Guds ord var i Hunde
+ast.</danish_manuscript>
+  <english_manuscript>Didn't know how time went. Birch bundle each day while he went out there, on Sundays he was to go to church. Then the parish clerk discovers what is going on and since he counts his bundles every morning, the parish clerk has stolen one from him. Thinks it is a Saturday. Goes down to the alder meadow with the cattle and begins to cut away at the birch trees, the parish clerk begins to ring. Has to drop everything and run home. Hurries into the vestments and the book under the arm. The girl is cooking cabbage. She is to ladle some cabbage up for him to swallow and the book falls from him into the cabbage pot, and the pot stood there beside him while he slurped it up. Lay it on a three-legged stool. A hungry dog came and snapped it up. They should submit and be thankful since God's true words were in a dog's behind.</english_manuscript>
+  <danish_publication>Rold Pr&#xE6;st, vidste ikke, hvordan Tiden gik, og hvornaar han skulde i Kirke. Saa fandt han paa at lave Sig en Birkelime hver Dag, mens han gik der ude i Gaarden og arbejdede, og naar han havde syv, saa vidste han, at det var S&#xF8;ndag. Degnen faar fat i, hvordan det havde sig, og saa gaar han hen og stj&#xE6;ler &#xE9;n fra ham. Da Pr&#xE6;sten nu t&#xE6;ller hans Limer hver Morgen, tror han jo, det er L&#xF8;verdag, og saa er det endda S&#xF8;ndag. Da han nu kommer ned i Ellekj&#xE6;rene med h&#xF8;vderne og begynder at skj&#xE6;re l&#xF8;s paa Birkene, begynder Degnen at ringe. Han bliver jo forbavset og maa kyle alting fra sig og render hjem. I en Fart jager han sig i Kl&#xE6;derne og faar hans Bog under Armen. Men han skulde jo have lidt at spise, inden han gik op til Kirken, og da pigen var ved at koge Kaal, saa skal hun &#xF8;se nogle op til ham, der kunde staa og svales lidt. Fadet stod ved Siden af Kaalgryden, og mens han nu s&#xF8;b, faldt Bogen fra ham ned i Gryden. Han fik den fisket op igjen, og saa lagde han den paa en trebenet Stol. I det samme kom der en sulten hund og Snappede den, for den var jo gjennemtrukken nu af Fedt. Da han kom i Kirken, sagde han, de fik falde tit F&#xF8;je og tage til Takke, for det rene Guds Ord var i hundeast.</danish_publication>
+  <english_publication>Rold minister didn&#x2019;t know how the time went, and didn't remember when he was supposed to be in church. Then he figured out a system. He'd make himself a birch bundle each day while he went out there and worked on the farm, and when he had seven, then he knew that it was Sunday. The parish clerk discovers what was going on, and so he goes and steals one of the bundles from him. Since the minister counts his bundles every morning, he thinks that it is Saturday and it is actually Sunday. Now when he gets down to the alder meadow with the cattle and begins to cut away at the birch trees, the parish clerk begins ringing. He gets surprised and has to drop everything and runs home. He hurries into his vestments and gets his book under his arm. But he needed a little to eat before he goes up to the church, and since the girl was cooking cabbage, she has to ladle some out for him, he could stand there and swallow a bit. The dish was standing beside the cabbage pot and while he was slurping it up, his book fell into the pot. He fished it out again and then he put it on a three-legged stool. At that moment a hungry dog came and snapped it up, since it was soaked through with fat. When he got to the church, he said that they should submit and be thankful, since God&#x2019;s true words were in a dog&#x2019;s behind.</english_publication>
+  <keywords>
+    <keyword id="17" frequency="1" keyword="alderwood">alderwood</keyword>
+    <keyword id="46" frequency="1" keyword="arms">arms</keyword>
+    <keyword id="98" frequency="2" keyword="birch">birch</keyword>
+    <keyword id="123" frequency="2" keyword="books">books</keyword>
+    <keyword id="165" frequency="2" keyword="cabbage">cabbage</keyword>
+    <keyword id="190" frequency="1" keyword="cattle">cattle</keyword>
+    <keyword id="227" frequency="3" keyword="church">church</keyword>
+    <keyword id="257" frequency="1" keyword="cooking">cooking</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="333" frequency="1" keyword="discovery">discovery</keyword>
+    <keyword id="343" frequency="2" keyword="dog">dog</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="398" frequency="1" keyword="fat">fat</keyword>
+    <keyword id="416" frequency="1" keyword="fishing">fishing</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="472" frequency="1" keyword="god">god</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="549" frequency="1" keyword="hungry">hungry</keyword>
+    <keyword id="764" frequency="1" keyword="meadow">meadow</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="904" frequency="2" keyword="parish_clerk">parish clerk</keyword>
+    <keyword id="981" frequency="2" keyword="pot">pot</keyword>
+    <keyword id="1033" frequency="1" keyword="ringing">ringing</keyword>
+    <keyword id="1069" frequency="1" keyword="saturday">Saturday</keyword>
+    <keyword id="1089" frequency="1" keyword="seven">seven</keyword>
+    <keyword id="1218" frequency="2" keyword="sunday">Sunday</keyword>
+    <keyword id="1246" frequency="1" keyword="thank">thank</keyword>
+    <keyword id="1248" frequency="1" keyword="theft">theft</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1281" frequency="1" keyword="tree">tree</keyword>
+    <keyword id="1296" frequency="1" keyword="vestments">vestments</keyword>
+  </keywords>
+  <etk_index id="39">
+    <heading_danish>Vore f&#xE6;dres kirketjeneste</heading_danish>
+    <heading_english>Our forebears' Church services</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="16" display_name="People: Parish Clerk"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="46" display_name="Tools, Items and Conveyances: Bell"/>
+    <tango_index id="48" display_name="Tools, Items and Conveyances: Books"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="80" display_name="Actions or events: Church ceremony"/>
+    <tango_index id="102" display_name="Time, Season, Weather: Sunday"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="11" name="Jocular Tale"/>
+</story>

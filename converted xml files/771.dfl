@@ -1,0 +1,68 @@
+<story><story_id>771</story_id>
+  <publication_info>DS_II_G_107</publication_info>
+  <full_name>349 - 0.00 - DS_II_G_107</full_name>
+  <informant_id>349</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>P.</informant_first_name>
+  <informant_full_name>L&#230;rer P. Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>818</place_id>
+      <name>Kvols</name>
+      <display_name>Kvols (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>128</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_G_100</publication_info>
+      <full_name>150 - 4.17 - DS_II_G_100</full_name>
+      <url>data/stories/128.dfl</url>
+    </story>
+    <story><story_id>724</story_id>
+      <informant_id>205</informant_id>
+      <publication_info>DS_II_G_102</publication_info>
+      <full_name>205 - 0.00 - DS_II_G_102</full_name>
+      <url>data/stories/724.dfl</url>
+    </story>
+    <story><story_id>127</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_G_113</publication_info>
+      <full_name>150 - 4.16 - DS_II_G_113</full_name>
+      <url>data/stories/127.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>To karle snakkede ude i heden om, hvordan de nu havde det hjemme. Den ene siger da til den anden, at han havde magt til at se det, og han bad ham blot om ikke at r&#248;re sig. S&#229; lagde han sig til at sove, og den anden s&#229; da en hvid mus l&#248;be ud af munden p&#229; ham. Efter nogen tid kom musen igjen og l&#248;b ind i munden p&#229; den sovende, som der efter v&#229;gnede og kunde da bestemt sige, hvordan det stod til hjemme.</danish_publication>
+  <english_publication>Two farmhands were talking out on the heath about what was going on at home. The one says to the other that he could see what was going on, and he asked him just not to move. Then he lay down to sleep, and the other saw that a white mouse ran out of his mouth. After a while, the mouse came back and ran into the mouth of the sleeping farmhand, who then woke up and could say for certain what was happening at home.</english_publication>
+  <keywords>
+    <keyword><id>395</id><frequency>2</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>517</id><frequency>1</frequency><keyword>heath</keyword>heath</keyword>
+    <keyword><id>537</id><frequency>2</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>811</id><frequency>2</frequency><keyword>mouse</keyword>mouse</keyword>
+    <keyword><id>813</id><frequency>2</frequency><keyword>mouth</keyword>mouth</keyword>
+    <keyword><id>1142</id><frequency>2</frequency><keyword>sleep</keyword>sleep</keyword>
+    <keyword><id>1340</id><frequency>1</frequency><keyword>white</keyword>white</keyword>
+  </keywords>
+  <etk_index><id>8</id>
+    <heading_danish>Religi&#248;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>32</id><display_name>Places: Heath</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>79</id><display_name>Animals: None / Unspecified</display_name></tango_index>
+    <tango_index><id>110</id><display_name>Time, Season, Weather: Noon</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

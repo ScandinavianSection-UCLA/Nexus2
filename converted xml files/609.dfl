@@ -1,0 +1,79 @@
+<story><story_id>609</story_id>
+  <publication_info>DS_II_B_4</publication_info>
+  <full_name>546 - 0.00 - DS_II_B_4</full_name>
+  <informant_id>546</informant_id>
+  <informant_last_name>Toxv&#230;rd</informant_last_name>
+  <informant_first_name>Karen</informant_first_name>
+  <informant_full_name>Karen Toxv&#230;rd</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>862</place_id>
+      <name>Sillestrup</name>
+      <display_name>Sillestrup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>717</story_id>
+      <informant_id>541</informant_id>
+      <publication_info>DS_II_B_15</publication_info>
+      <full_name>541 - 0.00 - DS_II_B_15</full_name>
+      <url>data/stories/717.dfl</url>
+    </story>
+    <story><story_id>718</story_id>
+      <informant_id>541</informant_id>
+      <publication_info>DS_II_B_36</publication_info>
+      <full_name>541 - 0.00 - DS_II_B_36</full_name>
+      <url>data/stories/718.dfl</url>
+    </story>
+    <story><story_id>734</story_id>
+      <informant_id>414</informant_id>
+      <publication_info>DS_II_B_20</publication_info>
+      <full_name>414 - 0.00 - DS_II_B_20</full_name>
+      <url>data/stories/734.dfl</url>
+    </story>
+    <story><story_id>824</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_B_11</publication_info>
+      <full_name>69 - 0.00 - DS_II_B_11</full_name>
+      <url>data/stories/824.dfl</url>
+    </story>
+    <story><story_id>410</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_B_13</publication_info>
+      <full_name>123 - 3.07 - DS_II_B_13</full_name>
+      <url>data/stories/410.dfl</url>
+    </story>
+    <story><story_id>488</story_id>
+      <informant_id>524</informant_id>
+      <publication_info>DS_II_B_29</publication_info>
+      <full_name>524 - 0.00 - DS_II_B_29</full_name>
+      <url>data/stories/488.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Nisser er kjendte alle vegne. Der siges her, at n&#229;r en mand gj&#246;r mere fremgang end andre under lige forhold, s&#229; har han en nisse. I en by p&#229; Nordfalster havde to naboer hver sin nisse, men kun den ene mand gjorde fremgang, hvorimod den anden stadig gik tilbage; men det kom af, at den ene nisse hed Lystig, den anden Pasp&#229;.</danish_publication>
+  <english_publication>Nisser are known all over the place. It&#8217;s said here that when a man makes more progress than others under similar circumstances, then he has a nisse. In a town in Nordfalster, two neighbors each had a nisse, but only one of the men made progress, whereas the other man continuously went backwards (economically); it was because one of the nisser was called &#8220;Jolly&#8221; and the other was called, &#8220;"Watch Out.&#8221;</english_publication>
+  <keywords>
+    <keyword><id>828</id><frequency>1</frequency><keyword>neighbor</keyword>neighbor</keyword>
+    <keyword><id>857</id><frequency>4</frequency><keyword>nisse</keyword>nisse</keyword>
+    <keyword><id>1275</id><frequency>1</frequency><keyword>town</keyword>town</keyword>
+  </keywords>
+  <etk_index><id>3</id>
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>65</id><display_name>Supernatural Beings: Nisse</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

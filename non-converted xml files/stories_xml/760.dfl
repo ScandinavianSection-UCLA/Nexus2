@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<story story_id="760">
+  <publication_info>DS_II_B_141</publication_info>
+  <full_name>348 - 0.00 - DS_II_B_141</full_name>
+  <informant_id>348</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Nikolaj</informant_first_name>
+  <informant_full_name>Student Nikolaj Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>1</place_id>
+      <name>Aaby</name>
+      <display_name>Aaby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>962</place_id>
+      <name>Voerg&#xE5;rd</name>
+      <display_name>Voerg&#xE5;rd (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="781">
+      <informant_id>467</informant_id>
+      <publication_info>DS_II_B_214</publication_info>
+      <full_name>467 - 0.00 - DS_II_B_214</full_name>
+      <url>data/stories/781.dfl</url>
+    </story>
+    <story story_id="348">
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_B_147</publication_info>
+      <full_name>90 - 2.16 - DS_II_B_147</full_name>
+      <url>data/stories/348.dfl</url>
+    </story>
+    <story story_id="213">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_1205</publication_info>
+      <full_name>241 - 4.41 - DS_VI_1205</full_name>
+      <url>data/stories/213.dfl</url>
+    </story>
+    <story story_id="650">
+      <informant_id>372</informant_id>
+      <publication_info>DS_VI_478</publication_info>
+      <full_name>372 - 0.00 - DS_VI_478</full_name>
+      <url>data/stories/650.dfl</url>
+    </story>
+    <story story_id="181">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_B_203</publication_info>
+      <full_name>241 - 4.10 - DSnr_II_B_203</full_name>
+      <url>data/stories/181.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Pigen p&#xE5; Vorg&#xE5;rd driller g&#xE5;rdbukken. En dag, da de bagede, og br&#xF8;det var taget ud af ovnen, kom g&#xE5;rdbukken efter hende. Hun kr&#xF8;b da ind i ovnen, slog kors for munden og vendte sit forkl&#xE6;de, s&#xE5; mente hun at v&#xE6;re sikker. Men han sagde: "Ja, kors for munden, men bitte Niels kan g&#xE5; ind ad tuden." Nu kr&#xF8;b Niels ind ad tuden og krystede pigen ihjel. Det havde pigen ikke troet, at han kunde krybe igjennem s&#xE5; lille en &#xE5;bning.</danish_publication>
+  <english_publication>The hired girl at Vorg&#xE5;rd teased the g&#xE5;rdbuk (nisse). One day when they were baking, and the bread had been taken out of the oven, the g&#xE5;rdbuk came after her. She crawled into the oven, made a cross over her mouth and turned her apron around, then she figured she was safe. But then he said: &#x201C;Yes, cross over the mouth, but little Niels can go in through the spout.&#x201D; Now little Niels crawled in through the spout and crushed the girl to death. The girl didn&#x2019;t think that he could crawl through such a little opening.</english_publication>
+  <keywords>
+    <keyword id="44" frequency="1" keyword="apron">apron</keyword>
+    <keyword id="65" frequency="1" keyword="baking">baking</keyword>
+    <keyword id="139" frequency="1" keyword="bread">bread</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="467" frequency="3" keyword="girl">girl</keyword>
+    <keyword id="813" frequency="2" keyword="mouth">mouth</keyword>
+    <keyword id="834" frequency="2" keyword="niels">Niels</keyword>
+    <keyword id="857" frequency="2" keyword="nisse">nisse</keyword>
+    <keyword id="890" frequency="2" keyword="oven">oven</keyword>
+    <keyword id="1243" frequency="1" keyword="tease">tease</keyword>
+  </keywords>
+  <etk_index id="3">
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="65" display_name="Supernatural Beings: Nisse"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

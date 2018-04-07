@@ -1,0 +1,54 @@
+<informant><person_id>475</person_id>
+  <core_informant/>
+  <full_name>Karen Marie Mikkelsen</full_name>
+  <last_name>Mikkelsen</last_name>
+  <first_name>Karen Marie</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>686</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>475</informant_id>
+      <publication_info>DS_II_H_484</publication_info>
+      <full_name>475 - 0.00 - DS_II_H_484</full_name>
+      <url>data/stories/686.dfl</url>
+      <place_recorded><id>879</id>Sterreg&#229;rd</place_recorded>
+      <places_mentioned>
+        <place><id>81</id>
+          <name>Brabrand</name>
+        </place>
+        <place><id>663</id>
+          <name>True</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>879</place_id>
+      <name>Sterreg&#229;rd</name>
+      <display_name>Sterreg&#229;rd (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>663</place_id>
+      <name>True</name>
+      <display_name>True (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>81</place_id>
+      <name>Brabrand</name>
+      <display_name>Brabrand (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

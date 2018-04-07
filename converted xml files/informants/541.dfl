@@ -1,0 +1,105 @@
+<informant><person_id>541</person_id>
+  <core_informant/>
+  <full_name>Journalist Mikkel S&#248;rensen</full_name>
+  <last_name>S&#248;rensen</last_name>
+  <first_name>Mikkel</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>716</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>541</informant_id>
+      <publication_info>DS_I_639</publication_info>
+      <full_name>541 - 0.00 - DS_I_639</full_name>
+      <url>data/stories/716.dfl</url>
+      <place_recorded><id>792</id>Herskind</place_recorded>
+      <places_mentioned>
+        <place><id>598</id>
+          <name>Store V&#229;rbj&#230;rg</name>
+        </place>
+        <place><id>626</id>
+          <name>Taftebj&#230;rg mark</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>717</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>541</informant_id>
+      <publication_info>DS_II_B_15</publication_info>
+      <full_name>541 - 0.00 - DS_II_B_15</full_name>
+      <url>data/stories/717.dfl</url>
+      <place_recorded><id>792</id>Herskind</place_recorded>
+      <places_mentioned>
+        <place><id>1060</id>
+          <name>Besser kirke</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>718</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>541</informant_id>
+      <publication_info>DS_II_B_36</publication_info>
+      <full_name>541 - 0.00 - DS_II_B_36</full_name>
+      <url>data/stories/718.dfl</url>
+      <place_recorded><id>792</id>Herskind</place_recorded>
+      <places_mentioned>
+        <place><id>339</id>
+          <name>Kolby</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>719</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>541</informant_id>
+      <publication_info>DS_V_1111</publication_info>
+      <full_name>541 - 0.00 - DS_V_1111</full_name>
+      <url>data/stories/719.dfl</url>
+      <place_recorded><id>792</id>Herskind</place_recorded>
+      <places_mentioned>
+        <place><id>1061</id>
+          <name>Adslev</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>792</place_id>
+      <name>Herskind</name>
+      <display_name>Herskind (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1061</place_id>
+      <name>Adslev</name>
+      <display_name>Adslev (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>339</place_id>
+      <name>Kolby</name>
+      <display_name>Kolby (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1060</place_id>
+      <name>Besser kirke</name>
+      <display_name>Besser kirke (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>626</place_id>
+      <name>Taftebj&#230;rg mark</name>
+      <display_name>Taftebj&#230;rg mark (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>598</place_id>
+      <name>Store V&#229;rbj&#230;rg</name>
+      <display_name>Store V&#229;rbj&#230;rg (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<story story_id="203">
+  <publication_info>DSnr_II_C_86</publication_info>
+  <full_name>241 - 4.31 - DSnr_II_C_86</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>4.31</order_told>
+  <fieldtrip id="8">May-June 1898</fieldtrip>
+  <fieldtrip_start_date>1898-05-23</fieldtrip_start_date>
+  <fieldtrip_end_date>1898-06-08</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>266</place_id>
+      <name>Hj&#xF8;rring</name>
+      <display_name>Hj&#xF8;rring (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>333</place_id>
+      <name>Kloonh&#xF8;j</name>
+      <display_name>Kloonh&#xF8;j (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="517">
+      <informant_id>6</informant_id>
+      <publication_info>DS_III_2316</publication_info>
+      <full_name>6 - 0.00 - DS_III_2316</full_name>
+      <url>data/stories/517.dfl</url>
+    </story>
+    <story story_id="238">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_782</publication_info>
+      <full_name>235 - 1.19 - DS_I_782</full_name>
+      <url>data/stories/238.dfl</url>
+    </story>
+    <story story_id="189">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_III_1380</publication_info>
+      <full_name>241 - 4.17 - DSnr_III_1380</full_name>
+      <url>data/stories/189.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7816a</fielddiary_page_start>
+  <fielddiary_page_end>7816a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This legend is closely related to Jens Peter's story of buried treasure (JPP 4.17). Unlike that more elaborate story, this one is a simple summary of events. The action takes place at a different mound, and the ring is housed in the more religiously important church in the market town of Hj&#xF8;rring. The folk etymology for the town name derived from the found treasure is a common feature of many stories of supernatural contact (KMP 1.19). 
+
+     The name Kloonh&#xF8;j, identified in the topographical index as Klovnh&#xF8;j, should be emended to Klovenh&#xF8;j, a mound several hundred meters to the north and east of Hj&#xF8;rring church.</annotation>
+  <danish_manuscript>Der gaar ogsaa Sagn om, at der
+skal have v&#xE6;ret en Drage i Kloon-
+h&#xF8;j og der fik de en Guldring af en
+Kiste. S. sak Kisten ned i H&#xF8;jen i 
+gien men Ringen beholdt de og den
+er sat ind i St. Kathrine Kirke i
+Hj&#xF8;rring. Deraf skal Hj&#xF8;rring have
+Navn, det var f&#xF8;rst H&#xF8;jring.</danish_manuscript>
+  <english_manuscript>There was also a legend that there was supposed to be a dragon in Kloonh&#xF8;j near Hj&#xF8;rring and they got a gold ring from a chest. Then the chest sank down into the mound again but they kept the ring, and it was placed in St. Kathrine's church in Hj&#xF8;rring. The town is supposed to have gotten its name from this, since it was originally H&#xF8;jring.</english_manuscript>
+  <danish_publication>Der gaar ogsaa Sagn om, at der skal have v&#xE6;ret en Drage i Kloonh&#xF8;j ved Hj&#xF8;rring. De grov efter en Skat og fik fat i en Guldring af en Kiste. Men da de snakkede, sank Kisten ned i H&#xF8;jen igjen, men Ringen beholdt de, og den er sat ind i St. Kathrine Kirke i Hj&#xF8;rring. Deraf skal Byen have faaet sit Navn, for det var f&#xF8;rst H&#xF8;jring.</danish_publication>
+  <english_publication>There was also a legend that there was supposed to be a dragon in Kloonh&#xF8;j mound near Hj&#xF8;rring. They dug after a treasure and got hold of a gold ring on a chest. But when they spoke, the chest sank down into the mound again, but they kept the ring, and it was placed in St. Catherine&#x2019;s church in Hj&#xF8;rring. The town is supposed to have gotten its name from this, since it was originally H&#xF8;jring.</english_publication>
+  <keywords>
+    <keyword id="215" frequency="2" keyword="chest">chest</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="349" frequency="1" keyword="dragon">dragon</keyword>
+    <keyword id="473" frequency="1" keyword="gold">gold</keyword>
+    <keyword id="705" frequency="1" keyword="legend">legend</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="1033" frequency="2" keyword="ringing">ringing</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1280" frequency="1" keyword="treasure">treasure</keyword>
+  </keywords>
+  <etk_index id="4">
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="137" display_name="Supernatural Beings: Dragon"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

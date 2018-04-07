@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<story story_id="731">
+  <publication_info>DS_II_G_88</publication_info>
+  <full_name>347 - 0.00 - DS_II_G_88</full_name>
+  <informant_id>347</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>N. P.</informant_first_name>
+  <informant_full_name>Pastor N. P. Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>555</place_id>
+      <name>Smidstrup</name>
+      <display_name>Smidstrup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="285">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_G_85</publication_info>
+      <full_name>235 - 2.02 - DS_II_G_85</full_name>
+      <url>data/stories/285.dfl</url>
+    </story>
+    <story story_id="600">
+      <informant_id>327</informant_id>
+      <publication_info>DS_II_G_87</publication_info>
+      <full_name>327 - 0.00 - DS_II_G_87</full_name>
+      <url>data/stories/600.dfl</url>
+    </story>
+    <story story_id="606">
+      <informant_id>546</informant_id>
+      <publication_info>DS_II_F_106</publication_info>
+      <full_name>546 - 0.00 - DS_II_F_106</full_name>
+      <url>data/stories/606.dfl</url>
+    </story>
+    <story story_id="827">
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_G_89</publication_info>
+      <full_name>69 - 0.00 - DS_II_G_89</full_name>
+      <url>data/stories/827.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Juleaften alene har Jerusalems skomager lov til at hvile sig og s&#xE6;tter sig da p&#xE5; plovene og trykker dem itu, da han skal hvile ud efter sin anstr&#xE6;ngelse &#xE5;ret rundt. Derfor skal man have plovene inde, for at de ikke skal g&#xE5; i stykker.</danish_publication>
+  <english_publication>The Jerusalem's Cobbler can only rest on Christmas eve and he sits on the plows and breaks them in two, when he rests after all his efforts during the rest of the year. That's why you need to bring your plows in so they won't break.</english_publication>
+  <keywords>
+    <keyword id="225" frequency="1" keyword="christmas">Christmas</keyword>
+    <keyword id="242" frequency="1" keyword="cobbler">cobbler</keyword>
+    <keyword id="966" frequency="2" keyword="plowing">plowing</keyword>
+    <keyword id="1026" frequency="3" keyword="rest">rest</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="51" display_name="Tools, Items and Conveyances: Plow"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="120" display_name="Time, Season, Weather: Christmas"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

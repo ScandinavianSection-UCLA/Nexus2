@@ -1,0 +1,81 @@
+<story><story_id>524</story_id>
+  <publication_info>DS_IV_1242</publication_info>
+  <full_name>330 - 0.00 - DS_IV_1242</full_name>
+  <informant_id>330</informant_id>
+  <informant_last_name>Bering</informant_last_name>
+  <informant_first_name>H. Anton</informant_first_name>
+  <informant_full_name>H. Anton Bering</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>896</place_id>
+      <name>Tyholm</name>
+      <display_name>Tyholm (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>711</story_id>
+      <informant_id>516</informant_id>
+      <publication_info>DS_IV_1239</publication_info>
+      <full_name>516 - 0.00 - DS_IV_1239</full_name>
+      <url>data/stories/711.dfl</url>
+    </story>
+    <story><story_id>616</story_id>
+      <informant_id>283</informant_id>
+      <publication_info>DS_IV_1253</publication_info>
+      <full_name>283 - 0.00 - DS_IV_1253</full_name>
+      <url>data/stories/616.dfl</url>
+    </story>
+    <story><story_id>858</story_id>
+      <informant_id>328</informant_id>
+      <publication_info>DS_IV_1249</publication_info>
+      <full_name>328 - 0.00 - DS_IV_1249</full_name>
+      <url>data/stories/858.dfl</url>
+    </story>
+    <story><story_id>202</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_996</publication_info>
+      <full_name>241 - 4.30 - DSnr_IV_996</full_name>
+      <url>data/stories/202.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en enke, som en biskop havde frataget alle hendes ejendomme. Hendes s&#246;n havde v&#230;ret udenlands, og da han kom hjem tillige med en anden mand, s&#229; satte enken mad p&#229; bordet for dem. Men det vigtigste til maden manglede, og det var br&#248;d. Da s&#246;nnen spurgte om grunden dertil, sagde moderen, at br&#248;det havde biskoppen taget, og der kunde de hente det. S&#246;nnen og den fremmede mand red derp&#229; hen og h&#230;vnede det p&#229; bispen ved at myrde ham i Hvidbj&#230;rg kirke.   </danish_publication>
+  <english_publication>A bishop had confiscated all the property from a widow. Her son had been abroad, and when he came home along with another man, the widow put food on the table for them. But the most important part of the meal was missing, and that was the bread. When the son asked the reason why, the mother said that the bread had been taken by the bishop, and they could go get it there. The son and the stranger then rode over there and avenged themselves on the bishop by murdering him in Hvidbj&#230;rg church.</english_publication>
+  <keywords>
+    <keyword><id>6</id><frequency>1</frequency><keyword>abroad</keyword>abroad</keyword>
+    <keyword><id>103</id><frequency>2</frequency><keyword>bishop</keyword>bishop</keyword>
+    <keyword><id>139</id><frequency>2</frequency><keyword>bread</keyword>bread</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>431</id><frequency>1</frequency><keyword>food</keyword>food</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>765</id><frequency>1</frequency><keyword>meal</keyword>meal</keyword>
+    <keyword><id>803</id><frequency>1</frequency><keyword>mother</keyword>mother</keyword>
+    <keyword><id>815</id><frequency>1</frequency><keyword>murder</keyword>murder</keyword>
+    <keyword><id>1030</id><frequency>1</frequency><keyword>riding</keyword>riding</keyword>
+    <keyword><id>1154</id><frequency>3</frequency><keyword>son</keyword>son</keyword>
+    <keyword><id>1205</id><frequency>1</frequency><keyword>stranger</keyword>stranger</keyword>
+    <keyword><id>1238</id><frequency>1</frequency><keyword>table</keyword>table</keyword>
+    <keyword><id>1342</id><frequency>2</frequency><keyword>widow</keyword>widow</keyword>
+  </keywords>
+  <etk_index><id>20</id>
+    <heading_danish>R&#248;vere, drabsm&#230;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

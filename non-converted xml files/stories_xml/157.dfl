@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<story story_id="157">
+  <publication_info>DS_VI_897</publication_info>
+  <full_name>241 - 2.07 - DS_VI_897</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>2.07</order_told>
+  <fieldtrip id="11">October 1893</fieldtrip>
+  <fieldtrip_start_date>1893-09-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1893-10-26</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>86</place_id>
+      <name>Bragholdt</name>
+      <display_name>Bragholdt (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>337</place_id>
+      <name>Knudsholm</name>
+      <display_name>Knudsholm (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="192">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_167</publication_info>
+      <full_name>241 - 4.20 - DS_VI_167</full_name>
+      <url>data/stories/192.dfl</url>
+    </story>
+    <story story_id="210">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_VI_345</publication_info>
+      <full_name>241 - 4.38 - DSnr_VI_345</full_name>
+      <url>data/stories/210.dfl</url>
+    </story>
+    <story story_id="697">
+      <informant_id>503</informant_id>
+      <publication_info>DS_V_177</publication_info>
+      <full_name>503 - 0.00 - DS_V_177</full_name>
+      <url>data/stories/697.dfl</url>
+    </story>
+    <story story_id="3">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_1045</publication_info>
+      <full_name>150 - 0.03 - DS_VII_1045</full_name>
+      <url>data/stories/3.dfl</url>
+    </story>
+    <story story_id="339">
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_810</publication_info>
+      <full_name>90 - 2.07 - DS_VI_810</full_name>
+      <url>data/stories/339.dfl</url>
+    </story>
+    <story story_id="276">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VI_1079</publication_info>
+      <full_name>235 - 1.56 - DS_VI_1079</full_name>
+      <url>data/stories/276.dfl</url>
+    </story>
+    <story story_id="156">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_VI_65</publication_info>
+      <full_name>241 - 2.06 - DSnr_VI_65</full_name>
+      <url>data/stories/156.dfl</url>
+    </story>
+    <story story_id="610">
+      <informant_id>448</informant_id>
+      <publication_info>DS_VI_323</publication_info>
+      <full_name>448 - 0.00 - DS_VI_323</full_name>
+      <url>data/stories/610.dfl</url>
+    </story>
+    <story story_id="435">
+      <informant_id>528</informant_id>
+      <publication_info>DS_VI_326</publication_info>
+      <full_name>528 - 0.00 - DS_VI_326</full_name>
+      <url>data/stories/435.dfl</url>
+    </story>
+    <story story_id="628">
+      <informant_id>430</informant_id>
+      <publication_info>DS_VI_898</publication_info>
+      <full_name>430 - 0.00 - DS_VI_898</full_name>
+      <url>data/stories/628.dfl</url>
+    </story>
+    <story story_id="657">
+      <informant_id>539</informant_id>
+      <publication_info>DS_VI_899</publication_info>
+      <full_name>539 - 0.00 - DS_VI_899</full_name>
+      <url>data/stories/657.dfl</url>
+    </story>
+    <story story_id="693">
+      <informant_id>337</informant_id>
+      <publication_info>DS_VI_900</publication_info>
+      <full_name>337 - 0.00 - DS_VI_900</full_name>
+      <url>data/stories/693.dfl</url>
+    </story>
+    <story story_id="352">
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1028</publication_info>
+      <full_name>90 - 2.20 - DS_VI_1028</full_name>
+      <url>data/stories/352.dfl</url>
+    </story>
+    <story story_id="145">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_1182</publication_info>
+      <full_name>241 - 1.04 - DS_VII_1182</full_name>
+      <url>data/stories/145.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6294b</fielddiary_page_start>
+  <fielddiary_page_end>6295a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references>
+    <reference id="295" category="general">
+      <display_string>[Book] Hansen, H. P. 1943. &lt;i&gt;Kloge folk. Folkemedicin og overtro i Vestjylland&lt;/i&gt;. Copenhagen: Ejnar Munksgaard.</display_string>
+    </reference>
+    <reference id="398" category="general">
+      <display_string>[Book] R&#xF8;rbye, Birgitte. 1976. &lt;i&gt;Kloge folk og skidtfolk. Kvaksalveriets epoke i Danmark&lt;/i&gt;. Copenhagen: Politiken.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>"Showing again" is a common skill of the cunning folk (AMJ 2.07; KMP 1.56). In this case, the Bragholdt hag gets her ability to show again from a small demon, a confirmation of her link to Satan. This link is implicit in her owning Cyprianus in the previous story (JPP 2.06). The Bragholdt hag's morality is drawn further into question when she is described as a drunk. One of the ongoing concerns in debates over the different classes of poor--the deserving and undeserving--was the high incidence of alcoholism among the poor, and the effects of alcoholism on their ability to provide for themselves.
+
+     Stories of questionable practices in the cunning woman's barn are fairly widely attested--enough for Tang Kristensen to include a subsection in his published collection Danske sagn entitled "I den kloge kones lade om natten" [In the cunning woman's barn at night] (DS VI, 323 and 326). In these stories, the cunning woman calls the devil to her to extract information (DS VI 898). The story, however, is not solely a criticism of the Bragholdt hag. The local economies of rural Denmark were moving quickly towards complete monetization by the last decades of the nineteenth century, and payment for services rather than barter arrangements had become the norm. In the story, Iver attempts to sidestep paying the Bragholdt hag for rendering a valuable service--canvas was important both as an item that could be sold and as a source of material for work clothes--only to discover that the implicit contractual arrangement held sway. She of course uses her supernatural power, rather than the power of the magistrate, to collect on her debt. But she also makes good on her side of the bargain, and the new economic order is firmly established: monetary payment for services rendered. In some variants, the person manages to get away without paying (DS VI 900), while others include a greater emphasis on the contractual arrangement than in this variant (DS VI 899).
+
+     That the canvas is hidden in the minister's meadow is a tantalizing variation on the story. In his repertoire, Jens Peter tells several stories of ministers who tread the fine line between good and evil. The implication in this story is that either (a) the minister--or perhaps his wife--had something to do with the theft or (b) someone is trying to frame the minister for the crime.     
+
+     Unlike Peder Johansen, who's father's foster father was a cunning man, and Ane Margrete Jensdatter (AMJ 2.20), whose stories generally endorse the powers of cunning folk, Jens Peter is critical of cunning folk. Here, he links the Bragholdt hag directly to the devil, and implies that she is in fact a witch. Her actions align her with another cunning person in his repertoire, St&#xF8;v-Karen, who is interested primarily in personal gain (JPP 1.04). Jens Peter's critique of the cunning folk diverges from the critique proffered by Kirsten Marie Pedersdatter, who was much more of a rationalist and viewed the widespread belief in the ability of  witches and cunning folk to be foolish.
+
+     The distance from Knudsholm to Bragholdt is approximately fifteen kilometers.     
+</annotation>
+  <danish_manuscript>Der boede en Mand paa Knudsholmen
+i Ugilt Sogn, de kaldte ham Iver Hol
+men eller den lange Iver, h. havde
+et stort Stykke L&#xE6;rred, der blev v&#xE6;k
+et Efteraar. S. rejste h. ud til dh.
+Bragholt Kj. og hu skulde da vise L&#xE6;r-
+redet igien, hvem der havde taget det.
+N. h. kommer til hende og da var hu 
+s. fuld.  Hu siger at ha skulde kom
+me igien i Morgen, s. skulde hu nok
+sige hvor L&#xE6;rredet var. S. syntes h.
+det var en lang Vej fra Br. til Knudsh.
+og Laden var daarlig, h. kunde nok
+komme ind af en af V&#xE6;ggene og s. gik
+h. ind og stj&#xE6;lede sig i noget Halm. S. 
+varede det ikke ret l&#xE6;nge inden Kj&#xE6;ll.
+kom ind i Laden ogsaa og havde en
+bitte en med sig som hu havde i
+Haaret af med den ene Haand og havde
+et vaadt Viskestykke (Karklud) i den 2.
+
+6295A
+og daskede ham med. H. skulde s. hende
+hvor L&#xE6;rredet var. S. s. F. Han h&#xF8;rer
+h. h&#xF8;rer h. h&#xF8;rer. Men Kj&#xE6;ll. var s. 
+fuld, hu m&#xE6;rkede ikke h. sagde det.
+N. hu blev ved at daske paa h. skulde
+sige, hvor L&#xE6;redet var. Det maatte
+h. jo ogsaa til og sagde at det laa i
+siden af et H&#xF8;l der nede i Pr&#xE6;stens
+Eng, der var det fj&#xE6;lt. Pr. i Ugilt
+har en Eng i Nordresiden af Hol
+mens Mark. S. rejste Kj&#xE6;ll. og F.
+ud og Manden rejste hjem, h. vilde 
+jo ikke have at Kj&#xE6;ll. skulde have
+nogle Penge for dether. Men 2 Dags
+Morgen kom der Bud efter ham, h.
+maatte derud igien og tale med hende.
+Hu vilde have hendes Betaling og s.
+kunde ha rejse. S. tog h. hans
+l&#xE6;rred op. det var paa Pladsen som
+det var sagt.</danish_manuscript>
+  <english_manuscript>There was a man who lived on Knudsholm in Ugilt parish, they called him Iver Holmen or "Long Iver." He had a large piece of canvas that disappeared one fall. Then he went down to this here Bragholdt hag and she was supposed to show the canvas again, who had taken it. When he gets down to her, she's so drunk. She tells him to come the next morning, then she'd tell him where the canvas was. He felt that it was quite a ways from Bragholdt to Knudsholm, and the barn was in bad shape, he could probably get in through one of the walls and hide himself in some hay in there and so he went in and hid himself in some hay. It wasn't too long before the hag came into the barn too and she had a little one with her, she was holding it by the hair in one of her hands and she had a wet dishrag in the other and slapped him with that. He was supposed to tell her where the canvas was. Then the Devil says: "He hears, he hears, he hears!" But the hag was so drunk she didn't notice he said that. Well, she continued slapping him, he was to tell her where the canvas was. He had to at last and he said that it lay in the side of a hollow down on the minister's meadow, that's where it was hidden. The minister in Ugilt has a meadow on the north side of Holmen's field. Then the hag and the Devil left and the man went home, he didn't want the hag to get any money for this. But the following morning a message came for him, he had to go out there and talk to her. She wanted her payment and then he could leave. Then he went and got his canvas, it was right where they'd said it would be.</english_manuscript>
+  <danish_publication>Der boede en mand p&#xE5; Knudsholmen i Ugilt sogn, de kaldte ham Iver Holmen eller den lange Iver. Han havde et stort stykke l&#xE6;rred, der blev v&#xE6;k et efter&#xE5;r. S&#xE5; rejste han ned til Bragholt-kj&#xE6;lling, og hun skulde da vise l&#xE6;rredet igjen. Da han nu kommer til hende, er hun fuld. Hun siger, at han skal komme igjen i morgen, s&#xE5; skulde hun nok sige, hvor l&#xE6;rredet var. Han syntes, det var en lang vej fra Bragholt til Knudsholm, og laden var d&#xE5;rlig, han kunde nok komme ind ad &#xE9;n af v&#xE6;ggene og fj&#xE6;le sig der i noget halm. Som t&#xE6;nkt s&#xE5; gjort; men det varede ikke ret l&#xE6;nge, inden kj&#xE6;llingen ogs&#xE5; kom ind i laden og havde en bitte &#xE9;n med sig, som hun havde i h&#xE5;ret af med den ene h&#xE5;nd, og hun havde et v&#xE5;dt viskestykke (en karklud) i den anden og daskede ham med. Han skulde sige hende, hvor l&#xE6;rredet var. Dertil svarede Fanden: "Han h&#xF8;rer, han h&#xF8;rer, han h&#xF8;rer." Men kj&#xE6;llingen var s&#xE5; fuld, hun m&#xE6;rkede ikke, han sagde det. N&#xE5;, hun blev ved at daske p&#xE5;, han skulde sige, hvor l&#xE6;rredet var. Det m&#xE5;tte han jo ogs&#xE5; til, og han sagde, at det l&#xE5; i siden af et h&#xF8;l der nede i pr&#xE6;stens eng, der var det fj&#xE6;lt. Pr&#xE6;sten i Ugilt har nemlig en eng i nordresiden af Holmens mark. S&#xE5; rejste kj&#xE6;llingen og Fanden ud, og manden rejste hjem, han vilde jo ikke have, at kj&#xE6;llingen skulde have nogle penge for dether. Men anden dags morgen kom der bud efter ham, han m&#xE5;tte s&#xE5; der ud igjen og tale med hende. Hun vilde have hendes betaling, og s&#xE5; kunde han rejse. Hans l&#xE6;rred var p&#xE5; pladsen, som der var sagt, og s&#xE5; fik han det jo samlet op.</danish_publication>
+  <english_publication>There was a man who lived on Knudsholm in Ugilt parish, they called him Iver Holmen or &#x201C;Long Iver.&#x201D; He had a large piece of canvas that disappeared one fall. Then he went down to the Bragholdt hag and she was supposed to show the canvas again. When he gets down to her, she&#x2019;s drunk. She tells him to come the next morning, then she&#x2019;d tell him where the canvas was. He felt that it was quite a long way from Bragholdt to Knudsholm, and the barn was in bad shape, he could probably get in through one of the walls and hide himself in some hay in there. No sooner thought than done; but it wasn&#x2019;t too long before the hag came into the barn, too, and she had a little devil with her, she was holding it by the hair in one of her hands and she had a wet dishrag in the other and slapped him with that. He was to tell her where the canvas was. The devil answered her: &#x201C;He hears, he hears, he hears!&#x201D; But the hag was so drunk she didn&#x2019;t notice that he'd said that. Well, she continued slapping him and he said that it lay in the side of a hollow down on the minister&#x2019;s meadow, that&#x2019;s where it was hidden. The minister in Ugilt has a meadow on the north side of Holmen&#x2019;s field. Then the hag and the devil left and the man went home, he didn&#x2019;t want the hag to get any money for this. But the following morning a message came for him, he had to go out there and talk to her. She wanted her payment and then he could leave. His canvas was in the place that had been mentioned and he went and got it.</english_publication>
+  <keywords>
+    <keyword id="72" frequency="2" keyword="barn">barn</keyword>
+    <keyword id="134" frequency="1" keyword="bragholdt_hag">Bragholdt Hag</keyword>
+    <keyword id="172" frequency="5" keyword="canvas">canvas</keyword>
+    <keyword id="324" frequency="2" keyword="devil">devil</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="359" frequency="2" keyword="drunkard">drunkard</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="493" frequency="4" keyword="hag">hag</keyword>
+    <keyword id="494" frequency="1" keyword="hair">hair</keyword>
+    <keyword id="511" frequency="1" keyword="hay">hay</keyword>
+    <keyword id="535" frequency="1" keyword="hollow">hollow</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="568" frequency="1" keyword="iver_holmen">Iver Holmen</keyword>
+    <keyword id="724" frequency="1" keyword="long_iver">Long Iver</keyword>
+    <keyword id="764" frequency="2" keyword="meadow">meadow</keyword>
+    <keyword id="770" frequency="1" keyword="message">message</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="801" frequency="2" keyword="morning">morning</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+    <keyword id="1333" frequency="1" keyword="wet">wet</keyword>
+  </keywords>
+  <etk_index id="28">
+    <heading_danish>Kloge m&#xE6;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="109" display_name="Time, Season, Weather: Morning"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

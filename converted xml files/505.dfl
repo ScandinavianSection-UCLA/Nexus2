@@ -1,0 +1,76 @@
+<story><story_id>505</story_id>
+  <publication_info>DS_V_62</publication_info>
+  <full_name>318 - 0.00 - DS_V_62</full_name>
+  <informant_id>318</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Evald</informant_first_name>
+  <informant_full_name>Evald Kristensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_mentioned</type>
+      <place_id>158</place_id>
+      <name>Fladbro</name>
+      <display_name>Fladbro (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>471</place_id>
+      <name>Randers</name>
+      <display_name>Randers (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>416</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_61</publication_info>
+      <full_name>123 - 3.13 - DS_V_61</full_name>
+      <url>data/stories/416.dfl</url>
+    </story>
+    <story><story_id>792</story_id>
+      <informant_id>393</informant_id>
+      <publication_info>DS_V_57</publication_info>
+      <full_name>393 - 0.00 - DS_V_57</full_name>
+      <url>data/stories/792.dfl</url>
+    </story>
+    <story><story_id>477</story_id>
+      <informant_id>367</informant_id>
+      <publication_info>DS_V_67</publication_info>
+      <full_name>367 - 0.00 - DS_V_67</full_name>
+      <url>data/stories/477.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>S&#246;ren Tind skulde en gang g&#229; til doktor for hans husbond. Det var til Randers. Da han kom til Fladbro, kom en stor hund i f&#248;lge med ham og fulgtes med ham et stykke, men s&#229; gik den forbi. Den havde nogle &#246;jne s&#229; store, og de var som ild. Han var s&#229; syg, da han kom til Randers, at han t&#230;nkte, at han havde br&#230;kket hele indvolden af sig.</danish_publication>
+  <english_publication>S&#248;ren Tind had to go fetch the doctor for his landlord once. That was all the way in Randers. When he got to Fladbro, a big dog fell in with him and followed along with him for a little bit of the way, but then it went on past him. It had eyes that were so big they were like fire. He was so sick when he got to Randers, that he thought that he had smashed up all of his guts.</english_publication>
+  <keywords>
+    <keyword><id>342</id><frequency>1</frequency><keyword>doctor</keyword>doctor</keyword>
+    <keyword><id>343</id><frequency>1</frequency><keyword>dog</keyword>dog</keyword>
+    <keyword><id>389</id><frequency>1</frequency><keyword>eye</keyword>eye</keyword>
+    <keyword><id>392</id><frequency>1</frequency><keyword>fall</keyword>fall</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>1111</id><frequency>1</frequency><keyword>sickness</keyword>sickness</keyword>
+    <keyword><id>1162</id><frequency>1</frequency><keyword>s&#248;ren_tind</keyword>S&#248;ren Tind</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>71</id><display_name>Animals: Dog</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

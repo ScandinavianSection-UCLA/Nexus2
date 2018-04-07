@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<story story_id="86">
+  <publication_info>JAH_V_174</publication_info>
+  <full_name>150 - 3.23 - JAH_V_174</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.23</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>424</place_id>
+      <name>Nibe</name>
+      <display_name>Nibe (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="84">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_172</publication_info>
+      <full_name>150 - 3.21 - JAH_V_172</full_name>
+      <url>data/stories/84.dfl</url>
+    </story>
+    <story story_id="26">
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_553</publication_info>
+      <full_name>150 - 1.23 - DS_I_553</full_name>
+      <url>data/stories/26.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4100b (1)</fielddiary_page_start>
+  <fielddiary_page_end>4100b (1)</fielddiary_page_end>
+  <bibliographic_info>J&#xF8;rgensen 1940.</bibliographic_info>
+  <bibliography_references>
+    <reference id="37" category="general">
+      <display_string>[Book] J&#xF8;rgensen, Harald. 1979. &lt;i&gt;Studier over det offentlige Fattigv&#xE6;sens historiske Udvikling i Danmark i det 19. Aarhundrede&lt;/i&gt;. Copenhagen: Selskabet for Udgivelse af Kilder til Dansk Historie.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Jens continues with stories about S&#xF8;ren &#xD8;sterg&#xE5;rd, focusing here on the absurd antics of the drunk man (BJK 3.21; also BJK 1.23). In the previous story, he rode on his friend, spewing obscenities, while in this story he is so drunk he does not realize that his wife is along in the wagon. 
+
+     Alcoholism was a significant problem in rural Denmark. Attempts to start a temperance society were already underway in 1841. In 1879, the first of these societies came into being, closely related to the work of evangelical movements. Although the drunk man's antics are amusing, there is also a certain tension informing the story, as his drunkenness threatens to upset the fragile household economy.</annotation>
+  <danish_manuscript>S&#xF8;ren &#xD8;stergaard var en Gang til Nibe Marked
+og havde faaet et L&#xE6;s Sild paa hjem og havde
+kj&#xF8;bt noget Karmon der nede, Fade og saadant.
+S. var h. ogsaa bleven fuld og s. v&#xE6;ltede han
+der var ikke heller saadan Veje som nu. Hans
+Kone var med og hans Broder. Hvad skal vi
+nu gj&#xF8;re Fadene er i Stk. Vi siger 2/ for vor Ane te sildene
+har klimt Fadene i Stykker. stop 1/ Stykkere
+ind imellem Sildene. Ja det kan vi jo,
+Hun var endda selv med. Da de s. kom
+op at kj&#xF8;re igien faldt h. bagl&#xE6;nds over
+med hans Hoved i hendes Skj&#xF8;d og s. skulde
+Broderen kj&#xF8;re. Str&#xE6;b nu at kj&#xF8;re, vi kan
+komme hjem til vor Ane, hun har altid
+saadan nogle gode varme Kaal naar a 
+kommer hjem. H. huskede jo ikke, hun var
+med og h. laa i hendes Skj&#xF8;d.</danish_manuscript>
+  <english_manuscript>S&#xF6;ren &#xD6;sterg&#xE5;rd once went to Nibe market, and he'd gotten a load of herring and he'd bought some containers down there, platters and things like that. Then he'd gotten drunk and he tipped over, the roads weren't like they are now. His wife was with him and his brother too. "What should we do now? The plates have broken." - "Lets put the pieces of the plates in between the herring, and then we'll tell our Ane that the herring crushed the plates." - "Sure, we can do that." She was there with them. When they start driving again, he falls over backwards with his head in her lap, and then the brother has to take over the driving. "Hurry up so we can come home to my Ane, she always has wonderfully warm cabbage when I come home." He didn't remember she was with them and he was lying in her lap.</english_manuscript>
+  <danish_publication>S&#xF6;ren &#xD6;sterg&#xE5;rd var en gang til Nibe marked, og s&#xE5; havde han kj&#xF6;bt noget karmon og fade og s&#xE5;dant. Desuden fik han et l&#xE6;s sild p&#xE5;, og s&#xE5; kom han jo til kj&#xF8;ren hjem med dether. Men fuld var han bleven, og det var ikke s&#xE5;danne veje at kj&#xF8;re p&#xE5;, som de har nu; nok er det, han v&#xE6;lter. Hans kone var med og s&#xE5; hans broder. "Hvad skal vi nu gj&#xF8;re", siger han, "nu fadene er i stykker?" &#x2014; "Stop stykkerne ind imellem sildene, og s&#xE5; siger vi for vor Ane, n&#xE5;r vi kommer hjem, te sildene har klemt fadene i stykker". &#x2014; "Ja, det kan vi jo", siger broderen, for han kunde jo nok skj&#xF6;nne, at S&#xF6;ren havde glemt, han havde hans kone Ane med. De kommer da endelig til kj&#xF8;ren igjen, men s&#xE5; falder han bagl&#xE6;nds over med hans hoved i konens skj&#xF8;d, og s&#xE5; skal broderen til at kj&#xF8;re. "Str&#xE6;b nu at kj&#xF8;re, vi kan komme hjem til vor Ane, hun har altid s&#xE5;dan nogle gode varme k&#xE5;l, n&#xE5;r a kommer hjem". Da l&#xE5; han med hovedet i hendes skj&#xF8;d.</danish_publication>
+  <english_publication>S&#xF6;ren &#xD6;sterg&#xE5;rd once went to the market in Nibe, and he&#x2019;d bought some pots and plates and things like that. In addition, he&#x2019;d gotten a load of herring, and then he came driving along with this stuff. But he&#x2019;d gotten drunk, and the roads weren&#x2019;t like they are now. And so he tips over. His wife was with him and his brother too. &#x201C;What should we do now?&#x201D; he says, &#x201C;now the plates have broken.&#x201D; &#x2013; &#x201C;Lets put the pieces of the plates in between the herring, and then we&#x2019;ll tell our Ane that the herring crushed the plates.&#x201D; &#x2013; &#x201C;Sure, we can do that,&#x201D; says the brother, because he could tell that S&#xF6;ren had forgotten that his wife Ane was with them. They finally start driving again, but then he falls over backwards with his head in his wife&#x2019;s lap, and then the brother has to take over the driving. &#x201C;Hurry up so we can get home to my Ane, she always has wonderfully warm cabbage when I get home.&#x201D; And there he was lying with his head in her lap.</english_publication>
+  <keywords>
+    <keyword id="148" frequency="3" keyword="brother">brother</keyword>
+    <keyword id="165" frequency="1" keyword="cabbage">cabbage</keyword>
+    <keyword id="359" frequency="1" keyword="drunkard">drunkard</keyword>
+    <keyword id="528" frequency="3" keyword="herring">herring</keyword>
+    <keyword id="537" frequency="2" keyword="home">home</keyword>
+    <keyword id="751" frequency="1" keyword="market">market</keyword>
+    <keyword id="961" frequency="4" keyword="plate">plate</keyword>
+    <keyword id="981" frequency="1" keyword="pot">pot</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1057" frequency="2" keyword="s&#xF8;ren">S&#xF8;ren</keyword>
+    <keyword id="1156" frequency="2" keyword="s&#xF8;ren">S&#xF8;ren</keyword>
+    <keyword id="1343" frequency="3" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="35">
+    <heading_danish>Livet uden d&#xF8;re</heading_danish>
+    <heading_english>Life outdoors</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

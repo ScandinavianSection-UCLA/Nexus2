@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<story story_id="470">
+  <publication_info>DS_V_1106</publication_info>
+  <full_name>433 - 0.00 - DS_V_1106</full_name>
+  <informant_id>433</informant_id>
+  <informant_last_name>Kristensdatter</informant_last_name>
+  <informant_first_name>Ane Sofie</informant_first_name>
+  <informant_full_name>Ane Sofie Kristensdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>316</place_id>
+      <name>Jetsmark</name>
+      <display_name>Jetsmark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>194</place_id>
+      <name>Gj&#xF8;l</name>
+      <display_name>Gj&#xF8;l (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="719">
+      <informant_id>541</informant_id>
+      <publication_info>DS_V_1111</publication_info>
+      <full_name>541 - 0.00 - DS_V_1111</full_name>
+      <url>data/stories/719.dfl</url>
+    </story>
+    <story story_id="732">
+      <informant_id>348</informant_id>
+      <publication_info>DS_V_1091</publication_info>
+      <full_name>348 - 0.00 - DS_V_1091</full_name>
+      <url>data/stories/732.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En enkemand fik sin kone p&#xE5; Gj&#xF8;l, det var netop min moster. Hun havde f&#xF6;r haft en kj&#xE6;reste, og han kom ind til dem en dag, og han sagde: goddag! og hun hilste ogs&#xE5;, men ellers havde de ikke mere snak med hinanden. Manden blev ligegodt fortr&#xF6;dt over det bes&#xF8;g, og da de skulde i seng, lagde han sig tv&#xE6;rs over sengen, s&#xE5; hun n&#xE6;r ikke havde kommet ned i den til ham, og hun skulde jo ligge foruden for at passe barnet. Det var &#xE9;t, han havde med den f&#xF8;rste kone. Det gav sig til at gr&#xE6;de, og s&#xE5; sagde hun til sig selv, at det skulde have lov at gr&#xE6;de, for det var hans barn og ikke hendes. S&#xE5; kom den rette moder og lagde sig over sengen, og s&#xE5; tav barnet stille. Konen rejste sig nu op i sengen og sagde til hende, at hun skulde g&#xE5; til hendes hvilested, for barnet skulde nu ingen n&#xF8;d lide, s&#xE5; l&#xE6;nge hun var levende. Barnet blev aldrig rigtig, men blev alligevel f&#xF8;r og stor.</danish_publication>
+  <english_publication>A widower married his second wife in Gj&#xF8;l, that was my aunt (mother&#x2019;s sister). She had had a lover before and he walked in on them one day and said, Good day! and she greeted him as well but otherwise they didn&#x2019;t have anything to say to each other. The man was nevertheless upset about that visit and when they were to go to bed, he lay across the bed so that she practically couldn&#x2019;t get into it with him and she had to sleep on the outside of the bed and watch the child. It was one he had had with his first wife. It started to cry and then she said to herself that it should be allowed to cry because it was his child and not hers. Then the real mother came and lay over the bed until the child was quiet. The wife now sat up in bed and told her that she should go to her resting place since the child would not suffer as long as she was alive. The child never was quite right, but was big and strong anyways.</english_publication>
+  <keywords>
+    <keyword id="19" frequency="1" keyword="allow">allow</keyword>
+    <keyword id="56" frequency="1" keyword="aunt">aunt</keyword>
+    <keyword id="83" frequency="5" keyword="bed">bed</keyword>
+    <keyword id="219" frequency="5" keyword="children">children</keyword>
+    <keyword id="285" frequency="2" keyword="crying">crying</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="726" frequency="1" keyword="love">love</keyword>
+    <keyword id="753" frequency="1" keyword="marriage">marriage</keyword>
+    <keyword id="803" frequency="2" keyword="mother">mother</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="1026" frequency="1" keyword="rest">rest</keyword>
+    <keyword id="1124" frequency="1" keyword="sister">sister</keyword>
+    <keyword id="1142" frequency="1" keyword="sleep">sleep</keyword>
+    <keyword id="1209" frequency="1" keyword="strength">strength</keyword>
+    <keyword id="1343" frequency="3" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="24">
+    <heading_danish>Kvindelige gjenf&#xE6;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="5" display_name="People: Children"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,70 @@
+<informant><person_id>408</person_id>
+  <core_informant/>
+  <full_name>Morten Jeppesen</full_name>
+  <last_name>Jeppesen</last_name>
+  <first_name>Morten</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>721</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>408</informant_id>
+      <publication_info>DS_V_713</publication_info>
+      <full_name>408 - 0.00 - DS_V_713</full_name>
+      <url>data/stories/721.dfl</url>
+      <place_recorded><id>894</id>Tovstrup</place_recorded>
+      <places_mentioned>
+        <place><id>264</id>
+          <name>Hjerk</name>
+        </place>
+        <place><id>310</id>
+          <name>Jebj&#230;rg</name>
+        </place>
+        <place><id>638</id>
+          <name>Tingg&#229;rds bro</name>
+        </place>
+        <place><id>715</id>
+          <name>Vium</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>894</place_id>
+      <name>Tovstrup</name>
+      <display_name>Tovstrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>715</place_id>
+      <name>Vium</name>
+      <display_name>Vium (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>638</place_id>
+      <name>Tingg&#229;rds bro</name>
+      <display_name>Tingg&#229;rds bro (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>310</place_id>
+      <name>Jebj&#230;rg</name>
+      <display_name>Jebj&#230;rg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>264</place_id>
+      <name>Hjerk</name>
+      <display_name>Hjerk (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

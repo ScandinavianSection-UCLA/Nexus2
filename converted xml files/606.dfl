@@ -1,0 +1,83 @@
+<story><story_id>606</story_id>
+  <publication_info>DS_II_F_106</publication_info>
+  <full_name>546 - 0.00 - DS_II_F_106</full_name>
+  <informant_id>546</informant_id>
+  <informant_last_name>Toxv&#230;rd</informant_last_name>
+  <informant_first_name>Karen</informant_first_name>
+  <informant_full_name>Karen Toxv&#230;rd</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>862</place_id>
+      <name>Sillestrup</name>
+      <display_name>Sillestrup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>856</story_id>
+      <informant_id>328</informant_id>
+      <publication_info>DS_II_F_65</publication_info>
+      <full_name>328 - 0.00 - DS_II_F_65</full_name>
+      <url>data/stories/856.dfl</url>
+    </story>
+    <story><story_id>655</story_id>
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_F_54</publication_info>
+      <full_name>539 - 0.00 - DS_II_F_54</full_name>
+      <url>data/stories/655.dfl</url>
+    </story>
+    <story><story_id>731</story_id>
+      <informant_id>347</informant_id>
+      <publication_info>DS_II_G_88</publication_info>
+      <full_name>347 - 0.00 - DS_II_G_88</full_name>
+      <url>data/stories/731.dfl</url>
+    </story>
+    <story><story_id>827</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_G_89</publication_info>
+      <full_name>69 - 0.00 - DS_II_G_89</full_name>
+      <url>data/stories/827.dfl</url>
+    </story>
+    <story><story_id>551</story_id>
+      <informant_id>553</informant_id>
+      <publication_info>DS_II_F_104</publication_info>
+      <full_name>553 - 0.00 - DS_II_F_104</full_name>
+      <url>data/stories/551.dfl</url>
+    </story>
+    <story><story_id>407</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_F_78</publication_info>
+      <full_name>123 - 3.04 - DS_II_F_78</full_name>
+      <url>data/stories/407.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>For at maren ikke skal ride ploven, b&#246;r der al tid holdes med hammelen vendt mod &#246;st.</danish_publication>
+  <english_publication>To make sure that the mare does not ride the plow, it should always be placed with the hitch turned toward the east.</english_publication>
+  <keywords>
+    <keyword><id>369</id><frequency>1</frequency><keyword>east</keyword>east</keyword>
+    <keyword><id>744</id><frequency>1</frequency><keyword>mare</keyword>mare</keyword>
+    <keyword><id>964</id><frequency>1</frequency><keyword>plow</keyword>plow</keyword>
+    <keyword><id>1030</id><frequency>1</frequency><keyword>riding</keyword>riding</keyword>
+  </keywords>
+  <etk_index><id>7</id>
+    <heading_danish>Varulve og marer</heading_danish>
+    <heading_english>Werewolves and nightmares</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>25</id><display_name>Places: Barn</display_name></tango_index>
+    <tango_index><id>50</id><display_name>Tools, Items and Conveyances: Metal</display_name></tango_index>
+    <tango_index><id>51</id><display_name>Tools, Items and Conveyances: Plow</display_name></tango_index>
+    <tango_index><id>52</id><display_name>Tools, Items and Conveyances: Tools</display_name></tango_index>
+    <tango_index><id>61</id><display_name>Supernatural Beings: Mare</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

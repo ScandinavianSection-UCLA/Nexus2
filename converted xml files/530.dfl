@@ -1,0 +1,100 @@
+<story><story_id>530</story_id>
+  <publication_info>DS_IV_1684</publication_info>
+  <full_name>425 - 0.00 - DS_IV_1684</full_name>
+  <informant_id>425</informant_id>
+  <informant_last_name>Kirk</informant_last_name>
+  <informant_first_name>Hans</informant_first_name>
+  <informant_full_name>Hans Kirk</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>488</place_id>
+      <name>R&#248;dding</name>
+      <display_name>R&#248;dding (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>392</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story><story_id>751</story_id>
+      <informant_id>479</informant_id>
+      <publication_info>DS_IV_1687</publication_info>
+      <full_name>479 - 0.00 - DS_IV_1687</full_name>
+      <url>data/stories/751.dfl</url>
+    </story>
+    <story><story_id>873</story_id>
+      <informant_id/>
+      <publication_info>DS_IV_1686</publication_info>
+      <full_name>0 - 0.00 - DS_IV_1686</full_name>
+      <url>data/stories/873.dfl</url>
+    </story>
+    <story><story_id>629</story_id>
+      <informant_id>474</informant_id>
+      <publication_info>DS_IV_1682</publication_info>
+      <full_name>474 - 0.00 - DS_IV_1682</full_name>
+      <url>data/stories/629.dfl</url>
+    </story>
+    <story><story_id>648</story_id>
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1678</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1678</full_name>
+      <url>data/stories/648.dfl</url>
+    </story>
+    <story><story_id>723</story_id>
+      <informant_id>507</informant_id>
+      <publication_info>DS_IV_1679</publication_info>
+      <full_name>507 - 0.00 - DS_IV_1679</full_name>
+      <url>data/stories/723.dfl</url>
+    </story>
+    <story><story_id>685</story_id>
+      <informant_id>462</informant_id>
+      <publication_info>DS_IV_1680</publication_info>
+      <full_name>462 - 0.00 - DS_IV_1680</full_name>
+      <url>data/stories/685.dfl</url>
+    </story>
+    <story><story_id>799</story_id>
+      <informant_id>442</informant_id>
+      <publication_info>DS_IV_1681</publication_info>
+      <full_name>442 - 0.00 - DS_IV_1681</full_name>
+      <url>data/stories/799.dfl</url>
+    </story>
+    <story><story_id>800</story_id>
+      <informant_id>442</informant_id>
+      <publication_info>DS_IV_1683</publication_info>
+      <full_name>442 - 0.00 - DS_IV_1683</full_name>
+      <url>data/stories/800.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Da pr&#230;sten kom af kirken, sagde folkene: "Hvad er det?" &#8212; "Det er den sorte d&#248;d." &#8212; "Lad os g&#229; ind igjen og bede den fra os." Det har min fader fortalt.</danish_publication>
+  <english_publication>When the minister came out of the church, the people said, "What&#8217;s that?" &#8212; "It's the black plague." &#8212; "Let&#8217;s go in again and pray it away from us." My father told that story.</english_publication>
+  <keywords>
+    <keyword><id>108</id><frequency>1</frequency><keyword>black_plague</keyword>Black Plague</keyword>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>989</id><frequency>1</frequency><keyword>prayer</keyword>prayer</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

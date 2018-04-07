@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<story story_id="785">
+  <publication_info>DS_II_G_317</publication_info>
+  <full_name>340 - 0.00 - DS_II_G_317</full_name>
+  <informant_id>340</informant_id>
+  <informant_last_name>Brix</informant_last_name>
+  <informant_first_name>J. G. O.</informant_first_name>
+  <informant_full_name>Pastor J. G. O. Brix</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>540</place_id>
+      <name>Skj&#xF8;dstrup</name>
+      <display_name>Skj&#xF8;dstrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>576</place_id>
+      <name>Sortholm</name>
+      <display_name>Sortholm (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>169</place_id>
+      <name>Fovlumkj&#xE6;r</name>
+      <display_name>Fovlumkj&#xE6;r (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>195</place_id>
+      <name>Gj&#xF8;rringh&#xF8;j</name>
+      <display_name>Gj&#xF8;rringh&#xF8;j (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>572</place_id>
+      <name>S&#xF8;nderup</name>
+      <display_name>S&#xF8;nderup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>680</place_id>
+      <name>Vammen</name>
+      <display_name>Vammen (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="204">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_G_250</publication_info>
+      <full_name>241 - 4.32 - DSnr_II_G_250</full_name>
+      <url>data/stories/204.dfl</url>
+    </story>
+    <story story_id="465">
+      <informant_id>431</informant_id>
+      <publication_info>DS_II_G_334</publication_info>
+      <full_name>431 - 0.00 - DS_II_G_334</full_name>
+      <url>data/stories/465.dfl</url>
+    </story>
+    <story story_id="550">
+      <informant_id>549</informant_id>
+      <publication_info>DS_VII_1482</publication_info>
+      <full_name>549 - 0.00 - DS_VII_1482</full_name>
+      <url>data/stories/550.dfl</url>
+    </story>
+    <story story_id="548">
+      <informant_id>466</informant_id>
+      <publication_info>DS_II_G_323</publication_info>
+      <full_name>466 - 0.00 - DS_II_G_323</full_name>
+      <url>data/stories/548.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Her ovre ved S&#xF8;nderup i Vammen sogn er der en stor knold ude i kj&#xE6;ret, Gj&#xF6;rrigh&#xF6;j kaldes den, og der skal Holger Danske have boet. Andre siger, at han skal have boet p&#xE5; Fovlum kj&#xE6;r p&#xE5; en holm, de kalder Sortholm. Der har og s&#xE5; v&#xE6;ret et slot, det har a m&#xE6;rket s&#xE5; mange gange.</danish_publication>
+  <english_publication>Over here in S&#xF8;nderup in Vammen parish there's a big mound out in the swamp, they call it Gj&#xF8;rrigh&#xF8;j, and Holger Danske is supposed to have lived there. Others say that he lived on Fovlum kj&#xE6;r on an island they call Sortholm. There was a castle there too, I've noticed that many times.</english_publication>
+  <keywords>
+    <keyword id="186" frequency="1" keyword="castle">castle</keyword>
+    <keyword id="301" frequency="1" keyword="dansk">Dansk</keyword>
+    <keyword id="565" frequency="1" keyword="island">island</keyword>
+    <keyword id="804" frequency="1" keyword="mound">mound</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="1228" frequency="1" keyword="swamp">swamp</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="20" display_name="People: Strong Man / Hero"/>
+    <tango_index id="32" display_name="Places: Heath"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

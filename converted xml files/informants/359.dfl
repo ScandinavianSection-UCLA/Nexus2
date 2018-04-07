@@ -1,0 +1,62 @@
+<informant><person_id>359</person_id>
+  <core_informant/>
+  <full_name>Bogtrykker Kr. Eriksen</full_name>
+  <last_name>Eriksen</last_name>
+  <first_name>Kr.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>620</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>359</informant_id>
+      <publication_info>DS_I_1354</publication_info>
+      <full_name>359 - 0.00 - DS_I_1354</full_name>
+      <url>data/stories/620.dfl</url>
+      <place_recorded><id>338</id>K&#248;benhavn</place_recorded>
+      <places_mentioned>
+        <place><id>177</id>
+          <name>Fyn</name>
+        </place>
+        <place><id>463</id>
+          <name>Pigsh&#248;j</name>
+        </place>
+        <place><id>649</id>
+          <name>Tor&#248;hus</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>649</place_id>
+      <name>Tor&#248;hus</name>
+      <display_name>Tor&#248;hus (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>463</place_id>
+      <name>Pigsh&#248;j</name>
+      <display_name>Pigsh&#248;j (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>177</place_id>
+      <name>Fyn</name>
+      <display_name>Fyn (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

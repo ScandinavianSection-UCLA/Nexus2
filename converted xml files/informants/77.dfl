@@ -1,0 +1,48 @@
+<informant><person_id>77</person_id>
+  <core_informant/>
+  <full_name>S. L. H&#248;eg</full_name>
+  <last_name>H&#248;eg</last_name>
+  <first_name>S. L.</first_name>
+  <gender>m</gender>
+  <birth_date>0000-00-00</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>11</occupation_id>dyrl&#230;ge</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>809</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>77</informant_id>
+      <publication_info>DS_III_2198</publication_info>
+      <full_name>77 - 0.00 - DS_III_2198</full_name>
+      <url>data/stories/809.dfl</url>
+      <place_recorded><id>721</id>Voldum</place_recorded>
+      <places_mentioned>
+        <place><id>973</id>
+          <name>Lundbj&#230;rg mark</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>721</place_id>
+      <name>Voldum</name>
+      <display_name>Voldum (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>973</place_id>
+      <name>Lundbj&#230;rg mark</name>
+      <display_name>Lundbj&#230;rg mark (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<story story_id="642">
+  <publication_info>DS_VII_167</publication_info>
+  <full_name>331 - 0.00 - DS_VII_167</full_name>
+  <informant_id>331</informant_id>
+  <informant_last_name>Bertelsen</informant_last_name>
+  <informant_first_name>Lavst Nikolaj</informant_first_name>
+  <informant_full_name>L&#xE6;rer Lavst Nikolaj Bertelsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>846</place_id>
+      <name>&#xD8;ster Vandet</name>
+      <display_name>&#xD8;ster Vandet (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1046</place_id>
+      <name>Vestervig</name>
+      <display_name>Vestervig (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="641">
+      <informant_id>331</informant_id>
+      <publication_info>DS_VI_1251</publication_info>
+      <full_name>331 - 0.00 - DS_VI_1251</full_name>
+      <url>data/stories/641.dfl</url>
+    </story>
+    <story story_id="692">
+      <informant_id>337</informant_id>
+      <publication_info>DS_IV_1349</publication_info>
+      <full_name>337 - 0.00 - DS_IV_1349</full_name>
+      <url>data/stories/692.dfl</url>
+    </story>
+    <story story_id="412">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_169</publication_info>
+      <full_name>123 - 3.09 - DS_VII_169</full_name>
+      <url>data/stories/412.dfl</url>
+    </story>
+    <story story_id="352">
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1028</publication_info>
+      <full_name>90 - 2.20 - DS_VI_1028</full_name>
+      <url>data/stories/352.dfl</url>
+    </story>
+    <story story_id="495">
+      <informant_id>452</informant_id>
+      <publication_info>DS_VII_664</publication_info>
+      <full_name>452 - 0.00 - DS_VII_664</full_name>
+      <url>data/stories/495.dfl</url>
+    </story>
+    <story story_id="216">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_930</publication_info>
+      <full_name>241 - 4.44 - DS_VI_930</full_name>
+      <url>data/stories/216.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Justitsr&#xE5;d Fischer i Vestervig kj&#xF8;rte en dag p&#xE5; landevejen og m&#xF8;der der en gammel Nordmand, som gik og tiggede. Han holdt og b&#xF8;d ham at s&#xE6;tte sig op p&#xE5; vognen, for nu var han arresteret som l&#xF8;sgj&#xE6;nger. "&#xC5;nej", siger Nordmanden, "lad mig g&#xE5;, justitsr&#xE5;dens heste kan dog ikke tr&#xE6;kke mig." &#x2014; "Jo, det skal der ikke v&#xE6;re noget i vejen for, sid bare op." Efter at have gjort et par indvendinger sad han s&#xE5; op ved siden af kusken. Men hvor meget denne nu end piskede p&#xE5; hestene, var de dog ikke til at f&#xE5; af stedet, og s&#xE5; m&#xE5;tte justitsr&#xE5;den skj&#xF6;nt bede ham om at st&#xE5; af vognen igjen.</danish_publication>
+  <english_publication>Judge Fisher from Vestervig drove one day on the highway and met an old Norwegian there, who went around begging. He stopped and asked him to get up in the wagon, because now he was under arrest for vagrancy. &#x201C;Oh, no&#x201D;, says the Norwegian, &#x201C;let me go, because your honor&#x2019;s horses can't pull me.&#x201D; &#x201C;Well, I don&#x2019;t think there&#x2019;ll be any problem with that, just get up in the wagon.&#x201D; After making a few objections, the Norwegian gets up in the wagon next to the coachman. But however much the coachman whipped the horses, they wouldn&#x2019;t budge from the spot, and then the judge had to ask him to get down off the wagon again.</english_publication>
+  <keywords>
+    <keyword id="48" frequency="1" keyword="arrest">arrest</keyword>
+    <keyword id="86" frequency="1" keyword="beggar">beggar</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="357" frequency="1" keyword="driver">driver</keyword>
+    <keyword id="529" frequency="1" keyword="highway">highway</keyword>
+    <keyword id="541" frequency="1" keyword="honor">honor</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="609" frequency="1" keyword="judge">judge</keyword>
+    <keyword id="867" frequency="2" keyword="norwegian">Norwegian</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1311" frequency="4" keyword="wagon">wagon</keyword>
+    <keyword id="1336" frequency="1" keyword="whip">whip</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="10" display_name="People: Foreigner"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

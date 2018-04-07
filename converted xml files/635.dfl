@@ -1,0 +1,104 @@
+<story><story_id>635</story_id>
+  <publication_info>DS_II_D_77</publication_info>
+  <full_name>559 - 0.00 - DS_II_D_77</full_name>
+  <informant_id>559</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>234</place_id>
+      <name>Hals</name>
+      <display_name>Hals (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1041</place_id>
+      <name>Vium</name>
+      <display_name>Vium (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1042</place_id>
+      <name>Torning</name>
+      <display_name>Torning (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>471</story_id>
+      <informant_id>326</informant_id>
+      <publication_info>DS_II_D_73</publication_info>
+      <full_name>326 - 0.00 - DS_II_D_73</full_name>
+      <url>data/stories/471.dfl</url>
+    </story>
+    <story><story_id>535</story_id>
+      <informant_id>384</informant_id>
+      <publication_info>DS_II_D_72</publication_info>
+      <full_name>384 - 0.00 - DS_II_D_72</full_name>
+      <url>data/stories/535.dfl</url>
+    </story>
+    <story><story_id>754</story_id>
+      <informant_id>558</informant_id>
+      <publication_info>DS_II_D_109</publication_info>
+      <full_name>558 - 0.00 - DS_II_D_109</full_name>
+      <url>data/stories/754.dfl</url>
+    </story>
+    <story><story_id>761</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_D_99</publication_info>
+      <full_name>348 - 0.00 - DS_II_D_99</full_name>
+      <url>data/stories/761.dfl</url>
+    </story>
+    <story><story_id>194</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_D_63</publication_info>
+      <full_name>241 - 4.22 - DSnr_II_D_63</full_name>
+      <url>data/stories/194.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Nogle karle og piger fra Vium vilde til dands i Torning. De tog vejen over den s&#229;kaldte Vesterbro, et vadested i n&#230;rheden af sidstn&#230;vnte by. Da de kom hertil, var det netop h&#248;jvande, s&#229; de ikke kunde komme over gangtr&#230;et. De r&#229;dslog derfor om, hvorledes de skulde vinde over. Mens det stod p&#229;, opdagede de en hovedl&#248;s hest; en af de dristigste satte sig op p&#229; den, og flere fulgte eksemplet... Den blev s&#229; lang, at fordelen n&#229;ede over p&#229; den modsatte bred, medens bagdelen endnu stod t&#248;r p&#229; den anden. Som de nu holder s&#229;ledes, udbryder &#233;n:
+"J&#246;sses kors,
+nu har jeg aldrig set s&#229; lang en hors."
+Aldrig s&#229; snart var det sagt, f&#246;r hesten gik midt over, og karle og piger dumpede i vandet.</danish_publication>
+  <english_publication>Some farmhands and girls from Vium wanted to go to a dance in Torning. They took the road over the so-called west bridge, a ford near the aforementioned town. When they got there, it was high water, so they couldn&#8217;t get over the foot bridge. They discussed how they were going to get across. While they stood there, they discovered a headless horse; one of the bravest sat up on the horse and more followed his example... The horse grew so long that its front part reached the opposite bank, while the back side stood dry on the other side. While they were now waiting like that, one exclaimed: &#8220;Jesus Christ, now I&#8217;ve never seen so long a horse!&#8221; As soon as that was said, the horse broke in the middle and the farmhands and girls were dumped into the water.</english_publication>
+  <keywords>
+    <keyword><id>138</id><frequency>1</frequency><keyword>bravery</keyword>bravery</keyword>
+    <keyword><id>144</id><frequency>2</frequency><keyword>bridge</keyword>bridge</keyword>
+    <keyword><id>222</id><frequency>1</frequency><keyword>christ</keyword>Christ</keyword>
+    <keyword><id>297</id><frequency>1</frequency><keyword>dancing</keyword>dancing</keyword>
+    <keyword><id>333</id><frequency>1</frequency><keyword>discovery</keyword>discovery</keyword>
+    <keyword><id>395</id><frequency>2</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>433</id><frequency>1</frequency><keyword>foot</keyword>foot</keyword>
+    <keyword><id>467</id><frequency>2</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>515</id><frequency>1</frequency><keyword>headless_horse</keyword>headless horse</keyword>
+    <keyword><id>545</id><frequency>3</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>598</id><frequency>1</frequency><keyword>jesus</keyword>Jesus</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1275</id><frequency>1</frequency><keyword>town</keyword>town</keyword>
+    <keyword><id>1320</id><frequency>2</frequency><keyword>water</keyword>water</keyword>
+    <keyword><id>1331</id><frequency>1</frequency><keyword>west</keyword>west</keyword>
+  </keywords>
+  <etk_index><id>5</id>
+    <heading_danish>Vandets &#229;nder</heading_danish>
+    <heading_english>Water spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>26</id><display_name>Places: Bridge</display_name></tango_index>
+    <tango_index><id>42</id><display_name>Places: Stream / River</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,88 @@
+<story><story_id>887</story_id>
+  <publication_info>DS_VII_1418</publication_info>
+  <full_name>0 - 0.00 - DS_VII_1418</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>946</place_id>
+      <name>Vallensb&#230;k</name>
+      <display_name>Vallensb&#230;k (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>96</place_id>
+      <name>Br&#248;ndbyvester</name>
+      <display_name>Br&#248;ndbyvester (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>643</story_id>
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_443</publication_info>
+      <full_name>331 - 0.00 - DS_VII_443</full_name>
+      <url>data/stories/643.dfl</url>
+    </story>
+    <story><story_id>713</story_id>
+      <informant_id>324</informant_id>
+      <publication_info>DSnr_VI_534</publication_info>
+      <full_name>324 - 0.00 - DSnr_VI_534</full_name>
+      <url>data/stories/713.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I n&#230;rheden af Kj&#246;benhavn boede en gammel kone, som var meget klog. T&#230;t ved boede en mand, som var bange for hende og troede, at hun kunde hekse. En gang skulde han til Kj&#246;benhavn, og da vilde den kloge kone have bud med, men han sagde nej. S&#229; sagde hun, at det vilde han komme til at fortryde, hans r&#248;de hest kunde nemt sl&#229;es noget til. Om aftenen, da han kom tilbage, fortalte han karlen dette, og s&#229; stillede han sig om natten ude i b&#229;sen hos hesten. Da han havde st&#229;et lidt, kom konen og lagde noget i krybben ved hesten. S&#229; tog karlen ved hende og slog hende ihjel og begravede hende uden for g&#229;rden. P&#229; det sted plantede han et tr&#230;, og det st&#229;r der p&#229; Br&#248;ndby bakke den dag i dag.</danish_publication>
+  <english_publication>An old woman lived near Copenhagen and she was very wise. Nearby lived a man who was afraid of her and believed that she could witch. One time, he was supposed to go to Copenhagen and then the old woman wanted to send a message with him but he said no. Then she said that he&#8217;d come to regret that, his red horse could easily be hit with something. At night when he came home, he told this to the farmhand and then the farmhand went out to spend the night in the stall with the horse. When he had stood there a little while, the woman came and put something into the stall with the horse. Then the farmhand grabbed her, killed her and buried her outside of the farm. He planted a tree there and it's standing on Br&#248;ndby hill to this very day.</english_publication>
+  <keywords>
+    <keyword><id>13</id><frequency>1</frequency><keyword>afraid</keyword>afraid</keyword>
+    <keyword><id>87</id><frequency>1</frequency><keyword>belief</keyword>belief</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>286</id><frequency>1</frequency><keyword>cunning_folk</keyword>Cunning Folk</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>395</id><frequency>2</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>530</id><frequency>1</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>545</id><frequency>3</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>622</id><frequency>1</frequency><keyword>kill</keyword>kill</keyword>
+    <keyword><id>770</id><frequency>1</frequency><keyword>message</keyword>message</keyword>
+    <keyword><id>848</id><frequency>2</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>873</id><frequency>2</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>889</id><frequency>1</frequency><keyword>outside</keyword>outside</keyword>
+    <keyword><id>1021</id><frequency>1</frequency><keyword>red</keyword>red</keyword>
+    <keyword><id>1186</id><frequency>2</frequency><keyword>stall</keyword>stall</keyword>
+    <keyword><id>1281</id><frequency>1</frequency><keyword>tree</keyword>tree</keyword>
+    <keyword><id>1351</id><frequency>1</frequency><keyword>witch</keyword>witch</keyword>
+    <keyword><id>1356</id><frequency>3</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>25</id><display_name>Places: Barn</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>92</id><display_name>Actions or events: Murder</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

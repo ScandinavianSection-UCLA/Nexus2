@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<story story_id="256">
+  <publication_info>DS_VII_1628</publication_info>
+  <full_name>235 - 1.36 - DS_VII_1628</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.36</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="384">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_2367</publication_info>
+      <full_name>123 - 2.10 - DS_III_2367</full_name>
+      <url>data/stories/384.dfl</url>
+    </story>
+    <story story_id="266">
+      <informant_id>235</informant_id>
+      <publication_info>Unpub_KMP_146</publication_info>
+      <full_name>235 - 1.46 - Unpub_KMP_146</full_name>
+      <url>data/stories/266.dfl</url>
+    </story>
+    <story story_id="254">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VII_1569</publication_info>
+      <full_name>235 - 1.34 - DS_VII_1569</full_name>
+      <url>data/stories/254.dfl</url>
+    </story>
+    <story story_id="255">
+      <informant_id>235</informant_id>
+      <publication_info>DS_VII_1658</publication_info>
+      <full_name>235 - 1.35 - DS_VII_1658</full_name>
+      <url>data/stories/255.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5219a</fielddiary_page_start>
+  <fielddiary_page_end>5219b</fielddiary_page_end>
+  <bibliographic_info>B&#xE4;chtold-Staubli and Hoffman-Krayer 1987</bibliographic_info>
+  <bibliography_references>
+    <reference id="779" category="general">
+      <display_string>[Book] B&#xE4;chtold-St&#xE4;ubli, Hanns, Hoffmann-Krayer, Eduard. 1987. &lt;i&gt;Handw&#xF6;rterbuch des deutschen Aberglaubens&lt;/i&gt;. Berlin: W. de Gruyter.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>This cure relies on a form of prayer and is similar to Kirsten Marie's cure for a sprain (KMP 1.35). Jesus's encounter with the poisoned stag is synonymous with the patient's own poisoning. The cure imitates the story that constitutes the cure. As with many of Kirsten Marie's cures, the spoken phrase(s) and prayer are repeated three times.
+
+     The stag is commonly attributed supernatural powers in north Germanic folklore (B&#xE4;chtold-Staubli and Hoffman-Krayer 1987). Frequently, the hart is related to supernatural nature beings and, in some stories, it attempts to lure a person into the woods. In fairy tales and ballads, the stag occasionally appears with a cross between his antlers (DgF 113) or other magical token (DgF 40). The magical stag is also known from medieval literature, including G&#xF6;ngu-Hr&#xF3;lfs saga, and Gesta Romanorum.</annotation>
+  <danish_manuscript>For Skarn. Stryge paa det. Hjorten gaar paa vilden Hede
+med Bildt og boldt og mild i tem og der
+kom Jesus gangende frem og Hjort hvi staar
+du her s.  Jeg er s. haardt
+
+5219B
+med Jedder besp&#xE6;ndt. Da skal du ej l&#xE6;ngere
+v&#xE6;re med Jedder besp&#xE6;ndt, end jeg kan s&#xE6;tte
+min h&#xF8;jre Haand ned til den signede Jord
+i 3 Mands Navn. Fadervor 3 gange</danish_manuscript>
+  <english_manuscript>For venom (skarn). Rub it. The stag goes on the open heath, sunken and bent and thin in the undergrowth; and that's where Jesus came walking up: Oh stag why are you standing here so long. I am so swollen with poison. You will be no longer swollen with poison, than I can put my hand down to the blessed earth in the name of three men. The Our Father three times.</english_manuscript>
+  <danish_publication>For skarn. &#xC9;n stryger p&#xE5; det sted, der er er hovent, og siger: Hjorten g&#xE5;r p&#xE5; vilden hed' med bildt og boldt og mil i t&#xF6;mm', og der kom Jesus gangende frem: Og hjort, hvi st&#xE5;r du her s&#xE5; l&#xE6;nge. Jeg er s&#xE5; h&#xE5;rdt med jedder besp&#xE6;ndt. Da skal du ej l&#xE6;ngere v&#xE6;re med jedder besp&#xE6;ndt, end jeg kan s&#xE6;tte min h&#xF6;jre h&#xE5;nd ned til den signede jord. I tre m&#xE6;nds navn. Fadervor. .. . Det l&#xE6;ses tre gange.</danish_publication>
+  <english_publication>For venom (skarn, edder). One rubs the swollen place and says: The stag goes on the open heath, sunken and bent and thin in the undergrowth; and that&#x2019;s where Jesus came walking up: Oh stag why are you standing here so long. I am so swollen with poison. You shall no longer be swollen with poison, than I can put my hand down to the blessed earth. In the name of three men. The Our Father&#x2026; You read this three times.</english_publication>
+  <keywords>
+    <keyword id="110" frequency="1" keyword="blessing">blessing</keyword>
+    <keyword id="368" frequency="1" keyword="earth">earth</keyword>
+    <keyword id="517" frequency="1" keyword="heath">heath</keyword>
+    <keyword id="598" frequency="1" keyword="jesus">Jesus</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="886" frequency="1" keyword="our_father">Our Father</keyword>
+    <keyword id="970" frequency="2" keyword="poison">poison</keyword>
+    <keyword id="1123" frequency="1" keyword="sinking">sinking</keyword>
+    <keyword id="1183" frequency="2" keyword="stag">stag</keyword>
+    <keyword id="1252" frequency="1" keyword="thin">thin</keyword>
+    <keyword id="1256" frequency="2" keyword="three">three</keyword>
+  </keywords>
+  <etk_index id="30">
+    <heading_danish>Menneskets og kv&#xE6;gets sygdomme</heading_danish>
+    <heading_english>Human and cattle illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="10" name="Cure / Remedy / Spell"/>
+</story>

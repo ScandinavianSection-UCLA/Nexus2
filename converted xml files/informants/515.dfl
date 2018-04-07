@@ -1,0 +1,62 @@
+<informant><person_id>515</person_id>
+  <core_informant/>
+  <full_name>Lars Pedersen</full_name>
+  <last_name>Pedersen</last_name>
+  <first_name>Lars</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>667</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>515</informant_id>
+      <publication_info>DS_I_1124</publication_info>
+      <full_name>515 - 0.00 - DS_I_1124</full_name>
+      <url>data/stories/667.dfl</url>
+      <place_recorded><id>820</id>Langemark, Sams&#248;</place_recorded>
+      <places_mentioned>
+        <place><id>176</id>
+          <name>Funder</name>
+        </place>
+        <place><id>522</id>
+          <name>Silkeborg</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>668</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>515</informant_id>
+      <publication_info>DS_II_G_219</publication_info>
+      <full_name>515 - 0.00 - DS_II_G_219</full_name>
+      <url>data/stories/668.dfl</url>
+      <place_recorded><id>820</id>Langemark, Sams&#248;</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>820</place_id>
+      <name>Langemark, Sams&#248;</name>
+      <display_name>Langemark, Sams&#248; (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>522</place_id>
+      <name>Silkeborg</name>
+      <display_name>Silkeborg (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>176</place_id>
+      <name>Funder</name>
+      <display_name>Funder (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

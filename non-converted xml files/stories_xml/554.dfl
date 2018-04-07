@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<story story_id="554">
+  <publication_info>DS_I_717</publication_info>
+  <full_name>128 - 0.00 - DS_I_717</full_name>
+  <informant_id>128</informant_id>
+  <informant_last_name>J&#xF8;rgensen</informant_last_name>
+  <informant_first_name>Jakob</informant_first_name>
+  <informant_full_name>Jakob J&#xF8;rgensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>775</place_id>
+      <name>Firg&#xE5;rde</name>
+      <display_name>Firg&#xE5;rde (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>110</place_id>
+      <name>Dakbj&#xE6;rg</name>
+      <display_name>Dakbj&#xE6;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="180">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_901</publication_info>
+      <full_name>241 - 4.09 - DSnr_I_901</full_name>
+      <url>data/stories/180.dfl</url>
+    </story>
+    <story story_id="385">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_767</publication_info>
+      <full_name>123 - 2.11 - DS_I_767</full_name>
+      <url>data/stories/385.dfl</url>
+    </story>
+    <story story_id="790">
+      <informant_id>382</informant_id>
+      <publication_info>DS_I_898</publication_info>
+      <full_name>382 - 0.00 - DS_I_898</full_name>
+      <url>data/stories/790.dfl</url>
+    </story>
+    <story story_id="579">
+      <informant_id>106</informant_id>
+      <publication_info>DS_I_748</publication_info>
+      <full_name>106 - 0.00 - DS_I_748</full_name>
+      <url>data/stories/579.dfl</url>
+    </story>
+    <story story_id="522">
+      <informant_id>519</informant_id>
+      <publication_info>DS_I_774</publication_info>
+      <full_name>519 - 0.00 - DS_I_774</full_name>
+      <url>data/stories/522.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Min moder sagde, at bj&#xE6;rgfolkene dandsede ved Dakbj&#xE6;rg. De kunde s&#xE5;dan se, n&#xE5;r solen skinnede, hvordan bj&#xE6;rgfolkene kunde dandse, det var s&#xE5; smukt, for det var ligesom kramdukker at se p&#xE5;.
+      De var ude at mede (meje) om h&#xF6;sten, og s&#xE5; var der en pige, der havde set det, og hun sagde til de andre, da de skulde hjem til onden: Hun vilde hellere blive ved de Dakbj&#xE6;rg fruer og dandse med dem, imens de gik hjem. Da de kom tilbage, fandt de hendes lig, hun havde dandset sig ihjel.</danish_publication>
+  <english_publication>My mother said that the mound folk danced near Dakbj&#xE6;rg. When the sun was shining, they could see how the mound folk danced, it was so beautiful because it was just like watching beautiful dolls. 
+      They were out mowing during harvest and then there was a girl who had seen that, and she said to the others when they were going home to eat lunch: she would rather stay with the Dakbj&#xE6;rg women and dance with them while they went home. When they came back, they found her corpse, she had danced herself to death.</english_publication>
+  <keywords>
+    <keyword id="82" frequency="1" keyword="beautiful">beautiful</keyword>
+    <keyword id="262" frequency="1" keyword="corpse">corpse</keyword>
+    <keyword id="297" frequency="4" keyword="dancing">dancing</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="504" frequency="1" keyword="harvest">harvest</keyword>
+    <keyword id="537" frequency="2" keyword="home">home</keyword>
+    <keyword id="728" frequency="1" keyword="lunch">lunch</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="806" frequency="2" keyword="mound_folk">mound folk</keyword>
+    <keyword id="1217" frequency="1" keyword="sun">sun</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="110" display_name="Time, Season, Weather: Noon"/>
+    <tango_index id="117" display_name="Time, Season, Weather: Fall"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

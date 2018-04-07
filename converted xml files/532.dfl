@@ -1,0 +1,79 @@
+<story><story_id>532</story_id>
+  <publication_info>DS_II_C_78</publication_info>
+  <full_name>511 - 0.00 - DS_II_C_78</full_name>
+  <informant_id>511</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Hans Kristian</informant_first_name>
+  <informant_full_name>Hans Kristian Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>790</place_id>
+      <name>Haslund</name>
+      <display_name>Haslund (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>169</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_C_10</publication_info>
+      <full_name>241 - 2.19 - DSnr_II_C_10</full_name>
+      <url>data/stories/169.dfl</url>
+    </story>
+    <story><story_id>782</story_id>
+      <informant_id>500</informant_id>
+      <publication_info>DS_II_C_68</publication_info>
+      <full_name>500 - 0.00 - DS_II_C_68</full_name>
+      <url>data/stories/782.dfl</url>
+    </story>
+    <story><story_id>54</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_115</publication_info>
+      <full_name>150 - 2.07 - DS_II_C_115</full_name>
+      <url>data/stories/54.dfl</url>
+    </story>
+    <story><story_id>56</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_90</publication_info>
+      <full_name>150 - 2.09 - DS_II_C_90</full_name>
+      <url>data/stories/56.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Howens j&#230;ger ham har a h&#248;rt. Han var en gang kommen efter en flok ellekvinder. Et menneske sad under en bro, og da kom deher ellekvinder l&#248;bende over. De kom tjattende ligesom en flok gj&#230;s. J&#230;geren kom bag efter, og hans hunde n&#229;strede, og han sagde: "Tohejj, tohejj!" Det er et gammelt sagn, at han skal jage de ellekvinder af vejen, men manden, som sad under broen, vidste ikke, om han fangede dem eller ej.</danish_publication>
+  <english_publication>I've heard Howen's hunter. One time he'd gone after a flock of elf women. A person sat under a bridge and then these elf women came running over it. They came flapping along just like a flock of geese. The hunter came behind them, and his dogs panted, and he said, "Tohejj, tohejj!" It's an old legend that he's supposed to chase these women off, but the man who sat under the bridge didn't know whether he caught them or not.</english_publication>
+  <keywords>
+    <keyword><id>144</id><frequency>2</frequency><keyword>bridge</keyword>bridge</keyword>
+    <keyword><id>211</id><frequency>1</frequency><keyword>chase</keyword>chase</keyword>
+    <keyword><id>343</id><frequency>1</frequency><keyword>dog</keyword>dog</keyword>
+    <keyword><id>373</id><frequency>2</frequency><keyword>elf</keyword>elf</keyword>
+    <keyword><id>421</id><frequency>2</frequency><keyword>flock</keyword>flock</keyword>
+    <keyword><id>458</id><frequency>1</frequency><keyword>geese</keyword>geese</keyword>
+    <keyword><id>550</id><frequency>2</frequency><keyword>hunter</keyword>hunter</keyword>
+    <keyword><id>705</id><frequency>1</frequency><keyword>legend</keyword>legend</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>4</id>
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>26</id><display_name>Places: Bridge</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>71</id><display_name>Animals: Dog</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

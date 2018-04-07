@@ -1,0 +1,98 @@
+<story><story_id>466</story_id>
+  <publication_info>DS_IV_1695</publication_info>
+  <full_name>432 - 0.00 - DS_IV_1695</full_name>
+  <informant_id>432</informant_id>
+  <informant_last_name>Kristensdatter</informant_last_name>
+  <informant_first_name>Ane Marie</informant_first_name>
+  <informant_full_name>Ane Marie Kristensdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>452</place_id>
+      <name>&#216;rum</name>
+      <display_name>&#216;rum (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>392</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story><story_id>459</story_id>
+      <informant_id>418</informant_id>
+      <publication_info>DS_IV_1705</publication_info>
+      <full_name>418 - 0.00 - DS_IV_1705</full_name>
+      <url>data/stories/459.dfl</url>
+    </story>
+    <story><story_id>539</story_id>
+      <informant_id>238</informant_id>
+      <publication_info>DS_IV_1690</publication_info>
+      <full_name>238 - 0.00 - DS_IV_1690</full_name>
+      <url>data/stories/539.dfl</url>
+    </story>
+    <story><story_id>637</story_id>
+      <informant_id>245</informant_id>
+      <publication_info>DS_IV_1729</publication_info>
+      <full_name>245 - 0.00 - DS_IV_1729</full_name>
+      <url>data/stories/637.dfl</url>
+    </story>
+    <story><story_id>648</story_id>
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1678</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1678</full_name>
+      <url>data/stories/648.dfl</url>
+    </story>
+    <story><story_id>558</story_id>
+      <informant_id>344</informant_id>
+      <publication_info>DS_IV_1696</publication_info>
+      <full_name>344 - 0.00 - DS_IV_1696</full_name>
+      <url>data/stories/558.dfl</url>
+    </story>
+    <story><story_id>803</story_id>
+      <informant_id>443</informant_id>
+      <publication_info>DS_IV_1702</publication_info>
+      <full_name>443 - 0.00 - DS_IV_1702</full_name>
+      <url>data/stories/803.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Da her var pest, fort&#230;ller de gamle, var der &#233;n pige, den eneste p&#229; en lang, lang afstand, der gik og fulgte med en ko og pattede den i 7, 8 &#229;r. Hun var vel kun et par &#229;r, da hun kom til at f&#248;lges med den, og blev helt vild.
+     De kunde st&#229; og grave en grav, og s&#229; kom der en nysen over dem, og s&#229; kunde de blive i den grav, de stod og grov. De kunde nemlig tr&#230;ffe at d&#248; efter den f&#248;rste nysen, de fik. Deraf kommer den skik at sige: Gud velsign!</danish_publication>
+  <english_publication>When the plague was here, the old people say that there was a girl, the only one for a great, great distance, who went and followed along with a cow and nursed from it for seven or eight years. She was only a few years old when she started following along with it, and she became completely wild. 
+     They could stand and dig a grave, and then they could stay in the grave they were digging. They could actually die after the first sneezing fit they got. That&#8217;s where the custom of saying "God bless!" comes from.</english_publication>
+  <keywords>
+    <keyword><id>110</id><frequency>1</frequency><keyword>blessing</keyword>blessing</keyword>
+    <keyword><id>274</id><frequency>1</frequency><keyword>cow</keyword>cow</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>326</id><frequency>2</frequency><keyword>digging</keyword>digging</keyword>
+    <keyword><id>467</id><frequency>1</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>472</id><frequency>1</frequency><keyword>god</keyword>god</keyword>
+    <keyword><id>483</id><frequency>2</frequency><keyword>grave</keyword>grave</keyword>
+    <keyword><id>873</id><frequency>2</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>959</id><frequency>1</frequency><keyword>plague</keyword>plague</keyword>
+    <keyword><id>1089</id><frequency>1</frequency><keyword>seven</keyword>seven</keyword>
+    <keyword><id>1149</id><frequency>1</frequency><keyword>sneeze</keyword>sneeze</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

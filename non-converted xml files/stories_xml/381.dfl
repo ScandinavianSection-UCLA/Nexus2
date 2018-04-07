@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<story story_id="381">
+  <publication_info>DS_V_1153</publication_info>
+  <full_name>123 - 2.07 - DS_V_1153</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.07</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>122</place_id>
+      <name>Dover kirke</name>
+      <display_name>Dover kirke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="594">
+      <informant_id>412</informant_id>
+      <publication_info>DS_V_1158</publication_info>
+      <full_name>412 - 0.00 - DS_V_1158</full_name>
+      <url>data/stories/594.dfl</url>
+    </story>
+    <story story_id="855">
+      <informant_id>386</informant_id>
+      <publication_info>DS_V_384</publication_info>
+      <full_name>386 - 0.00 - DS_V_384</full_name>
+      <url>data/stories/855.dfl</url>
+    </story>
+    <story story_id="378">
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1163</publication_info>
+      <full_name>123 - 2.04 - DS_V_1163</full_name>
+      <url>data/stories/378.dfl</url>
+    </story>
+    <story story_id="593">
+      <informant_id>375</informant_id>
+      <publication_info>DS_V_1157</publication_info>
+      <full_name>375 - 0.00 - DS_V_1157</full_name>
+      <url>data/stories/593.dfl</url>
+    </story>
+    <story story_id="725">
+      <informant_id>380</informant_id>
+      <publication_info>DS_V_1171</publication_info>
+      <full_name>380 - 0.00 - DS_V_1171</full_name>
+      <url>data/stories/725.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3774a</fielddiary_page_start>
+  <fielddiary_page_end>3774a</fielddiary_page_end>
+  <bibliographic_info>Pentik&#xE4;inen 1968</bibliographic_info>
+  <bibliography_references>
+    <reference id="46" category="general">
+      <display_string>[Book] Pentik&#xE4;inen, Juha. 1968. &lt;i&gt;The nordic dead-child tradition. Nordic dead-child beings (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The ghost is presumably that of a woman who died in childbirth (PJ 2.04). The request for burial clothes for the child is a common motif in the Nordic dead child tradition (Pentik&#xE4;inen 1968; DS V 1157, 1163, 1171). In Peter's story, trying to meet the demands of the ghost is clearly the best strategy, as the person survives the encounter relatively unscathed.</annotation>
+  <danish_manuscript>Der var en G. en der kom forbi Dover Kir-
+ke om N. og s. vilde en have Ligt&#xF8;j til sit
+Barn. S. maatte h. for at slippe hende 
+rive hans Skjorteflisk af og fly hende.
+S. kom h. da fra hende.
+</danish_manuscript>
+  <english_manuscript>One time a person went past Dover church at night and then someone came and wanted burial clothes for her child. To get away from her he had to tear his shirt tail off and give it to her. Then he got away from her.</english_manuscript>
+  <danish_publication>Der var &#xE9;n, der kom forbi Dover kirke om natten. S&#xE5; kom der en kvindeskikkelse og vilde have ligt&#xF6;j til sit barn. Han m&#xE5;tte da for at slippe hende rive hans skjorteflisk af og fly hende, og det var hun tilfreds med.</danish_publication>
+  <english_publication>There was a person who went past Dover church at night. Then a woman figure came and wanted burial clothes for her child. To get away from her he had to tear his shirt tail off and give it to her, she was satisfied with that.</english_publication>
+  <keywords>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="236" frequency="1" keyword="clothing">clothing</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1102" frequency="1" keyword="shirt">shirt</keyword>
+    <keyword id="1239" frequency="1" keyword="tail">tail</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="24">
+    <heading_danish>Kvindelige gjenf&#xE6;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

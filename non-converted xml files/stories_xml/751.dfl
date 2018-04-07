@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<story story_id="751">
+  <publication_info>DS_IV_1687</publication_info>
+  <full_name>479 - 0.00 - DS_IV_1687</full_name>
+  <informant_id>479</informant_id>
+  <informant_last_name>M&#xF8;ller</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels M&#xF8;ller</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>864</place_id>
+      <name>Sjellerup</name>
+      <display_name>Sjellerup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="392">
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story story_id="539">
+      <informant_id>238</informant_id>
+      <publication_info>DS_IV_1690</publication_info>
+      <full_name>238 - 0.00 - DS_IV_1690</full_name>
+      <url>data/stories/539.dfl</url>
+    </story>
+    <story story_id="800">
+      <informant_id>442</informant_id>
+      <publication_info>DS_IV_1683</publication_info>
+      <full_name>442 - 0.00 - DS_IV_1683</full_name>
+      <url>data/stories/800.dfl</url>
+    </story>
+    <story story_id="530">
+      <informant_id>425</informant_id>
+      <publication_info>DS_IV_1684</publication_info>
+      <full_name>425 - 0.00 - DS_IV_1684</full_name>
+      <url>data/stories/530.dfl</url>
+    </story>
+    <story story_id="629">
+      <informant_id>474</informant_id>
+      <publication_info>DS_IV_1682</publication_info>
+      <full_name>474 - 0.00 - DS_IV_1682</full_name>
+      <url>data/stories/629.dfl</url>
+    </story>
+    <story story_id="648">
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1678</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1678</full_name>
+      <url>data/stories/648.dfl</url>
+    </story>
+    <story story_id="685">
+      <informant_id>462</informant_id>
+      <publication_info>DS_IV_1680</publication_info>
+      <full_name>462 - 0.00 - DS_IV_1680</full_name>
+      <url>data/stories/685.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Da pesten kom, m&#xE6;ldte den sig ved, at der fl&#xF6;j ligesom et bl&#xE5;t forkl&#xE6;de gjennem luften.</danish_publication>
+  <english_publication>When the plague came, it announced itself like a blue apron flying through the air.</english_publication>
+  <keywords>
+    <keyword id="16" frequency="1" keyword="air">air</keyword>
+    <keyword id="44" frequency="1" keyword="apron">apron</keyword>
+    <keyword id="114" frequency="1" keyword="blue">blue</keyword>
+    <keyword id="425" frequency="1" keyword="flying">flying</keyword>
+    <keyword id="959" frequency="1" keyword="plague">plague</keyword>
+  </keywords>
+  <etk_index id="22">
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

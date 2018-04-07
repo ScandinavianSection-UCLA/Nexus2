@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<story story_id="570">
+  <publication_info>DS_III_122</publication_info>
+  <full_name>488 - 0.00 - DS_III_122</full_name>
+  <informant_id>488</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Sognefoged Jens Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>821</place_id>
+      <name>Lem</name>
+      <display_name>Lem (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>439</place_id>
+      <name>N&#xF8;rre Lem</name>
+      <display_name>N&#xF8;rre Lem (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>488</place_id>
+      <name>R&#xF8;dding</name>
+      <display_name>R&#xF8;dding (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="414">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_222</publication_info>
+      <full_name>123 - 3.11 - DS_III_222</full_name>
+      <url>data/stories/414.dfl</url>
+    </story>
+    <story story_id="438">
+      <informant_id>520</informant_id>
+      <publication_info>DS_III_128</publication_info>
+      <full_name>520 - 0.00 - DS_III_128</full_name>
+      <url>data/stories/438.dfl</url>
+    </story>
+    <story story_id="21">
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_127</publication_info>
+      <full_name>150 - 1.18 - DS_III_127</full_name>
+      <url>data/stories/21.dfl</url>
+    </story>
+    <story story_id="201">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_III_142</publication_info>
+      <full_name>241 - 4.29 - DSnr_III_142</full_name>
+      <url>data/stories/201.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Indtil for f&#xE5; &#xE5;r siden l&#xE5; der en stor sten i N&#xF6;rre-Lem hede, som kaldtes Simons-stenen og sagdes at v&#xE6;re kastet derhen af en trold p&#xE5; Tylandssiden, som vilde have sl&#xE5;et R&#xF6;dding kirke ned, men den var ham for tung og faldt ude i heden. Folk kl&#xF8;vede efterh&#xE5;nden stykker af den og bortf&#xF8;rte disse, og da Bustrup lade for f&#xE5; &#xE5;r siden afbr&#xE6;ndte ved lynild, brugtes resten af stenen, som kj&#xF6;btes af Bustrup ejer og hjemf&#xF8;rtes af ham til g&#xE5;rden. Der var 30 gode l&#xE6;s. Man kunde i stenen se spor af troldens fingre.</danish_publication>
+  <english_publication>Until just a few years ago, there was a large stone out in N&#xF8;rre-Lem heath that was called Simon's stone, and it was said to have been thrown there by a troll over on the Tylland side who wanted to knock R&#xF8;dding church down, but it was too heavy for him and the stone landed out in the heath. After a while, people cleaved pieces off of it and took them away, and when Bustrup barn burned down after a lightning strike a few years ago, the rest of the stone was bought by the owner of Bustrup and brought back to the farm and used to rebuild the barn. It was a good thirty loads. You could see the marks of the troll's fingers in the stone.</english_publication>
+  <keywords>
+    <keyword id="72" frequency="2" keyword="barn">barn</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="412" frequency="1" keyword="finger">finger</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="517" frequency="2" keyword="heath">heath</keyword>
+    <keyword id="891" frequency="1" keyword="owner">owner</keyword>
+    <keyword id="1026" frequency="1" keyword="rest">rest</keyword>
+    <keyword id="1195" frequency="4" keyword="stone">stone</keyword>
+    <keyword id="1283" frequency="2" keyword="troll">troll</keyword>
+  </keywords>
+  <etk_index id="11">
+    <heading_danish>Kj&#xE6;mper og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Heroes and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="32" display_name="Places: Heath"/>
+    <tango_index id="60" display_name="Supernatural Beings: Giant"/>
+    <tango_index id="66" display_name="Supernatural Beings: Troll"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

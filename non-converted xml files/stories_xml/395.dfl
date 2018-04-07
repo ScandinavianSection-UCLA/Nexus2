@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<story story_id="395">
+  <publication_info>JAH_VI_176</publication_info>
+  <full_name>123 - 2.21 - JAH_VI_176</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.21</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="432">
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XIII_38</publication_info>
+      <full_name>123 - 4.04 - JFm_XIII_38</full_name>
+      <url>data/stories/432.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3778a</fielddiary_page_start>
+  <fielddiary_page_end>3778b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>In this story, Peder emphasizes the violent nature of the wandering poor. In many stories about the poor, there seems to be an underlying sense that these people are "different": they speak differently, they act differently, they wear unusual clothes. This "difference" comes to the fore in other stories about night men (natm&#xE6;nd), knackers (rakkere), and other vagabonds, in which the difference is also based on ascribed ethnicity. Even though most natm&#xE6;nd and rakkere were ethnically Danish, they were often lumped in with ethnic outsiders such as Jews, gypsies (tatere) and Poles.
+
+     The wanderer's violent outburst at the kitten--and the death of the kitten--is out of line with the actual offense. While the death of the kitten does not impact the economy of the farm in a meaningful way (perhaps there will be a few more mice running about), the extraordinary violence of the outburst does pose a threat. Indeed, if he could kill a cute, furry little kitty cat, imagine what he could do to a child. The outburst links the wanderer to other outsiders, including supernatural outsiders such as the nisse, whose reactions also tend to be disproportionate. The reference to his size--"almost like a giant"--and his strange speech solidify this link.</annotation>
+  <danish_manuscript>Der var en ham kunde min Oldefader hu-
+ske, h. gik altid n&#xF8;gen undtagen paa Bry
+og Ryg, der havde h. et Faareskind. H.
+hed Ovsel (Axel) og h. brugte meget saadan
+at ligge ude paa Folks M&#xF8;nger om Som-
+merne og sove. S. var det en Middag h.
+ligger og sover, da kommer der en Killing og bed
+sig fast i hans store Taa og det var s. meget 
+en forf&#xE6;rdelig stor Mske, snart lige som
+
+3778B
+en Kj&#xE6;mpe. Den samme kunde vist ikke
+sn. for da h. nu vaagner, bed Killingen
+sig rigtig godt fast og s. sagde h. Garrehu
+Garrehu! Det var det eneste h. sagde og s. knuste
+h. Kill. med et Hug.
+</danish_manuscript>
+  <english_manuscript>My grandfather remembered one guy, he always walked about naked except for his chest and back, where he wore a sheepskin. He was called Ovsel (Axel) and he spent a lot of time lying about in people's scrap heaps in the summer, sleeping. One afternoon, while he's lying there sleeping, a little pussy cat comes and bites onto his big toe. Now he was a really big guy, almost like a giant. He apparently couldn't speak well, so when he wakes up, the pussy cat really bites down hard and he said, "Garrehu! Garrehu!" That was the only thing he said, and then he crushed the pussy cat with one blow.</english_manuscript>
+  <danish_publication>Der var &#xE9;n, der hed Ovsel (Axel), ham kunde min oldefader huske, han gik altid n&#xF8;gen undtagen p&#xE5; bryst og ryg, der havde han et f&#xE5;reskind. Han brugte meget s&#xE5;dan at ligge ude p&#xE5; folks m&#xF8;nger om sommeren og sove. S&#xE5; var det en middag, han ligger der og sover, da kommer der en killing, og den bider sig fast i hans store t&#xE5;. Nu var det s&#xE5; meget et forf&#xE6;rdelig stort menneske, snart ligesom en kj&#xE6;mpe. Da han nu v&#xE5;gner, bed killingen sig rigtig godt fast, og s&#xE5; sagde han: "Garrehu, garrehu!" Det var det eneste, han sagde, og s&#xE5; knuste han killingen med &#xE9;t slag. En skulde snart tro, han ikke kunde snakke rigtig.</danish_publication>
+  <english_publication>There was a guy named Axel, my great grandfather remembered him, he always walked about naked except for his chest and back, where he wore a sheepskin. In the summer he spent a lot of time lying about in people&#x2019;s scrap heaps sleeping. One afternoon, while he&#x2019;s lying there sleeping, a little pussy cat comes and bites onto his big toe. Now he was a really big guy, almost like a giant. So now when he wakes up, the pussy cat really bites down hard and he said, &#x201C;Garrehu! Garrehu!&#x201D; That was the only thing he said, and then he crushed the pussy cat with one blow. You&#x2019;d think he couldn&#x2019;t really speak properly.</english_publication>
+  <keywords>
+    <keyword id="14" frequency="1" keyword="afternoon">afternoon</keyword>
+    <keyword id="60" frequency="1" keyword="axel">axel</keyword>
+    <keyword id="113" frequency="1" keyword="blow">blow</keyword>
+    <keyword id="187" frequency="3" keyword="cat">cat</keyword>
+    <keyword id="215" frequency="1" keyword="chest">chest</keyword>
+    <keyword id="465" frequency="1" keyword="giant">giant</keyword>
+    <keyword id="478" frequency="1" keyword="grandfather">grandfather</keyword>
+    <keyword id="821" frequency="1" keyword="naked">naked</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="1005" frequency="3" keyword="pussy">pussy</keyword>
+    <keyword id="1095" frequency="1" keyword="sheep">sheep</keyword>
+    <keyword id="1142" frequency="2" keyword="sleep">sleep</keyword>
+    <keyword id="1215" frequency="1" keyword="summer">summer</keyword>
+    <keyword id="1266" frequency="1" keyword="toe">toe</keyword>
+  </keywords>
+  <etk_index id="36">
+    <heading_danish>Vore f&#xE6;dres tankes&#xE6;t og &#xE5;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="3" display_name="People: Beggar / Poor person"/>
+    <tango_index id="21" display_name="People: Wanderer"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

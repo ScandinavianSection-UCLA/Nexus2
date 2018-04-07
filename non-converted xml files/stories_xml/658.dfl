@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<story story_id="658">
+  <publication_info>DS_I_975</publication_info>
+  <full_name>355 - 0.00 - DS_I_975</full_name>
+  <informant_id>355</informant_id>
+  <informant_last_name>Dybdahl</informant_last_name>
+  <informant_first_name>Lars</informant_first_name>
+  <informant_full_name>Lars Dybdahl</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>291</place_id>
+      <name>Hundborg</name>
+      <display_name>Hundborg (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="695">
+      <informant_id>497</informant_id>
+      <publication_info>DS_I_1043</publication_info>
+      <full_name>497 - 0.00 - DS_I_1043</full_name>
+      <url>data/stories/695.dfl</url>
+    </story>
+    <story story_id="406">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_1036</publication_info>
+      <full_name>123 - 3.03 - DS_I_1036</full_name>
+      <url>data/stories/406.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I et barselhus, da al ting var overst&#xE5;et, lagde jordemoderen sig ved barselkonen, som l&#xE5; med hendes nyf&#xF8;dte barn i hendes arme, og de andre koner satte sig p&#xE5; en anden seng. De faldt alle sammen snart i s&#xF6;vn, ti de havde v&#xE5;get l&#xE6;nge; men barselkonen, som formodentlig ikke sov h&#xE5;rdt, v&#xE5;gner ved nogen forlen (puslen), som hun fornam hos sig, og ser til hendes store forf&#xE6;rdelse, at hendes barn er borte. Idet hun ser sig om, far hun &#xF6;je p&#xE5; ellekonen, der sidder med hendes barn p&#xE5; d&#xF6;rt&#xE6;rskelen og er i f&#xE6;rd med at hviste (kaste) hendes ben over; ti formedelst deres korte ben kunde de ikke p&#xE5; anden m&#xE5;de komme over nogen d&#xF6;rt&#xE6;rskel. Da gav barselkonen et stort skrig og r&#xE5;bte med h&#xF6;j r&#xF6;st: "Det skal Jesus forbyde dig!" Da slap ellekonen barnet og forsvandt. Barselkonen sprang da op af sengen for at f&#xE5; hendes barn igjen, og jordemoderen og de andre koner blev s&#xE5; forskr&#xE6;kkede, at de n&#xE6;sten ikke vidste, hvad de greb til. Faderen tovede ikke med at f&#xE5; pr&#xE6;sten hentet og barnet d&#xF6;bt.</danish_publication>
+  <english_publication>In a birthing house, after everything was done with, the midwife lay down next to the mother who lay with her newborn child in her arms, and the other women sat on another bed. Soon they all fell asleep since they had been at it for a long time; but the mother, who apparently wasn&#x2019;t sleeping too soundly, wakes with some sort of rustling which she felt near her and she sees to her great horror that her child is gone. While she looks about, her eyes fall on the elf woman who is sitting on the threshold with the mother's child and is in the process of throwing her legs over the threshold; because of their short legs they couldn&#x2019;t get over the threshold in any other way. Then the mother screamed loudly and cried with a loud voice: &#x201C;That shall Jesus forbid you!&#x201D; Then the elf woman dropped the child and disappeared. The mother jumped out of bed to get her child again and the midwife and the other women got so scared that they almost didn&#x2019;t know what was going on. The father didn&#x2019;t delay getting the minister and having the child baptized.</english_publication>
+  <keywords>
+    <keyword id="46" frequency="1" keyword="arms">arms</keyword>
+    <keyword id="51" frequency="1" keyword="asleep">asleep</keyword>
+    <keyword id="70" frequency="1" keyword="baptism">baptism</keyword>
+    <keyword id="83" frequency="2" keyword="bed">bed</keyword>
+    <keyword id="102" frequency="4" keyword="birth">birth</keyword>
+    <keyword id="219" frequency="6" keyword="children">children</keyword>
+    <keyword id="285" frequency="1" keyword="crying">crying</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="373" frequency="2" keyword="elf">elf</keyword>
+    <keyword id="389" frequency="1" keyword="eye">eye</keyword>
+    <keyword id="392" frequency="2" keyword="fall">fall</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="544" frequency="1" keyword="horror">horror</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="598" frequency="1" keyword="jesus">Jesus</keyword>
+    <keyword id="704" frequency="2" keyword="leg">leg</keyword>
+    <keyword id="778" frequency="2" keyword="midwife">midwife</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="832" frequency="1" keyword="newborn">newborn</keyword>
+    <keyword id="1142" frequency="1" keyword="sleep">sleep</keyword>
+    <keyword id="1258" frequency="2" keyword="threshold">threshold</keyword>
+    <keyword id="1307" frequency="1" keyword="voice">voice</keyword>
+    <keyword id="1356" frequency="5" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="5" display_name="People: Children"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="13" display_name="People: Midwife"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="90" display_name="Actions or events: Kidnapping"/>
+    <tango_index id="91" display_name="Actions or events: Midwifery"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

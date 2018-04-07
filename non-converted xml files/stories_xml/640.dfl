@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<story story_id="640">
+  <publication_info>DS_V_133</publication_info>
+  <full_name>364 - 0.00 - DS_V_133</full_name>
+  <informant_id>364</informant_id>
+  <informant_last_name>Frederiksen</informant_last_name>
+  <informant_first_name>Lars</informant_first_name>
+  <informant_full_name>Lars Frederiksen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>758</place_id>
+      <name>Bredballe</name>
+      <display_name>Bredballe (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1044</place_id>
+      <name>Dalby mark</name>
+      <display_name>Dalby mark (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1045</place_id>
+      <name>Skelenborg</name>
+      <display_name>Skelenborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="830">
+      <informant_id>69</informant_id>
+      <publication_info>DS_V_129</publication_info>
+      <full_name>69 - 0.00 - DS_V_129</full_name>
+      <url>data/stories/830.dfl</url>
+    </story>
+    <story story_id="469">
+      <informant_id>484</informant_id>
+      <publication_info>DS_V_146</publication_info>
+      <full_name>484 - 0.00 - DS_V_146</full_name>
+      <url>data/stories/469.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Da Povl V&#xE6;ver var dreng, fulgtes ham og en lille pige ad ud til et hus p&#xE5; Dalby mark. Da de kom til en skov ved Skelenborg, s&#xE5; de et stort hvidt menneske. Povl V&#xE6;vers fader kj&#xF8;rte en gang p&#xE5; det samme sted tillige med en g&#xE5;rdmand, da viste det hvide menneske sig ogs&#xE5; for dem. Men de havde en vrinsk hest for vognen, og s&#xE5; kunde de ikke blive kastet i gr&#xF8;ften. Da det hvide menneske kom til byen, sagde den ene: "Se, der kommer den lebendige Satan!" men den anden sagde, at han skulde tie stille.</danish_publication>
+  <english_publication>When Paul V&#xE6;ver was a boy, he and a girl went together to a house out on Dalby field. When they got to the woods near Skelenborg, they saw a big white person. Poul V&#xE6;ver&#x2019;s father drove along the same road together with another farmer, and the white person showed himself for them too. But they had an ungelded horse (stallion) pulling their wagon, so they couldn&#x2019;t be thrown into the ditch. When the white person came to town, one person said, &#x201C;Look, there comes that damn Satan!,&#x201D; but the other person said that he should shut up.</english_publication>
+  <keywords>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="341" frequency="1" keyword="ditch">ditch</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="919" frequency="1" keyword="paul">Paul</keyword>
+    <keyword id="986" frequency="1" keyword="poul_v&#xE6;ver">Poul V&#xE6;ver</keyword>
+    <keyword id="1068" frequency="1" keyword="satan">Satan</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1311" frequency="1" keyword="wagon">wagon</keyword>
+    <keyword id="1340" frequency="3" keyword="white">white</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

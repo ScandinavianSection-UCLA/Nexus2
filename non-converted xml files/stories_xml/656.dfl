@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<story story_id="656">
+  <publication_info>DS_II_E_119</publication_info>
+  <full_name>539 - 0.00 - DS_II_E_119</full_name>
+  <informant_id>539</informant_id>
+  <informant_last_name>S&#xF8;e</informant_last_name>
+  <informant_first_name>J.</informant_first_name>
+  <informant_full_name>L&#xE6;rer J. S&#xF8;e</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>214</place_id>
+      <name>Gudum</name>
+      <display_name>Gudum (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>214</place_id>
+      <name>Gudum</name>
+      <display_name>Gudum (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>259</place_id>
+      <name>Himmerland</name>
+      <display_name>Himmerland (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>492</place_id>
+      <name>Rold</name>
+      <display_name>Rold (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="422">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_120</publication_info>
+      <full_name>123 - 3.19 - DS_II_E_120</full_name>
+      <url>data/stories/422.dfl</url>
+    </story>
+    <story story_id="847">
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_E_117</publication_info>
+      <full_name>539 - 0.00 - DS_II_E_117</full_name>
+      <url>data/stories/847.dfl</url>
+    </story>
+    <story story_id="691">
+      <informant_id>337</informant_id>
+      <publication_info>DS_II_E_115</publication_info>
+      <full_name>337 - 0.00 - DS_II_E_115</full_name>
+      <url>data/stories/691.dfl</url>
+    </story>
+    <story story_id="265">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_145</publication_info>
+      <full_name>235 - 1.45 - DS_II_E_145</full_name>
+      <url>data/stories/265.dfl</url>
+    </story>
+    <story story_id="521">
+      <informant_id>487</informant_id>
+      <publication_info>DS_II_E_136</publication_info>
+      <full_name>487 - 0.00 - DS_II_E_136</full_name>
+      <url>data/stories/521.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>N&#xE5;r man f&#xE5;r hugormefedt af en hvid hugorm, bliver man synsk. En lille pige kunde se, at en ko, der kom lige fra tyren, var med kalv. Der var &#xE9;n, der dr&#xE6;bte en hvid hugorm, og s&#xE5; satte hugormene al tid efter ham.
+     Nede i Himmerland er der en klog kone, der kurerer med hugormekj&#xF8;d. Pastor Worm, der har v&#xE6;ret pr&#xE6;st her, fortalte, at han en gang kom ind i Rold skole, og der var to sm&#xE5;piger fra en g&#xE5;rd i n&#xE6;rheden, som havde v&#xE6;ret syge en tid, den ene var allerede kommen i skolen, men den anden ikke. S&#xE5; sp&#xF6;rger Worm s&#xF8;steren om, hvordan det var med hende. Ja, hun var syg. Hvad r&#xE5;d de brugte? De spiste hugormekj&#xF8;d, sagde hun. "Hvorfor er du kommen dig og din s&#xF8;ster ikke?" &#x2014; "Nej, for hun snakkede, mens hun spiste det." De fik det pa deres meldmad.
+     Kr&#xE6; Mon her i Gudum spiser hugorme. Han skj&#xE6;rer hoved og hale og navlestykke af, t&#xF8;rrer dem i solen, og s&#xE5; er de lige s&#xE5; gode som spegede &#xE5;l.</danish_publication>
+  <english_publication>When you get the fat from a white viper, you become clairvoyant. A little girl could see that a cow that had just come from the bull was with calf. There was one guy who had killed a white viper so the vipers always chased him. 
+     Down in Himmerland there's a cunning woman who heals with viper meat. Pastor Worm, who was the minister here, said that he once came into Rold school, and there were two small girls from a nearby farm who had been sick for a while, the one had already started school, but the other one hadn't. Then Worm asks the sister how things were with her. Well, she was sick. What advice had they taken? They ate viper meat, she said. "Why haven't you and your sister gotten better?" -- "Well she talked while she ate it." They got it on their sandwiches. 
+     Kr&#xE6; Mon here in Gudum eats vipers. He cuts the head and tail and stomach off, dries them in the sun, and then they're just as good as salted eel.</english_publication>
+  <keywords>
+    <keyword id="12" frequency="1" keyword="advice">advice</keyword>
+    <keyword id="156" frequency="1" keyword="bull">bull</keyword>
+    <keyword id="169" frequency="1" keyword="calf">calf</keyword>
+    <keyword id="211" frequency="1" keyword="chase">chase</keyword>
+    <keyword id="274" frequency="1" keyword="cow">cow</keyword>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="371" frequency="1" keyword="eel">eel</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="398" frequency="1" keyword="fat">fat</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="766" frequency="2" keyword="meat">meat</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="908" frequency="1" keyword="pastor">pastor</keyword>
+    <keyword id="1067" frequency="1" keyword="sandwich">sandwich</keyword>
+    <keyword id="1075" frequency="2" keyword="school">school</keyword>
+    <keyword id="1111" frequency="2" keyword="sickness">sickness</keyword>
+    <keyword id="1124" frequency="2" keyword="sister">sister</keyword>
+    <keyword id="1194" frequency="1" keyword="stomach">stomach</keyword>
+    <keyword id="1217" frequency="1" keyword="sun">sun</keyword>
+    <keyword id="1239" frequency="1" keyword="tail">tail</keyword>
+    <keyword id="1303" frequency="6" keyword="viper">viper</keyword>
+    <keyword id="1340" frequency="2" keyword="white">white</keyword>
+    <keyword id="1364" frequency="2" keyword="worm">worm</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="76" display_name="Animals: Serpent / Snake"/>
+    <tango_index id="84" display_name="Actions or events: Disease"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

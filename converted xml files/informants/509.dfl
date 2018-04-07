@@ -1,0 +1,37 @@
+<informant><person_id>509</person_id>
+  <core_informant/>
+  <full_name>Kristiane Pedersdatter</full_name>
+  <last_name>Pedersdatter</last_name>
+  <first_name>Kristiane</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>639</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>509</informant_id>
+      <publication_info>DS_I_897</publication_info>
+      <full_name>509 - 0.00 - DS_I_897</full_name>
+      <url>data/stories/639.dfl</url>
+      <place_recorded><id>819</id>Kvotrup, Mundelstrup</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>819</place_id>
+      <name>Kvotrup, Mundelstrup</name>
+      <display_name>Kvotrup, Mundelstrup (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

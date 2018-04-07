@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<story story_id="528">
+  <publication_info>DS_VII_696</publication_info>
+  <full_name>362 - 0.00 - DS_VII_696</full_name>
+  <informant_id>362</informant_id>
+  <informant_last_name>Fladbirk</informant_last_name>
+  <informant_first_name>Hans Pedersen</informant_first_name>
+  <informant_full_name>Hans Pedersen Fladbirk</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>875</place_id>
+      <name>S&#xF8;heden</name>
+      <display_name>S&#xF8;heden (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="43">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_383</publication_info>
+      <full_name>150 - 1.40 - JAH_I_383</full_name>
+      <url>data/stories/43.dfl</url>
+    </story>
+    <story story_id="188">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_698</publication_info>
+      <full_name>241 - 4.16 - DS_VII_698</full_name>
+      <url>data/stories/188.dfl</url>
+    </story>
+    <story story_id="588">
+      <informant_id>144</informant_id>
+      <publication_info>DS_VII_690</publication_info>
+      <full_name>144 - 0.00 - DS_VII_690</full_name>
+      <url>data/stories/588.dfl</url>
+    </story>
+    <story story_id="590">
+      <informant_id>151</informant_id>
+      <publication_info>DS_VII_700</publication_info>
+      <full_name>151 - 0.00 - DS_VII_700</full_name>
+      <url>data/stories/590.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En kj&#xE6;lling kommer ridende med ulvene. S&#xE5; m&#xF8;der hun en mand, og da han nu ser koblet, siger han: "Det er endda ikke s&#xE5; f&#xE5; plage, du har." Havde han nu sagt ulve, havde de revet hende ihjel.</danish_publication>
+  <english_publication>An old woman comes riding with the wolves. Then she meets a man, and when he sees the pack, he says, "That's more than a few foals that you have." If he had said wolf, they would have torn her to pieces.</english_publication>
+  <keywords>
+    <keyword id="427" frequency="1" keyword="foal">foal</keyword>
+    <keyword id="493" frequency="1" keyword="hag">hag</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1355" frequency="2" keyword="wolf">wolf</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="79" display_name="Animals: None / Unspecified"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+    <tango_index id="136" display_name="Animals: Wild"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

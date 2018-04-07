@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<story story_id="879">
+  <publication_info>DS_V_421</publication_info>
+  <full_name>0 - 0.00 - DS_V_421</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>913</place_id>
+      <name>Voldby</name>
+      <display_name>Voldby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>203</place_id>
+      <name>Grenaa</name>
+      <display_name>Grenaa (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>945</place_id>
+      <name>Bavneh&#xF8;j-m&#xF8;lle</name>
+      <display_name>Bavneh&#xF8;j-m&#xF8;lle (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="744">
+      <informant_id>325</informant_id>
+      <publication_info>DS_V_433</publication_info>
+      <full_name>325 - 0.00 - DS_V_433</full_name>
+      <url>data/stories/744.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#xE5; Bavneh&#xF6;j-m&#xF8;llen ved Gren&#xE5; forsvandt karlen pludselig. Folk mente, at nogen havde sl&#xE5;et ham ihjel og br&#xE6;ndt ham op i bagerovnen. Siden sp&#xF6;gte det der, og kort efter solgte ejeren m&#xF8;llen. Den ny ejers broder var der i bes&#xF8;g og skulde ligge der om natten. Han v&#xE5;gnede ved at se to mennesker sl&#xE5;s ved siden af sengen. Alle d&#xF6;re og vinduer var sprungne op, og der blev et stort rabalder.</danish_publication>
+  <english_publication>At Bavneh&#xF8;j mill, the farmhand disappeared suddenly. People believed that somebody had killed him and burned his body in the baker&#x2019;s oven. Since then, it was haunted there and a little later the owner sold the mill. The new owner&#x2019;s brother visited there and was going to sleep there at night. He woke up to see two people fighting by the bed. All the doors and windows had sprung open and there was a huge commotion.</english_publication>
+  <keywords>
+    <keyword id="65" frequency="1" keyword="baking">baking</keyword>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="118" frequency="1" keyword="body">body</keyword>
+    <keyword id="148" frequency="1" keyword="brother">brother</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="411" frequency="1" keyword="fight">fight</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="508" frequency="1" keyword="haunting">haunting</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="783" frequency="2" keyword="mill">mill</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="890" frequency="1" keyword="oven">oven</keyword>
+    <keyword id="891" frequency="2" keyword="owner">owner</keyword>
+    <keyword id="1142" frequency="1" keyword="sleep">sleep</keyword>
+    <keyword id="1346" frequency="1" keyword="window">window</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

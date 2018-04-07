@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<story story_id="744">
+  <publication_info>DS_V_433</publication_info>
+  <full_name>325 - 0.00 - DS_V_433</full_name>
+  <informant_id>325</informant_id>
+  <informant_last_name>Andersen</informant_last_name>
+  <informant_first_name>Niels Krist.</informant_first_name>
+  <informant_full_name>Niels Krist. Andersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>777</place_id>
+      <name>Flade, Mors</name>
+      <display_name>Flade, Mors (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>960</place_id>
+      <name>Nandrup</name>
+      <display_name>Nandrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="879">
+      <informant_id/>
+      <publication_info>DS_V_421</publication_info>
+      <full_name>0 - 0.00 - DS_V_421</full_name>
+      <url>data/stories/879.dfl</url>
+    </story>
+    <story story_id="721">
+      <informant_id>408</informant_id>
+      <publication_info>DS_V_713</publication_info>
+      <full_name>408 - 0.00 - DS_V_713</full_name>
+      <url>data/stories/721.dfl</url>
+    </story>
+    <story story_id="527">
+      <informant_id>537</informant_id>
+      <publication_info>DS_V_715</publication_info>
+      <full_name>537 - 0.00 - DS_V_715</full_name>
+      <url>data/stories/527.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Fru Ribert i Nanderup slog hendes kusk ihjel og forvarte ham i et hul ude i kj&#xE6;ret. Der sidder endnu en sten dernede, som man kan skyde op og ned; men den har aldrig v&#xE6;ret oppe. Den gamle Buchwaldt vilde have haft den op, men Lavst Ladefoged sagde nej, det vilde ikke bekomme ham godt, og s&#xE5; lod han den sidde, og ingen har siden r&#xF8;rt den. Hun havde ogs&#xE5; ombragt et lille barn ude i stalden, vil de p&#xE5;st&#xE5;, og de troede, hun havde forvart det i den sten som i en kiste og s&#xE5; f&#xE5;et kusken til at kj&#xF8;re det ud i kj&#xE6;ret, men da hun var angst, han ikke kunde d&#xF8;lge det med hende, rendte hun ham bagl&#xE6;nds ud i hullet og puttede ham ned. A har g&#xE5;et i kj&#xE6;ret og stanget gjedder og st&#xF6;dt p&#xE5; den sten mange, mange gange; det lyder s&#xE5; hult. Den ligger &#xF6;sten for Nanderup i J&#xE6;rnkilde. Hvert 7de &#xE5;r kommer hun kj&#xF8;rende langs gjennem laden og s&#xE5; omkring og ned ad g&#xE5;rden. Da springer alle d&#xF6;re op. De har h&#xF8;rt det for ikke l&#xE6;nge siden. Hun blev manet ned nede ved Vilsund, og hun kappedes med pr&#xE6;sten til sundet, han oven over og hun i jorden, men han kom for sent og sagde s&#xE5;: "Var det ikke Bj&#xE6;rgby sand og Sundby ler, skulde jeg nok have klaret mig."</danish_publication>
+  <english_publication>Madam Ribert in Nanderup killed her driver and tossed his body in a water hole out in the swamp. There is still a stone down there which one can slide up and down; but it has never been taken up. Old Buchwalt wanted to get it up, but Laust Ladefoged said no, it wouldn&#x2019;t turn out well for him, and so he let it be, and nobody has touched it since. She had also killed a little child out in the barn, they claimed, and they believed that she had hidden it in that stone like a chest and then gotten the driver to drive it out to the swamp, but since she was afraid that he couldn&#x2019;t keep her secret, she pushed him backwards into the water hole and drove him down too. I&#x2019;ve gone about in the swamp and speared pike and run across that stone many many times; it sounds so hollow. It&#x2019;s just a little east of Nanderup in J&#xE6;rnkilde. Every seventh year she comes driving through the barn and then out and about and down along the farm. Then all the doors spring open. They heard it not too long ago. She was conjured down near Vilsund, and she raced the minister to the sound, him above ground and her under the ground, but he came too late and said: &#x201C;If it hadn&#x2019;t been Bj&#xE6;rgby sand and Sundby clay, I probably could have taken care of myself.&#x201D;</english_publication>
+  <keywords>
+    <keyword id="13" frequency="1" keyword="afraid">afraid</keyword>
+    <keyword id="72" frequency="2" keyword="barn">barn</keyword>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="118" frequency="1" keyword="body">body</keyword>
+    <keyword id="215" frequency="1" keyword="chest">chest</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="231" frequency="1" keyword="clay">clay</keyword>
+    <keyword id="255" frequency="1" keyword="conjuring">conjuring</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="357" frequency="2" keyword="driver">driver</keyword>
+    <keyword id="369" frequency="1" keyword="east">east</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="535" frequency="1" keyword="hollow">hollow</keyword>
+    <keyword id="622" frequency="2" keyword="kill">kill</keyword>
+    <keyword id="693" frequency="1" keyword="laust_ladefoged">Laust Iadefoged</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1066" frequency="1" keyword="sand">sand</keyword>
+    <keyword id="1082" frequency="1" keyword="secrets">secrets</keyword>
+    <keyword id="1089" frequency="1" keyword="seven">seven</keyword>
+    <keyword id="1165" frequency="2" keyword="sounds">sounds</keyword>
+    <keyword id="1177" frequency="1" keyword="spring">spring</keyword>
+    <keyword id="1195" frequency="3" keyword="stone">stone</keyword>
+    <keyword id="1228" frequency="3" keyword="swamp">swamp</keyword>
+    <keyword id="1320" frequency="2" keyword="water">water</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="5" display_name="People: Children"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="81" display_name="Actions or events: Conjuring"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

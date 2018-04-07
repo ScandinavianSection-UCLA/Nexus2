@@ -1,0 +1,64 @@
+<story><story_id>902</story_id>
+  <publication_info>DS_VII_1612</publication_info>
+  <full_name>565 - 0.00 - DS_VII_1612</full_name>
+  <informant_id>565</informant_id>
+  <informant_last_name>Br&#248;chner</informant_last_name>
+  <informant_first_name>H</informant_first_name>
+  <informant_full_name>H Br&#248;chner</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>954</place_id>
+      <name>Gangsted</name>
+      <display_name>Gangsted (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>926</place_id>
+      <name>S&#248;vind</name>
+      <display_name>S&#248;vind (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>257</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_VII_1614</publication_info>
+      <full_name>235 - 1.37 - DS_VII_1614</full_name>
+      <url>data/stories/257.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I modsoten er det almindeligt at lade sig m&#229;le. Jeg m&#246;dte forleden &#229;r en gammel l&#230;nge svagelig kvinde p&#229; vejen til S&#248;vind. Det undrede mig at se denne s&#229; langt fra sit hjem og spurgte hende, hvor hun havde v&#230;ret henne. "Hos B&#248;dkerkonen i S&#248;vind at lade mig m&#229;le for modsot." Jeg spurgte, hvorledes det gik til, og hun fortalte mig, at konen med en tr&#229;d m&#229;lte hende: a) fra isse til t&#229;, b) om livet, c) ned ad venstre arm, slog derp&#229; en knude p&#229; tr&#229;den og bandt s&#229; om hendes venstre ben, hvor den skulde sidde i tre dage.</danish_publication>
+  <english_publication>For modsot (a disease characterized by exhaustion), it is normal to let oneself be measured. Last year I met an old woman who had been weak for quite a while on the way to S&#248;vind. It surprised me to see her so far from home and I asked her where she&#8217;d been. &#8220;Out to visit the B&#248;dker woman in S&#248;vind to get measured for modsot.&#8221; I asked how that was done, and she told me that the woman measured her with a thread: a) from head to toe, b) around her waist, c) down her left arm, and then she bound a knot on the thread and then tied it to her left leg where it was to stay for three days.</english_publication>
+  <keywords>
+    <keyword><id>46</id><frequency>1</frequency><keyword>arms</keyword>arms</keyword>
+    <keyword><id>117</id><frequency>1</frequency><keyword>b&#248;dker</keyword>b&#248;dker</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>334</id><frequency>1</frequency><keyword>disease</keyword>disease</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>642</id><frequency>1</frequency><keyword>knot</keyword>knot</keyword>
+    <keyword><id>704</id><frequency>1</frequency><keyword>leg</keyword>leg</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1254</id><frequency>2</frequency><keyword>thread</keyword>thread</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1261</id><frequency>1</frequency><keyword>tie</keyword>tie</keyword>
+    <keyword><id>1266</id><frequency>1</frequency><keyword>toe</keyword>toe</keyword>
+    <keyword><id>1356</id><frequency>3</frequency><keyword>woman</keyword>woman</keyword>
+    <keyword><id>1370</id><frequency>1</frequency><keyword>year</keyword>year</keyword>
+  </keywords>
+  <etk_index><id>30</id>
+    <heading_danish>Menneskets og kv&#230;gets sygdomme</heading_danish>
+    <heading_english>Human and cattle illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>10</id><name>Cure / Remedy / Spell</name></genre>
+</story>

@@ -1,0 +1,87 @@
+<story><story_id>410</story_id>
+  <publication_info>DS_II_B_13</publication_info>
+  <full_name>123 - 3.07 - DS_II_B_13</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.07</order_told>
+  <fieldtrip><id>2</id>Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>175</place_id>
+      <name>Fuldbro m&#248;lle</name>
+      <display_name>Fuldbro m&#248;lle (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>412</place_id>
+      <name>Mollerup</name>
+      <display_name>Mollerup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>432</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XIII_38</publication_info>
+      <full_name>123 - 4.04 - JFm_XIII_38</full_name>
+      <url>data/stories/432.dfl</url>
+    </story>
+    <story><story_id>609</story_id>
+      <informant_id>546</informant_id>
+      <publication_info>DS_II_B_4</publication_info>
+      <full_name>546 - 0.00 - DS_II_B_4</full_name>
+      <url>data/stories/609.dfl</url>
+    </story>
+    <story><story_id>717</story_id>
+      <informant_id>541</informant_id>
+      <publication_info>DS_II_B_15</publication_info>
+      <full_name>541 - 0.00 - DS_II_B_15</full_name>
+      <url>data/stories/717.dfl</url>
+    </story>
+    <story><story_id>824</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_B_11</publication_info>
+      <full_name>69 - 0.00 - DS_II_B_11</full_name>
+      <url>data/stories/824.dfl</url>
+    </story>
+    <story><story_id>374</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XII_64</publication_info>
+      <full_name>123 - 1.02 - JFm_XII_64</full_name>
+      <url>data/stories/374.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3798b (2)</fielddiary_page_start>
+  <fielddiary_page_end>3798b (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The nisser in this story act more or less like farmhands. The motif of the discovery of coins in the rim of the barrel is reminiscent of earlier story that Peder tells (PJ 1.02).</annotation>
+  <danish_manuscript>Nisserne i Mollerup spilt Kort ved en Skj&#230;ppe
+De kunde tr&#230;ffe om Morgenen at finde Penge
+om i Kanten af den, s. de spildte da om
+Penge.
+</danish_manuscript>
+  <english_manuscript>The nisser at Mollerup sat playing cards on a barrel. In the morning people would sometimes find coins in its rim, so they were playing for money.</english_manuscript>
+  <danish_publication>Nisserne i Mollerup sad og spilte kort ved en skj&#230;ppe, som de vendte bunden i vejret p&#229;. De spilte ogs&#229; om penge, for folkene kunde tr&#230;ffe om morgenen at finde penge siddende om i kanten af den.</danish_publication>
+  <english_publication>The nisser at Mollerup sat and played cards on a barrel that they had tipped upside down. They played for money, too, and in the morning people would sometimes find money in the barrel's rim.</english_publication>
+  <keywords>
+    <keyword><id>74</id><frequency>1</frequency><keyword>barrel</keyword>barrel</keyword>
+    <keyword><id>160</id><frequency>1</frequency><keyword>bushel</keyword>bushel</keyword>
+    <keyword><id>178</id><frequency>1</frequency><keyword>cards</keyword>cards</keyword>
+    <keyword><id>793</id><frequency>2</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>857</id><frequency>1</frequency><keyword>nisse</keyword>nisse</keyword>
+  </keywords>
+  <etk_index><id>3</id>
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>65</id><display_name>Supernatural Beings: Nisse</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

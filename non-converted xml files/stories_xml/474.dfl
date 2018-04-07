@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<story story_id="474">
+  <publication_info>DS_IV_1343</publication_info>
+  <full_name>385 - 0.00 - DS_IV_1343</full_name>
+  <informant_id>385</informant_id>
+  <informant_last_name>Haug&#xE5;rd</informant_last_name>
+  <informant_first_name>C. C.</informant_first_name>
+  <informant_full_name>Farversvend C. C. Haug&#xE5;rd</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>11</place_id>
+      <name>&#xC5;benr&#xE5;</name>
+      <display_name>&#xC5;benr&#xE5; (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1003</place_id>
+      <name>Rishjarup</name>
+      <display_name>Rishjarup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="481">
+      <informant_id>385</informant_id>
+      <publication_info>DS_IV_1307</publication_info>
+      <full_name>385 - 0.00 - DS_IV_1307</full_name>
+      <url>data/stories/481.dfl</url>
+    </story>
+    <story story_id="683">
+      <informant_id>495</informant_id>
+      <publication_info>DS_V_1195</publication_info>
+      <full_name>495 - 0.00 - DS_V_1195</full_name>
+      <url>data/stories/683.dfl</url>
+    </story>
+    <story story_id="692">
+      <informant_id>337</informant_id>
+      <publication_info>DS_IV_1349</publication_info>
+      <full_name>337 - 0.00 - DS_IV_1349</full_name>
+      <url>data/stories/692.dfl</url>
+    </story>
+    <story story_id="356">
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_1232</publication_info>
+      <full_name>90 - 3.02 - DS_V_1232</full_name>
+      <url>data/stories/356.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En karl fra Rishjarup var en dag ovre at bes&#xF8;ge sin kj&#xE6;reste, som tjente i Brunde. De spaserede over Egelund mark og gjennem Ris skov og talte om deres fremtid og brylluppet. Men de kunde ikke blive enige om, hvordan de skulde stille deres sager an i fremtiden. Pigen siger: "Du kan nok forst&#xE5;, lille Hans, at vi snart m&#xE5; have bryllup efter de omst&#xE6;ndigheder, jeg befinder mig i." Han svarede: "Jeg har ingen penge og kan endnu ikke ern&#xE6;re en kone." Enden p&#xE5; deres samtale blev, at han sagde: "Jeg skal vise dig, at du skal rette dig efter mig." Med det samme tog han en kniv op af lommen og efter en kamp p&#xE5; liv og d&#xF8;d blev han overherre og dr&#xE6;bte hende med 15 s&#xE5;r. Nogle forbikj&#xF8;rende fandt hende liggende ved vejen. N&#xE6;ste morgen hentedes han hos sin moder, der boede her i byen og blev &#xE5;ret efter halshugget ved Nybb&#xF8;l stejle. Dette skete 1802.</danish_publication>
+  <english_publication>A farmhand from Rishjarup was over visiting his sweetheart one day, she was in service in Brunde. They were strolling across Egelund field and through Ris woods and they talked about their future and their wedding. But they couldn&#x2019;t agree on how they should arrange their affairs in the future. The girl says: &#x201C;You can probably understand, little Hans, that we have to have our wedding soon, given the circumstances I find myself in.&#x201D; He answered: &#x201C;I don&#x2019;t have any money and I can&#x2019;t support a wife yet.&#x201D; The result of their conversation was that he said: &#x201C;I&#x2019;ll show you that you&#x2019;re going to have to go by what I want.&#x201D; At that moment he took a knife out of his pocket and after a fight for life and death he got the upper hand and killed her with fifteen stab wounds. Some passersby found her lying by the side of the road. The next morning, they picked him up at his mother&#x2019;s who lived here in town and he was decapitated the next year near Nybb&#xF8;l stockade. That happened in 1802.</english_publication>
+  <keywords>
+    <keyword id="4" frequency="1" keyword="1802">1802</keyword>
+    <keyword id="15" frequency="1" keyword="agreement">agreement</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="319" frequency="1" keyword="decapitate">decapitate</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="411" frequency="1" keyword="fight">fight</keyword>
+    <keyword id="452" frequency="2" keyword="future">future</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="638" frequency="1" keyword="knife">knife</keyword>
+    <keyword id="718" frequency="1" keyword="little_hans">Little Hans</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="969" frequency="1" keyword="pocket">pocket</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1179" frequency="1" keyword="stab">stab</keyword>
+    <keyword id="1192" frequency="1" keyword="stockade">stockade</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1327" frequency="2" keyword="wedding">wedding</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+    <keyword id="1370" frequency="1" keyword="year">year</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="80" display_name="Actions or events: Church ceremony"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="86" display_name="Actions or events: Feast / Celebration"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

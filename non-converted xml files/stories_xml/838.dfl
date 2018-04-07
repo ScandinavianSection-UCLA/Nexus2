@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<story story_id="838">
+  <publication_info>DS_III_2296</publication_info>
+  <full_name>428 - 0.00 - DS_III_2296</full_name>
+  <informant_id>428</informant_id>
+  <informant_last_name>Kj&#xE6;rg&#xE5;rd</informant_last_name>
+  <informant_first_name>Marie Kirstine</informant_first_name>
+  <informant_full_name>Marie Kirstine Kj&#xE6;rg&#xE5;rd</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>898</place_id>
+      <name>Ulfborg</name>
+      <display_name>Ulfborg (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>898</place_id>
+      <name>Ulfborg</name>
+      <display_name>Ulfborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="383">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_744</publication_info>
+      <full_name>123 - 2.09 - DS_III_744</full_name>
+      <url>data/stories/383.dfl</url>
+    </story>
+    <story story_id="536">
+      <informant_id>374</informant_id>
+      <publication_info>DS_III_2256</publication_info>
+      <full_name>374 - 0.00 - DS_III_2256</full_name>
+      <url>data/stories/536.dfl</url>
+    </story>
+    <story story_id="556">
+      <informant_id>68</informant_id>
+      <publication_info>DS_III_2292</publication_info>
+      <full_name>68 - 0.00 - DS_III_2292</full_name>
+      <url>data/stories/556.dfl</url>
+    </story>
+    <story story_id="804">
+      <informant_id>306</informant_id>
+      <publication_info>DS_III_2302</publication_info>
+      <full_name>306 - 0.00 - DS_III_2302</full_name>
+      <url>data/stories/804.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Stj&#xE6;rneh&#xF6;j ligger sydvestligst i Ulfborg plantage. Det er en meget anselig opkastet h&#xF6;j, og man kan se, at der har v&#xE6;ret kastet meget i den, men udbyttet har kun v&#xE6;ret en enkelt sten&#xF8;kse. Der bliver ellers fortalt, at der gjemmes en skat i den. En gang vilde m&#xE6;ndene i Lystb&#xE6;k-g&#xE5;rdene pr&#xF8;ve p&#xE5; at finde den og var godt i med arbejdet. De var komne s&#xE5; vidt, at de s&#xE5; randen af en stor kjedel; men da blev en af dem vaer, at deres g&#xE5;rde stod i lys lue. De styrtede da i fuldt l&#xF8;b ned af h&#xF6;jen, men opdagede snart, at det kun var &#xF8;jenforbl&#xE6;ndelse. Skatten var dog med det samme forsvunden. </danish_publication>
+  <english_publication>Stj&#xE6;rneh&#xF8;j (Star mound) is in the southwestern end of Ulfborg orchard. It's a very visibly raised mound, and one can see that a lot of people have dug in it, but the yield has only been a single stone axe. It was said, otherwise, that there is a treasure hidden in it. One time the men from the Lysb&#xE6;k farms wanted to try and find it and were well underway with the work. They had gotten so far that they saw the rim of a giant kettle; but then one of them noticed that their farms were ablaze. They stumbled from the mound running as fast as they could, but soon they discovered that it was simply an illusion. The treasure had immediately disappeared however.</english_publication>
+  <keywords>
+    <keyword id="59" frequency="1" keyword="axe">axe</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="333" frequency="1" keyword="discovery">discovery</keyword>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="465" frequency="1" keyword="giant">giant</keyword>
+    <keyword id="618" frequency="1" keyword="kettle">kettle</keyword>
+    <keyword id="804" frequency="3" keyword="mound">mound</keyword>
+    <keyword id="885" frequency="1" keyword="orchard">orchard</keyword>
+    <keyword id="1169" frequency="1" keyword="southwest">southwest</keyword>
+    <keyword id="1188" frequency="1" keyword="star">star</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1280" frequency="2" keyword="treasure">treasure</keyword>
+    <keyword id="1361" frequency="1" keyword="work">work</keyword>
+  </keywords>
+  <etk_index id="15">
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

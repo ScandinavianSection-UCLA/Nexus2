@@ -1,0 +1,54 @@
+<informant><person_id>441</person_id>
+  <core_informant/>
+  <full_name>Niels Kristiansen</full_name>
+  <last_name>Kristiansen</last_name>
+  <first_name>Niels</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>747</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>441</informant_id>
+      <publication_info>DS_III_2233</publication_info>
+      <full_name>441 - 0.00 - DS_III_2233</full_name>
+      <url>data/stories/747.dfl</url>
+      <place_recorded><id>914</id>Vole</place_recorded>
+      <places_mentioned>
+        <place><id>914</id>
+          <name>Vole</name>
+        </place>
+        <place><id>161</id>
+          <name>Flensted</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>914</place_id>
+      <name>Vole</name>
+      <display_name>Vole (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>161</place_id>
+      <name>Flensted</name>
+      <display_name>Flensted (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>914</place_id>
+      <name>Vole</name>
+      <display_name>Vole (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

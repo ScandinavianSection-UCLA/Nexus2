@@ -1,0 +1,98 @@
+<story><story_id>822</story_id>
+  <publication_info>DS_I_381</publication_info>
+  <full_name>69 - 0.00 - DS_I_381</full_name>
+  <informant_id>69</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>S&#248;ren</informant_first_name>
+  <informant_full_name>S&#248;ren Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>870</place_id>
+      <name>Skjolde</name>
+      <display_name>Skjolde (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>60</place_id>
+      <name>Bjerre</name>
+      <display_name>Bjerre (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>133</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_402</publication_info>
+      <full_name>150 - 4.22 - DS_I_402</full_name>
+      <url>data/stories/133.dfl</url>
+    </story>
+    <story><story_id>238</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_782</publication_info>
+      <full_name>235 - 1.19 - DS_I_782</full_name>
+      <url>data/stories/238.dfl</url>
+    </story>
+    <story><story_id>789</story_id>
+      <informant_id>381</informant_id>
+      <publication_info>DS_I_382</publication_info>
+      <full_name>381 - 0.00 - DS_I_382</full_name>
+      <url>data/stories/789.dfl</url>
+    </story>
+    <story><story_id>463</story_id>
+      <informant_id>483</informant_id>
+      <publication_info>DS_I_832</publication_info>
+      <full_name>483 - 0.00 - DS_I_832</full_name>
+      <url>data/stories/463.dfl</url>
+    </story>
+    <story><story_id>239</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_400</publication_info>
+      <full_name>235 - 1.20 - DS_I_400</full_name>
+      <url>data/stories/239.dfl</url>
+    </story>
+    <story><story_id>175</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_324</publication_info>
+      <full_name>241 - 4.04 - DSnr_I_324</full_name>
+      <url>data/stories/175.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I gamle dage var der en mand i Bjerre herred, som havde hans mark lige hen til en sort banke, hvori en bj&#230;rgmand boede. Dette vidste manden meget godt, og en dag han pl&#246;jede t&#230;t ved den, l&#229; der en rage oven p&#229; banken, som var i stykker. S&#229; satte han skaftet godt fast med en kile og lagde ragen igjen. Bj&#230;rgmanden var nemlig ved at bage, og om eftermiddagen, han igjen kom ud at pl&#246;je, l&#229; der p&#229; samme sted en lille kage til ham. Den skulde han have, fordi han dannede ragen i stand.</danish_publication>
+  <english_publication>In the olden days there was a man in the Bjerre district whose field ran right up to a black hill in which a mound dweller lived. The man knew this well and one day, as he was plowing close to it, there was a peel board on top of the hill, and it was broken. So he tightly fastened the shaft with a wedge and put the peel board down again. The mound dweller was baking, and later that afternoon, when he came out to plow again, there was a little cake lying in the same place for him. He was to have it because he had repaired the peel board.</english_publication>
+  <keywords>
+    <keyword><id>14</id><frequency>1</frequency><keyword>afternoon</keyword>afternoon</keyword>
+    <keyword><id>65</id><frequency>1</frequency><keyword>baking</keyword>baking</keyword>
+    <keyword><id>106</id><frequency>1</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>168</id><frequency>1</frequency><keyword>cake</keyword>cake</keyword>
+    <keyword><id>306</id><frequency>2</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>530</id><frequency>2</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>805</id><frequency>2</frequency><keyword>mound_dweller</keyword>mound dweller</keyword>
+    <keyword><id>933</id><frequency>3</frequency><keyword>peel_board</keyword>peel board</keyword>
+    <keyword><id>964</id><frequency>1</frequency><keyword>plow</keyword>plow</keyword>
+    <keyword><id>966</id><frequency>1</frequency><keyword>plowing</keyword>plowing</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>51</id><display_name>Tools, Items and Conveyances: Plow</display_name></tango_index>
+    <tango_index><id>52</id><display_name>Tools, Items and Conveyances: Tools</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

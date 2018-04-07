@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="699">
+  <publication_info>DS_IV_1466</publication_info>
+  <full_name>523 - 0.00 - DS_IV_1466</full_name>
+  <informant_id>523</informant_id>
+  <informant_last_name>Primdal</informant_last_name>
+  <informant_first_name>Maren</informant_first_name>
+  <informant_full_name>Maren Primdal</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>422</place_id>
+      <name>Navtrup</name>
+      <display_name>Navtrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>116</place_id>
+      <name>Dalstrup</name>
+      <display_name>Dalstrup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>240</place_id>
+      <name>Harre</name>
+      <display_name>Harre (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="151">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1486</publication_info>
+      <full_name>241 - 2.01 - DS_IV_1486</full_name>
+      <url>data/stories/151.dfl</url>
+    </story>
+    <story story_id="665">
+      <informant_id>492</informant_id>
+      <publication_info>DS_IV_1608</publication_info>
+      <full_name>492 - 0.00 - DS_IV_1608</full_name>
+      <url>data/stories/665.dfl</url>
+    </story>
+    <story story_id="154">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1465</publication_info>
+      <full_name>241 - 2.04 - DS_IV_1465</full_name>
+      <url>data/stories/154.dfl</url>
+    </story>
+    <story story_id="501">
+      <informant_id>508</informant_id>
+      <publication_info>DS_IV_1467</publication_info>
+      <full_name>508 - 0.00 - DS_IV_1467</full_name>
+      <url>data/stories/501.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Jens Langkniv boede i Dalstrup i Harre. En mand fra Harre var kj&#xF8;rt vild og kommen ind i en skov. Da s&#xE5; han et lys og kj&#xF8;rte efter det. S&#xE5; kom han til et hus, og der gik han ind. Men der var Jens Langkniv, og han kunde nok skj&#xF6;nne, det var galt. S&#xE5; sagde han: "A er nok kommen ind i et fejlt hus," &#x2014; "Ja, det er a ogs&#xE5;," sagde Jens. "A vilde ret gj&#xE6;rne vide, hvor den rette vej g&#xE5;r herfra, for her kan a nok se, det er ikke for mig at v&#xE6;re." Jens Langkniv klagede sig lige s&#xE5; h&#xE5;rdt som manden. S&#xE5; viser han ham ogs&#xE5; den rette vej. "Nu skal du kj&#xF8;re alt det du kan, og s&#xE5; vil a g&#xE5; ind og snakke med dem." Jens gjorde det ogs&#xE5;, og den anden mand kom heldig og vel hjem og fortalte hjemme, hvordan han havde v&#xE6;ret i lag med Jens Langkniv der og var kommen godt fra det. Men det var jo, for det det var hans nabomand. Ellers var Jens Langkniv jo i ledtog med de andre r&#xF6;vere.</danish_publication>
+  <english_publication>Jens Langkniv (Jens Longknife) lived in Dalstrup in Harre (parish). A man from Harre had gotten lost and driven into the woods. Then he saw a light and drove towards it. Then he came to a house and he went inside. But there was Jens Langkniv and he realized that things were not good. Then he said: &#x201C;I think I&#x2019;ve come into the wrong house,&#x201D; &#x2014; &#x201C;Well, me too,&#x201D; said Jens Langkniv. &#x201C;I&#x2019;d really like to know where the right way away from here is, since I can see that I shouldn&#x2019;t be here.&#x201D; Jens Langkniv complained just as strongly as the man. Then he shows him the right way. &#x201C;Now drive as fast as you can, and now I&#x2019;ll go in and talk to them.&#x201D; Jens did it too and so the other man luckily got safely home. He told them at home how he had been in the company of Jens Langkniv but had gotten out OK. But it was because he was his neighbor. Otherwise Jens Langkniv was in cahoots with the other robbers.</english_publication>
+  <keywords>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="537" frequency="2" keyword="home">home</keyword>
+    <keyword id="548" frequency="2" keyword="house">house</keyword>
+    <keyword id="576" frequency="1" keyword="jens">Jens</keyword>
+    <keyword id="587" frequency="6" keyword="jens_langkniv">Jens Langkniv</keyword>
+    <keyword id="828" frequency="1" keyword="neighbor">neighbor</keyword>
+    <keyword id="1036" frequency="2" keyword="road">road</keyword>
+    <keyword id="1037" frequency="1" keyword="robber">robber</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

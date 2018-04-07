@@ -1,0 +1,40 @@
+<informant><person_id>191</person_id>
+  <core_informant/>
+  <full_name>Else Marie Mikaelsdatter</full_name>
+  <last_name>Mikaelsdatter</last_name>
+  <first_name>Else Marie</first_name>
+  <gender>f</gender>
+  <birth_date>1832-04-04</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>32</occupation_id>huskone</occupation>
+    <occupation><occupation_id>78</occupation_id>Sygpige</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>502</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>191</informant_id>
+      <publication_info>DS_V_1007</publication_info>
+      <full_name>191 - 0.00 - DS_V_1007</full_name>
+      <url>data/stories/502.dfl</url>
+      <place_recorded><id>205</id>Grindsted</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>205</place_id>
+      <name>Grindsted</name>
+      <display_name>Grindsted (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

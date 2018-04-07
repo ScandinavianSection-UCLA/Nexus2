@@ -1,0 +1,54 @@
+<informant><person_id>570</person_id>
+  <core_informant/>
+  <full_name>Mads Christensen</full_name>
+  <last_name>Christensen</last_name>
+  <first_name>Mads</first_name>
+  <gender>m</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>889</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>570</informant_id>
+      <publication_info>DS_VII_304</publication_info>
+      <full_name>570 - 0.00 - DS_VII_304</full_name>
+      <url>data/stories/889.dfl</url>
+      <place_recorded><id>950</id>Vester Gr&#248;nning</place_recorded>
+      <places_mentioned>
+        <place><id>660</id>
+          <name>Troms kirke</name>
+        </place>
+        <place><id>947</id>
+          <name>Grinderslevkloster</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>950</place_id>
+      <name>Vester Gr&#248;nning</name>
+      <display_name>Vester Gr&#248;nning (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>947</place_id>
+      <name>Grinderslevkloster</name>
+      <display_name>Grinderslevkloster (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>660</place_id>
+      <name>Troms kirke</name>
+      <display_name>Troms kirke (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

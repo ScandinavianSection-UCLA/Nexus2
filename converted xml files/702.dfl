@@ -1,0 +1,73 @@
+<story><story_id>702</story_id>
+  <publication_info>DS_VII_517</publication_info>
+  <full_name>389 - 0.00 - DS_VII_517</full_name>
+  <informant_id>389</informant_id>
+  <informant_last_name>Hoberg</informant_last_name>
+  <informant_first_name>Margrethe</informant_first_name>
+  <informant_full_name>Margrethe Hoberg</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>804</place_id>
+      <name>Iowa, USA</name>
+      <display_name>Iowa, USA (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>890</story_id>
+      <informant_id/>
+      <publication_info>DS_VII_506</publication_info>
+      <full_name>0 - 0.00 - DS_VII_506</full_name>
+      <url>data/stories/890.dfl</url>
+    </story>
+    <story><story_id>362</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VII_505</publication_info>
+      <full_name>90 - 3.08 - DS_VII_505</full_name>
+      <url>data/stories/362.dfl</url>
+    </story>
+    <story><story_id>661</story_id>
+      <informant_id>364</informant_id>
+      <publication_info>DS_VII_527</publication_info>
+      <full_name>364 - 0.00 - DS_VII_527</full_name>
+      <url>data/stories/661.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Jeg kjendte en kone, hun var nok fra &#197;rhus egnen. Hun fortalte, at i hendes hjem var der en heks. En ung pige bad hende for sp&#248;g l&#230;re sig at hekse. Hun tog hende da med op p&#229; loftet. I &#233;n af bj&#230;lkerne var der et rundt hul, og heksen havde en stok, som passede der til. Hun sagde til pigen, at hun skulde s&#230;tte stokken i hullet og g&#229; forkert rundt med den og sige: "Nu render a om stag', min Herre, min Gud vil a forsag'!" Men pigen sagde derimod: "Nu render a om stag', min Herre, min Gud skal mig bevar'!" S&#229; blev heksen rasende, og pigen blev ikke heks.</danish_publication>
+  <english_publication>I knew a woman who was probably from the &#197;rhus area. She said that there had been a witch in her home. A young girl asked her as a joke to teach her how to do witchcraft. She took her up to the attic. In one of the posts there was a round hole, and the witch had a staff which fit into it. She told the girl that she should put the staff in the hole and go the wrong way around with it and say: &#8220;Now I run around the pole, my God, my Lord, I will abandon.&#8221; But the girl said instead: &#8220;Now I run around the pole, my God, my Lord will me protect!&#8221; Then the witch became furious and the girl did not become a witch.</english_publication>
+  <keywords>
+    <keyword><id>5</id><frequency>1</frequency><keyword>abandon</keyword>abandon</keyword>
+    <keyword><id>55</id><frequency>1</frequency><keyword>attic</keyword>attic</keyword>
+    <keyword><id>467</id><frequency>4</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>472</id><frequency>2</frequency><keyword>god</keyword>god</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>604</id><frequency>1</frequency><keyword>joke</keyword>joke</keyword>
+    <keyword><id>725</id><frequency>2</frequency><keyword>lord</keyword>lord</keyword>
+    <keyword><id>971</id><frequency>2</frequency><keyword>pole</keyword>pole</keyword>
+    <keyword><id>1351</id><frequency>4</frequency><keyword>witch</keyword>witch</keyword>
+    <keyword><id>1353</id><frequency>1</frequency><keyword>witchcraft</keyword>witchcraft</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+    <keyword><id>1374</id><frequency>1</frequency><keyword>young</keyword>young</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>25</id><display_name>Places: Barn</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

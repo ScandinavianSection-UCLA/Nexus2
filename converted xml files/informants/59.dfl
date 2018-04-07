@@ -1,0 +1,64 @@
+<informant><person_id>59</person_id>
+  <core_informant/>
+  <full_name>Jens Gudesen</full_name>
+  <last_name>Gudesen</last_name>
+  <first_name>Jens</first_name>
+  <gender>m</gender>
+  <birth_date>1819-05-06</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>3</occupation_id>almisselem</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>562</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>59</informant_id>
+      <publication_info>DS_IV_1478</publication_info>
+      <full_name>59 - 0.00 - DS_IV_1478</full_name>
+      <url>data/stories/562.dfl</url>
+      <place_recorded><id>811</id>Kjeldstrup</place_recorded>
+      <places_mentioned>
+        <place><id>282</id>
+          <name>Hornum</name>
+        </place>
+        <place><id>376</id>
+          <name>Lindum skov</name>
+        </place>
+        <place><id>680</id>
+          <name>Vammen</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>811</place_id>
+      <name>Kjeldstrup</name>
+      <display_name>Kjeldstrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>680</place_id>
+      <name>Vammen</name>
+      <display_name>Vammen (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>376</place_id>
+      <name>Lindum skov</name>
+      <display_name>Lindum skov (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>282</place_id>
+      <name>Hornum</name>
+      <display_name>Hornum (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

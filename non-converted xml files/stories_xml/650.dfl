@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<story story_id="650">
+  <publication_info>DS_VI_478</publication_info>
+  <full_name>372 - 0.00 - DS_VI_478</full_name>
+  <informant_id>372</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>H.</informant_first_name>
+  <informant_full_name>L&#xE6;rer H. Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>795</place_id>
+      <name>Hjallese</name>
+      <display_name>Hjallese (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>177</place_id>
+      <name>Fyn</name>
+      <display_name>Fyn (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>392</place_id>
+      <name>Lyndelse kro</name>
+      <display_name>Lyndelse kro (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="140">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_66</publication_info>
+      <full_name>150 - 4.29 - JAH_V_66</full_name>
+      <url>data/stories/140.dfl</url>
+    </story>
+    <story story_id="213">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_1205</publication_info>
+      <full_name>241 - 4.41 - DS_VI_1205</full_name>
+      <url>data/stories/213.dfl</url>
+    </story>
+    <story story_id="411">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VI_98</publication_info>
+      <full_name>123 - 3.08 - DS_VI_98</full_name>
+      <url>data/stories/411.dfl</url>
+    </story>
+    <story story_id="611">
+      <informant_id>421</informant_id>
+      <publication_info>DS_VI_471</publication_info>
+      <full_name>421 - 0.00 - DS_VI_471</full_name>
+      <url>data/stories/611.dfl</url>
+    </story>
+    <story story_id="760">
+      <informant_id>348</informant_id>
+      <publication_info>DS_II_B_141</publication_info>
+      <full_name>348 - 0.00 - DS_II_B_141</full_name>
+      <url>data/stories/760.dfl</url>
+    </story>
+    <story story_id="37">
+      <informant_id>150</informant_id>
+      <publication_info>Unpub_BJK_134</publication_info>
+      <full_name>150 - 1.34 - Unpub_BJK_134</full_name>
+      <url>data/stories/37.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En aftenstund var en del unge karle forsamlede i Lyndelse kro p&#xE5; Fyen. De morede sig med at spille kort. Allerbedst de sad, kom &#xE9;n ind og gav sig til at spille med dem. Efter at de havde spillet en stund, opstod der strid imellem dem. I sin iver tabte kortgiveren nogle kort p&#xE5; gulvet. Han vilde da b&#xF6;je sig ned og samle dem op, men s&#xE5; nu, at den fremmede havde et l&#xE5;ddent ben med hestehov, s&#xE5; han alts&#xE5; var selve Fanden. De lod da g&#xE5; bud til Stenl&#xF8;se pr&#xE6;st med anmodning om at komme og drive ham ud. Pr&#xE6;sten kom. Med en knappen&#xE5;l stak han et hul p&#xE5; ruden, og herigjennem drev han Fanden ud af kroen.</danish_publication>
+  <english_publication>One evening, a group of farmhands were gathered in Lyndelse Inn on Fyn. They were enjoying themselves playing cards. As they were sitting there, someone came in and started playing with them.  After they had played for a while, they got into a fight. In his excitement, the dealer dropped some cards on the floor. He wanted to bend down to pick them up, but now he saw that the foreigner had a shaggy leg with a horse's hoof on the end, so he was the devil himself. They sent someone to get the Stenl&#xF8;se minister with the request that he come and drive him out. The minister came. He poked a hole in the window with a pin and he drove the devil out of the inn through that hole.</english_publication>
+  <keywords>
+    <keyword id="178" frequency="2" keyword="cards">cards</keyword>
+    <keyword id="312" frequency="1" keyword="dealer">dealer</keyword>
+    <keyword id="324" frequency="2" keyword="devil">devil</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="411" frequency="1" keyword="fight">fight</keyword>
+    <keyword id="422" frequency="1" keyword="floor">floor</keyword>
+    <keyword id="436" frequency="1" keyword="foreigner">foreigner</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="560" frequency="2" keyword="inn">inn</keyword>
+    <keyword id="704" frequency="1" keyword="leg">leg</keyword>
+    <keyword id="786" frequency="2" keyword="minister">minister</keyword>
+    <keyword id="1092" frequency="1" keyword="shaggy">shaggy</keyword>
+    <keyword id="1346" frequency="1" keyword="window">window</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="33" display_name="Places: Inn"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="81" display_name="Actions or events: Conjuring"/>
+    <tango_index id="87" display_name="Actions or events: Gambling"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

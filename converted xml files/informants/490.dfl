@@ -1,0 +1,62 @@
+<informant><person_id>490</person_id>
+  <core_informant/>
+  <full_name>J&#248;rgen Nielsen</full_name>
+  <last_name>Nielsen</last_name>
+  <first_name>J&#248;rgen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>598</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>490</informant_id>
+      <publication_info>DS_II_E_22</publication_info>
+      <full_name>490 - 0.00 - DS_II_E_22</full_name>
+      <url>data/stories/598.dfl</url>
+      <place_recorded><id>876</id>S&#248;llinge</place_recorded>
+      <places_mentioned>
+        <place><id>375</id>
+          <name>Lindkj&#230;r</name>
+        </place>
+        <place><id>477</id>
+          <name>Ravnholt</name>
+        </place>
+        <place><id>507</id>
+          <name>Ryslinge</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>876</place_id>
+      <name>S&#248;llinge</name>
+      <display_name>S&#248;llinge (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>507</place_id>
+      <name>Ryslinge</name>
+      <display_name>Ryslinge (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>477</place_id>
+      <name>Ravnholt</name>
+      <display_name>Ravnholt (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>375</place_id>
+      <name>Lindkj&#230;r</name>
+      <display_name>Lindkj&#230;r (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,90 @@
+<story><story_id>799</story_id>
+  <publication_info>DS_IV_1681</publication_info>
+  <full_name>442 - 0.00 - DS_IV_1681</full_name>
+  <informant_id>442</informant_id>
+  <informant_last_name>Kristiansen</informant_last_name>
+  <informant_first_name>Petrine</informant_first_name>
+  <informant_full_name>Petrine Kristiansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>412</place_id>
+      <name>Mollerup</name>
+      <display_name>Mollerup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>392</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1689</publication_info>
+      <full_name>123 - 2.18 - DS_IV_1689</full_name>
+      <url>data/stories/392.dfl</url>
+    </story>
+    <story><story_id>530</story_id>
+      <informant_id>425</informant_id>
+      <publication_info>DS_IV_1684</publication_info>
+      <full_name>425 - 0.00 - DS_IV_1684</full_name>
+      <url>data/stories/530.dfl</url>
+    </story>
+    <story><story_id>750</story_id>
+      <informant_id>182</informant_id>
+      <publication_info>DS_V_412</publication_info>
+      <full_name>182 - 0.00 - DS_V_412</full_name>
+      <url>data/stories/750.dfl</url>
+    </story>
+    <story><story_id>800</story_id>
+      <informant_id>442</informant_id>
+      <publication_info>DS_IV_1683</publication_info>
+      <full_name>442 - 0.00 - DS_IV_1683</full_name>
+      <url>data/stories/800.dfl</url>
+    </story>
+    <story><story_id>648</story_id>
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1678</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1678</full_name>
+      <url>data/stories/648.dfl</url>
+    </story>
+    <story><story_id>638</story_id>
+      <informant_id>363</informant_id>
+      <publication_info>DS_IV_1287</publication_info>
+      <full_name>363 - 0.00 - DS_IV_1287</full_name>
+      <url>data/stories/638.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der strandede et skib ved Vesterhavet. Det kom sejlende s&#229; stille, og folk m&#230;rkede jo nok, at det ikke s&#229;dan var rigtig fat med det. S&#229; flyver Vesterboerne jo ned til det og skulde fange noget, som ogs&#229; de gjorde, for der var en stor ladning p&#229; skibet, men alle folkene var udd&#248;de. De begyndte nu at gribe og tage, hvad der var, men der forgreb de dem p&#229; den herlighed, de kunde jo nok have t&#230;nkt, der var noget ved det, siden mandskabet var helt udd&#248;d, og det varede ikke svar l&#230;nge, inden de allesammen blev syge, og den sygdom drev ind over det hele land. Se, s&#229;dan kom den sorte pest.</danish_publication>
+  <english_publication>A ship stranded along the North Sea coast. It came sailing quietly along and people noticed that there was something not quite right with it. So the people from the area (Vestboer) went off down to it to try and catch something; they managed to do that too since there was a big cargo aboard the ship, but the entire crew was dead. They began to grab and take what there was, but they they should have realized that there was something wrong, since the entire crew was dead, and it wasn&#8217;t too long before they all got sick and the disease drifted in over the entire country. See, that&#8217;s how the black plague came.</english_publication>
+  <keywords>
+    <keyword><id>108</id><frequency>1</frequency><keyword>black_plague</keyword>Black Plague</keyword>
+    <keyword><id>179</id><frequency>1</frequency><keyword>cargo</keyword>cargo</keyword>
+    <keyword><id>269</id><frequency>1</frequency><keyword>country</keyword>country</keyword>
+    <keyword><id>317</id><frequency>2</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>334</id><frequency>1</frequency><keyword>disease</keyword>disease</keyword>
+    <keyword><id>354</id><frequency>1</frequency><keyword>drift</keyword>drift</keyword>
+    <keyword><id>864</id><frequency>1</frequency><keyword>north_sea</keyword>North Sea</keyword>
+    <keyword><id>1060</id><frequency>1</frequency><keyword>sailing</keyword>sailing</keyword>
+    <keyword><id>1101</id><frequency>2</frequency><keyword>ship</keyword>ship</keyword>
+    <keyword><id>1111</id><frequency>1</frequency><keyword>sickness</keyword>sickness</keyword>
+    <keyword><id>1204</id><frequency>1</frequency><keyword>stranded</keyword>stranded</keyword>
+  </keywords>
+  <etk_index><id>22</id>
+    <heading_danish>Pest og sygdomme</heading_danish>
+    <heading_english>Plague and illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>39</id><display_name>Places: Ocean / Sea</display_name></tango_index>
+    <tango_index><id>47</id><display_name>Tools, Items and Conveyances: Boat</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<story story_id="154">
+  <publication_info>DS_IV_1465</publication_info>
+  <full_name>241 - 2.04 - DS_IV_1465</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>2.04</order_told>
+  <fieldtrip id="11">October 1893</fieldtrip>
+  <fieldtrip_start_date>1893-09-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1893-10-26</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>30</place_id>
+      <name>Amdal</name>
+      <display_name>Amdal (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>629</place_id>
+      <name>T&#xE5;rs</name>
+      <display_name>T&#xE5;rs (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="160">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1592</publication_info>
+      <full_name>241 - 2.10 - DS_IV_1592</full_name>
+      <url>data/stories/160.dfl</url>
+    </story>
+    <story story_id="501">
+      <informant_id>508</informant_id>
+      <publication_info>DS_IV_1467</publication_info>
+      <full_name>508 - 0.00 - DS_IV_1467</full_name>
+      <url>data/stories/501.dfl</url>
+    </story>
+    <story story_id="669">
+      <informant_id>360</informant_id>
+      <publication_info>DS_IV_1447</publication_info>
+      <full_name>360 - 0.00 - DS_IV_1447</full_name>
+      <url>data/stories/669.dfl</url>
+    </story>
+    <story story_id="699">
+      <informant_id>523</informant_id>
+      <publication_info>DS_IV_1466</publication_info>
+      <full_name>523 - 0.00 - DS_IV_1466</full_name>
+      <url>data/stories/699.dfl</url>
+    </story>
+    <story story_id="770">
+      <informant_id>392</informant_id>
+      <publication_info>DS_IV_1481</publication_info>
+      <full_name>392 - 0.00 - DS_IV_1481</full_name>
+      <url>data/stories/770.dfl</url>
+    </story>
+    <story story_id="797">
+      <informant_id>501</informant_id>
+      <publication_info>DS_IV_1449</publication_info>
+      <full_name>501 - 0.00 - DS_IV_1449</full_name>
+      <url>data/stories/797.dfl</url>
+    </story>
+    <story story_id="841">
+      <informant_id>437</informant_id>
+      <publication_info>DS_IV_1451</publication_info>
+      <full_name>437 - 0.00 - DS_IV_1451</full_name>
+      <url>data/stories/841.dfl</url>
+    </story>
+    <story story_id="844">
+      <informant_id>391</informant_id>
+      <publication_info>DS_IV_1470</publication_info>
+      <full_name>391 - 0.00 - DS_IV_1470</full_name>
+      <url>data/stories/844.dfl</url>
+    </story>
+    <story story_id="665">
+      <informant_id>492</informant_id>
+      <publication_info>DS_IV_1608</publication_info>
+      <full_name>492 - 0.00 - DS_IV_1608</full_name>
+      <url>data/stories/665.dfl</url>
+    </story>
+    <story story_id="151">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1486</publication_info>
+      <full_name>241 - 2.01 - DS_IV_1486</full_name>
+      <url>data/stories/151.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6293a</fielddiary_page_start>
+  <fielddiary_page_end>6293a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>In many of Jens Peter's stories about robbers, they actually get away. If they do not manage to get away (JPP 2.01 above), they are in no condition to reveal the location of their fellow robbers. Jens Peter uses this short account as a way to wrap up his stories about robbers hiding out in the woods.
+
+     An interesting feature of this story is the reference to a &#x201C;sv&#xE6;r krat&#x201D; or thick woods in the telling&#x2014;south of Amdal Mill, there is a farm noted on maps from the 1880s, named Tykskovg&#xE5;rd or &#x201C;Thick Woods Farm,&#x201D; even though the woods are no longer there.</annotation>
+  <danish_manuscript>I Amdal s&#xF8;nden for Amdals M&#xF8;lle
+mellem Ugilt og Taars skal i &#xE6;ldre Tid 
+have v&#xE6;ret et sv&#xE6;rt Krat, og der var ogsaa
+R&#xF8;vere. Min Bedstefor&#xE6;ldre kunde 
+nok huske det Krat og at de gik og tog Folk op.
+baade kj&#xF8;rende og gaaende og plyndrede 
+dem af. Men de fik aldrig noget rigtig
+Ram paa dem.</danish_manuscript>
+  <english_manuscript>In Amdal south of Amdal mill between Ugilt and T&#xE5;rs there was supposed to have been a thick woods in the old days and there were also robbers there. My grandparents remembered those woods, and they went and took people up there, both those who were driving and walking, and plundered them. But no one ever really got a hold of those robbers.</english_manuscript>
+  <danish_publication>I Amdal s&#xF8;nden for Amdals m&#xF8;lle mellem Ugilt og T&#xE5;rs skal i &#xE6;ldre tid have v&#xE6;ret et sv&#xE6;rt krat, og der var ogs&#xE5; r&#xF6;vere. Mine bedstefor&#xE6;ldre kunde nok huske det krat, og at de gik og tog folk op der, b&#xE5;de kj&#xF8;rende og g&#xE5;ende, og plyndrede dem af. Men folk fik aldrig noget rigtigt ram til de r&#xF6;vere.</danish_publication>
+  <english_publication>In the old days in Amdal south of Amdal mill between Ugilt and T&#xE5;rs there was supposed to have been a thick woods and there were also robbers there. My grandparents remembered those woods, and the robbers went and attacked people up there, both those who were driving and walking, and plundered them. But no one ever really got those robbers. </english_publication>
+  <keywords>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="480" frequency="1" keyword="grandparents">grandparents</keyword>
+    <keyword id="783" frequency="1" keyword="mill">mill</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="968" frequency="1" keyword="plunder">plunder</keyword>
+    <keyword id="1037" frequency="2" keyword="robber">robber</keyword>
+    <keyword id="1167" frequency="1" keyword="south">south</keyword>
+    <keyword id="1360" frequency="2" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

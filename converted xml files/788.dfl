@@ -1,0 +1,86 @@
+<story><story_id>788</story_id>
+  <publication_info>DS_I_1356</publication_info>
+  <full_name>382 - 0.00 - DS_I_1356</full_name>
+  <informant_id>382</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>824</place_id>
+      <name>Lin&#229;</name>
+      <display_name>Lin&#229; (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>162</place_id>
+      <name>Flensted mark</name>
+      <display_name>Flensted mark (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>330</place_id>
+      <name>Klanh&#248;je</name>
+      <display_name>Klanh&#248;je (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>505</place_id>
+      <name>Ry skov</name>
+      <display_name>Ry skov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>180</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_901</publication_info>
+      <full_name>241 - 4.09 - DSnr_I_901</full_name>
+      <url>data/stories/180.dfl</url>
+    </story>
+    <story><story_id>620</story_id>
+      <informant_id>359</informant_id>
+      <publication_info>DS_I_1354</publication_info>
+      <full_name>359 - 0.00 - DS_I_1354</full_name>
+      <url>data/stories/620.dfl</url>
+    </story>
+    <story><story_id>756</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1340</publication_info>
+      <full_name>348 - 0.00 - DS_I_1340</full_name>
+      <url>data/stories/756.dfl</url>
+    </story>
+    <story><story_id>861</story_id>
+      <informant_id/>
+      <publication_info>DS_I_1358</publication_info>
+      <full_name>0 - 0.00 - DS_I_1358</full_name>
+      <url>data/stories/861.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Oppe ved Klanh&#246;je p&#229; Flensted mark var der ogs&#229; bj&#230;rgm&#230;nd. De flyttede over ad Ry skov, da de ikke kunde v&#230;re der l&#230;ngere. Det var, da der blev kirker her, de kunde ikke v&#230;re for de dingdanger.</danish_publication>
+  <english_publication>There was a mound man up near Klanh&#248;j on Flensted mark as well. They moved over to Ry forest when they couldn't stay there any longer. That was when churches were built here, and they couldn't stay because of the dingdanger.</english_publication>
+  <keywords>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>438</id><frequency>1</frequency><keyword>forest</keyword>forest</keyword>
+    <keyword><id>807</id><frequency>1</frequency><keyword>mound_man</keyword>mound man</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>46</id><display_name>Tools, Items and Conveyances: Bell</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

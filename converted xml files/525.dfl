@@ -1,0 +1,75 @@
+<story><story_id>525</story_id>
+  <publication_info>DS_II_B_103</publication_info>
+  <full_name>487 - 0.00 - DS_II_B_103</full_name>
+  <informant_id>487</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>H. P.</informant_first_name>
+  <informant_full_name>L&#230;rer H. P. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>860</place_id>
+      <name>Sejling</name>
+      <display_name>Sejling (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1012</place_id>
+      <name>Sandvig</name>
+      <display_name>Sandvig (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>358</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DSnr_II_B_130</publication_info>
+      <full_name>90 - 3.04 - DSnr_II_B_130</full_name>
+      <url>data/stories/358.dfl</url>
+    </story>
+    <story><story_id>181</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_B_203</publication_info>
+      <full_name>241 - 4.10 - DSnr_II_B_203</full_name>
+      <url>data/stories/181.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En t&#230;rskemand skulde en morgen tidlig hen til en g&#229;rd, der l&#229; langt fra byen; han gik fra Sandvig og ad Skalsby. Da han kommer op p&#229; Rasmus Bo's mark, ser han, at der ligger en gr&#229; v&#230;dder p&#229; ryggen i en ren med alle fire ben i vejret. Manden gik s&#229; hen og l&#248;ftede den op; men da han havde g&#229;et et lille stykke, ser han, at der ligger akkurat &#233;n lige s&#229;dan. Han blev nok lidt forundret, men gik lige godt hen og rejste den op med. Da han havde g&#229;et et lille stykke til, s&#229; ligger den samme fyr der igjen. Men s&#229; siger manden: "Nej, nu skal du have tak, du har narret mig to gange, den tredje gang skal du ikke narre mig." Nu kunde han forst&#229;, hvad det var, og s&#229; grinede nissen.</danish_publication>
+  <english_publication>A thresher was supposed to go to a farm which was quite a distance from the town early one morning; he walked from Sandvig over to Skalsby. When he gets up to Rasmus Bo&#8217;s field he sees that there is a gray ram lying on its back in a ditch with all four legs in the air. The man goes over and lifts it up. When he has walked a little farther, he sees that there is exactly one like it lying there. He was a bit puzzled but he went over and righted it as well. Then when he&#8217;d walked a little farther again, the same fellow is lying there again. But then the man says: &#8220;No, now I&#8217;ll thank you, you tricked me twice, but you aren&#8217;t going to trick me a third time.&#8221; Now he knew what it was, and then the nisse laughed.</english_publication>
+  <keywords>
+    <keyword><id>16</id><frequency>1</frequency><keyword>air</keyword>air</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>691</id><frequency>1</frequency><keyword>laughter</keyword>laughter</keyword>
+    <keyword><id>704</id><frequency>1</frequency><keyword>leg</keyword>leg</keyword>
+    <keyword><id>801</id><frequency>1</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>857</id><frequency>1</frequency><keyword>nisse</keyword>nisse</keyword>
+    <keyword><id>1017</id><frequency>1</frequency><keyword>rasmus</keyword>Rasmus</keyword>
+    <keyword><id>1246</id><frequency>1</frequency><keyword>thank</keyword>thank</keyword>
+    <keyword><id>1257</id><frequency>1</frequency><keyword>threshing</keyword>threshing</keyword>
+    <keyword><id>1275</id><frequency>1</frequency><keyword>town</keyword>town</keyword>
+    <keyword><id>1282</id><frequency>1</frequency><keyword>trickery</keyword>trickery</keyword>
+  </keywords>
+  <etk_index><id>3</id>
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>65</id><display_name>Supernatural Beings: Nisse</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>77</id><display_name>Animals: Sheep</display_name></tango_index>
+    <tango_index><id>109</id><display_name>Time, Season, Weather: Morning</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

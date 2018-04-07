@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<story story_id="784">
+  <publication_info>DS_II_D_16</publication_info>
+  <full_name>467 - 0.00 - DS_II_D_16</full_name>
+  <informant_id>467</informant_id>
+  <informant_last_name>Madsen</informant_last_name>
+  <informant_first_name>P. K.</informant_first_name>
+  <informant_full_name>L&#xE6;rer P. K. Madsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>878</place_id>
+      <name>Staby</name>
+      <display_name>Staby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="738">
+      <informant_id>358</informant_id>
+      <publication_info>DS_II_D_4</publication_info>
+      <full_name>358 - 0.00 - DS_II_D_4</full_name>
+      <url>data/stories/738.dfl</url>
+    </story>
+    <story story_id="555">
+      <informant_id>68</informant_id>
+      <publication_info>DS_II_F_71</publication_info>
+      <full_name>68 - 0.00 - DS_II_F_71</full_name>
+      <url>data/stories/555.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En dag fik en fisker, som gik ved fjorden, nogle havfruer at se. Deres s&#xE6;lhundeskind havde de lagt p&#xE5; brinken, og de solede sig p&#xE5; landet. S&#xE5; snart de s&#xE5; ham, greb de deres skind og sv&#xF6;mmede ud, men &#xE9;n af dem var ikke s&#xE5; hurtig som de andre, s&#xE5; fiskeren tog hendes skind. Nu m&#xE5;tte hun f&#xF8;lge med hjem og blive hans kone, og de fik fire b&#xF6;rn sammen. Men en dag, da fiskeren ikke var hjemme, fandt b&#xF6;rnene et gammelt skind ude ved et h&#xE6;s, og det viste de deres moder. S&#xE5; snart hun s&#xE5; det, l&#xF8;b hun ned til fjorden, men her m&#xF6;dte hun sin mand. Hun bad ham om at v&#xE6;re god ved deres b&#xF6;rn, og s&#xE5; tog hun skindet p&#xE5;, og inden manden s&#xE5; sig for, var hun langt ude i vandet.</danish_publication>
+  <english_publication>One day a fisherman who was walking along the shore saw some mermaids. They had put their sealskins down by the shore and they were sunning themselves on the land. As soon as they saw him, they grabbed their skins and swam away, but one of them wasn&#x2019;t as quick as the others, so the fisherman took her skin. Now she had to follow him home and become his wife, and they had four children together. But one day when the fisherman wasn&#x2019;t home, the children found an old skin out by a shack and they showed this to their mother. As soon as she saw it, she ran down to the fjord, but she met her husband there. She asked him to be good to their children, and then she put the skin on and before the man could look around, she was way out in the water.</english_publication>
+  <keywords>
+    <keyword id="219" frequency="3" keyword="children">children</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="416" frequency="3" keyword="fishing">fishing</keyword>
+    <keyword id="537" frequency="2" keyword="home">home</keyword>
+    <keyword id="552" frequency="1" keyword="husband">husband</keyword>
+    <keyword id="682" frequency="1" keyword="land">land</keyword>
+    <keyword id="768" frequency="1" keyword="mermaid">mermaid</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1108" frequency="2" keyword="shore">shore</keyword>
+    <keyword id="1128" frequency="4" keyword="skin">skin</keyword>
+    <keyword id="1233" frequency="1" keyword="swimming">swimming</keyword>
+    <keyword id="1320" frequency="1" keyword="water">water</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="5">
+    <heading_danish>Vandets &#xE5;nder</heading_danish>
+    <heading_english>Water spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="5" display_name="People: Children"/>
+    <tango_index id="18" display_name="People: Sailor / Fisherman"/>
+    <tango_index id="39" display_name="Places: Ocean / Sea"/>
+    <tango_index id="62" display_name="Supernatural Beings: Merfolk"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<story story_id="503">
+  <publication_info>DS_VII_128</publication_info>
+  <full_name>353 - 0.00 - DS_VII_128</full_name>
+  <informant_id>353</informant_id>
+  <informant_last_name>Dissing</informant_last_name>
+  <informant_first_name>Else og Maren</informant_first_name>
+  <informant_full_name>Else og Maren Dissing</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>867</place_id>
+      <name>Skallerup, Mors</name>
+      <display_name>Skallerup, Mors (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="209">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_120</publication_info>
+      <full_name>241 - 4.37 - DS_VII_120</full_name>
+      <url>data/stories/209.dfl</url>
+    </story>
+    <story story_id="455">
+      <informant_id>464</informant_id>
+      <publication_info>DS_VII_129</publication_info>
+      <full_name>464 - 0.00 - DS_VII_129</full_name>
+      <url>data/stories/455.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Ane Husted her oppe kunde ogs&#xE5; trolde og skabe sig om til en hare. Hun gik om n&#xE6;tterne p&#xE5; folks mark og i deres stald og deres k&#xF8;kken. Men til sidst fik hun hendes bane ved det. De sk&#xF8;d p&#xE5; hende mange gange, men det bed ikke p&#xE5;. Til sidst blev haren skudt lak i det ene bagben, og s&#xE5; var Ane Husted bleven d&#xE5;rlig i det ene ben og l&#xE5; l&#xE6;nge, inden hun d&#xF8;de. S&#xE5; fik de ild under hende til sidst, og det er en 14, 15 &#xE5;r siden hun d&#xF8;de. Hun havde hendes penge i hoseskafter og gryder, der var gravet ned i kj&#xF8;kkenet.</danish_publication>
+  <english_publication>Ane Husted up here could also do witchcraft and turn herself into a hare. She went out on people's fields at night and in their stalls and in their kitchens. But she finally met her bane because of that. They shot at her many times, but it never bit. Finally they shot the hare lame in one of its back legs, and then Ane Husted got really hurt in one of her legs, and lay for quite a while before she died. They finally got fire under her at last, and it is fourteen or fifteen years since she died. She had her money in stockings and pots that were buried in the kitchen.</english_publication>
+  <keywords>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="317" frequency="2" keyword="death">death</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="500" frequency="1" keyword="hare">hare</keyword>
+    <keyword id="631" frequency="2" keyword="kitchen">kitchen</keyword>
+    <keyword id="704" frequency="2" keyword="leg">leg</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="981" frequency="1" keyword="pot">pot</keyword>
+    <keyword id="1106" frequency="2" keyword="shooting">shooting</keyword>
+    <keyword id="1186" frequency="1" keyword="stall">stall</keyword>
+    <keyword id="1193" frequency="1" keyword="stockings">stockings</keyword>
+    <keyword id="1353" frequency="1" keyword="witchcraft">witchcraft</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="73" display_name="Animals: Hare"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

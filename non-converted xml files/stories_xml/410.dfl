@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="410">
+  <publication_info>DS_II_B_13</publication_info>
+  <full_name>123 - 3.07 - DS_II_B_13</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.07</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>412</place_id>
+      <name>Mollerup</name>
+      <display_name>Mollerup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="432">
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XIII_38</publication_info>
+      <full_name>123 - 4.04 - JFm_XIII_38</full_name>
+      <url>data/stories/432.dfl</url>
+    </story>
+    <story story_id="609">
+      <informant_id>546</informant_id>
+      <publication_info>DS_II_B_4</publication_info>
+      <full_name>546 - 0.00 - DS_II_B_4</full_name>
+      <url>data/stories/609.dfl</url>
+    </story>
+    <story story_id="717">
+      <informant_id>541</informant_id>
+      <publication_info>DS_II_B_15</publication_info>
+      <full_name>541 - 0.00 - DS_II_B_15</full_name>
+      <url>data/stories/717.dfl</url>
+    </story>
+    <story story_id="824">
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_B_11</publication_info>
+      <full_name>69 - 0.00 - DS_II_B_11</full_name>
+      <url>data/stories/824.dfl</url>
+    </story>
+    <story story_id="374">
+      <informant_id>123</informant_id>
+      <publication_info>JFm_XII_64</publication_info>
+      <full_name>123 - 1.02 - JFm_XII_64</full_name>
+      <url>data/stories/374.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3798b (2)</fielddiary_page_start>
+  <fielddiary_page_end>3798b (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The nisser in this story act more or less like farmhands. The motif of the discovery of coins in the rim of the barrel is reminiscent of earlier story that Peder tells (PJ 1.02).</annotation>
+  <danish_manuscript>Nisserne i Mollerup spilt Kort ved en Skj&#xE6;ppe
+De kunde tr&#xE6;ffe om Morgenen at finde Penge
+om i Kanten af den, s. de spildte da om
+Penge.
+</danish_manuscript>
+  <english_manuscript>The nisser at Mollerup sat playing cards on a barrel. In the morning people would sometimes find coins in its rim, so they were playing for money.</english_manuscript>
+  <danish_publication>Nisserne i Mollerup sad og spilte kort ved en skj&#xE6;ppe, som de vendte bunden i vejret p&#xE5;. De spilte ogs&#xE5; om penge, for folkene kunde tr&#xE6;ffe om morgenen at finde penge siddende om i kanten af den.</danish_publication>
+  <english_publication>The nisser at Mollerup sat and played cards on a barrel that they had tipped upside down. They played for money, too, and in the morning people would sometimes find money in the barrel's rim.</english_publication>
+  <keywords>
+    <keyword id="74" frequency="1" keyword="barrel">barrel</keyword>
+    <keyword id="160" frequency="1" keyword="bushel">bushel</keyword>
+    <keyword id="178" frequency="1" keyword="cards">cards</keyword>
+    <keyword id="793" frequency="2" keyword="money">money</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="857" frequency="1" keyword="nisse">nisse</keyword>
+  </keywords>
+  <etk_index id="3">
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="65" display_name="Supernatural Beings: Nisse"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

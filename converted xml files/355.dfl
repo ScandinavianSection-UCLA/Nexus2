@@ -1,0 +1,54 @@
+<informant><person_id>355</person_id>
+  <core_informant/>
+  <full_name>Lars Dybdahl</full_name>
+  <last_name>Dybdahl</last_name>
+  <first_name>Lars</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>658</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>355</informant_id>
+      <publication_info>DS_I_975</publication_info>
+      <full_name>355 - 0.00 - DS_I_975</full_name>
+      <url>data/stories/658.dfl</url>
+      <place_recorded><id>291</id>Hundborg</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>659</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>355</informant_id>
+      <publication_info>DS_VII_149</publication_info>
+      <full_name>355 - 0.00 - DS_VII_149</full_name>
+      <url>data/stories/659.dfl</url>
+      <place_recorded><id>291</id>Hundborg</place_recorded>
+      <places_mentioned>
+        <place><id>246</id>
+          <name>Hassing</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>291</place_id>
+      <name>Hundborg</name>
+      <display_name>Hundborg (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>246</place_id>
+      <name>Hassing</name>
+      <display_name>Hassing (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

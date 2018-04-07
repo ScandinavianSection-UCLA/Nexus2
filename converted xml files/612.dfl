@@ -1,0 +1,83 @@
+<story><story_id>612</story_id>
+  <publication_info>DS_V_386</publication_info>
+  <full_name>540 - 0.00 - DS_V_386</full_name>
+  <informant_id>540</informant_id>
+  <informant_last_name>S&#248;rensen</informant_last_name>
+  <informant_first_name>Karl</informant_first_name>
+  <informant_full_name>Karl S&#248;rensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>906</place_id>
+      <name>Vester T&#248;rslev</name>
+      <display_name>Vester T&#248;rslev (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>32</place_id>
+      <name>Andrup</name>
+      <display_name>Andrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>855</story_id>
+      <informant_id>386</informant_id>
+      <publication_info>DS_V_384</publication_info>
+      <full_name>386 - 0.00 - DS_V_384</full_name>
+      <url>data/stories/855.dfl</url>
+    </story>
+    <story><story_id>379</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_822</publication_info>
+      <full_name>123 - 2.05 - DS_V_822</full_name>
+      <url>data/stories/379.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En skomager i Andrup var slem imod konen, og hun kom da i tanker om at ville drukne sig. De havde tre b&#246;rn, og det mindste l&#229; i vuggen. Hun gik tre gange fra huset og til s&#248;en, og endelig samlede hun skj&#246;rterne op over hovedet, stampede hul i isen med hendes f&#246;dder og puttede sig ned. De kunde se p&#229; hendes tr&#229;d, hvordan hun havde vandret frem og tilbage, og manden udtalte sig senere om, at hvis barnet ikke havde v&#230;ret roligt, s&#229; vilde hun ikke have gjort det. Siden s&#229; man tit hendes gjenf&#230;rd og h&#248;rte hende ved juletid klage sig s&#229; jammerlig der ude. To skr&#230;dderpiger, der gik p&#229; is tv&#230;rs over s&#248;en, m&#246;dte hende med skj&#246;rtet over hovedet, og da de kom til Glenstrup, blev de s&#229; syge.</danish_publication>
+  <english_publication>A cobbler in Andrup was bad to his wife and she decided to drown herself. They had three children and the littlest was in the crib. She went three times from the house to the lake, and finally she pulled her skirts up over her head, stamped a hole in the ice with her feet and put herself down. They could see by her her footprints how she had wandered back and forth, and the husband later said that if the child hadn&#8217;t been quiet, then she wouldn&#8217;t have done it. Later they often saw her revenant and heard her at Christmas time complain so loudly out there. Two sewing girls who walked across the lake on the ice met her with her skirt over her head and when they got to Glenstrup they got sick.</english_publication>
+  <keywords>
+    <keyword><id>219</id><frequency>2</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>225</id><frequency>1</frequency><keyword>christmas</keyword>Christmas</keyword>
+    <keyword><id>242</id><frequency>1</frequency><keyword>cobbler</keyword>cobbler</keyword>
+    <keyword><id>281</id><frequency>1</frequency><keyword>crib</keyword>crib</keyword>
+    <keyword><id>358</id><frequency>1</frequency><keyword>drowning</keyword>drowning</keyword>
+    <keyword><id>467</id><frequency>1</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>548</id><frequency>1</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>552</id><frequency>1</frequency><keyword>husband</keyword>husband</keyword>
+    <keyword><id>553</id><frequency>2</frequency><keyword>ice</keyword>ice</keyword>
+    <keyword><id>679</id><frequency>2</frequency><keyword>lake</keyword>lake</keyword>
+    <keyword><id>1027</id><frequency>1</frequency><keyword>revenant</keyword>revenant</keyword>
+    <keyword><id>1090</id><frequency>1</frequency><keyword>sewing</keyword>sewing</keyword>
+    <keyword><id>1111</id><frequency>1</frequency><keyword>sickness</keyword>sickness</keyword>
+    <keyword><id>1130</id><frequency>2</frequency><keyword>skirt</keyword>skirt</keyword>
+    <keyword><id>1256</id><frequency>2</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1315</id><frequency>1</frequency><keyword>wandering</keyword>wandering</keyword>
+    <keyword><id>1343</id><frequency>1</frequency><keyword>wife</keyword>wife</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>5</id><display_name>People: Children</display_name></tango_index>
+    <tango_index><id>11</id><display_name>People: Girl</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>40</id><display_name>Places: Pond / Lake</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>96</id><display_name>Actions or events: Suicide</display_name></tango_index>
+    <tango_index><id>116</id><display_name>Time, Season, Weather: Winter</display_name></tango_index>
+    <tango_index><id>120</id><display_name>Time, Season, Weather: Christmas</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

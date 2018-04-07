@@ -1,0 +1,95 @@
+<story><story_id>500</story_id>
+  <publication_info>DS_V_956</publication_info>
+  <full_name>258 - 0.00 - DS_V_956</full_name>
+  <informant_id>258</informant_id>
+  <informant_last_name>Poulsen</informant_last_name>
+  <informant_first_name>Elisabet</informant_first_name>
+  <informant_full_name>Elisabet Poulsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>652</place_id>
+      <name>Torsager</name>
+      <display_name>Torsager (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1008</place_id>
+      <name>Havrum</name>
+      <display_name>Havrum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>816</story_id>
+      <informant_id>482</informant_id>
+      <publication_info>DS_VI_1078</publication_info>
+      <full_name>482 - 0.00 - DS_VI_1078</full_name>
+      <url>data/stories/816.dfl</url>
+    </story>
+    <story><story_id>662</story_id>
+      <informant_id>493</informant_id>
+      <publication_info>DS_III_2180</publication_info>
+      <full_name>493 - 0.00 - DS_III_2180</full_name>
+      <url>data/stories/662.dfl</url>
+    </story>
+    <story><story_id>276</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_VI_1079</publication_info>
+      <full_name>235 - 1.56 - DS_VI_1079</full_name>
+      <url>data/stories/276.dfl</url>
+    </story>
+    <story><story_id>349</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1100</publication_info>
+      <full_name>90 - 2.17 - DS_VI_1100</full_name>
+      <url>data/stories/349.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gammel kone i Havrum d&#248;de og gik igjen. De havde flere b&#246;rn, og der iblandt &#233;n, som ikke var rigtig klog og heller ikke kunde rigtig tale. De andre b&#246;rn skulde ikke have nogen arv, f&#246;r deres fader d&#248;de, men hende havde hun bestemt der skulde have noget mere. Hun havde, mens hun var levende, lavet sengkl&#230;der til b&#246;rnene ligesom andre folk, og s&#229; havde hun syet en bitte skindpose og syet den ind i den dyne, som den s&#246;lle pige skulde have, s&#229;dan i det ene hj&#246;rne. I den skindpose havde hun gjemt 400 daler til hende, men det var ikke bleven &#229;benbaret endnu. S&#229; kom hun mange n&#230;tter, n&#229;r klokken var tolv, og gik hen og stod ved dether sengkl&#230;der. De lukkede, s&#229; godt de kunde, om aftenen, men hun kom lige godt ind. Manden v&#229;gnede flere gange og s&#229; hende, og de var s&#229; forskr&#230;kkede for hende. De havde nu lagt m&#230;rke til, at hun stod og pillede ved denher dyne, og gav dem s&#229; til at spr&#230;kke den op. S&#229; fandt de en seddel, hvorp&#229; pigens navn stod, og s&#229; traf de skindpungen og fik den lukket op.  Pigen fik pengene, og s&#229; kom den d&#248;de ikke  mere.</danish_publication>
+  <english_publication>An old woman in Havrum died and went again. They had many children and among them was one who wasn&#8217;t really smart and couldn&#8217;t speak very well. The other children were not supposed to get any inheritance until their father died, but she had decided that she (the little girl) should have a little more. While she was alive, she had made bedsheets for the children, just like other people, and then she had sewn a little leather pouch in one of the corners. In the leather pouch she had hidden four hundred daler for her, but it hadn&#8217;t yet been revealed. Then she came many nights when it was twelve o&#8217;clock, and went and stood by these sheets. They locked up as best they could at night, but she came in anyways. The husband woke several times and saw her, and they were so afraid of her. They had noticed that she stood and picked at this comforter and they tore it open. Then they found a little note with the girl&#8217;s name on it and then they found the leather pouch and opened it up. The girl got the money and then the dead woman didn&#8217;t come anymore.</english_publication>
+  <keywords>
+    <keyword><id>13</id><frequency>1</frequency><keyword>afraid</keyword>afraid</keyword>
+    <keyword><id>83</id><frequency>1</frequency><keyword>bed</keyword>bed</keyword>
+    <keyword><id>219</id><frequency>3</frequency><keyword>children</keyword>children</keyword>
+    <keyword><id>233</id><frequency>1</frequency><keyword>clock</keyword>clock</keyword>
+    <keyword><id>249</id><frequency>1</frequency><keyword>comforter</keyword>comforter</keyword>
+    <keyword><id>317</id><frequency>3</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>467</id><frequency>3</frequency><keyword>girl</keyword>girl</keyword>
+    <keyword><id>552</id><frequency>1</frequency><keyword>husband</keyword>husband</keyword>
+    <keyword><id>558</id><frequency>1</frequency><keyword>inheritance</keyword>inheritance</keyword>
+    <keyword><id>702</id><frequency>3</frequency><keyword>leather_pouch</keyword>leather pouch</keyword>
+    <keyword><id>722</id><frequency>1</frequency><keyword>lock</keyword>lock</keyword>
+    <keyword><id>793</id><frequency>1</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>822</id><frequency>1</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>848</id><frequency>2</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1090</id><frequency>1</frequency><keyword>sewing</keyword>sewing</keyword>
+    <keyword><id>1096</id><frequency>1</frequency><keyword>sheet</keyword>sheet</keyword>
+    <keyword><id>1144</id><frequency>1</frequency><keyword>smart</keyword>smart</keyword>
+    <keyword><id>1356</id><frequency>2</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>5</id><display_name>People: Children</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>113</id><display_name>Time, Season, Weather: Midnight</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

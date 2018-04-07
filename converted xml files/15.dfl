@@ -1,0 +1,76 @@
+<story><story_id>15</story_id>
+  <publication_info>Unpub_BJK_112</publication_info>
+  <full_name>150 - 1.12 - Unpub_BJK_112</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>1.12</order_told>
+  <fieldtrip><id>1</id>Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>16</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_E_2</publication_info>
+      <full_name>150 - 1.13 - DS_II_E_2</full_name>
+      <url>data/stories/16.dfl</url>
+    </story>
+    <story><story_id>18</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_139</publication_info>
+      <full_name>150 - 1.15 - DS_VI_139</full_name>
+      <url>data/stories/18.dfl</url>
+    </story>
+    <story><story_id>25</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DSkv_0_78</publication_info>
+      <full_name>150 - 1.22 - DSkv_0_78</full_name>
+      <url>data/stories/25.dfl</url>
+    </story>
+    <story><story_id>26</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_553</publication_info>
+      <full_name>150 - 1.23 - DS_I_553</full_name>
+      <url>data/stories/26.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3241a</fielddiary_page_start>
+  <fielddiary_page_end>3241a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This annotation appears to be notes Tang Kristensen made as a means for keeping track of Jens's stories and songs. He probably used the note as a shorthand so as not to forget which stories Jens had told. If this is the case, then the annotation would refer to BJK 1.13 (Lindorm); BJK 1.15 (the rune stone); BJK 1.22 (ballad about the minister and the craftsmen); and BJK 1.23 (Old Villads).  
+
+     The annotation reveals aspects of Tang Kristensen's collecting technique, at least in the earlier part of his career. Jens told a series of stories, and then Tang Kristensen asked him to retell them at a slower pace so that he could write them down. Later in his career, Tang Kristensen changed his methods as he became more adept at quicker transcription, and no longer needed to rely as much on repetition.</annotation>
+  <danish_manuscript>Lindormen . . Pr&#230;sten og alle Haandv&#230;rk
+Runesten. Gl. Villads.
+</danish_manuscript>
+  <english_manuscript>The lindorm. The minister and all the crafts. The rune stone. Old Villads.</english_manuscript>
+  <danish_publication>Unpublished</danish_publication>
+  <english_publication>The lindorm. The minister and all the crafts. The rune stone. Old Villads.</english_publication>
+  <keywords>
+    <keyword><id>277</id><frequency>1</frequency><keyword>crafts</keyword>crafts</keyword>
+    <keyword><id>712</id><frequency>1</frequency><keyword>lindorm</keyword>lindorm</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>881</id><frequency>1</frequency><keyword>old_villads</keyword>Old Villads</keyword>
+    <keyword><id>1054</id><frequency>1</frequency><keyword>runestone</keyword>runestone</keyword>
+  </keywords>
+  <etk_index><id>44</id>
+    <heading_danish>Uudgivne historier</heading_danish>
+    <heading_english>Unpublished stories</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>76</id><display_name>Animals: Serpent / Snake</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+    <tango_index><id>134</id><display_name>Supernatural Beings: Lindorm / Basilisk</display_name></tango_index>
+  </tango_indices>
+  <genre><id>9</id><name>Fragment</name></genre>
+</story>

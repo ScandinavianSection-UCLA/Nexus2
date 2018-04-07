@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<story story_id="110">
+  <publication_info>JAT_VI_1129</publication_info>
+  <full_name>150 - 3.47 - JAT_VI_1129</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.47</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>407</place_id>
+      <name>Mjels</name>
+      <display_name>Mjels (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="402">
+      <informant_id>123</informant_id>
+      <publication_info>FK_0_483</publication_info>
+      <full_name>123 - 2.28 - FK_0_483</full_name>
+      <url>data/stories/402.dfl</url>
+    </story>
+    <story story_id="109">
+      <informant_id>150</informant_id>
+      <publication_info>FK_0_586</publication_info>
+      <full_name>150 - 3.46 - FK_0_586</full_name>
+      <url>data/stories/109.dfl</url>
+    </story>
+    <story story_id="64">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_428</publication_info>
+      <full_name>150 - 3.02 - DS_VI_428</full_name>
+      <url>data/stories/64.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4107a</fielddiary_page_start>
+  <fielddiary_page_end>4107b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Jens continues with stories of the rogue from Mjels mentioned in the previous story (BJK 3.46), comparing him in part to Satan, who is also wont to give people rides in his carriage (BJK 3.02). The story also includes an intriguing meta-narrative element, with the girl telling the rogue stories that she had heard about him. His response leads, of course, to yet another story about him.</annotation>
+  <danish_manuscript>S. var det en Dag en Pige agede med ham
+
+4107B
+S. gav h. sig til at snakke med hende, om hun
+kjendte ham. Nej, men nok h&#xF8;rt tale 
+om ham og gav sig til at fort&#xE6;lle, hvad
+hun havde h&#xF8;rt. Kj&#xF8;rte midt ud i Mjels
+Vad og sagde: Nu kan di staa af og sige
+Skalken har gjort hende baade ondt og
+godt--age og vade--Hun sagde, at han
+hverken havde gjort hende ondt eller godt.</danish_manuscript>
+  <english_manuscript>One day a girl got a ride from him. Then he started talking to her and asked if she knew him. No, but she'd heard about him and she started telling him about what she'd heard. He drove out to the middle of Mjels ford and said, "Now you can get off and say that the Rogue has both done good and bad by you--drive and wade--she said that he'd done her neither good nor bad.</english_manuscript>
+  <danish_publication>En pige kom en dag op at age med skalken fra Mjels. S&#xE5; gav han sig til at snakke med hende og spurgte hende, om hun kjendte ham, de kaldte skalken fra Mjels. Nej, men hun havde nok h&#xF8;rt tale om ham, og han havde hverken gjort hende ondt eller godt, og gav sig s&#xE5; til at fort&#xE6;lle, hvad hun havde h&#xF8;rt. S&#xE5; kj&#xF8;rte han midt ud i Mjels vad og sagde: "Nu kan du st&#xE5; af og sige: Skalken har gjort dig b&#xE5;de ondt og godt, for nu har du aget med mig, og nu kan du komme ud at vade".
+</danish_publication>
+  <english_publication>A girl once got a ride from the rogue from Mjels. Then he started talking to her and asked her if she knew the guy that they called the rogue from Mjels. No, but she&#x2019;d heard about him, and he&#x2019;d neither hurt nor helped her, and she started to tell him what she&#x2019;d heard. Then he drove right out into the middle of the Mjels ford, and said, &#x201C;Now you can get down and say: The rogue has both helped me and hurt me, because now I&#x2019;ve given you a ride and now you can go wading.&#x201D; </english_publication>
+  <keywords>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="1030" frequency="2" keyword="riding">riding</keyword>
+    <keyword id="1040" frequency="3" keyword="rogue">rogue</keyword>
+  </keywords>
+  <etk_index id="36">
+    <heading_danish>Vore f&#xE6;dres tankes&#xE6;t og &#xE5;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="42" display_name="Places: Stream / River"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

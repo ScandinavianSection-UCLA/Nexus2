@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<story story_id="671">
+  <publication_info>DS_I_960</publication_info>
+  <full_name>281 - 0.00 - DS_I_960</full_name>
+  <informant_id>281</informant_id>
+  <informant_last_name>Sommer</informant_last_name>
+  <informant_first_name>Laust</informant_first_name>
+  <informant_full_name>Laust Sommer</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>369</place_id>
+      <name>Lille Taaning</name>
+      <display_name>Lille Taaning (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>528</place_id>
+      <name>Sjelle skovg&#xE5;rd</name>
+      <display_name>Sjelle skovg&#xE5;rd (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>19</place_id>
+      <name>&#xC5;kj&#xE6;r</name>
+      <display_name>&#xC5;kj&#xE6;r (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="377">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_959</publication_info>
+      <full_name>123 - 2.03 - DS_I_959</full_name>
+      <url>data/stories/377.dfl</url>
+    </story>
+    <story story_id="786">
+      <informant_id>481</informant_id>
+      <publication_info>DS_I_962</publication_info>
+      <full_name>481 - 0.00 - DS_I_962</full_name>
+      <url>data/stories/786.dfl</url>
+    </story>
+    <story story_id="282">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_783</publication_info>
+      <full_name>235 - 1.61 - DS_I_783</full_name>
+      <url>data/stories/282.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Svend Felding opholdt sig p&#xE5; Sjelle Skovg&#xE5;rd og rejste imellem den og &#xC5;kj&#xE6;r. S&#xE5; kom han forbi en h&#xF6;j ved nattetid, og den stod p&#xE5; en pille, og bj&#xE6;rgfolkene dandste runden om den, og de havde sat deres s&#xF8;lv ud. S&#xE5; red han til og tog det og red med det, men de rendte efter ham. Han red s&#xE5; ind p&#xE5; en rugager, og der kunde de ikke komme efter ham. S&#xE5; tiggede de, om han vilde da ikke give dem deres s&#xF8;lv igjen, s&#xE5; skulde han f&#xE5;, hvad han forlangede. S&#xE5; forlangte han at f&#xE5; tolv karles styrke. Det lovede de ham ogs&#xE5;, men s&#xE5; m&#xE5;tte han ingen sige, hvordan han havde f&#xE5;et den, for s&#xE5; skulde han have at spise lige s&#xE5; meget som tolv karle. Da han nu blev s&#xE5; st&#xE6;rk, vilde herremanden p&#xE5; &#xC5;kj&#xE6;r friste ham til at sige, hvordan han havde f&#xE5;et det, og s&#xE5; sagde han: "Ja, dersom du vil f&#xF8;de  mig, s&#xE5; l&#xE6;nge a lever, s&#xE5; skal a ogs&#xE5; fort&#xE6;lle det." Nu m&#xE5;tte herremanden f&#xF8;de ham siden, og der blev dannet en gryde, hvori de kunde koge til tolv karle. Den kaldtes Svend Feldings dovregryde og har v&#xE6;ret p&#xE5; &#xC5;kj&#xE6;r indtil for kort siden.</danish_publication>
+  <english_publication>Svend Felding lived at Sjelle Skovg&#xE5;rd and traveled between there and &#xC5;kj&#xE6;r. Then one night he came past a mound and it was standing on a post, and the mound folk danced around it, and they had put their silver out. So he rode up and took it and rode off with it, but they ran after him. He rode out onto a rye field and they couldn't come after him there. Then they begged him to give them their silver back, and if he did he could have whatever he wanted. Then he asked to have the strength of twelve men. They promised him that, but then he wasn't to tell anyone how he'd gotten it because then he'd have to eat as much as twelve men. When he'd gotten that strong, the manor lord at &#xC5;kj&#xE6;r wanted to tempt him into revealing how it had happened, and then he said, "Well, if you'll feed me as long as I live, then I'll tell you." Ever since then, the manor lord had to feed him, and a pot was made so they could cook enough food for twelve men in it. It was called Svend Felding's breakfast pot and was in &#xC5;kj&#xE6;r until not so long ago.</english_publication>
+  <keywords>
+    <keyword id="86" frequency="1" keyword="beggar">beggar</keyword>
+    <keyword id="140" frequency="1" keyword="breakfast">breakfast</keyword>
+    <keyword id="257" frequency="1" keyword="cooking">cooking</keyword>
+    <keyword id="297" frequency="1" keyword="dancing">dancing</keyword>
+    <keyword id="404" frequency="2" keyword="feed">feed</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="431" frequency="1" keyword="food">food</keyword>
+    <keyword id="743" frequency="2" keyword="manor_lord">manor lord</keyword>
+    <keyword id="804" frequency="1" keyword="mound">mound</keyword>
+    <keyword id="806" frequency="1" keyword="mound_folk">mound folk</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="979" frequency="1" keyword="post">post</keyword>
+    <keyword id="981" frequency="2" keyword="pot">pot</keyword>
+    <keyword id="1030" frequency="3" keyword="riding">riding</keyword>
+    <keyword id="1055" frequency="1" keyword="rye">rye</keyword>
+    <keyword id="1118" frequency="2" keyword="silver">silver</keyword>
+    <keyword id="1209" frequency="2" keyword="strength">strength</keyword>
+    <keyword id="1226" frequency="2" keyword="svend_felding">Svend Felding</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="1" display_name="People: Aristocrat / Royal"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="20" display_name="People: Strong Man / Hero"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="94" display_name="Actions or events: Oath"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

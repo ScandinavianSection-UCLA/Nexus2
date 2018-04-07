@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<story story_id="712">
+  <publication_info>DS_VII_1481</publication_info>
+  <full_name>61 - 0.00 - DS_VII_1481</full_name>
+  <informant_id>61</informant_id>
+  <informant_last_name>Hansdatter</informant_last_name>
+  <informant_first_name>Mette Marie</informant_first_name>
+  <informant_full_name>Mette Marie Hansdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>817</place_id>
+      <name>Krarup m&#xF8;lle</name>
+      <display_name>Krarup m&#xF8;lle (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="427">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_1487</publication_info>
+      <full_name>123 - 3.24 - DS_VII_1487</full_name>
+      <url>data/stories/427.dfl</url>
+    </story>
+    <story story_id="550">
+      <informant_id>549</informant_id>
+      <publication_info>DS_VII_1482</publication_info>
+      <full_name>549 - 0.00 - DS_VII_1482</full_name>
+      <url>data/stories/550.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gammel smedekone her i byen sagde om et af hendes b&#xF6;rn, at den blev f&#xF8;dt i en lykkeskjorte, men den er dog yderst fattig.</danish_publication>
+  <english_publication>An old smith's wife said that one of her children had been born in a lucky shirt, but he is incredibly poor.</english_publication>
+  <keywords>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="727" frequency="1" keyword="luck">luck</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="974" frequency="1" keyword="poor">poor</keyword>
+    <keyword id="1102" frequency="1" keyword="shirt">shirt</keyword>
+    <keyword id="1146" frequency="1" keyword="smithing">smithing</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="30">
+    <heading_danish>Menneskets og kv&#xE6;gets sygdomme</heading_danish>
+    <heading_english>Human and cattle illnesses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="5" display_name="People: Children"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

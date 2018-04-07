@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<story story_id="757">
+  <publication_info>DS_I_1414</publication_info>
+  <full_name>348 - 0.00 - DS_I_1414</full_name>
+  <informant_id>348</informant_id>
+  <informant_last_name>Christensen</informant_last_name>
+  <informant_first_name>Nikolaj</informant_first_name>
+  <informant_full_name>Student Nikolaj Christensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>1</place_id>
+      <name>Aaby</name>
+      <display_name>Aaby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="328">
+      <informant_id>90</informant_id>
+      <publication_info>DS_I_1412</publication_info>
+      <full_name>90 - 1.05 - DS_I_1412</full_name>
+      <url>data/stories/328.dfl</url>
+    </story>
+    <story story_id="821">
+      <informant_id>69</informant_id>
+      <publication_info>DS_I_1413</publication_info>
+      <full_name>69 - 0.00 - DS_I_1413</full_name>
+      <url>data/stories/821.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Drengen beder bj&#xE6;rgmand til fadder. Havde taget en posefuld sten med og sagde, at Vorherre havde givet ham den fuld af penge. Gav ham en halv t&#xF8;ndes&#xE6;k fuld.</danish_publication>
+  <english_publication>The boy invites the mound man to be the godfather. He had brought a bag full of stones along and said that Our Lord had given him a bag full of money. He gave him a half barrel sack full.</english_publication>
+  <keywords>
+    <keyword id="63" frequency="2" keyword="bags">bags</keyword>
+    <keyword id="74" frequency="1" keyword="barrel">barrel</keyword>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="807" frequency="1" keyword="mound_man">mound man</keyword>
+    <keyword id="887" frequency="1" keyword="our_lord">Our Lord</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="80" display_name="Actions or events: Church ceremony"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

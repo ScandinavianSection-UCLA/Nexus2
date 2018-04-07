@@ -1,0 +1,74 @@
+<story><story_id>592</story_id>
+  <publication_info>DS_II_E_142</publication_info>
+  <full_name>375 - 0.00 - DS_II_E_142</full_name>
+  <informant_id>375</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>J&#248;rgen</informant_first_name>
+  <informant_full_name>Friskolel&#230;rer J&#248;rgen Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>899</place_id>
+      <name>V&#230;rslev</name>
+      <display_name>V&#230;rslev (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>99</place_id>
+      <name>Br&#248;ndsted m&#248;lle</name>
+      <display_name>Br&#248;ndsted m&#248;lle (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>265</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_145</publication_info>
+      <full_name>235 - 1.45 - DS_II_E_145</full_name>
+      <url>data/stories/265.dfl</url>
+    </story>
+    <story><story_id>847</story_id>
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_E_117</publication_info>
+      <full_name>539 - 0.00 - DS_II_E_117</full_name>
+      <url>data/stories/847.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der har al tid v&#230;ret s&#229; fuldt af snoge ved Br&#248;ndsted m&#248;lle, og s&#229; var det en dag, at begge den gamle S&#246;ren M&#248;llers s&#246;nner vilde ud at skyde p&#229; dem, som de l&#229; og solede sig rundt om p&#229; jorden ved de store elletr&#230;er. Da den gamle h&#248;rer skuddene, kommer han imidlertid ud til dem og siger: "Drenge, forvar jer! de har v&#230;ret her f&#246;r min tid og vil blive ved derefter, se jer op til tr&#230;erne og skynd jer bort herfra." Og da de s&#229; op, var tr&#230;erne fulde af snoge, der hang omkring p&#229; grenene. Det havde de ikke set.</danish_publication>
+  <english_publication>Br&#248;ndsted mill has always been filled with grass snakes, and so it was one day that both of old S&#248;ren M&#248;ller's sons wanted to go out and shoot them, as the snakes were laying there sunning themselves round about on the ground by the big alder trees. When the old man heard the shots, he comes out to them and says, "Boys, be careful! They've been here since before my time and they'll be here after, look up at the trees and hurry out of there!" And when they looked up, the trees were full of grass snakes, hanging on all the branches. They hadn't noticed that.</english_publication>
+  <keywords>
+    <keyword><id>17</id><frequency>1</frequency><keyword>alderwood</keyword>alderwood</keyword>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>135</id><frequency>1</frequency><keyword>branches</keyword>branches</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>482</id><frequency>2</frequency><keyword>grass_snake</keyword>grass snake</keyword>
+    <keyword><id>783</id><frequency>1</frequency><keyword>mill</keyword>mill</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>880</id><frequency>1</frequency><keyword>old_s&#248;ren</keyword>Old S&#248;ren</keyword>
+    <keyword><id>1106</id><frequency>2</frequency><keyword>shooting</keyword>shooting</keyword>
+    <keyword><id>1154</id><frequency>1</frequency><keyword>son</keyword>son</keyword>
+    <keyword><id>1281</id><frequency>3</frequency><keyword>tree</keyword>tree</keyword>
+  </keywords>
+  <etk_index><id>6</id>
+    <heading_danish>Lindorme og sm&#229;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>31</id><display_name>Places: Forest / Woods</display_name></tango_index>
+    <tango_index><id>37</id><display_name>Places: Mill</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>79</id><display_name>Animals: None / Unspecified</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

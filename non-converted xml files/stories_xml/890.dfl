@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<story story_id="890">
+  <publication_info>DS_VII_506</publication_info>
+  <full_name>0 - 0.00 - DS_VII_506</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>504</place_id>
+      <name>Ry</name>
+      <display_name>Ry (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>949</place_id>
+      <name>Odense</name>
+      <display_name>Odense (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>948</place_id>
+      <name>&#xC5;sum</name>
+      <display_name>&#xC5;sum (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="148">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1134</publication_info>
+      <full_name>241 - 1.07 - DS_IV_1134</full_name>
+      <url>data/stories/148.dfl</url>
+    </story>
+    <story story_id="191">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_574</publication_info>
+      <full_name>241 - 4.19 - DSnr_IV_574</full_name>
+      <url>data/stories/191.dfl</url>
+    </story>
+    <story story_id="702">
+      <informant_id>389</informant_id>
+      <publication_info>DS_VII_517</publication_info>
+      <full_name>389 - 0.00 - DS_VII_517</full_name>
+      <url>data/stories/702.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der boede en g&#xE5;rdmand i &#xC5;sum ved Odense, han tjente i sine unge dage som karl et sted i byen, og i den samme g&#xE5;rd var ogs&#xE5; en stor dreng. S&#xE5; en Mortensaften siger karlen til drengen, om han vilde tjene penge. Ja, det vilde jo drengen nok. S&#xE5; skulde han have 8 sk. for at g&#xE5; hen til kirken og l&#xF8;be tre gange rundt om den og hver gang r&#xE5;be indad n&#xF8;glehullet: "Jeg vil h&#xF8;re Fanden til!" Da han kom til d&#xF6;ren tredje gang, kom der en hvid skikkelse, som der stod ild ud af munden p&#xE5;. Det var jo karlen, der havde f&#xE5;et et lagen over sig og noget tr&#xF8;ske i munden. Drengen fik ikke r&#xE5;bt tredje gang, men gik fra forstanden over det.</danish_publication>
+  <english_publication>There was a farmer in &#xC5;sum near Odense, he had worked in his youth as a farmhand in the town, and in the same farm there was also a big hired boy. Then one Mortens eve the farmhand asks the boy if he wants to earn some money. Yes, the boy wanted to. Then he&#x2019;d get eight shillings if he&#x2019;d go to the church and run around it three times and each time yell into the keyhole, &#x201C;I want to belong to the devil!&#x201D; When he got to the door the third time, a white form with fire coming out of its mouth appeared. It was the farmhand who had put a sheet over himself and some rotted wood in his mouth. The boy didn&#x2019;t yell the third time, but went crazy from the experience.</english_publication>
+  <keywords>
+    <keyword id="130" frequency="4" keyword="boy">boy</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="278" frequency="1" keyword="crazy">crazy</keyword>
+    <keyword id="324" frequency="1" keyword="devil">devil</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="395" frequency="3" keyword="farm_hand">farmhand</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="413" frequency="1" keyword="fire">fire</keyword>
+    <keyword id="620" frequency="1" keyword="keyhole">keyhole</keyword>
+    <keyword id="793" frequency="1" keyword="money">money</keyword>
+    <keyword id="813" frequency="2" keyword="mouth">mouth</keyword>
+    <keyword id="1096" frequency="1" keyword="sheet">sheet</keyword>
+    <keyword id="1100" frequency="1" keyword="shilling">shilling</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1340" frequency="1" keyword="white">white</keyword>
+    <keyword id="1357" frequency="1" keyword="wood">wood</keyword>
+    <keyword id="1375" frequency="1" keyword="youth">youth</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<story story_id="391">
+  <publication_info>DS_V_202</publication_info>
+  <full_name>123 - 2.17 - DS_V_202</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.17</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>441</place_id>
+      <name>Nyg&#xE5;rd</name>
+      <display_name>Nyg&#xE5;rd (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="233">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_H_141</publication_info>
+      <full_name>235 - 1.14 - DS_II_H_141</full_name>
+      <url>data/stories/233.dfl</url>
+    </story>
+    <story story_id="297">
+      <informant_id>235</informant_id>
+      <publication_info>MA_II_456</publication_info>
+      <full_name>235 - 2.14 - MA_II_456</full_name>
+      <url>data/stories/297.dfl</url>
+    </story>
+    <story story_id="666">
+      <informant_id>492</informant_id>
+      <publication_info>DS_V_215</publication_info>
+      <full_name>492 - 0.00 - DS_V_215</full_name>
+      <url>data/stories/666.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3777b</fielddiary_page_start>
+  <fielddiary_page_end>3777b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The headless horse rather than the headless rider is a dominant motif in Danish tradition (see KMP 1.14 and 2.14; DS V 215). The horseman's sudden appearance disrupts Peder's father and uncle's nocturnal hunt and so spooks the dog that they have to call off their hunt. 
+
+      Hunting privileges were usually reserved for the aristocracy and the Crown. Peasants tried to circumvent these laws, but forest rangers were employed by most landowners to prevent poaching. It is not too surprising that the two men encounter a frightening supernatural being while breaking the law late at night out in the woods.</annotation>
+  <danish_manuscript>I Nygaards Skov rider en Rytter paa en hoved
+l&#xF8;s Hest. Min F. og Morbroder gik meget
+paa Nattejagt og de kom til det. Det
+knasede i L&#xF8;vet og hug ligesom en Hest
+og de Hunde som de havde med dem kunde
+de ikke faa af Stedet, s. de den Nat
+maatte tage hjem igien.
+</danish_manuscript>
+  <english_manuscript>In Nyg&#xE5;rd's woods, a horseman rides on a headless horse. My father and my maternal uncle often went out hunting at night and they encountered it. It crackled in the leaves and snorted just like a horse, and they couldn't get the dogs they had with them to move from the spot and so they they had to go back home again that night.</english_manuscript>
+  <danish_publication>I Nyg&#xE5;rds skov rider en rytter p&#xE5; en hovedl&#xF8;s hest. Min fader og morbroder gik meget p&#xE5; nattejagt, og de kom til det sp&#xF8;geri. Det knasede i l&#xF8;vet og hug ligesom en hest, og hunden, de havde med dem, kunde de ikke f&#xE5; af stedet, s&#xE5; de den nat m&#xE5;tte tage hjem igjen.</danish_publication>
+  <english_publication>In Nyg&#xE5;rd&#x2019;s woods, a horseman rides on a headless horse. My father and my maternal uncle often went out hunting at night and they encountered that haunting. It crackled in the leaves and snorted just like a horse, and they couldn&#x2019;t get the dog they had with them to move from the spot and so they they had to go back home again that night.</english_publication>
+  <keywords>
+    <keyword id="343" frequency="1" keyword="dog">dog</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="508" frequency="1" keyword="haunting">haunting</keyword>
+    <keyword id="515" frequency="1" keyword="headless_horse">headless horse</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="546" frequency="1" keyword="horseman">horseman</keyword>
+    <keyword id="551" frequency="1" keyword="hunting">hunting</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1289" frequency="1" keyword="uncle">uncle</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,89 @@
+<story><story_id>708</story_id>
+  <publication_info>DS_IV_1512</publication_info>
+  <full_name>332 - 0.00 - DS_IV_1512</full_name>
+  <informant_id>332</informant_id>
+  <informant_last_name>Birk</informant_last_name>
+  <informant_first_name>Marie Kirstine</informant_first_name>
+  <informant_full_name>Marie Kirstine Birk</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>422</place_id>
+      <name>Navtrup</name>
+      <display_name>Navtrup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1054</place_id>
+      <name>R&#248;verstuen i Borris</name>
+      <display_name>R&#248;verstuen i Borris (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>707</story_id>
+      <informant_id>332</informant_id>
+      <publication_info>DS_IV_1510</publication_info>
+      <full_name>332 - 0.00 - DS_IV_1510</full_name>
+      <url>data/stories/707.dfl</url>
+    </story>
+    <story><story_id>832</story_id>
+      <informant_id>130</informant_id>
+      <publication_info>DS_IV_1518</publication_info>
+      <full_name>130 - 0.00 - DS_IV_1518</full_name>
+      <url>data/stories/832.dfl</url>
+    </story>
+    <story><story_id>373</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_IV_1517</publication_info>
+      <full_name>123 - 1.01 - DS_IV_1517</full_name>
+      <url>data/stories/373.dfl</url>
+    </story>
+    <story><story_id>627</story_id>
+      <informant_id>409</informant_id>
+      <publication_info>DS_IV_1535</publication_info>
+      <full_name>409 - 0.00 - DS_IV_1535</full_name>
+      <url>data/stories/627.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der er en fort&#230;lling om r&#246;vere, der skal stamme fra dem, der var i R&#246;verstuerne i Borris. I W&#229;tkj&#230;r var folk en dag i kirke s&#229; n&#230;r som en gammel kone. S&#229; seer hun, r&#246;verne kommer, og l&#229;ser d&#246;rene med en fart. En bitte dreng, der gik udenfor, ham truede de med at sl&#229; ihjel, hvis hun ikke lukkede op. Da lukte hun dem ind, og &#233;n af dem kom ind til en gammel kiste. Den skulde hun lukke op. S&#229; bildte hun r&#246;veren ind, at der var penge i en pose i den kiste, og manden vil nu rage ned, men hun tager i benene af ham og smider ham ned p&#229; hovedet og lukker s&#229; kisten i l&#229;se. S&#229; var hun af med ham, og i det samme kom folk fra kirke. Der kom bud til Lunden&#230;s, og de kom med deres folk og fik dem fingret.</danish_publication>
+  <english_publication>There&#8217;s a story about some robbers who were supposed to be the descendants of those who were in the robber dens in Borris. In W&#229;tkj&#230;r, all the people were at church one day, except an old woman. Then she sees the robbers coming and she quickly locks the doors. A little boy who was walking outside, they threatened to kill him, unless she opened up. Then she let them in and one of them went over to an old chest. She was told to open it. Then she convinced one of the robbers that there was money in a bag in the chest so the man rummages down in it, but she takes his legs and tosses him down on his head into it and then locks the chest. So then she had gotten rid of him and at the same time the people came back from church. A message was sent over to Lunden&#230;s and they brought their people and caught them.</english_publication>
+  <keywords>
+    <keyword><id>63</id><frequency>1</frequency><keyword>bags</keyword>bags</keyword>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>215</id><frequency>3</frequency><keyword>chest</keyword>chest</keyword>
+    <keyword><id>227</id><frequency>2</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>622</id><frequency>1</frequency><keyword>kill</keyword>kill</keyword>
+    <keyword><id>704</id><frequency>1</frequency><keyword>leg</keyword>leg</keyword>
+    <keyword><id>770</id><frequency>1</frequency><keyword>message</keyword>message</keyword>
+    <keyword><id>793</id><frequency>1</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>873</id><frequency>2</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>889</id><frequency>1</frequency><keyword>outside</keyword>outside</keyword>
+    <keyword><id>1037</id><frequency>4</frequency><keyword>robber</keyword>robber</keyword>
+    <keyword><id>1200</id><frequency>1</frequency><keyword>story</keyword>story</keyword>
+    <keyword><id>1255</id><frequency>1</frequency><keyword>threat</keyword>threat</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>20</id>
+    <heading_danish>R&#248;vere, drabsm&#230;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>17</id><display_name>People: Robber / Thief</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

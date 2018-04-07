@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<story story_id="845">
+  <publication_info>DS_IV_1289</publication_info>
+  <full_name>499 - 0.00 - DS_IV_1289</full_name>
+  <informant_id>499</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>O. V.</informant_first_name>
+  <informant_full_name>L&#xE6;rer O. V. Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>856</place_id>
+      <name>Romdrup-Klarup</name>
+      <display_name>Romdrup-Klarup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>982</place_id>
+      <name>Harbo&#xF8;re</name>
+      <display_name>Harbo&#xF8;re (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="638">
+      <informant_id>363</informant_id>
+      <publication_info>DS_IV_1287</publication_info>
+      <full_name>363 - 0.00 - DS_IV_1287</full_name>
+      <url>data/stories/638.dfl</url>
+    </story>
+    <story story_id="855">
+      <informant_id>386</informant_id>
+      <publication_info>DS_V_384</publication_info>
+      <full_name>386 - 0.00 - DS_V_384</full_name>
+      <url>data/stories/855.dfl</url>
+    </story>
+    <story story_id="217">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_963</publication_info>
+      <full_name>241 - 4.45 - DSnr_IV_963</full_name>
+      <url>data/stories/217.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var en mand p&#xE5; Harbo&#xF8;re, som plyndrede og ihjelslog &#xE9;n, der var strandet. Inden mennesket d&#xF8;de, skal han have udtalt den forbandelse, at det vilde komme over hans b&#xF6;rn, de vilde komme til at d&#xF8; pludselig ligesom nu han. Den mand havde tre s&#xF6;nner, og de druknede i et stormvejr p&#xE5; havet. Den tredje boede i Vrist og omkom p&#xE5; en s&#xE6;regen m&#xE5;de. Det var i en stormnat, havet gik s&#xE5; h&#xF6;jt, at der var fare for, at b&#xE5;dene, der var trukne meget h&#xF6;jt op p&#xE5; stranden, skulde blive revne v&#xE6;k. Folkene vilde da tr&#xE6;kke dem over de lave klitter og m&#xE5;tte til den ende fylde dem med sand, idet vinden ellers vilde have taget dem, n&#xE5;r de kom helt op. Den mand, her er tale om, hjalp ved den ene b&#xE5;d, men idet den kom op, tog vinden dog s&#xE5;dan i den, at han kom under den og blev knust. Der gik straks bud til hans g&#xE5;rd, og konen kom i m&#xF8;de med dem, der bar ham hjem, omtrent midtvejs. Der var endnu liv i ham, men han d&#xF8;de straks efter.</danish_publication>
+  <english_publication>There was a man in the Harbo islands, who plundered and killed a person who was stranded. Just before the person died, he uttered a curse that would affect his children, they would die suddenly just like he was dying now. That man had three sons, and they drowned in a storm at sea. The third one lived in Vrist and died in a similar manner. It was a stormy night, the sea was so high that there was a danger that the boats that had been dragged far up on the beach would be torn away. People wanted to pull them over the low cliffs and for that reason had to fill them with sand, because otherwise the wind would have taken them when they got them totally up. The man who we&#x2019;re talking about helped with one of the boats, but before it came up, the wind took it in such a way that he wound up under it and was crushed. A messenger was immediately sent to his farm and his wife came out and met the people who were carrying him home almost halfway. He was still alive but died shortly after.</english_publication>
+  <keywords>
+    <keyword id="78" frequency="1" keyword="beach">beach</keyword>
+    <keyword id="116" frequency="2" keyword="boat">boat</keyword>
+    <keyword id="219" frequency="1" keyword="children">children</keyword>
+    <keyword id="232" frequency="1" keyword="cliff">cliff</keyword>
+    <keyword id="291" frequency="1" keyword="curse">curse</keyword>
+    <keyword id="298" frequency="1" keyword="danger">danger</keyword>
+    <keyword id="317" frequency="4" keyword="death">death</keyword>
+    <keyword id="358" frequency="1" keyword="drowning">drowning</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="565" frequency="1" keyword="island">island</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="771" frequency="1" keyword="messenger">messenger</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="968" frequency="1" keyword="plunder">plunder</keyword>
+    <keyword id="1066" frequency="1" keyword="sand">sand</keyword>
+    <keyword id="1079" frequency="2" keyword="sea">sea</keyword>
+    <keyword id="1154" frequency="1" keyword="son">son</keyword>
+    <keyword id="1199" frequency="2" keyword="storm">storm</keyword>
+    <keyword id="1204" frequency="1" keyword="stranded">stranded</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+    <keyword id="1345" frequency="2" keyword="wind">wind</keyword>
+    <keyword id="1365" frequency="1" keyword="wound">wound</keyword>
+  </keywords>
+  <etk_index id="20">
+    <heading_danish>R&#xF8;vere, drabsm&#xE6;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="17" display_name="People: Robber / Thief"/>
+    <tango_index id="39" display_name="Places: Ocean / Sea"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="85" display_name="Actions or events: Drowning"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="94" display_name="Actions or events: Oath"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

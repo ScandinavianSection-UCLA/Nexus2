@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<story story_id="104">
+  <publication_info>JAH_I_84</publication_info>
+  <full_name>150 - 3.41 - JAH_I_84</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.41</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>492</place_id>
+      <name>Rold</name>
+      <display_name>Rold (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="107">
+      <informant_id>150</informant_id>
+      <publication_info>FK_0_2</publication_info>
+      <full_name>150 - 3.44 - FK_0_2</full_name>
+      <url>data/stories/107.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4105a</fielddiary_page_start>
+  <fielddiary_page_end>4105a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This short saying is a pun on the word "call," which can be used both to describe the call of a shepherd (or any other type of call) and a particular type of paid office, here the benefice of a minister. Jens delights in many of his stories in puns, double entendres, and other verbal dexterity. The statement also acts as a humorous lead-in to the next story.</annotation>
+  <danish_manuscript>I Rold var deres Hjordekald bedre end deres
+Pr&#xE6;stekald.
+</danish_manuscript>
+  <english_manuscript>In Rold, their shepherd's call was better than their minister's call.</english_manuscript>
+  <danish_publication>I Rold var deres hyrdekald bedre end deres pr&#xE6;stekald.</danish_publication>
+  <english_publication>In Rold their sphepherd's call was better than their minister's call [benefice].</english_publication>
+  <keywords>
+    <keyword id="525" frequency="1" keyword="herd">herd</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+  </keywords>
+  <etk_index id="31">
+    <heading_danish>Om fortidens landbrug</heading_danish>
+    <heading_english>Concerning earlier agricultural practices</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="7" name="Saying / Proverb"/>
+</story>

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<story story_id="783">
+  <publication_info>DS_VI_75</publication_info>
+  <full_name>467 - 0.00 - DS_VI_75</full_name>
+  <informant_id>467</informant_id>
+  <informant_last_name>Madsen</informant_last_name>
+  <informant_first_name>P. K.</informant_first_name>
+  <informant_full_name>L&#xE6;rer P. K. Madsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>878</place_id>
+      <name>Staby</name>
+      <display_name>Staby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="384">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_2367</publication_info>
+      <full_name>123 - 2.10 - DS_III_2367</full_name>
+      <url>data/stories/384.dfl</url>
+    </story>
+    <story story_id="886">
+      <informant_id/>
+      <publication_info>DS_VI_87</publication_info>
+      <full_name>0 - 0.00 - DS_VI_87</full_name>
+      <url>data/stories/886.dfl</url>
+    </story>
+    <story story_id="411">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VI_98</publication_info>
+      <full_name>123 - 3.08 - DS_VI_98</full_name>
+      <url>data/stories/411.dfl</url>
+    </story>
+    <story story_id="549">
+      <informant_id>466</informant_id>
+      <publication_info>DS_VI_95</publication_info>
+      <full_name>466 - 0.00 - DS_VI_95</full_name>
+      <url>data/stories/549.dfl</url>
+    </story>
+    <story story_id="18">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_139</publication_info>
+      <full_name>150 - 1.15 - DS_VI_139</full_name>
+      <url>data/stories/18.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>De, der g&#xE5;r i den sorte skole, l&#xF8;ber ud af den, n&#xE5;r de er f&#xE6;rdige; ti den, der kommer sidst ud, tilh&#xF8;rer Fanden. S&#xE5;ledes var der en gang en pr&#xE6;st, der kom sidst ud, men han var s&#xE5; klog at sige Fanden, at han kunde f&#xF8;rst tage hans skygge, og med den m&#xE5;tte han lade sig n&#xF6;je. Pr&#xE6;sten havde derefter ingen skygge, og Fanden tog den ofte p&#xE5; og gik omkring med den, s&#xE5; folk troede at se pr&#xE6;sten i marken og andre steder, skj&#xF6;ndt han til samme tid opholdt sig hjemme i sit hus.</danish_publication>
+  <english_publication>Those who go to the Black School run out of it when they are done since the one who comes out last belongs to the devil. There was once a minister who came out last but he was wise enough to tell the devil that he could take his shadow first and had to be happy with that. The minister didn&#x2019;t have a shadow after that, and the devil often put it on and went around with it, so people thought that they saw the minister out in the field and other places, even though he was at home in his house at the same time.</english_publication>
+  <keywords>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="286" frequency="1" keyword="cunning_folk">Cunning Folk</keyword>
+    <keyword id="324" frequency="3" keyword="devil">devil</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="498" frequency="1" keyword="happy">happy</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="786" frequency="3" keyword="minister">minister</keyword>
+    <keyword id="1075" frequency="1" keyword="school">school</keyword>
+    <keyword id="1091" frequency="2" keyword="shadow">shadow</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,46 @@
+<informant><person_id>468</person_id>
+  <core_informant/>
+  <full_name>Tue Madsen</full_name>
+  <last_name>Madsen</last_name>
+  <first_name>Tue</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>854</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>468</informant_id>
+      <publication_info>DS_III_880</publication_info>
+      <full_name>468 - 0.00 - DS_III_880</full_name>
+      <url>data/stories/854.dfl</url>
+      <place_recorded><id>825</id>Lindeballe</place_recorded>
+      <places_mentioned>
+        <place><id>986</id>
+          <name>Nykirke</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>825</place_id>
+      <name>Lindeballe</name>
+      <display_name>Lindeballe (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>986</place_id>
+      <name>Nykirke</name>
+      <display_name>Nykirke (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

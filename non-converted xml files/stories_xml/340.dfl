@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<story story_id="340">
+  <publication_info>DS_IV_650</publication_info>
+  <full_name>90 - 2.08 - DS_IV_650</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>2.08</order_told>
+  <fieldtrip id="9">October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>532</place_id>
+      <name>Sk&#xE5;rupg&#xE5;rd</name>
+      <display_name>Sk&#xE5;rupg&#xE5;rd (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>642</place_id>
+      <name>Todbj&#xE6;rg</name>
+      <display_name>Todbj&#xE6;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="348">
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_B_147</publication_info>
+      <full_name>90 - 2.16 - DS_II_B_147</full_name>
+      <url>data/stories/348.dfl</url>
+    </story>
+    <story story_id="851">
+      <informant_id>454</informant_id>
+      <publication_info>DS_V_700</publication_info>
+      <full_name>454 - 0.00 - DS_V_700</full_name>
+      <url>data/stories/851.dfl</url>
+    </story>
+    <story story_id="233">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_H_141</publication_info>
+      <full_name>235 - 1.14 - DS_II_H_141</full_name>
+      <url>data/stories/233.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4784b (1)</fielddiary_page_start>
+  <fielddiary_page_end>4784b (1)</fielddiary_page_end>
+  <bibliographic_info>Pentika&#xEF;nen 1969
+Tangherlini 1999</bibliographic_info>
+  <bibliography_references>
+    <reference id="434" category="general">
+      <display_string>[Article] Pentik&#xE4;inen, Juha. 1969. The Dead without Status. Vol. 4 of &lt;i&gt;Temenos&lt;/i&gt;, 92-102.</display_string>
+    </reference>
+    <reference id="609" category="general">
+      <display_string>[Article] Tangherlini, Timothy R. 1998. "Who ya gonna call?" : Ministers and the Mediation of Ghostly Threat in Danish Legend Tradition. Vol. 57 of &lt;i&gt;Western Folklore&lt;/i&gt; 2/3: 153-178.</display_string>
+    </reference>
+    <reference id="917" category="general">
+      <display_string>[Article] Abello, James, 
+Broadwell, Peter, 
+Tangherlini, Timothy R. 2012. Computational Folkloristics. Vol. 55 of &lt;i&gt;Communications of the Association for Computing Machinery&lt;/i&gt; 7: 60-70.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Ghosts are a disruptive force that threaten the well-being of the living, and often upset the functioning of a well-ordered farm. In other variants, ministers or cunning folk are called to counteract the haunting (DS V 700; Tangherlini 1999).  The story's orientation presents the frightening specter of headless horses on their nocturnal ride to the church (KMP 1.14). No reason is given for the haunting, although one suspects that, given the ghost's royally conferred title, he is a guilty haunt. The farmhand's attempt to restore order ends in his death. In the original manuscript version, a second farmhand loses his life as well. That the stall door must be left open is an indication of the ongoing disruption of the economic space of the farm.</annotation>
+  <danish_manuscript>Det var den gl. Justitsraad paa Skaarup
+gaard h. kom kj&#xF8;rende med 4 hovedl&#xF8;se
+B&#xE6;ster til Todbj&#xE6;rg Kirke. S. kj&#xF8;rte h.
+altidens ud af den nordre Port og der
+ved Porten var der en St&#xE5;l. og den St&#xE5;l
+d&#xF8;r kunde de aldrig holde lukket. S.
+havde de en Karl h. lukte den eftersom
+den sprang op. Men en Aften, efter
+h. var kommen i Seng. s. kommer noget
+efter Karlen og det l&#xF8;ft hans Seng rent
+op til St&#xE6;ngerne og klemte ham s. 
+haardt. S. raaber Karlen, om de vilde
+da ikke lade v&#xE6;re at l&#xF8;fte ham derop.
+Nej du har pint os, men nu skal du
+d&#xF8; f&#xF8;r vi skal d&#xF8;. Saadan har a 
+h&#xF8;rt to Karlen blev klemt ihjel for
+det. h. ville lukke Porten og siden begynd
+te de aldrig at lukke Porten.
+</danish_manuscript>
+  <english_manuscript>It was the old counselor from Sk&#xE5;rupg&#xE5;rd who came riding with four headless horses to Todbj&#xE6;rg church. He always drove out of the northern gate, and there by the gate was a stall, they could never keep that stall door closed. They had a farmhand who closed it once after it had sprung open. But one night, after he'd gone to bed, something came after the farmhand and it lifted his bed straight up to the rafters and crushed him quite hard. Then the farmhand shouted and asked them to stop lifting him up there. "No, you've tormented us, but now you'll die before we die." I heard that's how two farmhands were crushed to death. He wanted to close the door and then they never tried to close it again.</english_manuscript>
+  <danish_publication>Den gamle justitsr&#xE5;d p&#xE5; Sk&#xE5;rupg&#xE5;rd han kom kj&#xF8;rende med 4 hovedl&#xF8;se b&#xE6;ster til Todbj&#xE6;rg kirke. Han kom altidens ud af den nordre port, og der ved porten var der en stald, den staldd&#xF6;r kunde de aldrig holde lukket. De havde en karl, der lukte den, eftersom den sprang op. Men en aften, efter at han var kommen i seng, kom der noget efter ham, og det l&#xF8;ftede hans seng rent op til st&#xE6;ngerne og klemte ham s&#xE5; h&#xE5;rdt. S&#xE5; r&#xE5;bte karlen, om de vilde da ikke lade v&#xE6;re at l&#xF8;fte ham derop. "Nej, du har pint os, men nu skal du d&#xF8;, f&#xF6;r vi skal d&#xF8;." S&#xE5; blev karlen klemt ihjel, for det han vilde lukke porten, og siden pr&#xF8;vede de aldrig p&#xE5; at lukke den.</danish_publication>
+  <english_publication>The old counselor from Sk&#xE5;rupg&#xE5;rd came riding with four headless horses to Todbj&#xE6;rg church. He always came out of the northern door, and there by the door was a stall, they could never keep that stall door closed. They had a farmhand who closed it and after that it sprang open. But one night, after he&#x2019;d gone to bed, something came after him and it lifted his bed straight up to the rafters and crushed him quite hard. Then the farmhand shouted and asked them to stop lifting him up there. &#x201C;No, you&#x2019;ve tormented us, but now you&#x2019;ll die before we die.&#x201D; Then the farmhand was crushed to death, because he wanted to close the door, and then they never tried to close it again. </english_publication>
+  <keywords>
+    <keyword id="83" frequency="2" keyword="bed">bed</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="265" frequency="1" keyword="counselor">counselor</keyword>
+    <keyword id="317" frequency="3" keyword="death">death</keyword>
+    <keyword id="344" frequency="4" keyword="door">door</keyword>
+    <keyword id="395" frequency="3" keyword="farm_hand">farmhand</keyword>
+    <keyword id="515" frequency="1" keyword="headless_horse">headless horse</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1009" frequency="1" keyword="rafters">rafters</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1186" frequency="2" keyword="stall">stall</keyword>
+    <keyword id="1273" frequency="1" keyword="torment">torment</keyword>
+  </keywords>
+  <etk_index id="17">
+    <heading_danish>Herrem&#xE6;nd, fruer, jomfruer</heading_danish>
+    <heading_english>Manor lords, ladies and misstresses</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

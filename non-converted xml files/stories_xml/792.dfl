@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<story story_id="792">
+  <publication_info>DS_V_57</publication_info>
+  <full_name>393 - 0.00 - DS_V_57</full_name>
+  <informant_id>393</informant_id>
+  <informant_last_name>Holskov</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Holskov</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>782</place_id>
+      <name>Gjesing</name>
+      <display_name>Gjesing (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>120</place_id>
+      <name>D&#xF8;rup</name>
+      <display_name>D&#xF8;rup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="505">
+      <informant_id>318</informant_id>
+      <publication_info>DS_V_62</publication_info>
+      <full_name>318 - 0.00 - DS_V_62</full_name>
+      <url>data/stories/505.dfl</url>
+    </story>
+    <story story_id="674">
+      <informant_id>376</informant_id>
+      <publication_info>DS_VI_592</publication_info>
+      <full_name>376 - 0.00 - DS_VI_592</full_name>
+      <url>data/stories/674.dfl</url>
+    </story>
+    <story story_id="45">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_593</publication_info>
+      <full_name>150 - 1.42 - DS_VI_593</full_name>
+      <url>data/stories/45.dfl</url>
+    </story>
+    <story story_id="150">
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_948</publication_info>
+      <full_name>241 - 1.09 - DS_IV_948</full_name>
+      <url>data/stories/150.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der br&#xE6;ndte en gang en m&#xF8;lle ved D&#xF8;rup, og der br&#xE6;ndte en pige inde, og s&#xE5; sagde de, at hun gik igjen. Hver nat blev der s&#xE5;dan et spektakel i udhusene og larm i g&#xE5;rden, og s&#xE5; kom der en stor sort hund rendende ind i laden. En snedker, der l&#xE5; i et kammer, s&#xE5; hunden komme hen ad en tynd planke, og undrede sig meget over det. Man havde ogs&#xE5; set m&#xF8;lleren komme ud med en lampe i h&#xE5;nden. Nok er det, han m&#xE5;tte s&#xE6;lge m&#xF8;llen for den hunds skyld. De sagde, at m&#xF8;lleren havde selv stukket ild p&#xE5; m&#xF8;llen, og han var skyld i, at pigen indebr&#xE6;ndte.</danish_publication>
+  <english_publication>Once a mill near D&#xF8;rup burned and a girl got burned in there and they said that she walked again. Every night there was a huge commotion in the outlying farm buildings and noises in the farm, and then a big black dog ran through the barn. A joiner who was sleeping in one of the rooms saw the dog come along a thin plank and wondered quite a bit about that. People had also seen the miller come out with a lantern in his hand. In the end, he wound up selling the farm because of the dog. They said that the miller had burned the mill himself and it was his fault that the girl was burned in.</english_publication>
+  <keywords>
+    <keyword id="72" frequency="1" keyword="barn">barn</keyword>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="155" frequency="1" keyword="buildings">buildings</keyword>
+    <keyword id="343" frequency="3" keyword="dog">dog</keyword>
+    <keyword id="394" frequency="3" keyword="farm">farm</keyword>
+    <keyword id="400" frequency="1" keyword="fault">fault</keyword>
+    <keyword id="413" frequency="4" keyword="fire">fire</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="685" frequency="1" keyword="lantern">lantern</keyword>
+    <keyword id="783" frequency="2" keyword="mill">mill</keyword>
+    <keyword id="785" frequency="2" keyword="miller">miller</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="858" frequency="1" keyword="noises">noises</keyword>
+    <keyword id="960" frequency="1" keyword="plank">plank</keyword>
+    <keyword id="1142" frequency="1" keyword="sleep">sleep</keyword>
+    <keyword id="1252" frequency="1" keyword="thin">thin</keyword>
+    <keyword id="1365" frequency="1" keyword="wound">wound</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="37" display_name="Places: Mill"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

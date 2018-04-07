@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<story story_id="667">
+  <publication_info>DS_I_1124</publication_info>
+  <full_name>515 - 0.00 - DS_I_1124</full_name>
+  <informant_id>515</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Lars</informant_first_name>
+  <informant_full_name>Lars Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>820</place_id>
+      <name>Langemark, Sams&#xF8;</name>
+      <display_name>Langemark, Sams&#xF8; (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>176</place_id>
+      <name>Funder</name>
+      <display_name>Funder (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>522</place_id>
+      <name>Silkeborg</name>
+      <display_name>Silkeborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="396">
+      <informant_id>123</informant_id>
+      <publication_info>DS_I_1140</publication_info>
+      <full_name>123 - 2.22 - DS_I_1140</full_name>
+      <url>data/stories/396.dfl</url>
+    </story>
+    <story story_id="520">
+      <informant_id>335</informant_id>
+      <publication_info>DS_I_1098</publication_info>
+      <full_name>335 - 0.00 - DS_I_1098</full_name>
+      <url>data/stories/520.dfl</url>
+    </story>
+    <story story_id="775">
+      <informant_id>402</informant_id>
+      <publication_info>DS_I_1137</publication_info>
+      <full_name>402 - 0.00 - DS_I_1137</full_name>
+      <url>data/stories/775.dfl</url>
+    </story>
+    <story story_id="630">
+      <informant_id>217</informant_id>
+      <publication_info>DS_I_1122</publication_info>
+      <full_name>217 - 0.00 - DS_I_1122</full_name>
+      <url>data/stories/630.dfl</url>
+    </story>
+    <story story_id="680">
+      <informant_id>478</informant_id>
+      <publication_info>DS_I_1128</publication_info>
+      <full_name>478 - 0.00 - DS_I_1128</full_name>
+      <url>data/stories/680.dfl</url>
+    </story>
+    <story story_id="265">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_145</publication_info>
+      <full_name>235 - 1.45 - DS_II_E_145</full_name>
+      <url>data/stories/265.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Funder ved Silkeborg boede en gang en jordemoder, hvis navn var Gjertrud Ruds. En gang kom der bud til hende fra en mand, der hed Anders Borring, om hun vilde forl&#xF8;se hans kone. Jordemoderen gik straks, men p&#xE5; vejen m&#xF6;dte hun en stor skruptusse, der sagde, hun var en bj&#xE6;rgmandskone, og tillige bad hende, om hun vilde forl&#xF8;se hende, n&#xE5;r tiden kom, hvilket jordemoderen lovede. Nogen tid efter kom en bj&#xE6;rgmand til jordemoderen og bad hende, om hun vilde f&#xF8;lge med og hj&#xE6;lpe hans kone, som hun havde lovet. Hun fulgte med manden, og han f&#xF8;rte hende ind i en bakke, hvor hun forl&#xF8;ste hans kone. Da hun var f&#xE6;rdig og skulde til at g&#xE5;, gav bj&#xE6;rgmanden hende en pose fuld af h&#xF6;vlsp&#xE5;ner. Jordemoderen vilde ikke rigtig have dem, men bj&#xE6;rgmandskonen bad hende om at tage dem, hun skulde nok f&#xE5; sin ulejlighed betalt, sagde hun. Jordemoderen tog s&#xE5; posen, men da hun kom hjem og &#xE5;bnede for den, var h&#xF6;vlsp&#xE5;nerne blevne til blanke s&#xF8;lvpenge.</danish_publication>
+  <english_publication>Once a midwife, whose name was Gjertrud Ruds, lived in Funder near Silkeborg. One time, a message came to her from a man whose name was Anders Borring, asking her to deliver his wife. The midwife left immediately, but along the way she met a large toad that said that she was the wife of a mound man, and asked her to deliver her as well when the time came, and the midwife promised to do so. A little while later, a mound man came to the midwife and asked her to come and help his wife as she'd promised. She followed the man and he brought her into a mound where she delivered his wife. When she was done and was going to leave, the mound man gave her a bag full of wood shavings. The midwife didn't really want them, but the mound man's wife asked her to take them, she'd be paid for her inconvenience, she said. The midwife took the bag, but when she got home and opened it, the wood shavings had turned into shiny silver coins.</english_publication>
+  <keywords>
+    <keyword id="63" frequency="2" keyword="bags">bags</keyword>
+    <keyword id="246" frequency="1" keyword="coins">coins</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="770" frequency="1" keyword="message">message</keyword>
+    <keyword id="778" frequency="6" keyword="midwife">midwife</keyword>
+    <keyword id="804" frequency="1" keyword="mound">mound</keyword>
+    <keyword id="807" frequency="4" keyword="mound_man">mound man</keyword>
+    <keyword id="822" frequency="2" keyword="name">name</keyword>
+    <keyword id="1118" frequency="1" keyword="silver">silver</keyword>
+    <keyword id="1264" frequency="1" keyword="toad">toad</keyword>
+    <keyword id="1343" frequency="5" keyword="wife">wife</keyword>
+    <keyword id="1357" frequency="2" keyword="wood">wood</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="13" display_name="People: Midwife"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="91" display_name="Actions or events: Midwifery"/>
+    <tango_index id="94" display_name="Actions or events: Oath"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="109" display_name="Time, Season, Weather: Morning"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

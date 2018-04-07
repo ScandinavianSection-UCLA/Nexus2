@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<story story_id="456">
+  <publication_info>DS_VII_143</publication_info>
+  <full_name>556 - 0.00 - DS_VII_143</full_name>
+  <informant_id>556</informant_id>
+  <informant_last_name>&#xC5;lborg</informant_last_name>
+  <informant_first_name>Anders</informant_first_name>
+  <informant_full_name>Anders &#xC5;lborg</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>850</place_id>
+      <name>R&#xE6;vhede</name>
+      <display_name>R&#xE6;vhede (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="619">
+      <informant_id>422</informant_id>
+      <publication_info>DS_VII_106</publication_info>
+      <full_name>422 - 0.00 - DS_VII_106</full_name>
+      <url>data/stories/619.dfl</url>
+    </story>
+    <story story_id="643">
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_443</publication_info>
+      <full_name>331 - 0.00 - DS_VII_443</full_name>
+      <url>data/stories/643.dfl</url>
+    </story>
+    <story story_id="146">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_146</publication_info>
+      <full_name>241 - 1.05 - DS_VII_146</full_name>
+      <url>data/stories/146.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand skyldte en anden mands kone for at v&#xE6;re en heks. S&#xE5; vilde den mand have hans kone gjort ren og lod den anden mand og hans kone st&#xE6;vne. Da de nu kom for retten, kom der en hund og skrabte p&#xE5; d&#xF6;ren. Ingen vilde lukke op for den, men s&#xE5; sagde Anders Alleh&#xE5;nde: "Vil I ent loppe, s&#xE5; vil a", og s&#xE5; loppede han d&#xF6;ren. Da kom hunden ind, og s&#xE5; bad Anders den velkommen og n&#xE6;vnede hendes navn, idet han sagde: "Velkommen, Maren!" Da stod den kone, der var st&#xE6;vnet, n&#xF8;gen ved siden af manden, og de kunde se, hun var en heks.</danish_publication>
+  <english_publication>A man accused another man&#x2019;s wife of being a witch. Then the other man wanted his wife&#x2019;s reputation cleared so he summoned the other man and his wife. When they came into court, a dog came to the door and scratched at it. Nobody would open the door for it, but then Anders Alleh&#xE5;nde said: &#x201C;If you won&#x2019;t open up, then I will.&#x201D; Then he opened the door. Then the dog came in and then Anders welcomed it and said her name. He said: &#x201C;Welcome, Maren!&#x201D; Then the woman who was summoned stood there naked beside her husband, and they could see that she was a witch.</english_publication>
+  <keywords>
+    <keyword id="8" frequency="1" keyword="accused">accused</keyword>
+    <keyword id="271" frequency="1" keyword="court">court</keyword>
+    <keyword id="343" frequency="2" keyword="dog">dog</keyword>
+    <keyword id="344" frequency="3" keyword="door">door</keyword>
+    <keyword id="552" frequency="1" keyword="husband">husband</keyword>
+    <keyword id="745" frequency="1" keyword="maren">Maren</keyword>
+    <keyword id="821" frequency="1" keyword="naked">naked</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="1025" frequency="1" keyword="reputation">reputation</keyword>
+    <keyword id="1216" frequency="2" keyword="summons">summons</keyword>
+    <keyword id="1343" frequency="3" keyword="wife">wife</keyword>
+    <keyword id="1351" frequency="2" keyword="witch">witch</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

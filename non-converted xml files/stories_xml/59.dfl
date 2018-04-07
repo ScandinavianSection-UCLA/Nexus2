@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<story story_id="59">
+  <publication_info>DS_VII_437</publication_info>
+  <full_name>150 - 2.12 - DS_VII_437</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>2.12</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>660</place_id>
+      <name>Troms kirke</name>
+      <display_name>Troms kirke (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1065</place_id>
+      <name>Hasseris</name>
+      <display_name>Hasseris (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="587">
+      <informant_id>144</informant_id>
+      <publication_info>DS_VII_426</publication_info>
+      <full_name>144 - 0.00 - DS_VII_426</full_name>
+      <url>data/stories/587.dfl</url>
+    </story>
+    <story story_id="643">
+      <informant_id>331</informant_id>
+      <publication_info>DS_VII_443</publication_info>
+      <full_name>331 - 0.00 - DS_VII_443</full_name>
+      <url>data/stories/643.dfl</url>
+    </story>
+    <story story_id="678">
+      <informant_id>496</informant_id>
+      <publication_info>DS_VII_296</publication_info>
+      <full_name>496 - 0.00 - DS_VII_296</full_name>
+      <url>data/stories/678.dfl</url>
+    </story>
+    <story story_id="713">
+      <informant_id>324</informant_id>
+      <publication_info>DSnr_VI_534</publication_info>
+      <full_name>324 - 0.00 - DSnr_VI_534</full_name>
+      <url>data/stories/713.dfl</url>
+    </story>
+    <story story_id="796">
+      <informant_id>396</informant_id>
+      <publication_info>DS_VII_423</publication_info>
+      <full_name>396 - 0.00 - DS_VII_423</full_name>
+      <url>data/stories/796.dfl</url>
+    </story>
+    <story story_id="645">
+      <informant_id>453</informant_id>
+      <publication_info>DS_VII_435</publication_info>
+      <full_name>453 - 0.00 - DS_VII_435</full_name>
+      <url>data/stories/645.dfl</url>
+    </story>
+    <story story_id="604">
+      <informant_id>536</informant_id>
+      <publication_info>DS_VII_436</publication_info>
+      <full_name>536 - 0.00 - DS_VII_436</full_name>
+      <url>data/stories/604.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3267a</fielddiary_page_start>
+  <fielddiary_page_end>3267a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references>
+    <reference id="623" category="general">
+      <display_string>[Book] Christiansen, Reidar Thoralf. 1992. &lt;i&gt;The migratory legends (FF Communications)&lt;/i&gt;. Helsinki: Suomalainen Tiedeakatemia.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The improper use of the witch's rake or broom is widely attested in Scandinavian tradition, and Christiansen catalogs these stories as ML3045, "Following the witch." In Jens's story, it is a beggar who has received quarter in the farm who witlessly tries to mimic the witch's ride. In other variants, it is a hired girl (DS VII 436) or a farmhand (DS VII 435). The witch's formula is a key element in the story, and numerous variants of the formula exist. The unwitting rider always makes an amusing substitution in directional adverbs. Jens adds the substitution of the unlikely destination of Hasseris, a town just west of Aalborg. These stories often have a humorous, rather than tragic, ending.</annotation>
+  <danish_manuscript>Saadan Folk har der v&#xE6;ret her paa Egnen.
+Her henne i de n&#xF8;rre Byer var en Kj&#xE6;ll. h. 
+smurte hendes Ovnrafte og hu havde pyntet
+en Tagkj&#xE6;rn ud og lagt ved Siden af M. s. l&#xE6;nge
+og s. laa der en Stakelsm. der ude i deres
+Brygg. et Steder og h. h&#xF8;rte det hvad hu sagde
+til Ovnsraften. ogsaa en Sct. H. N. og saa hu
+smurte [_] den af en Krukke og hvor hu satte
+den igien. S. s. hu: Ingen Steder imod men
+&#xE5;ld Ster m&#xE6; og oven ud &#xE6; Lyred te Troms
+Kjerk i N&#xE5;rre. S. for h v&#xE6;k. S. tog h. Krukke
+og smurte hans Kj&#xE6;p, men der havde Stodderen
+h&#xF8;rt s. meget fejl at h. sagde: &#xC5;ld Ster imod
+og &#xE5;ld Ster med og oven ud af Lyred og til Hasse-
+ris i Jylland. S. s&#xE6;tter h. sig op paa Kj&#xE6;ppen
+og den fl&#xF8;j alle Steder imod med ham og til sidst
+oven ud af Lyred og hen til Hasseris og kylte ham
+i en M&#xF8;ngsp&#xF8;l. H. var kommen op at age med
+hans Svaver.</danish_manuscript>
+  <english_manuscript>There were people like that in this area. Here in the northern towns there was an old woman, she smeared her oven rake and rode on it and she'd decorated a tagkj&#xE6;rv (bundle of straw) and laid it beside her husband for the while. There was a beggar sleeping out in their scullery and he heard what she said to the oven rake also one Skt. Hans eve and saw she smeared it from a jar and where she put it back. Then she said, "No places against but with every place, and up out of the chimney to Troms church in Norway," then she flew away. Then he took the jar and he smeared his staff, but the beggar had heard so wrong that he said, "Against all places and with every place and up out of the chimney to Hasseris in Jutland." Then he got up on the staff and it banged into everything and finally up out of the chimney and over to Hasseris, where it threw him into a shit pool. He could say that he'd come up to ride with his brother-in-law.</english_manuscript>
+  <danish_publication>Her henne i de n&#xF6;rre byer var en kj&#xE6;lling, hun smurte hendes ovnsrafte og red p&#xE5;. S&#xE5; havde hun pyntet en tagkj&#xE6;rv ud og lagt ved siden af manden s&#xE5; l&#xE6;nge. Der l&#xE5; en stakelsmand ude i deres bryggers og h&#xF8;rte, hvad hun sagde til ovnsraften, og s&#xE5;, hvordan hun smurte den af en krukke, og hvor hun satte den igjen. Da hun nu sagde: "Ingen steder imod, men alle steder med, og oven ud af lyren til Troms kirke i Norge", s&#xE5; foer hun v&#xE6;k. S&#xE5; gik stakelsmanden hen og tog krukken, og s&#xE5; smurte han hans kj&#xE6;p. Men der havde stodderen h&#xF8;rt s&#xE5; meget fejl, at han sagde: "Alle steder imod og ingen steder med og oven ud af lyren og til Hasseris i Jylland." Der var han nemlig fra, og det faldt ham da for munden. S&#xE5; satte han sig op p&#xE5; kj&#xE6;ppen, og den fl&#xF6;j alle steder imod med ham, og til sidst kom han da helt forst&#xF8;dt oven ud af lyren og hen til Hasseris, hvor den kylte ham i en m&#xF8;ngsp&#xF8;l. Han kunde rigtignok sige, at han var kommen op at age med hans svoger.</danish_publication>
+  <english_publication>Here in the northern towns there was an old woman, she smeared her oven rake and rode on it. She&#x2019;d dressed up a bundle of straw to look like her and laid it beside her husband while she was gone. There was a beggar sleeping out in their scullery and he heard what she said to the oven rake and saw how she smeared it from a jar and how she put it back. When she said, &#x201C;No places against, but with every place, and up out of the chimney to Troms church in Norway,&#x201D; then she flew away. Then the beggar went over and took the jar and then he smeared his staff. But the beggar had so utterly misheard what she had said that he said, &#x201C;Against all places and without every place and up out of the chimney to Hasseris in Jutland.&#x201D; He was from there and it just came out of his mouth. Then he got up on the staff and then every place flew at him and he finally came out of the chimney totally beaten up and flew over to Hasseris, where it threw him into a dung pool. He could truly say that he&#x2019;d come up to ride with his brother-in-law.</english_publication>
+  <keywords>
+    <keyword id="86" frequency="3" keyword="beggar">beggar</keyword>
+    <keyword id="148" frequency="1" keyword="brother">brother</keyword>
+    <keyword id="220" frequency="3" keyword="chimney">chimney</keyword>
+    <keyword id="364" frequency="1" keyword="dung">dung</keyword>
+    <keyword id="493" frequency="1" keyword="hag">hag</keyword>
+    <keyword id="552" frequency="1" keyword="husband">husband</keyword>
+    <keyword id="611" frequency="1" keyword="jutland">Jutland</keyword>
+    <keyword id="697" frequency="1" keyword="law">law</keyword>
+    <keyword id="813" frequency="1" keyword="mouth">mouth</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="866" frequency="1" keyword="norway">Norway</keyword>
+    <keyword id="890" frequency="2" keyword="oven">oven</keyword>
+    <keyword id="1012" frequency="2" keyword="rake">rake</keyword>
+    <keyword id="1030" frequency="2" keyword="riding">riding</keyword>
+    <keyword id="1077" frequency="1" keyword="scullery">scullery</keyword>
+    <keyword id="1142" frequency="1" keyword="sleep">sleep</keyword>
+    <keyword id="1206" frequency="1" keyword="straw">straw</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+    <keyword id="1284" frequency="1" keyword="troms_church">Troms church</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="3" display_name="People: Beggar / Poor person"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="52" display_name="Tools, Items and Conveyances: Tools"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="119" display_name="Time, Season, Weather: Skt. Hans"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

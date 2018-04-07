@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<story story_id="717">
+  <publication_info>DS_II_B_15</publication_info>
+  <full_name>541 - 0.00 - DS_II_B_15</full_name>
+  <informant_id>541</informant_id>
+  <informant_last_name>S&#xF8;rensen</informant_last_name>
+  <informant_first_name>Mikkel</informant_first_name>
+  <informant_full_name>Journalist Mikkel S&#xF8;rensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>792</place_id>
+      <name>Herskind</name>
+      <display_name>Herskind (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1060</place_id>
+      <name>Besser kirke</name>
+      <display_name>Besser kirke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="824">
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_B_11</publication_info>
+      <full_name>69 - 0.00 - DS_II_B_11</full_name>
+      <url>data/stories/824.dfl</url>
+    </story>
+    <story story_id="825">
+      <informant_id>69</informant_id>
+      <publication_info>DS_II_B_18</publication_info>
+      <full_name>69 - 0.00 - DS_II_B_18</full_name>
+      <url>data/stories/825.dfl</url>
+    </story>
+    <story story_id="410">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_B_13</publication_info>
+      <full_name>123 - 3.07 - DS_II_B_13</full_name>
+      <url>data/stories/410.dfl</url>
+    </story>
+    <story story_id="609">
+      <informant_id>546</informant_id>
+      <publication_info>DS_II_B_4</publication_info>
+      <full_name>546 - 0.00 - DS_II_B_4</full_name>
+      <url>data/stories/609.dfl</url>
+    </story>
+    <story story_id="734">
+      <informant_id>414</informant_id>
+      <publication_info>DS_II_B_20</publication_info>
+      <full_name>414 - 0.00 - DS_II_B_20</full_name>
+      <url>data/stories/734.dfl</url>
+    </story>
+    <story story_id="358">
+      <informant_id>90</informant_id>
+      <publication_info>DSnr_II_B_130</publication_info>
+      <full_name>90 - 3.04 - DSnr_II_B_130</full_name>
+      <url>data/stories/358.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Besser kirke boer der en nisse. Over kirken har han sit leje i et bundt klude, men om s&#xF8;ndagen og andre tider, n&#xE5;r der ringes med kirkeklokken, skjuler han sig i en h&#xF6;j lidt derfra. Han kan undertiden udf&#xF8;re &#xE9;t eller andet lille skj&#xE6;lmsstykke, som gj&#xE6;rne g&#xE5;r ud over &#xE9;n eller anden, der har forn&#xE6;rmet ham. En aften, da klokkeren kom for at ringe solnedgang, spillede hr. Nis ham et lille pus. Da han begyndte at ville ringe med klokken, kunde den ikke give en lyd fra sig. Klokkeren opdagede da, at der var bundet et stort bundt klude om knevlen. Som han st&#xE5;r og forundrer sig herover, ser han et lille grinende ansigt oven p&#xE5; klokken med r&#xF8;d toplue p&#xE5;.</danish_publication>
+  <english_publication>A nisse lives in Besser church. He has his place in a bundle of cloth at the top of the church, but when they ring the church bell, he hides himself in a mound a little ways away. He occasionally plays one trick or another, usually singling out someone or other who has offended him. One night, when the bell ringer came to ring the sun down, Mr. Nis played a little trick on him. When he tried to start ringing the bell, it wouldn&#x2019;t make a sound. The bell ringer discovered that there was a big piece of cloth tied around the clapper. While he&#x2019;s standing wondering about this, he sees a little grinning face on top of the bell with a red hat on.</english_publication>
+  <keywords>
+    <keyword id="88" frequency="5" keyword="bells">bells</keyword>
+    <keyword id="227" frequency="3" keyword="church">church</keyword>
+    <keyword id="236" frequency="2" keyword="clothing">clothing</keyword>
+    <keyword id="333" frequency="1" keyword="discovery">discovery</keyword>
+    <keyword id="506" frequency="1" keyword="hat">hat</keyword>
+    <keyword id="804" frequency="1" keyword="mound">mound</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="855" frequency="1" keyword="nis">Nis</keyword>
+    <keyword id="857" frequency="1" keyword="nisse">nisse</keyword>
+    <keyword id="1021" frequency="1" keyword="red">red</keyword>
+    <keyword id="1033" frequency="5" keyword="ringing">ringing</keyword>
+    <keyword id="1165" frequency="1" keyword="sounds">sounds</keyword>
+    <keyword id="1217" frequency="1" keyword="sun">sun</keyword>
+    <keyword id="1261" frequency="1" keyword="tie">tie</keyword>
+    <keyword id="1282" frequency="2" keyword="trickery">trickery</keyword>
+  </keywords>
+  <etk_index id="3">
+    <heading_danish>Nisser</heading_danish>
+    <heading_english>Household spirits</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="16" display_name="People: Parish Clerk"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="46" display_name="Tools, Items and Conveyances: Bell"/>
+    <tango_index id="65" display_name="Supernatural Beings: Nisse"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

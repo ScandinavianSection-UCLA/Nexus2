@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<story story_id="598">
+  <publication_info>DS_II_E_22</publication_info>
+  <full_name>490 - 0.00 - DS_II_E_22</full_name>
+  <informant_id>490</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>J&#xF8;rgen</informant_first_name>
+  <informant_full_name>J&#xF8;rgen Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>876</place_id>
+      <name>S&#xF8;llinge</name>
+      <display_name>S&#xF8;llinge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>375</place_id>
+      <name>Lindkj&#xE6;r</name>
+      <display_name>Lindkj&#xE6;r (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>477</place_id>
+      <name>Ravnholt</name>
+      <display_name>Ravnholt (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>507</place_id>
+      <name>Ryslinge</name>
+      <display_name>Ryslinge (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="389">
+      <informant_id>123</informant_id>
+      <publication_info>DS_II_E_20</publication_info>
+      <full_name>123 - 2.15 - DS_II_E_20</full_name>
+      <url>data/stories/389.dfl</url>
+    </story>
+    <story story_id="607">
+      <informant_id>399</informant_id>
+      <publication_info>DS_II_E_42</publication_info>
+      <full_name>399 - 0.00 - DS_II_E_42</full_name>
+      <url>data/stories/607.dfl</url>
+    </story>
+    <story story_id="839">
+      <informant_id>451</informant_id>
+      <publication_info>DS_II_E_48</publication_info>
+      <full_name>451 - 0.00 - DS_II_E_48</full_name>
+      <url>data/stories/839.dfl</url>
+    </story>
+    <story story_id="16">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_E_2</publication_info>
+      <full_name>150 - 1.13 - DS_II_E_2</full_name>
+      <url>data/stories/16.dfl</url>
+    </story>
+    <story story_id="292">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_E_84</publication_info>
+      <full_name>235 - 2.09 - DS_II_E_84</full_name>
+      <url>data/stories/292.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Lindkj&#xE6;r er navnet p&#xE5; en stor t&#xF6;rvemose, som tilh&#xF8;rer stamhuset Ravnholt. I gamle dage skal der have v&#xE6;ret en stor lindorm i denne mose, og den beskrives som et frygteligt uhyre. Af st&#xF6;rrelse var den som et l&#xE6;ssetr&#xE6; eller bindestang, og ingen turde komme i n&#xE6;rheden af dens opholdssted. En mand, som en gang kom mosen for n&#xE6;r, blev forfulgt af den frygtelige orm lige til Ryslinge, som ligger en fjerdingvej derfra. Her kr&#xF8;b manden i sin n&#xF8;d op i kirket&#xE5;rnet, og der kunde lindormen ikke f&#xF8;lge efter ham. Den fors&#xF6;gte vel at sl&#xE5; kirken omkuld med sin hale, men det kunde den heller ikke. Manden, der med stor skr&#xE6;k havde set, at lindormen slog til kirken, og at den med sin hale rakte n&#xE6;sten op til lydhullerne, slap da derfra med livet. Til sidst skal en skytte fra Ravnholt dog have skudt lindormen og derved befriet egnen fra den.</danish_publication>
+  <english_publication>Lindkj&#xE6;r is the name of a large peat swamp that belongs to the Ravnholt estate. In the old days there was supposed to have been a lindorm in that swamp, and it is described as a horrible monster. It was as big as a log used to hold down a hayload, or a roof timber, and no one dared go near where it lived. A man who once got too close to the swamp was chased by the serpent all the way to Ryslinge, several kilometers away. There, out of need, the man crawled up into the church tower and the lindorm couldn't follow him up there. It tried to knock the church over with its tail, but it couldn't do that either. The man who'd fearfully seen the serpent lashing at the church and seen the tail reach nearly to the sound holes, got away with his life. Finally, a sharpshooter from Ravnholt shot the serpent and freed the district from it.</english_publication>
+  <keywords>
+    <keyword id="120" frequency="3" keyword="bog">bog</keyword>
+    <keyword id="227" frequency="3" keyword="church">church</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="336" frequency="1" keyword="district">district</keyword>
+    <keyword id="384" frequency="1" keyword="escape">escape</keyword>
+    <keyword id="385" frequency="1" keyword="estate">estate</keyword>
+    <keyword id="443" frequency="1" keyword="free">free</keyword>
+    <keyword id="712" frequency="3" keyword="lindorm">lindorm</keyword>
+    <keyword id="795" frequency="1" keyword="monster">monster</keyword>
+    <keyword id="822" frequency="1" keyword="name">name</keyword>
+    <keyword id="922" frequency="1" keyword="peat">peat</keyword>
+    <keyword id="979" frequency="1" keyword="post">post</keyword>
+    <keyword id="1106" frequency="1" keyword="shooting">shooting</keyword>
+    <keyword id="1148" frequency="1" keyword="snake">snake</keyword>
+    <keyword id="1165" frequency="1" keyword="sounds">sounds</keyword>
+    <keyword id="1239" frequency="2" keyword="tail">tail</keyword>
+    <keyword id="1274" frequency="1" keyword="tower">tower</keyword>
+  </keywords>
+  <etk_index id="6">
+    <heading_danish>Lindorme og sm&#xE5;kryb</heading_danish>
+    <heading_english>Wiverns and small creepy-crawlies</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="34" display_name="Places: Manor / Castle"/>
+    <tango_index id="43" display_name="Places: Swamp"/>
+    <tango_index id="76" display_name="Animals: Serpent / Snake"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="134" display_name="Supernatural Beings: Lindorm / Basilisk"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

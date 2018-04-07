@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<story story_id="134">
+  <publication_info>DS_III_303</publication_info>
+  <full_name>150 - 4.23 - DS_III_303</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>4.23</order_told>
+  <fieldtrip id="5">June 1889</fieldtrip>
+  <fieldtrip_start_date>1889-06-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-06-30</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="19">
+      <informant_id>150</informant_id>
+      <publication_info>DS_III_303</publication_info>
+      <full_name>150 - 1.16 - DS_III_303</full_name>
+      <url>data/stories/19.dfl</url>
+    </story>
+    <story story_id="133">
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_402</publication_info>
+      <full_name>150 - 4.22 - DS_I_402</full_name>
+      <url>data/stories/133.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4595a</fielddiary_page_start>
+  <fielddiary_page_end>4595b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This is a short version of a story that Jens had told in his first encounter with Tang Kristensen (BJK 1.16). The published version is a composite of that record and this one. Jens tells this story as a result of having mentioned Bavnh&#xF8;j in the preceding story (BJK 4.22).</annotation>
+  <danish_manuscript>Runesten, der er gravet ned paa 3dje Ager s&#xF8;nden Bavnh&#xF8;j vilde min Gamlefader have kj&#xF8;rt hjem, den kunde have lujt et godt stykke paa Kringgaardsdiget. Men hans 4 st&#xE6;rke Heste kunde ikke tr&#xE6;kke den. 4595B Indsaa, at h. ikke kunde flytte den.</danish_manuscript>
+  <english_manuscript>My grandfather wanted to have the rune stone from the third field south of Bavnh&#xF8;j driven to his house, since it could have it could have closed up a big part of the stone wall around the farm. But his four strong horses couldn't pull it. Realized he couldn't move it.</english_manuscript>
+  <danish_publication>P&#xE5; &#xC5;restrup mark nord&#xF6;st for kirken ligger en runesten, det er p&#xE5; den tredje ager s&#xF8;nden for Bavnh&#xF6;j, s&#xE5;dan sagde min moder, hun var f&#xF8;dt 1792 og var ikke uden en t&#xF8;s, den gang de fandt den. Det var alts&#xE5; siden marken blev udskift, og hendes fader pl&#xF6;jede imod den. S&#xE5; viste han hans karl ud for at skulle kaste en rende omkring den, men da var den s&#xE5; forf&#xE6;rdelig stor, at fire heste kunde ikke tr&#xE6;kke den derfra, og han havde endda fire gode heste og vilde gj&#xE6;rne have haft den hjem til g&#xE5;rden, den kunde have lukket (lujt) et godt stykke p&#xE5; kringg&#xE5;rdsdiget. Men da han nu anser den for at v&#xE6;re for stor til at f&#xE5; den fragtet derfra, s&#xE5; er det jo, den skal kastes ned. S&#xE5; m&#xE5;tte de gj&#xF8;re en grav s&#xE5; stor neden for, at de kunde skyde den ned i, og den skulde jo s&#xE5; langt ned, at de kunde pl&#xF6;je for den; men det var nu ikke s&#xE5; vanskeligt, for der kom noget dejlig hvidt sand op, og det var nemt at kaste i. Der var noget lyng omkring ved Bavnh&#xF6;j den gang, og det var ved at br&#xE6;kke op at min bedstefader st&#xF6;dte p&#xE5; den. Da karlen havde f&#xE5;et jorden kastet af den, var der s&#xE5; mange oph&#xF6;jede bogstaver p&#xE5; den, de var ikke huggede ned i den, men var ligesom klistrede p&#xE5;. Det er nok en sten, der har st&#xE5;et oven p&#xE5; Bavnh&#xF6;j i gammel tid. Men nu er det ikke s&#xE5; let at finde den igjen, for agrene er vendt helt omkring siden den tid.</danish_publication>
+  <english_publication>On &#xC5;restrup field northwest of the church there&#x2019;s a rune stone, it's in the third field south of Bavnh&#xF8;j, that&#x2019;s what my mother said, she was born in 1792 and she wasn&#x2019;t more than a little girl when they found it. It was after the fields had been reapportioned and her father plowed into it. Then he got his farmhand out there to help him dig a ditch around it, but it was so big that four horses couldn&#x2019;t pull it up, and he had four good horses too and really wanted to bring it back to the farm, it could have closed up a big part of the stone wall around the farm. But when he realizes that it's too big to freight it off, they decide to bury it. Then they had to dig a hole below it that was big enough for them to push it in, and it had to be deep enough that they could plow over it; that wasn&#x2019;t too hard because it turned out there was some beautiful white sand there that was easy to dig. There was some heather near Bavnh&#xF8;j at that time, and it was starting to break up when my father ran into it. When the farmhand had gotten it dug out there were all sorts of raised letters on it, they weren&#x2019;t carved into it, more like they&#x2019;d been glued onto it. It was probably a stone that had stood over on Bavnh&#xF8;j in the old days. But it isn&#x2019;t so easy to find it again, because the fields have been turned completely around since that time.</english_publication>
+  <keywords>
+    <keyword id="2" frequency="1" keyword="1792">1792</keyword>
+    <keyword id="82" frequency="1" keyword="beautiful">beautiful</keyword>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="182" frequency="1" keyword="carved">carved</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="326" frequency="4" keyword="digging">digging</keyword>
+    <keyword id="341" frequency="1" keyword="ditch">ditch</keyword>
+    <keyword id="394" frequency="2" keyword="farm">farm</keyword>
+    <keyword id="395" frequency="2" keyword="farm_hand">farmhand</keyword>
+    <keyword id="399" frequency="2" keyword="father">father</keyword>
+    <keyword id="410" frequency="4" keyword="field">field</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="518" frequency="1" keyword="heather">heather</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="706" frequency="1" keyword="letter">letter</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="865" frequency="1" keyword="northwest">northwest</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="964" frequency="1" keyword="plow">plow</keyword>
+    <keyword id="966" frequency="1" keyword="plowing">plowing</keyword>
+    <keyword id="1054" frequency="1" keyword="runestone">runestone</keyword>
+    <keyword id="1066" frequency="1" keyword="sand">sand</keyword>
+    <keyword id="1167" frequency="1" keyword="south">south</keyword>
+    <keyword id="1195" frequency="3" keyword="stone">stone</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+    <keyword id="1340" frequency="1" keyword="white">white</keyword>
+  </keywords>
+  <etk_index id="11">
+    <heading_danish>Kj&#xE6;mper og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Heroes and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

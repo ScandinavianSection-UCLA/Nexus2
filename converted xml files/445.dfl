@@ -1,0 +1,85 @@
+<story><story_id>445</story_id>
+  <publication_info>DS_VII_237</publication_info>
+  <full_name>456 - 0.00 - DS_VII_237</full_name>
+  <informant_id>456</informant_id>
+  <informant_last_name>Ludvigsen</informant_last_name>
+  <informant_first_name>Anna Christ.</informant_first_name>
+  <informant_full_name>Fru Anna Christ. Ludvigsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>766</place_id>
+      <name>D&#248;strup</name>
+      <display_name>D&#248;strup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>995</place_id>
+      <name>Visby</name>
+      <display_name>Visby (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>455</story_id>
+      <informant_id>464</informant_id>
+      <publication_info>DS_VII_129</publication_info>
+      <full_name>464 - 0.00 - DS_VII_129</full_name>
+      <url>data/stories/455.dfl</url>
+    </story>
+    <story><story_id>352</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1028</publication_info>
+      <full_name>90 - 2.20 - DS_VI_1028</full_name>
+      <url>data/stories/352.dfl</url>
+    </story>
+    <story><story_id>719</story_id>
+      <informant_id>541</informant_id>
+      <publication_info>DS_V_1111</publication_info>
+      <full_name>541 - 0.00 - DS_V_1111</full_name>
+      <url>data/stories/719.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I Visby ved Tr&#246;jborg var der en kone, som mange ans&#229; for en heks. Vor nabo p&#229;stod, at han havde f&#229;et troen i h&#230;nde ved at pr&#248;ve et spil med hende. Hun kom der en gang, og da hun vilde g&#229;, sagde han: "Gud v&#230;re med jer!" S&#229; kom hun tilbage igjen og kunde ikke komme bort. Nu talte de om ligegyldige ting, og hun gik igjen, men han gjentog ordene fra f&#248;rste gang, og der stod hun atter og m&#229;tte vende om igjen. Det gjorde han tre gange, og tre gange kom hun tilbage, men s&#229; blev han n&#230;sten bange og sagde fjerde gang kun farvel, s&#229; kunde hun g&#229;. Det samme siges to korslagte syn&#229;le eller halmstr&#229; p&#229; d&#246;rtr&#230;et at kunne bevirke, og ingen heks kan overskride d&#246;rt&#230;rskelen, f&#246;r de borttages. Da bem&#230;ldte kone var d&#248;d, kom en person og puttede liget en tolvskilling i den &#229;bent st&#229;ende mund, som p&#229; begravelsesdagen &#229;rle blev afhentet for at l&#230;gges, gr&#246;n og &#230;kel som den var, i br&#230;ndevin, som en drukkenbolt skulde drikke, for at han kunde f&#229; lede til br&#230;ndevin.</danish_publication>
+  <english_publication>In Visby near Tr&#248;jborg there was a woman who many suspected of being a witch. Our neighbor claimed that he had proved this allegation by playing a little game with her. She came once, and when she was leaving, he said, &#8220;God be with you!&#8221; Then she came back again and couldn&#8217;t leave. Now they talked about inconsequential things and she left again, but he repeated the words from the first time and then she stood there again and had to turn around again. He did that three times, and three times she came back, but then he got sort of scared and the fourth time he said only goodbye so she could leave. They also say that two needles or pieces of straw, placed in the shape of a cross on the threshold, has an effect so that no witch can cross the threshold until they&#8217;re taken away. When this woman was dead, a person came and put a twelve shilling coin in the open mouth of her corpse which, on the day of burial, was retrieved early and, green and horrid as the coin was, was to be put into some moonshine, which a drunk was supposed to drink so he&#8217;d become disgusted with moonshine.</english_publication>
+  <keywords>
+    <keyword><id>87</id><frequency>1</frequency><keyword>belief</keyword>belief</keyword>
+    <keyword><id>158</id><frequency>1</frequency><keyword>burial</keyword>burial</keyword>
+    <keyword><id>246</id><frequency>1</frequency><keyword>coins</keyword>coins</keyword>
+    <keyword><id>262</id><frequency>1</frequency><keyword>corpse</keyword>corpse</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>317</id><frequency>1</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>355</id><frequency>1</frequency><keyword>drinking</keyword>drinking</keyword>
+    <keyword><id>359</id><frequency>1</frequency><keyword>drunkard</keyword>drunkard</keyword>
+    <keyword><id>455</id><frequency>1</frequency><keyword>game</keyword>game</keyword>
+    <keyword><id>472</id><frequency>1</frequency><keyword>god</keyword>god</keyword>
+    <keyword><id>813</id><frequency>1</frequency><keyword>mouth</keyword>mouth</keyword>
+    <keyword><id>827</id><frequency>1</frequency><keyword>needle</keyword>needle</keyword>
+    <keyword><id>828</id><frequency>1</frequency><keyword>neighbor</keyword>neighbor</keyword>
+    <keyword><id>1100</id><frequency>1</frequency><keyword>shilling</keyword>shilling</keyword>
+    <keyword><id>1206</id><frequency>1</frequency><keyword>straw</keyword>straw</keyword>
+    <keyword><id>1225</id><frequency>1</frequency><keyword>suspect</keyword>suspect</keyword>
+    <keyword><id>1256</id><frequency>2</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1258</id><frequency>2</frequency><keyword>threshold</keyword>threshold</keyword>
+    <keyword><id>1351</id><frequency>2</frequency><keyword>witch</keyword>witch</keyword>
+    <keyword><id>1356</id><frequency>2</frequency><keyword>woman</keyword>woman</keyword>
+    <keyword><id>1361</id><frequency>1</frequency><keyword>work</keyword>work</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

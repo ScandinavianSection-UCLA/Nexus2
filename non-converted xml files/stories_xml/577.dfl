@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<story story_id="577">
+  <publication_info>DS_V_900</publication_info>
+  <full_name>65 - 0.00 - DS_V_900</full_name>
+  <informant_id>65</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Jensine</informant_first_name>
+  <informant_full_name>Jensine Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>398</place_id>
+      <name>Madum s&#xF8;</name>
+      <display_name>Madum s&#xF8; (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>37</place_id>
+      <name>Astrup</name>
+      <display_name>Astrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="850">
+      <informant_id>454</informant_id>
+      <publication_info>DS_V_477</publication_info>
+      <full_name>454 - 0.00 - DS_V_477</full_name>
+      <url>data/stories/850.dfl</url>
+    </story>
+    <story story_id="883">
+      <informant_id/>
+      <publication_info>DS_V_913</publication_info>
+      <full_name>0 - 0.00 - DS_V_913</full_name>
+      <url>data/stories/883.dfl</url>
+    </story>
+    <story story_id="208">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_880</publication_info>
+      <full_name>241 - 4.36 - DSnr_IV_880</full_name>
+      <url>data/stories/208.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>P&#xE5; Astrup kirkeg&#xE5;rd der kastede de en benrad op, og der sad lange h&#xE5;r p&#xE5; hovedet af den. Han blev stillet op til kirkens mur, og folk kaldte ham Skaris. Der skulde han st&#xE5; op til muren, for at alle dem, der havde gjort en forseelse, de skulde op at kysse ham. S&#xE5; var der en forvoven karl fra byen, han vilde g&#xE5; op og give ham en meldmad, men da flyver Skaris p&#xE5; ryggen af ham, og s&#xE5; red han p&#xE5; ham ned i byen. Da de kom ned for &#xF6;sten i byen, da fl&#xF6;j Skaris af ham og ind i et hus, og der blev nu s&#xE5;dan et spektakel i huset. Skaris forsvandt rent og bar der inde, der var hverken det ene eller det andet at se af ham. Siden den tid var der sp&#xF8;geri i det hus. Det blev omsider nedbrudt, for ingen vilde have det, og havepladsen blev lagt til en g&#xE5;rd.</danish_publication>
+  <english_publication>They dug up a skeleton at Astrup cemetery and there was long hair on its head. He was put up against the church&#x2019;s wall and people called him Skaris. He was supposed to lean up against the wall, and everybody who had committed an offense had to go up and kiss him. Then there was a daring farmhand from the town who wanted to go up and give him a sandwich, but then Skaris jumps on his back and rides him down through the town. When they got down to the east, past the town, then Skaris flew off of him and into a house, and then there was a huge row in the house. Skaris disappeared completely in there, there was nothing to see of him in there. After that time, there was haunting in that house. It was later torn down since nobody wanted it, and the garden was later attached to a farm.</english_publication>
+  <keywords>
+    <keyword id="196" frequency="1" keyword="cemetery">cemetery</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="369" frequency="1" keyword="east">east</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="456" frequency="1" keyword="garden">garden</keyword>
+    <keyword id="494" frequency="1" keyword="hair">hair</keyword>
+    <keyword id="508" frequency="1" keyword="haunting">haunting</keyword>
+    <keyword id="548" frequency="3" keyword="house">house</keyword>
+    <keyword id="630" frequency="1" keyword="kiss">kiss</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1067" frequency="1" keyword="sandwich">sandwich</keyword>
+    <keyword id="1126" frequency="4" keyword="skaris">skaris</keyword>
+    <keyword id="1127" frequency="1" keyword="skeleton">skeleton</keyword>
+    <keyword id="1275" frequency="3" keyword="town">town</keyword>
+    <keyword id="1313" frequency="2" keyword="walls">walls</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

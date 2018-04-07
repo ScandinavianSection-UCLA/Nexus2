@@ -1,0 +1,78 @@
+<story><story_id>728</story_id>
+  <publication_info>DS_V_804</publication_info>
+  <full_name>415 - 0.00 - DS_V_804</full_name>
+  <informant_id>415</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels Johansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>356</place_id>
+      <name>Kundby</name>
+      <display_name>Kundby (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>226</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_810</publication_info>
+      <full_name>235 - 1.07 - DS_V_810</full_name>
+      <url>data/stories/226.dfl</url>
+    </story>
+    <story><story_id>485</story_id>
+      <informant_id>411</informant_id>
+      <publication_info>DS_V_809</publication_info>
+      <full_name>411 - 0.00 - DS_V_809</full_name>
+      <url>data/stories/485.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Folk s&#229; et gjenf&#230;rd p&#229; Kundby kirkeg&#229;rd endog g&#229; om dagen og klage sig og somme tider l&#230;gge armene p&#229; muren. En aften befalede pastor Busch, at hans ridehest skulde sadles, men ikke bindes. De kunde se, pr&#230;sten gik op og ned ad gulvet inden for vinduerne, og endelig kom der bud fra Kundby pr&#230;st, om pastor Busch snarest mulig vilde komme til ham. Det stod heller ikke l&#230;nge p&#229;, f&#246;r han var der, og begge pr&#230;ster gik nu op til kirkeg&#229;rden om natten, og fra den tid h&#248;rte man ikke noget til gjenf&#230;rdet.</danish_publication>
+  <english_publication>People saw a revenant at Kundby cemetery, even during the day, and it would complain and sometimes put its arms on the wall. One evening, Pastor Busch asked to have his horse saddled but not tied. They could see the minister walking back and forth past the windows in there and finally a message came from the Kundby minister that Pastor Busch should come as quickly as possible. It wasn't long before he got there, and both of the ministers went up to the cemetery that night, and from then on, no one heard from the revenant again.</english_publication>
+  <keywords>
+    <keyword><id>46</id><frequency>1</frequency><keyword>arms</keyword>arms</keyword>
+    <keyword><id>196</id><frequency>2</frequency><keyword>cemetery</keyword>cemetery</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>386</id><frequency>1</frequency><keyword>evening</keyword>evening</keyword>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>770</id><frequency>1</frequency><keyword>message</keyword>message</keyword>
+    <keyword><id>786</id><frequency>3</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>910</id><frequency>2</frequency><keyword>pastor_busch</keyword>Pastor Busch</keyword>
+    <keyword><id>1027</id><frequency>2</frequency><keyword>revenant</keyword>revenant</keyword>
+    <keyword><id>1059</id><frequency>1</frequency><keyword>saddle</keyword>saddle</keyword>
+    <keyword><id>1261</id><frequency>1</frequency><keyword>tie</keyword>tie</keyword>
+    <keyword><id>1313</id><frequency>1</frequency><keyword>walls</keyword>walls</keyword>
+    <keyword><id>1346</id><frequency>1</frequency><keyword>window</keyword>window</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>27</id><display_name>Places: Cemetery</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>74</id><display_name>Animals: Horse</display_name></tango_index>
+    <tango_index><id>81</id><display_name>Actions or events: Conjuring</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

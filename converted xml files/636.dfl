@@ -1,0 +1,68 @@
+<story><story_id>636</story_id>
+  <publication_info>DS_IV_1593</publication_info>
+  <full_name>245 - 0.00 - DS_IV_1593</full_name>
+  <informant_id>245</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Pedersen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>160</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1592</publication_info>
+      <full_name>241 - 2.10 - DS_IV_1592</full_name>
+      <url>data/stories/160.dfl</url>
+    </story>
+    <story><story_id>484</story_id>
+      <informant_id>346</informant_id>
+      <publication_info>DS_IV_1594</publication_info>
+      <full_name>346 - 0.00 - DS_IV_1594</full_name>
+      <url>data/stories/484.dfl</url>
+    </story>
+    <story><story_id>605</story_id>
+      <informant_id>352</informant_id>
+      <publication_info>DS_IV_1566</publication_info>
+      <full_name>352 - 0.00 - DS_IV_1566</full_name>
+      <url>data/stories/605.dfl</url>
+    </story>
+    <story><story_id>634</story_id>
+      <informant_id>108</informant_id>
+      <publication_info>DS_IV_1591</publication_info>
+      <full_name>108 - 0.00 - DS_IV_1591</full_name>
+      <url>data/stories/634.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Daniel blev nok sat ind p&#229; livstid, vi har ikke h&#248;rt, han blev henrettet. De f&#248;lte i hans lommer og fandt det hj&#230;rte, han talte om, og som han endnu manglede.</danish_publication>
+  <english_publication>Daniel was probably emprisoned for life, we didn't hear that he was executed. They felt about in his pockets and found that heart he had talked about, the one that he was missing.</english_publication>
+  <keywords>
+    <keyword><id>299</id><frequency>1</frequency><keyword>daniel</keyword>Daniel</keyword>
+    <keyword><id>388</id><frequency>1</frequency><keyword>execution</keyword>execution</keyword>
+    <keyword><id>516</id><frequency>1</frequency><keyword>heart</keyword>heart</keyword>
+    <keyword><id>557</id><frequency>1</frequency><keyword>imprisoned</keyword>imprisoned</keyword>
+    <keyword><id>969</id><frequency>1</frequency><keyword>pocket</keyword>pocket</keyword>
+  </keywords>
+  <etk_index><id>20</id>
+    <heading_danish>R&#248;vere, drabsm&#230;nd og tyve</heading_danish>
+    <heading_english>Robbers, murderers and thieves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>17</id><display_name>People: Robber / Thief</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

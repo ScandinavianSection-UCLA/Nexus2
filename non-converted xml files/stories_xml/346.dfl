@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<story story_id="346">
+  <publication_info>Lege_0_1949</publication_info>
+  <full_name>90 - 2.14 - Lege_0_1949</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>2.14</order_told>
+  <fieldtrip id="9">October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="345">
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_1912</publication_info>
+      <full_name>90 - 2.13 - Lege_0_1912</full_name>
+      <url>data/stories/345.dfl</url>
+    </story>
+    <story story_id="353">
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_1945</publication_info>
+      <full_name>90 - 2.21 - Lege_0_1945</full_name>
+      <url>data/stories/353.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4785b (3)</fielddiary_page_start>
+  <fielddiary_page_end>4785b (3)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references>
+    <reference id="85" category="general">
+      <display_string>[Book] Feilberg, Henning F. 1905. &lt;i&gt;Bro-brille-legen, en sammenlignende studie (Bidrag till k&#xE4;nnedom om de svenska landsm&#xE5;len ock svenskt folkliv)&lt;/i&gt;. Stockholm: Norstedt.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Like many games, this one includes a rhyme that helps govern the progression of the game. The game is commonly referred to as "Holde for Kongens Port" (Stop at the king's gate), and often starts with the first line, "Bro, bro brille." The game is played in a manner similar to the Anglo-American game, "London bridge is falling down," with the person caught in the middle compared to a sorry gray crow who is placed on a pike. In Denmark, after executions, the head of the victim was placed on a pike, and the game appears to refer to this earlier practice. The pike, usually a small pole in these games, also plays a central role in a well-documented form of tag similar to the Anglo-American "capture the flag."</annotation>
+  <danish_manuscript>Sol og Maane. Holder op. Remme
+remme rok stok Sol og M&#xE5;n er h&#xF8;t
+op. Skywter i w&#xE5; stage, s&#xF8;lle gr&#xE5;
+Krage. Hvad vil du ha enten Sol
+eller Maane?
+</danish_manuscript>
+  <english_manuscript>Sun and moon. Stop. Remme remme rok stok, Sun and Moon are high up. Put you on our pike, sorry gray crow. What do you want, the sun or the moon?</english_manuscript>
+  <danish_publication>N&#xE5;r der leges Sol og M&#xE5;ne, og der holdes op, siger den f&#xF8;rste af Raden: Remme remme Rok Stok, Sol og M&#xE5;&#xE5;n er h&#xF6;t op, skywter I w&#xE5; Stage, s&#xF6;lle gr&#xE5; Krage. Hvad vil du ha' enten Sol eller M&#xE5;ne?</danish_publication>
+  <english_publication>When &#x201C;Sun and Moon&#x201D; is played, and they stop, the first one in the row says: Remme remme Rok Stok, the Sun and Moon are high up, put you on our pike, sorry gray crow. What do you want, the sun or the moon?</english_publication>
+  <keywords>
+    <keyword id="283" frequency="1" keyword="crow">crow</keyword>
+    <keyword id="797" frequency="3" keyword="moon">moon</keyword>
+    <keyword id="1217" frequency="3" keyword="sun">sun</keyword>
+  </keywords>
+  <etk_index id="41">
+    <heading_danish>Danske B&#xF8;rnerim, Remser og Lege</heading_danish>
+    <heading_english>Danish Children's Rhymes, Counting-out Rhymes, and Games</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="136" display_name="Animals: Wild"/>
+  </tango_indices>
+  <genre id="14" name="Game"/>
+</story>

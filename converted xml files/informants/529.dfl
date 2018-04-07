@@ -1,0 +1,37 @@
+<informant><person_id>529</person_id>
+  <core_informant/>
+  <full_name>Konsul A. H. Schade</full_name>
+  <last_name>Schade</last_name>
+  <first_name>A. H.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>440</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>529</informant_id>
+      <publication_info>DS_V_255</publication_info>
+      <full_name>529 - 0.00 - DS_V_255</full_name>
+      <url>data/stories/440.dfl</url>
+      <place_recorded><id>837</id>Nykj&#248;bing, Mors</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>837</place_id>
+      <name>Nykj&#248;bing, Mors</name>
+      <display_name>Nykj&#248;bing, Mors (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

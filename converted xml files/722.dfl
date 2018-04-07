@@ -1,0 +1,69 @@
+<story><story_id>722</story_id>
+  <publication_info>DS_I_1158</publication_info>
+  <full_name>498 - 0.00 - DS_I_1158</full_name>
+  <informant_id>498</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Morten</informant_first_name>
+  <informant_full_name>Morten Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>58</place_id>
+      <name>Bj&#230;rggrav</name>
+      <display_name>Bj&#230;rggrav (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>258</place_id>
+      <name>Hesth&#248;j</name>
+      <display_name>Hesth&#248;j (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>116</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_1179</publication_info>
+      <full_name>150 - 4.05 - DS_I_1179</full_name>
+      <url>data/stories/116.dfl</url>
+    </story>
+    <story><story_id>755</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1164</publication_info>
+      <full_name>348 - 0.00 - DS_I_1164</full_name>
+      <url>data/stories/755.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der er en h&#246;j p&#229; vor ejendom, der kaldes Hesteh&#246;j, og der har ogs&#229; dumret der inde, men ingen har set bj&#230;rgfolk der. Der imod har de set et lys, der har st&#229;et og br&#230;ndt p&#229; den, og n&#229;r de kom i n&#230;rheden, blev det henne. A har ogs&#229; selv set det lys og g&#229;et efter det. Det er ikke uden tre uger siden, vor s&#246;n kom hjem og sagde, at nu var der lys igjen.</danish_publication>
+  <english_publication>There was a mound on our property called Hesteh&#248;j (Horse mound), and there had also been rumbling noises in there, but no one had seen any mound folk. On the other hand, they had seen a light that burned on it but, when they got close, it disappeared. I've seen the light too and gone after it. It isn't three weeks since our son came home and said the light was there again.</english_publication>
+  <keywords>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>804</id><frequency>2</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>806</id><frequency>1</frequency><keyword>mound_folk</keyword>mound folk</keyword>
+    <keyword><id>858</id><frequency>1</frequency><keyword>noises</keyword>noises</keyword>
+    <keyword><id>1154</id><frequency>1</frequency><keyword>son</keyword>son</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1328</id><frequency>1</frequency><keyword>week</keyword>week</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

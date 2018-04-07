@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<story story_id="663">
+  <publication_info>DS_II_A_32</publication_info>
+  <full_name>492 - 0.00 - DS_II_A_32</full_name>
+  <informant_id>492</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Lars</informant_first_name>
+  <informant_full_name>Lars Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>910</place_id>
+      <name>Vinkel</name>
+      <display_name>Vinkel (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1048</place_id>
+      <name>T&#xE5;strup</name>
+      <display_name>T&#xE5;strup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="457">
+      <informant_id>342</informant_id>
+      <publication_info>DS_II_A_17</publication_info>
+      <full_name>342 - 0.00 - DS_II_A_17</full_name>
+      <url>data/stories/457.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Ellekongen skal opholde sig i de egne af landet, hvor landets konge endnu ikke har v&#xE6;ret. Det skal navnlig v&#xE6;re tilf&#xE6;ldet i Stevns herred. For omtrent tredive &#xE5;r siden havde ellekongen sin vej igjennem en af T&#xE5;strup udflytterg&#xE5;rde og fortyrrede herved ikke blot folkenes, men meget mere g&#xE6;ssenes ro i g&#xE5;rden, ti disse m&#xE5;tte vandre omkring i 3 til 2 timer, efter at han var kommen der igjennem, og to og to f&#xF8;lgendes ad under r&#xE5;bet: "Kj&#xE6;k, kj&#xE6;k, kj&#xE6;k!" Om dette skete n&#xF8;dtvungent eller ej, vides ikke, men de glemte ikke at nikke, hver gang de kom til portene. S&#xE5; blev den ene port flyttet anden steds hen.</danish_publication>
+  <english_publication>The elf king is supposed to stay in those parts of the country where the country&#x2019;s king has yet to go. That is supposed to be the case in Stevns province. About thirty years ago, the elf king made his way through one of the T&#xE5;strup outlying farms and disturbed not only the people&#x2019;s peace, but much more the geese&#x2019;s peace because they (the geese) had to wander about for two or three hours after he&#x2019;d gone through there, and they went about in pairs with the cry, &#x201C;Kj&#xE6;k, kj&#xE6;k, kj&#xE6;k!&#x201D; If that was because they were forced to do so or not isn't known but the geese didn&#x2019;t forget to nod whenever they passed the gate. Then one of the gates was moved somewhere else.</english_publication>
+  <keywords>
+    <keyword id="183" frequency="1" keyword="case">case</keyword>
+    <keyword id="269" frequency="2" keyword="country">country</keyword>
+    <keyword id="285" frequency="1" keyword="crying">crying</keyword>
+    <keyword id="340" frequency="1" keyword="disturbed">disturbed</keyword>
+    <keyword id="373" frequency="2" keyword="elf">elf</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="457" frequency="2" keyword="gate">gate</keyword>
+    <keyword id="458" frequency="2" keyword="geese">geese</keyword>
+    <keyword id="624" frequency="1" keyword="king">king</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1315" frequency="1" keyword="wandering">wandering</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="79" display_name="Animals: None / Unspecified"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

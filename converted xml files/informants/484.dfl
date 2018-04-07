@@ -1,0 +1,46 @@
+<informant><person_id>484</person_id>
+  <core_informant/>
+  <full_name>Ane Nielsen</full_name>
+  <last_name>Nielsen</last_name>
+  <first_name>Ane</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>469</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>484</informant_id>
+      <publication_info>DS_V_146</publication_info>
+      <full_name>484 - 0.00 - DS_V_146</full_name>
+      <url>data/stories/469.dfl</url>
+      <place_recorded><id>377</id>Lisbj&#230;rg terp</place_recorded>
+      <places_mentioned>
+        <place><id>1002</id>
+          <name>Skj&#230;rs&#248;</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>377</place_id>
+      <name>Lisbj&#230;rg terp</name>
+      <display_name>Lisbj&#230;rg terp (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1002</place_id>
+      <name>Skj&#230;rs&#248;</name>
+      <display_name>Skj&#230;rs&#248; (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

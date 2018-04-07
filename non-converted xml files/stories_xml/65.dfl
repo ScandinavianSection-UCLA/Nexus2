@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<story story_id="65">
+  <publication_info>DS_II_G_267</publication_info>
+  <full_name>150 - 3.03 - DS_II_G_267</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.03</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>55</place_id>
+      <name>Bislev</name>
+      <display_name>Bislev (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>325</place_id>
+      <name>Kirketerp</name>
+      <display_name>Kirketerp (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="66">
+      <informant_id>150</informant_id>
+      <publication_info>DS_I_576</publication_info>
+      <full_name>150 - 3.04 - DS_I_576</full_name>
+      <url>data/stories/66.dfl</url>
+    </story>
+    <story story_id="867">
+      <informant_id>225</informant_id>
+      <publication_info>DS_II_G_266</publication_info>
+      <full_name>225 - 0.00 - DS_II_G_266</full_name>
+      <url>data/stories/867.dfl</url>
+    </story>
+    <story story_id="207">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_IV_440</publication_info>
+      <full_name>241 - 4.35 - DSnr_IV_440</full_name>
+      <url>data/stories/207.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4088b</fielddiary_page_start>
+  <fielddiary_page_end>4089a</fielddiary_page_end>
+  <bibliographic_info>Castberg 1809.</bibliographic_info>
+  <bibliography_references>
+    <reference id="738" category="general">
+      <display_string>[Book section] Castberg, Peder Atke. 1809. Om Tegn- eller Geb&#xE6;rde-Sproget med Hensyn paa dets Brug af D&#xF8;vstumme og dets Anvendelighed ved deres Undervisning. In &lt;i&gt;Indbydelsesskrivt til Aarsfest i det kongelige Kj&#xF8;benhavnske Institut for D&#xF8;vstumme&lt;/i&gt;: 3-5. Copenhagen: Kj&#xF8;benhavnske Institut for D&#xF8;vstumme.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Legend tradition often proposes that people whose normal senses are compromised have second sight. In this widely attested story, a deaf mute reacts incongruously to the death of two people (DS II G 266). Whereas in other stories like this one, the devil and angels appear to carry off the soul of the deceased, here the dove represents an ascension into heaven, and the raven a descent into hell. The story relies on the inability of the deaf mute to explain his response. Jens carefully adds that the coachman had not learned sign language. The minister, puzzled by the incongruity of the coachman's reactions, prays and his coachman's speech is miraculously restored.
+
+     Jens's coda, insisting on the truth of the account, is uncharacteristic for him. It may suggest that he doubted many of the other stories he told. Or it may indicate that the account is to him so unbelievable that he has to narratively counteract that, by emphasizing its truth.
+
+     Sign language first made in roads in Denmark when Dr. P. A. Castberg opened his school for the deaf in 1807. By the 1880s, sign language was no longer the preferred method of teaching the deaf in Denmark; instead, the goal was to have the deaf learn to speak. It is unlikely that the development of education for the deaf influences Jens's story in any way.</annotation>
+  <danish_manuscript>Kirketorup Pr&#xE6;st h. havde en dum Kusk.
+S. kj&#xF8;rte de en Gang og skulde til Bislev og 
+Kusken kunde jo ingen Ting sige og havde
+ikke l&#xE6;rt nogen Ting af Fingersprog ell.
+slige Ting saadan som nu. De kj&#xF8;rte og
+skulde berette en Kone og hu d&#xF8;de da
+ogsaa mens de var der og Kusk. h. gr&#xE6;d
+for hende, te det var forf&#xE6;rdelig, og Pr.
+kunde ikke forstaa det, for h. tykte, te
+det var en god D&#xF8;d. S. kj&#xF8;rte de til Sogne
+det var om Vinteren og kj&#xF8;rte ned ved Ejdrup
+Bakke og der kom en Mand kj&#xF8;rende imod
+dem og den ene Hest slaar op og klyver
+Panden paa Manden s. han styrter bag
+ud af Sl&#xE6;den og var d&#xF8;d med det samme.
+Det lo Kusken s. forf&#xE6;rdelig ad og det
+tykte Pr. var s. s&#xE6;rt, at h. kunde le ad
+det. S. bad Pr. paa Pr&#xE6;kestolen i 7 Aar
+at Kusken maatte komme til at snakke
+for at h. kunde fort&#xE6;lle det, hvorfor h.
+gr&#xE6;d, naar Konen d&#xF8;de saadan en god
+Straad&#xF8;d i hendes Seng og Manden kom
+s. elendig af Dage. S. s. h. ogsaa at
+hendes sj&#xE6;l tog Ravnen, men Mandens
+Sj&#xE6;l tog Duen og det var det, der morede
+ham. Det er s. m&#xE6;nd ingen Historie, det
+------
+er en virkelig Tildragelse, men det er l&#xE6;nge
+
+4089a
+siden.</danish_manuscript>
+  <english_manuscript>Kirketorup minister had a mute coachman. They drove once and were supposed to go to Bislev, and the coachman couldn't say anything and hadn't learned any finger language or anything like that as they do now. They were to give the last sacrament to a woman, and she died too, while they were there. The coachman cried for her, because it was terrible, but the minister couldn't understand that, because he thought it was a good death. Then they drove to the parish and this was during the winter and they drove down Ejdrup hill. A man came driving towards them and one of the horses kicks out, and cleaves the man's forehead so he falls backwards out of the sleigh and was dead at once. The coachman laughed so hard over this, and the minister thought that this was strange that he could laugh at that. Then the minister prayed from the pulpit for seven years that his coachman could talk, so he could tell him why he cried when the woman died such a good normal, peaceful death in her bed and laughed when the man died so poorly. Then he said that the raven took her soul, while the dove took his soul, and that's what amused him. This isn't a story, it's a true incident, but it happened a long time ago.</english_manuscript>
+  <danish_publication>Kirketorup pr&#xE6;st han havde en dum kusk. S&#xE5; kj&#xF8;rte de en gang og skulde til Bislev, og kusken kunde jo ingen ting sige og havde ikke l&#xE6;rt nogen ting af fingersprog eller slige ting s&#xE5;dan som nu. De skulde berette en kone, og hun d&#xF8;de da ogs&#xE5;, mens de var der. Kusken han gr&#xE6;d for hende, te det var forf&#xE6;rdelig, og pr&#xE6;sten kunde ikke forst&#xE5; det, for han tykte, te det var en god d&#xF8;d. S&#xE5; kj&#xF8;rte de til sogne og kj&#xF8;rte ned ad Ejdrup bakke, og det var om vinteren. Der kom en mand kj&#xF8;rende imod dem, og den ene hest sl&#xE5;r op og klyver panden p&#xE5; manden, s&#xE5; han stylter bag ud af sl&#xE6;den, og var d&#xF8;d med det samme. Det lo kusken s&#xE5; forf&#xE6;rdeligt ad, og pr&#xE6;sten tykte, det var s&#xE6;rt, at han kunde le ad det. S&#xE5; bad pr&#xE6;sten p&#xE5; pr&#xE6;kestolen i syv &#xE5;r, at hans kusk m&#xE5;tte komme til at snakke, for at han kunde fort&#xE6;lle det, hvorfor han gr&#xE6;d, n&#xE5;r konen d&#xF8;de s&#xE5;dan en god str&#xE5;d&#xF8;d i hendes seng, og lo, n&#xE5;r manden kom s&#xE5; elendig af dage. S&#xE5; fik han ogs&#xE5; hans m&#xE6;le og siger, at hendes sj&#xE6;l tog ravnen, men mandens sj&#xE6;l tog duen, og det var det, der morede ham. Det er s&#xE5; m&#xE6;nd ingen historie, det er en virkelig tildragelse, men det er l&#xE6;nge siden den skete.</danish_publication>
+  <english_publication>Kirketorup minister had a mute coachman. They were out driving once and were supposed to go to Bislev, and the coachman couldn&#x2019;t say anything and hadn&#x2019;t learned any finger language or anything like that as they do now. They were to give the last sacrament to a woman, and she died too, while they were there. The coachman cried for her, because it was terrible, but the minister couldn&#x2019;t understand that, because he thought it was a good death. Then they drove back to the parish and drove down Ejdrup hill, and this was during the winter. A man came driving towards them and one of the horses kicks out, and cleaves the man&#x2019;s forehead so he falls backwards out of the sleigh and died immediately. The coachman laughed so hard over this, and the minister thought that it was strange that he could laugh at that. Then the minister prayed from the pulpit for seven years that his coachman would learn to talk, so he could tell him why he cried when the woman died such a good, normal, peaceful death in her bed and laughed when the man died so poorly. Then the coachman got his voice back and said the raven took her soul while the dove took his soul and that&#x2019;s what amused him. This isn&#x2019;t a story, it&#x2019;s a true incident, but it happened a long time ago.</english_publication>
+  <keywords>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="240" frequency="5" keyword="coachman">coachman</keyword>
+    <keyword id="285" frequency="2" keyword="crying">crying</keyword>
+    <keyword id="317" frequency="6" keyword="death">death</keyword>
+    <keyword id="348" frequency="1" keyword="dove">dove</keyword>
+    <keyword id="362" frequency="1" keyword="dumb">dumb</keyword>
+    <keyword id="412" frequency="1" keyword="finger">finger</keyword>
+    <keyword id="434" frequency="1" keyword="forehead">forehead</keyword>
+    <keyword id="530" frequency="1" keyword="hill">hill</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="684" frequency="1" keyword="language">language</keyword>
+    <keyword id="691" frequency="3" keyword="laughter">laughter</keyword>
+    <keyword id="699" frequency="1" keyword="learning">learning</keyword>
+    <keyword id="786" frequency="4" keyword="minister">minister</keyword>
+    <keyword id="903" frequency="1" keyword="parish">parish</keyword>
+    <keyword id="989" frequency="1" keyword="prayer">prayer</keyword>
+    <keyword id="1003" frequency="1" keyword="pulpit">pulpit</keyword>
+    <keyword id="1020" frequency="1" keyword="raven">raven</keyword>
+    <keyword id="1058" frequency="1" keyword="sacrament">sacrament</keyword>
+    <keyword id="1089" frequency="1" keyword="seven">seven</keyword>
+    <keyword id="1143" frequency="1" keyword="sleigh">sleigh</keyword>
+    <keyword id="1164" frequency="2" keyword="soul">soul</keyword>
+    <keyword id="1200" frequency="1" keyword="story">story</keyword>
+    <keyword id="1307" frequency="1" keyword="voice">voice</keyword>
+    <keyword id="1356" frequency="2" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="54" display_name="Tools, Items and Conveyances: Wagon"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="80" display_name="Actions or events: Church ceremony"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="116" display_name="Time, Season, Weather: Winter"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,46 @@
+<informant><person_id>386</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer U. N. Henneberg</full_name>
+  <last_name>Henneberg</last_name>
+  <first_name>U. N.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>855</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>386</informant_id>
+      <publication_info>DS_V_384</publication_info>
+      <full_name>386 - 0.00 - DS_V_384</full_name>
+      <url>data/stories/855.dfl</url>
+      <place_recorded><id>868</id>Skals</place_recorded>
+      <places_mentioned>
+        <place><id>868</id>
+          <name>Skals</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>868</place_id>
+      <name>Skals</name>
+      <display_name>Skals (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>868</place_id>
+      <name>Skals</name>
+      <display_name>Skals (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

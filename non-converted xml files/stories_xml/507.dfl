@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<story story_id="507">
+  <publication_info>DS_VI_1206</publication_info>
+  <full_name>318 - 0.00 - DS_VI_1206</full_name>
+  <informant_id>318</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Evald</informant_first_name>
+  <informant_full_name>Evald Kristensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_mentioned">
+      <place_id>232</place_id>
+      <name>Hallund</name>
+      <display_name>Hallund (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>390</place_id>
+      <name>Lunden</name>
+      <display_name>Lunden (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>455</place_id>
+      <name>&#xD8;ster Br&#xF8;nderslev</name>
+      <display_name>&#xD8;ster Br&#xF8;nderslev (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="213">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_1205</publication_info>
+      <full_name>241 - 4.41 - DS_VI_1205</full_name>
+      <url>data/stories/213.dfl</url>
+    </story>
+    <story story_id="506">
+      <informant_id>318</informant_id>
+      <publication_info>DS_VI_1204</publication_info>
+      <full_name>318 - 0.00 - DS_VI_1204</full_name>
+      <url>data/stories/506.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En g&#xE5;rd i Hallund, som hedder Lunden, kom en gang i brand. S&#xE5; snart man opdagede ilden, kom der bud efter pastor Jermiin fra &#xD8;ster-Br&#xF8;nderslev, som ogs&#xE5; kom til stede, f&#xF6;r den havde grebet alt for meget om sig. Det var bekjendt for alle, at han kunde slukke ild ved ord, men der var dog &#xE9;n til stede, som tvivlede derom, det var Kristen Hansen fra Hellum, og han sagde: "Det nytter ikke, hr. pastor, ilden kan ikke slukkes." &#x2014; "Hvad siger du, mand!" sagde pr&#xE6;sten, og med det samme var ilden slukket.</danish_publication>
+  <english_publication>A farm in Hallund that was called Lunden caught fire once. As soon as they discovered the fire, they sent for pastor Jermiin from &#xD8;ster-Br&#xF8;nderslev, who also arrived before it had burned too much. Everyone knew that he could put fire out with words, but there was one person there who doubted that, that was Kristen Hansen from Hellum and he said, "It won't help, pastor, the fire can't be put out." -- "What are you saying, man?" said the minister, and the fire went out immediately.</english_publication>
+  <keywords>
+    <keyword id="333" frequency="1" keyword="discovery">discovery</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="413" frequency="6" keyword="fire">fire</keyword>
+    <keyword id="663" frequency="1" keyword="kristen_hansen">Kristen Hansen</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="908" frequency="1" keyword="pastor">pastor</keyword>
+    <keyword id="913" frequency="1" keyword="pastor_jermiin">Pastor Jermiin</keyword>
+  </keywords>
+  <etk_index id="28">
+    <heading_danish>Kloge m&#xE6;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<story story_id="798">
+  <publication_info>DS_V_289</publication_info>
+  <full_name>65 - 0.00 - DS_V_289</full_name>
+  <informant_id>65</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Jensine</informant_first_name>
+  <informant_full_name>Jensine Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>398</place_id>
+      <name>Madum s&#xF8;</name>
+      <display_name>Madum s&#xF8; (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="234">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1430</publication_info>
+      <full_name>235 - 1.15 - DS_V_1430</full_name>
+      <url>data/stories/234.dfl</url>
+    </story>
+    <story story_id="18">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_139</publication_info>
+      <full_name>150 - 1.15 - DS_VI_139</full_name>
+      <url>data/stories/18.dfl</url>
+    </story>
+    <story story_id="613">
+      <informant_id>366</informant_id>
+      <publication_info>DS_V_248</publication_info>
+      <full_name>366 - 0.00 - DS_V_248</full_name>
+      <url>data/stories/613.dfl</url>
+    </story>
+    <story story_id="557">
+      <informant_id>68</informant_id>
+      <publication_info>DS_V_513</publication_info>
+      <full_name>68 - 0.00 - DS_V_513</full_name>
+      <url>data/stories/557.dfl</url>
+    </story>
+    <story story_id="537">
+      <informant_id>379</informant_id>
+      <publication_info>DS_VI_141</publication_info>
+      <full_name>379 - 0.00 - DS_VI_141</full_name>
+      <url>data/stories/537.dfl</url>
+    </story>
+    <story story_id="520">
+      <informant_id>335</informant_id>
+      <publication_info>DS_I_1098</publication_info>
+      <full_name>335 - 0.00 - DS_I_1098</full_name>
+      <url>data/stories/520.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Min moder fulgtes en aften med hendes s&#xF6;n Kristen. Da de kom forbi stenkisten, s&#xE5; de p&#xE5; vejen en stor karet komme imod dem. S&#xE5; siger min moder: "Mon det er Br&#xF6;ndum pr&#xE6;st, der kommer kj&#xF8;rende? hvi mon han f&#xE6;rdes her?" Da de kom til hinanden, kunde hun nok se, det var ikke rele, for det var et par store sorte heste, der var for kareten, men de var ikke tykkere end et par fj&#xE6;l, der kunde v&#xE6;re sl&#xE5;et sammen, og kusken sad og h&#xE6;ngte p&#xE5; bukken, som han sad og sov. Kristen sagde ogs&#xE5;, han s&#xE5; &#xE9;n der inde i kareten, men ham s&#xE5; min moder ikke. De s&#xE5; nu ikke mere til det og gik deres gang hjem til bakken, hvor de havde gravet dem ind.</danish_publication>
+  <english_publication>My mother was out one night with her son Kristen. Just as they came past the culvert they saw a big carriage coming towards them. Then my mother says: &#x201C;I wonder if that is the Br&#xF8;ndum minister who is coming driving? What is he doing here?&#x201D; When they came closer to each other, she could see that that wasn&#x2019;t the case, because there was a pair of black horses in front of the carriage but they weren&#x2019;t any thicker than a couple of foals which could be slapped together, and the driver sat and slouched on the bench as if he was asleep. Kristen said that he saw someone inside the carriage but my mother didn&#x2019;t see him. They didn&#x2019;t see anymore of it and [the ghosts] went on their way home to the hill where they had been buried.</english_publication>
+  <keywords>
+    <keyword id="91" frequency="1" keyword="bench">bench</keyword>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="181" frequency="3" keyword="carriage">carriage</keyword>
+    <keyword id="183" frequency="1" keyword="case">case</keyword>
+    <keyword id="357" frequency="1" keyword="driver">driver</keyword>
+    <keyword id="427" frequency="1" keyword="foal">foal</keyword>
+    <keyword id="530" frequency="1" keyword="hill">hill</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="660" frequency="2" keyword="kristen">Kristen</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="803" frequency="3" keyword="mother">mother</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1154" frequency="1" keyword="son">son</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

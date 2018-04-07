@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<story story_id="906">
+  <publication_info>JAH_II_255</publication_info>
+  <full_name>567 - 0.00 - JAH_II_255</full_name>
+  <informant_id>567</informant_id>
+  <informant_last_name>Kristensen Norge</informant_last_name>
+  <informant_first_name>Kristian</informant_first_name>
+  <informant_full_name>Kristian Kristensen Norge</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>928</place_id>
+      <name>G&#xF8;ttrup</name>
+      <display_name>G&#xF8;ttrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>992</place_id>
+      <name>Aggersborgg&#xE5;rd</name>
+      <display_name>Aggersborgg&#xE5;rd (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="904">
+      <informant_id/>
+      <publication_info>JAH_II_253</publication_info>
+      <full_name>0 - 0.00 - JAH_II_253</full_name>
+      <url>data/stories/904.dfl</url>
+    </story>
+    <story story_id="905">
+      <informant_id>212</informant_id>
+      <publication_info>JAH_II_254</publication_info>
+      <full_name>212 - 0.00 - JAH_II_254</full_name>
+      <url>data/stories/905.dfl</url>
+    </story>
+    <story story_id="76">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_II_256</publication_info>
+      <full_name>150 - 3.13 - JAH_II_256</full_name>
+      <url>data/stories/76.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Aggersborg sogns karle var blevne enige om at gj&#xF8;re ondt ved Mads Speitzer p&#xE5; Aggersborgg&#xE5;rd. En aften traf de ham ved kirkeg&#xE5;rdsdiget og tog ham s&#xE5;, lagde hans ene h&#xE5;nd p&#xE5; en sten, tog en anden sten og slog den s&#xE5; i gras. Forvalteren s&#xE5; det, og s&#xE5; fik de fat p&#xE5; en af karlene, som han havde gjenkjendt, og fik ham arresteret hjemme i g&#xE5;rden. De andre karle tvivlte p&#xE5;, hvor han var, og gik s&#xE5; hjem efter redskab og st&#xE6;nger for at f&#xE5; ham ud. Han sad nede i kj&#xE6;lderen og kunde svare dem. S&#xE5; begyndte de at grave op af stenpikningen der uden for. Speitzer og forvalteren m&#xE6;rkede det, og s&#xE5; gik de hen og lukkede godvillig karlen ud. Den samme nat r&#xF6;mte alle karlene ud af sognet, for de vidste nok, at de ellers var blevne straffede til hobe n&#xE6;ste dag, og aldrig har man h&#xF8;rt f&#xE6;rd til dem siden.</danish_publication>
+  <english_publication>The farmhands in Aggersborg parish agreed to hurt Mads Speitzer at Aggersborgg&#xE5;rd. One evening, they encountered him near the cemetery wall and they grabbed him, put one of his hands on a stone, took another stone and crushed it. The manager saw that, and they caught one of the farmhands whom he&#x2019;d recognized and arrested him back at the farm. The other farmhands wondered where he was, and so they went home to get pry bars and other tools to get him out. He was down in the cellar and could answer them. So they began to dig out the cobblestones outside. Speitzer and the manager noticed that and so they went and released the farmhand voluntarily. That same night, all the farmhands fled the parish, because they knew that they&#x2019;d all be punished as a group the next day, and they were never heard from again.</english_publication>
+  <keywords>
+    <keyword id="15" frequency="1" keyword="agreement">agreement</keyword>
+    <keyword id="48" frequency="1" keyword="arrest">arrest</keyword>
+    <keyword id="195" frequency="1" keyword="cellar">cellar</keyword>
+    <keyword id="196" frequency="1" keyword="cemetery">cemetery</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="326" frequency="1" keyword="digging">digging</keyword>
+    <keyword id="379" frequency="1" keyword="embankment">embankment</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="395" frequency="5" keyword="farm_hand">farmhand</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="733" frequency="1" keyword="mads_speitzer">Mads Speitzer</keyword>
+    <keyword id="738" frequency="2" keyword="manager">manager</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="903" frequency="2" keyword="parish">parish</keyword>
+    <keyword id="1004" frequency="1" keyword="punishment">punishment</keyword>
+    <keyword id="1173" frequency="1" keyword="speitzer">speitzer</keyword>
+    <keyword id="1195" frequency="2" keyword="stone">stone</keyword>
+    <keyword id="1270" frequency="1" keyword="tools">tools</keyword>
+  </keywords>
+  <etk_index id="32">
+    <heading_danish>Fra hoveriets tid</heading_danish>
+    <heading_english>From the time of villeinage</heading_english>
+  </etk_index>
+  <tango_indices/>
+</story>

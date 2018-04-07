@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<story story_id="188">
+  <publication_info>DS_VII_698</publication_info>
+  <full_name>241 - 4.16 - DS_VII_698</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>4.16</order_told>
+  <fieldtrip id="8">May-June 1898</fieldtrip>
+  <fieldtrip_start_date>1898-05-23</fieldtrip_start_date>
+  <fieldtrip_end_date>1898-06-08</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>37</place_id>
+      <name>Astrup</name>
+      <display_name>Astrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="43">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_I_383</publication_info>
+      <full_name>150 - 1.40 - JAH_I_383</full_name>
+      <url>data/stories/43.dfl</url>
+    </story>
+    <story story_id="528">
+      <informant_id>362</informant_id>
+      <publication_info>DS_VII_696</publication_info>
+      <full_name>362 - 0.00 - DS_VII_696</full_name>
+      <url>data/stories/528.dfl</url>
+    </story>
+    <story story_id="590">
+      <informant_id>151</informant_id>
+      <publication_info>DS_VII_700</publication_info>
+      <full_name>151 - 0.00 - DS_VII_700</full_name>
+      <url>data/stories/590.dfl</url>
+    </story>
+    <story story_id="169">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_C_10</publication_info>
+      <full_name>241 - 2.19 - DSnr_II_C_10</full_name>
+      <url>data/stories/169.dfl</url>
+    </story>
+    <story story_id="588">
+      <informant_id>144</informant_id>
+      <publication_info>DS_VII_690</publication_info>
+      <full_name>144 - 0.00 - DS_VII_690</full_name>
+      <url>data/stories/588.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7811a</fielddiary_page_start>
+  <fielddiary_page_end>7811a</fielddiary_page_end>
+  <bibliographic_info>Henningsen 1975
+Davies and Bl&#xE9;court 2004</bibliographic_info>
+  <bibliography_references>
+    <reference id="768" category="general">
+      <display_string>[Book] Davies, Owen, Bl&#xE9;court, Willem de. 2004. &lt;i&gt;Beyond the witch trials. Witchcraft and magic in Enlightenment Europe&lt;/i&gt;. Manchester and New York: Manchester University Press.</display_string>
+    </reference>
+    <reference id="373" category="general">
+      <display_string>[Article] Henningsen, Gustav. 1975. Hekseforf&#xF8;lgelse efter 'hekseprocessernes tid.' Et bidrag til dansk etnohistorie. &lt;i&gt;Folk og Kultur&lt;/i&gt;, 98-151.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The wolf hunter in this story is an interesting parallel to the elf hunter in one of Jens Peter's other stories (JPP 2.19). There are numerous legends that explain the absence of wolves in Denmark, attributing it to the actions of a witch who bargains for her head (DS VII 690). The unusual greeting occurs in other variants of this story, and is explained that, had the witch's interlocutor called the animals by name (wolves), they would have torn him apart (DS VII 696 and 700).
+
+     In the late seventeenth century, witches were dealt with harshly. The Danish Law of 1683 includes the following stipulation for their punishment: "Befindis nogen Troldmand, eller Troldqvinde, at have forsoret Gud og sin hellige Daab og Christendom, og hengivet sig til Dievelen, den b&#xF8;r levendis at kastis paa Ilden og opbr&#xE6;ndis" [If any troll-man or troll-woman (witch) has been found to have rejected God and his or her Holy Baptism, and given him or herself to the Devil, then they should be thrown alive onto the fire and be burned up] (Bk 6, Ch 1, Par 9). The last witch trial in Denmark that ended in an execution by burning was in 1725, although the last execution of a witch was in 1800 (Henningsen 1975; Davies and Bl&#xE9;court 2004).</annotation>
+  <danish_manuscript>Der er en Grd i Astrup der hedder Torne.
+Den gl. Kristen Torne den nuv&#xE6;rende Kones
+Bedstefader, kunde huske at en Kone rej-
+ste til Norge med Ulve. S. s. h goddag
+Moder der har I faaet jer et godt Kob-
+bel Plage. Ja hu havde; men hu havde
+endelig ikke faaet dem allesammen, der var
+to tilbage, men de er lam. S. ligestrags
+ser h. en Ulv kom rendende op paa en
+H&#xF8;j der siden kaldes Ulveh&#xF8;j og den satte
+sig paa sin R&#xF8;v at tude og strags kom der
+en til [h] op til ham og s. rejste de begge
+to bagefter de andre. Siden havde h. ikke
+set Ulve, det var de to sidste.--
+Den Hegs tog sig paa at gj&#xF8;re det, for at fri
+de andre Hegse fra at blive br&#xE6;ndt og siden
+er der ingen Hegse bleven br&#xE6;ndt her i Lan-
+det.</danish_manuscript>
+  <english_manuscript>There's a farm in Astrup called Torne. Old Kristen Torne, who was the grandfather of the current farmwife, remembered that a woman traveled to Norway with wolves. He said to her, when they met, "Good day, mother! You've got yourself a good pack of trouble [plagues]." Yes, she had, but she hadn't gotten them all, there were two left, but they were lame. Right then he sees a wolf go running up on a mound, that's been called Wolf Mound ever since, and it sat down on its ass to howl, and immediately another one came up to him and then both of them went off after the others. He hasn't seen wolves since, those were the two last two. That witch had decided to do that to free the other witches who were to be burned and since then no witches have been burned here in the country.</english_manuscript>
+  <danish_publication>Der er en g&#xE5;rd i Astrup, der hedder Torne. Den gamle Kristen Torne, der var den nuv&#xE6;rende kones bedstefader, han kunde huske, at en kone rejste til Norge med ulve, og den heks tog sig p&#xE5; at gj&#xF8;re det for at fri de andre hekse fra at blive br&#xE6;ndt. Siden er der da heller ingen hekse bleven br&#xE6;ndt her i landet. Han sagde til hende, da de m&#xF6;dtes: "Goddag, mo'er! der har I f&#xE5;et jer et godt kobbel plage." Ja, hun havde, men hun havde endelig ikke f&#xE5;et dem allesammen, der var to tilbage, men de var lamme. Lige straks ser han en ulv komme rendende op p&#xE5; en h&#xF6;j, der siden kaldes Ulveh&#xF6;j, og den satte sig p&#xE5; sin r. . at tude, og straks efter kom der &#xE9;n op til ham. S&#xE5; satte de begge to bag efter de andre, og siden har en ikke set ulve her i landet, det var de to sidste.</danish_publication>
+  <english_publication>There&#x2019;s a farm in Astrup called Torne. The old Kristen Torne, who was the grandfather of the current farmwife, he remembered that a woman traveled to Norway with wolves, and that witch occupied herself with freeing other witches who were to be burned. No witches have been burned here in this country since. He said to her, when they met, &#x201C;Good day, mother! You&#x2019;ve got yourself a good pack of trouble [plagues].&#x201D; Yes, she had, but she hadn&#x2019;t gotten them all, there were two left, but they were lame. Right then he sees a wolf go running up on a mound that&#x2019;s been called Wolf Mound ever since, and it sat down on its ass to howl and, immediately after, another one came up to him. Then both of them had to follow the others and since then there haven&#x2019;t been wolves here in the country, those were the last two.</english_publication>
+  <keywords>
+    <keyword id="52" frequency="1" keyword="ass">ass</keyword>
+    <keyword id="269" frequency="2" keyword="country">country</keyword>
+    <keyword id="290" frequency="1" keyword="current">current</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="413" frequency="2" keyword="fire">fire</keyword>
+    <keyword id="443" frequency="1" keyword="free">free</keyword>
+    <keyword id="478" frequency="1" keyword="grandfather">grandfather</keyword>
+    <keyword id="670" frequency="1" keyword="kristen_torne">Kristen Torne</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="804" frequency="2" keyword="mound">mound</keyword>
+    <keyword id="866" frequency="1" keyword="norway">Norway</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1351" frequency="3" keyword="witch">witch</keyword>
+    <keyword id="1355" frequency="4" keyword="wolf">wolf</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="79" display_name="Animals: None / Unspecified"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+    <tango_index id="136" display_name="Animals: Wild"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

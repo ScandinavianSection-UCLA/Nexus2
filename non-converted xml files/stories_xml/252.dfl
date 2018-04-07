@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<story story_id="252">
+  <publication_info>JAH_V_697</publication_info>
+  <full_name>235 - 1.32 - JAH_V_697</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.32</order_told>
+  <fieldtrip id="7">May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>228</place_id>
+      <name>Hallendrup</name>
+      <display_name>Hallendrup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>425</place_id>
+      <name>Nielstrup</name>
+      <display_name>Nielstrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="352">
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1028</publication_info>
+      <full_name>90 - 2.20 - DS_VI_1028</full_name>
+      <url>data/stories/352.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5218b (3)</fielddiary_page_start>
+  <fielddiary_page_end>5218b (3)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Vagabonds, beggars and itinerant laborers were known by nicknames as were the cunning folk. Kirsten Marie brings the world of these itinerants into her immediate sphere, by situating the peddler's house next to her father's house. The belief that a coin in the pocket would bring success in trade that day is a form of sympathetic magic, in which "like produces like." Here, the money in the pocket would attract more money.</annotation>
+  <danish_manuscript>Kristoffer J&#xE6;n&#xF8;ww havde en Kammerat der
+hed Pjalt-Johan og h. boede i et Sted
+imellem Nielstrup og Hallendrup. Hans
+Kone kaldtes Kat-Ma-Elgaards. Ha gik
+omkring og samlede Messing t&#xF8;j og Kobbert&#xF8;j
+og Katte og Katteskind. De tog selv Kattene
+af. S. havde h. den Tanke, der boede en Mand
+ved Siden af ham, at h. gik hen og laante en
+Mark hver Mandag Morgen inden h. gik ud
+og handlede. Det var netop min Fader h. laan
+te dem af og s. kom h. igien med den hver
+S&#xF8;ndag Morgen.</danish_manuscript>
+  <english_manuscript>Kristoffer Jenn&#xF6;ww had a friend who was called Pjalt Johan, and he lived somewhere between Nielstrup and Hallendrup. His wife was called Kat-Ma-Elg&#xE5;rds. He went about and collected brass and copper and cats and cat skins. They killed the cats themselves. He had this belief, there was a man who lived next to him, and he came and borrowed a mark from him every Monday morning, before he went out to trade. It was my father he borrowed the mark from, and he brought it back again every Sunday morning.</english_manuscript>
+  <danish_publication>Kristoffer Jenn&#xF6;ww havde en kammerat, der hed Pjalt-Johan, og han boede i et sted imellem Nielstrup og Hallendrup. Hans kone kaldtes Kat-Ma-Elg&#xE5;rds. Han gik omkring og samlede messingt&#xF6;j og kobbert&#xF6;j og katte og katteskind. De tog selv kattene af. Der boede en mand ved siden af ham, og ham kom han til og l&#xE5;nte en mark af hver mandag morgen, inden han gik ud og handlede, og s&#xE5; kom han igjen med den hver s&#xF8;ndag morgen. Det var jo hans tanke, at der var held ved den mark. Det var netop min fader, han l&#xE5;nte marken af, s&#xE5; a v&#xE9;d, det er sandt.</danish_publication>
+  <english_publication>Kristoffer Jenn&#xF6;ww had a friend who was called Pjalt Johan, and he lived somewhere between Nielstrup and Hallendrup. His wife was called Kat-Ma-Elg&#xE5;rds. He went about and collected brass and copper and cats and cat skins. They killed the cats themselves. There was a man who lived next to him, and Pjalt Johan came and borrowed a mark from him every Monday morning, before he went out and traded, and he brought it back again every Sunday morning. He believed that that mark was lucky. It was my father he borrowed the mark from, so I know that it's true.</english_publication>
+  <keywords>
+    <keyword id="87" frequency="1" keyword="belief">belief</keyword>
+    <keyword id="125" frequency="2" keyword="borrow">borrow</keyword>
+    <keyword id="137" frequency="1" keyword="brass">brass</keyword>
+    <keyword id="187" frequency="3" keyword="cat">cat</keyword>
+    <keyword id="259" frequency="1" keyword="copper">copper</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="445" frequency="1" keyword="friend">friend</keyword>
+    <keyword id="601" frequency="1" keyword="johan">Johan</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="727" frequency="1" keyword="luck">luck</keyword>
+    <keyword id="729" frequency="1" keyword="ma_elg&#xE5;rds">Ma Elg&#xE5;rds</keyword>
+    <keyword id="792" frequency="1" keyword="monday">monday</keyword>
+    <keyword id="801" frequency="2" keyword="morning">morning</keyword>
+    <keyword id="1128" frequency="1" keyword="skin">skin</keyword>
+    <keyword id="1218" frequency="1" keyword="sunday">Sunday</keyword>
+    <keyword id="1343" frequency="1" keyword="wife">wife</keyword>
+  </keywords>
+  <etk_index id="35">
+    <heading_danish>Livet uden d&#xF8;re</heading_danish>
+    <heading_english>Life outdoors</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="3" display_name="People: Beggar / Poor person"/>
+    <tango_index id="69" display_name="Animals: Cat"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<story story_id="710">
+  <publication_info>DS_V_1182</publication_info>
+  <full_name>522 - 0.00 - DS_V_1182</full_name>
+  <informant_id>522</informant_id>
+  <informant_last_name>Poulsen</informant_last_name>
+  <informant_first_name>Martinus</informant_first_name>
+  <informant_full_name>Martinus Poulsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>889</place_id>
+      <name>Testrup</name>
+      <display_name>Testrup (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1056</place_id>
+      <name>&#xD8;sl&#xF8;s</name>
+      <display_name>&#xD8;sl&#xF8;s (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="683">
+      <informant_id>495</informant_id>
+      <publication_info>DS_V_1195</publication_info>
+      <full_name>495 - 0.00 - DS_V_1195</full_name>
+      <url>data/stories/683.dfl</url>
+    </story>
+    <story story_id="378">
+      <informant_id>123</informant_id>
+      <publication_info>DS_V_1163</publication_info>
+      <full_name>123 - 2.04 - DS_V_1163</full_name>
+      <url>data/stories/378.dfl</url>
+    </story>
+    <story story_id="356">
+      <informant_id>90</informant_id>
+      <publication_info>DS_V_1232</publication_info>
+      <full_name>90 - 3.02 - DS_V_1232</full_name>
+      <url>data/stories/356.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En pige i S&#xF8;nderg&#xE5;rd i &#xD8;sl&#xF8;s f&#xF8;dte i d&#xF8;lgsm&#xE5;l og kastede barnet for hundene. En tid efter blev der s&#xE5;dan uro p&#xE5; hestene i stalden og p&#xE5; kreaturerne, og hundene gj&#xF8;ede i g&#xE5;rden. Det sp&#xF6;gte ogs&#xE5; p&#xE5; et loftskammer der. En anden pige, der hed Sanne, kunde se s&#xE5;dant noget, og hun gik efter at ville m&#xF8;de det, men det veg stadig for hende. S&#xE5; gik hun til pr&#xE6;sten, der hed Himmelstrup, og bad ham om at give hende et r&#xE5;d, s&#xE5; hun kunde komme til at tale med gjenf&#xE6;rdet. Han sagde, at n&#xE5;r hun nu gik ud og vilde m&#xF8;de det, skulde hun sige: I Jesu navn kan det ske. En aften traf hun det s&#xE5; godt nok, men begik den store fejl at sige: "Ja, kan det ske i Jesu navn." I samme &#xF6;jeblik sank hun til jorden og fik et slag. Hendes helbred var siden sv&#xE6;kket, l&#xE6;gehj&#xE6;lp blev s&#xF6;gt, men det hjalp ikke. Det gjenf&#xE6;rd blev siden vist v&#xE6;k fra g&#xE5;rden og ud i det sydvestre hj&#xF6;rne af marken. Det kan dog m&#xE6;rkes til visse tider der ude endnu, s&#xE5;ledes ogs&#xE5; i det loftskammer.</danish_publication>
+  <english_publication>A girl in S&#xF8;nderg&#xE5;rd in &#xD8;sl&#xF8;s had had a baby in secret and had thrown the baby to the dogs. A little later there was a great disturbance among the horses and the cows in the stalls, and the dogs howled out in the yard. There was also haunting in an attic room there. Another girl, who was called Sanne, could see that kind of thing and she went out to try and meet it, but it kept going away from her. Then she went to the minister and asked him to give her some advice so she could talk to the revenant. He said that when she went out to meet it, she should say: It can happen in the name of Jesus. One night she met it well enough but she made the big mistake of saying: &#x201C;Well, can it happen in the name of Jesus.&#x201D; At the same moment, she sank to the ground from a hit. Since then, her health failed and a doctor&#x2019;s help was sought out but it didn&#x2019;t help. The revenant was later shown out of the farm and into the southwest corner of the field. It can still be noticed at certain times out there, and also in the attic room.</english_publication>
+  <keywords>
+    <keyword id="12" frequency="1" keyword="advice">advice</keyword>
+    <keyword id="55" frequency="2" keyword="attic">attic</keyword>
+    <keyword id="219" frequency="2" keyword="children">children</keyword>
+    <keyword id="274" frequency="1" keyword="cow">cow</keyword>
+    <keyword id="339" frequency="1" keyword="disturbance">disturbance</keyword>
+    <keyword id="342" frequency="1" keyword="doctor">doctor</keyword>
+    <keyword id="343" frequency="2" keyword="dog">dog</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="508" frequency="1" keyword="haunting">haunting</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="598" frequency="2" keyword="jesus">Jesus</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="822" frequency="2" keyword="name">name</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1027" frequency="2" keyword="revenant">revenant</keyword>
+    <keyword id="1082" frequency="1" keyword="secrets">secrets</keyword>
+    <keyword id="1169" frequency="1" keyword="southwest">southwest</keyword>
+    <keyword id="1186" frequency="1" keyword="stall">stall</keyword>
+    <keyword id="1368" frequency="1" keyword="yard">yard</keyword>
+  </keywords>
+  <etk_index id="24">
+    <heading_danish>Kvindelige gjenf&#xE6;rd</heading_danish>
+    <heading_english>Female revenants</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="81" display_name="Actions or events: Conjuring"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="89" display_name="Actions or events: Injury"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

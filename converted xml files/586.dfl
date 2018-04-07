@@ -1,0 +1,67 @@
+<story><story_id>586</story_id>
+  <publication_info>DS_VI_48</publication_info>
+  <full_name>144 - 0.00 - DS_VI_48</full_name>
+  <informant_id>144</informant_id>
+  <informant_last_name>Kristensdatter</informant_last_name>
+  <informant_first_name>Johanne Marie</informant_first_name>
+  <informant_full_name>Johanne Marie Kristensdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1033</place_id>
+      <name>Trudslev</name>
+      <display_name>Trudslev (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>159</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_IV_1052</publication_info>
+      <full_name>241 - 2.09 - DS_IV_1052</full_name>
+      <url>data/stories/159.dfl</url>
+    </story>
+    <story><story_id>552</story_id>
+      <informant_id>554</informant_id>
+      <publication_info>DS_VI_66</publication_info>
+      <full_name>554 - 0.00 - DS_VI_66</full_name>
+      <url>data/stories/552.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Frimurerne skal mure p&#229; Babels t&#229;rn efter deres d&#248;d. De bliver aldrig fattige, for de finder altid penge i deres seng. De d&#248;er altid pludselig. Den, der har fors&#233;t sig eller r&#248;ber noget af hemmelighederne, de f&#229;r blot en knappen&#229;l stukket i deres portr&#230;t, s&#229; d&#248;er de. S&#229;ledes gik det &#233;n, der boede oppe i Trudslev.</danish_publication>
+  <english_publication>The Freemasons are supposed to work on the tower of Babel after they die. They never become poor, because they always find money in their beds. They always die suddenly. Those who commit offenses or reveal any of the secrets, they get a needle poked into their portrait, and then they die. That's what happened to one who lived up in Trudslev.</english_publication>
+  <keywords>
+    <keyword><id>83</id><frequency>1</frequency><keyword>bed</keyword>bed</keyword>
+    <keyword><id>317</id><frequency>3</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>444</id><frequency>1</frequency><keyword>freemason</keyword>freemason</keyword>
+    <keyword><id>793</id><frequency>1</frequency><keyword>money</keyword>money</keyword>
+    <keyword><id>827</id><frequency>1</frequency><keyword>needle</keyword>needle</keyword>
+    <keyword><id>974</id><frequency>1</frequency><keyword>poor</keyword>poor</keyword>
+    <keyword><id>1082</id><frequency>1</frequency><keyword>secrets</keyword>secrets</keyword>
+    <keyword><id>1274</id><frequency>1</frequency><keyword>tower</keyword>tower</keyword>
+    <keyword><id>1361</id><frequency>1</frequency><keyword>work</keyword>work</keyword>
+  </keywords>
+  <etk_index><id>27</id>
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>1</id><name>Belief</name></genre>
+</story>

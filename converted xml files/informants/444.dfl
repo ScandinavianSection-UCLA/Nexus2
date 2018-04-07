@@ -1,0 +1,37 @@
+<informant><person_id>444</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer Th. Kruse</full_name>
+  <last_name>Kruse</last_name>
+  <first_name>Th.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>849</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>444</informant_id>
+      <publication_info>DS_II_F_73</publication_info>
+      <full_name>444 - 0.00 - DS_II_F_73</full_name>
+      <url>data/stories/849.dfl</url>
+      <place_recorded><id>784</id>Greve</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>784</place_id>
+      <name>Greve</name>
+      <display_name>Greve (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

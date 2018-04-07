@@ -1,0 +1,79 @@
+<informant><person_id>478</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer M. M&#248;ller</full_name>
+  <last_name>M&#248;ller</last_name>
+  <first_name>M.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>680</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>478</informant_id>
+      <publication_info>DS_I_1128</publication_info>
+      <full_name>478 - 0.00 - DS_I_1128</full_name>
+      <url>data/stories/680.dfl</url>
+      <place_recorded><id>823</id>Lime</place_recorded>
+      <places_mentioned>
+        <place><id>273</id>
+          <name>Holstebro</name>
+        </place>
+        <place><id>688</id>
+          <name>Vejvad</name>
+        </place>
+        <place><id>709</id>
+          <name>Vinding</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>681</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>478</informant_id>
+      <publication_info>DS_VII_335</publication_info>
+      <full_name>478 - 0.00 - DS_VII_335</full_name>
+      <url>data/stories/681.dfl</url>
+      <place_recorded><id>823</id>Lime</place_recorded>
+      <places_mentioned>
+        <place><id>661</id>
+          <name>Troms&#248;</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>823</place_id>
+      <name>Lime</name>
+      <display_name>Lime (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>661</place_id>
+      <name>Troms&#248;</name>
+      <display_name>Troms&#248; (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>709</place_id>
+      <name>Vinding</name>
+      <display_name>Vinding (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>688</place_id>
+      <name>Vejvad</name>
+      <display_name>Vejvad (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>273</place_id>
+      <name>Holstebro</name>
+      <display_name>Holstebro (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

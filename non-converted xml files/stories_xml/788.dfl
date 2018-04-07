@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<story story_id="788">
+  <publication_info>DS_I_1356</publication_info>
+  <full_name>382 - 0.00 - DS_I_1356</full_name>
+  <informant_id>382</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>824</place_id>
+      <name>Lin&#xE5;</name>
+      <display_name>Lin&#xE5; (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>162</place_id>
+      <name>Flensted mark</name>
+      <display_name>Flensted mark (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>330</place_id>
+      <name>Klanh&#xF8;je</name>
+      <display_name>Klanh&#xF8;je (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>505</place_id>
+      <name>Ry skov</name>
+      <display_name>Ry skov (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="180">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_I_901</publication_info>
+      <full_name>241 - 4.09 - DSnr_I_901</full_name>
+      <url>data/stories/180.dfl</url>
+    </story>
+    <story story_id="620">
+      <informant_id>359</informant_id>
+      <publication_info>DS_I_1354</publication_info>
+      <full_name>359 - 0.00 - DS_I_1354</full_name>
+      <url>data/stories/620.dfl</url>
+    </story>
+    <story story_id="756">
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1340</publication_info>
+      <full_name>348 - 0.00 - DS_I_1340</full_name>
+      <url>data/stories/756.dfl</url>
+    </story>
+    <story story_id="861">
+      <informant_id/>
+      <publication_info>DS_I_1358</publication_info>
+      <full_name>0 - 0.00 - DS_I_1358</full_name>
+      <url>data/stories/861.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Oppe ved Klanh&#xF6;je p&#xE5; Flensted mark var der ogs&#xE5; bj&#xE6;rgm&#xE6;nd. De flyttede over ad Ry skov, da de ikke kunde v&#xE6;re der l&#xE6;ngere. Det var, da der blev kirker her, de kunde ikke v&#xE6;re for de dingdanger.</danish_publication>
+  <english_publication>There was a mound man up near Klanh&#xF8;j on Flensted mark as well. They moved over to Ry forest when they couldn't stay there any longer. That was when churches were built here, and they couldn't stay because of the dingdanger.</english_publication>
+  <keywords>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="807" frequency="1" keyword="mound_man">mound man</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="46" display_name="Tools, Items and Conveyances: Bell"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

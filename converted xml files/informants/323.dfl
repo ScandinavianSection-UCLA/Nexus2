@@ -1,0 +1,54 @@
+<informant><person_id>323</person_id>
+  <core_informant/>
+  <full_name>Knud Andersen</full_name>
+  <last_name>Andersen</last_name>
+  <first_name>Knud</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>618</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>323</informant_id>
+      <publication_info>DS_VI_886</publication_info>
+      <full_name>323 - 0.00 - DS_VI_886</full_name>
+      <url>data/stories/618.dfl</url>
+      <place_recorded><id>835</id>N&#248;rbeg</place_recorded>
+      <places_mentioned>
+        <place><id>238</id>
+          <name>Handest</name>
+        </place>
+        <place><id>708</id>
+          <name>Vindbl&#230;s</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>835</place_id>
+      <name>N&#248;rbeg</name>
+      <display_name>N&#248;rbeg (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>708</place_id>
+      <name>Vindbl&#230;s</name>
+      <display_name>Vindbl&#230;s (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>238</place_id>
+      <name>Handest</name>
+      <display_name>Handest (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

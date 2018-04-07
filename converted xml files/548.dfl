@@ -1,0 +1,85 @@
+<story><story_id>548</story_id>
+  <publication_info>DS_II_G_323</publication_info>
+  <full_name>466 - 0.00 - DS_II_G_323</full_name>
+  <informant_id>466</informant_id>
+  <informant_last_name>Madsen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>L&#230;rer Jens Madsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>767</place_id>
+      <name>Ellund</name>
+      <display_name>Ellund (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>25</place_id>
+      <name>Almind banker</name>
+      <display_name>Almind banker (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>346</place_id>
+      <name>Konge&#229;en</name>
+      <display_name>Konge&#229;en (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>204</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_G_250</publication_info>
+      <full_name>241 - 4.32 - DSnr_II_G_250</full_name>
+      <url>data/stories/204.dfl</url>
+    </story>
+    <story><story_id>785</story_id>
+      <informant_id>340</informant_id>
+      <publication_info>DS_II_G_317</publication_info>
+      <full_name>340 - 0.00 - DS_II_G_317</full_name>
+      <url>data/stories/785.dfl</url>
+    </story>
+    <story><story_id>465</story_id>
+      <informant_id>431</informant_id>
+      <publication_info>DS_II_G_334</publication_info>
+      <full_name>431 - 0.00 - DS_II_G_334</full_name>
+      <url>data/stories/465.dfl</url>
+    </story>
+    <story><story_id>559</story_id>
+      <informant_id>440</informant_id>
+      <publication_info>DS_II_G_324</publication_info>
+      <full_name>440 - 0.00 - DS_II_G_324</full_name>
+      <url>data/stories/559.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Under &#233;n af Almind banker skal Holger Danske sidde og sove, indtil en gang Danmark kommer i n&#248;d: til Tyrken vander sin best i Konge&#229;en, s&#229; kommer han.</danish_publication>
+  <english_publication>Holger Danske is supposed to sit and sleep under one of the Almind hills until Denmark is in need. Until the Turk waters his horse in Konge&#229;en (King River), then he'll come.</english_publication>
+  <keywords>
+    <keyword><id>301</id><frequency>1</frequency><keyword>dansk</keyword>Dansk</keyword>
+    <keyword><id>323</id><frequency>1</frequency><keyword>denmark</keyword>denmark</keyword>
+    <keyword><id>530</id><frequency>1</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>545</id><frequency>1</frequency><keyword>horse</keyword>horse</keyword>
+    <keyword><id>624</id><frequency>1</frequency><keyword>king</keyword>king</keyword>
+    <keyword><id>1034</id><frequency>1</frequency><keyword>river</keyword>river</keyword>
+    <keyword><id>1142</id><frequency>1</frequency><keyword>sleep</keyword>sleep</keyword>
+    <keyword><id>1286</id><frequency>1</frequency><keyword>turk</keyword>turk</keyword>
+  </keywords>
+  <etk_index><id>8</id>
+    <heading_danish>Religi&#248;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>20</id><display_name>People: Strong Man / Hero</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>42</id><display_name>Places: Stream / River</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

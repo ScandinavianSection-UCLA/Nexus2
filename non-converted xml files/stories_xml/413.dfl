@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<story story_id="413">
+  <publication_info>DS_IV_1075</publication_info>
+  <full_name>123 - 3.10 - DS_IV_1075</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.10</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>62</place_id>
+      <name>Blegind</name>
+      <display_name>Blegind (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="329">
+      <informant_id>90</informant_id>
+      <publication_info>DS_IV_988</publication_info>
+      <full_name>90 - 1.06 - DS_IV_988</full_name>
+      <url>data/stories/329.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3799b</fielddiary_page_start>
+  <fielddiary_page_end>3800a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references>
+    <reference id="398" category="general">
+      <display_string>[Book] R&#xF8;rbye, Birgitte. 1976. &lt;i&gt;Kloge folk og skidtfolk. Kvaksalveriets epoke i Danmark&lt;/i&gt;. Copenhagen: Politiken.</display_string>
+    </reference>
+    <reference id="787" category="general">
+      <display_string>[Article] Stokker, Kathleen. 1989. To Catch a Thief : Binding and Loosing and the Black Book Minister. Vol. 61 of &lt;i&gt;Scandinavian Studies&lt;/i&gt; 4: 353-374.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Peder's story of the wise minister who is able to bind thieves explores in part the thin line between witchcraft and cunning. Witchcraft is always exercised for personal gain and always harms people in the community, either physically, economically, or both. Cunning, in contrast, is always used to protect the community from outside threat, be it a threat to property or to physical well being. 
+
+     There were two classes of cunning folk: ministers, and lay persons. Here, the minister uses his cunning to protect his own apples from theft. The apples represent a modest, but important part of the agricultural income that was a component of his compensation.
+
+     That the thief is someone from the community calls to mind the image of the witch, who likewise steals from community members, and who is often confronted by the minister. Unlike the witch in the previous story, the thief is duly chastised by the local authorities, here in the guise of the minister.
+
+     Ane Margrete Jensdatter tells a story of another wise minister who was similarly able to use his cunning for the benefit of the community (AMJ 1.06).</annotation>
+  <danish_manuscript>Der var en Mand i Blegind h. gaar op til
+Pr&#xE6;stens flere N&#xE6;tter og tog af &#xC6;blerne, de hav-
+de s. meget nogle gode &#xC6;bler. S. fik de 
+det da opdaget te der var nogen, som gik
+i &#xC6;blerne. S. s. karlen til Pr. om de skulde
+ikke sidde Vagt og se hvem det var. Det beh&#xF8;
+ves s. m&#xE6;nd ikke, for n&#xE6;renstid du staar op
+
+3800A
+i Morgen tidlig s. kan du gaa derud, og det s&#xE6;
+dede ogsaa godt nok, da Folk kom op om
+Morg. gik de om i Haven og der sad M. oppe
+i Tr&#xE6;et, en af Byens M&#xE6;nd og havde en Pose
+i den ene Haand og i den var et enligt &#xC6;ble
+for at [h] en kunde se, det var [ham] det h. gik
+efter og med den 2 Haand holdt sig med. S. pr&#xF8;
+vede Folk. paa at ville have hjulpet ham
+ned, men det kunde de ikke. S. s. Pr. da h.
+kom: Det er s&#xE6;rt du ikke er klogere end at 
+befatte dig med saadan noget, og s. kunde h.
+gaa ned.
+</danish_manuscript>
+  <english_manuscript>There was a man in Blegind, he went over to the minister's on many nights and stole some of the good apples they had there. Then they noticed that somebody was getting into the apples. Then the farmhand asks the minister if he shouldn't sit guard and see who it was. "That isn't really necessary, because by the time you wake up tomorrow morning, then you can go out and see who it is," and that was true enough. When the people got up the next morning and went out in the yard, there was a man sitting up in one of the trees, he was one of the townsmen, and had a sack in one hand and in it was a single apple so that one could see that it was that he was out after and he was holding on with the other hand. Then people tried to help him down but they couldn't. When the minister came he said, "It's pathetic that you aren't smarter than to occupy yourself with something like this," and then he could climb down.</english_manuscript>
+  <danish_publication>Der var en mand i Blegind, han gik op til pr&#xE6;sten flere n&#xE6;tter og stjal af s&#xE5;dan nogle gode &#xE6;bler, de havde. De fik at se, at der var nogen, som tog af dem, og s&#xE5; siger karlen til pr&#xE6;sten, om de skulde ikke sidde vagt og se, hvem det var. "Det beh&#xF8;ves s&#xE5; m&#xE6;nd ikke, for n&#xE6;renstid du st&#xE5;r op i morgen tidlig, s&#xE5; kan du g&#xE5; der ud og se ad." Da folk kom op om morgenen og gik om i haven, sad en af byens m&#xE6;nd oppe i tr&#xE6;et og havde en pose i den ene h&#xE5;nd, og i den var et enligt &#xE6;ble, for at en kunde se, det var det, han gik efter, og han holdt sig ved med den anden h&#xE5;nd. S&#xE5; pr&#xF8;vede folk p&#xE5; at hj&#xE6;lpe ham ned, men det kunde de ikke. Da pr&#xE6;sten kom, sagde han: "Det er s&#xE6;rt, du ikke er klogere end at befatte dig med s&#xE5;dant noget," og s&#xE5; kunde han g&#xE5; ned.</danish_publication>
+  <english_publication>There was a man in Blegind, he went over to the minister's many nights and stole some of the good apples they had there. They noticed that somebody was taking them and then the farmhand asks the minister if he shouldn't sit guard and see who it was. &#x201C;That isn't really necessary, because by the time you wake up tomorrow morning, then you can go out and see who it is.&#x201D; When the people got up the next morning and went out in the yard, one of the townsmen was sitting up in the tree and had a sack in one hand and in it was a single apple so that one could see that that was what he was after and he was holding onto the tree with the other hand. Then people tried to help him down but they couldn't. When the minister came he said, &#x201C;It's sad that you aren't smarter than to occupy yourself with something like this,&#x201D; and then he could climb down.</english_publication>
+  <keywords>
+    <keyword id="42" frequency="2" keyword="apples">apples</keyword>
+    <keyword id="395" frequency="1" keyword="farm_hand">farmhand</keyword>
+    <keyword id="786" frequency="3" keyword="minister">minister</keyword>
+    <keyword id="801" frequency="2" keyword="morning">morning</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="1144" frequency="1" keyword="smart">smart</keyword>
+    <keyword id="1267" frequency="1" keyword="tomorrow">tomorrow</keyword>
+    <keyword id="1278" frequency="1" keyword="townsmen">townsmen</keyword>
+    <keyword id="1281" frequency="1" keyword="tree">tree</keyword>
+    <keyword id="1368" frequency="1" keyword="yard">yard</keyword>
+  </keywords>
+  <etk_index id="18">
+    <heading_danish>Pr&#xE6;ster</heading_danish>
+    <heading_english>Ministers</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

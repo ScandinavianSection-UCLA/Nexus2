@@ -1,0 +1,94 @@
+<story><story_id>580</story_id>
+  <publication_info>DS_VII_1399</publication_info>
+  <full_name>375 - 0.00 - DS_VII_1399</full_name>
+  <informant_id>375</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>J&#248;rgen</informant_first_name>
+  <informant_full_name>Friskolel&#230;rer J&#248;rgen Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>899</place_id>
+      <name>V&#230;rslev</name>
+      <display_name>V&#230;rslev (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>899</place_id>
+      <name>V&#230;rslev</name>
+      <display_name>V&#230;rslev (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>44</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_1409</publication_info>
+      <full_name>150 - 1.41 - DS_VII_1409</full_name>
+      <url>data/stories/44.dfl</url>
+    </story>
+    <story><story_id>808</story_id>
+      <informant_id>436</informant_id>
+      <publication_info>DS_VII_1357</publication_info>
+      <full_name>436 - 0.00 - DS_VII_1357</full_name>
+      <url>data/stories/808.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En kone i Assendrup, V&#230;rslev, kunde p&#229; &#233;n gang ikke f&#229; sm&#246;r af sine to k&#248;er. Hun henvendte sig til en klog kone, og fik det r&#229;d at kj&#248;be en ny ubrugt potte uden at prutte om prisen (stiltiende), fylde den med m&#230;lk og stiltiende s&#230;tte den hen p&#229; skorstenen p&#229; en st&#230;rk gl&#248;deild, stille en ubrugt riskost uden for d&#246;ren og s&#229; lukke den i l&#229;s, ti k&#248;erne var forheksede, og den skyldige m&#229;tte s&#229; snart indfinde sig under et eller andet p&#229;skud. Men den m&#229;tte p&#229; ingen m&#229;de komme ind, og der imod skulde potten v&#230;ltes. Alt dette blev nu punktlig udf&#248;rt, og straks var heksen ved d&#246;ren for at bede om en p&#230;gl m&#230;lk til vor fa'r, for han var da bleven s&#229; d&#229;rlig, s&#229; hun troede, han kreperede inden aften. Men der hjalp ingen b&#246;n, potten blev v&#230;ltet, og med et skrig styrtede hun hjemad. N&#230;ste dag l&#229; hun og var n&#230;sten skoldet op.</danish_publication>
+  <english_publication>All of a sudden, a woman in Assendrup, V&#230;rslev couldn&#8217;t get cream from her two cows. She went to a cunning woman and got the advice to buy a new unused pot without bargaining over the price (keeping quiet), fill it with milk and, still keeping quiet, put it over the hearth on a hot glowing fire, put an unused straw broom outside the door and then lock it, because the cows were bewitched, and the guilty one had to appear soon under some pretext. But the guilty person was not to be allowed inside under any circumstances and the pot should be tipped over. All of these instructions were followed precisely and the witch was immediately at the door asking for a pail of milk for her father who had become so ill that she was afraid that he&#8217;d die before nightfall. But begging and pleading didn't help, the pot was tipped over and, with a scream, she took off home. The next day she lay and was practically scalded to death.</english_publication>
+  <keywords>
+    <keyword><id>12</id><frequency>1</frequency><keyword>advice</keyword>advice</keyword>
+    <keyword><id>19</id><frequency>1</frequency><keyword>allow</keyword>allow</keyword>
+    <keyword><id>87</id><frequency>1</frequency><keyword>belief</keyword>belief</keyword>
+    <keyword><id>147</id><frequency>1</frequency><keyword>broom</keyword>broom</keyword>
+    <keyword><id>220</id><frequency>1</frequency><keyword>chimney</keyword>chimney</keyword>
+    <keyword><id>274</id><frequency>2</frequency><keyword>cow</keyword>cow</keyword>
+    <keyword><id>279</id><frequency>1</frequency><keyword>cream</keyword>cream</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>317</id><frequency>2</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>344</id><frequency>2</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>399</id><frequency>1</frequency><keyword>father</keyword>father</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>430</id><frequency>1</frequency><keyword>folk_healer</keyword>folk healer</keyword>
+    <keyword><id>491</id><frequency>2</frequency><keyword>guilty</keyword>guilty</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>555</id><frequency>1</frequency><keyword>ill</keyword>ill</keyword>
+    <keyword><id>722</id><frequency>1</frequency><keyword>lock</keyword>lock</keyword>
+    <keyword><id>782</id><frequency>2</frequency><keyword>milk</keyword>milk</keyword>
+    <keyword><id>850</id><frequency>1</frequency><keyword>nightfall</keyword>nightfall</keyword>
+    <keyword><id>889</id><frequency>1</frequency><keyword>outside</keyword>outside</keyword>
+    <keyword><id>894</id><frequency>1</frequency><keyword>pail</keyword>pail</keyword>
+    <keyword><id>981</id><frequency>3</frequency><keyword>pot</keyword>pot</keyword>
+    <keyword><id>989</id><frequency>1</frequency><keyword>prayer</keyword>prayer</keyword>
+    <keyword><id>1072</id><frequency>1</frequency><keyword>scalded</keyword>scalded</keyword>
+    <keyword><id>1206</id><frequency>1</frequency><keyword>straw</keyword>straw</keyword>
+    <keyword><id>1351</id><frequency>1</frequency><keyword>witch</keyword>witch</keyword>
+    <keyword><id>1353</id><frequency>1</frequency><keyword>witchcraft</keyword>witchcraft</keyword>
+    <keyword><id>1356</id><frequency>2</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>89</id><display_name>Actions or events: Injury</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

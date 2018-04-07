@@ -1,0 +1,62 @@
+<informant><person_id>448</person_id>
+  <core_informant/>
+  <full_name>Karl Larsen</full_name>
+  <last_name>Larsen</last_name>
+  <first_name>Karl</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>610</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>448</informant_id>
+      <publication_info>DS_VI_323</publication_info>
+      <full_name>448 - 0.00 - DS_VI_323</full_name>
+      <url>data/stories/610.dfl</url>
+      <place_recorded><id>816</id>Kornerup</place_recorded>
+      <places_mentioned>
+        <place><id>96</id>
+          <name>Br&#248;ndbyvester</name>
+        </place>
+        <place><id>117</id>
+          <name>Damhuskro</name>
+        </place>
+        <place><id>559</id>
+          <name>Snoldelev</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>816</place_id>
+      <name>Kornerup</name>
+      <display_name>Kornerup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>559</place_id>
+      <name>Snoldelev</name>
+      <display_name>Snoldelev (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>117</place_id>
+      <name>Damhuskro</name>
+      <display_name>Damhuskro (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>96</place_id>
+      <name>Br&#248;ndbyvester</name>
+      <display_name>Br&#248;ndbyvester (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,37 @@
+<informant><person_id>511</person_id>
+  <core_informant/>
+  <full_name>Hans Kristian Pedersen</full_name>
+  <last_name>Pedersen</last_name>
+  <first_name>Hans Kristian</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>532</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>511</informant_id>
+      <publication_info>DS_II_C_78</publication_info>
+      <full_name>511 - 0.00 - DS_II_C_78</full_name>
+      <url>data/stories/532.dfl</url>
+      <place_recorded><id>790</id>Haslund</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>790</place_id>
+      <name>Haslund</name>
+      <display_name>Haslund (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

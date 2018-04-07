@@ -1,0 +1,89 @@
+<story><story_id>651</story_id>
+  <publication_info>DS_V_1443</publication_info>
+  <full_name>395 - 0.00 - DS_V_1443</full_name>
+  <informant_id>395</informant_id>
+  <informant_last_name>Jakobsen</informant_last_name>
+  <informant_first_name>J.</informant_first_name>
+  <informant_full_name>L&#230;rer J. Jakobsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>167</place_id>
+      <name>Foulum</name>
+      <display_name>Foulum (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>596</place_id>
+      <name>Stistrup</name>
+      <display_name>Stistrup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>234</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_1430</publication_info>
+      <full_name>235 - 1.15 - DS_V_1430</full_name>
+      <url>data/stories/234.dfl</url>
+    </story>
+    <story><story_id>533</story_id>
+      <informant_id>458</informant_id>
+      <publication_info>DS_V_1454</publication_info>
+      <full_name>458 - 0.00 - DS_V_1454</full_name>
+      <url>data/stories/533.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>I begyndelsen af dette &#229;rhundrede, da jorderne blev udskiftede, kom der til Stistrup i Fovlum en avtoriseret landm&#229;ler, som kaldtes Holm (Skov, Foss?), og han begik bedrageri ved udskiftningen. En mand og hans to s&#246;nner var blevne uenige med deres nabo om retningen af skjellet. Det var i Stistrup udmark. Manden og s&#246;nnerne var med der ude og gjorde sig s&#229; br&#248;sige, at det til sidst blev, som han vilde have det. Men da s&#229; landm&#229;leren kom ned i Fovlum Korre, gjorde han ogs&#229; der bedrageri, og ved nordre enden af korren kan enhver se den dag i dag, at det ikke er, som det skal v&#230;re. Der var et gammelt digeh&#230;v rundt om korren, og jeg er f&#248;dt lige ved det dige, s&#229; jeg kjender god besked om sagen. I udmarken er det ogs&#229; let at se, at der er fejl. Den landm&#229;ler g&#229;r igjen p&#229; Stistrup-vejen ad Fovlum til, og hvem der kommer ad det str&#248;g ved den tid, han g&#229;r der, bliver vildfarende. Man h&#248;rer en ynkelig stemme, der siger: "Ryk i kj&#230;den og hold i stangen. Stistrup udmark og Fovlum K&#229;rrr!"</danish_publication>
+  <english_publication>At the beginning of this century, when the fields were partitioned, an authorized surveyor came to Stistrup in Fovlum. His name was Holm (Skov, Foss?) and he engaged in a swindle with the partitioning. A man and his two sons had gotten into a disagreement with a neighbor about the proper boundary. That was on Stistrup outer field. The man and his sons were out there and were so gruff that they finally got it the way they wanted it. But when the surveyor got down to the town pond in Fovlum, he also did a little swindle there too, and at the northern end of the pond, everyone can see, even to this day, that it isn't the way it should be. There was an old embankment around the pond, and I was born right near it, so I know quite a bit about the affair. It is easy to see in the outer field that there's also been a mistake. That land surveyor walks again on Stistrup road toward Fovlum, and anyone who goes on that stretch of road while he is out walking loses their way. One hears a pathetic voice that says, "Pull the chain and hold the post. Stistrup outer field and Fovlum town pond!"</english_publication>
+  <keywords>
+    <keyword><id>102</id><frequency>1</frequency><keyword>birth</keyword>birth</keyword>
+    <keyword><id>127</id><frequency>1</frequency><keyword>boundary</keyword>boundary</keyword>
+    <keyword><id>200</id><frequency>1</frequency><keyword>chain</keyword>chain</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>379</id><frequency>1</frequency><keyword>embankment</keyword>embankment</keyword>
+    <keyword><id>410</id><frequency>4</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>683</id><frequency>1</frequency><keyword>land_surveyor</keyword>land surveyor</keyword>
+    <keyword><id>753</id><frequency>1</frequency><keyword>marriage</keyword>marriage</keyword>
+    <keyword><id>822</id><frequency>1</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>828</id><frequency>1</frequency><keyword>neighbor</keyword>neighbor</keyword>
+    <keyword><id>863</id><frequency>1</frequency><keyword>north</keyword>north</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>973</id><frequency>4</frequency><keyword>pond</keyword>pond</keyword>
+    <keyword><id>979</id><frequency>1</frequency><keyword>post</keyword>post</keyword>
+    <keyword><id>1036</id><frequency>2</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1154</id><frequency>2</frequency><keyword>son</keyword>son</keyword>
+    <keyword><id>1223</id><frequency>2</frequency><keyword>surveyor</keyword>surveyor</keyword>
+    <keyword><id>1234</id><frequency>2</frequency><keyword>swindle</keyword>swindle</keyword>
+    <keyword><id>1275</id><frequency>2</frequency><keyword>town</keyword>town</keyword>
+    <keyword><id>1307</id><frequency>1</frequency><keyword>voice</keyword>voice</keyword>
+  </keywords>
+  <etk_index><id>25</id>
+    <heading_danish>Gjenf&#230;rd p&#229; uretf&#230;rdig jord</heading_danish>
+    <heading_english>Revenants on ill-gotten land</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>40</id><display_name>Places: Pond / Lake</display_name></tango_index>
+    <tango_index><id>44</id><display_name>Places: Town / Village</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>95</id><display_name>Actions or events: Punishment</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

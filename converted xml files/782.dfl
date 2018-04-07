@@ -1,0 +1,92 @@
+<story><story_id>782</story_id>
+  <publication_info>DS_II_C_68</publication_info>
+  <full_name>500 - 0.00 - DS_II_C_68</full_name>
+  <informant_id>500</informant_id>
+  <informant_last_name>Nielsen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Nielsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>903</place_id>
+      <name>Vejl&#248;</name>
+      <display_name>Vejl&#248; (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>57</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_66</publication_info>
+      <full_name>150 - 2.10 - DS_II_C_66</full_name>
+      <url>data/stories/57.dfl</url>
+    </story>
+    <story><story_id>532</story_id>
+      <informant_id>511</informant_id>
+      <publication_info>DS_II_C_78</publication_info>
+      <full_name>511 - 0.00 - DS_II_C_78</full_name>
+      <url>data/stories/532.dfl</url>
+    </story>
+    <story><story_id>169</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_C_10</publication_info>
+      <full_name>241 - 2.19 - DSnr_II_C_10</full_name>
+      <url>data/stories/169.dfl</url>
+    </story>
+    <story><story_id>458</story_id>
+      <informant_id>418</informant_id>
+      <publication_info>DS_II_C_25</publication_info>
+      <full_name>418 - 0.00 - DS_II_C_25</full_name>
+      <url>data/stories/458.dfl</url>
+    </story>
+    <story><story_id>840</story_id>
+      <informant_id>472</informant_id>
+      <publication_info>DS_II_C_36</publication_info>
+      <full_name>472 - 0.00 - DS_II_C_36</full_name>
+      <url>data/stories/840.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En kone, der en aften just havde brygget &#246;l og nu stod og drak sig en kop kaffe, h&#248;rer en smaskende lyd bag ved sig. Da er det tre r&#248;de hunde, der l&#230;skede deres t&#246;rst. S&#229; kom kong Vollermand ind ad d&#246;ren, og ham gav hun et sikar m&#230;lk for hans egen mund, da han tr&#246;stede hende godt og betalte hende ved med ildskuffen at &#248;se af de gloende emmer i hendes forkl&#230;de.</danish_publication>
+  <english_publication>A woman, who had just brewed beer and now stood and drank a cup of coffee, heard the sound of smacking lips behind her. It was three red dogs that were quenching their thirst. Then king Vollermand came in through the door, and she gave him a pitcher of milk for his own mouth and he reassured her and paid her by pouring glowing embers from the fire drawer into her apron.</english_publication>
+  <keywords>
+    <keyword><id>44</id><frequency>1</frequency><keyword>apron</keyword>apron</keyword>
+    <keyword><id>84</id><frequency>1</frequency><keyword>beer</keyword>beer</keyword>
+    <keyword><id>142</id><frequency>1</frequency><keyword>brewing</keyword>brewing</keyword>
+    <keyword><id>244</id><frequency>1</frequency><keyword>coffee</keyword>coffee</keyword>
+    <keyword><id>287</id><frequency>1</frequency><keyword>cup</keyword>cup</keyword>
+    <keyword><id>343</id><frequency>1</frequency><keyword>dog</keyword>dog</keyword>
+    <keyword><id>344</id><frequency>1</frequency><keyword>door</keyword>door</keyword>
+    <keyword><id>351</id><frequency>1</frequency><keyword>drank</keyword>drank</keyword>
+    <keyword><id>413</id><frequency>1</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>624</id><frequency>1</frequency><keyword>king</keyword>king</keyword>
+    <keyword><id>782</id><frequency>1</frequency><keyword>milk</keyword>milk</keyword>
+    <keyword><id>813</id><frequency>1</frequency><keyword>mouth</keyword>mouth</keyword>
+    <keyword><id>956</id><frequency>1</frequency><keyword>pitcher</keyword>pitcher</keyword>
+    <keyword><id>1021</id><frequency>1</frequency><keyword>red</keyword>red</keyword>
+    <keyword><id>1165</id><frequency>1</frequency><keyword>sounds</keyword>sounds</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+    <keyword><id>1356</id><frequency>1</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>4</id>
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>8</id><display_name>People: Farmwife</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>49</id><display_name>Tools, Items and Conveyances: Food and Drink</display_name></tango_index>
+    <tango_index><id>68</id><display_name>Supernatural Beings: Unspecified</display_name></tango_index>
+    <tango_index><id>71</id><display_name>Animals: Dog</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

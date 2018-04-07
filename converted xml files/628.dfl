@@ -1,0 +1,101 @@
+<story><story_id>628</story_id>
+  <publication_info>DS_VI_898</publication_info>
+  <full_name>430 - 0.00 - DS_VI_898</full_name>
+  <informant_id>430</informant_id>
+  <informant_last_name>Knudsen</informant_last_name>
+  <informant_first_name>Kristen</informant_first_name>
+  <informant_full_name>Kristen Knudsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>869</place_id>
+      <name>Skibsby</name>
+      <display_name>Skibsby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>28</place_id>
+      <name>Alstrup bakker</name>
+      <display_name>Alstrup bakker (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>673</place_id>
+      <name>Ugilt</name>
+      <display_name>Ugilt (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>157</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_897</publication_info>
+      <full_name>241 - 2.07 - DS_VI_897</full_name>
+      <url>data/stories/157.dfl</url>
+    </story>
+    <story><story_id>657</story_id>
+      <informant_id>539</informant_id>
+      <publication_info>DS_VI_899</publication_info>
+      <full_name>539 - 0.00 - DS_VI_899</full_name>
+      <url>data/stories/657.dfl</url>
+    </story>
+    <story><story_id>693</story_id>
+      <informant_id>337</informant_id>
+      <publication_info>DS_VI_900</publication_info>
+      <full_name>337 - 0.00 - DS_VI_900</full_name>
+      <url>data/stories/693.dfl</url>
+    </story>
+    <story><story_id>339</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_810</publication_info>
+      <full_name>90 - 2.07 - DS_VI_810</full_name>
+      <url>data/stories/339.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der boede en kj&#230;lling her nede i Alstrup bakker, de kaldte Skytte-Soffi, hende troede de om, at hun kunde hekse. S&#229; var der bleven stj&#229;let noget l&#230;rred fra Anders Holmen i Ugilt, og han g&#229;r s&#229; over til hende for at f&#229; hende til at vise det igjen. Hun lovede ogs&#229; at gj&#248;re det. S&#229; skulde han komme igjen anden dagen, men s&#229; var det blevet regn, da han skulde hjem, og da de havde et hus, der var noget h&#248; i, s&#229; gik han der ind og borede sig ned i h&#248;et. Hen p&#229; natten s&#229; kommer kj&#230;llingen der ind og kalder denher bitte karl til sig, og hun sp&#246;rger ham da til om dether l&#230;rred. Han vilde ikke til at sige det. "De h&#248;r, de h&#248;r", siger han, men hun havde et bitte ris, hun gav ham noget af, og s&#229; m&#229;tte han da til at fort&#230;lle op og sagde, at det l&#229; forvart under en brink, og der var sat en g&#229;sefjer til m&#230;rke over l&#230;rredet. S&#229; fik Fanden lov til at g&#229; igjen, og da han var v&#230;k, s&#229; Anders Holmen efter at komme afsted ogs&#229;. Han fandt godt nok l&#230;rredet p&#229; det sted, drengen havde sagt, det var.</danish_publication>
+  <english_publication>There was an old woman who lived down in the Alstrup hills, they called her Skytte-Sofi, and they thought that she could do witchcraft. Then some canvas was stolen from Anders Holmen in Ugilt, and he goes over to her to get her to show it again. She promised to do it too. Then he was supposed to come back the next day, but then it had started raining when he was supposed to go home, and since they had a little building where there was some hay, he went in there and burrowed himself into the hay. Out in the night, the old woman comes in and calls a little boy to her, and she asks him about this canvas. He doesn't want to tell her. "They hear. They hear." he says, but she had a little switch, and she hit him with that, and then he had to tell her and said that it sat hidden under a slope in a peat pit and a goose feather had been placed to mark where the canvas was. Then the devil was allowed to go and then when he was gone, Anders Holmen made sure to leave too. He found the canvas at the place where the boy had said it was.</english_publication>
+  <keywords>
+    <keyword><id>19</id><frequency>1</frequency><keyword>allow</keyword>allow</keyword>
+    <keyword><id>26</id><frequency>2</frequency><keyword>anders_holmen</keyword>Anders Holmen</keyword>
+    <keyword><id>130</id><frequency>1</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>155</id><frequency>1</frequency><keyword>buildings</keyword>buildings</keyword>
+    <keyword><id>172</id><frequency>4</frequency><keyword>canvas</keyword>canvas</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>324</id><frequency>1</frequency><keyword>devil</keyword>devil</keyword>
+    <keyword><id>403</id><frequency>1</frequency><keyword>feather</keyword>feather</keyword>
+    <keyword><id>475</id><frequency>1</frequency><keyword>goose</keyword>goose</keyword>
+    <keyword><id>493</id><frequency>2</frequency><keyword>hag</keyword>hag</keyword>
+    <keyword><id>511</id><frequency>2</frequency><keyword>hay</keyword>hay</keyword>
+    <keyword><id>530</id><frequency>1</frequency><keyword>hill</keyword>hill</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>922</id><frequency>1</frequency><keyword>peat</keyword>peat</keyword>
+    <keyword><id>1011</id><frequency>1</frequency><keyword>rain</keyword>rain</keyword>
+    <keyword><id>1353</id><frequency>1</frequency><keyword>witchcraft</keyword>witchcraft</keyword>
+  </keywords>
+  <etk_index><id>28</id>
+    <heading_danish>Kloge m&#230;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>25</id><display_name>Places: Barn</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>32</id><display_name>Places: Heath</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>97</id><display_name>Actions or events: Theft</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,54 @@
+<informant><person_id>388</person_id>
+  <core_informant/>
+  <full_name>Forstander Georg Himmelstrup</full_name>
+  <last_name>Himmelstrup</last_name>
+  <first_name>Georg</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>518</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>388</informant_id>
+      <publication_info>DS_II_B_183</publication_info>
+      <full_name>388 - 0.00 - DS_II_B_183</full_name>
+      <url>data/stories/518.dfl</url>
+      <place_recorded><id>780</id>Galtrup</place_recorded>
+      <places_mentioned>
+        <place><id>73</id>
+          <name>B&#248;rglum</name>
+        </place>
+        <place><id>722</id>
+          <name>Vollerup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>780</place_id>
+      <name>Galtrup</name>
+      <display_name>Galtrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>722</place_id>
+      <name>Vollerup</name>
+      <display_name>Vollerup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>73</place_id>
+      <name>B&#248;rglum</name>
+      <display_name>B&#248;rglum (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<story story_id="728">
+  <publication_info>DS_V_804</publication_info>
+  <full_name>415 - 0.00 - DS_V_804</full_name>
+  <informant_id>415</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels Johansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>338</place_id>
+      <name>K&#xF8;benhavn</name>
+      <display_name>K&#xF8;benhavn (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>356</place_id>
+      <name>Kundby</name>
+      <display_name>Kundby (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="226">
+      <informant_id>235</informant_id>
+      <publication_info>DS_V_810</publication_info>
+      <full_name>235 - 1.07 - DS_V_810</full_name>
+      <url>data/stories/226.dfl</url>
+    </story>
+    <story story_id="485">
+      <informant_id>411</informant_id>
+      <publication_info>DS_V_809</publication_info>
+      <full_name>411 - 0.00 - DS_V_809</full_name>
+      <url>data/stories/485.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Folk s&#xE5; et gjenf&#xE6;rd p&#xE5; Kundby kirkeg&#xE5;rd endog g&#xE5; om dagen og klage sig og somme tider l&#xE6;gge armene p&#xE5; muren. En aften befalede pastor Busch, at hans ridehest skulde sadles, men ikke bindes. De kunde se, pr&#xE6;sten gik op og ned ad gulvet inden for vinduerne, og endelig kom der bud fra Kundby pr&#xE6;st, om pastor Busch snarest mulig vilde komme til ham. Det stod heller ikke l&#xE6;nge p&#xE5;, f&#xF6;r han var der, og begge pr&#xE6;ster gik nu op til kirkeg&#xE5;rden om natten, og fra den tid h&#xF8;rte man ikke noget til gjenf&#xE6;rdet.</danish_publication>
+  <english_publication>People saw a revenant at Kundby cemetery, even during the day, and it would complain and sometimes put its arms on the wall. One evening, Pastor Busch asked to have his horse saddled but not tied. They could see the minister walking back and forth past the windows in there and finally a message came from the Kundby minister that Pastor Busch should come as quickly as possible. It wasn't long before he got there, and both of the ministers went up to the cemetery that night, and from then on, no one heard from the revenant again.</english_publication>
+  <keywords>
+    <keyword id="46" frequency="1" keyword="arms">arms</keyword>
+    <keyword id="196" frequency="2" keyword="cemetery">cemetery</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="386" frequency="1" keyword="evening">evening</keyword>
+    <keyword id="545" frequency="1" keyword="horse">horse</keyword>
+    <keyword id="770" frequency="1" keyword="message">message</keyword>
+    <keyword id="786" frequency="3" keyword="minister">minister</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="910" frequency="2" keyword="pastor_busch">Pastor Busch</keyword>
+    <keyword id="1027" frequency="2" keyword="revenant">revenant</keyword>
+    <keyword id="1059" frequency="1" keyword="saddle">saddle</keyword>
+    <keyword id="1261" frequency="1" keyword="tie">tie</keyword>
+    <keyword id="1313" frequency="1" keyword="walls">walls</keyword>
+    <keyword id="1346" frequency="1" keyword="window">window</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="81" display_name="Actions or events: Conjuring"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

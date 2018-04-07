@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<story story_id="342">
+  <publication_info>Lege_0_313</publication_info>
+  <full_name>90 - 2.10 - Lege_0_313</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>2.10</order_told>
+  <fieldtrip id="9">October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>730</place_id>
+      <name>Vraa</name>
+      <display_name>Vraa (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="668">
+      <informant_id>515</informant_id>
+      <publication_info>DS_II_G_219</publication_info>
+      <full_name>515 - 0.00 - DS_II_G_219</full_name>
+      <url>data/stories/668.dfl</url>
+    </story>
+    <story story_id="679">
+      <informant_id>473</informant_id>
+      <publication_info>DS_IV_489</publication_info>
+      <full_name>473 - 0.00 - DS_IV_489</full_name>
+      <url>data/stories/679.dfl</url>
+    </story>
+    <story story_id="601">
+      <informant_id>419</informant_id>
+      <publication_info>DS_II_G_221</publication_info>
+      <full_name>419 - 0.00 - DS_II_G_221</full_name>
+      <url>data/stories/601.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4784b</fielddiary_page_start>
+  <fielddiary_page_end>4785a</fielddiary_page_end>
+  <bibliographic_info>Thiele 1818-1823 vol. 1, 159</bibliographic_info>
+  <bibliography_references>
+    <reference id="598" category="general">
+      <display_string>[Book] Thiele, Just Matthias. 1818-1823. &lt;i&gt;Danske Folkesagn&lt;/i&gt;. Copenhagen: Andreas Seidelin.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>The more common variant of this children's rhyme starts with "Ride, Ride Ranke," where Ranke is apparently the name of a knight (see Thiele 1818-1823, vol. 1, 159; and DS IV 489). The rhyme is usually sung while bouncing a child on one's knee. The rhyme is echoed in stories of the ghostly appearance of a dead lover (BJK 1.04; DS II G 219; DS II G 221). In those stories the work "ranke" appears as "rank" and means "upright" or "proper." Since in the game the child is often playfully dropped between ones legs at the end of the "ride," making it impossible for the child to remain "rank," this secondary reading of "rank/ranke" is also operative.</annotation>
+  <danish_manuscript>Rie rie remse, guldsporer sp&#xE6;nne
+f&#xF8;rst m&#xE6; kvem &#xE5; s&#xE5; m&#xE6; kwam
+
+4785A
+&#xE5; s&#xE5; m&#xE6; lille Barn. Der er ingen
+ander hjem end en gammel gum
+me der sidder i Vraa og spelter Bl&#xE5;
+og bad sin Datter spinde. Spind spind
+Dattermin i Morgen kommer Frier din,
+F&#xE5;er h. gaar paa N&#xF8;rregaard kj&#xF8;ber en 
+lille Pevverkage til den lille bitte Hanne
+di ander di vel &#xE5; ha kaag men di
+ska bie te poske te penste te byg
+gen er soe, ti havren er mo, ti 
+ager og eng stor i Blomster,
+</danish_manuscript>
+  <english_manuscript>Ride ride renne, fasten the golden buckles, first with kvemme, and then with kvamme, and then my little baby. No one is home except an old man, who sits in Vr&#xE5; and spools blue, and asked his daughter to spin: spin, spin, daughter mine, tomorrow your suitors will come, father has gone to N&#xF8;rreg&#xE5;rd, buys a little gingerbread for the little bitty Hanne, we want to cook those ducks, but they'll have to wait 'til Easter, 'til Pentecost, 'til the barley is sown, 'til the oats are mowed, 'til the fields and meadow are in flower.</english_manuscript>
+  <danish_publication>Rie rie renne, Guldsporer sp&#xE6;nde, f&#xF8;rst m&#xE6; kvemm, &#xE5; s&#xE5; m&#xE6; kwamm, &#xE5; s&#xE5; m&#xE6; lille Barn. Der er ingen ander hj&#xE6;mme end en gammel Gumme, der sidder i Vr&#xE5; og spelter Bl&#xE5;, og bad sin Datter spinde; spind, spind, Datter min, i Morgen kommer Frier din, F&#xE5;er han g&#xE5;r p&#xE5; N&#xF6;rreg&#xE5;rd, kj&#xF8;ber en lille Pevverkaag til den lille bitte [Hanne], di ander di vil &#xE5; ha Kaag, men di ska bii te Poske, te Penste, te Byggen &#xE6;r soe, te Hawren er moe, te Ager og Eng stor i Blomster.</danish_publication>
+  <english_publication>Ride ride renne, fasten the golden buckles, first with kvemme, and then with kvamme, and then my little baby. No one is home except an old man, who sits in Vr&#xE5; and spools blue, and asked his daughter to spin: spin, spin, daughter mine, tomorrow your suitors will come, father has gone to N&#xF8;rreg&#xE5;rd, buys a little gingerbread  for the little bitty [Hanne], we want to cook those ducks, but they&#x2019;ll have to wait til Easter, til Pentecost, til the barley is sown, til the oats are mowed, til the fields and meadow are in flower.</english_publication>
+  <keywords>
+    <keyword id="61" frequency="1" keyword="baby">baby</keyword>
+    <keyword id="71" frequency="1" keyword="barley">barley</keyword>
+    <keyword id="114" frequency="1" keyword="blue">blue</keyword>
+    <keyword id="257" frequency="1" keyword="cooking">cooking</keyword>
+    <keyword id="304" frequency="2" keyword="daughter">daughter</keyword>
+    <keyword id="361" frequency="1" keyword="duck">duck</keyword>
+    <keyword id="370" frequency="1" keyword="easter">easter</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="410" frequency="1" keyword="field">field</keyword>
+    <keyword id="424" frequency="1" keyword="flower">flower</keyword>
+    <keyword id="473" frequency="1" keyword="gold">gold</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="764" frequency="1" keyword="meadow">meadow</keyword>
+    <keyword id="871" frequency="1" keyword="oats">oats</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="1030" frequency="2" keyword="riding">riding</keyword>
+    <keyword id="1213" frequency="1" keyword="suitor">suitor</keyword>
+    <keyword id="1267" frequency="1" keyword="tomorrow">tomorrow</keyword>
+  </keywords>
+  <etk_index id="41">
+    <heading_danish>Danske B&#xF8;rnerim, Remser og Lege</heading_danish>
+    <heading_english>Danish Children's Rhymes, Counting-out Rhymes, and Games</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="122" display_name="Time, Season, Weather: Easter"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="14" name="Game"/>
+</story>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<story story_id="316">
+  <publication_info>JAT_III_1737</publication_info>
+  <full_name>235 - 3.14 - JAT_III_1737</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>3.14</order_told>
+  <fieldtrip id="3">January 1894</fieldtrip>
+  <fieldtrip_start_date>1894-01-24</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-02-19</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="295">
+      <informant_id>235</informant_id>
+      <publication_info>JAT_VI_1042</publication_info>
+      <full_name>235 - 2.12 - JAT_VI_1042</full_name>
+      <url>data/stories/295.dfl</url>
+    </story>
+    <story story_id="318">
+      <informant_id>235</informant_id>
+      <publication_info>Unpub_KMP_316</publication_info>
+      <full_name>235 - 3.16 - Unpub_KMP_316</full_name>
+      <url>data/stories/318.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6422b (3 and 5)</fielddiary_page_start>
+  <fielddiary_page_end>6422b (3 and 5)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Kirsten Marie offers a recipe and a local name for a type of porridge. In the published version, Tang Kristensen combined this record with KMP 3.16, reversing their order.</annotation>
+  <danish_manuscript>K&#xE5;&#xE5;nds er lavet af Vand og Gryn kogt
+paa noget Mad (et Fl&#xE6;skeben)
+der er ingen Kaal paa. De kaldes
+Fedtv&#xE6;lling
+</danish_manuscript>
+  <english_manuscript>K&#xE5;&#xE5;nds is made from oats and water, cooked for example with a pork bone. There's no cabbage in it and it was also known as fat gruel.</english_manuscript>
+  <danish_publication>S&#xF8;dsuppe uden b&#xE6;r kaldes Regimentsforskr&#xE6;kkelse for at gj&#xF8;re nar ad dem. K&#xE5;&#xE5;nds er lavet af gryn og vand, kogt f. ex. p&#xE5; et fl&#xE6;skeben. Der er ingen k&#xE5;l p&#xE5;, og de kaldes ogs&#xE5; fedtv&#xE6;lling.</danish_publication>
+  <english_publication>Sweet soup without any berries is called "regiment&#x2019;s surprise" to make fun of them. K&#xE5;&#xE5;nds is made from oats and water, cooked for example with a pork bone. There&#x2019;s no cabbage in it and it was also known as fat gruel.</english_publication>
+  <keywords>
+    <keyword id="92" frequency="1" keyword="berries">berries</keyword>
+    <keyword id="121" frequency="1" keyword="bones">bones</keyword>
+    <keyword id="165" frequency="1" keyword="cabbage">cabbage</keyword>
+    <keyword id="257" frequency="1" keyword="cooking">cooking</keyword>
+    <keyword id="398" frequency="1" keyword="fat">fat</keyword>
+    <keyword id="449" frequency="1" keyword="fun">fun</keyword>
+    <keyword id="871" frequency="1" keyword="oats">oats</keyword>
+    <keyword id="976" frequency="1" keyword="pork">pork</keyword>
+    <keyword id="1022" frequency="1" keyword="regiment">regiment</keyword>
+    <keyword id="1166" frequency="1" keyword="soup">soup</keyword>
+    <keyword id="1320" frequency="1" keyword="water">water</keyword>
+  </keywords>
+  <etk_index id="33">
+    <heading_danish>Husene og livet deri</heading_danish>
+    <heading_english>Houses and life in them</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="15" name="Recipe"/>
+</story>

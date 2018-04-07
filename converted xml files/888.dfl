@@ -1,0 +1,70 @@
+<story><story_id>888</story_id>
+  <publication_info>DS_VII_268</publication_info>
+  <full_name>0 - 0.00 - DS_VII_268</full_name>
+  <informant_id/>
+  <informant_last_name>informant</informant_last_name>
+  <informant_first_name>Unknown</informant_first_name>
+  <informant_full_name>Unknown informant</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>634</place_id>
+      <name>Testrup h&#248;jskole</name>
+      <display_name>Testrup h&#248;jskole (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>324</place_id>
+      <name>Katrup mark</name>
+      <display_name>Katrup mark (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>519</story_id>
+      <informant_id>438</informant_id>
+      <publication_info>DS_VII_584</publication_info>
+      <full_name>438 - 0.00 - DS_VII_584</full_name>
+      <url>data/stories/519.dfl</url>
+    </story>
+    <story><story_id>619</story_id>
+      <informant_id>422</informant_id>
+      <publication_info>DS_VII_106</publication_info>
+      <full_name>422 - 0.00 - DS_VII_106</full_name>
+      <url>data/stories/619.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der boede en heks ovre p&#229; Katrup mark. Hun var lidt lam, og det havde hun f&#229;et ved at v&#230;re skudt med en s&#248;lvknap i hareskikkelse. Folk turde ikke l&#229;ne hende noget, som kunde drejes rundt, f. eks. kj&#230;rne, sold, skj&#230;ppe, for s&#229; troede de, hun kunde tage deres sm&#246;r af fl&#248;den, s&#229; de ikke kunde kj&#230;rne den. M&#230;lken kunde hun tage ved at malke hjemme.</danish_publication>
+  <english_publication>A witch lived over on Katrup mark. She was a little lame, and she'd gotten that way by being shot with a silver button when she was in the shape of a hare. People didn't dare loan her anything that could be turned, like a churn, sieve or measure, because then they thought that she could take their butter from the cream, so they wouldn't be able to churn. She could take milk by milking at home.</english_publication>
+  <keywords>
+    <keyword><id>163</id><frequency>1</frequency><keyword>butter</keyword>butter</keyword>
+    <keyword><id>229</id><frequency>2</frequency><keyword>churn</keyword>churn</keyword>
+    <keyword><id>279</id><frequency>1</frequency><keyword>cream</keyword>cream</keyword>
+    <keyword><id>500</id><frequency>1</frequency><keyword>hare</keyword>hare</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>782</id><frequency>2</frequency><keyword>milk</keyword>milk</keyword>
+    <keyword><id>1106</id><frequency>1</frequency><keyword>shooting</keyword>shooting</keyword>
+    <keyword><id>1116</id><frequency>1</frequency><keyword>sieve</keyword>sieve</keyword>
+    <keyword><id>1119</id><frequency>1</frequency><keyword>silver_button</keyword>silver button</keyword>
+    <keyword><id>1351</id><frequency>1</frequency><keyword>witch</keyword>witch</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>22</id><display_name>People: Witch</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>89</id><display_name>Actions or events: Injury</display_name></tango_index>
+    <tango_index><id>99</id><display_name>Actions or events: Witchcraft</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<story story_id="796">
+  <publication_info>DS_VII_423</publication_info>
+  <full_name>396 - 0.00 - DS_VII_423</full_name>
+  <informant_id>396</informant_id>
+  <informant_last_name>Jakobsen</informant_last_name>
+  <informant_first_name>Peder Lavrids</informant_first_name>
+  <informant_full_name>Peder Lavrids Jakobsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>797</place_id>
+      <name>H&#xF8;rret skov</name>
+      <display_name>H&#xF8;rret skov (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>660</place_id>
+      <name>Troms kirke</name>
+      <display_name>Troms kirke (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>1063</place_id>
+      <name>Vilhelmsborg</name>
+      <display_name>Vilhelmsborg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="587">
+      <informant_id>144</informant_id>
+      <publication_info>DS_VII_426</publication_info>
+      <full_name>144 - 0.00 - DS_VII_426</full_name>
+      <url>data/stories/587.dfl</url>
+    </story>
+    <story story_id="713">
+      <informant_id>324</informant_id>
+      <publication_info>DSnr_VI_534</publication_info>
+      <full_name>324 - 0.00 - DSnr_VI_534</full_name>
+      <url>data/stories/713.dfl</url>
+    </story>
+    <story story_id="408">
+      <informant_id>123</informant_id>
+      <publication_info>DS_VII_419</publication_info>
+      <full_name>123 - 3.05 - DS_VII_419</full_name>
+      <url>data/stories/408.dfl</url>
+    </story>
+    <story story_id="59">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VII_437</publication_info>
+      <full_name>150 - 2.12 - DS_VII_437</full_name>
+      <url>data/stories/59.dfl</url>
+    </story>
+    <story story_id="604">
+      <informant_id>536</informant_id>
+      <publication_info>DS_VII_436</publication_info>
+      <full_name>536 - 0.00 - DS_VII_436</full_name>
+      <url>data/stories/604.dfl</url>
+    </story>
+    <story story_id="645">
+      <informant_id>453</informant_id>
+      <publication_info>DS_VII_435</publication_info>
+      <full_name>453 - 0.00 - DS_VII_435</full_name>
+      <url>data/stories/645.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Frederik Glarmester, der var r&#xF8;gter p&#xE5; Vilhelmsborg, han fortalte, at hans moder var en trold, og hun skulde til Troms kirke hver Voldborg aften. Da han var bleven en stor kn&#xE6;gt, s&#xE5; tykte han, han vilde ogs&#xE5; gj&#xE6;rne pr&#xF8;ve denher riden. Han red p&#xE5; et limeskaft, og hans moder red p&#xE5; en rage. Men han havde jo ikke rigtig f&#xE5;et fat p&#xE5;, hvad hun sagde, og s&#xE5; sagde han: "Op og ned og op og ned", og s&#xE5; blev han ved til det &#xF8;verste af skorstenen og s&#xE5; ned igjen, og s&#xE5;dan blev han ved, til det blev dag, og sled alle kl&#xE6;derne af sig, b&#xE5;de tr&#xF6;je og bukser, s&#xE5; der var snart ikke kl&#xE6;detr&#xE5;d p&#xE5; ham, da han endelig var fri og kunde g&#xE5; hans vej.</danish_publication>
+  <english_publication>Frederik Glarmester was a cowhand at Vilhelmsborg, he said that his mother was a troll (witch), she had to go to Troms church every Voldborg eve (Midsummer&#x2019;s eve). When he had become a big boy he decided that he also wanted to try that ride. He rode on a broomstick and his mother rode on a rake. But he hadn&#x2019;t really caught what she had said and then he said: &#x201C;Up and down and up and down&#x201D; and then he continued to the top of the chimney and then down again, and he continued like that until it daybreak, and the ride wore all his clothes off of him, his shirt and his pants, so there wasn&#x2019;t a stitch of clothes left on him when he finally got free and could go his way.</english_publication>
+  <keywords>
+    <keyword id="130" frequency="1" keyword="boy">boy</keyword>
+    <keyword id="147" frequency="1" keyword="broom">broom</keyword>
+    <keyword id="220" frequency="1" keyword="chimney">chimney</keyword>
+    <keyword id="236" frequency="2" keyword="clothing">clothing</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="442" frequency="1" keyword="frederik">Frederik</keyword>
+    <keyword id="443" frequency="1" keyword="free">free</keyword>
+    <keyword id="777" frequency="1" keyword="midsummer">midsummer</keyword>
+    <keyword id="803" frequency="2" keyword="mother">mother</keyword>
+    <keyword id="899" frequency="1" keyword="pants">pants</keyword>
+    <keyword id="1012" frequency="1" keyword="rake">rake</keyword>
+    <keyword id="1030" frequency="3" keyword="riding">riding</keyword>
+    <keyword id="1102" frequency="1" keyword="shirt">shirt</keyword>
+    <keyword id="1186" frequency="1" keyword="stall">stall</keyword>
+    <keyword id="1283" frequency="1" keyword="troll">troll</keyword>
+    <keyword id="1284" frequency="1" keyword="troms_church">Troms church</keyword>
+    <keyword id="1308" frequency="1" keyword="voldborg_eve">Voldborg Eve</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="4" display_name="People: Boy"/>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="34" display_name="Places: Manor / Castle"/>
+    <tango_index id="52" display_name="Tools, Items and Conveyances: Tools"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

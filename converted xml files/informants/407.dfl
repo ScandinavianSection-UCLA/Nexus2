@@ -1,0 +1,70 @@
+<informant><person_id>407</person_id>
+  <core_informant/>
+  <full_name>Forstander J. Jeppesen</full_name>
+  <last_name>Jeppesen</last_name>
+  <first_name>J.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>545</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>407</informant_id>
+      <publication_info>DS_IV_1749</publication_info>
+      <full_name>407 - 0.00 - DS_IV_1749</full_name>
+      <url>data/stories/545.dfl</url>
+      <place_recorded><id>878</id>Staby</place_recorded>
+      <places_mentioned>
+        <place><id>85</id>
+          <name>Br&#230;sten</name>
+        </place>
+        <place><id>1016</id>
+          <name>Skibet</name>
+        </place>
+        <place><id>1017</id>
+          <name>Ruu</name>
+        </place>
+        <place><id>1018</id>
+          <name>Vilstrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>878</place_id>
+      <name>Staby</name>
+      <display_name>Staby (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1018</place_id>
+      <name>Vilstrup</name>
+      <display_name>Vilstrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1017</place_id>
+      <name>Ruu</name>
+      <display_name>Ruu (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>1016</place_id>
+      <name>Skibet</name>
+      <display_name>Skibet (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>85</place_id>
+      <name>Br&#230;sten</name>
+      <display_name>Br&#230;sten (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

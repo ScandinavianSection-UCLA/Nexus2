@@ -1,0 +1,71 @@
+<story><story_id>526</story_id>
+  <publication_info>DS_III_533</publication_info>
+  <full_name>361 - 0.00 - DS_III_533</full_name>
+  <informant_id>361</informant_id>
+  <informant_last_name>Fenger</informant_last_name>
+  <informant_first_name>Hanne (Johanne Marie Christine)</informant_first_name>
+  <informant_full_name>Hanne (Johanne Marie Christine) Fenger</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>916</place_id>
+      <name>Vosborg</name>
+      <display_name>Vosborg (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>189</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_III_1380</publication_info>
+      <full_name>241 - 4.17 - DSnr_III_1380</full_name>
+      <url>data/stories/189.dfl</url>
+    </story>
+    <story><story_id>383</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_744</publication_info>
+      <full_name>123 - 2.09 - DS_III_744</full_name>
+      <url>data/stories/383.dfl</url>
+    </story>
+    <story><story_id>417</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_528</publication_info>
+      <full_name>123 - 3.14 - DS_III_528</full_name>
+      <url>data/stories/417.dfl</url>
+    </story>
+    <story><story_id>672</story_id>
+      <informant_id>281</informant_id>
+      <publication_info>DS_III_535</publication_info>
+      <full_name>281 - 0.00 - DS_III_535</full_name>
+      <url>data/stories/672.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Nogle fort&#230;ller, at da skibet kom til grundene i fjorden, kunde det ikke komme over, og for at lette det m&#229;tte de kaste den ene klokke over bord. Andre fort&#230;ller, at den blev tabt, da den skulde b&#230;res fra skibet i land. Klokken i t&#229;rnet har om helligaftenerne en vidunderlig vemodig klang og kalder p&#229; den anden, som svarer den fra fjordens bund.</danish_publication>
+  <english_publication>Some say that when the ship ran aground in the fjord, they couldn&#8217;t get over it, so they had to throw one of the bells overboard. Others say that the bell was lost when it was to be carried from the ship to land. The bell has a wonderful melancholy clang on holy nights and it calls after the other one, which answers from the bottom of the fjord.</english_publication>
+  <keywords>
+    <keyword><id>88</id><frequency>2</frequency><keyword>bells</keyword>bells</keyword>
+    <keyword><id>536</id><frequency>1</frequency><keyword>holy</keyword>holy</keyword>
+    <keyword><id>682</id><frequency>1</frequency><keyword>land</keyword>land</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>1101</id><frequency>2</frequency><keyword>ship</keyword>ship</keyword>
+  </keywords>
+  <etk_index><id>12</id>
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>39</id><display_name>Places: Ocean / Sea</display_name></tango_index>
+    <tango_index><id>46</id><display_name>Tools, Items and Conveyances: Bell</display_name></tango_index>
+    <tango_index><id>47</id><display_name>Tools, Items and Conveyances: Boat</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

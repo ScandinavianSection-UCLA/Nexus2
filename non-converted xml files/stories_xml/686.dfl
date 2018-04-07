@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<story story_id="686">
+  <publication_info>DS_II_H_484</publication_info>
+  <full_name>475 - 0.00 - DS_II_H_484</full_name>
+  <informant_id>475</informant_id>
+  <informant_last_name>Mikkelsen</informant_last_name>
+  <informant_first_name>Karen Marie</informant_first_name>
+  <informant_full_name>Karen Marie Mikkelsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>879</place_id>
+      <name>Sterreg&#xE5;rd</name>
+      <display_name>Sterreg&#xE5;rd (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>81</place_id>
+      <name>Brabrand</name>
+      <display_name>Brabrand (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>663</place_id>
+      <name>True</name>
+      <display_name>True (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="236">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_H_480</publication_info>
+      <full_name>235 - 1.17 - DS_II_H_480</full_name>
+      <url>data/stories/236.dfl</url>
+    </story>
+    <story story_id="830">
+      <informant_id>69</informant_id>
+      <publication_info>DS_V_129</publication_info>
+      <full_name>69 - 0.00 - DS_V_129</full_name>
+      <url>data/stories/830.dfl</url>
+    </story>
+    <story story_id="544">
+      <informant_id>397</informant_id>
+      <publication_info>DS_II_H_430</publication_info>
+      <full_name>397 - 0.00 - DS_II_H_430</full_name>
+      <url>data/stories/544.dfl</url>
+    </story>
+    <story story_id="563">
+      <informant_id>104</informant_id>
+      <publication_info>DS_II_H_428</publication_info>
+      <full_name>104 - 0.00 - DS_II_H_428</full_name>
+      <url>data/stories/563.dfl</url>
+    </story>
+    <story story_id="235">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_H_436</publication_info>
+      <full_name>235 - 1.16 - DS_II_H_436</full_name>
+      <url>data/stories/235.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Min bedstemoder fulgte med hendes morbroder p&#xE5; kirkevejen fra Brabrand til True. Allerbedst som de gik, sagde han: "G&#xE5; til side, t&#xF8;s," og s&#xE5; tog han ved hende og f&#xF8;rte hende om til den anden side af vejen. Der stod de stille, og s&#xE5; tog han hans lue af. Da de havde st&#xE5;et lidt, sagde han: "Ja, nu kan vi g&#xE5; igjen." Da hun nu vilde vide, hvad det var, sagde han, at det var en ligskare, de kom forbi.</danish_publication>
+  <english_publication>My grandmother was out with her uncle on the church road from Brabrand to True. Just as they were walking along, he said, "Go to the side, little girl," and then he took hold of her and brought her over to the other side of the road. They stood still there by the side of the road and he took his cap off. After they'd stood there a little while, he said, "Well, we can walk now." When she wanted to know what it was, he said that it was a funeral procession that had gone by.</english_publication>
+  <keywords>
+    <keyword id="173" frequency="1" keyword="cap">cap</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="450" frequency="1" keyword="funeral">funeral</keyword>
+    <keyword id="467" frequency="1" keyword="girl">girl</keyword>
+    <keyword id="479" frequency="1" keyword="grandmother">grandmother</keyword>
+    <keyword id="999" frequency="1" keyword="procession">procession</keyword>
+    <keyword id="1036" frequency="2" keyword="road">road</keyword>
+    <keyword id="1289" frequency="1" keyword="uncle">uncle</keyword>
+  </keywords>
+  <etk_index id="9">
+    <heading_danish>D&#xF8;dsvarsler</heading_danish>
+    <heading_english>Death portents</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

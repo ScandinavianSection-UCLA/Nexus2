@@ -1,0 +1,84 @@
+<story><story_id>831</story_id>
+  <publication_info>DS_VII_176</publication_info>
+  <full_name>130 - 0.00 - DS_VII_176</full_name>
+  <informant_id>130</informant_id>
+  <informant_last_name>J&#248;rgensen</informant_last_name>
+  <informant_first_name>S&#248;ren</informant_first_name>
+  <informant_full_name>S&#248;ren J&#248;rgensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>768</place_id>
+      <name>Engesvang</name>
+      <display_name>Engesvang (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>193</place_id>
+      <name>Gj&#248;dvad</name>
+      <display_name>Gj&#248;dvad (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>349</place_id>
+      <name>Kragelund</name>
+      <display_name>Kragelund (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>145</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_1182</publication_info>
+      <full_name>241 - 1.04 - DS_VII_1182</full_name>
+      <url>data/stories/145.dfl</url>
+    </story>
+    <story><story_id>329</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_IV_988</publication_info>
+      <full_name>90 - 1.06 - DS_IV_988</full_name>
+      <url>data/stories/329.dfl</url>
+    </story>
+    <story><story_id>284</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>DS_VII_177</publication_info>
+      <full_name>235 - 2.01 - DS_VII_177</full_name>
+      <url>data/stories/284.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Den gamle pastor &#197;boe i Kragelund havde lige godt tro til de kloge folk. Lige s&#229; s&#229;re et kreatur blev sygt for ham, sendte han bud efter en klog kone, der boede omme i byen, og hun kunde l&#230;se over det og signe. En pr&#230;st i Gj&#248;dvad var ikke s&#229;dan sindet, for en dag, han ikke var hjemme, og en ko blev syg, sendte folkene bud efter en klog kone, og koen kom sig, men da han h&#248;rte det, sagde han: han vilde hellere have mistet koen, end den skulde kureres p&#229; den m&#229;de.</danish_publication>
+  <english_publication>The old minister &#197;boe from Kragelund believed in the folk healers. Regardless of how sick an animal got, he sent for a woman folk healer, who lived over in the town, and she could read over it and bless it. A minister in Gj&#248;dvad was of a different mind, because one day when he wasn&#8217;t home and a cow got sick, the people sent for the woman folk healer and the cow got better, but when he heard that, he said: he would rather have lost the cow then that it should be cured in that manner.</english_publication>
+  <keywords>
+    <keyword><id>37</id><frequency>1</frequency><keyword>animals</keyword>animals</keyword>
+    <keyword><id>87</id><frequency>1</frequency><keyword>belief</keyword>belief</keyword>
+    <keyword><id>110</id><frequency>1</frequency><keyword>blessing</keyword>blessing</keyword>
+    <keyword><id>274</id><frequency>3</frequency><keyword>cow</keyword>cow</keyword>
+    <keyword><id>286</id><frequency>3</frequency><keyword>cunning_folk</keyword>Cunning Folk</keyword>
+    <keyword><id>289</id><frequency>1</frequency><keyword>cure</keyword>cure</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>908</id><frequency>1</frequency><keyword>pastor</keyword>pastor</keyword>
+    <keyword><id>1111</id><frequency>2</frequency><keyword>sickness</keyword>sickness</keyword>
+    <keyword><id>1275</id><frequency>1</frequency><keyword>town</keyword>town</keyword>
+  </keywords>
+  <etk_index><id>29</id>
+    <heading_danish>Hekse og deres idr&#230;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>6</id><display_name>People: Cunning Folk</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>84</id><display_name>Actions or events: Disease</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

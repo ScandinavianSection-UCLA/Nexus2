@@ -1,0 +1,46 @@
+<informant><person_id>345</person_id>
+  <core_informant/>
+  <full_name>Niels B&#248;geskov</full_name>
+  <last_name>B&#248;geskov</last_name>
+  <first_name>Niels</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>736</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>345</informant_id>
+      <publication_info>DS_III_2326</publication_info>
+      <full_name>345 - 0.00 - DS_III_2326</full_name>
+      <url>data/stories/736.dfl</url>
+      <place_recorded><id>745</id>Askov</place_recorded>
+      <places_mentioned>
+        <place><id>539</id>
+          <name>Skjern</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>745</place_id>
+      <name>Askov</name>
+      <display_name>Askov (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>539</place_id>
+      <name>Skjern</name>
+      <display_name>Skjern (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

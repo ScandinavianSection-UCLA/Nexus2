@@ -1,0 +1,93 @@
+<story><story_id>250</story_id>
+  <publication_info>JAT_II_149</publication_info>
+  <full_name>235 - 1.30 - JAT_II_149</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.30</order_told>
+  <fieldtrip><id>7</id>May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>13</place_id>
+      <name>&#198;bletoft</name>
+      <display_name>&#198;bletoft (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>68</place_id>
+      <name>Bogensholm</name>
+      <display_name>Bogensholm (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>310</story_id>
+      <informant_id>235</informant_id>
+      <publication_info>JAT_IV_189</publication_info>
+      <full_name>235 - 3.08 - JAT_IV_189</full_name>
+      <url>data/stories/310.dfl</url>
+    </story>
+    <story><story_id>815</story_id>
+      <informant_id>572</informant_id>
+      <publication_info>DS_V_1588</publication_info>
+      <full_name>572 - 0.00 - DS_V_1588</full_name>
+      <url>data/stories/815.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5218b</fielddiary_page_start>
+  <fielddiary_page_end>5218b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>In this story, the low status person turns the tables on the manor lords, and ultimately becomes a large land holder himself. The story seemingly contradicts Kirsten Marie's previous stories, since the low status entertainer is narratively lauded, while the land holders are shown to be quite stupid. At the same time, her story seemingly supports the general sense that lower status people are untrustworthy. 
+
+      There are two important reversals that animate this story. First, the victims of the scam are large land holders. Consequently, the narrative is not directed at Kirsten Marie's cohort, but rather at a class with whom the farmers often fought and who, during the years after the initial constitutional reforms of 1848, showed themselves time and again not to be on the side of the small farmer. Presumably, the new manor lord at &#198;bletoft, because of his modest beginnings, would have much more in common with the local farmers. Second, the man uses the legal system that had formerly been firmly in the hands of the manor lords in the form of the birk (judicial districts) to defeat them. Accordingly, the story explores the penetration of litigation into all levels of rural culture. 
+
+     Bogensholm is now used as a children's camp.</annotation>
+  <danish_manuscript>Der er en lille Herregrd ved Ebeltoft der kal
+des Bovnsholm, der var en Mand der hed
+Greve Niels h. var fra Ebeltoft og h var som
+Bajads ved et Selskab der, indbuden som
+Nar der. S. sad de og fik dem nogle Punse
+og h. kj&#248;ber Gaarden for en Bagatel. Vi kan
+jo godt skrive det paa et Stykke Tobakspa
+pir. N&#230;ste Dag gik h. til en Prokurator
+og h. sagde: Det kan vi godt bruge. Fik
+gaarden og kom siden til at eje en stor
+Del af Ebeltoft.</danish_manuscript>
+  <english_manuscript>There is a little manor farm near &#198;bletoft, which is called Bovnsholm, and there was a man who was called Count-Niels, he was from &#198;bletoft and he was supposed to be a buffoon at a party there, he'd been invited to be the fool there. So they were sitting there and had some punch, and he buys the farm for a pittance. "We can write it on a piece of rolling paper," he says. The next day he went to an attorney and he said, "Yes, we can certainly use this." He got the farm and later wound up owning a large part of &#198;bletoft.</english_manuscript>
+  <danish_publication>Der er en lille herreg&#229;rd ved &#198;beltoft, der kaldes Bogensholm, og der var en mand indbuden. som hed Greve-Niels. Han var fra &#198;beltoft  og skulde da v&#230;re som nar eller bajads der ved et selskab. S&#229; sad de og fik dem nogle punse, og hvordan det kom i snak, han kj&#248;ber da g&#229;rden for en bagatel. S&#229; vilde han have dem det skreven imellem, men de havde ikke papir til det lige ved h&#229;nden. "Vi kan jo godt skrive det p&#229; et stykke tobakspapir", siger han. N&#230;ste dag gik han til en prokurator med det papir og viste ham det. "Ja, det kan vi jo godt bruge". S&#229; fik han g&#229;rden og kom siden til at eje en stor del af &#198;beltoft.</danish_publication>
+  <english_publication>There was a little manor farm near &#198;bletoft, which was called Bogensholm, and there was a man who was invited to a gathering there, he was called Count-Niels. He was from &#198;bletoft and he was supposed to be there at this party as a fool or as a buffoon. So they were sitting there and had some punch, and somehow or other they wound up talking, and he buys the farm for a pittance. And so he wants it written down, but they didn&#8217;t have any paper close at hand. &#8220;We can write it on a piece of rolling paper,&#8221; he says. The next day he went to an attorney and showed it to him. &#8220;Yes, we can certainly use this.&#8221; Then he got the farm and later wound up owning a large part of &#198;bletoft.</english_publication>
+  <keywords>
+    <keyword><id>266</id><frequency>1</frequency><keyword>count</keyword>count</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>394</id><frequency>2</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>432</id><frequency>1</frequency><keyword>fool</keyword>fool</keyword>
+    <keyword><id>742</id><frequency>1</frequency><keyword>manor_farm</keyword>manor farm</keyword>
+    <keyword><id>834</id><frequency>1</frequency><keyword>niels</keyword>Niels</keyword>
+    <keyword><id>900</id><frequency>2</frequency><keyword>paper</keyword>paper</keyword>
+    <keyword><id>907</id><frequency>1</frequency><keyword>party</keyword>party</keyword>
+    <keyword><id>1345</id><frequency>1</frequency><keyword>wind</keyword>wind</keyword>
+    <keyword><id>1365</id><frequency>1</frequency><keyword>wound</keyword>wound</keyword>
+    <keyword><id>1367</id><frequency>2</frequency><keyword>writing</keyword>writing</keyword>
+  </keywords>
+  <etk_index><id>32</id>
+    <heading_danish>Fra hoveriets tid</heading_danish>
+    <heading_english>From the time of villeinage</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>34</id><display_name>Places: Manor / Castle</display_name></tango_index>
+    <tango_index><id>49</id><display_name>Tools, Items and Conveyances: Food and Drink</display_name></tango_index>
+    <tango_index><id>87</id><display_name>Actions or events: Gambling</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>130</id><display_name>Resolution: None / Unspecified</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

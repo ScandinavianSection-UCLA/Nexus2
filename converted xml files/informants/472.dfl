@@ -1,0 +1,78 @@
+<informant><person_id>472</person_id>
+  <core_informant/>
+  <full_name>Student Frederik Melbye</full_name>
+  <last_name>Melbye</last_name>
+  <first_name>Frederik</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>840</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>472</informant_id>
+      <publication_info>DS_II_C_36</publication_info>
+      <full_name>472 - 0.00 - DS_II_C_36</full_name>
+      <url>data/stories/840.dfl</url>
+      <place_recorded><id>338</id>K&#248;benhavn</place_recorded>
+      <places_mentioned>
+        <place><id>134</id>
+          <name>Egense</name>
+        </place>
+        <place><id>177</id>
+          <name>Fyn</name>
+        </place>
+        <place><id>178</id>
+          <name>Fynshoved</name>
+        </place>
+        <place><id>260</id>
+          <name>Hindsholm</name>
+        </place>
+        <place><id>428</id>
+          <name>Nordskov</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>338</place_id>
+      <name>K&#248;benhavn</name>
+      <display_name>K&#248;benhavn (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>428</place_id>
+      <name>Nordskov</name>
+      <display_name>Nordskov (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>260</place_id>
+      <name>Hindsholm</name>
+      <display_name>Hindsholm (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>178</place_id>
+      <name>Fynshoved</name>
+      <display_name>Fynshoved (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>177</place_id>
+      <name>Fyn</name>
+      <display_name>Fyn (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>134</place_id>
+      <name>Egense</name>
+      <display_name>Egense (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

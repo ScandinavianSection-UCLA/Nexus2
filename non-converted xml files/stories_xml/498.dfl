@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<story story_id="498">
+  <publication_info>DS_II_A_59</publication_info>
+  <full_name>455 - 0.00 - DS_II_A_59</full_name>
+  <informant_id>455</informant_id>
+  <informant_last_name>Lindberg</informant_last_name>
+  <informant_first_name>Elise</informant_first_name>
+  <informant_full_name>Fr&#xF8;ken Elise Lindberg</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>770</place_id>
+      <name>Falster</name>
+      <display_name>Falster (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="220">
+      <informant_id>235</informant_id>
+      <publication_info>DS_II_A_57</publication_info>
+      <full_name>235 - 1.01 - DS_II_A_57</full_name>
+      <url>data/stories/220.dfl</url>
+    </story>
+    <story story_id="347">
+      <informant_id>90</informant_id>
+      <publication_info>DS_II_A_98</publication_info>
+      <full_name>90 - 2.15 - DS_II_A_98</full_name>
+      <url>data/stories/347.dfl</url>
+    </story>
+    <story story_id="726">
+      <informant_id>414</informant_id>
+      <publication_info>DS_II_A_74</publication_info>
+      <full_name>414 - 0.00 - DS_II_A_74</full_name>
+      <url>data/stories/726.dfl</url>
+    </story>
+    <story story_id="776">
+      <informant_id>402</informant_id>
+      <publication_info>DS_II_A_50</publication_info>
+      <full_name>402 - 0.00 - DS_II_A_50</full_name>
+      <url>data/stories/776.dfl</url>
+    </story>
+    <story story_id="457">
+      <informant_id>342</informant_id>
+      <publication_info>DS_II_A_17</publication_info>
+      <full_name>342 - 0.00 - DS_II_A_17</full_name>
+      <url>data/stories/457.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En mand gik igjennem en skov, og uden at han vidste hvorfra, kom en dejlig jomfru hen til ham. Hun var s&#xE5; nydelig, at han aldrig havde set hendes mage. Det var omtrent midt p&#xE5; dagen, og da manden havde h&#xF8;rt tale om ellefolk, s&#xE5; tvivlede han ikke om, at det m&#xE5;tte v&#xE6;re en elle-frue. Hun talte godt for ham og s&#xF6;gte at lokke ham ind i skoven, men manden var hende for klog, og til sidst sagde han: "Vend dig om og lad mig se, om du er bag som for." Da hun h&#xF8;rte det, gik hun sin vej, og han s&#xE5; nu, at hun var hul som et dejtrug.</danish_publication>
+  <english_publication>A man was walking through a forest and a beautiful woman came up to him without him knowing from where. She was so beautiful, he'd never seen her equal. It was just about midday, and since the man had heard stories about elves, he didn't doubt that she must be an elf woman. She spoke nicely to him and tried to lure him into the woods, but the man was too smart for her, and finally he said: "Turn around and let me see if you are the same in the back as you are in the front." When she heard that, she went her way, and he saw that she was as hollow as a dough trough.</english_publication>
+  <keywords>
+    <keyword id="82" frequency="2" keyword="beautiful">beautiful</keyword>
+    <keyword id="347" frequency="1" keyword="dough_trough">dough trough</keyword>
+    <keyword id="373" frequency="2" keyword="elf">elf</keyword>
+    <keyword id="438" frequency="1" keyword="forest">forest</keyword>
+    <keyword id="535" frequency="1" keyword="hollow">hollow</keyword>
+    <keyword id="775" frequency="1" keyword="midday">midday</keyword>
+    <keyword id="1144" frequency="1" keyword="smart">smart</keyword>
+    <keyword id="1200" frequency="1" keyword="story">story</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+    <keyword id="1360" frequency="1" keyword="woods">woods</keyword>
+  </keywords>
+  <etk_index id="2">
+    <heading_danish>Ellefolk</heading_danish>
+    <heading_english>Elves</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="12" display_name="People: Man"/>
+    <tango_index id="31" display_name="Places: Forest / Woods"/>
+    <tango_index id="58" display_name="Supernatural Beings: Elf"/>
+    <tango_index id="110" display_name="Time, Season, Weather: Noon"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+    <tango_index id="133" display_name="Actions or events: Seduction"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

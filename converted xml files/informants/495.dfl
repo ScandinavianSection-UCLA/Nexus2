@@ -1,0 +1,54 @@
+<informant><person_id>495</person_id>
+  <core_informant/>
+  <full_name>M. Nielsen</full_name>
+  <last_name>Nielsen</last_name>
+  <first_name>M.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>683</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>495</informant_id>
+      <publication_info>DS_V_1195</publication_info>
+      <full_name>495 - 0.00 - DS_V_1195</full_name>
+      <url>data/stories/683.dfl</url>
+      <place_recorded><id>814</id>Kongerslev</place_recorded>
+      <places_mentioned>
+        <place><id>933</id>
+          <name>Dokkedal</name>
+        </place>
+        <place><id>934</id>
+          <name>Mou</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>814</place_id>
+      <name>Kongerslev</name>
+      <display_name>Kongerslev (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>934</place_id>
+      <name>Mou</name>
+      <display_name>Mou (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>933</place_id>
+      <name>Dokkedal</name>
+      <display_name>Dokkedal (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

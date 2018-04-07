@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<story story_id="409">
+  <publication_info>DS_III_515</publication_info>
+  <full_name>123 - 3.06 - DS_III_515</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.06</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>122</place_id>
+      <name>Dover kirke</name>
+      <display_name>Dover kirke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="739">
+      <informant_id>54</informant_id>
+      <publication_info>DS_III_527</publication_info>
+      <full_name>54 - 0.00 - DS_III_527</full_name>
+      <url>data/stories/739.dfl</url>
+    </story>
+    <story story_id="417">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_528</publication_info>
+      <full_name>123 - 3.14 - DS_III_528</full_name>
+      <url>data/stories/417.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3798b</fielddiary_page_start>
+  <fielddiary_page_end>3798b</fielddiary_page_end>
+  <bibliographic_info>MO III 217
+MO IV 88</bibliographic_info>
+  <bibliography_references/>
+  <annotation>Bell inscriptions were quite varied. While many referenced the date the bell was placed, playful, amusing or surprising bell inscriptions were not unusual. The bell in Dover church was cast by Jacob Rendler in 1747. It is unclear if this is the bell to which Peder is referring.
+
+     Tang Kristensen was interested in bell inscriptions, and in Minder og Oplevelser describes how he made side trips to see church bells (MO IV 88) or takes rubbings of various bell inscriptions (MO III 217). He also wrote several articles about church bells, including several in H&#xF8;jskolebladet in 1888.</annotation>
+  <danish_manuscript>Paa Dover Kirkekl. staar: min [Tro] Mund er vid,
+min Tung er lang, jeg kalder Folk til Kirke
+gang.
+</danish_manuscript>
+  <english_manuscript>On the church bell in Dover is written: My mouth is wide, my tongue is long, I call people to church</english_manuscript>
+  <danish_publication>P&#xE5; Dover kirkeklokke st&#xE5;r:
+Min mund er vid, min tung' er lang, 
+jeg kalder folk til kirkegang.</danish_publication>
+  <english_publication>On the church bell in Dover is written: My mouth is wide, my tongue is long, I call people to church</english_publication>
+  <keywords>
+    <keyword id="88" frequency="1" keyword="bells">bells</keyword>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="813" frequency="1" keyword="mouth">mouth</keyword>
+    <keyword id="1268" frequency="1" keyword="tongue">tongue</keyword>
+    <keyword id="1367" frequency="1" keyword="writing">writing</keyword>
+  </keywords>
+  <etk_index id="12">
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="46" display_name="Tools, Items and Conveyances: Bell"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

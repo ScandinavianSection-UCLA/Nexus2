@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<story story_id="426">
+  <publication_info>DS_II_J_47</publication_info>
+  <full_name>123 - 3.23 - DS_II_J_47</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>3.23</order_told>
+  <fieldtrip id="2">Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>175</place_id>
+      <name>Fuldbro m&#xF8;lle</name>
+      <display_name>Fuldbro m&#xF8;lle (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="384">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_2367</publication_info>
+      <full_name>123 - 2.10 - DS_III_2367</full_name>
+      <url>data/stories/384.dfl</url>
+    </story>
+    <story story_id="653">
+      <informant_id>477</informant_id>
+      <publication_info>DS_II_J_70</publication_info>
+      <full_name>477 - 0.00 - DS_II_J_70</full_name>
+      <url>data/stories/653.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3803a</fielddiary_page_start>
+  <fielddiary_page_end>3803a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Lights are commonly believed to burn over treasures (PJ 2.10). Peder adds that lights also burn over things that are hidden or secret. The kongelys (king light) is clearly related to the notion of buried treasures left behind by kings or treasures large enough to ransom a king (PJ 2.10). The notion of a light burning over a buried treasure is similar to the Anglo-American belief of a pot of gold at the end of a rainbow. Just as with the rainbow's end, it is impossible to reach a kongelys.</annotation>
+  <danish_manuscript>Det Mske er ikke f&#xF8;d der kan gaa til et
+Kongelys. De flytter dem og staar br&#xE6;nder
+hvor der ligger et Kongel&#xF8;sen. Ved Svejstrup
+er der en [H&#xF8;j] Kold (en fladning med Skr&#xE6;nt-
+til 3 Sider) der kaldes Hjordens Kold for
+der ligger alt deres F&#xE6; begravet i en Kule
+som d&#xF8;de i Kv&#xE6;gpesten. Og der fort&#xE6;lles
+at der har staaet et Lys og br&#xE6;ndt som
+&#xE6;ldre Folk har set, men det forsvandt.
+naar en kom n&#xE6;rmere. Lys br&#xE6;nder over
+noget som er skjult eller hemmeligt.
+</danish_manuscript>
+  <english_manuscript>The person who can walk to a "kongelys" hasn't been born yet. They move around and burn where a king's ransom is buried. Near Svejstrup there's a kold (a flat area with slopes on three sides) which is called Hjordens kold (The Shepherd's kold), because that's where all the animals that died during the cattle plague were buried. They also say that a light used to burn out here, which old people have seen, but it disappeared as you got closer. Lights burn over things that are either hidden or secret.</english_manuscript>
+  <danish_publication>Det menneske er ikke f&#xF8;dt, der kan g&#xE5; til et kongelys. De st&#xE5;r og br&#xE6;nder, hvor der ligger et kongel&#xF8;sen. Ved Svejstrup er der en kold (en fladning med skr&#xE6;nt til tre sider), der kaldes Hjordens kold, for der ligger alt deres f&#xE6; begravet, som d&#xF8;de i kv&#xE6;gpesten, det kom ned i en stor kule. Der fort&#xE6;lles, at her ogs&#xE5; har st&#xE5;et et lys og br&#xE6;ndt, som &#xE6;ldre folk har set, men det forsvandt, n&#xE5;r &#xE9;n kom n&#xE6;rmere. Lys br&#xE6;nder over noget, som er skjult eller hemmeligt.</danish_publication>
+  <english_publication>The person who can walk to a &#x201C;kongelys&#x201D; hasn&#x2019;t been born yet. The light burns where a king&#x2019;s ransom is buried. Near Svejstrup there&#x2019;s a kold (a flat area with slopes on three sides) which is called Hjortens kold (The Shepherd&#x2019;s kold), because that&#x2019;s where all the sheep that died during the sheep plague were buried. They also say that a light used to burn out there, which the old people have seen, but it disappeared as you got closer. Lights burn over things that are either hidden or secret. </english_publication>
+  <keywords>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="158" frequency="2" keyword="burial">burial</keyword>
+    <keyword id="317" frequency="1" keyword="death">death</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="413" frequency="3" keyword="fire">fire</keyword>
+    <keyword id="624" frequency="1" keyword="king">king</keyword>
+    <keyword id="708" frequency="1" keyword="lights">lights</keyword>
+    <keyword id="873" frequency="1" keyword="old">old</keyword>
+    <keyword id="959" frequency="1" keyword="plague">plague</keyword>
+    <keyword id="1014" frequency="1" keyword="ransom">ransom</keyword>
+    <keyword id="1082" frequency="1" keyword="secrets">secrets</keyword>
+    <keyword id="1095" frequency="2" keyword="sheep">sheep</keyword>
+    <keyword id="1099" frequency="1" keyword="shepherd">shepherd</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+  </keywords>
+  <etk_index id="10">
+    <heading_danish>Lys og varsler</heading_danish>
+    <heading_english>Lights and portents</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="53" display_name="Tools, Items and Conveyances: Treasure / Money"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="77" display_name="Animals: Sheep"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

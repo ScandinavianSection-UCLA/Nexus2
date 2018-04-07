@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<story story_id="739">
+  <publication_info>DS_III_527</publication_info>
+  <full_name>54 - 0.00 - DS_III_527</full_name>
+  <informant_id>54</informant_id>
+  <informant_last_name>Feldballe</informant_last_name>
+  <informant_first_name>Niels</informant_first_name>
+  <informant_full_name>Niels Feldballe</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>652</place_id>
+      <name>Torsager</name>
+      <display_name>Torsager (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>959</place_id>
+      <name>Feldballe kirke</name>
+      <display_name>Feldballe kirke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="189">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_III_1380</publication_info>
+      <full_name>241 - 4.17 - DSnr_III_1380</full_name>
+      <url>data/stories/189.dfl</url>
+    </story>
+    <story story_id="417">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_528</publication_info>
+      <full_name>123 - 3.14 - DS_III_528</full_name>
+      <url>data/stories/417.dfl</url>
+    </story>
+    <story story_id="672">
+      <informant_id>281</informant_id>
+      <publication_info>DS_III_535</publication_info>
+      <full_name>281 - 0.00 - DS_III_535</full_name>
+      <url>data/stories/672.dfl</url>
+    </story>
+    <story story_id="409">
+      <informant_id>123</informant_id>
+      <publication_info>DS_III_515</publication_info>
+      <full_name>123 - 3.06 - DS_III_515</full_name>
+      <url>data/stories/409.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der er flere gange fortalt om en kirkeklokke, der var bestemt til Feldballe kirke og skulde sejles over &#xF6;je (&#xD6;ww) s&#xF8;, men den gik af b&#xE5;den og sank ned i s&#xF8;en. Mange har forsikret, at de tit har kunnet h&#xF8;re den ringe der nede til h&#xF6;jtid.</danish_publication>
+  <english_publication>Many times people have told about a church bell which was intended for Feldballe church and was to be sailed across &#xD8;je (&#xD8;ww) Lake, but it fell off the boat and sank in the lake. Many have maintained that they have often heard it ringing down there on holidays.</english_publication>
+  <keywords>
+    <keyword id="88" frequency="1" keyword="bells">bells</keyword>
+    <keyword id="116" frequency="1" keyword="boat">boat</keyword>
+    <keyword id="227" frequency="2" keyword="church">church</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="534" frequency="1" keyword="holiday">holiday</keyword>
+    <keyword id="679" frequency="2" keyword="lake">lake</keyword>
+    <keyword id="1033" frequency="1" keyword="ringing">ringing</keyword>
+    <keyword id="1060" frequency="1" keyword="sailing">sailing</keyword>
+  </keywords>
+  <etk_index id="12">
+    <heading_danish>Kirker og deres opbyggelse. Klostre, hellige kilder, m. m.</heading_danish>
+    <heading_english>Churches and their construction. Monasteries, holy springs, etc.</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="40" display_name="Places: Pond / Lake"/>
+    <tango_index id="46" display_name="Tools, Items and Conveyances: Bell"/>
+    <tango_index id="47" display_name="Tools, Items and Conveyances: Boat"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

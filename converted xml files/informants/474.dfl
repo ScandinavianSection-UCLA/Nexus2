@@ -1,0 +1,54 @@
+<informant><person_id>474</person_id>
+  <core_informant/>
+  <full_name>Kristen Meldg&#229;rd</full_name>
+  <last_name>Meldg&#229;rd</last_name>
+  <first_name>Kristen</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>629</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>474</informant_id>
+      <publication_info>DS_IV_1682</publication_info>
+      <full_name>474 - 0.00 - DS_IV_1682</full_name>
+      <url>data/stories/629.dfl</url>
+      <place_recorded><id>888</id>Tapdrup</place_recorded>
+      <places_mentioned>
+        <place><id>471</id>
+          <name>Randers</name>
+        </place>
+        <place><id>423</id>
+          <name>Nedre Hornb&#230;k</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>888</place_id>
+      <name>Tapdrup</name>
+      <display_name>Tapdrup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>423</place_id>
+      <name>Nedre Hornb&#230;k</name>
+      <display_name>Nedre Hornb&#230;k (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>471</place_id>
+      <name>Randers</name>
+      <display_name>Randers (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

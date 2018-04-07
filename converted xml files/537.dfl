@@ -1,0 +1,92 @@
+<story><story_id>537</story_id>
+  <publication_info>DS_VI_141</publication_info>
+  <full_name>379 - 0.00 - DS_VI_141</full_name>
+  <informant_id>379</informant_id>
+  <informant_last_name>Hansen</informant_last_name>
+  <informant_first_name>Mads</informant_first_name>
+  <informant_full_name>L&#230;rer Mads Hansen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>772</place_id>
+      <name>F&#229;rdrup</name>
+      <display_name>F&#229;rdrup (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>302</place_id>
+      <name>Hvirring</name>
+      <display_name>Hvirring (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>474</place_id>
+      <name>Rask</name>
+      <display_name>Rask (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>798</story_id>
+      <informant_id>65</informant_id>
+      <publication_info>DS_V_289</publication_info>
+      <full_name>65 - 0.00 - DS_V_289</full_name>
+      <url>data/stories/798.dfl</url>
+    </story>
+    <story><story_id>18</story_id>
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_139</publication_info>
+      <full_name>150 - 1.15 - DS_VI_139</full_name>
+      <url>data/stories/18.dfl</url>
+    </story>
+    <story><story_id>192</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_167</publication_info>
+      <full_name>241 - 4.20 - DS_VI_167</full_name>
+      <url>data/stories/192.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Om en herremand p&#229; Rask i Hvirring sogn fort&#230;lles, at han undertiden bes&#246;gte Dj&#230;velen i hans bolig. En sildig aften kom ordre til kusken at sp&#230;nde for kareten. Herren, fruen og flere satte sig op, og da kusken spurgte, hvor han skulde kj&#248;re hen, svarede manden: "F&#248;lg den sorte hund." Vejen var bred og j&#230;vn, og det varede ikke l&#230;nge, f&#246;r de holdt for et stort, med mange lamper oplyst slot med en j&#230;rnport for, som straks &#229;bnede sig, og p&#229; trappen stod den gamle grinende, modtog dem og f&#248;rte dem ind. Endelig kom de ud og blev vejviste af den sorte hund til deres hjem.</danish_publication>
+  <english_publication>It is said about a manor lord from Rask in Hvirring that he occasionally visited the devil in his abode. One night late the order came to the driver to get the carriage ready. The lord, the lady, and more people got up in it and when the driver asked where he was supposed to drive, the lord answered, &#8220;Follow the black dog.&#8221; The road was wide and level and it wasn&#8217;t too long before they stopped by a big castle lit by many lanterns with an iron gate in front which immediately opened, and on the stairway stood the Old One laughing. He greeted them and brought them inside. Finally they came out and were directed by the black dog back to their home.</english_publication>
+  <keywords>
+    <keyword><id>106</id><frequency>2</frequency><keyword>black</keyword>black</keyword>
+    <keyword><id>181</id><frequency>1</frequency><keyword>carriage</keyword>carriage</keyword>
+    <keyword><id>186</id><frequency>1</frequency><keyword>castle</keyword>castle</keyword>
+    <keyword><id>324</id><frequency>1</frequency><keyword>devil</keyword>devil</keyword>
+    <keyword><id>343</id><frequency>2</frequency><keyword>dog</keyword>dog</keyword>
+    <keyword><id>357</id><frequency>2</frequency><keyword>driver</keyword>driver</keyword>
+    <keyword><id>457</id><frequency>1</frequency><keyword>gate</keyword>gate</keyword>
+    <keyword><id>537</id><frequency>1</frequency><keyword>home</keyword>home</keyword>
+    <keyword><id>564</id><frequency>1</frequency><keyword>iron</keyword>iron</keyword>
+    <keyword><id>678</id><frequency>1</frequency><keyword>lady</keyword>lady</keyword>
+    <keyword><id>685</id><frequency>1</frequency><keyword>lantern</keyword>lantern</keyword>
+    <keyword><id>691</id><frequency>1</frequency><keyword>laughter</keyword>laughter</keyword>
+    <keyword><id>725</id><frequency>2</frequency><keyword>lord</keyword>lord</keyword>
+    <keyword><id>743</id><frequency>1</frequency><keyword>manor_lord</keyword>manor lord</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1036</id><frequency>1</frequency><keyword>road</keyword>road</keyword>
+    <keyword><id>1185</id><frequency>1</frequency><keyword>stairs</keyword>stairs</keyword>
+  </keywords>
+  <etk_index><id>27</id>
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>1</id><display_name>People: Aristocrat / Royal</display_name></tango_index>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>57</id><display_name>Supernatural Beings: Devil</display_name></tango_index>
+    <tango_index><id>71</id><display_name>Animals: Dog</display_name></tango_index>
+    <tango_index><id>98</id><display_name>Actions or events: Transaction</display_name></tango_index>
+    <tango_index><id>112</id><display_name>Time, Season, Weather: Night </display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

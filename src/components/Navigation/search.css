@@ -1,0 +1,60 @@
+.SearchComponent{
+    padding-top:5vh;
+    height:30vh;
+    background:#ED4C67;
+    margin-bottom:20%;
+    margin-top:10%;
+}
+
+.SearchComponent input[type=text]{
+    border: 0;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    box-shadow:none;
+    color:white;
+    font-size:1.7em;
+    padding:3px;
+    height:1.6em;
+    width:80%;
+    margin-left:10%;
+}
+.SearchComponent input[type=text]:focus {
+    outline: none;
+}
+@keyframes suggestionsDrop {
+    from {height:0}
+    to {height:20vh;}
+}
+.SearchComponent input[type=text]:focus+.suggestions{
+    animation-name:suggestionsDrop;
+    animation-duration:1s;
+}
+.suggestions{
+    display:none;
+    height:20vh;
+    overflow-y:scroll;
+    background-color:white;
+    font-size:1.3em;
+    width:22%;
+    margin-left:0%;
+    list-style: none;
+    position:absolute;
+    top:21%;
+}
+.suggestions li{
+    padding:1% 0 1% 3%;
+}
+.suggestions li:hover{
+    background-color:lightgrey;
+    width:100%;
+}
+.suggestions.active{
+    display:block;
+}
+.filters{
+    width:100%;
+    height:70%;
+    margin-top:10%;
+    background-color:#CC4159;
+}

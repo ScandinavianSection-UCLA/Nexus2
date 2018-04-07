@@ -1,0 +1,54 @@
+<informant><person_id>395</person_id>
+  <core_informant/>
+  <full_name>L&#230;rer J. Jakobsen</full_name>
+  <last_name>Jakobsen</last_name>
+  <first_name>J.</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>651</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>395</informant_id>
+      <publication_info>DS_V_1443</publication_info>
+      <full_name>395 - 0.00 - DS_V_1443</full_name>
+      <url>data/stories/651.dfl</url>
+      <place_recorded><id>405</id>Mejlby</place_recorded>
+      <places_mentioned>
+        <place><id>167</id>
+          <name>Foulum</name>
+        </place>
+        <place><id>596</id>
+          <name>Stistrup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>596</place_id>
+      <name>Stistrup</name>
+      <display_name>Stistrup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>167</place_id>
+      <name>Foulum</name>
+      <display_name>Foulum (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

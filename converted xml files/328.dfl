@@ -1,0 +1,84 @@
+<story><story_id>328</story_id>
+  <publication_info>DS_I_1412</publication_info>
+  <full_name>90 - 1.05 - DS_I_1412</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>1.05</order_told>
+  <fieldtrip><id>9</id>October 1889</fieldtrip>
+  <fieldtrip_start_date>1889-10-25</fieldtrip_start_date>
+  <fieldtrip_end_date>1889-11-18</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>349</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_VI_1100</publication_info>
+      <full_name>90 - 2.17 - DS_VI_1100</full_name>
+      <url>data/stories/349.dfl</url>
+    </story>
+    <story><story_id>821</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_I_1413</publication_info>
+      <full_name>69 - 0.00 - DS_I_1413</full_name>
+      <url>data/stories/821.dfl</url>
+    </story>
+    <story><story_id>757</story_id>
+      <informant_id>348</informant_id>
+      <publication_info>DS_I_1414</publication_info>
+      <full_name>348 - 0.00 - DS_I_1414</full_name>
+      <url>data/stories/757.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4767b (2)</fielddiary_page_start>
+  <fielddiary_page_end>4767b (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>In this short and somewhat disjointed legend, the hired boy seeks out the mound dweller. His motivation for doing so is missing in Margrete's variant. One also needs to interpolate a missing conversation between the boy and the mound dweller to understand the seemingly obscure reference to Tordenf&#229;er (Thunder father) and M&#252;tter Maria (mother Mary). In other variants of this legend, the boy has either gone out to ask the mound dweller to stand as godfather for the farmer's child--an interesting reversal of the mound dweller asking a farmer's wife to act as midwife to his wife--or to trick the mound dweller into giving a large monetary gift to celebrate the birth of the child--again, a parallel to the midwife legends (DS I 1414). In other variants of this legend, the mound dweller provides a substantial monetary gift, but begs off attending the celebration because the guests will include religious figures (the mother Mary, and in most cases the Lord and St. Peter), and the music will be drumming (referred to in this case as "Tordenf&#229;er" (Thunder father) by the mound man) (DS I 1413). 
+
+     The mound dweller apparently assists the hired hand in his work in this story, and thus takes on some aspects of the helpful nisse. Like a nisse, the mound dweller guarantees success for the farm, but also shows a distinct loyalty to the farmhand and the farm. The legend affirms the strong economic connection between the farmers and supernatural beings that informs many of Margrete's legends.</annotation>
+  <danish_manuscript>S. r&#230;d for Tordenf&#229;r og Mutter Maria.
+God dag. Ja. Tak. Hvad godt i dag lille
+Karl.
+Bj&#248;rremand. Alle Folk vilde gj&#230;rne have
+den Dreng. Men s. sagde h. at det kunne 
+ikke nytte, for s. kjendte Bj&#230;rgm. ham
+ikke, naar h. kom af Marken. S. blev
+h. da ogsaa ved Manden og fik gaarden efter
+ham.
+</danish_manuscript>
+  <english_manuscript>He was so scared of Tordenf&#229;er and mother Marie. Good day. Yes. Thank you. What's going on today little guy? Mound man. Everybody wanted to have that boy. But he said it wouldn't do any good, since the mound man wouldn't recognize him when he came back from the field. So he stayed with the man and inherited the farm from him.</english_manuscript>
+  <danish_publication>.....Drengen g&#229;r ud til bj&#230;rgmanden: "God dag." &#8212; "Ja, tak." &#8212; "Hvad godt i dag, lille karl?" S&#229; forretter han det .... Ja, han var s&#229; r&#230;d for Tordenf&#229;er og mutter Marie .... Alle folk vilde nu gj&#230;rne have den dreng at tjene, men han sagde, te det kunde ikke nytte, for s&#229; kjendte bj&#230;rgmanden ham ikke, n&#229;r han kom hen p&#229; en fremmed mark. Det kunde der v&#230;re noget i, og s&#229; blev han g&#229;ende ved den mand, og blev s&#229; gj&#230;v med ham, te han fik g&#229;rden efter ham.</danish_publication>
+  <english_publication>&#8230;. The hired boy goes out to the mound man: &#8220;Good day.&#8221; -- &#8220;Yes, thank you.&#8221; -- &#8220;What&#8217;s going on today little guy?&#8221; So he tells him &#8230; Well, he was so scared of Thunder father and mother Mary. &#8230;.  Now everybody wanted that boy to work for them, but he said that it wouldn&#8217;t do any good, because then the mound man wouldn&#8217;t recognize him if he went out on a different field. There was probably something to that, and so he continued on with that man and they got along so well that he inherited the farm from him.</english_publication>
+  <keywords>
+    <keyword><id>130</id><frequency>2</frequency><keyword>boy</keyword>boy</keyword>
+    <keyword><id>306</id><frequency>1</frequency><keyword>day</keyword>day</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>410</id><frequency>1</frequency><keyword>field</keyword>field</keyword>
+    <keyword><id>558</id><frequency>1</frequency><keyword>inheritance</keyword>inheritance</keyword>
+    <keyword><id>807</id><frequency>2</frequency><keyword>mound_man</keyword>mound man</keyword>
+    <keyword><id>1246</id><frequency>1</frequency><keyword>thank</keyword>thank</keyword>
+    <keyword><id>1265</id><frequency>1</frequency><keyword>today</keyword>today</keyword>
+    <keyword><id>1361</id><frequency>1</frequency><keyword>work</keyword>work</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>4</id><display_name>People: Boy</display_name></tango_index>
+    <tango_index><id>7</id><display_name>People: Farmer</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

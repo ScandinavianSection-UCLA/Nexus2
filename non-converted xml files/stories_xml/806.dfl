@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<story story_id="806">
+  <publication_info>DS_I_813</publication_info>
+  <full_name>506 - 0.00 - DS_I_813</full_name>
+  <informant_id>506</informant_id>
+  <informant_last_name>Olsen</informant_last_name>
+  <informant_first_name>Rasmus</informant_first_name>
+  <informant_full_name>L&#xE6;rer Rasmus Olsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>908</place_id>
+      <name>Viemose, Kalvhave</name>
+      <display_name>Viemose, Kalvhave (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>319</place_id>
+      <name>Kalvehave</name>
+      <display_name>Kalvehave (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>466</place_id>
+      <name>P&#xF8;lse h&#xF8;je</name>
+      <display_name>P&#xF8;lse h&#xF8;je (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="238">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_782</publication_info>
+      <full_name>235 - 1.19 - DS_I_782</full_name>
+      <url>data/stories/238.dfl</url>
+    </story>
+    <story story_id="617">
+      <informant_id>365</informant_id>
+      <publication_info>DS_I_807</publication_info>
+      <full_name>365 - 0.00 - DS_I_807</full_name>
+      <url>data/stories/617.dfl</url>
+    </story>
+    <story story_id="863">
+      <informant_id/>
+      <publication_info>DS_I_818</publication_info>
+      <full_name>0 - 0.00 - DS_I_818</full_name>
+      <url>data/stories/863.dfl</url>
+    </story>
+    <story story_id="282">
+      <informant_id>235</informant_id>
+      <publication_info>DS_I_783</publication_info>
+      <full_name>235 - 1.61 - DS_I_783</full_name>
+      <url>data/stories/282.dfl</url>
+    </story>
+    <story story_id="522">
+      <informant_id>519</informant_id>
+      <publication_info>DS_I_774</publication_info>
+      <full_name>519 - 0.00 - DS_I_774</full_name>
+      <url>data/stories/522.dfl</url>
+    </story>
+    <story story_id="794">
+      <informant_id>435</informant_id>
+      <publication_info>DS_I_796</publication_info>
+      <full_name>435 - 0.00 - DS_I_796</full_name>
+      <url>data/stories/794.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En karl red en nat forbi P&#xF8;lse h&#xF6;je ved Kalvehave. Da stod en af dem p&#xE5; st&#xF6;tter o. s. v. Da han red med b&#xE6;geret, r&#xE5;btes der fra h&#xF6;jen: "&#xC5;, &#xC9;nben l&#xF8;b og tog Guldben med sig." Andre siger, at &#xE9;n l&#xF8;b efter ham og sagde: "Stat, gilding!" Men karlen svarede hver gang: "L&#xF8;b, vrinsker!" Han var knap inden for sin husbonds port, f&#xF6;r de var uden for den. Da han ej turde beholde b&#xE6;geret, skj&#xE6;nkede han det til Kalvehave kirke.</danish_publication>
+  <english_publication>A farmhand rode past the P&#xF8;lse (Sausage) mounds near Kalvehave one night. One of them was up on poles, etc. When he rode off with the cup, a voice shouted from the mound, "Oh, One Leg ran off and took Gold Leg with him!" Others say that one ran after him and shouted, "Stop, gelding," but the farmhand answered each time, "Run, stallion!" He was barely inside his farmer's gates when they were right outside. Since he didn't dare keep the cup, he gave it to Kalvehave church.</english_publication>
+  <keywords>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="287" frequency="2" keyword="cup">cup</keyword>
+    <keyword id="395" frequency="2" keyword="farm_hand">farmhand</keyword>
+    <keyword id="396" frequency="1" keyword="farmer">farmer</keyword>
+    <keyword id="457" frequency="1" keyword="gate">gate</keyword>
+    <keyword id="459" frequency="1" keyword="gelding">gelding</keyword>
+    <keyword id="473" frequency="1" keyword="gold">gold</keyword>
+    <keyword id="704" frequency="2" keyword="leg">leg</keyword>
+    <keyword id="804" frequency="1" keyword="mound">mound</keyword>
+    <keyword id="848" frequency="1" keyword="night">night</keyword>
+    <keyword id="889" frequency="1" keyword="outside">outside</keyword>
+    <keyword id="971" frequency="1" keyword="pole">pole</keyword>
+    <keyword id="1030" frequency="2" keyword="riding">riding</keyword>
+    <keyword id="1307" frequency="1" keyword="voice">voice</keyword>
+  </keywords>
+  <etk_index id="1">
+    <heading_danish>Bj&#xE6;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="30" display_name="Places: Field"/>
+    <tango_index id="38" display_name="Places: Mound"/>
+    <tango_index id="63" display_name="Supernatural Beings: Mound folk"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="82" display_name="Actions or events: Dancing"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

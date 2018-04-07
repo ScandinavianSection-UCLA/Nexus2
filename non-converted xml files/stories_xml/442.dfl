@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<story story_id="442">
+  <publication_info>DS_II_F_58</publication_info>
+  <full_name>456 - 0.00 - DS_II_F_58</full_name>
+  <informant_id>456</informant_id>
+  <informant_last_name>Ludvigsen</informant_last_name>
+  <informant_first_name>Anna Christ.</informant_first_name>
+  <informant_full_name>Fru Anna Christ. Ludvigsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>766</place_id>
+      <name>D&#xF8;strup</name>
+      <display_name>D&#xF8;strup (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="497">
+      <informant_id>465</informant_id>
+      <publication_info>DS_II_F_62</publication_info>
+      <full_name>465 - 0.00 - DS_II_F_62</full_name>
+      <url>data/stories/497.dfl</url>
+    </story>
+    <story story_id="547">
+      <informant_id>466</informant_id>
+      <publication_info>DS_II_F_50</publication_info>
+      <full_name>466 - 0.00 - DS_II_F_50</full_name>
+      <url>data/stories/547.dfl</url>
+    </story>
+    <story story_id="856">
+      <informant_id>328</informant_id>
+      <publication_info>DS_II_F_65</publication_info>
+      <full_name>328 - 0.00 - DS_II_F_65</full_name>
+      <url>data/stories/856.dfl</url>
+    </story>
+    <story story_id="655">
+      <informant_id>539</informant_id>
+      <publication_info>DS_II_F_54</publication_info>
+      <full_name>539 - 0.00 - DS_II_F_54</full_name>
+      <url>data/stories/655.dfl</url>
+    </story>
+    <story story_id="866">
+      <informant_id/>
+      <publication_info>DS_II_F_101</publication_info>
+      <full_name>0 - 0.00 - DS_II_F_101</full_name>
+      <url>data/stories/866.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Mod mareridt er det allervigtigste at skrive p&#xE5; senge l&#xE5;gen tre s&#xE5;kaldte marekors. Hvert kors dannes ved at skrive en streg ud i &#xE9;t, s&#xE5;ledes at den danner 5 spidsvinkler, og det hele kors har form som en femoddet stj&#xE6;rne.</danish_publication>
+  <english_publication>Against being mare ridden, it is of utmost importance to draw three so-called mare crosses on the bed alcove door. Each cross is made by writing one stroke at once, so that it makes five sharp angles, and the whole cross has the shape of a five-pointed star.</english_publication>
+  <keywords>
+    <keyword id="83" frequency="1" keyword="bed">bed</keyword>
+    <keyword id="344" frequency="1" keyword="door">door</keyword>
+    <keyword id="744" frequency="2" keyword="mare">mare</keyword>
+    <keyword id="1030" frequency="1" keyword="riding">riding</keyword>
+    <keyword id="1188" frequency="1" keyword="star">star</keyword>
+    <keyword id="1256" frequency="1" keyword="three">three</keyword>
+    <keyword id="1367" frequency="2" keyword="writing">writing</keyword>
+  </keywords>
+  <etk_index id="7">
+    <heading_danish>Varulve og marer</heading_danish>
+    <heading_english>Werewolves and nightmares</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="61" display_name="Supernatural Beings: Mare"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+  </tango_indices>
+  <genre id="1" name="Belief"/>
+</story>

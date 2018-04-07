@@ -1,0 +1,81 @@
+<story><story_id>393</story_id>
+  <publication_info>JAH_I_263</publication_info>
+  <full_name>123 - 2.19 - JAH_I_263</full_name>
+  <informant_id>123</informant_id>
+  <informant_last_name>Johansen</informant_last_name>
+  <informant_first_name>Peder</informant_first_name>
+  <informant_full_name>Peder Johansen</informant_full_name>
+  <order_told>2.19</order_told>
+  <fieldtrip><id>2</id>Feb 1888</fieldtrip>
+  <fieldtrip_start_date>1888-02-04</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-02-17</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>175</place_id>
+      <name>Fuldbro m&#248;lle</name>
+      <display_name>Fuldbro m&#248;lle (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>418</place_id>
+      <name>Moss&#248;</name>
+      <display_name>Moss&#248; (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>399</story_id>
+      <informant_id>123</informant_id>
+      <publication_info>JAH_V_212</publication_info>
+      <full_name>123 - 2.25 - JAH_V_212</full_name>
+      <url>data/stories/399.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3777b</fielddiary_page_start>
+  <fielddiary_page_end>3778a</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The illness that kills off the cows appears to be directly related to the growth of an algae in the local lake. A toxic blue green algae (as Peder describes) can form on lakes during hot, still weather. If cows ingest the algae with their drinking water, they can suffer massive liver damage, and die within the hour (Bovine Blue-Green Algae Toxicosis).
+
+     Animal epidemics and other sudden animal deaths were a devastating phenomenon in rural Jutland, and could ravage the economy of an entire community. These epidemics became a particular threat when farms moved away from a grains based agriculture to one emphasizing animal husbandry, dairy herds in particular.
+
+     Working at the mill, Peder was in a perfect position to hear from all of the farmers the problems that they were having on their farms, including problems with their herds.</annotation>
+  <danish_manuscript>[S. snar som] Den Sommer te F&#230;sygen
+[da] var her, da var der saadan Varme og Tan
+ning te alting d&#248;de hen og alt gr&#230;sset
+svejtest og S&#248;en (Mos S&#248;) var overtrukken
+med et gr&#248;nt Lag formedelst der var saa-
+dan meget stille Vejr. S. snart som H&#248;vder-
+
+3778A
+s. rendte l&#248;se og kom til Vandet, s. d&#248;de de
+&#248;jeblikkelig og kuns de H&#248;veder kunde staa den
+der kunde leve af Duggen, der falder.
+</danish_manuscript>
+  <english_manuscript>The summer that the f&#230;sygenen (cow sickness) was here, there was an incredible heat and stillness, so that everything died, and all of the grass withered, and the lake (Mos lake) was covered with a green layer, likely because the weather was so calm. As soon as the cattle ran loose and came down to the water, they'd die immediately and only the cattle that could live off of the dew that fell survived.</english_manuscript>
+  <danish_publication>Den sommer, te f&#230;sygenen var her, da var der s&#229;dan varme og tanning, te alting d&#248;de hen, og alt gr&#230;sset svejtest, og s&#248;en (Mos s&#248;) var overtrukken med et gr&#246;nt lag, formedelst der var s&#229;dan meget stille vejr. S&#229; snart som h&#246;vderne rendte l&#248;se og kom til vandet, s&#229; d&#248;de de &#248;jeblikkelig, og kuns de h&#246;veder kunde st&#229; dem, der kunde leve af duggen, der falder.</danish_publication>
+  <english_publication>The summer that the cow sickness was here, there was an incredible heat and stillness, so that everything died, and all of the grass withered, and the lake (Mos lake) was  covered with a green layer, likely because the weather was so calm. As soon as the cattle ran loose and came down to the water, they&#8217;d die immediately and the only cattle that survived were the ones that could live off of the dew that fell.</english_publication>
+  <keywords>
+    <keyword><id>190</id><frequency>2</frequency><keyword>cattle</keyword>cattle</keyword>
+    <keyword><id>274</id><frequency>1</frequency><keyword>cow</keyword>cow</keyword>
+    <keyword><id>317</id><frequency>2</frequency><keyword>death</keyword>death</keyword>
+    <keyword><id>392</id><frequency>1</frequency><keyword>fall</keyword>fall</keyword>
+    <keyword><id>481</id><frequency>1</frequency><keyword>grass</keyword>grass</keyword>
+    <keyword><id>679</id><frequency>2</frequency><keyword>lake</keyword>lake</keyword>
+    <keyword><id>1111</id><frequency>1</frequency><keyword>sickness</keyword>sickness</keyword>
+    <keyword><id>1215</id><frequency>1</frequency><keyword>summer</keyword>summer</keyword>
+    <keyword><id>1224</id><frequency>1</frequency><keyword>survivor</keyword>survivor</keyword>
+    <keyword><id>1320</id><frequency>1</frequency><keyword>water</keyword>water</keyword>
+    <keyword><id>1324</id><frequency>1</frequency><keyword>weather</keyword>weather</keyword>
+  </keywords>
+  <etk_index><id>31</id>
+    <heading_danish>Om fortidens landbrug</heading_danish>
+    <heading_english>Concerning earlier agricultural practices</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>83</id><display_name>Actions or events: Death</display_name></tango_index>
+    <tango_index><id>115</id><display_name>Time, Season, Weather: Summer</display_name></tango_index>
+    <tango_index><id>128</id><display_name>Resolution: Negative</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

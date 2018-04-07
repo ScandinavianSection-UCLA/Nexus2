@@ -1,0 +1,78 @@
+<story><story_id>360</story_id>
+  <publication_info>DS_III_2378</publication_info>
+  <full_name>90 - 3.06 - DS_III_2378</full_name>
+  <informant_id>90</informant_id>
+  <informant_last_name>Jensdatter</informant_last_name>
+  <informant_first_name>(Ane) Margrete</informant_first_name>
+  <informant_full_name>(Ane) Margrete Jensdatter</informant_full_name>
+  <order_told>3.06</order_told>
+  <fieldtrip><id>4</id>July 1894</fieldtrip>
+  <fieldtrip_start_date>1894-07-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1894-07-15</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>405</place_id>
+      <name>Mejlby</name>
+      <display_name>Mejlby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>320</place_id>
+      <name>Kalv&#248;</name>
+      <display_name>Kalv&#248; (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>361</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DSnr_III_564</publication_info>
+      <full_name>90 - 3.07 - DSnr_III_564</full_name>
+      <url>data/stories/361.dfl</url>
+    </story>
+    <story><story_id>508</story_id>
+      <informant_id>319</informant_id>
+      <publication_info>DS_III_2440</publication_info>
+      <full_name>319 - 0.00 - DS_III_2440</full_name>
+      <url>data/stories/508.dfl</url>
+    </story>
+    <story><story_id>517</story_id>
+      <informant_id>6</informant_id>
+      <publication_info>DS_III_2316</publication_info>
+      <full_name>6 - 0.00 - DS_III_2316</full_name>
+      <url>data/stories/517.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6718b (2)</fielddiary_page_start>
+  <fielddiary_page_end>6718b (2)</fielddiary_page_end>
+  <bibliographic_info>http://www.sns.dk/fortidsm/netpub/kaloe/kaloe.htm</bibliographic_info>
+  <bibliography_references/>
+  <annotation>The Danish word for "tax" and "treasure" are the same, and the nine year treasure the dragon guards is likely a treasure that has been collected from nine years of taxation. At the end of the nineteenth century, taxation was a hot button topic in political debate, and there was significant discussion over the degree to which taxes should be administered locally or should be returned to the central administration of the national government. With the constitution, the Crown was less in control of tax revenue as it had been during the period of the absolute monarchy.
+
+     Dragons guarding treasures are known in Nordic tradition back through the middle ages. Grundtvig's translations of Snorri and Saxo made such stories broadly accessible in rural Denmark. Perhaps the best known of the medieval dragons guarding treasure is Fafnir, who turns himself into a dragon to protect a hoard of ill-gotten gold.
+
+     Tang Kristensen misrecorded the name of the castle, as there is no castle on Kalv&#248; (near Skanderborg). Cistercian monks had used Kalv&#248;, but left no structure that could be considered a castle. Given the next story, it is clear that Margrete was referring to the nearby Kal&#248; castle, which had been built in the late middle ages, and was used sporadically through the nineteenth century. It was here that Christian II imprisoned Gustav Wasa the future king of Sweden from 1518 to 1522.</annotation>
+  <danish_manuscript>Ved Kalv&#248; Slot laa en Drage ved 9
+Aars gl Skat og de kunde se Halen af
+den, den laa ved Slottet.
+</danish_manuscript>
+  <english_manuscript>Near Kalv&#248; castle lay a dragon with a nine year old treasure and they could see its tail, it lay right up by the castle.</english_manuscript>
+  <danish_publication>Ved Kalv&#248; slot l&#229; en drage med ni &#229;rs gammel skat og de kunde se halen af den, for den l&#229; lige inde ved slottet.</danish_publication>
+  <english_publication>Near Kalv&#248; castle lay a dragon with a nine year old treasure and they could see its tail, because it lay right up by the castle.</english_publication>
+  <keywords>
+    <keyword><id>186</id><frequency>2</frequency><keyword>castle</keyword>castle</keyword>
+    <keyword><id>349</id><frequency>1</frequency><keyword>dragon</keyword>dragon</keyword>
+    <keyword><id>873</id><frequency>1</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1239</id><frequency>1</frequency><keyword>tail</keyword>tail</keyword>
+    <keyword><id>1280</id><frequency>1</frequency><keyword>treasure</keyword>treasure</keyword>
+    <keyword><id>1370</id><frequency>1</frequency><keyword>year</keyword>year</keyword>
+  </keywords>
+  <etk_index><id>15</id>
+    <heading_danish>Sagn om skatte</heading_danish>
+    <heading_english>Legends about treasure</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>53</id><display_name>Tools, Items and Conveyances: Treasure / Money</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>137</id><display_name>Supernatural Beings: Dragon</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

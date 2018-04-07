@@ -1,0 +1,84 @@
+<informant><person_id>377</person_id>
+  <core_informant/>
+  <full_name>L&#230;rerinde Louise Hansen</full_name>
+  <last_name>Hansen</last_name>
+  <first_name>Louise</first_name>
+  <gender>N/A</gender>
+  <birth_date>N/A</birth_date>
+  <death_date>N/A</death_date>
+  <occupations/>
+  <stories>
+    <story><story_id>647</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>377</informant_id>
+      <publication_info>DS_V_1016</publication_info>
+      <full_name>377 - 0.00 - DS_V_1016</full_name>
+      <url>data/stories/647.dfl</url>
+      <place_recorded><id>799</id>Hurup</place_recorded>
+      <places_mentioned>
+        <place><id>97</id>
+          <name>Br&#248;nderslev</name>
+        </place>
+      </places_mentioned>
+    </story>
+    <story><story_id>675</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>377</informant_id>
+      <publication_info>DS_II_E_170</publication_info>
+      <full_name>377 - 0.00 - DS_II_E_170</full_name>
+      <url>data/stories/675.dfl</url>
+      <place_recorded><id>799</id>Hurup</place_recorded>
+      <places_mentioned/>
+    </story>
+    <story><story_id>676</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>377</informant_id>
+      <publication_info>DS_IV_1783</publication_info>
+      <full_name>377 - 0.00 - DS_IV_1783</full_name>
+      <url>data/stories/676.dfl</url>
+      <place_recorded><id>293</id>Hurup</place_recorded>
+      <places_mentioned>
+        <place><id>222</id>
+          <name>Hadsund</name>
+        </place>
+        <place><id>293</id>
+          <name>Hurup</name>
+        </place>
+      </places_mentioned>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>799</place_id>
+      <name>Hurup</name>
+      <display_name>Hurup (stories recorded here)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>293</place_id>
+      <name>Hurup</name>
+      <display_name>Hurup (stories recorded here)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>293</place_id>
+      <name>Hurup</name>
+      <display_name>Hurup (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>222</place_id>
+      <name>Hadsund</name>
+      <display_name>Hadsund (mentioned in 1 story)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>97</place_id>
+      <name>Br&#248;nderslev</name>
+      <display_name>Br&#248;nderslev (mentioned in 1 story)</display_name>
+    </place>
+  </places>
+</informant>

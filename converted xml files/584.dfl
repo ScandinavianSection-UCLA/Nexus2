@@ -1,0 +1,91 @@
+<story><story_id>584</story_id>
+  <publication_info>DS_I_265</publication_info>
+  <full_name>548 - 0.00 - DS_I_265</full_name>
+  <informant_id>548</informant_id>
+  <informant_last_name>Vorm</informant_last_name>
+  <informant_first_name>Johan</informant_first_name>
+  <informant_full_name>Johan Vorm</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>883</place_id>
+      <name>Sundby</name>
+      <display_name>Sundby (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>155</place_id>
+      <name>Firebakke</name>
+      <display_name>Firebakke (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>227</place_id>
+      <name>Halds bakke</name>
+      <display_name>Halds bakke (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>506</place_id>
+      <name>Rygs bakke</name>
+      <display_name>Rygs bakke (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>327</story_id>
+      <informant_id>90</informant_id>
+      <publication_info>DS_I_263</publication_info>
+      <full_name>90 - 1.04 - DS_I_263</full_name>
+      <url>data/stories/327.dfl</url>
+    </story>
+    <story><story_id>447</story_id>
+      <informant_id>485</informant_id>
+      <publication_info>DS_I_270</publication_info>
+      <full_name>485 - 0.00 - DS_I_270</full_name>
+      <url>data/stories/447.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der er en bakke nordvest i Sundby ned til fjorden, der kaldes Halds bakke. S&#229; var det en aften, nogle af deres f&#229;r i Klitg&#229;rd var bleven henne, og s&#229; vilde konen s&#229; tidlig op om morgenen og hen og lede om dem. Lige som hun g&#229;r, kommer hun om ved en gammel kone, der gik med et kar p&#229; sit hoved. Hun siger godmorgen. Den svarte ikke. "Hvor er denher kone fra?" Hun var fra Halds bakke og skulde ned &#230;d Rygs bakke og bage ved hendes s&#248;ster. Det er en gammel kone, der har fortalt det, og hendes moder, det er passeret med, og alts&#229; er det h&#230;ndet for en hundrede &#229;r siden. Bj&#230;rgfolkene i den bakke havde ogs&#229; undertiden deres linned ude.</danish_publication>
+  <english_publication>There's a cliff on the other side of Firebakke called Halds bakke (Hald's mound). One evening, some of the sheep at Klitg&#229;rd had disappeared, and the farmwife wanted to get up early the next morning to look for them. As she's walking along, she meets an old woman who is walking carrying a bucket on her head. She says good morning. The woman didn't answer. "Where are you from?" She was from Halds bakke and was going down to Rygs bakke (Ryg's mound) to bake with her sister. It was an old woman who told that story, and it had happened to her mother, so that happened a hundred years ago. The mound dwellers in that mound sometimes put their linen out.</english_publication>
+  <keywords>
+    <keyword><id>65</id><frequency>1</frequency><keyword>baking</keyword>baking</keyword>
+    <keyword><id>151</id><frequency>1</frequency><keyword>bucket</keyword>bucket</keyword>
+    <keyword><id>232</id><frequency>1</frequency><keyword>cliff</keyword>cliff</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>386</id><frequency>1</frequency><keyword>evening</keyword>evening</keyword>
+    <keyword><id>394</id><frequency>1</frequency><keyword>farm</keyword>farm</keyword>
+    <keyword><id>713</id><frequency>1</frequency><keyword>linen</keyword>linen</keyword>
+    <keyword><id>801</id><frequency>2</frequency><keyword>morning</keyword>morning</keyword>
+    <keyword><id>803</id><frequency>1</frequency><keyword>mother</keyword>mother</keyword>
+    <keyword><id>804</id><frequency>3</frequency><keyword>mound</keyword>mound</keyword>
+    <keyword><id>805</id><frequency>1</frequency><keyword>mound_dweller</keyword>mound dweller</keyword>
+    <keyword><id>873</id><frequency>2</frequency><keyword>old</keyword>old</keyword>
+    <keyword><id>1095</id><frequency>1</frequency><keyword>sheep</keyword>sheep</keyword>
+    <keyword><id>1124</id><frequency>1</frequency><keyword>sister</keyword>sister</keyword>
+    <keyword><id>1200</id><frequency>1</frequency><keyword>story</keyword>story</keyword>
+    <keyword><id>1343</id><frequency>1</frequency><keyword>wife</keyword>wife</keyword>
+    <keyword><id>1356</id><frequency>3</frequency><keyword>woman</keyword>woman</keyword>
+  </keywords>
+  <etk_index><id>1</id>
+    <heading_danish>Bj&#230;rgfolk</heading_danish>
+    <heading_english>Mound dwellers (Hidden folk)</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>8</id><display_name>People: Farmwife</display_name></tango_index>
+    <tango_index><id>23</id><display_name>People: Woman</display_name></tango_index>
+    <tango_index><id>30</id><display_name>Places: Field</display_name></tango_index>
+    <tango_index><id>38</id><display_name>Places: Mound</display_name></tango_index>
+    <tango_index><id>63</id><display_name>Supernatural Beings: Mound folk</display_name></tango_index>
+    <tango_index><id>100</id><display_name>Actions or events: Work</display_name></tango_index>
+    <tango_index><id>109</id><display_name>Time, Season, Weather: Morning</display_name></tango_index>
+    <tango_index><id>111</id><display_name>Time, Season, Weather: Evening</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

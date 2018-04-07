@@ -1,0 +1,88 @@
+<story><story_id>236</story_id>
+  <publication_info>DS_II_H_480</publication_info>
+  <full_name>235 - 1.17 - DS_II_H_480</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>1.17</order_told>
+  <fieldtrip><id>7</id>May 1890</fieldtrip>
+  <fieldtrip_start_date>1890-05-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1890-05-24</fieldtrip_end_date>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>361</place_id>
+      <name>Langskov</name>
+      <display_name>Langskov (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>446</place_id>
+      <name>&#216;dum</name>
+      <display_name>&#216;dum (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>625</place_id>
+      <name>T&#229;b&#230;k</name>
+      <display_name>T&#229;b&#230;k (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>830</story_id>
+      <informant_id>69</informant_id>
+      <publication_info>DS_V_129</publication_info>
+      <full_name>69 - 0.00 - DS_V_129</full_name>
+      <url>data/stories/830.dfl</url>
+    </story>
+    <story><story_id>686</story_id>
+      <informant_id>475</informant_id>
+      <publication_info>DS_II_H_484</publication_info>
+      <full_name>475 - 0.00 - DS_II_H_484</full_name>
+      <url>data/stories/686.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5215a (2)</fielddiary_page_start>
+  <fielddiary_page_end>5215a (2)</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>This story recounts another common death omen, here a long funeral procession that turns into the cemetery (DS II H 484). As with the preceding story, the protagonist takes no action, and simply recounts the apparition. The encounter is only minimally disruptive. It does however serve as a strong reminder of everyone's mortality.</annotation>
+  <danish_manuscript>En Mand kom en Aften kj&#248;rende og havde v&#230;ret
+i Taab&#230;k M&#248;lle. Da h. kom [ud] op fraa &#216;dum
+og op efter Langskov, der tykte h. der kom en
+hel Hoben henne. H. kj&#248;rte lidt af Vejen og
+s. kom der en Ligskare om ved ham, og h.
+kunde s. livsagtig h&#248;re, de mumlede. og de tr&#230;k-
+[knude] kede om efter Kirken.</danish_manuscript>
+  <english_manuscript>One evening a man came driving, he'd been over at T&#229;b&#230;k mill. When he passed &#216;dum and was headed toward Langskov, he thought that a large crowd was coming toward him. He drove a bit to the side, and then a funeral procession passed him, and he could actually hear them mumbling and they turned in towards the church.</english_manuscript>
+  <danish_publication>En mand kom en aften kj&#248;rende og havde v&#230;ret i T&#229;b&#230;k m&#248;lle. Da han kom fra &#216;dum og op efter Langskov, der tykte han, der kom en hel hoben henne. Han kj&#248;rte lidt af vejen for dem, og s&#229; kom der en ligskare om ved ham, og han kunde livagtig h&#248;re, de mumlede. S&#229; tr&#230;kkede de om efter kirken, og der blev det jo v&#230;k.</danish_publication>
+  <english_publication>One evening a man was driving along, he&#8217;d been over at T&#229;b&#230;k mill. When he passed &#216;dum and was headed toward Langskov, he had the impression that a large crowd was approaching. He drove a bit to the side for them, and then a funeral procession passed him, and he could vividly hear them mumbling. Then they turned in towards the church and there they disappeared.</english_publication>
+  <keywords>
+    <keyword><id>227</id><frequency>1</frequency><keyword>church</keyword>church</keyword>
+    <keyword><id>284</id><frequency>1</frequency><keyword>crowd</keyword>crowd</keyword>
+    <keyword><id>331</id><frequency>1</frequency><keyword>disappearance</keyword>disappearance</keyword>
+    <keyword><id>386</id><frequency>1</frequency><keyword>evening</keyword>evening</keyword>
+    <keyword><id>450</id><frequency>1</frequency><keyword>funeral</keyword>funeral</keyword>
+    <keyword><id>783</id><frequency>1</frequency><keyword>mill</keyword>mill</keyword>
+    <keyword><id>999</id><frequency>1</frequency><keyword>procession</keyword>procession</keyword>
+  </keywords>
+  <etk_index><id>9</id>
+    <heading_danish>D&#248;dsvarsler</heading_danish>
+    <heading_english>Death portents</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>12</id><display_name>People: Man</display_name></tango_index>
+    <tango_index><id>28</id><display_name>Places: Church</display_name></tango_index>
+    <tango_index><id>37</id><display_name>Places: Mill</display_name></tango_index>
+    <tango_index><id>41</id><display_name>Places: Road</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>111</id><display_name>Time, Season, Weather: Evening</display_name></tango_index>
+    <tango_index><id>129</id><display_name>Resolution: Ambiguous</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

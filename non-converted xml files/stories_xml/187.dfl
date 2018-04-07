@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<story story_id="187">
+  <publication_info>DS_VI_191</publication_info>
+  <full_name>241 - 4.15 - DS_VI_191</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>4.15</order_told>
+  <fieldtrip id="8">May-June 1898</fieldtrip>
+  <fieldtrip_start_date>1898-05-23</fieldtrip_start_date>
+  <fieldtrip_end_date>1898-06-08</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>384</place_id>
+      <name>L&#xF8;rslev</name>
+      <display_name>L&#xF8;rslev (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="673">
+      <informant_id>376</informant_id>
+      <publication_info>DS_VI_240</publication_info>
+      <full_name>376 - 0.00 - DS_VI_240</full_name>
+      <url>data/stories/673.dfl</url>
+    </story>
+    <story story_id="884">
+      <informant_id/>
+      <publication_info>DS_VI_222</publication_info>
+      <full_name>0 - 0.00 - DS_VI_222</full_name>
+      <url>data/stories/884.dfl</url>
+    </story>
+    <story story_id="156">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_VI_65</publication_info>
+      <full_name>241 - 2.06 - DSnr_VI_65</full_name>
+      <url>data/stories/156.dfl</url>
+    </story>
+    <story story_id="170">
+      <informant_id>241</informant_id>
+      <publication_info>Unpub_JPP_220</publication_info>
+      <full_name>241 - 2.20 - Unpub_JPP_220</full_name>
+      <url>data/stories/170.dfl</url>
+    </story>
+    <story story_id="192">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_167</publication_info>
+      <full_name>241 - 4.20 - DS_VI_167</full_name>
+      <url>data/stories/192.dfl</url>
+    </story>
+    <story story_id="523">
+      <informant_id>525</informant_id>
+      <publication_info>DS_VI_216</publication_info>
+      <full_name>525 - 0.00 - DS_VI_216</full_name>
+      <url>data/stories/523.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>7810b</fielddiary_page_start>
+  <fielddiary_page_end>7811a</fielddiary_page_end>
+  <bibliographic_info>Rockwell 1982
+R&#xF8;rbye 1976
+Davies 2009
+MO III 174
+</bibliographic_info>
+  <bibliography_references>
+    <reference id="767" category="general">
+      <display_string>[Book] Davies, Owen. 2009. &lt;i&gt;Grimoires : a history of magic books&lt;/i&gt;. Oxford and New York: Oxford University Press.</display_string>
+    </reference>
+    <reference id="768" category="general">
+      <display_string>[Book] Davies, Owen, Bl&#xE9;court, Willem de. 2004. &lt;i&gt;Beyond the witch trials. Witchcraft and magic in Enlightenment Europe&lt;/i&gt;. Manchester and New York: Manchester University Press.</display_string>
+    </reference>
+    <reference id="397" category="general">
+      <display_string>[Book section] R&#xF8;rbye, Birgitte. 1976. Den illegale sygdomsbehandling som folkloristisk problem. Bidrag til en sociokulturel oversigt for Danmark. In &lt;i&gt;Nordisk folketro. Studier till&#xE4;gnade Carl-Herman Tillhagen 17. december 1976&lt;/i&gt;: 203-20. Lund: Nordiska museet.</display_string>
+    </reference>
+    <reference id="440" category="general">
+      <display_string>[Book] Rockwell, Joan. 1982. &lt;i&gt;Evald Tang Kristensen : a lifelong adventure in folklore (Aalborg studies in folk culture)&lt;/i&gt;. Aalborg and New York, N.Y: Aalborg University Press.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>Cyrprianus appears in several of Jens Peter's stories (JPP 2.06, 2.20 and 4.20). The Cyprianus, a book of magic spells and incantations, was considered to be a source of power in and of itself (Davies 2009, 123-132). It was closely related to the devil, and both witches and cunning folk, as well as wise ministers, were said to have possessed the book. Many cunning folk based their practice on ownership of the book alone (R&#xF8;rbye 1976).  In many stories, the book is used expertly to conjure ghosts, while in other stories, less than expert use of the book results in misfortune from the insignificant, as in this brief account, to utter calamity (JPP 2.06 and 4.20). 
+
+     Narratively, Jens Peter brings the Cyprianus into his immediate sphere, indicating his own willingness to possess the book. In many stories, the Cyprianus is difficult to get rid of: it cannot be burned (DS VI 216), and it reappears even if one has tried to get rid of it (DS VI 222).
+
+     Tang Kristensen collected copies of the Cyprianus, acquiring them whenever he had the chance. In Minder og Oplevelser, he writes about one of his copies of the book that was in a museum display in Copenhagen: "men betingede mig, at den skulde l&#xE6;gges saadan, at Folk ikke kunde komme til at blade i den eller overhovedet r&#xF8;re ved den. Det gik han ind paa, og der blev da lavet en Glaskasse til den, som den laa i og saadan opslaaet, at det Blad, hvorpaa der med r&#xF8;de Bogstaver var pr&#xE6;ntet Cyprianus, laa til Syne." [but I added the condition that it should be displayed in such a way that people could not browse in it or even manage to touch it. He went along with that, and a glass case was made for it, in which it lay opened to the page where the word Cyprianus was printed in red letters] (MO III 174). While Tang Kristensen was worried that his book would be damaged, he was equally worried that the contents of the book were dangerous (Rockwell 1982, 167 and 208).</annotation>
+  <danish_manuscript>Knold Kr&#xE6;n havde Ceperaanus og havde
+faaet den inde i Torslev ved en Mand
+der havde 4. Men h. brugte den ikke. H.
+fortalte, det var en G. h. havde faaet
+den ned af Hylden og sad og l&#xE6;ste i den 
+og lige som h. sidder allerbedst s. sprin-
+ger Hvirvelsten det stod ved Siden
+af ham lige i to og det gav et Skrald
+som en kunde have skudt en B&#xF8;sse.
+af lige ved Siden af ham. S blev h.
+r&#xE6;d og lagde den op igien. A skulde have
+haft den af ham, men min Fader fik
+haft
+mig til den Dag a skulde havde hentet
+den til at gaa et &#xC6;rende [til Torslev] By
+og s. sgde h. til mig hvad der stod paa Titel
+bladet. Da a h&#xF8;rte det, s. havde a ogsaa
+nok. H. gik til L&#xF8;rslev og s. var a ikke hjemme
+ 
+7811A
+da h. kom med den.</danish_manuscript>
+  <english_manuscript>Knold Kr&#xE6;n had a Ceper&#xE5;nus (Cyprianus). He&#x2019;d gotten it down in Torslev from a man who had four. But he never used it. He told about one time he&#x2019;d gotten it down off the shelf and sat there reading in it. Just as he&#x2019;s sitting there, a sharpening stone which was sitting right next to him breaks in half and it made a really loud noise as if someone had shot a rifle right next to him. Then he got scared and put it back up. I was supposed to get it from him but on the day I was supposed to get it my father got me to run an errand in town and he told me what it said on the title page. When I&#x2019;d heard that I&#x2019;d also had enough. He went to L&#xF8;rslev and I wasn&#x2019;t home when he came with it.</english_manuscript>
+  <danish_publication>Knold-Kr&#xE6;n havde Ceper&#xE5;nus. Han havde f&#xE5;et den nede i Torslev ved en mand, der havde fire, men han brugte den aldrig. En gang havde han dog f&#xE5;et den ned af hylden og sad og l&#xE6;ste i den. Ligesom han sidder allerbedst, s&#xE5; springer en hvirvelsten i to, der stod lige ved siden af ham, og det gav et skrald, som en kunde have skudt en b&#xF8;sse af lige ved ham. Nu blev han r&#xE6;d og lagde Ceper&#xE5;nus op p&#xE5; hylden igjen. A skulde have haft den af ham, og vi havde aftalt en dag, da han skulde komme med den. Men s&#xE5; fik min fader mig til at g&#xE5; et &#xE6;rende i by, og han sagde mig ogs&#xE5;, hvad der stod p&#xE5; titelbladet af den. Da a h&#xF8;rte det, s&#xE5; havde a ogs&#xE5; nok. Knold-Kr&#xE6;n kom godt nok, og da a var ikke hjemme, gik han til L&#xF8;rslev, og a fik ingen bog.</danish_publication>
+  <english_publication>Knold Kr&#xE6;n had a Ceper&#xE5;nus (Cyprianus). He&#x2019;d gotten it down in Torslev from a man who had four, but he never used it. One time, however, he&#x2019;d gotten it down off the shelf and sat there reading in it. Just as he&#x2019;s sitting there, a sharpening stone which was sitting right next to him breaks in half and it made a really loud noise as if someone had shot a rifle right next to him. Then he got scared and put the Ceper&#xE5;nus back up on the shelf. I was supposed to get it from him and we&#x2019;d arranged a day when he was supposed to bring it. But then my father got me to run an errand in town and he told me what it said on the title page too. When I&#x2019;d heard that, I&#x2019;d also had enough. Knold-Kr&#xE6;n came, too, but, since I wasn&#x2019;t home, he went on to L&#xF8;rslev and I didn&#x2019;t get the book.</english_publication>
+  <keywords>
+    <keyword id="123" frequency="1" keyword="books">books</keyword>
+    <keyword id="198" frequency="2" keyword="ceper&#xE5;nus">ceper&#xE5;nus</keyword>
+    <keyword id="292" frequency="1" keyword="cyprianus">cyprianus</keyword>
+    <keyword id="306" frequency="1" keyword="day">day</keyword>
+    <keyword id="383" frequency="1" keyword="errand">errand</keyword>
+    <keyword id="399" frequency="1" keyword="father">father</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="858" frequency="1" keyword="noises">noises</keyword>
+    <keyword id="1031" frequency="1" keyword="rifle">rifle</keyword>
+    <keyword id="1097" frequency="2" keyword="shelf">shelf</keyword>
+    <keyword id="1106" frequency="1" keyword="shooting">shooting</keyword>
+    <keyword id="1195" frequency="1" keyword="stone">stone</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="48" display_name="Tools, Items and Conveyances: Books"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

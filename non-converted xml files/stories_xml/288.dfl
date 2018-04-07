@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<story story_id="288">
+  <publication_info>JAH_VI_225</publication_info>
+  <full_name>235 - 2.05 - JAH_VI_225</full_name>
+  <informant_id>235</informant_id>
+  <informant_last_name>Pedersdatter</informant_last_name>
+  <informant_first_name>Kirsten Marie</informant_first_name>
+  <informant_full_name>Kirsten Marie Pedersdatter</informant_full_name>
+  <order_told>2.05</order_told>
+  <fieldtrip id="10">October 1892</fieldtrip>
+  <fieldtrip_start_date>1892-10-09</fieldtrip_start_date>
+  <fieldtrip_end_date>1892-10-12</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>280</place_id>
+      <name>Hornslet mark</name>
+      <display_name>Hornslet mark (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>219</place_id>
+      <name>Hadbj&#xE6;rg</name>
+      <display_name>Hadbj&#xE6;rg (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="320">
+      <informant_id>235</informant_id>
+      <publication_info>DSk_I_14</publication_info>
+      <full_name>235 - 3.18 - DSk_I_14</full_name>
+      <url>data/stories/320.dfl</url>
+    </story>
+    <story story_id="32">
+      <informant_id>150</informant_id>
+      <publication_info>JAT_VI_781</publication_info>
+      <full_name>150 - 1.29 - JAT_VI_781</full_name>
+      <url>data/stories/32.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>5754b</fielddiary_page_start>
+  <fielddiary_page_end>5754b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Kirsten Marie's childhood experiences as a shepherd doubtlessly inform this story. The location of the story in Hadbj&#xE6;rg, five kilometers away from Nielstrup, suggests that Kirsten Marie might be commenting both on localized pronunciation and on the slightly oafish behavior of these outsiders. This humorous tale adds a lighter tone to the performance session, a tone that continues in the following story.</annotation>
+  <danish_manuscript>De var to Br&#xF8;dre i Hadbj&#xE6;rg. S skulde
+den ene gaa ug og koble K&#xF8;erne og s.
+skulde h. vande i et Sighul. S blev
+de gale for ham der og gav dem til at
+stikkes. s. rendte h. hjem til Broderen
+og sagde: Du kommer til at komme her-
+ud og hj&#xE6;lpe mig med K&#xF8;erne for [at]
+a har h&#xE6;ngt den slemme opaa den
+v&#xE6;st og nu ligger de endda i Skidt-
+pyt og er aastykken. Den Karl var
+ogsaa lidt towwsele.
+</danish_manuscript>
+  <english_manuscript>There were two brothers in Hadbj&#xE6;rg. One of them was to go out and hitch up the cows and then water them at a water hole. But they got mad and started to run off. Then he ran home to his brother and said, "You need to come out and help me with the cows, because I've hung the bad one onto the worst one, and now there still lying in the shit and they've run off." That guy was a bit foolish.</english_manuscript>
+  <danish_publication>Der var to br&#xF6;dre i Hadbj&#xE6;rg. Den ene skulde g&#xE5; ud og koble k&#xF8;erne og s&#xE5; vande dem i et sighul. Men der blev de gale for ham og gav dem til at stikkes. S&#xE5; rendte han hjem til broderen og sagde: "Du kommer til at komme ud og hj&#xE6;lpe mig med k&#xF8;erne, for a har h&#xE6;ngt den slemme op&#xE5; den v&#xE6;&#xE6;st, og nu ligger de endda i skidtpyt og er &#xE5;&#xE5;stukken". En kan h&#xF8;re, te den karl ogs&#xE5; var lidt towwselig.</danish_publication>
+  <english_publication>There were two brothers in Hadbj&#xE6;rg. One of them was to go out and hitch up the cows and then water them at a water hole. But they got mad and started to run off. Then he ran home to his brother and said, &#x201C;You need to come out and help me with the cows, because I&#x2019;ve hung the bad one onto the worst one, and now they're still lying in the shit and they&#x2019;ve run off.&#x201D; You could hear that that guy was a bit foolish.</english_publication>
+  <keywords>
+    <keyword id="148" frequency="2" keyword="brother">brother</keyword>
+    <keyword id="274" frequency="2" keyword="cow">cow</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="1103" frequency="1" keyword="shit">shit</keyword>
+    <keyword id="1320" frequency="2" keyword="water">water</keyword>
+  </keywords>
+  <etk_index id="36">
+    <heading_danish>Vore f&#xE6;dres tankes&#xE6;t og &#xE5;ndsliv</heading_danish>
+    <heading_english>Our forebears' way of thinking and spiritual life</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="100" display_name="Actions or events: Work"/>
+    <tango_index id="130" display_name="Resolution: None / Unspecified"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

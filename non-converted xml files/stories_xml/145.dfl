@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<story story_id="145">
+  <publication_info>DS_VII_1182</publication_info>
+  <full_name>241 - 1.04 - DS_VII_1182</full_name>
+  <informant_id>241</informant_id>
+  <informant_last_name>Pedersen</informant_last_name>
+  <informant_first_name>Jens Peter</informant_first_name>
+  <informant_full_name>Jens Peter Pedersen</informant_full_name>
+  <order_told>1.04</order_told>
+  <fieldtrip id="11">October 1893</fieldtrip>
+  <fieldtrip_start_date>1893-09-10</fieldtrip_start_date>
+  <fieldtrip_end_date>1893-10-26</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>306</place_id>
+      <name>Ilbj&#xE6;rge</name>
+      <display_name>Ilbj&#xE6;rge (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>78</place_id>
+      <name>Borup</name>
+      <display_name>Borup (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>588</place_id>
+      <name>Stenbroen</name>
+      <display_name>Stenbroen (place mentioned)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>629</place_id>
+      <name>T&#xE5;rs</name>
+      <display_name>T&#xE5;rs (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="157">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_897</publication_info>
+      <full_name>241 - 2.07 - DS_VI_897</full_name>
+      <url>data/stories/157.dfl</url>
+    </story>
+    <story story_id="211">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_611</publication_info>
+      <full_name>241 - 4.39 - DS_VII_611</full_name>
+      <url>data/stories/211.dfl</url>
+    </story>
+    <story story_id="49">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_VI_81</publication_info>
+      <full_name>150 - 2.02 - JAH_VI_81</full_name>
+      <url>data/stories/49.dfl</url>
+    </story>
+    <story story_id="80">
+      <informant_id>150</informant_id>
+      <publication_info>JAH_V_531</publication_info>
+      <full_name>150 - 3.17 - JAH_V_531</full_name>
+      <url>data/stories/80.dfl</url>
+    </story>
+    <story story_id="186">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VII_491a</publication_info>
+      <full_name>241 - 4.14 - DS_VII_491a</full_name>
+      <url>data/stories/186.dfl</url>
+    </story>
+    <story story_id="705">
+      <informant_id>124</informant_id>
+      <publication_info>DS_VII_1179</publication_info>
+      <full_name>124 - 0.00 - DS_VII_1179</full_name>
+      <url>data/stories/705.dfl</url>
+    </story>
+    <story story_id="437">
+      <informant_id>212</informant_id>
+      <publication_info>DS_VII_1183</publication_info>
+      <full_name>212 - 0.00 - DS_VII_1183</full_name>
+      <url>data/stories/437.dfl</url>
+    </story>
+    <story story_id="499">
+      <informant_id>547</informant_id>
+      <publication_info>DS_VII_592</publication_info>
+      <full_name>547 - 0.00 - DS_VII_592</full_name>
+      <url>data/stories/499.dfl</url>
+    </story>
+    <story story_id="709">
+      <informant_id>356</informant_id>
+      <publication_info>DS_VII_1180</publication_info>
+      <full_name>356 - 0.00 - DS_VII_1180</full_name>
+      <url>data/stories/709.dfl</url>
+    </story>
+    <story story_id="831">
+      <informant_id>130</informant_id>
+      <publication_info>DS_VII_176</publication_info>
+      <full_name>130 - 0.00 - DS_VII_176</full_name>
+      <url>data/stories/831.dfl</url>
+    </story>
+    <story story_id="147">
+      <informant_id>241</informant_id>
+      <publication_info>Unpub_JPP_106</publication_info>
+      <full_name>241 - 1.06 - Unpub_JPP_106</full_name>
+      <url>data/stories/147.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>6192a</fielddiary_page_start>
+  <fielddiary_page_end>6192b</fielddiary_page_end>
+  <bibliographic_info>Tangherlini 2000
+Tangherlini 1998
+R&#xF8;rbye 1976
+J&#xF8;rgensen 1940.</bibliographic_info>
+  <bibliography_references>
+    <reference id="37" category="general">
+      <display_string>[Book] J&#xF8;rgensen, Harald. 1979. &lt;i&gt;Studier over det offentlige Fattigv&#xE6;sens historiske Udvikling i Danmark i det 19. Aarhundrede&lt;/i&gt;. Copenhagen: Selskabet for Udgivelse af Kilder til Dansk Historie.</display_string>
+    </reference>
+    <reference id="487" category="general">
+      <display_string>[Article] Tangherlini, Timothy R. 2000. "How do you know she's a witch"? : Witches, cunning folk, and competition in Denmark. Vol. 59 of &lt;i&gt;Western Folklore&lt;/i&gt; 3-4: 279-303.</display_string>
+    </reference>
+    <reference id="398" category="general">
+      <display_string>[Book] R&#xF8;rbye, Birgitte. 1976. &lt;i&gt;Kloge folk og skidtfolk. Kvaksalveriets epoke i Danmark&lt;/i&gt;. Copenhagen: Politiken.</display_string>
+    </reference>
+    <reference id="762" category="general">
+      <display_string>[Book section] Tangherlini, Timothy R. 2008. The Beggar, the Minister, the Farmer, his Wife and the Teacher : Legend and Legislative Reform in Nineteenth Century Denmark. In &lt;i&gt;Legends and landscape : articles based on plenary papers presented at the 5th Celtic-Nordic-Baltic Folklore Symposium, Reykjav&#xED;k, 2005&lt;/i&gt;: 171-196. Reykjavik: University of Iceland Press.</display_string>
+    </reference>
+  </bibliography_references>
+  <annotation>St&#xF8;v-Karen, one of the poor people in the parish, shows herself to be an overt threat to the well-being of the farm. Her request for milk borders on begging which, according to the reforms to the poverty assistance laws in 1803, was strictly forbidden. On the other hand, poverty assistance, in the form of in kind almisse (alms), were an important part of the support for the poor, and many poor people did receive milk from farmers throughout the parish, either as part of an agreement with the parish poverty administration, or through private agreement (J&#xF8;rgensen 1940, 316). Karen's request for milk can be read as a symbolic representation of the ongoing request for support of the poor that many smallholders and farmers found to be a significant economic burden. The refusal to give St&#xF8;v-Karen milk is explained in a later telling of this story: the husband will only eat milk-fed veal (JPP 4.14). The refusal is not based on the need to keep the farm functioning well, but rather to provide a luxury to the farm owner while the poor go hungry (or in this case, without milk).
+
+     St&#xF8;v-Karen, whose nickname means "Dust Karen," acts the part of a witch in this story. In other stories, she is referred to as a cunning woman (JPP 1.06) (R&#xF8;rbye 1976; Tangherlini 2000). Her reaction to the initial refusal--bewitching the new calf so that it jumps about the barn--is extreme, and the death of the calf results in a far greater economic burden than her request for milk. Bewitching cows, or otherwise hurting the livestock, is a common antic of witches (DS VII 1179 and 1183). 
+
+     The arrogance that Karen exhibits when she returns to the farm to collect milk is evident in the pitcher that she brings with her. While many poor might ask for a small pot of milk, Karen intends to walk off with an entire milk can, far more than a single person could hope to use before it would spoil, and reminiscent of the excessive supernatural milking described in other legends of witches (DS VII 591 and 592).
+
+     The farmer decides to confront the witch directly and beat her, as opposed to appealing to another intermediary such as a cunning person (DS VII 1180) or a minister (DS VII 574), strategies which tend to be effective, at least in narrative tradition (Tangherlini 1999). Not all ministers were willing to act as mediators (DS VII 176). The threat is not successfully mediated in this story and ultimately the farmer acquiesces to Karen's demands in an attempt to keep her witchcraft at bay. Her ability to change shape, in this case into a dark bird of prey, confirms that she is a witch.
+
+     After the rise of the collective dairies in the 1880s, many of the poor found that they no longer could count on getting milk from local farmers, as the dairies collected the milk each morning. In the seven short years following the establishment of the first cooperative dairy in 1882, six hundred additional cooperative dairies were established, primarily in Jutland. The result was that there was little or no excess milk production for the poor (J&#xF8;rgensen 1940, 316).
+
+     Tang Kristensen reversed the order of certain phrases in the story's orientation in the published version. He also added the tag that Jens Peter's mother was at the farm when the episode with the calf occurred, a tag that actually appears on page 6193a at the end of a story about some sheep that had disappeared (JPP 1.06).</annotation>
+  <danish_manuscript>Der var en Mand der hed Kristian Sten-
+broen i Stenbroen i Taars, syd for
+Borup. S. kommer der en Kone derind
+og vilde forlange noget M&#xE6;lk. S. s. Kon-
+en: Ja hu kunde ikke godt i Dag, for de
+havde en Ko der havde faaet Kalv,
+men naar hu kom igien, skulde hu
+faa alle det hu vilde have. De kaldte 
+hende St&#xF8;v-Karen og hu boede i St&#xF8;v-
+huset paa Vejen til S&#xE6;ring. Aldrig s.
+snart hu var rejst, blev Kalven s. gal
+at den sprang op imod Ranen (H&#xF8;ranen
+og faldt ned igien og gav saadan nogle
+s&#xE6;r Lyd fra sig og det blev den ved
+med s. l&#xE6;nge, til den slog sig ihiel.
+
+6192B
+S. rejser Manden 2 Dags Morgen ned
+og vil banke St&#xF8;vkaren. Men da h. kom
+mer ned som Fattiggaarden nu er, der
+kom h. i M&#xF8;de med hende og hu gik
+med en Kj&#xE6;p i den 1 Haand og en Kande
+i den 2. Da h. kom lige t&#xE6;t til hende
+s. forvandlede hu sig til en Krage og stod
+[paa] ovenpaa hendes Kj&#xE6;p og stod og
+galte ad ham og Kanden stod ved Siden
+af. Manden blev s. forskr. at h. l&#xF8;b
+hjem og s. til hans Kone, at s. snart
+St&#xF8;vkaren kom igien, skulde hu have
+alt det hu forlangte. Se hu havde
+forskr. ham.</danish_manuscript>
+  <english_manuscript>There was a man called Kristian Stenbroen in Stenbroen in T&#xE5;rs, south of Borup. Then a woman comes in and wants some milk. The farmwife says she couldn&#x2019;t today, because they had a cow that had calved, but when she came again, she could have all that she wanted. They called her St&#xF8;v-Karen and she live in St&#xF8;vhuset on the road to S&#xE6;sing. As soon as she&#x2019;d left, the calf went crazy and it jumped up against the hay rafters and fell down again and made some strange noises and it kept at it for so long that it finally killed itself. The next morning the man goes down to beat St&#xF8;v-Karen. But as he comes down to where the poorhouse is now, he meets her, and she was walking with a staff in her one hand and a milk can in the other. When he got close to her, she changed herself into a crow and stood on top of her staff and stood and crowed at him, and the milk can stood beside it. The man got so scared that he ran home and told his wife that as soon as St&#xF8;v-Karen came again, she was to have everything she wanted. You see, she&#x2019;d scared him.</english_manuscript>
+  <danish_publication>Der var en mand i Stenbroen i T&#xE5;rs, der hed Kristian Stenbroen. Det er syd for Borup. S&#xE5; kommer der en kone derind og vil forlange noget m&#xE6;lk, de kaldte hende St&#xF6;v-Karen, og hun boede i St&#xF6;vhuset p&#xE5; vejen til S&#xE6;sing. Ja, siger konen i g&#xE5;rden, hun kunde ikke godt i dag, for de havde en ko, der havde f&#xE5;et kalv, men n&#xE5;r hun kom igjen, skulde hun f&#xE5; alt det, hun vilde have. Aldrig s&#xE5; snart hun var rejst, blev kalven s&#xE5; gal, at den sprang op imod ranen og faldt ned igjen og gav s&#xE5;dan nogle s&#xE6;re lyd fra sig, og det blev den ved med s&#xE5; l&#xE6;nge, til den slog sig ihjel. S&#xE5; rejser manden anden dags morgen ned og vil banke St&#xF6;v-Karen. Men da han kommer ned, som fattigg&#xE5;rden nu er, der kommer han i m&#xF8;de med hende, og hun gik med en kj&#xE6;p i den ene h&#xE5;nd og en kande i den anden. Da han kom lige t&#xE6;t til hende, s&#xE5; forvandlede hun sig til en krage, der stod oven p&#xE5; hendes kj&#xE6;p og stod og galte ad ham, og kanden stod ved siden af. Manden blev s&#xE5; forskr&#xE6;kket, at han l&#xF8;b hjem og sagde til hans kone, at s&#xE5; snart St&#xF6;v-Karen kom igjen, skulde hun have alt det, hun forlangte. Se hun havde forskr&#xE6;kket ham. Min moder var til stede, da det passerede med kalven.</danish_publication>
+  <english_publication>There was a man in Stenbroen in T&#xE5;rs, he was called Kristian Stenbroen. That&#x2019;s south of Borup. Then a woman comes in and wants some milk, they called her St&#xF8;v-Karen and she lived in St&#xF8;vhuset on the road to S&#xE6;sing. Well, says the farmer's wife, she couldn&#x2019;t today, because they had a cow that had calved, but when she came again, she could have all that she wanted. As soon as she&#x2019;d left, the calf gets so crazy that it jumped up against the hay rafters and fell down again and made some strange noises and it continued to do this for so long that it finally killed itself. The next morning the man goes down and wants to beat St&#xF8;v-Karen. But as he comes down to where the poorhouse is now, he meets her, and she was walking along with a staff in her one hand and a milk can in the other. When he gets close to her, she changes herself into a crow and sits on top of her staff and caws at him and the milk can stood beside it. The man got so scared that he ran home and told his wife that as soon as St&#xF8;v-Karen came again, she was to have everything she wanted. You  see, she&#x2019;d scared him. My mother was there when that happened with the calf.</english_publication>
+  <keywords>
+    <keyword id="169" frequency="3" keyword="calf">calf</keyword>
+    <keyword id="274" frequency="1" keyword="cow">cow</keyword>
+    <keyword id="278" frequency="1" keyword="crazy">crazy</keyword>
+    <keyword id="283" frequency="1" keyword="crow">crow</keyword>
+    <keyword id="392" frequency="1" keyword="fall">fall</keyword>
+    <keyword id="394" frequency="1" keyword="farm">farm</keyword>
+    <keyword id="511" frequency="1" keyword="hay">hay</keyword>
+    <keyword id="537" frequency="1" keyword="home">home</keyword>
+    <keyword id="622" frequency="1" keyword="kill">kill</keyword>
+    <keyword id="672" frequency="1" keyword="kristian">Kristian</keyword>
+    <keyword id="782" frequency="3" keyword="milk">milk</keyword>
+    <keyword id="801" frequency="1" keyword="morning">morning</keyword>
+    <keyword id="803" frequency="1" keyword="mother">mother</keyword>
+    <keyword id="858" frequency="1" keyword="noises">noises</keyword>
+    <keyword id="975" frequency="1" keyword="poorhouse">poorhouse</keyword>
+    <keyword id="1009" frequency="1" keyword="rafters">rafters</keyword>
+    <keyword id="1036" frequency="1" keyword="road">road</keyword>
+    <keyword id="1167" frequency="1" keyword="south">south</keyword>
+    <keyword id="1201" frequency="3" keyword="st&#xF8;v_karen">St&#xF8;v Karen</keyword>
+    <keyword id="1265" frequency="1" keyword="today">today</keyword>
+    <keyword id="1343" frequency="2" keyword="wife">wife</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="29">
+    <heading_danish>Hekse og deres idr&#xE6;tter</heading_danish>
+    <heading_english>Witches and their sport</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="3" display_name="People: Beggar / Poor person"/>
+    <tango_index id="6" display_name="People: Cunning Folk"/>
+    <tango_index id="7" display_name="People: Farmer"/>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="22" display_name="People: Witch"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="41" display_name="Places: Road"/>
+    <tango_index id="70" display_name="Animals: Cow"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="95" display_name="Actions or events: Punishment"/>
+    <tango_index id="99" display_name="Actions or events: Witchcraft"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

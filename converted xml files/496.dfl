@@ -1,0 +1,96 @@
+<story><story_id>496</story_id>
+  <publication_info>DS_V_49</publication_info>
+  <full_name>434 - 0.00 - DS_V_49</full_name>
+  <informant_id>434</informant_id>
+  <informant_last_name>Kristensdatter</informant_last_name>
+  <informant_first_name>Dortea</informant_first_name>
+  <informant_full_name>Dortea Kristensdatter</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_recorded</type>
+      <place_id>785</place_id>
+      <name>Gr&#248;nneb&#230;k</name>
+      <display_name>Gr&#248;nneb&#230;k (place recorded)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>432</place_id>
+      <name>N&#248;rre Fardrup</name>
+      <display_name>N&#248;rre Fardrup (place mentioned)</display_name>
+    </place>
+    <place><type>place_mentioned</type>
+      <place_id>712</place_id>
+      <name>Vislev</name>
+      <display_name>Vislev (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>158</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_252</publication_info>
+      <full_name>241 - 2.08 - DS_V_252</full_name>
+      <url>data/stories/158.dfl</url>
+    </story>
+    <story><story_id>564</story_id>
+      <informant_id>158</informant_id>
+      <publication_info>DS_V_47</publication_info>
+      <full_name>158 - 0.00 - DS_V_47</full_name>
+      <url>data/stories/564.dfl</url>
+    </story>
+    <story><story_id>835</story_id>
+      <informant_id>470</informant_id>
+      <publication_info>DS_V_39</publication_info>
+      <full_name>470 - 0.00 - DS_V_39</full_name>
+      <url>data/stories/835.dfl</url>
+    </story>
+    <story><story_id>880</story_id>
+      <informant_id/>
+      <publication_info>DS_V_43</publication_info>
+      <full_name>0 - 0.00 - DS_V_43</full_name>
+      <url>data/stories/880.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Norden for Vilslev har der i et hus v&#230;ret sp&#248;geri. Hver aften kom en seks, syv kalve, og folkene kunde ikke v&#230;re der for dem. S&#229; hentede de pastor Clausen i N&#246;rre-Fardrup, og s&#229; blev der ro. A har kjendt karlen, der kj&#248;rte for ham. Der vilde komme nogen og tage i t&#246;mmen og tage det ene hjul af, men han kerte sig ikke derom. S&#229; kom pr&#230;sten og sagde: "Kj&#248;r nu i Jesu navn . . ."</danish_publication>
+  <english_publication>There was haunting in a house north of Vislev. Every night, six or seven calves came and the people couldn't be there because of them. Then they got pastor Clausen from N&#248;rre-Fardrup, and then they got peace. I knew the farmhand who drove for him. Someone would come and grab hold of the reins and take one of the wheels off, but he paid no attention to that. Then the minister came and said, "Drive now in the name of Jesus..."</english_publication>
+  <keywords>
+    <keyword><id>54</id><frequency>1</frequency><keyword>attention</keyword>attention</keyword>
+    <keyword><id>169</id><frequency>1</frequency><keyword>calf</keyword>calf</keyword>
+    <keyword><id>395</id><frequency>1</frequency><keyword>farm_hand</keyword>farmhand</keyword>
+    <keyword><id>508</id><frequency>1</frequency><keyword>haunting</keyword>haunting</keyword>
+    <keyword><id>548</id><frequency>1</frequency><keyword>house</keyword>house</keyword>
+    <keyword><id>598</id><frequency>1</frequency><keyword>jesus</keyword>Jesus</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>822</id><frequency>1</frequency><keyword>name</keyword>name</keyword>
+    <keyword><id>848</id><frequency>1</frequency><keyword>night</keyword>night</keyword>
+    <keyword><id>863</id><frequency>1</frequency><keyword>north</keyword>north</keyword>
+    <keyword><id>911</id><frequency>1</frequency><keyword>pastor_clausen</keyword>Pastor Clausen</keyword>
+    <keyword><id>1023</id><frequency>1</frequency><keyword>reins</keyword>reins</keyword>
+    <keyword><id>1089</id><frequency>1</frequency><keyword>seven</keyword>seven</keyword>
+    <keyword><id>1335</id><frequency>1</frequency><keyword>wheel</keyword>wheel</keyword>
+  </keywords>
+  <etk_index><id>23</id>
+    <heading_danish>Forskjelligt sp&#248;geri og gjenf&#230;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>9</id><display_name>People: Farmhand / Shepherd</display_name></tango_index>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>29</id><display_name>Places: Farm</display_name></tango_index>
+    <tango_index><id>54</id><display_name>Tools, Items and Conveyances: Wagon</display_name></tango_index>
+    <tango_index><id>59</id><display_name>Supernatural Beings: Ghost / Revenant</display_name></tango_index>
+    <tango_index><id>70</id><display_name>Animals: Cow</display_name></tango_index>
+    <tango_index><id>72</id><display_name>Animals: Farm animal</display_name></tango_index>
+    <tango_index><id>81</id><display_name>Actions or events: Conjuring</display_name></tango_index>
+    <tango_index><id>88</id><display_name>Actions or events: Haunting</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+    <tango_index><id>131</id><display_name>Stylistics: Direct Conversation</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

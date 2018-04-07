@@ -1,0 +1,57 @@
+<story><story_id>506</story_id>
+  <publication_info>DS_VI_1204</publication_info>
+  <full_name>318 - 0.00 - DS_VI_1204</full_name>
+  <informant_id>318</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Evald</informant_first_name>
+  <informant_full_name>Evald Kristensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip><id/>None recorded</fieldtrip>
+  <places>
+    <place><type>place_mentioned</type>
+      <place_id>704</place_id>
+      <name>Vildmose</name>
+      <display_name>Vildmose (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story><story_id>213</story_id>
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_1205</publication_info>
+      <full_name>241 - 4.41 - DS_VI_1205</full_name>
+      <url>data/stories/213.dfl</url>
+    </story>
+    <story><story_id>507</story_id>
+      <informant_id>318</informant_id>
+      <publication_info>DS_VI_1206</publication_info>
+      <full_name>318 - 0.00 - DS_VI_1206</full_name>
+      <url>data/stories/507.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En gang havde der v&#230;ret ild i den store Vildmose i 3 &#229;r, uden at den havde v&#230;ret slukket. S&#229; satte pastor Jermiin en stopper derfor, han kj&#248;rte ud til mosen og gik rundt om ilden. N&#229;r den kom dertil, som pr&#230;sten havde g&#229;et, slukkedes den, ogs&#229; varede det ikke l&#230;nge, inden branden h&#248;rte op.</danish_publication>
+  <english_publication>Once there was a fire in the big Vildmose (Wild Swamp) that had burned for three years without being put out. Then pastor Jermiin put an end to it, he drove out to the swamp and walked around the fire. When it reached the spot where the minister had walked, it went out, and then it wasn't too long before the whole fire was out.</english_publication>
+  <keywords>
+    <keyword><id>413</id><frequency>4</frequency><keyword>fire</keyword>fire</keyword>
+    <keyword><id>786</id><frequency>1</frequency><keyword>minister</keyword>minister</keyword>
+    <keyword><id>913</id><frequency>1</frequency><keyword>pastor_jermiin</keyword>Pastor Jermiin</keyword>
+    <keyword><id>1228</id><frequency>2</frequency><keyword>swamp</keyword>swamp</keyword>
+    <keyword><id>1256</id><frequency>1</frequency><keyword>three</keyword>three</keyword>
+  </keywords>
+  <etk_index><id>28</id>
+    <heading_danish>Kloge m&#230;nd og koner og deres bedrifter</heading_danish>
+    <heading_english>Cunning men and women and their activities</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index><id>14</id><display_name>People: Minister</display_name></tango_index>
+    <tango_index><id>43</id><display_name>Places: Swamp</display_name></tango_index>
+    <tango_index><id>127</id><display_name>Resolution: Positive</display_name></tango_index>
+  </tango_indices>
+  <genre><id>2</id><name>Legend</name></genre>
+</story>

@@ -1,0 +1,39 @@
+<informant><person_id>41</person_id>
+  <core_informant/>
+  <full_name>P. Chr. Christensen</full_name>
+  <last_name>Christensen</last_name>
+  <first_name>P. Chr.</first_name>
+  <gender>m</gender>
+  <birth_date>1840-08-09</birth_date>
+  <death_date>0000-00-00</death_date>
+  <occupations>
+    <occupation><occupation_id>52</occupation_id>L&#230;rer</occupation>
+  </occupations>
+  <stories>
+    <story><story_id>772</story_id><secondary_informant>0</secondary_informant>
+      <informant_id>41</informant_id>
+      <publication_info>DS_VI_434</publication_info>
+      <full_name>41 - 0.00 - DS_VI_434</full_name>
+      <url>data/stories/772.dfl</url>
+      <place_recorded><id>336</id>Knebel</place_recorded>
+      <places_mentioned/>
+    </story>
+  </stories>
+  <places>
+    <place><type>birth_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (birth place)</display_name>
+    </place>
+    <place><type>death_place</type>
+      <place_id>N/A</place_id>
+      <name>N/A</name>
+      <display_name>N/A (death place)</display_name>
+    </place>
+    <place><type>story_place</type>
+      <place_id>336</place_id>
+      <name>Knebel</name>
+      <display_name>Knebel (stories recorded here)</display_name>
+    </place>
+  </places>
+</informant>

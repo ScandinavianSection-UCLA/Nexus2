@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<story story_id="111">
+  <publication_info>DS_III_1549</publication_info>
+  <full_name>150 - 3.48 - DS_III_1549</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>3.48</order_told>
+  <fieldtrip id="6">May 1888</fieldtrip>
+  <fieldtrip_start_date>1888-05-02</fieldtrip_start_date>
+  <fieldtrip_end_date>1888-05-09</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+    <place type="place_mentioned">
+      <place_id>657</place_id>
+      <name>Torup</name>
+      <display_name>Torup (place mentioned)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="263">
+      <informant_id>235</informant_id>
+      <publication_info>DS_III_1566</publication_info>
+      <full_name>235 - 1.43 - DS_III_1566</full_name>
+      <url>data/stories/263.dfl</url>
+    </story>
+    <story story_id="513">
+      <informant_id>368</informant_id>
+      <publication_info>DS_II_D_33</publication_info>
+      <full_name>368 - 0.00 - DS_II_D_33</full_name>
+      <url>data/stories/513.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>4107b</fielddiary_page_start>
+  <fielddiary_page_end>4107b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>Sand drifts were a threat to many Jutlandic villages, particularly in the north. Even though older maps do not make any clear annotation of an old town north of the parsonage in Torup (which is approximately a kilometer south of the village of Torup itself), there could well have been abandoned farms in the area. It is unclear if sand movements and drifts were common in the area. Perhaps the best known structure destroyed by drifting sand in Denmark is a church in Skagen that was closed in 1795 because it had become covered by drifting sand.</annotation>
+  <danish_manuscript>Norden for Torup Pr&#xE6;stegaard har der ligget
+en By, som hed Gammelby, der blev &#xF8;de
+lagt af Sandflugt.</danish_manuscript>
+  <english_manuscript>North of Torup parsonage there was a town which was called Gammelby which was destroyed by sand drifts.</english_manuscript>
+  <danish_publication>Norden for Torup pr&#xE6;steg&#xE5;rd har der ligget en by, som hed Gammelby, der blev &#xF8;delagt af sandflugt.</danish_publication>
+  <english_publication>North of Torup parsonage there was a town which was called Gammelby which was destroyed by sand drifts.</english_publication>
+  <keywords>
+    <keyword id="354" frequency="1" keyword="drift">drift</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="906" frequency="1" keyword="parsonage">parsonage</keyword>
+    <keyword id="1066" frequency="1" keyword="sand">sand</keyword>
+    <keyword id="1275" frequency="1" keyword="town">town</keyword>
+  </keywords>
+  <etk_index id="13">
+    <heading_danish>Sagn om g&#xE5;rde og byer</heading_danish>
+    <heading_english>Legends about farms and towns</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="44" display_name="Places: Town / Village"/>
+    <tango_index id="128" display_name="Resolution: Negative"/>
+  </tango_indices>
+  <genre id="3" name="Description"/>
+</story>

@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<story story_id="601">
+  <publication_info>DS_II_G_221</publication_info>
+  <full_name>419 - 0.00 - DS_II_G_221</full_name>
+  <informant_id>419</informant_id>
+  <informant_last_name>J&#xF8;rgensen</informant_last_name>
+  <informant_first_name>Jutta</informant_first_name>
+  <informant_full_name>Fr&#xF8;ken Jutta J&#xF8;rgensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>810</place_id>
+      <name>Kistrup, Assens</name>
+      <display_name>Kistrup, Assens (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="7">
+      <informant_id>150</informant_id>
+      <publication_info>JFm_X_79c</publication_info>
+      <full_name>150 - 1.04 - JFm_X_79c</full_name>
+      <url>data/stories/7.dfl</url>
+    </story>
+    <story story_id="168">
+      <informant_id>241</informant_id>
+      <publication_info>DSnr_II_G_138</publication_info>
+      <full_name>241 - 2.18 - DSnr_II_G_138</full_name>
+      <url>data/stories/168.dfl</url>
+    </story>
+    <story story_id="342">
+      <informant_id>90</informant_id>
+      <publication_info>Lege_0_313</publication_info>
+      <full_name>90 - 2.10 - Lege_0_313</full_name>
+      <url>data/stories/342.dfl</url>
+    </story>
+    <story story_id="668">
+      <informant_id>515</informant_id>
+      <publication_info>DS_II_G_219</publication_info>
+      <full_name>515 - 0.00 - DS_II_G_219</full_name>
+      <url>data/stories/668.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En karl og en pige forlovede sig en gang. Karlen rejste imidlertid til udlandet, efter f&#xF8;rst at have lovet sin kj&#xE6;reste at hente hende p&#xE5; en bestemt dag. Han d&#xF8;de inden den forl&#xF8;bne tid, men hun vidste intet der om. Endelig, da dagen oprandt, kom han ogs&#xE5; ridende, og hun fulgte glad med. Hun sad foran p&#xE5; hesten, og han bagved, og nu gik det i skarpt trav gjennem ukjendte egne. Det var et smukt m&#xE5;neklart vejr den aften, s&#xE5; de kunde se deres skygger p&#xE5; jorden, og d&#xF8;dningen sang:
+"M&#xE5;nen skinner blank,
+d&#xF8;de rider rank,
+r&#xE6;ddes du ikke, lille pige?"
+Vel havde han forekommet hende s&#xE5; underlig p&#xE5; rejsen, men hun svarede: "Hvorfor skulde jeg r&#xE6;ddes, n&#xE5;r jeg er hos dig?" De kom efter nogen tid at have fortsat ridtet, til en kirkeg&#xE5;rd, her stod han af hesten, under p&#xE5;skud af at skulle udrette et &#xE6;rende, og forsvandt. Senere erfarede hun, at her var han d&#xF8;d og jordet.</danish_publication>
+  <english_publication>A farmhand and a girl got engaged once. The farmhand journeyed off abroad in the meantime, after promising his beloved that he would come and get her on a specific day. He died before then, but she knew nothing about it. Finally, the day came, and he came riding up too, and she followed happily along with him. She sat in front up on the horse and he was behind her, and now they went at a fast trot through unknown areas. It was a beautiful clear moonlit night that night so they could see their shadows on the ground, and the dead one sang, 
+"The moon shines brightly, 
+the dead ride upright, 
+aren't you scared my little girl?" 
+He had certainly seemed strange to her on the trip, but she answered, "Why should I be afraid when I am with you?" After they had ridden for a while, they came to a cemetery, and he got off the horse there and disappeared. Later, she discovered that was where he had died and was buried.</english_publication>
+  <keywords>
+    <keyword id="6" frequency="1" keyword="abroad">abroad</keyword>
+    <keyword id="13" frequency="1" keyword="afraid">afraid</keyword>
+    <keyword id="82" frequency="1" keyword="beautiful">beautiful</keyword>
+    <keyword id="89" frequency="1" keyword="beloved">beloved</keyword>
+    <keyword id="158" frequency="1" keyword="burial">burial</keyword>
+    <keyword id="196" frequency="1" keyword="cemetery">cemetery</keyword>
+    <keyword id="306" frequency="2" keyword="day">day</keyword>
+    <keyword id="317" frequency="4" keyword="death">death</keyword>
+    <keyword id="331" frequency="1" keyword="disappearance">disappearance</keyword>
+    <keyword id="333" frequency="1" keyword="discovery">discovery</keyword>
+    <keyword id="395" frequency="2" keyword="farm_hand">farmhand</keyword>
+    <keyword id="467" frequency="2" keyword="girl">girl</keyword>
+    <keyword id="545" frequency="2" keyword="horse">horse</keyword>
+    <keyword id="753" frequency="1" keyword="marriage">marriage</keyword>
+    <keyword id="797" frequency="1" keyword="moon">moon</keyword>
+    <keyword id="799" frequency="1" keyword="moonlit">moonlit</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="1030" frequency="3" keyword="riding">riding</keyword>
+    <keyword id="1091" frequency="1" keyword="shadow">shadow</keyword>
+    <keyword id="1122" frequency="1" keyword="singing">singing</keyword>
+  </keywords>
+  <etk_index id="8">
+    <heading_danish>Religi&#xF8;se sagn</heading_danish>
+    <heading_english>Religious legends</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="9" display_name="People: Farmhand / Shepherd"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="27" display_name="Places: Cemetery"/>
+    <tango_index id="59" display_name="Supernatural Beings: Ghost / Revenant"/>
+    <tango_index id="74" display_name="Animals: Horse"/>
+    <tango_index id="83" display_name="Actions or events: Death"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="125" display_name="Time, Season, Weather: Moon"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

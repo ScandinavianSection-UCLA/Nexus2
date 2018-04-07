@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<story story_id="57">
+  <publication_info>DS_II_C_66</publication_info>
+  <full_name>150 - 2.10 - DS_II_C_66</full_name>
+  <informant_id>150</informant_id>
+  <informant_last_name>Kristensen</informant_last_name>
+  <informant_first_name>Jens</informant_first_name>
+  <informant_full_name>Jens (Bitte Jens) Kristensen</informant_full_name>
+  <order_told>2.10</order_told>
+  <fieldtrip id="1">Feb 1887</fieldtrip>
+  <fieldtrip_start_date>1887-02-03</fieldtrip_start_date>
+  <fieldtrip_end_date>1887-02-16</fieldtrip_end_date>
+  <places>
+    <place type="place_recorded">
+      <place_id>147</place_id>
+      <name>Ersted</name>
+      <display_name>Ersted (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="810">
+      <informant_id>526</informant_id>
+      <publication_info>DS_II_C_24</publication_info>
+      <full_name>526 - 0.00 - DS_II_C_24</full_name>
+      <url>data/stories/810.dfl</url>
+    </story>
+    <story story_id="840">
+      <informant_id>472</informant_id>
+      <publication_info>DS_II_C_36</publication_info>
+      <full_name>472 - 0.00 - DS_II_C_36</full_name>
+      <url>data/stories/840.dfl</url>
+    </story>
+    <story story_id="782">
+      <informant_id>500</informant_id>
+      <publication_info>DS_II_C_68</publication_info>
+      <full_name>500 - 0.00 - DS_II_C_68</full_name>
+      <url>data/stories/782.dfl</url>
+    </story>
+    <story story_id="56">
+      <informant_id>150</informant_id>
+      <publication_info>DS_II_C_90</publication_info>
+      <full_name>150 - 2.09 - DS_II_C_90</full_name>
+      <url>data/stories/56.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>3266a</fielddiary_page_start>
+  <fielddiary_page_end>3266b</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation>The motif of dogs accompanying the wild hunter is widely attested, although mention of puppies is less frequent, probably because puppies are not that suited to hunting. The wild hunter's dogs are usually red; that the hunter is described as green (and not wearing green clothes) is unusual. The puppies are cute, drinking the farm wife's wort, and eating her bread, but they also compromise her work in the kitchen for the day. In some variants, the hunter compensates the woman for her loss in a manner analogous to the compensation that the midwife to the fairies receives (DS II C 68). 
+
+     Houses generally did not have doors on either end; instead, doors were likely to be staggered along the lengths of the building.</annotation>
+  <danish_manuscript>Der var ogsaa en Kone der havde to D&#xF8;re paa
+hendes Hus en s&#xF8;nden ud og en norden ud, det
+var paa hendes Frammers og hu havde v&#xE6;ret 
+ved at brygget og hu havde slaaet begge D&#xF8;re
+
+3266B
+aaben for at faa det koldt og gj&#xE6;rd sat paa det. 
+Se der kunde de kom ind og der drak de alt
+hendes Ut og s. [gav] maatte h. give dem en 
+Grovkage for at gaa igien og det var Hunde-
+hvalpe med r&#xF8;de Munde s. n&#xE6;r som J&#xE6;geren
+h. var gr&#xF8;n.</danish_manuscript>
+  <english_manuscript>There was also a woman who had two doors on her house, one out to the south and one out to the north, that was on her kitchen (frammers) and she'd been brewing and she'd opened both doors to cool it off and get it yeasted. See, they could come in, and they drank all her wort, and then she had to give them a grovkage [rye bread] to get them to leave and they were little puppies with red mouths and the hunter was green.</english_manuscript>
+  <danish_publication>Der var en kone, der havde to d&#xF6;re p&#xE5; hendes hus, &#xE9;n s&#xF8;nden ud og &#xE9;n norden ud. Den sidste d&#xF6;r var jo p&#xE5; hendes frammers, og da hun havde v&#xE6;ret ved at brygge, s&#xE5; havde hun sl&#xE5;et begge d&#xF6;re &#xE5;bne for at f&#xE5; &#xF6;llet koldt og f&#xE5; gj&#xE6;r sat p&#xE5; i god tid. Se, der kunde Jons j&#xE6;ger og hans hunde komme ind, og de drak alt hendes ut, og s&#xE5; m&#xE5;tte hun endda give dem en grovkage for at g&#xE5; igjen. J&#xE6;geren han var gr&#xF6;n, og han havde hundehvalpe med r&#xF6;de munde med sig.</danish_publication>
+  <english_publication>There was a woman who had two doors on her house, one out to the south and one out to the north. The last door was on her kitchen (frammers) and, when she&#x2019;d been brewing, she&#x2019;d opened both doors to cool off the beer and get the yeast in in good time. See, then Jon&#x2019;s hunter and his dogs could come in, and they drank all her wort, and then she had to give them a rye bread (grovkage) to get them to leave. The hunter was green and he had little puppies with red mouths along with him.</english_publication>
+  <keywords>
+    <keyword id="84" frequency="1" keyword="beer">beer</keyword>
+    <keyword id="142" frequency="1" keyword="brewing">brewing</keyword>
+    <keyword id="343" frequency="2" keyword="dog">dog</keyword>
+    <keyword id="344" frequency="3" keyword="door">door</keyword>
+    <keyword id="351" frequency="1" keyword="drank">drank</keyword>
+    <keyword id="548" frequency="1" keyword="house">house</keyword>
+    <keyword id="550" frequency="2" keyword="hunter">hunter</keyword>
+    <keyword id="605" frequency="1" keyword="jon">Jon</keyword>
+    <keyword id="631" frequency="1" keyword="kitchen">kitchen</keyword>
+    <keyword id="863" frequency="1" keyword="north">north</keyword>
+    <keyword id="1021" frequency="1" keyword="red">red</keyword>
+    <keyword id="1056" frequency="1" keyword="rye_bread">rye bread</keyword>
+    <keyword id="1167" frequency="1" keyword="south">south</keyword>
+    <keyword id="1356" frequency="1" keyword="woman">woman</keyword>
+    <keyword id="1371" frequency="1" keyword="yeast">yeast</keyword>
+  </keywords>
+  <etk_index id="4">
+    <heading_danish>Farende uhyrer</heading_danish>
+    <heading_english>Traveling monsters</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="29" display_name="Places: Farm"/>
+    <tango_index id="49" display_name="Tools, Items and Conveyances: Food and Drink"/>
+    <tango_index id="68" display_name="Supernatural Beings: Unspecified"/>
+    <tango_index id="71" display_name="Animals: Dog"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="97" display_name="Actions or events: Theft"/>
+    <tango_index id="98" display_name="Actions or events: Transaction"/>
+    <tango_index id="129" display_name="Resolution: Ambiguous"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>

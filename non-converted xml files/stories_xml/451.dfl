@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<story story_id="451">
+  <publication_info>DS_V_855</publication_info>
+  <full_name>450 - 0.00 - DS_V_855</full_name>
+  <informant_id>450</informant_id>
+  <informant_last_name>Lauritsen</informant_last_name>
+  <informant_first_name>A. P.</informant_first_name>
+  <informant_full_name>L&#xE6;rer A. P. Lauritsen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>881</place_id>
+      <name>Strandby</name>
+      <display_name>Strandby (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="167">
+      <informant_id>241</informant_id>
+      <publication_info>DS_V_859</publication_info>
+      <full_name>241 - 2.17 - DS_V_859</full_name>
+      <url>data/stories/167.dfl</url>
+    </story>
+    <story story_id="446">
+      <informant_id>476</informant_id>
+      <publication_info>DS_V_864</publication_info>
+      <full_name>476 - 0.00 - DS_V_864</full_name>
+      <url>data/stories/446.dfl</url>
+    </story>
+    <story story_id="576">
+      <informant_id>65</informant_id>
+      <publication_info>DS_V_860</publication_info>
+      <full_name>65 - 0.00 - DS_V_860</full_name>
+      <url>data/stories/576.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>Der var &#xE9;n, som skulde sidde i kirken en nat, og pr&#xE6;sten ridsede en kreds i gulvet om hende med en lyngkrog. Hun blev fristet mange gange den nat, men de kunde ikke komme indenfor kredsen, og hun sad helt stille og sagde blot: "A priser min Gud!"</danish_publication>
+  <english_publication>There was one who was supposed to sit in the church for an entire night, and the minister scratched a circle in the floor around her with a lightning pole. She was tempted many times that night, but they couldn't come inside the circle, and she sat completely still and only said: "I praise my God!"</english_publication>
+  <keywords>
+    <keyword id="227" frequency="1" keyword="church">church</keyword>
+    <keyword id="230" frequency="2" keyword="circle">circle</keyword>
+    <keyword id="422" frequency="1" keyword="floor">floor</keyword>
+    <keyword id="472" frequency="1" keyword="god">god</keyword>
+    <keyword id="786" frequency="1" keyword="minister">minister</keyword>
+    <keyword id="848" frequency="2" keyword="night">night</keyword>
+    <keyword id="971" frequency="1" keyword="pole">pole</keyword>
+  </keywords>
+  <etk_index id="23">
+    <heading_danish>Forskjelligt sp&#xF8;geri og gjenf&#xE6;rds nedmaning</heading_danish>
+    <heading_english>Revenants and their conjuring</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="14" display_name="People: Minister"/>
+    <tango_index id="23" display_name="People: Woman"/>
+    <tango_index id="28" display_name="Places: Church"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="88" display_name="Actions or events: Haunting"/>
+    <tango_index id="112" display_name="Time, Season, Weather: Night "/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>
