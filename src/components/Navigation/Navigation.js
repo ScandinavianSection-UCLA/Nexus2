@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 import NavigatorComponent from './NavigatorComponent';
 import SearchComponent from './SearchComponent';
+import MapView from '../MapView/MapView';
 import {ontologyToDisplayKey, ontologyToID, dateFilterHelper} from './model';
 import './navigation.css'
 
@@ -296,8 +297,8 @@ class Navigation extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="medium-5 cell">
-
+                    <div className="medium-4 cell">
+                        <MapView/>
                     </div>
                 </div>
             </div>

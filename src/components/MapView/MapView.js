@@ -12,7 +12,7 @@ class MapView extends Component {
 
     render() {
         return (
-            <div className="MapView grid-x">
+            <div className="MapView">
 
             </div>
         );
