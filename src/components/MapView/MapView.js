@@ -10,6 +10,8 @@ class MapView extends Component {
 
     }
 
+    /*Insert Functions Here*/
+
     render() {
         return (
             <div className="MapView">
