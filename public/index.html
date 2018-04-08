@@ -8,8 +8,50 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/DENM0001.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css"/>
     <title>Danish Folklore Nexus</title>
   </head>
+
+
+  <!--/////////////////ben testing////
+  ======================================
+  ////////-->
+
+<style>
+#mapView{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+    width:300px;
+	}
+
+</style>
+
+
+</head>
+
+<body>
+	<div id="mapView"></div>
+	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+
+	<script>
+		var map=L.map("mapView").setView([50.6,-.01],8);
+
+		var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>"'
+  }).addTo(map);
+	</script>
+
+
+
+  <!--/////////////////////ben end testing////////
+  ================================
+  //////////-->
+
+
+
   <body>
     <noscript>
       You need to enable JavaScript to run this app.

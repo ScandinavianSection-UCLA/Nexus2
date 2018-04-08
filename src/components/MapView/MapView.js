@@ -4,20 +4,40 @@
 import React, { Component } from 'react';
 import './MapView.css'
 
+
+
 class MapView extends Component {
 
-    constructor(){
+    constructor() {
         super();
 
     }
-
+ //*****
     /*Insert Functions Here*/
 
-    render() {
-        return (
-            <div className="MapView">
+enabled() {
+document.write("<img border=\"0\" src=\"http://4.bp.blogspot.com/-C4vvMEB9MyI/TfW0lduV2NI/AAAAAAAAAZc/N7HL1pUusGw/s1600/some%20image.png\" />");
+}
 
-            </div>
+
+
+
+    render() {
+
+        return (
+
+                <div className="MapView">
+
+
+                    <div>
+
+
+                hello world
+                        </div>
+                </div>
+
+
+
         );
     }
 }
