@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapView/MapView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/MapView.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapView/MapView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/MapView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MapView/mapTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/mapTest.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MapView.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MapView.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
@@ -33,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mapTest.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mapTest.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="68" lean-forward="true" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
+            <state relative-caret-position="759">
+              <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
               <folding>
                 <element signature="e#0#6#0" expanded="true" />
                 <element signature="e#88#94#1" expanded="true" />
@@ -49,8 +43,8 @@
       <file leaf-file-name="places_geo.geojson" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+            <state relative-caret-position="570">
+              <caret line="38" column="4212" selection-end-line="38" selection-end-column="4212" />
             </state>
           </provider>
         </entry>
@@ -86,8 +80,9 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/MapView/MapView.css" />
         <option value="$PROJECT_DIR$/src/components/MapView/MapView.js" />
-        <option value="$PROJECT_DIR$/src/components/MapView/mapTest.html" />
         <option value="$PROJECT_DIR$/src/components/MapView/leaflet/jsonToObject.js" />
+        <option value="$PROJECT_DIR$/src/components/MapView/places_geo.geojson" />
+        <option value="$PROJECT_DIR$/src/components/MapView/mapTest.html" />
       </list>
     </option>
   </component>
@@ -100,7 +95,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="-4" />
     <option name="width" value="1855" />
@@ -214,15 +209,15 @@
       <workItem from="1523248944953" duration="1842000" />
       <workItem from="1523250835528" duration="434000" />
       <workItem from="1523251308535" duration="2191000" />
-      <workItem from="1523295919365" duration="19267000" />
+      <workItem from="1523295919365" duration="22389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41794000" />
+    <option name="totallyTimeSpent" value="44916000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18867925" />
@@ -615,19 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="68" lean-forward="true" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#88#94#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="570">
+          <caret line="38" column="4212" selection-end-line="38" selection-end-column="4212" />
         </state>
       </provider>
     </entry>
@@ -638,6 +622,17 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#45#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#88#94#1" expanded="true" />
           </folding>
         </state>
       </provider>
