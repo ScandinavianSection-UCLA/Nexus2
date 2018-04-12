@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import NavigatorComponent from './NavigatorComponent';
 import SearchComponent from './SearchComponent';
 import MapView from '../MapView/MapView';
-import {ontologyToDisplayKey, ontologyToID, dateFilterHelper} from './model';
+import {ontologyToDisplayKey, ontologyToID, dateFilterHelper, getPlaces} from './model';
 import './navigation.css'
 
 class Navigation extends Component {
@@ -33,6 +33,8 @@ class Navigation extends Component {
             displayOntology:'',
             lastIDKey:'',
             lastDisplayKey:'',
+            placeList:[],
+            fieldtrips:[],
         };
         this.displayItems = this.displayItems.bind(this)
     }
@@ -76,6 +78,7 @@ class Navigation extends Component {
     }
 
     displayList(list, displayKey, idKey, ontology){
+        console.log(list);
         this.setState((prevState)=>{
             return {
                 displayItemsList: list.map((itemInList,i)=>{
@@ -125,9 +128,35 @@ class Navigation extends Component {
         this.props.addID(id,name,type);
     }
 
+    setPlaceIDList(items, ontology){
+        console.log(ontology);
+        if(ontology!=='Places'){
+
+            if(ontology==='Fieldtrips'){this.setState({fieldtrips:items})}
+
+            //list must only contain stories, for each story get the place_recorded id
+            var PlaceIDList = [];
+            items.forEach((item)=>{
+                if(item['place_recorded'] && typeof item['place_recorded'] === 'object'){
+                    PlaceIDList.push(item['place_recorded']['id']);
+                }
+            });
+
+            var PlaceList = getPlaces(PlaceIDList);
+
+            this.setState({placeList:PlaceList})
+        }else{
+            this.setState({placeList:items})
+        }
+    }
+
     displayItems(items, ontology){
         var displayKey = ontologyToDisplayKey[ontology];
         var idKey = ontologyToID[ontology];
+
+        this.setPlaceIDList(items,ontology);
+
+        /*Save items to local storage for data to continue to exist after tab switch/page refresh  */
         localStorage.setItem('state', JSON.stringify(this.state));
         localStorage.setItem('path', JSON.stringify(this.state['path']));
         localStorage.setItem('lists', JSON.stringify(this.state['lists']));
@@ -302,7 +331,7 @@ class Navigation extends Component {
                             <div className="medium-6 cell" style={{'border':'2px black solid'}}>
                                 {/*Search Graph feature*/}
                             </div>
-                            <MapView className="medium-6 cell"/>
+                            <MapView className="medium-6 cell" places={this.state.placeList} fieldtrips={this.state.fieldtrips}/>
                         </div>
                     </div>
                 </div>

@@ -9,9 +9,15 @@ class App extends Component {
     constructor(){
         super();
         this.state = {
-            menuItem:{}
+            menuItem:{},
+            loading:true,
         };
         this.menuHandler = this.menuHandler.bind(this);
+    }
+
+    componentDidMount(){
+        //simulate async action and remove spinner
+        setTimeout(()=> this.setState({loading:false}),1500)
     }
 
     menuHandler(dataObject){
@@ -19,6 +25,7 @@ class App extends Component {
     }
 
     render() {
+
         return (
             <div className="App grid-container full">
                 <Heading sendData={this.menuHandler}/>
