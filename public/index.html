@@ -17,32 +17,33 @@
   ======================================
   ////////-->
 
-<style>
-#mapView{
-	position:absolute;
-	top:0;
-	bottom:0;
-	right:0;
-	left:0;
-    width:300px;
-	}
+  <style>
+    #MapView{
+      position:absolute;
+      top:0;
+      bottom:0;
+      right:0;
+      left:0;
+      width:300px;
+    }
 
-</style>
+  </style>
 
 
-</head>
+  </head>
 
-<body>
-	<div id="mapView"></div>
-	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+  <body>
+  <div id="MapView"></div>
+  <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
 
-	<script>
-		var map=L.map("mapView").setView([50.6,-.01],8);
+  <script>
+      var map=L.map("MapView").setView([50.6,-.01],8);
 
-		var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>"'
-  }).addTo(map);
-	</script>
+      var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>"'
+      }).addTo(map);
+  </script>
+
 
 
 
