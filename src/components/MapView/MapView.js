@@ -2,17 +2,28 @@
  * Created by danielhuang on 4/7/18.
  */
 import React, { Component } from 'react';
-import './MapView.css'
-/*Import leaflet here*/
+import './MapView.css';
+import {Leaflet as L} from 'leaflet';
+import ReactDOM from 'react-dom';
 
 class MapView extends Component {
 
-    constructor(){
-        super();
+    constructor(props) {
+        super(props);
+
+
+        //*****
+        /*Insert Functions Here*/
+renderMap(){
 
     }
 
-    /*Insert Functions Here*/
+enabled() {
+document.write("<img border=\"0\" src=\"http://4.bp.blogspot.com/-C4vvMEB9MyI/TfW0lduV2NI/AAAAAAAAAZc/N7HL1pUusGw/s1600/some%20image.png\" />");
+}
+
+
+
 
     /*
     * An array of places will be dynamically given to the mapping component depending on which view is visible
