@@ -18,6 +18,15 @@ class Navigation extends Component {
             dataNav: [],
             TINav: [],
             dropdownLists: [],
+            activeList:{
+                'People':false,
+                'Places':false,
+                'Stories':false,
+                'Fieldtrip':false,
+                'Tangherlini Index':false,
+                'ETK Indice': false,
+                'Genres':false,
+            }
         };
         this.handleLevelTwoClick = this.handleLevelTwoClick.bind(this);
     }
@@ -89,8 +98,42 @@ class Navigation extends Component {
         var isPPSF = (ontology === 'People' || ontology === 'Places' || ontology === 'Stories' || ontology === 'Fieldtrips');
         if(isPPSF){ //if it is part of Data navigator or it's a fieldtrip
             this.props.handleDisplayItems(itemsList, ontology); // send to navigation to display results
-            this.setState({dropdownLists:[]})
+
+            //highlight clicked ontology and set dropdownLists to nothing
+            this.setState((oldState)=>{
+                oldState.activeList = {
+                    'People':false,
+                    'Places':false,
+                    'Stories':false,
+                    'Fieldtrip':false,
+                    'Tangherlini Index':false,
+                    'ETK Indice': false,
+                    'Genres':false,
+                };
+                oldState.activeList[ontology] = true;
+                return {
+                    activeList:oldState.activeList,
+                    dropdownLists:[],
+                }
+            });
         } else {
+            //highlight clicked ontology
+            this.setState((oldState)=>{
+                oldState.activeList = {
+                    'People':false,
+                    'Places':false,
+                    'Stories':false,
+                    'Fieldtrip':false,
+                    'Tangherlini Index':false,
+                    'ETK Indice': false,
+                    'Genres':false,
+                };
+                oldState.activeList[ontology] = true;
+                return {
+                    activeList:oldState.activeList,
+                }
+            });
+
             //create additional options for people to be in the dropdown menu so people can select everything in the menu
             var selectString = '';
             if(ontology!=='ETK Indice'){
@@ -104,7 +147,6 @@ class Navigation extends Component {
             var inList = false;
             itemsList.forEach((item)=>{
                 if(item[displayKey] === selectObject[displayKey]){
-                    console.log(item['name'],selectObject['name']);
                     inList = true;
                 }
             });
@@ -122,7 +164,24 @@ class Navigation extends Component {
                 tango:false,
                 list:itemsList
             };
-            this.setState({dropdownLists:[listObject]});
+            // this.setState({dropdownLists:[listObject]});
+            //highlight clicked ontology
+            this.setState((oldState)=>{
+                oldState.activeList = {
+                    'People':false,
+                    'Places':false,
+                    'Stories':false,
+                    'Fieldtrip':false,
+                    'Tangherlini Index':false,
+                    'ETK Indice': false,
+                    'Genres':false,
+                };
+                oldState.activeList[ontology] = true;
+                return {
+                    activeList:oldState.activeList,
+                    dropdownLists:[listObject]
+                }
+            });
         } else if (!isPPSF) {
             //ontology === tangherlini indices
             var tangoTypesList = Object.keys(tangoTypes);
@@ -134,7 +193,24 @@ class Navigation extends Component {
                 tango:true,
                 list:tangoTypesList,
             };
-            this.setState({dropdownLists:[listObject]})
+            // this.setState({dropdownLists:[listObject]})
+            //highlight clicked ontology
+            this.setState((oldState)=>{
+                oldState.activeList = {
+                    'People':false,
+                    'Places':false,
+                    'Stories':false,
+                    'Fieldtrip':false,
+                    'Tangherlini Index':false,
+                    'ETK Indice': false,
+                    'Genres':false,
+                };
+                oldState.activeList[ontology] = true;
+                return {
+                    activeList:oldState.activeList,
+                    dropdownLists:[listObject]
+                }
+            });
         }
 
     }
@@ -188,7 +264,7 @@ class Navigation extends Component {
                     <div className={`cell ${this.state.dataNavView ? 'active dataNavView' : 'TINavView active'}`}>
                         <ul className="ontologyList">
                             {this.state[ontologyType].map((ontology, i)=>{
-                                return <li className={'ontology '+ ontology} key={i}
+                                return <li className={'ontology '+ ontology + `${this.state.activeList[ontology] ? ' active' : ''}`} key={i}
                                            onClick={(e)=>{e.preventDefault(); this.handleLevelTwoClick(ontology)}}>
                                     {ontology}
                                 </li>

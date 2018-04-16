@@ -46,6 +46,10 @@ li:hover.ontology{
     background-color:lightgray;
 }
 
+li.ontology.active{
+    background-color: #909090;
+}
+
 .NavigationDropdownMenu{
     margin:2%;
 }

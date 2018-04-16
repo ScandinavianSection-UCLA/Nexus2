@@ -2,6 +2,11 @@
  * Created by danielhuang on 1/28/18.
  */
 import React, { Component } from 'react';
+import { render } from 'react-dom';
+import Modal from 'react-modal';
+import SlidingPane from 'react-sliding-pane';
+import 'react-sliding-pane/dist/react-sliding-pane.css';
+import RightBar from '../RightBar/RightBar';
 import './StoryView.css'
 
 class StoryView extends Component {
@@ -20,11 +25,16 @@ class StoryView extends Component {
                 1: 'english_publication',
                 2: 'danish_manuscript',
                 3: 'danish_publication',
-            }
+            },
+            isPaneOpen: false,
         };
         this.arrayTransformation = this.arrayTransformation.bind(this);
         this.renderStories = this.renderStories.bind(this);
         this.renderPlaces = this.renderPlaces.bind(this);
+    }
+
+    componentDidMount() {
+        Modal.setAppElement(this.el);
     }
 
     clickHandler(id,name,type){
@@ -43,7 +53,7 @@ class StoryView extends Component {
     }
 
     renderStories(){
-        console.log(this.props.story['stories_mentioned'])
+        // console.log(this.props.story['stories_mentioned'])
         if(this.props.story['stories_mentioned']!==null){
             var storyArray = this.arrayTransformation(this.props.story['stories_mentioned'].story);
             return <ul>
@@ -177,10 +187,6 @@ class StoryView extends Component {
             </div>
         }
     }
-    PPSClickHandler(e){
-        e.preventDefault();
-        //make side bar appear
-    }
 
     render() {
         return (
@@ -280,34 +286,7 @@ class StoryView extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="medium-1 cell">
-                            <div className="pps grid-y">
-                                <div style={{marginTop:'150%', marginBottom:'20%'}} className="medium-2 cell"
-                                    onClick={this.PPSClickHandler.bind(this)}>
-                                    <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
-                                         className="icon"
-                                         alt="person"/>
-                                    <br/>
-                                    <div className="icon-label">{this.props.story['informant_first_name']} {this.props.story['informant_last_name']}</div>
-                                </div>
-                                <div className="medium-2 cell"
-                                     onClick={this.PPSClickHandler.bind(this)}>
-                                    <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
-                                         className="icon"
-                                         alt="location"/>
-                                    <br/>
-                                    <div className="icon-label">Places</div>
-                                </div>
-                                <div className="medium-2 cell"
-                                     onClick={this.PPSClickHandler.bind(this)}>
-                                    <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
-                                         className="icon"
-                                         alt="stories" />
-                                    <br/>
-                                    <div className="icon-label">Stories</div>
-                                </div>
-                            </div>
-                        </div>
+                        <RightBar story={this.props.story}/>
                     </div>
 
                 </div>
