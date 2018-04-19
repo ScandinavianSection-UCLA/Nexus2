@@ -237,10 +237,23 @@ export function dateFilterHelper(startDate, endDate, ontology){
                     });
                 }
             });
-            console.log(UniqueItems);
             return UniqueItems;
         }
     } else {
         return fieldtripsInDates;
     }
+}
+
+//called when there's a list of place_id's
+export function getPlaces(PlaceIDList){
+    var PlaceList = [];
+    var place = {};
+    PlaceIDList.forEach((placeID)=>{
+        place = data['places'].find((place)=>{
+            return place['place_id'] === placeID;
+        });
+        PlaceList.push(place);
+    });
+
+    return PlaceList;
 }

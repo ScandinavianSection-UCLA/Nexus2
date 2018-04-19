@@ -10,3 +10,7 @@ body{
     color:white;
     padding:.5%;
 }
+.loading-icon{
+    display:block;
+    margin:auto;
+}
