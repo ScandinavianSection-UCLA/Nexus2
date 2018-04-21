@@ -16,6 +16,7 @@ class RightBar extends Component {
         this.state = {
             isPaneOpen: false,
             isActive:{
+                people:false,
                 bio:false,
                 places:false,
                 stories:false,
@@ -38,6 +39,7 @@ class RightBar extends Component {
         this.setState((oldState)=>{
 
             oldState.isActive = {
+                people:false,
                 bio:false,
                 places:false,
                 stories:false,
@@ -57,7 +59,7 @@ class RightBar extends Component {
         //  if place then people story story
         if(this.props.view === 'Places'){
             return <div style={{marginTop:'150%', marginBottom:'20%'}}>
-                <div className="medium-2 cell"
+                <div className={`medium-2 cell ${this.state.isActive['people'] ? 'active':''}`}
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('people')}}>
                     <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
                          className="icon"
@@ -65,7 +67,7 @@ class RightBar extends Component {
                     <br/>
                     <div className="icon-label">People</div>
                 </div>
-                <div className="medium-2 cell"
+                <div className={`medium-2 cell ${this.state.isActive['stories_mentioned'] ? 'active':''}`}
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('stories_mentioned')}}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
                          className="icon"
@@ -73,7 +75,7 @@ class RightBar extends Component {
                     <br/>
                     <div className="icon-label">Stories That Mention</div>
                 </div>
-                <div className="medium-2 cell"
+                <div className={`medium-2 cell ${this.state.isActive['stories'] ? 'active':''}`}
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('stories')}}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
                          className="icon"
@@ -184,7 +186,13 @@ class RightBar extends Component {
             return <div className="cell medium-10 content">
                 <ul>
                     { cleanArray.map((place, i)=>{
-                        return <li key={i}>
+                        return <li key={i}
+                                   onClick={
+                                       (e)=>{
+                                           e.preventDefault();
+                                           this.clickHandler.bind(this)(place['place_id'],place['name'],'Places')
+                                       }
+                                   }>
                             {place['display_name']}
                         </li>
                     })}
@@ -210,7 +218,13 @@ class RightBar extends Component {
             return <div className="cell medium-10 content">
                 <ul>
                     { storiesByPerson.map((story, i)=>{
-                        return <li key={i}>
+                        return <li key={i}
+                                   onClick={
+                                       (e)=>{
+                                           e.preventDefault();
+                                           this.clickHandler.bind(this)(story['story_id'],story['full_name'],'Stories')
+                                       }
+                                   }>
                             {story['full_name']}
                         </li>
                     })}
