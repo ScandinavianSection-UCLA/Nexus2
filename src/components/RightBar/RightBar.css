@@ -13,7 +13,7 @@
 }
 .control-container .content{
     padding:10% 3%;
-    overflow-y:scroll;
+    overflow-y: scroll;
 }
 .control-container .content ul li{
     list-style: none;

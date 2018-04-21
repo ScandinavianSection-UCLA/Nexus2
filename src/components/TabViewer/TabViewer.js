@@ -128,9 +128,11 @@ class TabViewer extends Component {
                     views:newViews,
                     inView:[itemObject]
                 }
-            },()=>{
-                localStorage.setItem('views',JSON.stringify(this.state.views));
-            });
+            },
+            //     ()=>{
+            //     localStorage.setItem('views',JSON.stringify(this.state.views));
+            // }
+            );
         }
     }
 

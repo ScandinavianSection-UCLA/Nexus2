@@ -8,6 +8,7 @@ import SlidingPane from 'react-sliding-pane';
 import 'react-sliding-pane/dist/react-sliding-pane.css';
 import RightBar from '../RightBar/RightBar';
 import './StoryView.css'
+import {arrayTransformation, getPeopleByID} from "../RightBar/model";
 
 class StoryView extends Component {
 
@@ -189,6 +190,9 @@ class StoryView extends Component {
     }
 
     render() {
+        var cleanPlacesArray = arrayTransformation(this.props.story['places']['place']);
+        var storiesByPerson = getPeopleByID(this.props.story['informant_id'])['stories'];
+        var personData = getPeopleByID(this.props.story['informant_id']);
         return (
             <div className="StoryView grid-x">
                 <div className="medium-3 cell">
@@ -286,7 +290,7 @@ class StoryView extends Component {
                                 </div>
                             </div>
                         </div>
-                        <RightBar story={this.props.story}/>
+                        <RightBar view={"Stories"} object={this.props.story} bio={personData} places={cleanPlacesArray} stories={storiesByPerson}/>
                     </div>
 
                 </div>
