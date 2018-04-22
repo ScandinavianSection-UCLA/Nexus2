@@ -23,7 +23,7 @@
     "react-reader": "^0.16.7",
     "react-scripts": "1.0.17",
     "react-slider": "^0.9.0",
-    "react-sliding-pane": "^2.0.2",
+    "react-sliding-pane": "^2.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
