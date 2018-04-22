@@ -32,18 +32,23 @@ class PlaceView extends Component {
         }
         console.log(storyCollected,storyMentioned,peopleList);
         return (
-            <div className="PlaceView grid-x">
-                <div className="tab-header cell">
+            <div className="PlaceView grid-y">
+                <div className="tab-header cell medium-1">
                     <img style={{marginTop:'-1.7%'}} src="https://png.icons8.com/windows/32/000000/marker.png" alt="location icon"/>
-                    <h1 style={{fontWeight:'bold',display:'inline-block'}}>{this.props.place.name}</h1>
+                    <h2 style={{fontWeight:'bold',display:'inline-block'}}>{this.props.place.name}</h2>
                 </div>
-                <div className="medium-11 cell">
-                    <div className="cell">
-                        <h3 className="medium-3 cell">Visited During</h3>
+                <div className="medium-11">
+                    <div className="grid-x place-content-wrapper">
+                        <div className="medium-11 cell">
+                            <div className="cell">
+                                <h3 className="medium-3 cell">Visited During</h3>
+                            </div>
+                        </div>
+                        <RightBar view={'Places'} stories={storyCollected} storiesMentioned={storyMentioned} people={peopleList}
+                                  passID={this.clickHandler}/>
                     </div>
                 </div>
-                <RightBar view={'Places'} stories={storyCollected} storiesMentioned={storyMentioned} people={peopleList}
-                passID={this.clickHandler}/>
+
             </div>
         );
     }

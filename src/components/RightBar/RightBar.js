@@ -23,15 +23,15 @@ class RightBar extends Component {
                 storiesMentioned:false,
             }
         };
-
+        this.clickHandler = this.clickHandler.bind(this);
     }
 
     componentDidMount() {
         Modal.setAppElement(this.el);
     }
 
-    //TODO:make associated item clicker
     clickHandler(id,name,type){
+        console.log(this.props);
         this.props.passID(id,name,type);
     }
 
@@ -59,7 +59,7 @@ class RightBar extends Component {
         //  if place then people story story
         if(this.props.view === 'Places'){
             return <div style={{marginTop:'150%', marginBottom:'20%'}}>
-                <div className={`medium-2 cell ${this.state.isActive['people'] ? 'active':''}`}
+                <div className={`medium-2 cell ${this.state.isActive['people'] ? 'active':''} bio`}
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('people')}}>
                     <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
                          className="icon"
@@ -67,7 +67,7 @@ class RightBar extends Component {
                     <br/>
                     <div className="icon-label">People</div>
                 </div>
-                <div className={`medium-2 cell ${this.state.isActive['stories_mentioned'] ? 'active':''}`}
+                <div className={`medium-2 cell ${this.state.isActive['stories_mentioned'] ? 'active':''} stories-mentioned`}
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('stories_mentioned')}}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
                          className="icon"
@@ -75,7 +75,7 @@ class RightBar extends Component {
                     <br/>
                     <div className="icon-label">Stories That Mention</div>
                 </div>
-                <div className={`medium-2 cell ${this.state.isActive['stories'] ? 'active':''}`}
+                <div className={`medium-2 cell ${this.state.isActive['stories'] ? 'active':''} stories` }
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('stories')}}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
                          className="icon"
@@ -86,7 +86,7 @@ class RightBar extends Component {
             </div>
         } else if (this.props.view === 'Stories'){ //  if story then people place story
             return <div style={{marginTop:'150%', marginBottom:'20%'}}>
-                <div className="medium-2 cell"
+                <div className={`medium-2 cell ${this.state.isActive['people'] ? 'active':''} bio`}
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('bio')}}>
                     <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
                          className="icon"
@@ -94,7 +94,7 @@ class RightBar extends Component {
                     <br/>
                     <div className="icon-label">{this.props.object['informant_first_name']} {this.props.object['informant_last_name']}</div>
                 </div>
-                <div className="medium-2 cell"
+                <div className={`medium-2 cell ${this.state.isActive['places'] ? 'active':''} places` }
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('places')}}>
                     <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
                          className="icon"
@@ -102,7 +102,7 @@ class RightBar extends Component {
                     <br/>
                     <div className="icon-label">Places</div>
                 </div>
-                <div className="medium-2 cell"
+                <div className={`medium-2 cell ${this.state.isActive['stories'] ? 'active':''} stories` }
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('stories')}}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
                          className="icon"
@@ -113,7 +113,7 @@ class RightBar extends Component {
             </div>
         } else if (this.props.view === 'People'){ //  if people then place story
             return <div style={{marginTop:'150%', marginBottom:'20%'}}>
-                <div className="medium-2 cell"
+                <div className={`medium-2 cell ${this.state.isActive['places'] ? 'active':''} places` }
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('places')}}>
                     <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
                          className="icon"
@@ -121,7 +121,7 @@ class RightBar extends Component {
                     <br/>
                     <div className="icon-label">Places</div>
                 </div>
-                <div className="medium-2 cell"
+                <div className={`medium-2 cell ${this.state.isActive['stories'] ? 'active':''} stories` }
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('stories')}}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
                          className="icon"
@@ -135,7 +135,7 @@ class RightBar extends Component {
 
 
     renderContent(){
-        console.log(this.props.stories, this.props.storiesMentioned,this.props.people);
+
         if(this.state.isActive['bio']){
             return this.renderBiography();
         } else if(this.state.isActive['places']){
@@ -150,7 +150,7 @@ class RightBar extends Component {
     }
 
     renderPeople(){
-        console.log(this.props.people);
+
         if(this.props.people.length===0){
             return <div className="cell medium-10 content">
                 <div className="callout alert">
@@ -246,6 +246,11 @@ class RightBar extends Component {
                             <div><b>Born</b> {personData['birth_date']}</div>
                             <div><b>Died</b> {personData['death_date']}</div>
                             <div><b>ID#</b> {String(this.props.object['informant_id'])}</div>
+                            <a onClick={(e)=>{
+                                e.preventDefault();
+                                // console.log(personData);
+                                this.clickHandler.bind(this)(personData['person_id'],personData['full_name'],'People')
+                            }} className="button">Informant Page</a>
                         </div>
                     </div>
                 </div>
@@ -260,7 +265,7 @@ class RightBar extends Component {
 
         return (
             <div className="medium-1 RightBar cell">
-                <div className="pps grid-y">
+                <div className="grid-y">
                     <SlidingPane
                         className='right-bar full'
                         overlayClassName='some-custom-overlay-class'
@@ -268,7 +273,14 @@ class RightBar extends Component {
                         width='35vw'
                         onRequestClose={ () => {
                             // triggered on "<" on left top click or on outside click
-                            this.setState({ isPaneOpen: false });
+                            this.setState({
+                                isPaneOpen: false,
+                                people:false,
+                                bio:false,
+                                places:false,
+                                stories:false,
+                                storiesMentioned:false,
+                            });
                         } }>
                         <div className="grid-x control-container">
                             {/*side bar controls*/}

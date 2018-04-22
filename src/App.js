@@ -16,8 +16,8 @@ class App extends Component {
     }
 
     componentDidMount(){
-        //simulate async action and remove spinner
-        setTimeout(()=> this.setState({loading:false}),1500)
+        //simulate async action and remove loader
+        setTimeout(()=> this.setState({loading:false}),1500);
     }
 
     menuHandler(dataObject){

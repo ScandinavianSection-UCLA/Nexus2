@@ -18,7 +18,7 @@ class TabViewer extends Component {
         this.state = {
             views:[],
             storyPath:'',
-            inView:[]
+            inView:[],
         };
         this.handleID = this.handleID.bind(this);
         this.tabController = this.tabController.bind(this);
@@ -34,17 +34,44 @@ class TabViewer extends Component {
             active: true,
             id:0,
             name:'Home',
-            type:'home'
+            type:'Home'
         };
-        // const cachedState = localStorage.getItem('views');
-        // const cachedInView = localStorage.getItem('inView');
-        // console.log(JSON.parse(cachedState));
-        //TODO: save tabs on refresh
-        this.setState((prevState)=>{
-            var newState = prevState.views;
-            newState.push(navigationObject);
-            return {views:newState, inView:newState}
-        });
+        const cachedViews = JSON.parse(localStorage.getItem('views'));
+        const cachedInView = JSON.parse(localStorage.getItem('inView'))[0]; //object
+        console.log(cachedInView);
+        if(cachedViews !== undefined){
+            this.setState(()=>{
+                //reconstruct jsx from id and type
+                var newViews = [];
+                cachedViews.forEach((view)=>{
+                   newViews.push({
+                       active: view['active'],
+                       id:view['id'],
+                       name:view['name'],
+                       type:view['type'],
+                       jsx: this.renderPPFS(view['id'],view['type']),
+                   })
+                });
+                var newInView = {
+                    active:cachedInView['active'],
+                    id:cachedInView['id'],
+                    name:cachedInView['name'],
+                    type:cachedInView['type'],
+                    jsx: this.renderPPFS(cachedInView['id'],cachedInView['type']),
+                };
+                // console.log(newViews, newInView);
+                return {
+                    views:newViews,
+                    inView: [newInView],
+                }
+            })
+        } else {
+            this.setState((prevState)=>{
+                var newState = prevState.views;
+                newState.push(navigationObject);
+                return {views:newState, inView:newState}
+            });
+        }
     }
 
     renderPPFS(id,type){
@@ -60,6 +87,8 @@ class TabViewer extends Component {
         } else if(type==='Stories'){
             var storyObject = getStoryByID(id);
             return <StoryView story={storyObject} addID={this.handleID}/>;
+        } else if(type==='Home'){
+            return <Navigation addID={this.handleID}/>;
         }
     }
     //update views with PDF views
@@ -129,9 +158,10 @@ class TabViewer extends Component {
                     inView:[itemObject]
                 }
             },
-            //     ()=>{
-            //     localStorage.setItem('views',JSON.stringify(this.state.views));
-            // }
+                ()=>{
+                    localStorage.setItem('views',JSON.stringify(this.state.views));
+                    localStorage.setItem('inView',JSON.stringify(this.state.inView));
+            }
             );
         }
     }
@@ -186,7 +216,7 @@ class TabViewer extends Component {
             if(newState.inView[0]['name'] === view['name']){ // is current view being closed?
                 return {
                     views:newState.views,
-                    inView:[newState.views[0]]
+                    inView:[newState.views[newState.views.length-1]]
                 }
             } else { // if current view isn't being closed, don't change what's inView
                 return {

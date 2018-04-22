@@ -1,4 +1,7 @@
 /*Sliding right bar for people places stories*/
+.RightBar{
+    background-color:#404040;
+}
 .slide-pane__content{
     padding:0; /*Override package styling*/
 }
@@ -50,6 +53,6 @@
     font-size:1.5em;
     overflow-y: scroll;
 }
-.bio.active, .stories.active, .places.active{
+.bio.active, .stories.active, .places.active, .stories-mentioned.active{
     border-right:3px solid white;
 }
