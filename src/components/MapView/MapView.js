@@ -6,6 +6,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Map, TileLayer } from 'react-leaflet';
 import './MapView.css';
+import { ImageOverlay } from 'react-leaflet';
 import {Leaflet as L} from 'leaflet';
 import ReactDOM from 'react-dom';
 
