@@ -44,13 +44,11 @@ class Navigation extends Component {
         if(cachedState && localStorage.getItem('lastIDKey') !== 'undefined'){
             const path = localStorage.getItem('path');
             const lists = localStorage.getItem('lists');
-            const displayItemsList = localStorage.getItem('displayItemsList');
             const itemsList = localStorage.getItem('itemsList');
             const fromDate = localStorage.getItem('fromDate');
             const toDate = localStorage.getItem('toDate');
             const fromSelect = localStorage.getItem('fromSelect');
             const toSelect = localStorage.getItem('toSelect');
-            const timeFilterOn = localStorage.getItem('timeFilterOn');
             const displayOntology = JSON.parse(localStorage.getItem('displayOntology'));
             const lastIDKey = JSON.parse(localStorage.getItem('lastIDKey'));
             const lastDisplayKey = JSON.parse(localStorage.getItem('lastDisplayKey'));
@@ -65,7 +63,11 @@ class Navigation extends Component {
                     return <li key={i} className={displayOntology}
                                onClick={(e)=>{ e.preventDefault();
                                    this.handleIDQuery(itemInList[lastIDKey],itemInList[lastDisplayKey],displayOntology)}}>
-                        {itemInList[lastDisplayKey]}
+                        <span>
+                            <img className={"convo-icon " + displayOntology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
+                            <img className={"person-icon " + displayOntology} src={require('./icons8-contacts-32.png')}  alt="person"/>
+                            <img className={"location-icon " + displayOntology} src={require('./icons8-marker-32.png')}  alt="location"/>
+                        </span> {itemInList[lastDisplayKey]}
                     </li>
                 }),
                 fromDate:JSON.parse(fromDate),
@@ -86,9 +88,9 @@ class Navigation extends Component {
                                onClick={(e)=>{ e.preventDefault();
                                    this.handleIDQuery(itemInList[idKey],itemInList[displayKey],this.state.displayOntology)}}>
                         <span>
-                            <img className={"convo-icon " + prevState.displayOntology} src="https://png.icons8.com/metro/32/000000/chat.png" alt="story"/>
-                            <img className={"person-icon " + prevState.displayOntology} src="https://png.icons8.com/windows/32/000000/contacts.png" alt="person"/>
-                            <img className={"location-icon " + prevState.displayOntology} src="https://png.icons8.com/windows/32/000000/marker.png" alt="location"/>
+                            <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
+                            <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
+                            <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
                         </span> {itemInList[displayKey]}
                     </li>
                 }),
@@ -102,9 +104,9 @@ class Navigation extends Component {
                            onClick={(e)=>{ e.preventDefault();
                                this.handleIDQuery(item[idKey],item[displayKey],this.state.displayOntology)}}>
                     <span>
-                        <img className={"convo-icon " + this.state.displayOntology} src="https://png.icons8.com/metro/32/000000/chat.png" alt="story"/>
-                        <img className={"person-icon " + this.state.displayOntology} src="https://png.icons8.com/windows/32/000000/contacts.png" alt="person"/>
-                        <img className={"location-icon " + this.state.displayOntology} src="https://png.icons8.com/windows/32/000000/marker.png" alt="location"/>
+                        <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
+                        <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
+                        <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
                     </span> {item[displayKey]}
                 </li>
             });
@@ -114,9 +116,9 @@ class Navigation extends Component {
                            onClick={(e)=>{ e.preventDefault();
                                this.handleIDQuery(item[idKey],item[displayKey],ontology)}}>
                     <span>
-                        <img className={"convo-icon " + this.state.displayOntology} src="https://png.icons8.com/metro/32/000000/chat.png" alt="story"/>
-                        <img className={"person-icon " + this.state.displayOntology} src="https://png.icons8.com/windows/32/000000/contacts.png" alt="person"/>
-                        <img className={"location-icon " + this.state.displayOntology} src="https://png.icons8.com/windows/32/000000/marker.png" alt="location"/>
+                        <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
+                        <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
+                        <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
                     </span> {item[displayKey]}
                 </li>
             });
@@ -155,18 +157,17 @@ class Navigation extends Component {
         var idKey = ontologyToID[ontology];
 
         this.setPlaceIDList(items,ontology);
+        console.log(ontology);
 
         /*Save items to local storage for data to continue to exist after tab switch/page refresh  */
         localStorage.setItem('state', JSON.stringify(this.state));
         localStorage.setItem('path', JSON.stringify(this.state['path']));
         localStorage.setItem('lists', JSON.stringify(this.state['lists']));
-        localStorage.setItem('displayItemsList', JSON.stringify(this.state['displayItemsList']));
         localStorage.setItem('itemsList', JSON.stringify(items));
         localStorage.setItem('fromDate', JSON.stringify(this.state['fromDate']));
         localStorage.setItem('toDate', JSON.stringify(this.state['toDate']));
         localStorage.setItem('fromSelect', JSON.stringify(this.state['fromSelect']));
         localStorage.setItem('toSelect', JSON.stringify(this.state['toSelect']));
-        localStorage.setItem('timeFilterOn', JSON.stringify(this.state['timeFilterOn']));
         localStorage.setItem('displayOntology', JSON.stringify(ontology));
         localStorage.setItem('lastIDKey', JSON.stringify(idKey));
         localStorage.setItem('lastDisplayKey',JSON.stringify(displayKey));

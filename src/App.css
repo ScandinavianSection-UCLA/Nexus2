@@ -7,7 +7,8 @@ body{
 }
 .tab-header{
     background-color: #dcdcdc;
-    padding:1% 3% 1% 3%;
+    padding:.5% 3% 1% 3%;
+    /*height:12%;*/
 }
 .loading-icon{
     display:block;

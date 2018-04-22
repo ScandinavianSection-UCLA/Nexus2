@@ -23,7 +23,7 @@ class RightBar extends Component {
                 storiesMentioned:false,
             }
         };
-
+        this.clickHandler = this.clickHandler.bind(this);
     }
 
     componentDidMount() {
@@ -31,6 +31,7 @@ class RightBar extends Component {
     }
 
     clickHandler(id,name,type){
+        console.log(this.props);
         this.props.passID(id,name,type);
     }
 
@@ -245,6 +246,11 @@ class RightBar extends Component {
                             <div><b>Born</b> {personData['birth_date']}</div>
                             <div><b>Died</b> {personData['death_date']}</div>
                             <div><b>ID#</b> {String(this.props.object['informant_id'])}</div>
+                            <a onClick={(e)=>{
+                                e.preventDefault();
+                                // console.log(personData);
+                                this.clickHandler.bind(this)(personData['person_id'],personData['full_name'],'People')
+                            }} className="button">Informant Page</a>
                         </div>
                     </div>
                 </div>
@@ -259,7 +265,7 @@ class RightBar extends Component {
 
         return (
             <div className="medium-1 RightBar cell">
-                <div className="pps grid-y">
+                <div className="grid-y">
                     <SlidingPane
                         className='right-bar full'
                         overlayClassName='some-custom-overlay-class'

@@ -14,9 +14,6 @@ class PeopleView extends Component {
             PeoplePath:''
         };
         this.clickHandler = this.clickHandler.bind(this);
-        this.renderPlace = this.renderPlace.bind(this);
-        this.renderStory = this.renderStory.bind(this);
-        this.renderAssociatedItems = this.renderAssociatedItems.bind(this);
     }
 
     componentWillMount(){

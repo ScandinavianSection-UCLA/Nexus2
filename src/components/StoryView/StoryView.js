@@ -32,6 +32,7 @@ class StoryView extends Component {
         this.arrayTransformation = this.arrayTransformation.bind(this);
         this.renderStories = this.renderStories.bind(this);
         this.renderPlaces = this.renderPlaces.bind(this);
+        this.clickHandler = this.clickHandler.bind(this);
     }
 
     componentDidMount() {
@@ -290,7 +291,7 @@ class StoryView extends Component {
                                 </div>
                             </div>
                         </div>
-                        <RightBar view={"Stories"} object={this.props.story} bio={personData} places={cleanPlacesArray} stories={storiesByPerson}/>
+                        <RightBar view={"Stories"} object={this.props.story} bio={personData} places={cleanPlacesArray} stories={storiesByPerson} passID={this.clickHandler}/>
                     </div>
 
                 </div>

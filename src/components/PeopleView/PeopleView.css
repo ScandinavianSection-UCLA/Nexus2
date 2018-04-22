@@ -1,3 +1,6 @@
+.PeopleView{
+    height:89vh;
+}
 .associatedItems .item{
     height:40vh;
     overflow-y:scroll;
