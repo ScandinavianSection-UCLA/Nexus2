@@ -17,7 +17,7 @@ class PlaceView extends Component {
     }
 
     render() {
-        console.log(this.props.place);
+
         var storyCollected = [];
         var storyMentioned = [];
         var peopleList =[];
@@ -30,7 +30,7 @@ class PlaceView extends Component {
         if('storiesMentioned' in this.props.place){
             storyMentioned = this.props.place['storiesMentioned']
         }
-        console.log(storyCollected,storyMentioned,peopleList);
+
         return (
             <div className="PlaceView grid-y">
                 <div className="tab-header cell medium-1">

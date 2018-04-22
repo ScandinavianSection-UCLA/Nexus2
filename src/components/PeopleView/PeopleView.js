@@ -16,9 +16,9 @@ class PeopleView extends Component {
         this.clickHandler = this.clickHandler.bind(this);
     }
 
-    componentWillMount(){
-        console.log('person view');
-    }
+    // componentWillMount(){
+    //     console.log('person view');
+    // }
 
     clickHandler(id,name,type){
         this.props.addID(id,name,type);

@@ -35,16 +35,17 @@ class MapView extends Component {
         console.log(this.props.fieldtrips);
 
         return (
-            <div className="MapView" id="MapView">
-                {<Map
+            <div className="MapView" >
+                <Map
                     center={mapCenter}
                     zoom={zoomLevel}
+                    id="MapView"
                 >
                     <TileLayer
                         attribution={stamenTonerAttr}
                         url={stamenTonerTiles}
                     />
-                </Map>}
+                </Map>
             </div>
         );
     }

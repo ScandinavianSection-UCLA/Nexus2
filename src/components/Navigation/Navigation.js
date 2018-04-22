@@ -52,6 +52,8 @@ class Navigation extends Component {
             const displayOntology = JSON.parse(localStorage.getItem('displayOntology'));
             const lastIDKey = JSON.parse(localStorage.getItem('lastIDKey'));
             const lastDisplayKey = JSON.parse(localStorage.getItem('lastDisplayKey'));
+
+            // console.log(timeFilterOn);
             this.setState({
                 path:JSON.parse(path),
                 lists:JSON.parse(lists),
@@ -74,7 +76,6 @@ class Navigation extends Component {
                 toDate:JSON.parse(toDate),
                 fromSelect:JSON.parse(fromSelect),
                 toSelect:JSON.parse(toSelect),
-                timeFilterOn:false,
             });
         }
     }
@@ -171,6 +172,7 @@ class Navigation extends Component {
         localStorage.setItem('displayOntology', JSON.stringify(ontology));
         localStorage.setItem('lastIDKey', JSON.stringify(idKey));
         localStorage.setItem('lastDisplayKey',JSON.stringify(displayKey));
+        localStorage.setItem('timeFilterOn',JSON.stringify(this.state['timeFilterOn']));
         this.setState(()=>{
             return {
                 displayOntology:ontology,
