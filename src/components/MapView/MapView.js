@@ -2,6 +2,8 @@
  * Created by danielhuang on 4/7/18.
  */
 import React, { Component } from 'react';
+import { render } from 'react-dom';
+import { Map, TileLayer } from 'react-leaflet';
 import './MapView.css';
 import {Leaflet as L} from 'leaflet';
 import ReactDOM from 'react-dom';
@@ -27,8 +29,17 @@ class MapView extends Component {
         console.log(this.props.fieldtrips);
 
         return (
-            <div className="MapView" id="MapView">
-                {/*Insert mapping tag (i.e. <div id="map"/>) here*/}
+            <div className="MapView" >
+                {/*<Map*/}
+                    {/*center={mapCenter}*/}
+                    {/*zoom={zoomLevel}*/}
+                    {/*id="MapView"*/}
+                {/*>*/}
+                    {/*<TileLayer*/}
+                        {/*attribution={stamenTonerAttr}*/}
+                        {/*url={stamenTonerTiles}*/}
+                    {/*/>*/}
+                {/*</Map>*/}
             </div>
         );
     }
