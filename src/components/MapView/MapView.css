@@ -2,15 +2,12 @@
 .MapView {
     height: 100%;
     border: 2px solid black;
+    position:relative;
+
+
+}
+.leaflet-container{
+    height: 100%;
 
 }
 
-/*.MapView{
-    position:absolute;
-    top:0;
-    bottom:0;
-    right:0;
-    left:0;
-    width:300px;
-}
-*/

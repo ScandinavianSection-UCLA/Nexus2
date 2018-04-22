@@ -9,12 +9,12 @@
 	<title> first leaflet</title>
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css"/>
 	<script src="places_geo.geojson" type="text/javascript"></script>
-	<!--<script src="/js/leaflet-0.7.2/leaflet.ajax.min.js"></script>-->
+
 
 
 
 	<style>
-        #MapView{
+        #map{
             position:absolute;
             top:0;
             bottom:0;
@@ -29,12 +29,12 @@
 </head>
 
 <body>
-<div id="MapView"></div>
+<div id="map"></div>
 <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
 
 <script>
 
-    var map=L.map("MapView").setView([56.2639,9.5018],8);
+    var map=L.map("map").setView([56.2639,9.5018],8);
 
     var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>"'
@@ -864,7 +864,7 @@ var layerGroup1=L.geoJSON(places_geo,{
 
 var layerGroup2=L.geoJson(cplaces_geojson, {
         pointToLayer: function (feature, latlng) {
-            return (L.circleMarker(latlng, {color: "#FF0000"}).bindPopup(feature.properties.name) && True);
+            return (L.circleMarker(latlng, {color: "#FF0000"}).bindPopup(feature.properties.name));
         }
 
 }).addTo(map);
