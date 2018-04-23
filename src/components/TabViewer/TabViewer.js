@@ -91,7 +91,7 @@ class TabViewer extends Component {
         } else if(type==='Stories'){
             var storyObject = getStoryByID(id);
             return <StoryView story={storyObject} addID={this.handleID}/>;
-        } else if(type==='Home'){
+        } else if(type==='Home' || type=='home'){
             return <Navigation addID={this.handleID}/>;
         }
     }
