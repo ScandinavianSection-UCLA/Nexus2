@@ -38,6 +38,11 @@ class TabViewer extends Component {
         };
         const cachedViews = JSON.parse(localStorage.getItem('views'));
         const cachedInView = JSON.parse(localStorage.getItem('inView'))[0]; //object
+        /*this.setState((prevState)=>{
+            var newState = prevState.views;
+            newState.push(navigationObject);
+            return {views:newState, inView:newState}
+        });*/
         console.log(cachedInView);
         if(cachedViews !== undefined){
             this.setState(()=>{
@@ -59,7 +64,7 @@ class TabViewer extends Component {
                     type:cachedInView['type'],
                     jsx: this.renderPPFS(cachedInView['id'],cachedInView['type']),
                 };
-                // console.log(newViews, newInView);
+                console.log(newViews, newInView);
                 return {
                     views:newViews,
                     inView: [newInView],
@@ -87,7 +92,7 @@ class TabViewer extends Component {
         } else if(type==='Stories'){
             var storyObject = getStoryByID(id);
             return <StoryView story={storyObject} addID={this.handleID}/>;
-        } else if(type==='Home'){
+        } else if(type==='Home' || type=='home'){
             return <Navigation addID={this.handleID}/>;
         }
     }
