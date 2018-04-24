@@ -21,7 +21,7 @@ class App extends Component {
     }
 
     menuHandler(dataObject){
-        this.refs.tabViewer.renderPDF(dataObject.url, dataObject.name);
+        this.refs.tabViewer.renderPDF(dataObject.chap, dataObject.name);
     }
 
     render() {

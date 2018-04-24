@@ -20,7 +20,7 @@ class MapView extends Component {
      //var placesGeoData= new L.GeoJSON.AJAX("./places_geo.geojson")
     render(){
         const position = [this.state.lat, this.state.lng];
-        return (<div className="MapView" >
+        return (<div className="MapView" style={{height:this.props.height}}>
             <Map center={position} zoom={this.state.zoom} id="MapView">
 
                 <TileLayer

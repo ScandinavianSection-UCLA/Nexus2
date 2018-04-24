@@ -5,3 +5,16 @@
     height:40vh;
     overflow-y:scroll;
 }
+.detail-item{
+    margin:5px;
+}
+.person-bio{
+    color:black;
+    border:1px solid #d2d2d2;
+    border-top:none;
+    padding:3%;
+    font-size:1.5em;
+}
+.wrapper.person{
+    overflow-y: scroll;
+}
