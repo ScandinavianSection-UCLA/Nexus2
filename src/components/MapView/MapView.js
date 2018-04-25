@@ -4,16 +4,16 @@
 
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import { Map, TileLayer } from 'react-leaflet';
+import { Map, TileLayer, ImageOverlay } from 'react-leaflet';
 import './MapView.css';
-import { ImageOverlay } from 'react-leaflet';
 import {Leaflet as L} from 'leaflet';
 import ReactDOM from 'react-dom';
+import {placeToGeoPlace} from './model'
 
 const stamenTonerTiles = 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png';
 const stamenTonerAttr = 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>';
-const mapCenter = [39.9528, -75.1638];
-const zoomLevel = 12;
+const mapCenter = [57.6597891,10.609128];
+const zoomLevel = 4;
 
 class MapView extends Component {
 
@@ -30,10 +30,12 @@ class MapView extends Component {
     *  ...=> you can access it through "this.props.fieldtrips" (console.log example below)
     * */
 
+
     render() {
         /*Insert initialization functions here*/
         console.log(this.props.places);
         console.log(this.props.fieldtrips);
+        placeToGeoPlace(1);
 
         return (
             <div className="MapView" >
@@ -45,6 +47,10 @@ class MapView extends Component {
                     <TileLayer
                         attribution={stamenTonerAttr}
                         url={stamenTonerTiles}
+                    />
+                    <ImageOverlay
+                        bounds={[[mapCenter],[58,11]]}
+                        url="https://i.imgur.com/BZfAYbn.png"
                     />
                 </Map>
             </div>
