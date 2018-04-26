@@ -13,6 +13,8 @@
 
 
 
+
+
 	<style>
         #map{
             position:absolute;
@@ -31,6 +33,7 @@
 <body>
 <div id="map"></div>
 <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+<script src="/js/leaflet-0.7.2/leaflet.ajax.min.js"></script>
 
 <script>
 
@@ -875,16 +878,6 @@ var layerGroup3=L.geoJson(cplaces_mentioned, {
    }
 }).addTo(map);
 
-/* this works VVVV
-    var layerGroup = L.geoJSON(geojsonFeature, {
-        onEachFeature: function (feature, layer) {
-            //if (feature.properties.place_people_person_full_name != null) {
-                layer.bindPopup(feature.properties.place_name);
-            //}
-
-        }
-    }).addTo(map);
-^^^*/
 
 
 
