@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import TabViewer from './components/TabViewer/TabViewer';
 import Heading from './components/Heading/Heading.js'
 import './App.css';
-
+import Routes from './routes'
 
 class App extends Component {
 
