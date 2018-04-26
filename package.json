@@ -5,6 +5,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "create-react-class": "^15.6.3",
+    "domain-browser": "^1.2.0",
     "foundation-sites": "^6.4.4-rc1",
     "fuse-js-latest": "^3.1.0",
     "json-loader": "^0.5.7",

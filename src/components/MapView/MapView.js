@@ -31,9 +31,10 @@ class MapView extends Component {
             lng: 9.5018,
             zoom: 8,
         };
-        this.onEachFeature = this.onEachFeature.bind(this);
+        // this.onEachFeature = this.onEachFeature.bind(this);
         this.pointToLayer = this.pointToLayer.bind(this);
     }
+
     addGeoJSONLayer(geojson) {
 
         const geojsonLayer = L.geoJson(geojson, {
@@ -45,53 +46,48 @@ class MapView extends Component {
         geojsonLayer.addTo(this.state.map);
     }
 
-        pointToLayer(feature, latlng) {
-            // renders our GeoJSON points as circle markers, rather than Leaflet's default image markers
-            // parameters to style the GeoJSON markers
-            var markerParams = {
-                radius: 4,
-                fillColor: 'orange',
-                color: '#fff',
-                weight: 1,
-                opacity: 0.5,
-                fillOpacity: 0.8
-            };
+    pointToLayer(feature, latlng) {
+        // renders our GeoJSON points as circle markers, rather than Leaflet's default image markers
+        // parameters to style the GeoJSON markers
+        var markerParams = {
+            radius: 4,
+            fillColor: 'orange',
+            color: '#fff',
+            weight: 1,
+            opacity: 0.5,
+            fillOpacity: 0.8
+        };
 
-            return L.circleMarker(latlng, markerParams);
+        return L.circleMarker(latlng, markerParams);
+    }
+
+    render(){
+
+            const position = [this.state.lat, this.state.lng];
+            return (<div className="MapView" id="MapView">
+                <Map center={position} zoom={this.state.zoom}>
+
+                    <TileLayer
+                        attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    />
+
+
+                    <circleMarker position={position}
+                        closeOnClick={true} >
+
+                        <Popup>
+
+                <span>
+                  this.properties.name <br /> Can edit this pretty easily.
+                </span>
+                        </Popup>
+                    </circleMarker>
+
+                </Map>
+                </div>
+            )
         }
-
-
-
-
-
-
-                render(){
-
-                    const position = [this.state.lat, this.state.lng]
-                    return (<div className="MapView" id="MapView">
-                        <Map center={position} zoom={this.state.zoom}>
-
-                            <TileLayer
-                                attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
-                                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                            />
-
-
-                            <circleMarker position={position}
-                                closeOnClick={true} >
-
-                                <Popup>
-
-                        <span>
-                          this.properties.name <br /> Can edit this pretty easily.
-                        </span>
-                                </Popup>
-                            </circleMarker>
-
-                        </Map>
-                        </div>
-                    )
-                }
-        }
+}
 
 export default MapView;
