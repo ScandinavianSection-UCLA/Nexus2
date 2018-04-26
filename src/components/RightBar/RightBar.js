@@ -241,8 +241,8 @@ class RightBar extends Component {
                 <div className="cell medium-3">
                     <div className="grid-x informant-bio-container">
                         <img src={require(`./informant_images/${[90,123,150,235,241].includes(this.props.object['informant_id'])? String(this.props.object['informant_id']) + '.jpg' : 'noprofile.png'}`)}
-                             className="cell medium-4"/>
-                        <div className="cell medium-8 details">
+                             className="cell medium-6"/>
+                        <div className="cell medium-6 details">
                             <div><b>Born</b> {personData['birth_date']}</div>
                             <div><b>Died</b> {personData['death_date']}</div>
                             <div><b>ID#</b> {String(this.props.object['informant_id'])}</div>
