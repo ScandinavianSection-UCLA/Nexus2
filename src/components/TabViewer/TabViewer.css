@@ -20,16 +20,16 @@
 .tabs li.active{
     background-color: #ffffff;
 }
-.closeIcon{
+.closeTabIcon{
     width:.75em;
     position:absolute;
     top:30%;
     right:5px;
 }
-.closeIcon.noClose{
+.closeTabIcon.noClose{
     display:none;
 }
-.closeIcon:hover{
+.closeTabIcon:hover{
     border:1px solid black;
     border-radius:100%;
 }

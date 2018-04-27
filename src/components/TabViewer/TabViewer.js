@@ -36,15 +36,15 @@ class TabViewer extends Component {
             name:'Home',
             type:'Home'
         };
-        const cachedViews = JSON.parse(localStorage.getItem('views'));
-        const cachedInView = JSON.parse(localStorage.getItem('inView'))[0]; //object
-        /*this.setState((prevState)=>{
-            var newState = prevState.views;
-            newState.push(navigationObject);
-            return {views:newState, inView:newState}
-        });*/
-        console.log(cachedInView);
-        if(cachedViews !== undefined){
+
+        // this.setState((prevState)=>{
+        //     var newState = prevState.views;
+        //     newState.push(navigationObject);
+        //     return {views:newState, inView:newState}
+        // });
+        if(JSON.parse(localStorage.getItem('inView')) !== null){
+            const cachedViews = JSON.parse(localStorage.getItem('views'));
+            const cachedInView = JSON.parse(localStorage.getItem('inView'))[0]; //object
             this.setState(()=>{
                 //reconstruct jsx from id and type
                 var newViews = [];
@@ -97,7 +97,7 @@ class TabViewer extends Component {
         }
     }
     //update views with PDF views
-    renderPDF(filepath, name){
+    renderPDF(chapter, name){
         var nameUpdated = true;
         if(this.state.inView.name === name){
             nameUpdated = false;
@@ -111,8 +111,8 @@ class TabViewer extends Component {
         if(name !== undefined && nameUpdated){
             var PDFObject = {
                 name:name,
-                url:filepath,
-                jsx:<BookView url={filepath} name={name}>{name}</BookView>,
+                chapter:chapter,
+                jsx:<BookView chapter={chapter} name={name}>{name}</BookView>,
                 active:true
             };
             this.setState((prevState)=>{
@@ -128,8 +128,8 @@ class TabViewer extends Component {
     //7)A catch all function will take in an ID and name of the selected object
     // depending on what was selected (story, people, places, fieldtrips) add a different type of object to add to views and inView
 
-    handleID(InputID, Name, Type){
-        console.log(InputID,Name, Type);
+    handleID(InputID, Name, Type){ // adds tab to viewer
+        // console.log(InputID,Name, Type);
         //check if input id is already in views
         var inView = false;
         var viewIndex = -1;
@@ -158,6 +158,9 @@ class TabViewer extends Component {
                     view.active = false;
                 });
                 newViews.push(itemObject);
+                if(newViews.length>7){
+                    newViews.splice(1,1);
+                }
                 return {
                     views:newViews,
                     inView:[itemObject]
@@ -180,7 +183,7 @@ class TabViewer extends Component {
     }
 
     switchTab(view){
-        console.log('switching tabs!');
+
         this.setState((prevState)=>{
             var newViews = prevState.views;
             newViews.forEach((currentView)=>{
@@ -189,7 +192,7 @@ class TabViewer extends Component {
                 } else {
                     currentView.active = true;
                     if(currentView.type === 'story'){
-                        console.log(currentView.name);
+
                         currentView.jsx = this.renderStory(currentView.id);
                         view = currentView;
                     }
@@ -207,7 +210,7 @@ class TabViewer extends Component {
     }
 
     closeTab(view){
-        console.log('closing tab!',this.state.views,view);
+
         //find 'view' in this.state.views and .inView, and delete it. if .inView then default to home tab
         this.setState((prevState)=>{
             var newState = prevState;
@@ -250,7 +253,7 @@ class TabViewer extends Component {
                                    key={i} className={`${view.name === this.state.inView[0].name ? 'active' : ''}`}>
                             {view.name}
                             <img src="https://png.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
-                                 className={`closeIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
+                                 className={`closeTabIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
                         </li>})}
                 </ul>
             </div>
