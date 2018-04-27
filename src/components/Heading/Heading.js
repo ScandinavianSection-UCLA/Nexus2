@@ -72,7 +72,8 @@ class Heading extends Component {
     handleMenuClick(menuItem){
         var menuObject = {
             name:menuItem.name,
-            url:menuItem.url
+            url:menuItem.url,
+            chap:menuItem.chap,
         };
         this.props.sendData(menuObject);
         this.menuToggle();

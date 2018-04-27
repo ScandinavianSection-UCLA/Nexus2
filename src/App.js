@@ -16,6 +16,7 @@ class App extends Component {
             loading:true,
         };
         this.menuHandler = this.menuHandler.bind(this);
+        this.tabViewer = this.refs.tabViewer;
     }
 
     componentDidMount(){
@@ -24,7 +25,8 @@ class App extends Component {
     }
 
     menuHandler(dataObject){
-        this.refs.tabViewer.renderPDF(dataObject.chap, dataObject.name);
+        console.log(this.tabViewer, this.refs.tabViewer);
+        this.tabViewer.renderPDF(dataObject['chap'], dataObject['name']);
     }
 
     render() {
@@ -35,7 +37,7 @@ class App extends Component {
                     <Switch>
                         <Route path="/" exact render={()=>{
                             return(<div>
-                                <Heading sendData={this.menuHandler}/>
+                                <Heading sendData={this.menuHandler.bind(this)}/>
                                 <TabViewer ref="tabViewer" menuItem={this.state.menuItem}/>
                             </div>)
                         }}/>
