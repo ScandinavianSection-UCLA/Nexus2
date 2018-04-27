@@ -23,17 +23,36 @@ const createClusterCustomIcon = function (cluster) {
     });
 }
 */
+
+let config = {};
+config.params = {
+    center: [56.2639,9.5018]
+};
+config.tileLayer = {
+    uri: 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+    params: {
+
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>"',
+        id: '',
+        accessToken: ''
+    }
+};
+
 class MapView extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            lat: 56.2639,
-            lng: 9.5018,
-            zoom: 8,
+            map: null,
+            tileLayer: null,
+            geojsonLayer: null,
+            geojson: null,
+
         };
-        this.onEachFeature = this.onEachFeature.bind(this);
-        this.pointToLayer = this.pointToLayer.bind(this);
+        //this.onEachFeature = this.onEachFeature.bind(this);
+        //this.pointToLayer = this.pointToLayer.bind(this);
     }
+
+
     addGeoJSONLayer(geojson) {
 
         const geojsonLayer = L.geoJson(geojson, {
@@ -46,8 +65,7 @@ class MapView extends Component {
     }
 
         pointToLayer(feature, latlng) {
-            // renders our GeoJSON points as circle markers, rather than Leaflet's default image markers
-            // parameters to style the GeoJSON markers
+
             var markerParams = {
                 radius: 4,
                 fillColor: 'orange',
@@ -60,11 +78,33 @@ class MapView extends Component {
             return L.circleMarker(latlng, markerParams);
         }
 
+    init(id) {
+        if (this.state.map) return;
+        let map = L.map(id, config.params);
+        L.control.zoom({position: "bottomleft"}).addTo(map);
+        L.control.scale({position: "bottomleft"}).addTo(map);
+        const tileLayer = L.tileLayer(config.tileLayer.uri, config.tileLayer.params).addTo(map);
+    }
 
 
+    render() {
 
+        return (
+<Map>
+            <div id="MapView">
+                <TileLayer
+                    attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                <div ref={(node) => this._mapNode = node} id="MapView" />
 
+            </div>
+</Map>
+        );
+    }
+}
 
+/*
                 render(){
 
                     const position = [this.state.lat, this.state.lng]
@@ -93,5 +133,5 @@ class MapView extends Component {
                     )
                 }
         }
-
+*/
 export default MapView;
