@@ -10,9 +10,7 @@ import './MapView.css';
 import L from 'leaflet';
 import ReactDOM from 'react-dom';
 import {Map, TileLayer, Marker,circleMarker, Popup,GeoJsonCluster,geoJSON,MarkerClusterGroup,onEachFeature} from 'react-leaflet-universal';
-//import AJAX from 'leaflet-ajax';
-//import geojson from 'json./places_geo.geojson';
-//import cplaces from 'cplaces_geojson.geojson';
+
 
 var places_geo={
     "type": "FeatureCollection",
@@ -83,26 +81,38 @@ var places_geo={
         { "type": "Feature", "properties": { "place_fieldtrips": null, "place_fieldtrips_fieldtrip_id": 2, "place_fieldtrips_fieldtrip_id_0": null, "place_fieldtrips_fieldtrip_id_1": null, "place_fieldtrips_fieldtrip_id_2": null, "place_fieldtrips_fieldtrip_id_3": null, "place_fieldtrips_fieldtrip_id_4": null, "place_fieldtrips_fieldtrip_id_5": null, "place_fieldtrips_fieldtrip_id_6": null, "place_latitude": 56.0663, "place_longitude": 9.85405, "place_name": "Bjedstrup", "place_people": null, "place_people_person_0_core_informant": null, "place_people_person_0_first_name": null, "place_people_person_0_full_name": null, "place_people_person_0_gender": null, "place_people_person_0_image": null, "place_people_person_0_last_name": null, "place_people_person_0_person_id": null, "place_people_person_0_relationship": null, "place_people_person_0_residence_place_name": null, "place_people_person_0_residence_place_place_id": null, "place_people_person_0_url": null, "place_people_person_1_core_informant": null, "place_people_person_1_first_name": null, "place_people_person_1_full_name": null, "place_people_person_1_gender": null, "place_people_person_1_image": null, "place_people_person_1_last_name": null, "place_people_person_1_person_id": null, "place_people_person_1_relationship": null, "place_people_person_1_residence_place_name": null, "place_people_person_1_residence_place_place_id": null, "place_people_person_1_url": null, "place_people_person_2_core_informant": null, "place_people_person_2_first_name": null, "place_people_person_2_full_name": null, "place_people_person_2_gender": null, "place_people_person_2_last_name": null, "place_people_person_2_person_id": null, "place_people_person_2_relationship": null, "place_people_person_2_residence_place_name": null, "place_people_person_2_residence_place_place_id": null, "place_people_person_2_url": null, "place_people_person_3_core_informant": null, "place_people_person_3_first_name": null, "place_people_person_3_full_name": null, "place_people_person_3_gender": null, "place_people_person_3_last_name": null, "place_people_person_3_person_id": null, "place_people_person_3_relationship": null, "place_people_person_3_residence_place_name": null, "place_people_person_3_residence_place_place_id": null, "place_people_person_3_url": null, "place_people_person_4_core_informant": null, "place_people_person_4_first_name": null, "place_people_person_4_full_name": null, "place_people_person_4_gender": null, "place_people_person_4_last_name": null, "place_people_person_4_person_id": null, "place_people_person_4_relationship": null, "place_people_person_4_residence_place_name": null, "place_people_person_4_residence_place_place_id": null, "place_people_person_4_url": null, "place_people_person_5_core_informant": null, "place_people_person_5_first_name": null, "place_people_person_5_full_name": null, "place_people_person_5_gender": null, "place_people_person_5_last_name": null, "place_people_person_5_person_id": null, "place_people_person_5_relationship": null, "place_people_person_5_residence_place_name": null, "place_people_person_5_residence_place_place_id": null, "place_people_person_5_url": null, "place_people_person_6_core_informant": null, "place_people_person_6_first_name": null, "place_people_person_6_full_name": null, "place_people_person_6_gender": null, "place_people_person_6_last_name": null, "place_people_person_6_person_id": null, "place_people_person_6_relationship": null, "place_people_person_6_residence_place_name": null, "place_people_person_6_residence_place_place_id": null, "place_people_person_6_url": null, "place_people_person_core_informant": "None", "place_people_person_first_name": "A. J.", "place_people_person_full_name": "A. J. Meldgaard", "place_people_person_gender": "m", "place_people_person_image": null, "place_people_person_last_name": "Meldgaard", "place_people_person_person_id": 189, "place_people_person_relationship": "told stories here", "place_people_person_residence_place": null, "place_people_person_residence_place_name": "Bjedstrup", "place_people_person_residence_place_place_id": 59, "place_people_person_url": "data\/informants\/189.dfl", "place_place_id": 59 }, "geometry": { "type": "Point", "coordinates": [ 9.85405, 56.0663 ] } },
     ]
 };
+
+var openStreet = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }),
+    oldLayer = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png',{
+        attribution:'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    });
+var baseMaps = {
+    "Open Street": openStreet,
+    "Old Layer": oldLayer
+};
 class MapView extends React.Component {
-    render() {
-        return (
-            <div className="MapView"
-                 ref={ ref => this.container = ref } />
-        )
-    }
+
 
     componentDidMount() {
         // create map
         this.map = L.map(this.container, {
-            center: [56.2639,9.5018],
+            center: [56.2639, 9.5018],
             zoom: 7,
             layers: [
-                L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-                    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                }),
+                oldLayer, openStreet
             ]
         });
 
+        this.updateMarkers(this.props.places);
+        this.controlLayers= L.control.layers(baseMaps).addTo(this.map);
+
+
+
+    }
+
+    updateMarkers() {
         // add marker
         this.marker = L.marker([56.2639,9.5018]).addTo(this.map);
         this.geoJson= L.geoJSON(places_geo,{
@@ -114,8 +124,19 @@ class MapView extends React.Component {
                 }
             }
         }).addTo(this.map);
-    }
 
+    }
+    render() {
+
+        return (
+            <div className="MapView" ref={ ref => this.container = ref }/>
+
+
+
+
+
+                )
+    }
 }
 
 export default MapView;

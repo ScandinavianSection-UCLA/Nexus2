@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MapView/MapView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/MapView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapView/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/map.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,15 +17,33 @@
       <file leaf-file-name="MapView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="420">
+              <caret line="108" column="44" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="44" />
               <folding>
                 <element signature="e#45#86#0" expanded="true" />
                 <element signature="e#147#171#0" expanded="true" />
-                <element signature="e#495#263296#0" />
-                <element signature="e#659#263294#0" />
                 <element signature="e#0#6#0" expanded="true" />
+                <element signature="e#127#134#1" expanded="true" />
+                <element signature="e#144#150#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cplaces_geojson.geojson" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_geojson.geojson">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" column="945" selection-start-line="53" selection-start-column="945" selection-end-line="53" selection-end-column="945" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cplaces.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/cplaces.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret column="10617" selection-start-column="10617" selection-end-column="10617" />
             </state>
           </provider>
         </entry>
@@ -33,14 +51,12 @@
       <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1457">
+            <state relative-caret-position="2010">
               <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
               <folding>
                 <element signature="e#51#95#0" />
                 <element signature="e#96#137#0" expanded="true" />
                 <element signature="e#198#222#0" expanded="true" />
-                <element signature="e#0#6#0" expanded="true" />
-                <element signature="e#88#94#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,11 +65,9 @@
       <file leaf-file-name="mapTest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="863" column="14" lean-forward="true" selection-start-line="855" selection-start-column="16" selection-end-line="863" selection-end-column="14" />
+            <state relative-caret-position="735">
+              <caret line="205" selection-start-line="205" selection-end-line="205" />
               <folding>
-                <element signature="e#0#6#0" expanded="true" />
-                <element signature="e#88#94#1" expanded="true" />
                 <element signature="e#993#263794#0" />
                 <element signature="e#1157#263792#0" />
                 <element signature="e#263850#348738#0" />
@@ -221,18 +235,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
@@ -259,10 +267,17 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Navigation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,12 +350,14 @@
       <workItem from="1524344426514" duration="276000" />
       <workItem from="1524344774482" duration="31184000" />
       <workItem from="1524628686057" duration="10046000" />
-      <workItem from="1524682385720" duration="13677000" />
+      <workItem from="1524682385720" duration="15894000" />
+      <workItem from="1525040631233" duration="5369000" />
+      <workItem from="1525231396758" duration="246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130170000" />
+    <option name="totallyTimeSpent" value="138002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="24" width="1806" height="1048" extended-state="0" />
@@ -372,10 +389,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_mentioned_geojson.geojson">
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="379" lean-forward="true" selection-start-line="12" selection-start-column="379" selection-end-line="12" selection-end-column="379" />
+        <state relative-caret-position="14985">
+          <caret line="999" column="2" selection-start-line="999" selection-start-column="2" selection-end-line="999" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -414,9 +431,9 @@
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#495#263296#0" />
-            <element signature="e#659#263294#0" />
             <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#127#134#1" expanded="true" />
+            <element signature="e#144#150#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -449,9 +466,9 @@
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#495#263296#0" />
-            <element signature="e#659#263294#0" />
             <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#127#134#1" expanded="true" />
+            <element signature="e#144#150#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -484,9 +501,9 @@
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#495#263296#0" />
-            <element signature="e#659#263294#0" />
             <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#127#134#1" expanded="true" />
+            <element signature="e#144#150#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -519,9 +536,9 @@
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#495#263296#0" />
-            <element signature="e#659#263294#0" />
             <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#127#134#1" expanded="true" />
+            <element signature="e#144#150#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -533,9 +550,9 @@
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#495#263296#0" />
-            <element signature="e#659#263294#0" />
             <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#127#134#1" expanded="true" />
+            <element signature="e#144#150#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -672,13 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_geojson.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="999" selection-start-line="55" selection-start-column="999" selection-end-line="55" selection-end-column="999" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -711,9 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -728,27 +735,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1457">
-          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
-          <folding>
-            <element signature="e#51#95#0" />
-            <element signature="e#96#137#0" expanded="true" />
-            <element signature="e#198#222#0" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#88#94#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="863" column="14" lean-forward="true" selection-start-line="855" selection-start-column="16" selection-end-line="863" selection-end-column="14" />
+        <state relative-caret-position="735">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
           <folding>
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#88#94#1" expanded="true" />
             <element signature="e#993#263794#0" />
             <element signature="e#1157#263792#0" />
             <element signature="e#263850#348738#0" />
@@ -839,16 +830,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
+          <folding>
+            <element signature="e#51#95#0" />
+            <element signature="e#96#137#0" expanded="true" />
+            <element signature="e#198#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_geojson.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="945" selection-start-line="53" selection-start-column="945" selection-end-line="53" selection-end-column="945" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/cplaces.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret column="10617" selection-start-column="10617" selection-end-column="10617" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="420">
+          <caret line="108" column="44" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="44" />
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#495#263296#0" />
-            <element signature="e#659#263294#0" />
             <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#127#134#1" expanded="true" />
+            <element signature="e#144#150#1" expanded="true" />
           </folding>
         </state>
       </provider>
