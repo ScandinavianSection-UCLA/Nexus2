@@ -12,13 +12,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Nexus2" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MapView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="420">
               <caret line="108" column="44" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="44" />
+=======
+            <state relative-caret-position="303">
+              <caret line="111" column="102" selection-start-line="111" selection-start-column="102" selection-end-line="111" selection-end-column="102" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
               <folding>
                 <element signature="e#45#86#0" expanded="true" />
                 <element signature="e#147#171#0" expanded="true" />
@@ -30,6 +38,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="cplaces_geojson.geojson" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_geojson.geojson">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,6 +67,13 @@
                 <element signature="e#96#137#0" expanded="true" />
                 <element signature="e#198#222#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="GeoJSON.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/MapView/leaflet/src/layer/GeoJSON.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
             </state>
           </provider>
         </entry>
@@ -65,6 +81,7 @@
       <file leaf-file-name="mapTest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="735">
               <caret line="205" selection-start-line="205" selection-end-line="205" />
               <folding>
@@ -155,6 +172,10 @@
                 <element signature="e#374193#374899#0" />
                 <element signature="e#374239#374811#0" />
               </folding>
+=======
+            <state relative-caret-position="585">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
             </state>
           </provider>
         </entry>
@@ -162,8 +183,75 @@
       <file leaf-file-name="places_geo.geojson" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14985">
-              <caret line="999" column="2" selection-start-line="999" selection-start-column="2" selection-end-line="999" selection-end-column="2" />
+            <state relative-caret-position="15">
+              <caret line="19" column="4062" selection-start-line="19" selection-start-column="4062" selection-end-line="19" selection-end-column="4062" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Navigation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PeopleView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/PeopleView/PeopleView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+              <folding>
+                <element signature="e#45#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Navigation/model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#46#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/TabViewer/model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#46#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cplaces.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/cplaces.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret column="423" lean-forward="true" selection-start-column="423" selection-end-column="423" />
             </state>
           </provider>
         </entry>
@@ -224,6 +312,12 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/src/components/MapView/leaflet/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="63" />
     <option name="y" value="24" />
@@ -246,31 +340,62 @@
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="MapView" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
               <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="MapView" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="PeopleView" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
+            </path>
+            <path>
+              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="PlaceView" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
+            </path>
+            <path>
+              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TabViewer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -350,30 +475,42 @@
       <workItem from="1524344426514" duration="276000" />
       <workItem from="1524344774482" duration="31184000" />
       <workItem from="1524628686057" duration="10046000" />
+<<<<<<< HEAD
       <workItem from="1524682385720" duration="15894000" />
       <workItem from="1525040631233" duration="5369000" />
       <workItem from="1525231396758" duration="246000" />
+=======
+      <workItem from="1524682385720" duration="13677000" />
+      <workItem from="1524961210387" duration="41000" />
+      <workItem from="1524961277529" duration="1540000" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="138002000" />
+=======
+    <option name="totallyTimeSpent" value="132137000" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="24" width="1806" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19379845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19327731" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3298647" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32912722" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39854318" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -389,6 +526,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14985">
@@ -417,6 +555,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -657,8 +797,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PeopleView/PeopleView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="1065">
+          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+          <folding>
+            <element signature="e#45#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -689,21 +832,21 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_geojson.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="999" selection-start-line="55" selection-start-column="999" selection-end-line="55" selection-end-column="999" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/test1.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14985">
-          <caret line="999" column="2" selection-start-line="999" selection-start-column="2" selection-end-line="999" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -711,6 +854,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -721,6 +865,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
     <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -737,6 +883,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="735">
           <caret line="205" selection-start-line="205" selection-end-line="205" />
           <folding>
@@ -826,10 +973,32 @@
             <element signature="e#373609#374143#0" />
             <element signature="e#374193#374899#0" />
             <element signature="e#374239#374811#0" />
+=======
+        <state relative-caret-position="585">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#46#98#0" expanded="true" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/components/MapView/map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2010">
@@ -838,10 +1007,34 @@
             <element signature="e#51#95#0" />
             <element signature="e#96#137#0" expanded="true" />
             <element signature="e#198#222#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="19" column="4062" selection-start-line="19" selection-start-column="4062" selection-end-line="19" selection-end-column="4062" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/leaflet/src/layer/GeoJSON.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#46#98#0" expanded="true" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_geojson.geojson">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
@@ -853,13 +1046,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret column="10617" selection-start-column="10617" selection-end-column="10617" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/data/cplaces.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret column="423" lean-forward="true" selection-start-column="423" selection-end-column="423" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="420">
           <caret line="108" column="44" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="44" />
+=======
+        <state relative-caret-position="303">
+          <caret line="111" column="102" selection-start-line="111" selection-start-column="102" selection-end-line="111" selection-end-column="102" />
+>>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#147#171#0" expanded="true" />

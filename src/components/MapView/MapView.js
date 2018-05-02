@@ -114,7 +114,7 @@ class MapView extends React.Component {
 
     updateMarkers() {
         // add marker
-        this.marker = L.marker([56.2639,9.5018]).addTo(this.map);
+        //this.marker = L.marker([56.2639,9.5018]).addTo(this.map);
         this.geoJson= L.geoJSON(places_geo,{
             pointToLayer: function (feature,latlng){
 
@@ -135,7 +135,7 @@ class MapView extends React.Component {
 
 
 
-                )
+        )
     }
 }
 
