@@ -36,11 +36,7 @@ class TabViewer extends Component {
             name:'Home',
             type:'Home'
         };
-        // this.setState((prevState)=>{
-        //     var newState = prevState.views;
-        //     newState.push(navigationObject);
-        //     return {views:newState, inView:newState}
-        // });
+
         if(JSON.parse(localStorage.getItem('inView')) !== null){
             const cachedViews = JSON.parse(localStorage.getItem('views'));
             const cachedInView = JSON.parse(localStorage.getItem('inView'))[0]; //object
@@ -91,7 +87,7 @@ class TabViewer extends Component {
         } else if(type==='Stories'){
             var storyObject = getStoryByID(id);
             return <StoryView story={storyObject} addID={this.handleID}/>;
-        } else if(type==='Home'){
+        } else if(type==='Home' || type==='home'){
             return <Navigation addID={this.handleID}/>;
         }
     }
@@ -243,18 +239,20 @@ class TabViewer extends Component {
     render() {
         return (
             <div className="TabViewer grid-container full">
-                <div className="view">
-                    {this.renderTabs.bind(this)()}
+                <div className="grid-y">
+                    <div className="view cell fill">
+                        {this.renderTabs.bind(this)()}
+                    </div>
+                    <ul className="tabs cell medium-1">
+                        {this.state.views.map((view,i)=>{
+                            return <li onClick={(event)=>{event.preventDefault();this.switchTab(view);}}
+                                       key={i} className={`${view.name === this.state.inView[0].name ? 'active' : ''}`}>
+                                {view.name}
+                                <img src="https://png.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
+                                     className={`closeTabIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
+                            </li>})}
+                    </ul>
                 </div>
-                <ul className="tabs">
-                    {this.state.views.map((view,i)=>{
-                        return <li onClick={(event)=>{event.preventDefault();this.switchTab(view);}}
-                                   key={i} className={`${view.name === this.state.inView[0].name ? 'active' : ''}`}>
-                            {view.name}
-                            <img src="https://png.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
-                                 className={`closeTabIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
-                        </li>})}
-                </ul>
             </div>
         );
     }

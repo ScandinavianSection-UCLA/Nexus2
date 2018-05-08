@@ -7,6 +7,7 @@ import SearchComponent from './SearchComponent';
 import MapView from '../MapView/MapView';
 import {ontologyToDisplayKey, ontologyToID, dateFilterHelper, getPlaces} from './model';
 import './navigation.css'
+import UserNexus from "../UserNexus/UserNexus";
 
 class Navigation extends Component {
 
@@ -35,6 +36,7 @@ class Navigation extends Component {
             lastDisplayKey:'',
             placeList:[],
             fieldtrips:[],
+            nodes:[{ id: 'Harry' }, { id: 'Sally' }, { id: 'Alice' }],
         };
         this.displayItems = this.displayItems.bind(this)
     }
@@ -87,7 +89,7 @@ class Navigation extends Component {
                 displayItemsList: list.map((itemInList,i)=>{
                     return <li key={i} className={prevState.displayOntology}
                                onClick={(e)=>{ e.preventDefault();
-                                   this.handleIDQuery(itemInList[idKey],itemInList[displayKey],this.state.displayOntology)}}>
+                                   this.handleIDQuery(itemInList[idKey],itemInList[displayKey],this.state.displayOntology,itemInList)}}>
                         <span>
                             <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
                             <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
@@ -103,7 +105,7 @@ class Navigation extends Component {
             return list.map((item,i)=>{
                 return <li key={i} className={this.state.displayOntology}
                            onClick={(e)=>{ e.preventDefault();
-                               this.handleIDQuery(item[idKey],item[displayKey],this.state.displayOntology)}}>
+                               this.handleIDQuery(item[idKey],item[displayKey],this.state.displayOntology,item)}}>
                     <span>
                         <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
                         <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
@@ -115,7 +117,7 @@ class Navigation extends Component {
             return list.map((item,i)=>{
                 return <li key={i} className={ontology}
                            onClick={(e)=>{ e.preventDefault();
-                               this.handleIDQuery(item[idKey],item[displayKey],ontology)}}>
+                               this.handleIDQuery(item[idKey],item[displayKey],ontology,item)}}>
                     <span>
                         <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
                         <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
@@ -126,9 +128,26 @@ class Navigation extends Component {
         }
     }
 
-    handleIDQuery(id, name, type){
-        console.log(id,name,type);
-        this.props.addID(id,name,type);
+    handleIDQuery(id, name, type, item){
+        console.log(id,name,type, item);
+        //add node to this.state.nodes
+        this.setState((oldState)=>{
+            console.log('hihihi');
+            var newState = oldState;
+            var newNode = {
+                id:name,
+                // item:item,
+            };
+            //newState['nodes'].push(newNode);
+            this.refs.UserNexus.updateNetwork(newNode);
+            console.log(newState['nodes']);
+            return {
+                nodes:newState['nodes'],
+            }
+        }, () =>{
+            console.log(this.state.nodes);
+            this.props.addID(id,name,type);
+        });
     }
 
     setPlaceIDList(items, ontology){
@@ -262,6 +281,7 @@ class Navigation extends Component {
             this.setState(()=>{return {fromSelect:true}});
         }
     }
+
     timeInputEnd(year){
         console.log(this.refs.fromDate.value);
         //display slider
@@ -281,59 +301,63 @@ class Navigation extends Component {
             <div className="Navigation">
                 <div className="navigation grid-x grid-padding-x">
                     <div className="medium-3 cell dataNavigation">
-                        <SearchComponent handleDisplayItems={this.displayItems.bind(this)}/>
-                        <NavigatorComponent handleDisplayItems={this.displayItems.bind(this)}/>
+                        <div>
+                            <SearchComponent handleDisplayItems={this.displayItems.bind(this)}/>
+                            <NavigatorComponent handleDisplayItems={this.displayItems.bind(this)}/>
+                        </div>
                     </div>
                     <div className="medium-5 cell AssociatedStoriesViewer">
-                        <form className="time-filter grid-x">
-                            <div className="medium-2 cell text"><b>From</b></div>
-                            <div className="medium-2 cell">
-                                <input className="year" type="text" name="FromYear" ref="fromDate"
-                                       value={this.state.fromDate}
-                                   onChange={this.timeFilterHandler.bind(this)} onClick={(e)=>{ e.preventDefault();
-                                    this.timeInputClickHandler.bind(this)('FromYear')}}/>
-                                <input className={`slider ${this.state.fromSelect ? 'active' : '' }`}
-                                       type="range" min="1887" max={this.state.toDate} value={this.state.fromDate}
-                                       onChange={this.timeFilterHandler.bind(this)}
-                                       onMouseUp={(e)=>{e.preventDefault(); this.timeInputEnd.bind(this)('fromDate')}}
-                                       ref="fromDate"
-                                       id="myRange"/>
+                        <div className="grid-y" style={{'height':'100%'}}>
+                            <div className="cell medium-2">
+                                <form className="time-filter grid-x">
+                                    <div className="medium-2 cell text"><b>From</b></div>
+                                    <div className="medium-2 cell">
+                                        <input className="year" type="text" name="FromYear" ref="fromDate"
+                                               value={this.state.fromDate}
+                                               onChange={this.timeFilterHandler.bind(this)} onClick={(e)=>{ e.preventDefault();
+                                            this.timeInputClickHandler.bind(this)('FromYear')}}/>
+                                        <input className={`slider ${this.state.fromSelect ? 'active' : '' }`}
+                                               type="range" min="1887" max={this.state.toDate} value={this.state.fromDate}
+                                               onChange={this.timeFilterHandler.bind(this)}
+                                               onMouseUp={(e)=>{e.preventDefault(); this.timeInputEnd.bind(this)('fromDate')}}
+                                               ref="fromDate"
+                                               id="myRange"/>
+                                    </div>
+                                    <div className="medium-1 cell text"><b>To</b></div>
+                                    <div className="medium-2 cell">
+                                        <input className="year" type="text" name="ToYear" ref="toDate"
+                                               value={this.state.toDate}
+                                               onChange={this.timeFilterHandler.bind(this)} onClick={(e)=>{ e.preventDefault();
+                                            this.timeInputClickHandler.bind(this)('ToYear')}}/>
+                                        <input className={`slider ${this.state.toSelect ? 'active' : '' }`}
+                                               type="range" min={this.state.fromDate} max="1899" value={this.state.toDate}
+                                               onChange={this.timeFilterHandler.bind(this)}
+                                               onMouseUp={(e)=>{e.preventDefault(); this.timeInputEnd.bind(this)('toDate')}}
+                                               ref="toDate"
+                                               id="myRange"/>
+                                    </div>
+                                    <div className="medium-3 medium-offset-1 cell">
+                                        <div className="switch">
+                                            <input className="switch-input" id="exampleSwitch" type="checkbox" checked={this.state.timeFilterOn}
+                                                   name="exampleSwitch" onChange={this.timeFilterHandler.bind(this)} ref="TimeFilterOn"/>
+                                            <label className="switch-paddle" htmlFor="exampleSwitch"><br/>
+                                                <span style={{fontSize:".8em",color:'black',width:'150%'}}>Timeline</span>
+                                                <span className="show-for-sr">Enable Timeline</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                            <div className="medium-1 cell text"><b>To</b></div>
-                            <div className="medium-2 cell">
-                                <input className="year" type="text" name="ToYear" ref="toDate"
-                                       value={this.state.toDate}
-                                       onChange={this.timeFilterHandler.bind(this)} onClick={(e)=>{ e.preventDefault();
-                                           this.timeInputClickHandler.bind(this)('ToYear')}}/>
-                                <input className={`slider ${this.state.toSelect ? 'active' : '' }`}
-                                       type="range" min={this.state.fromDate} max="1899" value={this.state.toDate}
-                                       onChange={this.timeFilterHandler.bind(this)}
-                                       onMouseUp={(e)=>{e.preventDefault(); this.timeInputEnd.bind(this)('toDate')}}
-                                       ref="toDate"
-                                       id="myRange"/>
+                            <div className="stories-container cell medium-10">
+                                <ul className="book medium-cell-block-y">
+                                    {this.state.displayItemsList}
+                                </ul>
                             </div>
-                            <div className="medium-3 medium-offset-1 cell">
-                                <div className="switch">
-                                    <input className="switch-input" id="exampleSwitch" type="checkbox" checked={this.state.timeFilterOn}
-                                           name="exampleSwitch" onChange={this.timeFilterHandler.bind(this)} ref="TimeFilterOn"/>
-                                        <label className="switch-paddle" htmlFor="exampleSwitch"><br/>
-                                            <span style={{fontSize:".8em",color:'black',width:'150%'}}>Timeline</span>
-                                            <span className="show-for-sr">Enable Timeline</span>
-                                        </label>
-                                </div>
-                            </div>
-                        </form>
-                        <div className="stories-container">
-                            <ul className="book">
-                                {this.state.displayItemsList}
-                            </ul>
                         </div>
                     </div>
                     <div className="medium-4 cell">
                         <div className="grid-y" style={{'height':'100%'}}>
-                            <div className="medium-6 cell" style={{'border':'2px black solid'}}>
-                                {/*Search Graph feature*/}
-                            </div>
+                            <UserNexus className="medium-6 cell" nodes={this.state.nodes} ref="UserNexus"/>
                             <MapView className="medium-6 cell" places={this.state.placeList} fieldtrips={this.state.fieldtrips}/>
                         </div>
                     </div>
