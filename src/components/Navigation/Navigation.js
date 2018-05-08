@@ -150,7 +150,11 @@ class Navigation extends Component {
 
             PlaceList = getPlaces(PlaceIDList);
 
-            this.setState(()=>{return{placeList:PlaceList}});
+            this.setState(()=>{return{placeList:PlaceList}},
+                ()=>{
+                    localStorage.setItem('placeList', JSON.stringify(this.state['placeList']));
+                    localStorage.setItem('fieldtrips', JSON.stringify(this.state['fieldtrips']));
+                });
 
         } else if (ontology==='People'){
             items.forEach((item)=>{
@@ -162,9 +166,17 @@ class Navigation extends Component {
 
             PlaceList = getPlaces(PlaceIDList);
 
-            this.setState(()=>{return{placeList:PlaceList}});
+            this.setState(()=>{return{placeList:PlaceList}},
+                ()=>{
+                    localStorage.setItem('placeList', JSON.stringify(this.state['placeList']));
+                    localStorage.setItem('fieldtrips', JSON.stringify(this.state['fieldtrips']));
+                });
         } else{
-            this.setState(()=>{return {placeList:items}});
+            this.setState(()=>{return {placeList:items}},
+                ()=>{
+                    localStorage.setItem('placeList', JSON.stringify(this.state['placeList']));
+                    localStorage.setItem('fieldtrips', JSON.stringify(this.state['fieldtrips']));
+                });
         }
     }
 
@@ -185,8 +197,6 @@ class Navigation extends Component {
         localStorage.setItem('fromSelect', JSON.stringify(this.state['fromSelect']));
         localStorage.setItem('toSelect', JSON.stringify(this.state['toSelect']));
         localStorage.setItem('timeFilterOn', JSON.stringify(this.state['timeFilterOn']));
-        localStorage.setItem('placeList', JSON.stringify(this.state['placeList']));
-        localStorage.setItem('fieldtrips', JSON.stringify(this.state['fieldtrips']));
         localStorage.setItem('displayOntology', JSON.stringify(ontology));
         localStorage.setItem('lastIDKey', JSON.stringify(idKey));
         localStorage.setItem('lastDisplayKey',JSON.stringify(displayKey));

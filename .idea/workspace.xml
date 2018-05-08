@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapView/MapView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/MapView.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,63 +16,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MapView.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MapView.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="420">
-              <caret line="108" column="44" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="44" />
-=======
-            <state relative-caret-position="303">
-              <caret line="111" column="102" selection-start-line="111" selection-start-column="102" selection-end-line="111" selection-end-column="102" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
+            <state relative-caret-position="224">
+              <caret line="128" column="5" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
               <folding>
                 <element signature="e#45#86#0" expanded="true" />
                 <element signature="e#147#171#0" expanded="true" />
-                <element signature="e#0#6#0" expanded="true" />
-                <element signature="e#127#134#1" expanded="true" />
-                <element signature="e#144#150#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="cplaces_geojson.geojson" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_geojson.geojson">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="945" selection-start-line="53" selection-start-column="945" selection-end-line="53" selection-end-column="945" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cplaces.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/cplaces.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret column="10617" selection-start-column="10617" selection-end-column="10617" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/MapView/map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2010">
-              <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
-                <element signature="e#51#95#0" />
-                <element signature="e#96#137#0" expanded="true" />
-                <element signature="e#198#222#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
-=======
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GeoJSON.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/leaflet/src/layer/GeoJSON.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="2385">
               <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
             </state>
           </provider>
         </entry>
@@ -81,101 +53,8 @@
       <file leaf-file-name="mapTest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="735">
-              <caret line="205" selection-start-line="205" selection-end-line="205" />
-              <folding>
-                <element signature="e#993#263794#0" />
-                <element signature="e#1157#263792#0" />
-                <element signature="e#263850#348738#0" />
-                <element signature="e#264051#348728#0" />
-                <element signature="e#348790#374907#0" />
-                <element signature="e#348965#374905#0" />
-                <element signature="e#348975#349695#0" />
-                <element signature="e#349021#349607#0" />
-                <element signature="e#349705#350429#0" />
-                <element signature="e#349751#350341#0" />
-                <element signature="e#350439#351151#0" />
-                <element signature="e#350485#351064#0" />
-                <element signature="e#351161#351784#0" />
-                <element signature="e#351207#351744#0" />
-                <element signature="e#351794#352417#0" />
-                <element signature="e#351840#352377#0" />
-                <element signature="e#352427#353134#0" />
-                <element signature="e#352473#353046#0" />
-                <element signature="e#353144#353763#0" />
-                <element signature="e#353190#353723#0" />
-                <element signature="e#353773#354398#0" />
-                <element signature="e#353819#354358#0" />
-                <element signature="e#354408#355029#0" />
-                <element signature="e#354454#354989#0" />
-                <element signature="e#355039#355662#0" />
-                <element signature="e#355085#355622#0" />
-                <element signature="e#355672#356291#0" />
-                <element signature="e#355718#356251#0" />
-                <element signature="e#356301#356924#0" />
-                <element signature="e#356347#356884#0" />
-                <element signature="e#356934#357557#0" />
-                <element signature="e#356980#357517#0" />
-                <element signature="e#357567#358190#0" />
-                <element signature="e#357613#358150#0" />
-                <element signature="e#358200#358819#0" />
-                <element signature="e#358246#358779#0" />
-                <element signature="e#358829#359452#0" />
-                <element signature="e#358875#359412#0" />
-                <element signature="e#359462#360084#0" />
-                <element signature="e#359508#360044#0" />
-                <element signature="e#360094#360716#0" />
-                <element signature="e#360140#360676#0" />
-                <element signature="e#360726#361351#0" />
-                <element signature="e#360772#361311#0" />
-                <element signature="e#361361#362077#0" />
-                <element signature="e#361407#361989#0" />
-                <element signature="e#362087#362710#0" />
-                <element signature="e#362133#362670#0" />
-                <element signature="e#362720#363341#0" />
-                <element signature="e#362766#363301#0" />
-                <element signature="e#363351#363974#0" />
-                <element signature="e#363397#363934#0" />
-                <element signature="e#363984#364607#0" />
-                <element signature="e#364030#364567#0" />
-                <element signature="e#364617#365238#0" />
-                <element signature="e#364663#365198#0" />
-                <element signature="e#365248#365872#0" />
-                <element signature="e#365294#365832#0" />
-                <element signature="e#365882#366595#0" />
-                <element signature="e#365928#366507#0" />
-                <element signature="e#366605#367228#0" />
-                <element signature="e#366651#367188#0" />
-                <element signature="e#367238#367861#0" />
-                <element signature="e#367284#367821#0" />
-                <element signature="e#367871#368490#0" />
-                <element signature="e#367917#368450#0" />
-                <element signature="e#368500#369123#0" />
-                <element signature="e#368546#369083#0" />
-                <element signature="e#369133#369758#0" />
-                <element signature="e#369179#369718#0" />
-                <element signature="e#369768#370391#0" />
-                <element signature="e#369814#370351#0" />
-                <element signature="e#370401#371022#0" />
-                <element signature="e#370447#370982#0" />
-                <element signature="e#371032#371651#0" />
-                <element signature="e#371078#371611#0" />
-                <element signature="e#371661#372285#0" />
-                <element signature="e#371707#372245#0" />
-                <element signature="e#372295#372921#0" />
-                <element signature="e#372341#372881#0" />
-                <element signature="e#372931#373553#0" />
-                <element signature="e#372977#373513#0" />
-                <element signature="e#373563#374183#0" />
-                <element signature="e#373609#374143#0" />
-                <element signature="e#374193#374899#0" />
-                <element signature="e#374239#374811#0" />
-              </folding>
-=======
             <state relative-caret-position="585">
               <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
             </state>
           </provider>
         </entry>
@@ -183,17 +62,20 @@
       <file leaf-file-name="places_geo.geojson" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="285">
               <caret line="19" column="4062" selection-start-line="19" selection-start-column="4062" selection-end-line="19" selection-end-column="4062" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Navigation.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Navigation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+            <state relative-caret-position="15">
+              <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
+              <folding>
+                <element signature="e#46#87#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,22 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PeopleView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/PeopleView/PeopleView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
-              <folding>
-                <element signature="e#45#86#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="model.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Navigation/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="150">
               <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -237,7 +107,7 @@
       <file leaf-file-name="model.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/TabViewer/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="1050">
               <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -250,8 +120,8 @@
       <file leaf-file-name="cplaces.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/cplaces.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret column="423" lean-forward="true" selection-start-column="423" selection-end-column="423" />
+            <state>
+              <caret column="423" selection-start-column="423" selection-end-column="423" />
             </state>
           </provider>
         </entry>
@@ -281,7 +151,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="old-state" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -292,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/components/MapView/map_viewTest.js" />
         <option value="$PROJECT_DIR$/src/components/MapView/leaflet/jsonToObject.js" />
         <option value="$PROJECT_DIR$/src/components/MapView/test1.js" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
         <option value="$PROJECT_DIR$/src/components/MapView/places_geo.geojson" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/MapView/mapTest.html" />
@@ -300,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/components/MapView/MapView.css" />
         <option value="$PROJECT_DIR$/src/components/MapView/map.js" />
         <option value="$PROJECT_DIR$/src/components/MapView/MapView.js" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
       </list>
     </option>
   </component>
@@ -340,63 +210,12 @@
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="MapView" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="PeopleView" type="462c0819:PsiDirectoryNode" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="PlaceView" type="462c0819:PsiDirectoryNode" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="TabViewer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -418,6 +237,117 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/MapView" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/components/MapView/MapView.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -445,9 +375,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.model.js" />
+        <item itemvalue="Node.js.test1.js" />
         <item itemvalue="JavaScript Debug.mapTest.html" />
         <item itemvalue="Node.js.MapView.js" />
-        <item itemvalue="Node.js.test1.js" />
+        <item itemvalue="Node.js.model.js" />
       </list>
     </recent_temporary>
   </component>
@@ -475,48 +406,55 @@
       <workItem from="1524344426514" duration="276000" />
       <workItem from="1524344774482" duration="31184000" />
       <workItem from="1524628686057" duration="10046000" />
-<<<<<<< HEAD
-      <workItem from="1524682385720" duration="15894000" />
-      <workItem from="1525040631233" duration="5369000" />
-      <workItem from="1525231396758" duration="246000" />
-=======
       <workItem from="1524682385720" duration="13677000" />
       <workItem from="1524961210387" duration="41000" />
       <workItem from="1524961277529" duration="1540000" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
     </task>
+    <task id="LOCAL-00001" summary="fixed this.props.places bug">
+      <created>1525795879351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525795879352</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="138002000" />
-=======
-    <option name="totallyTimeSpent" value="132137000" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
+    <option name="totallyTimeSpent" value="134120000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="24" width="1806" height="1048" extended-state="0" />
-    <editor active="true" />
+    <frame x="108" y="23" width="1680" height="1027" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19327731" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19288728" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3298647" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32912722" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32903227" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39854318" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39852786" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19327731" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39854318" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3298647" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32912722" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,101 +463,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed this.props.places bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed this.props.places bug" />
+  </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14985">
-          <caret line="999" column="2" selection-start-line="999" selection-start-column="2" selection-end-line="999" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_geojson.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="999" selection-start-line="55" selection-start-column="999" selection-end-line="55" selection-end-column="999" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="1198" lean-forward="true" selection-start-line="56" selection-start-column="1198" selection-end-line="56" selection-end-column="1198" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12990">
-          <caret line="866" column="20" selection-start-line="866" selection-start-column="20" selection-end-line="866" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-=======
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-          <folding>
-            <element signature="e#45#86#0" expanded="true" />
-            <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#127#134#1" expanded="true" />
-            <element signature="e#144#150#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#45#86#0" expanded="true" />
-            <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#127#134#1" expanded="true" />
-            <element signature="e#144#150#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -641,9 +489,6 @@
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#127#134#1" expanded="true" />
-            <element signature="e#144#150#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -676,9 +521,6 @@
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#127#134#1" expanded="true" />
-            <element signature="e#144#150#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -690,9 +532,6 @@
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#127#134#1" expanded="true" />
-            <element signature="e#144#150#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -799,9 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
           <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
-          <folding>
-            <element signature="e#45#86#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,17 +668,10 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-=======
     <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_geojson.geojson">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="55" column="999" selection-start-line="55" selection-start-column="999" selection-end-line="55" selection-end-column="999" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
         </state>
       </provider>
     </entry>
@@ -854,23 +683,10 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-=======
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
     <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -881,101 +697,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/map.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="735">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        <state relative-caret-position="1457">
+          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
           <folding>
-            <element signature="e#993#263794#0" />
-            <element signature="e#1157#263792#0" />
-            <element signature="e#263850#348738#0" />
-            <element signature="e#264051#348728#0" />
-            <element signature="e#348790#374907#0" />
-            <element signature="e#348965#374905#0" />
-            <element signature="e#348975#349695#0" />
-            <element signature="e#349021#349607#0" />
-            <element signature="e#349705#350429#0" />
-            <element signature="e#349751#350341#0" />
-            <element signature="e#350439#351151#0" />
-            <element signature="e#350485#351064#0" />
-            <element signature="e#351161#351784#0" />
-            <element signature="e#351207#351744#0" />
-            <element signature="e#351794#352417#0" />
-            <element signature="e#351840#352377#0" />
-            <element signature="e#352427#353134#0" />
-            <element signature="e#352473#353046#0" />
-            <element signature="e#353144#353763#0" />
-            <element signature="e#353190#353723#0" />
-            <element signature="e#353773#354398#0" />
-            <element signature="e#353819#354358#0" />
-            <element signature="e#354408#355029#0" />
-            <element signature="e#354454#354989#0" />
-            <element signature="e#355039#355662#0" />
-            <element signature="e#355085#355622#0" />
-            <element signature="e#355672#356291#0" />
-            <element signature="e#355718#356251#0" />
-            <element signature="e#356301#356924#0" />
-            <element signature="e#356347#356884#0" />
-            <element signature="e#356934#357557#0" />
-            <element signature="e#356980#357517#0" />
-            <element signature="e#357567#358190#0" />
-            <element signature="e#357613#358150#0" />
-            <element signature="e#358200#358819#0" />
-            <element signature="e#358246#358779#0" />
-            <element signature="e#358829#359452#0" />
-            <element signature="e#358875#359412#0" />
-            <element signature="e#359462#360084#0" />
-            <element signature="e#359508#360044#0" />
-            <element signature="e#360094#360716#0" />
-            <element signature="e#360140#360676#0" />
-            <element signature="e#360726#361351#0" />
-            <element signature="e#360772#361311#0" />
-            <element signature="e#361361#362077#0" />
-            <element signature="e#361407#361989#0" />
-            <element signature="e#362087#362710#0" />
-            <element signature="e#362133#362670#0" />
-            <element signature="e#362720#363341#0" />
-            <element signature="e#362766#363301#0" />
-            <element signature="e#363351#363974#0" />
-            <element signature="e#363397#363934#0" />
-            <element signature="e#363984#364607#0" />
-            <element signature="e#364030#364567#0" />
-            <element signature="e#364617#365238#0" />
-            <element signature="e#364663#365198#0" />
-            <element signature="e#365248#365872#0" />
-            <element signature="e#365294#365832#0" />
-            <element signature="e#365882#366595#0" />
-            <element signature="e#365928#366507#0" />
-            <element signature="e#366605#367228#0" />
-            <element signature="e#366651#367188#0" />
-            <element signature="e#367238#367861#0" />
-            <element signature="e#367284#367821#0" />
-            <element signature="e#367871#368490#0" />
-            <element signature="e#367917#368450#0" />
-            <element signature="e#368500#369123#0" />
-            <element signature="e#368546#369083#0" />
-            <element signature="e#369133#369758#0" />
-            <element signature="e#369179#369718#0" />
-            <element signature="e#369768#370391#0" />
-            <element signature="e#369814#370351#0" />
-            <element signature="e#370401#371022#0" />
-            <element signature="e#370447#370982#0" />
-            <element signature="e#371032#371651#0" />
-            <element signature="e#371078#371611#0" />
-            <element signature="e#371661#372285#0" />
-            <element signature="e#371707#372245#0" />
-            <element signature="e#372295#372921#0" />
-            <element signature="e#372341#372881#0" />
-            <element signature="e#372931#373553#0" />
-            <element signature="e#372977#373513#0" />
-            <element signature="e#373563#374183#0" />
-            <element signature="e#373609#374143#0" />
-            <element signature="e#374193#374899#0" />
-            <element signature="e#374239#374811#0" />
-=======
-        <state relative-caret-position="585">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <element signature="e#51#95#0" />
+            <element signature="e#96#137#0" expanded="true" />
+            <element signature="e#198#222#0" expanded="true" />
+            <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#88#94#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -986,71 +718,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/model.js">
+    <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="107">
+          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#46#98#0" expanded="true" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/map.js">
+    <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexus.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-488">
+          <caret line="195" column="10" selection-start-line="195" selection-start-column="10" selection-end-line="195" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/SearchComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
           <folding>
-            <element signature="e#51#95#0" />
-            <element signature="e#96#137#0" expanded="true" />
-            <element signature="e#198#222#0" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/navigation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="19" column="4062" selection-start-line="19" selection-start-column="4062" selection-end-line="19" selection-end-column="4062" />
+        <state relative-caret-position="180">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/leaflet/src/layer/GeoJSON.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="2385">
           <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/model.js">
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#46#98#0" expanded="true" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
-          </folding>
+        <state relative-caret-position="585">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_geojson.geojson">
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="945" selection-start-line="53" selection-start-column="945" selection-end-line="53" selection-end-column="945" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/cplaces.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret column="10617" selection-start-column="10617" selection-end-column="10617" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/data/cplaces.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret column="423" lean-forward="true" selection-start-column="423" selection-end-column="423" />
+        <state relative-caret-position="285">
+          <caret line="19" column="4062" selection-start-line="19" selection-start-column="4062" selection-end-line="19" selection-end-column="4062" />
         </state>
       </provider>
     </entry>
@@ -1063,29 +796,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
+        <state relative-caret-position="150">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#46#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#46#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/cplaces.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="423" selection-start-column="423" selection-end-column="423" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="420">
-          <caret line="108" column="44" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="44" />
-=======
-        <state relative-caret-position="303">
-          <caret line="111" column="102" selection-start-line="111" selection-start-column="102" selection-end-line="111" selection-end-column="102" />
->>>>>>> 67d396befd89d9ba7976d3208f847fd1cd617a91
+        <state relative-caret-position="224">
+          <caret line="128" column="5" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#127#134#1" expanded="true" />
-            <element signature="e#144#150#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
+          <folding>
+            <element signature="e#46#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
