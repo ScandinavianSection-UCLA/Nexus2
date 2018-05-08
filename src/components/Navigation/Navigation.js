@@ -53,6 +53,8 @@ class Navigation extends Component {
             const timeFilterOn = localStorage.getItem('timeFilterOn');
             const displayOntology = JSON.parse(localStorage.getItem('displayOntology'));
             const lastIDKey = JSON.parse(localStorage.getItem('lastIDKey'));
+            const placeList = JSON.parse(localStorage.getItem('placeList'));
+            const fieldtrips = JSON.parse(localStorage.getItem('fieldtrips'));
             const lastDisplayKey = JSON.parse(localStorage.getItem('lastDisplayKey'));
             this.setState({
                 path:JSON.parse(path),
@@ -73,6 +75,8 @@ class Navigation extends Component {
                 fromSelect:JSON.parse(fromSelect),
                 toSelect:JSON.parse(toSelect),
                 timeFilterOn:false,
+                placeList:placeList,
+                fieldtrips:fieldtrips,
             });
         }
     }
@@ -125,28 +129,42 @@ class Navigation extends Component {
 
     handleIDQuery(id, name, type){
         console.log(id,name,type);
+        this.refs.map.updateMarkers();
         this.props.addID(id,name,type);
     }
 
     setPlaceIDList(items, ontology){
-        console.log(ontology);
-        if(ontology!=='Places'){
+        var PlaceIDList = [];
+        var PlaceList = [];
+        if(ontology==='Stories'){
 
             if(ontology==='Fieldtrips'){this.setState({fieldtrips:items})}
 
             //list must only contain stories, for each story get the place_recorded id
-            var PlaceIDList = [];
+
             items.forEach((item)=>{
                 if(item['place_recorded'] && typeof item['place_recorded'] === 'object'){
                     PlaceIDList.push(item['place_recorded']['id']);
                 }
             });
 
-            var PlaceList = getPlaces(PlaceIDList);
+            PlaceList = getPlaces(PlaceIDList);
 
-            this.setState({placeList:PlaceList})
-        }else{
-            this.setState({placeList:items})
+            this.setState(()=>{return{placeList:PlaceList}});
+
+        } else if (ontology==='People'){
+            items.forEach((item)=>{
+                if(item['residence_place'] && typeof item['residence_place'] === 'object'){
+                    // console.log(item['residence_place']);
+                    PlaceIDList.push(item['residence_place']['place_id']);
+                }
+            });
+
+            PlaceList = getPlaces(PlaceIDList);
+
+            this.setState(()=>{return{placeList:PlaceList}});
+        } else{
+            this.setState(()=>{return {placeList:items}});
         }
     }
 
@@ -167,6 +185,8 @@ class Navigation extends Component {
         localStorage.setItem('fromSelect', JSON.stringify(this.state['fromSelect']));
         localStorage.setItem('toSelect', JSON.stringify(this.state['toSelect']));
         localStorage.setItem('timeFilterOn', JSON.stringify(this.state['timeFilterOn']));
+        localStorage.setItem('placeList', JSON.stringify(this.state['placeList']));
+        localStorage.setItem('fieldtrips', JSON.stringify(this.state['fieldtrips']));
         localStorage.setItem('displayOntology', JSON.stringify(ontology));
         localStorage.setItem('lastIDKey', JSON.stringify(idKey));
         localStorage.setItem('lastDisplayKey',JSON.stringify(displayKey));
@@ -331,7 +351,7 @@ class Navigation extends Component {
                             <div className="medium-6 cell" style={{'border':'2px black solid'}}>
                                 {/*Search Graph feature*/}
                             </div>
-                            <MapView className="medium-6 cell" places={this.state.placeList} fieldtrips={this.state.fieldtrips}/>
+                            <MapView className="medium-6 cell" ref="map" places={this.state.placeList} fieldtrips={this.state.fieldtrips}/>
                         </div>
                     </div>
                 </div>

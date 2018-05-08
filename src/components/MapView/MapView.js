@@ -86,6 +86,7 @@ var places_geo={
 class MapView extends React.Component {
 
     componentDidMount() {
+        console.log(this.props);
         // create map
         this.map = L.map(this.container, {
             center: [56.2639,9.5018],
@@ -117,13 +118,16 @@ class MapView extends React.Component {
     so markers will not be updated if the code for placing markers is in componentDidMount*/
     updateMarkers() {
         //insert code from lines 100 - 110 here
+        console.log(this.props);
     }
 
     //usually you want the render() function at the end of the component
     render() {
         return (
             <div className="MapView"
-                 ref={ ref => this.container = ref } />
+                 ref={ ref => this.container = ref } >
+                {this.updateMarkers.bind(this)}
+            </div>
         )
     }
 
