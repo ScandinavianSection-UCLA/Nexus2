@@ -2,7 +2,17 @@
 .MapView {
     height: 100%;
     border: 2px solid black;
+    position:relative;
+
+
 }
-#MapView {
-    height:100%;
+.leaflet-container{
+    height: 100%;
+
+}
+.map_window{
+    height: 100%;
+}
+.map{
+    height: 100%;
 }
