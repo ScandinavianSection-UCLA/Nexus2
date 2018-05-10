@@ -33,6 +33,7 @@ class RightBar extends Component {
     clickHandler(id,name,type){
         console.log(this.props);
         this.props.passID(id,name,type);
+        //TODO: create and add node to network
     }
 
     PPSClickHandler(section){

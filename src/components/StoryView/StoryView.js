@@ -42,6 +42,7 @@ class StoryView extends Component {
 
     clickHandler(id,name,type){
         this.props.addID(id,name,type);
+        //TODO: add to network graph
     }
 
     arrayTransformation(item){

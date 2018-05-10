@@ -36,7 +36,7 @@ class Navigation extends Component {
             lastDisplayKey:'',
             placeList:[],
             fieldtrips:[],
-            nodes:[{ id: 'Harry' }, { id: 'Sally' }, { id: 'Alice' }],
+            nodes:[],
         };
         this.displayItems = this.displayItems.bind(this)
     }
@@ -55,7 +55,6 @@ class Navigation extends Component {
             const lastIDKey = JSON.parse(localStorage.getItem('lastIDKey'));
             const lastDisplayKey = JSON.parse(localStorage.getItem('lastDisplayKey'));
 
-            // console.log(timeFilterOn);
             this.setState({
                 path:JSON.parse(path),
                 lists:JSON.parse(lists),
@@ -66,7 +65,7 @@ class Navigation extends Component {
                 displayItemsList:JSON.parse(itemsList).map((itemInList,i)=>{
                     return <li key={i} className={displayOntology}
                                onClick={(e)=>{ e.preventDefault();
-                                   this.handleIDQuery(itemInList[lastIDKey],itemInList[lastDisplayKey],displayOntology)}}>
+                                   this.handleIDQuery(itemInList[lastIDKey],itemInList[lastDisplayKey],displayOntology,itemInList)}}>
                         <span>
                             <img className={"convo-icon " + displayOntology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
                             <img className={"person-icon " + displayOntology} src={require('./icons8-contacts-32.png')}  alt="person"/>
@@ -83,7 +82,7 @@ class Navigation extends Component {
     }
 
     displayList(list, displayKey, idKey, ontology){
-        console.log(list);
+
         this.setState((prevState)=>{
             return {
                 displayItemsList: list.map((itemInList,i)=>{
@@ -102,7 +101,9 @@ class Navigation extends Component {
             }
         });
         if(ontology === 'undefined'){
+            console.log('ontology is undefined');
             return list.map((item,i)=>{
+
                 return <li key={i} className={this.state.displayOntology}
                            onClick={(e)=>{ e.preventDefault();
                                this.handleIDQuery(item[idKey],item[displayKey],this.state.displayOntology,item)}}>
@@ -114,6 +115,7 @@ class Navigation extends Component {
                 </li>
             });
         } else {
+            console.log('ontology is defined');
             return list.map((item,i)=>{
                 return <li key={i} className={ontology}
                            onClick={(e)=>{ e.preventDefault();
@@ -130,24 +132,41 @@ class Navigation extends Component {
 
     handleIDQuery(id, name, type, item){
         console.log(id,name,type, item);
-        //add node to this.state.nodes
+        // add node to this.state.nodes
         this.setState((oldState)=>{
-            console.log('hihihi');
-            var newState = oldState;
+
+            var newState = oldState,
+                nodeColor='';
+
+            switch(type){
+                case 'People':
+                    nodeColor = 'blue';
+                    break;
+                case 'Places':
+                    nodeColor = 'red';
+                    break;
+                case 'Stories':
+                    nodeColor = 'grey';
+            }
             var newNode = {
                 id:name,
-                // item:item,
+                color:nodeColor,
+                item:item,
+                type:type,
+                itemID:id,
             };
-            //newState['nodes'].push(newNode);
+            // newState['nodes'].push(newNode);
             this.refs.UserNexus.updateNetwork(newNode);
-            console.log(newState['nodes']);
+
             return {
                 nodes:newState['nodes'],
             }
         }, () =>{
-            console.log(this.state.nodes);
             this.props.addID(id,name,type);
         });
+
+        // this.refs.UserNexus.updateNetwork(name, item, type);
+        // this.props.addID(id,name,type);
     }
 
     setPlaceIDList(items, ontology){
