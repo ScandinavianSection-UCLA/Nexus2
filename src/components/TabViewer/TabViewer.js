@@ -153,9 +153,19 @@ class TabViewer extends Component {
                     view.active = false;
                 });
                 newViews.push(itemObject);
-                if(newViews.length>7){
-                    newViews.splice(1,1);
+                var width = window.innerWidth;
+
+                if (width<=1100){
+                    console.log('window is small!')
+                    if(newViews.length>5){
+                        newViews.splice(1,1);
+                    }
+                } else if(width <=1300){
+                    if(newViews.length>7){
+                        newViews.splice(1,1);
+                    }
                 }
+
                 return {
                     views:newViews,
                     inView:[itemObject]
@@ -233,7 +243,7 @@ class TabViewer extends Component {
 
     renderTabs(){
         // this.renderPDF(this.props.menuItem.url,this.props.menuItem.name);
-        return this.state.inView.map((view, i)=>{ return <div key={i}>{view.jsx}</div> });
+        return this.state.inView.map((view, i)=>{ return <div style={{height:'inherit'}} key={i}>{view.jsx}</div> });
     }
 
     render() {

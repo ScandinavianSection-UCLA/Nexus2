@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
 import { Graph } from 'react-d3-graph';
 import './UserNexus.css'
-import {arrayTransformation} from "../../utils";
-import {getStoryByID} from "../TabViewer/model";
+import {initializeGraph,initializeNodeCategories} from "./UserNexusModel";
 
+const GraphHeight = (window.innerHeight)*0.8*.5;
 // the graph configuration, you only need to pass down properties
 // that you want to override, otherwise default ones will be used
 const myConfig = {
     nodeHighlightBehavior: true,
+    height: GraphHeight,
+    highlightDegree: 1,
+    highlightOpacity: 1,
+    linkHighlightBehavior: false,
+    maxZoom: 8,
+    minZoom: 0.1,
+    panAndZoom: true,
+    staticGraph: false,
     node: {
         color: 'lightgreen',
         size: 120,
@@ -15,8 +23,10 @@ const myConfig = {
     },
     link: {
         highlightColor: 'lightblue'
-    }
+    },
+
 };
+
 
 // graph event callbacks
 const onClickNode = function(nodeId) {
@@ -52,116 +62,31 @@ class UserNexus extends Component{
     constructor(){
         super();
         const graphData = JSON.parse(localStorage.getItem('graphData'));
-        var nodes,links;
-        if(graphData === null){
-            nodes = [{id:'blank'}];
-            links = [];
-        } else {
-            nodes = graphData['nodes'];
-            links = graphData['links']
-        }
+        const nodeCategories = JSON.parse(localStorage.getItem('nodeCategories'));
+
         this.state = {
-            data: {
-                nodes:nodes,
-                links:links,
-            },
-            nodeCategories:{
-                People:[],
-                Places:[],
-                Stories:[],
-            },
+            data: graphData,
+            nodeCategories:nodeCategories,
         }
     }
 
     componentWillMount(){
         //load data from localStorage
-        const graphData = JSON.parse(localStorage.getItem('graphData'));
-        const nodeCategories = JSON.parse(localStorage.getItem('nodeCategories'));
-        var nodes,links;
-        if(graphData === null){
-            nodes = [{id:'blank'}];
-            links = [];
-        } else {
-            nodes = graphData['nodes'];
-            links = graphData['links']
-        }
+        const graphData = initializeGraph();
+        const nodeCategories = initializeNodeCategories();
+
+        //check for new nodes by comparing graphData['nodes'] with each of the nodeCategories
+
         this.setState({
-            data: {
-                nodes:nodes,
-                links:links,
-                // nodes:[{ id: 'Harry' }, { id: 'Sally' }, { id: 'Alice' }],
-                // links:[{ source: 'Harry', target: 'Sally' }, { source: 'Harry', target: 'Alice' }],
-                nodeCategories:nodeCategories,
-            },
+            data: graphData,
+            nodeCategories:nodeCategories,
         });
     }
 
-    findLinks(newNode){
-        var links = [],
-            currItemPeople = [], //array of all people associated with newNode
-            currItemPlaces = [], //arry of all places associated with newNode
-            currItemStories = [], //array of all stories associated with newNode
-            currItem = newNode['item'];
-        //fill out currItem arrays
-        switch(newNode['type']){
-            case 'Stories':
-                //get full story object
-                currItem = getStoryByID(newNode['itemID']);
-
-                //fill out currItem arrays
-                //TODO: fix currItem fillings, not filling atm.
-                currItemPeople = arrayTransformation(currItem['informant_id']);
-                currItemPlaces = arrayTransformation(currItem['places']['place']);
-                currItemStories = arrayTransformation(currItem['stories_mentioned']['story']);
-
-                console.log(currItemStories, currItemPeople, currItemPlaces);
-                break;
-        }
-        //compare with arrays of all types
-        console.log(this.state.nodeCategories['Stories'].diff(currItemStories,'Stories'));
-        //return array of links
-    }
-
-    updateNetwork(newNode){
-        //check if item exists already
-        var itemExists = this.state.data['nodes'].includes(newNode);
-
-        if(!itemExists){
-            console.log('updating network!', newNode);
-            this.setState((oldState)=>{
-
-                var newState = oldState;
-
-                newState['data']['nodes'].push(newNode);
-
-                //insert code for creating links
-                this.findLinks(newNode);
-
-                newState['data']['links'].push({//new link
-
-                });
-
-                //add to appropriate array of stuff
-                newState['nodeCategories'][newNode.type].push(newNode);
-
-                return {
-                    data:{
-                        nodes:newState['data']['nodes'],
-                        // links:newState['data']['links'],
-                        links:[],
-                    },
-                    nodeCategories:newState['nodeCategories'],
-                }
-            },()=>{
-                //add node to localStorage
-                localStorage.setItem('graphData', JSON.stringify(this.state.data));
-
-                this.refs.graph.restartSimulation();
-            })
-        }
-    }
-
     render(){
+
+        console.log(this.props);
+
         return (<Graph
             className="UserNexus"
             id="graph-id" // id is mandatory, if no id is defined rd3g will throw an error

@@ -32,10 +32,10 @@ class PeopleView extends Component {
                     <img style={{marginTop:'-1.7%', marginRight:'1%'}} src="https://png.icons8.com/windows/64/000000/contacts.png" alt="person icon"/>
                     <h2 style={{fontWeight:'bold',display:'inline-block'}}>{this.props.person['full_name']}</h2>
                 </div>
-                <div className="cell medium-11">
-                    <div className="grid-x" style={{'height':'100%'}}>
+                <div className="cell medium 11">
+                    <div className="grid-x" >
                         <div className="medium-7 cell">
-                            <div className="grid-y" style={{'height':'100%'}}>
+                            <div className="grid-y info-wrap">
                                 <div className="cell medium-5">
                                     <div className="grid-x informant-bio-container">
                                         <img src={require(`../RightBar/informant_images/${[90,123,150,235,241].includes(this.props.person['person_id'])? String(this.props.person['person_id']) + '.jpg' : 'noprofile.png'}`)}

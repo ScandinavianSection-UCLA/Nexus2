@@ -6,6 +6,7 @@ import NavigatorComponent from './NavigatorComponent';
 import SearchComponent from './SearchComponent';
 import MapView from '../MapView/MapView';
 import {ontologyToDisplayKey, ontologyToID, dateFilterHelper, getPlaces} from './model';
+import {addNode} from "../UserNexus/UserNexusModel";
 import './navigation.css'
 import UserNexus from "../UserNexus/UserNexus";
 
@@ -132,41 +133,9 @@ class Navigation extends Component {
 
     handleIDQuery(id, name, type, item){
         console.log(id,name,type, item);
-        // add node to this.state.nodes
-        this.setState((oldState)=>{
-
-            var newState = oldState,
-                nodeColor='';
-
-            switch(type){
-                case 'People':
-                    nodeColor = 'blue';
-                    break;
-                case 'Places':
-                    nodeColor = 'red';
-                    break;
-                case 'Stories':
-                    nodeColor = 'grey';
-            }
-            var newNode = {
-                id:name,
-                color:nodeColor,
-                item:item,
-                type:type,
-                itemID:id,
-            };
-            // newState['nodes'].push(newNode);
-            this.refs.UserNexus.updateNetwork(newNode);
-
-            return {
-                nodes:newState['nodes'],
-            }
-        }, () =>{
-            this.props.addID(id,name,type);
-        });
-
-        // this.refs.UserNexus.updateNetwork(name, item, type);
-        // this.props.addID(id,name,type);
+        // add node to localstorage
+        addNode(id,name,type,item);
+        this.props.addID(id,name,type);
     }
 
     setPlaceIDList(items, ontology){
@@ -376,7 +345,7 @@ class Navigation extends Component {
                     </div>
                     <div className="medium-4 cell">
                         <div className="grid-y" style={{'height':'100%'}}>
-                            <UserNexus className="medium-6 cell" nodes={this.state.nodes} ref="UserNexus"/>
+                            <UserNexus className="medium-6 cell" ref="UserNexus"/>
                             <MapView className="medium-6 cell" places={this.state.placeList} fieldtrips={this.state.fieldtrips}/>
                         </div>
                     </div>

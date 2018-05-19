@@ -7,6 +7,7 @@ import Modal from 'react-modal';
 import SlidingPane from 'react-sliding-pane';
 import 'react-sliding-pane/dist/react-sliding-pane.css';
 import RightBar from '../RightBar/RightBar';
+import {addNode} from "../UserNexus/UserNexusModel";
 import './StoryView.css'
 import {arrayTransformation, getPeopleByID} from "../RightBar/model";
 import MapView from "../MapView/MapView";
@@ -196,6 +197,7 @@ class StoryView extends Component {
         console.log(this.props.story);
         var cleanPlacesArray = arrayTransformation(this.props.story['places']['place']);
         var storiesByPerson = getPeopleByID(this.props.story['informant_id'])['stories'];
+        console.log(getPeopleByID(this.props.story['informant_id']));
         var personData = getPeopleByID(this.props.story['informant_id']);
         return (
             <div className="StoryView grid-x">

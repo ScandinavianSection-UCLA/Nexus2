@@ -1,14 +1,32 @@
+@media screen and (min-height: 400px) {
+    .Navigation{
+        height:85vh;
+    }
+    .AssociatedStoriesViewer{
+        height:84vh;
+    }
+}
+@media screen and (min-height: 770px) {
+    .Navigation{
+        height:87vh;
+    }
+    .AssociatedStoriesViewer{
+        height:86vh;
+    }
+}
+
 .Navigation{
     background-color: #e6e6e6;
     /*background-color:white;*/
 }
+.navigation{
+    height:inherit
+}
 .dataNavigation{
     border:10px solid #404040;
     background-color: #404040;
-    /*height:89vh;*/
 }
 .AssociatedStoriesViewer{
-    height:84vh;
     padding:10px;
 }
 
