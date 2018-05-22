@@ -24,13 +24,15 @@ class App extends Component {
 
     menuHandler(dataObject){
         console.log(this.tabViewer, this.refs.tabViewer);
-        this.tabViewer.renderPDF(dataObject['chap'], dataObject['name']);
+        this.refs.tabViewer.renderPDF(dataObject['chap'],dataObject['name']);
     }
 
     render() {
 
         return (
             <div className="App grid-y medium-grid-frame full">
+                {/*<Heading sendData={this.menuHandler.bind(this)}/>*/}
+                {/*<TabViewer ref="tabViewer" menuItem={this.state.menuItem}/>*/}
                 <BrowserRouter>
                     <Switch>
                         <Route path="" exact render={()=>{

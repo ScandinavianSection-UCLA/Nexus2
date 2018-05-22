@@ -160,8 +160,8 @@ class TabViewer extends Component {
                     if(newViews.length>5){
                         newViews.splice(1,1);
                     }
-                } else if(width <=1300){
-                    if(newViews.length>7){
+                } else {
+                    if(newViews.length>6){
                         newViews.splice(1,1);
                     }
                 }
