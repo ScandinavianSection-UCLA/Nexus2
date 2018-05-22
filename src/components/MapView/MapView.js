@@ -9,6 +9,9 @@ import './MapView.css';
 //import windowMap from './map';
 import L from 'leaflet';
 import ReactDOM from 'react-dom';
+import {Map, TileLayer, Marker, Popup,GeoJsonCluster,GeoJson} from 'react-leaflet-universal';
+import AJAX from 'leaflet-ajax';
+
 import {Map, TileLayer, Marker,circleMarker, Popup,GeoJsonCluster,geoJSON,MarkerClusterGroup,onEachFeature} from 'react-leaflet-universal';
 
 
@@ -135,5 +138,8 @@ class MapView extends React.Component {
         )
     }
 }
+
+
+
 
 export default MapView;

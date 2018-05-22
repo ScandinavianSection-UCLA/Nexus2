@@ -14,6 +14,10 @@
     "mgr-pdf-viewer-react": "^1.0.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react": "^16.3.1",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-d3-graph": "^1.2.1",
+    "react-dom": "^16.3.1",
     "react-foundation": "^0.9.4",
     "react-fuse-picker": "^1.0.0",
     "react-fuzzy": "^0.5.2",
@@ -21,9 +25,13 @@
     "react-leaflet": "^1.9.1",
     "react-leaflet-universal": "^1.2.0",
     "react-reader": "^0.16.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
     "react-slider": "^0.9.0",
     "webpack": "^3.11.0"
+    "react-slider": "^0.9.0",
+    "react-sliding-pane": "^2.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,7 +39,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "homepage": "http://etkspace.scandinavian.ucla.edu/folklorenexus",
   "devDependencies": {
-    "json-loader": "^0.5.7"
+    "json-loader": "^0.5.7
   }
 }

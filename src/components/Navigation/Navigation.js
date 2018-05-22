@@ -6,7 +6,9 @@ import NavigatorComponent from './NavigatorComponent';
 import SearchComponent from './SearchComponent';
 import MapView from '../MapView/MapView';
 import {ontologyToDisplayKey, ontologyToID, dateFilterHelper, getPlaces} from './model';
+import {addNode} from "../UserNexus/UserNexusModel";
 import './navigation.css'
+import UserNexus from "../UserNexus/UserNexus";
 
 class Navigation extends Component {
 
@@ -35,6 +37,7 @@ class Navigation extends Component {
             lastDisplayKey:'',
             placeList:[],
             fieldtrips:[],
+            nodes:[],
         };
         this.displayItems = this.displayItems.bind(this)
     }
@@ -56,6 +59,7 @@ class Navigation extends Component {
             const placeList = JSON.parse(localStorage.getItem('placeList'));
             const fieldtrips = JSON.parse(localStorage.getItem('fieldtrips'));
             const lastDisplayKey = JSON.parse(localStorage.getItem('lastDisplayKey'));
+
             this.setState({
                 path:JSON.parse(path),
                 lists:JSON.parse(lists),
@@ -66,8 +70,12 @@ class Navigation extends Component {
                 displayItemsList:JSON.parse(itemsList).map((itemInList,i)=>{
                     return <li key={i} className={displayOntology}
                                onClick={(e)=>{ e.preventDefault();
-                                   this.handleIDQuery(itemInList[lastIDKey],itemInList[lastDisplayKey],displayOntology)}}>
-                        {itemInList[lastDisplayKey]}
+                                   this.handleIDQuery(itemInList[lastIDKey],itemInList[lastDisplayKey],displayOntology,itemInList)}}>
+                        <span>
+                            <img className={"convo-icon " + displayOntology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
+                            <img className={"person-icon " + displayOntology} src={require('./icons8-contacts-32.png')}  alt="person"/>
+                            <img className={"location-icon " + displayOntology} src={require('./icons8-marker-32.png')}  alt="location"/>
+                        </span> {itemInList[lastDisplayKey]}
                     </li>
                 }),
                 fromDate:JSON.parse(fromDate),
@@ -82,17 +90,17 @@ class Navigation extends Component {
     }
 
     displayList(list, displayKey, idKey, ontology){
-        console.log(list);
+
         this.setState((prevState)=>{
             return {
                 displayItemsList: list.map((itemInList,i)=>{
                     return <li key={i} className={prevState.displayOntology}
                                onClick={(e)=>{ e.preventDefault();
-                                   this.handleIDQuery(itemInList[idKey],itemInList[displayKey],this.state.displayOntology)}}>
+                                   this.handleIDQuery(itemInList[idKey],itemInList[displayKey],this.state.displayOntology,itemInList)}}>
                         <span>
-                            <img className={"convo-icon " + prevState.displayOntology} src="https://png.icons8.com/metro/32/000000/chat.png" alt="story"/>
-                            <img className={"person-icon " + prevState.displayOntology} src="https://png.icons8.com/windows/32/000000/contacts.png" alt="person"/>
-                            <img className={"location-icon " + prevState.displayOntology} src="https://png.icons8.com/windows/32/000000/marker.png" alt="location"/>
+                            <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
+                            <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
+                            <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
                         </span> {itemInList[displayKey]}
                     </li>
                 }),
@@ -101,26 +109,29 @@ class Navigation extends Component {
             }
         });
         if(ontology === 'undefined'){
+            console.log('ontology is undefined');
             return list.map((item,i)=>{
+
                 return <li key={i} className={this.state.displayOntology}
                            onClick={(e)=>{ e.preventDefault();
-                               this.handleIDQuery(item[idKey],item[displayKey],this.state.displayOntology)}}>
+                               this.handleIDQuery(item[idKey],item[displayKey],this.state.displayOntology,item)}}>
                     <span>
-                        <img className={"convo-icon " + this.state.displayOntology} src="https://png.icons8.com/metro/32/000000/chat.png" alt="story"/>
-                        <img className={"person-icon " + this.state.displayOntology} src="https://png.icons8.com/windows/32/000000/contacts.png" alt="person"/>
-                        <img className={"location-icon " + this.state.displayOntology} src="https://png.icons8.com/windows/32/000000/marker.png" alt="location"/>
+                        <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
+                        <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
+                        <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
                     </span> {item[displayKey]}
                 </li>
             });
         } else {
+            console.log('ontology is defined');
             return list.map((item,i)=>{
                 return <li key={i} className={ontology}
                            onClick={(e)=>{ e.preventDefault();
-                               this.handleIDQuery(item[idKey],item[displayKey],ontology)}}>
+                               this.handleIDQuery(item[idKey],item[displayKey],ontology,item)}}>
                     <span>
-                        <img className={"convo-icon " + this.state.displayOntology} src="https://png.icons8.com/metro/32/000000/chat.png" alt="story"/>
-                        <img className={"person-icon " + this.state.displayOntology} src="https://png.icons8.com/windows/32/000000/contacts.png" alt="person"/>
-                        <img className={"location-icon " + this.state.displayOntology} src="https://png.icons8.com/windows/32/000000/marker.png" alt="location"/>
+                        <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
+                        <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
+                        <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
                     </span> {item[displayKey]}
                 </li>
             });
@@ -129,7 +140,10 @@ class Navigation extends Component {
 
     handleIDQuery(id, name, type){
         console.log(id,name,type);
+        //update this.props.places for the map component
         this.refs.map.updateMarkers();
+        //add node to network graph
+        addNode(id,name,type,item);
         this.props.addID(id,name,type);
     }
 
@@ -148,35 +162,11 @@ class Navigation extends Component {
                 }
             });
 
-            PlaceList = getPlaces(PlaceIDList);
+            var PlaceList = getPlaces(PlaceIDList);
 
-            this.setState(()=>{return{placeList:PlaceList}},
-                ()=>{
-                    localStorage.setItem('placeList', JSON.stringify(this.state['placeList']));
-                    localStorage.setItem('fieldtrips', JSON.stringify(this.state['fieldtrips']));
-                });
-
-        } else if (ontology==='People'){
-            items.forEach((item)=>{
-                if(item['residence_place'] && typeof item['residence_place'] === 'object'){
-                    // console.log(item['residence_place']);
-                    PlaceIDList.push(item['residence_place']['place_id']);
-                }
-            });
-
-            PlaceList = getPlaces(PlaceIDList);
-
-            this.setState(()=>{return{placeList:PlaceList}},
-                ()=>{
-                    localStorage.setItem('placeList', JSON.stringify(this.state['placeList']));
-                    localStorage.setItem('fieldtrips', JSON.stringify(this.state['fieldtrips']));
-                });
-        } else{
-            this.setState(()=>{return {placeList:items}},
-                ()=>{
-                    localStorage.setItem('placeList', JSON.stringify(this.state['placeList']));
-                    localStorage.setItem('fieldtrips', JSON.stringify(this.state['fieldtrips']));
-                });
+            this.setState({placeList:PlaceList})
+        }else{
+            this.setState({placeList:items})
         }
     }
 
@@ -289,6 +279,7 @@ class Navigation extends Component {
             this.setState(()=>{return {fromSelect:true}});
         }
     }
+
     timeInputEnd(year){
         console.log(this.refs.fromDate.value);
         //display slider
@@ -312,56 +303,58 @@ class Navigation extends Component {
                         <NavigatorComponent handleDisplayItems={this.displayItems.bind(this)}/>
                     </div>
                     <div className="medium-5 cell AssociatedStoriesViewer">
-                        <form className="time-filter grid-x">
-                            <div className="medium-2 cell text"><b>From</b></div>
-                            <div className="medium-2 cell">
-                                <input className="year" type="text" name="FromYear" ref="fromDate"
-                                       value={this.state.fromDate}
-                                   onChange={this.timeFilterHandler.bind(this)} onClick={(e)=>{ e.preventDefault();
-                                    this.timeInputClickHandler.bind(this)('FromYear')}}/>
-                                <input className={`slider ${this.state.fromSelect ? 'active' : '' }`}
-                                       type="range" min="1887" max={this.state.toDate} value={this.state.fromDate}
-                                       onChange={this.timeFilterHandler.bind(this)}
-                                       onMouseUp={(e)=>{e.preventDefault(); this.timeInputEnd.bind(this)('fromDate')}}
-                                       ref="fromDate"
-                                       id="myRange"/>
+                        <div className="grid-y" style={{'height':'100%'}}>
+                            <div className="cell medium-2">
+                                <form className="time-filter grid-x">
+                                    <div className="medium-2 cell text"><b>From</b></div>
+                                    <div className="medium-2 cell">
+                                        <input className="year" type="text" name="FromYear" ref="fromDate"
+                                               value={this.state.fromDate}
+                                               onChange={this.timeFilterHandler.bind(this)} onClick={(e)=>{ e.preventDefault();
+                                            this.timeInputClickHandler.bind(this)('FromYear')}}/>
+                                        <input className={`slider ${this.state.fromSelect ? 'active' : '' }`}
+                                               type="range" min="1887" max={this.state.toDate} value={this.state.fromDate}
+                                               onChange={this.timeFilterHandler.bind(this)}
+                                               onMouseUp={(e)=>{e.preventDefault(); this.timeInputEnd.bind(this)('fromDate')}}
+                                               ref="fromDate"
+                                               id="myRange"/>
+                                    </div>
+                                    <div className="medium-1 cell text"><b>To</b></div>
+                                    <div className="medium-2 cell">
+                                        <input className="year" type="text" name="ToYear" ref="toDate"
+                                               value={this.state.toDate}
+                                               onChange={this.timeFilterHandler.bind(this)} onClick={(e)=>{ e.preventDefault();
+                                            this.timeInputClickHandler.bind(this)('ToYear')}}/>
+                                        <input className={`slider ${this.state.toSelect ? 'active' : '' }`}
+                                               type="range" min={this.state.fromDate} max="1899" value={this.state.toDate}
+                                               onChange={this.timeFilterHandler.bind(this)}
+                                               onMouseUp={(e)=>{e.preventDefault(); this.timeInputEnd.bind(this)('toDate')}}
+                                               ref="toDate"
+                                               id="myRange"/>
+                                    </div>
+                                    <div className="medium-3 medium-offset-1 cell">
+                                        <div className="switch">
+                                            <input className="switch-input" id="exampleSwitch" type="checkbox" checked={this.state.timeFilterOn}
+                                                   name="exampleSwitch" onChange={this.timeFilterHandler.bind(this)} ref="TimeFilterOn"/>
+                                            <label className="switch-paddle" htmlFor="exampleSwitch"><br/>
+                                                <span style={{fontSize:".8em",color:'black',width:'150%'}}>Timeline</span>
+                                                <span className="show-for-sr">Enable Timeline</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                            <div className="medium-1 cell text"><b>To</b></div>
-                            <div className="medium-2 cell">
-                                <input className="year" type="text" name="ToYear" ref="toDate"
-                                       value={this.state.toDate}
-                                       onChange={this.timeFilterHandler.bind(this)} onClick={(e)=>{ e.preventDefault();
-                                           this.timeInputClickHandler.bind(this)('ToYear')}}/>
-                                <input className={`slider ${this.state.toSelect ? 'active' : '' }`}
-                                       type="range" min={this.state.fromDate} max="1899" value={this.state.toDate}
-                                       onChange={this.timeFilterHandler.bind(this)}
-                                       onMouseUp={(e)=>{e.preventDefault(); this.timeInputEnd.bind(this)('toDate')}}
-                                       ref="toDate"
-                                       id="myRange"/>
+                            <div className="stories-container cell medium-10">
+                                <ul className="book medium-cell-block-y">
+                                    {this.state.displayItemsList}
+                                </ul>
                             </div>
-                            <div className="medium-3 medium-offset-1 cell">
-                                <div className="switch">
-                                    <input className="switch-input" id="exampleSwitch" type="checkbox" checked={this.state.timeFilterOn}
-                                           name="exampleSwitch" onChange={this.timeFilterHandler.bind(this)} ref="TimeFilterOn"/>
-                                        <label className="switch-paddle" htmlFor="exampleSwitch"><br/>
-                                            <span style={{fontSize:".8em",color:'black',width:'150%'}}>Timeline</span>
-                                            <span className="show-for-sr">Enable Timeline</span>
-                                        </label>
-                                </div>
-                            </div>
-                        </form>
-                        <div className="stories-container">
-                            <ul className="book">
-                                {this.state.displayItemsList}
-                            </ul>
                         </div>
                     </div>
                     <div className="medium-4 cell">
                         <div className="grid-y" style={{'height':'100%'}}>
-                            <div className="medium-6 cell" style={{'border':'2px black solid'}}>
-                                {/*Search Graph feature*/}
-                            </div>
-                            <MapView className="medium-6 cell" ref="map" places={this.state.placeList} fieldtrips={this.state.fieldtrips}/>
+                            <UserNexus className="medium-6 cell" ref="UserNexus"/>
+                            <MapView className="medium-6 cell" places={this.state.placeList} fieldtrips={this.state.fieldtrips}/>
                         </div>
                     </div>
                 </div>
