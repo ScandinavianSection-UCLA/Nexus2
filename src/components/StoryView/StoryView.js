@@ -2,7 +2,15 @@
  * Created by danielhuang on 1/28/18.
  */
 import React, { Component } from 'react';
+import { render } from 'react-dom';
+import Modal from 'react-modal';
+import SlidingPane from 'react-sliding-pane';
+import 'react-sliding-pane/dist/react-sliding-pane.css';
+import RightBar from '../RightBar/RightBar';
+import {addNode} from "../UserNexus/UserNexusModel";
 import './StoryView.css'
+import {arrayTransformation, getPeopleByID} from "../RightBar/model";
+import MapView from "../MapView/MapView";
 
 class StoryView extends Component {
 
@@ -20,15 +28,22 @@ class StoryView extends Component {
                 1: 'english_publication',
                 2: 'danish_manuscript',
                 3: 'danish_publication',
-            }
+            },
+            isPaneOpen: false,
         };
         this.arrayTransformation = this.arrayTransformation.bind(this);
         this.renderStories = this.renderStories.bind(this);
         this.renderPlaces = this.renderPlaces.bind(this);
+        this.clickHandler = this.clickHandler.bind(this);
+    }
+
+    componentDidMount() {
+        Modal.setAppElement(this.el);
     }
 
     clickHandler(id,name,type){
         this.props.addID(id,name,type);
+        //TODO: add to network graph
     }
 
     arrayTransformation(item){
@@ -43,7 +58,7 @@ class StoryView extends Component {
     }
 
     renderStories(){
-        console.log(this.props.story['stories_mentioned'])
+        // console.log(this.props.story['stories_mentioned'])
         if(this.props.story['stories_mentioned']!==null){
             var storyArray = this.arrayTransformation(this.props.story['stories_mentioned'].story);
             return <ul>
@@ -177,16 +192,17 @@ class StoryView extends Component {
             </div>
         }
     }
-    PPSClickHandler(e){
-        e.preventDefault();
-        //make side bar appear
-    }
 
     render() {
+        console.log(this.props.story);
+        var cleanPlacesArray = arrayTransformation(this.props.story['places']['place']);
+        var storiesByPerson = getPeopleByID(this.props.story['informant_id'])['stories'];
+        console.log(getPeopleByID(this.props.story['informant_id']));
+        var personData = getPeopleByID(this.props.story['informant_id']);
         return (
             <div className="StoryView grid-x">
                 <div className="medium-3 cell">
-                    <img src={require('./mapplaceholder.png')} alt="map"/>
+                    <MapView height={'30vh'} places={cleanPlacesArray}/>
                     <ul className="accordion" data-accordian>
                         <li className={`accordion-item ${this.state.isTabOpen[0] ? 'is-active':''}`}
                             onClick={(e)=>{e.preventDefault(); this.accordionHandler.bind(this)(0)}}>
@@ -231,7 +247,11 @@ class StoryView extends Component {
                     </ul>
                 </div>
                 <div className="medium-9 cell">
-                    <h2 className="title">{this.props.story.full_name}</h2>
+                    <h2 className="title">
+                        <img src="https://png.icons8.com/ios/42/000000/chat-filled.png"
+                             style={{marginTop:'-1%', marginRight:'1%'}} alt="story icon"/>
+                        {this.props.story.full_name}
+                        </h2>
                     <h4 style={{marginLeft:'1.5%'}}>{this.props.story.informant_full_name}</h4>
                     <div className="grid-x">
                         <div className="medium-11 cell">
@@ -280,34 +300,7 @@ class StoryView extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="medium-1 cell">
-                            <div className="pps grid-y">
-                                <div style={{marginTop:'150%', marginBottom:'20%'}} className="medium-2 cell"
-                                    onClick={this.PPSClickHandler.bind(this)}>
-                                    <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
-                                         className="icon"
-                                         alt="person"/>
-                                    <br/>
-                                    <div className="icon-label">{this.props.story['informant_first_name']} {this.props.story['informant_last_name']}</div>
-                                </div>
-                                <div className="medium-2 cell"
-                                     onClick={this.PPSClickHandler.bind(this)}>
-                                    <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
-                                         className="icon"
-                                         alt="location"/>
-                                    <br/>
-                                    <div className="icon-label">Places</div>
-                                </div>
-                                <div className="medium-2 cell"
-                                     onClick={this.PPSClickHandler.bind(this)}>
-                                    <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
-                                         className="icon"
-                                         alt="stories" />
-                                    <br/>
-                                    <div className="icon-label">Stories</div>
-                                </div>
-                            </div>
-                        </div>
+                        <RightBar view={"Stories"} object={this.props.story} bio={personData} places={cleanPlacesArray} stories={storiesByPerson} passID={this.clickHandler}/>
                     </div>
 
                 </div>

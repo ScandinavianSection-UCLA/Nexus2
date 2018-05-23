@@ -16,25 +16,33 @@ const placesMentionedData = arrOfObjToObj(PlacesMentionedData.place,'place_id');
 const fieldtripsData = arrOfObjToObj(FieldtripsData.fieldtrip,'fieldtrip_id');
 
 export function getStoryByID(story_id){
-    console.log(formattedStoryData[story_id]);
+
     return formattedStoryData[story_id]
 }
 
 export function getPeopleByID(person_id){
     var personObject = realPeopleData[person_id];
-    if(personObject['places'] !== null && personObject['stories']!==null){
-        personObject['places'] = arrayTransformation(personObject['places'].place);
-        personObject['stories'] = arrayTransformation(personObject['stories'].story)
+
+    var DefinedPlaces = typeof personObject['places'] !== 'undefined',
+        DefinedStories = typeof personObject['stories']!== 'undefined',
+        DefinedPlace = typeof personObject['places'].place !== 'undefined',
+        DefinedStory = typeof personObject['stories'].story !== 'undefined';
+    if(DefinedPlaces && DefinedStories){
+        if(DefinedPlace && DefinedStory){
+            personObject['places'] = arrayTransformation(personObject['places'].place);
+            personObject['stories'] = arrayTransformation(personObject['stories'].story);
+        }
     }
-    console.log('Get People by ID',realPeopleData[person_id]);
+
     return realPeopleData[person_id];
 }
 
 export function getPlacesByID(place_id){
     var placeObject = placesData[place_id];
-    console.log(placeObject.people);
-    if(placeObject.people !== null && placeObject.people !== [] && typeof placeObject.people !== 'undefined'){
-        placeObject['people'] = arrayTransformation(placesData[place_id].people.person);
+
+    if(placeObject.people !== undefined && placeObject.people !== [] && placeObject.people !== null){
+        console.log(placeObject['people']['person'], placeObject['people']);
+        placeObject['people'] = arrayTransformation(placesData[place_id].people);
     } else {
         delete placeObject.people
     }
@@ -51,7 +59,7 @@ export function getPlacesByID(place_id){
 
 export function getFieldtripsByID(fieldtrip_id){
     var fieldtripObject = fieldtripsData[fieldtrip_id];
-    console.log('Get Fieldtrips by ID',fieldtripObject);
+
     if(fieldtripObject['people_visited'] !== null && fieldtripObject['places_visited'] !== null && fieldtripObject['stories_collected'] !== null){
         fieldtripObject['people_visited'] = arrayTransformation(fieldtripObject['people_visited'].person);
         fieldtripObject['places_visited'] = arrayTransformation(fieldtripObject['places_visited'].place);
@@ -62,8 +70,9 @@ export function getFieldtripsByID(fieldtrip_id){
 
 function arrayTransformation(item){
     var finalArray=[];
-    console.log(typeof item,Array.isArray(item));
-    if(Array.isArray(item)){
+
+    if(Array.isArray(item) || item === null){
+        console.log(item);
         finalArray = item;
     } else if(typeof item === 'object'){
         finalArray.push(item);

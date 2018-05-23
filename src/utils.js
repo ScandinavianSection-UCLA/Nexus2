@@ -29,3 +29,26 @@ export function getSiblings(list,key){
     }
     alert("Can't get siblings!");
 }
+
+export function arrayTransformation(item){
+    var finalArray=[];
+    if(Array.isArray(item)){
+        finalArray = item;
+    } else {
+        finalArray.push(item);
+    }
+    //if item is undefined (meaning there's no people/stories/places associated) then return empty array
+    return finalArray;
+}
+
+Array.prototype.diff = function(arr2) {
+    var ret = [];
+    this.sort();
+    arr2.sort();
+    for(var i = 0; i < this.length; i += 1) {
+        if(arr2.indexOf(this[i]) > -1){
+            ret.push(this[i]);
+        }
+    }
+    return ret;
+};

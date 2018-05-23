@@ -1,0 +1,58 @@
+/*Sliding right bar for people places stories*/
+.RightBar{
+    background-color:#404040;
+}
+.slide-pane__content{
+    padding:0; /*Override package styling*/
+}
+.right-bar{
+    background-color:#595959;
+}
+.controls{
+    background-color:#404040;
+}
+.control-container{
+    height:93vh;
+}
+.control-container .content{
+    padding:10% 3%;
+    overflow-y: scroll;
+}
+.control-container .content ul li{
+    list-style: none;
+    height:4em;
+    background-color: #f9f9f9;
+    padding-left:1.2em;
+    padding-top:1.1em;
+    font-size:1.1em;
+    cursor:pointer;
+    width:90%;
+    margin-bottom:2%;
+    border:1px solid lightgrey;
+    border-radius:5px;
+}
+.control-container .content .grid-y{
+    height:100%;
+}
+.informant-bio-container{
+    background-color:rgba(218,227,243,.62);
+    height:100%;
+}
+.informant-bio-container .details{
+    font-size:1.1em;
+    padding:5%;
+}
+.informant-bio-container img{
+    height:auto;
+}
+.biography{
+    color:white;
+    border:1px solid #d2d2d2;
+    border-top:none;
+    padding:3%;
+    font-size:1.5em;
+    overflow-y: scroll;
+}
+.bio.active, .stories.active, .places.active, .stories-mentioned.active{
+    border-right:3px solid white;
+}
