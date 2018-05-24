@@ -173,12 +173,13 @@ class Navigation extends Component {
                 }
             });
 
-            var PlaceList = getPlaces(PlaceIDList);
-
-            this.setState({placeList:PlaceList})
+            // var PlaceList = getPlaces(PlaceIDList);
         }else{
-            this.setState({placeList:items})
+            items.forEach((item) =>{
+                PlaceIDList.push(item['place_id']);
+            });
         }
+        return PlaceIDList;
     }
 
     displayItems(items, ontology){
@@ -186,7 +187,7 @@ class Navigation extends Component {
         var displayKey = ontologyToDisplayKey[ontology];
         var idKey = ontologyToID[ontology];
 
-        this.setPlaceIDList(items,ontology);
+        var PlaceIDList = this.setPlaceIDList(items,ontology);
 
         /*Save items to local storage for data to continue to exist after tab switch/page refresh  */
         localStorage.setItem('path', JSON.stringify(this.state['path']));
@@ -204,7 +205,8 @@ class Navigation extends Component {
             return {
                 displayOntology:ontology,
                 itemsList:items,
-                displayItemsList: this.displayList(items,displayKey,idKey,ontology)
+                displayItemsList: this.displayList(items,displayKey,idKey,ontology),
+                placeList: PlaceIDList,
             }
         },()=>{
             if(this.state.timeFilterOn && typeof items !== 'undefined'){
