@@ -140,12 +140,12 @@ class Navigation extends Component {
 
     setPlaceIDList(items, ontology){
         console.log(ontology);
+        var PlaceIDList = [];
         if(ontology!=='Places'){
 
             if(ontology==='Fieldtrips'){this.setState({fieldtrips:items})}
 
             //list must only contain stories, for each story get the place_recorded id
-            var PlaceIDList = [];
             items.forEach((item)=>{
                 if(item['place_recorded'] && typeof item['place_recorded'] === 'object'){
                     PlaceIDList.push(item['place_recorded']['id']);
@@ -153,9 +153,12 @@ class Navigation extends Component {
             });
 
             var PlaceList = getPlaces(PlaceIDList);
-
-            this.setState({placeList:PlaceList})
+            // console.log(PlaceList);
+            this.setState({placeList:PlaceIDList})
         }else{
+            items.forEach((item)=>{
+                PlaceIDList.push(item['place_id']);
+            });
             this.setState({placeList:items})
         }
     }

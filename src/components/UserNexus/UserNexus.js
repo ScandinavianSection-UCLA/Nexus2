@@ -85,8 +85,6 @@ class UserNexus extends Component{
 
     render(){
 
-        console.log(this.props);
-
         return (<Graph
             className="UserNexus"
             id="graph-id" // id is mandatory, if no id is defined rd3g will throw an error
