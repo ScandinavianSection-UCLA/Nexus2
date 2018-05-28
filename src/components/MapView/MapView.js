@@ -84,57 +84,93 @@ var places_geo={
     ]
 };
 
-var openStreet = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-    }),
-    oldLayer = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png',{
-        attribution:'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    });
-var baseMaps = {
-    "Open Street": openStreet,
-    "Old Layer": oldLayer
-};
+
+
 class MapView extends React.Component {
 
+constructor(){
+        super();
+        this.state = {
+            mapObject:{},
+            mapID:''
+        };
+    }
 
     componentDidMount() {
         // create map
+        console.log('component did mount');
         this.map = L.map(this.container, {
             center: [56.2639, 9.5018],
-            zoom: 7,
-            layers: [
-                oldLayer, openStreet
-            ]
-        });
+            zoom: 7
+    });
+
+var openStreet = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(this.map);
+
+var  oldLayer = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png',{
+        attribution:'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(this.map);
+
+var baseMaps = {
+    "Open Street": openStreet,
+    "Old Layer": oldLayer
+
+};
 
         this.updateMarkers(this.props.places);
         this.controlLayers= L.control.layers(baseMaps).addTo(this.map);
 
 
-
     }
 
     updateMarkers() {
-        console.log(this.props);
-        // add marker
-        //this.marker = L.marker([56.2639,9.5018]).addTo(this.map);
-        this.geoJson= L.geoJSON(places_geo,{
-            pointToLayer: function (feature,latlng){
 
-                if(feature.properties.place_people_person_full_name ) {
-                    return L.circleMarker(latlng,{color:"#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);   //using if statement here only renders points which satisfy constraint
-                    // potentially useful for having it filter based off of click, tak eclikc as conditional input
-                }
-            }
-        }).addTo(this.map);
 
+        console.log("this is the arrary----->",this.props.places);
+if(this.props.places!= null) {
+
+
+    var array = this.props.places;
+    console.log('length of array', array.length);
+    var itemCount = array.length;
+    var loopCounter = 10;
+    if (itemCount < loopCounter) {
+        loopCounter = itemCount;
     }
+    for (var i = 0; i < loopCounter; i++) {
+        var placeId = array[i].place_id;
+    }
+    this.geoJson = L.geoJSON(places_geo, {
+        pointToLayer: function (feature, latlng) {
+
+            if (placeId == feature.properties.place_place_id) {
+                return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);   //using if statement here only renders points which satisfy constraint
+                // potentially useful for having it filter based off of click, tak eclikc as conditional input
+            }
+        }
+    }).addTo(this.map);
+
+
+}
+    }
+
     render() {
+        if( this.map !=null){
+            if(this.geoJson !=null) {
+                this.map.removeLayer(this.geoJson);
+            }
+        this.updateMarkers(this.props.places);
+
+
+        }
 
         return (
             <div className="MapView" style={{height:this.props.height}}
-                 ref={ ref => this.container = ref } />
+                 ref={ ref => this.container = ref }/>
+
         )
+        console.log('look at me render');
     }
 }
 
