@@ -87,10 +87,15 @@ var openStreet = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     }),
     oldLayer = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png',{
         attribution:'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }),
+    danishTiles = L.tileLayer('http://kortforsyningen.kms.dk/service?servicename=topo20_hoeje_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1',{
+        attribution: 'Map tiles by Kortforsyningen®'
     });
+
 var baseMaps = {
     "Open Street": openStreet,
-    "Old Layer": oldLayer
+    "Old Layer": oldLayer,
+    "Danish Tiles": danishTiles
 };
 class MapView extends React.Component {
 
