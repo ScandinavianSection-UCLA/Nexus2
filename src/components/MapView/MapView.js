@@ -5,8 +5,6 @@ import React, { Component } from 'react';
 
 import './MapView.css';
 
-
-//import windowMap from './map';
 import L from 'leaflet';
 import ReactDOM from 'react-dom';
 import AJAX from 'leaflet-ajax';
@@ -87,7 +85,7 @@ var places_geo={
 
 class MapView extends React.Component {
 
-constructor(){
+    constructor(){
         super();
         this.state = {
             mapObject:{},
@@ -97,11 +95,14 @@ constructor(){
 
     componentDidMount() {
         // create map
+
         console.log('component did mount');
+        var mapCenter= [56.2639, 9.5018];
         this.map = L.map(this.container, {
-            center: [56.2639, 9.5018],
+            center: mapCenter,
             zoom: 7
     });
+        console.log('shouldbe center',this.map.center);
 
 var openStreet = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -139,6 +140,9 @@ if(this.props.places!= null) {
     }
     for (var i = 0; i < loopCounter; i++) {
         var placeId = array[i].place_id;
+        var latitude= array[i].latitude;
+        console.log(latitude);
+        var longitude=array[i].longitude;
     }
     /*works fine
     this.geoJson = L.geoJSON(places_geo, {
@@ -156,15 +160,19 @@ end works fine */
         pointToLayer: function (feature, latlng) {
 
             if (placeId == feature.properties.place_place_id) {
+                //mapCenter=[latitude,longitude];
                 if(feature.properties.place_people_person_full_name != null) {
                     return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
+
                 }
                 else{
                     return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
                 }
             }
         }
+
     }).addTo(this.map);
+    this.map.panTo(new L.LatLng(latitude,longitude));
 
 
 }
