@@ -11,7 +11,6 @@ import L from 'leaflet';
 import ReactDOM from 'react-dom';
 import AJAX from 'leaflet-ajax';
 
-import {Map, TileLayer, Marker,circleMarker, Popup,GeoJsonCluster,geoJSON,MarkerClusterGroup,onEachFeature} from 'react-leaflet-universal';
 
 
 var places_geo={
