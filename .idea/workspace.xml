@@ -16,29 +16,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MapView.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MapView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="645">
-              <caret line="174" column="9" selection-start-line="174" selection-start-column="9" selection-end-line="174" selection-end-column="9" />
+              <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
               <folding>
                 <element signature="e#45#86#0" expanded="true" />
                 <element signature="e#0#6#0" expanded="true" />
                 <element signature="e#127#134#1" expanded="true" />
                 <element signature="e#144#150#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mapTest.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#6#0" expanded="true" />
-                <element signature="e#88#94#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -265,7 +252,7 @@
       <workItem from="1524961210387" duration="41000" />
       <workItem from="1524961277529" duration="1540000" />
       <workItem from="1527547408862" duration="604000" />
-      <workItem from="1527827286802" duration="6336000" />
+      <workItem from="1527827286802" duration="6920000" />
     </task>
     <task id="LOCAL-00001" summary="fixed this.props.places bug">
       <created>1525795879351</created>
@@ -278,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164178000" />
+    <option name="totallyTimeSpent" value="164762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -650,26 +637,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6390">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#88#94#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="174" column="9" selection-start-line="174" selection-start-column="9" selection-end-line="174" selection-end-column="9" />
+          <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#0#6#0" expanded="true" />
             <element signature="e#127#134#1" expanded="true" />
             <element signature="e#144#150#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#88#94#1" expanded="true" />
           </folding>
         </state>
       </provider>

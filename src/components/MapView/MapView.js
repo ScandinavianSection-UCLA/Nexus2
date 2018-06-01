@@ -144,17 +144,9 @@ if(this.props.places!= null) {
         console.log(latitude);
         var longitude=array[i].longitude;
     }
-    /*works fine
-    this.geoJson = L.geoJSON(places_geo, {
-        pointToLayer: function (feature, latlng) {
 
-            if (placeId == feature.properties.place_place_id) {
-                return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);   //using if statement here only renders points which satisfy constraint
-                // potentially useful for having it filter based off of click, tak eclikc as conditional input
-            }
-        }
-    }).addTo(this.map);
-end works fine */
+
+
 
     this.geoJson = L.geoJSON(places_geo, {
         pointToLayer: function (feature, latlng) {
@@ -172,10 +164,12 @@ end works fine */
         }
 
     }).addTo(this.map);
-    this.map.panTo(new L.LatLng(latitude,longitude));
-
+    if (latitude !=null) {
+        this.map.panTo(new L.LatLng(latitude, longitude));
+    }
 
 }
+
 
     }
 
