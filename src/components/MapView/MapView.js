@@ -112,8 +112,8 @@ var  oldLayer = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-back
     }).addTo(this.map);
 
 var baseMaps = {
-    "Open Street": openStreet,
-    "Old Layer": oldLayer
+    "Total Narc Map": openStreet,
+    "Black & White Sexy": oldLayer
 
 };
 
@@ -140,6 +140,7 @@ if(this.props.places!= null) {
     for (var i = 0; i < loopCounter; i++) {
         var placeId = array[i].place_id;
     }
+    /*works fine
     this.geoJson = L.geoJSON(places_geo, {
         pointToLayer: function (feature, latlng) {
 
@@ -149,9 +150,25 @@ if(this.props.places!= null) {
             }
         }
     }).addTo(this.map);
+end works fine */
+
+    this.geoJson = L.geoJSON(places_geo, {
+        pointToLayer: function (feature, latlng) {
+
+            if (placeId == feature.properties.place_place_id) {
+                if(feature.properties.place_people_person_full_name != null) {
+                    return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
+                }
+                else{
+                    return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
+                }
+            }
+        }
+    }).addTo(this.map);
 
 
 }
+
     }
 
     render() {
