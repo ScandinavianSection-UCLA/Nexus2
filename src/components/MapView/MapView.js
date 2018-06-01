@@ -164,7 +164,7 @@ if(this.props.places!= null) {
         }
 
     }).addTo(this.map);
-    if (latitude !=null) {
+    if (latitude && longitude !=null) {
         this.map.panTo(new L.LatLng(latitude, longitude));
     }
 

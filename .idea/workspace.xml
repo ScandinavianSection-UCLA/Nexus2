@@ -19,8 +19,8 @@
       <file leaf-file-name="MapView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
+            <state relative-caret-position="615">
+              <caret line="166" column="29" selection-start-line="166" selection-start-column="29" selection-end-line="166" selection-end-column="29" />
               <folding>
                 <element signature="e#45#86#0" expanded="true" />
                 <element signature="e#0#6#0" expanded="true" />
@@ -252,7 +252,7 @@
       <workItem from="1524961210387" duration="41000" />
       <workItem from="1524961277529" duration="1540000" />
       <workItem from="1527547408862" duration="604000" />
-      <workItem from="1527827286802" duration="6920000" />
+      <workItem from="1527827286802" duration="7322000" />
     </task>
     <task id="LOCAL-00001" summary="fixed this.props.places bug">
       <created>1525795879351</created>
@@ -265,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164762000" />
+    <option name="totallyTimeSpent" value="165164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -650,8 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
+        <state relative-caret-position="615">
+          <caret line="166" column="29" selection-start-line="166" selection-start-column="29" selection-end-line="166" selection-end-column="29" />
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#0#6#0" expanded="true" />
