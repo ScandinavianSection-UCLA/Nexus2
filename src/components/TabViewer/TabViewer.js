@@ -36,6 +36,7 @@ class TabViewer extends Component {
             name:'Home',
             type:'Home'
         };
+
         // this.setState((prevState)=>{
         //     var newState = prevState.views;
         //     newState.push(navigationObject);
@@ -63,7 +64,7 @@ class TabViewer extends Component {
                     type:cachedInView['type'],
                     jsx: this.renderPPFS(cachedInView['id'],cachedInView['type']),
                 };
-                // console.log(newViews, newInView);
+                console.log(newViews, newInView);
                 return {
                     views:newViews,
                     inView: [newInView],
@@ -96,7 +97,7 @@ class TabViewer extends Component {
         }
     }
     //update views with PDF views
-    renderPDF(filepath, name){
+    renderPDF(chapter, name){
         var nameUpdated = true;
         if(this.state.inView.name === name){
             nameUpdated = false;
@@ -110,8 +111,8 @@ class TabViewer extends Component {
         if(name !== undefined && nameUpdated){
             var PDFObject = {
                 name:name,
-                url:filepath,
-                jsx:<BookView url={filepath} name={name}>{name}</BookView>,
+                chapter:chapter,
+                jsx:<BookView chapter={chapter} name={name}>{name}</BookView>,
                 active:true
             };
             this.setState((prevState)=>{
@@ -252,7 +253,7 @@ class TabViewer extends Component {
                                    key={i} className={`${view.name === this.state.inView[0].name ? 'active' : ''}`}>
                             {view.name}
                             <img src="https://png.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
-                                 className={`closeIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
+                                 className={`closeTabIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
                         </li>})}
                 </ul>
             </div>
