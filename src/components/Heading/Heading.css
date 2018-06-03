@@ -44,6 +44,7 @@
 .Menu.active{
     width:100vw;
     display:block;
+    z-index: 1000;
 }
 .Menu .Hamburger-Menu{
     margin-top:10px;
@@ -63,6 +64,7 @@
     margin-top:50px;
     font-size:1.4em;
     list-style: none;
+
 }
 .menu-item:hover{
     background-color: rgb(111, 108, 108);
