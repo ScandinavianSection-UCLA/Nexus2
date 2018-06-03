@@ -92,7 +92,6 @@ class MapView extends React.Component {
             mapID:''
         };
     }
-
     componentDidMount() {
         // create map
 
@@ -102,7 +101,6 @@ class MapView extends React.Component {
             center: mapCenter,
             zoom: 7
     });
-        console.log('shouldbe center',this.map.center);
 
 var openStreet = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -145,14 +143,10 @@ if(this.props.places!= null) {
         var longitude=array[i].longitude;
     }
 
-
-
-
     this.geoJson = L.geoJSON(places_geo, {
         pointToLayer: function (feature, latlng) {
 
             if (placeId == feature.properties.place_place_id) {
-                //mapCenter=[latitude,longitude];
                 if(feature.properties.place_people_person_full_name != null) {
                     return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
 
@@ -164,14 +158,31 @@ if(this.props.places!= null) {
         }
 
     }).addTo(this.map);
+
     if (latitude && longitude !=null) {
         this.map.panTo(new L.LatLng(latitude, longitude));
     }
 
 }
+else{
+    this.geoJson = L.geoJSON(places_geo, {
+        pointToLayer: function (feature, latlng) {
+            if (feature.properties.place_people_person_full_name != null) {
+                return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1, radius:6}).bindPopup(feature.properties.place_people_person_full_name);
+            }
 
+            else {
+                return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1,radius:6}).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
+            }
+        }
+    }).addTo(this.map);
+
+}
 
     }
+
+
+
 
     render() {
         if( this.map !=null){
