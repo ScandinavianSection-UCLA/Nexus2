@@ -110,10 +110,14 @@ var  oldLayer = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-back
         attribution:'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(this.map);
 
+var danishLayer = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo20_hoeje_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
+    layers: 'Høje målebordsblade, 1842-1899'
+}).addTo(this.map);
+
 var baseMaps = {
     "Total Narc Map": openStreet,
-    "Black & White Sexy": oldLayer
-
+    "Black & White Sexy": oldLayer,
+    "Høje målebordsblade": danishLayer
 };
 
         this.updateMarkers(this.props.places);
