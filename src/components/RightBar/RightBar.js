@@ -2,8 +2,7 @@
  * Created by danielhuang on 4/14/18.
  */
 import React, { Component } from 'react';
-import {getPeopleByID, arrayTransformation} from './model'
-import { render } from 'react-dom';
+import {addNode} from "../UserNexus/UserNexusModel";
 import Modal from 'react-modal';
 import SlidingPane from 'react-sliding-pane';
 import 'react-sliding-pane/dist/react-sliding-pane.css';
@@ -30,8 +29,9 @@ class RightBar extends Component {
         Modal.setAppElement(this.el);
     }
 
-    clickHandler(id,name,type){
+    clickHandler(id,name,type,item){
         console.log(this.props);
+        addNode(id,name,type,item);
         this.props.passID(id,name,type);
     }
 
@@ -152,19 +152,19 @@ class RightBar extends Component {
     renderPeople(){
 
         if(this.props.people.length===0){
-            return <div className="cell medium-10 content">
+            return <div className="cell medium-10 large-9 content">
                 <div className="callout alert">
                     <h6>There are no associated people.</h6>
                 </div>
             </div>
         } else {
-            return <div className="cell medium-10 content">
+            return <div className="cell medium-10 large-9 content">
                 <ul>
                     {this.props.people.map((person, i) => {
                         return <li key={i} onClick={
                             (e)=>{
                                 e.preventDefault();
-                                this.clickHandler.bind(this)(person['person_id'],person['full_name'],'People')
+                                this.clickHandler.bind(this)(person['person_id'],person['full_name'],'People',person)
                                 }
                             }
                         >{person['full_name']}</li>
@@ -177,20 +177,20 @@ class RightBar extends Component {
     renderPlaces(){
         var cleanArray = this.props.places;
         if(cleanArray.length===0){
-            return <div className="cell medium-10 content">
+            return <div className="cell medium-10 large-9 content">
                 <div className="callout alert">
                     <h6>There are no associated places.</h6>
                 </div>
             </div>
         } else {
-            return <div className="cell medium-10 content">
+            return <div className="cell medium-10 large-9 content">
                 <ul>
                     { cleanArray.map((place, i)=>{
                         return <li key={i}
                                    onClick={
                                        (e)=>{
                                            e.preventDefault();
-                                           this.clickHandler.bind(this)(place['place_id'],place['name'],'Places')
+                                           this.clickHandler.bind(this)(place['place_id'],place['name'],'Places', place)
                                        }
                                    }>
                             {place['display_name']}
@@ -209,20 +209,20 @@ class RightBar extends Component {
             storiesByPerson = this.props.stories;
         }
         if(storiesByPerson.length === 0){ //if there are no associated stories
-            return <div className="cell medium-10 content">
+            return <div className="cell medium-10 large-9 content">
                 <div className="callout alert">
                     <h6>There are no {mentioned} stories.</h6>
                 </div>
             </div>;
         } else {
-            return <div className="cell medium-10 content">
+            return <div className="cell medium-10 large-9 content">
                 <ul>
                     { storiesByPerson.map((story, i)=>{
                         return <li key={i}
                                    onClick={
                                        (e)=>{
                                            e.preventDefault();
-                                           this.clickHandler.bind(this)(story['story_id'],story['full_name'],'Stories')
+                                           this.clickHandler.bind(this)(story['story_id'],story['full_name'],'Stories', story)
                                        }
                                    }>
                             {story['full_name']}
@@ -236,20 +236,20 @@ class RightBar extends Component {
 
     renderBiography(){
         var personData = this.props.bio;
-        return <div className="cell medium-10 content">
+        return <div className="cell medium-10 large-9 content">
             <div className="grid-y">
                 <div className="cell medium-3">
                     <div className="grid-x informant-bio-container">
                         <img src={require(`./informant_images/${[90,123,150,235,241].includes(this.props.object['informant_id'])? String(this.props.object['informant_id']) + '.jpg' : 'noprofile.png'}`)}
-                             className="cell medium-4"/>
-                        <div className="cell medium-8 details">
+                             className="cell medium-6"/>
+                        <div className="cell medium-6 details">
                             <div><b>Born</b> {personData['birth_date']}</div>
                             <div><b>Died</b> {personData['death_date']}</div>
                             <div><b>ID#</b> {String(this.props.object['informant_id'])}</div>
                             <a onClick={(e)=>{
                                 e.preventDefault();
                                 // console.log(personData);
-                                this.clickHandler.bind(this)(personData['person_id'],personData['full_name'],'People')
+                                this.clickHandler.bind(this)(personData['person_id'],personData['full_name'],'People', personData)
                             }} className="button">Informant Page</a>
                         </div>
                     </div>
@@ -284,7 +284,7 @@ class RightBar extends Component {
                         } }>
                         <div className="grid-x control-container">
                             {/*side bar controls*/}
-                            <div className="cell medium-2 controls">
+                            <div className="cell medium-2 large-3 controls">
                                 <div className="grid-y">
                                     {this.renderControls()}
                                 </div>

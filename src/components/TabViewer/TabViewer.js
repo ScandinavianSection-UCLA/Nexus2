@@ -18,7 +18,7 @@ class TabViewer extends Component {
         this.state = {
             views:[],
             storyPath:'',
-            inView:[]
+            inView:[],
         };
         this.handleID = this.handleID.bind(this);
         this.tabController = this.tabController.bind(this);
@@ -34,17 +34,44 @@ class TabViewer extends Component {
             active: true,
             id:0,
             name:'Home',
-            type:'home'
+            type:'Home'
         };
-        // const cachedState = localStorage.getItem('views');
-        // const cachedInView = localStorage.getItem('inView');
-        // console.log(JSON.parse(cachedState));
-        //TODO: save tabs on refresh
-        this.setState((prevState)=>{
-            var newState = prevState.views;
-            newState.push(navigationObject);
-            return {views:newState, inView:newState}
-        });
+
+        if(JSON.parse(localStorage.getItem('inView')) !== null){
+            const cachedViews = JSON.parse(localStorage.getItem('views'));
+            const cachedInView = JSON.parse(localStorage.getItem('inView'))[0]; //object
+            this.setState(()=>{
+                //reconstruct jsx from id and type
+                var newViews = [];
+                cachedViews.forEach((view)=>{
+                   newViews.push({
+                       active: view['active'],
+                       id:view['id'],
+                       name:view['name'],
+                       type:view['type'],
+                       jsx: this.renderPPFS(view['id'],view['type']),
+                   })
+                });
+                var newInView = {
+                    active:cachedInView['active'],
+                    id:cachedInView['id'],
+                    name:cachedInView['name'],
+                    type:cachedInView['type'],
+                    jsx: this.renderPPFS(cachedInView['id'],cachedInView['type']),
+                };
+                // console.log(newViews, newInView);
+                return {
+                    views:newViews,
+                    inView: [newInView],
+                }
+            })
+        } else {
+            this.setState((prevState)=>{
+                var newState = prevState.views;
+                newState.push(navigationObject);
+                return {views:newState, inView:newState}
+            });
+        }
     }
 
     renderPPFS(id,type){
@@ -60,10 +87,12 @@ class TabViewer extends Component {
         } else if(type==='Stories'){
             var storyObject = getStoryByID(id);
             return <StoryView story={storyObject} addID={this.handleID}/>;
+        } else if(type==='Home' || type==='home'){
+            return <Navigation addID={this.handleID}/>;
         }
     }
     //update views with PDF views
-    renderPDF(filepath, name){
+    renderPDF(chapter, name){
         var nameUpdated = true;
         if(this.state.inView.name === name){
             nameUpdated = false;
@@ -77,8 +106,8 @@ class TabViewer extends Component {
         if(name !== undefined && nameUpdated){
             var PDFObject = {
                 name:name,
-                url:filepath,
-                jsx:<BookView url={filepath} name={name}>{name}</BookView>,
+                chapter:chapter,
+                jsx:<BookView chapter={chapter} name={name}>{name}</BookView>,
                 active:true
             };
             this.setState((prevState)=>{
@@ -94,8 +123,8 @@ class TabViewer extends Component {
     //7)A catch all function will take in an ID and name of the selected object
     // depending on what was selected (story, people, places, fieldtrips) add a different type of object to add to views and inView
 
-    handleID(InputID, Name, Type){
-        console.log(InputID,Name, Type);
+    handleID(InputID, Name, Type){ // adds tab to viewer
+        // console.log(InputID,Name, Type);
         //check if input id is already in views
         var inView = false;
         var viewIndex = -1;
@@ -124,13 +153,29 @@ class TabViewer extends Component {
                     view.active = false;
                 });
                 newViews.push(itemObject);
+                var width = window.innerWidth;
+
+                if (width<=1100){
+                    console.log('window is small!')
+                    if(newViews.length>5){
+                        newViews.splice(1,1);
+                    }
+                } else {
+                    if(newViews.length>6){
+                        newViews.splice(1,1);
+                    }
+                }
+
                 return {
                     views:newViews,
                     inView:[itemObject]
                 }
-            },()=>{
-                localStorage.setItem('views',JSON.stringify(this.state.views));
-            });
+            },
+                ()=>{
+                    localStorage.setItem('views',JSON.stringify(this.state.views));
+                    localStorage.setItem('inView',JSON.stringify(this.state.inView));
+            }
+            );
         }
     }
 
@@ -143,7 +188,7 @@ class TabViewer extends Component {
     }
 
     switchTab(view){
-        console.log('switching tabs!');
+
         this.setState((prevState)=>{
             var newViews = prevState.views;
             newViews.forEach((currentView)=>{
@@ -152,7 +197,7 @@ class TabViewer extends Component {
                 } else {
                     currentView.active = true;
                     if(currentView.type === 'story'){
-                        console.log(currentView.name);
+
                         currentView.jsx = this.renderStory(currentView.id);
                         view = currentView;
                     }
@@ -170,7 +215,7 @@ class TabViewer extends Component {
     }
 
     closeTab(view){
-        console.log('closing tab!',this.state.views,view);
+
         //find 'view' in this.state.views and .inView, and delete it. if .inView then default to home tab
         this.setState((prevState)=>{
             var newState = prevState;
@@ -184,7 +229,7 @@ class TabViewer extends Component {
             if(newState.inView[0]['name'] === view['name']){ // is current view being closed?
                 return {
                     views:newState.views,
-                    inView:[newState.views[0]]
+                    inView:[newState.views[newState.views.length-1]]
                 }
             } else { // if current view isn't being closed, don't change what's inView
                 return {
@@ -198,24 +243,26 @@ class TabViewer extends Component {
 
     renderTabs(){
         // this.renderPDF(this.props.menuItem.url,this.props.menuItem.name);
-        return this.state.inView.map((view, i)=>{ return <div key={i}>{view.jsx}</div> });
+        return this.state.inView.map((view, i)=>{ return <div style={{height:'inherit'}} key={i}>{view.jsx}</div> });
     }
 
     render() {
         return (
             <div className="TabViewer grid-container full">
-                <div className="view">
-                    {this.renderTabs.bind(this)()}
+                <div className="grid-y">
+                    <div className="view cell fill">
+                        {this.renderTabs.bind(this)()}
+                    </div>
+                    <ul className="tabs cell medium-1">
+                        {this.state.views.map((view,i)=>{
+                            return <li onClick={(event)=>{event.preventDefault();this.switchTab(view);}}
+                                       key={i} className={`${view.name === this.state.inView[0].name ? 'active' : ''}`}>
+                                {view.name}
+                                <img src="https://png.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
+                                     className={`closeTabIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
+                            </li>})}
+                    </ul>
                 </div>
-                <ul className="tabs">
-                    {this.state.views.map((view,i)=>{
-                        return <li onClick={(event)=>{event.preventDefault();this.switchTab(view);}}
-                                   key={i} className={`${view.name === this.state.inView[0].name ? 'active' : ''}`}>
-                            {view.name}
-                            <img src="https://png.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
-                                 className={`closeIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
-                        </li>})}
-                </ul>
             </div>
         );
     }

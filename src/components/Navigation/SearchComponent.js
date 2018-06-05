@@ -98,23 +98,26 @@ class SearchComponent extends Component {
 
     render() {
         return (
-            <div className="SearchComponent grid-x">
-                <form className="cell wrapper">
-                    <input type="text" ref="searchString" placeholder="Search Term" value={this.state.searchTerm}
-                           onClick={(e)=>{
-                               e.preventDefault();
-                               //reset results column
-                               this.props.handleDisplayItems([],'Stories');
-                               this.setState({searching:true});
-                           }}
-                           onChange={this.handleFuzzySearch.bind(this)}/>
-                    <ul className={`suggestions ${this.state.searching ? 'active' : ''}`}>
-                        {this.renderSuggestions.bind(this)()}
-                    </ul>
-                </form>
-                <div className="cell filters">
+            <div className="SearchComponent">
+                <div className="grid-x">
+                    <form className="cell">
+                        <input type="text" ref="searchString" placeholder="Search Term" value={this.state.searchTerm}
+                               onClick={(e)=>{
+                                   e.preventDefault();
+                                   //reset results column
+                                   this.props.handleDisplayItems([],'Stories');
+                                   this.setState({searching:true});
+                               }}
+                               onChange={this.handleFuzzySearch.bind(this)}/>
+                        <ul className={`suggestions ${this.state.searching ? 'active' : ''}`}>
+                            {this.renderSuggestions.bind(this)()}
+                        </ul>
+                    </form>
+                    <div className="cell filters">
 
+                    </div>
                 </div>
+
             </div>
         );
     }

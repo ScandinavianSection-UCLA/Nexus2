@@ -43,6 +43,10 @@
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>"'
     }).addTo(map);
 
+    var imageUrl = 'http://hmm.igeucla.org/wp-content/uploads/2017/01/Chancellor-Gene-Block-320x320.jpg',
+        imageBounds = [[40.712216, -74.22655], [40.773941, -74.12544]];
+    L.imageOverlay(imageUrl, imageBounds).addTo(map);
+
 
 var places_geo={
     "type": "FeatureCollection",

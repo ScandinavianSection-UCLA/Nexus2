@@ -2,6 +2,7 @@
  * Created by danielhuang on 2/6/18.
  */
 import React, { Component } from 'react';
+import RightBar from '../RightBar/RightBar'
 import './PeopleView.css'
 
 class PeopleView extends Component {
@@ -12,75 +13,56 @@ class PeopleView extends Component {
             PeopleObject:{},
             PeoplePath:''
         };
-        this.renderPlace = this.renderPlace.bind(this);
-        this.renderStory = this.renderStory.bind(this);
-        this.renderAssociatedItems = this.renderAssociatedItems.bind(this);
+        this.clickHandler = this.clickHandler.bind(this);
     }
 
-    componentWillMount(){
-        console.log('person view');
-    }
+    // componentWillMount(){
+    //     console.log('person view');
+    // }
 
     clickHandler(id,name,type){
         this.props.addID(id,name,type);
     }
 
-    renderPlace(){
-        return <div className="item places">
-            <h3>Relevant Places</h3>
-            <ul>
-                {this.props.person['places'].map((place,i)=>{
-                    return <li key={i} className="associated-items" onClick={
-                        (e)=>{e.preventDefault(); this.clickHandler(place['place_id'],place['name'],'Places')}
-                    }>{place.display_name}</li>
-                })}
-            </ul>
-        </div>
-    }
-
-    renderStory(){
-        return <div className="item stories">
-            <h3>Relevant Stories</h3>
-            <ul>
-                {this.props.person['stories'].map((story,i)=>{
-                    return <li key={i} className="associated-items" onClick={
-                        (e)=>{e.preventDefault(); this.clickHandler(story['story_id'],story['full_name'],'Stories')}
-                    }>{story.full_name}</li>
-                })}
-            </ul>
-        </div>;
-    }
-
-    renderAssociatedItems(){
-        console.log(this.props.person);
-        var placesList = this.props.person['places'];
-        var storiesList = this.props.person['stories'];
-        if(placesList !== [] && storiesList !== []){
-            return <div>
-                {this.renderStory()}
-                {this.renderPlace()}
-            </div>
-        } else if(placesList !== []){
-            return <div>
-                {this.renderPlace()}
-            </div>
-        } else if(storiesList !== []){
-            return <div>
-                {this.renderStory()}
-            </div>
-        }
-    }
-
     render() {
+        console.log(this.props.person);
         return (
-            <div className="PeopleView grid-x">
-                <div className="medium-8 cell">
-                    <h3>{this.props.person['full_name']}</h3>
-                    <h4>{this.props.person['birth_date']} to {this.props.person['death_date']}</h4>
-                    <div>{this.props.person['intro_bio']}</div>
+            <div className="PeopleView grid-y">
+                <div className="tab-header cell medium-1">
+                    <img style={{marginTop:'-1.7%', marginRight:'1%'}} src="https://png.icons8.com/windows/64/000000/contacts.png" alt="person icon"/>
+                    <h2 style={{fontWeight:'bold',display:'inline-block'}}>{this.props.person['full_name']}</h2>
                 </div>
-                <div className="medium-4 cell associatedItems">
-                    {this.renderAssociatedItems()}
+                <div className="cell medium 11">
+                    <div className="grid-x" >
+                        <div className="medium-7 cell">
+                            <div className="grid-y info-wrap">
+                                <div className="cell medium-5">
+                                    <div className="grid-x informant-bio-container">
+                                        <img src={require(`../RightBar/informant_images/${[90,123,150,235,241].includes(this.props.person['person_id'])? String(this.props.person['person_id']) + '.jpg' : 'noprofile.png'}`)}
+                                             className="cell medium-4"/>
+                                        <div className="cell medium-8 details">
+                                            <div className="detail-item"><b>Born</b> {this.props.person['birth_date']}</div>
+                                            <div className="detail-item"><b>Died</b> {this.props.person['death_date']}</div>
+                                            <div className="detail-item"><b>ID#</b> {String(this.props.person['person_id'])}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="cell medium-7 wrapper person">
+                                    <div className="person-bio">
+                                        {this.props.person['intro_bio']}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="medium-4 cell">
+
+                        </div>
+                        <RightBar view={'People'}
+                                  stories={this.props.person['stories']}
+                                  places={this.props.person['places']}
+                                  passID={this.clickHandler}
+                        > </RightBar>
+                    </div>
                 </div>
             </div>
         );

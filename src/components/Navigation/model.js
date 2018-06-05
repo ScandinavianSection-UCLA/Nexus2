@@ -93,6 +93,17 @@ export const ontologyToDisplayKey = {
     'Stories':'full_name'
 };
 
+//For finding links between people, places, stories
+export const ontologyToSearchKey = {
+    'ETK Indice':'heading_english',
+    'Tangherlini Index':'type',
+    'Fieldtrips':'fieldtrip_name',
+    'Genres':'name',
+    'People':'full_name',
+    'Places':'name',
+    'Stories':'full_name'
+};
+
 export const tangoTypes = {
     'People Classes':{
         name:'People Classes',
