@@ -43,6 +43,7 @@ class Navigation extends Component {
     }
 
     componentWillMount(){
+
         const cachedState = sessionStorage.getItem('state');
         if(cachedState && sessionStorage.getItem('lastIDKey') !== 'undefined'){
             const path = sessionStorage.getItem('path');
@@ -78,18 +79,21 @@ class Navigation extends Component {
                 toDate:JSON.parse(toDate),
                 fromSelect:JSON.parse(fromSelect),
                 toSelect:JSON.parse(toSelect),
+                timeFilterOn:false,
+                placeList:placeList,
+                fieldtrips:fieldtrips,
             });
         }
     }
 
     displayList(list, displayKey, idKey, ontology){
-
+        //TODO: fix timeline shit
         this.setState((prevState)=>{
             return {
                 displayItemsList: list.map((itemInList,i)=>{
-                    return <li key={i} className={prevState.displayOntology}
+                    return <li key={i} className={ontology}
                                onClick={(e)=>{ e.preventDefault();
-                                   this.handleIDQuery(itemInList[idKey],itemInList[displayKey],this.state.displayOntology,itemInList)}}>
+                                   this.handleIDQuery(itemInList[idKey],itemInList[displayKey],ontology,itemInList)}}>
                         <span>
                             <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
                             <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
@@ -101,39 +105,54 @@ class Navigation extends Component {
                 lastDisplayKey:displayKey,
             }
         });
-        if(ontology === 'undefined'){
-            console.log('ontology is undefined');
-            return list.map((item,i)=>{
 
-                return <li key={i} className={this.state.displayOntology}
-                           onClick={(e)=>{ e.preventDefault();
-                               this.handleIDQuery(item[idKey],item[displayKey],this.state.displayOntology,item)}}>
+        return list.map((item,i)=>{
+            return <li key={i} className={ontology}
+                       onClick={(e)=>{ e.preventDefault();
+                           this.handleIDQuery(item[idKey],item[displayKey],ontology,item)}}>
                     <span>
                         <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
                         <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
                         <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
                     </span> {item[displayKey]}
-                </li>
-            });
-        } else {
-            console.log('ontology is defined');
-            return list.map((item,i)=>{
-                return <li key={i} className={ontology}
-                           onClick={(e)=>{ e.preventDefault();
-                               this.handleIDQuery(item[idKey],item[displayKey],ontology,item)}}>
-                    <span>
-                        <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
-                        <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
-                        <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
-                    </span> {item[displayKey]}
-                </li>
-            });
-        }
+            </li>
+        });
+
+        // if(ontology === 'undefined'){
+        //     console.log('ontology is undefined');
+        //     return list.map((item,i)=>{
+        //
+        //         return <li key={i} className={this.state.displayOntology}
+        //                    onClick={(e)=>{ e.preventDefault();
+        //                        this.handleIDQuery(item[idKey],item[displayKey],this.state.displayOntology,item)}}>
+        //             <span>
+        //                 <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
+        //                 <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
+        //                 <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
+        //             </span> {item[displayKey]}
+        //         </li>
+        //     });
+        // } else {
+        //     console.log('ontology is defined');
+        //     return list.map((item,i)=>{
+        //         return <li key={i} className={ontology}
+        //                    onClick={(e)=>{ e.preventDefault();
+        //                        this.handleIDQuery(item[idKey],item[displayKey],ontology,item)}}>
+        //             <span>
+        //                 <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
+        //                 <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
+        //                 <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
+        //             </span> {item[displayKey]}
+        //         </li>
+        //     });
+        // }
     }
 
     handleIDQuery(id, name, type, item){
-        console.log(id,name,type, item);
-        // add node to localstorage
+        console.log(id,name,type);
+        //update this.props.places for the map component
+        this.refs.map.updateMarkers();
+        //add node to network graph
         addNode(id,name,type,item);
         this.props.addID(id,name,type);
     }
@@ -142,7 +161,6 @@ class Navigation extends Component {
         console.log(ontology);
         var PlaceIDList = [];
         if(ontology!=='Places'){
-
             if(ontology==='Fieldtrips'){this.setState({fieldtrips:items})}
 
             //list must only contain stories, for each story get the place_recorded id
@@ -164,11 +182,11 @@ class Navigation extends Component {
     }
 
     displayItems(items, ontology){
+        console.log(ontology);
         var displayKey = ontologyToDisplayKey[ontology];
         var idKey = ontologyToID[ontology];
 
         this.setPlaceIDList(items,ontology);
-        console.log(ontology);
 
         /*Save items to local storage for data to continue to exist after tab switch/page refresh  */
         sessionStorage.setItem('state', JSON.stringify(this.state));
@@ -292,10 +310,8 @@ class Navigation extends Component {
             <div className="Navigation">
                 <div className="navigation grid-x grid-padding-x">
                     <div className="medium-3 cell dataNavigation">
-                        <div>
-                            <SearchComponent handleDisplayItems={this.displayItems.bind(this)}/>
-                            <NavigatorComponent handleDisplayItems={this.displayItems.bind(this)}/>
-                        </div>
+                        <SearchComponent handleDisplayItems={this.displayItems.bind(this)}/>
+                        <NavigatorComponent handleDisplayItems={this.displayItems.bind(this)}/>
                     </div>
                     <div className="medium-5 cell AssociatedStoriesViewer">
                         <div className="grid-y" style={{'height':'100%'}}>
@@ -349,7 +365,7 @@ class Navigation extends Component {
                     <div className="medium-4 cell">
                         <div className="grid-y" style={{'height':'100%'}}>
                             <UserNexus className="medium-6 cell" ref="UserNexus"/>
-                            <MapView className="medium-6 cell" places={this.state.placeList} fieldtrips={this.state.fieldtrips}/>
+                            <MapView className="medium-6 cell" ref="map" places={this.state.placeList} fieldtrips={this.state.fieldtrips}/>
                         </div>
                     </div>
                 </div>
