@@ -43,18 +43,18 @@ class Navigation extends Component {
     }
 
     componentWillMount(){
-        const cachedState = localStorage.getItem('state');
-        if(cachedState && localStorage.getItem('lastIDKey') !== 'undefined'){
-            const path = localStorage.getItem('path');
-            const lists = localStorage.getItem('lists');
-            const itemsList = localStorage.getItem('itemsList');
-            const fromDate = localStorage.getItem('fromDate');
-            const toDate = localStorage.getItem('toDate');
-            const fromSelect = localStorage.getItem('fromSelect');
-            const toSelect = localStorage.getItem('toSelect');
-            const displayOntology = JSON.parse(localStorage.getItem('displayOntology'));
-            const lastIDKey = JSON.parse(localStorage.getItem('lastIDKey'));
-            const lastDisplayKey = JSON.parse(localStorage.getItem('lastDisplayKey'));
+        const cachedState = sessionStorage.getItem('state');
+        if(cachedState && sessionStorage.getItem('lastIDKey') !== 'undefined'){
+            const path = sessionStorage.getItem('path');
+            const lists = sessionStorage.getItem('lists');
+            const itemsList = sessionStorage.getItem('itemsList');
+            const fromDate = sessionStorage.getItem('fromDate');
+            const toDate = sessionStorage.getItem('toDate');
+            const fromSelect = sessionStorage.getItem('fromSelect');
+            const toSelect = sessionStorage.getItem('toSelect');
+            const displayOntology = JSON.parse(sessionStorage.getItem('displayOntology'));
+            const lastIDKey = JSON.parse(sessionStorage.getItem('lastIDKey'));
+            const lastDisplayKey = JSON.parse(sessionStorage.getItem('lastDisplayKey'));
 
             this.setState({
                 path:JSON.parse(path),
@@ -171,18 +171,18 @@ class Navigation extends Component {
         console.log(ontology);
 
         /*Save items to local storage for data to continue to exist after tab switch/page refresh  */
-        localStorage.setItem('state', JSON.stringify(this.state));
-        localStorage.setItem('path', JSON.stringify(this.state['path']));
-        localStorage.setItem('lists', JSON.stringify(this.state['lists']));
-        localStorage.setItem('itemsList', JSON.stringify(items));
-        localStorage.setItem('fromDate', JSON.stringify(this.state['fromDate']));
-        localStorage.setItem('toDate', JSON.stringify(this.state['toDate']));
-        localStorage.setItem('fromSelect', JSON.stringify(this.state['fromSelect']));
-        localStorage.setItem('toSelect', JSON.stringify(this.state['toSelect']));
-        localStorage.setItem('displayOntology', JSON.stringify(ontology));
-        localStorage.setItem('lastIDKey', JSON.stringify(idKey));
-        localStorage.setItem('lastDisplayKey',JSON.stringify(displayKey));
-        localStorage.setItem('timeFilterOn',JSON.stringify(this.state['timeFilterOn']));
+        sessionStorage.setItem('state', JSON.stringify(this.state));
+        sessionStorage.setItem('path', JSON.stringify(this.state['path']));
+        sessionStorage.setItem('lists', JSON.stringify(this.state['lists']));
+        sessionStorage.setItem('itemsList', JSON.stringify(items));
+        sessionStorage.setItem('fromDate', JSON.stringify(this.state['fromDate']));
+        sessionStorage.setItem('toDate', JSON.stringify(this.state['toDate']));
+        sessionStorage.setItem('fromSelect', JSON.stringify(this.state['fromSelect']));
+        sessionStorage.setItem('toSelect', JSON.stringify(this.state['toSelect']));
+        sessionStorage.setItem('displayOntology', JSON.stringify(ontology));
+        sessionStorage.setItem('lastIDKey', JSON.stringify(idKey));
+        sessionStorage.setItem('lastDisplayKey',JSON.stringify(displayKey));
+        sessionStorage.setItem('timeFilterOn',JSON.stringify(this.state['timeFilterOn']));
         this.setState(()=>{
             return {
                 displayOntology:ontology,

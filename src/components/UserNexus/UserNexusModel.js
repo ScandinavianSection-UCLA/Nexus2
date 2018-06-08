@@ -3,7 +3,7 @@ import {arrayTransformation} from "../../utils";
 
 //Model initializer
 export function initializeGraph(){
-    const graphData = JSON.parse(localStorage.getItem('graphData'));
+    const graphData = JSON.parse(sessionStorage.getItem('graphData'));
     var nodes,links;
     if(graphData === null){
         nodes = [{id:'blank'}];
@@ -19,7 +19,7 @@ export function initializeGraph(){
 }
 
 export function initializeNodeCategories(){
-    const nodeCategories = JSON.parse(localStorage.getItem('nodeCategories'));
+    const nodeCategories = JSON.parse(sessionStorage.getItem('nodeCategories'));
     var People, Places, Stories;
     if(nodeCategories===null){
         People = [];
@@ -67,8 +67,8 @@ export function addNode(id, name, type, item){
     //check/create for links
     graphData['links']= graphData['links'].concat(createLinkage(newNode,nodeCategories));
     nodeCategories[newNode['type']].push(newNode);
-    localStorage.setItem('nodeCategories', JSON.stringify(nodeCategories));
-    localStorage.setItem('graphData', JSON.stringify(graphData));
+    sessionStorage.setItem('nodeCategories', JSON.stringify(nodeCategories));
+    sessionStorage.setItem('graphData', JSON.stringify(graphData));
 }
 
 //"dumb function"
