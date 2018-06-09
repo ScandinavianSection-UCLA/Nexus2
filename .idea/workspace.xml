@@ -3,47 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/dist/mgr-pdf-viewer-react.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/dist/mgr-pdf-viewer-react.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/example/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/example/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/example/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-foundation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-foundation/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-foundation/lib/components/grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-foundation/lib/components/grid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-foundation/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-foundation/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-foundation/src/components/grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-foundation/src/components/grid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/worker-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/worker-loader/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/worker-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/worker-loader/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/worker-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/worker-loader/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/worker-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/worker-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapView/MapView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/MapView.js" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/src/components/BookView/BookView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookView/BookView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserNexus/UserNexusModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserNexus/UserNexusModel.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,26 +21,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MapView.js" pinned="false" current-in-tab="true">
+
+      <file leaf-file-name="MapView.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="174" column="97" selection-start-line="174" selection-start-column="97" selection-end-line="174" selection-end-column="97" />
+            <state relative-caret-position="630">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#45#86#0" expanded="true" />
-                <element signature="e#0#6#0" expanded="true" />
-                <element signature="e#127#134#1" expanded="true" />
-                <element signature="e#144#150#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Heading.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.css">
+      <file leaf-file-name="Navigation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+            <state relative-caret-position="166">
+              <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
+              <folding>
+                <element signature="e#46#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserNexus.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexus.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserNexusModel.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexusModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-298">
+              <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoryView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1980">
+              <caret line="141" column="10" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Heading.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaceView.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/PlaceView/PlaceView.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TabViewer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="239" column="26" selection-start-line="239" selection-start-column="26" selection-end-line="239" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TabViewer.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+
             </state>
           </provider>
         </entry>
@@ -126,11 +170,34 @@
         <option value="$PROJECT_DIR$/src/components/MapView/mapTest.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/MapView/map.js" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
-        <option value="$PROJECT_DIR$/src/components/MapView/MapView.css" />
-        <option value="$PROJECT_DIR$/src/components/TabViewer/TabViewer.css" />
-        <option value="$PROJECT_DIR$/src/components/Heading/Heading.css" />
         <option value="$PROJECT_DIR$/src/components/MapView/MapView.js" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/navigatorComponent.css" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/search.css" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/NavigatorComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/UserNexus/UserNexus.css" />
+        <option value="$PROJECT_DIR$/src/NexusReducer.js" />
+        <option value="$PROJECT_DIR$/src/NexusActions.js" />
+        <option value="$PROJECT_DIR$/src/store.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/src/utils.js" />
+        <option value="$PROJECT_DIR$/src/components/RightBar/model.js" />
+        <option value="$PROJECT_DIR$/src/components/TabViewer/model.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" />
+        <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.js" />
+        <option value="$PROJECT_DIR$/src/components/StoryView/StoryView.js" />
+        <option value="$PROJECT_DIR$/src/components/StoryView/StoryView.css" />
+        <option value="$PROJECT_DIR$/src/components/PlaceView/PlaceView.css" />
+        <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.css" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/navigation.css" />
+        <option value="$PROJECT_DIR$/src/components/TabViewer/TabViewer.css" />
+        <option value="$PROJECT_DIR$/src/components/Heading/Heading.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/UserNexus/UserNexus.js" />
+        <option value="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
+        <option value="$PROJECT_DIR$/src/components/UserNexus/UserNexusModel.js" />
       </list>
     </option>
   </component>
@@ -149,11 +216,11 @@
       <path value="$PROJECT_DIR$/src/components/MapView/leaflet/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
-    <option name="y" value="24" />
-    <option name="width" value="1806" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="216" />
+    <option name="y" value="23" />
+    <option name="width" value="1571" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -188,21 +255,7 @@
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Heading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="MapView" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="StoryView" type="462c0819:PsiDirectoryNode" />
+              <item name="TabViewer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
@@ -210,6 +263,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="UserNexus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,9 +350,13 @@
       <workItem from="1524628686057" duration="10046000" />
       <workItem from="1524682385720" duration="13677000" />
       <workItem from="1524961210387" duration="41000" />
-      <workItem from="1524961277529" duration="1540000" />
-      <workItem from="1527547408862" duration="604000" />
-      <workItem from="1527827286802" duration="11017000" />
+      <workItem from="1524961277529" duration="5180000" />
+      <workItem from="1525556917485" duration="9561000" />
+      <workItem from="1525996266058" duration="3402000" />
+      <workItem from="1526568181092" duration="948000" />
+      <workItem from="1526569424274" duration="4037000" />
+      <workItem from="1526678749759" duration="18199000" />
+      <workItem from="1527129615638" duration="530000" />
     </task>
     <task id="LOCAL-00001" summary="fixed this.props.places bug">
       <created>1525795879351</created>
@@ -306,35 +369,80 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168859000" />
+    <option name="totallyTimeSpent" value="180348000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="0" y="23" width="1901" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19299191" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19468085" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3298647" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32901832" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3281412" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3279396" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39854318" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23612903" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49935484" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49935484" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49548388" weight="0.32795697" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39852786" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50064516" side_tool="true" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49290323" weight="0.32795697" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -348,14 +456,9 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/REACT_README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4815">
-            <caret line="321" selection-start-line="321" selection-end-line="321" />
-          </first_editor>
-          <second_editor />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/data/cmanuscript_images.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7875" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -415,12 +518,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/cetk_indices.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10837" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/ckeywords.json">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2340" />
       </provider>
@@ -462,8 +560,8 @@
     <entry file="file://$PROJECT_DIR$/src/components/MapView/test1.js" />
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="108">
+          <caret line="254" column="40" lean-forward="true" selection-start-line="254" selection-start-column="40" selection-end-line="254" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -497,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/SearchComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+        <state relative-caret-position="405">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -513,13 +611,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#46#98#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -532,19 +627,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_copy.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="1" selection-end-column="8" />
+        <state relative-caret-position="1050">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#46#98#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
+    <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3765">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
@@ -553,8 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PlaceView/PlaceView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="-1597">
+          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -572,17 +664,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PeopleView/PeopleView.js">
+    <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-165">
           <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
@@ -596,74 +678,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.css">
+    <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexus.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="640">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/navigation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-727">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/search.css">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        <state relative-caret-position="585">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/safe_file.js">
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+        <state relative-caret-position="630">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#45#86#0" expanded="true" />
-            <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#127#134#1" expanded="true" />
-            <element signature="e#144#150#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="141" column="10" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -673,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        <state relative-caret-position="465">
+          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -689,16 +746,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
+    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="174" column="97" selection-start-line="174" selection-start-column="97" selection-end-line="174" selection-end-column="97" />
+        <state relative-caret-position="135">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/allinformants.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret column="651" selection-start-column="651" selection-end-column="651" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="239" column="26" selection-start-line="239" selection-start-column="26" selection-end-line="239" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
           <folding>
-            <element signature="e#45#86#0" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#127#134#1" expanded="true" />
-            <element signature="e#144#150#1" expanded="true" />
+            <element signature="e#46#87#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexusModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
         </state>
       </provider>
     </entry>

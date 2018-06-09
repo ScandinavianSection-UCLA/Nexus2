@@ -36,11 +36,11 @@
     overflow-y:scroll;
     background-color:white;
     font-size:1.3em;
-    /*width:22%;*/
+    width:21.8%;
     margin-left:0%;
     list-style: none;
     position:absolute;
-    top:21%;
+    top:23%;
 }
 .suggestions li{
     padding:1% 0 1% 3%;

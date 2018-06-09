@@ -37,14 +37,9 @@ class TabViewer extends Component {
             type:'Home'
         };
 
-        // this.setState((prevState)=>{
-        //     var newState = prevState.views;
-        //     newState.push(navigationObject);
-        //     return {views:newState, inView:newState}
-        // });
-        if(JSON.parse(localStorage.getItem('inView')) !== null){
-            const cachedViews = JSON.parse(localStorage.getItem('views'));
-            const cachedInView = JSON.parse(localStorage.getItem('inView'))[0]; //object
+        if(JSON.parse(sessionStorage.getItem('inView')) !== null){
+            const cachedViews = JSON.parse(sessionStorage.getItem('views'));
+            const cachedInView = JSON.parse(sessionStorage.getItem('inView'))[0]; //object
             this.setState(()=>{
                 //reconstruct jsx from id and type
                 var newViews = [];
@@ -64,7 +59,7 @@ class TabViewer extends Component {
                     type:cachedInView['type'],
                     jsx: this.renderPPFS(cachedInView['id'],cachedInView['type']),
                 };
-                console.log(newViews, newInView);
+                // console.log(newViews, newInView);
                 return {
                     views:newViews,
                     inView: [newInView],
@@ -92,7 +87,7 @@ class TabViewer extends Component {
         } else if(type==='Stories'){
             var storyObject = getStoryByID(id);
             return <StoryView story={storyObject} addID={this.handleID}/>;
-        } else if(type==='Home' || type=='home'){
+        } else if(type==='Home' || type==='home'){
             return <Navigation addID={this.handleID}/>;
         }
     }
@@ -158,17 +153,27 @@ class TabViewer extends Component {
                     view.active = false;
                 });
                 newViews.push(itemObject);
-                if(newViews.length>7){
-                    newViews.splice(1,1);
+                var width = window.innerWidth;
+
+                if (width<=1100){
+                    console.log('window is small!')
+                    if(newViews.length>5){
+                        newViews.splice(1,1);
+                    }
+                } else {
+                    if(newViews.length>6){
+                        newViews.splice(1,1);
+                    }
                 }
+
                 return {
                     views:newViews,
                     inView:[itemObject]
                 }
             },
                 ()=>{
-                    localStorage.setItem('views',JSON.stringify(this.state.views));
-                    localStorage.setItem('inView',JSON.stringify(this.state.inView));
+                    sessionStorage.setItem('views',JSON.stringify(this.state.views));
+                    sessionStorage.setItem('inView',JSON.stringify(this.state.inView));
             }
             );
         }
@@ -205,7 +210,7 @@ class TabViewer extends Component {
                 return{ views:newViews }
             }
         },()=>{
-            localStorage.setItem('inView',JSON.stringify(this.state.inView));
+            sessionStorage.setItem('inView',JSON.stringify(this.state.inView));
         });
     }
 
@@ -232,30 +237,32 @@ class TabViewer extends Component {
                 }
             }
         },()=>{
-            localStorage.setItem('views',JSON.stringify(this.state.views));
+            sessionStorage.setItem('views',JSON.stringify(this.state.views));
         })
     }
 
     renderTabs(){
         // this.renderPDF(this.props.menuItem.url,this.props.menuItem.name);
-        return this.state.inView.map((view, i)=>{ return <div key={i}>{view.jsx}</div> });
+        return this.state.inView.map((view, i)=>{ return <div style={{height:'inherit'}} key={i}>{view.jsx}</div> });
     }
 
     render() {
         return (
             <div className="TabViewer grid-container full">
-                <div className="view">
-                    {this.renderTabs.bind(this)()}
+                <div className="grid-y">
+                    <div className="view cell fill">
+                        {this.renderTabs.bind(this)()}
+                    </div>
+                    <ul className="tabs cell medium-1">
+                        {this.state.views.map((view,i)=>{
+                            return <li onClick={(event)=>{event.preventDefault();this.switchTab(view);}}
+                                       key={i} className={`${view.name === this.state.inView[0].name ? 'active' : ''}`}>
+                                {view.name}
+                                <img src="https://png.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
+                                     className={`closeTabIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
+                            </li>})}
+                    </ul>
                 </div>
-                <ul className="tabs">
-                    {this.state.views.map((view,i)=>{
-                        return <li onClick={(event)=>{event.preventDefault();this.switchTab(view);}}
-                                   key={i} className={`${view.name === this.state.inView[0].name ? 'active' : ''}`}>
-                            {view.name}
-                            <img src="https://png.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
-                                 className={`closeTabIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
-                        </li>})}
-                </ul>
             </div>
         );
     }
