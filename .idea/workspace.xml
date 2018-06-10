@@ -3,47 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/dist/mgr-pdf-viewer-react.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/dist/mgr-pdf-viewer-react.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/example/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/example/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/example/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mgr-pdf-viewer-react/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-foundation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-foundation/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-foundation/lib/components/grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-foundation/lib/components/grid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-foundation/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-foundation/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-foundation/src/components/grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-foundation/src/components/grid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/worker-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/worker-loader/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/worker-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/worker-loader/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/worker-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/worker-loader/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/worker-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/worker-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapView/MapView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/MapView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MapView/mapTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/mapTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/allinformants.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/allinformants.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,26 +20,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MapView.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
+      <file leaf-file-name="PeopleView.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/PeopleView/PeopleView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="174" column="97" selection-start-line="174" selection-start-column="97" selection-end-line="174" selection-end-column="97" />
+            <state relative-caret-position="675">
+              <caret line="497" column="49" selection-start-line="497" selection-start-column="49" selection-end-line="497" selection-end-column="49" />
               <folding>
                 <element signature="e#45#86#0" expanded="true" />
-                <element signature="e#0#6#0" expanded="true" />
-                <element signature="e#127#134#1" expanded="true" />
-                <element signature="e#144#150#1" expanded="true" />
+                <element signature="e#7068#17721#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Heading.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -87,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -104,6 +57,14 @@
       <find>place_people_person_full_name</find>
       <find>this.props.places</find>
       <find>Aasted</find>
+      <find>fru</find>
+      <find>occupation</find>
+      <find>Kristensen</find>
+      <find>person</find>
+      <find>person_id</find>
+      <find>occupations</find>
+      <find>person_job</find>
+      <find>occup</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,7 +84,6 @@
         <option value="$PROJECT_DIR$/src/components/MapView/test1.js" />
         <option value="$PROJECT_DIR$/src/components/MapView/places_geo.geojson" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/MapView/mapTest.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/MapView/map.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
@@ -131,6 +91,11 @@
         <option value="$PROJECT_DIR$/src/components/TabViewer/TabViewer.css" />
         <option value="$PROJECT_DIR$/src/components/Heading/Heading.css" />
         <option value="$PROJECT_DIR$/src/components/MapView/MapView.js" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/MapView/mapTest.html" />
+        <option value="$PROJECT_DIR$/src/data/allinformants.json" />
+        <option value="$PROJECT_DIR$/src/components/MapView/compile.html" />
+        <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" />
       </list>
     </option>
   </component>
@@ -149,17 +114,18 @@
       <path value="$PROJECT_DIR$/src/components/MapView/leaflet/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1806" />
-    <option name="height" value="1048" />
+    <option name="width" value="1804" />
+    <option name="height" value="1012" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,13 +154,6 @@
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Heading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="MapView" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -202,7 +161,14 @@
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="StoryView" type="462c0819:PsiDirectoryNode" />
+              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="PeopleView" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
@@ -215,17 +181,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -293,7 +259,9 @@
       <workItem from="1524961210387" duration="41000" />
       <workItem from="1524961277529" duration="1540000" />
       <workItem from="1527547408862" duration="604000" />
-      <workItem from="1527827286802" duration="11017000" />
+      <workItem from="1527827286802" duration="12049000" />
+      <workItem from="1528071979681" duration="11298000" />
+      <workItem from="1528257139692" duration="22505000" />
     </task>
     <task id="LOCAL-00001" summary="fixed this.props.places bug">
       <created>1525795879351</created>
@@ -306,20 +274,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168859000" />
+    <option name="totallyTimeSpent" value="203694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1804" height="1012" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19299191" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20101067" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3298647" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32948583" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3281412" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32738718" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39854318" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
@@ -348,6 +315,13 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/REACT_README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -495,13 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/SearchComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/leaflet/src/layer/GeoJSON.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2385">
@@ -582,30 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PeopleView/PeopleView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-313">
           <caret line="195" column="10" selection-start-line="195" selection-start-column="10" selection-end-line="195" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -654,23 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/safe_file.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-          <folding>
-            <element signature="e#45#86#0" expanded="true" />
-            <element signature="e#147#171#0" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#127#134#1" expanded="true" />
-            <element signature="e#144#150#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/safe_file.js" />
     <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -678,10 +609,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6390">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="559">
+          <caret line="895" column="4" selection-start-line="895" selection-start-column="4" selection-end-line="895" selection-end-column="4" />
           <folding>
             <element signature="e#0#6#0" expanded="true" />
             <element signature="e#88#94#1" expanded="true" />
@@ -689,15 +627,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/SearchComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="88" column="54" lean-forward="true" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
+          <folding>
+            <element signature="e#45#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="174" column="97" selection-start-line="174" selection-start-column="97" selection-end-line="174" selection-end-column="97" />
+        <state relative-caret-position="1425">
+          <caret line="97" column="43" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
           <folding>
             <element signature="e#45#86#0" expanded="true" />
             <element signature="e#0#6#0" expanded="true" />
             <element signature="e#127#134#1" expanded="true" />
             <element signature="e#144#150#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/allinformants.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret column="78055" selection-start-column="78054" selection-end-column="78055" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/compile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PeopleView/PeopleView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="497" column="49" selection-start-line="497" selection-start-column="49" selection-end-line="497" selection-end-column="49" />
+          <folding>
+            <element signature="e#45#86#0" expanded="true" />
+            <element signature="e#7068#17721#0" />
           </folding>
         </state>
       </provider>

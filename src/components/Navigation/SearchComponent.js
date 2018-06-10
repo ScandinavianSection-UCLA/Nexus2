@@ -30,6 +30,8 @@ class SearchComponent extends Component {
         });
     }
 
+
+
     componentWillMount(){
         this.setState({
             keywords:getKeywords(),
@@ -37,6 +39,8 @@ class SearchComponent extends Component {
         });
 
     }
+
+
 
     handleSearch(selectedItem){
         // check if selectedItem is a story or keyword
@@ -94,6 +98,7 @@ class SearchComponent extends Component {
                            onClick={(e)=>{e.preventDefault();this.handleSearch.bind(this)(keyword)}}>{keyword[displayKey]}</li>
             });
         }
+
     }
 
     render() {
@@ -108,10 +113,13 @@ class SearchComponent extends Component {
                                    this.props.handleDisplayItems([],'Stories');
                                    this.setState({searching:true});
                                }}
-                               onChange={this.handleFuzzySearch.bind(this)}/>
+
+                        onChange={this.handleFuzzySearch.bind(this)}/>
                         <ul className={`suggestions ${this.state.searching ? 'active' : ''}`}>
                             {this.renderSuggestions.bind(this)()}
                         </ul>
+
+
                     </form>
                     <div className="cell filters">
 
