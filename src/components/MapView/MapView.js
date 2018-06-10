@@ -92,7 +92,6 @@ class MapView extends React.Component {
             mapID:''
         };
     }
-
     componentDidMount() {
         // create map
 
@@ -102,7 +101,6 @@ class MapView extends React.Component {
             center: mapCenter,
             zoom: 7
     });
-        console.log('shouldbe center',this.map.center);
 
 var openStreet = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -112,10 +110,33 @@ var  oldLayer = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-back
         attribution:'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(this.map);
 
+/*var danishLayer = L.tileLayer.wms('https://services.kortforsyningen.dk/topo20_hoeje_maalebordsblade?ignoreillegallayers=TRUE&transparent=TRUE&login=tango1963&password=heimskr1;&',{
+    layers: 'dtk_hoeje_maalebordsblade',
+    format: 'image/png'
+}).addTo(this.map);*/
+
+var lowBoards = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo20_lave_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
+    layers: 'dtk_lave_maalebordsblade',
+    format: 'image/png'
+}).addTo(this.map);
+
+var highBoards = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo20_hoeje_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
+    layers: 'dtk_hoeje_maalebordsblade',
+    format: 'image/png'
+}).addTo(this.map);
+
+var prussianMaps = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo25_preussen_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
+    layers: 'dtk_preussen_maalebordsblade',
+    format: 'image/png'
+}).addTo(this.map);
+
 var baseMaps = {
     "Total Narc Map": openStreet,
-    "Black & White Sexy": oldLayer
-
+    "Black & White Sexy": oldLayer,
+    // "Høje målebordsblade": danishLayer,
+    "High Boards": highBoards,
+    "Low Boards": lowBoards,
+    "Prussian": prussianMaps
 };
 
         this.updateMarkers(this.props.places);
@@ -145,14 +166,10 @@ if(this.props.places!= null) {
         var longitude=array[i].longitude;
     }
 
-
-
-
     this.geoJson = L.geoJSON(places_geo, {
         pointToLayer: function (feature, latlng) {
 
             if (placeId == feature.properties.place_place_id) {
-                //mapCenter=[latitude,longitude];
                 if(feature.properties.place_people_person_full_name != null) {
                     return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
 
@@ -164,14 +181,31 @@ if(this.props.places!= null) {
         }
 
     }).addTo(this.map);
+
     if (latitude && longitude !=null) {
         this.map.panTo(new L.LatLng(latitude, longitude));
     }
 
 }
+else{
+    this.geoJson = L.geoJSON(places_geo, {
+        pointToLayer: function (feature, latlng) {
+            if (feature.properties.place_people_person_full_name != null) {
+                return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1, radius:6}).bindPopup(feature.properties.place_people_person_full_name);
+            }
 
+            else {
+                return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1,radius:6}).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
+            }
+        }
+    }).addTo(this.map);
+
+}
 
     }
+
+
+
 
     render() {
         if( this.map !=null){

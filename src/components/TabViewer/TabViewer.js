@@ -37,9 +37,9 @@ class TabViewer extends Component {
             type:'Home'
         };
 
-        if(JSON.parse(localStorage.getItem('inView')) !== null){
-            const cachedViews = JSON.parse(localStorage.getItem('views'));
-            const cachedInView = JSON.parse(localStorage.getItem('inView'))[0]; //object
+        if(JSON.parse(sessionStorage.getItem('inView')) !== null){
+            const cachedViews = JSON.parse(sessionStorage.getItem('views'));
+            const cachedInView = JSON.parse(sessionStorage.getItem('inView'))[0]; //object
             this.setState(()=>{
                 //reconstruct jsx from id and type
                 var newViews = [];
@@ -172,8 +172,8 @@ class TabViewer extends Component {
                 }
             },
                 ()=>{
-                    localStorage.setItem('views',JSON.stringify(this.state.views));
-                    localStorage.setItem('inView',JSON.stringify(this.state.inView));
+                    sessionStorage.setItem('views',JSON.stringify(this.state.views));
+                    sessionStorage.setItem('inView',JSON.stringify(this.state.inView));
             }
             );
         }
@@ -210,7 +210,7 @@ class TabViewer extends Component {
                 return{ views:newViews }
             }
         },()=>{
-            localStorage.setItem('inView',JSON.stringify(this.state.inView));
+            sessionStorage.setItem('inView',JSON.stringify(this.state.inView));
         });
     }
 
@@ -237,7 +237,7 @@ class TabViewer extends Component {
                 }
             }
         },()=>{
-            localStorage.setItem('views',JSON.stringify(this.state.views));
+            sessionStorage.setItem('views',JSON.stringify(this.state.views));
         })
     }
 

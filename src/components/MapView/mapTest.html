@@ -39,9 +39,14 @@
 
     var map=L.map("map").setView([56.2639,9.5018],8);
 
+    var danishLayer = L.tileLayer.wms("http://kortforsyningen.kms.dk/service?servicename=topo20_hoeje_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;", {
+        layers: 'Høje målebordsblade, 1842-1899'
+    }).addTo(map);
+
     var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>"'
     }).addTo(map);
+
 
     var imageUrl = 'http://hmm.igeucla.org/wp-content/uploads/2017/01/Chancellor-Gene-Block-320x320.jpg',
         imageBounds = [[40.712216, -74.22655], [40.773941, -74.12544]];
@@ -881,9 +886,6 @@ var layerGroup3=L.geoJson(cplaces_mentioned, {
        return L.circleMarker(latlng,{color:"#008000"});
    }
 }).addTo(map);
-
-
-
 
 
 

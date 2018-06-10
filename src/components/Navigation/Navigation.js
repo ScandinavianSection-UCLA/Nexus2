@@ -190,17 +190,18 @@ class Navigation extends Component {
         var PlaceIDList = this.setPlaceIDList(items,ontology);
 
         /*Save items to local storage for data to continue to exist after tab switch/page refresh  */
-        localStorage.setItem('path', JSON.stringify(this.state['path']));
-        localStorage.setItem('lists', JSON.stringify(this.state['lists']));
-        localStorage.setItem('itemsList', JSON.stringify(items));
-        localStorage.setItem('fromDate', JSON.stringify(this.state['fromDate']));
-        localStorage.setItem('toDate', JSON.stringify(this.state['toDate']));
-        localStorage.setItem('fromSelect', JSON.stringify(this.state['fromSelect']));
-        localStorage.setItem('toSelect', JSON.stringify(this.state['toSelect']));
-        localStorage.setItem('timeFilterOn', JSON.stringify(this.state['timeFilterOn']));
-        localStorage.setItem('displayOntology', JSON.stringify(ontology));
-        localStorage.setItem('lastIDKey', JSON.stringify(idKey));
-        localStorage.setItem('lastDisplayKey',JSON.stringify(displayKey));
+        sessionStorage.setItem('state', JSON.stringify(this.state));
+        sessionStorage.setItem('path', JSON.stringify(this.state['path']));
+        sessionStorage.setItem('lists', JSON.stringify(this.state['lists']));
+        sessionStorage.setItem('itemsList', JSON.stringify(items));
+        sessionStorage.setItem('fromDate', JSON.stringify(this.state['fromDate']));
+        sessionStorage.setItem('toDate', JSON.stringify(this.state['toDate']));
+        sessionStorage.setItem('fromSelect', JSON.stringify(this.state['fromSelect']));
+        sessionStorage.setItem('toSelect', JSON.stringify(this.state['toSelect']));
+        sessionStorage.setItem('displayOntology', JSON.stringify(ontology));
+        sessionStorage.setItem('lastIDKey', JSON.stringify(idKey));
+        sessionStorage.setItem('lastDisplayKey',JSON.stringify(displayKey));
+        sessionStorage.setItem('timeFilterOn',JSON.stringify(this.state['timeFilterOn']));
         this.setState(()=>{
             return {
                 displayOntology:ontology,
