@@ -110,15 +110,33 @@ var  oldLayer = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-back
         attribution:'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(this.map);
 
-var danishLayer = L.tileLayer.wms('https://services.kortforsyningen.dk/topo20_hoeje_maalebordsblade?ignoreillegallayers=TRUE&transparent=TRUE&login=tango1963&password=heimskr1;&',{
+/*var danishLayer = L.tileLayer.wms('https://services.kortforsyningen.dk/topo20_hoeje_maalebordsblade?ignoreillegallayers=TRUE&transparent=TRUE&login=tango1963&password=heimskr1;&',{
     layers: 'dtk_hoeje_maalebordsblade',
+    format: 'image/png'
+}).addTo(this.map);*/
+
+var lowBoards = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo20_lave_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
+    layers: 'dtk_lave_maalebordsblade',
+    format: 'image/png'
+}).addTo(this.map);
+
+var highBoards = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo20_hoeje_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
+    layers: 'dtk_hoeje_maalebordsblade',
+    format: 'image/png'
+}).addTo(this.map);
+
+var prussianMaps = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo25_preussen_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
+    layers: 'dtk_preussen_maalebordsblade',
     format: 'image/png'
 }).addTo(this.map);
 
 var baseMaps = {
     "Total Narc Map": openStreet,
     "Black & White Sexy": oldLayer,
-    "Høje målebordsblade": danishLayer
+    // "Høje målebordsblade": danishLayer,
+    "High Boards": highBoards,
+    "Low Boards": lowBoards,
+    "Prussian": prussianMaps
 };
 
         this.updateMarkers(this.props.places);

@@ -43,6 +43,16 @@ class SearchComponent extends Component {
 
 
     handleSearch(selectedItem){
+        // check if selectItem is a string
+        if(typeof selectedItem === 'string'){
+            // console.log(selectedItem, this.state.keywords);
+            this.state.keywords.forEach((keyword) => {
+                if(keyword['keyword_name'] === selectedItem){
+                    selectedItem = keyword;
+                }
+            })
+        }
+        console.log(selectedItem);
         // check if selectedItem is a story or keyword
         if('story_id' in selectedItem){
             this.props.handleDisplayItems([selectedItem],'Stories');
@@ -105,7 +115,7 @@ class SearchComponent extends Component {
         return (
             <div className="SearchComponent">
                 <div className="grid-x">
-                    <form className="cell">
+                    <form className="cell" onSubmit={(e)=>{e.preventDefault(); console.log(this.refs); this.handleSearch.bind(this)(this.refs.searchString.defaultValue)}}>
                         <input type="text" ref="searchString" placeholder="Search Term" value={this.state.searchTerm}
                                onClick={(e)=>{
                                    e.preventDefault();
