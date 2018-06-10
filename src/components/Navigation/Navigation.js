@@ -81,8 +81,6 @@ class Navigation extends Component {
                 fromSelect:JSON.parse(fromSelect),
                 toSelect:JSON.parse(toSelect),
                 timeFilterOn:false,
-                placeList:placeList,
-                fieldtrips:fieldtrips,
             });
         }
     }
