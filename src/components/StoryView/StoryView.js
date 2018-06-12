@@ -8,6 +8,8 @@ import SlidingPane from 'react-sliding-pane';
 import 'react-sliding-pane/dist/react-sliding-pane.css';
 import RightBar from '../RightBar/RightBar';
 import {addNode} from "../UserNexus/UserNexusModel";
+import {getPlacesByID} from '../TabViewer/model';
+import {setPlaceIDList} from '../../utils'
 import './StoryView.css'
 import {arrayTransformation, getPeopleByID} from "../RightBar/model";
 import MapView from "../MapView/MapView";
@@ -194,15 +196,19 @@ class StoryView extends Component {
     }
 
     render() {
-        console.log(this.props.story);
-        var cleanPlacesArray = arrayTransformation(this.props.story['places']['place']);
+        console.log("places array",this.props.story['places']['place']);
+        var cleanPlacesArray = setPlaceIDList(arrayTransformation(this.props.story['places']['place']),'Places');
+        var PlacesArray = [];
+        cleanPlacesArray.forEach((placeID) =>{
+            PlacesArray.push(getPlacesByID(placeID));
+        });
         var storiesByPerson = getPeopleByID(this.props.story['informant_id'])['stories'];
         console.log(getPeopleByID(this.props.story['informant_id']));
         var personData = getPeopleByID(this.props.story['informant_id']);
         return (
             <div className="StoryView grid-x">
                 <div className="medium-3 cell">
-                    <MapView height={'30vh'} places={cleanPlacesArray}/>
+                    <MapView height={'30vh'} places={PlacesArray}/>
                     <ul className="accordion" data-accordian>
                         <li className={`accordion-item ${this.state.isTabOpen[0] ? 'is-active':''}`}
                             onClick={(e)=>{e.preventDefault(); this.accordionHandler.bind(this)(0)}}>

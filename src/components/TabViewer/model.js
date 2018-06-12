@@ -72,7 +72,6 @@ function arrayTransformation(item){
     var finalArray=[];
 
     if(Array.isArray(item) || item === null){
-        console.log(item);
         finalArray = item;
     } else if(typeof item === 'object'){
         finalArray.push(item);

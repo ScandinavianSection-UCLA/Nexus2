@@ -193,7 +193,9 @@ else{
             if (feature.properties.place_people_person_full_name != null) {
                 return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1, radius:6}).bindPopup(feature.properties.place_people_person_full_name);
             }
-
+            else if (feature.properties.place_name != null){
+                return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1, radius:6}).bindPopup(feature.properties.place_name);
+            }
             else {
                 return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1,radius:6}).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
             }

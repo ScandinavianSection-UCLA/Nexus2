@@ -5,7 +5,8 @@ import React, { Component } from 'react';
 import NavigatorComponent from './NavigatorComponent';
 import SearchComponent from './SearchComponent';
 import MapView from '../MapView/MapView';
-import {ontologyToDisplayKey, ontologyToID, dateFilterHelper, getPlaces} from './model';
+import {setPlaceIDList} from '../../utils'
+import {ontologyToDisplayKey, ontologyToID, dateFilterHelper} from './model';
 import {addNode} from "../UserNexus/UserNexusModel";
 import './navigation.css'
 import UserNexus from "../UserNexus/UserNexus";
@@ -156,36 +157,14 @@ class Navigation extends Component {
         this.props.addID(id,name,type);
     }
 
-    setPlaceIDList(items, ontology){
-        var PlaceIDList = [];
-        var PlaceList = [];
-        if(ontology==='Stories'){
 
-            if(ontology==='Fieldtrips'){this.setState({fieldtrips:items})}
-
-            //list must only contain stories, for each story get the place_recorded id
-
-            items.forEach((item)=>{
-                if(item['place_recorded'] && typeof item['place_recorded'] === 'object'){
-                    PlaceIDList.push(item['place_recorded']['id']);
-                }
-            });
-
-            // var PlaceList = getPlaces(PlaceIDList);
-        }else{
-            items.forEach((item) =>{
-                PlaceIDList.push(item['place_id']);
-            });
-        }
-        return PlaceIDList;
-    }
 
     displayItems(items, ontology){
         console.log(ontology);
         var displayKey = ontologyToDisplayKey[ontology];
         var idKey = ontologyToID[ontology];
 
-        var PlaceIDList = this.setPlaceIDList(items,ontology);
+        var PlaceIDList = setPlaceIDList(items,ontology);
 
         /*Save items to local storage for data to continue to exist after tab switch/page refresh  */
         sessionStorage.setItem('state', JSON.stringify(this.state));
@@ -205,7 +184,7 @@ class Navigation extends Component {
                 displayOntology:ontology,
                 itemsList:items,
                 displayItemsList: this.displayList(items,displayKey,idKey,ontology),
-                placeList: PlaceIDList,
+                placeList: items,
             }
         },()=>{
             if(this.state.timeFilterOn && typeof items !== 'undefined'){
