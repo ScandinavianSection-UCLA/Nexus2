@@ -172,7 +172,9 @@ if(this.props.places!= null) {
             if (placeId == feature.properties.place_place_id) {
                 if(feature.properties.place_people_person_full_name != null) {
                     return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
-
+                }
+                else if (feature.properties.place_name != null){
+                    return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1, radius:6}).bindPopup(feature.properties.place_name);
                 }
                 else{
                     return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
@@ -223,7 +225,7 @@ else{
             <div className="MapView" style={{height:this.props.height}}
                  ref={ ref => this.container = ref }/>
 
-        )
+        );
         console.log('look at me render');
     }
 }
