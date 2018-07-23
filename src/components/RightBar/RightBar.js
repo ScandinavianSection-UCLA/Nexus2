@@ -262,7 +262,7 @@ class RightBar extends Component {
     }
 
     render() {
-
+        console.log("right bar", this.props);
         return (
             <div className="medium-1 RightBar cell">
                 <div className="grid-y">
