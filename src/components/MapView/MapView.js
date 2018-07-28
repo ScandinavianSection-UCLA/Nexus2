@@ -115,10 +115,7 @@ var  oldLayer = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-back
     format: 'image/png'
 }).addTo(this.map);*/
 
-var lowBoards = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo20_lave_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
-    layers: 'dtk_lave_maalebordsblade',
-    format: 'image/png'
-}).addTo(this.map);
+
 
 var highBoards = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo20_hoeje_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
     layers: 'dtk_hoeje_maalebordsblade',
@@ -130,13 +127,22 @@ var prussianMaps = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servic
     format: 'image/png'
 }).addTo(this.map);
 
+var lowBoards = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo20_lave_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
+    layers: 'dtk_lave_maalebordsblade',
+    format: 'image/png'
+}).addTo(this.map);
+
+
+
 var baseMaps = {
+
     "Total Narc Map": openStreet,
     "Black & White Sexy": oldLayer,
     // "Høje målebordsblade": danishLayer,
     "High Boards": highBoards,
-    "Low Boards": lowBoards,
-    "Prussian": prussianMaps
+    "Prussian": prussianMaps,
+    "Low Boards": lowBoards
+
 };
 
         this.updateMarkers(this.props.places);
@@ -148,61 +154,86 @@ var baseMaps = {
     updateMarkers() {
 
 
-        console.log("this is the arrary----->",this.props.places);
-if(this.props.places!= null) {
+        console.log("this is the arrary----->", this.props.places);
 
 
-    var array = this.props.places;
-    console.log('length of array', array.length);
-    var itemCount = array.length;
-    var loopCounter = 10;
-    if (itemCount < loopCounter) {
-        loopCounter = itemCount;
-    }
-    for (var i = 0; i < loopCounter; i++) {
-        var placeId = array[i].place_id;
-        var latitude= array[i].latitude;
-        console.log(latitude);
-        var longitude=array[i].longitude;
-    }
+            if (this.props.places != null) {
 
-    this.geoJson = L.geoJSON(places_geo, {
-        pointToLayer: function (feature, latlng) {
-
-            if (placeId == feature.properties.place_place_id) {
-                if(feature.properties.place_people_person_full_name != null) {
-                    return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
-
+                if(this.props.places[0]===undefined) {
+                    var array = [];
+                    console.log('thisarray is undefined',array.length);
                 }
                 else{
-                    return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
+                    var array = this.props.places;
+                    console.log('this array isnt undfined')
                 }
+                console.log('length of array', array.length);
+                var itemCount = array.length;
+                var loopCounter = 10;
+                if (itemCount < loopCounter) {
+                    loopCounter = itemCount;
+                }
+                for (var i = 0; i < loopCounter; i++) {
+                    if(array[i]=='undefined'){
+
+                    }
+                    else {
+                        var placeId = array[i].place_id;
+                        var latitude = array[i].latitude;
+                        console.log(latitude);
+                        var longitude = array[i].longitude;
+                    }
+                }
+
+
+                this.geoJson = L.geoJSON(places_geo, {
+                    pointToLayer: function (feature, latlng) {
+
+                        if (placeId == feature.properties.place_place_id) {
+                            if (feature.properties.place_people_person_full_name != null) {
+                                return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
+
+                            }
+                            else {
+                                return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
+                            }
+                        }
+                    }
+
+                }).addTo(this.map);
+
+                if (latitude && longitude != null) {
+                    this.map.panTo(new L.LatLng(latitude, longitude));
+                }
+
             }
-        }
-
-    }).addTo(this.map);
-
-    if (latitude && longitude !=null) {
-        this.map.panTo(new L.LatLng(latitude, longitude));
-    }
-
-}
-else{
-    this.geoJson = L.geoJSON(places_geo, {
-        pointToLayer: function (feature, latlng) {
-            if (feature.properties.place_people_person_full_name != null) {
-                return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1, radius:6}).bindPopup(feature.properties.place_people_person_full_name);
-            }
-
             else {
-                return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1,radius:6}).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
+                this.geoJson = L.geoJSON(places_geo, {
+                    pointToLayer: function (feature, latlng) {
+                        if (feature.properties.place_people_person_full_name != null) {
+                            return L.circleMarker(latlng, {
+                                color: "#9f0733",
+                                fillColor: '#05507c',
+                                fillOpacity: 1,
+                                radius: 6
+                            }).bindPopup(feature.properties.place_people_person_full_name);
+                        }
+
+                        else {
+                            return L.circleMarker(latlng, {
+                                color: "#9f0733",
+                                fillColor: '#05507c',
+                                fillOpacity: 1,
+                                radius: 6
+                            }).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
+                        }
+                    }
+                }).addTo(this.map);
+
             }
+
         }
-    }).addTo(this.map);
 
-}
-
-    }
 
 
 
