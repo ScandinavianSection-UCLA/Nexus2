@@ -81,7 +81,7 @@ var places_geo={
     ]
 };
 
-
+var zoom=7;
 
 class MapView extends React.Component {
 
@@ -99,7 +99,7 @@ class MapView extends React.Component {
         var mapCenter= [56.2639, 9.5018];
         this.map = L.map(this.container, {
             center: mapCenter,
-            zoom: 7
+            zoom: zoom
     });
 
 var openStreet = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
@@ -147,6 +147,16 @@ var baseMaps = {
 
         this.updateMarkers(this.props.places);
         this.controlLayers= L.control.layers(baseMaps).addTo(this.map);
+        zoom=7;
+        var propsPlaces=this.props.places;
+        if(propsPlaces.length<1){
+            zoom=12
+        }
+        else{
+            zoom=7
+        }
+        console.log('this is didMOUNT props.places',this.props.places);
+        console.log('just set zoom to 7')
 
 
     }
@@ -204,6 +214,8 @@ var baseMaps = {
 
                 if (latitude && longitude != null) {
                     this.map.panTo(new L.LatLng(latitude, longitude));
+
+
                 }
 
             }
@@ -228,8 +240,8 @@ var baseMaps = {
                             }).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
                         }
                     }
-                }).addTo(this.map);
 
+                }).addTo(this.map);
             }
 
         }
@@ -242,8 +254,12 @@ var baseMaps = {
         if( this.map !=null){
             if(this.geoJson !=null) {
                 this.map.removeLayer(this.geoJson);
+               // this.map.zoom=zoom
+                //console.log('tried to reset zoom')
             }
         this.updateMarkers(this.props.places);
+            this.map.zoom=zoom;
+            console.log('tried to reset zoom')
 
 
         }
