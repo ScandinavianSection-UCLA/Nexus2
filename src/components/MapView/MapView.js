@@ -130,10 +130,16 @@ var prussianMaps = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servic
     format: 'image/png'
 }).addTo(this.map);
 
+var googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+    maxZoom: 20,
+    subdomains:['mt0','mt1','mt2','mt3']
+}).addTo(this.map);
+
 var baseMaps = {
     "Total Narc Map": openStreet,
     "Black & White Sexy": oldLayer,
     // "Høje målebordsblade": danishLayer,
+    "Google Satellite": googleSat,
     "High Boards": highBoards,
     "Low Boards": lowBoards,
     "Prussian": prussianMaps

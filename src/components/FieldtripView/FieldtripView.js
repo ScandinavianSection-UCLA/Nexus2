@@ -6,6 +6,8 @@ import './FieldtripView.css'
 
 class FieldtripView extends Component {
 
+
+
     constructor(){
         super();
         this.renderPeople = this.renderPeople.bind(this);
@@ -31,6 +33,7 @@ class FieldtripView extends Component {
             </ul>
         </div>;
     }
+
     renderPlaces(){
         return <div className="results">
             <h3>Places Visited</h3>
@@ -48,6 +51,7 @@ class FieldtripView extends Component {
         return <div className="results">
             <h3>People Visited</h3>
             <ul>
+                {/* <ul> defines a bulleted list*/}
                 {this.props.fieldtrip['people_visited'].map((person,i)=>{
                     return <li key={i} className="associated-items" onClick={
                         (e)=>{e.preventDefault(); this.clickHandler(person['person_id'],person['full_name'],'People')}
@@ -110,5 +114,7 @@ class FieldtripView extends Component {
         );
     }
 }
+
+
 
 export default FieldtripView;

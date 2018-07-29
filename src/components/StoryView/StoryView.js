@@ -108,6 +108,7 @@ class StoryView extends Component {
         });
         return placeObject;
     }
+
     placesMentioned(){
         var cleanArray = this.arrayTransformation(this.props.story['places']['place']);
         var placeObjects = [];
@@ -118,6 +119,7 @@ class StoryView extends Component {
         });
         return placeObjects;
     }
+
     bibliographicReferences(){
         if(this.props.story['bibliography_references'] === null){
             return <div className="callout alert">
@@ -176,6 +178,7 @@ class StoryView extends Component {
             }
         });
     }
+
     renderProperty(property){
         if(property!== null && typeof property !== 'undefined'){
             return property;
@@ -183,6 +186,7 @@ class StoryView extends Component {
             return 'N/A';
         }
     }
+
     renderComponentView(component, name){
         if(component!==null && typeof component !== 'undefined'){
             return component;

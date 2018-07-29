@@ -24,7 +24,7 @@ class Navigation extends Component {
                 'Stories':false,
                 'Fieldtrip':false,
                 'Tangherlini Index':false,
-                'ETK Indice': false,
+                'ETK Indices': false,
                 'Genres':false,
             }
         };
@@ -42,7 +42,7 @@ class Navigation extends Component {
                         {name:'Topic & Index Navigator', tabClass:'tab cell medium-6 TINavView'}
                     ],
                     dataNav:['People','Places','Stories'],
-                    TINav:['ETK Indice','Tangherlini Index','Fieldtrips','Genres'],
+                    TINav:['ETK Indices','Tangherlini Index','Fieldtrips','Genres'],
                     displayItemsList:prevState.displayItemsList,
                     dataNavView:prevState.dataNavView,
                     dropdownLists:prevState.dropdownLists,
@@ -56,7 +56,7 @@ class Navigation extends Component {
                         {name:'Topic & Index Navigator', tabClass:'tab cell medium-6 TINavView'}
                     ],
                     dataNav:['People','Places','Stories'],
-                    TINav:['ETK Indice','Tangherlini Index','Fieldtrips','Genres'],
+                    TINav:['ETK Indices','Tangherlini Index','Fieldtrips','Genres'],
                 }
             });
         }
@@ -107,7 +107,7 @@ class Navigation extends Component {
                     'Stories':false,
                     'Fieldtrip':false,
                     'Tangherlini Index':false,
-                    'ETK Indice': false,
+                    'ETK Indices': false,
                     'Genres':false,
                 };
                 oldState.activeList[ontology] = true;
@@ -125,7 +125,7 @@ class Navigation extends Component {
                     'Stories':false,
                     'Fieldtrip':false,
                     'Tangherlini Index':false,
-                    'ETK Indice': false,
+                    'ETK Indices': false,
                     'Genres':false,
                 };
                 oldState.activeList[ontology] = true;
@@ -136,7 +136,7 @@ class Navigation extends Component {
 
             //create additional options for people to be in the dropdown menu so people can select everything in the menu
             var selectString = '';
-            if(ontology!=='ETK Indice'){
+            if(ontology!=='ETK Indices'){
                 selectString = "[Select "+ontology.slice(0,-1)+"]";
             } else {
                 selectString = "[Select "+ontology+"]";
@@ -173,7 +173,7 @@ class Navigation extends Component {
                     'Stories':false,
                     'Fieldtrip':false,
                     'Tangherlini Index':false,
-                    'ETK Indice': false,
+                    'ETK Indices': false,
                     'Genres':false,
                 };
                 oldState.activeList[ontology] = true;
@@ -202,7 +202,7 @@ class Navigation extends Component {
                     'Stories':false,
                     'Fieldtrip':false,
                     'Tangherlini Index':false,
-                    'ETK Indice': false,
+                    'ETK Indices': false,
                     'Genres':false,
                 };
                 oldState.activeList[ontology] = true;

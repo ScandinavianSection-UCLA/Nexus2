@@ -258,7 +258,7 @@ class TabViewer extends Component {
                             return <li onClick={(event)=>{event.preventDefault();this.switchTab(view);}}
                                        key={i} className={`${view.name === this.state.inView[0].name ? 'active' : ''}`}>
                                 {view.name}
-                                <img src="https://png.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
+                                <img src="https://p ng.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
                                      className={`closeTabIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
                             </li>})}
                     </ul>
