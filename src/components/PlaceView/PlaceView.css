@@ -1,6 +1,15 @@
-.PlaceView{
-    height:89vh;
+
+@media screen and (min-height: 400px) {
+    .PlaceView{
+        height:85vh;
+    }
 }
+@media screen and (min-height: 770px) {
+    .PlaceView{
+        height:87vh;
+    }
+}
+
 .place-content-wrapper{
     height:100%;
 }

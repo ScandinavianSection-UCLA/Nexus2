@@ -72,7 +72,8 @@ class Heading extends Component {
     handleMenuClick(menuItem){
         var menuObject = {
             name:menuItem.name,
-            url:menuItem.url
+            url:menuItem.url,
+            chap:menuItem.chap,
         };
         this.props.sendData(menuObject);
         this.menuToggle();
@@ -81,14 +82,14 @@ class Heading extends Component {
     render() {
         return (
             <div className="Heading grid-x grid-padding-x">
-                <div className="large-3 cell">
+                <div className="large-4 cell">
                     <div className="grid-x grid-margin-x">
                         <img src={require('./assets/DENM0001.png')} className="flag medium-3 medium-offset-1 cell" alt="Danish Flag"/>
                         <h5 className="danish-folklore medium-2 cell">Danish Folklore</h5>
                         <h6 className="etk medium-6 cell">The Evald Tang <br/> Kristensen Collection</h6>
                     </div>
                 </div>
-                <div className="medium-offset-7 large-offset-8 Hamburger-Menu medium-1 cell" onClick={this.menuToggle}>
+                <div className="medium-offset-7 large-offset-7 Hamburger-Menu medium-1 cell" onClick={this.menuToggle}>
                     <img src="https://png.icons8.com/wired/64/ffffff/book.png"
                          style={{height:"2.9em", paddingTop:"7px", paddingLeft:"10px"}}
                          alt="book"/>

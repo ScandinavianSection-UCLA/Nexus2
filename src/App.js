@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import TabViewer from './components/TabViewer/TabViewer';
 import Heading from './components/Heading/Heading.js'
 import './App.css';
-import Routes from './routes'
-import ReactDOM from 'react-dom';
 import { Router, Route, Switch } from 'react-router'
 import { Link, BrowserRouter } from 'react-router-dom'
 
@@ -16,6 +14,7 @@ class App extends Component {
             loading:true,
         };
         this.menuHandler = this.menuHandler.bind(this);
+        this.tabViewer = this.refs.tabViewer;
     }
 
     componentDidMount(){
@@ -24,20 +23,25 @@ class App extends Component {
     }
 
     menuHandler(dataObject){
-        this.refs.tabViewer.renderPDF(dataObject.chap, dataObject.name);
+        console.log(this.tabViewer, this.refs.tabViewer);
+        this.refs.tabViewer.renderPDF(dataObject['chap'],dataObject['name']);
     }
 
     render() {
 
         return (
-            <div className="App grid-container full">
-                <BrowserRouter basename="/folklorenexus">
+            <div className="App grid-y medium-grid-frame full">
+                {/*<Heading sendData={this.menuHandler.bind(this)}/>*/}
+                {/*<TabViewer ref="tabViewer" menuItem={this.state.menuItem}/>*/}
+                <BrowserRouter>
                     <Switch>
-                        <Route path="/" exact render={()=>{
-                            return(<div>
-                                <Heading sendData={this.menuHandler}/>
-                                <TabViewer ref="tabViewer" menuItem={this.state.menuItem}/>
-                            </div>)
+                        <Route path="" exact render={()=>{
+                            return(
+                                <div>
+                                    <Heading sendData={this.menuHandler.bind(this)}/>
+                                    <TabViewer ref="tabViewer" menuItem={this.state.menuItem}/>
+                                </div>
+                            )
                         }}/>
                         <Route path="/hi" exact render={()=>{
                             return(<div>

@@ -252,33 +252,37 @@ class Navigation extends Component {
         var ontologyType = this.state.dataNavView ? 'dataNav' : 'TINav';
         return (
             <div className="NavigatorComponent">
-                <div className="navigator-tabs grid-x ">
-                    {this.state.navigators.map((nav,i)=>{
-                        return <div className={nav['tabClass']} key={i}
-                                    onClick={(e)=>{e.preventDefault;this.handleTabClick(nav)}}>
-                            {nav['name']}
-                        </div>
-                    })}
-                </div>
-                <div className="navigator-options-wrapper ">
-                    <div className={`cell ${this.state.dataNavView ? 'active dataNavView' : 'TINavView active'}`}>
-                        <ul className="ontologyList">
-                            {this.state[ontologyType].map((ontology, i)=>{
-                                return <li className={'ontology '+ ontology + `${this.state.activeList[ontology] ? ' active' : ''}`} key={i}
-                                           onClick={(e)=>{e.preventDefault(); this.handleLevelTwoClick(ontology)}}>
-                                    {ontology}
-                                </li>
+                <div className="grid-y">
+                    <div className="navigator-tabs cell medium-1">
+                        <div className="grid-x">
+                            {this.state.navigators.map((nav,i)=>{
+                                return <div className={nav['tabClass'] + ' cell medium-6'} key={i}
+                                            onClick={(e)=>{e.preventDefault;this.handleTabClick(nav)}}>
+                                    {nav['name']}
+                                </div>
                             })}
-                        </ul>
+                        </div>
                     </div>
-                    {
-                        this.state.dropdownLists.map((list,i)=>{
-                            return <NavigationDropdownMenu className="cell"
-                                                            list = {list}
-                                                           handleMenuSelect = {this.selectMenu.bind(this)}
-                                                           key={i}/>
-                        })
-                    }
+                    <div className="navigator-options-wrapper cell medium-11">
+                        <div className={`cell ${this.state.dataNavView ? 'active dataNavView' : 'TINavView active'}`}>
+                            <ul className="ontologyList">
+                                {this.state[ontologyType].map((ontology, i)=>{
+                                    return <li className={'ontology '+ ontology + `${this.state.activeList[ontology] ? ' active' : ''}`} key={i}
+                                               onClick={(e)=>{e.preventDefault(); this.handleLevelTwoClick(ontology)}}>
+                                        {ontology}
+                                    </li>
+                                })}
+                            </ul>
+                        </div>
+                        {
+                            this.state.dropdownLists.map((list,i)=>{
+                                return <NavigationDropdownMenu className="cell"
+                                                                list = {list}
+                                                               handleMenuSelect = {this.selectMenu.bind(this)}
+                                                               key={i}/>
+                            })
+                        }
+                    </div>
                 </div>
             </div>
         );

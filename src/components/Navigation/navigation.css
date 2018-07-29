@@ -1,21 +1,37 @@
+@media screen and (min-height: 400px) {
+    .Navigation{
+        height:85vh;
+    }
+    .AssociatedStoriesViewer{
+        height:84vh;
+    }
+}
+@media screen and (min-height: 770px) {
+    .Navigation{
+        height:87vh;
+    }
+    .AssociatedStoriesViewer{
+        height:86vh;
+    }
+}
+
 .Navigation{
     background-color: #e6e6e6;
     /*background-color:white;*/
 }
+.navigation{
+    height:inherit
+}
 .dataNavigation{
     border:10px solid #404040;
     background-color: #404040;
-    height:89vh;
 }
 .AssociatedStoriesViewer{
-    height:84vh;
     padding:10px;
 }
 
 .AssociatedStoriesViewer .stories-container{
-    height:93%;
     width:100%;
-    overflow-y:scroll;
     background-color: #ffffff;
     border:2px solid #e6e6e6;
     padding-top:10px;
@@ -48,7 +64,7 @@
 }
 .time-filter{
     background-color: #f7f7f7;
-    padding:5% 0 0 2%;
+    padding:5% 0 3% 2%;
     border:2px solid #e6e6e6;
 }
 .time-filter .text{

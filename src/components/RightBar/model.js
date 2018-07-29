@@ -18,9 +18,16 @@ export function arrayTransformation(item){
 
 export function getPeopleByID(person_id){
     var personObject = realPeopleData[person_id];
-    if(personObject['places'] !== null && personObject['stories']!==null){
-        personObject['places'] = arrayTransformation(personObject['places'].place);
-        personObject['stories'] = arrayTransformation(personObject['stories'].story)
+
+    var DefinedPlaces = typeof personObject['places'] !== 'undefined',
+        DefinedStories = typeof personObject['stories']!== 'undefined',
+        DefinedPlace = typeof personObject['places'].place !== 'undefined',
+        DefinedStory = typeof personObject['stories'].story !== 'undefined';
+    if(DefinedPlaces && DefinedStories){
+        if(DefinedPlace && DefinedStory){
+            personObject['places'] = arrayTransformation(personObject['places'].place);
+            personObject['stories'] = arrayTransformation(personObject['stories'].story);
+        }
     }
 
     return realPeopleData[person_id];

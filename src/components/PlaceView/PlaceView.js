@@ -18,6 +18,7 @@ class PlaceView extends Component {
     }
 
     render() {
+        console.log(this.props.place);
 
         var storyCollected = [];
         var storyMentioned = [];

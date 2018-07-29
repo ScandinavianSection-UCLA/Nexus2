@@ -1,8 +1,22 @@
-.PeopleView{
-    height:89vh;
+
+@media screen and (min-height: 400px) {
+    .PeopleView{
+        height:85vh;
+    }
+    .info-wrap{
+        height:77vh;
+    }
+}
+@media screen and (min-height: 770px) {
+    .PeopleView{
+        height:87vh;
+    }
+    .info-wrap{
+        height:80vh;
+    }
 }
 .associatedItems .item{
-    height:40vh;
+    /*height:40vh;*/
     overflow-y:scroll;
 }
 .detail-item{
@@ -17,4 +31,5 @@
 }
 .wrapper.person{
     overflow-y: scroll;
+    /*height:40%;*/
 }

@@ -1,14 +1,13 @@
 # React + Foundation
 
 [![Build Status](https://travis-ci.org/digiaonline/react-foundation.svg?branch=master)](https://travis-ci.org/digiaonline/react-foundation)
-[![Test Coverage](https://codeclimate.com/github/nordsoftware/react-foundation/badges/coverage.svg)](https://codeclimate.com/github/nordsoftware/react-foundation/coverage)
-[![Code Climate](https://codeclimate.com/github/nordsoftware/react-foundation/badges/gpa.svg)](https://codeclimate.com/github/nordsoftware/react-foundation)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nordsoftware/react-foundation/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nordsoftware/react-foundation/?branch=master)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ea90da79f63c9d5dab1a/test_coverage)](https://codeclimate.com/github/digiaonline/react-foundation/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ea90da79f63c9d5dab1a/maintainability)](https://codeclimate.com/github/digiaonline/react-foundation/maintainability)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/digiaonline/react-foundation/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/digiaonline/react-foundation/?branch=master)
 [![StyleCI](https://styleci.io/repos/53612920/shield?style=flat)](https://styleci.io/repos/53612920)
 [![npm version](https://img.shields.io/npm/v/react-foundation.svg)](https://www.npmjs.com/package/react-foundation)
 [![npm downloads](https://img.shields.io/npm/dt/react-foundation.svg)](https://www.npmjs.com/package/react-foundation)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nordsoftware/react-foundation/master/LICENSE)
-[![Gitter](https://img.shields.io/gitter/room/norsoftware/open-source.svg?maxAge=2592000)](https://gitter.im/nordsoftware/open-source)
 
 [Foundation](http://foundation.zurb.com/sites/docs/) as [React](https://facebook.github.io/react/) components.
 
@@ -39,26 +38,26 @@ All components are unit-tested to ensure their quality.
 
 Here is a list of the available components:
 
-- [Accordion](src/components/accordion.js)
-- [Badge](src/components/badge.js)
-- [Breadcrumbs](src/components/breadcrumbs.js)
-- [Button](src/components/button.js)
-- [ButtonGroup](src/components/button-group.js)
-- [Callout](src/components/callout.js)
-- [CloseButton](src/components/close-button.js)
-- [FlexVideo](src/components/flex-video.js)
-- [Grid](src/components/grid.js)
-- [Icon](src/components/icon.js)
-- [Label](src/components/label.js)
-- [MediaObject](src/components/media-object.js)
-- [Menu](src/components/menu.js)
-- [Pagination](src/components/pagination.js)
-- [Progress](src/components/progress-bar.js)
-- [ResponsiveNavigation](src/components/responsive.js)
-- [Switch](src/components/switch.js)
-- [Tabs](src/components/tabs.js)
-- [Thumbnail](src/components/thumbnail.js)
-- [TopBar](src/components/top-bar.js)
+* [Accordion](src/components/accordion.js)
+* [Badge](src/components/badge.js)
+* [Breadcrumbs](src/components/breadcrumbs.js)
+* [Button](src/components/button.js)
+* [ButtonGroup](src/components/button-group.js)
+* [Callout](src/components/callout.js)
+* [CloseButton](src/components/close-button.js)
+* [FlexVideo](src/components/flex-video.js)
+* [Grid](src/components/grid.js)
+* [Icon](src/components/icon.js)
+* [Label](src/components/label.js)
+* [MediaObject](src/components/media-object.js)
+* [Menu](src/components/menu.js)
+* [Pagination](src/components/pagination.js)
+* [Progress](src/components/progress-bar.js)
+* [ResponsiveNavigation](src/components/responsive.js)
+* [Switch](src/components/switch.js)
+* [Tabs](src/components/tabs.js)
+* [Thumbnail](src/components/thumbnail.js)
+* [TopBar](src/components/top-bar.js)
 
 More components coming soon!
 
@@ -82,17 +81,13 @@ Documentation is at [https://react.foundation](https://react.foundation) and
 you can use our [React starter](https://github.com/nordsoftware/react-starter) template
 as a reference.
 
-## Test
+## Contributing
 
-Run test suite:
-
-```bash
-npm test
-```
+Please read our [guidelines](.github/CONTRIBUTING.md).
 
 ## Credits
 
-- Thanks to [@jmreidy](https://github.com/jmreidy) for releasing the `react-foundation` package name to us on [NPM](https://www.npmjs.com/).
+* Thanks to [@jmreidy](https://github.com/jmreidy) for releasing the `react-foundation` package name to us on [NPM](https://www.npmjs.com/).
 
 ## License
 

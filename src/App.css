@@ -3,7 +3,7 @@
     margin:0;
 }
 body{
-    overflow-x:hidden;
+    /*overflow-x:hidden;*/
 }
 .tab-header{
     background-color: #dcdcdc;
