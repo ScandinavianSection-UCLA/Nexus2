@@ -169,11 +169,20 @@ var baseMaps = {
         console.log("this is the arrary----->", this.props.places);
 
 
+
             if (this.props.places != null) {
 
                 if(this.props.places[0]===undefined) {
                     var array = [];
                     console.log('thisarray is undefined',array.length);
+
+            if (placeId == feature.properties.place_place_id) {
+                if(feature.properties.place_people_person_full_name != null) {
+                    return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
+                }
+                else if (feature.properties.place_name != null){
+                    return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1, radius:6}).bindPopup(feature.properties.place_name);
+
                 }
                 else{
                     var array = this.props.places;
@@ -204,6 +213,7 @@ var baseMaps = {
                             if (feature.properties.place_people_person_full_name != null) {
                                 return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
 
+
                             }
                             else {
 
@@ -222,6 +232,18 @@ var baseMaps = {
 
             }
             //if props.places is null
+
+}
+else{
+    this.geoJson = L.geoJSON(places_geo, {
+        pointToLayer: function (feature, latlng) {
+            if (feature.properties.place_people_person_full_name != null) {
+                return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1, radius:6}).bindPopup(feature.properties.place_people_person_full_name);
+            }
+            else if (feature.properties.place_name != null){
+                return L.circleMarker(latlng, {color: "#9f0733",fillColor:'#05507c',fillOpacity:1, radius:6}).bindPopup(feature.properties.place_name);
+            }
+
             else {
                 this.geoJson = L.geoJSON(places_geo, {
                     pointToLayer: function (feature, latlng) {
@@ -271,7 +293,7 @@ var baseMaps = {
             <div className="MapView" style={{height:this.props.height}}
                  ref={ ref => this.container = ref }/>
 
-        )
+        );
         console.log('look at me render');
     }
 }

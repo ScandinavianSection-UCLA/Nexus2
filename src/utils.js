@@ -52,3 +52,27 @@ Array.prototype.diff = function(arr2) {
     }
     return ret;
 };
+
+//convert list of place objects to list of place id's
+export function setPlaceIDList(items, ontology){
+    var PlaceIDList = [];
+    if(ontology==='Stories'){
+
+        if(ontology==='Fieldtrips'){this.setState({fieldtrips:items})}
+
+        //list must only contain stories, for each story get the place_recorded id
+
+        items.forEach((item)=>{
+            if(item['place_recorded'] && typeof item['place_recorded'] === 'object'){
+                PlaceIDList.push(item['place_recorded']['id']);
+            }
+        });
+
+        // var PlaceList = getPlaces(PlaceIDList);
+    }else{ //if this isn't a story, this is a place
+        items.forEach((item) =>{
+            PlaceIDList.push(item['place_id']);
+        });
+    }
+    return PlaceIDList;
+}
