@@ -47,12 +47,10 @@
 .story-viewer-options li{
     display:inline-block;
 }
-.story .card{
-    height:42%;
+.story{
     overflow-y: scroll;
 }
 .card.annotation{
-    height:25%;
     overflow-y:scroll;
 }
 .title{
@@ -61,7 +59,6 @@
 }
 .relatedStories{
     border:2px solid #e3e3e3;
-    height:25%;
     overflow-y:scroll;
 }
 .associated-items{

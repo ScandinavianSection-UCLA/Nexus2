@@ -215,7 +215,6 @@ class TabViewer extends Component {
     }
 
     closeTab(view){
-
         //find 'view' in this.state.views and .inView, and delete it. if .inView then default to home tab
         this.setState((prevState)=>{
             var newState = prevState;
@@ -250,10 +249,13 @@ class TabViewer extends Component {
         return (
             <div className="TabViewer grid-container full">
                 <div className="grid-y">
-                    <div className="view cell fill">
+                    {/*Wrapper/container for the View, not including the tabs*/}
+                    <div className="view cell fill"> {/*Class "fill" fills out the rest of the application space with the view*/}
+                        {/*Function below generates/sorts out which view should be displayed*/}
                         {this.renderTabs.bind(this)()}
                     </div>
-                    <ul className="tabs cell medium-1">
+                    {/*List of tabs that are displayed at the bottom of the browser/app*/}
+                    <ul className="tabs cell medium-1"> {/*medium-1 sets the height of the tabs*/}
                         {this.state.views.map((view,i)=>{
                             return <li onClick={(event)=>{event.preventDefault();this.switchTab(view);}}
                                        key={i} className={`${view.name === this.state.inView[0].name ? 'active' : ''}`}>
