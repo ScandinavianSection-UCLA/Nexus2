@@ -92,9 +92,33 @@ class MapView extends React.Component {
             mapID:''
         };
     }
+
+    componentWillMount(){
+        console.log('component will mount');
+    }
+
+getZoomlevel(){
+    zoom=7;
+    var propsPlaces=this.props.places;
+    if(propsPlaces.length<1 || Array.isArray(this.props.person)){
+        zoom=12
+        console.log('just set zoom to 12')  //far out
+    }
+    else{
+        zoom=7
+        console.log('just set zoom to 7') //zoomed in
+    }
+    console.log('this is didMOUNT props.places',this.props.places);
+}
+
+
+
+
+
+
     componentDidMount() {
         // create map
-
+//zoom=7;
         console.log('component did mount');
         var mapCenter= [56.2639, 9.5018];
         this.map = L.map(this.container, {
@@ -149,24 +173,31 @@ var baseMaps = {
 
         this.updateMarkers(this.props.places);
         this.controlLayers= L.control.layers(baseMaps,null).addTo(this.map);
-        zoom=7;
-        var propsPlaces=this.props.places;
-        if(propsPlaces.length<1){
-            zoom=12
-        }
-        else{
-            zoom=7
-        }
-        console.log('this is didMOUNT props.places',this.props.places);
-        console.log('just set zoom to 7')
+        // zoom=7;
+        // var propsPlaces=this.props.places;
+        // if(propsPlaces.length<1 || Array.isArray(this.props.person)){
+        //     zoom=12
+        //     console.log('just set zoom to 12')  //far out
+        // }
+        // else{
+        //     zoom=7
+        //     console.log('just set zoom to 7') //zoomed in
+        // }
+        // console.log('this is didMOUNT props.places',this.props.places);
+
 
 
     }
 
     updateMarkers() {
+        //=7;
+        var propsPlaces=this.props.places;
 
+        console.log('this is didMOUNT props.places',this.props.places);
 
         console.log("this is the arrary----->", this.props.places);
+        this.getZoomlevel();
+
 
 
             if (this.props.places != null) {
@@ -180,21 +211,21 @@ var baseMaps = {
                     console.log('this array isnt undfined')
                 }
                 console.log('length of array', array.length);
+
                 var itemCount = array.length;
                 var loopCounter = 10;
                 if (itemCount < loopCounter) {
                     loopCounter = itemCount;
                 }
                 for (var i = 0; i < loopCounter; i++) {
-                    if(array[i]=='undefined'){
 
-                    }
-                    else {
+
                         var placeId = array[i].place_id;
                         var latitude = array[i].latitude;
                         console.log(latitude);
                         var longitude = array[i].longitude;
-                    }
+
+
                 }
 
 
@@ -216,6 +247,7 @@ var baseMaps = {
 
                 if (latitude && longitude != null) {
                     this.map.panTo(new L.LatLng(latitude, longitude));
+
 
 
                 }
@@ -261,8 +293,8 @@ var baseMaps = {
                 //console.log('tried to reset zoom')
             }
         this.updateMarkers(this.props.places);
-            this.map.zoom=zoom;
-            console.log('tried to reset zoom')
+            //this.map.zoom=zoom;
+            //console.log('tried to reset zoom')   #fairly sure these 2 lines aren't need, should have been fixed in didMount check.double check when not high.
 
 
         }
