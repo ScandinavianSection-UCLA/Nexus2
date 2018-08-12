@@ -5,7 +5,8 @@ import React, { Component } from 'react';
 import NavigatorComponent from './NavigatorComponent';
 import SearchComponent from './SearchComponent';
 import MapView from '../MapView/MapView';
-import {ontologyToDisplayKey, ontologyToID, dateFilterHelper, getPlaces} from './model';
+import {setPlaceIDList} from '../../utils'
+import {ontologyToDisplayKey, ontologyToID, dateFilterHelper} from './model';
 import {addNode} from "../UserNexus/UserNexusModel";
 import './navigation.css'
 import UserNexus from "../UserNexus/UserNexus";
@@ -45,21 +46,12 @@ class Navigation extends Component {
     componentWillMount(){
         const displayOntology = JSON.parse(localStorage.getItem('displayOntology'));
         if(displayOntology !== null){
-            const path = localStorage.getItem('path');
             const lists = localStorage.getItem('lists');
             const itemsList = localStorage.getItem('itemsList');
-            const fromDate = localStorage.getItem('fromDate');
-            const toDate = localStorage.getItem('toDate');
-            const fromSelect = localStorage.getItem('fromSelect');
-            const toSelect = localStorage.getItem('toSelect');
-            const timeFilterOn = localStorage.getItem('timeFilterOn');
             const lastIDKey = JSON.parse(localStorage.getItem('lastIDKey'));
-            const placeList = JSON.parse(localStorage.getItem('placeList'));
-            const fieldtrips = JSON.parse(localStorage.getItem('fieldtrips'));
             const lastDisplayKey = JSON.parse(localStorage.getItem('lastDisplayKey'));
 
             this.setState({
-                path:JSON.parse(path),
                 lists:JSON.parse(lists),
                 displayOntology:displayOntology,
                 itemsList:JSON.parse(itemsList),
@@ -76,10 +68,6 @@ class Navigation extends Component {
                         </span> {itemInList[lastDisplayKey]}
                     </li>
                 }),
-                fromDate:JSON.parse(fromDate),
-                toDate:JSON.parse(toDate),
-                fromSelect:JSON.parse(fromSelect),
-                toSelect:JSON.parse(toSelect),
                 timeFilterOn:false,
             });
         }
@@ -156,56 +144,27 @@ class Navigation extends Component {
         this.props.addID(id,name,type);
     }
 
-    setPlaceIDList(items, ontology){
-        var PlaceIDList = [];
-        var PlaceList = [];
-        if(ontology==='Stories'){
 
-            if(ontology==='Fieldtrips'){this.setState({fieldtrips:items})}
-
-            //list must only contain stories, for each story get the place_recorded id
-
-            items.forEach((item)=>{
-                if(item['place_recorded'] && typeof item['place_recorded'] === 'object'){
-                    PlaceIDList.push(item['place_recorded']['id']);
-                }
-            });
-
-            // var PlaceList = getPlaces(PlaceIDList);
-        }else{
-            items.forEach((item) =>{
-                PlaceIDList.push(item['place_id']);
-            });
-        }
-        return PlaceIDList;
-    }
 
     displayItems(items, ontology){
         console.log(ontology);
         var displayKey = ontologyToDisplayKey[ontology];
         var idKey = ontologyToID[ontology];
 
-        var PlaceIDList = this.setPlaceIDList(items,ontology);
+        var PlaceIDList = setPlaceIDList(items,ontology);
 
         /*Save items to local storage for data to continue to exist after tab switch/page refresh  */
-        sessionStorage.setItem('state', JSON.stringify(this.state));
-        sessionStorage.setItem('path', JSON.stringify(this.state['path']));
         sessionStorage.setItem('lists', JSON.stringify(this.state['lists']));
         sessionStorage.setItem('itemsList', JSON.stringify(items));
-        sessionStorage.setItem('fromDate', JSON.stringify(this.state['fromDate']));
-        sessionStorage.setItem('toDate', JSON.stringify(this.state['toDate']));
-        sessionStorage.setItem('fromSelect', JSON.stringify(this.state['fromSelect']));
-        sessionStorage.setItem('toSelect', JSON.stringify(this.state['toSelect']));
         sessionStorage.setItem('displayOntology', JSON.stringify(ontology));
         sessionStorage.setItem('lastIDKey', JSON.stringify(idKey));
         sessionStorage.setItem('lastDisplayKey',JSON.stringify(displayKey));
-        sessionStorage.setItem('timeFilterOn',JSON.stringify(this.state['timeFilterOn']));
         this.setState(()=>{
             return {
                 displayOntology:ontology,
                 itemsList:items,
                 displayItemsList: this.displayList(items,displayKey,idKey,ontology),
-                placeList: PlaceIDList,
+                placeList: items,
             }
         },()=>{
             if(this.state.timeFilterOn && typeof items !== 'undefined'){

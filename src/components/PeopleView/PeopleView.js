@@ -4,6 +4,10 @@
 import React, { Component } from 'react';
 import RightBar from '../RightBar/RightBar'
 import './PeopleView.css'
+import {getPlacesByID} from "../TabViewer/model";
+import {setPlaceIDList} from "../../utils";
+import {arrayTransformation} from "../RightBar/model";
+import MapView from "../MapView/MapView";
 
 class PeopleView extends Component {
 
@@ -21,7 +25,7 @@ class PeopleView extends Component {
 
     }
 
-    render() {
+    getOccupation(){
         var items=[this.props.person];
         console.log('items',items);
         var person_job='';
@@ -475,31 +479,41 @@ class PeopleView extends Component {
                         var job=items[0].occupations.occupation[i].occupation_name;
                         multiple_jobs.push(job);
                     }
-                multiple_jobs.toString();
+                    multiple_jobs.toString();
                     person_job=multiple_jobs;
                     console.log("multiple jobs array",multiple_jobs)
 
 
                 }
 
-                    else {
-                        newItem.forEach(function (new_item) {
-                            if (new_item.ID === item.occupations.occupation.occupation_id) {
-                                item.occupations.occupation.occupation_name = new_item.occupation
-                            }
-                            person_job = items[0].occupations.occupation.occupation_name;
-                        });
+                else {
+                    newItem.forEach(function (new_item) {
+                        if (new_item.ID === item.occupations.occupation.occupation_id) {
+                            item.occupations.occupation.occupation_name = new_item.occupation
+                        }
+                        person_job = items[0].occupations.occupation.occupation_name;
+                    });
 
-                        console.log('person_job_else', items[0].occupations.occupation.occupation_name);
-                    }
+                    console.log('person_job_else', items[0].occupations.occupation.occupation_name);
+                }
             }
             else {
 
-                    person_job = "No Occupation";
-                }
+                person_job = "No Occupation";
+            }
         });
+        return person_job;
+    }
 
-        console.log('items',items);
+    render() {
+        console.log(this.props.person);
+        var cleanPlacesArray = setPlaceIDList(arrayTransformation(this.props.person['places'],'Places'));
+        var PlacesArray = [];
+        cleanPlacesArray.forEach((placeID) =>{
+            PlacesArray.push(getPlacesByID(placeID));
+        });
+        var person_job = this.getOccupation();
+
         return (
             <div className="PeopleView grid-y">
                 <div className="tab-header cell medium-1">
@@ -530,7 +544,7 @@ class PeopleView extends Component {
                             </div>
                         </div>
                         <div className="medium-4 cell">
-
+                            <MapView places={PlacesArray}/>
                         </div>
                         <RightBar view={'People'}
                                   stories={this.props.person['stories']}
