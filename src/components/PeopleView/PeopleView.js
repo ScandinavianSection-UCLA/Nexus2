@@ -33,37 +33,37 @@ class PeopleView extends Component {
         var newItem = [
             {
                 "ID": 1,
-                "occupation": "aftægtskone",
+                "occupation": "pensioner(f)/aftægtskone",
                 "": ""
             },
             {
                 "ID": 2,
-                "occupation": "aftægtsmand",
+                "occupation": "pensioner(m)/aftægtsmand",
                 "": ""
             },
             {
                 "ID": 3,
-                "occupation": "almisselem",
+                "occupation": "poverty assistance recipient/almisselem",
                 "": ""
             },
             {
                 "ID": 4,
-                "occupation": "amtsrådsmedlem",
+                "occupation": "county council member/amtsrådsmedlem",
                 "": ""
             },
             {
                 "ID": 5,
-                "occupation": "Anders Højbjærgs kone",
+                "occupation": "Anders Højbjærgs kone", //find english for this one, not in list
                 "": ""
             },
             {
                 "ID": 6,
-                "occupation": "bane formand",
+                "occupation": "railway foreman/bane formand",
                 "": ""
             },
             {
                 "ID": 7,
-                "occupation": "bissekræmmer",
+                "occupation": "pedlar/bissekræmmer",
                 "": ""
             },
             {
@@ -73,52 +73,52 @@ class PeopleView extends Component {
             },
             {
                 "ID": 9,
-                "occupation": "Cand. Theol.",
+                "occupation": "theologian/Cand. Theol.",
                 "": ""
             },
             {
                 "ID": 10,
-                "occupation": "Clog maker",
+                "occupation": "clog maker/træskomand",
                 "": ""
             },
             {
                 "ID": 11,
-                "occupation": "dyrlæge",
+                "occupation": "veterinarian/dyrlæge",
                 "": ""
             },
             {
                 "ID": 12,
-                "occupation": "enke",
+                "occupation": "widow/enke",
                 "": ""
             },
             {
                 "ID": 13,
-                "occupation": "fader var lærer",
+                "occupation": "fader var lærer", //no translation
                 "": ""
             },
             {
                 "ID": 14,
-                "occupation": "fattighuslem",
+                "occupation": "fattighuslem", //no translation
                 "": ""
             },
             {
                 "ID": 15,
-                "occupation": "fattiglem",
+                "occupation": "pauper/fattiglem",
                 "": ""
             },
             {
                 "ID": 16,
-                "occupation": "felbereder",
+                "occupation": "wheel repairer/felbereder",
                 "": ""
             },
             {
                 "ID": 17,
-                "occupation": "field worker",
+                "occupation": "field worker/markarbejder",
                 "": ""
             },
             {
                 "ID": 18,
-                "occupation": "fisker",
+                "occupation": "fisherman/fisker",
                 "": ""
             },
             {
@@ -128,97 +128,97 @@ class PeopleView extends Component {
             },
             {
                 "ID": 20,
-                "occupation": "forstander",
+                "occupation": "school principal/forstander",
                 "": ""
             },
             {
                 "ID": 21,
-                "occupation": "Fru",
+                "occupation": "lady/fru",
                 "": ""
             },
             {
                 "ID": 22,
-                "occupation": "gaardmand",
+                "occupation": "farmer/gaardmand",
                 "": ""
             },
             {
                 "ID": 23,
-                "occupation": "gårdejer",
+                "occupation": "farm owner/gårdejer",
                 "": ""
             },
             {
                 "ID": 24,
-                "occupation": "Gårdmand",
+                "occupation": "farmer/gårdmand",
                 "": ""
             },
             {
                 "ID": 25,
-                "occupation": "gårdmand (forhenværende gårdejer)",
+                "occupation": "old farmowner/gårdmand (forhenværende gårdejer)",
                 "": ""
             },
             {
                 "ID": 26,
-                "occupation": "gårdmandsdatter",
+                "occupation": "farmer's daughter/gårdmandsdatter",
                 "": ""
             },
             {
                 "ID": 27,
-                "occupation": "gårdmandskone",
+                "occupation": "farmer's wife/gårdmandskone",
                 "": ""
             },
             {
                 "ID": 28,
-                "occupation": "gårdmandssøn",
+                "occupation": "farmer's son/gårdmandssøn",
                 "": ""
             },
             {
                 "ID": 29,
-                "occupation": "Guddum fattiggård",
+                "occupation": "guddum fattiggård",
                 "": ""
             },
             {
                 "ID": 30,
-                "occupation": "Housewife",
+                "occupation": "housewife",
                 "": ""
             },
             {
                 "ID": 31,
-                "occupation": "Husejer",
+                "occupation": "house owner/husejer",
                 "": ""
             },
             {
                 "ID": 32,
-                "occupation": "huskone",
+                "occupation": "house wife/huskone",
                 "": ""
             },
             {
                 "ID": 33,
-                "occupation": "husmand",
+                "occupation": "small holder (cotter)/husmand",
                 "": ""
             },
             {
                 "ID": 34,
-                "occupation": "Husmand og signetstikker",
+                "occupation": "Husmand og signetstikker", //no translation
                 "": ""
             },
             {
                 "ID": 35,
-                "occupation": "husmandsdatter",
+                "occupation": "husmandsdatter", //cotter's daughter?
                 "": ""
             },
             {
                 "ID": 36,
-                "occupation": "husmoder",
+                "occupation": "house wife/husmoder",
                 "": ""
             },
             {
                 "ID": 37,
-                "occupation": "Hustru",
+                "occupation": "house wife/hustru",
                 "": ""
             },
             {
                 "ID": 38,
-                "occupation": "indsidder",
+                "occupation": "pensioner/indsidder",
                 "": ""
             },
             {
@@ -233,77 +233,77 @@ class PeopleView extends Component {
             },
             {
                 "ID": 41,
-                "occupation": "jomfru",
+                "occupation": "simgle woman/jomfru",
                 "": ""
             },
             {
                 "ID": 42,
-                "occupation": "jordemoder",
+                "occupation": "midwife/jordemoder",
                 "": ""
             },
             {
                 "ID": 43,
-                "occupation": "Journeyman miller",
+                "occupation": "journeyman miller/møllersvend",
                 "": ""
             },
             {
                 "ID": 44,
-                "occupation": "Kirkestilling ved Slagelse",
+                "occupation": "church employee/kirkestilling ved Slagelse",
                 "": ""
             },
             {
                 "ID": 45,
-                "occupation": "Kjæltringsfolket",
+                "occupation": "gypsy/kjæltringsfolket",
                 "": ""
             },
             {
                 "ID": 46,
-                "occupation": "klog mand",
+                "occupation": "folk healer (male)/klog mand",
                 "": ""
             },
             {
                 "ID": 47,
-                "occupation": "klogmand",
+                "occupation": "folk healer (male)/klogmand",
                 "": ""
             },
             {
                 "ID": 48,
-                "occupation": "Købmand",
+                "occupation": "grocer/købmand",
                 "": ""
             },
             {
                 "ID": 49,
-                "occupation": "Købmands kone",
+                "occupation": "grocer's wife/købmands kone",
                 "": ""
             },
             {
                 "ID": 50,
-                "occupation": "Kone",
+                "occupation": "wife/kone",
                 "": ""
             },
             {
                 "ID": 51,
-                "occupation": "kostebinder",
+                "occupation": "broom maker/kostebinder",
                 "": ""
             },
             {
                 "ID": 52,
-                "occupation": "Lærer",
+                "occupation": "teacher/lærer",
                 "": ""
             },
             {
                 "ID": 53,
-                "occupation": "Lærer (pens)",
+                "occupation": "retired teacher/lærer (pens)",
                 "": ""
             },
             {
                 "ID": 54,
-                "occupation": "Lærer",
+                "occupation": "teacher/lærer",
                 "": "mange år biskolelærer ved Sunds 4 biskoler"
             },
             {
                 "ID": 55,
-                "occupation": "Lærers kone",
+                "occupation": "teachers wife/lærers kone",
                 "": ""
             },
             {
@@ -313,17 +313,17 @@ class PeopleView extends Component {
             },
             {
                 "ID": 57,
-                "occupation": "madam",
+                "occupation": "lady/madam",
                 "": ""
             },
             {
                 "ID": 58,
-                "occupation": "mejerist",
+                "occupation": "dairy worker/mejerist",
                 "": ""
             },
             {
                 "ID": 59,
-                "occupation": "Møller",
+                "occupation": "miller/møller",
                 "": ""
             },
             {
@@ -338,52 +338,52 @@ class PeopleView extends Component {
             },
             {
                 "ID": 62,
-                "occupation": "pastor",
+                "occupation": "pastor/pastor",
                 "": ""
             },
             {
                 "ID": 63,
-                "occupation": "Pensioner",
+                "occupation": "Pensioner/indsidder",//there are like 3 different translations, i chose this one
                 "": ""
             },
             {
                 "ID": 64,
-                "occupation": "Pjaltekræmmer",
+                "occupation": "rag pedlar/pjaltekræmmer",
                 "": ""
             },
             {
                 "ID": 65,
-                "occupation": "Præst",
+                "occupation": "minister/præst",
                 "": ""
             },
             {
                 "ID": 66,
-                "occupation": "Ridedreng",
+                "occupation": "horse boy/ridedreng",
                 "": ""
             },
             {
                 "ID": 67,
-                "occupation": "røgter",
+                "occupation": "stall hand/røgter",
                 "": ""
             },
             {
                 "ID": 68,
-                "occupation": "skovfoged",
+                "occupation": "forest ranger/skovfoged",
                 "": ""
             },
             {
                 "ID": 69,
-                "occupation": "skrædder",
+                "occupation": "tailor/skrædder",
                 "": ""
             },
             {
                 "ID": 70,
-                "occupation": "small holder",
+                "occupation": "small holder/husmand",
                 "": ""
             },
             {
                 "ID": 71,
-                "occupation": "Smed",
+                "occupation": "smith/smed",
                 "": ""
             },
             {
@@ -393,12 +393,12 @@ class PeopleView extends Component {
             },
             {
                 "ID": 73,
-                "occupation": "Snedker",
+                "occupation": "cabinet maker/snedker",
                 "": ""
             },
             {
                 "ID": 74,
-                "occupation": "sognefoged",
+                "occupation": "bailiff/sognefoged",
                 "": ""
             },
             {
@@ -408,12 +408,12 @@ class PeopleView extends Component {
             },
             {
                 "ID": 76,
-                "occupation": "spillemand (omvandrende)",
+                "occupation": "folk musician/spillemand (omvandrende)",
                 "": ""
             },
             {
                 "ID": 77,
-                "occupation": "stationsforstander",
+                "occupation": "station foreman/stationsforstander",
                 "": ""
             },
             {
@@ -423,42 +423,42 @@ class PeopleView extends Component {
             },
             {
                 "ID": 79,
-                "occupation": "Tømrer",
+                "occupation": "carpenter/tømrer",
                 "": ""
             },
             {
                 "ID": 80,
-                "occupation": "træskomand",
+                "occupation": "clog maker/træskomand",
                 "": ""
             },
             {
                 "ID": 81,
-                "occupation": "Turner",
+                "occupation": "drejer/turner",
                 "": ""
             },
             {
                 "ID": 82,
-                "occupation": "Uddeler",
+                "occupation": "cooperative leader/uddeler",
                 "": ""
             },
             {
                 "ID": 83,
-                "occupation": "wheatbread woman",
+                "occupation": "wheatbread woman/hvedebrødskone",
                 "": ""
             },
             {
                 "ID": 84,
-                "occupation": "ungkarl",
+                "occupation": "ungkarl", //bachelor?
                 "": ""
             },
             {
                 "ID": 85,
-                "occupation": "Gartner",
+                "occupation": "gartner/gartner",
                 "": ""
             },
             {
                 "ID": 86,
-                "occupation": "skomager",
+                "occupation": "shoemaker/skomager",
                 "": ""
             }
         ]; //json of occupations and occupation IDs
@@ -532,7 +532,7 @@ class PeopleView extends Component {
                                             <div className="detail-item"><b>Born</b> {this.props.person['birth_date']}</div>
                                             <div className="detail-item"><b>Died</b> {this.props.person['death_date']}</div>
                                             <div className="detail-item"><b>ID#</b> {String(this.props.person['person_id'])}</div>
-                                            <div className="detail-item"><b>Occupation</b> {String(person_job)}</div>
+                                            <div className="detail-item"><b>Occupation (Eng/Dansk):</b> {String(person_job)}</div>
                                         </div>
                                     </div>
                                 </div>
