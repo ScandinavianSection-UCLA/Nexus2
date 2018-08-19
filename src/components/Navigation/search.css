@@ -1,9 +1,11 @@
 .SearchComponent{
-    padding-top:5vh;
+    /*padding-top:5vh;*/
+    padding:5% 0 3% 2%;
     /*height:30vh;*/
     background:#ED4C67;
     margin-bottom:20%;
-    margin-top:10%;
+    /*margin-top:10%;*/
+    
 }
 
 .SearchComponent input[type=text]{
