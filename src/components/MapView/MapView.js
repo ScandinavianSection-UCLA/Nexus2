@@ -6,8 +6,8 @@ import React, { Component } from 'react';
 import './MapView.css';
 
 import L from 'leaflet';
-import ReactDOM from 'react-dom';
-import AJAX from 'leaflet-ajax';
+//import ReactDOM from 'react-dom';
+//import AJAX from 'leaflet-ajax';
 
 
 
