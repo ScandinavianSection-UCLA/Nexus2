@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^6.5.3",
     "babel-preset-env": "^1.7.0",
     "classnames": "^2.2.5",
     "create-react-class": "^15.6.3",
+    "d3": "^4.10.2",
     "d3-drag": "^1.2.1",
     "d3-force": "^1.1.0",
     "d3-shape": "^1.2.0",
