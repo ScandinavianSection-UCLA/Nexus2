@@ -1,5 +1,5 @@
 /**
- * Created by danielhuang on 4/7/18.
+ * Created by danielhuang/benrosen on 4/7/18.
  */
 import React, { Component } from 'react';
 
@@ -93,9 +93,10 @@ class MapView extends React.Component {
         };
     }
 
-    componentWillMount(){
-        console.log('component will mount');
-    }
+    // componentWillMount(){
+    //     console.log('component will mount');
+    //     this.getZoomlevel();
+    // }
 
 getZoomlevel(){
     zoom=7;
@@ -128,30 +129,21 @@ getZoomlevel(){
 
 var openStreet = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-    })//.addTo(this.map);
+    });
 
 var  oldLayer = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png',{
         attribution:'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    })//.addTo(this.map);
-
-
-
-/*var danishLayer = L.tileLayer.wms('https://services.kortforsyningen.dk/topo20_hoeje_maalebordsblade?ignoreillegallayers=TRUE&transparent=TRUE&login=tango1963&password=heimskr1;&',{
-    layers: 'dtk_hoeje_maalebordsblade',
-    format: 'image/png'
-}).addTo(this.map);*/
-
-
+    });
 
 var highBoards = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo20_hoeje_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
     layers: 'dtk_hoeje_maalebordsblade',
     format: 'image/png'
-})//.addTo(this.map);
+});
 
 var prussianMaps = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo25_preussen_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
     layers: 'dtk_preussen_maalebordsblade',
     format: 'image/png'
-})//.addTo(this.map);
+});
 
 var lowBoards = L.tileLayer.wms('http://kortforsyningen.kms.dk/service?servicename=topo20_lave_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;',{
     layers: 'dtk_lave_maalebordsblade',
@@ -186,11 +178,11 @@ var baseMaps = {
         // console.log('this is didMOUNT props.places',this.props.places);
 
 
-
-    }
+    }  //end of component did mount
 
     updateMarkers() {
-        //=7;
+
+
         var propsPlaces=this.props.places;
 
         console.log('this is didMOUNT props.places',this.props.places);
@@ -279,8 +271,14 @@ var baseMaps = {
                 }).addTo(this.map);
             }
 
-        }
+        } //end up update markers
 
+
+    componentDidUpdate(){
+        this.updateMarkers(this.props.places);
+        zoom=7;
+        console.log('component did update')
+    }
 
 
 
@@ -289,10 +287,11 @@ var baseMaps = {
         if( this.map !=null){
             if(this.geoJson !=null) {
                 this.map.removeLayer(this.geoJson);
-               // this.map.zoom=zoom
-                //console.log('tried to reset zoom')
+
             }
         this.updateMarkers(this.props.places);
+
+
             //this.map.zoom=zoom;
             //console.log('tried to reset zoom')   #fairly sure these 2 lines aren't need, should have been fixed in didMount check.double check when not high.
 
