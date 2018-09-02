@@ -290,6 +290,7 @@ var baseMaps = {
 
             }
         this.updateMarkers(this.props.places);
+            console.log('tried to render')
 
 
             //this.map.zoom=zoom;
