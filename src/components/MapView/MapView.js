@@ -90,13 +90,10 @@ class MapView extends React.Component {
         this.state = {
             mapObject:{},
             mapID:''
-        };
+        }
     }
 
-    // componentWillMount(){
-    //     console.log('component will mount');
-    //     this.getZoomlevel();
-    // }
+
 
 getZoomlevel(){
     zoom=7;
@@ -109,7 +106,7 @@ getZoomlevel(){
         zoom=7
         console.log('just set zoom to 7') //zoomed in
     }
-    console.log('this is didMOUNT props.places',this.props.places);
+    //console.log('this is didMOUNT props.places',this.props.places);
 }
 
 
@@ -274,14 +271,17 @@ var baseMaps = {
         } //end up update markers
 
 
-    componentDidUpdate(){
-        this.updateMarkers(this.props.places);
-        zoom=7;
-        console.log('component did update')
+    // componentDidUpdate(){
+    //     this.updateMarkers(this.props.places);
+    //     zoom=7;
+    //     console.log('component did update')
+    // }
+
+
+    componentWillUnmount() {
+        this.map.remove();
+
     }
-
-
-
 
     render() {
         if( this.map !=null){
@@ -290,12 +290,9 @@ var baseMaps = {
 
             }
         this.updateMarkers(this.props.places);
+            //this.getZoomlevel();
+            zoom=7;
             console.log('tried to render')
-
-
-            //this.map.zoom=zoom;
-            //console.log('tried to reset zoom')   #fairly sure these 2 lines aren't need, should have been fixed in didMount check.double check when not high.
-
 
         }
 
@@ -306,9 +303,8 @@ var baseMaps = {
         )
         console.log('look at me render');
     }
+
 }
-
-
 
 
 export default MapView;
