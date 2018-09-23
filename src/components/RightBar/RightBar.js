@@ -175,6 +175,7 @@ class RightBar extends Component {
     }
 
     renderPlaces(){
+        console.log(this.props.places);
         var cleanArray = this.props.places;
         if(cleanArray.length===0){
             return <div className="cell medium-10 large-9 content">

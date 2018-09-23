@@ -198,12 +198,13 @@ class StoryView extends Component {
     render() {
         console.log("places array",this.props.story['places']['place']);
         var cleanPlacesArray = setPlaceIDList(arrayTransformation(this.props.story['places']['place']),'Places');
+        var PlaceObjectArray = this.props.story['places']['place'];
         var PlacesArray = [];
         cleanPlacesArray.forEach((placeID) =>{
             PlacesArray.push(getPlacesByID(placeID));
         });
         var storiesByPerson = getPeopleByID(this.props.story['informant_id'])['stories'];
-        console.log(getPeopleByID(this.props.story['informant_id']));
+        // console.log(getPeopleByID(this.props.story['informant_id']));
         var personData = getPeopleByID(this.props.story['informant_id']);
         return (
             <div className="StoryView grid-x">
@@ -306,7 +307,7 @@ class StoryView extends Component {
                                 </div>
                             </div>
                         </div>
-                        <RightBar view={"Stories"} object={this.props.story} bio={personData} places={cleanPlacesArray} stories={storiesByPerson} passID={this.clickHandler}/>
+                        <RightBar view={"Stories"} object={this.props.story} bio={personData} places={PlaceObjectArray} stories={storiesByPerson} passID={this.clickHandler}/>
                     </div>
 
                 </div>
