@@ -216,7 +216,6 @@ class MapView extends React.Component {
                 var latitude = array[i].latitude;
                 console.log(latitude);
                 var longitude = array[i].longitude;
-                console.log('this.map.center',this.map.center)
 
 
             }
@@ -239,8 +238,7 @@ class MapView extends React.Component {
             }).addTo(this.map);
 
             if (latitude && longitude != null) {
-                //this.map.panTo(new L.LatLng(latitude, longitude));
-                this.map.setView(new L.LatLng(latitude, longitude), 12);
+                this.map.panTo(new L.LatLng(latitude, longitude));
 
 
 
@@ -277,8 +275,8 @@ class MapView extends React.Component {
 
 
     componentDidUpdate(){
-        //this.map.remove();
-        //this.updateMarkers(this.props.places);
+        this.map.remove();
+        this.updateMarkers(this.props.places);
         console.log('component did update')
     }
 
