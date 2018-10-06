@@ -83,7 +83,7 @@ class PeopleView extends Component {
             PlacesArray.push(getPlacesByID(placeID));
         });
         var person_job = this.getOccupation();
-
+        console.log(this.props.person['places']);
         return (
             <div className="PeopleView grid-y">
                 <div className="tab-header cell medium-1">

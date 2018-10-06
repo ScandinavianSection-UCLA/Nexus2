@@ -58,7 +58,7 @@ class FieldtripView extends Component {
     }
 
     renderResults(){
-        if(this.props.fieldtrip['people_visited']!==[] && this.props.fieldtrip['places_visited'] !== [] && this.props.fieldtrip['stories_collected'] !== []){
+        if (this.props.fieldtrip['people_visited']!==[] && this.props.fieldtrip['places_visited'] !== [] && this.props.fieldtrip['stories_collected'] !== []){
             return <div>
                 {this.renderPeople()}
                 {this.renderPlaces()}

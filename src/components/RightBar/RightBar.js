@@ -177,10 +177,10 @@ class RightBar extends Component {
     renderPlaces(){
         console.log(this.props.places);
         var cleanArray = this.props.places;
-        if (typeof cleanArray != 'Array') {
+        if (!(cleanArray instanceof Array)) {
           cleanArray = [cleanArray]
         }
-        if(cleanArray.length===0){
+        if(cleanArray.length === 0){
             return <div className="cell medium-10 large-9 content">
                 <div className="callout alert">
                     <h6>There are no associated places.</h6>
