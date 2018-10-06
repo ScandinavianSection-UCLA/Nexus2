@@ -20,27 +20,29 @@ export function initializeGraph(){
 
 export function initializeNodeCategories(){
     const nodeCategories = JSON.parse(sessionStorage.getItem('nodeCategories'));
-    var People, Places, Stories;
+    var People, Places, Stories, Fieldtrips;
     if(nodeCategories===null){
         People = [];
         Places = [];
         Stories = [];
+        Fieldtrips = [];
     } else {
         //fill data from localstorage
         People = nodeCategories['People'];
         Places = nodeCategories['Places'];
         Stories = nodeCategories['Stories'];
+        Fieldtrips = nodeCategories['Fieldtrips'];
     }
     return {
         People:People,
         Places:Places,
         Stories:Stories,
+        Fieldtrips: Fieldtrips
     }
 }
 
-//"Smart" function
+// "Smart" function
 export function addNode(id, name, type, item){
-
     var newNode = createNode(id, name, type, item);
 
     //initialize localstorage items
@@ -52,8 +54,6 @@ export function addNode(id, name, type, item){
         graphData['nodes'].splice(0,1);
     }
 
-    // console.log(graphData);
-
     //check if newNode already exists
     var itemExists = graphData['nodes'].includes(newNode);
 
@@ -62,18 +62,12 @@ export function addNode(id, name, type, item){
         graphData['nodes'].push(newNode);
     }
 
-    console.log(graphData);
-
-    //check/create for links
+    // check/create for links
     graphData['links'] = graphData['links'].concat(createLinkage(newNode,nodeCategories));
     console.log(newNode['type']);
-    if (newNode['type'] != 'Fieldtrips') {
-      nodeCategories[newNode['type']].push(newNode);
-      sessionStorage.setItem('nodeCategories', JSON.stringify(nodeCategories));
-      sessionStorage.setItem('graphData', JSON.stringify(graphData));
-    } else {
-      console.log('Fieldtrips node type not yet implemented');
-    }
+    nodeCategories[newNode['type']].push(newNode);
+    sessionStorage.setItem('nodeCategories', JSON.stringify(nodeCategories));
+    sessionStorage.setItem('graphData', JSON.stringify(graphData));
 }
 
 //"dumb function"
@@ -89,6 +83,9 @@ export function createNode(id, name, type, item){
             break;
         case 'Stories':
             nodeColor = 'grey';
+            break;
+        case 'Fieldtrips':
+            nodeColor = 'green';
     }
 
     return {
