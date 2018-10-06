@@ -24,7 +24,9 @@ class PlaceView extends Component {
         var storyMentioned = [];
         var peopleList =[];
         if('people' in this.props.place){
-            peopleList = this.props.place.people;
+            if ('person' in this.props.place['people'][0]) {
+              peopleList = [ this.props.place['people'][0]['person'] ];
+            }
         }
         if('storiesCollected' in this.props.place){
             storyCollected = this.props.place['storiesCollected']
@@ -32,6 +34,8 @@ class PlaceView extends Component {
         if('storiesMentioned' in this.props.place){
             storyMentioned = this.props.place['storiesMentioned']
         }
+
+        console.log(peopleList)
 
         return (
             <div className="PlaceView grid-y">
