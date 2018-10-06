@@ -65,10 +65,15 @@ export function addNode(id, name, type, item){
     console.log(graphData);
 
     //check/create for links
-    graphData['links']= graphData['links'].concat(createLinkage(newNode,nodeCategories));
-    nodeCategories[newNode['type']].push(newNode);
-    sessionStorage.setItem('nodeCategories', JSON.stringify(nodeCategories));
-    sessionStorage.setItem('graphData', JSON.stringify(graphData));
+    graphData['links'] = graphData['links'].concat(createLinkage(newNode,nodeCategories));
+    console.log(newNode['type']);
+    if (newNode['type'] != 'Fieldtrips') {
+      nodeCategories[newNode['type']].push(newNode);
+      sessionStorage.setItem('nodeCategories', JSON.stringify(nodeCategories));
+      sessionStorage.setItem('graphData', JSON.stringify(graphData));
+    } else {
+      console.log('Fieldtrips node type not yet implemented');
+    }
 }
 
 //"dumb function"
