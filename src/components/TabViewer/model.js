@@ -22,29 +22,32 @@ export function getStoryByID(story_id){
 
 export function getPeopleByID(person_id){
     var personObject = realPeopleData[person_id];
-
-    var DefinedPlaces = typeof personObject['places'] !== 'undefined',
-        DefinedStories = typeof personObject['stories']!== 'undefined',
-        DefinedPlace = typeof personObject['places'].place !== 'undefined',
-        DefinedStory = typeof personObject['stories'].story !== 'undefined';
-    if(DefinedPlaces && DefinedStories){
-        if(DefinedPlace && DefinedStory){
+    var DefinedPerson = typeof personObject !== 'undefined';
+    console.log(personObject, realPeopleData);
+    if (DefinedPerson) {
+      var DefinedPlaces = typeof personObject['places'] !== 'undefined',
+          DefinedStories = typeof personObject['stories']!== 'undefined',
+          DefinedPlace = typeof personObject['places'].place !== 'undefined',
+          DefinedStory = typeof personObject['stories'].story !== 'undefined';
+      if(DefinedPlaces && DefinedStories && DefinedPlace && DefinedStory){
             personObject['places'] = arrayTransformation(personObject['places'].place);
             personObject['stories'] = arrayTransformation(personObject['stories'].story);
-        }
+      }
+
+      return realPeopleData[person_id];
     }
 
-    return realPeopleData[person_id];
+    console.log("person_id doesn't exist");
 }
 
 export function getPlacesByID(place_id){
     var placeObject = placesData[place_id];
-
-    if(placeObject.people !== undefined && placeObject.people !== [] && placeObject.people !== null){
-        console.log(placeObject['people']['person'], placeObject['people']);
+    if(typeof placeObject.people !== 'undefined' && placeObject.people !== []
+      && placeObject.people !== null){
+        console.log(placeObject, placeObject['people']);
         placeObject['people'] = arrayTransformation(placesData[place_id].people);
     } else {
-        delete placeObject.people
+        delete placeObject.people;
     }
     if(place_id in placesMentionedData && place_id in storiesCollectedData){
         placeObject['storiesCollected'] = arrayTransformation(storiesCollectedData[place_id].stories.story);
