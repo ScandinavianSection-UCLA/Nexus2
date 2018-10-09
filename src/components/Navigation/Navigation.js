@@ -144,8 +144,6 @@ class Navigation extends Component {
         this.props.addID(id,name,type);
     }
 
-
-
     displayItems(items, ontology){
         console.log(ontology);
         var displayKey = ontologyToDisplayKey[ontology];

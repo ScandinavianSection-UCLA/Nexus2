@@ -59,6 +59,7 @@ class Navigation extends Component {
                     TINav:['ETK Indice','Tangherlini Index','Fieldtrips','Genres'],
                 }
             });
+            this.handleLevelTwoClick('Stories');
         }
 
     }
