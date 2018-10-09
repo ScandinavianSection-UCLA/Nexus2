@@ -40,30 +40,33 @@ export function getPeopleByID(person_id){
     console.log("person_id doesn't exist");
 }
 
-export function getPlacesByID(place_id){
+export function getPlacesByID(place_id) {
     var placeObject = placesData[place_id];
-    if(typeof placeObject.people !== 'undefined' && placeObject.people !== []
-      && placeObject.people !== null){
+    if (typeof placeObject !== 'undefined') {
+      if (typeof placeObject.people !== 'undefined' && placeObject.people !== [] && placeObject.people !== null) {
         console.log(placeObject, placeObject['people']);
         placeObject['people'] = arrayTransformation(placesData[place_id].people);
-    } else {
+      } else {
         delete placeObject.people;
-    }
-    if(place_id in placesMentionedData && place_id in storiesCollectedData){
+      }
+      if (place_id in placesMentionedData && place_id in storiesCollectedData) {
         placeObject['storiesCollected'] = arrayTransformation(storiesCollectedData[place_id].stories.story);
         placeObject['storiesMentioned'] = arrayTransformation(placesMentionedData[place_id].stories.story);
-    } else if(place_id in storiesCollectedData) {
+      } else if (place_id in storiesCollectedData) {
         placeObject['storiesCollected'] = arrayTransformation(storiesCollectedData[place_id].stories.story);
-    } else if(place_id in placesMentionedData){
+      } else if (place_id in placesMentionedData) {
         placeObject['storiesMentioned'] = arrayTransformation(placesMentionedData[place_id].stories.story);
+      }
+      return placeObject;
+    } else {
+      console.log("placeObject not defined.");
     }
-    return placeObject;
 }
 
 export function getFieldtripsByID(fieldtrip_id){
     var fieldtripObject = fieldtripsData[fieldtrip_id];
 
-    if(fieldtripObject['people_visited'] !== null && fieldtripObject['places_visited'] !== null && fieldtripObject['stories_collected'] !== null){
+    if (fieldtripObject['people_visited'] !== null && fieldtripObject['places_visited'] !== null && fieldtripObject['stories_collected'] !== null){
         fieldtripObject['people_visited'] = arrayTransformation(fieldtripObject['people_visited'].person);
         fieldtripObject['places_visited'] = arrayTransformation(fieldtripObject['places_visited'].place);
         fieldtripObject['stories_collected'] = arrayTransformation(fieldtripObject['stories_collected'].story);
