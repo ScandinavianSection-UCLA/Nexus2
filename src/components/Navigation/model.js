@@ -230,8 +230,19 @@ export function dateFilterHelper(startDate, endDate, ontology){
         if(typeof fieldtripKey !== 'undefined'){
             fieldtripsInDates.forEach((fieldtrip)=>{
                 //for each fieldtrip, get array of people, places, or stories
-                var uncleanedItems = fieldtrip[fieldtripKey['firstKey']][fieldtripKey['secondKey']];
+                //handle fieldtrip data if second key doesn't exist (i.e. stories_collected:[stories...] and stories_collected:{stories...})
+                var uncleanedItems;
+
+                if(fieldtrip[fieldtripKey['firstKey']] instanceof Array){
+                    uncleanedItems = fieldtrip[fieldtripKey['firstKey']];
+                    console.log('An array!!!')
+                } else{
+                    //if fieldtrip['stories_collected'] has object ({'stories':[stories...]}), get to stories
+                    uncleanedItems = fieldtrip[fieldtripKey['firstKey']][fieldtripKey['secondKey']];
+                }
+
                 var CurrentFieldtripItems = arrayTransformation(uncleanedItems);
+
                 if(typeof CurrentFieldtripItems !== 'undefined'){
                     var IDKey = Object.keys(CurrentFieldtripItems[0])[0]; //the ID key will be the first key of every item object
                     //create unique list of people, places, or stories

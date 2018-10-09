@@ -85,6 +85,7 @@ class Navigation extends Component {
                             <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
                             <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
                             <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
+                            <img className={"fieldtrip-icon " + ontology} src={require('./icons8-waypoint-map-32.png')}  alt="location"/>
                         </span> {itemInList[displayKey]}
                     </li>
                 }),
@@ -175,7 +176,7 @@ class Navigation extends Component {
         var displayKey = ontologyToDisplayKey[this.state.displayOntology];
         var idKey = ontologyToID[this.state.displayOntology];
         if(this.state.timeFilterOn){
-            //filter by time
+            //filter by time to get array with display artifacts that fit the time filter
             var itemsWithinFieldtrips = dateFilterHelper(this.refs.fromDate.value, this.refs.toDate.value,this.state.displayOntology);
             //if an item is in the itemsWithinFieldtrips, change what is displayed, NOT items list
             var displayList = [];
@@ -183,17 +184,25 @@ class Navigation extends Component {
             if(this.state.displayOntology !== 'Fieldtrips'){
                 var idsWithinFieldtrips = [];
                 if(typeof itemsWithinFieldtrips !== 'undefined'){
+
+                    //create array of display artifact ids within time filter (this is to speed filtering process later)
                     itemsWithinFieldtrips.forEach((item)=>{
                         idsWithinFieldtrips.push(item[idKey]);
                     });
+
+                    // set items that are within timeline into the display list
                     this.state.itemsList.forEach((item)=>{
                         //if something in the current items list is in the range of the date
                         if(idsWithinFieldtrips.indexOf(item[idKey]) > -1){
                             displayList.push(item);
                         }
                     });
+
+                    //set display ontology to allow icons to show
+                    let displayOntologyTimeline = this.state.displayOntology;
+
                     this.setState({
-                        displayItemsList:this.displayList(displayList,displayKey,idKey,'undefined')
+                        displayItemsList:this.displayList(displayList,displayKey,idKey, displayOntologyTimeline)
                     })
                 }
             } else { //else it is a fieldtrip
@@ -202,8 +211,10 @@ class Navigation extends Component {
                 })
             }
         } else if(!this.state.timeFilterOn) {
+            //set display ontology to define which icon to show
+            let displayOntologyTimeline = this.state.displayOntology;
             this.setState({
-                displayItemsList:this.displayList(this.state.itemsList,displayKey,idKey,'undefined')
+                displayItemsList:this.displayList(this.state.itemsList,displayKey,idKey,displayOntologyTimeline)
             })
         }
 
