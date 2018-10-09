@@ -8,3 +8,6 @@ and Pete Broadwell (UCLA). React Application was created by Daniel Huang (UCLA).
 3. Once installed, navigate to repository directory (i.e. `C:/Users/[username]/Desktop/Nexus2`) and run `npm install`
 4. After all packages have been installed, run application with `npm start`
 5. Once server is successfully running, open on browser at `localhost:3000`
+
+# Troubleshooting
+* If you are having fail to compile errors, it is likely that npm and node cannot compile ES6. Be sure they are set to npm 6.1.0v and node 8.9.4v
