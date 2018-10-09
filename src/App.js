@@ -36,10 +36,9 @@ class App extends Component {
 
         return (
             <div className="App grid-y medium-grid-frame full">
-
                 <BrowserRouter>
                     <Switch>
-                        <Route path="/" exact render={()=>{
+                        <Route path="" exact render={()=>{
                             return(
                                 <div>
                                     <Heading sendData={this.menuHandler.bind(this)}/>
