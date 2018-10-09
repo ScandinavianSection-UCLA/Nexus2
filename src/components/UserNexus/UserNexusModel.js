@@ -101,9 +101,9 @@ export function createNode(id, name, type, item){
 export function createLinkage(newNode, nodeCategories){
     //initialize cleaned up arrays to make type comparison by array
     var links = [],
-        currItemPeople = [], //array of all people associated with newNode
-        currItemPlaces = [], //arry of all places associated with newNode
-        currItemInformantStories = [], //array of all stories associated with newNode
+        currItemPeople = [], // array of all people associated with newNode
+        currItemPlaces = [], // array of all places associated with newNode
+        currItemInformantStories = [], // array of all stories associated with newNode
         currItem = newNode['item'],
         currInformant;
     //fill out currItem arrays

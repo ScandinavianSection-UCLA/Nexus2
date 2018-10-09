@@ -10,7 +10,7 @@ import './RightBar.css'
 
 class RightBar extends Component {
 
-    constructor(){
+    constructor() {
         super();
         this.state = {
             isPaneOpen: false,
@@ -29,7 +29,7 @@ class RightBar extends Component {
         Modal.setAppElement(this.el);
     }
 
-    clickHandler(id,name,type,item){
+    clickHandler(id,name,type,item) {
         console.log(this.props);
         addNode(id,name,type,item);
         this.props.passID(id,name,type);
@@ -52,12 +52,15 @@ class RightBar extends Component {
                 isPaneOpen: true,
                 isActive:oldState.isActive,
             };
-        }); //make side bar appear
+        }); // make side bar appear
     }
 
-    renderControls(){
-        //  if place then people story story
-        if(this.props.view === 'Places'){
+    renderControls() {
+        // If place is selected, then create tabs for people, stories that mentioned it, and stories collected
+        if (this.props.view === 'Places') {
+            // First <div> is the people tab
+            // Second <div> is the stories that mention it tab
+            // Third <div> is the stories collected tab
             return <div style={{marginTop:'150%', marginBottom:'20%'}}>
                 <div className={`medium-2 cell ${this.state.isActive['people'] ? 'active':''} bio`}
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('people')}}>
@@ -84,7 +87,10 @@ class RightBar extends Component {
                     <div className="icon-label">Stories Collected</div>
                 </div>
             </div>
-        } else if (this.props.view === 'Stories'){ //  if story then people place story
+        } else if (this.props.view === 'Stories') { // If story is selected, then create tabs for author, places, and stories
+            // First <div> is the author tab
+            // Second <div> is the places tab
+            // Third <div> is the stories tab
             return <div style={{marginTop:'150%', marginBottom:'20%'}}>
                 <div className={`medium-2 cell ${this.state.isActive['people'] ? 'active':''} bio`}
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('bio')}}>
@@ -111,7 +117,9 @@ class RightBar extends Component {
                     <div className="icon-label">Stories</div>
                 </div>
             </div>
-        } else if (this.props.view === 'People'){ //  if people then place story
+        } else if (this.props.view === 'People') { // If person selected, then create tabs for places and stories
+            // First <div> is the plaes tab
+            // Second <div> is the stories tab
             return <div style={{marginTop:'150%', marginBottom:'20%'}}>
                 <div className={`medium-2 cell ${this.state.isActive['places'] ? 'active':''} places` }
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('places')}}>
@@ -133,9 +141,7 @@ class RightBar extends Component {
         }
     }
 
-
-    renderContent(){
-
+    renderContent() {
         if(this.state.isActive['bio']){
             return this.renderBiography();
         } else if(this.state.isActive['places']){
@@ -149,8 +155,7 @@ class RightBar extends Component {
         }
     }
 
-    renderPeople(){
-
+    renderPeople() {
         if(this.props.people.length===0){
             return <div className="cell medium-10 large-9 content">
                 <div className="callout alert">
@@ -174,7 +179,7 @@ class RightBar extends Component {
         }
     }
 
-    renderPlaces(){
+    renderPlaces() {
         console.log(this.props.places);
         var cleanArray = this.props.places;
         if (!(cleanArray instanceof Array)) {
@@ -205,14 +210,14 @@ class RightBar extends Component {
         }
     }
 
-    renderStories(mentioned){
+    renderStories(mentioned) {
         var storiesByPerson = [];
         if(mentioned==='mentioned'){
             storiesByPerson = this.props.storiesMentioned;
         } else{
             storiesByPerson = this.props.stories;
         }
-        if(storiesByPerson.length === 0){ //if there are no associated stories
+        if(storiesByPerson.length === 0){ // if there are no associated stories
             return <div className="cell medium-10 large-9 content">
                 <div className="callout alert">
                     <h6>There are no {mentioned} stories.</h6>
@@ -238,7 +243,7 @@ class RightBar extends Component {
 
     }
 
-    renderBiography(){
+    renderBiography() {
         var personData = this.props.bio;
         return <div className="cell medium-10 large-9 content">
             <div className="grid-y">
