@@ -29,36 +29,25 @@ class App extends Component {
     }
 
     homeHandler(){
-        console.log(this.tabViewer, this.refs.tabViewer);
-        this.refs.tabViewer.switchTab({
-            jsx: <Navigation addID={this.handleID}/>,
-            active: true,
-            id:0,
-            name:'Home',
-            type:'Home'
-        });
+
     }
 
     render() {
 
         return (
             <div className="App grid-y medium-grid-frame full">
-                {/*<Heading sendData={this.menuHandler.bind(this)}/>*/}
-                {/*<TabViewer ref="tabViewer" menuItem={this.state.menuItem}/>*/}
+                <Heading sendData={this.menuHandler.bind(this)}/>
                 <BrowserRouter>
                     <Switch>
-                        <Route path="" exact render={()=>{
+                        <Route path="/" exact render={()=>{
                             return(
-                                <div>
-                                    <Heading sendData={this.menuHandler.bind(this)}/>
-                                    <TabViewer ref="tabViewer" menuItem={this.state.menuItem}/>
-                                </div>
+                                <TabViewer ref="tabViewer" menuItem={this.state.menuItem}/>
                             )
                         }}/>
-                        <Route path="/hi" exact render={()=>{
-                            return(<div>
-                                <Heading sendData={this.menuHandler}/>
-                            </div>)
+                        <Route path="/hello" exact render={()=>{
+                            return(
+                                <TabViewer ref="tabViewer" menuItem={this.state.menuItem} home={true}/>
+                            )
                         }}/>
                     </Switch>
                 </BrowserRouter>

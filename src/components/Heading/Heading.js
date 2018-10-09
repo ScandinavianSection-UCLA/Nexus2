@@ -91,8 +91,10 @@ class Heading extends Component {
             <div className="Heading grid-x grid-padding-x">
                 <div className="large-4 cell">
                     <div className="grid-x grid-margin-x">
-                        <img src={require('./assets/DENM0001.png')} className="flag medium-3 medium-offset-1 cell"
+                        <a href="/hello" className="flag medium-3 medium-offset-1 cell">
+                            <img src={require('./assets/DENM0001.png')}
                              alt="Danish Flag"/>
+                        </a>
                         <h5 className="danish-folklore medium-2 cell">Danish Folklore</h5>
                         <h6 className="etk medium-6 cell">The Evald Tang <br/> Kristensen Collection</h6>
                     </div>
