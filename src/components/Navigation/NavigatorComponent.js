@@ -32,33 +32,38 @@ class Navigation extends Component {
     }
 
     componentWillMount(){
-        const prevState = JSON.parse(localStorage.getItem('NavCompState'));
-        // console.log(prevState);
-        if(prevState){
-            this.setState(()=>{
-                return{
-                    navigators:[
-                        {name:'Data Navigator', tabClass:'tab cell medium-6 dataNavView active'},
-                        {name:'Topic & Index Navigator', tabClass:'tab cell medium-6 TINavView'}
-                    ],
-                    dataNav:['People','Places','Stories'],
-                    TINav:['ETK Indice','Tangherlini Index','Fieldtrips','Genres'],
-                    displayItemsList:prevState.displayItemsList,
-                    dataNavView:prevState.dataNavView,
-                    dropdownLists:prevState.dropdownLists,
-                }
-            });
+        const prevSelection = sessionStorage.getItem('SelectedNavOntology');
+        console.log(prevSelection);
+        this.setState(()=>{
+            return{
+                navigators:[
+                    {name:'Data Navigator', tabClass:'tab cell medium-6 dataNavView active'},
+                    {name:'Topic & Index Navigator', tabClass:'tab cell medium-6 TINavView'}
+                ],
+                dataNav:['People','Places','Stories'],
+                TINav:['ETK Indice','Tangherlini Index','Fieldtrips','Genres'],
+            }
+        });
+
+        if(prevSelection){
+            let isPPS = (prevSelection === 'People' || prevSelection === 'Places' || prevSelection === 'Stories');
+
+            //check if the topics and indices navigation tab should be active
+            if(!isPPS){
+                this.setState(()=>{
+                    return{
+                        navigators:[
+                            {name:'Data Navigator', tabClass:'tab cell medium-6 dataNavView'},
+                            {name:'Topic & Index Navigator', tabClass:'tab cell medium-6 TINavView active'}
+                        ],
+                        dataNavView: false,
+                        dataNav:['People','Places','Stories'],
+                        TINav:['ETK Indice','Tangherlini Index','Fieldtrips','Genres'],
+                    }
+                });
+            }
+            this.handleLevelTwoClick(prevSelection);
         } else {
-            this.setState(()=>{
-                return{
-                    navigators:[
-                        {name:'Data Navigator', tabClass:'tab cell medium-6 dataNavView active'},
-                        {name:'Topic & Index Navigator', tabClass:'tab cell medium-6 TINavView'}
-                    ],
-                    dataNav:['People','Places','Stories'],
-                    TINav:['ETK Indice','Tangherlini Index','Fieldtrips','Genres'],
-                }
-            });
             this.handleLevelTwoClick('Stories');
         }
 
@@ -93,6 +98,9 @@ class Navigation extends Component {
 
     //level 2 = indices, people, places, stories
     handleLevelTwoClick(ontology){
+        //save selected ontology to session storage so the selection will remain if the user switches tabs
+        sessionStorage.setItem('SelectedNavOntology',ontology);
+
         this.props.handleDisplayItems([],''); //reset results display
         var itemsList = getList(ontology);
         var listObject = {};
