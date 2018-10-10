@@ -135,7 +135,6 @@ class RightBar extends Component {
 
 
     renderContent(){
-
         if(this.state.isActive['bio']){
             return this.renderBiography();
         } else if(this.state.isActive['places']){
@@ -174,30 +173,35 @@ class RightBar extends Component {
         }
     }
 
-    renderPlaces(){
+    renderPlaces() {
         console.log(this.props.places);
         var cleanArray = this.props.places;
         if (!(cleanArray instanceof Array)) {
-          cleanArray = [cleanArray]
+            cleanArray = [cleanArray];
         }
-        if(cleanArray.length === 0){
+        if (cleanArray.length === 0) {
             return <div className="cell medium-10 large-9 list-content">
                 <div className="callout alert">
                     <h6>There are no associated places.</h6>
                 </div>
             </div>
         } else {
-            return <div className="cell medium-10 large-9 list-content">
+            cleanArray.map((place, i) => {
+                if (place['place_id'] === "N/A") {
+                    delete cleanArray[i];
+                }
+            });
+            return <div className  ="cell medium-10 large-9 list-content">
                 <ul>
-                    { cleanArray.map((place, i)=>{
-                        return <li key={i}
-                                   onClick={
-                                       (e)=>{
+                    {cleanArray.map((place, i) => {
+                        return <li key = {i}
+                                   onClick = {
+                                       (e) => {
                                            e.preventDefault();
-                                           this.clickHandler.bind(this)(place['place_id'],place['name'],'Places', place)
+                                           this.clickHandler.bind(this)(place['place_id'], place['name'], 'Places', place);
                                        }
                                    }>
-                            <img className="icon-item" src={require('../Navigation/icons8-marker-32.png')}  alt="location"/>
+                            <img className = "icon-item" src = {require('../Navigation/icons8-marker-32.png')}  alt = "location"/>
                             {place['display_name']}
                         </li>
                     })}
