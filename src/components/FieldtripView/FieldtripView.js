@@ -2,7 +2,13 @@
  * Created by danielhuang on 2/10/18.
  */
 import React, { Component } from 'react';
-import './FieldtripView.css'
+import RightBar from '../RightBar/RightBar';
+import './FieldtripView.css';
+import {getPlacesByID} from "../TabViewer/model";
+import {setPlaceIDList} from "../../utils";
+import {arrayTransformation} from "../RightBar/model";
+import MapView from "../MapView/MapView";
+
 
 class FieldtripView extends Component {
 
@@ -31,6 +37,7 @@ class FieldtripView extends Component {
             </ul>
         </div>;
     }
+
     renderPlaces(){
         return <div className="results">
             <h3>Places Visited</h3>
@@ -99,13 +106,18 @@ class FieldtripView extends Component {
     render() {
         return (
             <div className="FieldtripView grid-x">
-                <div className="medium-8 cell">
+                <div className="medium-6 cell">
                     <h3>{this.props.fieldtrip['fieldtrip_name']}</h3>
                     <h4>{this.props.fieldtrip['start_date']} to {this.props.fieldtrip['end_date']}</h4>
                 </div>
                 <div className="medium-4">
                     {this.renderResults()}
                 </div>
+                <RightBar view={'Fieldtrips'}
+                          people={this.props.fieldtrip['people_visited']}
+                          stories={this.props.fieldtrip['stories_collected']}
+                          places={this.props.fieldtrip['places_visited']}
+                          passID={this.clickHandler}> </RightBar>
             </div>
         );
     }

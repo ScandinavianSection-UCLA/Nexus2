@@ -30,7 +30,7 @@ class RightBar extends Component {
     }
 
     clickHandler(id,name,type,item) {
-        console.log(this.props);
+        console.log("THIS.PROPS", this.props);
         addNode(id,name,type,item);
         this.props.passID(id,name,type);
     }
@@ -121,6 +121,36 @@ class RightBar extends Component {
             // First <div> is the plaes tab
             // Second <div> is the stories tab
             return <div style={{marginTop:'150%', marginBottom:'20%'}}>
+                <div className={`medium-2 cell ${this.state.isActive['places'] ? 'active':''} places` }
+                     onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('places')}}>
+                    <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
+                         className="icon"
+                         alt="location"/>
+                    <br/>
+                    <div className="icon-label">Places</div>
+                </div>
+                <div className={`medium-2 cell ${this.state.isActive['stories'] ? 'active':''} stories` }
+                     onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('stories')}}>
+                    <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
+                         className="icon"
+                         alt="stories" />
+                    <br/>
+                    <div className="icon-label">Stories</div>
+                </div>
+            </div>
+        } else if (this.props.view === 'Fieldtrips') { // If story is selected, then create tabs for author, places, and stories
+            // First <div> is the author tab
+            // Second <div> is the places tab
+            // Third <div> is the stories tab
+            return <div style={{marginTop:'150%', marginBottom:'20%'}}>
+                <div className={`medium-2 cell ${this.state.isActive['people'] ? 'active':''} bio`}
+                     onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('people')}}>
+                    <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
+                         className="icon"
+                         alt="person"/>
+                    <br/>
+                    <div className="icon-label">People</div>
+                </div>
                 <div className={`medium-2 cell ${this.state.isActive['places'] ? 'active':''} places` }
                      onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('places')}}>
                     <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
