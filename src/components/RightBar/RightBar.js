@@ -152,13 +152,13 @@ class RightBar extends Component {
     renderPeople(){
 
         if(this.props.people.length===0){
-            return <div className="cell medium-10 large-9 content">
+            return <div className="cell medium-10 large-9 list-content">
                 <div className="callout alert">
                     <h6>There are no associated people.</h6>
                 </div>
             </div>
         } else {
-            return <div className="cell medium-10 large-9 content">
+            return <div className="cell medium-10 large-9 list list-content">
                 <ul>
                     {this.props.people.map((person, i) => {
                         return <li key={i} onClick={
@@ -166,8 +166,10 @@ class RightBar extends Component {
                                 e.preventDefault();
                                 this.clickHandler.bind(this)(person['person_id'],person['full_name'],'People',person)
                                 }
-                            }
-                        >{person['full_name']}</li>
+                            }>
+                            <img className="icon-item" src={require('../Navigation/icons8-contacts-32.png')}  alt="person"/>
+                            {person['full_name']}
+                            </li>
                     })}
                 </ul>
             </div>
