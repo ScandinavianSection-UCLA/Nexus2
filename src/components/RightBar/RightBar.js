@@ -181,13 +181,13 @@ class RightBar extends Component {
           cleanArray = [cleanArray]
         }
         if(cleanArray.length === 0){
-            return <div className="cell medium-10 large-9 content">
+            return <div className="cell medium-10 large-9 list-content">
                 <div className="callout alert">
                     <h6>There are no associated places.</h6>
                 </div>
             </div>
         } else {
-            return <div className="cell medium-10 large-9 content">
+            return <div className="cell medium-10 large-9 list-content">
                 <ul>
                     { cleanArray.map((place, i)=>{
                         return <li key={i}
@@ -197,6 +197,7 @@ class RightBar extends Component {
                                            this.clickHandler.bind(this)(place['place_id'],place['name'],'Places', place)
                                        }
                                    }>
+                            <img className="icon-item" src={require('../Navigation/icons8-marker-32.png')}  alt="location"/>
                             {place['display_name']}
                         </li>
                     })}
@@ -213,13 +214,13 @@ class RightBar extends Component {
             storiesByPerson = this.props.stories;
         }
         if(storiesByPerson.length === 0){ //if there are no associated stories
-            return <div className="cell medium-10 large-9 content">
+            return <div className="cell medium-10 large-9 list-content stories">
                 <div className="callout alert">
                     <h6>There are no {mentioned} stories.</h6>
                 </div>
             </div>;
         } else {
-            return <div className="cell medium-10 large-9 content">
+            return <div className="cell medium-10 large-9 list-content stories">
                 <ul>
                     { storiesByPerson.map((story, i)=>{
                         return <li key={i}
@@ -229,6 +230,7 @@ class RightBar extends Component {
                                            this.clickHandler.bind(this)(story['story_id'],story['full_name'],'Stories', story)
                                        }
                                    }>
+                            <img className={"icon-item"} src={require('../Navigation/icons8-chat-filled-32.png')} alt="story"/>
                             {story['full_name']}
                         </li>
                     })}
