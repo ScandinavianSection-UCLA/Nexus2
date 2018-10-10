@@ -39,7 +39,7 @@ class App extends Component {
                 <Heading sendData={this.menuHandler.bind(this)}/>
                 <BrowserRouter>
                     <Switch>
-                        <Route path="/" exact render={()=>{
+                        <Route path="" exact render={()=>{
                             return(
                                 <TabViewer ref="tabViewer" menuItem={this.state.menuItem}/>
                             )
