@@ -42,7 +42,7 @@ class Navigation extends Component {
                 return <option key={i} value={item}>{item}</option>
             })
         } else {
-            console.log(this.props.list['list'], this.props.list['displayKey']);
+            // console.log(this.props.list['list'], this.props.list['displayKey']);
             return this.props.list['list'].map((item,i)=>{
                 return <option key={i} value={item[this.props.list['displayKey']]}>{item[this.props.list['displayKey']]}</option>
             })

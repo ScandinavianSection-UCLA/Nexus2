@@ -54,10 +54,11 @@
     border:1px solid lightgrey;
     border-radius:5px;
 }
-.convo-icon, .person-icon, .location-icon{display:none;margin-right:1em;}
+.convo-icon, .person-icon, .location-icon, .fieldtrip-icon {display:none;margin-right:1em;}
 .convo-icon.Stories{display:inline-block;}
 .person-icon.People{display:inline-block;}
 .location-icon.Places{display:inline-block;}
+.fieldtrip-icon.Fieldtrips{display:inline-block;}
 
 /*Time Filter*/
 .timeSwitch{

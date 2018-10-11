@@ -37,6 +37,7 @@ class TabViewer extends Component {
             type:'Home'
         };
 
+        //load previously opened tabs from session
         if(JSON.parse(sessionStorage.getItem('inView')) !== null){
             const cachedViews = JSON.parse(sessionStorage.getItem('views'));
             const cachedInView = JSON.parse(sessionStorage.getItem('inView'))[0]; //object
@@ -59,13 +60,24 @@ class TabViewer extends Component {
                     type:cachedInView['type'],
                     jsx: this.renderPPFS(cachedInView['id'],cachedInView['type']),
                 };
-                // console.log(newViews, newInView);
+
+                //if route set to home tab, make home tab the active and inview tab
+                if(this.props.home){
+                    newViews.map((currentView)=>{
+                        if(currentView['name'] === 'Home'){
+                            currentView = navigationObject;
+                        }
+                    });
+                    newInView = navigationObject;
+                }
+
                 return {
                     views:newViews,
                     inView: [newInView],
                 }
             })
         } else {
+            //if no previous session data or data from route, just load a home tab
             this.setState((prevState)=>{
                 var newState = prevState.views;
                 newState.push(navigationObject);
@@ -123,7 +135,8 @@ class TabViewer extends Component {
     //7)A catch all function will take in an ID and name of the selected object
     // depending on what was selected (story, people, places, fieldtrips) add a different type of object to add to views and inView
 
-    handleID(InputID, Name, Type){ // adds tab to viewer
+    handleID(InputID, Name, Type){
+        // adds tab to viewer
         // console.log(InputID,Name, Type);
         //check if input id is already in views
         var inView = false;

@@ -171,7 +171,12 @@ class RightBar extends Component {
         }
     }
 
+<<<<<<< HEAD
     renderContent() {
+=======
+
+    renderContent(){
+>>>>>>> master
         if(this.state.isActive['bio']){
             return this.renderBiography();
         } else if(this.state.isActive['places']){
@@ -214,16 +219,22 @@ class RightBar extends Component {
         var cleanArray = this.props.places;
         // Problem with the data where it sometimes ends up as an object instead of an array
         if (!(cleanArray instanceof Array)) {
-          cleanArray = [cleanArray]
+            cleanArray = [cleanArray];
         }
+<<<<<<< HEAD
         // If there are no associated places, leave a special message
         if (cleanArray.length === 0) {
             return <div className="cell medium-10 large-9 content">
+=======
+        if (cleanArray.length === 0) {
+            return <div className="cell medium-10 large-9 list-content">
+>>>>>>> master
                 <div className="callout alert">
                     <h6>There are no associated places.</h6>
                 </div>
             </div>
         } else {
+<<<<<<< HEAD
             // Creates a list of the places to display
             return <div className="cell medium-10 large-9 content">
                 <ul>
@@ -233,11 +244,29 @@ class RightBar extends Component {
                         return <li key={i}
                                    onClick={
                                        (e)=>{
+=======
+            cleanArray.map((place, i) => {
+                if (place['place_id'] === "N/A") {
+                    delete cleanArray[i];
+                }
+            });
+            return <div className  ="cell medium-10 large-9 list-content">
+                <ul>
+                    {cleanArray.map((place, i) => {
+                        return <li key = {i}
+                                   onClick = {
+                                       (e) => {
+>>>>>>> master
                                            e.preventDefault();
                                            this.clickHandler.bind(this)(place['place_id'], place['name'], 'Places', place);
                                        }
                                    }>
+<<<<<<< HEAD
                             {name}
+=======
+                            <img className = "icon-item" src = {require('../Navigation/icons8-marker-32.png')}  alt = "location"/>
+                            {place['display_name']}
+>>>>>>> master
                         </li>
                     })}
                 </ul>
@@ -252,14 +281,19 @@ class RightBar extends Component {
         } else{
             storiesByPerson = this.props.stories;
         }
+<<<<<<< HEAD
         if(storiesByPerson.length === 0){ // if there are no associated stories
             return <div className="cell medium-10 large-9 content">
+=======
+        if(storiesByPerson.length === 0){ //if there are no associated stories
+            return <div className="cell medium-10 large-9 list-content stories">
+>>>>>>> master
                 <div className="callout alert">
                     <h6>There are no {mentioned} stories.</h6>
                 </div>
             </div>;
         } else {
-            return <div className="cell medium-10 large-9 content">
+            return <div className="cell medium-10 large-9 list-content stories">
                 <ul>
                     { storiesByPerson.map((story, i)=>{
                         return <li key={i}
@@ -269,6 +303,7 @@ class RightBar extends Component {
                                            this.clickHandler.bind(this)(story['story_id'],story['full_name'],'Stories', story)
                                        }
                                    }>
+                            <img className={"icon-item"} src={require('../Navigation/icons8-chat-filled-32.png')} alt="story"/>
                             {story['full_name']}
                         </li>
                     })}

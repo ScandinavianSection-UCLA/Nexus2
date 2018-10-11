@@ -3,6 +3,7 @@
  */
 import React, { Component } from 'react';
 import './Heading.css'
+import Navigation from "../Navigation/Navigation";
 
 class Heading extends Component {
 
@@ -15,6 +16,7 @@ class Heading extends Component {
         };
         this.menuToggle = this.menuToggle.bind(this);
         this.handleMenuClick = this.handleMenuClick.bind(this);
+        this.handleHomeClick = this.handleHomeClick.bind(this);
     }
 
     // componentWillMount(){
@@ -78,13 +80,21 @@ class Heading extends Component {
         this.props.sendData(menuObject);
         this.menuToggle();
     }
+    handleHomeClick(){
+
+        this.props.goHome();
+    }
 
     render() {
+        console.log(this.props);
         return (
             <div className="Heading grid-x grid-padding-x">
                 <div className="large-4 cell">
                     <div className="grid-x grid-margin-x">
-                        <img src={require('./assets/DENM0001.png')} className="flag medium-3 medium-offset-1 cell" alt="Danish Flag"/>
+                        <a href="/hello" className="flag medium-3 medium-offset-1 cell">
+                            <img src={require('./assets/DENM0001.png')}
+                             alt="Danish Flag"/>
+                        </a>
                         <h5 className="danish-folklore medium-2 cell">Danish Folklore</h5>
                         <h6 className="etk medium-6 cell">The Evald Tang <br/> Kristensen Collection</h6>
                     </div>

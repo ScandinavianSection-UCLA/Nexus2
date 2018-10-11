@@ -4,6 +4,7 @@ import Heading from './components/Heading/Heading.js'
 import './App.css';
 import { Router, Route, Switch } from 'react-router'
 import { Link, BrowserRouter } from 'react-router-dom'
+import Navigation from "./components/Navigation/Navigation";
 
 class App extends Component {
 
@@ -27,12 +28,14 @@ class App extends Component {
         this.refs.tabViewer.renderPDF(dataObject['chap'],dataObject['name']);
     }
 
+    homeHandler(){
+
+    }
+
     render() {
 
         return (
             <div className="App grid-y medium-grid-frame full">
-                {/*<Heading sendData={this.menuHandler.bind(this)}/>*/}
-                {/*<TabViewer ref="tabViewer" menuItem={this.state.menuItem}/>*/}
                 <BrowserRouter>
                     <Switch>
                         <Route path="" exact render={()=>{
@@ -43,10 +46,13 @@ class App extends Component {
                                 </div>
                             )
                         }}/>
-                        <Route path="/hi" exact render={()=>{
-                            return(<div>
-                                <Heading sendData={this.menuHandler}/>
-                            </div>)
+                        <Route path="/hello" exact render={()=>{
+                            return(
+                                <div>
+                                    <Heading sendData={this.menuHandler.bind(this)}/>
+                                    <TabViewer ref="tabViewer" menuItem={this.state.menuItem} home={true}/>
+                                </div>
+                            )
                         }}/>
                     </Switch>
                 </BrowserRouter>
