@@ -10,32 +10,20 @@ class SearchComponent extends Component {
 
     constructor(){
         super();
-        this.data = getKeywords();
         this.state = {
             keywords:[],
-            results:this.data.slice(0,100),
+            results:[],
             searching:false,
         };
-        this.fuse = new Fuse(this.data, {
-            shouldSort: true,
-            threshold: .2,
-            location: 0,
-            distance: 10000,
-            maxPatternLength: 64,
-            minMatchCharLength: 1,
-            keys:[
-                "search_string",
-                "keyword_name",
-            ]
-        });
     }
 
 
 
     componentWillMount(){
+        console.log("search component props have loaded!",this.props.displayList);
         this.setState({
-            keywords:getKeywords(),
-            results:getKeywords()
+            keywords:getKeywords(this.props.displayList),
+            results:getKeywords(this.props.displayList)
         });
 
     }
@@ -73,15 +61,39 @@ class SearchComponent extends Component {
     }
 
     handleFuzzySearch(){
+        var data;
+        if(this.props.displayList.length > 0){
+            data = this.props.displayList;
+        } else {
+            data = getKeywords();
+        }
+
+        const fuse = new Fuse(data, {
+            shouldSort: true,
+            threshold: .2,
+            location: 0,
+            distance: 10000,
+            maxPatternLength: 64,
+            minMatchCharLength: 1,
+            keys:[
+                "search_string",
+                "keyword_name",
+                "name",
+                "full_name",
+            ]
+        });
+
         var input = this.refs.searchString.value;
+
+        //if there's nothing in the input, render all possible results
         if (input === '') {
             this.setState({
-                results: this.data.slice(0, 100),
+                results: data.slice(0, 100),
                 searchTerm:input,
             });
-        }
-        else {
-            const results = this.fuse.search(input);
+        } else { //if there is something in input, call fuzzy search
+            const results =  fuse.search(input); //results from fuzzy search from Keywords.json
+            console.log(results);
             this.setState({
                 results: results,
                 searchTerm:input,
@@ -96,7 +108,25 @@ class SearchComponent extends Component {
     }
 
     renderSuggestions(){
-        if(typeof this.state.results !== 'undefined'){
+        if(this.props.displayList.length > 0){
+            //TODO: Figure out how to set results
+            this.state.results = this.props.displayList;
+            return this.state.results.map((keyword,i)=>{
+                var displayKey = '';
+                if('keyword_name' in keyword){
+                    displayKey = 'keyword_name';
+                } else if ('search_string' in keyword) {
+                    displayKey = 'search_string';
+                } else if('full_name' in keyword){
+                    displayKey = 'full_name';
+                } else if('name' in keyword){
+                    displayKey = 'name';
+                }
+                return <li key={i} style={{cursor:'pointer'}}
+                           onClick={(e)=>{e.preventDefault();this.handleSearch.bind(this)(keyword)}}>{keyword[displayKey]}</li>
+            });
+
+        } else if(typeof this.state.results !== 'undefined'){
             return this.state.results.map((keyword,i)=>{
                 var displayKey = '';
                 if('keyword_name' in keyword){
@@ -120,7 +150,7 @@ class SearchComponent extends Component {
                                onClick={(e)=>{
                                    e.preventDefault();
                                    //reset results column
-                                   this.props.handleDisplayItems([],'Stories');
+                                   // this.props.handleDisplayItems([],'Stories');
                                    this.setState({searching:true});
                                }}
 

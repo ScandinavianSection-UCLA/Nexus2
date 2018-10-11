@@ -26,14 +26,14 @@ class Navigation extends Component {
                     level:0
                 },
             ],
-            displayItemsList:[],
-            itemsList:[],
+            displayItemsList:[], //array of jsx items that will be rendered on view
+            itemsList:[], //array of display artifact objects (JSON)
             fromDate:1887, //default start date
             fromSelect:false,
             toDate: 1899, //default end date
             toSelect:false,
             timeFilterOn:false,
-            displayOntology:'',
+            displayOntology:'', //defines which icon to display
             lastIDKey:'',
             lastDisplayKey:'',
             placeList:[],
@@ -75,7 +75,7 @@ class Navigation extends Component {
 
     displayList(list, displayKey, idKey, ontology){
         //TODO: fix timeline shit
-        this.setState((prevState)=>{
+        this.setState(()=>{
             return {
                 displayItemsList: list.map((itemInList,i)=>{
                     return <li key={i} className={ontology}
@@ -105,35 +105,6 @@ class Navigation extends Component {
                     </span> {item[displayKey]}
             </li>
         });
-
-        // if(ontology === 'undefined'){
-        //     console.log('ontology is undefined');
-        //     return list.map((item,i)=>{
-        //
-        //         return <li key={i} className={this.state.displayOntology}
-        //                    onClick={(e)=>{ e.preventDefault();
-        //                        this.handleIDQuery(item[idKey],item[displayKey],this.state.displayOntology,item)}}>
-        //             <span>
-        //                 <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
-        //                 <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
-        //                 <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
-        //             </span> {item[displayKey]}
-        //         </li>
-        //     });
-        // } else {
-        //     console.log('ontology is defined');
-        //     return list.map((item,i)=>{
-        //         return <li key={i} className={ontology}
-        //                    onClick={(e)=>{ e.preventDefault();
-        //                        this.handleIDQuery(item[idKey],item[displayKey],ontology,item)}}>
-        //             <span>
-        //                 <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
-        //                 <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
-        //                 <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
-        //             </span> {item[displayKey]}
-        //         </li>
-        //     });
-        // }
     }
 
     handleIDQuery(id, name, type, item){
@@ -274,11 +245,12 @@ class Navigation extends Component {
     }
 
     render() {
+        console.log(this.state.itemsList);
         return (
             <div className="Navigation">
                 <div className="navigation grid-x grid-padding-x">
                     <div className="medium-3 cell dataNavigation">
-                        <SearchComponent handleDisplayItems={this.displayItems.bind(this)}/>
+                        <SearchComponent handleDisplayItems={this.displayItems.bind(this)} displayList={this.state.itemsList}/>
                         <NavigatorComponent handleDisplayItems={this.displayItems.bind(this)}/>
                     </div>
                     <div className="medium-5 cell AssociatedStoriesViewer">
