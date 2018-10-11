@@ -78,6 +78,7 @@ class Navigation extends Component {
         this.setState(()=>{
             return {
                 displayItemsList: list.map((itemInList,i)=>{
+                    // console.log(itemInList,displayKey);
                     return <li key={i} className={ontology}
                                onClick={(e)=>{ e.preventDefault();
                                    this.handleIDQuery(itemInList[idKey],itemInList[displayKey],ontology,itemInList)}}>
@@ -92,6 +93,8 @@ class Navigation extends Component {
                 lastIDKey:idKey,
                 lastDisplayKey:displayKey,
             }
+        },()=>{
+            console.log(this.state.displayItemsList);
         });
 
         return list.map((item,i)=>{
@@ -117,11 +120,13 @@ class Navigation extends Component {
     }
 
     displayItems(items, ontology){
-        console.log(ontology);
+
         var displayKey = ontologyToDisplayKey[ontology];
         var idKey = ontologyToID[ontology];
 
         var PlaceIDList = setPlaceIDList(items,ontology);
+
+        console.log(items, displayKey, ontology);
 
         /*Save items to local storage for data to continue to exist after tab switch/page refresh  */
         sessionStorage.setItem('lists', JSON.stringify(this.state['lists']));

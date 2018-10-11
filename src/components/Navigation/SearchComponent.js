@@ -13,7 +13,10 @@ class SearchComponent extends Component {
         this.state = {
             keywords:[],
             results:[],
+            refinedResults:[],
             searching:false,
+            suggestionJSX:'',
+            keywordSearch:true,
         };
     }
 
@@ -31,6 +34,7 @@ class SearchComponent extends Component {
 
 
     handleSearch(selectedItem){
+        console.log('searching!', selectedItem);
         // check if selectItem is a string
         if(typeof selectedItem === 'string'){
             // console.log(selectedItem, this.state.keywords);
@@ -40,10 +44,13 @@ class SearchComponent extends Component {
                 }
             })
         }
-        console.log(selectedItem);
-        // check if selectedItem is a story or keyword
+        // console.log(selectedItem);
+        // check if selectedItem is a story or keyword, place, or person
+        let DisplayOntology ='';
+        let SearchValueKey =''
         if('story_id' in selectedItem){
-            this.props.handleDisplayItems([selectedItem],'Stories');
+            DisplayOntology = 'Stories';
+            SearchValueKey = 'full_name';
         } else if('keyword_id' in selectedItem){
             var storiesList = [];
             var placesList = [];
@@ -57,7 +64,18 @@ class SearchComponent extends Component {
             //console.log(itemsList);
             this.props.handleDisplayItems(storiesList,'Stories');
             this.setState({searching:false, searchTerm:selectedItem['keyword_name']});
+            return;
+        } else if('person_id' in selectedItem){
+            DisplayOntology = 'People';
+            SearchValueKey = 'full_name';
+        } else if('place_id' in selectedItem){
+            DisplayOntology = 'Places';
+            SearchValueKey = 'name';
         }
+        // console.log(selectedItem);
+        this.refs.searchString.value = selectedItem[SearchValueKey];
+        this.refs.SuggestionList.classList.remove('active');
+        this.props.handleDisplayItems([selectedItem],DisplayOntology);
     }
 
     handleFuzzySearch(){
@@ -93,11 +111,32 @@ class SearchComponent extends Component {
             });
         } else { //if there is something in input, call fuzzy search
             const results =  fuse.search(input); //results from fuzzy search from Keywords.json
-            console.log(results);
-            this.setState({
-                results: results,
-                searchTerm:input,
-            });
+            console.log("unfiltered results",this.state);
+            console.log("filtered results", results);
+
+            if(this.props.displayList.length > 0){
+                this.setState({
+                    refinedResults:results,
+                    searchTerm:input,
+                },()=>{
+                    this.setState({
+                        suggestionJSX: <ul className={`suggestions ${this.state.searching ? 'active' : ''}`}>
+                            {this.renderListofSuggestions('refinedResults')}
+                        </ul>
+                    });
+                });
+            } else {
+                this.setState({
+                    results:results,
+                    searchTerm:input,
+                },()=>{
+                    this.setState({
+                        suggestionJSX: <ul className={`suggestions ${this.state.searching ? 'active' : ''}`}>
+                            {this.renderListofSuggestions('results')}
+                        </ul>
+                    });
+                });
+            }
         }
     }
 
@@ -107,38 +146,53 @@ class SearchComponent extends Component {
         }
     }
 
+    renderListofSuggestions(QueriedList){
+        return this.state[QueriedList].map((keyword,i)=>{
+            var displayKey = '';
+            if('keyword_name' in keyword){
+                displayKey = 'keyword_name';
+            } else if ('search_string' in keyword) {
+                displayKey = 'search_string';
+            } else if('full_name' in keyword){
+                displayKey = 'full_name';
+            } else if('name' in keyword){
+                displayKey = 'name';
+            }
+            return <li key={i} style={{cursor:'pointer'}}
+                       onClick={(e)=>{e.preventDefault();this.handleSearch.bind(this)(keyword)}}>{keyword[displayKey]}</li>
+        });
+    }
+
     renderSuggestions(){
-        if(this.props.displayList.length > 0){
-            //TODO: Figure out how to set results
-            this.state.results = this.props.displayList;
-            return this.state.results.map((keyword,i)=>{
-                var displayKey = '';
-                if('keyword_name' in keyword){
-                    displayKey = 'keyword_name';
-                } else if ('search_string' in keyword) {
-                    displayKey = 'search_string';
-                } else if('full_name' in keyword){
-                    displayKey = 'full_name';
-                } else if('name' in keyword){
-                    displayKey = 'name';
-                }
-                return <li key={i} style={{cursor:'pointer'}}
-                           onClick={(e)=>{e.preventDefault();this.handleSearch.bind(this)(keyword)}}>{keyword[displayKey]}</li>
-            });
+        this.refs.SuggestionList.classList.add('active');
+        //setState to save anything from this.props.displayList to this.state.refinedResults
+        this.setState({
+            refinedResults:this.props.displayList,
+            searching:true,
+        },()=>{
+            //in the callback function (once the state has been updated) check to see if the length of this.props.displayList > 0
+            let QueriedList='';
+            if(this.props.displayList.length > 0){ //if there is something in the results table, then only search through displayed results
+                QueriedList = 'refinedResults';
+            } else if(this.state.keywordSearch){
+                QueriedList = 'results';
+            }
 
-        } else if(typeof this.state.results !== 'undefined'){
-            return this.state.results.map((keyword,i)=>{
-                var displayKey = '';
-                if('keyword_name' in keyword){
-                    displayKey = 'keyword_name';
-                } else if ('search_string' in keyword) {
-                    displayKey = 'search_string';
-                }
-                return <li key={i} style={{cursor:'pointer'}}
-                           onClick={(e)=>{e.preventDefault();this.handleSearch.bind(this)(keyword)}}>{keyword[displayKey]}</li>
-            });
-        }
+            //if so, return map of keyword from this.state['refinedResults']
+            let SuggestionList = <ul className={`suggestions ${this.state.searching ? 'active' : ''}`}>
+                {this.renderListofSuggestions(QueriedList)}
+            </ul>;
 
+            this.setState({
+                suggestionJSX:SuggestionList,
+            });
+        });
+    }
+
+    switchKeywordSearch(){
+        this.setState({
+            keywordSearch:!this.state.keywordSearch,
+        });
     }
 
     render() {
@@ -149,17 +203,19 @@ class SearchComponent extends Component {
                         <input type="text" ref="searchString" placeholder="Search Term" value={this.state.searchTerm}
                                onClick={(e)=>{
                                    e.preventDefault();
-                                   //reset results column
-                                   // this.props.handleDisplayItems([],'Stories');
-                                   this.setState({searching:true});
+                                   this.renderSuggestions.bind(this)();
                                }}
-
                         onChange={this.handleFuzzySearch.bind(this)}/>
-                        <ul className={`suggestions ${this.state.searching ? 'active' : ''}`}>
-                            {this.renderSuggestions.bind(this)()}
-                        </ul>
-
-
+                        <label htmlFor="keyword-search-switch">Keyword Search Only</label>
+                        {/*<input type="radio" name="keyword" value={this.state.keywordSearch} id="keyword-search-switch"*/}
+                                {/*onClick={(e)=>{*/}
+                                    {/*e.preventDefault();*/}
+                                    {/*this.switchKeywordSearch.bind(this)();*/}
+                                {/*}}>*/}
+                        {/*</input>*/}
+                        <div ref="SuggestionList" className="suggestion-wrapper">
+                        {this.state['suggestionJSX']}
+                        </div>
                     </form>
                     <div className="cell filters">
 

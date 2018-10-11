@@ -8,6 +8,13 @@
     
 }
 
+.suggestion-wrapper{
+    display:none;
+}
+.suggestion-wrapper.active{
+    display:block;
+}
+
 .SearchComponent input[type=text]{
     border: 0;
     outline: none;
@@ -33,7 +40,6 @@
     animation-duration:1s;
 }
 .suggestions{
-    display:none;
     height:20vh;
     overflow-y:scroll;
     background-color:white;
