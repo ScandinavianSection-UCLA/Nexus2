@@ -171,12 +171,8 @@ class RightBar extends Component {
         }
     }
 
-<<<<<<< HEAD
-    renderContent() {
-=======
 
     renderContent(){
->>>>>>> master
         if(this.state.isActive['bio']){
             return this.renderBiography();
         } else if(this.state.isActive['places']){
@@ -221,52 +217,34 @@ class RightBar extends Component {
         if (!(cleanArray instanceof Array)) {
             cleanArray = [cleanArray];
         }
-<<<<<<< HEAD
         // If there are no associated places, leave a special message
         if (cleanArray.length === 0) {
-            return <div className="cell medium-10 large-9 content">
-=======
-        if (cleanArray.length === 0) {
             return <div className="cell medium-10 large-9 list-content">
->>>>>>> master
                 <div className="callout alert">
                     <h6>There are no associated places.</h6>
                 </div>
             </div>
         } else {
-<<<<<<< HEAD
             // Creates a list of the places to display
-            return <div className="cell medium-10 large-9 content">
-                <ul>
-                    {cleanArray.map((place, i) => {
-                        // Fieldtrip places use full_name instead of display_name
-                        var name = typeof place['display_name'] === 'undefined' ? place['full_name'] : place['display_name'];
-                        return <li key={i}
-                                   onClick={
-                                       (e)=>{
-=======
             cleanArray.map((place, i) => {
                 if (place['place_id'] === "N/A") {
                     delete cleanArray[i];
                 }
             });
-            return <div className  ="cell medium-10 large-9 list-content">
+            return <div className = "cell medium-10 large-9 content">
                 <ul>
                     {cleanArray.map((place, i) => {
+                        // Fieldtrip places use full_name instead of display_name
+                        var name = typeof place['display_name'] === 'undefined' ? place['full_name'] : place['display_name'];
                         return <li key = {i}
                                    onClick = {
                                        (e) => {
->>>>>>> master
                                            e.preventDefault();
                                            this.clickHandler.bind(this)(place['place_id'], place['name'], 'Places', place);
                                        }
                                    }>
-<<<<<<< HEAD
-                            {name}
-=======
                             <img className = "icon-item" src = {require('../Navigation/icons8-marker-32.png')}  alt = "location"/>
-                            {place['display_name']}
->>>>>>> master
+                            {name}
                         </li>
                     })}
                 </ul>
@@ -276,18 +254,13 @@ class RightBar extends Component {
 
     renderStories(mentioned) {
         var storiesByPerson = [];
-        if(mentioned==='mentioned'){
+        if (mentioned === 'mentioned') {
             storiesByPerson = this.props.storiesMentioned;
-        } else{
+        } else {
             storiesByPerson = this.props.stories;
         }
-<<<<<<< HEAD
-        if(storiesByPerson.length === 0){ // if there are no associated stories
-            return <div className="cell medium-10 large-9 content">
-=======
-        if(storiesByPerson.length === 0){ //if there are no associated stories
+        if (storiesByPerson.length === 0) { // if there are no associated stories
             return <div className="cell medium-10 large-9 list-content stories">
->>>>>>> master
                 <div className="callout alert">
                     <h6>There are no {mentioned} stories.</h6>
                 </div>
