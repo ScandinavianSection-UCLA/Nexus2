@@ -30,7 +30,7 @@ class RightBar extends Component {
     }
 
     clickHandler(id,name,type,item) {
-        console.log("THIS.PROPS", this.props);
+        // console.log("THIS.PROPS", this.props);
         addNode(id,name,type,item);
         this.props.passID(id,name,type);
     }
@@ -188,13 +188,13 @@ class RightBar extends Component {
 
     renderPeople() {
         if(this.props.people.length===0){
-            return <div className="cell medium-10 large-9 content">
+            return <div className="cell medium-10 large-9 list-content">
                 <div className="callout alert">
                     <h6>There are no associated people.</h6>
                 </div>
             </div>
         } else {
-            return <div className="cell medium-10 large-9 content">
+            return <div className="cell medium-10 large-9 list-content">
                 <ul>
                     {this.props.people.map((person, i) => {
                         return <li key={i} onClick={
@@ -203,7 +203,10 @@ class RightBar extends Component {
                                 this.clickHandler.bind(this)(person['person_id'],person['full_name'],'People',person)
                                 }
                             }
-                        >{person['full_name']}</li>
+                        >
+                            <img className = "icon-item" src = {require('../Navigation/icons8-contacts-32.png')}  alt = "people"/>
+                            {person['full_name']}
+                        </li>
                     })}
                 </ul>
             </div>
@@ -231,7 +234,7 @@ class RightBar extends Component {
                     delete cleanArray[i];
                 }
             });
-            return <div className = "cell medium-10 large-9 content">
+            return <div className = "cell medium-10 large-9 list-content">
                 <ul>
                     {cleanArray.map((place, i) => {
                         // Fieldtrip places use full_name instead of display_name
