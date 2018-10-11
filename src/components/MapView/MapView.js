@@ -116,7 +116,7 @@ class MapView extends React.Component {
 
 
     componentDidMount() {
-        
+
         console.log('component did mount');
         var mapCenter= [56.2639, 9.5018];
         this.map = L.map(this.container, {
@@ -162,6 +162,7 @@ class MapView extends React.Component {
 
         this.updateMarkers(this.props.places);
         this.controlLayers= L.control.layers(baseMaps,null).addTo(this.map);
+        this.scaleBar=L.control.scale().addTo(this.map);
         // zoom=7;
         // var propsPlaces=this.props.places;
         // if(propsPlaces.length<1 || Array.isArray(this.props.person)){
@@ -214,7 +215,7 @@ class MapView extends React.Component {
                 var latitude = array[i].latitude;
                 console.log(latitude);
                 var longitude = array[i].longitude;
-                console.log('this.map.center',this.map.center)
+                //console.log('this.map.center',this.map.center)
 
 
             }
@@ -224,12 +225,18 @@ class MapView extends React.Component {
                 pointToLayer: function (feature, latlng) {
                     if (placeId == feature.properties.place_place_id) {
                         if (feature.properties.place_people_person_full_name != null) {
-                            return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
+                            return L.popup()
+                                .setLatLng(latlng)
+                                .setContent(feature.properties.place_people_person_full_name);
+                            //L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name).openPopup();
 
                         }
                         else {
 
-                            return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
+                            return L.popup()
+                                .setLatLng(latlng)
+                                .setContent('nothing');//L.circleMarker(latlng, {color: "#0000ff"}).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all').openPopup();
+
                         }
                     }
                 }
@@ -250,25 +257,32 @@ class MapView extends React.Component {
             this.geoJson = L.geoJSON(places_geo, {
                 pointToLayer: function (feature, latlng) {
                     if (feature.properties.place_people_person_full_name != null) {
-                        return L.circleMarker(latlng, {
-                            color: "#9f0733",
-                            fillColor: '#05507c',
-                            fillOpacity: 1,
-                            radius: 6
-                        }).bindPopup(feature.properties.place_people_person_full_name);
+                         return L.popup()
+                             .setLatLng(latlng)
+                             .setContent(feature.properties.place_people_person_full_name);//L.circleMarker(latlng, {
+                        //     color: "#9f0733",
+                        //     fillColor: '#05507c',
+                        //     fillOpacity: 1,
+                        //     radius: 6
+                        // }).bindPopup(feature.properties.place_people_person_full_name).openPopup();
+
                     }
 
                     else {
-                        return L.circleMarker(latlng, {
-                            color: "#9f0733",
-                            fillColor: '#05507c',
-                            fillOpacity: 1,
-                            radius: 6
-                        }).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all');
+                        return L.popup()
+                            .setLatLng(latlng)
+                            .setContent('nothing');//L.circleMarker(latlng, {
+                        //     color: "#9f0733",
+                        //     fillColor: '#05507c',
+                        //     fillOpacity: 1,
+                        //     radius: 6
+                        // }).bindPopup('there is no name in here,this box can say whaterver we want or not appear at all').openPopup();
+
                     }
                 }
 
             }).addTo(this.map);
+
         }
 
     } //end up update markers
