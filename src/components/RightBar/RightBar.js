@@ -212,27 +212,32 @@ class RightBar extends Component {
     renderPlaces() {
         console.log(this.props.places);
         var cleanArray = this.props.places;
+        // Problem with the data where it sometimes ends up as an object instead of an array
         if (!(cleanArray instanceof Array)) {
           cleanArray = [cleanArray]
         }
-        if(cleanArray.length === 0){
+        // If there are no associated places, leave a special message
+        if (cleanArray.length === 0) {
             return <div className="cell medium-10 large-9 content">
                 <div className="callout alert">
                     <h6>There are no associated places.</h6>
                 </div>
             </div>
         } else {
+            // Creates a list of the places to display
             return <div className="cell medium-10 large-9 content">
                 <ul>
-                    { cleanArray.map((place, i)=>{
+                    {cleanArray.map((place, i) => {
+                        // Fieldtrip places use full_name instead of display_name
+                        var name = typeof place['display_name'] === 'undefined' ? place['full_name'] : place['display_name'];
                         return <li key={i}
                                    onClick={
                                        (e)=>{
                                            e.preventDefault();
-                                           this.clickHandler.bind(this)(place['place_id'],place['name'],'Places', place)
+                                           this.clickHandler.bind(this)(place['place_id'], place['name'], 'Places', place);
                                        }
                                    }>
-                            {place['display_name']}
+                            {name}
                         </li>
                     })}
                 </ul>

@@ -104,20 +104,24 @@ class FieldtripView extends Component {
     }
 
     render() {
+        // Div 1: General info about the fieldTrip
+        // Div 2: People, places, stories involved (list view)
+        // RightBar: People, plaecs, stories; but adds Nodes when selected
         return (
             <div className="FieldtripView grid-x">
                 <div className="medium-6 cell">
                     <h3>{this.props.fieldtrip['fieldtrip_name']}</h3>
                     <h4>{this.props.fieldtrip['start_date']} to {this.props.fieldtrip['end_date']}</h4>
                 </div>
-                <div className="medium-4">
+                <div className="medium-5">
                     {this.renderResults()}
                 </div>
                 <RightBar view={'Fieldtrips'}
                           people={this.props.fieldtrip['people_visited']}
                           stories={this.props.fieldtrip['stories_collected']}
                           places={this.props.fieldtrip['places_visited']}
-                          passID={this.clickHandler}> </RightBar>
+                          passID={this.clickHandler}>
+                </RightBar>
             </div>
         );
     }
