@@ -18,6 +18,7 @@ class SearchComponent extends Component {
             suggestionJSX:'',
             keywordSearch:false,
             refinedResultsState:false,
+            inputValue:'',
         };
     }
 
@@ -72,60 +73,66 @@ class SearchComponent extends Component {
             SearchValueKey = 'fieldtrip_name';
         }
 
-        this.refs.searchString.value = selectedItem[SearchValueKey]; //set text input field to the selected item
+        // this.refs.searchString.value = selectedItem[SearchValueKey]; //set text input field to the selected item
         this.props.handleDisplayItems([selectedItem],DisplayOntology); //only display the results from the search
-        this.setState({searching:false});
+        this.setState({searching:false, inputValue:selectedItem[SearchValueKey]});
     }
 
-    handleFuzzySearch(){
-        var data;
-        if(this.props.displayList.length > 0){
-            data = this.props.displayList;
-        } else {
-            data = getKeywords();
-        }
-
-        const fuse = new Fuse(data, {
-            shouldSort: true,
-            threshold: .2,
-            location: 0,
-            distance: 10000,
-            maxPatternLength: 64,
-            minMatchCharLength: 1,
-            keys:[
-                "search_string",
-                "keyword_name",
-                "name",
-                "full_name",
-            ]
-        });
-
-        var input = this.refs.searchString.value;
-
-        //if there's nothing in the input, render all possible results
-        if (input === '') {
-            this.setState({
-                results: data.slice(0, 100),
-                searchTerm:input,
-            });
-        } else { //if there is something in input, call fuzzy search
-            const results =  fuse.search(input); //results from fuzzy search from Keywords.json
-            let ResultList = '';
-            let RefinedResultState = true;
+    handleFuzzySearch(event){
+        this.renderSuggestions();
+        this.setState({
+            searching:true,
+            inputValue:event.target.value,
+        },()=>{
+            var data;
             if(this.props.displayList.length > 0){
-                ResultList = 'refinedResults';
-                RefinedResultState = true;
+                data = this.props.displayList;
             } else {
-                ResultList = 'results';
-                RefinedResultState = false;
+                data = getKeywords();
             }
-            let NewState = {
-                searchTerm:input,
-                refinedResultState:RefinedResultState,
-            };
-            NewState[ResultList] = results;
-            this.setState(NewState );
-        }
+
+            const fuse = new Fuse(data, {
+                shouldSort: true,
+                threshold: .2,
+                location: 0,
+                distance: 10000,
+                maxPatternLength: 64,
+                minMatchCharLength: 1,
+                keys:[
+                    "search_string",
+                    "keyword_name",
+                    "name",
+                    "full_name",
+                ]
+            });
+
+            var input = this.state.inputValue;
+
+            //if there's nothing in the input, render all possible results
+            if (input === '') {
+                this.setState({
+                    results: data.slice(0, 100),
+                    inputValue:input,
+                });
+            } else { //if there is something in input, call fuzzy search
+                const results =  fuse.search(input); //results from fuzzy search from Keywords.json
+                let ResultList = '';
+                let RefinedResultState = true;
+                if(this.props.displayList.length > 0){
+                    ResultList = 'refinedResults';
+                    RefinedResultState = true;
+                } else {
+                    ResultList = 'results';
+                    RefinedResultState = false;
+                }
+                let NewState = {
+                    inputValue:input,
+                    refinedResultState:RefinedResultState,
+                };
+                NewState[ResultList] = results;
+                this.setState(NewState);
+            }
+        });
     }
 
     renderKeywords(){
@@ -184,11 +191,11 @@ class SearchComponent extends Component {
                     <form className="cell"
                           onSubmit={(e)=>{e.preventDefault(); this.handleSearch.bind(this)(this.refs.searchString.defaultValue)}}
                     >
-                        <input type="text" ref="searchString" placeholder="Search Term" value={this.state.searchTerm}
-                               onClick={(e)=>{
-                                   e.preventDefault();
-                                   this.renderSuggestions.bind(this)();
-                               }}
+                        <input type="text" ref="searchString" placeholder="Search Term" value={this.state.inputValue}
+                               // onClick={(e)=>{
+                               //     e.preventDefault();
+                               //     this.renderSuggestions.bind(this)();
+                               // }}
                                 onChange={this.handleFuzzySearch.bind(this)}
                         />
                         <label htmlFor="keyword-search-switch">Keyword Search Only</label>
