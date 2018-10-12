@@ -4,11 +4,13 @@ import './UserNexus.css'
 import {initializeGraph,initializeNodeCategories} from "./UserNexusModel";
 
 const GraphHeight = (window.innerHeight)*0.8*.5;
+const GraphWidth = (window.innerWidth)*0.8*.3;
 // the graph configuration, you only need to pass down properties
 // that you want to override, otherwise default ones will be used
 const myConfig = {
     nodeHighlightBehavior: true,
     height: GraphHeight,
+    width:GraphWidth,
     highlightDegree: 1,
     highlightOpacity: 1,
     linkHighlightBehavior: false,
