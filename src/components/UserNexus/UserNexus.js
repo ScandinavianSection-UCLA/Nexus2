@@ -3,8 +3,9 @@ import { Graph } from 'react-d3-graph';
 import './UserNexus.css'
 import {initializeGraph,initializeNodeCategories} from "./UserNexusModel";
 
+//Set graph dimensions to make sure user nexus is centered
 const GraphHeight = (window.innerHeight)*0.8*.5;
-const GraphWidth = (window.innerWidth)*0.8*.3;
+const GraphWidth = (window.innerWidth)*0.8*.389;
 // the graph configuration, you only need to pass down properties
 // that you want to override, otherwise default ones will be used
 const myConfig = {
