@@ -250,7 +250,7 @@ class Navigation extends Component {
     }
 
     render() {
-        console.log(this.state.itemsList);
+        // console.log(this.state.itemsList);
         return (
             <div className="Navigation">
                 <div className="navigation grid-x grid-padding-x">

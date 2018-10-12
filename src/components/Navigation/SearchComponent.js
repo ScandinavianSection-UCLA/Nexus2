@@ -43,13 +43,13 @@ class SearchComponent extends Component {
         // console.log(selectedItem);
         // check if selectedItem is a story or keyword, place, or person
         let DisplayOntology ='';
-        let SearchValueKey =''
+        let SearchValueKey ='';
         if('story_id' in selectedItem){
             DisplayOntology = 'Stories';
             SearchValueKey = 'full_name';
         } else if('keyword_id' in selectedItem){
-            var storiesList = [];
-            var placesList = [];
+            let storiesList = [];
+            let placesList = [];
             if(typeof selectedItem['stories']['story'] !== 'undefined'){
                 storiesList = arrayTransformation(selectedItem['stories']['story']);
             }
@@ -57,7 +57,7 @@ class SearchComponent extends Component {
                 placesList = arrayTransformation(selectedItem['places']['place']);
             }
             var itemsList = storiesList.concat(placesList);
-            //console.log(itemsList);
+            console.log("stories with keywords", storiesList);
             this.props.handleDisplayItems(storiesList,'Stories');
             this.setState({searching:false, searchTerm:selectedItem['keyword_name']});
             return;
@@ -176,10 +176,8 @@ class SearchComponent extends Component {
             console.log(this.state.keywordSearch);
             if(this.state.keywordSearch){
                 QueriedList = 'results';
-                console.log('just keywords dude');
             } else if(this.props.displayList.length > 0){ //if there is something in the results table, then only search through displayed results
                 QueriedList = 'refinedResults';
-                console.log('refined results man');
             }
 
             //if so, return map of keyword from this.state['refinedResults']
@@ -204,22 +202,22 @@ class SearchComponent extends Component {
         return (
             <div className="SearchComponent">
                 <div className="grid-x">
-                    <form className="cell" onSubmit={(e)=>{e.preventDefault(); console.log(this.refs); this.handleSearch.bind(this)(this.refs.searchString.defaultValue)}}>
+                    <form className="cell"
+                          onSubmit={(e)=>{e.preventDefault(); this.handleSearch.bind(this)(this.refs.searchString.defaultValue)}}
+                    >
                         <input type="text" ref="searchString" placeholder="Search Term" value={this.state.searchTerm}
                                onClick={(e)=>{
                                    e.preventDefault();
                                    this.renderSuggestions.bind(this)();
                                }}
-                        onChange={this.handleFuzzySearch.bind(this)}/>
+                                onChange={this.handleFuzzySearch.bind(this)}
+                        />
                         <label htmlFor="keyword-search-switch">Keyword Search Only</label>
                         <input type="checkbox" name="keyword"
                                // value={this.state.keywordSearch}
                                id="keyword-search-switch"
                                ref="keywordSwitch"
-                                onChange={(e)=>{
-                                    // console.log(e.target.checked);
-                                    this.switchKeywordSearch.bind(this)(e);
-                                }}>
+                                onChange={(e)=>{this.switchKeywordSearch.bind(this)(e);}}>
                         </input>
                         <div ref="SuggestionList" className="suggestion-wrapper">
                         {this.state['suggestionJSX']}

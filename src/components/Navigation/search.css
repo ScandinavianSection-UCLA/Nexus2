@@ -4,7 +4,7 @@
     /*height:30vh;*/
     background:#ED4C67;
     margin-bottom:20%;
-    /*margin-top:10%;*/
+    margin-top:10%;
     
 }
 
@@ -14,7 +14,14 @@
 .suggestion-wrapper.active{
     display:block;
 }
-
+.SearchComponent input, .SearchComponent label{
+    color:white;
+    display:inline-block;
+}
+.SearchComponent label{
+    margin-right:10px;
+    margin-left:10%;
+}
 .SearchComponent input[type=text]{
     border: 0;
     outline: none;
@@ -27,6 +34,7 @@
     height:1.6em;
     width:80%;
     margin-left:10%;
+    margin-top:8%;
 }
 .SearchComponent input[type=text]:focus {
     outline: none;
