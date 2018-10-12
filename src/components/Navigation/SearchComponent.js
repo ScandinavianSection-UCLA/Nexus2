@@ -194,6 +194,7 @@ class SearchComponent extends Component {
     }
 
     switchKeywordSearch(e){
+        this.props.handleDisplayItems([],'Stories');
         this.setState({
             keywordSearch:e.target.checked,
         });
