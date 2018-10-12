@@ -48,6 +48,7 @@
     animation-duration:1s;
 }
 .suggestions{
+    display:none;
     height:20vh;
     overflow-y:scroll;
     background-color:white;
