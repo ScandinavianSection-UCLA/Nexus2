@@ -74,7 +74,7 @@ class Navigation extends Component {
     }
 
     displayList(list, displayKey, idKey, ontology){
-        //TODO: fix timeline shit
+
         this.setState(()=>{
             return {
                 displayItemsList: list.map((itemInList,i)=>{

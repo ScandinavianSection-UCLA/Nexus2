@@ -16,11 +16,9 @@ class SearchComponent extends Component {
             refinedResults:[],
             searching:false,
             suggestionJSX:'',
-            keywordSearch:true,
+            keywordSearch:false,
         };
     }
-
-
 
     componentWillMount(){
         console.log("search component props have loaded!",this.props.displayList);
@@ -30,8 +28,6 @@ class SearchComponent extends Component {
         });
 
     }
-
-
 
     handleSearch(selectedItem){
         console.log('searching!', selectedItem);
@@ -71,6 +67,9 @@ class SearchComponent extends Component {
         } else if('place_id' in selectedItem){
             DisplayOntology = 'Places';
             SearchValueKey = 'name';
+        } else if('fieldtrip_name' in selectedItem){
+            DisplayOntology = 'Fieldtrips';
+            SearchValueKey = 'fieldtrip_name';
         }
         // console.log(selectedItem);
         this.refs.searchString.value = selectedItem[SearchValueKey];
@@ -157,6 +156,8 @@ class SearchComponent extends Component {
                 displayKey = 'full_name';
             } else if('name' in keyword){
                 displayKey = 'name';
+            } else if('fieldtrip_name' in keyword){
+                displayKey = 'fieldtrip_name'
             }
             return <li key={i} style={{cursor:'pointer'}}
                        onClick={(e)=>{e.preventDefault();this.handleSearch.bind(this)(keyword)}}>{keyword[displayKey]}</li>
@@ -172,10 +173,13 @@ class SearchComponent extends Component {
         },()=>{
             //in the callback function (once the state has been updated) check to see if the length of this.props.displayList > 0
             let QueriedList='';
-            if(this.props.displayList.length > 0){ //if there is something in the results table, then only search through displayed results
-                QueriedList = 'refinedResults';
-            } else if(this.state.keywordSearch){
+            console.log(this.state.keywordSearch);
+            if(this.state.keywordSearch){
                 QueriedList = 'results';
+                console.log('just keywords dude');
+            } else if(this.props.displayList.length > 0){ //if there is something in the results table, then only search through displayed results
+                QueriedList = 'refinedResults';
+                console.log('refined results man');
             }
 
             //if so, return map of keyword from this.state['refinedResults']
@@ -189,9 +193,9 @@ class SearchComponent extends Component {
         });
     }
 
-    switchKeywordSearch(){
+    switchKeywordSearch(e){
         this.setState({
-            keywordSearch:!this.state.keywordSearch,
+            keywordSearch:e.target.checked,
         });
     }
 
@@ -207,12 +211,15 @@ class SearchComponent extends Component {
                                }}
                         onChange={this.handleFuzzySearch.bind(this)}/>
                         <label htmlFor="keyword-search-switch">Keyword Search Only</label>
-                        {/*<input type="radio" name="keyword" value={this.state.keywordSearch} id="keyword-search-switch"*/}
-                                {/*onClick={(e)=>{*/}
-                                    {/*e.preventDefault();*/}
-                                    {/*this.switchKeywordSearch.bind(this)();*/}
-                                {/*}}>*/}
-                        {/*</input>*/}
+                        <input type="checkbox" name="keyword"
+                               // value={this.state.keywordSearch}
+                               id="keyword-search-switch"
+                               ref="keywordSwitch"
+                                onChange={(e)=>{
+                                    // console.log(e.target.checked);
+                                    this.switchKeywordSearch.bind(this)(e);
+                                }}>
+                        </input>
                         <div ref="SuggestionList" className="suggestion-wrapper">
                         {this.state['suggestionJSX']}
                         </div>
