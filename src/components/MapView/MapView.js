@@ -1,8 +1,7 @@
 /**
  * Created by danielhuang/benrosen on 4/7/18.
  */
-'use strict';
-import React, { Component } from 'react';
+import React from 'react';
 
 import './MapView.css';
 
@@ -182,7 +181,7 @@ class MapView extends React.Component {
     updateMarkers() {
 
 
-        var propsPlaces=this.props.places;
+        // var propsPlaces=this.props.places;
 
         console.log('this is didMOUNT props.places',this.props.places);
 
@@ -192,13 +191,13 @@ class MapView extends React.Component {
 
 
         if (this.props.places != null) {
-
+            var array = [];
             if(this.props.places[0]===undefined) {
-                var array = [];
+                array = [];
                 console.log('thisarray is undefined',array.length);
             }
             else{
-                var array = this.props.places;
+                array = this.props.places;
                 console.log('this array isnt undfined')
 
             }
@@ -224,7 +223,7 @@ class MapView extends React.Component {
 
             this.geoJson = L.geoJSON(places_geo, {
                 pointToLayer: function (feature, latlng) {
-                    if (placeId == feature.properties.place_place_id) {
+                    if (placeId === feature.properties.place_place_id) {
                         if (feature.properties.place_people_person_full_name != null) {
                             return L.circleMarker(latlng, {color: "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
 
@@ -298,8 +297,6 @@ class MapView extends React.Component {
             this.updateMarkers(this.props.places);
             //this.getZoomlevel();
             zoom=7;
-            console.log('tried to render')
-
         }
 
         return (
@@ -307,7 +304,6 @@ class MapView extends React.Component {
                  ref={ ref => this.container = ref }/>
 
         );
-        console.log('look at me render');
     }
 
 }

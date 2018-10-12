@@ -137,7 +137,7 @@ class TabViewer extends Component {
 
     handleID(InputID, Name, Type){
         // adds tab to viewer
-        // console.log(InputID,Name, Type);
+
         //check if input id is already in views
         var inView = false;
         var viewIndex = -1;
@@ -254,7 +254,6 @@ class TabViewer extends Component {
     }
 
     renderTabs(){
-        // this.renderPDF(this.props.menuItem.url,this.props.menuItem.name);
         return this.state.inView.map((view, i)=>{ return <div style={{height:'inherit'}} key={i}>{view.jsx}</div> });
     }
 

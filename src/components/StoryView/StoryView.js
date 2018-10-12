@@ -2,12 +2,10 @@
  * Created by danielhuang on 1/28/18.
  */
 import React, { Component } from 'react';
-import { render } from 'react-dom';
 import Modal from 'react-modal';
-import SlidingPane from 'react-sliding-pane';
 import 'react-sliding-pane/dist/react-sliding-pane.css';
 import RightBar from '../RightBar/RightBar';
-import {addNode} from "../UserNexus/UserNexusModel";
+// import {addNode} from "../UserNexus/UserNexusModel";
 import {getPlacesByID} from '../TabViewer/model';
 import {setPlaceIDList} from '../../utils'
 import './StoryView.css'
@@ -45,7 +43,6 @@ class StoryView extends Component {
 
     clickHandler(id,name,type){
         this.props.addID(id,name,type);
-        //TODO: add to network graph
     }
 
     arrayTransformation(item){
@@ -213,7 +210,7 @@ class StoryView extends Component {
                     <ul className="accordion" data-accordian>
                         <li className={`accordion-item ${this.state.isTabOpen[0] ? 'is-active':''}`}
                             onClick={(e)=>{e.preventDefault(); this.accordionHandler.bind(this)(0)}}>
-                            <a href="#" className="accordion-title">Story Data</a>
+                            <a href="" className="accordion-title">Story Data</a>
                             <div className="body">
                                 <b>Order Told</b> {this.renderProperty.bind(this)(this.props.story['order_told'])}<br/>
                                 <b>Recorded during fieldtrip</b> {this.renderProperty.bind(this)(this.props.story['fieldtrip']['id'])}<br/>
@@ -233,7 +230,7 @@ class StoryView extends Component {
                         </li>
                         <li className={`accordion-item ${this.state.isTabOpen[1] ? 'is-active':''}`}
                             onClick={(e)=>{e.preventDefault(); this.accordionHandler.bind(this)(1)}}>
-                            <a href="#" className="accordion-title">Story Indices</a>
+                            <a href="" className="accordion-title">Story Indices</a>
                             <div className="body">
                                 <b>Genre</b> {this.props.story['genre']['name']}<br/>
                                 <b>ETK Index</b> {this.props.story['etk_index']['heading_english']}<br/>
@@ -246,7 +243,7 @@ class StoryView extends Component {
                         </li>
                         <li className={`accordion-item ${this.state.isTabOpen[2] ? 'is-active':''}`}
                             onClick={(e)=>{e.preventDefault(); this.accordionHandler.bind(this)(2)}}>
-                            <a href="#" className="accordion-title">Bibliographical References</a>
+                            <a href="" className="accordion-title">Bibliographical References</a>
                             <div className="body">
                                 {this.bibliographicReferences.bind(this)()}
                             </div>

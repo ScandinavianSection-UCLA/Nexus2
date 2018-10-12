@@ -84,7 +84,7 @@ const keywords = {
 };
 
 export const ontologyToDisplayKey = {
-    'ETK Indice':'heading_english',
+    'ETK Index':'heading_english',
     'Tangherlini Index':'type',
     'Fieldtrips':'fieldtrip_name',
     'Genres':'name',
@@ -95,7 +95,7 @@ export const ontologyToDisplayKey = {
 
 //For finding links between people, places, stories
 export const ontologyToSearchKey = {
-    'ETK Indice':'heading_english',
+    'ETK Index':'heading_english',
     'Tangherlini Index':'type',
     'Fieldtrips':'fieldtrip_name',
     'Genres':'name',
@@ -173,8 +173,8 @@ const ListModel = {
         children:getSiblings(data.stories,'full_name',true),
         level:2
     },
-    'ETK Indice':{
-        name:'ETK Indice',
+    'ETK Index':{
+        name:'ETK Index',
         children:getSiblings(data.etk,'heading_english',true),
         level:2
     },

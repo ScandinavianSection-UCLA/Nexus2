@@ -5,7 +5,8 @@
     background:#ED4C67;
     margin-bottom:20%;
     margin-top:10%;
-    
+    height:23%;
+    overflow:visible;
 }
 
 .suggestion-wrapper{
@@ -53,11 +54,12 @@
     overflow-y:scroll;
     background-color:white;
     font-size:1.3em;
-    width:21.8%;
+    width:102%;
     margin-left:0%;
     list-style: none;
-    position:absolute;
-    top:23%;
+    position:relative;
+    left:-2%;
+    top:-17%;
 }
 .suggestions li{
     padding:1% 0 1% 3%;

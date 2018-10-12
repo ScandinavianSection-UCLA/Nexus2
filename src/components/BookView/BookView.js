@@ -3,7 +3,7 @@
  */
 import React, { Component } from 'react';
 import {ReactReader} from 'react-reader'
-import styles from './BookView.css'
+// import styles from './BookView.css'
 
 const storage = global.localStorage || null;
 
@@ -46,7 +46,7 @@ class BookView extends Component {
     };
 
     render() {
-        const {fullscreen, location} = this.state;
+        const {location} = this.state;
         return (
             <div className="BookView" style={{position: 'relative', height: '85vh'}}>
                 <ReactReader

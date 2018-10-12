@@ -50,7 +50,7 @@ class SearchComponent extends Component {
             SearchValueKey = 'full_name';
         } else if('keyword_id' in selectedItem){
             let storiesList = [];
-            let placesList = [];
+            // let placesList = [];
             if(typeof selectedItem['stories']['story'] !== 'undefined'){
                 storiesList = arrayTransformation(selectedItem['stories']['story']);
             }
@@ -181,6 +181,7 @@ class SearchComponent extends Component {
         this.props.handleDisplayItems([],'Stories');
         this.setState({
             keywordSearch:e.target.checked,
+            inputValue:''
         });
     }
 
@@ -191,26 +192,21 @@ class SearchComponent extends Component {
                     <form className="cell"
                           onSubmit={(e)=>{e.preventDefault(); this.handleSearch.bind(this)(this.refs.searchString.defaultValue)}}
                     >
-                        <input type="text" ref="searchString" placeholder="Search Term" value={this.state.inputValue}
-                               // onClick={(e)=>{
-                               //     e.preventDefault();
-                               //     this.renderSuggestions.bind(this)();
-                               // }}
-                                onChange={this.handleFuzzySearch.bind(this)}
+                        <input type="text" ref="searchString" placeholder="Search Term"
+                               value={this.state.inputValue}
+                               onChange={this.handleFuzzySearch.bind(this)}
                         />
                         <label htmlFor="keyword-search-switch">Keyword Search Only</label>
                         <input type="checkbox" name="keyword"
-                               // value={this.state.keywordSearch}
                                id="keyword-search-switch"
                                ref="keywordSwitch"
                                 onChange={(e)=>{this.switchKeywordSearch.bind(this)(e);}}>
                         </input>
-                        <ul className={`suggestions ${this.state.searching ? 'active' : ''}`}>
+                        <ul
+                            className={`suggestions ${this.state.searching ? 'active' : ''}`}
+                        >
                             {this.renderListofSuggestions.bind(this)()}
                         </ul>
-                        {/*<div ref="SuggestionList" className="suggestion-wrapper">*/}
-                        {/*{this.state['suggestionJSX']}*/}
-                        {/*</div>*/}
                     </form>
                     <div className="cell filters">
 

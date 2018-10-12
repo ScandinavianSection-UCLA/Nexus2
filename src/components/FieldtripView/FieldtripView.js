@@ -4,10 +4,10 @@
 import React, { Component } from 'react';
 import RightBar from '../RightBar/RightBar';
 import './FieldtripView.css';
-import {getPlacesByID} from "../TabViewer/model";
-import {setPlaceIDList} from "../../utils";
-import {arrayTransformation} from "../RightBar/model";
-import MapView from "../MapView/MapView";
+// import {getPlacesByID} from "../TabViewer/model";
+// import {setPlaceIDList} from "../../utils";
+// import {arrayTransformation} from "../RightBar/model";
+// import MapView from "../MapView/MapView";
 
 
 class FieldtripView extends Component {

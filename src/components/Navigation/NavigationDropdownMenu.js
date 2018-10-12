@@ -5,17 +5,6 @@ import React, { Component } from 'react';
 
 class Navigation extends Component {
 
-    constructor(){
-        super();
-        // this.state = {
-        //     selectValue:this.props.list['selectValue'],
-        //     displayKey:this.props.list['displayKey'],
-        //     isTango:this.props.list['tango'],
-        //     ontology:this.props.list['ontology'],
-        //     list:this.props.list['list']
-        // }
-    }
-
     handleDropdownChange(e){
         this.setState({selectValue:e.target.value});
         var selectedItem = {};

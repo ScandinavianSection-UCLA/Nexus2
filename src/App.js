@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import TabViewer from './components/TabViewer/TabViewer';
 import Heading from './components/Heading/Heading.js'
 import './App.css';
-import { Router, Route, Switch } from 'react-router'
-import { Link, BrowserRouter } from 'react-router-dom'
-import Navigation from "./components/Navigation/Navigation";
+import { Route, Switch } from 'react-router'
+import { BrowserRouter } from 'react-router-dom'
+// import Navigation from "./components/Navigation/Navigation";
 
 class App extends Component {
 

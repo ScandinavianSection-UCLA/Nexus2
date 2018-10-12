@@ -74,11 +74,10 @@ class Navigation extends Component {
     }
 
     displayList(list, displayKey, idKey, ontology){
-
         this.setState(()=>{
             return {
                 displayItemsList: list.map((itemInList,i)=>{
-                    // console.log(itemInList,displayKey);
+
                     return <li key={i} className={ontology}
                                onClick={(e)=>{ e.preventDefault();
                                    this.handleIDQuery(itemInList[idKey],itemInList[displayKey],ontology,itemInList)}}>
@@ -93,8 +92,6 @@ class Navigation extends Component {
                 lastIDKey:idKey,
                 lastDisplayKey:displayKey,
             }
-        },()=>{
-            console.log(this.state.displayItemsList);
         });
 
         return list.map((item,i)=>{
@@ -111,11 +108,8 @@ class Navigation extends Component {
     }
 
     handleIDQuery(id, name, type, item){
-        console.log(id,name,type);
-        //update this.props.places for the map component
-        this.refs.map.updateMarkers();
-        //add node to network graph
-        addNode(id,name,type,item);
+        this.refs.map.updateMarkers(); //update this.props.places for the map component
+        addNode(id,name,type,item);//add node to network graph
         this.props.addID(id,name,type);
     }
 
@@ -125,8 +119,6 @@ class Navigation extends Component {
         var idKey = ontologyToID[ontology];
 
         var PlaceIDList = setPlaceIDList(items,ontology);
-
-        console.log(items, displayKey, ontology);
 
         /*Save items to local storage for data to continue to exist after tab switch/page refresh  */
         sessionStorage.setItem('lists', JSON.stringify(this.state['lists']));
@@ -236,7 +228,6 @@ class Navigation extends Component {
     }
 
     timeInputEnd(year){
-        console.log(this.refs.fromDate.value);
         //display slider
         if(year === 'toDate'){
             //set this.state.toSelect = true
@@ -250,7 +241,6 @@ class Navigation extends Component {
     }
 
     render() {
-        // console.log(this.state.itemsList);
         return (
             <div className="Navigation">
                 <div className="navigation grid-x grid-padding-x">

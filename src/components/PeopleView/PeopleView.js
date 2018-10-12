@@ -97,7 +97,7 @@ class PeopleView extends Component {
                                 <div className="cell medium-5">
                                     <div className="grid-x informant-bio-container">
                                         <img src={require(`../RightBar/informant_images/${[90,123,150,235,241].includes(this.props.person['person_id'])? String(this.props.person['person_id']) + '.jpg' : 'noprofile.png'}`)}
-                                             className="cell medium-4"/>
+                                             className="cell medium-4" alt='Person'/>
                                         <div className="cell medium-8 details">
                                             <div className="detail-item"><b>Born</b> {this.props.person['birth_date']}</div>
                                             <div className="detail-item"><b>Died</b> {this.props.person['death_date']}</div>

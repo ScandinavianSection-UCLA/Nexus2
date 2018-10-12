@@ -171,7 +171,6 @@ class RightBar extends Component {
         }
     }
 
-
     renderContent(){
         if(this.state.isActive['bio']){
             return this.renderBiography();
@@ -295,14 +294,13 @@ class RightBar extends Component {
                 <div className="cell medium-3">
                     <div className="grid-x informant-bio-container">
                         <img src={require(`./informant_images/${[90,123,150,235,241].includes(this.props.object['informant_id'])? String(this.props.object['informant_id']) + '.jpg' : 'noprofile.png'}`)}
-                             className="cell medium-6"/>
+                             className="cell medium-6" alt={this.props.object['full_name']}/>
                         <div className="cell medium-6 details">
                             <div><b>Born</b> {personData['birth_date']}</div>
                             <div><b>Died</b> {personData['death_date']}</div>
                             <div><b>ID#</b> {String(this.props.object['informant_id'])}</div>
                             <a onClick={(e)=>{
                                 e.preventDefault();
-                                // console.log(personData);
                                 this.clickHandler.bind(this)(personData['person_id'],personData['full_name'],'People', personData)
                             }} className="button">Informant Page</a>
                         </div>

@@ -86,6 +86,9 @@ export function createNode(id, name, type, item){
             break;
         case 'Fieldtrips':
             nodeColor = 'green';
+            break;
+        default:
+            nodeColor = 'black';
     }
 
     return {
@@ -148,6 +151,8 @@ export function createLinkage(newNode, nodeCategories){
                     case 'Places':
                         linkNode = {};
                         break;
+                    default:
+                        linkNode = {};
                 }
                matchNode = getNode(nodeCategories[type],match);
                link = {

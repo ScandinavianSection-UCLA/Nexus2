@@ -3,7 +3,7 @@
  */
 import React, { Component } from 'react';
 import './Heading.css'
-import Navigation from "../Navigation/Navigation";
+// import Navigation from "../Navigation/Navigation";
 
 class Heading extends Component {
 
