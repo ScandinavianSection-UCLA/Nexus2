@@ -104,8 +104,7 @@ class FieldtripView extends Component {
     }
 
     render() {
-        // Div 1: General info about the fieldTrip
-        // Div 2: People, places, stories involved (list view)
+        // Div: General info about the fieldTrip
         // RightBar: People, plaecs, stories; but adds Nodes when selected
         return (
             <div className="FieldtripView grid-x">
