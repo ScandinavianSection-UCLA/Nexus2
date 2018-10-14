@@ -10,7 +10,7 @@ import './RightBar.css'
 
 class RightBar extends Component {
 
-    constructor(){
+    constructor() {
         super();
         this.state = {
             isPaneOpen: false,
@@ -215,7 +215,7 @@ class RightBar extends Component {
         console.log(this.props.places);
         var cleanArray = this.props.places;
         // Problem with the data where it sometimes ends up as an object instead of an array
-        if (!(cleanArray instanceof Array)) {
+        if (!Array.isArray(cleanArray)) {
             cleanArray = [cleanArray];
         }
         // If there are no associated places, leave a special message
@@ -228,7 +228,9 @@ class RightBar extends Component {
         } else {
             // Creates a list of the places to display
             cleanArray.map((place, i) => {
-                if (place['place_id'] === "N/A") {
+                if (typeof place === "undefined") {
+                    delete cleanArray[i];
+                } else if (place['place_id'] === "N/A") {
                     delete cleanArray[i];
                 }
             });
