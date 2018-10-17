@@ -10,6 +10,8 @@
 
 
 # misc
+/.vscode
+.eslintrc.js
 .idea
 .DS_Store
 .env.local
