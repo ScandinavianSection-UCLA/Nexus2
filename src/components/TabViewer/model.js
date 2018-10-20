@@ -10,6 +10,8 @@ import StoriesCollectedData from "../../data/cstories_collected.json";
 import PlacesMentionedData from "../../data/cplaces_mentioned.json";
 // import data for fieldtrips
 import FieldtripsData from "../../data/cfieldtrips.json";
+// import the arrayTransformation function
+import {arrayTransformation} from "../../utils";
 
 // converted data for people
 const realPeopleData = arrOfObjToObj(AllInformants, "person_id");
@@ -26,13 +28,21 @@ const fieldtripsData = arrOfObjToObj(FieldtripsData["fieldtrip"], "fieldtrip_id"
 // fieldtrip_id of all fieldtrip is -1
 const allFieldtripId = -1;
 
-// retrieve a story by its id
+/**
+ * Retrieve a story by its ID
+ * @param {Number} story_id The ID of the story to get
+ * @returns {Story} The requested story
+ */
 export function getStoryByID(story_id) {
     // just get it from the relevant array
     return formattedStoryData[story_id];
 }
 
-// retrieve a person by its id
+/**
+ * Retrieve a person by its ID
+ * @param {Number} person_id The ID of the person to get
+ * @returns {Person} The requested person
+ */
 export function getPeopleByID(person_id) {
     // an object to store the person;
     var personObject = realPeopleData[person_id];
@@ -65,7 +75,11 @@ export function getPeopleByID(person_id) {
     }
 }
 
-// retrieve a place by its id
+/**
+ * Retrieve a place by its id
+ * @param {Number} place_id The ID of the place to get
+ * @returns {Place} The requested place
+ */
 export function getPlacesByID(place_id) {
     // retrieve the relevant place
     var placeObject = placesData[place_id];
@@ -96,7 +110,11 @@ export function getPlacesByID(place_id) {
     }
 }
 
-// retrieve a fieldtrip by its id
+/**
+ * Retrieve a fieldtrip by its ID
+ * @param {Number} fieldtrip_id The ID of the fieldtrip to get
+ * @returns {Fieldtrip} The requested fieldtrip
+ */
 export function getFieldtripsByID(fieldtrip_id) {
     // if anything but the all fieldtrip is selected
     if (fieldtrip_id !== allFieldtripId) {
@@ -150,11 +168,11 @@ export function getFieldtripsByID(fieldtrip_id) {
                         // enssure that the data is indeed an array
                         fieldtripValue = arrayTransformation(fieldtripValue);
                         // iterate for each datum in the data
-                        fieldtripValue.forEach(function(datum) {
+                        fieldtripValue.forEach(function (datum) {
                             // boolean to check if the datum needs to be added
                             var pushDatum = true;
                             // iterate for each element in the relevant array in allFieldtrip
-                            allFieldtrip[key].forEach(function(element) {
+                            allFieldtrip[key].forEach(function (element) {
                                 // if the current element to add matches the element we're currently checking it against
                                 if (datum["full_name"] === element["full_name"]) {
                                     // since the same name already exists, don't add the datum
@@ -173,21 +191,6 @@ export function getFieldtripsByID(fieldtrip_id) {
         }
         // return our created mash of the fieldtrips
         return allFieldtrip;
-    }
-}
-
-// if item is not an array, convert it to a single-element array
-function arrayTransformation(item) {
-    // if the input is null or already an array
-    if (Array.isArray(item) || item === null) {
-        // return the input
-        return item;
-    } else if (typeof item === "object") { // if the input is pretty much anything else defined
-        // return an array containing solely that element
-        return [item];
-    } else { // item must be undefined
-        // we can just return an empty array
-        return [];
     }
 }
 
