@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<story story_id="807">
+  <publication_info>DS_VI_427</publication_info>
+  <full_name>406 - 0.00 - DS_VI_427</full_name>
+  <informant_id>406</informant_id>
+  <informant_last_name>Jensen</informant_last_name>
+  <informant_first_name>Svend Peter</informant_first_name>
+  <informant_full_name>Svend Peter Jensen</informant_full_name>
+  <order_told>0.00</order_told>
+  <fieldtrip id="">None recorded</fieldtrip>
+  <places>
+    <place type="place_recorded">
+      <place_id>914</place_id>
+      <name>Vole</name>
+      <display_name>Vole (place recorded)</display_name>
+    </place>
+  </places>
+  <stories_mentioned>
+    <story story_id="64">
+      <informant_id>150</informant_id>
+      <publication_info>DS_VI_428</publication_info>
+      <full_name>150 - 3.02 - DS_VI_428</full_name>
+      <url>data/stories/64.dfl</url>
+    </story>
+    <story story_id="772">
+      <informant_id>41</informant_id>
+      <publication_info>DS_VI_434</publication_info>
+      <full_name>41 - 0.00 - DS_VI_434</full_name>
+      <url>data/stories/772.dfl</url>
+    </story>
+    <story story_id="578">
+      <informant_id>65</informant_id>
+      <publication_info>DS_VI_431</publication_info>
+      <full_name>65 - 0.00 - DS_VI_431</full_name>
+      <url>data/stories/578.dfl</url>
+    </story>
+    <story story_id="512">
+      <informant_id>552</informant_id>
+      <publication_info>DS_VI_430</publication_info>
+      <full_name>552 - 0.00 - DS_VI_430</full_name>
+      <url>data/stories/512.dfl</url>
+    </story>
+    <story story_id="176">
+      <informant_id>241</informant_id>
+      <publication_info>DS_VI_429</publication_info>
+      <full_name>241 - 4.05 - DS_VI_429</full_name>
+      <url>data/stories/176.dfl</url>
+    </story>
+  </stories_mentioned>
+  <fielddiary_page_start>N/A</fielddiary_page_start>
+  <fielddiary_page_end>N/A</fielddiary_page_end>
+  <bibliographic_info/>
+  <bibliography_references/>
+  <annotation/>
+  <danish_manuscript/>
+  <english_manuscript/>
+  <danish_publication>En pige var kommen skidt af sted. Hun bestemte sig da til, n&#xE5;r hun skulde f&#xF8;de, at dr&#xE6;be barnet. Da tiden kom, at hun skulde have barnet, tog hun sin madmoder med ud i laden. Her fik pigen barnet uden sm&#xE6;rte, og s&#xE5; siger konen: "L&#xE6;g barnet til dit h&#xF6;jre bryst, f&#xF6;r du kv&#xE6;ler det". Det gjorde pigen, og s&#xE5; kunde hun ikke dr&#xE6;be det. Da s&#xE5; b&#xE5;de konen og pigen en sort kok hoppe p&#xE5; bj&#xE6;lken, og den r&#xE5;bte: "Havde jeg vidst det, s&#xE5; skulde jeg ikke have holdt s&#xE5; godt ved din ryg, som jeg gjorde."</danish_publication>
+  <english_publication>A hired girl had gotten pregnant. She decided that, after she gave birth, she would kill the child. When the time came for her to have the child, she went out to the barn with her female boss. The girl had the baby without any pain, and then the woman says, "Lay the child by your right breast before you kill it." The girl did that, and then she couldn't kill the child. Then the woman and the girl both saw a black cock jump up on a support beam and crow, "If I'd known that, then I wouldn't have held your back as well as I did."</english_publication>
+  <keywords>
+    <keyword id="61" frequency="1" keyword="baby">baby</keyword>
+    <keyword id="72" frequency="1" keyword="barn">barn</keyword>
+    <keyword id="102" frequency="1" keyword="birth">birth</keyword>
+    <keyword id="106" frequency="1" keyword="black">black</keyword>
+    <keyword id="141" frequency="1" keyword="breasts">breasts</keyword>
+    <keyword id="219" frequency="4" keyword="children">children</keyword>
+    <keyword id="243" frequency="1" keyword="cock">cock</keyword>
+    <keyword id="283" frequency="1" keyword="crow">crow</keyword>
+    <keyword id="467" frequency="3" keyword="girl">girl</keyword>
+    <keyword id="622" frequency="3" keyword="kill">kill</keyword>
+    <keyword id="789" frequency="1" keyword="mistress">mistress</keyword>
+    <keyword id="895" frequency="1" keyword="pain">pain</keyword>
+    <keyword id="991" frequency="1" keyword="pregnant">pregnant</keyword>
+    <keyword id="1222" frequency="1" keyword="support_beam">support beam</keyword>
+    <keyword id="1356" frequency="2" keyword="woman">woman</keyword>
+  </keywords>
+  <etk_index id="27">
+    <heading_danish>Om Fanden og forbund med ham</heading_danish>
+    <heading_english>About the Devil and being in league with the Devil</heading_english>
+  </etk_index>
+  <tango_indices>
+    <tango_index id="8" display_name="People: Farmwife"/>
+    <tango_index id="11" display_name="People: Girl"/>
+    <tango_index id="25" display_name="Places: Barn"/>
+    <tango_index id="57" display_name="Supernatural Beings: Devil"/>
+    <tango_index id="72" display_name="Animals: Farm animal"/>
+    <tango_index id="91" display_name="Actions or events: Midwifery"/>
+    <tango_index id="92" display_name="Actions or events: Murder"/>
+    <tango_index id="127" display_name="Resolution: Positive"/>
+    <tango_index id="131" display_name="Stylistics: Direct Conversation"/>
+    <tango_index id="132" display_name="Actions or events: Pregnancy and birth"/>
+    <tango_index id="133" display_name="Actions or events: Seduction"/>
+  </tango_indices>
+  <genre id="2" name="Legend"/>
+</story>
