@@ -253,6 +253,16 @@ class Navigation extends Component {
                         <div className="grid-y" style={{'height':'100%'}}>
                             <div className="cell medium-2">
                                 <form className="time-filter grid-x">
+                                    <div className="medium-2 medium-offset-1 cell">
+                                        <div className="switch">
+                                            <input className="switch-input" id="exampleSwitch" type="checkbox" checked={this.state.timeFilterOn}
+                                                   name="exampleSwitch" onChange={this.timeFilterHandler.bind(this)} ref="TimeFilterOn"/>
+                                            <label className="switch-paddle" htmlFor="exampleSwitch"><br/>
+                                                <span style={{fontSize:".8em",color:'black',width:'150%'}}>Timeline</span>
+                                                <span className="show-for-sr">Enable Timeline</span>
+                                            </label>
+                                        </div>
+                                    </div>
                                     <div className="medium-2 cell text"><b>From</b></div>
                                     <div className="medium-2 cell">
                                         <input className="year" type="text" name="FromYear" ref="fromDate"
@@ -278,16 +288,6 @@ class Navigation extends Component {
                                                onMouseUp={(e)=>{e.preventDefault(); this.timeInputEnd.bind(this)('toDate')}}
                                                ref="toDate"
                                                id="myRange"/>
-                                    </div>
-                                    <div className="medium-3 medium-offset-1 cell">
-                                        <div className="switch">
-                                            <input className="switch-input" id="exampleSwitch" type="checkbox" checked={this.state.timeFilterOn}
-                                                   name="exampleSwitch" onChange={this.timeFilterHandler.bind(this)} ref="TimeFilterOn"/>
-                                            <label className="switch-paddle" htmlFor="exampleSwitch"><br/>
-                                                <span style={{fontSize:".8em",color:'black',width:'150%'}}>Timeline</span>
-                                                <span className="show-for-sr">Enable Timeline</span>
-                                            </label>
-                                        </div>
                                     </div>
                                 </form>
                             </div>
