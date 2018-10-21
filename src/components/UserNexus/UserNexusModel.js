@@ -1,5 +1,10 @@
 // functions to get people, places, stories
-import {getStoryByID, getPeopleByID, getPlacesByID} from "../TabViewer/model";
+import {
+    getFieldtripsByID,
+    getPeopleByID,
+    getPlacesByID,
+    getStoryByID,
+} from "../TabViewer/model";
 // function to ensure an input is an array
 import {arrayTransformation} from "../../utils";
 
@@ -177,6 +182,17 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                 // extract mentioned stories, ensure that it is an array, and get their IDs
                 ...arrayTransformation(storiesMentioned).map(story => story["story_id"]),
             ];
+            break;
+        }
+        case "Fieldtrips": {
+            // get the people and places visited as well as the collected stories
+            const {people_visited, places_visited, stories_collected} = getFieldtripsByID(itemID);
+
+            // get the people, places visited + stories collected, ensure that each is an array, and get their IDs
+            currItemPeople = arrayTransformation(people_visited).map(person => person["person_id"]);
+            currItemPlaces = arrayTransformation(places_visited).map(place => place["place_id"]);
+            currItemStories = arrayTransformation(stories_collected).map(story => story["story_id"]);
+
             break;
         }
         default:
