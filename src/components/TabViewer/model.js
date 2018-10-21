@@ -119,7 +119,8 @@ export function getFieldtripsByID(fieldtrip_id) {
     // if anything but the all fieldtrip is selected
     if (fieldtrip_id !== allFieldtripId) {
         // retrieve the relevant information
-        var fieldtripObject = fieldtripsData[fieldtrip_id];
+        // IMPORTANT: use spread syntax so that we don't mutate the original fieldtrip data
+        var fieldtripObject = {...fieldtripsData[fieldtrip_id]};
         // if people_visited exists in fieldtripObject
         if ("people_visited" in fieldtripObject) {
             // ensure that people_visited is an array
