@@ -10,142 +10,100 @@ import {
 // function to ensure an input is an array
 import {arrayTransformation} from "../../utils";
 
-// colors of the nodes on the graph
-const nodeColors = {
-    "People": "blue",
-    "Places": "red",
-    "Stories": "grey",
-    "Fieldtrips": "green",
-    "default": "black",
-};
-
-/**
- * Model initializer
- * @returns {Object} Nodes and links found in storage
- */
+// model initializer
 export function initializeGraph() {
-    // get data from sessionStorage
     const graphData = JSON.parse(sessionStorage.getItem("graphData"));
-
-    // if we couldn't load any data
+    var nodes, links;
     if (graphData === null) {
-        return {
-            // nodes needs a minimum of 1 object
-            "nodes": [{"id": "blank"}],
-            // links is empty since no data
-            "links": [],
-        };
+        nodes = [{"id": "blank"}];
+        links = [];
     } else {
-        // get the nodes and links from loaded data
-        const {nodes, links} = graphData;
-        // return corresponding data
-        return {
-            "nodes": nodes,
-            "links": links,
-        };
+        nodes = graphData["nodes"];
+        links = graphData["links"];
     }
+    return {
+        "nodes": nodes,
+        "links": links,
+    };
 }
 
-/**
- * Initialize the nodes of the graph
- * @returns {Object} An object containing the relevant nodes, categorized by type
- */
 export function initializeNodeCategories() {
-    // get the saved data from sessionStorage
     const nodeCategories = JSON.parse(sessionStorage.getItem("nodeCategories"));
-    // if we were unable to get anything from sessionStorage
+    var People, Places, Stories, Fieldtrips;
     if (nodeCategories === null) {
-        // set the arrays to be empty
-        return {
-            "People": [],
-            "Places": [],
-            "Stories": [],
-            "Fieldtrips": [],
-        };
+        People = [];
+        Places = [];
+        Stories = [];
+        Fieldtrips = [];
     } else {
-        // extract the loaded data
-        const {People, Places, Stories, Fieldtrips} = nodeCategories;
-        // return the corresponding nodeCategories
-        return {
-            "People": People,
-            "Places": Places,
-            "Stories": Stories,
-            "Fieldtrips": Fieldtrips,
-        };
+        // fill data from localstorage
+        People = nodeCategories["People"];
+        Places = nodeCategories["Places"];
+        Stories = nodeCategories["Stories"];
+        Fieldtrips = nodeCategories["Fieldtrips"];
     }
+    return {
+        "People": People,
+        "Places": Places,
+        "Stories": Stories,
+        "Fieldtrips": Fieldtrips,
+    };
 }
 
-/**
- * Adds a node to the graph
- * @param {*} id The ID of the node
- * @param {*} name The name of the node
- * @param {String} type The type of the node
- * @param {*} item The item associated with the node
- */
+// "Smart" function
 export function addNode(id, name, type, item) {
-    // create the node object
-    const newNode = createNode(id, name, type, item);
+    var newNode = createNode(id, name, type, item);
 
-    // get graph info from localstorage
+    // initialize localstorage items
     var graphData = initializeGraph();
     var nodeCategories = initializeNodeCategories();
 
-    // check if the blank node still is present
+    // check if length is 2 that means there's still the blank node
     if (graphData["nodes"][0]["id"] === "blank") {
-        // remove the blank node
         graphData["nodes"].splice(0, 1);
     }
 
-    // if newNode doesn't already exist
-    if (!graphData["nodes"].includes(newNode)) {
-        // add it to the nodes of graphData
+    // check if newNode already exists
+    var itemExists = graphData["nodes"].includes(newNode);
+
+    // if it's new then add to graphData{ nodes:[] }
+    if (!itemExists) {
         graphData["nodes"].push(newNode);
-
-        // add it to the relevant array in nodeCategories and update sessionStorage
-        nodeCategories[type].push(newNode);
-        sessionStorage.setItem("nodeCategories", JSON.stringify(nodeCategories));
-
-        // add any links for this node
-        graphData["links"].push(...createLinkage(newNode, nodeCategories));
-
-        // update the general graph data in session
-        sessionStorage.setItem("graphData", JSON.stringify(graphData));
     }
 
+    // check/create for links
+    graphData["links"] = graphData["links"].concat(createLinkage(newNode, nodeCategories));
+    nodeCategories[newNode["type"]].push(newNode);
+    sessionStorage.setItem("nodeCategories", JSON.stringify(nodeCategories));
+    sessionStorage.setItem("graphData", JSON.stringify(graphData));
 }
 
-/**
- * Creates a node object from the given inputs
- * @param {*} id The ID of the new node
- * @param {*} name The name of the new node
- * @param {String} type The type of the new node
- * @param {*} item The item associated with the node
- * @returns {Node} The node corresponding to the given input
- */
+// "dumb function"
 export function createNode(id, name, type, item) {
-    // color of the final node
-    var color = "";
+    var nodeColor = "";
 
-    // if the type has a corresponding color, in nodeColors
-    if (type in nodeColors) {
-        // set the color to that of nodeColors
-        color = nodeColors[type];
-    } else {
-        // use the default if we couldn't find the type in nodeColors
-        color = nodeColors["default"];
+    switch (type) {
+        case "People":
+            nodeColor = "blue";
+            break;
+        case "Places":
+            nodeColor = "red";
+            break;
+        case "Stories":
+            nodeColor = "grey";
+            break;
+        case "Fieldtrips":
+            nodeColor = "green";
+            break;
+        default:
+            nodeColor = "black";
     }
 
-    // assemble the node
     return {
-        // id of the node
         "id": name,
-        // color of the node on the graph
-        "color": color,
-        // item associated with the node
+        "color": nodeColor,
         "item": item,
-        // type of the node
         "type": type,
-        // id referring to item
         "itemID": id,
     };
 }
@@ -157,6 +115,8 @@ export function createNode(id, name, type, item) {
  * @returns {Array} An array containing the formed linkages
  */
 export function createLinkage({id, itemID, type}, nodeCategories) {
+    // nodeCategories = array of already existing nodes
+
     // array to contain formed linkages
     let links = [],
         // array of people associated with node
@@ -173,29 +133,15 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
         case "Stories": {
             // get the informant's ID, places relevant to this story
             const {informant_id, places} = getStoryByID(itemID);
+            // get the author
+            currInformant = getPeopleByID(informant_id);
 
-            // assuming that there is an author
-            if (typeof informant_id !== "undefined") {
-                // get the author
-                currInformant = getPeopleByID(informant_id);
-
-                // stores the author's ID as a single element array
-                currItemPeople = [informant_id];
-
-                // extract author's stories, ensure that it is an array, and get their IDs
-                currItemStories = arrayTransformation(currInformant["stories"]).map(story => story["story_id"]);
-            }
-
-            // if there are relevant places
-            if (typeof places !== "undefined" && typeof places["place"] !== "undefined") {
-                // extract relevant places, ensure that it is an array, and get their IDs
-                currItemPlaces = arrayTransformation(places["place"]).map(place => place["place_id"]);
-            }
-
-            // now update fieldtrips
-            nodeCategories["Fieldtrips"].forEach((fieldtrip) => {
-                links.push(...createLinkage(fieldtrip, nodeCategories));
-            });
+            // stores the author's ID as a single element array
+            currItemPeople = [informant_id];
+            // extract relevant places, ensure that it is an array, and get their IDs
+            currItemPlaces = arrayTransformation(places["place"]).map(place => place["place_id"]);
+            // extract author's stories, ensure that it is an array, and get their IDs
+            currItemStories = arrayTransformation(currInformant["stories"]).map(story => story["story_id"]);
 
             break;
         }
@@ -205,23 +151,10 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
 
             // doesn't seem that there are any first-degree associated people for other people
             currItemPeople = [];
-
-            // if there are relevant places
-            if (typeof places !== "undefined") {
-                // extract relevant places, ensure that it is an array, and get their IDs
-                currItemPlaces = arrayTransformation(places).map(place => place["place_id"]);
-            }
-
-            // if there are any authored stories
-            if (typeof stories !== "undefined") {
-                // extract stories, ensure that it is an array, and get their IDs
-                currItemStories = arrayTransformation(stories).map(story => story["story_id"]);
-            }
-
-            // now update fieldtrips
-            nodeCategories["Fieldtrips"].forEach((fieldtrip) => {
-                links.push(...createLinkage(fieldtrip, nodeCategories));
-            });
+            // extract relevant places, ensure that it is an array, and get their IDs
+            currItemPlaces = arrayTransformation(places).map(place => place["place_id"]);
+            // extract stories, ensure that it is an array, and get their IDs
+            currItemStories = arrayTransformation(stories).map(story => story["story_id"]);
 
             break;
         }
@@ -240,55 +173,27 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
 
             // so we need to extract person, then extract attributes from the object inside it
 
-            // if there are relevant people
-            if (typeof people !== "undefined") {
-                // get the relevant people, ensure that it is an array, and get their IDs
-                currItemPeople = arrayTransformation(people).map(person => person["person"]["person_id"]);
-            }
-
+            // get the relevant people, ensure that it is an array, and get their IDs
+            currItemPeople = arrayTransformation(people).map(person => person["person"]["person_id"]);
             // doesn't seem that there are any first-degree associated places for other places
             currItemPlaces = [];
-
-            // if stories were collected here
-            if (typeof storiesCollected !== "undefined") {
-                // extract stories collected here, ensure that it is an array, get their IDs, and add it to currItemStories
-                currItemStories.push(...arrayTransformation(storiesCollected).map(story => story["story_id"]));
-            }
-
-            // if this is mentioned in any stories
-            if (typeof storiesMentioned !== "undefined") {
-                // extract stories that mention this place, ensure that it is an array, get their IDs, and add it to currItemStories
-                currItemStories.push(...arrayTransformation(storiesMentioned).map(story => story["story_id"]));
-            }
-
-            // now update fieldtrips
-            nodeCategories["Fieldtrips"].forEach((fieldtrip) => {
-                links.push(...createLinkage(fieldtrip, nodeCategories));
-            });
-
+            // combines mentioned stories and stories recorded here
+            currItemStories = [
+                // extract stories collected here, ensure that it is an array, and get their IDs
+                ...arrayTransformation(storiesCollected).map(story => story["story_id"]),
+                // extract mentioned stories, ensure that it is an array, and get their IDs
+                ...arrayTransformation(storiesMentioned).map(story => story["story_id"]),
+            ];
             break;
         }
         case "Fieldtrips": {
             // get the people and places visited as well as the collected stories
             const {people_visited, places_visited, stories_collected} = getFieldtripsByID(itemID);
 
-            // if there are people visited
-            if (typeof people_visited !== "undefined") {
-                // get them, ensure that it is an array, and get their IDs
-                currItemPeople = arrayTransformation(people_visited).map(person => person["person_id"]);
-            }
-
-            // if there are place visited
-            if (typeof places_visited !== "undefined") {
-                // get them, ensure that it is an array, and get their IDs
-                currItemPlaces = arrayTransformation(places_visited).map(place => place["place_id"]);
-            }
-
-            // if there are collected stories
-            if (typeof stories_collected !== "undefined") {
-                // get them, ensure that it is an array, and get their IDs
-                currItemStories = arrayTransformation(stories_collected).map(story => story["story_id"]);
-            }
+            // get the people, places visited + stories collected, ensure that each is an array, and get their IDs
+            currItemPeople = arrayTransformation(people_visited).map(person => person["person_id"]);
+            currItemPlaces = arrayTransformation(places_visited).map(place => place["place_id"]);
+            currItemStories = arrayTransformation(stories_collected).map(story => story["story_id"]);
 
             break;
         }
