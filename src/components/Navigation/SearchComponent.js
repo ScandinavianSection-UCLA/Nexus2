@@ -31,14 +31,27 @@ class SearchComponent extends Component {
     }
 
     handleSearch(selectedItem){
+        let SearchList, NewState;
         // check if selectItem is just a keyword string
         if(typeof selectedItem === 'string'){
             // if it is, we need to get the keyword object from keywords
             this.state.keywords.forEach((keyword) => {
                 if(keyword['keyword_name'] === selectedItem){
                     selectedItem = keyword;
+                    SearchList = [selectedItem];
                 }
-            })
+            });
+            //if it is still a string that means no keyword matches, and we need to tell Navigation
+            if(typeof selectedItem === 'string'){
+                let QueriedList = this.state.refinedResultsState ? 'refinedResults' :'results';
+                //send list of suggestions to Navigation
+                console.log(this.state[QueriedList],'Queried list!!!');
+                SearchList = this.state[QueriedList];
+                NewState = {searching:false, inputValue:selectedItem};
+                selectedItem = this.state[QueriedList][0]; //set first suggested item
+            }
+        } else {
+            SearchList = [selectedItem];
         }
 
         // check if selectedItem is a story or keyword, place, or person
@@ -54,10 +67,6 @@ class SearchComponent extends Component {
             if(typeof selectedItem['stories']['story'] !== 'undefined'){
                 storiesList = arrayTransformation(selectedItem['stories']['story']);
             }
-            // if(typeof selectedItem['places']['place'] !== 'undefined'){
-            //     placesList = arrayTransformation(selectedItem['places']['place']);
-            // }
-            // // var itemsList = storiesList.concat(placesList);
 
             this.props.handleDisplayItems(storiesList,'Stories');
             this.setState({searching:false, searchTerm:selectedItem['keyword_name']});
@@ -73,9 +82,11 @@ class SearchComponent extends Component {
             SearchValueKey = 'fieldtrip_name';
         }
 
-        // this.refs.searchString.value = selectedItem[SearchValueKey]; //set text input field to the selected item
-        this.props.handleDisplayItems([selectedItem],DisplayOntology); //only display the results from the search
-        this.setState({searching:false, inputValue:selectedItem[SearchValueKey]});
+        if(NewState['searching']){
+            NewState = {searching:false, inputValue:selectedItem[SearchValueKey]};
+        }
+        this.props.handleDisplayItems(SearchList,DisplayOntology); //only display the results from the search
+        this.setState(NewState);
     }
 
     handleFuzzySearch(event){

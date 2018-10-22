@@ -90,7 +90,8 @@ export const ontologyToDisplayKey = {
     'Genres':'name',
     'People':'full_name',
     'Places':'name',
-    'Stories':'full_name'
+    'Stories':'full_name',
+    'SearchString':''
 };
 
 //For finding links between people, places, stories
@@ -204,7 +205,8 @@ export const ontologyToID = {
     'Stories':'story_id',
     'Places':'place_id',
     'People':'person_id',
-    'Fieldtrips':'fieldtrip_id'
+    'Fieldtrips':'fieldtrip_id',
+    'SearchString':'',
 };
 
 export function dateFilterHelper(startDate, endDate, ontology){

@@ -94,18 +94,20 @@ class Navigation extends Component {
             }
         });
 
-        return list.map((item,i)=>{
-            return <li key={i} className={ontology}
-                       onClick={(e)=>{ e.preventDefault();
-                           this.handleIDQuery(item[idKey],item[displayKey],ontology,item)}}>
-                    <span>
-                        <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
-                        <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
-                        <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
-                    </span> {item[displayKey]}
-            </li>
-        });
+        // return list.map((item,i)=>{
+        //     return <li key={i} className={ontology}
+        //                onClick={(e)=>{ e.preventDefault();
+        //                    this.handleIDQuery(item[idKey],item[displayKey],ontology,item)}}>
+        //             <span>
+        //                 <img className={"convo-icon " + ontology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
+        //                 <img className={"person-icon " + ontology} src={require('./icons8-contacts-32.png')}  alt="person"/>
+        //                 <img className={"location-icon " + ontology} src={require('./icons8-marker-32.png')}  alt="location"/>
+        //             </span> {item[displayKey]}
+        //     </li>
+        // });
     }
+
+    handleSearchQuery(){}
 
     handleIDQuery(id, name, type, item){
         console.log(item);
