@@ -61,12 +61,26 @@ class Navigation extends Component {
                     }
                 });
             }
-            this.setState({path:['Topic & Index Navigator']},
+            this.setState((oldState)=>{
+                    if(oldState.dataNav.includes(prevSelection)){
+                        console.log('hello from DN', oldState.dataNav.includes(prevSelection));
+                        return {path:['Data Navigator']}
+                    } else {
+                        console.log('hello from t&I');
+                        return {path:['Topic & Index Navigator']};
+                    }
+                },
                 ()=>{
                     this.handleLevelTwoClick(prevSelection);
                 });
         } else {
-            this.setState({path:['Data Navigator']},
+            this.setState((oldState)=>{
+                    if(oldState.dataNav.includes(prevSelection)>=0){
+                        return {path:['Data Navigator']}
+                    } else {
+                        return {path:['Topic & Index Navigator']};
+                    }
+                },
                 ()=>{
                     this.handleLevelTwoClick('Stories');
                 });
