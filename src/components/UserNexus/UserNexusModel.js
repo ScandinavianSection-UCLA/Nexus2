@@ -1,6 +1,4 @@
 // functions to get people, places, stories
-
-
 import {
     getFieldtripsByID,
     getPeopleByID,
