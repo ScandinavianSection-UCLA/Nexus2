@@ -193,7 +193,6 @@ class StoryView extends Component {
     }
 
     render() {
-        console.log("places array",this.props.story['places']['place']);
         var cleanPlacesArray = setPlaceIDList(arrayTransformation(this.props.story['places']['place']),'Places');
         var PlaceObjectArray = this.props.story['places']['place'];
         var PlacesArray = [];

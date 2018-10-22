@@ -32,6 +32,7 @@ class SearchComponent extends Component {
 
     handleSearch(selectedItem){
         let SearchList, NewState;
+        NewState = {searching:false,}
         // check if selectItem is just a keyword string
         if(typeof selectedItem === 'string'){
             // if it is, we need to get the keyword object from keywords
@@ -47,7 +48,7 @@ class SearchComponent extends Component {
                 //send list of suggestions to Navigation
                 console.log(this.state[QueriedList],'Queried list!!!');
                 SearchList = this.state[QueriedList];
-                NewState = {searching:false, inputValue:selectedItem};
+                NewState['inputValue'] = selectedItem;
                 selectedItem = this.state[QueriedList][0]; //set first suggested item
             }
         } else {
@@ -85,11 +86,13 @@ class SearchComponent extends Component {
         if(NewState['searching']){
             NewState = {searching:false, inputValue:selectedItem[SearchValueKey]};
         }
+        this.props.searchOn(false);
         this.props.handleDisplayItems(SearchList,DisplayOntology); //only display the results from the search
         this.setState(NewState);
     }
 
     handleFuzzySearch(event){
+        this.props.searchOn(true);
         this.renderSuggestions();
         this.setState({
             searching:true,

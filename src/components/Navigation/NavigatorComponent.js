@@ -33,7 +33,6 @@ class Navigation extends Component {
 
     componentWillMount(){
         const prevSelection = sessionStorage.getItem('SelectedNavOntology');
-        console.log(prevSelection);
         this.setState(()=>{
             return{
                 navigators:[
@@ -47,7 +46,7 @@ class Navigation extends Component {
 
         if(prevSelection){
             let isPPS = (prevSelection === 'People' || prevSelection === 'Places' || prevSelection === 'Stories');
-
+            console.log(prevSelection);
             //check if the topics and indices navigation tab should be active
             if(!isPPS){
                 this.setState(()=>{
@@ -62,9 +61,15 @@ class Navigation extends Component {
                     }
                 });
             }
-            this.handleLevelTwoClick(prevSelection);
+            this.setState({path:['Topic & Index Navigator']},
+                ()=>{
+                    this.handleLevelTwoClick(prevSelection);
+                });
         } else {
-            this.handleLevelTwoClick('Stories');
+            this.setState({path:['Data Navigator']},
+                ()=>{
+                    this.handleLevelTwoClick('Stories');
+                });
         }
 
     }
@@ -81,8 +86,9 @@ class Navigation extends Component {
                     {name:'Data Navigator', tabClass:'tab cell medium-6 dataNavView active'},
                     {name:'Topic & Index Navigator', tabClass:'tab cell medium-6 TINavView'}
                 ];
+                oldState['path'] = ['Data Navigator'];
                 return oldState;
-            });
+            },()=>{this.props.setDisplayLabel(this.state.path.join())});
         } else {
             this.setState((oldState)=>{
                 oldState['dataNavView'] = false;
@@ -91,8 +97,9 @@ class Navigation extends Component {
                     {name:'Data Navigator', tabClass:'tab cell medium-6 dataNavView '},
                     {name:'Topic & Index Navigator', tabClass:'tab cell medium-6 TINavView active'}
                 ];
+                oldState['path'] = ['Topic & Index Navigator'];
                 return oldState;
-            })
+            },()=>{this.props.setDisplayLabel(this.state.path.join())});
         }
     }
 
@@ -105,6 +112,7 @@ class Navigation extends Component {
         var itemsList = getList(ontology);
         var listObject = {};
         var isPPSF = (ontology === 'People' || ontology === 'Places' || ontology === 'Stories' || ontology === 'Fieldtrips');
+
         if(isPPSF){ //if it is part of Data navigator or it's a fieldtrip
             this.props.handleDisplayItems(itemsList, ontology); // send to navigation to display results
 
@@ -120,29 +128,21 @@ class Navigation extends Component {
                     'Genres':false,
                 };
                 oldState.activeList[ontology] = true;
+                if(oldState.path.length >= 2){
+                    oldState.path = oldState.path.slice(0,1);
+                }
+                oldState.path.push(ontology);
                 return {
                     activeList:oldState.activeList,
+                    path:oldState.path,
                     dropdownLists:[],
                 }
+            }, ()=>{
+                //set display label (above search results)
+                this.props.setDisplayLabel(this.state['path'].join(" > "));
             });
-        } else {
-            //highlight clicked ontology
-            this.setState((oldState)=>{
-                oldState.activeList = {
-                    'People':false,
-                    'Places':false,
-                    'Stories':false,
-                    'Fieldtrip':false,
-                    'Tangherlini Index':false,
-                    'ETK Index': false,
-                    'Genres':false,
-                };
-                oldState.activeList[ontology] = true;
-                return {
-                    activeList:oldState.activeList,
-                }
-            });
-
+        }
+        else {
             //create additional options for people to be in the dropdown menu so people can select everything in the menu
             var selectString = '';
             if(ontology!=='ETK Index'){
@@ -163,7 +163,32 @@ class Navigation extends Component {
             if(!inList){
                 itemsList.unshift(selectObject);
             }
+            //highlight clicked ontology
+            this.setState((oldState)=>{
+                oldState.activeList = {
+                    'People':false,
+                    'Places':false,
+                    'Stories':false,
+                    'Fieldtrip':false,
+                    'Tangherlini Index':false,
+                    'ETK Index': false,
+                    'Genres':false,
+                };
+                oldState.activeList[ontology] = true;
+                if(oldState.path.length >= 2){
+                    oldState.path = oldState.path.slice(0,1);
+                }
+                oldState.path.push(ontology);
+                return {
+                    activeList:oldState.activeList,
+                    path:oldState.path,
+                }
+            }, () => {
+                //set display label (above search results)
+                this.props.setDisplayLabel(this.state['path'].join(" > "));
+            });
         }
+
         if(ontology !== 'Tangherlini Index' && !isPPSF) {
             //if it is an indice that isn't a tango index
             listObject = {
@@ -191,7 +216,8 @@ class Navigation extends Component {
                     dropdownLists:[listObject]
                 }
             });
-        } else if (!isPPSF) {
+        }
+        else if (!isPPSF) {
             //ontology === tangherlini indices
             var tangoTypesList = Object.keys(tangoTypes);
             tangoTypesList.unshift('[Select a Class]');
@@ -202,7 +228,7 @@ class Navigation extends Component {
                 tango:true,
                 list:tangoTypesList,
             };
-            // this.setState({dropdownLists:[listObject]})
+
             //highlight clicked ontology
             this.setState((oldState)=>{
                 oldState.activeList = {
@@ -230,11 +256,30 @@ class Navigation extends Component {
             this.setState((oldState)=>{
                 var newDropdownList = oldState.dropdownLists;
                 newDropdownList[newDropdownList.length - 1]['selectValue'] = selectedItem['name'];
-                console.log(newDropdownList);
-                return {dropdownLists:newDropdownList}
+                var NameKey='';
+                if('name' in selectedItem){
+                    NameKey = 'name'
+                } else if ('heading_english' in selectedItem){
+                    NameKey ='heading_english'
+                }
+                console.log('NEW DROPDOWN LIST', (newDropdownList[0]['list'].indexOf('[Select a Class]') >= 0));
+                if(oldState.path.length >= 3 && oldState.path.indexOf('Tangherlini Index') === -1 ){
+                    oldState.path = oldState.path.slice(0,2);
+                } else if (oldState.path.length >=4 && newDropdownList.indexOf('[Select Class]') === -1){ //
+                    oldState.path = oldState.path.slice(0,3);
+                }
+                oldState.path.push(selectedItem[NameKey]);
+                console.log('hihihhlkjhl ', oldState.path);
+                return {
+                    dropdownLists:newDropdownList,
+                    path:oldState.path,
+                }
+            },()=>{
+                this.props.setDisplayLabel(this.state['path'].join(' > '));
+                this.props.handleDisplayItems(storiesList,'Stories');
+                localStorage.setItem('navCompState',this.state);
             });
-            this.props.handleDisplayItems(storiesList,'Stories');
-            localStorage.setItem('navCompState',this.state);
+
         } else if(isTango){
             //need to make second dropdown list with those types
             this.setState((oldState)=>{
@@ -252,7 +297,23 @@ class Navigation extends Component {
                 var newDropdownList = oldState.dropdownLists;
                 newDropdownList.splice(1,1,listObject);
                 newDropdownList[0]['selectValue'] = selectedItem;
-                return {dropwdownLists:newDropdownList}
+                console.log('NEW DROPDOWN LIST', (newDropdownList[0]['list'].indexOf('[Select a Class]') >= 0));
+                if(oldState.path.length >= 3 &&
+                    (oldState.path.indexOf('Tangherlini Index') === -1 || newDropdownList[0]['list'].indexOf('[Select a Class]') >= 0)){
+                    oldState.path = oldState.path.slice(0,2);
+                } else if (oldState.path.length >=4 && newDropdownList.indexOf('[Select Class]') === -1){ //
+                    oldState.path = oldState.path.slice(0,3);
+                }
+                oldState.path.push(selectedItem);
+                console.log('hihihhlkjhl ',selectedItem);
+                return {
+                    dropdownLists:newDropdownList,
+                    path:oldState.path,
+                }
+            },()=>{
+                this.props.setDisplayLabel(this.state['path'].join(' > '));
+                // this.props.handleDisplayItems(storiesList,'Stories');
+                localStorage.setItem('navCompState',this.state);
             });
         }
     }

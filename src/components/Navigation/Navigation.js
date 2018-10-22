@@ -39,6 +39,8 @@ class Navigation extends Component {
             placeList:[],
             fieldtrips:[],
             nodes:[],
+            searchOn:false,
+            displayLabel:'',
         };
         this.displayItems = this.displayItems.bind(this)
     }
@@ -106,8 +108,6 @@ class Navigation extends Component {
         //     </li>
         // });
     }
-
-    handleSearchQuery(){}
 
     handleIDQuery(id, name, type, item){
         console.log(item);
@@ -243,13 +243,25 @@ class Navigation extends Component {
         }
     }
 
+    flipSearch(CurrentState){
+        this.setState({searchOn:CurrentState});
+    }
+    setDisplayLabel(label){
+        this.setState({displayLabel:label});
+    }
+
     render() {
         return (
             <div className="Navigation">
                 <div className="navigation grid-x grid-padding-x">
                     <div className="medium-3 cell dataNavigation">
-                        <SearchComponent handleDisplayItems={this.displayItems.bind(this)} displayList={this.state.itemsList}/>
-                        <NavigatorComponent handleDisplayItems={this.displayItems.bind(this)}/>
+                        <SearchComponent handleDisplayItems={this.displayItems.bind(this)}
+                                         displayList={this.state.itemsList}
+                                         searchOn={this.flipSearch.bind(this)}
+                        />
+                        <NavigatorComponent handleDisplayItems={this.displayItems.bind(this)}
+                                            setDisplayLabel={this.setDisplayLabel.bind(this)}
+                        />
                     </div>
                     <div className="medium-5 cell AssociatedStoriesViewer">
                         <div className="grid-y" style={{'height':'100%'}}>
@@ -295,6 +307,10 @@ class Navigation extends Component {
                             </div>
                             <div className="stories-container cell medium-10">
                                 <ul className="book medium-cell-block-y">
+                                    <h6 className="label secondary">
+                                        <span className={`SearchTitle ${this.state.searchOn ? 'active': ''}`}>Searching </span>
+                                        {this.state.displayLabel}
+                                    </h6>
                                     {this.state.displayItemsList}
                                 </ul>
                             </div>
