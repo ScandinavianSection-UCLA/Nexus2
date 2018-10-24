@@ -11,22 +11,22 @@ import storySearch from '../../data/cstories.json'
 import places from '../../data/cplaces.json'
 
 const data = {
-    keywords:dataKeywords.keyword,
-    tango:dataTango.tango_index,
-    etk:dataETK.etk_index,
-    genre:dataGenre.genre,
-    fieldtrips:dataFieldtrips.fieldtrip,
+    keywords: dataKeywords.keyword,
+    tango: dataTango.tango_index,
+    etk: dataETK.etk_index,
+    genre: dataGenre.genre,
+    fieldtrips: dataFieldtrips.fieldtrip,
     people: informants.informant,
     places: places.place,
     stories: storySearch.story,
 };
 
 //return array of same key:pair value (i.e. gets me a list of all children of "Places")
-function getChildren(list,key,value,isObj){
-    var items=[];
-    for(var i=0; i<list.length; i++){
-        if(value === list[i][key]){
-            if(isObj){
+function getChildren(list, key, value, isObj) {
+    var items = [];
+    for (var i = 0; i < list.length; i++) {
+        if (value === list[i][key]) {
+            if (isObj) {
                 items.push(list[i]);
             } else {
                 items.push(list[i].name);
@@ -37,7 +37,7 @@ function getChildren(list,key,value,isObj){
 }
 
 //return array of values with the same key
-function getSiblings(list,key,isObj) {
+function getSiblings(list, key, isObj) {
     if (key === 'MAIN' || key === 'TOPIC' || key === 'PPS' || key === '') {
         return list;
     }
@@ -46,7 +46,7 @@ function getSiblings(list,key,isObj) {
         for (var i = 0; i < list.length; i++) {
             var curr = list[i][key];
             if (!prev.includes(curr)) {
-                if(isObj){
+                if (isObj) {
                     prev.push(list[i])
                 } else {
                     prev.push(curr);
@@ -58,99 +58,99 @@ function getSiblings(list,key,isObj) {
     alert("Can't get siblings!");
 }
 
-export function arrayTransformation(item){
-    var finalArray=[];
-    if(Array.isArray(item)){
+export function arrayTransformation(item) {
+    var finalArray = [];
+    if (Array.isArray(item)) {
         finalArray = item;
-    } else if(typeof item === 'object'){
+    } else if (typeof item === 'object') {
         finalArray.push(item);
     }
     //if item is undefined (meaning there's no people/stories/places associated) then return empty array
     return finalArray;
 }
 
-export function getList(ontology){
+export function getList(ontology) {
     return ListModel[ontology]['children'];
 }
 
-export function getKeywords(){
+export function getKeywords() {
     var keywordsAll = keywords['children'].concat(ListModel['Stories']['children']);
     return keywordsAll;
 }
 
 const keywords = {
-    name:'keywords',
-    children:getSiblings(data.keywords,'keyword_name',true)
+    name: 'keywords',
+    children: getSiblings(data.keywords, 'keyword_name', true)
 };
 
 export const ontologyToDisplayKey = {
-    'ETK Index':'heading_english',
-    'Tangherlini Index':'type',
-    'Fieldtrips':'fieldtrip_name',
-    'Genres':'name',
-    'People':'full_name',
-    'Places':'name',
-    'Stories':'full_name'
+    'ETK Index': 'heading_english',
+    'Tangherlini Index': 'type',
+    'Fieldtrips': 'fieldtrip_name',
+    'Genres': 'name',
+    'People': 'full_name',
+    'Places': 'name',
+    'Stories': 'full_name'
 };
 
 //For finding links between people, places, stories
 export const ontologyToSearchKey = {
-    'ETK Index':'heading_english',
-    'Tangherlini Index':'type',
-    'Fieldtrips':'fieldtrip_name',
-    'Genres':'name',
-    'People':'full_name',
-    'Places':'name',
-    'Stories':'full_name'
+    'ETK Index': 'heading_english',
+    'Tangherlini Index': 'type',
+    'Fieldtrips': 'fieldtrip_name',
+    'Genres': 'name',
+    'People': 'full_name',
+    'Places': 'name',
+    'Stories': 'full_name'
 };
 
 export const tangoTypes = {
-    'People Classes':{
-        name:'People Classes',
-        children:getChildren(data.tango,'type','People Classes',true),
-        level:3
+    'People Classes': {
+        name: 'People Classes',
+        children: getChildren(data.tango, 'type', 'People Classes', true),
+        level: 3
     },
-    'Place Classes':{
-        name:'Places',
-        children:getChildren(data.tango,'type','Place Classes',true),
-        level:3
+    'Place Classes': {
+        name: 'Places',
+        children: getChildren(data.tango, 'type', 'Place Classes', true),
+        level: 3
     },
-    'Tools, Items and Conveyances':{
-        name:'Tools, Items and Conveyances',
-        children:getChildren(data.tango,'type','Tools, Items and Conveyances',true),
-        level:3
+    'Tools, Items and Conveyances': {
+        name: 'Tools, Items and Conveyances',
+        children: getChildren(data.tango, 'type', 'Tools, Items and Conveyances', true),
+        level: 3
     },
-    'Supernatural Beings':{
-        name:'Supernatural Beings',
-        children:getChildren(data.tango,'type','Supernatural Beings',true),
-        level:3
+    'Supernatural Beings': {
+        name: 'Supernatural Beings',
+        children: getChildren(data.tango, 'type', 'Supernatural Beings', true),
+        level: 3
     },
-    'Animals':{
-        name:'Animals',
-        children:getChildren(data.tango,'type','Animals',true),
-        level:3
+    'Animals': {
+        name: 'Animals',
+        children: getChildren(data.tango, 'type', 'Animals', true),
+        level: 3
     },
-    'Action or events':{
-        name:'Action or events',
-        children:getChildren(data.tango,'type','Action or events',true),
-        level:3
+    'Action or events': {
+        name: 'Action or events',
+        children: getChildren(data.tango, 'type', 'Action or events', true),
+        level: 3
     },
-    'Time, Season, Weather':{
-        name:'Time, Season, Weather',
-        children:getChildren(data.tango,'type','Time, Season, Weather',true),
-        level:3
+    'Time, Season, Weather': {
+        name: 'Time, Season, Weather',
+        children: getChildren(data.tango, 'type', 'Time, Season, Weather', true),
+        level: 3
     },
-    'Resolution':{
-        name:'Resolution',
-        childArray:getChildren(data.tango,'type','Resolution', false),
-        parent:this['Topic & Navigator'],
-        children:getChildren(data.tango,'type','Resolution',true),
-        level:3
+    'Resolution': {
+        name: 'Resolution',
+        childArray: getChildren(data.tango, 'type', 'Resolution', false),
+        parent: this['Topic & Navigator'],
+        children: getChildren(data.tango, 'type', 'Resolution', true),
+        level: 3
     },
-    'Stylistics':{
-        name:'Stylistics',
-        children:getChildren(data.tango,'type','Stylistics',true),
-        level:3
+    'Stylistics': {
+        name: 'Stylistics',
+        children: getChildren(data.tango, 'type', 'Stylistics', true),
+        level: 3
     },
 };
 
@@ -158,102 +158,102 @@ export const tangoTypes = {
 //TODO: clean up undefined/empty values (i.e. last value of fieldtrip search results)
 
 const ListModel = {
-    'People':{
-        name:'People',
-        children:getSiblings(data.people,'full_name',true),
-        level:2
+    'People': {
+        name: 'People',
+        children: getSiblings(data.people, 'full_name', true),
+        level: 2
     },
-    'Places':{
-        name:'Places',
-        children:getSiblings(data.places,'name',true),
-        level:2
+    'Places': {
+        name: 'Places',
+        children: getSiblings(data.places, 'name', true),
+        level: 2
     },
-    'Stories':{
-        name:'Stories',
-        children:getSiblings(data.stories,'full_name',true),
-        level:2
+    'Stories': {
+        name: 'Stories',
+        children: getSiblings(data.stories, 'full_name', true),
+        level: 2
     },
-    'ETK Index':{
-        name:'ETK Index',
-        children:getSiblings(data.etk,'heading_english',true),
-        level:2
+    'ETK Index': {
+        name: 'ETK Index',
+        children: getSiblings(data.etk, 'heading_english', true),
+        level: 2
     },
-    'Keywords':{
-        name:'Keywords',
-        children:getSiblings(data.keywords,'keyword_name',true),
-        level:2
+    'Keywords': {
+        name: 'Keywords',
+        children: getSiblings(data.keywords, 'keyword_name', true),
+        level: 2
     },
-    'Fieldtrips':{
-        name:'Fieldtrips',
-        children:getSiblings(data.fieldtrips,'fieldtrip_name',true),
-        level:2
+    'Fieldtrips': {
+        name: 'Fieldtrips',
+        children: getSiblings(data.fieldtrips, 'fieldtrip_name', true),
+        level: 2
     },
-    'Genres':{
-        name:'Genres',
-        children:getSiblings(data.genre,'name',true),
-        level:2
+    'Genres': {
+        name: 'Genres',
+        children: getSiblings(data.genre, 'name', true),
+        level: 2
     },
-    'Tangherlini Index':{
-        name:'Tangherlini Index',
-        children:getSiblings(data.tango,'type',true),
-        level:2
+    'Tangherlini Index': {
+        name: 'Tangherlini Index',
+        children: getSiblings(data.tango, 'type', true),
+        level: 2
     },
 };
 
 export const ontologyToID = {
-    'Stories':'story_id',
-    'Places':'place_id',
-    'People':'person_id',
-    'Fieldtrips':'fieldtrip_id'
+    'Stories': 'story_id',
+    'Places': 'place_id',
+    'People': 'person_id',
+    'Fieldtrips': 'fieldtrip_id'
 };
 
-export function dateFilterHelper(startDate, endDate, ontology){
-    console.log(startDate,endDate,ontology);
+export function dateFilterHelper(startDate, endDate, ontology) {
+    console.log(startDate, endDate, ontology);
     //go through fieldtrips to see which fieldtrips fit within dates
     var fieldtripsInDates = [];
-    data.fieldtrips.forEach((fieldtrip)=>{
-        if(parseInt(fieldtrip['start_date']) >= startDate && parseInt(fieldtrip['end_date']) <= endDate){
+    data.fieldtrips.forEach((fieldtrip) => {
+        if (parseInt(fieldtrip['start_date']) >= startDate && parseInt(fieldtrip['end_date']) <= endDate) {
             fieldtripsInDates.push(fieldtrip);
         }
     });
-    if(ontology !== 'Fieldtrips'){
+    if (ontology !== 'Fieldtrips') {
         //this is because the data structure is stupid so you have stories_collected { story: {}/[] } so you have to get
         //access to "story" instead of just "stories_collected to get what you want
         var ontologyToFieldtripKey = {
-            'Stories':{firstKey:'stories_collected', secondKey:'story'},
-            'Places' :{firstKey:'places_visited', secondKey:'place'},
-            'People' :{firstKey:'people_visited', secondKey:'person'},
+            'Stories': {firstKey: 'stories_collected', secondKey: 'story'},
+            'Places': {firstKey: 'places_visited', secondKey: 'place'},
+            'People': {firstKey: 'people_visited', secondKey: 'person'},
         };
         var fieldtripKey = ontologyToFieldtripKey[ontology];
         //for fieldtrips that fit within dates, return list of either story, people, or places visited
         var UniqueItems = [];
-        if(typeof fieldtripKey !== 'undefined'){
-            fieldtripsInDates.forEach((fieldtrip)=>{
+        if (typeof fieldtripKey !== 'undefined') {
+            fieldtripsInDates.forEach((fieldtrip) => {
                 //for each fieldtrip, get array of people, places, or stories
                 //handle fieldtrip data if second key doesn't exist (i.e. stories_collected:[stories...] and stories_collected:{stories...})
                 var uncleanedItems;
 
-                if(fieldtrip[fieldtripKey['firstKey']] instanceof Array){
+                if (fieldtrip[fieldtripKey['firstKey']] instanceof Array) {
                     uncleanedItems = fieldtrip[fieldtripKey['firstKey']];
                     console.log('An array!!!')
-                } else{
+                } else {
                     //if fieldtrip['stories_collected'] has object ({'stories':[stories...]}), get to stories
                     uncleanedItems = fieldtrip[fieldtripKey['firstKey']][fieldtripKey['secondKey']];
                 }
 
                 var CurrentFieldtripItems = arrayTransformation(uncleanedItems);
 
-                if(typeof CurrentFieldtripItems !== 'undefined'){
+                if (typeof CurrentFieldtripItems !== 'undefined') {
                     var IDKey = Object.keys(CurrentFieldtripItems[0])[0]; //the ID key will be the first key of every item object
                     //create unique list of people, places, or stories
-                    CurrentFieldtripItems.forEach((item) =>{
+                    CurrentFieldtripItems.forEach((item) => {
                         var notExistsInList = true;
-                        UniqueItems.forEach((currentItem)=>{
-                            if(currentItem[IDKey] === item[IDKey]){
+                        UniqueItems.forEach((currentItem) => {
+                            if (currentItem[IDKey] === item[IDKey]) {
                                 notExistsInList = false;
                             }
                         });
-                        if(notExistsInList){
+                        if (notExistsInList) {
                             UniqueItems.push(item);
                         }
                     });
@@ -267,11 +267,11 @@ export function dateFilterHelper(startDate, endDate, ontology){
 }
 
 //called when there's a list of place_id's
-export function getPlaces(PlaceIDList){
+export function getPlaces(PlaceIDList) {
     var PlaceList = [];
     var place = {};
-    PlaceIDList.forEach((placeID)=>{
-        place = data['places'].find((place)=>{
+    PlaceIDList.forEach((placeID) => {
+        place = data['places'].find((place) => {
             return place['place_id'] === placeID;
         });
         PlaceList.push(place);

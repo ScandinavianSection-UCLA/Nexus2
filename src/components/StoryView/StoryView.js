@@ -1,33 +1,30 @@
 /**
  * Created by danielhuang on 1/28/18.
  */
-import React, { Component } from 'react';
-import Modal from 'react-modal';
-import 'react-sliding-pane/dist/react-sliding-pane.css';
-import RightBar from '../RightBar/RightBar';
-// import {addNode} from "../UserNexus/UserNexusModel";
-import {getPlacesByID} from '../TabViewer/model';
-import {setPlaceIDList} from '../../utils'
-import './StoryView.css'
-import {arrayTransformation, getPeopleByID} from "../RightBar/model";
+import React, {Component} from "react";
+import Modal from "react-modal";
+import "react-sliding-pane/dist/react-sliding-pane.css";
+import RightBar from "../RightBar/RightBar";
+import {getPeopleByID, getPlacesByID} from "../../displayArtifactModel";
+import {arrayTransformation, setPlaceIDList} from "../../utils"
+import "./StoryView.css"
 import MapView from "../MapView/MapView";
 
 class StoryView extends Component {
-
-    constructor(){
+    constructor() {
         super();
         this.state = {
-            StoryObject:{},
-            StoryPath:'',
-            isTabOpen:[true,false,false,false],
-            storyVersionOpen:[true,false,false,false,false],
-            twoVersions:false,
-            lastStoryVersionOpen:0,
+            StoryObject: {},
+            StoryPath: "",
+            isTabOpen: [true, false, false, false],
+            storyVersionOpen: [true, false, false, false, false],
+            twoVersions: false,
+            lastStoryVersionOpen: 0,
             indexToVersion: {
-                0: 'english_manuscript',
-                1: 'english_publication',
-                2: 'danish_manuscript',
-                3: 'danish_publication',
+                0: "english_manuscript",
+                1: "english_publication",
+                2: "danish_manuscript",
+                3: "danish_publication",
             },
             isPaneOpen: false,
         };
@@ -41,30 +38,30 @@ class StoryView extends Component {
         Modal.setAppElement(this.el);
     }
 
-    clickHandler(id,name,type){
-        this.props.addID(id,name,type);
+    clickHandler(id, name, type) {
+        this.props.addID(id, name, type);
     }
 
-    arrayTransformation(item){
-        var finalArray=[];
-        if(Array.isArray(item)){
+    arrayTransformation(item) {
+        var finalArray = [];
+        if (Array.isArray(item)) {
             finalArray = item;
-        } else if(typeof item === 'object'){
+        } else if (typeof item === "object") {
             finalArray.push(item);
         }
-        //if item is undefined (meaning there's no people/stories/places associated) then return empty array
+        //if item is undefined (meaning there"s no people/stories/places associated) then return empty array
         return finalArray;
     }
 
-    renderStories(){
-        // console.log(this.props.story['stories_mentioned'])
-        if(this.props.story['stories_mentioned']!==null){
-            var storyArray = this.arrayTransformation(this.props.story['stories_mentioned'].story);
+    renderStories() {
+        // console.log(this.props.story["stories_mentioned"])
+        if (this.props.story["stories_mentioned"] !== null) {
+            var storyArray = this.arrayTransformation(this.props.story["stories_mentioned"].story);
             return <ul>
-                {storyArray.map((story,i)=>{
+                {storyArray.map((story, i) => {
                     return <li key={i} className="associated-items" onClick={
-                        (e)=>{e.preventDefault(); this.clickHandler(story['story_id'], story['full_name'],'Stories')}
-                    }>{story['full_name']}</li>
+                        (e) => {e.preventDefault(); this.clickHandler(story["story_id"], story["full_name"], "Stories")}
+                    }>{story["full_name"]}</li>
                 })}
             </ul>
         } else {
@@ -75,93 +72,93 @@ class StoryView extends Component {
 
     }
 
-    renderPlaces(){
-        var placeArray = this.arrayTransformation(this.props.story['places'].place);
+    renderPlaces() {
+        var placeArray = this.arrayTransformation(this.props.story["places"].place);
         return <div>
             <h4>Associated Places</h4>
             <ul>
-                {placeArray.map((place,i)=>{
+                {placeArray.map((place, i) => {
                     return <li key={i} className="associated-items" onClick={
-                        (e)=>{e.preventDefault(); this.clickHandler(place['place_id'],place['name'],'Places')}
-                    }>{place['display_name']}</li>
+                        (e) => {e.preventDefault(); this.clickHandler(place["place_id"], place["name"], "Places")}
+                    }>{place["display_name"]}</li>
                 })}
             </ul>
         </div>
     }
 
-    accordionHandler(tab){
-        this.setState((prevState)=>{
-            prevState.isTabOpen = [false,false,false,false];
+    accordionHandler(tab) {
+        this.setState((prevState) => {
+            prevState.isTabOpen = [false, false, false, false];
             prevState.isTabOpen[tab] = true;
-            return { isTabOpen:prevState.isTabOpen }
+            return {isTabOpen: prevState.isTabOpen}
         })
     }
 
-    placeRecorded(){
-        var cleanArray = this.arrayTransformation(this.props.story['places']['place']);
+    placeRecorded() {
+        var cleanArray = this.arrayTransformation(this.props.story["places"]["place"]);
         var placeObject = {};
-        cleanArray.forEach((place)=>{
-            if(place['type']==='place_recorded'){
+        cleanArray.forEach((place) => {
+            if (place["type"] === "place_recorded") {
                 placeObject = place;
             }
         });
         return placeObject;
     }
-    placesMentioned(){
-        var cleanArray = this.arrayTransformation(this.props.story['places']['place']);
+    placesMentioned() {
+        var cleanArray = this.arrayTransformation(this.props.story["places"]["place"]);
         var placeObjects = [];
-        cleanArray.forEach((place)=>{
-            if(place['type']==='place_mentioned'){
+        cleanArray.forEach((place) => {
+            if (place["type"] === "place_mentioned") {
                 placeObjects.push(place)
             }
         });
         return placeObjects;
     }
-    bibliographicReferences(){
-        if(this.props.story['bibliography_references'] === null){
+    bibliographicReferences() {
+        if (this.props.story["bibliography_references"] === null) {
             return <div className="callout alert">
                 <h6>No references for this story.</h6>
             </div>
         } else {
             return <table>
                 <tbody>
-                {
-                    this.arrayTransformation(this.props.story['bibliography_references']['reference']).map((reference,i)=>{
-                        return <tr key={i}>
-                            <td>{reference['display_string']}</td>
-                        </tr>
-                    })
-                }
+                    {
+                        this.arrayTransformation(this.props.story["bibliography_references"]["reference"]).map((reference, i) => {
+                            return <tr key={i}>
+                                <td>{reference["display_string"]}</td>
+                            </tr>
+                        })
+                    }
                 </tbody>
             </table>
         }
     }
 
-    storyViewerClickHandler(version){
+    storyViewerClickHandler(version) {
         //TODO: new line breaks /n + html tags (transform character into escape characters)
-        this.setState((prevState)=>{
+        this.setState((prevState) => {
             //check if more than 2 versions open
             var versionCount = 0;
-            prevState.storyVersionOpen.forEach((ver)=>{
-                if(ver){
+            prevState.storyVersionOpen.forEach((ver) => {
+                if (ver) {
                     versionCount++;
                 }
             });
             //check if clicked version is already open, if so then close it
-            if(prevState.storyVersionOpen[version] === true){
-                if(versionCount >= 2){
+            if (prevState.storyVersionOpen[version] === true) {
+                if (versionCount >= 2) {
                     prevState.storyVersionOpen[version] = false;
                 }
                 prevState.twoVersions = false;
 
-                prevState.storyVersionOpen.forEach((version, i)=>{
-                    if(version){
+                prevState.storyVersionOpen.forEach((version, i) => {
+                    if (version) {
                         prevState.lastStoryVersionOpen = i;
                     }
                 });
             } else {
                 prevState.twoVersions = true;
-                if(versionCount >= 2){
+                if (versionCount >= 2) {
                     //close the last open version
                     prevState.storyVersionOpen[prevState.lastStoryVersionOpen] = false;
                 }
@@ -169,21 +166,21 @@ class StoryView extends Component {
                 prevState.lastStoryVersionOpen = version; //clicked version is now the last version that was opened
             }
             return {
-                storyVersionOpen:prevState.storyVersionOpen,
-                lastStoryVersionOpen:prevState.lastStoryVersionOpen,
-                twoVersions:prevState.twoVersions,
+                storyVersionOpen: prevState.storyVersionOpen,
+                lastStoryVersionOpen: prevState.lastStoryVersionOpen,
+                twoVersions: prevState.twoVersions,
             }
         });
     }
-    renderProperty(property){
-        if(property!== null && typeof property !== 'undefined'){
+    renderProperty(property) {
+        if (property !== null && typeof property !== "undefined") {
             return property;
         } else {
-            return 'N/A';
+            return "N/A";
         }
     }
-    renderComponentView(component, name){
-        if(component!==null && typeof component !== 'undefined'){
+    renderComponentView(component, name) {
+        if (component !== null && typeof component !== "undefined") {
             return component;
         } else {
             return <div className="callout alert">
@@ -193,56 +190,56 @@ class StoryView extends Component {
     }
 
     render() {
-        console.log("places array",this.props.story['places']['place']);
-        var cleanPlacesArray = setPlaceIDList(arrayTransformation(this.props.story['places']['place']),'Places');
-        var PlaceObjectArray = this.props.story['places']['place'];
+        console.log("places array", this.props.story["places"]["place"]);
+        var cleanPlacesArray = setPlaceIDList(arrayTransformation(this.props.story["places"]["place"]), "Places");
+        var PlaceObjectArray = this.props.story["places"]["place"];
         var PlacesArray = [];
-        cleanPlacesArray.forEach((placeID) =>{
+        cleanPlacesArray.forEach((placeID) => {
             PlacesArray.push(getPlacesByID(placeID));
         });
-        var storiesByPerson = getPeopleByID(this.props.story['informant_id'])['stories'];
-        // console.log(getPeopleByID(this.props.story['informant_id']));
-        var personData = getPeopleByID(this.props.story['informant_id']);
+        var storiesByPerson = getPeopleByID(this.props.story["informant_id"])["stories"];
+        // console.log(getPeopleByID(this.props.story["informant_id"]));
+        var personData = getPeopleByID(this.props.story["informant_id"]);
         return (
             <div className="StoryView grid-x">
                 <div className="medium-3 cell">
-                    <MapView height={'30vh'} places={PlacesArray}/>
+                    <MapView height={"30vh"} places={PlacesArray} />
                     <ul className="accordion" data-accordian>
-                        <li className={`accordion-item ${this.state.isTabOpen[0] ? 'is-active':''}`}
-                            onClick={(e)=>{e.preventDefault(); this.accordionHandler.bind(this)(0)}}>
+                        <li className={`accordion-item ${this.state.isTabOpen[0] ? "is-active" : ""}`}
+                            onClick={(e) => {e.preventDefault(); this.accordionHandler.bind(this)(0)}}>
                             <a href="" className="accordion-title">Story Data</a>
                             <div className="body">
-                                <b>Order Told</b> {this.renderProperty.bind(this)(this.props.story['order_told'])}<br/>
-                                <b>Recorded during fieldtrip</b> {this.renderProperty.bind(this)(this.props.story['fieldtrip']['id'])}<br/>
-                                <b>Fieldtrip dates</b> {this.renderProperty.bind(this)(this.props.story['fieldtrip_start_date'])} to {this.renderProperty.bind(this)(this.props.story['fieldtrip_end_date'])}<br/>
-                                <b>Place recorded</b> {this.renderProperty.bind(this)(this.placeRecorded.bind(this)()['display_name'])} <br/>
-                                <b>Field diary pages</b> {this.renderProperty.bind(this)(this.props.story['fielddiary_page_start'])} to {this.props.story['fielddiary_page_end']}<br/>
-                                <b>Associated Keywords</b><br/>{
-                                this.arrayTransformation(this.props.story['keywords']['keyword']).map((keyword,i)=>{
-                                    return <div className="keyword-well" key={i}>{keyword['keyword']}</div>
-                                })
-                            }<br/>
-                                <b>Places mentioned in story</b> {this.placesMentioned.bind(this)().map((place,i)=>{
-                                    return <span key={i} className="keyword-well"> {place['name']} </span>
+                                <b>Order Told</b> {this.renderProperty.bind(this)(this.props.story["order_told"])}<br />
+                                <b>Recorded during fieldtrip</b> {this.renderProperty.bind(this)(this.props.story["fieldtrip"]["id"])}<br />
+                                <b>Fieldtrip dates</b> {this.renderProperty.bind(this)(this.props.story["fieldtrip_start_date"])} to {this.renderProperty.bind(this)(this.props.story["fieldtrip_end_date"])}<br />
+                                <b>Place recorded</b> {this.renderProperty.bind(this)(this.placeRecorded.bind(this)()["display_name"])} <br />
+                                <b>Field diary pages</b> {this.renderProperty.bind(this)(this.props.story["fielddiary_page_start"])} to {this.props.story["fielddiary_page_end"]}<br />
+                                <b>Associated Keywords</b><br />{
+                                    this.arrayTransformation(this.props.story["keywords"]["keyword"]).map((keyword, i) => {
+                                        return <div className="keyword-well" key={i}>{keyword["keyword"]}</div>
+                                    })
+                                }<br />
+                                <b>Places mentioned in story</b> {this.placesMentioned.bind(this)().map((place, i) => {
+                                    return <span key={i} className="keyword-well"> {place["name"]} </span>
                                 })}
-                                <br/>
+                                <br />
                             </div>
                         </li>
-                        <li className={`accordion-item ${this.state.isTabOpen[1] ? 'is-active':''}`}
-                            onClick={(e)=>{e.preventDefault(); this.accordionHandler.bind(this)(1)}}>
+                        <li className={`accordion-item ${this.state.isTabOpen[1] ? "is-active" : ""}`}
+                            onClick={(e) => {e.preventDefault(); this.accordionHandler.bind(this)(1)}}>
                             <a href="" className="accordion-title">Story Indices</a>
                             <div className="body">
-                                <b>Genre</b> {this.props.story['genre']['name']}<br/>
-                                <b>ETK Index</b> {this.props.story['etk_index']['heading_english']}<br/>
-                                <b>Tangherlini Indices</b><br/>
-                                {this.arrayTransformation(this.props.story['tango_indices']['tango_index']).map((index,i)=> {
-                                    return <div className="keyword-well" key={i}>{index['display_name']}</div>
+                                <b>Genre</b> {this.props.story["genre"]["name"]}<br />
+                                <b>ETK Index</b> {this.props.story["etk_index"]["heading_english"]}<br />
+                                <b>Tangherlini Indices</b><br />
+                                {this.arrayTransformation(this.props.story["tango_indices"]["tango_index"]).map((index, i) => {
+                                    return <div className="keyword-well" key={i}>{index["display_name"]}</div>
                                 })
                                 }
                             </div>
                         </li>
-                        <li className={`accordion-item ${this.state.isTabOpen[2] ? 'is-active':''}`}
-                            onClick={(e)=>{e.preventDefault(); this.accordionHandler.bind(this)(2)}}>
+                        <li className={`accordion-item ${this.state.isTabOpen[2] ? "is-active" : ""}`}
+                            onClick={(e) => {e.preventDefault(); this.accordionHandler.bind(this)(2)}}>
                             <a href="" className="accordion-title">Bibliographical References</a>
                             <div className="body">
                                 {this.bibliographicReferences.bind(this)()}
@@ -253,33 +250,33 @@ class StoryView extends Component {
                 <div className="medium-9 cell">
                     <h2 className="title">
                         <img src="https://png.icons8.com/ios/42/000000/chat-filled.png"
-                             style={{marginTop:'-1%', marginRight:'1%'}} alt="story icon"/>
+                            style={{marginTop: "-1%", marginRight: "1%"}} alt="story icon" />
                         {this.props.story.full_name}
-                        </h2>
-                    <h4 style={{marginLeft:'1.5%'}}>{this.props.story.informant_full_name}</h4>
+                    </h2>
+                    <h4 style={{marginLeft: "1.5%"}}>{this.props.story.informant_full_name}</h4>
                     <div className="grid-x">
                         <div className="medium-11 cell">
                             <div className="grid-padding-x">
                                 <div className="story-viewer cell">
                                     <ul className=" button-group story-viewer-options">
-                                        <li className={`button ${this.state.storyVersionOpen[0] ? '': 'secondary'}`}
-                                            onClick={(e)=>{e.preventDefault(); this.storyViewerClickHandler.bind(this)(0)}}>English ms Translation</li>
-                                        <li className={`button ${this.state.storyVersionOpen[1] ? '': 'secondary'}`}
-                                            onClick={(e)=>{e.preventDefault(); this.storyViewerClickHandler.bind(this)(1)}}>English Published Version</li>
-                                        <li className={`button ${this.state.storyVersionOpen[2] ? '': 'secondary'}`}
-                                            onClick={(e)=>{e.preventDefault(); this.storyViewerClickHandler.bind(this)(2)}}>Danish ms Transcription</li>
-                                        <li className={`button ${this.state.storyVersionOpen[3] ? '': 'secondary'}`}
-                                            onClick={(e)=>{e.preventDefault(); this.storyViewerClickHandler.bind(this)(3)}}>Danish Published Version</li>
+                                        <li className={`button ${this.state.storyVersionOpen[0] ? "" : "secondary"}`}
+                                            onClick={(e) => {e.preventDefault(); this.storyViewerClickHandler.bind(this)(0)}}>English ms Translation</li>
+                                        <li className={`button ${this.state.storyVersionOpen[1] ? "" : "secondary"}`}
+                                            onClick={(e) => {e.preventDefault(); this.storyViewerClickHandler.bind(this)(1)}}>English Published Version</li>
+                                        <li className={`button ${this.state.storyVersionOpen[2] ? "" : "secondary"}`}
+                                            onClick={(e) => {e.preventDefault(); this.storyViewerClickHandler.bind(this)(2)}}>Danish ms Transcription</li>
+                                        <li className={`button ${this.state.storyVersionOpen[3] ? "" : "secondary"}`}
+                                            onClick={(e) => {e.preventDefault(); this.storyViewerClickHandler.bind(this)(3)}}>Danish Published Version</li>
                                         {/*<li className="secondary button">Manuscript</li>*/}
                                     </ul>
                                     <div className="grid-x">
-                                        { this.state.storyVersionOpen.map((version, i)=>{
-                                            if(version){
-                                                return <div className={`cell story ${this.state.twoVersions ? 'medium-6' : ''}`} key={i}>
+                                        {this.state.storyVersionOpen.map((version, i) => {
+                                            if (version) {
+                                                return <div className={`cell story ${this.state.twoVersions ? "medium-6" : ""}`} key={i}>
                                                     <div className="card">
                                                         <div className="card-section">
-                                                            {this.renderComponentView.bind(this)(this.props.story[this.state.indexToVersion[i]],'Version')}
-                                                            </div>
+                                                            {this.renderComponentView.bind(this)(this.props.story[this.state.indexToVersion[i]], "Version")}
+                                                        </div>
                                                     </div>
                                                 </div>
                                             }
@@ -292,7 +289,7 @@ class StoryView extends Component {
                                             <div className="card annotation">
                                                 <h5 className="title">Annotation</h5>
                                                 <div className="card-section">
-                                                    {this.renderComponentView.bind(this)(this.props.story['annotation'],'Annotation')}
+                                                    {this.renderComponentView.bind(this)(this.props.story["annotation"], "Annotation")}
                                                 </div>
                                             </div>
                                         </div>
@@ -304,7 +301,7 @@ class StoryView extends Component {
                                 </div>
                             </div>
                         </div>
-                        <RightBar view={"Stories"} object={this.props.story} bio={personData} places={PlaceObjectArray} stories={storiesByPerson} passID={this.clickHandler}/>
+                        <RightBar view={"Stories"} object={this.props.story} bio={personData} places={PlaceObjectArray} stories={storiesByPerson} passID={this.clickHandler} />
                     </div>
 
                 </div>
