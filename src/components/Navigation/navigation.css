@@ -60,6 +60,9 @@
 .location-icon.Places{display:inline-block;}
 .fieldtrip-icon.Fieldtrips{display:inline-block;}
 
+.SearchTitle {display:none; margin-right:5px; font-weight:bold;}
+.SearchTitle.active {display:inline-block;}
+
 /*Time Filter*/
 .timeSwitch{
     margin-top:10%;

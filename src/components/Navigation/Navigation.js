@@ -39,6 +39,8 @@ class Navigation extends Component {
             placeList:[],
             fieldtrips:[],
             nodes:[],
+            searchOn:false,
+            displayLabel:'',
         };
         this.displayItems = this.displayItems.bind(this)
     }
@@ -241,18 +243,40 @@ class Navigation extends Component {
         }
     }
 
+    flipSearch(CurrentState){
+        this.setState({searchOn:CurrentState});
+    }
+    setDisplayLabel(label){
+        this.setState({displayLabel:label});
+    }
+
     render() {
         return (
             <div className="Navigation">
                 <div className="navigation grid-x grid-padding-x">
                     <div className="medium-3 cell dataNavigation">
-                        <SearchComponent handleDisplayItems={this.displayItems.bind(this)} displayList={this.state.itemsList}/>
-                        <NavigatorComponent handleDisplayItems={this.displayItems.bind(this)}/>
+                        <SearchComponent handleDisplayItems={this.displayItems.bind(this)}
+                                         displayList={this.state.itemsList}
+                                         searchOn={this.flipSearch.bind(this)}
+                        />
+                        <NavigatorComponent handleDisplayItems={this.displayItems.bind(this)}
+                                            setDisplayLabel={this.setDisplayLabel.bind(this)}
+                        />
                     </div>
                     <div className="medium-5 cell AssociatedStoriesViewer">
                         <div className="grid-y" style={{'height':'100%'}}>
                             <div className="cell medium-2">
                                 <form className="time-filter grid-x">
+                                    <div className="medium-2 medium-offset-1 cell">
+                                        <div className="switch">
+                                            <input className="switch-input" id="exampleSwitch" type="checkbox" checked={this.state.timeFilterOn}
+                                                   name="exampleSwitch" onChange={this.timeFilterHandler.bind(this)} ref="TimeFilterOn"/>
+                                            <label className="switch-paddle" htmlFor="exampleSwitch"><br/>
+                                                <span style={{fontSize:".8em",color:'black',width:'150%'}}>Timeline</span>
+                                                <span className="show-for-sr">Enable Timeline</span>
+                                            </label>
+                                        </div>
+                                    </div>
                                     <div className="medium-2 cell text"><b>From</b></div>
                                     <div className="medium-2 cell">
                                         <input className="year" type="text" name="FromYear" ref="fromDate"
@@ -279,20 +303,14 @@ class Navigation extends Component {
                                                ref="toDate"
                                                id="myRange"/>
                                     </div>
-                                    <div className="medium-3 medium-offset-1 cell">
-                                        <div className="switch">
-                                            <input className="switch-input" id="exampleSwitch" type="checkbox" checked={this.state.timeFilterOn}
-                                                   name="exampleSwitch" onChange={this.timeFilterHandler.bind(this)} ref="TimeFilterOn"/>
-                                            <label className="switch-paddle" htmlFor="exampleSwitch"><br/>
-                                                <span style={{fontSize:".8em",color:'black',width:'150%'}}>Timeline</span>
-                                                <span className="show-for-sr">Enable Timeline</span>
-                                            </label>
-                                        </div>
-                                    </div>
                                 </form>
                             </div>
                             <div className="stories-container cell medium-10">
                                 <ul className="book medium-cell-block-y">
+                                    <h6 className="label secondary">
+                                        <span className={`SearchTitle ${this.state.searchOn ? 'active': ''}`}>Searching </span>
+                                        {this.state.displayLabel}
+                                    </h6>
                                     {this.state.displayItemsList}
                                 </ul>
                             </div>
