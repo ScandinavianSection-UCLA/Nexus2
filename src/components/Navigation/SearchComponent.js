@@ -60,10 +60,10 @@ class SearchComponent extends Component {
         let DisplayOntology = '';
         let SearchValueKey = '';
 
-        if ('story_id' in selectedItem) {
+        if ('story_id' in selectedItem && typeof selectedItem !== 'string') {
             DisplayOntology = 'Stories';
             SearchValueKey = 'full_name';
-        } else if ('keyword_id' in selectedItem) {
+        } else if ('keyword_id' in selectedItem && typeof selectedItem !== 'string') {
             let storiesList = [];
             // let placesList = [];
             if (typeof selectedItem['stories']['story'] !== 'undefined') {
