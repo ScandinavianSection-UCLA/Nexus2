@@ -60,36 +60,40 @@ class SearchComponent extends Component {
         let DisplayOntology = '';
         let SearchValueKey = '';
 
-        if ('story_id' in selectedItem && typeof selectedItem !== 'string') {
-            DisplayOntology = 'Stories';
-            SearchValueKey = 'full_name';
-        } else if ('keyword_id' in selectedItem && typeof selectedItem !== 'string') {
-            let storiesList = [];
-            // let placesList = [];
-            if (typeof selectedItem['stories']['story'] !== 'undefined') {
-                storiesList = arrayTransformation(selectedItem['stories']['story']);
+        if (typeof selectedItem !== "undefined") {
+            if ('story_id' in selectedItem) {
+                DisplayOntology = 'Stories';
+                SearchValueKey = 'full_name';
+            } else if ('keyword_id' in selectedItem) {
+                let storiesList = [];
+                // let placesList = [];
+                if (typeof selectedItem['stories']['story'] !== 'undefined') {
+                    storiesList = arrayTransformation(selectedItem['stories']['story']);
+                }
+
+                this.props.handleDisplayItems(storiesList, 'Stories');
+                this.setState({searching: false, searchTerm: selectedItem['keyword_name']});
+                return;
+            } else if ('person_id' in selectedItem) {
+                DisplayOntology = 'People';
+                SearchValueKey = 'full_name';
+            } else if ('place_id' in selectedItem) {
+                DisplayOntology = 'Places';
+                SearchValueKey = 'name';
+            } else if ('fieldtrip_name' in selectedItem) {
+                DisplayOntology = 'Fieldtrips';
+                SearchValueKey = 'fieldtrip_name';
             }
 
-            this.props.handleDisplayItems(storiesList, 'Stories');
-            this.setState({searching: false, searchTerm: selectedItem['keyword_name']});
-            return;
-        } else if ('person_id' in selectedItem) {
-            DisplayOntology = 'People';
-            SearchValueKey = 'full_name';
-        } else if ('place_id' in selectedItem) {
-            DisplayOntology = 'Places';
-            SearchValueKey = 'name';
-        } else if ('fieldtrip_name' in selectedItem) {
-            DisplayOntology = 'Fieldtrips';
-            SearchValueKey = 'fieldtrip_name';
+            if (NewState['searching']) {
+                NewState = {searching: false, inputValue: selectedItem[SearchValueKey]};
+            }
+            this.props.searchOn(false);
+            this.props.handleDisplayItems(SearchList, DisplayOntology); //only display the results from the search
+            this.setState(NewState);
+        } else {
+            console.log("selectedItem is undefined");
         }
-
-        if (NewState['searching']) {
-            NewState = {searching: false, inputValue: selectedItem[SearchValueKey]};
-        }
-        this.props.searchOn(false);
-        this.props.handleDisplayItems(SearchList, DisplayOntology); //only display the results from the search
-        this.setState(NewState);
     }
 
     handleFuzzySearch(event) {
