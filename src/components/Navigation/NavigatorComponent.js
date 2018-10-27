@@ -64,10 +64,8 @@ class Navigation extends Component {
             }
             this.setState((oldState) => {
                 if (oldState.dataNav.includes(prevSelection)) {
-                    console.log('hello from DN', oldState.dataNav.includes(prevSelection));
                     return {path: ['Data Navigator']}
                 } else {
-                    console.log('hello from t&I');
                     return {path: ['Topic & Index Navigator']};
                 }
             },

@@ -8,7 +8,7 @@ import PlaceView from "../PlaceView/PlaceView";
 import PeopleView from "../PeopleView/PeopleView";
 import FieldtripView from "../FieldtripView/FieldtripView";
 import BookView from "../BookView/BookView";
-import {getStoryByID, getPeopleByID, getPlacesByID, getFieldtripsByID} from "../../displayArtifactModel";
+import {getStoryByID, getPeopleByID, getPlacesByID, getFieldtripsByID} from "../../data-stores/DisplayArtifactModel";
 import "./TabViewer.css"
 
 class TabViewer extends Component {
@@ -38,8 +38,12 @@ class TabViewer extends Component {
 
         //load previously opened tabs from session
         if (JSON.parse(sessionStorage.getItem("inView")) !== null) {
-            const cachedViews = JSON.parse(sessionStorage.getItem("views"));
-            const cachedInView = JSON.parse(sessionStorage.getItem("inView"))[0]; //object
+            const cachedTabViewer = JSON.parse(sessionStorage.getItem('TabViewerSessionState'));
+
+            const cachedViews = cachedTabViewer['views'];
+            const cachedInView = cachedTabViewer['inView'][0]; //object
+
+            // console.log(cachedTabViewer)
             this.setState(() => {
                 //reconstruct jsx from id and type
                 var newViews = [];
@@ -184,8 +188,7 @@ class TabViewer extends Component {
                 }
             },
                 () => {
-                    sessionStorage.setItem("views", JSON.stringify(this.state.views));
-                    sessionStorage.setItem("inView", JSON.stringify(this.state.inView));
+                    sessionStorage.setItem('TabViewerSessionState',JSON.stringify(this.state));
                 }
             );
         }
@@ -222,7 +225,7 @@ class TabViewer extends Component {
                 return {views: newViews}
             }
         }, () => {
-            sessionStorage.setItem("inView", JSON.stringify(this.state.inView));
+            sessionStorage.setItem('TabViewerSessionState',JSON.stringify(this.state));
         });
     }
 
@@ -248,7 +251,7 @@ class TabViewer extends Component {
                 }
             }
         }, () => {
-            sessionStorage.setItem("views", JSON.stringify(this.state.views));
+            sessionStorage.setItem('TabViewerSessionState',JSON.stringify(this.state));
         })
     }
 

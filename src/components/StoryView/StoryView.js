@@ -5,7 +5,7 @@ import React, {Component} from "react";
 import Modal from "react-modal";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import RightBar from "../RightBar/RightBar";
-import {getPeopleByID, getPlacesByID} from "../../displayArtifactModel";
+import {getPeopleByID, getPlacesByID} from "../../data-stores/DisplayArtifactModel";
 import {arrayTransformation, setPlaceIDList} from "../../utils"
 import "./StoryView.css"
 import MapView from "../MapView/MapView";

@@ -45,36 +45,6 @@ class Navigation extends Component {
         this.displayItems = this.displayItems.bind(this)
     }
 
-    componentWillMount(){
-        const displayOntology = JSON.parse(localStorage.getItem('displayOntology'));
-        if(displayOntology !== null){
-            const lists = localStorage.getItem('lists');
-            const itemsList = localStorage.getItem('itemsList');
-            const lastIDKey = JSON.parse(localStorage.getItem('lastIDKey'));
-            const lastDisplayKey = JSON.parse(localStorage.getItem('lastDisplayKey'));
-
-            this.setState({
-                lists:JSON.parse(lists),
-                displayOntology:displayOntology,
-                itemsList:JSON.parse(itemsList),
-                lastIDKey:lastIDKey,
-                lastDisplayKey:lastDisplayKey,
-                displayItemsList:JSON.parse(itemsList).map((itemInList,i)=>{
-                    return <li key={i} className={displayOntology}
-                               onClick={(e)=>{ e.preventDefault();
-                                   this.handleIDQuery(itemInList[lastIDKey],itemInList[lastDisplayKey],displayOntology,itemInList)}}>
-                        <span>
-                            <img className={"convo-icon " + displayOntology} src={require('./icons8-chat-filled-32.png')} alt="story"/>
-                            <img className={"person-icon " + displayOntology} src={require('./icons8-contacts-32.png')}  alt="person"/>
-                            <img className={"location-icon " + displayOntology} src={require('./icons8-marker-32.png')}  alt="location"/>
-                        </span> {itemInList[lastDisplayKey]}
-                    </li>
-                }),
-                timeFilterOn:false,
-            });
-        }
-    }
-
     displayList(list, displayKey, idKey, ontology){
         this.setState(()=>{
             return {
@@ -121,14 +91,8 @@ class Navigation extends Component {
         var displayKey = ontologyToDisplayKey[ontology];
         var idKey = ontologyToID[ontology];
 
-        var PlaceIDList = setPlaceIDList(items,ontology);
+        // var PlaceIDList = setPlaceIDList(items,ontology);
 
-        /*Save items to local storage for data to continue to exist after tab switch/page refresh  */
-        sessionStorage.setItem('lists', JSON.stringify(this.state['lists']));
-        sessionStorage.setItem('itemsList', JSON.stringify(items));
-        sessionStorage.setItem('displayOntology', JSON.stringify(ontology));
-        sessionStorage.setItem('lastIDKey', JSON.stringify(idKey));
-        sessionStorage.setItem('lastDisplayKey',JSON.stringify(displayKey));
         this.setState(()=>{
             return {
                 displayOntology:ontology,

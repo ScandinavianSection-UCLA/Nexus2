@@ -1,25 +1,25 @@
 // import story data
-import AllStories from "./data/allstories.json";
+import AllStories from "../data/allstories.json";
 // import people data
-import AllInformants from "./data/allinformants.json";
+import AllInformants from "../data/allinformants.json";
 // import general place data
-import PlacesData from "./data/cplaces.json";
+import PlacesData from "../data/cplaces.json";
 // import data for places with collected stories
-import StoriesCollectedData from "./data/cstories_collected.json";
+import StoriesCollectedData from "../data/cstories_collected.json";
 // import data for mendtioned places
-import PlacesMentionedData from "./data/cplaces_mentioned.json";
+import PlacesMentionedData from "../data/cplaces_mentioned.json";
 // import data for fieldtrips
-import FieldtripsData from "./data/cfieldtrips.json";
+import FieldtripsData from "../data/cfieldtrips.json";
 // import the arrayTransformation function
-import {arrayTransformation} from "./utils";
-import dataKeywords from "./data/ckeywords.json";
-import dataTango from "./data/ctango_indices.json";
-import dataETK from "./data/cetk_indices.json";
-import dataGenre from "./data/cgenres.json";
-import dataFieldtrips from "./data/cfieldtrips.json";
-import informants from "./data/cinformants.json";
-import storySearch from "./data/cstories.json";
-import places from "./data/cplaces.json";
+import {arrayTransformation} from "../utils";
+import dataKeywords from "../data/ckeywords.json";
+import dataTango from "../data/ctango_indices.json";
+import dataETK from "../data/cetk_indices.json";
+import dataGenre from "../data/cgenres.json";
+import dataFieldtrips from "../data/cfieldtrips.json";
+import informants from "../data/cinformants.json";
+import storySearch from "../data/cstories.json";
+import places from "../data/cplaces.json";
 
 // converted data for people
 const realPeopleData = arrOfObjToObj(AllInformants, "person_id");
@@ -44,7 +44,7 @@ const data = {
     "fieldtrips": dataFieldtrips.fieldtrip,
     "people": informants.informant,
     "places": places.place,
-    "stories": storySearch.story,
+    "stories": storySearch.story, //data optimized for navigation - doesn't include all story data
 };
 
 const keywords = {

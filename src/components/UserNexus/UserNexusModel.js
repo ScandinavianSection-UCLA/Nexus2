@@ -4,7 +4,7 @@ import {
     getPeopleByID,
     getPlacesByID,
     getStoryByID,
-} from "../../displayArtifactModel";
+} from "../../data-stores/DisplayArtifactModel";
 // function to ensure an input is an array
 import {arrayTransformation} from "../../utils";
 

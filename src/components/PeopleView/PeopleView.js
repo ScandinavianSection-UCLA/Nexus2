@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import RightBar from '../RightBar/RightBar'
 import './PeopleView.css'
-import {getPlacesByID, OccupationDictionary} from "../../displayArtifactModel";
+import {getPlacesByID, OccupationDictionary} from "../../data-stores/DisplayArtifactModel";
 import {arrayTransformation, setPlaceIDList} from "../../utils";
 import MapView from "../MapView/MapView";
 
