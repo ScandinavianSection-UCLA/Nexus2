@@ -1,92 +1,91 @@
-import React, { Component } from 'react';
-import { Graph } from 'react-d3-graph';
-import './UserNexus.css'
-import {initializeGraph,initializeNodeCategories} from "./UserNexusModel";
+import React, {Component} from "react";
+import {Graph} from "react-d3-graph";
+import "./UserNexus.css";
+import {initializeGraph, initializeNodeCategories} from "./UserNexusModel";
 
-//Set graph dimensions to make sure user nexus is centered
-const GraphHeight = (window.innerHeight)*0.8*.5;
-const GraphWidth = (window.innerWidth)*0.8*.389;
+// set graph dimensions to make sure user nexus is centered
+const GraphHeight = (window.innerHeight) * 0.8 * .5;
+const GraphWidth = (window.innerWidth) * 0.8 * .389;
 // the graph configuration, you only need to pass down properties
 // that you want to override, otherwise default ones will be used
 const myConfig = {
-    nodeHighlightBehavior: true,
-    height: GraphHeight,
-    width:GraphWidth,
-    highlightDegree: 1,
-    highlightOpacity: 1,
-    linkHighlightBehavior: false,
-    maxZoom: 8,
-    minZoom: 0.1,
-    panAndZoom: true,
-    staticGraph: false,
-    node: {
-        color: 'lightgreen',
-        size: 120,
-        highlightStrokeColor: 'blue'
+    "nodeHighlightBehavior": true,
+    "height": GraphHeight,
+    "width": GraphWidth,
+    "highlightDegree": 1,
+    "highlightOpacity": 1,
+    "linkHighlightBehavior": false,
+    "maxZoom": 8,
+    "minZoom": 0.1,
+    "panAndZoom": true,
+    "staticGraph": false,
+    "node": {
+        "color": "lightgreen",
+        "size": 120,
+        "highlightStrokeColor": "blue",
     },
-    link: {
-        highlightColor: 'lightblue'
+    "link": {
+        "highlightColor": "lightblue",
     },
 
 };
 
 
 // graph event callbacks
-const onClickNode = function(nodeId) {
-    console.log('Clicked node ${nodeId}');
+const onClickNode = function (nodeId) {
+    console.log("Clicked node ${nodeId}");
 };
 
-const onMouseOverNode = function(nodeId) {
+const onMouseOverNode = function (nodeId) {
     console.log(`Mouse over node ${nodeId}`);
 };
 
-const onMouseOutNode = function(nodeId) {
+const onMouseOutNode = function (nodeId) {
     console.log(`Mouse out node ${nodeId}`);
 };
 
-const onClickLink = function(source, target) {
+const onClickLink = function (source, target) {
     console.log(`Clicked link between ${source} and ${target}`);
 };
 
-const onMouseOverLink = function(source, target) {
+const onMouseOverLink = function (source, target) {
     console.log(`Mouse over in link between ${source} and ${target}`);
 };
 
-const onMouseOutLink = function(source, target) {
+const onMouseOutLink = function (source, target) {
     console.log(`Mouse out link between ${source} and ${target}`);
 };
 
-const restartSimulation = function(){
-    console.log('restarted');
+const restartSimulation = function () {
+    console.log("restarted");
 };
 
-class UserNexus extends Component{
-
-    constructor(){
+class UserNexus extends Component {
+    constructor () {
         super();
-        const graphData = JSON.parse(localStorage.getItem('graphData'));
-        const nodeCategories = JSON.parse(localStorage.getItem('nodeCategories'));
+        const graphData = JSON.parse(localStorage.getItem("graphData"));
+        const nodeCategories = JSON.parse(localStorage.getItem("nodeCategories"));
 
         this.state = {
-            data: graphData,
-            nodeCategories:nodeCategories,
-        }
+            "data": graphData,
+            "nodeCategories": nodeCategories,
+        };
     }
 
-    componentWillMount(){
-        //load data from localStorage
+    componentWillMount() {
+        // load data from localStorage
         const graphData = initializeGraph();
         const nodeCategories = initializeNodeCategories();
 
-        //check for new nodes by comparing graphData['nodes'] with each of the nodeCategories
+        // check for new nodes by comparing graphData['nodes'] with each of the nodeCategories
 
         this.setState({
-            data: graphData,
-            nodeCategories:nodeCategories,
+            "data": graphData,
+            "nodeCategories": nodeCategories,
         });
     }
 
-    render(){
+    render() {
 
         return (<Graph
             className="UserNexus"
