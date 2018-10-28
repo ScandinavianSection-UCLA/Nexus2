@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './navigatorComponent.css';
 import NavigationDropdownMenu from './NavigationDropdownMenu';
 import {arrayTransformation} from "../../utils";
-import {getList, ontologyToDisplayKey, tangoTypes} from './model';
+import {getList, ontologyToDisplayKey, tangoTypes} from "../../displayArtifactModel";
 
 class Navigation extends Component {
     constructor () {
