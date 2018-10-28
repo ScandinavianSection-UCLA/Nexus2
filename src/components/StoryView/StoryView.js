@@ -1,6 +1,3 @@
-/**
- * Created by danielhuang on 1/28/18.
- */
 import React, {Component} from "react";
 import Modal from "react-modal";
 import "react-sliding-pane/dist/react-sliding-pane.css";
@@ -9,9 +6,10 @@ import {getPeopleByID, getPlacesByID} from "../../displayArtifactModel";
 import {arrayTransformation, setPlaceIDList} from "../../utils"
 import "./StoryView.css"
 import MapView from "../MapView/MapView";
+import PropTypes from "prop-types";
 
 class StoryView extends Component {
-    constructor() {
+    constructor () {
         super();
         this.state = {
             StoryObject: {},
@@ -28,7 +26,6 @@ class StoryView extends Component {
             },
             isPaneOpen: false,
         };
-        this.arrayTransformation = this.arrayTransformation.bind(this);
         this.renderStories = this.renderStories.bind(this);
         this.renderPlaces = this.renderPlaces.bind(this);
         this.clickHandler = this.clickHandler.bind(this);
@@ -42,26 +39,17 @@ class StoryView extends Component {
         this.props.addID(id, name, type);
     }
 
-    arrayTransformation(item) {
-        var finalArray = [];
-        if (Array.isArray(item)) {
-            finalArray = item;
-        } else if (typeof item === "object") {
-            finalArray.push(item);
-        }
-        //if item is undefined (meaning there"s no people/stories/places associated) then return empty array
-        return finalArray;
-    }
-
     renderStories() {
         // console.log(this.props.story["stories_mentioned"])
-        if (this.props.story["stories_mentioned"] !== null) {
-            var storyArray = this.arrayTransformation(this.props.story["stories_mentioned"].story);
+        const {stories_mentioned} = this.props.story;
+        if (stories_mentioned !== null) {
+            var storyArray = arrayTransformation(stories_mentioned.story);
             return <ul>
                 {storyArray.map((story, i) => {
+                    const {story_id, full_name} = story;
                     return <li key={i} className="associated-items" onClick={
-                        (e) => {e.preventDefault(); this.clickHandler(story["story_id"], story["full_name"], "Stories")}
-                    }>{story["full_name"]}</li>
+                        (e) => {e.preventDefault(); this.clickHandler(story_id, full_name, "Stories")}
+                    }>{full_name}</li>
                 })}
             </ul>
         } else {
@@ -69,18 +57,19 @@ class StoryView extends Component {
                 <h6>No related stories.</h6>
             </div>
         }
-
     }
 
     renderPlaces() {
-        var placeArray = this.arrayTransformation(this.props.story["places"].place);
+        const {place} = this.props.story.places
+        var placeArray = arrayTransformation(place);
         return <div>
             <h4>Associated Places</h4>
             <ul>
                 {placeArray.map((place, i) => {
+                    const {display_name, name, place_id} = place;
                     return <li key={i} className="associated-items" onClick={
-                        (e) => {e.preventDefault(); this.clickHandler(place["place_id"], place["name"], "Places")}
-                    }>{place["display_name"]}</li>
+                        (e) => {e.preventDefault(); this.clickHandler(place_id, name, "Places")}
+                    }>{display_name}</li>
                 })}
             </ul>
         </div>
@@ -95,7 +84,7 @@ class StoryView extends Component {
     }
 
     placeRecorded() {
-        var cleanArray = this.arrayTransformation(this.props.story["places"]["place"]);
+        var cleanArray = arrayTransformation(this.props.story["places"]["place"]);
         var placeObject = {};
         cleanArray.forEach((place) => {
             if (place["type"] === "place_recorded") {
@@ -104,18 +93,17 @@ class StoryView extends Component {
         });
         return placeObject;
     }
+
     placesMentioned() {
-        var cleanArray = this.arrayTransformation(this.props.story["places"]["place"]);
-        var placeObjects = [];
-        cleanArray.forEach((place) => {
-            if (place["type"] === "place_mentioned") {
-                placeObjects.push(place)
-            }
-        });
+        const cleanArray = arrayTransformation(this.props.story["places"]["place"]);
+        var placeObjects = cleanArray.filter(place => place["type"] === "place_mentioned");
+        console.log({cleanArray, placeObjects});
         return placeObjects;
     }
+
     bibliographicReferences() {
-        if (this.props.story["bibliography_references"] === null) {
+        const {bibliography_references} = this.props.story;
+        if (bibliography_references === null) {
             return <div className="callout alert">
                 <h6>No references for this story.</h6>
             </div>
@@ -123,7 +111,7 @@ class StoryView extends Component {
             return <table>
                 <tbody>
                     {
-                        this.arrayTransformation(this.props.story["bibliography_references"]["reference"]).map((reference, i) => {
+                        arrayTransformation(bibliography_references["reference"]).map((reference, i) => {
                             return <tr key={i}>
                                 <td>{reference["display_string"]}</td>
                             </tr>
@@ -137,41 +125,38 @@ class StoryView extends Component {
     storyViewerClickHandler(version) {
         //TODO: new line breaks /n + html tags (transform character into escape characters)
         this.setState((prevState) => {
+            var {lastStoryVersionOpen, storyVersionOpen, twoVersions} = prevState;
             //check if more than 2 versions open
-            var versionCount = 0;
-            prevState.storyVersionOpen.forEach((ver) => {
-                if (ver) {
-                    versionCount++;
-                }
-            });
+            var versionCount = storyVersionOpen.reduce((total, current) => current ? total + 1 : total);
             //check if clicked version is already open, if so then close it
-            if (prevState.storyVersionOpen[version] === true) {
+            if (storyVersionOpen[version] === true) {
                 if (versionCount >= 2) {
-                    prevState.storyVersionOpen[version] = false;
+                    storyVersionOpen[version] = false;
                 }
-                prevState.twoVersions = false;
+                twoVersions = false;
 
-                prevState.storyVersionOpen.forEach((version, i) => {
+                storyVersionOpen.forEach((version, i) => {
                     if (version) {
-                        prevState.lastStoryVersionOpen = i;
+                        lastStoryVersionOpen = i;
                     }
                 });
             } else {
-                prevState.twoVersions = true;
+                twoVersions = true;
                 if (versionCount >= 2) {
-                    //close the last open version
-                    prevState.storyVersionOpen[prevState.lastStoryVersionOpen] = false;
+                    // close the last open version
+                    storyVersionOpen[prevState.lastStoryVersionOpen] = false;
                 }
-                prevState.storyVersionOpen[version] = true; //open clicked version
-                prevState.lastStoryVersionOpen = version; //clicked version is now the last version that was opened
+                storyVersionOpen[version] = true; //o pen clicked version
+                lastStoryVersionOpen = version; // clicked version is now the last version that was opened
             }
             return {
-                storyVersionOpen: prevState.storyVersionOpen,
-                lastStoryVersionOpen: prevState.lastStoryVersionOpen,
-                twoVersions: prevState.twoVersions,
+                "storyVersionOpen": storyVersionOpen,
+                "lastStoryVersionOpen": lastStoryVersionOpen,
+                "twoVersions": twoVersions,
             }
         });
     }
+
     renderProperty(property) {
         if (property !== null && typeof property !== "undefined") {
             return property;
@@ -179,6 +164,7 @@ class StoryView extends Component {
             return "N/A";
         }
     }
+
     renderComponentView(component, name) {
         if (component !== null && typeof component !== "undefined") {
             return component;
@@ -190,31 +176,47 @@ class StoryView extends Component {
     }
 
     render() {
-        var cleanPlacesArray = setPlaceIDList(arrayTransformation(this.props.story["places"]["place"]), "Places");
-        var PlaceObjectArray = this.props.story["places"]["place"];
-        var PlacesArray = [];
-        cleanPlacesArray.forEach((placeID) => {
-            PlacesArray.push(getPlacesByID(placeID));
-        });
-        var storiesByPerson = getPeopleByID(this.props.story["informant_id"])["stories"];
+        const {story} = this.props;
+        const {
+            annotation,
+            etk_index,
+            fielddiary_page_end,
+            fielddiary_page_start,
+            fieldtrip,
+            fieldtrip_end_date,
+            fieldtrip_start_date,
+            full_name,
+            genre,
+            informant_id,
+            informant_full_name,
+            keywords,
+            order_told,
+            places,
+            tango_indices,
+        } = story;
+        const {indexToVersion, isTabOpen, storyVersionOpen, twoVersions} = this.state;
+        const cleanPlacesArray = setPlaceIDList(arrayTransformation(places["place"]), "Places");
+        const PlaceObjectArray = places["place"];
+        const PlacesArray = cleanPlacesArray.map(placeID => getPlacesByID(placeID));
+        const storiesByPerson = getPeopleByID(informant_id)["stories"];
         // console.log(getPeopleByID(this.props.story["informant_id"]));
-        var personData = getPeopleByID(this.props.story["informant_id"]);
+        const personData = getPeopleByID(informant_id);
         return (
             <div className="StoryView grid-x">
                 <div className="medium-3 cell">
                     <MapView height={"30vh"} places={PlacesArray} />
                     <ul className="accordion" data-accordian>
-                        <li className={`accordion-item ${this.state.isTabOpen[0] ? "is-active" : ""}`}
+                        <li className={`accordion-item ${isTabOpen[0] ? "is-active" : ""}`}
                             onClick={(e) => {e.preventDefault(); this.accordionHandler.bind(this)(0)}}>
                             <a href="" className="accordion-title">Story Data</a>
                             <div className="body">
-                                <b>Order Told</b> {this.renderProperty.bind(this)(this.props.story["order_told"])}<br />
-                                <b>Recorded during fieldtrip</b> {this.renderProperty.bind(this)(this.props.story["fieldtrip"]["id"])}<br />
-                                <b>Fieldtrip dates</b> {this.renderProperty.bind(this)(this.props.story["fieldtrip_start_date"])} to {this.renderProperty.bind(this)(this.props.story["fieldtrip_end_date"])}<br />
+                                <b>Order Told</b> {this.renderProperty.bind(this)(order_told)}<br />
+                                <b>Recorded during fieldtrip</b> {this.renderProperty.bind(this)(fieldtrip["id"])}<br />
+                                <b>Fieldtrip dates</b> {this.renderProperty.bind(this)(fieldtrip_start_date)} to {this.renderProperty.bind(this)(fieldtrip_end_date)}<br />
                                 <b>Place recorded</b> {this.renderProperty.bind(this)(this.placeRecorded.bind(this)()["display_name"])} <br />
-                                <b>Field diary pages</b> {this.renderProperty.bind(this)(this.props.story["fielddiary_page_start"])} to {this.props.story["fielddiary_page_end"]}<br />
+                                <b>Field diary pages</b> {this.renderProperty.bind(this)(fielddiary_page_start)} to {fielddiary_page_end}<br />
                                 <b>Associated Keywords</b><br />{
-                                    this.arrayTransformation(this.props.story["keywords"]["keyword"]).map((keyword, i) => {
+                                    arrayTransformation(keywords["keyword"]).map((keyword, i) => {
                                         return <div className="keyword-well" key={i}>{keyword["keyword"]}</div>
                                     })
                                 }<br />
@@ -224,20 +226,19 @@ class StoryView extends Component {
                                 <br />
                             </div>
                         </li>
-                        <li className={`accordion-item ${this.state.isTabOpen[1] ? "is-active" : ""}`}
+                        <li className={`accordion-item ${isTabOpen[1] ? "is-active" : ""}`}
                             onClick={(e) => {e.preventDefault(); this.accordionHandler.bind(this)(1)}}>
                             <a href="" className="accordion-title">Story Indices</a>
                             <div className="body">
-                                <b>Genre</b> {this.props.story["genre"]["name"]}<br />
-                                <b>ETK Index</b> {this.props.story["etk_index"]["heading_english"]}<br />
+                                <b>Genre</b> {genre["name"]}<br />
+                                <b>ETK Index</b> {etk_index["heading_english"]}<br />
                                 <b>Tangherlini Indices</b><br />
-                                {this.arrayTransformation(this.props.story["tango_indices"]["tango_index"]).map((index, i) => {
+                                {arrayTransformation(tango_indices["tango_index"]).map((index, i) => {
                                     return <div className="keyword-well" key={i}>{index["display_name"]}</div>
-                                })
-                                }
+                                })}
                             </div>
                         </li>
-                        <li className={`accordion-item ${this.state.isTabOpen[2] ? "is-active" : ""}`}
+                        <li className={`accordion-item ${isTabOpen[2] ? "is-active" : ""}`}
                             onClick={(e) => {e.preventDefault(); this.accordionHandler.bind(this)(2)}}>
                             <a href="" className="accordion-title">Bibliographical References</a>
                             <div className="body">
@@ -250,31 +251,31 @@ class StoryView extends Component {
                     <h2 className="title">
                         <img src="https://png.icons8.com/ios/42/000000/chat-filled.png"
                             style={{marginTop: "-1%", marginRight: "1%"}} alt="story icon" />
-                        {this.props.story.full_name}
+                        {full_name}
                     </h2>
-                    <h4 style={{marginLeft: "1.5%"}}>{this.props.story.informant_full_name}</h4>
+                    <h4 style={{marginLeft: "1.5%"}}>{informant_full_name}</h4>
                     <div className="grid-x">
                         <div className="medium-11 cell">
                             <div className="grid-padding-x">
                                 <div className="story-viewer cell">
                                     <ul className=" button-group story-viewer-options">
-                                        <li className={`button ${this.state.storyVersionOpen[0] ? "" : "secondary"}`}
+                                        <li className={`button ${storyVersionOpen[0] ? "" : "secondary"}`}
                                             onClick={(e) => {e.preventDefault(); this.storyViewerClickHandler.bind(this)(0)}}>English ms Translation</li>
-                                        <li className={`button ${this.state.storyVersionOpen[1] ? "" : "secondary"}`}
+                                        <li className={`button ${storyVersionOpen[1] ? "" : "secondary"}`}
                                             onClick={(e) => {e.preventDefault(); this.storyViewerClickHandler.bind(this)(1)}}>English Published Version</li>
-                                        <li className={`button ${this.state.storyVersionOpen[2] ? "" : "secondary"}`}
+                                        <li className={`button ${storyVersionOpen[2] ? "" : "secondary"}`}
                                             onClick={(e) => {e.preventDefault(); this.storyViewerClickHandler.bind(this)(2)}}>Danish ms Transcription</li>
-                                        <li className={`button ${this.state.storyVersionOpen[3] ? "" : "secondary"}`}
+                                        <li className={`button ${storyVersionOpen[3] ? "" : "secondary"}`}
                                             onClick={(e) => {e.preventDefault(); this.storyViewerClickHandler.bind(this)(3)}}>Danish Published Version</li>
                                         {/*<li className="secondary button">Manuscript</li>*/}
                                     </ul>
                                     <div className="grid-x">
-                                        {this.state.storyVersionOpen.map((version, i) => {
+                                        {storyVersionOpen.map((version, i) => {
                                             if (version) {
-                                                return <div className={`cell story ${this.state.twoVersions ? "medium-6" : ""}`} key={i}>
+                                                return <div className={`cell story ${twoVersions ? "medium-6" : ""}`} key={i}>
                                                     <div className="card">
                                                         <div className="card-section">
-                                                            {this.renderComponentView.bind(this)(this.props.story[this.state.indexToVersion[i]], "Version")}
+                                                            {this.renderComponentView.bind(this)(story[indexToVersion[i]], "Version")}
                                                         </div>
                                                     </div>
                                                 </div>
@@ -288,7 +289,7 @@ class StoryView extends Component {
                                             <div className="card annotation">
                                                 <h5 className="title">Annotation</h5>
                                                 <div className="card-section">
-                                                    {this.renderComponentView.bind(this)(this.props.story["annotation"], "Annotation")}
+                                                    {this.renderComponentView.bind(this)(annotation, "Annotation")}
                                                 </div>
                                             </div>
                                         </div>
@@ -300,7 +301,7 @@ class StoryView extends Component {
                                 </div>
                             </div>
                         </div>
-                        <RightBar view={"Stories"} object={this.props.story} bio={personData} places={PlaceObjectArray} stories={storiesByPerson} passID={this.clickHandler} />
+                        <RightBar view={"Stories"} object={story} bio={personData} places={PlaceObjectArray} stories={storiesByPerson} passID={this.clickHandler} />
                     </div>
 
                 </div>
@@ -308,6 +309,75 @@ class StoryView extends Component {
             </div>
         );
     }
+}
+
+StoryView.propTypes = {
+    "annotation": PropTypes.string.isRequired,
+    "bibliographic_info": PropTypes.string,
+    "bibliographic_references": PropTypes.shape({
+        "reference": PropTypes.array,
+    }),
+    "danish_manuscript": PropTypes.string,
+    "danish_publication": PropTypes.string,
+    "english_manuscript": PropTypes.string,
+    "english_publication": PropTypes.string,
+    "etk_index": PropTypes.shape({
+        "heading_danish": PropTypes.string,
+        "heading_english": PropTypes.string,
+        "id": PropTypes.number,
+    }),
+    "fielddiary_page_end": PropTypes.string,
+    "fielddiary_page_start": PropTypes.string,
+    "fieldtrip": PropTypes.shape({
+        "id": PropTypes.number,
+    }),
+    "full_name": PropTypes.string,
+    "genre": PropTypes.shape({
+        "id": PropTypes.number,
+        "name": PropTypes.string
+    }),
+    "informant_first_name": PropTypes.string,
+    "informant_full_name": PropTypes.string,
+    "informant_id": PropTypes.number,
+    "informant_last_name": PropTypes.string,
+    "keywords": PropTypes.shape({
+        "keyword": PropTypes.array,
+    }),
+    "order_told": PropTypes.number,
+    "places": PropTypes.any,
+    "publication_info": PropTypes.string,
+    "stories_mentioned": PropTypes.any,
+    "story_id": PropTypes.number,
+    "tango_indices": PropTypes.shape({
+        "tango_index": PropTypes.array,
+    }),
+}
+
+StoryView.defaultProps = {
+    "annotation": "",
+    "etk_index": {
+        "heading_english": "",
+    },
+    "fielddiary_page_end": "",
+    "fielddiary_page_start": "",
+    "fieldtrip": {
+        "id": null,
+    },
+    "fieldtrip_end_date": "",
+    "fieldtrip_start_date": "",
+    "full_name": "",
+    "genre": {
+        "name": "",
+    },
+    "informant_id": null,
+    "informant_full_name": "",
+    "keywords": {
+        "keyword": [],
+    },
+    "order_told": null,
+    "tango_indices": {
+        "tango_index": [],
+    },
 }
 
 export default StoryView;

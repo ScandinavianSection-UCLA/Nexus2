@@ -1,15 +1,12 @@
-/**
- * Created by danielhuang on 3/3/18.
- */
 import React, {Component} from 'react';
 import {getKeywords} from './model';
 import {arrayTransformation} from "../../utils"
 import Fuse from 'fuse.js';
 import './search.css';
+import PropTypes from "prop-types";
 
 class SearchComponent extends Component {
-
-    constructor() {
+    constructor () {
         super();
         this.state = {
             keywords: [],
@@ -235,6 +232,16 @@ class SearchComponent extends Component {
             </div>
         );
     }
+}
+
+// check if displayList is properly formatted and assigned
+SearchComponent.propTypes = {
+    "displayList": PropTypes.array.isRequired,
+}
+
+// assign default if not already defined
+SearchComponent.defaultProps = {
+    "displayList": [],
 }
 
 export default SearchComponent;
