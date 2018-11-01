@@ -1,6 +1,3 @@
-/**
- * Created by danielhuang on 1/28/18.
- */
 import React, {Component} from "react";
 import Navigation from "../Navigation/Navigation";
 import StoryView from "../StoryView/StoryView";
@@ -12,7 +9,7 @@ import {getStoryByID, getPeopleByID, getPlacesByID, getFieldtripsByID} from "../
 import "./TabViewer.css"
 
 class TabViewer extends Component {
-    constructor() {
+    constructor () {
         super();
         this.state = {
             views: [],
@@ -36,7 +33,7 @@ class TabViewer extends Component {
             type: "Home"
         };
 
-        //load previously opened tabs from session
+        // load previously opened tabs from session
         if (JSON.parse(sessionStorage.getItem("inView")) !== null) {
             const cachedTabViewer = JSON.parse(sessionStorage.getItem('TabViewerSessionState'));
 
@@ -45,7 +42,7 @@ class TabViewer extends Component {
 
             // console.log(cachedTabViewer)
             this.setState(() => {
-                //reconstruct jsx from id and type
+                // reconstruct jsx from id and type
                 var newViews = [];
                 cachedViews.forEach((view) => {
                     newViews.push({
@@ -64,7 +61,7 @@ class TabViewer extends Component {
                     jsx: this.renderPPFS(cachedInView["id"], cachedInView["type"]),
                 };
 
-                //if route set to home tab, make home tab the active and inview tab
+                // if route set to home tab, make home tab the active and inview tab
                 if (this.props.home) {
                     newViews.map((currentView) => {
                         if (currentView["name"] === "Home") {
@@ -80,33 +77,35 @@ class TabViewer extends Component {
                 }
             })
         } else {
-            //if no previous session data or data from route, just load a home tab
+            // if no previous session data or data from route, just load a home tab
             this.setState((prevState) => {
                 var newState = prevState.views;
                 newState.push(navigationObject);
-                return {views: newState, inView: newState}
+                return {views: newState, inView: newState};
             });
         }
     }
 
     renderPPFS(id, type) {
-        if (type === "People") {
-            var personObject = getPeopleByID(id);
-            return <PeopleView person={personObject} addID={this.handleID} />
-        } else if (type === "Places") {
-            var place = getPlacesByID(id);
-            return <PlaceView place={place} addID={this.handleID} />
-        } else if (type === "Fieldtrips") {
-            var fieldtrip = getFieldtripsByID(id);
-            return <FieldtripView fieldtrip={fieldtrip} addID={this.handleID} />
-        } else if (type === "Stories") {
-            var storyObject = getStoryByID(id);
-            return <StoryView story={storyObject} addID={this.handleID} />;
-        } else if (type === "Home" || type === "home") {
-            return <Navigation addID={this.handleID} />;
+        switch (type) {
+            case "People":
+                var personObject = getPeopleByID(id);
+                return <PeopleView person={personObject} addID={this.handleID} />
+            case "Places":
+                var place = getPlacesByID(id);
+                return <PlaceView place={place} addID={this.handleID} />
+            case "Fieldtrips":
+                var fieldtrip = getFieldtripsByID(id);
+                return <FieldtripView fieldtrip={fieldtrip} addID={this.handleID} />
+            case "Stories":
+                var storyObject = getStoryByID(id);
+                return <StoryView story={storyObject} addID={this.handleID} />;
+            case "Home": case "home":
+                return <Navigation addID={this.handleID} />;
         }
     }
-    //update views with PDF views
+
+    // update views with PDF views
     renderPDF(chapter, name) {
         var nameUpdated = true;
         if (this.state.inView.name === name) {
@@ -135,7 +134,8 @@ class TabViewer extends Component {
             });
         }
     }
-    //7)A catch all function will take in an ID and name of the selected object
+
+    // 7)A catch all function will take in an ID and name of the selected object
     // depending on what was selected (story, people, places, fieldtrips) add a different type of object to add to views and inView
 
     handleID(InputID, Name, Type) {
@@ -151,7 +151,7 @@ class TabViewer extends Component {
             }
         });
         if (inView) {
-            //if it"s already in views, make it in view
+            // if it's already in views, make it in view
             this.setState((prevState) => {
                 return {inView: [prevState["views"][viewIndex]]}
             });
@@ -195,15 +195,14 @@ class TabViewer extends Component {
     }
 
     tabController() {
-        for (var i = 0; i < this.state.views.length; i++) {
-            if (this.state.views[i].active) {
-                return this.state.views[i].jsx;
+        this.state.views.forEach(function (view) {
+            if (view.active) {
+                return view.jsx;
             }
-        }
+        });
     }
 
     switchTab(view) {
-
         this.setState((prevState) => {
             var newViews = prevState.views;
             newViews.forEach((currentView) => {
@@ -212,13 +211,12 @@ class TabViewer extends Component {
                 } else {
                     currentView.active = true;
                     if (currentView.type === "story") {
-
                         currentView.jsx = this.renderStory(currentView.id);
                         view = currentView;
                     }
                 }
             });
-            //check if view has been deleted from list of views
+            // check if view has been deleted from list of views
             if (newViews.includes(view)) {
                 return {views: newViews, inView: [view]}
             } else {
@@ -230,7 +228,7 @@ class TabViewer extends Component {
     }
 
     closeTab(view) {
-        //find "view" in this.state.views and .inView, and delete it. if .inView then default to home tab
+        // find "view" in this.state.views and .inView, and delete it. if .inView then default to home tab
         this.setState((prevState) => {
             var newState = prevState;
             var removeViewIndex = -1;

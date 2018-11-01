@@ -1,15 +1,11 @@
-/**
- * Created by danielhuang on 2/24/18.
- */
 import React, {Component} from 'react';
 import './navigatorComponent.css';
 import NavigationDropdownMenu from './NavigationDropdownMenu';
 import {arrayTransformation} from "../../utils";
-import {getList, ontologyToDisplayKey, tangoTypes} from './model';
+import {getList, ontologyToDisplayKey, tangoTypes} from "../../displayArtifactModel";
 
 class Navigation extends Component {
-
-    constructor() {
+    constructor () {
         super();
         this.state = {
             path: [],

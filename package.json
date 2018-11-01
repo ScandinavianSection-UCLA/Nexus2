@@ -13,6 +13,7 @@
     "leaflet-ajax": "^2.1.0",
     "marks-pane": "^1.0.9",
     "mgr-pdf-viewer-react": "^1.0.1",
+    "prop-types": "^15.6.2",
     "react": "^16.4.0",
     "react-addons-shallow-compare": "^15.6.2",
     "react-d3-graph": "^1.2.2",
