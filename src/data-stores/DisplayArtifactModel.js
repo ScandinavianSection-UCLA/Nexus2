@@ -1,31 +1,31 @@
 // import raw people data
-import AllInformants from "./data/allinformants.json";
+import AllInformants from "../data/allinformants.json";
 // import raw story data
-import AllStories from "./data/allstories.json";
+import AllStories from "../data/allstories.json";
 // import ETK data
-import dataETK from "./data/cetk_indices.json";
+import dataETK from "../data/cetk_indices.json";
 // import data for fieldtrips
-import FieldtripsData from "./data/cfieldtrips.json";
+import FieldtripsData from "../data/cfieldtrips.json";
 // import genre data
-import dataGenre from "./data/cgenres.json";
+import dataGenre from "../data/cgenres.json";
 // import people data
-import informants from "./data/cinformants.json";
+import informants from "../data/cinformants.json";
 // import keyword data
-import dataKeywords from "./data/ckeywords.json";
+import dataKeywords from "../data/ckeywords.json";
 // import occupation data
-import occupations from "./data/coccupations.json";
+import occupations from "../data/coccupations.json";
 // import place data
-import places from "./data/cplaces.json";
+import places from "../data/cplaces.json";
 // import data for mentioned places
-import PlacesMentionedData from "./data/cplaces_mentioned.json";
+import PlacesMentionedData from "../data/cplaces_mentioned.json";
 // import story data
-import storySearch from "./data/cstories.json";
+import storySearch from "../data/cstories.json";
 // import data for places with collected stories
-import StoriesCollectedData from "./data/cstories_collected.json";
+import StoriesCollectedData from "../data/cstories_collected.json";
 // import tango indices data
-import dataTango from "./data/ctango_indices.json";
+import dataTango from "../data/ctango_indices.json";
 // import the arrayTransformation() function
-import {arrayTransformation} from "./utils";
+import {arrayTransformation} from "../utils";
 
 // fieldtrip_id of all fieldtrip is -1
 const allFieldtripId = -1;

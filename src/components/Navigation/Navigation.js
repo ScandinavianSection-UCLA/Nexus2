@@ -81,6 +81,7 @@ class Navigation extends Component {
     handleIDQuery(id, name, type, item){
         console.log(item);
         this.refs.map.updateMarkers(); // update this.props.places for the map component
+        // console.log('handle id query',type,id,name);
         addNode(id,name,type,item); // add node to network graph
         this.props.addID(id,name,type);
     }

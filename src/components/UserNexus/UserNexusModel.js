@@ -25,9 +25,9 @@ const nodeColors = {
 export function initializeGraph() {
     // get data from sessionStorage
     const graphData = getSessionStorage('graphData');
-
-    // if we couldn't load any data
-    if (graphData === null) {
+    console.log({graphData});
+    // if we couldn't load any data default to this
+    if (!graphData) {
         return {
             // nodes needs a minimum of 1 object
             "nodes": [{"id": "blank"}],
@@ -54,7 +54,7 @@ export function initializeNodeCategories() {
     const nodeCategories = getSessionStorage('nodeCategories');
 
     // if we were unable to get anything from sessionStorage
-    if (nodeCategories === null) {
+    if (!nodeCategories) {
         // set the arrays to be empty
         return {
             "People": [],
