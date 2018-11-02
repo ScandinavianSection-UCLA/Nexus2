@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './navigatorComponent.css';
 import NavigationDropdownMenu from './NavigationDropdownMenu';
 import {arrayTransformation} from "../../utils";
-import {getList, ontologyToDisplayKey, tangoTypes} from "../../displayArtifactModel";
+import {getList, ontologyToDisplayKey, tangoTypes} from "../../data-stores/DisplayArtifactModel";
 
 class Navigation extends Component {
     constructor () {
@@ -60,10 +60,8 @@ class Navigation extends Component {
             }
             this.setState((oldState) => {
                 if (oldState.dataNav.includes(prevSelection)) {
-                    console.log('hello from DN', oldState.dataNav.includes(prevSelection));
                     return {path: ['Data Navigator']}
                 } else {
-                    console.log('hello from t&I');
                     return {path: ['Topic & Index Navigator']};
                 }
             },

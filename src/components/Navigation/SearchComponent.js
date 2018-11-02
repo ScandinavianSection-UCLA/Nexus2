@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {getKeywords} from "../../displayArtifactModel";
+import {getKeywords} from "../../data-stores/DisplayArtifactModel";
 import {arrayTransformation} from "../../utils"
 import Fuse from 'fuse.js';
 import './search.css';

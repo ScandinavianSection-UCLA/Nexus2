@@ -4,9 +4,10 @@ import {
     getPeopleByID,
     getPlacesByID,
     getStoryByID,
-} from "../../displayArtifactModel";
+} from "../../data-stores/DisplayArtifactModel";
 // function to ensure an input is an array
 import {arrayTransformation} from "../../utils";
+import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
 
 // colors of the nodes on the graph
 const nodeColors = {
@@ -23,7 +24,7 @@ const nodeColors = {
  */
 export function initializeGraph() {
     // get data from sessionStorage
-    const graphData = JSON.parse(sessionStorage.getItem("graphData"));
+    const graphData = getSessionStorage('graphData');
 
     // if we couldn't load any data
     if (graphData === null) {
@@ -50,7 +51,8 @@ export function initializeGraph() {
  */
 export function initializeNodeCategories() {
     // get the saved data from sessionStorage
-    const nodeCategories = JSON.parse(sessionStorage.getItem("nodeCategories"));
+    const nodeCategories = getSessionStorage('nodeCategories');
+
     // if we were unable to get anything from sessionStorage
     if (nodeCategories === null) {
         // set the arrays to be empty
@@ -101,13 +103,13 @@ export function addNode(id, name, type, item) {
 
         // add it to the relevant array in nodeCategories and update sessionStorage
         nodeCategories[type].push(newNode);
-        sessionStorage.setItem("nodeCategories", JSON.stringify(nodeCategories));
+        setSessionStorage('nodeCategories',nodeCategories);
 
         // add any links for this node
         graphData["links"].push(...createLinkage(newNode, nodeCategories));
 
         // update the general graph data in session
-        sessionStorage.setItem("graphData", JSON.stringify(graphData));
+        setSessionStorage('graphData', graphData);
     }
 
 }
