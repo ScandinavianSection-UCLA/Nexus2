@@ -192,7 +192,6 @@ class TabViewer extends Component {
                 }
             },
                 () => {
-                    // sessionStorage.setItem('TabViewerSessionState',JSON.stringify(this.state));
                     setSessionStorage('TabViewerSessionState',this.state);
                 }
             );
@@ -220,7 +219,6 @@ class TabViewer extends Component {
                 return {views: newViews}
             }
         }, () => {
-            // sessionStorage.setItem('TabViewerSessionState',JSON.stringify(this.state));
             setSessionStorage('TabViewerSessionState',this.state);
         });
     }
@@ -247,7 +245,6 @@ class TabViewer extends Component {
                 }
             }
         }, () => {
-            // sessionStorage.setItem('TabViewerSessionState',JSON.stringify(this.state));
             setSessionStorage('TabViewerSessionState',this.state);
         })
     }
