@@ -5,8 +5,7 @@ import React, { Component } from 'react';
 import NavigatorComponent from './NavigatorComponent';
 import SearchComponent from './SearchComponent';
 import MapView from '../MapView/MapView';
-import {setPlaceIDList} from '../../utils'
-import {ontologyToDisplayKey, ontologyToID, dateFilterHelper} from './model';
+import {ontologyToDisplayKey, ontologyToID, dateFilterHelper} from '../../data-stores/DisplayArtifactModel';
 import {addNode} from "../UserNexus/UserNexusModel";
 import './navigation.css'
 import UserNexus from "../UserNexus/UserNexus";

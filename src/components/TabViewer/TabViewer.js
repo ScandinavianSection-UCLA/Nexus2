@@ -7,6 +7,7 @@ import FieldtripView from "../FieldtripView/FieldtripView";
 import BookView from "../BookView/BookView";
 import {getStoryByID, getPeopleByID, getPlacesByID, getFieldtripsByID} from "../../data-stores/DisplayArtifactModel";
 import "./TabViewer.css"
+import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
 
 class TabViewer extends Component {
     constructor () {
@@ -33,14 +34,13 @@ class TabViewer extends Component {
             type: "Home"
         };
 
-        // load previously opened tabs from session
-        if (JSON.parse(sessionStorage.getItem("inView")) !== null) {
-            const cachedTabViewer = JSON.parse(sessionStorage.getItem('TabViewerSessionState'));
+        const cachedTabViewer = getSessionStorage('TabViewerSessionState');
 
+        // load previously opened tabs from session
+        if (cachedTabViewer) {
             const cachedViews = cachedTabViewer['views'];
             const cachedInView = cachedTabViewer['inView'][0]; //object
 
-            // console.log(cachedTabViewer)
             this.setState(() => {
                 // reconstruct jsx from id and type
                 var newViews = [];
@@ -188,7 +188,8 @@ class TabViewer extends Component {
                 }
             },
                 () => {
-                    sessionStorage.setItem('TabViewerSessionState',JSON.stringify(this.state));
+                    // sessionStorage.setItem('TabViewerSessionState',JSON.stringify(this.state));
+                    setSessionStorage('TabViewerSessionState',this.state);
                 }
             );
         }
@@ -223,7 +224,8 @@ class TabViewer extends Component {
                 return {views: newViews}
             }
         }, () => {
-            sessionStorage.setItem('TabViewerSessionState',JSON.stringify(this.state));
+            // sessionStorage.setItem('TabViewerSessionState',JSON.stringify(this.state));
+            setSessionStorage('TabViewerSessionState',this.state);
         });
     }
 
@@ -249,7 +251,8 @@ class TabViewer extends Component {
                 }
             }
         }, () => {
-            sessionStorage.setItem('TabViewerSessionState',JSON.stringify(this.state));
+            // sessionStorage.setItem('TabViewerSessionState',JSON.stringify(this.state));
+            setSessionStorage('TabViewerSessionState',this.state);
         })
     }
 
