@@ -7,7 +7,12 @@ import FieldtripView from "../FieldtripView/FieldtripView";
 import BookView from "../BookView/BookView";
 import {getStoryByID, getPeopleByID, getPlacesByID, getFieldtripsByID} from "../../data-stores/DisplayArtifactModel";
 import "./TabViewer.css"
+
 import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
+import PropTypes from 'prop-types';
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
+import * as tabViewerActions from '../../actions/tabViewerActions';
 
 class TabViewer extends Component {
     constructor () {
@@ -286,4 +291,23 @@ class TabViewer extends Component {
     }
 }
 
-export default TabViewer;
+TabViewer.propTypes = {
+    tabActions: PropTypes.object,
+};
+
+function mapStateToProps(state) {
+    return {
+        views: state.views
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        tabViewerActions: bindActionCreators(tabViewerActions, dispatch)
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(TabViewer);
