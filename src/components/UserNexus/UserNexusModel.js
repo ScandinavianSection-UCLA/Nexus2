@@ -54,7 +54,7 @@ export function initializeNodeCategories() {
     const nodeCategories = getSessionStorage('nodeCategories');
 
     // if we were unable to get anything from sessionStorage
-    if (nodeCategories === null) {
+    if (!nodeCategories) {
         // set the arrays to be empty
         return {
             "People": [],
