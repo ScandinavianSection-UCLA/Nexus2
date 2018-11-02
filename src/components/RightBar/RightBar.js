@@ -3,22 +3,22 @@ import {addNode} from "../UserNexus/UserNexusModel";
 import Modal from "react-modal";
 import SlidingPane from "react-sliding-pane";
 import "react-sliding-pane/dist/react-sliding-pane.css";
-import "./RightBar.css"
+import "./RightBar.css";
 import PropTypes from "prop-types";
-import {arrayTransformation} from "../../utils.js"
+import {arrayTransformation} from "../../utils.js";
 
 class RightBar extends Component {
-    constructor () {
+    constructor() {
         super();
         this.state = {
-            isPaneOpen: false,
-            isActive: {
-                people: false,
-                bio: false,
-                places: false,
-                stories: false,
-                storiesMentioned: false,
-            }
+            "isPaneOpen": false,
+            "isActive": {
+                "people": false,
+                "bio": false,
+                "places": false,
+                "stories": false,
+                "storiesMentioned": false,
+            },
         };
         this.clickHandler = this.clickHandler.bind(this);
     }
@@ -36,18 +36,18 @@ class RightBar extends Component {
     PPSClickHandler(section) {
         this.setState((oldState) => {
             oldState.isActive = {
-                people: false,
-                bio: false,
-                places: false,
-                stories: false,
-                storiesMentioned: false,
+                "people": false,
+                "bio": false,
+                "places": false,
+                "stories": false,
+                "storiesMentioned": false,
             };
 
             oldState.isActive[section] = true;
 
             return {
-                isPaneOpen: true,
-                isActive: oldState.isActive,
+                "isPaneOpen": true,
+                "isActive": oldState.isActive,
             };
         }); // make side bar appear
     }
@@ -55,14 +55,17 @@ class RightBar extends Component {
     renderControls() {
         const {view} = this.props;
         const {isActive} = this.state;
-        // If place is selected, then create tabs for people, stories that mentioned it, and stories collected
+        // if place is selected, then create tabs for people, stories that mentioned it, and stories collected
         if (view === "Places") {
-            // First <div> is the people tab
-            // Second <div> is the stories that mention it tab
-            // Third <div> is the stories collected tab
-            return <div style={{marginTop: "150%", marginBottom: "20%"}}>
+            // first <div> is the people tab
+            // second <div> is the stories that mention it tab
+            // third <div> is the stories collected tab
+            return <div style={{"marginTop": "150%", "marginBottom": "20%"}}>
                 <div className={`medium-2 cell ${isActive["people"] ? "active" : ""} bio`}
-                    onClick={(e) => {e.preventDefault(); this.PPSClickHandler.bind(this)("people")}}>
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("people");
+                    }}>
                     <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
                         className="icon"
                         alt="person" />
@@ -70,7 +73,10 @@ class RightBar extends Component {
                     <div className="icon-label">People</div>
                 </div>
                 <div className={`medium-2 cell ${isActive["stories_mentioned"] ? "active" : ""} stories-mentioned`}
-                    onClick={(e) => {e.preventDefault(); this.PPSClickHandler.bind(this)("stories_mentioned")}}>
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("stories_mentioned");
+                    }}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
                         className="icon"
                         alt="stories" />
@@ -78,22 +84,28 @@ class RightBar extends Component {
                     <div className="icon-label">Stories That Mention</div>
                 </div>
                 <div className={`medium-2 cell ${isActive["stories"] ? "active" : ""} stories`}
-                    onClick={(e) => {e.preventDefault(); this.PPSClickHandler.bind(this)("stories")}}>
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("stories");
+                    }}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
                         className="icon"
                         alt="stories" />
                     <br />
                     <div className="icon-label">Stories Collected</div>
                 </div>
-            </div>
-        } else if (view === "Stories") { // If story is selected, then create tabs for author, places, and stories
-            // First <div> is the author tab
-            // Second <div> is the places tab
-            // Third <div> is the stories tab
+            </div>;
+        } else if (view === "Stories") { // if story is selected, then create tabs for author, places, and stories
+            // first <div> is the author tab
+            // second <div> is the places tab
+            // third <div> is the stories tab
             const {informant_first_name, informant_last_name} = this.props.object;
-            return <div style={{marginTop: "150%", marginBottom: "20%"}}>
+            return <div style={{"marginTop": "150%", "marginBottom": "20%"}}>
                 <div className={`medium-2 cell ${isActive["people"] ? "active" : ""} bio`}
-                    onClick={(e) => {e.preventDefault(); this.PPSClickHandler.bind(this)("bio")}}>
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("bio");
+                    }}>
                     <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
                         className="icon"
                         alt="person" />
@@ -101,7 +113,10 @@ class RightBar extends Component {
                     <div className="icon-label">{informant_first_name} {informant_last_name}</div>
                 </div>
                 <div className={`medium-2 cell ${isActive["places"] ? "active" : ""} places`}
-                    onClick={(e) => {e.preventDefault(); this.PPSClickHandler.bind(this)("places")}}>
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("places");
+                    }}>
                     <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
                         className="icon"
                         alt="location" />
@@ -109,20 +124,26 @@ class RightBar extends Component {
                     <div className="icon-label">Places</div>
                 </div>
                 <div className={`medium-2 cell ${isActive["stories"] ? "active" : ""} stories`}
-                    onClick={(e) => {e.preventDefault(); this.PPSClickHandler.bind(this)("stories")}}>
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("stories");
+                    }}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
                         className="icon"
                         alt="stories" />
                     <br />
                     <div className="icon-label">Stories</div>
                 </div>
-            </div>
-        } else if (view === "People") { // If person selected, then create tabs for places and stories
-            // First <div> is the plaes tab
-            // Second <div> is the stories tab
-            return <div style={{marginTop: "150%", marginBottom: "20%"}}>
+            </div>;
+        } else if (view === "People") { // if person selected, then create tabs for places and stories
+            // first <div> is the plaes tab
+            // second <div> is the stories tab
+            return <div style={{"marginTop": "150%", "marginBottom": "20%"}}>
                 <div className={`medium-2 cell ${isActive["places"] ? "active" : ""} places`}
-                    onClick={(e) => {e.preventDefault(); this.PPSClickHandler.bind(this)("places")}}>
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("places");
+                    }}>
                     <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
                         className="icon"
                         alt="location" />
@@ -130,21 +151,27 @@ class RightBar extends Component {
                     <div className="icon-label">Places</div>
                 </div>
                 <div className={`medium-2 cell ${isActive["stories"] ? "active" : ""} stories`}
-                    onClick={(e) => {e.preventDefault(); this.PPSClickHandler.bind(this)("stories")}}>
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("stories");
+                    }}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
                         className="icon"
                         alt="stories" />
                     <br />
                     <div className="icon-label">Stories</div>
                 </div>
-            </div>
-        } else if (view === "Fieldtrips") { // If feildtrips is selected, then create tabs for people visited, places visited, and stories collected
-            // First <div> is the people visited tab
-            // Second <div> is the places visited tab
-            // Third <div> is the stories collected tab
-            return <div style={{marginTop: "150%", marginBottom: "20%"}}>
+            </div>;
+        } else if (view === "Fieldtrips") { // if feildtrips is selected, then create tabs for people visited, places visited, and stories collected
+            // first <div> is the people visited tab
+            // second <div> is the places visited tab
+            // third <div> is the stories collected tab
+            return <div style={{"marginTop": "150%", "marginBottom": "20%"}}>
                 <div className={`medium-2 cell ${isActive["people"] ? "active" : ""} bio`}
-                    onClick={(e) => {e.preventDefault(); this.PPSClickHandler.bind(this)("people")}}>
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("people");
+                    }}>
                     <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
                         className="icon"
                         alt="person" />
@@ -152,7 +179,10 @@ class RightBar extends Component {
                     <div className="icon-label">People</div>
                 </div>
                 <div className={`medium-2 cell ${isActive["places"] ? "active" : ""} places`}
-                    onClick={(e) => {e.preventDefault(); this.PPSClickHandler.bind(this)("places")}}>
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("places");
+                    }}>
                     <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
                         className="icon"
                         alt="location" />
@@ -160,14 +190,17 @@ class RightBar extends Component {
                     <div className="icon-label">Places</div>
                 </div>
                 <div className={`medium-2 cell ${isActive["stories"] ? "active" : ""} stories`}
-                    onClick={(e) => {e.preventDefault(); this.PPSClickHandler.bind(this)("stories")}}>
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("stories");
+                    }}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
                         className="icon"
                         alt="stories" />
                     <br />
                     <div className="icon-label">Stories</div>
                 </div>
-            </div>
+            </div>;
         }
     }
 
@@ -182,7 +215,7 @@ class RightBar extends Component {
         } else if (isActive["people"]) {
             return this.renderPeople();
         } else if (isActive["stories_mentioned"]) {
-            return this.renderStories("mentioned")
+            return this.renderStories("mentioned");
         }
     }
 
@@ -193,7 +226,7 @@ class RightBar extends Component {
                 <div className="callout alert">
                     <h6>There are no associated people.</h6>
                 </div>
-            </div>
+            </div>;
         } else {
             return <div className="cell medium-10 large-9 list-content">
                 <ul>
@@ -202,33 +235,33 @@ class RightBar extends Component {
                         return <li key={i} onClick={
                             (e) => {
                                 e.preventDefault();
-                                this.clickHandler.bind(this)(person_id, full_name, "People", person)
+                                this.clickHandler.bind(this)(person_id, full_name, "People", person);
                             }
                         }>
                             <img className="icon-item" src={require("../Navigation/icons8-contacts-32.png")} alt="person" />
                             {full_name}
-                        </li>
+                        </li>;
                     })}
                 </ul>
-            </div>
+            </div>;
         }
     }
 
     renderPlaces() {
         var {places} = this.props;
         console.log(this.props.places);
-        // Problem with the data where it sometimes ends up as an object instead of an array
+        // problem with the data where it sometimes ends up as an object instead of an array
         places = arrayTransformation(places);
-        // If there are no associated places, leave a special message
+        // if there are no associated places, leave a special message
         if (places.length === 0) {
             return <div className="cell medium-10 large-9 list-content">
                 <div className="callout alert">
                     <h6>There are no associated places.</h6>
                 </div>
-            </div>
+            </div>;
         } else {
-            // Creates a list of the places to display
-            places.forEach(function (place, index) {
+            // creates a list of the places to display
+            places.forEach(function(place, index) {
                 if (typeof place === "undefined" || place["place_id"] === "N/A") {
                     delete places[index];
                 }
@@ -236,11 +269,11 @@ class RightBar extends Component {
             return <div className="cell medium-10 large-9 list-content">
                 <ul>
                     {places.map((place, i) => {
-                        // Fieldtrip places use full_name instead of display_name
+                        // fieldtrip places use full_name instead of display_name
                         var {name, place_id} = place;
                         var show_name = place["display_name"];
                         if (typeof place["display_name"] === "undefined") {
-                            show_name = place["full_name"]
+                            show_name = place["full_name"];
                         }
                         return <li key={i}
                             onClick={
@@ -251,7 +284,7 @@ class RightBar extends Component {
                             }>
                             <img className="icon-item" src={require("../Navigation/icons8-marker-32.png")} alt="location" />
                             {show_name}
-                        </li>
+                        </li>;
                     })}
                 </ul>
             </div>;
@@ -280,12 +313,12 @@ class RightBar extends Component {
                             onClick={
                                 (e) => {
                                     e.preventDefault();
-                                    this.clickHandler.bind(this)(story_id, full_name, "Stories", story)
+                                    this.clickHandler.bind(this)(story_id, full_name, "Stories", story);
                                 }
                             }>
                             <img className={"icon-item"} src={require("../Navigation/icons8-chat-filled-32.png")} alt="story" />
                             {full_name}
-                        </li>
+                        </li>;
                     })}
                 </ul>
             </div>;
@@ -296,28 +329,40 @@ class RightBar extends Component {
     renderBiography() {
         var {bio, object} = this.props;
         var {birth_date, death_date, full_name, intro_bio, person_id} = bio;
-        return <div className="cell medium-10 large-9 content">
-            <div className="grid-y">
-                <div className="cell medium-3">
-                    <div className="grid-x informant-bio-container">
-                        <img src={require(`./informant_images/${[90, 123, 150, 235, 241].includes(object["informant_id"]) ? `${object["informant_id"]}.jpg` : "noprofile.png"}`)}
-                            className="cell medium-6" alt={object["full_name"]} />
-                        <div className="cell medium-6 details">
-                            <div><b>Born</b> {birth_date}</div>
-                            <div><b>Died</b> {death_date}</div>
-                            <div><b>ID#</b> {object["informant_id"]}</div>
-                            <a onClick={(e) => {
-                                e.preventDefault();
-                                this.clickHandler.bind(this)(person_id, full_name, "People", bio)
-                            }} className="button">Informant Page</a>
+        if (person_id !== -1) {
+            return (
+                <div className="cell medium-10 large-9 content">
+                    <div className="grid-y">
+                        <div className="cell medium-3">
+                            <div className="grid-x informant-bio-container">
+                                <img src={require(`./informant_images/${[90, 123, 150, 235, 241].includes(object["informant_id"]) ? `${object["informant_id"]}.jpg` : "noprofile.png"}`)}
+                                    className="cell medium-6" alt={object["full_name"]} />
+                                <div className="cell medium-6 details">
+                                    <div><b>Born</b> {birth_date}</div>
+                                    <div><b>Died</b> {death_date}</div>
+                                    <div><b>ID#</b> {object["informant_id"]}</div>
+                                    <a onClick={(e) => {
+                                        e.preventDefault();
+                                        this.clickHandler.bind(this)(person_id, full_name, "People", bio);
+                                    }} className="button">Informant Page</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="cell medium-9 biography">
+                            {intro_bio}
                         </div>
                     </div>
                 </div>
-                <div className="cell medium-9 biography">
-                    {intro_bio}
+            );
+        } else {
+            return (
+                <div className="cell medium-10 large-9 list-content">
+                    <div className="callout alert">
+                        <h6>There is no associated informant.</h6>
+                    </div>
                 </div>
-            </div>
-        </div>
+            );
+        }
     }
 
     render() {
@@ -333,22 +378,22 @@ class RightBar extends Component {
                         onRequestClose={() => {
                             // triggered on "<" on left top click or on outside click
                             this.setState({
-                                isPaneOpen: false,
-                                people: false,
-                                bio: false,
-                                places: false,
-                                stories: false,
-                                storiesMentioned: false,
+                                "isPaneOpen": false,
+                                "people": false,
+                                "bio": false,
+                                "places": false,
+                                "stories": false,
+                                "storiesMentioned": false,
                             });
                         }}>
                         <div className="grid-x control-container">
-                            {/*side bar controls*/}
+                            {/* side bar controls*/}
                             <div className="cell medium-2 large-3 controls">
                                 <div className="grid-y">
                                     {this.renderControls()}
                                 </div>
                             </div>
-                            {/*side bar contents*/}
+                            {/* side bar contents*/}
                             {this.renderContent()}
                         </div>
                     </SlidingPane>
