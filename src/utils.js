@@ -39,9 +39,12 @@ export function arrayTransformation(item) {
     if (Array.isArray(item)) {
         // if the input is already an array, just return it
         return item;
-    } else {
-        // otherwise, return a single element array with the input in it
+    } else if (typeof item !== "undefined" && item !== null) {
+        // assuming it is defined properly, return a single element array with the input in it
         return [item];
+    } else {
+        // return empty if the item is undefined/null
+        return [];
     }
 }
 
@@ -50,7 +53,7 @@ export function arrayTransformation(item) {
  * @param {Array} arr2 An array to check for common elements with
  * @returns {Array} An array contianing the elements present in both arrays
  */
-Array.prototype.diff = function (arr2) {
+Array.prototype.diff = function(arr2) {
     // stores the resulting array
     var union = [];
     // sort both arrays
