@@ -79,7 +79,7 @@ var places_geo = {
 var zoom = 7;
 
 class MapView extends React.Component {
-    constructor () {
+    constructor() {
         super();
         this.state = {
             "mapObject": {},
@@ -177,7 +177,8 @@ class MapView extends React.Component {
 
             }
             console.log("length of array", array.length);
-
+            // filter out any null (i.e. invalid) places from the array
+            array = array.filter(place => place !== null);
             var itemCount = array.length;
             var loopCounter = 10;
             if (itemCount < loopCounter) {
@@ -192,7 +193,7 @@ class MapView extends React.Component {
             }
 
             this.geoJson = L.geoJSON(places_geo, {
-                "pointToLayer": function (feature, latlng) {
+                "pointToLayer": function(feature, latlng) {
                     if (placeId === feature.properties.place_place_id) {
                         if (feature.properties.place_people_person_full_name != null) {
                             return L.circleMarker(latlng, {"color": "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
@@ -210,7 +211,7 @@ class MapView extends React.Component {
             }
         } else { // if props.places is null
             this.geoJson = L.geoJSON(places_geo, {
-                "pointToLayer": function (feature, latlng) {
+                "pointToLayer": function(feature, latlng) {
                     if (feature.properties.place_people_person_full_name != null) {
                         return L.circleMarker(latlng, {
                             "color": "#9f0733",
