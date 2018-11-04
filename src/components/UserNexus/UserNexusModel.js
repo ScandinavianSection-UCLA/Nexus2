@@ -87,71 +87,103 @@ function createPrimaryLinkages({itemID, type}, nodeCategories) {
     // get primary associates based on the ontology
     switch (type) {
         case "Stories": {
-            // get the informant's ID, fieldtrip, places relevant to this story
-            const {fieldtrip, informant_id, places} = model.getStoryByID(itemID);
+            // get the story
+            const story = model.getStoryByID(itemID);
 
-            // set the associated person to be the author.
-            primaryAssociates["People"] = arrayTransformation(informant_id);
-            // extract relevant places, ensure that it is an array, and get their IDs
-            primaryAssociates["Places"] = arrayTransformation(places["place"]).map(place => place["place_id"]);
-            // get the fieldtrip associated with the story, array-ified
-            primaryAssociates["Fieldtrips"] = arrayTransformation(fieldtrip["id"]);
+            // if it's an actual story
+            if (story !== null) {
+                // get the informant's ID, fieldtrip, places relevant to this story
+                const {fieldtrip, informant_id, places} = model.getStoryByID(itemID);
 
+                // set the associated person to be the author.
+                primaryAssociates["People"] = arrayTransformation(informant_id);
+                // extract relevant places, ensure that it is an array, and get their IDs
+                primaryAssociates["Places"] = arrayTransformation(places["place"]).map(place => place["place_id"]);
+                // get the fieldtrip associated with the story, array-ified
+                primaryAssociates["Fieldtrips"] = arrayTransformation(fieldtrip["id"]);
+            } else {
+                // return null since the story wasn't defined
+                return null;
+            }
             break;
         }
         case "People": {
-            // get the person's relevant places and stories
-            const {places, stories} = model.getPeopleByID(itemID);
+            // get the person
+            const person = model.getPeopleByID(itemID);
 
-            // extract relevant places, ensure that it is an array, and get their IDs
-            primaryAssociates["Places"] = arrayTransformation(places).map(place => place["place_id"]);
-            // extract stories, ensure that it is an array, and get their IDs
-            primaryAssociates["Stories"] = arrayTransformation(stories).map(story => story["story_id"]);
+            // if it's an actual person
+            if (person !== null) {
+                // get the person's relevant places and stories
+                const {places, stories} = person;
 
+                // extract relevant places, ensure that it is an array, and get their IDs
+                primaryAssociates["Places"] = arrayTransformation(places).map(place => place["place_id"]);
+                // extract stories, ensure that it is an array, and get their IDs
+                primaryAssociates["Stories"] = arrayTransformation(stories).map(story => story["story_id"]);
+            } else {
+                // return null since the person wasn't defined
+                return null;
+            }
             break;
         }
         case "Places": {
-            // get the place's relevant people and stories
-            const {fieldtrips, people, storiesCollected, storiesMentioned} = model.getPlacesByID(itemID);
+            // get the place
+            const place = model.getPlacesByID(itemID);
 
-            // oh dear god please fix the data so i dont have to do this weird stuff
-            // basically here's how the data currently looks:
+            // if it's an actual place
+            if (place !== null) {
+                // get the place's relevant people and stories
+                const {fieldtrips, people, storiesCollected, storiesMentioned} = place;
 
-            // [
-            //     person: {
-            //         personObject
-            //     }
-            // ]
+                // oh dear god please fix the data so i dont have to do this weird stuff
+                // basically here's how the data currently looks:
 
-            // so we need to extract person, then extract attributes from the object inside it
-            // get the relevant people, ensure that it is an array, and get their IDs
-            primaryAssociates["People"] = arrayTransformation(people).map(person => person["person"]["person_id"]);
-            // extract stories collected here, ensure that it is an array, get their IDs
-            // repeat for stories mentioning this
-            // combine the two arrays
-            primaryAssociates["Stories"] = [
-                ...arrayTransformation(storiesCollected).map(story => story["story_id"]),
-                ...arrayTransformation(storiesMentioned).map(story => story["story_id"]),
-            ];
+                // [
+                //     person: {
+                //         personObject
+                //     }
+                // ]
 
-            // get the fieldtrips associated with the place, array-ified
-            if (fieldtrips !== null) {
-                primaryAssociates["Fieldtrips"] = arrayTransformation(fieldtrips["fieldtrip_id"]);
+                // so we need to extract person, then extract attributes from the object inside it
+                // get the relevant people, ensure that it is an array, and get their IDs
+                primaryAssociates["People"] = arrayTransformation(people).map(person => person["person"]["person_id"]);
+                // extract stories collected here, ensure that it is an array, get their IDs
+                // repeat for stories mentioning this
+                // combine the two arrays
+                primaryAssociates["Stories"] = [
+                    ...arrayTransformation(storiesCollected).map(story => story["story_id"]),
+                    ...arrayTransformation(storiesMentioned).map(story => story["story_id"]),
+                ];
+
+                // get the fieldtrips associated with the place, array-ified
+                if (fieldtrips !== null) {
+                    primaryAssociates["Fieldtrips"] = arrayTransformation(fieldtrips["fieldtrip_id"]);
+                }
+            } else {
+                // return null since the place wasn't defined
+                return null;
             }
-
             break;
         }
         case "Fieldtrips": {
-            // get the people and places visited as well as the collected stories
-            const {people_visited, places_visited, stories_collected} = model.getFieldtripsByID(itemID);
+            // get the fieldtrip
+            const fieldtrip = model.getFieldtripsByID(itemID);
 
-            // get the people visited, ensure that it is an array, and get their IDs
-            primaryAssociates["People"] = arrayTransformation(people_visited).map(person => person["person_id"]);
-            // get places visited, ensure that it is an array, and get their IDs
-            primaryAssociates["Places"] = arrayTransformation(places_visited).map(place => place["place_id"]);
-            // get collected stories, ensure that it is an array, and get their IDs
-            primaryAssociates["Stories"] = arrayTransformation(stories_collected).map(story => story["story_id"]);
+            // if it's an actual fieldtrip
+            if (fieldtrip !== null) {
+                // get the people and places visited as well as the collected stories
+                const {people_visited, places_visited, stories_collected} = fieldtrip;
 
+                // get the people visited, ensure that it is an array, and get their IDs
+                primaryAssociates["People"] = arrayTransformation(people_visited).map(person => person["person_id"]);
+                // get places visited, ensure that it is an array, and get their IDs
+                primaryAssociates["Places"] = arrayTransformation(places_visited).map(place => place["place_id"]);
+                // get collected stories, ensure that it is an array, and get their IDs
+                primaryAssociates["Stories"] = arrayTransformation(stories_collected).map(story => story["story_id"]);
+            } else {
+                // return null since the fieldtrip wasn't defined
+                return null;
+            }
             break;
         }
         default:
@@ -211,26 +243,31 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
     for (let nodeType in primaryAssociates) {
         // for the array of associated nodes by ontology, retrieve their IDs
         primaryAssociates[nodeType].forEach(function(linkID) {
-            // to the final links, we append the result
-            allLinks.push(
-                // the result is multiple link nodes, not an array (don't want a 2-D links array)
-                ...(
-                    // we find any primary linked IDs for the directly associated nodes (i.e. secondarily linked IDs)
-                    createPrimaryLinkages({"itemID": linkID, "type": nodeType}, nodeCategories)["links"]
-                        // remove any links that go back to this node (i.e. Jens => Jens via his story)
-                        .filter(targetID => id !== targetID)
-                        // and, for each of the resulting secondarily associated nodes
-                        .map(function(targetID) {
-                            // return a link from the current node to the secondarily associated node
-                            // connected via the intermediate node we are currently iterating on
-                            return {
-                                "source": id,
-                                "target": targetID,
-                                "linkNode": linkID,
-                            };
-                        })
-                )
-            );
+            // get all the linkages associated with this node
+            const linkages = createPrimaryLinkages({"itemID": linkID, "type": nodeType}, nodeCategories);
+            // if we didn't hit an error
+            if (linkages !== null) {
+                // to the final links, we append the result
+                allLinks.push(
+                    // the result is multiple link nodes, not an array (don't want a 2-D links array)
+                    ...(
+                        // get the IDs of the linked nodes
+                        linkages["links"]
+                            // remove any links that go back to this node (i.e. Jens => Jens via his story) CURRENTLY BUGGED
+                            .filter(targetID => id !== targetID)
+                            // and, for each of the resulting secondarily associated nodes
+                            .map(function(targetID) {
+                                // return a link from the current node to the secondarily associated node
+                                // connected via the intermediate node we are currently iterating on
+                                return {
+                                    "source": id,
+                                    "target": targetID,
+                                    "linkNode": linkID,
+                                };
+                            })
+                    )
+                );
+            }
         });
     }
 

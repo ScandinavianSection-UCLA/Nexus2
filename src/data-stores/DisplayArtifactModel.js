@@ -297,31 +297,38 @@ export function dateFilterHelper(startDate, endDate, ontology) {
 /**
  * Retrieve a fieldtrip by its ID
  * @param {Number} fieldtrip_id The ID of the fieldtrip to get
- * @returns {Fieldtrip} The requested fieldtrip
+ * @returns {Fieldtrip} The requested fieldtrip, or null if the ID is invalid
  */
 export function getFieldtripsByID(fieldtrip_id) {
     // if anything but the all fieldtrip is selected
     if (fieldtrip_id !== allFieldtripId) {
-        // retrieve the relevant information
-        // IMPORTANT: use spread syntax so that we don't mutate the original fieldtrip data
-        let fieldtripObject = {...fieldtripsData[fieldtrip_id]};
-        // if people_visited exists in fieldtripObject
-        if ("people_visited" in fieldtripObject) {
-            // ensure that people_visited is an array
-            fieldtripObject["people_visited"] = arrayTransformation(fieldtripObject["people_visited"]["person"]);
+        // check if the fieldtrip ID is valid
+        if (fieldtripsData.hasOwnProperty(fieldtrip_id)) {
+            // retrieve the relevant information
+            // IMPORTANT: use spread syntax so that we don't mutate the original fieldtrip data
+            let fieldtripObject = {...fieldtripsData[fieldtrip_id]};
+            // if people_visited exists in fieldtripObject
+            if ("people_visited" in fieldtripObject) {
+                // ensure that people_visited is an array
+                fieldtripObject["people_visited"] = arrayTransformation(fieldtripObject["people_visited"]["person"]);
+            }
+            // if places_visited in fieldtripObject
+            if ("places_visited" in fieldtripObject) {
+                // ensure that places_visited is an array
+                fieldtripObject["places_visited"] = arrayTransformation(fieldtripObject["places_visited"]["place"]);
+            }
+            // if stories_collected in fieldtripObject
+            if ("stories_collected" in fieldtripObject) {
+                // ensure that stories_collected is an array
+                fieldtripObject["stories_collected"] = arrayTransformation(fieldtripObject["stories_collected"]["story"]);
+            }
+            // return the object
+            return fieldtripObject;
+        } else {
+            // if not, return null and warn of an invalid ID
+            console.warn(`Fieldtrip ID ${fieldtrip_id} is invalid.`);
+            return null;
         }
-        // if places_visited in fieldtripObject
-        if ("places_visited" in fieldtripObject) {
-            // ensure that places_visited is an array
-            fieldtripObject["places_visited"] = arrayTransformation(fieldtripObject["places_visited"]["place"]);
-        }
-        // if stories_collected in fieldtripObject
-        if ("stories_collected" in fieldtripObject) {
-            // ensure that stories_collected is an array
-            fieldtripObject["stories_collected"] = arrayTransformation(fieldtripObject["stories_collected"]["story"]);
-        }
-        // return the object
-        return fieldtripObject;
     } else { // else, the all fieldtrip is selected
         // create a base fieldtrip
         let allFieldtrip = {
@@ -393,10 +400,10 @@ export function getList(ontology) {
 /**
  * Retrieve a person by its ID
  * @param {Number} person_id The ID of the person to get
- * @returns {Person} The requested person
+ * @returns {Person} The requested person, or null if the ID is invalid
  */
 export function getPeopleByID(person_id) {
-    // check if the person is actually defined
+    // check if the person ID is valid
     if (realPeopleData.hasOwnProperty(person_id)) {
         // an object to store the person;
         let personObject = realPeopleData[person_id];
@@ -421,37 +428,20 @@ export function getPeopleByID(person_id) {
 
         // return the object
         return personObject;
-    } else { // person_object must not be defined
-        // log this info
-        console.warn(`personObject for id: ${person_id} is undefined`);
-        // return a base person object
-        return {
-            "person_id": -1,
-            "birth_date": "",
-            "core_informant": -1,
-            "death_date": "",
-            "first_name": "",
-            "fullbio": "",
-            "gender": "",
-            "image": "",
-            "intro_bio": "",
-            "last_name": "",
-            "occupations": {
-                "occupation": {},
-            },
-            "places": [],
-            "stories": [],
-        };
+    } else {
+        // if the ID is invalid, warn this and return null
+        console.warn(`Person ID ${person_id} is invalid.`);
+        return null;
     }
 }
 
 /**
  * Retrieve a place by its id
  * @param {Number} place_id The ID of the place to get
- * @returns {Place} The requested place
+ * @returns {Place} The requested place, or null if the ID is invalid
  */
 export function getPlacesByID(place_id) {
-    // if the place is actually defined
+    // if the place ID is valid
     if (placesData.hasOwnProperty(place_id)) {
         // retrieve the relevant place
         let placeObject = placesData[place_id];
@@ -474,18 +464,26 @@ export function getPlacesByID(place_id) {
             placeObject["storiesMentioned"] = arrayTransformation(placesMentionedData[place_id]["stories"]["story"]);
         }
         return placeObject;
-    } else { // placeObject must be undefined
-        // log out this info
-        console.warn(`placeObject for id: ${place_id} is undefined`);
+    } else {
+        // if the place ID is invalid, warn this and return null
+        console.warn(`Place ID ${place_id} is invalid.`);
+        return null;
     }
 }
 
 /**
  * Retrieve a story by its ID
  * @param {Number} story_id The ID of the story to get
- * @returns {Story} The requested story
+ * @returns {Story} The requested story, or null if the ID is invalid
  */
 export function getStoryByID(story_id) {
-    // just get it from the relevant array
-    return formattedStoryData[story_id];
+    // if the story ID is valid
+    if (formattedStoryData.hasOwnProperty(story_id)) {
+        // just get it from the relevant array
+        return formattedStoryData[story_id];
+    } else {
+        // if the story ID is invalid, warn this and return null
+        console.warn(`Story ID ${story_id} is invalid.`);
+        return null;
+    }
 }
