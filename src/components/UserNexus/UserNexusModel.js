@@ -245,24 +245,45 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
         primaryAssociates[nodeType].forEach(function(linkID) {
             // get all the linkages associated with this node
             const linkages = createPrimaryLinkages({"itemID": linkID, "type": nodeType}, nodeCategories);
-            // if we didn't hit an error
+            // if we didn't hit an error, we actually got something
             if (linkages !== null) {
+                // variable to store the name of the linking node
+                let name;
+                // based on the type of node, get its name (i.e. what would be displayed on the graph)
+                switch (nodeType) {
+                    case "Fieldtrips":
+                        name = model.getFieldtripsByID(linkID)["fieldtrip_name"];
+                        break;
+                    case "People":
+                        name = model.getPeopleByID(linkID)["full_name"];
+                        break;
+                    case "Places":
+                        name = model.getPlacesByID(linkID)["name"];
+                        break;
+                    case "Stories":
+                        name = model.getStoryByID(linkID)["full_name"];
+                        break;
+                    default:
+                        // new node type we haven't prepared for yet, warn this and stop
+                        console.warn(`Unhandled node type ${nodeType}`);
+                        return;
+                }
                 // to the final links, we append the result
                 allLinks.push(
                     // the result is multiple link nodes, not an array (don't want a 2-D links array)
                     ...(
                         // get the IDs of the linked nodes
                         linkages["links"]
-                            // remove any links that go back to this node (i.e. Jens => Jens via his story) CURRENTLY BUGGED
-                            .filter(targetID => id !== targetID)
                             // and, for each of the resulting secondarily associated nodes
                             .map(function(targetID) {
-                                // return a link from the current node to the secondarily associated node
-                                // connected via the intermediate node we are currently iterating on
+                                // return a link
                                 return {
+                                    // from the current node
                                     "source": id,
+                                    // to the secondarily-linked node
                                     "target": targetID,
-                                    "linkNode": linkID,
+                                    // via the intermediate primary linked node
+                                    "linkNode": name,
                                 };
                             })
                     )
@@ -351,6 +372,27 @@ export function addNode(id, name, type, item) {
                 graphData["links"].push(...createLinkage(fieldtrip, nodeCategories));
             });
         }
+
+        // filter out our links
+        graphData["links"] = graphData["links"].filter(
+            // for the link and index of the current link to check
+            (link) =>
+                // make sure that it doesn't point to itself
+                link.source !== link.target &&
+                // also make sure that this is the first instance of the connnection between the two nodes
+                link === graphData["links"].find(
+                    // the link currently being checked
+                    testLink => (
+                        // if the source of this link and the link currently being checked against match
+                        (testLink.source === link.source &&
+                            // if the target of this link and the link currently being checked against match
+                            testLink.target === link.target) ||
+                        // or if it's the same two nodes connected, but source and target are reversed
+                        (testLink.source === link.target &&
+                            testLink.target === link.source)
+                    )
+                )
+        );
 
         // update the general graph data in session
         setSessionStorage("graphData", graphData);
