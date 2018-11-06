@@ -215,8 +215,8 @@ function createPrimaryLinkages({itemID, type}, nodeCategories) {
 
     // return array of new links, and primarily related things
     return {
-        "links": links,
-        "primaryAssociates": primaryAssociates,
+        links,
+        primaryAssociates,
     };
 }
 
@@ -228,13 +228,17 @@ function createPrimaryLinkages({itemID, type}, nodeCategories) {
  */
 export function createLinkage({id, itemID, type}, nodeCategories) {
     // get the array of connected IDs and primary associated nodes for the current node
-    const {links, primaryAssociates} = createPrimaryLinkages({"itemID": itemID, "type": type}, nodeCategories);
+    let {links, primaryAssociates} = createPrimaryLinkages({"itemID": itemID, "type": type}, nodeCategories);
 
     // create primary links from the connected IDs
-    let allLinks = links.map(function(targetID) {
+    links = links.map(function(targetID) {
+        // make a link
         return {
+            // from the current node
             "source": id,
+            // to the primary node
             "target": targetID,
+            // no intermediate connector
             "linkNode": null,
         };
     });
@@ -268,32 +272,46 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                         console.warn(`Unhandled node type ${nodeType}`);
                         return;
                 }
-                // to the final links, we append the result
-                allLinks.push(
-                    // the result is multiple link nodes, not an array (don't want a 2-D links array)
-                    ...(
-                        // get the IDs of the linked nodes
-                        linkages["links"]
-                            // and, for each of the resulting secondarily associated nodes
-                            .map(function(targetID) {
-                                // return a link
-                                return {
-                                    // from the current node
-                                    "source": id,
-                                    // to the secondarily-linked node
-                                    "target": targetID,
-                                    // via the intermediate primary linked node
-                                    "linkNode": name,
-                                };
-                            })
-                    )
-                );
+                // with the array of IDs of secondary-linked nodes
+                linkages["links"]
+                    // filter out links that point right back to the current node
+                    .filter(targetID => targetID !== id)
+                    // and, for each of the remaining secondarily associated nodes
+                    .forEach(function(targetID) {
+                        // if -1, then this link is "unique" (i.e. its source:target pair is unique, even if reversed)
+                        let check = links.findIndex(
+                            // the link currently being checked
+                            testLink => (
+                                // if that link stems from the current node
+                                (testLink.source === id &&
+                                    // and points to the secondary node
+                                    testLink.target === targetID) ||
+                                // or, if that link starts at the secondary node
+                                (testLink.source === targetID &&
+                                    // and points to the current node
+                                    testLink.target === id)
+                            )
+                            // whenever this condition is true, we shouldn't add the ndoe since it exists in some sort of way
+                        );
+                        // if the link doesn't already exist in some sort of way
+                        if (check === -1) {
+                            // add a link
+                            links.push({
+                                // from the current node
+                                "source": id,
+                                // to the secondarily-linked node
+                                "target": targetID,
+                                // via the intermediate primary linked node
+                                "linkNode": name,
+                            });
+                        }
+                    });
             }
         });
     }
 
     // return our composite of primary and secondary links
-    return allLinks;
+    return links;
 }
 
 /**
@@ -322,11 +340,11 @@ export function createNode(id, name, type, item) {
         // id of the node
         "id": name,
         // color of the node on the graph
-        "color": color,
+        color,
         // item associated with the node
-        "item": item,
+        item,
         // type of the node
-        "type": type,
+        type,
         // id referring to item
         "itemID": id,
     };
@@ -372,27 +390,6 @@ export function addNode(id, name, type, item) {
                 graphData["links"].push(...createLinkage(fieldtrip, nodeCategories));
             });
         }
-
-        // filter out our links
-        graphData["links"] = graphData["links"].filter(
-            // for the link and index of the current link to check
-            (link) =>
-                // make sure that it doesn't point to itself
-                link.source !== link.target &&
-                // also make sure that this is the first instance of the connnection between the two nodes
-                link === graphData["links"].find(
-                    // the link currently being checked
-                    testLink => (
-                        // if the source of this link and the link currently being checked against match
-                        (testLink.source === link.source &&
-                            // if the target of this link and the link currently being checked against match
-                            testLink.target === link.target) ||
-                        // or if it's the same two nodes connected, but source and target are reversed
-                        (testLink.source === link.target &&
-                            testLink.target === link.source)
-                    )
-                )
-        );
 
         // update the general graph data in session
         setSessionStorage("graphData", graphData);

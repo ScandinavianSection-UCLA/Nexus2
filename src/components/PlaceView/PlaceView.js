@@ -5,7 +5,7 @@ import MapView from "../MapView/MapView";
 import PropTypes from "prop-types";
 
 class PlaceView extends Component {
-    constructor () {
+    constructor() {
         super();
         this.clickHandler = this.clickHandler.bind(this);
     }
@@ -64,12 +64,12 @@ class PlaceView extends Component {
 PlaceView.propTypes = {
     "place": PropTypes.shape({
         "fieldtrips": PropTypes.shape({
-            "fieldtrip_id": PropTypes.number,
+            "fieldtrip_id": PropTypes.array,
         }),
         "latitude": PropTypes.number,
         "longitude": PropTypes.number,
         "name": PropTypes.string.isRequired,
-        "people": PropTypes.object.isRequired,
+        "people": PropTypes.array.isRequired,
         "place_id": PropTypes.number,
         "storiesCollected": PropTypes.array.isRequired,
         "storiesMentioned": PropTypes.array.isRequired,
@@ -80,7 +80,7 @@ PlaceView.propTypes = {
 PlaceView.defaultProps = {
     "place": {
         "name": "",
-        "people": {},
+        "people": [],
         "storiesCollected": [],
         "storiesMentioned": [],
     },
