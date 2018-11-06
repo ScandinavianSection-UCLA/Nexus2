@@ -49,29 +49,15 @@ export function arrayTransformation(item) {
 }
 
 /**
- * Get the common elements of this array with another array
- * @param {Array} arr2 An array to check for common elements with
+ * Get the common elements of two arrays
+ * @param {Array} array1 An array to check for common elements with
+ * @param {Array} array2 Another array to check for common elements with
  * @returns {Array} An array contianing the elements present in both arrays
  */
-Array.prototype.diff = function(arr2) {
-    // stores the resulting array
-    var union = [];
-    // sort both arrays
-    this.sort();
-    arr2.sort();
-
-    // for each element in the current array
-    this.forEach((element) => {
-        // if the element exists in the input
-        if (arr2.indexOf(element) !== -1) {
-            // add it to our resulting array
-            union.push(element);
-        }
-    });
-
-    // return the common elements of both arrays
-    return union;
-};
+export function diff(array1, array2) {
+    // return array1, filtered for only elements that are also in array2
+    return array1.filter(element => array2.includes(element));
+}
 
 // convert list of place objects to list of place id's
 export function setPlaceIDList(items, ontology) {
