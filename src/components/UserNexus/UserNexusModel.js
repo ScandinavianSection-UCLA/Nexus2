@@ -1,7 +1,7 @@
 // functions to get people, places, stories
 import * as model from "../../data-stores/DisplayArtifactModel";
 // function to ensure an input is an array
-import {arrayTransformation} from "../../utils";
+import {arrayTransformation, diff} from "../../utils";
 import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
 
 // colors of the nodes on the graph
@@ -68,23 +68,20 @@ export function initializeNodeCategories() {
 }
 
 /**
- * Helper function for createLinkage
- * @param {Node} node The node to get links for
- * @param {Object} nodeCategories An object containing pre-existing nodes on the graph
- * @returns {Array} An array of the primary-linked nodes' IDs already on the graph
+ * Get primarily associated data
+ * @param {Number} itemID The numeric ID referring to the node
+ * @param {String} type The type of the node
+ * @returns {Object} An object with "Fieldtrips", "People", "Places", "Stories" attributes containing any primarily related data
  */
-function createPrimaryLinkages({itemID, type}, nodeCategories) {
-    // array to contain found targets
-    let links = [],
-        // object to store primary-linked nodes
-        primaryAssociates = {
-            "Fieldtrips": [],
-            "People": [],
-            "Places": [],
-            "Stories": [],
-        };
-
-    // get primary associates based on the ontology
+function getPrimaryAssociates(itemID, type) {
+    // object to store the associated data.
+    let primaryAssociates = {
+        "Fieldtrips": [],
+        "People": [],
+        "Places": [],
+        "Stories": [],
+    };
+    // based on the type of the node
     switch (type) {
         case "Stories": {
             // get the story
@@ -191,6 +188,21 @@ function createPrimaryLinkages({itemID, type}, nodeCategories) {
             console.warn(`Linkages not yet implemented for node type: ${type}`);
             return;
     }
+    return primaryAssociates;
+}
+
+/**
+ * Create linkages for a node
+ * @param {Node} node The node to create linkages for
+ * @param {Array} nodeCategories An array of nodes to use to find linkages
+ * @returns {Array} An array containing the formed linkages
+ */
+export function createLinkage({id, itemID, type}, nodeCategories) {
+    // array to contain links
+    let links = [];
+
+    // get primary associates for the node
+    const primaryAssociates = getPrimaryAssociates(itemID, type);
 
     // get the nodes already on the graph
     const pastNodes = {
@@ -202,105 +214,82 @@ function createPrimaryLinkages({itemID, type}, nodeCategories) {
 
     // for fieldtrips, people, places, stories
     for (let nodeType in pastNodes) {
-        // get any primarily related nodes that are already on the the graph
-        let matches = primaryAssociates[nodeType].diff(pastNodes[nodeType]);
-        // add to links a series of elements, not an array
+        // add to links a series of links, not an array of links
         links.push(
-            // all the matches, and for each of their itemIDs
-            ...matches.map(matchID =>
-                // substitute in the graph id of the node
-                nodeCategories[nodeType].find(node => node["itemID"] === matchID)["id"])
+            // get any primarily related nodes that are already on the the graph
+            ...diff(primaryAssociates[nodeType], (pastNodes[nodeType]))
+                // for all the matches, use their numeric ID
+                .map(function(matchID) {
+                    // create a link
+                    return {
+                        // from the current node
+                        "source": id,
+                        // to the node specified by matchID
+                        "target": nodeCategories[nodeType].find(node => node["itemID"] === matchID)["id"],
+                        // no intermediate node connecting the two
+                        "linkNode": null,
+                    };
+                })
         );
     }
-
-    // return array of new links, and primarily related things
-    return {
-        links,
-        primaryAssociates,
-    };
-}
-
-/**
- * Create linkages for a node
- * @param {Node} node The node to create linkages for
- * @param {Array} nodeCategories An array of nodes to use to find linkages
- * @returns {Array} An array containing the formed linkages
- */
-export function createLinkage({id, itemID, type}, nodeCategories) {
-    // get the array of connected IDs and primary associated nodes for the current node
-    let {links, primaryAssociates} = createPrimaryLinkages({"itemID": itemID, "type": type}, nodeCategories);
-
-    // create primary links from the connected IDs
-    links = links.map(function(targetID) {
-        // make a link
-        return {
-            // from the current node
-            "source": id,
-            // to the primary node
-            "target": targetID,
-            // no intermediate connector
-            "linkNode": null,
-        };
-    });
 
     // for fieldtrips, people, places, stories
     for (let nodeType in primaryAssociates) {
         // for the array of associated nodes by ontology, retrieve their IDs
         primaryAssociates[nodeType].forEach(function(linkID) {
-            // get all the linkages associated with this node
-            const linkages = createPrimaryLinkages({"itemID": linkID, "type": nodeType}, nodeCategories);
-            // if we didn't hit an error, we actually got something
-            if (linkages !== null) {
-                // variable to store the name of the linking node
-                let name;
-                // based on the type of node, get its name (i.e. what would be displayed on the graph)
-                switch (nodeType) {
-                    case "Fieldtrips":
-                        name = model.getFieldtripsByID(linkID)["fieldtrip_name"];
-                        break;
-                    case "People":
-                        name = model.getPeopleByID(linkID)["full_name"];
-                        break;
-                    case "Places":
-                        name = model.getPlacesByID(linkID)["name"];
-                        break;
-                    case "Stories":
-                        name = model.getStoryByID(linkID)["full_name"];
-                        break;
-                    default:
-                        // new node type we haven't prepared for yet, warn this and stop
-                        console.warn(`Unhandled node type ${nodeType}`);
-                        return;
-                }
-                // with the array of IDs of secondary-linked nodes
-                linkages["links"]
+            // variable to store the name of the linking node
+            let name;
+            // based on the type of node, get its name (i.e. what would be displayed on the graph)
+            switch (nodeType) {
+                case "Fieldtrips":
+                    name = model.getFieldtripsByID(linkID)["fieldtrip_name"];
+                    break;
+                case "People":
+                    name = model.getPeopleByID(linkID)["full_name"];
+                    break;
+                case "Places":
+                    name = model.getPlacesByID(linkID)["name"];
+                    break;
+                case "Stories":
+                    name = model.getStoryByID(linkID)["full_name"];
+                    break;
+                default:
+                    // new node type we haven't prepared for yet, warn this and stop
+                    console.warn(`Unhandled node type ${nodeType}`);
+                    return;
+            }
+            // get any potential secondary associates
+            const secondaryAssociates = getPrimaryAssociates(linkID, nodeType);
+            // for fieldtrips, people, places, stories
+            for (let nodeType in pastNodes) {
+                // if any secondary associated nodes that are already on the graph
+                diff(secondaryAssociates[nodeType], pastNodes[nodeType])
+                    // convert each of the numeric IDs to the node's name
+                    .map(matchID => nodeCategories[nodeType].find(node => node["itemID"] === matchID)["id"])
                     // filter out links that point right back to the current node
-                    .filter(targetID => targetID !== id)
-                    // and, for each of the remaining secondarily associated nodes
-                    .forEach(function(targetID) {
-                        // if -1, then this link is "unique" (i.e. its source:target pair is unique, even if reversed)
-                        let check = links.findIndex(
+                    .filter(matchID => matchID !== id)
+                    // and, for each of the remaining secondarily associated nodes' links
+                    .forEach(function(matchID) {
+                        // if the link doesn't already exist in some sort of way
+                        if (links.findIndex(
                             // the link currently being checked
                             testLink => (
                                 // if that link stems from the current node
                                 (testLink.source === id &&
                                     // and points to the secondary node
-                                    testLink.target === targetID) ||
+                                    testLink.target === matchID) ||
                                 // or, if that link starts at the secondary node
-                                (testLink.source === targetID &&
+                                (testLink.source === matchID &&
                                     // and points to the current node
                                     testLink.target === id)
-                            )
-                            // whenever this condition is true, we shouldn't add the ndoe since it exists in some sort of way
-                        );
-                        // if the link doesn't already exist in some sort of way
-                        if (check === -1) {
+                                // whenever this condition is -1, the connection between the two doesn't exist yet, so add the link
+                            )) === -1) {
                             // add a link
                             links.push({
                                 // from the current node
                                 "source": id,
                                 // to the secondarily-linked node
-                                "target": targetID,
+                                "target": matchID,
                                 // via the intermediate primary linked node
                                 "linkNode": name,
                             });
