@@ -246,6 +246,40 @@ class Navigation extends Component {
     }
 
     render() {
+        // variable to store the main, center display
+        let toDisplay;
+        // based on what is currently being viewd
+        switch (this.state.displayLabel) {
+            // if the user is viewing the ETK Index but hasn't selected anything yet
+            case "Topic & Index Navigator > ETK Index":
+                // render a hint to select an ETK index
+                toDisplay =
+                    <div className="hintText">
+                        Select an ETK index from the left to get started!
+                    </div>;
+                break;
+            // if the user is viewing the Tango Index but hasn't selected anything yet
+            case "Topic & Index Navigator > Tangherlini Index":
+                // render a hint to select a tango index
+                toDisplay =
+                    <div className="hintText">
+                        Select a class from the left to get started!
+                    </div>;
+                break;
+            // if the user is viewing the genres but hasn't selected anything yet
+            case "Topic & Index Navigator > Genres":
+                // render a hint to select a genre
+                toDisplay =
+                    <div className="hintText">
+                        Select a genre from the left to get started!
+                    </div>;
+                break;
+            // for anything else
+            default:
+                // just render what is normally wanted
+                toDisplay = this.state.displayItemsList;
+                break;
+        }
         return (
             <div className="Navigation">
                 <div className="navigation grid-x grid-padding-x">
@@ -316,7 +350,8 @@ class Navigation extends Component {
                                         <span className={`SearchTitle ${this.state.searchOn ? "active" : ""}`}>Searching </span>
                                         {this.state.displayLabel}
                                     </h6>
-                                    {this.state.displayItemsList}
+                                    {/* display the elements we assigned at the beginning of this function */}
+                                    {toDisplay}
                                 </ul>
                             </div>
                         </div>

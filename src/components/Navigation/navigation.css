@@ -122,3 +122,7 @@
     background: #ED4C67; /* Green background */
     cursor: pointer; /* Cursor on hover */
 }
+
+.hintText {
+    margin-left: 20px;
+}
