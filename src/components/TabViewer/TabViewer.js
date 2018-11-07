@@ -5,22 +5,22 @@ import PlaceView from "../PlaceView/PlaceView";
 import PeopleView from "../PeopleView/PeopleView";
 import FieldtripView from "../FieldtripView/FieldtripView";
 import BookView from "../BookView/BookView";
-import {getStoryByID, getPeopleByID, getPlacesByID, getFieldtripsByID} from "../../data-stores/DisplayArtifactModel";
-import "./TabViewer.css"
-
+import GraphView from "../GraphView/GraphView";
+import * as model from "../../data-stores/DisplayArtifactModel";
+import "./TabViewer.css";
 import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
-import PropTypes from 'prop-types';
-import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
-import * as tabViewerActions from '../../actions/tabViewerActions';
+import PropTypes from "prop-types";
+import {connect} from "react-redux";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
 
 class TabViewer extends Component {
-    constructor () {
+    constructor() {
         super();
         this.state = {
-            views: [],
-            storyPath: "",
-            active:{},
+            "views": [],
+            "storyPath": "",
+            "active": {},
         };
         this.addTab = this.addTab.bind(this);
         this.switchTab = this.switchTab.bind(this);
@@ -31,43 +31,43 @@ class TabViewer extends Component {
 
     componentWillMount() {
         var navigationObject = {
-            jsx: <Navigation addID={this.addTab} />,
-            active: true,
-            id: 0,
-            name: "Home",
-            type: "Home"
+            "jsx": <Navigation addID={this.addTab} />,
+            "active": true,
+            "id": 0,
+            "name": "Home",
+            "type": "Home",
         };
 
-        const cachedTabViewer = getSessionStorage('TabViewerSessionState');
+        const cachedTabViewer = getSessionStorage("TabViewerSessionState");
 
         // load previously opened tabs from session
         if (cachedTabViewer) {
-            const cachedViews = cachedTabViewer['views'];
-            const cachedInView = cachedTabViewer['active']; //object
+            const cachedViews = cachedTabViewer["views"];
+            const cachedInView = cachedTabViewer["active"]; // object
 
             this.setState(() => {
                 // reconstruct jsx from id and type
                 var newViews = [];
                 cachedViews.forEach((view) => {
                     newViews.push({
-                        active: view["active"],
-                        id: view["id"],
-                        name: view["name"],
-                        type: view["type"],
-                        jsx: this.renderPPFS(view["id"], view["type"]),
-                    })
+                        "active": view["active"],
+                        "id": view["id"],
+                        "name": view["name"],
+                        "type": view["type"],
+                        "jsx": this.renderPPFS(view["id"], view["type"]),
+                    });
                 });
                 var newInView = {
-                    active: cachedInView["active"],
-                    id: cachedInView["id"],
-                    name: cachedInView["name"],
-                    type: cachedInView["type"],
-                    jsx: this.renderPPFS(cachedInView["id"], cachedInView["type"]),
+                    "active": cachedInView["active"],
+                    "id": cachedInView["id"],
+                    "name": cachedInView["name"],
+                    "type": cachedInView["type"],
+                    "jsx": this.renderPPFS(cachedInView["id"], cachedInView["type"]),
                 };
 
                 // if route set to home tab, make home tab the active and inview tab
                 if (this.props.home) {
-                    newViews.map((currentView) => {
+                    newViews.forEach(function(currentView) {
                         if (currentView["name"] === "Home") {
                             currentView = navigationObject;
                         }
@@ -76,36 +76,66 @@ class TabViewer extends Component {
                 }
 
                 return {
-                    views: newViews,
-                    active: newInView,
-                }
-            })
+                    "views": newViews,
+                    "active": newInView,
+                };
+            });
         } else {
             // if no previous session data or data from route, just load a home tab
             this.setState((prevState) => {
                 var newState = prevState.views;
                 newState.push(navigationObject);
-                return {views: newState, active: navigationObject};
+                return {"views": newState, "active": navigationObject};
             });
         }
     }
 
+    /**
+     * Render the main content of the app
+     * @param {Number} id ID of the relevant person/place/story/fieldtrip to load (irrelevant for NexusGraph, Home)
+     * @param {String} type The type of view to load (People/Places/Fieldtrips/Stories/Home/Graph)
+     * @returns {JSX} The content of the relevant view
+     */
     renderPPFS(id, type) {
+        // depending on the type of the view to render
         switch (type) {
             case "People":
-                var personObject = getPeopleByID(id);
-                return <PeopleView person={personObject} addID={this.addTab} />
+                // for people, return a PeopleView
+                return <PeopleView
+                    // with the person retrieved by the passed ID
+                    person={model.getPeopleByID(id)}
+                    // and give it the addTab function (in case something selected from rightBar)
+                    addID={this.addTab} />;
             case "Places":
-                var place = getPlacesByID(id);
-                return <PlaceView place={place} addID={this.addTab} />
+                // for places, return a PlaceView
+                return <PlaceView
+                    // with the place retrieved by the passed ID
+                    place={model.getPlacesByID(id)}
+                    // and give it the addTab function (in case something selected from rightBar)
+                    addID={this.addTab} />;
             case "Fieldtrips":
-                var fieldtrip = getFieldtripsByID(id);
-                return <FieldtripView fieldtrip={fieldtrip} addID={this.addTab} />
+                // for fieldtrip, return a FieldtripView
+                return <FieldtripView
+                    // with the fieldtrip retrieved by the passed ID
+                    fieldtrip={model.getFieldtripsByID(id)}
+                    // and give it the addTab function (in case something selected from rightBar)
+                    addID={this.addTab} />;
             case "Stories":
-                var storyObject = getStoryByID(id);
-                return <StoryView story={storyObject} addID={this.addTab} />;
+                // for stories, return a StoryView
+                return <StoryView
+                    // with the story retrieved by the passed ID
+                    story={model.getStoryByID(id)}
+                    // and give it the addTab function (in case something selected from rightBar)
+                    addID={this.addTab} />;
             case "Home": case "home":
+                // for the Home tab, return the main Navigation view (home), with addTab for any selected tabs
                 return <Navigation addID={this.addTab} />;
+            case "Graph":
+                // for the graph, return the GraphView
+                return <GraphView />;
+            default:
+                // if it wasn't one of the above types, warn that we hit an unknown type
+                console.warn(`Unhandled tab type ${type}`);
         }
     }
 
@@ -123,10 +153,10 @@ class TabViewer extends Component {
         }
         if (name !== undefined && nameUpdated) {
             var PDFObject = {
-                name: name,
-                chapter: chapter,
-                jsx: <BookView chapter={chapter} name={name}>{name}</BookView>,
-                active: true
+                "name": name,
+                "chapter": chapter,
+                "jsx": <BookView chapter={chapter} name={name}>{name}</BookView>,
+                "active": true,
             };
             this.setState((prevState) => {
                 var newState = prevState;
@@ -134,67 +164,84 @@ class TabViewer extends Component {
                     view.active = false;
                 });
                 newState.views.push(PDFObject);
-                return {views: newState.views, active: PDFObject}
+                return {"views": newState.views, "active": PDFObject};
             });
         }
     }
 
-    // 7)A catch all function will take in an ID and name of the selected object
-    // depending on what was selected (story, people, places, fieldtrips) add a different type of object to add to views and active
+    /**
+     * Adds a tab to the bottom bar
+     * @param {*} inputID ID of the relevant person/place/story/fieldtrip to add (irrelevant for NexusGraph, Home)
+     * @param {*} name Name to display at the bottom on the tab
+     * @param {*} type Type of the tab (person/place/story/fieldtrip/graph/home)
+     */
+    addTab(inputID, name, type) {
+        // see if we can get the preexisting view matching the tab to create
+        const matchingView = this.state.views.find((view) => (view["id"] === inputID && view["type"] === type));
 
-    addTab(InputID, Name, Type) {
-        // adds tab to viewer
-
-        //check if input id is already in views
-        var inView = false;
-        var viewIndex = -1;
-        this.state.views.forEach((view, i) => {
-            if (view["id"] === InputID && view["type"] === Type) {
-                inView = true;
-                viewIndex = i;
-            }
-        });
-        if (inView) {
-            // if it's already in views, make it in view
-            this.setState((prevState) => {
-                return {active: prevState["views"][viewIndex]}
+        // if we're trying to re-add an already existing view
+        if (typeof matchingView !== "undefined") {
+            // just set that view to the active
+            this.setState({
+                "active": matchingView,
             });
         } else {
-            var itemObject = {
-                jsx: this.renderPPFS(InputID, Type, Name),
-                id: InputID,
-                active: true,
-                name: Name,
-                type: Type
+            // we actually need to make a new tab and view
+
+            // object representing the new view
+            const newView = {
+                // content should be rendered based on the renderPPFS() function
+                "jsx": this.renderPPFS(inputID, type, name),
+                // id is the passed ID
+                "id": inputID,
+                // set it to the active view
+                "active": true,
+                // name is the passed name
+                "name": name,
+                // type is the passed type
+                "type": type,
             };
+
+            // update the current state, given the previous state
             this.setState((prevState) => {
-                var newViews = prevState.views;
-                newViews.forEach((view) => {
-                    view.active = false;
+                // for each of the preexisting views
+                let updatedViews = prevState.views.map((view) => {
+                    return {
+                        // leave the view mostly untouched...
+                        ...view,
+                        // ...but set it to be inactive
+                        "active": false,
+                    };
                 });
-                newViews.push(itemObject);
-                var width = window.innerWidth;
 
-                if (width <= 1100) {
-                    console.log("window is small!")
-                    if (newViews.length > 5) {
-                        newViews.splice(1, 1);
+                // add in the new, active view
+                updatedViews.push(newView);
+
+                // if our window is smaller than 1100px (95% sure about the units)
+                if (window.innerWidth <= 1100) {
+                    console.log("Window is small!");
+                    // if we have more than 5 tabs already (including home)
+                    if (updatedViews.length > 5) {
+                        // remove the first non-Home tab
+                        updatedViews.splice(1, 1);
                     }
-                } else {
-                    if (newViews.length > 6) {
-                        newViews.splice(1, 1);
-                    }
+                } else if (updatedViews.length > 6) {
+                    // if we have more than 6 tabs already (including home)
+                    // remove the first non-Home tab
+                    updatedViews.splice(1, 1);
                 }
 
+                // update the state of the component
                 return {
-                    views: newViews,
-                    active: itemObject,
-                }
-            },
-                () => {
-                    setSessionStorage('TabViewerSessionState',this.state);
-                }
-            );
+                    // set the views to be the updated views
+                    "views": updatedViews,
+                    // set the active view to be the newly created view
+                    "active": newView,
+                };
+            }, function() {
+                // update session storage with our new, updated state
+                setSessionStorage("TabViewerSessionState", this.state);
+            });
         }
     }
 
@@ -214,12 +261,12 @@ class TabViewer extends Component {
             });
             // check if view has been deleted from list of views
             if (newViews.includes(view)) {
-                return {views: newViews, active: view,}
+                return {"views": newViews, "active": view};
             } else {
-                return {views: newViews}
+                return {"views": newViews};
             }
         }, () => {
-            setSessionStorage('TabViewerSessionState',this.state);
+            setSessionStorage("TabViewerSessionState", this.state);
         });
     }
 
@@ -234,39 +281,53 @@ class TabViewer extends Component {
                 }
             });
             newState.views.splice(removeViewIndex, 1);
-            if (newState.active['name'] === view["name"]) { // is current view being closed?
+            if (newState.active["name"] === view["name"]) { // is current view being closed?
                 return {
-                    views: newState.views,
-                    active: newState.views[newState.views.length - 1]
-                }
-            } else { // if current view isn"t being closed, don"t change what"s active view
+                    "views": newState.views,
+                    "active": newState.views[newState.views.length - 1],
+                };
+            } else {
+                // if current view isn"t being closed, don"t change what"s active view
                 return {
-                    views: newState.views,
-                }
+                    "views": newState.views,
+                };
             }
         }, () => {
-            setSessionStorage('TabViewerSessionState',this.state);
-        })
+            setSessionStorage("TabViewerSessionState", this.state);
+        });
     }
 
     render() {
         return (
             <div className="TabViewer grid-container full">
                 <div className="grid-y">
-                    {/*Wrapper/container for the View, not including the tabs*/}
-                    <div className="view cell fill"> {/*Class "fill" fills out the rest of the application space with the view*/}
-                        {/*Function below generates/sorts out which view should be displayed*/}
-                        {this.state.active['jsx']}
+                    {/* Wrapper/container for the View, not including the tabs*/}
+                    <div className="view cell fill"> {/* Class "fill" fills out the rest of the application space with the view*/}
+                        {/* Function below generates/sorts out which view should be displayed*/}
+                        {this.state.active["jsx"]}
                     </div>
-                    {/*List of tabs that are displayed at the bottom of the browser/app*/}
-                    <ul className="tabs cell medium-1"> {/*medium-1 sets the height of the tabs*/}
+                    {/* List of tabs that are displayed at the bottom of the browser/app*/}
+                    <ul className="tabs cell medium-1"> {/* medium-1 sets the height of the tabs*/}
                         {this.state.views.map((view, i) => {
-                            return <li onClick={(event) => {event.preventDefault(); this.switchTab(view);}}
-                                key={i} className={`${view.name === this.state.active.name ? "active" : ""}`}>
-                                {view.name}
-                                <img src="https://png.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
-                                    className={`closeTabIcon ${view.name === "Home" ? "noClose" : ""}`} onClick={(event) => {event.preventDefault(); this.closeTab(view)}} />
-                            </li>
+                            return (
+                                <li
+                                    onClick={(event) => {
+                                        event.preventDefault();
+                                        this.switchTab(view);
+                                    }}
+                                    key={i}
+                                    className={`${view.name === this.state.active.name ? "active" : ""}`}>
+                                    {view.name}
+                                    <img
+                                        src="https://png.icons8.com/material/50/000000/delete-sign.png"
+                                        alt="Close Icon"
+                                        className={`closeTabIcon ${view.name === "Home" ? "noClose" : ""}`}
+                                        onClick={(event) => {
+                                            event.preventDefault();
+                                            this.closeTab(view);
+                                        }} />
+                                </li>
+                            );
                         })}
                     </ul>
                 </div>
@@ -276,18 +337,18 @@ class TabViewer extends Component {
 }
 
 TabViewer.propTypes = {
-    tabActions: PropTypes.object,
+    "tabActions": PropTypes.object,
 };
 
 function mapStateToProps(state) {
     return {
-        views: state.views
+        "views": state.views,
     };
 }
 
 function mapDispatchToProps(dispatch) {
     return {
-        tabViewerActions: bindActionCreators(tabViewerActions, dispatch)
+        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
     };
 }
 
