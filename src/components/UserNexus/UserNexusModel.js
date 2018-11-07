@@ -31,7 +31,7 @@ function nodesToIDArray(nodeCategories, type) {
 }
 
 /**
- * Model initializer
+ * Retrieve the graph data from storage
  * @returns {Object} Nodes and links found in storage
  */
 export function initializeGraph() {
@@ -52,7 +52,7 @@ export function initializeGraph() {
 }
 
 /**
- * Initialize the nodes of the graph
+ * Retrieve all nodes of the graph from storage
  * @returns {Object} An object containing the relevant nodes, categorized by type
  */
 export function initializeNodeCategories() {
