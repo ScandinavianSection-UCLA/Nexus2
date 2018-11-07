@@ -1,0 +1,11 @@
+@media screen and (min-height: 400px) {
+    .nexusGraphView {
+        height:84vh;
+    }
+}
+
+@media screen and (min-height: 770px) {
+    .nexusGraphView{
+        height:86vh;
+    }
+}

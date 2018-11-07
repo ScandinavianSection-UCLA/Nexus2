@@ -30,38 +30,33 @@ const myConfig = {
 
 };
 
-
 // graph event callbacks
-const onClickNode = function (nodeId) {
-    console.log("Clicked node ${nodeId}");
+const onClickNode = function(nodeId) {
+    console.log(`Clicked node ${nodeId}`);
 };
 
-const onMouseOverNode = function (nodeId) {
+const onMouseOverNode = function(nodeId) {
     console.log(`Mouse over node ${nodeId}`);
 };
 
-const onMouseOutNode = function (nodeId) {
+const onMouseOutNode = function(nodeId) {
     console.log(`Mouse out node ${nodeId}`);
 };
 
-const onClickLink = function (source, target) {
+const onClickLink = function(source, target) {
     console.log(`Clicked link between ${source} and ${target}`);
 };
 
-const onMouseOverLink = function (source, target) {
+const onMouseOverLink = function(source, target) {
     console.log(`Mouse over in link between ${source} and ${target}`);
 };
 
-const onMouseOutLink = function (source, target) {
+const onMouseOutLink = function(source, target) {
     console.log(`Mouse out link between ${source} and ${target}`);
 };
 
-const restartSimulation = function () {
-    console.log("restarted");
-};
-
 class UserNexus extends Component {
-    constructor () {
+    constructor() {
         super();
         const graphData = JSON.parse(localStorage.getItem("graphData"));
         const nodeCategories = JSON.parse(localStorage.getItem("nodeCategories"));
@@ -85,21 +80,42 @@ class UserNexus extends Component {
         });
     }
 
+    /**
+     * Creates the graph and associated button, located at the top right of the home view
+     * @returns {JSX} The resulting graph + button
+     */
     render() {
-
-        return (<Graph
-            className="UserNexus"
-            id="graph-id" // id is mandatory, if no id is defined rd3g will throw an error
-            data={this.state.data}
-            config={myConfig}
-            onClickNode={onClickNode}
-            onClickLink={onClickLink}
-            onMouseOverNode={onMouseOverNode}
-            onMouseOutNode={onMouseOutNode}
-            onMouseOverLink={onMouseOverLink}
-            onMouseOutLink={onMouseOutLink}
-            ref="graph"
-        />)
+        return (
+            // div to conatin both the button and graph
+            <div>
+                {/* button that creates + opens the graph tab when clicked (Navigation.js:handleDisplayGraph())*/}
+                <button onClick={this.props.expandGraph}>Expand Nexus Graph</button>
+                {/* the actual graph */}
+                <Graph
+                    // CSS class
+                    className="UserNexus"
+                    // id is mandatory, if no id is defined rd3g will throw an error
+                    id="graph-id"
+                    // nodes + links to render
+                    data={this.state.data}
+                    // settings for the graph
+                    config={myConfig}
+                    // callback for when a node is clicked
+                    onClickNode={onClickNode}
+                    // callback for when a link is clicked
+                    onClickLink={onClickLink}
+                    // callback for when the mouse goes over a node
+                    onMouseOverNode={onMouseOverNode}
+                    // callback for when the mouse is no longer over a node
+                    onMouseOutNode={onMouseOutNode}
+                    // callback for when the mouse goes over a link
+                    onMouseOverLink={onMouseOverLink}
+                    // callback for when the mouse is no longer over a link
+                    onMouseOutLink={onMouseOutLink}
+                    ref="graph"
+                />
+            </div>
+        );
     }
 
 }
