@@ -13,6 +13,12 @@ const nodeColors = {
     "default": "black",
 };
 
+// colors of primary + secondary links
+const linkColors = {
+    "primary": "lightgreen",
+    "secondary": "orange",
+};
+
 /**
  * Get all IDs of a specified node type
  * @param {Array} nodeCategories An array containing all the nodes
@@ -228,6 +234,8 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                         "target": nodeCategories[nodeType].find(node => node["itemID"] === matchID)["id"],
                         // no intermediate node connecting the two
                         "linkNode": null,
+                        // set its color to primary link color
+                        "color": linkColors["primary"],
                     };
                 })
         );
@@ -292,6 +300,8 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                                 "target": matchID,
                                 // via the intermediate primary linked node
                                 "linkNode": name,
+                                // set its color to secondary link color
+                                "color": linkColors["secondary"],
                             });
                         }
                     });
