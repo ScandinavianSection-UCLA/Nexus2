@@ -1,0 +1,13 @@
+label {
+    margin-left: 10px;
+    margin-top: 5px;
+    display: inline;
+}
+
+.lightgreen {
+    color: lightgreen;
+}
+
+.lightblue {
+    color: lightblue;
+}
