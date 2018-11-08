@@ -82,13 +82,12 @@ class GraphView extends Component {
         }
         return (
             // div to contain both the button and graph
-            <div>
+            <div className="grid-x">
                 {/* contains the filters */}
-                <form>
+                <form className="medium-3 cell grid-y" id="analysisTools">
+                    <h3 className="cell" id="heading">Analysis Tools</h3>
                     {/* toggle primary links filter */}
-                    <label>
-                        {/* give the text "Primary" a light blue color to indicate which links it matches to */}
-                        Show <span className="lightblue">Primary</span> Links:
+                    <label className="cell tool">
                         <input
                             // make it a checkbox
                             type="checkbox"
@@ -96,10 +95,10 @@ class GraphView extends Component {
                             checked={this.state.showPrimaryLinks}
                             // when this is changed (i.e. pressed) call the togglePrimaryLinks function
                             onChange={this.togglePrimaryLinks} />
+                        {/* give the text "Primary" a light blue color to indicate which links it matches to */}
+                        Show <span className="lightblue">Primary</span> Links
                     </label>
-                    <label>
-                        {/* give the text "Secondary" a light green color to indicate which links it matches to */}
-                        Show <span className="lightgreen">Secondary</span> Links:
+                    <label className="cell tool">
                         <input
                             // make it a checkbox
                             type="checkbox"
@@ -107,24 +106,30 @@ class GraphView extends Component {
                             checked={this.state.showSecondaryLinks}
                             // when this is changed (i.e. pressed) call the toggleSecondaryLinks function
                             onChange={this.toggleSecondaryLinks} />
+                        {/* give the text "Secondary" a light green color to indicate which links it matches to */}
+                        Show <span className="lightgreen">Secondary</span> Links
                     </label>
                 </form>
                 {/* the actual graph */}
-                <NexusGraph
-                    // nodes + links for the graph to render
-                    data={finalData}
-                    // a totality of all the nodes, sorted by type
-                    nodes={this.state.nodeCategories}
-                    // function to open a node's page if clicked
-                    openNode={this.props.openNode}
-                    // custom settings for the graph
-                    settings={{
-                        // set the height to occupy most of the screen
-                        "height": (window.innerHeight) * 0.8,
-                        // set the width to occupy the whole width of the screen
-                        "width": window.innerWidth,
-                    }}
-                />
+                <div>
+                    <NexusGraph
+                        // give it 3/4 of the screen width
+                        className="medium-9 cell"
+                        // nodes + links for the graph to render
+                        data={finalData}
+                        // a totality of all the nodes, sorted by type
+                        nodes={this.state.nodeCategories}
+                        // function to open a node's page if clicked
+                        openNode={this.props.openNode}
+                        // custom settings for the graph
+                        settings={{
+                            // set the height to occupy most of the screen
+                            "height": (window.innerHeight) * 0.8,
+                            // set the width to be just under 3/4 the screen width (so it doesn't overflow into a new row)
+                            "width": window.innerWidth * 0.74,
+                        }}
+                    />
+                </div>
             </div>
         );
     }

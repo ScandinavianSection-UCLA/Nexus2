@@ -131,4 +131,8 @@
 #expandGraphButton {
     /* don't add excess space around the button */
     margin: 0;
+    /* expand it to occupy the whole width of its space */
+    width: 100%;
+    /* remove excess padding */
+    padding: 5px 0;
 }
