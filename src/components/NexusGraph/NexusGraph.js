@@ -6,6 +6,8 @@ import React, {Component} from "react";
 import {Graph} from "react-d3-graph";
 // prop validation
 import PropTypes from "prop-types";
+// function to get a node on the graoh by its name
+import {getNodeById} from "./NexusGraphModel";
 
 // basic settings for the graph, can be overriden with this.props
 const settings = {
@@ -29,12 +31,50 @@ const settings = {
     },
 };
 
-// i would make this a `function MainGraph(props)`, but React says "Stateless function components cannot have refs." and refuses to run the app
 class NexusGraph extends Component {
     /**
      * Creates the graph and associated button, located at the top right of the home view
      * @returns {JSX} The resulting graph + button
      */
+    constructor() {
+        super();
+        // set an initial state
+        this.state = {
+            // initially, no node clicked
+            "lastNodeClicked": null,
+            // since no node is initially clicked, don't set a real time
+            "lastNodeClickTime": 0,
+        };
+
+        // properly bind handleClickNode so it works on the nodes in the graph
+        this.handleClickNode = this.handleClickNode.bind(this);
+    }
+
+    handleClickNode(nodeName) {
+        // condition to treat it as a double click
+
+        // if last click was within 1 second
+        if (Date.now() - this.state.lastNodeClickTime < 1000 &&
+            // and the same node was clicked both times,
+            nodeName === this.state.lastNodeClicked) {
+            // get the node matching the given name
+            let node = getNodeById(nodeName, this.props.nodes);
+            // assuming we properly retrieved the node
+            if (node !== null) {
+                // open up its tab
+                this.props.openNode(node["itemID"], nodeName, node["type"]);
+            }
+        } else {
+            // too long between clicks or different nodes clicked, treat it as a single click
+            this.setState({
+                // update the latest click time to be now
+                "lastNodeClickTime": Date.now(),
+                // update the latest clicked node to be this node
+                "lastNodeClicked": nodeName,
+            });
+        }
+    }
+
     render() {
         return (
             <Graph
@@ -50,6 +90,8 @@ class NexusGraph extends Component {
                     ...this.props.settings,
                 }}
                 ref="graph"
+                // call the custom callback when a node is clicked
+                onClickNode={this.handleClickNode}
             />
         );
     }
@@ -64,18 +106,14 @@ NexusGraph.propTypes = {
             "color": PropTypes.string,
         })).isRequired,
         "nodes": PropTypes.arrayOf(PropTypes.shape({
-            // id of the node
             "id": PropTypes.string.isRequired,
-            // color of the node on the graph
             "color": PropTypes.string,
-            // item associated with the node
             "item": PropTypes.any,
-            // type of the node
             "type": PropTypes.string,
-            // id referring to item
             "itemID": PropTypes.number,
         })).isRequired,
     }).isRequired,
+    "openNode": PropTypes.func.isRequired,
     "settings": PropTypes.object.isRequired,
 };
 

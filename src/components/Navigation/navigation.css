@@ -126,3 +126,9 @@
 .hintText {
     margin-left: 20px;
 }
+
+/* button that creates the nexus graph tab */
+#expandGraphButton {
+    /* don't add excess space around the button */
+    margin: 0;
+}

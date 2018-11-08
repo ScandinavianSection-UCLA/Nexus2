@@ -10,7 +10,7 @@ import "./navigation.css";
 // the nexus graph
 import NexusGraph from "../NexusGraph/NexusGraph";
 // functions to get nodes + links
-import {addNode, initializeGraph} from "../NexusGraph/NexusGraphModel";
+import {addNode, initializeGraph, initializeNodeCategories} from "../NexusGraph/NexusGraphModel";
 
 class Navigation extends Component {
     constructor() {
@@ -363,10 +363,16 @@ class Navigation extends Component {
                             <div
                                 className="medium-6 cell">
                                 {/* button that creates + opens the graph tab when clicked (Navigation.js:handleDisplayGraph())*/}
-                                <button onClick={this.handleDisplayGraph}>Expand Nexus Graph</button>
+                                <button className="button primary" id="expandGraphButton" onClick={this.handleDisplayGraph}>Expand Nexus Graph</button>
                                 {/* the nexus graph */}
                                 <NexusGraph
+                                    // nodes + links for the graph to render
                                     data={initializeGraph()}
+                                    // function to open a node's page if clicked
+                                    openNode={this.props.addID}
+                                    // a totality of all the nodes, sorted by type
+                                    nodes={initializeNodeCategories()}
+                                    // custom settings for the graph
                                     settings={{
                                         // set the height to center the graph
                                         "height": (window.innerHeight) * 0.8 * .5,

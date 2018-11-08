@@ -199,6 +199,27 @@ function getPrimaryAssociates(itemID, type) {
 }
 
 /**
+ * Retrieve a node by its name
+ * @param {String} name The display name of the node
+ * @param {Object} nodeCategories The nodes to search through (should be all nodes on the graph)
+ * @returns {Node} A node that matches the specified name, or null if no match was found
+ */
+export function getNodeById(name, nodeCategories) {
+    // for each of the categories of nodes (people, places, fieldtrips, stories)
+    for (let nodeType in nodeCategories) {
+        // attempt to find a node whose name matches the passed name
+        let node = nodeCategories[nodeType].find(nodeToTest => nodeToTest["id"] === name);
+        // if we actually found such a node
+        if (typeof node !== "undefined") {
+            // return that node
+            return node;
+        }
+    }
+    // if we couldn't find a match, return null
+    return null;
+}
+
+/**
  * Create linkages for a node
  * @param {Node} node The node to create linkages for
  * @param {Array} nodeCategories An array of nodes to use to find linkages
@@ -274,7 +295,10 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                 // if any secondary associated nodes that are already on the graph
                 diff(secondaryAssociates[nodeType], pastNodes[nodeType])
                     // convert each of the numeric IDs to the node's name
-                    .map(matchID => nodeCategories[nodeType].find(node => node["itemID"] === matchID)["id"])
+                    .map(matchID => {
+                        console.log(matchID);
+                        return nodeCategories[nodeType].find(node => node["itemID"] === matchID)["id"];
+                    })
                     // filter out links that point right back to the current node
                     .filter(matchID => matchID !== id)
                     // and, for each of the remaining secondarily associated nodes' links
