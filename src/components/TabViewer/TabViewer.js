@@ -5,7 +5,7 @@ import PlaceView from "../PlaceView/PlaceView";
 import PeopleView from "../PeopleView/PeopleView";
 import FieldtripView from "../FieldtripView/FieldtripView";
 import BookView from "../BookView/BookView";
-import GraphView from "../GraphView/GraphView";
+import GraphView from "../NexusGraph/GraphView";
 import * as model from "../../data-stores/DisplayArtifactModel";
 import "./TabViewer.css";
 import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";

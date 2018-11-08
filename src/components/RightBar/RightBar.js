@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {addNode} from "../UserNexus/UserNexusModel";
+import {addNode} from "../NexusGraph/NexusGraphModel";
 import Modal from "react-modal";
 import SlidingPane from "react-sliding-pane";
 import "react-sliding-pane/dist/react-sliding-pane.css";

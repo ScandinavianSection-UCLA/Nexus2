@@ -6,9 +6,11 @@ import NavigatorComponent from "./NavigatorComponent";
 import SearchComponent from "./SearchComponent";
 import MapView from "../MapView/MapView";
 import {ontologyToDisplayKey, ontologyToID, dateFilterHelper} from "../../data-stores/DisplayArtifactModel";
-import {addNode} from "../UserNexus/UserNexusModel";
 import "./navigation.css";
-import UserNexus from "../UserNexus/UserNexus";
+// the nexus graph
+import NexusGraph from "../NexusGraph/NexusGraph";
+// functions to get nodes + links
+import {addNode, initializeGraph} from "../NexusGraph/NexusGraphModel";
 
 class Navigation extends Component {
     constructor() {
@@ -47,7 +49,7 @@ class Navigation extends Component {
             "displayLabel": "",
         };
         this.displayItems = this.displayItems.bind(this);
-        // properly bind this to handleDisplayGraph so it can be used correctly in UserNexus
+        // properly bind this to handleDisplayGraph so it can be used correctly
         this.handleDisplayGraph = this.handleDisplayGraph.bind(this);
     }
 
@@ -104,7 +106,7 @@ class Navigation extends Component {
      */
     handleDisplayGraph() {
         // call the addTab function passed by TabView.js:renderPPFS()
-        this.props.addID(0, "NexusGraph", "Graph");
+        this.props.addID(0, "Nexus Graph", "Graph");
     }
 
     displayItems(items, ontology) {
@@ -358,12 +360,20 @@ class Navigation extends Component {
                     </div>
                     <div className="medium-4 cell">
                         <div className="grid-y" style={{"height": "100%"}}>
-                            <UserNexus
-                                // CSS classes
-                                className="medium-6 cell"
-                                ref="UserNexus"
-                                // pass the function that allows the creation of the Graph tab + view
-                                expandGraph={this.handleDisplayGraph} />
+                            <div
+                                className="medium-6 cell">
+                                {/* button that creates + opens the graph tab when clicked (Navigation.js:handleDisplayGraph())*/}
+                                <button onClick={this.handleDisplayGraph}>Expand Nexus Graph</button>
+                                {/* the nexus graph */}
+                                <NexusGraph
+                                    data={initializeGraph()}
+                                    settings={{
+                                        // set the height to center the graph
+                                        "height": (window.innerHeight) * 0.8 * .5,
+                                        // set the width to center the graph
+                                        "width": (window.innerWidth) * 0.8 * .389,
+                                    }} />
+                            </div>
                             <MapView className="medium-6 cell" ref="map" places={this.state.placeList} fieldtrips={this.state.fieldtrips} />
                         </div>
                     </div>

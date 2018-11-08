@@ -2,6 +2,7 @@
 import * as model from "../../data-stores/DisplayArtifactModel";
 // function to ensure an input is an array
 import {arrayTransformation, diff} from "../../utils";
+// functions to get and set sesion storage
 import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
 
 // colors of the nodes on the graph
@@ -15,8 +16,8 @@ const nodeColors = {
 
 // colors of primary + secondary links
 const linkColors = {
-    "primary": "lightgreen",
-    "secondary": "orange",
+    "primary": "lightblue",
+    "secondary": "lightgreen",
 };
 
 /**
@@ -389,6 +390,25 @@ export function addNode(id, name, type, item) {
                 graphData["links"].push(...createLinkage(fieldtrip, nodeCategories));
             });
         }
+
+        // filter out graph links
+        graphData["links"] = graphData["links"]
+            .filter((link, index) =>
+                // if the current link to check doesn't already exist in some sort of way
+                graphData["links"].findIndex(
+                    // the link to test against
+                    testLink => (
+                        // if both share a soucre
+                        (testLink.source === link.source &&
+                            // and a target (dupes)
+                            testLink.target === link.target) ||
+                        // or, if that link ends where this one starts
+                        (testLink.source === link.source &&
+                            // and that starts where this ends (dupes, but in reverse direction)
+                            testLink.target === link.target)
+                        // this should be the first of that sort of link in order to keep it
+                    )) === index
+            );
 
         // update the general graph data in session
         setSessionStorage("graphData", graphData);
