@@ -3,9 +3,11 @@ import React, {Component} from "react";
 // styling for the buttons
 import "./GraphView.css";
 // functions to get nodes + links
-import {initializeGraph} from "./NexusGraphModel";
+import {initializeGraph, initializeNodeCategories} from "./NexusGraphModel";
 // the actual graph
 import NexusGraph from "./NexusGraph";
+// prop validation
+import PropTypes from "prop-types";
 
 class GraphView extends Component {
     constructor() {
@@ -14,6 +16,8 @@ class GraphView extends Component {
         this.state = {
             // this will be overridden by componentWillMount()
             "data": {},
+            // this will be overridden by componentWillMount()
+            "nodeCategories": {},
             // by default show primary links
             "showPrimaryLinks": true,
             // by default show secondary links
@@ -29,6 +33,7 @@ class GraphView extends Component {
         this.setState({
             // data = nodes + links from storage
             "data": initializeGraph(),
+            "nodeCategories": initializeNodeCategories(),
         });
     }
 
@@ -78,27 +83,41 @@ class GraphView extends Component {
         return (
             // div to contain both the button and graph
             <div>
+                {/* contains the filters */}
                 <form>
+                    {/* toggle primary links filter */}
                     <label>
+                        {/* give the text "Primary" a light blue color to indicate which links it matches to */}
                         Show <span className="lightblue">Primary</span> Links:
                         <input
-                            name="primaryLinks"
+                            // make it a checkbox
                             type="checkbox"
+                            // its state should be set by whether or not to show primary links
                             checked={this.state.showPrimaryLinks}
+                            // when this is changed (i.e. pressed) call the togglePrimaryLinks function
                             onChange={this.togglePrimaryLinks} />
                     </label>
                     <label>
+                        {/* give the text "Secondary" a light green color to indicate which links it matches to */}
                         Show <span className="lightgreen">Secondary</span> Links:
                         <input
-                            name="primaryLinks"
+                            // make it a checkbox
                             type="checkbox"
+                            // its state should be set by whether or not to show secondary links
                             checked={this.state.showSecondaryLinks}
+                            // when this is changed (i.e. pressed) call the toggleSecondaryLinks function
                             onChange={this.toggleSecondaryLinks} />
                     </label>
                 </form>
                 {/* the actual graph */}
                 <NexusGraph
+                    // nodes + links for the graph to render
                     data={finalData}
+                    // a totality of all the nodes, sorted by type
+                    nodes={this.state.nodeCategories}
+                    // function to open a node's page if clicked
+                    openNode={this.props.openNode}
+                    // custom settings for the graph
                     settings={{
                         // set the height to occupy most of the screen
                         "height": (window.innerHeight) * 0.8,
@@ -110,5 +129,9 @@ class GraphView extends Component {
         );
     }
 }
+
+GraphView.propTypes = {
+    "openNode": PropTypes.func.isRequired,
+};
 
 export default GraphView;

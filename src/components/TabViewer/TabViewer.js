@@ -131,8 +131,8 @@ class TabViewer extends Component {
                 // for the Home tab, return the main Navigation view (home), with addTab for any selected tabs
                 return <Navigation addID={this.addTab} />;
             case "Graph":
-                // for the graph, return the GraphView
-                return <GraphView />;
+                // for the graph, return the GraphView, with addTab to open pages on double clicked nodes
+                return <GraphView openNode={this.addTab} />;
             default:
                 // if it wasn't one of the above types, warn that we hit an unknown type
                 console.warn(`Unhandled tab type ${type}`);
