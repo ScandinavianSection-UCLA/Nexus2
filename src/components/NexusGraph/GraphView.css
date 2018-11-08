@@ -1,13 +1,29 @@
-label {
-    margin-left: 10px;
-    margin-top: 5px;
-    display: inline;
-}
-
+/* for any text that needs to be light green */
 .lightgreen {
+    /* light green text color */
     color: lightgreen;
 }
 
+/* for any text that needs to be light blue */
 .lightblue {
+    /* light blue text color */
     color: lightblue;
+}
+
+/* styling for the filter portion */
+#analysisTools {
+    /* a really light gray background to slightly differentiate it from the graph */
+    background-color: #fafafa;
+}
+
+/* styling for each individual filter */
+.tool {
+    /* space it a little from the left edge */
+    margin-left: 5px;
+}
+
+/* styling for the Analysis Tools header */
+#heading {
+    /* center the text */
+    text-align: center;
 }
