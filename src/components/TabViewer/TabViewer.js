@@ -25,14 +25,10 @@ class TabViewer extends Component {
             "active": {},
             "searchWord": "",
         };
-        this.addTab = this.addTab.bind(this);
-        this.switchTab = this.switchTab.bind(this);
-        this.closeTab = this.closeTab.bind(this);
         this.renderPDF = this.renderPDF.bind(this);
         this.renderPPFS = this.renderPPFS.bind(this);
         this.handleKeywordSearch = this.handleKeywordSearch.bind(this);
         this.renderActiveTab = this.renderActiveTab.bind(this);
-        // let ReduxProps = {};
     }
 
     /**
@@ -49,38 +45,34 @@ class TabViewer extends Component {
                 return <PeopleView
                     // with the person retrieved by the passed ID
                     person={model.getPeopleByID(id)}
-                    // and give it the addTab function (in case something selected from rightBar)
-                    addID={this.addTab} />;
+                    />;
             case "Places":
                 // for places, return a PlaceView
                 return <PlaceView
                     // with the place retrieved by the passed ID
                     place={model.getPlacesByID(id)}
-                    // and give it the addTab function (in case something selected from rightBar)
-                    addID={this.addTab} />;
+                    />;
             case "Fieldtrips":
                 // for fieldtrip, return a FieldtripView
                 return <FieldtripView
                     // with the fieldtrip retrieved by the passed ID
                     fieldtrip={model.getFieldtripsByID(id)}
-                    // and give it the addTab function (in case something selected from rightBar)
-                    addID={this.addTab} />;
+                   />;
             case "Stories":
                 // for stories, return a StoryView
                 return <StoryView
                     // with the story retrieved by the passed ID
                     story={model.getStoryByID(id)}
-                    // and give it the addTab function (in case something selected from rightBar)
-                    addID={this.addTab}
                     handleKeywordSearch={this.handleKeywordSearch} />;
             case "Home": case "home":
                 // for the Home tab, return the main Navigation view (home), with addTab for any selected tabs
                 return <Navigation
-                    addID={this.addTab}
                     searchWord={this.state.searchWord} />;
             case "Graph":
                 // for the graph, return the GraphView, with addTab to open pages on double clicked nodes
                 return <GraphView openNode={this.addTab} />;
+            case "Book":
+                return <BookView id={id}/>;
             default:
                 // if it wasn't one of the above types, warn that we hit an unknown type
                 console.warn(`Unhandled tab type ${type}`);
@@ -128,135 +120,6 @@ class TabViewer extends Component {
             }
         });
         return viewToRender;
-    }
-
-    /**
-     * Adds a tab
-     * @param {*} inputID ID of the relevant person/place/story/fieldtrip to add (irrelevant for NexusGraph, Home)
-     * @param {*} name Name to display at the bottom on the tab
-     * @param {*} type Type of the tab (person/place/story/fieldtrip/graph/home)
-     */
-    addTab(inputID, name, type) {
-        // see if we can get the preexisting view matching the tab to create
-        const matchingView = this.state.views.find((view) => (view["id"] === inputID && view["type"] === type));
-
-        // if we're trying to re-add an already existing view
-        if (typeof matchingView !== "undefined") {
-            // just set that view to the active
-            this.setState({
-                "active": matchingView,
-            });
-        } else {
-            // we actually need to make a new tab and view
-
-            // object representing the new view
-            const newView = {
-                // content should be rendered based on the renderPPFS() function
-                "jsx": this.renderPPFS(inputID, type, name),
-                // id is the passed ID
-                "id": inputID,
-                // set it to the active view
-                "active": true,
-                // name is the passed name
-                "name": name,
-                // type is the passed type
-                "type": type,
-            };
-
-            // update the current state, given the previous state
-            this.setState((prevState) => {
-                // for each of the preexisting views
-                let updatedViews = prevState.views.map((view) => {
-                    return {
-                        // leave the view mostly untouched...
-                        ...view,
-                        // ...but set it to be inactive
-                        "active": false,
-                    };
-                });
-
-                // add in the new, active view
-                updatedViews.push(newView);
-
-                // if our window is smaller than 1100px (95% sure about the units)
-                if (window.innerWidth <= 1100) {
-                    console.log("Window is small!");
-                    // if we have more than 5 tabs already (including home)
-                    if (updatedViews.length > 5) {
-                        // remove the first non-Home tab
-                        updatedViews.splice(1, 1);
-                    }
-                } else if (updatedViews.length > 6) {
-                    // if we have more than 6 tabs already (including home)
-                    // remove the first non-Home tab
-                    updatedViews.splice(1, 1);
-                }
-
-                // update the state of the component
-                return {
-                    // set the views to be the updated views
-                    "views": updatedViews,
-                    // set the active view to be the newly created view
-                    "active": newView,
-                };
-            }, function() {
-                // update session storage with our new, updated state
-                setSessionStorage("TabViewerSessionState", this.state);
-            });
-        }
-    }
-
-    switchTab(view) {
-        this.setState((prevState) => {
-            var newViews = prevState.views;
-            newViews.forEach((currentView) => {
-                if (currentView.name !== view.name) {
-                    currentView.active = false;
-                } else {
-                    currentView.active = true;
-                    if (currentView.type === "story") {
-                        currentView.jsx = this.renderStory(currentView.id);
-                        view = currentView;
-                    }
-                }
-            });
-            // check if view has been deleted from list of views
-            if (newViews.includes(view)) {
-                return {"views": newViews, "active": view};
-            } else {
-                return {"views": newViews};
-            }
-        }, () => {
-            setSessionStorage("TabViewerSessionState", this.state);
-        });
-    }
-
-    closeTab(view) {
-        // find "view" in this.state.views and .active, and delete it. if .active then default to home tab
-        this.setState((prevState) => {
-            var newState = prevState;
-            var removeViewIndex = -1;
-            this.state.views.forEach((currentView, i) => {
-                if (currentView["name"] === view["name"]) {
-                    removeViewIndex = i;
-                }
-            });
-            newState.views.splice(removeViewIndex, 1);
-            // is current view being closed?
-            if (newState.active["name"] === view["name"]) {
-                return {
-                    "views": newState.views,
-                    "active": newState.views[newState.views.length - 1],
-                };
-            } else {
-                // if current view isn"t being closed, don"t change what"s active view
-                return {
-                    "views": newState.views,
-                };
-            }
-        }, () => {
-            setSessionStorage("TabViewerSessionState", this.state);
-        });
     }
 
     /**

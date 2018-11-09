@@ -45,21 +45,21 @@ class Heading extends Component {
     componentWillMount() {
         this.setState(() => {
             var MenuList = [
-                {"name": "Preface", "url": "", "submenu": [], "chap": ""},
-                {"name": "Acknowledgements", "url": "", "submenu": [], "chap": ""},
-                {"name": "1. Introduction", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "chap": "1"},
-                {"name": "2. The Rise of Folklore Scholarship", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "chap": "2"},
-                {"name": "3. Evald Tang Kristensen's Life and Work", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "chap": "3"},
-                {"name": "4. Folklore Genres", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "chap": "4"},
-                {"name": "5. Mapping Folklore", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "chap": "5"},
-                {"name": "6. Repertoire and the Individual", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "chap": "6"},
-                {"name": "7. 'Bitte Jens' Kristensen: Cobbled Together", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "chap": "7"},
-                {"name": "8. Kristen Marie Pedersdatter: Between Farms and Smallholding", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "chap": "8"},
-                {"name": "9. Jens Peter Peterson: Day Laborer and Turner", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "chap": "9"},
-                {"name": "10. Ane Margrete Jensdatter: Old Age and Rural Poverty", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "chap": "10"},
-                {"name": "11. Peder Johansen: Miller, Fiddler, Bachelor Storyteller", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "chap": "11"},
-                {"name": "Additional Information", "url": "", "submenu": []},
-                {"name": "About", "url": "", "submenu": ""},
+                {"name": "Preface", "url": "", "submenu": [], "id": "1"},
+                {"name": "Acknowledgements", "url": "", "submenu": [], "id": "2"},
+                {"name": "1. Introduction", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "3"},
+                {"name": "2. The Rise of Folklore Scholarship", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "4"},
+                {"name": "3. Evald Tang Kristensen's Life and Work", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "5"},
+                {"name": "4. Folklore Genres", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "6"},
+                {"name": "5. Mapping Folklore", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "7"},
+                {"name": "6. Repertoire and the Individual", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "8"},
+                {"name": "7. 'Bitte Jens' Kristensen: Cobbled Together", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "9"},
+                {"name": "8. Kristen Marie Pedersdatter: Between Farms and Smallholding", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "10"},
+                {"name": "9. Jens Peter Peterson: Day Laborer and Turner", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "11"},
+                {"name": "10. Ane Margrete Jensdatter: Old Age and Rural Poverty", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "12"},
+                {"name": "11. Peder Johansen: Miller, Fiddler, Bachelor Storyteller", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "13"},
+                {"name": "Additional Information", "url": "", "submenu": [], "id":"14"},
+                {"name": "About", "url": "", "submenu": "", "id":"15"},
             ];
             return {"menuList": MenuList};
         });
@@ -114,7 +114,7 @@ class Heading extends Component {
                         </div>
                         <ul className="list">
                             {this.state.menuList.map((menuItem, i) => {
-                                return <li key={i} className="menu-item" onClick={(e) => {e.preventDefault(); this.handleMenuClick(menuItem)}}>{menuItem.name}</li>
+                                return <li key={i} className="menu-item" onClick={(e) => {e.preventDefault(); this.props.tabViewerActions.addTab(menuItem.id,menuItem.name,'Book')}}>{menuItem.name}</li>
                             })}
                         </ul>
                     </div>
