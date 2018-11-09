@@ -21,12 +21,14 @@ class TabViewer extends Component {
             "views": [],
             "storyPath": "",
             "active": {},
+            "searchWord": "",
         };
         this.addTab = this.addTab.bind(this);
         this.switchTab = this.switchTab.bind(this);
         this.closeTab = this.closeTab.bind(this);
         this.renderPDF = this.renderPDF.bind(this);
         this.renderPPFS = this.renderPPFS.bind(this);
+        this.handleKeywordSearch = this.handleKeywordSearch.bind(this);
     }
 
     componentWillMount() {
@@ -44,7 +46,8 @@ class TabViewer extends Component {
         // load previously opened tabs from session
         if (cachedTabViewer) {
             const cachedViews = cachedTabViewer["views"];
-            const cachedInView = cachedTabViewer["active"]; // object
+            // object
+            const cachedInView = cachedTabViewer["active"];
 
             this.setState(() => {
                 // reconstruct jsx from id and type
@@ -127,10 +130,13 @@ class TabViewer extends Component {
                     // with the story retrieved by the passed ID
                     story={model.getStoryByID(id)}
                     // and give it the addTab function (in case something selected from rightBar)
-                    addID={this.addTab} />;
+                    addID={this.addTab}
+                    handleKeywordSearch={this.handleKeywordSearch} />;
             case "Home": case "home":
                 // for the Home tab, return the main Navigation view (home), with addTab for any selected tabs
-                return <Navigation addID={this.addTab} />;
+                return <Navigation
+                    addID={this.addTab}
+                    searchWord={this.state.searchWord} />;
             case "Graph":
                 // for the graph, return the GraphView, with addTab to open pages on double clicked nodes
                 return <GraphView openNode={this.addTab} />;
@@ -282,7 +288,8 @@ class TabViewer extends Component {
                 }
             });
             newState.views.splice(removeViewIndex, 1);
-            if (newState.active["name"] === view["name"]) { // is current view being closed?
+            // is current view being closed?
+            if (newState.active["name"] === view["name"]) {
                 return {
                     "views": newState.views,
                     "active": newState.views[newState.views.length - 1],
@@ -296,6 +303,51 @@ class TabViewer extends Component {
         }, () => {
             setSessionStorage("TabViewerSessionState", this.state);
         });
+    }
+
+    /**
+     * Handler for when a keyword is clicked, show the related stories
+     * @param {String} keyword The keyword that was clicked
+     */
+    handleKeywordSearch(keyword) {
+        this.setState({
+            // update the word that was clicked
+            "searchWord": keyword,
+        }, function() {
+            this.setState(({views}) => {
+                // variable to store the home view
+                let homeView;
+                // for each of the current views
+                views.forEach((currentView) => {
+                    // if the view is not the home view
+                    if (currentView.name !== "Home") {
+                        currentView["active"] = false;
+                    } else {
+                        // for the home view
+                        currentView = {
+                            ...currentView,
+                            // set it to be active
+                            "active": true,
+                            // and re-render it with updated JSX (for the keyword)
+                            "jsx": this.renderPPFS(0, "Home"),
+                        };
+                        // set our home variable to be this view
+                        homeView = currentView;
+                    }
+                });
+                // update the state
+                return {
+                    // views = our modified, updated views
+                    "views": views,
+                    // active = the home view
+                    "active": homeView,
+                };
+            }, () => {
+                // update session storage with the new state
+                setSessionStorage("TabViewerSessionState", this.state);
+            });
+        });
+
     }
 
     render() {

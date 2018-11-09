@@ -1,95 +1,105 @@
-import React, {Component} from 'react';
+import React, {Component} from "react";
 import {getKeywords} from "../../data-stores/DisplayArtifactModel";
-import {arrayTransformation} from "../../utils"
-import Fuse from 'fuse.js';
-import './search.css';
+import {arrayTransformation} from "../../utils";
+import Fuse from "fuse.js";
+import "./search.css";
 import PropTypes from "prop-types";
 
 class SearchComponent extends Component {
-    constructor () {
+    constructor() {
         super();
         this.state = {
-            keywords: [],
-            results: [],
-            refinedResults: [],
-            searching: false,
-            suggestionJSX: '',
-            keywordSearch: false,
-            refinedResultsState: false,
-            inputValue: '',
+            "keywords": [],
+            "results": [],
+            "refinedResults": [],
+            "searching": false,
+            "suggestionJSX": "",
+            "keywordSearch": false,
+            "refinedResultsState": false,
+            "inputValue": "",
         };
     }
 
     componentWillMount() {
         this.setState({
-            keywords: getKeywords(this.props.displayList),
-            results: getKeywords(this.props.displayList)
+            "keywords": getKeywords(this.props.displayList),
+            "results": getKeywords(this.props.displayList),
+            "inputValue": this.props.searchWord,
+        }, function() {
+            if (this.props.searchWord !== "") {
+                this.handleSearch(this.props.searchWord);
+            }
         });
 
     }
 
     handleSearch(selectedItem) {
         let SearchList, NewState;
-        NewState = {searching: false, }
+        NewState = {"searching": false};
         // check if selectItem is just a keyword string
-        if (typeof selectedItem === 'string') {
+        if (typeof selectedItem === "string") {
             // if it is, we need to get the keyword object from keywords
             this.state.keywords.forEach((keyword) => {
-                if (keyword['keyword_name'] === selectedItem) {
+                if (keyword["keyword_name"] === selectedItem) {
                     selectedItem = keyword;
                     SearchList = [selectedItem];
                 }
             });
-            //if it is still a string that means no keyword matches, and we need to tell Navigation
-            if (typeof selectedItem === 'string') {
-                let QueriedList = this.state.refinedResultsState ? 'refinedResults' : 'results';
-                //send list of suggestions to Navigation
-                console.log(this.state[QueriedList], 'Queried list!!!');
+            // if it is still a string that means no keyword matches, and we need to tell Navigation
+            if (typeof selectedItem === "string") {
+                let QueriedList = this.state.refinedResultsState ? "refinedResults" : "results";
+                // send list of suggestions to Navigation
+                console.log(this.state[QueriedList], "Queried list!!!");
                 SearchList = this.state[QueriedList];
-                NewState['inputValue'] = selectedItem;
-                selectedItem = this.state[QueriedList][0]; //set first suggested item
+                NewState["inputValue"] = selectedItem;
+                // set first suggested item
+                selectedItem = this.state[QueriedList][0];
             }
         } else {
             SearchList = [selectedItem];
         }
 
         // check if selectedItem is a story or keyword, place, or person
-        let DisplayOntology = '';
-        let SearchValueKey = '';
+        let DisplayOntology = "";
+        let SearchValueKey = "";
 
         if (typeof selectedItem !== "undefined") {
-            if ('story_id' in selectedItem) {
-                DisplayOntology = 'Stories';
-                SearchValueKey = 'full_name';
-            } else if ('keyword_id' in selectedItem) {
+            if ("story_id" in selectedItem) {
+                DisplayOntology = "Stories";
+                SearchValueKey = "full_name";
+            } else if ("keyword_id" in selectedItem) {
                 let storiesList = [];
                 // let placesList = [];
-                if (typeof selectedItem['stories']['story'] !== 'undefined') {
-                    storiesList = arrayTransformation(selectedItem['stories']['story']);
+                if (typeof selectedItem["stories"]["story"] !== "undefined") {
+                    storiesList = arrayTransformation(selectedItem["stories"]["story"]);
                 }
 
-                this.props.handleDisplayItems(storiesList, 'Stories');
-                this.setState({searching: false, searchTerm: selectedItem['keyword_name']});
+                this.props.handleDisplayItems(storiesList, "Stories");
+                this.setState({"searching": false, "searchTerm": selectedItem["keyword_name"]});
                 return;
-            } else if ('person_id' in selectedItem) {
-                DisplayOntology = 'People';
-                SearchValueKey = 'full_name';
-            } else if ('place_id' in selectedItem) {
-                DisplayOntology = 'Places';
-                SearchValueKey = 'name';
-            } else if ('fieldtrip_name' in selectedItem) {
-                DisplayOntology = 'Fieldtrips';
-                SearchValueKey = 'fieldtrip_name';
+            } else if ("person_id" in selectedItem) {
+                DisplayOntology = "People";
+                SearchValueKey = "full_name";
+            } else if ("place_id" in selectedItem) {
+                DisplayOntology = "Places";
+                SearchValueKey = "name";
+            } else if ("fieldtrip_name" in selectedItem) {
+                DisplayOntology = "Fieldtrips";
+                SearchValueKey = "fieldtrip_name";
             }
 
-            if (NewState['searching']) {
-                NewState = {searching: false, inputValue: selectedItem[SearchValueKey]};
+            if (NewState["searching"] === true) {
+                NewState = {
+                    "searching": false,
+                    "inputValue": selectedItem[SearchValueKey],
+                };
             }
             this.props.searchOn(false);
-            this.props.handleDisplayItems(SearchList, DisplayOntology); //only display the results from the search
+            // only display the results from the search
+            this.props.handleDisplayItems(SearchList, DisplayOntology);
             this.setState(NewState);
         } else {
-            console.log("selectedItem is undefined");
+            console.warn("selectedItem is undefined");
         }
     }
 
@@ -97,8 +107,8 @@ class SearchComponent extends Component {
         this.props.searchOn(true);
         this.renderSuggestions();
         this.setState({
-            searching: true,
-            inputValue: event.target.value,
+            "searching": true,
+            "inputValue": event.target.value,
         }, () => {
             var data;
             if (this.props.displayList.length > 0) {
@@ -108,42 +118,43 @@ class SearchComponent extends Component {
             }
 
             const fuse = new Fuse(data, {
-                shouldSort: true,
-                threshold: .2,
-                location: 0,
-                distance: 10000,
-                maxPatternLength: 64,
-                minMatchCharLength: 1,
-                keys: [
+                "shouldSort": true,
+                "threshold": .2,
+                "location": 0,
+                "distance": 10000,
+                "maxPatternLength": 64,
+                "minMatchCharLength": 1,
+                "keys": [
                     "search_string",
                     "keyword_name",
                     "name",
                     "full_name",
-                ]
+                ],
             });
 
             var input = this.state.inputValue;
 
-            //if there's nothing in the input, render all possible results
-            if (input === '') {
+            // if there's nothing in the input, render all possible results
+            if (input === "") {
                 this.setState({
-                    results: data.slice(0, 100),
-                    inputValue: input,
+                    "results": data.slice(0, 100),
+                    "inputValue": input,
                 });
-            } else { //if there is something in input, call fuzzy search
-                const results = fuse.search(input); //results from fuzzy search from Keywords.json
-                let ResultList = '';
+            } else { // if there is something in input, call fuzzy search
+                // results from fuzzy search from Keywords.json
+                const results = fuse.search(input);
+                let ResultList = "";
                 let RefinedResultState = true;
                 if (this.props.displayList.length > 0) {
-                    ResultList = 'refinedResults';
+                    ResultList = "refinedResults";
                     RefinedResultState = true;
                 } else {
-                    ResultList = 'results';
+                    ResultList = "results";
                     RefinedResultState = false;
                 }
                 let NewState = {
-                    inputValue: input,
-                    refinedResultState: RefinedResultState,
+                    "inputValue": input,
+                    "refinedResultState": RefinedResultState,
                 };
                 NewState[ResultList] = results;
                 this.setState(NewState);
@@ -152,28 +163,31 @@ class SearchComponent extends Component {
     }
 
     renderKeywords() {
-        if (typeof this.state.keywords !== 'undefined') {
+        if (typeof this.state.keywords !== "undefined") {
             return this.state.keywords;
         }
     }
 
     renderListofSuggestions() {
-        var QueriedList = this.state.refinedResultsState ? 'refinedResults' : 'results';
+        var QueriedList = this.state.refinedResultsState ? "refinedResults" : "results";
         return this.state[QueriedList].map((keyword, i) => {
-            var displayKey = '';
-            if ('keyword_name' in keyword) {
-                displayKey = 'keyword_name';
-            } else if ('search_string' in keyword) {
-                displayKey = 'search_string';
-            } else if ('full_name' in keyword) {
-                displayKey = 'full_name';
-            } else if ('name' in keyword) {
-                displayKey = 'name';
-            } else if ('fieldtrip_name' in keyword) {
-                displayKey = 'fieldtrip_name'
+            var displayKey = "";
+            if ("keyword_name" in keyword) {
+                displayKey = "keyword_name";
+            } else if ("search_string" in keyword) {
+                displayKey = "search_string";
+            } else if ("full_name" in keyword) {
+                displayKey = "full_name";
+            } else if ("name" in keyword) {
+                displayKey = "name";
+            } else if ("fieldtrip_name" in keyword) {
+                displayKey = "fieldtrip_name";
             }
-            return <li key={i} style={{cursor: 'pointer'}}
-                onClick={(e) => {e.preventDefault(); this.handleSearch.bind(this)(keyword)}}>{keyword[displayKey]}</li>
+            return <li key={i} style={{"cursor": "pointer"}}
+                onClick={(e) => {
+                    e.preventDefault();
+                    this.handleSearch.bind(this)(keyword);
+                }}>{keyword[displayKey]}</li>;
         });
     }
 
@@ -183,21 +197,21 @@ class SearchComponent extends Component {
         if (this.props.displayList.length > 0) {
             RefinedResultsState = true;
         }
-        //setState to save anything from this.props.displayList to this.state.refinedResults
+        // setState to save anything from this.props.displayList to this.state.refinedResults
         this.setState({
-            refinedResults: this.props.displayList,
-            refinedResultsState: RefinedResultsState,
-            searching: true,
+            "refinedResults": this.props.displayList,
+            "refinedResultsState": RefinedResultsState,
+            "searching": true,
         }, () => {
             return this.renderListofSuggestions();
         });
     }
 
     switchKeywordSearch(e) {
-        this.props.handleDisplayItems([], 'Stories');
+        this.props.handleDisplayItems([], "Stories");
         this.setState({
-            keywordSearch: e.target.checked,
-            inputValue: ''
+            "keywordSearch": e.target.checked,
+            "inputValue": "",
         });
     }
 
@@ -206,7 +220,10 @@ class SearchComponent extends Component {
             <div className="SearchComponent">
                 <div className="grid-x">
                     <form className="cell"
-                        onSubmit={(e) => {e.preventDefault(); this.handleSearch.bind(this)(this.refs.searchString.defaultValue)}}
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                            this.handleSearch.bind(this)(this.refs.searchString.defaultValue);
+                        }}
                     >
                         <input type="text" ref="searchString" placeholder="Search Term"
                             value={this.state.inputValue}
@@ -216,10 +233,12 @@ class SearchComponent extends Component {
                         <input type="checkbox" name="keyword"
                             id="keyword-search-switch"
                             ref="keywordSwitch"
-                            onChange={(e) => {this.switchKeywordSearch.bind(this)(e);}}>
+                            onChange={(e) => {
+                                this.switchKeywordSearch.bind(this)(e);
+                            }}>
                         </input>
                         <ul
-                            className={`suggestions ${this.state.searching ? 'active' : ''}`}
+                            className={`suggestions ${this.state.searching ? "active" : ""}`}
                         >
                             {this.renderListofSuggestions.bind(this)()}
                         </ul>
@@ -237,11 +256,11 @@ class SearchComponent extends Component {
 // check if displayList is properly formatted and assigned
 SearchComponent.propTypes = {
     "displayList": PropTypes.array.isRequired,
-}
+};
 
 // assign default if not already defined
 SearchComponent.defaultProps = {
     "displayList": [],
-}
+};
 
 export default SearchComponent;

@@ -24,6 +24,7 @@ class Navigation extends Component {
                 "ETK Index": false,
                 "Genres": false,
             },
+            "keywordClicked": false,
         };
         this.handleLevelTwoClick = this.handleLevelTwoClick.bind(this);
     }
@@ -38,6 +39,7 @@ class Navigation extends Component {
                 ],
                 "dataNav": ["People", "Places", "Stories"],
                 "TINav": ["ETK Index", "Tangherlini Index", "Fieldtrips", "Genres"],
+                "keywordClicked": this.props.searchWord,
             };
         });
 
@@ -64,10 +66,9 @@ class Navigation extends Component {
                 } else {
                     return {"path": ["Topic & Index Navigator"]};
                 }
-            },
-                () => {
-                    this.handleLevelTwoClick(prevSelection);
-                });
+            }, () => {
+                this.handleLevelTwoClick(prevSelection);
+            });
         } else {
             this.setState((oldState) => {
                 if (oldState.dataNav.includes(prevSelection) >= 0) {
@@ -75,10 +76,9 @@ class Navigation extends Component {
                 } else {
                     return {"path": ["Topic & Index Navigator"]};
                 }
-            },
-                () => {
-                    this.handleLevelTwoClick("Stories");
-                });
+            }, () => {
+                this.handleLevelTwoClick("Stories");
+            });
         }
 
     }
@@ -98,8 +98,7 @@ class Navigation extends Component {
                 oldState["path"] = ["Data Navigator"];
                 return oldState;
             }, () => {
-                this.props.setDisplayLabel(this.state.path.join())
-                    ;
+                this.props.setDisplayLabel(this.state.path.join());
             });
         } else {
             this.setState((oldState) => {
@@ -122,142 +121,155 @@ class Navigation extends Component {
         // save selected ontology to session storage so the selection will remain if the user switches tabs
         sessionStorage.setItem("SelectedNavOntology", ontology);
 
-        this.props.handleDisplayItems([], ""); // reset results display
-        var itemsList = getList(ontology);
-        var listObject = {};
-        var isPPSF = (ontology === "People" || ontology === "Places" || ontology === "Stories" || ontology === "Fieldtrips");
-        if (isPPSF) { // if it is part of Data navigator or it's a fieldtrip
-            this.props.handleDisplayItems(itemsList, ontology); // send to navigation to display results
+        // if this wasn't loaded after a keyword was clicked
+        if (!this.state.keywordClicked) {
+            // reset results display
+            this.props.handleDisplayItems([], "");
+            var itemsList = getList(ontology);
+            var listObject = {};
+            var isPPSF = (ontology === "People" || ontology === "Places" || ontology === "Stories" || ontology === "Fieldtrips");
+            // if it is part of Data navigator or it's a fieldtrip
+            if (isPPSF) {
+                // send to navigation to display results
+                this.props.handleDisplayItems(itemsList, ontology);
 
-            // highlight clicked ontology and set dropdownLists to nothing
-            this.setState((oldState) => {
-                oldState.activeList = {
-                    "People": false,
-                    "Places": false,
-                    "Stories": false,
-                    "Fieldtrip": false,
-                    "Tangherlini Index": false,
-                    "ETK Index": false,
-                    "Genres": false,
-                };
-                oldState.activeList[ontology] = true;
-                if (oldState.path.length >= 2) {
-                    oldState.path = oldState.path.slice(0, 1);
-                }
-                oldState.path.push(ontology);
-                return {
-                    "activeList": oldState.activeList,
-                    "path": oldState.path,
-                    "dropdownLists": [],
-                };
-            }, () => {
-                // set display label (above search results)
-                this.props.setDisplayLabel(this.state["path"].join(" > "));
-            });
-        } else {
-            // create additional options for people to be in the dropdown menu so people can select everything in the menu
-            var selectString = "";
-            if (ontology !== "ETK Index") {
-                selectString = "[Select " + ontology.slice(0, -1) + "]";
+                // highlight clicked ontology and set dropdownLists to nothing
+                this.setState((oldState) => {
+                    oldState.activeList = {
+                        "People": false,
+                        "Places": false,
+                        "Stories": false,
+                        "Fieldtrip": false,
+                        "Tangherlini Index": false,
+                        "ETK Index": false,
+                        "Genres": false,
+                    };
+                    oldState.activeList[ontology] = true;
+                    if (oldState.path.length >= 2) {
+                        oldState.path = oldState.path.slice(0, 1);
+                    }
+                    oldState.path.push(ontology);
+                    return {
+                        "activeList": oldState.activeList,
+                        "path": oldState.path,
+                        "dropdownLists": [],
+                    };
+                }, () => {
+                    console.log(this.state["path"], this.state["path"].join(" > "));
+                    // set display label (above search results)
+                    this.props.setDisplayLabel(this.state["path"].join(" > "));
+                });
             } else {
-                selectString = "[Select " + ontology + "]";
-            }
-            var displayKey = ontologyToDisplayKey[ontology];
-            var selectObject = {};
-            selectObject[displayKey] = selectString;
-            var inList = false;
-            itemsList.forEach((item) => {
-                if (item[displayKey] === selectObject[displayKey]) {
-                    inList = true;
+                // create additional options for people to be in the dropdown menu so people can select everything in the menu
+                var selectString = "";
+                if (ontology !== "ETK Index") {
+                    selectString = "[Select " + ontology.slice(0, -1) + "]";
+                } else {
+                    selectString = "[Select " + ontology + "]";
                 }
-            });
+                var displayKey = ontologyToDisplayKey[ontology];
+                var selectObject = {};
+                selectObject[displayKey] = selectString;
+                var inList = false;
+                itemsList.forEach((item) => {
+                    if (item[displayKey] === selectObject[displayKey]) {
+                        inList = true;
+                    }
+                });
 
-            if (!inList) {
-                itemsList.unshift(selectObject);
-            }
-            // highlight clicked ontology
-            this.setState((oldState) => {
-                oldState.activeList = {
-                    "People": false,
-                    "Places": false,
-                    "Stories": false,
-                    "Fieldtrip": false,
-                    "Tangherlini Index": false,
-                    "ETK Index": false,
-                    "Genres": false,
-                };
-                oldState.activeList[ontology] = true;
-                if (oldState.path.length >= 2) {
-                    oldState.path = oldState.path.slice(0, 1);
+                if (!inList) {
+                    itemsList.unshift(selectObject);
                 }
-                oldState.path.push(ontology);
-                return {
-                    "activeList": oldState.activeList,
-                    "path": oldState.path,
+                // highlight clicked ontology
+                this.setState((oldState) => {
+                    oldState.activeList = {
+                        "People": false,
+                        "Places": false,
+                        "Stories": false,
+                        "Fieldtrip": false,
+                        "Tangherlini Index": false,
+                        "ETK Index": false,
+                        "Genres": false,
+                    };
+                    oldState.activeList[ontology] = true;
+                    if (oldState.path.length >= 2) {
+                        oldState.path = oldState.path.slice(0, 1);
+                    }
+                    oldState.path.push(ontology);
+                    return {
+                        "activeList": oldState.activeList,
+                        "path": oldState.path,
+                    };
+                }, () => {
+                    // set display label (above search results)
+                    this.props.setDisplayLabel(this.state["path"].join(" > "));
+                });
+            }
+            if (ontology !== "Tangherlini Index" && !isPPSF) {
+                // if it is an indice that isn't a tango index
+                listObject = {
+                    "selectValue": selectString,
+                    "displayKey": displayKey,
+                    "ontology": ontology,
+                    "tango": false,
+                    "list": itemsList,
                 };
-            }, () => {
-                // set display label (above search results)
-                this.props.setDisplayLabel(this.state["path"].join(" > "));
+                // this.setState({dropdownLists:[listObject]});
+                // highlight clicked ontology
+                this.setState((oldState) => {
+                    oldState.activeList = {
+                        "People": false,
+                        "Places": false,
+                        "Stories": false,
+                        "Fieldtrip": false,
+                        "Tangherlini Index": false,
+                        "ETK Index": false,
+                        "Genres": false,
+                    };
+                    oldState.activeList[ontology] = true;
+                    return {
+                        "activeList": oldState.activeList,
+                        "dropdownLists": [listObject],
+                    };
+                });
+            } else if (!isPPSF) {
+                // ontology === tangherlini indices
+                var tangoTypesList = Object.keys(tangoTypes);
+                tangoTypesList.unshift("[Select a Class]");
+                listObject = {
+                    "selectValue": selectString,
+                    "displayKey": displayKey,
+                    "ontology": ontology,
+                    "tango": true,
+                    "list": tangoTypesList,
+                };
+
+                // highlight clicked ontology
+                this.setState((oldState) => {
+                    oldState.activeList = {
+                        "People": false,
+                        "Places": false,
+                        "Stories": false,
+                        "Fieldtrip": false,
+                        "Tangherlini Index": false,
+                        "ETK Index": false,
+                        "Genres": false,
+                    };
+                    oldState.activeList[ontology] = true;
+                    return {
+                        "activeList": oldState.activeList,
+                        "dropdownLists": [listObject],
+                    };
+                });
+            }
+        } else {
+            // if a keyword was clicked, just set the default little bookmark thing
+            this.props.setDisplayLabel("Data Navigator > Stories");
+            this.setState({
+                // update it so that we can actually select other things
+                "keywordClicked": false,
             });
         }
-        if (ontology !== "Tangherlini Index" && !isPPSF) {
-            // if it is an indice that isn't a tango index
-            listObject = {
-                "selectValue": selectString,
-                "displayKey": displayKey,
-                "ontology": ontology,
-                "tango": false,
-                "list": itemsList,
-            };
-            // this.setState({dropdownLists:[listObject]});
-            // highlight clicked ontology
-            this.setState((oldState) => {
-                oldState.activeList = {
-                    "People": false,
-                    "Places": false,
-                    "Stories": false,
-                    "Fieldtrip": false,
-                    "Tangherlini Index": false,
-                    "ETK Index": false,
-                    "Genres": false,
-                };
-                oldState.activeList[ontology] = true;
-                return {
-                    "activeList": oldState.activeList,
-                    "dropdownLists": [listObject],
-                };
-            });
-        } else if (!isPPSF) {
-            // ontology === tangherlini indices
-            var tangoTypesList = Object.keys(tangoTypes);
-            tangoTypesList.unshift("[Select a Class]");
-            listObject = {
-                "selectValue": selectString,
-                "displayKey": displayKey,
-                "ontology": ontology,
-                "tango": true,
-                "list": tangoTypesList,
-            };
-
-            // highlight clicked ontology
-            this.setState((oldState) => {
-                oldState.activeList = {
-                    "People": false,
-                    "Places": false,
-                    "Stories": false,
-                    "Fieldtrip": false,
-                    "Tangherlini Index": false,
-                    "ETK Index": false,
-                    "Genres": false,
-                };
-                oldState.activeList[ontology] = true;
-                return {
-                    "activeList": oldState.activeList,
-                    "dropdownLists": [listObject],
-                };
-            });
-        }
-
     }
 
     selectMenu(selectedItem, isTango) {
@@ -296,7 +308,7 @@ class Navigation extends Component {
                 // reset the dropdown state to the unselected tango index state, since that's what was clicked
                 console.log(selectedItem);
                 this.setState(function(prevState) {
-                    console.log(prevState.dropdownLists)
+                    console.log(prevState.dropdownLists);
                     return {
                         // set the dropdown to be
                         "dropdownLists": [{
@@ -331,7 +343,7 @@ class Navigation extends Component {
                 if (oldState.path.length >= 3 &&
                     (oldState.path.indexOf("Tangherlini Index") === -1 || newDropdownList[0]["list"].indexOf("[Select a Class]") >= 0)) {
                     oldState.path = oldState.path.slice(0, 2);
-                } else if (oldState.path.length >= 4 && newDropdownList.indexOf("[Select Class]") === -1) { //
+                } else if (oldState.path.length >= 4 && newDropdownList.indexOf("[Select Class]") === -1) {
                     oldState.path = oldState.path.slice(0, 3);
                 }
                 oldState.path.push(selectedItem);
@@ -371,8 +383,8 @@ class Navigation extends Component {
                             {this.state.navigators.map((nav, i) => {
                                 return <div className={nav["tabClass"] + " cell medium-6"} key={i}
                                     onClick={(e) => {
-                                        e.preventDefault; this.handleTabClick(nav)
-                                            ;
+                                        e.preventDefault();
+                                        this.handleTabClick(nav);
                                     }}>
                                     {nav["name"]}
                                 </div>;
@@ -385,8 +397,8 @@ class Navigation extends Component {
                                 {this.state[ontologyType].map((ontology, i) => {
                                     return <li className={"ontology " + ontology + `${this.state.activeList[ontology] ? " active" : ""}`} key={i}
                                         onClick={(e) => {
-                                            e.preventDefault(); this.handleLevelTwoClick(ontology)
-                                                ;
+                                            e.preventDefault();
+                                            this.handleLevelTwoClick(ontology);
                                         }}>
                                         {ontology}
                                     </li>;
