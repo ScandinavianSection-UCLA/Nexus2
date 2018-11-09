@@ -3,32 +3,33 @@ import Modal from "react-modal";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import RightBar from "../RightBar/RightBar";
 import {getPeopleByID, getPlacesByID} from "../../data-stores/DisplayArtifactModel";
-import {arrayTransformation, setPlaceIDList} from "../../utils"
-import "./StoryView.css"
+import {arrayTransformation, setPlaceIDList} from "../../utils";
+import "./StoryView.css";
 import MapView from "../MapView/MapView";
 import PropTypes from "prop-types";
 
 class StoryView extends Component {
-    constructor () {
+    constructor() {
         super();
         this.state = {
-            StoryObject: {},
-            StoryPath: "",
-            isTabOpen: [true, false, false, false],
-            storyVersionOpen: [true, false, false, false, false],
-            twoVersions: false,
-            lastStoryVersionOpen: 0,
-            indexToVersion: {
-                0: "english_manuscript",
-                1: "english_publication",
-                2: "danish_manuscript",
-                3: "danish_publication",
+            "StoryObject": {},
+            "StoryPath": "",
+            "isTabOpen": [true, false, false, false],
+            "storyVersionOpen": [true, false, false, false, false],
+            "twoVersions": false,
+            "lastStoryVersionOpen": 0,
+            "indexToVersion": {
+                "0": "english_manuscript",
+                "1": "english_publication",
+                "2": "danish_manuscript",
+                "3": "danish_publication",
             },
-            isPaneOpen: false,
+            "isPaneOpen": false,
         };
         this.renderStories = this.renderStories.bind(this);
         this.renderPlaces = this.renderPlaces.bind(this);
         this.clickHandler = this.clickHandler.bind(this);
+        this.searchKeyword = this.searchKeyword.bind(this);
     }
 
     componentDidMount() {
@@ -48,19 +49,22 @@ class StoryView extends Component {
                 {storyArray.map((story, i) => {
                     const {story_id, full_name} = story;
                     return <li key={i} className="associated-items" onClick={
-                        (e) => {e.preventDefault(); this.clickHandler(story_id, full_name, "Stories")}
-                    }>{full_name}</li>
+                        (e) => {
+                            e.preventDefault();
+                            this.clickHandler(story_id, full_name, "Stories");
+                        }
+                    }>{full_name}</li>;
                 })}
-            </ul>
+            </ul>;
         } else {
             return <div className="callout alert">
                 <h6>No related stories.</h6>
-            </div>
+            </div>;
         }
     }
 
     renderPlaces() {
-        const {place} = this.props.story.places
+        const {place} = this.props.story.places;
         var placeArray = arrayTransformation(place);
         return <div>
             <h4>Associated Places</h4>
@@ -68,19 +72,22 @@ class StoryView extends Component {
                 {placeArray.map((place, i) => {
                     const {display_name, name, place_id} = place;
                     return <li key={i} className="associated-items" onClick={
-                        (e) => {e.preventDefault(); this.clickHandler(place_id, name, "Places")}
-                    }>{display_name}</li>
+                        (e) => {
+                            e.preventDefault();
+                            this.clickHandler(place_id, name, "Places");
+                        }
+                    }>{display_name}</li>;
                 })}
             </ul>
-        </div>
+        </div>;
     }
 
     accordionHandler(tab) {
         this.setState((prevState) => {
             prevState.isTabOpen = [false, false, false, false];
             prevState.isTabOpen[tab] = true;
-            return {isTabOpen: prevState.isTabOpen}
-        })
+            return {"isTabOpen": prevState.isTabOpen};
+        });
     }
 
     placeRecorded() {
@@ -106,7 +113,7 @@ class StoryView extends Component {
         if (bibliography_references === null) {
             return <div className="callout alert">
                 <h6>No references for this story.</h6>
-            </div>
+            </div>;
         } else {
             return <table>
                 <tbody>
@@ -114,21 +121,21 @@ class StoryView extends Component {
                         arrayTransformation(bibliography_references["reference"]).map((reference, i) => {
                             return <tr key={i}>
                                 <td>{reference["display_string"]}</td>
-                            </tr>
+                            </tr>;
                         })
                     }
                 </tbody>
-            </table>
+            </table>;
         }
     }
 
     storyViewerClickHandler(version) {
-        //TODO: new line breaks /n + html tags (transform character into escape characters)
+        // tODO: new line breaks /n + html tags (transform character into escape characters)
         this.setState((prevState) => {
             var {lastStoryVersionOpen, storyVersionOpen, twoVersions} = prevState;
-            //check if more than 2 versions open
+            // check if more than 2 versions open
             var versionCount = storyVersionOpen.reduce((total, current) => current ? total + 1 : total);
-            //check if clicked version is already open, if so then close it
+            // check if clicked version is already open, if so then close it
             if (storyVersionOpen[version] === true) {
                 if (versionCount >= 2) {
                     storyVersionOpen[version] = false;
@@ -146,14 +153,16 @@ class StoryView extends Component {
                     // close the last open version
                     storyVersionOpen[prevState.lastStoryVersionOpen] = false;
                 }
-                storyVersionOpen[version] = true; //o pen clicked version
-                lastStoryVersionOpen = version; // clicked version is now the last version that was opened
+                // open clicked version
+                storyVersionOpen[version] = true;
+                // clicked version is now the last version that was opened
+                lastStoryVersionOpen = version;
             }
             return {
                 "storyVersionOpen": storyVersionOpen,
                 "lastStoryVersionOpen": lastStoryVersionOpen,
                 "twoVersions": twoVersions,
-            }
+            };
         });
     }
 
@@ -171,8 +180,12 @@ class StoryView extends Component {
         } else {
             return <div className="callout alert">
                 <h6>{name} does not exist.</h6>
-            </div>
+            </div>;
         }
+    }
+
+    searchKeyword(keyword) {
+        this.props.handleKeywordSearch(keyword);
     }
 
     render() {
@@ -201,13 +214,17 @@ class StoryView extends Component {
         const storiesByPerson = getPeopleByID(informant_id)["stories"];
         // console.log(getPeopleByID(this.props.story["informant_id"]));
         const personData = getPeopleByID(informant_id);
+        const searchKeyword = this.searchKeyword;
         return (
             <div className="StoryView grid-x">
                 <div className="medium-3 cell">
                     <MapView height={"30vh"} places={PlacesArray} />
                     <ul className="accordion" data-accordian>
                         <li className={`accordion-item ${isTabOpen[0] ? "is-active" : ""}`}
-                            onClick={(e) => {e.preventDefault(); this.accordionHandler.bind(this)(0)}}>
+                            onClick={(e) => {
+                                e.preventDefault();
+                                this.accordionHandler.bind(this)(0);
+                            }}>
                             <a href="" className="accordion-title">Story Data</a>
                             <div className="body">
                                 <b>Order Told</b> {this.renderProperty.bind(this)(order_told)}<br />
@@ -217,29 +234,40 @@ class StoryView extends Component {
                                 <b>Field diary pages</b> {this.renderProperty.bind(this)(fielddiary_page_start)} to {fielddiary_page_end}<br />
                                 <b>Associated Keywords</b><br />{
                                     arrayTransformation(keywords["keyword"]).map((keyword, i) => {
-                                        return <div className="keyword-well" key={i}>{keyword["keyword"]}</div>
+                                        return <button
+                                            className="button keyword-well"
+                                            key={i}
+                                            onClick={function() {
+                                                searchKeyword(keyword["keyword"]);
+                                            }}>{keyword["keyword"]}</button>;
                                     })
                                 }<br />
                                 <b>Places mentioned in story</b> {this.placesMentioned.bind(this)().map((place, i) => {
-                                    return <span key={i} className="keyword-well"> {place["name"]} </span>
+                                    return <span key={i} className="keyword-well">{place["name"]}</span>;
                                 })}
                                 <br />
                             </div>
                         </li>
                         <li className={`accordion-item ${isTabOpen[1] ? "is-active" : ""}`}
-                            onClick={(e) => {e.preventDefault(); this.accordionHandler.bind(this)(1)}}>
+                            onClick={(e) => {
+                                e.preventDefault();
+                                this.accordionHandler.bind(this)(1);
+                            }}>
                             <a href="" className="accordion-title">Story Indices</a>
                             <div className="body">
                                 <b>Genre</b> {genre["name"]}<br />
                                 <b>ETK Index</b> {etk_index["heading_english"]}<br />
                                 <b>Tangherlini Indices</b><br />
                                 {arrayTransformation(tango_indices["tango_index"]).map((index, i) => {
-                                    return <div className="keyword-well" key={i}>{index["display_name"]}</div>
+                                    return <div className="keyword-well" key={i}>{index["display_name"]}</div>;
                                 })}
                             </div>
                         </li>
                         <li className={`accordion-item ${isTabOpen[2] ? "is-active" : ""}`}
-                            onClick={(e) => {e.preventDefault(); this.accordionHandler.bind(this)(2)}}>
+                            onClick={(e) => {
+                                e.preventDefault();
+                                this.accordionHandler.bind(this)(2);
+                            }}>
                             <a href="" className="accordion-title">Bibliographical References</a>
                             <div className="body">
                                 {this.bibliographicReferences.bind(this)()}
@@ -250,24 +278,36 @@ class StoryView extends Component {
                 <div className="medium-9 cell">
                     <h2 className="title">
                         <img src="https://png.icons8.com/ios/42/000000/chat-filled.png"
-                            style={{marginTop: "-1%", marginRight: "1%"}} alt="story icon" />
+                            style={{"marginTop": "-1%", "marginRight": "1%"}} alt="story icon" />
                         {full_name}
                     </h2>
-                    <h4 style={{marginLeft: "1.5%"}}>{informant_full_name}</h4>
+                    <h4 style={{"marginLeft": "1.5%"}}>{informant_full_name}</h4>
                     <div className="grid-x">
                         <div className="medium-11 cell">
                             <div className="grid-padding-x">
                                 <div className="story-viewer cell">
                                     <ul className=" button-group story-viewer-options">
                                         <li className={`button ${storyVersionOpen[0] ? "" : "secondary"}`}
-                                            onClick={(e) => {e.preventDefault(); this.storyViewerClickHandler.bind(this)(0)}}>English ms Translation</li>
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                this.storyViewerClickHandler.bind(this)(0);
+                                            }}>English ms Translation</li>
                                         <li className={`button ${storyVersionOpen[1] ? "" : "secondary"}`}
-                                            onClick={(e) => {e.preventDefault(); this.storyViewerClickHandler.bind(this)(1)}}>English Published Version</li>
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                this.storyViewerClickHandler.bind(this)(1);
+                                            }}>English Published Version</li>
                                         <li className={`button ${storyVersionOpen[2] ? "" : "secondary"}`}
-                                            onClick={(e) => {e.preventDefault(); this.storyViewerClickHandler.bind(this)(2)}}>Danish ms Transcription</li>
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                this.storyViewerClickHandler.bind(this)(2);
+                                            }}>Danish ms Transcription</li>
                                         <li className={`button ${storyVersionOpen[3] ? "" : "secondary"}`}
-                                            onClick={(e) => {e.preventDefault(); this.storyViewerClickHandler.bind(this)(3)}}>Danish Published Version</li>
-                                        {/*<li className="secondary button">Manuscript</li>*/}
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                this.storyViewerClickHandler.bind(this)(3);
+                                            }}>Danish Published Version</li>
+                                        {/* <li className="secondary button">Manuscript</li>*/}
                                     </ul>
                                     <div className="grid-x">
                                         {storyVersionOpen.map((version, i) => {
@@ -278,7 +318,7 @@ class StoryView extends Component {
                                                             {this.renderComponentView.bind(this)(story[indexToVersion[i]], "Version")}
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div>;
                                             }
                                         })}
                                     </div>
@@ -334,7 +374,7 @@ StoryView.propTypes = {
     "full_name": PropTypes.string,
     "genre": PropTypes.shape({
         "id": PropTypes.number,
-        "name": PropTypes.string
+        "name": PropTypes.string,
     }),
     "informant_first_name": PropTypes.string,
     "informant_full_name": PropTypes.string,
@@ -351,7 +391,7 @@ StoryView.propTypes = {
     "tango_indices": PropTypes.shape({
         "tango_index": PropTypes.array,
     }),
-}
+};
 
 StoryView.defaultProps = {
     "annotation": "",
@@ -378,6 +418,6 @@ StoryView.defaultProps = {
     "tango_indices": {
         "tango_index": [],
     },
-}
+};
 
 export default StoryView;

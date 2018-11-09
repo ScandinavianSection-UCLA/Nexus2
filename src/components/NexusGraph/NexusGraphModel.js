@@ -295,10 +295,7 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                 // if any secondary associated nodes that are already on the graph
                 diff(secondaryAssociates[nodeType], pastNodes[nodeType])
                     // convert each of the numeric IDs to the node's name
-                    .map(matchID => {
-                        console.log(matchID);
-                        return nodeCategories[nodeType].find(node => node["itemID"] === matchID)["id"];
-                    })
+                    .map(matchID => nodeCategories[nodeType].find(node => node["itemID"] === matchID)["id"])
                     // filter out links that point right back to the current node
                     .filter(matchID => matchID !== id)
                     // and, for each of the remaining secondarily associated nodes' links
