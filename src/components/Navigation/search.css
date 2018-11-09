@@ -1,11 +1,28 @@
 .SearchComponent{
-    padding-top:5vh;
+    /*padding-top:5vh;*/
+    padding:5% 0 3% 2%;
     /*height:30vh;*/
     background: #8ab8d5;
     margin-bottom:20%;
     margin-top:10%;
+    height:23%;
+    overflow:visible;
 }
 
+.suggestion-wrapper{
+    display:none;
+}
+.suggestion-wrapper.active{
+    display:block;
+}
+.SearchComponent input, .SearchComponent label{
+    color:white;
+    display:inline-block;
+}
+.SearchComponent label{
+    margin-right:10px;
+    margin-left:10%;
+}
 .SearchComponent input[type=text]{
     border: 0;
     outline: none;
@@ -18,6 +35,7 @@
     height:1.6em;
     width:80%;
     margin-left:10%;
+    margin-top:8%;
 }
 .SearchComponent input[type=text]:focus {
     outline: none;
@@ -36,11 +54,12 @@
     overflow-y:scroll;
     background-color:white;
     font-size:1.3em;
-    width:21.8%;
+    width:102%;
     margin-left:0%;
     list-style: none;
-    position:absolute;
-    top:23%;
+    position:relative;
+    left:-2%;
+    top:-17%;
 }
 .suggestions li{
     padding:1% 0 1% 3%;

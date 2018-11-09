@@ -1,4 +1,4 @@
-{
+var places_geo={
 "type": "FeatureCollection",
 "name": "cpalces_geojson",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
