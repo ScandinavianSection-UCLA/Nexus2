@@ -6,6 +6,9 @@ import "react-sliding-pane/dist/react-sliding-pane.css";
 import "./RightBar.css";
 import PropTypes from "prop-types";
 import {arrayTransformation} from "../../utils.js";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+import connect from "react-redux/es/connect/connect";
 
 class RightBar extends Component {
     constructor() {
@@ -28,9 +31,9 @@ class RightBar extends Component {
     }
 
     clickHandler(id, name, type, item) {
-        // console.log("THIS.PROPS", this.props);
         addNode(id, name, type, item);
-        this.props.passID(id, name, type);
+        // this.props.passID(id, name, type);
+        this.props.tabViewerActions.addTab(id,name,type);
     }
 
     PPSClickHandler(section) {
@@ -448,4 +451,24 @@ RightBar.defaultProps = {
     "view": "",
 };
 
-export default RightBar;
+RightBar.propTypes = {
+    "tabActions": PropTypes.object,
+};
+
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(RightBar);
+

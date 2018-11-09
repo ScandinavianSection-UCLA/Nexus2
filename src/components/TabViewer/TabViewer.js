@@ -14,6 +14,8 @@ import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
 import * as tabViewerActions from "../../actions/tabViewerActions";
 
+
+
 class TabViewer extends Component {
     constructor() {
         super();
@@ -29,10 +31,14 @@ class TabViewer extends Component {
         this.renderPDF = this.renderPDF.bind(this);
         this.renderPPFS = this.renderPPFS.bind(this);
         this.handleKeywordSearch = this.handleKeywordSearch.bind(this);
+        this.renderActiveTab = this.renderActiveTab.bind(this);
+        // let ReduxProps = {};
     }
 
     componentWillMount() {
-        // console.log(tabViewerActions.fetchStuff());
+        // this.props.tabViewerActions.initializeTabs();
+        // this.ReduxProps = this.props.state.tabViewer;
+        // console.log(this.props, this.ReduxProps);
         var navigationObject = {
             "jsx": <Navigation addID={this.addTab} />,
             "active": true,
@@ -176,8 +182,21 @@ class TabViewer extends Component {
         }
     }
 
+    renderActiveTab() {
+        var CurrentState = this.props.state;
+        console.log(CurrentState,'active tab!');
+        var viewToRender;
+        CurrentState['views'].forEach((view)=>{
+            if(view['active']){
+                console.log(this.renderPPFS(view['id'], view['type']));
+                viewToRender= this.renderPPFS(view['id'], view['type']);
+            }
+        });
+        return viewToRender;
+    }
+
     /**
-     * Adds a tab to the bottom bar
+     * Adds a tab
      * @param {*} inputID ID of the relevant person/place/story/fieldtrip to add (irrelevant for NexusGraph, Home)
      * @param {*} name Name to display at the bottom on the tab
      * @param {*} type Type of the tab (person/place/story/fieldtrip/graph/home)
@@ -357,19 +376,19 @@ class TabViewer extends Component {
                     {/* Wrapper/container for the View, not including the tabs*/}
                     <div className="view cell fill"> {/* Class "fill" fills out the rest of the application space with the view*/}
                         {/* Function below generates/sorts out which view should be displayed*/}
-                        {this.state.active["jsx"]}
+                        {this.renderActiveTab()}
                     </div>
                     {/* List of tabs that are displayed at the bottom of the browser/app*/}
                     <ul className="tabs cell medium-1"> {/* medium-1 sets the height of the tabs*/}
-                        {this.state.views.map((view, i) => {
+                        {this.props.state.views.map((view, i) => {
                             return (
                                 <li
                                     onClick={(event) => {
                                         event.preventDefault();
-                                        this.switchTab(view);
+                                        this.props.tabViewerActions.switchTabs(i);
                                     }}
                                     key={i}
-                                    className={`${view.name === this.state.active.name ? "active" : ""}`}>
+                                    className={`${view.active ? "active" : ""}`}>
                                     {view.name}
                                     <img
                                         src="https://png.icons8.com/material/50/000000/delete-sign.png"
@@ -377,7 +396,7 @@ class TabViewer extends Component {
                                         className={`closeTabIcon ${view.name === "Home" ? "noClose" : ""}`}
                                         onClick={(event) => {
                                             event.preventDefault();
-                                            this.closeTab(view);
+                                            this.props.tabViewerActions.closeTab(i);
                                         }} />
                                 </li>
                             );
@@ -395,7 +414,7 @@ TabViewer.propTypes = {
 
 function mapStateToProps(state) {
     return {
-        "views": state.views,
+        "state": state.tabViewer,
     };
 }
 

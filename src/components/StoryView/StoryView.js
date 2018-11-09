@@ -7,6 +7,9 @@ import {arrayTransformation, setPlaceIDList} from "../../utils";
 import "./StoryView.css";
 import MapView from "../MapView/MapView";
 import PropTypes from "prop-types";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+import connect from "react-redux/es/connect/connect";
 
 class StoryView extends Component {
     constructor() {
@@ -37,7 +40,8 @@ class StoryView extends Component {
     }
 
     clickHandler(id, name, type) {
-        this.props.addID(id, name, type);
+        // this.props.addID(id, name, type);
+        this.props.tabViewerActions.addTab(id,name,type);
     }
 
     renderStories() {
@@ -420,4 +424,23 @@ StoryView.defaultProps = {
     },
 };
 
-export default StoryView;
+StoryView.propTypes = {
+    "tabActions": PropTypes.object,
+};
+
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(StoryView);

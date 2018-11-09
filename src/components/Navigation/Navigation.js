@@ -11,6 +11,10 @@ import "./navigation.css";
 import NexusGraph from "../NexusGraph/NexusGraph";
 // functions to get nodes + links
 import {addNode, initializeGraph, initializeNodeCategories} from "../NexusGraph/NexusGraphModel";
+import PropTypes from "prop-types";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+import connect from "react-redux/es/connect/connect";
 
 class Navigation extends Component {
     constructor() {
@@ -76,7 +80,7 @@ class Navigation extends Component {
         this.refs.map.updateMarkers();
         // add node to network graph
         addNode(id, name, type, item);
-        this.props.addID(id, name, type);
+        this.props.tabViewerActions.addTab(id,name,type);
     }
 
     /**
@@ -84,7 +88,8 @@ class Navigation extends Component {
      */
     handleDisplayGraph() {
         // call the addTab function passed by TabView.js:renderPPFS()
-        this.props.addID(0, "Nexus Graph", "Graph");
+        // this.props.addID(0, "Nexus Graph", "Graph");
+        this.props.tabViewerActions.addTab(0, "Nexus Graph", "Graph");
     }
 
     displayItems(items, ontology) {
@@ -376,4 +381,23 @@ class Navigation extends Component {
     }
 }
 
-export default Navigation;
+Navigation.propTypes = {
+    "tabActions": PropTypes.object,
+};
+
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Navigation);

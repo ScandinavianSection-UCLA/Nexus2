@@ -1,13 +1,28 @@
 import * as types from './actionTypes';
 
-function url(){
-    return 'www.google.com'
+/**
+ * triggers reducer for adding a tab
+ * @param {integer} DisplayArtifactID
+ * @param {string} name
+ * @param {string} type
+ * */
+export function addTab(DisplayArtifactID, name, type){
+    let TabPayload = { DisplayArtifactID, name, type};
+    return {type:types.ADD_TAB, payload: TabPayload}
 }
 
-export function receiveStuff(json){
-    return {type:types.RECEIVE_STUFF, stuff: json.stuff}
+/**
+ * triggers reducer for closing a tab
+ * @param {integer} TabKey to delete
+ * */
+export function closeTab(TabKey){
+    return {type:types.CLOSE_TAB, payload: TabKey}
 }
 
-export function fetchStuff(){
-    return {types:types.FETCH_STUFF, stuff: 'fetching stuff'}
+/**
+ * triggers reducer for switch a tab
+ * @param {integer} TabKey to switch to
+ * */
+export function switchTabs(TabKey){
+    return {type:types.SWITCH_TABS, payload:TabKey}
 }
