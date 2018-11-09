@@ -363,7 +363,15 @@ class Navigation extends Component {
                             <div
                                 className="medium-6 cell">
                                 {/* button that creates + opens the graph tab when clicked (Navigation.js:handleDisplayGraph())*/}
-                                <button className="button primary" id="expandGraphButton" onClick={this.handleDisplayGraph}>Expand Nexus Graph</button>
+                                <button
+                                    // CSS classes
+                                    className="button primary"
+                                    // CSS id
+                                    id="expandGraphButton"
+                                    // when clicked, open the graph in its own tab
+                                    onClick={this.handleDisplayGraph}>
+                                    Open Graph in New Tab
+                                </button>
                                 {/* the nexus graph */}
                                 <NexusGraph
                                     // nodes + links for the graph to render
