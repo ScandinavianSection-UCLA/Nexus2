@@ -32,7 +32,8 @@
     padding:3px;
     border-radius:2px;
     margin:2px;
-    display:inline-block
+    display: inline-block;
+    color: black;
 }
 .story-viewer{
     border:2px solid #e3e3e3;
@@ -81,4 +82,3 @@
     font-weight:bold;
     text-align:center;
 }
-

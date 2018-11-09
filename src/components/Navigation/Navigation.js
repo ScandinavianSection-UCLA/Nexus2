@@ -54,28 +54,6 @@ class Navigation extends Component {
     }
 
     displayList(list, displayKey, idKey, ontology) {
-        this.setState(() => {
-            return {
-                "displayItemsList": list.map((itemInList, i) => {
-
-                    return <li key={i} className={ontology}
-                        onClick={(e) => {
-                            e.preventDefault();
-                            this.handleIDQuery(itemInList[idKey], itemInList[displayKey], ontology, itemInList);
-                        }}>
-                        <span>
-                            <img className={"convo-icon " + ontology} src={require("./icons8-chat-filled-32.png")} alt="story" />
-                            <img className={"person-icon " + ontology} src={require("./icons8-contacts-32.png")} alt="person" />
-                            <img className={"location-icon " + ontology} src={require("./icons8-marker-32.png")} alt="location" />
-                            <img className={"fieldtrip-icon " + ontology} src={require("./icons8-waypoint-map-32.png")} alt="location" />
-                        </span> {itemInList[displayKey]}
-                    </li>;
-                }),
-                "lastIDKey": idKey,
-                "lastDisplayKey": displayKey,
-            };
-        });
-
         return list.map((item, i) => {
             return <li key={i} className={ontology}
                 onClick={(e) => {
@@ -112,7 +90,6 @@ class Navigation extends Component {
     displayItems(items, ontology) {
         var displayKey = ontologyToDisplayKey[ontology];
         var idKey = ontologyToID[ontology];
-
         // var PlaceIDList = setPlaceIDList(items,ontology);
 
         this.setState(() => {
@@ -289,10 +266,12 @@ class Navigation extends Component {
                         <SearchComponent handleDisplayItems={this.displayItems.bind(this)}
                             displayList={this.state.itemsList}
                             searchOn={this.flipSearch.bind(this)}
-                        />
-                        <NavigatorComponent handleDisplayItems={this.displayItems.bind(this)}
+                            searchWord={this.props.searchWord} />
+                        <NavigatorComponent
+                            handleDisplayItems={this.displayItems.bind(this)}
                             setDisplayLabel={this.setDisplayLabel.bind(this)}
-                        />
+                            searchOn={this.flipSearch.bind(this)}
+                            searchWord={this.props.searchWord} />
                     </div>
                     <div className="medium-5 cell AssociatedStoriesViewer">
                         <div className="grid-y" style={{"height": "100%"}}>
