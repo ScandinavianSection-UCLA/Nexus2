@@ -30,6 +30,7 @@ class TabViewer extends Component {
     }
 
     componentWillMount() {
+        // console.log(tabViewerActions.fetchStuff());
         var navigationObject = {
             "jsx": <Navigation addID={this.addTab} />,
             "active": true,

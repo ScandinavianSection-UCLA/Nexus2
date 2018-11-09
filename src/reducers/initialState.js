@@ -1,3 +1,4 @@
 export default {
-    tabState:{}
+    tabState:{},
+    stuffArray:[],
 };
