@@ -1,5 +1,9 @@
 import React, {Component} from "react";
 import "./Heading.css";
+import PropTypes from "prop-types";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+import connect from "react-redux/es/connect/connect";
 
 class Heading extends Component {
 
@@ -82,14 +86,17 @@ class Heading extends Component {
     }
 
     render() {
-        console.log(this.props);
+        // console.log(this.props);
         return (
             <div className="Heading grid-x grid-padding-x">
                 <div className="large-4 cell">
                     <div className="grid-x grid-margin-x">
-                        <a href="/hello" className="flag medium-3 medium-offset-1 cell">
+                        <a className="flag medium-3 medium-offset-1 cell">
                             <img src={require('./assets/DENM0001.png')}
-                                alt="Danish Flag" />
+                                alt="Danish Flag" onClick={(e)=>{
+                                    e.preventDefault();
+                                    this.props.tabViewerActions.switchTabs(0);
+                            }} />
                         </a>
                         <h5 className="danish-folklore medium-2 cell">Danish Folklore</h5>
                         <h6 className="etk medium-6 cell">The Evald Tang <br /> Kristensen Collection</h6>
@@ -117,4 +124,23 @@ class Heading extends Component {
     }
 }
 
-export default Heading;
+Heading.propTypes = {
+    "tabActions": PropTypes.object,
+};
+
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Heading);
