@@ -68,6 +68,7 @@ class Navigation extends Component {
                     <img className={"convo-icon " + ontology} src={require("./icons8-chat-filled-32.png")} alt="story" />
                     <img className={"person-icon " + ontology} src={require("./icons8-contacts-32.png")} alt="person" />
                     <img className={"location-icon " + ontology} src={require("./icons8-marker-32.png")} alt="location" />
+                    <img className={"fieldtrip-icon " + ontology} src={require("./icons8-waypoint-map-32.png")} alt="fieldtrip"/>
                 </span> {item[displayKey]}
             </li>;
         });
@@ -222,11 +223,9 @@ class Navigation extends Component {
     }
 
     flipSearch(CurrentState) {
-        if(this.props.searchWord.length >0){
-            this.setState({'searchOn': true})
-        } else {
-            this.setState({"searchOn": CurrentState});
-        }
+        console.log('current search state',CurrentState);
+
+        this.setState({"searchOn": CurrentState});
     }
 
     setDisplayLabel(label) {
@@ -275,6 +274,7 @@ class Navigation extends Component {
                         <SearchComponent handleDisplayItems={this.displayItems.bind(this)}
                             displayList={this.state.itemsList}
                             searchOn={this.flipSearch.bind(this)}
+                            searchState={this.state.searchOn}
                             searchWord={this.props.searchWord} />
                         <NavigatorComponent
                             handleDisplayItems={this.displayItems.bind(this)}

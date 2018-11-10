@@ -33,6 +33,14 @@ class SearchComponent extends Component {
 
     }
 
+    renderSearchInputValue(){
+        if(this.props.searchState){
+            return this.state.inputValue;
+        } else{
+            return '';
+        }
+    }
+
     handleSearch(selectedItem) {
         let SearchList, NewState;
         NewState = {"searching": false};
@@ -227,6 +235,7 @@ class SearchComponent extends Component {
                     >
                         <input type="text" ref="searchString" placeholder="Search Term"
                             value={this.state.inputValue}
+                            // value = {this.renderSearchInputValue.bind(this)()}
                             onChange={this.handleFuzzySearch.bind(this)}
                         />
                         <label htmlFor="keyword-search-switch">Keyword Search Only</label>
