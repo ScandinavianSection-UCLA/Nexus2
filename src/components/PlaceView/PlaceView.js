@@ -1,54 +1,58 @@
-/**
- * Created by danielhuang on 2/7/18.
- */
-import React, { Component } from 'react';
-import RightBar from '../RightBar/RightBar'
-import './PlaceView.css'
+import React, {Component} from "react";
+import RightBar from "../RightBar/RightBar";
+import "./PlaceView.css";
 import MapView from "../MapView/MapView";
+import PropTypes from "prop-types";
 
 class PlaceView extends Component {
-
-    constructor(){
+    constructor() {
         super();
         this.clickHandler = this.clickHandler.bind(this);
     }
 
-    clickHandler(id,name,type){
-        this.props.addID(id,name,type);
+    clickHandler(id, name, type) {
+        this.props.addID(id, name, type);
     }
 
     render() {
-        console.log(this.props.place);
+        const {place} = this.props
+        var {name, people, storiesCollected, storiesMentioned} = place;
+        console.log(place);
 
-        var storyCollected = [];
-        var storyMentioned = [];
-        var peopleList =[];
-        if('people' in this.props.place){
-            peopleList = this.props.place.people;
+        // ensure that the person is properly defined
+        if (typeof people !== "undefined" && "person" in people[0]) {
+            people = [people[0]["person"]];
+        } else {
+            // otherwise set it to be empty
+            people = [];
         }
-        if('storiesCollected' in this.props.place){
-            storyCollected = this.props.place['storiesCollected']
+        // if storiesCollected is undefined, set it to an empty array
+        if (typeof storiesCollected === "undefined") {
+            storiesCollected = [];
         }
-        if('storiesMentioned' in this.props.place){
-            storyMentioned = this.props.place['storiesMentioned']
+        // if storiesMentioned is undefined, set it to an empty array
+        if (typeof storiesMentioned === "undefined") {
+            storiesMentioned = [];
         }
+
+        console.log(people);
 
         return (
             <div className="PlaceView grid-y">
                 <div className="tab-header cell medium-1">
-                    <img style={{marginTop:'-1.7%', marginRight:'1%'}} src="https://png.icons8.com/windows/48/000000/marker.png" alt="location icon"/>
-                    <h2 style={{fontWeight:'bold',display:'inline-block'}}>{this.props.place.name}</h2>
+                    <img style={{marginTop: "-1.7%", marginRight: "1%"}} src="https://png.icons8.com/windows/48/000000/marker.png" alt="location icon" />
+                    <h2 style={{fontWeight: "bold", display: "inline-block"}}>{name}</h2>
                 </div>
                 <div className="medium-11">
                     <div className="grid-x place-content-wrapper">
                         <div className="medium-11 cell">
                             {/*<div className="cell">*/}
-                                {/*<h3 className="medium-3 cell">Visited During</h3>*/}
+                            {/*<h3 className="medium-3 cell">Visited During</h3>*/}
                             {/*</div>*/}
-                            <MapView places={[this.props.place]}/>
+                            <MapView places={[place]} />
                         </div>
-                        <RightBar view={'Places'} stories={storyCollected} storiesMentioned={storyMentioned} people={peopleList}
-                                  passID={this.clickHandler}/>
+                        <RightBar view={"Places"} stories={storiesCollected} storiesMentioned={storiesMentioned} people={people}
+                            passID={this.clickHandler} />
                     </div>
                 </div>
 
@@ -56,5 +60,30 @@ class PlaceView extends Component {
         );
     }
 }
+
+PlaceView.propTypes = {
+    "place": PropTypes.shape({
+        "fieldtrips": PropTypes.shape({
+            "fieldtrip_id": PropTypes.array,
+        }),
+        "latitude": PropTypes.number,
+        "longitude": PropTypes.number,
+        "name": PropTypes.string.isRequired,
+        "people": PropTypes.array.isRequired,
+        "place_id": PropTypes.number,
+        "storiesCollected": PropTypes.array.isRequired,
+        "storiesMentioned": PropTypes.array.isRequired,
+    }).isRequired,
+};
+
+// define any necessary missing values
+PlaceView.defaultProps = {
+    "place": {
+        "name": "",
+        "people": [],
+        "storiesCollected": [],
+        "storiesMentioned": [],
+    },
+};
 
 export default PlaceView;

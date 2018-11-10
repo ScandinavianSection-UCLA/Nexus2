@@ -1,20 +1,22 @@
-/**
- * Created by danielhuang on 1/28/18.
- */
-import React, { Component } from 'react';
-import './Heading.css'
+import React, {Component} from "react";
+import "./Heading.css";
+import PropTypes from "prop-types";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+import connect from "react-redux/es/connect/connect";
 
 class Heading extends Component {
 
-    constructor(){
+    constructor () {
         super();
         this.state = {
-            storyPath:'',
-            menuActive:false,
-            menuList:[]
+            "storyPath": "",
+            "menuActive": false,
+            "menuList": [],
         };
         this.menuToggle = this.menuToggle.bind(this);
         this.handleMenuClick = this.handleMenuClick.bind(this);
+        this.handleHomeClick = this.handleHomeClick.bind(this);
     }
 
     // componentWillMount(){
@@ -40,68 +42,79 @@ class Heading extends Component {
     //     });
     // }
 
-    componentWillMount(){
-        this.setState(()=>{
+    componentWillMount() {
+        this.setState(() => {
             var MenuList = [
-                {name:'Preface',url:'',submenu:[], chap:''},
-                {name:'Acknowledgements',url:'',submenu:[], chap:''},
-                {name:'1. Introduction',url:'/Book/merge_from_ofoct.epub',submenu:[], chap:'1'},
-                {name:'2. The Rise of Folklore Scholarship',url:'/Book/merge_from_ofoct.epub',submenu:[], chap:'2'},
-                {name: "3. Evald Tang Kristensen's Life and Work",url:'/Book/merge_from_ofoct.epub',submenu:[], chap:'3',},
-                {name:'4. Folklore Genres',url:'/Book/merge_from_ofoct.epub',submenu:[], chap:'4'},
-                {name:'5. Mapping Folklore',url:'/Book/merge_from_ofoct.epub',submenu:[], chap:'5'},
-                {name:'6. Repertoire and the Individual',url:'/Book/merge_from_ofoct.epub',submenu:[], chap:'6'},
-                {name:"7. 'Bitte Jens' Kristensen: Cobbled Together",url:'/Book/merge_from_ofoct.epub',submenu:[], chap:'7'},
-                {name:'8. Kristen Marie Pedersdatter: Between Farms and Smallholding',url:'/Book/merge_from_ofoct.epub',submenu:[], chap:'8'},
-                {name:'9. Jens Peter Peterson: Day Laborer and Turner',url:'/Book/merge_from_ofoct.epub',submenu:[], chap:'9'},
-                {name:'10. Ane Margrete Jensdatter: Old Age and Rural Poverty',url:'/Book/merge_from_ofoct.epub',submenu:[], chap:'10'},
-                {name:'11. Peder Johansen: Miller, Fiddler, Bachelor Storyteller',url:'/Book/merge_from_ofoct.epub',submenu:[], chap:'11'},
-                {name:'Additional Information',url:'',submenu:[]},
-                {name:'About',url:'',submenu:''},
+                {"name": "Preface", "url": "", "submenu": [], "id": "1"},
+                {"name": "Acknowledgements", "url": "", "submenu": [], "id": "2"},
+                {"name": "1. Introduction", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "3"},
+                {"name": "2. The Rise of Folklore Scholarship", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "4"},
+                {"name": "3. Evald Tang Kristensen's Life and Work", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "5"},
+                {"name": "4. Folklore Genres", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "6"},
+                {"name": "5. Mapping Folklore", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "7"},
+                {"name": "6. Repertoire and the Individual", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "8"},
+                {"name": "7. 'Bitte Jens' Kristensen: Cobbled Together", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "9"},
+                {"name": "8. Kristen Marie Pedersdatter: Between Farms and Smallholding", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "10"},
+                {"name": "9. Jens Peter Peterson: Day Laborer and Turner", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "11"},
+                {"name": "10. Ane Margrete Jensdatter: Old Age and Rural Poverty", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "12"},
+                {"name": "11. Peder Johansen: Miller, Fiddler, Bachelor Storyteller", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "13"},
+                {"name": "Additional Information", "url": "", "submenu": [], "id":"14"},
+                {"name": "About", "url": "", "submenu": "", "id":"15"},
             ];
-            return {menuList:MenuList};
+            return {"menuList": MenuList};
         });
     }
 
-    menuToggle(){
-        this.setState((prevState)=>{
-           return {menuActive:!prevState.menuActive}
+    menuToggle() {
+        this.setState((prevState) => {
+            return {"menuActive": !prevState.menuActive};
         });
     }
 
-    handleMenuClick(menuItem){
+    handleMenuClick(menuItem) {
         var menuObject = {
-            name:menuItem.name,
-            url:menuItem.url,
-            chap:menuItem.chap,
+            "name": menuItem.name,
+            "url": menuItem.url,
+            "chap": menuItem.chap,
         };
         this.props.sendData(menuObject);
         this.menuToggle();
     }
+    handleHomeClick() {
+
+        this.props.goHome();
+    }
 
     render() {
+        // console.log(this.props);
         return (
             <div className="Heading grid-x grid-padding-x">
                 <div className="large-4 cell">
                     <div className="grid-x grid-margin-x">
-                        <img src={require('./assets/DENM0001.png')} className="flag medium-3 medium-offset-1 cell" alt="Danish Flag"/>
+                        <a className="flag medium-3 medium-offset-1 cell">
+                            <img src={require('./assets/DENM0001.png')}
+                                alt="Danish Flag" onClick={(e)=>{
+                                    e.preventDefault();
+                                    this.props.tabViewerActions.switchTabs(0);
+                            }} />
+                        </a>
                         <h5 className="danish-folklore medium-2 cell">Danish Folklore</h5>
-                        <h6 className="etk medium-6 cell">The Evald Tang <br/> Kristensen Collection</h6>
+                        <h6 className="etk medium-6 cell">The Evald Tang <br /> Kristensen Collection</h6>
                     </div>
                 </div>
                 <div className="medium-offset-7 large-offset-7 Hamburger-Menu medium-1 cell" onClick={this.menuToggle}>
                     <img src="https://png.icons8.com/wired/64/ffffff/book.png"
-                         style={{height:"2.9em", paddingTop:"7px", paddingLeft:"10px"}}
-                         alt="book"/>
+                        style={{height: "2.9em", paddingTop: "7px", paddingLeft: "10px"}}
+                        alt="book" />
                 </div>
-                <div className={`Menu ${this.state.menuActive ? 'active' : ''}`}>
+                <div className={`Menu ${this.state.menuActive ? 'active' : ''}`} onClick={this.menuToggle}>
                     <div className="solid">
                         <div className="Hamburger-Menu" onClick={this.menuToggle}>
-                            <img src="https://png.icons8.com/wired/50/ffffff/literature.png" style={{height:"2.9em", paddingTop:"5px"}} alt="open book"/>
+                            <img src="https://png.icons8.com/wired/50/ffffff/literature.png" style={{height: "2.9em", paddingTop: "5px"}} alt="open book" />
                         </div>
                         <ul className="list">
-                            {this.state.menuList.map((menuItem,i)=>{
-                                return <li key={i} className="menu-item" onClick={(e)=>{e.preventDefault();this.handleMenuClick(menuItem)}}>{menuItem.name}</li>
+                            {this.state.menuList.map((menuItem, i) => {
+                                return <li key={i} className="menu-item" onClick={(e) => {e.preventDefault(); this.props.tabViewerActions.addTab(menuItem.id,menuItem.name,'Book')}}>{menuItem.name}</li>
                             })}
                         </ul>
                     </div>
@@ -111,4 +124,23 @@ class Heading extends Component {
     }
 }
 
-export default Heading;
+Heading.propTypes = {
+    "tabActions": PropTypes.object,
+};
+
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Heading);

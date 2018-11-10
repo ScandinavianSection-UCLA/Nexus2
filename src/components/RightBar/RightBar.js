@@ -1,26 +1,27 @@
-/**
- * Created by danielhuang on 4/14/18.
- */
-import React, { Component } from 'react';
-import {addNode} from "../UserNexus/UserNexusModel";
-import Modal from 'react-modal';
-import SlidingPane from 'react-sliding-pane';
-import 'react-sliding-pane/dist/react-sliding-pane.css';
-import './RightBar.css'
+import React, {Component} from "react";
+import {addNode} from "../NexusGraph/NexusGraphModel";
+import Modal from "react-modal";
+import SlidingPane from "react-sliding-pane";
+import "react-sliding-pane/dist/react-sliding-pane.css";
+import "./RightBar.css";
+import PropTypes from "prop-types";
+import {arrayTransformation} from "../../utils.js";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+import connect from "react-redux/es/connect/connect";
 
 class RightBar extends Component {
-
-    constructor(){
+    constructor() {
         super();
         this.state = {
-            isPaneOpen: false,
-            isActive:{
-                people:false,
-                bio:false,
-                places:false,
-                stories:false,
-                storiesMentioned:false,
-            }
+            "isPaneOpen": false,
+            "isActive": {
+                "people": false,
+                "bio": false,
+                "places": false,
+                "stories": false,
+                "storiesMentioned": false,
+            },
         };
         this.clickHandler = this.clickHandler.bind(this);
     }
@@ -29,205 +30,298 @@ class RightBar extends Component {
         Modal.setAppElement(this.el);
     }
 
-    clickHandler(id,name,type,item){
-        console.log(this.props);
-        addNode(id,name,type,item);
-        this.props.passID(id,name,type);
+    clickHandler(id, name, type, item) {
+        addNode(id, name, type, item);
+        // this.props.passID(id, name, type);
+        this.props.tabViewerActions.addTab(id,name,type);
     }
 
-    PPSClickHandler(section){
-        this.setState((oldState)=>{
-
+    PPSClickHandler(section) {
+        this.setState((oldState) => {
             oldState.isActive = {
-                people:false,
-                bio:false,
-                places:false,
-                stories:false,
-                storiesMentioned:false,
+                "people": false,
+                "bio": false,
+                "places": false,
+                "stories": false,
+                "storiesMentioned": false,
             };
 
             oldState.isActive[section] = true;
 
             return {
-                isPaneOpen: true,
-                isActive:oldState.isActive,
+                "isPaneOpen": true,
+                "isActive": oldState.isActive,
             };
-        }); //make side bar appear
+        }); // make side bar appear
     }
 
-    renderControls(){
-        //  if place then people story story
-        if(this.props.view === 'Places'){
-            return <div style={{marginTop:'150%', marginBottom:'20%'}}>
-                <div className={`medium-2 cell ${this.state.isActive['people'] ? 'active':''} bio`}
-                     onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('people')}}>
+    renderControls() {
+        const {view} = this.props;
+        const {isActive} = this.state;
+        // if place is selected, then create tabs for people, stories that mentioned it, and stories collected
+        if (view === "Places") {
+            // first <div> is the people tab
+            // second <div> is the stories that mention it tab
+            // third <div> is the stories collected tab
+            return <div style={{"marginTop": "150%", "marginBottom": "20%"}}>
+                <div className={`medium-2 cell ${isActive["people"] ? "active" : ""} bio`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("people");
+                    }}>
                     <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
-                         className="icon"
-                         alt="person"/>
-                    <br/>
+                        className="icon"
+                        alt="person" />
+                    <br />
                     <div className="icon-label">People</div>
                 </div>
-                <div className={`medium-2 cell ${this.state.isActive['stories_mentioned'] ? 'active':''} stories-mentioned`}
-                     onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('stories_mentioned')}}>
+                <div className={`medium-2 cell ${isActive["stories_mentioned"] ? "active" : ""} stories-mentioned`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("stories_mentioned");
+                    }}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
-                         className="icon"
-                         alt="stories" />
-                    <br/>
+                        className="icon"
+                        alt="stories" />
+                    <br />
                     <div className="icon-label">Stories That Mention</div>
                 </div>
-                <div className={`medium-2 cell ${this.state.isActive['stories'] ? 'active':''} stories` }
-                     onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('stories')}}>
+                <div className={`medium-2 cell ${isActive["stories"] ? "active" : ""} stories`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("stories");
+                    }}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
-                         className="icon"
-                         alt="stories" />
-                    <br/>
+                        className="icon"
+                        alt="stories" />
+                    <br />
                     <div className="icon-label">Stories Collected</div>
                 </div>
-            </div>
-        } else if (this.props.view === 'Stories'){ //  if story then people place story
-            return <div style={{marginTop:'150%', marginBottom:'20%'}}>
-                <div className={`medium-2 cell ${this.state.isActive['people'] ? 'active':''} bio`}
-                     onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('bio')}}>
+            </div>;
+        } else if (view === "Stories") { // if story is selected, then create tabs for author, places, and stories
+            // first <div> is the author tab
+            // second <div> is the places tab
+            // third <div> is the stories tab
+            const {informant_first_name, informant_last_name} = this.props.object;
+            return <div style={{"marginTop": "150%", "marginBottom": "20%"}}>
+                <div className={`medium-2 cell ${isActive["people"] ? "active" : ""} bio`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("bio");
+                    }}>
                     <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
-                         className="icon"
-                         alt="person"/>
-                    <br/>
-                    <div className="icon-label">{this.props.object['informant_first_name']} {this.props.object['informant_last_name']}</div>
+                        className="icon"
+                        alt="person" />
+                    <br />
+                    <div className="icon-label">{informant_first_name} {informant_last_name}</div>
                 </div>
-                <div className={`medium-2 cell ${this.state.isActive['places'] ? 'active':''} places` }
-                     onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('places')}}>
+                <div className={`medium-2 cell ${isActive["places"] ? "active" : ""} places`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("places");
+                    }}>
                     <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
-                         className="icon"
-                         alt="location"/>
-                    <br/>
+                        className="icon"
+                        alt="location" />
+                    <br />
                     <div className="icon-label">Places</div>
                 </div>
-                <div className={`medium-2 cell ${this.state.isActive['stories'] ? 'active':''} stories` }
-                     onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('stories')}}>
+                <div className={`medium-2 cell ${isActive["stories"] ? "active" : ""} stories`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("stories");
+                    }}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
-                         className="icon"
-                         alt="stories" />
-                    <br/>
+                        className="icon"
+                        alt="stories" />
+                    <br />
                     <div className="icon-label">Stories</div>
                 </div>
-            </div>
-        } else if (this.props.view === 'People'){ //  if people then place story
-            return <div style={{marginTop:'150%', marginBottom:'20%'}}>
-                <div className={`medium-2 cell ${this.state.isActive['places'] ? 'active':''} places` }
-                     onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('places')}}>
+            </div>;
+        } else if (view === "People") { // if person selected, then create tabs for places and stories
+            // first <div> is the plaes tab
+            // second <div> is the stories tab
+            return <div style={{"marginTop": "150%", "marginBottom": "20%"}}>
+                <div className={`medium-2 cell ${isActive["places"] ? "active" : ""} places`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("places");
+                    }}>
                     <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
-                         className="icon"
-                         alt="location"/>
-                    <br/>
+                        className="icon"
+                        alt="location" />
+                    <br />
                     <div className="icon-label">Places</div>
                 </div>
-                <div className={`medium-2 cell ${this.state.isActive['stories'] ? 'active':''} stories` }
-                     onClick={(e)=>{ e.preventDefault(); this.PPSClickHandler.bind(this)('stories')}}>
+                <div className={`medium-2 cell ${isActive["stories"] ? "active" : ""} stories`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("stories");
+                    }}>
                     <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
-                         className="icon"
-                         alt="stories" />
-                    <br/>
+                        className="icon"
+                        alt="stories" />
+                    <br />
                     <div className="icon-label">Stories</div>
                 </div>
-            </div>
+            </div>;
+        } else if (view === "Fieldtrips") { // if feildtrips is selected, then create tabs for people visited, places visited, and stories collected
+            // first <div> is the people visited tab
+            // second <div> is the places visited tab
+            // third <div> is the stories collected tab
+            return <div style={{"marginTop": "150%", "marginBottom": "20%"}}>
+                <div className={`medium-2 cell ${isActive["people"] ? "active" : ""} bio`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("people");
+                    }}>
+                    <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
+                        className="icon"
+                        alt="person" />
+                    <br />
+                    <div className="icon-label">People</div>
+                </div>
+                <div className={`medium-2 cell ${isActive["places"] ? "active" : ""} places`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("places");
+                    }}>
+                    <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
+                        className="icon"
+                        alt="location" />
+                    <br />
+                    <div className="icon-label">Places</div>
+                </div>
+                <div className={`medium-2 cell ${isActive["stories"] ? "active" : ""} stories`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        this.PPSClickHandler.bind(this)("stories");
+                    }}>
+                    <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
+                        className="icon"
+                        alt="stories" />
+                    <br />
+                    <div className="icon-label">Stories</div>
+                </div>
+            </div>;
         }
     }
 
-
-    renderContent(){
-
-        if(this.state.isActive['bio']){
+    renderContent() {
+        const {isActive} = this.state;
+        if (isActive["bio"]) {
             return this.renderBiography();
-        } else if(this.state.isActive['places']){
+        } else if (isActive["places"]) {
             return this.renderPlaces();
-        } else if(this.state.isActive['stories']){
+        } else if (isActive["stories"]) {
             return this.renderStories();
-        } else if(this.state.isActive['people']){
+        } else if (isActive["people"]) {
             return this.renderPeople();
-        } else if(this.state.isActive['stories_mentioned']){
-            return this.renderStories('mentioned')
+        } else if (isActive["stories_mentioned"]) {
+            return this.renderStories("mentioned");
         }
     }
 
-    renderPeople(){
-
-        if(this.props.people.length===0){
-            return <div className="cell medium-10 large-9 content">
+    renderPeople() {
+        var {people} = this.props;
+        if (people.length === 0) {
+            return <div className="cell medium-10 large-9 list-content">
                 <div className="callout alert">
                     <h6>There are no associated people.</h6>
                 </div>
-            </div>
+            </div>;
         } else {
-            return <div className="cell medium-10 large-9 content">
+            return <div className="cell medium-10 large-9 list-content">
                 <ul>
-                    {this.props.people.map((person, i) => {
+                    {people.map((person, i) => {
+                        const {full_name, person_id} = person;
                         return <li key={i} onClick={
-                            (e)=>{
+                            (e) => {
                                 e.preventDefault();
-                                this.clickHandler.bind(this)(person['person_id'],person['full_name'],'People',person)
-                                }
+                                this.clickHandler.bind(this)(person_id, full_name, "People", person);
                             }
-                        >{person['full_name']}</li>
-                    })}
-                </ul>
-            </div>
-        }
-    }
-
-    renderPlaces(){
-        console.log(this.props.places);
-        var cleanArray = this.props.places;
-        if(cleanArray.length===0){
-            return <div className="cell medium-10 large-9 content">
-                <div className="callout alert">
-                    <h6>There are no associated places.</h6>
-                </div>
-            </div>
-        } else {
-            return <div className="cell medium-10 large-9 content">
-                <ul>
-                    { cleanArray.map((place, i)=>{
-                        return <li key={i}
-                                   onClick={
-                                       (e)=>{
-                                           e.preventDefault();
-                                           this.clickHandler.bind(this)(place['place_id'],place['name'],'Places', place)
-                                       }
-                                   }>
-                            {place['display_name']}
-                        </li>
+                        }>
+                            <img className="icon-item" src={require("../Navigation/icons8-contacts-32.png")} alt="person" />
+                            {full_name}
+                        </li>;
                     })}
                 </ul>
             </div>;
         }
     }
 
-    renderStories(mentioned){
+    renderPlaces() {
+        var {places} = this.props;
+        console.log(this.props.places);
+        // problem with the data where it sometimes ends up as an object instead of an array
+        places = arrayTransformation(places);
+        // if there are no associated places, leave a special message
+        if (places.length === 0) {
+            return <div className="cell medium-10 large-9 list-content">
+                <div className="callout alert">
+                    <h6>There are no associated places.</h6>
+                </div>
+            </div>;
+        } else {
+            // creates a list of the places to display
+            places.forEach(function(place, index) {
+                if (typeof place === "undefined" || place["place_id"] === "N/A") {
+                    delete places[index];
+                }
+            });
+            return <div className="cell medium-10 large-9 list-content">
+                <ul>
+                    {places.map((place, i) => {
+                        // fieldtrip places use full_name instead of display_name
+                        var {name, place_id} = place;
+                        var show_name = place["display_name"];
+                        if (typeof place["display_name"] === "undefined") {
+                            show_name = place["full_name"];
+                        }
+                        return <li key={i}
+                            onClick={
+                                (e) => {
+                                    e.preventDefault();
+                                    this.clickHandler.bind(this)(place_id, name, "Places", place);
+                                }
+                            }>
+                            <img className="icon-item" src={require("../Navigation/icons8-marker-32.png")} alt="location" />
+                            {show_name}
+                        </li>;
+                    })}
+                </ul>
+            </div>;
+        }
+    }
+
+    renderStories(mentioned) {
         var storiesByPerson = [];
-        if(mentioned==='mentioned'){
+        if (mentioned === "mentioned") {
             storiesByPerson = this.props.storiesMentioned;
-        } else{
+        } else {
             storiesByPerson = this.props.stories;
         }
-        if(storiesByPerson.length === 0){ //if there are no associated stories
-            return <div className="cell medium-10 large-9 content">
+        if (storiesByPerson.length === 0) { // if there are no associated stories
+            return <div className="cell medium-10 large-9 list-content stories">
                 <div className="callout alert">
                     <h6>There are no {mentioned} stories.</h6>
                 </div>
             </div>;
         } else {
-            return <div className="cell medium-10 large-9 content">
+            return <div className="cell medium-10 large-9 list-content stories">
                 <ul>
-                    { storiesByPerson.map((story, i)=>{
+                    {storiesByPerson.map((story, i) => {
+                        var {full_name, story_id} = story;
                         return <li key={i}
-                                   onClick={
-                                       (e)=>{
-                                           e.preventDefault();
-                                           this.clickHandler.bind(this)(story['story_id'],story['full_name'],'Stories', story)
-                                       }
-                                   }>
-                            {story['full_name']}
-                        </li>
+                            onClick={
+                                (e) => {
+                                    e.preventDefault();
+                                    this.clickHandler.bind(this)(story_id, full_name, "Stories", story);
+                                }
+                            }>
+                            <img className={"icon-item"} src={require("../Navigation/icons8-chat-filled-32.png")} alt="story" />
+                            {full_name}
+                        </li>;
                     })}
                 </ul>
             </div>;
@@ -235,31 +329,43 @@ class RightBar extends Component {
 
     }
 
-    renderBiography(){
-        var personData = this.props.bio;
-        return <div className="cell medium-10 large-9 content">
-            <div className="grid-y">
-                <div className="cell medium-3">
-                    <div className="grid-x informant-bio-container">
-                        <img src={require(`./informant_images/${[90,123,150,235,241].includes(this.props.object['informant_id'])? String(this.props.object['informant_id']) + '.jpg' : 'noprofile.png'}`)}
-                             className="cell medium-6"/>
-                        <div className="cell medium-6 details">
-                            <div><b>Born</b> {personData['birth_date']}</div>
-                            <div><b>Died</b> {personData['death_date']}</div>
-                            <div><b>ID#</b> {String(this.props.object['informant_id'])}</div>
-                            <a onClick={(e)=>{
-                                e.preventDefault();
-                                // console.log(personData);
-                                this.clickHandler.bind(this)(personData['person_id'],personData['full_name'],'People', personData)
-                            }} className="button">Informant Page</a>
+    renderBiography() {
+        var {bio, object} = this.props;
+        var {birth_date, death_date, full_name, intro_bio, person_id} = bio;
+        if (person_id !== -1) {
+            return (
+                <div className="cell medium-10 large-9 content">
+                    <div className="grid-y">
+                        <div className="cell medium-3">
+                            <div className="grid-x informant-bio-container">
+                                <img src={require(`./informant_images/${[90, 123, 150, 235, 241].includes(object["informant_id"]) ? `${object["informant_id"]}.jpg` : "noprofile.png"}`)}
+                                    className="cell medium-6" alt={object["full_name"]} />
+                                <div className="cell medium-6 details">
+                                    <div><b>Born</b> {birth_date}</div>
+                                    <div><b>Died</b> {death_date}</div>
+                                    <div><b>ID#</b> {object["informant_id"]}</div>
+                                    <a onClick={(e) => {
+                                        e.preventDefault();
+                                        this.clickHandler.bind(this)(person_id, full_name, "People", bio);
+                                    }} className="button">Informant Page</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="cell medium-9 biography">
+                            {intro_bio}
                         </div>
                     </div>
                 </div>
-                <div className="cell medium-9 biography">
-                    {personData['intro_bio']}
+            );
+        } else {
+            return (
+                <div className="cell medium-10 large-9 list-content">
+                    <div className="callout alert">
+                        <h6>There is no associated informant.</h6>
+                    </div>
                 </div>
-            </div>
-        </div>
+            );
+        }
     }
 
     render() {
@@ -268,29 +374,29 @@ class RightBar extends Component {
             <div className="medium-1 RightBar cell">
                 <div className="grid-y">
                     <SlidingPane
-                        className='right-bar full'
-                        overlayClassName='some-custom-overlay-class'
-                        isOpen={ this.state.isPaneOpen }
-                        width='35vw'
-                        onRequestClose={ () => {
+                        className="right-bar full"
+                        overlayClassName="some-custom-overlay-class"
+                        isOpen={this.state.isPaneOpen}
+                        width="35vw"
+                        onRequestClose={() => {
                             // triggered on "<" on left top click or on outside click
                             this.setState({
-                                isPaneOpen: false,
-                                people:false,
-                                bio:false,
-                                places:false,
-                                stories:false,
-                                storiesMentioned:false,
+                                "isPaneOpen": false,
+                                "people": false,
+                                "bio": false,
+                                "places": false,
+                                "stories": false,
+                                "storiesMentioned": false,
                             });
-                        } }>
+                        }}>
                         <div className="grid-x control-container">
-                            {/*side bar controls*/}
+                            {/* side bar controls*/}
                             <div className="cell medium-2 large-3 controls">
                                 <div className="grid-y">
                                     {this.renderControls()}
                                 </div>
                             </div>
-                            {/*side bar contents*/}
+                            {/* side bar contents*/}
                             {this.renderContent()}
                         </div>
                     </SlidingPane>
@@ -302,4 +408,67 @@ class RightBar extends Component {
     }
 }
 
-export default RightBar;
+RightBar.propTypes = {
+    "bio": PropTypes.shape({
+        "birth_date": PropTypes.string,
+        "death_date": PropTypes.string,
+        "full_name": PropTypes.string,
+        "intro_bio": PropTypes.string,
+        "person_id": PropTypes.number,
+    }),
+    "object": PropTypes.shape({
+        "full_name": PropTypes.string,
+        "informant_first_name": PropTypes.string,
+        "informant_last_name": PropTypes.string,
+        "informant_id": PropTypes.number,
+    }),
+    "people": PropTypes.array,
+    "stories": PropTypes.array,
+    "storiesMentioned": PropTypes.array,
+    "places": PropTypes.any,
+    "view": PropTypes.oneOf(["Fieldtrips", "People", "Places", "Stories"]),
+};
+
+// define any necessary missing values
+RightBar.defaultProps = {
+    "bio": {
+        "birth_date": "",
+        "death_date": "",
+        "full_name": "",
+        "intro_bio": "",
+        "person_id": null,
+    },
+    "object": {
+        "full_name": "",
+        "informant_first_name": "",
+        "informant_last_name": "",
+        "informant_id": null,
+    },
+    "people": [],
+    "stories": [],
+    "storiesMentioned": [],
+    "places": "Stories",
+    "view": "",
+};
+
+RightBar.propTypes = {
+    "tabActions": PropTypes.object,
+};
+
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(RightBar);
+

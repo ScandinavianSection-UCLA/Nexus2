@@ -1,268 +1,205 @@
-/**
- * Created by danielhuang on 1/28/18.
- */
-import React, { Component } from 'react';
-import Navigation from '../Navigation/Navigation';
-import StoryView from '../StoryView/StoryView';
-import PlaceView from '../PlaceView/PlaceView';
-import PeopleView from '../PeopleView/PeopleView';
-import FieldtripView from '../FieldtripView/FieldtripView';
-import BookView from '../BookView/BookView';
-import {getStoryByID, getPeopleByID, getPlacesByID, getFieldtripsByID} from "./model";
-import './TabViewer.css'
+import React, {Component} from "react";
+import Navigation from "../Navigation/Navigation";
+import StoryView from "../StoryView/StoryView";
+import PlaceView from "../PlaceView/PlaceView";
+import PeopleView from "../PeopleView/PeopleView";
+import FieldtripView from "../FieldtripView/FieldtripView";
+import BookView from "../BookView/BookView";
+import GraphView from "../NexusGraph/GraphView";
+import * as model from "../../data-stores/DisplayArtifactModel";
+import "./TabViewer.css";
+import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
+import PropTypes from "prop-types";
+import {connect} from "react-redux";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+
+
 
 class TabViewer extends Component {
-
-    constructor(){
+    constructor() {
         super();
         this.state = {
-            views:[],
-            storyPath:'',
-            inView:[],
+            "views": [],
+            "storyPath": "",
+            "active": {},
+            "searchWord": "",
         };
-        this.handleID = this.handleID.bind(this);
-        this.tabController = this.tabController.bind(this);
-        this.switchTab = this.switchTab.bind(this);
-        this.closeTab = this.closeTab.bind(this);
         this.renderPDF = this.renderPDF.bind(this);
         this.renderPPFS = this.renderPPFS.bind(this);
+        this.handleKeywordSearch = this.handleKeywordSearch.bind(this);
+        this.renderActiveTab = this.renderActiveTab.bind(this);
     }
 
-    componentWillMount(){
-        var navigationObject = {
-            jsx: <Navigation addID={this.handleID}/>,
-            active: true,
-            id:0,
-            name:'Home',
-            type:'Home'
-        };
-
-        if(JSON.parse(sessionStorage.getItem('inView')) !== null){
-            const cachedViews = JSON.parse(sessionStorage.getItem('views'));
-            const cachedInView = JSON.parse(sessionStorage.getItem('inView'))[0]; //object
-            this.setState(()=>{
-                //reconstruct jsx from id and type
-                var newViews = [];
-                cachedViews.forEach((view)=>{
-                   newViews.push({
-                       active: view['active'],
-                       id:view['id'],
-                       name:view['name'],
-                       type:view['type'],
-                       jsx: this.renderPPFS(view['id'],view['type']),
-                   })
-                });
-                var newInView = {
-                    active:cachedInView['active'],
-                    id:cachedInView['id'],
-                    name:cachedInView['name'],
-                    type:cachedInView['type'],
-                    jsx: this.renderPPFS(cachedInView['id'],cachedInView['type']),
-                };
-                // console.log(newViews, newInView);
-                return {
-                    views:newViews,
-                    inView: [newInView],
-                }
-            })
-        } else {
-            this.setState((prevState)=>{
-                var newState = prevState.views;
-                newState.push(navigationObject);
-                return {views:newState, inView:newState}
-            });
+    /**
+     * Render the main content of the app
+     * @param {Number} id ID of the relevant person/place/story/fieldtrip to load (irrelevant for NexusGraph, Home)
+     * @param {String} type The type of view to load (People/Places/Fieldtrips/Stories/Home/Graph)
+     * @returns {JSX} The content of the relevant view
+     */
+    renderPPFS(id, type) {
+        // depending on the type of the view to render
+        switch (type) {
+            case "People":
+                // for people, return a PeopleView
+                return <PeopleView
+                    // with the person retrieved by the passed ID
+                    person={model.getPeopleByID(id)}
+                    />;
+            case "Places":
+                // for places, return a PlaceView
+                return <PlaceView
+                    // with the place retrieved by the passed ID
+                    place={model.getPlacesByID(id)}
+                    />;
+            case "Fieldtrips":
+                // for fieldtrip, return a FieldtripView
+                return <FieldtripView
+                    // with the fieldtrip retrieved by the passed ID
+                    fieldtrip={model.getFieldtripsByID(id)}
+                   />;
+            case "Stories":
+                // for stories, return a StoryView
+                return <StoryView
+                    // with the story retrieved by the passed ID
+                    story={model.getStoryByID(id)}
+                    handleKeywordSearch={this.handleKeywordSearch} />;
+            case "Home": case "home":
+                // for the Home tab, return the main Navigation view (home), with addTab for any selected tabs
+                return <Navigation
+                    searchWord={this.state.searchWord} />;
+            case "Graph":
+                // for the graph, return the GraphView, with addTab to open pages on double clicked nodes
+                return <GraphView openNode={this.addTab} />;
+            case "Book":
+                return <BookView id={id}/>;
+            default:
+                // if it wasn't one of the above types, warn that we hit an unknown type
+                console.warn(`Unhandled tab type ${type}`);
         }
     }
 
-    renderPPFS(id,type){
-        if(type==='People'){
-            var personObject = getPeopleByID(id);
-            return <PeopleView person={personObject} addID={this.handleID}/>
-        } else if(type==='Places'){
-            var place = getPlacesByID(id);
-            return <PlaceView place={place} addID={this.handleID}/>
-        } else if(type==='Fieldtrips'){
-            var fieldtrip = getFieldtripsByID(id);
-            return <FieldtripView fieldtrip={fieldtrip} addID={this.handleID}/>
-        } else if(type==='Stories'){
-            var storyObject = getStoryByID(id);
-            return <StoryView story={storyObject} addID={this.handleID}/>;
-        } else if(type==='Home' || type==='home'){
-            return <Navigation addID={this.handleID}/>;
-        }
-    }
-    //update views with PDF views
-    renderPDF(chapter, name){
+    // update views with PDF views
+    renderPDF(chapter, name) {
         var nameUpdated = true;
-        if(this.state.inView.name === name){
+        if (this.state.active.name === name) {
             nameUpdated = false;
         } else {
-            this.state.views.forEach((view)=>{
-                if(view.name === name){
+            this.state.views.forEach((view) => {
+                if (view.name === name) {
                     nameUpdated = false;
                 }
             });
         }
-        if(name !== undefined && nameUpdated){
+        if (name !== undefined && nameUpdated) {
             var PDFObject = {
-                name:name,
-                chapter:chapter,
-                jsx:<BookView chapter={chapter} name={name}>{name}</BookView>,
-                active:true
+                "name": name,
+                "chapter": chapter,
+                "jsx": <BookView chapter={chapter} name={name}>{name}</BookView>,
+                "active": true,
             };
-            this.setState((prevState)=>{
+            this.setState((prevState) => {
                 var newState = prevState;
-                newState.views.forEach((view)=>{
+                newState.views.forEach((view) => {
                     view.active = false;
                 });
                 newState.views.push(PDFObject);
-                return {views:newState.views, inView:[PDFObject]}
+                return {"views": newState.views, "active": PDFObject};
             });
         }
     }
-    //7)A catch all function will take in an ID and name of the selected object
-    // depending on what was selected (story, people, places, fieldtrips) add a different type of object to add to views and inView
 
-    handleID(InputID, Name, Type){ // adds tab to viewer
-        // console.log(InputID,Name, Type);
-        //check if input id is already in views
-        var inView = false;
-        var viewIndex = -1;
-        this.state.views.forEach((view,i)=>{
-            if(view['id']===InputID && view['type']===Type){
-                inView = true;
-                viewIndex = i;
+    renderActiveTab() {
+        var CurrentState = this.props.state;
+        console.log(CurrentState,'active tab!');
+        var viewToRender;
+        CurrentState['views'].forEach((view)=>{
+            if(view['active']){
+                console.log(this.renderPPFS(view['id'], view['type']));
+                viewToRender= this.renderPPFS(view['id'], view['type']);
             }
         });
-        if(inView){
-            //if it's already in views, make it in view
-            this.setState((prevState)=>{
-                return {inView:[prevState['views'][viewIndex]]}
-            });
-        } else {
-            var itemObject = {
-                jsx:this.renderPPFS(InputID,Type,Name),
-                id:InputID,
-                active:true,
-                name:Name,
-                type:Type
-            };
-            this.setState((prevState)=>{
-                var newViews = prevState.views;
-                newViews.forEach((view)=>{
-                    view.active = false;
+        return viewToRender;
+    }
+
+    /**
+     * Handler for when a keyword is clicked, show the related stories
+     * @param {String} keyword The keyword that was clicked
+     */
+    handleKeywordSearch(keyword) {
+        this.setState({
+            // update the word that was clicked
+            "searchWord": keyword,
+        }, function() {
+            this.setState(({views}) => {
+                // variable to store the home view
+                let homeView;
+                // for each of the current views
+                views.forEach((currentView) => {
+                    // if the view is not the home view
+                    if (currentView.name !== "Home") {
+                        currentView["active"] = false;
+                    } else {
+                        // for the home view
+                        currentView = {
+                            ...currentView,
+                            // set it to be active
+                            "active": true,
+                            // and re-render it with updated JSX (for the keyword)
+                            "jsx": this.renderPPFS(0, "Home"),
+                        };
+                        // set our home variable to be this view
+                        homeView = currentView;
+                    }
                 });
-                newViews.push(itemObject);
-                var width = window.innerWidth;
-
-                if (width<=1100){
-                    console.log('window is small!')
-                    if(newViews.length>5){
-                        newViews.splice(1,1);
-                    }
-                } else {
-                    if(newViews.length>6){
-                        newViews.splice(1,1);
-                    }
-                }
-
+                // update the state
                 return {
-                    views:newViews,
-                    inView:[itemObject]
-                }
-            },
-                ()=>{
-                    sessionStorage.setItem('views',JSON.stringify(this.state.views));
-                    sessionStorage.setItem('inView',JSON.stringify(this.state.inView));
-            }
-            );
-        }
-    }
-
-    tabController(){
-        for(var i=0; i<this.state.views.length;i++){
-            if(this.state.views[i].active){
-                return this.state.views[i].jsx;
-            }
-        }
-    }
-
-    switchTab(view){
-
-        this.setState((prevState)=>{
-            var newViews = prevState.views;
-            newViews.forEach((currentView)=>{
-                if(currentView.name !== view.name){
-                    currentView.active = false;
-                } else {
-                    currentView.active = true;
-                    if(currentView.type === 'story'){
-
-                        currentView.jsx = this.renderStory(currentView.id);
-                        view = currentView;
-                    }
-                }
+                    // views = our modified, updated views
+                    "views": views,
+                    // active = the home view
+                    "active": homeView,
+                };
+            }, () => {
+                // update session storage with the new state
+                setSessionStorage("TabViewerSessionState", this.state);
+                this.props.tabViewerActions.switchTabs(0);
             });
-            //check if view has been deleted from list of views
-            if(newViews.includes(view)){
-                return { views:newViews, inView:[view] }
-            } else {
-                return{ views:newViews }
-            }
-        },()=>{
-            sessionStorage.setItem('inView',JSON.stringify(this.state.inView));
         });
-    }
 
-    closeTab(view){
-        //find 'view' in this.state.views and .inView, and delete it. if .inView then default to home tab
-        this.setState((prevState)=>{
-            var newState = prevState;
-            var removeViewIndex = -1;
-            this.state.views.forEach((currentView,i)=>{
-                if(currentView['name'] === view['name']){
-                    removeViewIndex = i;
-                }
-            });
-            newState.views.splice(removeViewIndex,1);
-            if(newState.inView[0]['name'] === view['name']){ // is current view being closed?
-                return {
-                    views:newState.views,
-                    inView:[newState.views[newState.views.length-1]]
-                }
-            } else { // if current view isn't being closed, don't change what's inView
-                return {
-                    views:newState.views,
-                }
-            }
-        },()=>{
-            sessionStorage.setItem('views',JSON.stringify(this.state.views));
-        })
-    }
-
-    renderTabs(){
-        // this.renderPDF(this.props.menuItem.url,this.props.menuItem.name);
-        return this.state.inView.map((view, i)=>{ return <div style={{height:'inherit'}} key={i}>{view.jsx}</div> });
     }
 
     render() {
         return (
             <div className="TabViewer grid-container full">
                 <div className="grid-y">
-                    {/*Wrapper/container for the View, not including the tabs*/}
-                    <div className="view cell fill"> {/*Class "fill" fills out the rest of the application space with the view*/}
-                        {/*Function below generates/sorts out which view should be displayed*/}
-                        {this.renderTabs.bind(this)()}
+                    {/* Wrapper/container for the View, not including the tabs*/}
+                    <div className="view cell fill"> {/* Class "fill" fills out the rest of the application space with the view*/}
+                        {/* Function below generates/sorts out which view should be displayed*/}
+                        {this.renderActiveTab()}
                     </div>
-                    {/*List of tabs that are displayed at the bottom of the browser/app*/}
-                    <ul className="tabs cell medium-1"> {/*medium-1 sets the height of the tabs*/}
-                        {this.state.views.map((view,i)=>{
-                            return <li onClick={(event)=>{event.preventDefault();this.switchTab(view);}}
-                                       key={i} className={`${view.name === this.state.inView[0].name ? 'active' : ''}`}>
-                                {view.name}
-                                <img src="https://png.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
-                                     className={`closeTabIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
-                            </li>})}
+                    {/* List of tabs that are displayed at the bottom of the browser/app*/}
+                    <ul className="tabs cell medium-1"> {/* medium-1 sets the height of the tabs*/}
+                        {this.props.state.views.map((view, i) => {
+                            return (
+                                <li
+                                    onClick={(event) => {
+                                        event.preventDefault();
+                                        this.props.tabViewerActions.switchTabs(i);
+                                    }}
+                                    key={i}
+                                    className={`${view.active ? "active" : ""}`}>
+                                    {view.name}
+                                    <img
+                                        src="https://png.icons8.com/material/50/000000/delete-sign.png"
+                                        alt="Close Icon"
+                                        className={`closeTabIcon ${view.name === "Home" ? "noClose" : ""}`}
+                                        onClick={(event) => {
+                                            event.preventDefault();
+                                            this.props.tabViewerActions.closeTab(i);
+                                        }} />
+                                </li>
+                            );
+                        })}
                     </ul>
                 </div>
             </div>
@@ -270,4 +207,23 @@ class TabViewer extends Component {
     }
 }
 
-export default TabViewer;
+TabViewer.propTypes = {
+    "tabActions": PropTypes.object,
+};
+
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(TabViewer);

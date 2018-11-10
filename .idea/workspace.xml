@@ -1,158 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="">
+    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="updated add tab function on nexus graph to use redux actions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/components/MapView/mapTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/mapTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/allinformants.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/allinformants.json" afterDir="false" />
-=======
-
-      <change beforePath="$PROJECT_DIR$/src/components/BookView/BookView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookView/BookView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserNexus/UserNexusModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserNexus/UserNexusModel.js" afterDir="false" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigatorComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigatorComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" afterDir="false" />
     </list>
+    <list id="4860e851-d29b-486f-9cb0-ecd95ba13bec" name="added low boards, high boards, prussian WMS tiles" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-571760628">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="1" />
+          <entry key="git.branch.merge" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="js" value="27" />
+          <entry key="json" value="2" />
+          <entry key="png" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="27" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="5984" />
+          <entry key="PLAIN_TEXT" value="479" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="js" value="5984" />
+          <entry key="txt" value="478" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Nexus2" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file leaf-file-name="PeopleView.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/PeopleView/PeopleView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="497" column="49" selection-start-line="497" selection-start-column="49" selection-end-line="497" selection-end-column="49" />
-              <folding>
-                <element signature="e#45#86#0" expanded="true" />
-                <element signature="e#7068#17721#0" />
-=======
-
-      <file leaf-file-name="MapView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="e#45#86#0" expanded="true" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-=======
-      <file leaf-file-name="Navigation.js" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
+            <state relative-caret-position="422">
+              <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
               <folding>
-                <element signature="e#46#87#0" expanded="true" />
+                <element signature="e#472#569#0" expanded="true" />
+                <element signature="n#!!block;n#timeFilterHandler#0;n#Navigation#0" />
+                <element signature="n#!!block;n#timeInputClickHandler#0;n#Navigation#0" />
+                <element signature="n#!!block;n#timeInputEnd#0;n#Navigation#0" />
+                <element signature="n#!!block;n#setDisplayLabel#0;n#Navigation#0" />
+                <element signature="e#11676#15572#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserNexus.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexus.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Navigation/icons8-waypoint-map-32.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Navigation/navigation.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/tabViewerReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="120" column="57" selection-start-line="120" selection-start-column="57" selection-end-line="120" selection-end-column="57" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#42#0" expanded="true" />
+                <element signature="n#!!block;n#addTab#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserNexusModel.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexusModel.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Navigation/SearchComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-298">
-              <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoryView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="141" column="10" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
+            <state relative-caret-position="565">
+              <caret line="237" column="57" lean-forward="true" selection-start-line="237" selection-start-column="57" selection-end-line="237" selection-end-column="57" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#!!block;n#handleSearch#0;n#SearchComponent#0" />
+                <element signature="n#!!block;n#handleFuzzySearch#0;n#SearchComponent#0" />
+                <element signature="n#!!block;n#renderKeywords#0;n#SearchComponent#0" />
+                <element signature="n#!!block;n#renderListofSuggestions#0;n#SearchComponent#0" />
+                <element signature="n#!!block;n#renderSuggestions#0;n#SearchComponent#0" />
+                <element signature="n#!!block;n#switchKeywordSearch#0;n#SearchComponent#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Heading.js" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+            <state relative-caret-position="215">
+              <caret line="109" column="107" selection-start-line="109" selection-start-column="107" selection-end-line="109" selection-end-column="107" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlaceView.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/PlaceView/PlaceView.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="1315">
+              <caret line="136" selection-start-line="136" selection-end-line="136" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#307#353#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabViewer.js" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraphModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1014" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="239" column="26" selection-start-line="239" selection-start-column="26" selection-end-line="239" selection-end-column="26" />
+            <state relative-caret-position="429">
+              <caret line="164" column="58" selection-start-line="164" selection-start-column="58" selection-end-line="164" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="n#!!block;n#renderPDF#0;n#TabViewer#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabViewer.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-
-            </state>
-          </provider>
-        </entry>
-      </file>
->>>>>>> daef203417865cc7f6899330883be294d11951e9
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -170,21 +210,27 @@
       <find>place_people_person_full_name</find>
       <find>this.props.places</find>
       <find>Aasted</find>
-      <find>fru</find>
-      <find>occupation</find>
-      <find>Kristensen</find>
-      <find>person</find>
-      <find>person_id</find>
-      <find>occupations</find>
-      <find>person_job</find>
-      <find>occup</find>
+      <find>index</find>
+      <find>indice</find>
+      <find>searchcomponent</find>
+      <find>active</find>
+      <find>chat</find>
+      <find>fieldtrip</find>
+      <find>icon</find>
+      <find>graph</find>
+      <find>this.props</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="dhuangg &lt;danielhuang@g.ucla.edu&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="sh1v2.0" />
       </map>
     </option>
   </component>
@@ -197,49 +243,42 @@
         <option value="$PROJECT_DIR$/src/components/MapView/test1.js" />
         <option value="$PROJECT_DIR$/src/components/MapView/places_geo.geojson" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/MapView/map.js" />
-        <option value="$PROJECT_DIR$/src/components/MapView/MapView.js" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/MapView/MapView.css" />
+        <option value="$PROJECT_DIR$/src/components/Heading/Heading.css" />
         <option value="$PROJECT_DIR$/src/components/MapView/mapTest.html" />
-        <option value="$PROJECT_DIR$/src/data/allinformants.json" />
-        <option value="$PROJECT_DIR$/src/components/MapView/compile.html" />
-        <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" />
-=======
-        <option value="$PROJECT_DIR$/src/components/Navigation/navigatorComponent.css" />
         <option value="$PROJECT_DIR$/src/components/Navigation/search.css" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/NavigatorComponent.js" />
-        <option value="$PROJECT_DIR$/src/components/UserNexus/UserNexus.css" />
-        <option value="$PROJECT_DIR$/src/NexusReducer.js" />
-        <option value="$PROJECT_DIR$/src/NexusActions.js" />
-        <option value="$PROJECT_DIR$/src/store.js" />
-        <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/src/utils.js" />
-        <option value="$PROJECT_DIR$/src/components/RightBar/model.js" />
+        <option value="$PROJECT_DIR$/src/components/TabViewer/TabViewer.css" />
+        <option value="$PROJECT_DIR$/src/components/MapView/MapView.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/TabViewer/model.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" />
+        <option value="$PROJECT_DIR$/src/actions/actionTypes.js" />
+        <option value="$PROJECT_DIR$/src/actions/tabViewerActions.js" />
         <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.js" />
         <option value="$PROJECT_DIR$/src/components/StoryView/StoryView.js" />
-        <option value="$PROJECT_DIR$/src/components/StoryView/StoryView.css" />
-        <option value="$PROJECT_DIR$/src/components/PlaceView/PlaceView.css" />
-        <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.css" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/navigation.css" />
-        <option value="$PROJECT_DIR$/src/components/TabViewer/TabViewer.css" />
-        <option value="$PROJECT_DIR$/src/components/Heading/Heading.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/UserNexus/UserNexus.js" />
+        <option value="$PROJECT_DIR$/src/reducers/initialState.js" />
+        <option value="$PROJECT_DIR$/src/reducers/tabViewerReducer.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/BookView/BookView.js" />
         <option value="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" />
+        <option value="$PROJECT_DIR$/src/components/Heading/Heading.js" />
+        <option value="$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.js" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/NavigatorComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.js" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/navigation.css" />
         <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
-        <option value="$PROJECT_DIR$/src/components/UserNexus/UserNexusModel.js" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -254,24 +293,16 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1804" />
-    <option name="height" value="1012" />
-=======
-    <option name="x" value="216" />
+    <option name="x" value="5" />
     <option name="y" value="23" />
-    <option name="width" value="1571" />
-    <option name="height" value="1027" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
+    <option name="width" value="1543" />
+    <option name="height" value="1003" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,11 +313,6 @@
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,56 +326,63 @@
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="MapView" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="TabViewer" type="462c0819:PsiDirectoryNode" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
+              <item name="FieldtripView" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
               <item name="Navigation" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="UserNexus" type="462c0819:PsiDirectoryNode" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="PeopleView" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UserNexus" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="data" type="462c0819:PsiDirectoryNode" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
+              <item name="RightBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="StoryView" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TabViewer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data-stores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="sshConsole" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -368,24 +401,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.model.js">
-    <configuration name="mapTest.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Nexus2/src/components/MapView/mapTest.html" />
-    <configuration name="MapView.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="MapView.js" working-dir="$PROJECT_DIR$/src/components/MapView" />
-    <configuration name="model.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="model.js" working-dir="$PROJECT_DIR$/src/components/Navigation" />
-    <configuration name="test1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test1.js" working-dir="$PROJECT_DIR$/src/components/MapView" />
+  <component name="RunManager" selected="Node.js.MapView.js">
+    <configuration name="mapTest.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Nexus2/src/components/MapView/mapTest.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="MapView.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="MapView.js" working-dir="$PROJECT_DIR$/src/components/MapView">
+      <method v="2" />
+    </configuration>
+    <configuration name="model.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="model.js" working-dir="$PROJECT_DIR$/src/components/Navigation">
+      <method v="2" />
+    </configuration>
+    <configuration name="test1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test1.js" working-dir="$PROJECT_DIR$/src/components/MapView">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.MapView.js" />
       <item itemvalue="JavaScript Debug.mapTest.html" />
       <item itemvalue="Node.js.test1.js" />
       <item itemvalue="Node.js.model.js" />
+      <item itemvalue="npm.start" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="Node.js.model.js" />
         <item itemvalue="Node.js.test1.js" />
         <item itemvalue="JavaScript Debug.mapTest.html" />
         <item itemvalue="Node.js.MapView.js" />
-        <item itemvalue="Node.js.model.js" />
       </list>
     </recent_temporary>
   </component>
@@ -415,21 +467,21 @@
       <workItem from="1524628686057" duration="10046000" />
       <workItem from="1524682385720" duration="13677000" />
       <workItem from="1524961210387" duration="41000" />
-<<<<<<< HEAD
       <workItem from="1524961277529" duration="1540000" />
       <workItem from="1527547408862" duration="604000" />
-      <workItem from="1527827286802" duration="12049000" />
-      <workItem from="1528071979681" duration="11298000" />
-      <workItem from="1528257139692" duration="22505000" />
-=======
-      <workItem from="1524961277529" duration="5180000" />
-      <workItem from="1525556917485" duration="9561000" />
-      <workItem from="1525996266058" duration="3402000" />
-      <workItem from="1526568181092" duration="948000" />
-      <workItem from="1526569424274" duration="4037000" />
-      <workItem from="1526678749759" duration="18199000" />
-      <workItem from="1527129615638" duration="530000" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
+      <workItem from="1527827286802" duration="11017000" />
+      <workItem from="1528158777248" duration="4569000" />
+      <workItem from="1528269621174" duration="1184000" />
+      <workItem from="1529084861392" duration="940000" />
+      <workItem from="1529890483801" duration="169000" />
+      <workItem from="1532776629351" duration="474000" />
+      <workItem from="1532798679984" duration="10676000" />
+      <workItem from="1534758925496" duration="684000" />
+      <workItem from="1541737160535" duration="18185000" />
+      <workItem from="1541804130828" duration="8000" />
+      <workItem from="1541804239311" duration="491000" />
+      <workItem from="1541804756292" duration="3053000" />
+      <workItem from="1541813860169" duration="2299000" />
     </task>
     <task id="LOCAL-00001" summary="fixed this.props.places bug">
       <created>1525795879351</created>
@@ -438,26 +490,88 @@
       <option name="project" value="LOCAL" />
       <updated>1525795879352</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added danish web server tiles using TileLayer.WMS in leaflet">
+      <created>1528171844527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528171844527</updated>
+    </task>
+    <task id="LOCAL-00003" summary="web server tiles now loading :)">
+      <created>1528262665366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528262665366</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added low boards, high boards, prussian WMS tiles">
+      <created>1528584832211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528584832211</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added low boards, high boards, prussian WMS tiles">
+      <created>1528587430863</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528587430863</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commented out unused import statements that were causing build issues">
+      <created>1534758279215</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534758279215</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Integrated React Redux!!!!! TabViewer logic now migrated to tabViewerReducer.js&#10;&#10;Close #91 #92">
+      <created>1541803061330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541803061330</updated>
+    </task>
+    <task id="LOCAL-00008" summary="CLICKING ON THE FLAG TAKES YOU HOME!!!!!!!!!!">
+      <created>1541803981635</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541803981635</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new build + git ignore">
+      <created>1541804597169</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541804597169</updated>
+    </task>
+    <task id="LOCAL-00010" summary="BookView opens up a chapter #23">
+      <created>1541807379064</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1541807379064</updated>
+    </task>
+    <task id="LOCAL-00011" summary="#23 - can click out of book menu by clicking outside of menu area&#10;Polished onKeywordClick, switches to home tab and the breadcrumbs describes what's being shown in the area">
+      <created>1541809037116</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541809037116</updated>
+    </task>
+    <task id="LOCAL-00012" summary="updated add tab function on nexus graph to use redux actions">
+      <created>1541814101428</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1541814101428</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="203694000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1804" height="1012" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20101067" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3298647" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32948583" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32738718" />
-=======
-    <option name="totallyTimeSpent" value="180348000" />
+    <option name="totallyTimeSpent" value="218398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,43 +583,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1901" height="1024" extended-state="0" />
+    <frame x="5" y="23" width="1543" height="1003" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19468085" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3298647" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32901832" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3279396" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39854318" />
-      <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49468893" visible="true" weight="0.3002628" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5053111" side_tool="true" visible="true" weight="0.3002628" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.50342935" side_tool="true" weight="0.24065298" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921012" weight="0.32746115" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39854318" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23612903" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997367" weight="0.32930845" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49277267" visible="true" weight="0.2766191" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32893" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50722736" side_tool="true" visible="true" weight="0.2766191" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49935484" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49935484" visible="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49548388" weight="0.32795697" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39852786" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50064516" side_tool="true" visible="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49290323" weight="0.32795697" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -514,10 +628,29 @@
           <value>
             <State>
               <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="me" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="me" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -538,144 +671,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed this.props.places bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed this.props.places bug" />
+    <MESSAGE value="added danish web server tiles using TileLayer.WMS in leaflet" />
+    <MESSAGE value="web server tiles now loading :)" />
+    <MESSAGE value="added low boards, high boards, prussian WMS tiles&#10;&#10;(cherry picked from commit 4b588bcb8c32f99c6727d8b31316846f3f890bb9)" />
+    <MESSAGE value="added low boards, high boards, prussian WMS tiles" />
+    <MESSAGE value="commented out unused import statements that were causing build issues" />
+    <MESSAGE value="Integrated React Redux!!!!! TabViewer logic now migrated to tabViewerReducer.js&#10;&#10;Close #91 #92" />
+    <MESSAGE value="CLICKING ON THE FLAG TAKES YOU HOME!!!!!!!!!!" />
+    <MESSAGE value="new build + git ignore" />
+    <MESSAGE value="BookView opens up a chapter #23" />
+    <MESSAGE value="#23 - can click out of book menu by clicking outside of menu area&#10;Polished onKeywordClick, switches to home tab and the breadcrumbs describes what's being shown in the area" />
+    <MESSAGE value="updated add tab function on nexus graph to use redux actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated add tab function on nexus graph to use redux actions" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
     <find-history />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/REACT_README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4815">
-            <caret line="321" selection-start-line="321" selection-end-line="321" />
-          </first_editor>
-          <second_editor />
-        </state>
-=======
-    <entry file="file://$PROJECT_DIR$/src/data/cmanuscript_images.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7875" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="48" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/REACT_README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4815">
-            <caret line="321" selection-start-line="321" selection-end-line="321" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="48" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/map.html" />
-    <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-517" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/map_viewTest.js" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="48" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/REACT_README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="321" selection-start-line="321" selection-end-line="321" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2340" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/leaflet/jsonToObject.js" />
-    <entry file="file://$PROJECT_DIR$/src/data/cmanuscript_images.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/cstories_collected.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret column="10940" selection-start-column="10940" selection-end-column="10940" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/cfieldtrips.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret column="11139" selection-start-column="11139" selection-end-column="11139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_mentioned_geojson.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="379" selection-start-line="12" selection-start-column="379" selection-end-line="12" selection-end-column="379" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_geojson.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="999" selection-start-line="55" selection-start-column="999" selection-end-line="55" selection-end-column="999" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/test1.js" />
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="254" column="40" lean-forward="true" selection-start-line="254" selection-start-column="40" selection-end-line="254" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -683,33 +701,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1457">
           <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
-          <folding>
-            <element signature="e#51#95#0" />
-            <element signature="e#96#137#0" expanded="true" />
-            <element signature="e#198#222#0" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#88#94#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/SearchComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> daef203417865cc7f6899330883be294d11951e9
     <entry file="file://$PROJECT_DIR$/src/components/MapView/leaflet/src/layer/GeoJSON.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2385">
@@ -717,17 +711,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#46#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/model.js" />
     <entry file="file://$PROJECT_DIR$/src/data/cplaces.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -737,152 +721,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/cplaces_copy.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#46#98#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="8" selection-start-column="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/places_geo.geojson">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3765">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="120">
+          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PlaceView/PlaceView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1597">
-          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+        <state>
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexusModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="51" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-=======
-    <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.css">
+    <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexus.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexusModel.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/PeopleView/PeopleView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-165">
           <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-313">
-          <caret line="195" column="10" selection-start-line="195" selection-start-column="10" selection-end-line="195" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.css">
-=======
-    <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/navigation.css">
->>>>>>> daef203417865cc7f6899330883be294d11951e9
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#45#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="141" column="10" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6390">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#88#94#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/safe_file.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -890,100 +753,271 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-=======
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/allinformants.json">
+    <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret column="651" selection-start-column="651" selection-end-column="651" />
+        <state relative-caret-position="-427" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexus.css" />
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/safe_file.js" />
+    <entry file="file://$PROJECT_DIR$/src/data/cfieldtrips.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret column="201" selection-start-column="201" selection-end-column="201" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/search.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="239" column="26" selection-start-line="239" selection-start-column="26" selection-end-line="239" selection-end-column="26" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="559">
-          <caret line="895" column="4" selection-start-line="895" selection-start-column="4" selection-end-line="895" selection-end-column="4" />
-=======
-        <state relative-caret-position="166">
-          <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
-          <folding>
-            <element signature="e#46#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/SearchComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="88" column="54" lean-forward="true" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-          <folding>
-            <element signature="e#45#86#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="97" column="43" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexus.js">
+        <state relative-caret-position="1005">
+          <caret line="67" column="136" selection-start-line="67" selection-start-column="136" selection-end-line="67" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/navigatorComponent.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
+        <state relative-caret-position="345">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/mapTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13020">
+          <caret line="868" column="1" selection-start-line="868" selection-start-column="1" selection-end-line="868" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/allstories.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret column="57613" selection-start-column="57613" selection-end-column="57613" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data-stores/configureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/model.js" />
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.4aca8df9.js" />
+    <entry file="file://$PROJECT_DIR$/src/actions/tabViewerActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/initialState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2835">
+          <caret line="453" selection-start-line="453" selection-end-line="472" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.aa70b3c7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35115">
+          <caret column="426646" selection-start-column="426646" selection-end-column="426646" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/rootReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/data/allinformants.json">
+    <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret column="78055" selection-start-column="78054" selection-end-column="78055" />
+        <state relative-caret-position="795">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/compile.html">
+    <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PeopleView/PeopleView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="497" column="49" selection-start-line="497" selection-start-column="49" selection-end-line="497" selection-end-column="49" />
+        <state relative-caret-position="2700">
+          <caret line="191" column="36" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="36" />
           <folding>
-            <element signature="e#45#86#0" expanded="true" />
-            <element signature="e#7068#17721#0" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
-=======
-    <entry file="file://$PROJECT_DIR$/src/components/UserNexus/UserNexusModel.js">
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-298">
-          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
->>>>>>> daef203417865cc7f6899330883be294d11951e9
+        <state relative-caret-position="1005">
+          <caret line="68" column="79" selection-start-line="68" selection-start-column="79" selection-end-line="68" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="109" column="107" selection-start-line="109" selection-start-column="107" selection-end-line="109" selection-end-column="107" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraphModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1014" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1315">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#307#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/tabViewerReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="120" column="57" selection-start-line="120" selection-start-column="57" selection-end-line="120" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="n#!!block;n#addTab#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/SearchComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="237" column="57" lean-forward="true" selection-start-line="237" selection-start-column="57" selection-end-line="237" selection-end-column="57" />
+          <folding>
+            <element signature="n#!!block;n#handleSearch#0;n#SearchComponent#0" />
+            <element signature="n#!!block;n#handleFuzzySearch#0;n#SearchComponent#0" />
+            <element signature="n#!!block;n#renderKeywords#0;n#SearchComponent#0" />
+            <element signature="n#!!block;n#renderListofSuggestions#0;n#SearchComponent#0" />
+            <element signature="n#!!block;n#renderSuggestions#0;n#SearchComponent#0" />
+            <element signature="n#!!block;n#switchKeywordSearch#0;n#SearchComponent#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="164" column="58" selection-start-line="164" selection-start-column="58" selection-end-line="164" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#renderPDF#0;n#TabViewer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/NavigatorComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="281" column="35" selection-start-line="281" selection-start-column="35" selection-end-line="281" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/icons8-waypoint-map-32.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/navigation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+          <folding>
+            <element signature="e#472#569#0" expanded="true" />
+            <element signature="n#!!block;n#timeFilterHandler#0;n#Navigation#0" />
+            <element signature="n#!!block;n#timeInputClickHandler#0;n#Navigation#0" />
+            <element signature="n#!!block;n#timeInputEnd#0;n#Navigation#0" />
+            <element signature="n#!!block;n#setDisplayLabel#0;n#Navigation#0" />
+            <element signature="e#11676#15572#0" />
+          </folding>
         </state>
       </provider>
     </entry>

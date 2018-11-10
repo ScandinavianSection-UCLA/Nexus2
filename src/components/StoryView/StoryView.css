@@ -32,7 +32,8 @@
     padding:3px;
     border-radius:2px;
     margin:2px;
-    display:inline-block
+    display: inline-block;
+    color: black;
 }
 .story-viewer{
     border:2px solid #e3e3e3;
@@ -47,12 +48,17 @@
 .story-viewer-options li{
     display:inline-block;
 }
+/*Height for story*/
 .story{
     overflow-y: scroll;
+    height:40vh;
 }
-.card.annotation{
-    overflow-y:scroll;
-}
+.story.card{height:90%;}
+
+/*Height for Annotations*/
+.card.annotation{height:25vh;}
+.card.annotation .card-section{overflow-y:scroll; height:100%;}
+
 .title{
     background-color: #dcdcdc;
     padding:1% 3% 1% 3%;
@@ -76,4 +82,3 @@
     font-weight:bold;
     text-align:center;
 }
-

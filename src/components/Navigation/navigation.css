@@ -54,10 +54,15 @@
     border:1px solid lightgrey;
     border-radius:5px;
 }
-.convo-icon, .person-icon, .location-icon{display:none;margin-right:1em;}
+.convo-icon, .person-icon, .location-icon, .fieldtrip-icon {display:none;margin-right:1em;}
 .convo-icon.Stories{display:inline-block;}
 .person-icon.People{display:inline-block;}
 .location-icon.Places{display:inline-block;}
+.fieldtrip-icon.Fieldtrips{display:inline-block;}
+
+
+.SearchTitle {display:none; margin-right:5px; font-weight:bold;}
+.SearchTitle.active {display:inline-block;}
 
 /*Time Filter*/
 .timeSwitch{
@@ -116,4 +121,18 @@
     height: 25px; /* Slider handle height */
     background: #ED4C67; /* Green background */
     cursor: pointer; /* Cursor on hover */
+}
+
+.hintText {
+    margin-left: 20px;
+}
+
+/* button that creates the nexus graph tab */
+#expandGraphButton {
+    /* don't add excess space around the button */
+    margin: 0;
+    /* expand it to occupy the whole width of its space */
+    width: 100%;
+    /* remove excess padding */
+    padding: 5px 0;
 }
