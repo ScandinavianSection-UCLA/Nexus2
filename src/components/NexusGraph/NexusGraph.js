@@ -8,6 +8,9 @@ import {Graph} from "react-d3-graph";
 import PropTypes from "prop-types";
 // function to get a node on the graoh by its name
 import {getNodeById} from "./NexusGraphModel";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+import connect from "react-redux/es/connect/connect";
 
 // basic settings for the graph, can be overriden with this.props
 const settings = {
@@ -62,7 +65,8 @@ class NexusGraph extends Component {
             // assuming we properly retrieved the node
             if (node !== null) {
                 // open up its tab
-                this.props.openNode(node["itemID"], nodeName, node["type"]);
+                // this.props.openNode(node["itemID"], nodeName, node["type"]);
+                this.props.tabViewerActions.addTab(node["itemID"], nodeName, node["type"]);
             }
         } else {
             // too long between clicks or different nodes clicked, treat it as a single click
@@ -124,5 +128,23 @@ NexusGraph.defaultProps = {
     },
     "settings": {},
 };
+NexusGraph.propTypes = {
+    "tabActions": PropTypes.object,
+};
 
-export default NexusGraph;
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(NexusGraph);

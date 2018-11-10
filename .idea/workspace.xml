@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="BookView opens up a chapter #23">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" afterDir="false" />
-    </list>
+    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="#23 - can click out of book menu by clicking outside of menu area&#10;Polished onKeywordClick, switches to home tab and the breadcrumbs describes what's being shown in the area" />
     <list id="4860e851-d29b-486f-9cb0-ecd95ba13bec" name="added low boards, high boards, prussian WMS tiles" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +13,7 @@
     <session id="-571760628">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
@@ -49,15 +45,15 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="5592" />
-          <entry key="PLAIN_TEXT" value="221" />
+          <entry key="JavaScript" value="5593" />
+          <entry key="PLAIN_TEXT" value="405" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="js" value="5592" />
-          <entry key="txt" value="220" />
+          <entry key="js" value="5593" />
+          <entry key="txt" value="404" />
         </counts>
       </usages-collector>
     </session>
@@ -130,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="114" column="42" lean-forward="true" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+            <state relative-caret-position="95">
+              <caret line="101" column="106" lean-forward="true" selection-start-line="101" selection-start-column="106" selection-end-line="101" selection-end-column="106" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -142,7 +138,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
@@ -258,10 +254,10 @@
         <option value="$PROJECT_DIR$/src/reducers/initialState.js" />
         <option value="$PROJECT_DIR$/src/reducers/tabViewerReducer.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/components/Heading/Heading.js" />
         <option value="$PROJECT_DIR$/src/components/BookView/BookView.js" />
         <option value="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
+        <option value="$PROJECT_DIR$/src/components/Heading/Heading.js" />
       </list>
     </option>
   </component>
@@ -287,8 +283,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="5" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
+    <option name="width" value="1543" />
     <option name="height" value="1003" />
   </component>
   <component name="ProjectView">
@@ -466,7 +463,7 @@
       <workItem from="1541737160535" duration="18185000" />
       <workItem from="1541804130828" duration="8000" />
       <workItem from="1541804239311" duration="491000" />
-      <workItem from="1541804756292" duration="2658000" />
+      <workItem from="1541804756292" duration="3053000" />
     </task>
     <task id="LOCAL-00001" summary="fixed this.props.places bug">
       <created>1525795879351</created>
@@ -538,11 +535,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541807379064</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="#23 - can click out of book menu by clicking outside of menu area&#10;Polished onKeywordClick, switches to home tab and the breadcrumbs describes what's being shown in the area">
+      <created>1541809037116</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541809037116</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215704000" />
+    <option name="totallyTimeSpent" value="216099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -651,7 +655,8 @@
     <MESSAGE value="CLICKING ON THE FLAG TAKES YOU HOME!!!!!!!!!!" />
     <MESSAGE value="new build + git ignore" />
     <MESSAGE value="BookView opens up a chapter #23" />
-    <option name="LAST_COMMIT_MESSAGE" value="BookView opens up a chapter #23" />
+    <MESSAGE value="#23 - can click out of book menu by clicking outside of menu area&#10;Polished onKeywordClick, switches to home tab and the breadcrumbs describes what's being shown in the area" />
+    <option name="LAST_COMMIT_MESSAGE" value="#23 - can click out of book menu by clicking outside of menu area&#10;Polished onKeywordClick, switches to home tab and the breadcrumbs describes what's being shown in the area" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
@@ -978,20 +983,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="114" column="42" lean-forward="true" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="101" column="106" lean-forward="true" selection-start-line="101" selection-start-column="106" selection-end-line="101" selection-end-column="106" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
