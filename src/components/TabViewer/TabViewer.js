@@ -162,6 +162,7 @@ class TabViewer extends Component {
             }, () => {
                 // update session storage with the new state
                 setSessionStorage("TabViewerSessionState", this.state);
+                this.props.tabViewerActions.switchTabs(0);
             });
         });
 

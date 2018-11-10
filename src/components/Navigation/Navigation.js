@@ -222,7 +222,11 @@ class Navigation extends Component {
     }
 
     flipSearch(CurrentState) {
-        this.setState({"searchOn": CurrentState});
+        if(this.props.searchWord.length >0){
+            this.setState({'searchOn': true})
+        } else {
+            this.setState({"searchOn": CurrentState});
+        }
     }
 
     setDisplayLabel(label) {
@@ -333,7 +337,10 @@ class Navigation extends Component {
                             <div className="stories-container cell medium-10">
                                 <ul className="book medium-cell-block-y">
                                     <h6 className="label secondary">
-                                        <span className={`SearchTitle ${this.state.searchOn ? "active" : ""}`}>Searching </span>
+                                        <span className={`SearchTitle ${(this.state.searchOn || this.props.searchWord.length >0 ) ? "active" : ""}`}>
+                                            Searching: </span>
+                                        <span className={`SearchTitle ${this.props.searchWord.length >0 ? "active" : ""}`}>
+                                            {"'"+this.props.searchWord + "' in "}</span>
                                         {this.state.displayLabel}
                                     </h6>
                                     {/* display the elements we assigned at the beginning of this function */}

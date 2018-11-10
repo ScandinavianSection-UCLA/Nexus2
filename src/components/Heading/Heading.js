@@ -107,7 +107,7 @@ class Heading extends Component {
                         style={{height: "2.9em", paddingTop: "7px", paddingLeft: "10px"}}
                         alt="book" />
                 </div>
-                <div className={`Menu ${this.state.menuActive ? 'active' : ''}`}>
+                <div className={`Menu ${this.state.menuActive ? 'active' : ''}`} onClick={this.menuToggle}>
                     <div className="solid">
                         <div className="Hamburger-Menu" onClick={this.menuToggle}>
                             <img src="https://png.icons8.com/wired/50/ffffff/literature.png" style={{height: "2.9em", paddingTop: "5px"}} alt="open book" />
