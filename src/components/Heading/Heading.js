@@ -66,7 +66,7 @@ class Heading extends Component {
                     <div className="solid">
                         {/* little open book at the top right */}
                         <div className="Hamburger-Menu" onClick={this.menuToggle}>
-                            <img src="https://png.icons8.com/wired/50/ffffff/literature.png" style={{"height": "2.9em", "paddingTop": "5px"}} alt="open book" />
+                            <img src="https://png.icons8.com/wired/50/ffffff/literature.png" style={{"height": "2.9em", "paddingTop": "5px"}} alt="open book" onClick={this.menuToggle} />
                         </div>
                         {/* list of all the chapters */}
                         <ul className="list">
