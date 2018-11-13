@@ -1,83 +1,100 @@
-/**
- * Created by danielhuang on 2/28/18.
- */
-import React, { Component } from 'react';
-import {ReactReader} from 'react-reader'
-// import styles from './BookView.css'
-
-const storage = global.localStorage || null;
-
-var MenuList = {
-    1: {"name": "Preface", "url": "", "submenu": [], "id": "1"},
-    2: {"name": "Acknowledgements", "url": "", "submenu": [], "id": "2"},
-    3: {"name": "1. Introduction", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "3"},
-    4: {"name": "2. The Rise of Folklore Scholarship", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "4"},
-    5: {"name": "3. Evald Tang Kristensen's Life and Work", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "5"},
-    6: {"name": "4. Folklore Genres", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "6"},
-    7: {"name": "5. Mapping Folklore", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "7"},
-    8: {"name": "6. Repertoire and the Individual", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "8"},
-    9: {"name": "7. 'Bitte Jens' Kristensen: Cobbled Together", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "9"},
-    10: {"name": "8. Kristen Marie Pedersdatter: Between Farms and Smallholding", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "10"},
-    11: {"name": "9. Jens Peter Peterson: Day Laborer and Turner", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "11"},
-    12: {"name": "10. Ane Margrete Jensdatter: Old Age and Rural Poverty", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "12"},
-    13: {"name": "11. Peder Johansen: Miller, Fiddler, Bachelor Storyteller", "url": "/Book/merge_from_ofoct.epub", "submenu": [], "id": "13"},
-    14: {"name": "Additional Information", "url": "", "submenu": [], "id":"14"},
-    15: {"name": "About", "url": "", "submenu": "", "id":"15"},
-};
+// react functionality
+import React, {Component} from "react";
+// to display the e-book
+import {ReactReader} from "react-reader";
+// prop validation
+import PropTypes from "prop-types";
+// chapter data
+import menuList from "../../data/book_menu.json";
 
 class BookView extends Component {
-
-    constructor(){
+    constructor() {
         super();
+
+        // initial state
         this.state = {
-            location: (storage && storage.getItem('epub-location')) ? storage.getItem('epub-location') : 2,
-            largeText: false
+            // start on the first page
+            "location": 0,
+            // don't zoom in
+            "largeText": false,
         };
-        this.rendition = null
+
+        // to be set once the book is rendered
+        this.rendition = null;
+
+        // bind the functions so that they function properly in sub-elements
+        this.onLocationChanged = this.onLocationChanged.bind(this);
+        this.onToggleFontSize = this.onToggleFontSize.bind(this);
+        this.getRendition = this.getRendition.bind(this);
     }
 
-    //TODO: set location to clicked chapter (this.props.chapter)
-
-    onLocationChanged = (location) => {
-        console.log(location);
+    // called right before the first render
+    componentWillMount() {
         this.setState({
-            location
-        }, () => {
-            storage && storage.setItem('epub-location', location)
-        })
-    };
+            // go to the chapter that was selected
+            "location": menuList[this.props.id].location,
+        });
+    }
 
-    onToggleFontSize = () => {
-        const nextState = !this.state.largeText;
+    // called when the page changes
+    onLocationChanged(prevLocation) {
         this.setState({
-            largeText: nextState
-        }, () => {
-            this.rendition.themes.fontSize(nextState ? '140%' : '100%')
-        })
-    };
+            // update the page
+            "location": prevLocation,
+        });
+    }
 
-    getRendition = (rendition) => {
-        // Set inital font-size, and add a pointer to rendition for later updates
+    // toggle between zoomed/unzoomed font
+    onToggleFontSize() {
+        this.setState((prevState) => {
+            return {
+                // switch between large and normal font
+                "largeText": !prevState.largeText,
+            };
+        }, function() {
+            // update the book to show large font if needed
+            this.rendition.themes.fontSize(this.state.largeText ? "140%" : "100%");
+        });
+    }
+
+    // get a reference to the rendered book
+    getRendition(rendition) {
+        // set inital font-size, and add a pointer to rendition for later updates
         const {largeText} = this.state;
+        // reference to the rendered book
         this.rendition = rendition;
-        rendition.themes.fontSize(largeText ? '140%' : '100%');
-    };
+        // enlarge the font if needed
+        rendition.themes.fontSize(largeText ? "140%" : "100%");
+    }
 
     render() {
-        const {location} = this.state;
         return (
-            <div className="BookView" style={{position: 'relative', height: '82vh'}}>
+            // div to contain book + button
+            <div className="BookView" style={{"position": "relative", "height": "82vh"}}>
                 <ReactReader
-                    url={'/Book/merge_from_ofoct.epub'} //find url's from Heading.js in componentWillMount
-                    title={MenuList[this.props.id].name}
-                    location={location}
+                    // path to the .epub file
+                    url={"/Book/merge_from_ofoct.epub"}
+                    // page to load
+                    location={this.state.location}
+                    // callback for when the page is changed
                     locationChanged={this.onLocationChanged}
+                    // callback for when the book finishes rendering
                     getRendition={this.getRendition}
                 />
-                <button className="button" style={{'float':'right', 'marginTop':'-10px'}} onClick={this.onToggleFontSize}>Toggle font-size</button>
+                {/* button to zoom the font in/out */}
+                <button className="button" style={{"float": "right", "marginTop": "-10px"}} onClick={this.onToggleFontSize}>Toggle font-size</button>
             </div>
         );
     }
 }
+
+BookView.propTypes = {
+    // must have id to load a chapter
+    "id": PropTypes.number.isRequired,
+};
+
+BookView.defaultProps = {
+    "id": 0,
+};
 
 export default BookView;
