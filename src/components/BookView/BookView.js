@@ -6,34 +6,48 @@ import {ReactReader} from "react-reader";
 import PropTypes from "prop-types";
 // chapter data
 import menuList from "../../data/book_menu.json";
+import "./BookView.css";
 
 class BookView extends Component {
     constructor() {
         super();
-
         // initial state
         this.state = {
+            // prop chapter
+            "id": 0,
             // start on the first page
             "location": 0,
-            // don't zoom in
+            // start with normal text
             "largeText": false,
         };
-
         // to be set once the book is rendered
         this.rendition = null;
-
         // bind the functions so that they function properly in sub-elements
         this.onLocationChanged = this.onLocationChanged.bind(this);
         this.onToggleFontSize = this.onToggleFontSize.bind(this);
         this.getRendition = this.getRendition.bind(this);
     }
 
-    // called right before the first render
-    componentWillMount() {
+    // called at the first loading of the component
+    componentDidMount() {
         this.setState({
-            // go to the chapter that was selected
-            "location": menuList[this.props.id].location,
+            // set the chapter that we got loaded to
+            "propChapter": this.props.id,
         });
+    }
+
+    // called whenever we get a chapter to go to (includes initial render)
+    static getDerivedStateFromProps(props, state) {
+        // if we actually got a prop update and not a state update (chapter changed)
+        if (props.id !== state.id) {
+            // update the state
+            return {
+                // update the chapter we go to
+                "id": props.id,
+                // go to the chapter that was selected
+                "location": menuList[props.id].location,
+            };
+        }
     }
 
     // called when the page changes
@@ -82,7 +96,14 @@ class BookView extends Component {
                     getRendition={this.getRendition}
                 />
                 {/* button to zoom the font in/out */}
-                <button className="button" style={{"float": "right", "marginTop": "-10px"}} onClick={this.onToggleFontSize}>Toggle font-size</button>
+                <button
+                    // give it button CSS and its own special formatting
+                    className="button toggleFontSize"
+                    // callback for when the button is clicked
+                    onClick={this.onToggleFontSize}>
+                    {/* if we have zoomed in text, offer smaller font, otherwise (for non-zoomed font) offer larger font */}
+                    {this.state.largeText ? "Smaller Font" : "Larger Font"}
+                </button>
             </div>
         );
     }

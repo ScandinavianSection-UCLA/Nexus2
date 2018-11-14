@@ -21,7 +21,6 @@ class Heading extends Component {
             // the story menu is by default not selected
             "menuActive": false,
         };
-
         // bind the menu toggle so that sub-elements can properly toggle the menu
         this.menuToggle = this.menuToggle.bind(this);
     }
@@ -44,9 +43,16 @@ class Heading extends Component {
                     <div className="grid-x grid-margin-x">
                         {/* Flag that links back to the home page */}
                         <a className="flag medium-3 medium-offset-1 cell">
-                            <img src={require("./assets/DENM0001.png")}
-                                alt="Danish Flag" onClick={(e) => {
-                                    e.preventDefault();
+                            <img
+                                // load image from the correct file
+                                src={require("./assets/DENM0001.png")}
+                                // text if the file can't load
+                                alt="Danish Flag"
+                                // callback for when the function is clicked
+                                onClick={(event) => {
+                                    // prevent default click behavior
+                                    event.preventDefault();
+                                    // go to the home tab
                                     this.props.tabViewerActions.switchTabs(0);
                                 }} />
                         </a>
@@ -55,9 +61,15 @@ class Heading extends Component {
                         <h6 className="etk medium-6 cell">The Evald Tang <br /> Kristensen Collection</h6>
                     </div>
                 </div>
-                {/* Book icon to toggle the chapter selection dropdown */}
-                <div className="medium-offset-7 large-offset-7 Hamburger-Menu medium-1 cell" onClick={this.menuToggle}>
-                    <img src="https://png.icons8.com/wired/64/ffffff/book.png"
+                {/* Book icon to open the chapter selection dropdown */}
+                <div
+                    // CSS classes
+                    className="medium-offset-7 large-offset-7 Hamburger-Menu medium-1 cell"
+                    // toggle the menu when this is clicked
+                    onClick={this.menuToggle}>
+                    <img
+                        // from where to load the image
+                        src="https://png.icons8.com/wired/64/ffffff/book.png"
                         style={{"height": "2.9em", "paddingTop": "7px", "paddingLeft": "10px"}}
                         alt="book" />
                 </div>
@@ -70,13 +82,19 @@ class Heading extends Component {
                         </div>
                         {/* list of all the chapters */}
                         <ul className="list">
+                            {/* for each of the chapter links */}
                             {menuList.map((menuItem, i) => {
+                                // return a single element of the list
                                 return <li
+                                    // unique key for react re-rendering
                                     key={i}
+                                    // style it as a dropdown element
                                     className="menu-item"
+                                    // callback when this option is clicked
                                     onClick={(event) => {
+                                        // prevent default click behavior
                                         event.preventDefault();
-                                        console.log(`Clicked ${menuItem}`, menuItem);
+                                        // add a tab to the desired chapter
                                         this.props.tabViewerActions.addTab(i, menuItem.name, "Book");
                                     }}
                                 >{menuItem.name}</li>;

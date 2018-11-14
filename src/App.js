@@ -1,63 +1,32 @@
-import React, { Component } from 'react';
-import TabViewer from './components/TabViewer/TabViewer';
-import Heading from './components/Heading/Heading.js'
-import './App.css';
-import { Route, Switch } from 'react-router'
-import { BrowserRouter } from 'react-router-dom'
-
-
-// import Navigation from "./components/Navigation/Navigation";
+import React, {Component} from "react";
+import TabViewer from "./components/TabViewer/TabViewer";
+import Heading from "./components/Heading/Heading.js";
+import "./App.css";
 
 class App extends Component {
-
-    constructor(){
+    constructor() {
         super();
+        // start in a state of loading
         this.state = {
-            menuItem:{},
-            loading:true,
+            "loading": true,
         };
-        this.menuHandler = this.menuHandler.bind(this);
-        this.tabViewer = this.refs.tabViewer;
     }
 
-    componentDidMount(){
-        //simulate async action and remove loader
-        setTimeout(()=> this.setState({loading:false}),1500);
-    }
-
-    menuHandler(dataObject){
-        console.log(this.tabViewer, this.refs.tabViewer);
-        this.refs.tabViewer.renderPDF(dataObject['chap'],dataObject['name']);
-    }
-
-    homeHandler(){
-
+    componentDidMount() {
+        // simulate async action and remove loader
+        setTimeout(() => this.setState({"loading": false}), 1500);
     }
 
     render() {
-
         return (
             <div className="App grid-y medium-grid-frame full">
-                <BrowserRouter>
-                    <Switch>
-                        <Route path="" exact render={()=>{
-                            return(
-                                <div>
-                                    <Heading sendData={this.menuHandler.bind(this)}/>
-                                    <TabViewer ref="tabViewer" menuItem={this.state.menuItem}/>
-                                </div>
-                            )
-                        }}/>
-                        <Route path="/hello" exact render={()=>{
-                            return(
-                                <div>
-                                    <Heading sendData={this.menuHandler.bind(this)}/>
-                                    <TabViewer ref="tabViewer" menuItem={this.state.menuItem} home={true}/>
-                                </div>
-                            )
-                        }}/>
-                    </Switch>
-                </BrowserRouter>
+                {/* without nested div, the Book View gets mega-compressed */}
+                <div>
+                    {/* Top banner with flag + title on left, book icon on right */}
+                    <Heading />
+                    {/* Everything else on the page */}
+                    <TabViewer />
+                </div>
             </div>
         );
     }

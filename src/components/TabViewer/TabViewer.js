@@ -8,24 +8,20 @@ import BookView from "../BookView/BookView";
 import GraphView from "../NexusGraph/GraphView";
 import * as model from "../../data-stores/DisplayArtifactModel";
 import "./TabViewer.css";
-import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
 import PropTypes from "prop-types";
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
 import * as tabViewerActions from "../../actions/tabViewerActions";
 
-
-
 class TabViewer extends Component {
     constructor() {
         super();
+        // initial state
         this.state = {
-            "views": [],
-            "storyPath": "",
-            "active": {},
+            // by default, no search to load
             "searchWord": "",
         };
-        this.renderPDF = this.renderPDF.bind(this);
+        // properly bind functions so that they can work in sub-elements
         this.renderPPFS = this.renderPPFS.bind(this);
         this.handleKeywordSearch = this.handleKeywordSearch.bind(this);
         this.renderActiveTab = this.renderActiveTab.bind(this);
@@ -41,85 +37,45 @@ class TabViewer extends Component {
         // depending on the type of the view to render
         switch (type) {
             case "People":
-                // for people, return a PeopleView
-                return <PeopleView
-                    // with the person retrieved by the passed ID
-                    person={model.getPeopleByID(id)}
-                    />;
+                // for people, return a PeopleView with the person retrieved by the passed ID
+                return <PeopleView person={model.getPeopleByID(id)} />;
             case "Places":
-                // for places, return a PlaceView
-                return <PlaceView
-                    // with the place retrieved by the passed ID
-                    place={model.getPlacesByID(id)}
-                    />;
+                // for places, return a PlaceView with the place retrieved by the passed ID
+                return <PlaceView place={model.getPlacesByID(id)} />;
             case "Fieldtrips":
-                // for fieldtrip, return a FieldtripView
-                return <FieldtripView
-                    // with the fieldtrip retrieved by the passed ID
-                    fieldtrip={model.getFieldtripsByID(id)}
-                   />;
+                // for fieldtrip, return a FieldtripViewwith the fieldtrip retrieved by the passed ID
+                return <FieldtripView fieldtrip={model.getFieldtripsByID(id)} />;
             case "Stories":
                 // for stories, return a StoryView
                 return <StoryView
                     // with the story retrieved by the passed ID
                     story={model.getStoryByID(id)}
+                    // function to handle any potential clicked keywords
                     handleKeywordSearch={this.handleKeywordSearch} />;
             case "Home": case "home":
-                // for the Home tab, return the main Navigation view (home), with addTab for any selected tabs
-                return <Navigation
-                    searchWord={this.state.searchWord} />;
+                // for the Home tab, return the main Navigation view (home), with the searchWord if set
+                return <Navigation searchWord={this.state.searchWord} />;
             case "Graph":
                 // for the graph, return the GraphView, with addTab to open pages on double clicked nodes
                 return <GraphView openNode={this.addTab} />;
             case "Book":
-                return <BookView id={id}/>;
+                // for the book, return the BookView, with the chapter ID that was selected
+                return <BookView id={id} />;
             default:
                 // if it wasn't one of the above types, warn that we hit an unknown type
-                console.warn(`Unhandled tab type ${type}`);
+                console.warn(`Unhandled tab type: ${type}`);
         }
     }
 
-    // update views with PDF views
-    renderPDF(chapter, name) {
-        var nameUpdated = true;
-        if (this.state.active.name === name) {
-            nameUpdated = false;
-        } else {
-            this.state.views.forEach((view) => {
-                if (view.name === name) {
-                    nameUpdated = false;
-                }
-            });
-        }
-        if (name !== undefined && nameUpdated) {
-            var PDFObject = {
-                "name": name,
-                "chapter": chapter,
-                "jsx": <BookView chapter={chapter} name={name}>{name}</BookView>,
-                "active": true,
-            };
-            this.setState((prevState) => {
-                var newState = prevState;
-                newState.views.forEach((view) => {
-                    view.active = false;
-                });
-                newState.views.push(PDFObject);
-                return {"views": newState.views, "active": PDFObject};
-            });
-        }
-    }
-
+    /**
+     * Render the active tab as the main content of the page
+     * @returns {JSX} The rendered JSX
+     */
     renderActiveTab() {
-        var CurrentState = this.props.state;
-        console.log(CurrentState,'active tab!');
-        var viewToRender;
-        CurrentState['views'].forEach((view)=>{
-            if(view['active']){
-                console.log(this.renderPPFS(view['id'], view['type']));
-                viewToRender= this.renderPPFS(view['id'], view['type']);
-            }
-        });
-        return viewToRender;
+        // search through the list of tabs for the active tab
+        const activeView = this.props.state.views.find((view) => view.active);
+        // return the rendered content of the tab
+        return this.renderPPFS(activeView.id, activeView.type);
     }
 
     /**
@@ -131,41 +87,9 @@ class TabViewer extends Component {
             // update the word that was clicked
             "searchWord": keyword,
         }, function() {
-            this.setState(({views}) => {
-                // variable to store the home view
-                let homeView;
-                // for each of the current views
-                views.forEach((currentView) => {
-                    // if the view is not the home view
-                    if (currentView.name !== "Home") {
-                        currentView["active"] = false;
-                    } else {
-                        // for the home view
-                        currentView = {
-                            ...currentView,
-                            // set it to be active
-                            "active": true,
-                            // and re-render it with updated JSX (for the keyword)
-                            "jsx": this.renderPPFS(0, "Home"),
-                        };
-                        // set our home variable to be this view
-                        homeView = currentView;
-                    }
-                });
-                // update the state
-                return {
-                    // views = our modified, updated views
-                    "views": views,
-                    // active = the home view
-                    "active": homeView,
-                };
-            }, () => {
-                // update session storage with the new state
-                setSessionStorage("TabViewerSessionState", this.state);
-                this.props.tabViewerActions.switchTabs(0);
-            });
+            // go to the home tab
+            this.props.tabViewerActions.switchTabs(0);
         });
-
     }
 
     render() {
@@ -179,23 +103,37 @@ class TabViewer extends Component {
                     </div>
                     {/* List of tabs that are displayed at the bottom of the browser/app*/}
                     <ul className="tabs cell medium-1"> {/* medium-1 sets the height of the tabs*/}
-                        {this.props.state.views.map((view, i) => {
+                        {/* for each tab to display */}
+                        {this.props.state.views.map((view, index) => {
                             return (
+                                // return a tab JSX element
                                 <li
+                                    // callback when the tab is clicked
                                     onClick={(event) => {
+                                        // prevent defualt click behavior
                                         event.preventDefault();
-                                        this.props.tabViewerActions.switchTabs(i);
+                                        // if a tab is clicked, we should switch to that tab
+                                        this.props.tabViewerActions.switchTabs(index);
                                     }}
-                                    key={i}
+                                    // key to control re-rendering of tabs
+                                    key={index}
+                                    // make it active if this is the current tab
                                     className={`${view.active ? "active" : ""}`}>
+                                    {/* show the display text on the tab */}
                                     {view.name}
                                     <img
+                                        // source of the image (URL)
                                         src="https://png.icons8.com/material/50/000000/delete-sign.png"
+                                        // text to display if it can't show up
                                         alt="Close Icon"
+                                        // give it the styling for the close button, don't display a close button on the home tab (it can't be closed)
                                         className={`closeTabIcon ${view.name === "Home" ? "noClose" : ""}`}
+                                        // callback when the "x" is clicked
                                         onClick={(event) => {
+                                            // prevent default click behavior
                                             event.preventDefault();
-                                            this.props.tabViewerActions.closeTab(i);
+                                            // if the "x" is clicked we should close the tab
+                                            this.props.tabViewerActions.closeTab(index);
                                         }} />
                                 </li>
                             );
@@ -208,7 +146,10 @@ class TabViewer extends Component {
 }
 
 TabViewer.propTypes = {
-    "tabActions": PropTypes.object,
+    "tabViewerActions": PropTypes.object.isRequired,
+    "state": PropTypes.shape({
+        "views": PropTypes.array.isRequired,
+    }).isRequired,
 };
 
 function mapStateToProps(state) {
