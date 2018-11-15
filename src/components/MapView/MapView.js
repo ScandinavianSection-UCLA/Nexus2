@@ -92,18 +92,14 @@ class MapView extends React.Component {
         var propsPlaces = this.props.places;
         if (propsPlaces.length < 1 || Array.isArray(this.props.person)) {
             zoom = 12;
-            console.log("just set zoom to 12"); // far out
         } else {
             zoom = 7;
-            console.log("just set zoom to 7"); // zoomed in
         }
-        // console.log('this is didMOUNT props.places',this.props.places);
     }
 
     componentDidMount() {
         // create map
         // zoom=7;
-        console.log("component did mount");
         var mapCenter = [56.2639, 9.5018];
         this.map = L.map(this.container, {
             "center": mapCenter,
@@ -150,33 +146,24 @@ class MapView extends React.Component {
         // var propsPlaces=this.props.places;
         // if(propsPlaces.length<1 || Array.isArray(this.props.person)){
         //     zoom=12
-        //     console.log('just set zoom to 12')  //far out
         // }
         // else{
         //     zoom=7
-        //     console.log('just set zoom to 7') //zoomed in
         // }
-        // console.log('this is didMOUNT props.places',this.props.places);
 
     } // end of component did mount
 
     updateMarkers() {
         // var propsPlaces=this.props.places;
-        console.log("this is didMOUNT props.places", this.props.places);
-        console.log("this is the array----->", this.props.places);
         this.getZoomlevel();
 
         if (this.props.places != null) {
             var array = [];
             if (this.props.places[0] === undefined) {
                 array = [];
-                console.log("thisarray is undefined", array.length);
             } else {
                 array = this.props.places;
-                console.log("this array isnt undfined");
-
             }
-            console.log("length of array", array.length);
             // filter out any null (i.e. invalid) places from the array
             array = array.filter(place => place !== null);
             var itemCount = array.length;
@@ -187,9 +174,7 @@ class MapView extends React.Component {
             for (var i = 0; i < loopCounter; i++) {
                 var placeId = array[i].place_id;
                 var latitude = array[i].latitude;
-                console.log(latitude);
                 var longitude = array[i].longitude;
-                console.log("this.map.center", this.map.center);
             }
 
             this.geoJson = L.geoJSON(places_geo, {
@@ -236,7 +221,6 @@ class MapView extends React.Component {
     componentDidUpdate() {
         // this.map.remove();
         // this.updateMarkers(this.props.places);
-        console.log("component did update");
     }
 
     componentWillUnmount() {

@@ -16,15 +16,16 @@ import * as tabViewerActions from "../../actions/tabViewerActions";
 class TabViewer extends Component {
     constructor() {
         super();
-        // initial state
         this.state = {
             // by default, no search to load
             "searchWord": "",
         };
+        // stores the left edge X-coordiantes of each tab
+        this.tabPos = [];
         // properly bind functions so that they can work in sub-elements
-        this.renderPPFS = this.renderPPFS.bind(this);
         this.handleKeywordSearch = this.handleKeywordSearch.bind(this);
         this.renderActiveTab = this.renderActiveTab.bind(this);
+        this.handleDragEnd = this.handleDragEnd.bind(this);
     }
 
     /**
@@ -92,6 +93,30 @@ class TabViewer extends Component {
         });
     }
 
+    // called when a tab stops being dragged
+    handleDragEnd(event, index) {
+        // we can't move the home tab
+        if (index !== 0) {
+            // get the final X of the drag
+            const {screenX} = event;
+            // find the index of the first tab such that the mouse was released to the left of its left edge
+            // and go one of left of that to put it in the spot where the mouse was released
+            let newIndex = this.tabPos.findIndex((x) => screenX <= x) - 1;
+            // if we went past the last left edge (waaaaay right)
+            console.log(newIndex);
+            if (newIndex === -2) {
+                // this should become the last tab in the list
+                newIndex = this.tabPos.length - 1;
+            } else if (newIndex === 0 || newIndex === -1) {
+                // if it was dropped at home or to the left of home
+                // this should become the second tab in the list (after home)
+                newIndex = 1;
+            }
+            // move the dragged tab to the desired spot
+            this.props.tabViewerActions.moveTab(index, newIndex);
+        }
+    }
+
     render() {
         return (
             <div className="TabViewer grid-container full">
@@ -108,12 +133,27 @@ class TabViewer extends Component {
                             return (
                                 // return a tab JSX element
                                 <li
+                                    // based on the actual DOM element that results
+                                    ref={(instance) => {
+                                        // assuming we got a proper render
+                                        if (instance !== null) {
+                                            // set the width of the tabs in tabPos
+                                            this.tabPos[index] = instance.getBoundingClientRect().x;
+                                        }
+                                    }}
                                     // callback when the tab is clicked
                                     onClick={(event) => {
-                                        // prevent defualt click behavior
+                                        // prevent default click behavior
                                         event.preventDefault();
                                         // if a tab is clicked, we should switch to that tab
                                         this.props.tabViewerActions.switchTabs(index);
+                                    }}
+                                    draggable="true"
+                                    onDragEnd={(event) => {
+                                        // prevent default behavior
+                                        event.preventDefault();
+                                        // move the tab appropriately
+                                        this.handleDragEnd(event, index);
                                     }}
                                     // key to control re-rendering of tabs
                                     key={index}
@@ -140,7 +180,7 @@ class TabViewer extends Component {
                         })}
                     </ul>
                 </div>
-            </div>
+            </div >
         );
     }
 }
