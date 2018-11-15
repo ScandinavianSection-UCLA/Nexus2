@@ -2,13 +2,6 @@ import initialState from "./initialState";
 import * as actions from "../actions/actionTypes";
 import {setSessionStorage} from "../data-stores/SessionStorageModel";
 
-const NavigationObject = {
-    "active": true,
-    "id": 0,
-    "name": "Home",
-    "type": "Home",
-};
-
 /**
  * Switch to a new active tab
  * @param {Object} OldState The pre-switch state
@@ -50,8 +43,8 @@ function closeTab(ShallowNewState, RemoveIndex) {
     let NewState = {...ShallowNewState};
     // if the active view will be closed
     if (NewState.views[RemoveIndex].active === true) {
-        // go to the home view
-        NewState.views[0] = NavigationObject;
+        // set the home view to be active
+        NewState.views[0].active = true;
     }
     // remove the tab by the requested index
     NewState.views.splice(RemoveIndex, 1);
@@ -127,6 +120,38 @@ function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
 }
 
 /**
+ * Move a tab to a new index
+ * Note that you cannot move a tab to index 0 (Home is fixed to index 0)
+ * @param {*} OldState The pre-drag state of the tabs
+ * @param {*} indices Object containing the tab index to move (OldTabIndex) and where to move it to (NewTabIndex)
+ * @returns {*} The updated, tab-moved state
+ */
+function moveTab(OldState, {OldTabIndex, NewTabIndex}) {
+    // make sure we are not affecting the home tab
+    if (NewTabIndex !== 0 && OldTabIndex !== 0) {
+        // get a copy of the views to ensure immutability
+        let {views} = {...OldState};
+        // get the view that we are to move
+        const viewToMove = views[OldTabIndex];
+        // delete the tab at its old index
+        views.splice(OldTabIndex, 1);
+        // re-add it at the desired index
+        views.splice(NewTabIndex, 0, viewToMove);
+        return {
+            // leave the state mostly unmodified
+            ...OldState,
+            // but update the view with the move tab
+            views,
+        };
+    } else {
+        // can't move home tab!
+        console.warn("Cannot move the home tab!");
+        // don't change anything
+        return OldState;
+    }
+}
+
+/**
  * Generic handler for manipulating the tabs and updating their state
  * @param {Object} state The pre-update state
  * @param {Object} action Action to do to the tabs (ADD_TAB, SWITCH_TABS, CLOSE_TAB)
@@ -147,6 +172,9 @@ export default function tabViewer(state = initialState.tabState, action) {
         case actions.CLOSE_TAB:
             console.log("CLOSE_TAB ACTION", state);
             return closeTab(state, action.payload);
+        case actions.MOVE_TAB:
+            console.log("MOVE_TAB ACTION", state);
+            return moveTab(state, action.payload);
         // unhandled error type
         default:
             // warn that we hit a bad action
