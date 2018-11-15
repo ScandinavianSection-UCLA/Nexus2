@@ -6,10 +6,6 @@ import PropTypes from "prop-types";
 class FieldtripView extends Component {
     constructor () {
         super();
-        this.renderPeople = this.renderPeople.bind(this);
-        this.renderPlaces = this.renderPlaces.bind(this);
-        this.renderStories = this.renderStories.bind(this);
-        this.renderResults = this.renderResults.bind(this);
         this.clickHandler = this.clickHandler.bind(this);
     }
 
@@ -17,83 +13,83 @@ class FieldtripView extends Component {
         this.props.addID(id, name, type);
     }
 
-    renderStories() {
-        return <div className="results">
-            <h3>Stories Collected</h3>
-            <ul>
-                {this.props.fieldtrip["stories_collected"].map((story, i) => {
-                    return <li key={i} className="associated-items" onClick={
-                        (e) => {e.preventDefault(); this.clickHandler(story["story_id"], story["full_name"], "Stories")}
-                    }>{story.full_name}</li>
-                })}
-            </ul>
-        </div>;
-    }
-
-    renderPlaces() {
-        return <div className="results">
-            <h3>Places Visited</h3>
-            <ul>
-                {this.props.fieldtrip["places_visited"].map((place, i) => {
-                    return <li key={i} className="associated-items" onClick={
-                        (e) => {e.preventDefault(); this.clickHandler(place["place_id"], place["name"], "Places")}
-                    }>{place.full_name}</li>
-                })}
-            </ul>
-        </div>;
-    }
-
-    renderPeople() {
-        return <div className="results">
-            <h3>People Visited</h3>
-            <ul>
-                {this.props.fieldtrip["people_visited"].map((person, i) => {
-                    return <li key={i} className="associated-items" onClick={
-                        (e) => {e.preventDefault(); this.clickHandler(person["person_id"], person["full_name"], "People")}
-                    } >{person.full_name}</li>
-                })}
-            </ul>
-        </div>;
-    }
-
-    renderResults() {
-        if (this.props.fieldtrip["people_visited"] !== [] && this.props.fieldtrip["places_visited"] !== [] && this.props.fieldtrip["stories_collected"] !== []) {
-            return <div>
-                {this.renderPeople()}
-                {this.renderPlaces()}
-                {this.renderStories()}
-            </div>;
-        } else if (this.props.fieldtrip["people_visited"] !== [] && this.props.fieldtrip["places_visited"] !== []) {
-            return <div>
-                {this.renderPeople()}
-                {this.renderPlaces()}
-            </div>;
-        } else if (this.props.fieldtrip["people_visited"] !== [] && this.props.fieldtrip["stories_collected"] !== []) {
-            return <div>
-                {this.renderPeople()}
-                {this.renderStories()}
-            </div>;
-        } else if (this.props.fieldtrip["places_visited"] !== [] && this.props.fieldtrip["stories_collected"] !== []) {
-            return <div>
-                {this.renderPlaces()}
-                {this.renderStories()}
-            </div>;
-        } else if (this.props.fieldtrip["places_visited"] !== []) {
-            return <div>
-                {this.renderPlaces()}
-            </div>;
-        } else if (this.props.fieldtrip["stories_collected"] !== []) {
-            return <div>
-                {this.renderStories()}
-            </div>;
-        } else if (this.props.fieldtrip["people_visited"] !== []) {
-            return <div>
-                {this.renderPeople()}
-            </div>;
-        } else {
-            return <h4>Nothing to show</h4>
-        }
-    }
+    // renderStories() {
+    //     return <div className="results">
+    //         <h3>Stories Collected</h3>
+    //         <ul>
+    //             {this.props.fieldtrip["stories_collected"].map((story, i) => {
+    //                 return <li key={i} className="associated-items" onClick={
+    //                     (e) => {e.preventDefault(); this.clickHandler(story["story_id"], story["full_name"], "Stories")}
+    //                 }>{story.full_name}</li>
+    //             })}
+    //         </ul>
+    //     </div>;
+    // }
+    //
+    // renderPlaces() {
+    //     return <div className="results">
+    //         <h3>Places Visited</h3>
+    //         <ul>
+    //             {this.props.fieldtrip["places_visited"].map((place, i) => {
+    //                 return <li key={i} className="associated-items" onClick={
+    //                     (e) => {e.preventDefault(); this.clickHandler(place["place_id"], place["name"], "Places")}
+    //                 }>{place.full_name}</li>
+    //             })}
+    //         </ul>
+    //     </div>;
+    // }
+    //
+    // renderPeople() {
+    //     return <div className="results">
+    //         <h3>People Visited</h3>
+    //         <ul>
+    //             {this.props.fieldtrip["people_visited"].map((person, i) => {
+    //                 return <li key={i} className="associated-items" onClick={
+    //                     (e) => {e.preventDefault(); this.clickHandler(person["person_id"], person["full_name"], "People")}
+    //                 } >{person.full_name}</li>
+    //             })}
+    //         </ul>
+    //     </div>;
+    // }
+    //
+    // renderResults() {
+    //     if (this.props.fieldtrip["people_visited"] !== [] && this.props.fieldtrip["places_visited"] !== [] && this.props.fieldtrip["stories_collected"] !== []) {
+    //         return <div>
+    //             {this.renderPeople()}
+    //             {this.renderPlaces()}
+    //             {this.renderStories()}
+    //         </div>;
+    //     } else if (this.props.fieldtrip["people_visited"] !== [] && this.props.fieldtrip["places_visited"] !== []) {
+    //         return <div>
+    //             {this.renderPeople()}
+    //             {this.renderPlaces()}
+    //         </div>;
+    //     } else if (this.props.fieldtrip["people_visited"] !== [] && this.props.fieldtrip["stories_collected"] !== []) {
+    //         return <div>
+    //             {this.renderPeople()}
+    //             {this.renderStories()}
+    //         </div>;
+    //     } else if (this.props.fieldtrip["places_visited"] !== [] && this.props.fieldtrip["stories_collected"] !== []) {
+    //         return <div>
+    //             {this.renderPlaces()}
+    //             {this.renderStories()}
+    //         </div>;
+    //     } else if (this.props.fieldtrip["places_visited"] !== []) {
+    //         return <div>
+    //             {this.renderPlaces()}
+    //         </div>;
+    //     } else if (this.props.fieldtrip["stories_collected"] !== []) {
+    //         return <div>
+    //             {this.renderStories()}
+    //         </div>;
+    //     } else if (this.props.fieldtrip["people_visited"] !== []) {
+    //         return <div>
+    //             {this.renderPeople()}
+    //         </div>;
+    //     } else {
+    //         return <h4>Nothing to show</h4>
+    //     }
+    // }
 
     render() {
         // Div: General info about the fieldTrip
