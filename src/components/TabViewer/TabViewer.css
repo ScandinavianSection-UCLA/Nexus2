@@ -1,14 +1,9 @@
 .tabs{
-
-}
-.tab{
-    display:none;
-}
-.tabs{
     list-style:none;
     background-color:white;
     padding-bottom:20px;
 }
+
 .tabs li{
     position:relative;
     cursor:pointer;
@@ -20,28 +15,41 @@
     border: 1px solid #909090;
     font-size:1em;
 }
+
 .tabs li.active{
     background-color: #ffffff;
 }
+
 .closeTabIcon{
     width:.75em;
     position:absolute;
     top:30%;
     right:5px;
 }
-.closeTabIcon.noClose{
+
+.closeTabIcon.noClose {
     display:none;
 }
-.closeTabIcon:hover{
+
+.closeTabIcon:hover {
     border:1px solid black;
     border-radius:100%;
 }
-.view{
-    /*height:80%;*/
-}
+
 .associated-items{
     cursor:pointer;
 }
+
 .pdfViewer .mgrpdf__wrapper canvas{
     height:87vh !important;
+}
+
+/* indicator that pops up to show the potential result of a drag */
+#dragIndicator {
+    /* it should be positioned independently of everything else */
+    position: absolute;
+    /* shouldn't be too wide or too thin */
+    width: 2px;
+    /* make it PURPLE */
+    background-color: purple;
 }
