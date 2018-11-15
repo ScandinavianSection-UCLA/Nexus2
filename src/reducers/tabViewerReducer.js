@@ -1,6 +1,5 @@
-import initialState from './initialState';
-import {ADD_TAB, CLOSE_TAB, SWITCH_TABS} from "../actions/actionTypes";
-import React from "react";
+import initialState from "./initialState";
+import * as actions from "../actions/actionTypes";
 import {setSessionStorage} from "../data-stores/SessionStorageModel";
 
 const NavigationObject = {
@@ -10,52 +9,83 @@ const NavigationObject = {
     "type": "Home",
 };
 
-export default function tabViewer(state=initialState.tabState, action){
-    let newState = state;
-    switch(action.type){
-        case ADD_TAB:
-            newState = state;
-            console.log('ADD_TAB ACTION', newState);
-            var DisplayArtifactID = action.payload['DisplayArtifactID'];
-            var name = action.payload['name'];
-            var type = action.payload['type'];
-            return addTab(newState, DisplayArtifactID, name, type);
-        case SWITCH_TABS:
-            console.log('SWITCH_TABS ACTION', newState);
-            return switchTab(newState, action.payload);
-        case CLOSE_TAB:
-            console.log('CLOSE_TAB ACTION', newState);
-            return closeTab(newState, action.payload);
-        default:
-            return state;
+/**
+ * Switch to a new active tab
+ * @param {Object} OldState The pre-switch state
+ * @param {*} SwitchToIndex The tab index to switch to
+ * @returns {Object} The state with the new active tab
+ */
+function switchTab(OldState, SwitchToIndex) {
+    // create an immutable separate copy of the old state
+    let NewState = {...OldState};
+    // assuming that the index is a valid tab
+    if (SwitchToIndex < NewState.views.length) {
+        // update the views with the new active tab
+        NewState.views = NewState.views.map((currentView, currentIndex) => {
+            return {
+                // keep each view mostly the same
+                ...currentView,
+                // but set it to active if it is the index to switch to (inactive otherwise)
+                "active": currentIndex === SwitchToIndex,
+            };
+        });
+        // update session storage with the new active tab
+        setSessionStorage("TabViewerSessionState", NewState);
+    } else {
+        // invalid index, raise a warning
+        console.warn(`Invalid switch index ${SwitchToIndex}`);
     }
+    // return the state with the new active tab, or the same state if the index was invalid
+    return NewState;
 }
 
-function addTab(ShallowNewState, inputID, name, type) {
-    var NewState = JSON.parse(JSON.stringify(ShallowNewState));
+/**
+ * Remove a tab from the views by index
+ * @param {Object} ShallowNewState The current, pre-removal state
+ * @param {Number} RemoveIndex The index of the view to remove
+ * @returns {Object} The state with the removed tab
+ */
+function closeTab(ShallowNewState, RemoveIndex) {
+    // create a copy of the state to ensure immutability
+    let NewState = {...ShallowNewState};
+    // if the active view will be closed
+    if (NewState.views[RemoveIndex].active === true) {
+        // go to the home view
+        NewState.views[0] = NavigationObject;
+    }
+    // remove the tab by the requested index
+    NewState.views.splice(RemoveIndex, 1);
+    // update session storage with our new state
+    setSessionStorage("TabViewerSessionState", NewState);
+    // return the updated state
+    return NewState;
+}
 
+/**
+ * Adds a tab to the views if needed
+ * @param {Object} ShallowNewState The current state, before the tab is added
+ * @param {Object} payload An action payload containing ID of the tab to add, display name of the tab, and the tab's type (People/Places/Fieldtrips/Book/Graph/Story)
+ * @returns {Object} The new, updated state
+ */
+function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
+    // get a copy of the state to ensure immutability
+    let newState = {...ShallowNewState};
     // see if we can get the preexisting view matching the tab to create
-    const matchingView = NewState.views.find((view) => (view["id"] === inputID && view["type"] === type));
-
-    // if we're trying to re-add an already existing view
-    if (typeof matchingView !== "undefined") {
-        // just set that view to the active
-        NewState.views.map((view)=>{
-           if(view === matchingView){
-               view.active = true;
-           } else {
-               view.active = false;
-           }
-           return view;
-        });
-        return NewState;
+    const matchingViewIndex = ShallowNewState.views.findIndex((view) => (
+        // check if the name and type matches
+        view.name === name && view.type === type && view.id === DisplayArtifactID
+    ));
+    if (matchingViewIndex !== -1) {
+        // if we're trying to re-add an already existing view
+        // just switch to that tab
+        return switchTab(ShallowNewState, matchingViewIndex);
     } else {
         // we actually need to make a new tab and view
-
+        // get a copy of the state (ensure immutability)
         // object representing the new view
         const newView = {
             // id is the passed ID
-            "id": inputID,
+            "id": DisplayArtifactID,
             // set it to the active view
             "active": true,
             // name is the passed name
@@ -63,9 +93,8 @@ function addTab(ShallowNewState, inputID, name, type) {
             // type is the passed type
             "type": type,
         };
-
         // for each of the preexisting views
-        let updatedViews = NewState.views.map((view) => {
+        let updatedViews = newState.views.map((view) => {
             return {
                 // leave the view mostly untouched...
                 ...view,
@@ -73,10 +102,8 @@ function addTab(ShallowNewState, inputID, name, type) {
                 "active": false,
             };
         });
-
         // add in the new, active view
         updatedViews.push(newView);
-
         // if our window is smaller than 1100px (95% sure about the units)
         if (window.innerWidth <= 1100) {
             console.log("Window is small!");
@@ -90,56 +117,41 @@ function addTab(ShallowNewState, inputID, name, type) {
             // remove the first non-Home tab
             updatedViews.splice(1, 1);
         }
-
-        NewState['views'] = updatedViews;
-
+        // update the state's views
+        newState.views = updatedViews;
         // update session storage with our new, updated state
-        setSessionStorage("TabViewerSessionState", NewState);
-
-        return NewState;
+        setSessionStorage("TabViewerSessionState", newState);
+        // return our updated state
+        return newState;
     }
 }
 
-function switchTab(OldState, SwitchToIndex) {
-
-    var newViews = OldState.views;
-    if(SwitchToIndex < newViews.length ){
-        newViews.map((currentView, currentIndex)=>{
-            if(currentIndex !== SwitchToIndex){
-                currentView['active'] = false;
-                return currentView;
-            } else {
-                currentView['active'] = true;
-                return currentView;
-            }
-        });
-        OldState.views = newViews;
+/**
+ * Generic handler for manipulating the tabs and updating their state
+ * @param {Object} state The pre-update state
+ * @param {Object} action Action to do to the tabs (ADD_TAB, SWITCH_TABS, CLOSE_TAB)
+ * @returns {Object} The updated state
+ */
+export default function tabViewer(state = initialState.tabState, action) {
+    // depending on which action to perform
+    switch (action.type) {
+        // if we are to add a tab
+        case actions.ADD_TAB:
+            console.log("ADD_TAB ACTION", state);
+            return addTab(state, action.payload);
+        // if we are to switch between tabs
+        case actions.SWITCH_TABS:
+            console.log("SWITCH_TABS ACTION", state);
+            return switchTab(state, action.payload);
+        // if we are to close a tab
+        case actions.CLOSE_TAB:
+            console.log("CLOSE_TAB ACTION", state);
+            return closeTab(state, action.payload);
+        // unhandled error type
+        default:
+            // warn that we hit a bad action
+            console.warn(`Invalid action: ${action.type}`);
+            // don't change anything
+            return state;
     }
-    //SUPER IMPORTANT!!! NEED TO CREATE DEEP COPY TO ENSURE IMMUTIBILITY
-    var NewState = JSON.parse(JSON.stringify(OldState));
-    console.log('switching tabs!', NewState);
-    setSessionStorage("TabViewerSessionState", NewState);
-    return NewState;
-}
-
-function closeTab(ShallowNewState, RemoveIndex) {
-    var NewState = JSON.parse(JSON.stringify(ShallowNewState));
-    // is current view being closed?
-    var PreviousViewIndex =  false;
-    NewState.views.forEach((view,i)=>{
-        console.log(view.active, i, RemoveIndex);
-        if(view.active && i === RemoveIndex){
-            PreviousViewIndex = true;
-        }
-    });
-
-    // find "view" in this.state.views and .active, and delete it. if .active then default to home tab
-    NewState.views.splice(RemoveIndex, 1);
-    if(PreviousViewIndex){
-        NewState.views[0] = NavigationObject
-    }
-    console.log(NewState.views);
-    setSessionStorage("TabViewerSessionState", NewState);
-
-    return NewState;
 }
