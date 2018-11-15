@@ -19,13 +19,21 @@ class TabViewer extends Component {
         this.state = {
             // by default, no search to load
             "searchWord": "",
+            "dragIndicatorX": null,
         };
+        this.dragIndicatorY = null;
+        this.dragIndicatorHeight = null;
         // stores the left edge X-coordiantes of each tab
-        this.tabPos = [];
+        this.tabs = [];
         // properly bind functions so that they can work in sub-elements
         this.handleKeywordSearch = this.handleKeywordSearch.bind(this);
         this.renderActiveTab = this.renderActiveTab.bind(this);
         this.handleDragEnd = this.handleDragEnd.bind(this);
+    }
+
+    componentDidMount() {
+        // must re-render so that the lineY is set
+        this.forceUpdate();
     }
 
     /**
@@ -93,28 +101,60 @@ class TabViewer extends Component {
         });
     }
 
+    // called when a tab is being dragged
+    handleDrag(event, index) {
+        // get the final X of the drag
+        const {screenX} = event;
+        // find the index of the first tab such that the mouse was released to the left of its left edge
+        // and go one of left of that to put it in the spot where the mouse was released
+        let newIndex = this.tabs.findIndex((tab) => screenX <= tab.x) - 1;
+        // determine if the drag is to the right or left
+        let goRight = newIndex >= index || newIndex === -2;
+        // if we went past the last left edge (waaaaay right)
+        if (newIndex === -2) {
+            // this should become the last tab in the list
+            newIndex = this.tabs.length - 1;
+        } else if (newIndex === 0 || newIndex === -1) {
+            // if it was dropped at home or to the left of home
+            // this should become the second tab in the list (after home)
+            newIndex = 1;
+        }
+        // if drag was to the right
+        if (goRight) {
+            this.setState({
+                // we should render the line to the right of the tab
+                "dragIndicatorX": this.tabs[newIndex].right,
+            });
+        } else {
+            // if drag was to the left
+            this.setState({
+                // we should render the line to the left of the tab
+                "dragIndicatorX": this.tabs[newIndex].left,
+            });
+        }
+    }
+
     // called when a tab stops being dragged
     handleDragEnd(event, index) {
-        // we can't move the home tab
-        if (index !== 0) {
-            // get the final X of the drag
-            const {screenX} = event;
-            // find the index of the first tab such that the mouse was released to the left of its left edge
-            // and go one of left of that to put it in the spot where the mouse was released
-            let newIndex = this.tabPos.findIndex((x) => screenX <= x) - 1;
-            // if we went past the last left edge (waaaaay right)
-            console.log(newIndex);
-            if (newIndex === -2) {
-                // this should become the last tab in the list
-                newIndex = this.tabPos.length - 1;
-            } else if (newIndex === 0 || newIndex === -1) {
-                // if it was dropped at home or to the left of home
-                // this should become the second tab in the list (after home)
-                newIndex = 1;
-            }
-            // move the dragged tab to the desired spot
-            this.props.tabViewerActions.moveTab(index, newIndex);
+        // get the final X of the drag
+        const {screenX} = event;
+        // find the index of the first tab such that the mouse was released to the left of its left edge
+        // and go one of left of that to put it in the spot where the mouse was released
+        let newIndex = this.tabs.findIndex((tab) => screenX <= tab.x) - 1;
+        // if we went past the last left edge (waaaaay right)
+        if (newIndex === -2) {
+            // this should become the last tab in the list
+            newIndex = this.tabs.length - 1;
+        } else if (newIndex === 0 || newIndex === -1) {
+            // if it was dropped at home or to the left of home
+            // this should become the second tab in the list (after home)
+            newIndex = 1;
         }
+        // move the dragged tab to the desired spot
+        this.props.tabViewerActions.moveTab(index, newIndex);
+        this.setState({
+            "dragIndicatorX": null,
+        });
     }
 
     render() {
@@ -138,7 +178,11 @@ class TabViewer extends Component {
                                         // assuming we got a proper render
                                         if (instance !== null) {
                                             // set the width of the tabs in tabPos
-                                            this.tabPos[index] = instance.getBoundingClientRect().x;
+                                            this.tabs[index] = instance.getBoundingClientRect();
+                                            // set the Y coordinate of the drop indicator
+                                            this.dragIndicatorY = instance.getBoundingClientRect().y;
+                                            // set the height of the drop indicator
+                                            this.dragIndicatorHeight = instance.getBoundingClientRect().height;
                                         }
                                     }}
                                     // callback when the tab is clicked
@@ -148,7 +192,11 @@ class TabViewer extends Component {
                                         // if a tab is clicked, we should switch to that tab
                                         this.props.tabViewerActions.switchTabs(index);
                                     }}
-                                    draggable="true"
+                                    draggable={view.type !== "Home"}
+                                    onDrag={(event) => {
+                                        event.preventDefault();
+                                        this.handleDrag(event, index);
+                                    }}
                                     onDragEnd={(event) => {
                                         // prevent default behavior
                                         event.preventDefault();
@@ -167,7 +215,7 @@ class TabViewer extends Component {
                                         // text to display if it can't show up
                                         alt="Close Icon"
                                         // give it the styling for the close button, don't display a close button on the home tab (it can't be closed)
-                                        className={`closeTabIcon ${view.name === "Home" ? "noClose" : ""}`}
+                                        className={`closeTabIcon ${view.type === "Home" ? "noClose" : ""}`}
                                         // callback when the "x" is clicked
                                         onClick={(event) => {
                                             // prevent default click behavior
@@ -180,7 +228,22 @@ class TabViewer extends Component {
                         })}
                     </ul>
                 </div>
-            </div >
+                {/* the drag indicator line */}
+                <div
+                    // basic CSS for the moving line, position is defined dynamically here
+                    id="dragIndicator"
+                    // set up its position
+                    style={{
+                        // position it at the X-coordinate determined by drag functions
+                        "left": `${this.state.dragIndicatorX}px`,
+                        // make it in line with tabs
+                        "top": `${this.dragIndicatorY}px`,
+                        // make it as tall as the tabs
+                        "height": `${this.dragIndicatorHeight}px`,
+                        // only display while a drag event is occuring
+                        "display": this.state.dragIndicatorX === null ? "none" : "block",
+                    }} />
+            </div>
         );
     }
 }
