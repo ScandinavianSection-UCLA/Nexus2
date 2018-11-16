@@ -85,6 +85,8 @@ function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
             "name": name,
             // type is the passed type
             "type": type,
+            // color is the default active/inactive color
+            "color": null,
         };
         // for each of the preexisting views
         let updatedViews = newState.views.map((view) => {
@@ -152,6 +154,21 @@ function moveTab(OldState, {OldTabIndex, NewTabIndex}) {
 }
 
 /**
+ * Change the color of a tab
+ * @param {*} OldState The pre-color change state
+ * @param {*} payload Contains TabIndex, to indicate the tab to change, and Color, which is either a string/hexcode, or null to fall back to default active/inactive colors
+ * @returns {Object} The color changed state
+ */
+function changeTabColor(OldState, {TabIndex, Color}) {
+    // get a new copy of the state to keep immutability
+    let newState = {...OldState};
+    // set the specified tab's color
+    newState.views[TabIndex].color = Color;
+    // return the state with the changed tab
+    return newState;
+}
+
+/**
  * Generic handler for manipulating the tabs and updating their state
  * @param {Object} state The pre-update state
  * @param {Object} action Action to do to the tabs (ADD_TAB, SWITCH_TABS, CLOSE_TAB)
@@ -172,10 +189,15 @@ export default function tabViewer(state = initialState.tabState, action) {
         case actions.CLOSE_TAB:
             console.log("CLOSE_TAB ACTION", state);
             return closeTab(state, action.payload);
+        // if we are to move around a tab
         case actions.MOVE_TAB:
             console.log("MOVE_TAB ACTION", state);
             return moveTab(state, action.payload);
-        // unhandled error type
+        // if we are to change a tab's color
+        case actions.CHANGE_TAB_COLOR:
+            console.log("CHANGE_TAB_COLOR ACTION", state);
+            return changeTabColor(state, action.payload);
+        // unhandled action type
         default:
             // warn that we hit a bad action
             console.warn(`Invalid action: ${action.type}`);
