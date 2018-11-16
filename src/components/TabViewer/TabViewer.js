@@ -28,7 +28,6 @@ class TabViewer extends Component {
         // properly bind functions so that they can work in sub-elements
         this.handleKeywordSearch = this.handleKeywordSearch.bind(this);
         this.renderActiveTab = this.renderActiveTab.bind(this);
-        this.handleDragEnd = this.handleDragEnd.bind(this);
     }
 
     componentDidMount() {
@@ -101,6 +100,12 @@ class TabViewer extends Component {
         });
     }
 
+    // called when a tab begins being dragged
+    handleDragStart(index) {
+        // set the tab to be gray
+        this.props.tabViewerActions.changeTabColor(index, "#aaaaaa");
+    }
+
     // called when a tab is being dragged
     handleDrag(event, index) {
         // get the final X of the drag
@@ -108,8 +113,6 @@ class TabViewer extends Component {
         // find the index of the first tab such that the mouse was released to the left of its left edge
         // and go one of left of that to put it in the spot where the mouse was released
         let newIndex = this.tabs.findIndex((tab) => screenX <= tab.x) - 1;
-        // determine if the drag is to the right or left
-        let goRight = newIndex >= index || newIndex === -2;
         // if we went past the last left edge (waaaaay right)
         if (newIndex === -2) {
             // this should become the last tab in the list
@@ -120,16 +123,22 @@ class TabViewer extends Component {
             newIndex = 1;
         }
         // if drag was to the right
-        if (goRight) {
+        if (newIndex > index) {
             this.setState({
                 // we should render the line to the right of the tab
                 "dragIndicatorX": this.tabs[newIndex].right,
             });
-        } else {
+        } else if (newIndex < index) {
             // if drag was to the left
             this.setState({
                 // we should render the line to the left of the tab
                 "dragIndicatorX": this.tabs[newIndex].left,
+            });
+        } else if (newIndex === index) {
+            // tab wouldn't move
+            this.setState({
+                // don't show any movement indicator
+                "dragIndicatorX": null,
             });
         }
     }
@@ -152,6 +161,9 @@ class TabViewer extends Component {
         }
         // move the dragged tab to the desired spot
         this.props.tabViewerActions.moveTab(index, newIndex);
+        // reset the tab back to normal color
+        this.props.tabViewerActions.changeTabColor(newIndex, null);
+        // hide the drag indicator
         this.setState({
             "dragIndicatorX": null,
         });
@@ -186,27 +198,35 @@ class TabViewer extends Component {
                                         }
                                     }}
                                     // callback when the tab is clicked
-                                    onClick={(event) => {
-                                        // prevent default click behavior
-                                        event.preventDefault();
+                                    onClick={() => {
                                         // if a tab is clicked, we should switch to that tab
                                         this.props.tabViewerActions.switchTabs(index);
                                     }}
+                                    // make everything but the home tab draggable
                                     draggable={view.type !== "Home"}
+                                    // called when the tab begins being dragged
+                                    onDragStart={() => {
+                                        // change the color of the dragged tab
+                                        this.handleDragStart(index);
+                                    }}
+                                    // called while the tab is being dragged
                                     onDrag={(event) => {
-                                        event.preventDefault();
+                                        // render the little purple line indicator
                                         this.handleDrag(event, index);
                                     }}
+                                    // called when the tab stops being dragged
                                     onDragEnd={(event) => {
-                                        // prevent default behavior
-                                        event.preventDefault();
-                                        // move the tab appropriately
+                                        // move the tab appropriately to its final spot
                                         this.handleDragEnd(event, index);
                                     }}
                                     // key to control re-rendering of tabs
                                     key={index}
                                     // make it active if this is the current tab
-                                    className={`${view.active ? "active" : ""}`}>
+                                    className={`${view.active ? "active" : ""}`}
+                                    style={{
+                                        // set the color of the tab to be the specified color, or default to the active/inactive color if not specified
+                                        "backgroundColor": view.color,
+                                    }}>
                                     {/* show the display text on the tab */}
                                     {view.name}
                                     <img
@@ -228,21 +248,22 @@ class TabViewer extends Component {
                         })}
                     </ul>
                 </div>
-                {/* the drag indicator line */}
-                <div
-                    // basic CSS for the moving line, position is defined dynamically here
-                    id="dragIndicator"
-                    // set up its position
-                    style={{
-                        // position it at the X-coordinate determined by drag functions
-                        "left": `${this.state.dragIndicatorX}px`,
-                        // make it in line with tabs
-                        "top": `${this.dragIndicatorY}px`,
-                        // make it as tall as the tabs
-                        "height": `${this.dragIndicatorHeight}px`,
-                        // only display while a drag event is occuring
-                        "display": this.state.dragIndicatorX === null ? "none" : "block",
-                    }} />
+                {/* only display if we are currently dragging an element */}
+                {this.state.dragIndicatorX !== null &&
+                    // the drag indicator line
+                    <div
+                        // basic CSS for the moving line, position is defined dynamically here
+                        id="dragIndicator"
+                        // set up its position
+                        style={{
+                            // position it at the X-coordinate determined by drag functions
+                            "left": `${this.state.dragIndicatorX}px`,
+                            // make it in line with tabs
+                            "top": `${this.dragIndicatorY}px`,
+                            // make it as tall as the tabs
+                            "height": `${this.dragIndicatorHeight}px`,
+                        }} />
+                }
             </div>
         );
     }

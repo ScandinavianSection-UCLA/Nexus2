@@ -1,33 +1,35 @@
-import * as TabViewer from "../components/TabViewer/TabViewer";
+// function to get tab state from storage
 import {getSessionStorage} from "../data-stores/SessionStorageModel";
 
-const NavigationObject = {
-    "active": true,
-    "id": 0,
-    "name": "Home",
-    "type": "Home",
-};
-
-export default {
-    tabState:InitializeTabs(),
-};
-
-
-function InitializeTabs(){
+/**
+ * Initialize the tabs, whether from a clean state or session storage
+ * @returns {Object} The state of the tabs
+ */
+function InitializeTabs() {
+    // get tab state from storage
     const CachedState = getSessionStorage("TabViewerSessionState");
-    var NewState = {};
-    console.log(TabViewer, 'tab viewer');
-    if(CachedState){
-        const cachedViews = CachedState["views"];
-        NewState = {
-            views: cachedViews
-        }
-
-        // NewState['views']['jsx'] = TabViewer.
+    console.log(CachedState);
+    // if we have previously loaded tabs
+    if (CachedState) {
+        // start up with those previous tabs
+        return {
+            "views": CachedState.views,
+        };
     } else {
-        NewState = {
-            views:[NavigationObject]
-        }
+        // otherwise, just start out with a single home tab
+        return {
+            "views": [{
+                "active": true,
+                "id": 0,
+                "name": "Home",
+                "type": "Home",
+                "color": null,
+            }],
+        };
     }
-    return NewState;
 }
+
+// export the initialized state
+export default {
+    "tabState": InitializeTabs(),
+};
