@@ -238,9 +238,9 @@ class TabViewer extends Component {
                                         className={`closeTabIcon ${view.type === "Home" ? "noClose" : ""}`}
                                         // callback when the "x" is clicked
                                         onClick={(event) => {
-                                            // prevent default click behavior
-                                            event.preventDefault();
-                                            // if the "x" is clicked we should close the tab
+                                            // prevent a separate "tab was clicked" event from occuring once this tab gets closed
+                                            event.stopPropagation();
+                                            // close the desired tab
                                             this.props.tabViewerActions.closeTab(index);
                                         }} />
                                 </li>

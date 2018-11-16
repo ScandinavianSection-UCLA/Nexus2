@@ -45,6 +45,8 @@ function closeTab(ShallowNewState, RemoveIndex) {
     if (NewState.views[RemoveIndex].active === true) {
         // set the home view to be active
         NewState.views[0].active = true;
+    } else {
+        console.log("not active");
     }
     // remove the tab by the requested index
     NewState.views.splice(RemoveIndex, 1);
