@@ -8,7 +8,6 @@ import {getSessionStorage} from "../data-stores/SessionStorageModel";
 function InitializeTabs() {
     // get tab state from storage
     const CachedState = getSessionStorage("TabViewerSessionState");
-    console.log(CachedState);
     // if we have previously loaded tabs
     if (CachedState) {
         // start up with those previous tabs

@@ -27,20 +27,58 @@ import dataTango from "../data/ctango_indices.json";
 // import the arrayTransformation() function
 import {arrayTransformation} from "../utils";
 
+// helper functions
+
+// not sure about this
+function arrOfObjToObj(arrOfObj, id) {
+    // store the resulting object
+    let resultObj = {};
+
+    // for each obj in the arrOfObj
+    arrOfObj.forEach((obj) => {
+        // my brain can't comprehend this for some reason
+        // something about about setting the data inside the resulting object based on its appropriate or specified place i think
+        resultObj[obj[id]] = obj;
+    });
+
+    // return the object
+    return resultObj;
+}
+
+/**
+ * @param {Array} list The list to search through
+ * @param {*} key The key to check for
+ * @returns {Array} An array of values with the same key
+ */
+function getSiblings(list, key) {
+    // if key is one of these types
+    if (["MAIN", "TOPIC", "PPS", ""].includes(key)) {
+        // no need to modify it, apparently
+        return list;
+    } else if (typeof list !== "undefined" && typeof key !== "undefined") {
+        // if we have a defined list and key
+        // return the list, with any duplicates filtered out
+        return list.filter((value, index) => list.indexOf(value) === index);
+    } else {
+        // failed to obtain anything, better alert this
+        console.error("Can't get siblings!");
+    }
+}
+
 // fieldtrip_id of all fieldtrip is -1
 const allFieldtripId = -1;
 // converted data for fieldtrips
-const fieldtripsData = arrOfObjToObj(FieldtripsData["fieldtrip"], "fieldtrip_id");
+const fieldtripsData = arrOfObjToObj(FieldtripsData.fieldtrip, "fieldtrip_id");
 // converted data for stories
 const formattedStoryData = arrOfObjToObj(AllStories, "story_id");
 // converted general place data
-const placesData = arrOfObjToObj(places["place"], "place_id");
+const placesData = arrOfObjToObj(places.place, "place_id");
 // converted data for mentioned places
-const placesMentionedData = arrOfObjToObj(PlacesMentionedData["place"], "place_id");
+const placesMentionedData = arrOfObjToObj(PlacesMentionedData.place, "place_id");
 // converted data for people
 const realPeopleData = arrOfObjToObj(AllInformants, "person_id");
 // converted data for places with collected stories
-const storiesCollectedData = arrOfObjToObj(StoriesCollectedData["place"], "place_id");
+const storiesCollectedData = arrOfObjToObj(StoriesCollectedData.place, "place_id");
 
 // data for the ontology types
 const data = {
@@ -104,22 +142,6 @@ const ListModel = {
     },
 };
 
-// not sure about this
-function arrOfObjToObj(arrOfObj, id) {
-    // store the resulting object
-    let resultObj = {};
-
-    // for each obj in the arrOfObj
-    arrOfObj.forEach((obj) => {
-        // my brain can't comprehend this for some reason
-        // something about about setting the data inside the resulting object based on its appropriate or specified place i think
-        resultObj[obj[id]] = obj;
-    });
-
-    // return the object
-    return resultObj;
-}
-
 /**
  * Used for tangoTypes
  * @param {*} value The value that the key should match
@@ -128,39 +150,18 @@ function arrOfObjToObj(arrOfObj, id) {
  */
 function getChildren(value, isObj) {
     // data.tango filtered for items whose type matches the passed value
-    let items = data.tango.filter(item => item["type"] === value);
-
+    let items = data.tango.filter(item => item.type === value);
     // if objects are not desired
     if (isObj === false) {
         // replace each object in the result with its name
         items = items.map(item => item.name);
     }
-
     // return the filtered, possibly modified list
     return items;
 }
 
-/**
- * @param {Array} list The list to search through
- * @param {*} key The key to check for
- * @returns {Array} An array of values with the same key
- */
-function getSiblings(list, key) {
-    // if key is one of these types
-    if (["MAIN", "TOPIC", "PPS", ""].includes(key)) {
-        // no need to modify it, apparently
-        return list;
-    } else if (typeof list !== "undefined" && typeof key !== "undefined") { // if we have a defined list and key
-        // return the list, with any duplicates filtered out
-        return list.filter((value, index, array) => array.indexOf(value) === index);
-    } else {
-        // failed to obtain anything, better alert this
-        console.error("Can't get siblings!");
-    }
-}
-
 // array of occupations
-export const OccupationDictionary = occupations["occupations"];
+export const OccupationDictionary = occupations.occupations;
 
 // use this to get the display attribute for different ontologies
 export const ontologyToDisplayKey = {
@@ -232,15 +233,12 @@ export const tangoTypes = {
     },
 };
 
-// TODO: clean up undefined/empty values (i.e. last value of fieldtrip search results)
-
 // not gonna mess with this becuase I'm not sure how to test this
 export function dateFilterHelper(startDate, endDate, ontology) {
-    console.log(startDate, endDate, ontology);
     // go through fieldtrips to see which fieldtrips fit within dates
-    var fieldtripsInDates = [];
+    let fieldtripsInDates = [];
     data.fieldtrips.forEach((fieldtrip) => {
-        if (parseInt(fieldtrip["start_date"]) >= startDate && parseInt(fieldtrip["end_date"]) <= endDate) {
+        if (parseInt(fieldtrip.start_date, 10) >= startDate && parseInt(fieldtrip.end_date, 10) <= endDate) {
             fieldtripsInDates.push(fieldtrip);
         }
     });
@@ -252,30 +250,30 @@ export function dateFilterHelper(startDate, endDate, ontology) {
             "Places": {"firstKey": "places_visited", "secondKey": "place"},
             "People": {"firstKey": "people_visited", "secondKey": "person"},
         };
-        var fieldtripKey = ontologyToFieldtripKey[ontology];
+        const fieldtripKey = ontologyToFieldtripKey[ontology];
         // for fieldtrips that fit within dates, return list of either story, people, or places visited
-        var UniqueItems = [];
+        let UniqueItems = [];
         if (typeof fieldtripKey !== "undefined") {
             fieldtripsInDates.forEach((fieldtrip) => {
                 // for each fieldtrip, get array of people, places, or stories
                 // handle fieldtrip data if second key doesn't exist (i.e. stories_collected:[stories...] and stories_collected:{stories...})
-                var uncleanedItems;
+                let uncleanedItems;
 
-                if (fieldtrip[fieldtripKey["firstKey"]] instanceof Array) {
-                    uncleanedItems = fieldtrip[fieldtripKey["firstKey"]];
-                    console.log("An array!!!");
+                if (fieldtrip[fieldtripKey.firstKey] instanceof Array) {
+                    uncleanedItems = fieldtrip[fieldtripKey.firstKey];
                 } else {
                     // if fieldtrip['stories_collected'] has object ({'stories':[stories...]}), get to stories
-                    uncleanedItems = fieldtrip[fieldtripKey["firstKey"]][fieldtripKey["secondKey"]];
+                    uncleanedItems = fieldtrip[fieldtripKey.firstKey][fieldtripKey.secondKey];
                 }
 
-                var CurrentFieldtripItems = arrayTransformation(uncleanedItems);
+                let CurrentFieldtripItems = arrayTransformation(uncleanedItems);
 
                 if (typeof CurrentFieldtripItems !== "undefined") {
-                    var IDKey = Object.keys(CurrentFieldtripItems[0])[0]; // the ID key will be the first key of every item object
+                    // the ID key will be the first key of every item object
+                    let IDKey = Object.keys(CurrentFieldtripItems[0])[0];
                     // create unique list of people, places, or stories
                     CurrentFieldtripItems.forEach((item) => {
-                        var notExistsInList = true;
+                        let notExistsInList = true;
                         UniqueItems.forEach((currentItem) => {
                             if (currentItem[IDKey] === item[IDKey]) {
                                 notExistsInList = false;
@@ -305,22 +303,22 @@ export function getFieldtripsByID(fieldtrip_id) {
         // check if the fieldtrip ID is valid
         if (fieldtripsData.hasOwnProperty(fieldtrip_id)) {
             // retrieve the relevant information
-            // IMPORTANT: use spread syntax so that we don't mutate the original fieldtrip data
+            // iMPORTANT: use spread syntax so that we don't mutate the original fieldtrip data
             let fieldtripObject = {...fieldtripsData[fieldtrip_id]};
             // if people_visited exists in fieldtripObject
             if ("people_visited" in fieldtripObject) {
                 // ensure that people_visited is an array
-                fieldtripObject["people_visited"] = arrayTransformation(fieldtripObject["people_visited"]["person"]);
+                fieldtripObject.people_visited = arrayTransformation(fieldtripObject.people_visited.person);
             }
             // if places_visited in fieldtripObject
             if ("places_visited" in fieldtripObject) {
                 // ensure that places_visited is an array
-                fieldtripObject["places_visited"] = arrayTransformation(fieldtripObject["places_visited"]["place"]);
+                fieldtripObject.places_visited = arrayTransformation(fieldtripObject.places_visited.place);
             }
             // if stories_collected in fieldtripObject
             if ("stories_collected" in fieldtripObject) {
                 // ensure that stories_collected is an array
-                fieldtripObject["stories_collected"] = arrayTransformation(fieldtripObject["stories_collected"]["story"]);
+                fieldtripObject.stories_collected = arrayTransformation(fieldtripObject.stories_collected.story);
             }
             // return the object
             return fieldtripObject;
@@ -330,49 +328,45 @@ export function getFieldtripsByID(fieldtrip_id) {
             return null;
         }
     } else { // else, the all fieldtrip is selected
-        // create a base fieldtrip
+        // basic object to store the people, places, stories
         let allFieldtrip = {
-            "end_date": "1898-06-08",
-            "fieldtrip_id": allFieldtripId,
-            "fieldtrip_name": "All fieldtrips",
             "people_visited": [],
             "places_visited": [],
-            "shapefile": "",
-            "start_date": "1887-02-03",
             "stories_collected": [],
         };
-
         // loop through all fieldtrips
         for (let fieldtripIdLoop in fieldtripsData) {
             // get the fieldtrip
             let fieldtrip = fieldtripsData[fieldtripIdLoop];
-
-            // don't use the all fieldtrip id
-            if (fieldtripIdLoop !== allFieldtripId) {
-                // for each of the keys in allFieldTrip
-                for (let key in allFieldtrip) {
-                    // if the key stores an array (people, places, stories)
-                    if (Array.isArray(allFieldtrip[key]) && typeof fieldtrip[key] !== "undefined") {
-                        // get an array of the current key's names
-                        const allFieldtripKeyNames = allFieldtrip[key].map(element => element["full_name"]);
-                        // handling for the weirdly structured data, the key needed to get the relevant array from the fieldtrip
-                        const currentKey = Object.keys(fieldtrip[key])[0];
-                        // obtain the array from the fieldtrip
-                        let fieldtripValue = fieldtrip[key][currentKey];
-                        // enssure that the data is indeed an array
-                        fieldtripValue = arrayTransformation(fieldtripValue);
-                        // add to our key's array
-                        allFieldtrip[key] = allFieldtrip[key].concat(
-                            // those elements of fieldtripValue
-                            fieldtripValue.filter(
-                                // such that their name is not already in the array
-                                datum => allFieldtripKeyNames.includes(datum["full_name"]) === false
-                            )
-                        );
-                    }
+            // don't use the all fieldtrip
+            if (fieldtripIdLoop !== allFieldtripId.toString()) {
+                // for people, places, associated with each fieldtrip
+                for (let ontology in allFieldtrip) {
+                    // get an array of the current ontology's names already stored
+                    const allFieldtripKeyNames = allFieldtrip[ontology].map(element => element.full_name);
+                    // handling for the weirdly structured data, the key needed to get the relevant array from the fieldtrip
+                    const currentKey = Object.keys(fieldtrip[ontology])[0];
+                    // obtain the array from the fieldtrip
+                    let fieldtripValue = fieldtrip[ontology][currentKey];
+                    // enssure that the data is indeed an array
+                    fieldtripValue = arrayTransformation(fieldtripValue);
+                    // add to our ontology's array the elements from the current fieldtrip's ontology
+                    allFieldtrip[ontology].push(...fieldtripValue.filter(
+                        // but make sure we don't add duplicates
+                        datum => allFieldtripKeyNames.includes(datum.full_name) === false
+                    ));
                 }
             }
         }
+        // add in other necessary info for the total fieldtrip
+        allFieldtrip = {
+            ...allFieldtrip,
+            "end_date": "1898-06-08",
+            "fieldtrip_id": allFieldtripId,
+            "fieldtrip_name": "All fieldtrips",
+            "shapefile": "",
+            "start_date": "1887-02-03",
+        };
         // return our created mash of the fieldtrips
         return allFieldtrip;
     }
@@ -384,7 +378,7 @@ export function getFieldtripsByID(fieldtrip_id) {
  * @returns {Array} Keywords
  */
 export function getKeywords() {
-    return keywords["children"].concat(ListModel["Stories"]["children"]);
+    return keywords.children.concat(ListModel.Stories.children);
 }
 
 /**
@@ -394,7 +388,7 @@ export function getKeywords() {
  */
 export function getList(ontology) {
     // just get the data from ListModel
-    return ListModel[ontology]["children"];
+    return ListModel[ontology].children;
 }
 
 /**
@@ -407,27 +401,32 @@ export function getPeopleByID(person_id) {
     if (realPeopleData.hasOwnProperty(person_id)) {
         // an object to store the person;
         let personObject = realPeopleData[person_id];
-        // if places exists in personObject
-        const DefinedPlaces = "places" in personObject,
-            // if stories exists in personObject
-            DefinedStories = "stories" in personObject,
-            // if place exists in  places
-            DefinedPlace = "place" in personObject["places"],
-            // if story defined inside story
-            DefinedStory = "story" in personObject["stories"];
-        // if places attribute is valid
-        if (DefinedPlaces && DefinedPlace) {
-            // ensure that places is a proper array
-            personObject["places"] = arrayTransformation(personObject["places"]["place"]);
+        if (typeof personObject === "object") {
+            // if places exists in personObject
+            const DefinedPlaces = "places" in personObject,
+                // if stories exists in personObject
+                DefinedStories = "stories" in personObject,
+                // if place exists in  places
+                DefinedPlace = "place" in personObject.places,
+                // if story defined inside story
+                DefinedStory = "story" in personObject.stories;
+            // if places attribute is valid
+            if (DefinedPlaces && DefinedPlace) {
+                // ensure that places is a proper array
+                personObject.places = arrayTransformation(personObject.places.place);
+            }
+            // if stories attribute is valid
+            if (DefinedStories && DefinedStory) {
+                // ensure that stories is a proper array
+                personObject.stories = arrayTransformation(personObject.stories.story);
+            }
+            // return the object
+            return personObject;
+        } else {
+            // if the ID is invalid, warn this and return null
+            console.warn(`Person ID ${person_id} is invalid.`);
+            return null;
         }
-        // if stories attribute is valid
-        if (DefinedStories && DefinedStory) {
-            // ensure that stories is a proper array
-            personObject["stories"] = arrayTransformation(personObject["stories"]["story"]);
-        }
-
-        // return the object
-        return personObject;
     } else {
         // if the ID is invalid, warn this and return null
         console.warn(`Person ID ${person_id} is invalid.`);
@@ -446,22 +445,22 @@ export function getPlacesByID(place_id) {
         // retrieve the relevant place
         let placeObject = placesData[place_id];
         // if the people attribute is properly defined
-        if (typeof placeObject["people"] !== "undefined" && placeObject["people"] !== [] && placeObject["people"] !== null) {
+        if (typeof placeObject.people !== "undefined" && placeObject.people !== [] && placeObject.people !== null) {
             // ensure that the placeData's people is an array, and set the object's people to it
-            placeObject["people"] = arrayTransformation(placesData[place_id]["people"]);
+            placeObject.people = arrayTransformation(placesData[place_id].people);
         } else {
             // delete people if it's not defined
-            delete placeObject["people"];
+            delete placeObject.people;
         }
         // if place is a collected story here place
         if (place_id in storiesCollectedData) {
             // ensure that storiesCollected is an array
-            placeObject["storiesCollected"] = arrayTransformation(storiesCollectedData[place_id]["stories"]["story"]);
+            placeObject.storiesCollected = arrayTransformation(storiesCollectedData[place_id].stories.story);
         }
         // if place is mentioned
         if (place_id in placesMentionedData) {
             // ensure that storiesMentioned is an array
-            placeObject["storiesMentioned"] = arrayTransformation(placesMentionedData[place_id]["stories"]["story"]);
+            placeObject.storiesMentioned = arrayTransformation(placesMentionedData[place_id].stories.story);
         }
         return placeObject;
     } else {

@@ -65,39 +65,33 @@ class Navigation extends Component {
                     this.handleIDQuery(item[idKey], item[displayKey], ontology, item);
                 }}>
                 <span>
-                    <img className={"convo-icon " + ontology} src={require("./icons8-chat-filled-32.png")} alt="story" />
-                    <img className={"person-icon " + ontology} src={require("./icons8-contacts-32.png")} alt="person" />
-                    <img className={"location-icon " + ontology} src={require("./icons8-marker-32.png")} alt="location" />
-                    <img className={"fieldtrip-icon " + ontology} src={require("./icons8-waypoint-map-32.png")} alt="fieldtrip"/>
+                    <img className={`convo-icon ${ontology}`} src={require("./icons8-chat-filled-32.png")} alt="story" />
+                    <img className={`person-icon ${ontology}`} src={require("./icons8-contacts-32.png")} alt="person" />
+                    <img className={`location-icon ${ontology}`} src={require("./icons8-marker-32.png")} alt="location" />
+                    <img className={`fieldtrip-icon ${ontology}`} src={require("./icons8-waypoint-map-32.png")} alt="fieldtrip" />
                 </span> {item[displayKey]}
             </li>;
         });
     }
 
     handleIDQuery(id, name, type, item) {
-        console.log(id);
         // update this.props.places for the map component
-        // console.log('handle id query',type,id,name);
         this.refs.map.updateMarkers();
         // add node to network graph
         addNode(id, name, type, item);
-        this.props.tabViewerActions.addTab(id,name,type);
+        this.props.tabViewerActions.addTab(id, name, type);
     }
 
     /**
      * Handler to create/display the separate Graph tab + view
      */
     handleDisplayGraph() {
-        // call the addTab function passed by TabView.js:renderPPFS()
-        // this.props.addID(0, "Nexus Graph", "Graph");
         this.props.tabViewerActions.addTab(0, "Nexus Graph", "Graph");
     }
 
     displayItems(items, ontology) {
         var displayKey = ontologyToDisplayKey[ontology];
         var idKey = ontologyToID[ontology];
-        // var PlaceIDList = setPlaceIDList(items,ontology);
-
         this.setState(() => {
             return {
                 "displayOntology": ontology,
@@ -223,13 +217,15 @@ class Navigation extends Component {
     }
 
     flipSearch(CurrentState) {
-        console.log('current search state',CurrentState);
-
-        this.setState({"searchOn": CurrentState});
+        this.setState({
+            "searchOn": CurrentState,
+        });
     }
 
     setDisplayLabel(label) {
-        this.setState({"displayLabel": label});
+        this.setState({
+            "displayLabel": label,
+        });
     }
 
     render() {
@@ -337,10 +333,10 @@ class Navigation extends Component {
                             <div className="stories-container cell medium-10">
                                 <ul className="book medium-cell-block-y">
                                     <h6 className="label secondary">
-                                        <span className={`SearchTitle ${(this.state.searchOn || this.props.searchWord.length >0 ) ? "active" : ""}`}>
+                                        <span className={`SearchTitle ${(this.state.searchOn || this.props.searchWord.length > 0) ? "active" : ""}`}>
                                             Searching: </span>
-                                        <span className={`SearchTitle ${this.props.searchWord.length >0 ? "active" : ""}`}>
-                                            {"'"+this.props.searchWord + "' in "}</span>
+                                        <span className={`SearchTitle ${this.props.searchWord.length > 0 ? "active" : ""}`}>
+                                            {`'${this.props.searchWord}' in `}</span>
                                         {this.state.displayLabel}
                                     </h6>
                                     {/* display the elements we assigned at the beginning of this function */}
@@ -355,9 +351,9 @@ class Navigation extends Component {
                                 className="medium-6 cell">
                                 {/* button that creates + opens the graph tab when clicked (Navigation.js:handleDisplayGraph())*/}
                                 <button
-                                    // CSS classes
+                                    // cSS classes
                                     className="button primary"
-                                    // CSS id
+                                    // cSS id
                                     id="expandGraphButton"
                                     // when clicked, open the graph in its own tab
                                     onClick={this.handleDisplayGraph}>
@@ -367,8 +363,6 @@ class Navigation extends Component {
                                 <NexusGraph
                                     // nodes + links for the graph to render
                                     data={initializeGraph()}
-                                    // function to open a node's page if clicked
-                                    openNode={this.props.addID}
                                     // a totality of all the nodes, sorted by type
                                     nodes={initializeNodeCategories()}
                                     // custom settings for the graph
@@ -389,7 +383,8 @@ class Navigation extends Component {
 }
 
 Navigation.propTypes = {
-    "tabActions": PropTypes.object,
+    "searchWord": PropTypes.string.isRequired,
+    "tabViewerActions": PropTypes.object.isRequired,
 };
 
 function mapStateToProps(state) {

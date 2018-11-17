@@ -35,10 +35,6 @@ const settings = {
 };
 
 class NexusGraph extends Component {
-    /**
-     * Creates the graph and associated button, located at the top right of the home view
-     * @returns {JSX} The resulting graph + button
-     */
     constructor() {
         super();
         // set an initial state
@@ -65,8 +61,7 @@ class NexusGraph extends Component {
             // assuming we properly retrieved the node
             if (node !== null) {
                 // open up its tab
-                // this.props.openNode(node["itemID"], nodeName, node["type"]);
-                this.props.tabViewerActions.addTab(node["itemID"], nodeName, node["type"]);
+                this.props.tabViewerActions.addTab(node.itemID, nodeName, node.type);
             }
         } else {
             // too long between clicks or different nodes clicked, treat it as a single click
@@ -93,7 +88,6 @@ class NexusGraph extends Component {
                     // but override those with any passed settings
                     ...this.props.settings,
                 }}
-                ref="graph"
                 // call the custom callback when a node is clicked
                 onClickNode={this.handleClickNode}
             />
@@ -102,34 +96,28 @@ class NexusGraph extends Component {
 }
 
 NexusGraph.propTypes = {
-    "data": PropTypes.shape({
-        "links": PropTypes.arrayOf(PropTypes.shape({
-            "source": PropTypes.string.isRequired,
-            "target": PropTypes.string.isRequired,
-            "linkNode": PropTypes.any,
-            "color": PropTypes.string,
-        })).isRequired,
-        "nodes": PropTypes.arrayOf(PropTypes.shape({
-            "id": PropTypes.string.isRequired,
-            "color": PropTypes.string,
-            "item": PropTypes.any,
-            "type": PropTypes.string,
-            "itemID": PropTypes.number,
-        })).isRequired,
-    }).isRequired,
-    "openNode": PropTypes.func.isRequired,
-    "settings": PropTypes.object.isRequired,
+    "links": PropTypes.arrayOf(PropTypes.shape({
+        "source": PropTypes.string.isRequired,
+        "target": PropTypes.string.isRequired,
+        "linkNode": PropTypes.any,
+        "color": PropTypes.string,
+    })).isRequired,
+    "nodes": PropTypes.arrayOf(PropTypes.shape({
+        "id": PropTypes.string.isRequired,
+        "color": PropTypes.string,
+        "item": PropTypes.any,
+        "type": PropTypes.string,
+        "itemID": PropTypes.number,
+    })).isRequired,
+    "data": PropTypes.object.isRequired,
+    "settings": PropTypes.object,
+    "tabViewerActions": PropTypes.object.isRequired,
 };
 
 NexusGraph.defaultProps = {
-    "data": {
-        "nodes": [{"id": "blank"}],
-        "links": [],
-    },
+    "nodes": [{"id": "blank"}],
+    "links": [],
     "settings": {},
-};
-NexusGraph.propTypes = {
-    "tabActions": PropTypes.object,
 };
 
 function mapStateToProps(state) {

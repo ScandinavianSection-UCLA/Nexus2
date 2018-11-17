@@ -6,7 +6,7 @@ import "./MapView.css";
 import L from "leaflet";
 import PropTypes from "prop-types";
 
-var places_geo = {
+const places_geo = {
     "type": "FeatureCollection",
     "name": "places_geo",
     "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:EPSG::3857"}},
@@ -76,128 +76,81 @@ var places_geo = {
     ],
 };
 
-var zoom = 7;
+let zoom = 7;
 
 class MapView extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            "mapObject": {},
-            "mapID": "",
-        };
-    }
-
-    getZoomlevel() {
-        zoom = 7;
-        var propsPlaces = this.props.places;
-        if (propsPlaces.length < 1 || Array.isArray(this.props.person)) {
-            zoom = 12;
-        } else {
-            zoom = 7;
-        }
-    }
-
     componentDidMount() {
         // create map
-        // zoom=7;
-        var mapCenter = [56.2639, 9.5018];
+        let mapCenter = [56.2639, 9.5018];
         this.map = L.map(this.container, {
             "center": mapCenter,
             "zoom": zoom,
         });
-
-        var openStreet = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
+        let openStreet = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
             "attribution": "&copy; <a href=\"http://osm.org/copyright\">OpenStreetMap</a> contributors",
         });
-
-        var oldLayer = L.tileLayer("http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png", {
+        let oldLayer = L.tileLayer("http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png", {
             "attribution": "Map tiles by <a href=\"http://stamen.com\">Stamen Design</a>, <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a> &mdash; Map data &copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>",
         });
-
-        var highBoards = L.tileLayer.wms("http://kortforsyningen.kms.dk/service?servicename=topo20_hoeje_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;", {
+        let highBoards = L.tileLayer.wms("http://kortforsyningen.kms.dk/service?servicename=topo20_hoeje_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;", {
             "layers": "dtk_hoeje_maalebordsblade",
             "format": "image/png",
         });
-
-        var prussianMaps = L.tileLayer.wms("http://kortforsyningen.kms.dk/service?servicename=topo25_preussen_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;", {
+        let prussianMaps = L.tileLayer.wms("http://kortforsyningen.kms.dk/service?servicename=topo25_preussen_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;", {
             "layers": "dtk_preussen_maalebordsblade",
             "format": "image/png",
         });
-
-        var lowBoards = L.tileLayer.wms("http://kortforsyningen.kms.dk/service?servicename=topo20_lave_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;", {
+        let lowBoards = L.tileLayer.wms("http://kortforsyningen.kms.dk/service?servicename=topo20_lave_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;", {
             "layers": "dtk_lave_maalebordsblade",
             "format": "image/png",
         }).addTo(this.map);
 
-        var baseMaps = {
+        let baseMaps = {
             "Low Boards": lowBoards,
             "Total Narc Map": openStreet,
             "Black & White Sexy": oldLayer,
-            // "Høje målebordsblade": danishLayer,
             "High Boards": highBoards,
             "Prussian": prussianMaps,
-            // "Low Boards": lowBoards
-
         };
 
         this.updateMarkers(this.props.places);
         this.controlLayers = L.control.layers(baseMaps, null).addTo(this.map);
-        // zoom=7;
-        // var propsPlaces=this.props.places;
-        // if(propsPlaces.length<1 || Array.isArray(this.props.person)){
-        //     zoom=12
-        // }
-        // else{
-        //     zoom=7
-        // }
+    }
 
-    } // end of component did mount
+    setZoomLevel() {
+        zoom = this.props.places.length < 1 || Array.isArray(this.props.person) ? 12 : 7;
+    }
 
     updateMarkers() {
-        // var propsPlaces=this.props.places;
-        this.getZoomlevel();
-
-        if (this.props.places != null) {
-            var array = [];
-            if (this.props.places[0] === undefined) {
-                array = [];
-            } else {
-                array = this.props.places;
-            }
+        this.setZoomLevel();
+        // if we have actual places
+        // making this false makes a bunch of weird markers pop up on NavigationView's map
+        if (this.props.places !== null && this.props.places.length < 0) {
+            // if it's not a proper array, make it an empty array
+            let array = this.props.places;
             // filter out any null (i.e. invalid) places from the array
             array = array.filter(place => place !== null);
-            var itemCount = array.length;
-            var loopCounter = 10;
-            if (itemCount < loopCounter) {
-                loopCounter = itemCount;
-            }
-            for (var i = 0; i < loopCounter; i++) {
-                var placeId = array[i].place_id;
-                var latitude = array[i].latitude;
-                var longitude = array[i].longitude;
-            }
-
+            // loop runs
+            const loopCounter = Math.min(array.length, 10) - 1;
+            const {place_id, latitude, longitude} = array[loopCounter];
             this.geoJson = L.geoJSON(places_geo, {
                 "pointToLayer": function(feature, latlng) {
-                    if (placeId === feature.properties.place_place_id) {
-                        if (feature.properties.place_people_person_full_name != null) {
+                    if (place_id === feature.properties.place_place_id) {
+                        if (feature.properties.place_people_person_full_name !== null) {
                             return L.circleMarker(latlng, {"color": "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
                         } else {
                             return L.circleMarker(latlng, {"color": "#0000ff"}).bindPopup("there is no name in here,this box can say whaterver we want or not appear at all");
                         }
                     }
                 },
-
             }).addTo(this.map);
-
-            if (latitude && longitude != null) {
-                // this.map.panTo(new L.LatLng(latitude, longitude));
-                this.map.setView(new L.LatLng(latitude, longitude), 12);
+            if (typeof latitude !== "undefined" && typeof longitude !== "undefined") {
+                this.map.setView(new L.LatLng(latitude, longitude), zoom);
             }
-        } else { // if props.places is null
+        } else {
             this.geoJson = L.geoJSON(places_geo, {
                 "pointToLayer": function(feature, latlng) {
-                    if (feature.properties.place_people_person_full_name != null) {
+                    if (feature.properties.place_people_person_full_name !== null) {
                         return L.circleMarker(latlng, {
                             "color": "#9f0733",
                             "fillColor": "#05507c",
@@ -215,30 +168,21 @@ class MapView extends React.Component {
                 },
             }).addTo(this.map);
         }
-
-    } // end up update markers
-
-    componentDidUpdate() {
-        // this.map.remove();
-        // this.updateMarkers(this.props.places);
-    }
-
-    componentWillUnmount() {
-        // this.map.remove();
     }
 
     render() {
-        if (this.map != null) {
-            if (this.geoJson != null) {
+        if (typeof this.map !== "undefined") {
+            if (this.geoJson !== null) {
                 this.map.removeLayer(this.geoJson);
             }
             this.updateMarkers(this.props.places);
-            // this.getZoomlevel();
             zoom = 7;
         }
 
         return (
-            <div className="MapView" style={{height: this.props.height}}
+            <div
+                className="MapView"
+                style={{"height": this.props.height}}
                 ref={ref => this.container = ref} />
         );
     }
@@ -249,13 +193,14 @@ MapView.propTypes = {
     "person": PropTypes.array.isRequired,
     "places": PropTypes.array.isRequired,
     "stories": PropTypes.array.isRequired,
-}
+    "height": PropTypes.number.isRequired,
+};
 
 // assign defaults if not already defined
 MapView.defaultProps = {
     "person": [],
     "places": [],
     "stories": [],
-}
+};
 
 export default MapView;

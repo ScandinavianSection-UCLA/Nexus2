@@ -1,5 +1,8 @@
+// starter state if there is no previous data
 import initialState from "./initialState";
+// types of actions we can perform
 import * as actions from "../actions/actionTypes";
+// function to set session storage data
 import {setSessionStorage} from "../data-stores/SessionStorageModel";
 
 /**
@@ -45,8 +48,6 @@ function closeTab(ShallowNewState, RemoveIndex) {
     if (NewState.views[RemoveIndex].active === true) {
         // set the home view to be active
         NewState.views[0].active = true;
-    } else {
-        console.log("not active");
     }
     // remove the tab by the requested index
     NewState.views.splice(RemoveIndex, 1);
@@ -103,7 +104,6 @@ function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
         updatedViews.push(newView);
         // if our window is smaller than 1100px (95% sure about the units)
         if (window.innerWidth <= 1100) {
-            console.log("Window is small!");
             // if we have more than 5 tabs already (including home)
             if (updatedViews.length > 5) {
                 // remove the first non-Home tab
