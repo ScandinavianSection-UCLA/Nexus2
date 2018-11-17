@@ -1,4 +1,6 @@
+// react functionality
 import React, {Component} from "react";
+// the various possible views we could render
 import Navigation from "../Navigation/Navigation";
 import StoryView from "../StoryView/StoryView";
 import PlaceView from "../PlaceView/PlaceView";
@@ -6,11 +8,15 @@ import PeopleView from "../PeopleView/PeopleView";
 import FieldtripView from "../FieldtripView/FieldtripView";
 import BookView from "../BookView/BookView";
 import GraphView from "../NexusGraph/GraphView";
+// functions to get info about PPFS
 import * as model from "../../data-stores/DisplayArtifactModel";
+// CSS styling
 import "./TabViewer.css";
+// prop validation
 import PropTypes from "prop-types";
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
+// actions to manipulate the tabs
 import * as tabViewerActions from "../../actions/tabViewerActions";
 
 class TabViewer extends Component {
@@ -19,8 +25,10 @@ class TabViewer extends Component {
         this.state = {
             // by default, no search to load
             "searchWord": "",
+            // starting off without a drag
             "dragIndicatorX": null,
         };
+        // to be set once a render is complete
         this.dragIndicatorY = null;
         this.dragIndicatorHeight = null;
         // stores the left edge X-coordiantes of each tab

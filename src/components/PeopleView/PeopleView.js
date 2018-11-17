@@ -1,91 +1,48 @@
 /**
  * Created by danielhuang on 2/6/18.
  */
-import React, {Component} from 'react';
-import RightBar from '../RightBar/RightBar'
-import './PeopleView.css'
+import React, {Component} from "react";
+import RightBar from "../RightBar/RightBar";
+import "./PeopleView.css";
 import {getPlacesByID, OccupationDictionary} from "../../data-stores/DisplayArtifactModel";
-import {arrayTransformation, setPlaceIDList} from "../../utils";
+import {arrayTransformation, getPlaceIDList} from "../../utils";
 import MapView from "../MapView/MapView";
+// prop validation
+import PropTypes from "prop-types";
 
 class PeopleView extends Component {
-    constructor() {
-        super();
-        this.state = {
-            PeopleObject: {},
-            PeoplePath: ''
-        };
-        this.clickHandler = this.clickHandler.bind(this);
-    }
-
-    clickHandler(id, name, type) {
-        this.props.addID(id, name, type);
-
-    }
-
     getOccupation() {
-        var items = [this.props.person];
-        console.log('items', items);
-        var person_job = '';
-        var multiple_jobs = [];
-        var newItem = OccupationDictionary //json of occupations and occupation IDs
-
-
-        items.forEach(function (item) {
-            if (item.occupations != null) {
-                if (Array.isArray(item.occupations.occupation)) {
-                    item.occupations.occupation.forEach(function (occupation) {
-                        newItem.forEach(function (new_item) {
-                            if (new_item.ID === occupation.occupation_id) {
-                                occupation.occupation_name = new_item.occupation
-                            }
-                        });
-
-                    });
-                    for (var i = 0; i < items[0].occupations.occupation.length; i++) {
-                        var job = items[0].occupations.occupation[i].occupation_name;
-                        multiple_jobs.push(job);
-                    }
-                    multiple_jobs.toString();
-                    person_job = multiple_jobs;
-                    console.log("multiple jobs array", multiple_jobs)
-
-
-                }
-
-                else {
-                    newItem.forEach(function (new_item) {
-                        if (new_item.ID === item.occupations.occupation.occupation_id) {
-                            item.occupations.occupation.occupation_name = new_item.occupation
-                        }
-                        person_job = items[0].occupations.occupation.occupation_name;
-                    });
-
-                    console.log('person_job_else', items[0].occupations.occupation.occupation_name);
-                }
-            }
-            else {
-
-                person_job = "No Occupation";
-            }
-        });
-        return person_job;
+        // get the person we are using
+        let {person} = this.props;
+        // assuming we have occupations
+        if (person.occupations !== null) {
+            // get the occupations
+            let jobList = person.occupations.occupation;
+            // if it's a single job, turn it into a single element array
+            jobList = arrayTransformation(jobList);
+            // for each of the jobs
+            jobList.forEach(function(occupation) {
+                // set its name to be that of the matching job in the occupation dictionary
+                occupation.occupation_name = OccupationDictionary.find((testOccupation) => testOccupation.ID === occupation.occupation_id).occupation;
+            });
+            // for the list of jobs
+            return jobList
+                // combine them into a comma and space separate string
+                .reduce((res, job) => `${res}, ${job.occupation_name}`, "")
+                // and remove the initial comma and space
+                .substring(2);
+        } else {
+            // no job, alert this
+            return "No Occupation";
+        }
     }
 
     render() {
-        console.log(this.props.person);
-        var cleanPlacesArray = setPlaceIDList(arrayTransformation(this.props.person['places'], 'Places'));
-        var PlacesArray = [];
-        cleanPlacesArray.forEach((placeID) => {
-            PlacesArray.push(getPlacesByID(placeID));
-        });
-        var person_job = this.getOccupation();
-        console.log(this.props.person['places']);
         return (
             <div className="PeopleView grid-y">
                 <div className="tab-header cell medium-1">
-                    <img style={{marginTop: '-1.7%', marginRight: '1%'}} src="https://png.icons8.com/windows/64/000000/contacts.png" alt="person icon" />
-                    <h2 style={{fontWeight: 'bold', display: 'inline-block'}}>{this.props.person['full_name']}</h2>
+                    <img style={{"marginTop": "-1.7%", "marginRight": "1%"}} src="https://png.icons8.com/windows/64/000000/contacts.png" alt="person icon" />
+                    <h2 style={{"fontWeight": "bold", "display": "inline-block"}}>{this.props.person.full_name}</h2>
                 </div>
                 <div className="cell medium 11">
                     <div className="grid-x" >
@@ -93,36 +50,59 @@ class PeopleView extends Component {
                             <div className="grid-y info-wrap">
                                 <div className="cell medium-5">
                                     <div className="grid-x informant-bio-container">
-                                        <img src={require(`../RightBar/informant_images/${[90, 123, 150, 235, 241].includes(this.props.person['person_id']) ? String(this.props.person['person_id']) + '.jpg' : 'noprofile.png'}`)}
-                                            className="cell medium-4" alt='Person' />
+                                        <img src={require(`../RightBar/informant_images/${[90, 123, 150, 235, 241].includes(this.props.person.person_id) ? `${this.props.person.person_id}.jpg` : "noprofile.png"}`)}
+                                            className="cell medium-4" alt="Person" />
                                         <div className="cell medium-8 details">
-                                            <div className="detail-item"><b>Born</b> {this.props.person['birth_date']}</div>
-                                            <div className="detail-item"><b>Died</b> {this.props.person['death_date']}</div>
-                                            <div className="detail-item"><b>ID#</b> {String(this.props.person['person_id'])}</div>
-                                            <div className="detail-item"><b>Occupation (Eng/Dansk):</b> {String(person_job)}</div>
+                                            <div className="detail-item"><b>Born</b> {this.props.person.birth_date}</div>
+                                            <div className="detail-item"><b>Died</b> {this.props.person.death_date}</div>
+                                            <div className="detail-item"><b>ID#</b> {this.props.person.person_id}</div>
+                                            <div className="detail-item"><b>Occupation (Eng/Dansk):</b> {this.getOccupation()}</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="cell medium-7 wrapper person">
                                     <div className="person-bio">
-                                        {this.props.person['intro_bio']}
+                                        {this.props.person.intro_bio}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="medium-4 cell">
-                            <MapView places={PlacesArray} />
+                            <MapView places={
+                                // get a list of all IDs of associated places
+                                getPlaceIDList(arrayTransformation(this.props.person.places))
+                                    // and get the full place object from that, to give to MapView
+                                    .map((placeID) => getPlacesByID(placeID))} />
                         </div>
-                        <RightBar view={'People'}
-                            stories={this.props.person['stories']}
-                            places={this.props.person['places']}
-                            passID={this.clickHandler}
-                        > </RightBar>
+                        <RightBar
+                            view="People"
+                            stories={this.props.person.stories}
+                            places={this.props.person.places}
+                        />
                     </div>
                 </div>
             </div>
         );
     }
 }
+
+PeopleView.propTypes = {
+    "person": PropTypes.shape({
+        "birth_date": PropTypes.string.isRequired,
+        "core_informant": PropTypes.number,
+        "death_date": PropTypes.string.isRequired,
+        "first_name": PropTypes.string,
+        "fullbio": PropTypes.string,
+        "full_name": PropTypes.string.isRequired,
+        "gender": PropTypes.string,
+        "last_name": PropTypes.string,
+        "image": PropTypes.string,
+        "intro_bio": PropTypes.string.isRequired,
+        "occupations": PropTypes.object,
+        "person_id": PropTypes.number.isRequired,
+        "places": PropTypes.array.isRequired,
+        "stories": PropTypes.array.isRequired,
+    }),
+};
 
 export default PeopleView;

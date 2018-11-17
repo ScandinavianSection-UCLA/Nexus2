@@ -3,7 +3,8 @@ import Modal from "react-modal";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import RightBar from "../RightBar/RightBar";
 import {getPeopleByID, getPlacesByID} from "../../data-stores/DisplayArtifactModel";
-import {arrayTransformation, setPlaceIDList} from "../../utils";
+import {arrayTransformation, getPlaceIDList} from "../../utils";
+import {addNode} from "../NexusGraph/NexusGraphModel";
 import "./StoryView.css";
 import MapView from "../MapView/MapView";
 import PropTypes from "prop-types";
@@ -11,148 +12,135 @@ import {bindActionCreators} from "redux";
 import * as tabViewerActions from "../../actions/tabViewerActions";
 import connect from "react-redux/es/connect/connect";
 
+const indexToVersion = {
+    "0": "english_manuscript",
+    "1": "english_publication",
+    "2": "danish_manuscript",
+    "3": "danish_publication",
+};
+
 class StoryView extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
+        // set initial state
         this.state = {
-            "StoryObject": {},
-            "StoryPath": "",
-            "isTabOpen": [true, false, false, false],
+            // start with the first accordian tab open
+            "openTab": 0,
             "storyVersionOpen": [true, false, false, false, false],
+            // two versions wouldn't be open
             "twoVersions": false,
             "lastStoryVersionOpen": 0,
-            "indexToVersion": {
-                "0": "english_manuscript",
-                "1": "english_publication",
-                "2": "danish_manuscript",
-                "3": "danish_publication",
-            },
-            "isPaneOpen": false,
         };
-        this.renderStories = this.renderStories.bind(this);
-        this.renderPlaces = this.renderPlaces.bind(this);
-        this.clickHandler = this.clickHandler.bind(this);
-        this.searchKeyword = this.searchKeyword.bind(this);
+        // out of all the story's places
+        this.placeRecorded = arrayTransformation(props.story.places.place)
+            // find the one that is where this story was recorded
+            .find((place) => place.type === "place_recorded");
+        // out of all the story's places
+        this.placesMentioned = arrayTransformation(props.story.places.place)
+            // find the ones that are mentioned in story
+            .filter(place => place.type === "place_mentioned");
+        // properly bind functions so that they work inside sub-elements
+        this.renderStories = this.renderRelatedStories.bind(this);
+        this.renderProperty = this.renderProperty.bind(this);
+        this.accordionHandler = this.accordionHandler.bind(this);
     }
 
     componentDidMount() {
         Modal.setAppElement(this.el);
     }
 
-    clickHandler(id, name, type) {
-        // this.props.addID(id, name, type);
-        this.props.tabViewerActions.addTab(id,name,type);
-    }
-
-    renderStories() {
-        // console.log(this.props.story["stories_mentioned"])
+    renderRelatedStories() {
+        // get related stories
         const {stories_mentioned} = this.props.story;
+        // if we actually have any related stories
         if (stories_mentioned !== null) {
-            var storyArray = arrayTransformation(stories_mentioned.story);
-            return <ul>
-                {storyArray.map((story, i) => {
-                    const {story_id, full_name} = story;
-                    return <li key={i} className="associated-items" onClick={
-                        (e) => {
-                            e.preventDefault();
-                            this.clickHandler(story_id, full_name, "Stories");
-                        }
-                    }>{full_name}</li>;
-                })}
-            </ul>;
+            return (
+                <ul>
+                    {/* for each mentioned story */}
+                    {arrayTransformation(stories_mentioned.story).map((story, i) => {
+                        // get its id, display name
+                        const {story_id, full_name} = story;
+                        return <li
+                            key={i}
+                            className="associated-items"
+                            onClick={() => {
+                                // add the story as a node on the graph
+                                addNode(story_id, full_name, "Stories", story);
+                                // open up the story in a new tab
+                                this.props.tabViewerActions.addTab(story_id, full_name, "Stories");
+                            }}>
+                            {full_name}
+                        </li>;
+                    })}
+                </ul>
+            );
         } else {
-            return <div className="callout alert">
-                <h6>No related stories.</h6>
-            </div>;
+            // no related stories, notify the viewer
+            return (
+                <div className="callout alert">
+                    <h6>No related stories.</h6>
+                </div>
+            );
         }
     }
 
-    renderPlaces() {
-        const {place} = this.props.story.places;
-        var placeArray = arrayTransformation(place);
-        return <div>
-            <h4>Associated Places</h4>
-            <ul>
-                {placeArray.map((place, i) => {
-                    const {display_name, name, place_id} = place;
-                    return <li key={i} className="associated-items" onClick={
-                        (e) => {
-                            e.preventDefault();
-                            this.clickHandler(place_id, name, "Places");
-                        }
-                    }>{display_name}</li>;
-                })}
-            </ul>
-        </div>;
-    }
-
+    /**
+     * Handle a click on the left accordian tri-tabs
+     * @param {*} tab Tab that was clicked
+     */
     accordionHandler(tab) {
         this.setState((prevState) => {
-            prevState.isTabOpen = [false, false, false, false];
-            prevState.isTabOpen[tab] = true;
-            return {"isTabOpen": prevState.isTabOpen};
+            return {
+                // if we clicked on a new tab, make that active
+                // otherwise we are trying to hide the current tab, so no active tab
+                "openTab": tab,
+            };
         });
-    }
-
-    placeRecorded() {
-        var cleanArray = arrayTransformation(this.props.story["places"]["place"]);
-        var placeObject = {};
-        cleanArray.forEach((place) => {
-            if (place["type"] === "place_recorded") {
-                placeObject = place;
-            }
-        });
-        return placeObject;
-    }
-
-    placesMentioned() {
-        const cleanArray = arrayTransformation(this.props.story["places"]["place"]);
-        var placeObjects = cleanArray.filter(place => place["type"] === "place_mentioned");
-        console.log({cleanArray, placeObjects});
-        return placeObjects;
     }
 
     bibliographicReferences() {
         const {bibliography_references} = this.props.story;
+        // no references, alert the viewer
         if (bibliography_references === null) {
             return <div className="callout alert">
                 <h6>No references for this story.</h6>
             </div>;
         } else {
             return <table>
-                <tbody>
-                    {
-                        arrayTransformation(bibliography_references["reference"]).map((reference, i) => {
-                            return <tr key={i}>
-                                <td>{reference["display_string"]}</td>
-                            </tr>;
-                        })
-                    }
+                <tbody>{
+                    // display each reference on a row
+                    arrayTransformation(bibliography_references.reference).map((reference) => {
+                        let {display_string} = reference;
+                        return <tr key={display_string}>
+                            <td>{display_string}</td>
+                        </tr>;
+                    })}
                 </tbody>
             </table>;
         }
     }
 
     storyViewerClickHandler(version) {
-        // tODO: new line breaks /n + html tags (transform character into escape characters)
         this.setState((prevState) => {
-            var {lastStoryVersionOpen, storyVersionOpen, twoVersions} = prevState;
-            // check if more than 2 versions open
-            var versionCount = storyVersionOpen.reduce((total, current) => current ? total + 1 : total);
-            // check if clicked version is already open, if so then close it
+            // get relevant previous conditions
+            let {lastStoryVersionOpen, storyVersionOpen, twoVersions} = prevState;
+            // total number of open manuscripts
+            let versionCount = storyVersionOpen.reduce((totalOpen, version) => version ? totalOpen + 1 : totalOpen);
+            // if clicked version is already open
             if (storyVersionOpen[version] === true) {
+                // if we alreay have two tabs open
                 if (versionCount >= 2) {
+                    // close the clicked tab
                     storyVersionOpen[version] = false;
                 }
+                // we have ensured that only one view is open by closing if necessary
                 twoVersions = false;
-
-                storyVersionOpen.forEach((version, i) => {
-                    if (version) {
-                        lastStoryVersionOpen = i;
-                    }
-                });
+                // set last open view to be the one remaining open view
+                lastStoryVersionOpen = storyVersionOpen.findIndex((version) => version);
             } else {
+                // we are going to have 2 views open
                 twoVersions = true;
+                // if we already have at least two versions open
                 if (versionCount >= 2) {
                     // close the last open version
                     storyVersionOpen[prevState.lastStoryVersionOpen] = false;
@@ -163,33 +151,25 @@ class StoryView extends Component {
                 lastStoryVersionOpen = version;
             }
             return {
-                "storyVersionOpen": storyVersionOpen,
-                "lastStoryVersionOpen": lastStoryVersionOpen,
-                "twoVersions": twoVersions,
+                storyVersionOpen,
+                lastStoryVersionOpen,
+                twoVersions,
             };
         });
     }
 
     renderProperty(property) {
-        if (property !== null && typeof property !== "undefined") {
-            return property;
-        } else {
-            return "N/A";
-        }
+        // if the property is defined, that should be displayed, otherwise not applicable
+        return property !== null && typeof property !== "undefined" ? property : "N/A";
     }
 
     renderComponentView(component, name) {
-        if (component !== null && typeof component !== "undefined") {
-            return component;
-        } else {
-            return <div className="callout alert">
+        // if the component is defiend, it should be displayed, otherwise notify that it doesn't exist
+        return component !== null && typeof component !== "undefined" ? component : (
+            <div className="callout alert">
                 <h6>{name} does not exist.</h6>
-            </div>;
-        }
-    }
-
-    searchKeyword(keyword) {
-        this.props.handleKeywordSearch(keyword);
+            </div>
+        );
     }
 
     render() {
@@ -211,68 +191,106 @@ class StoryView extends Component {
             places,
             tango_indices,
         } = story;
-        const {indexToVersion, isTabOpen, storyVersionOpen, twoVersions} = this.state;
-        const cleanPlacesArray = setPlaceIDList(arrayTransformation(places["place"]), "Places");
-        const PlaceObjectArray = places["place"];
-        const PlacesArray = cleanPlacesArray.map(placeID => getPlacesByID(placeID));
-        const storiesByPerson = getPeopleByID(informant_id)["stories"];
-        // console.log(getPeopleByID(this.props.story["informant_id"]));
         const personData = getPeopleByID(informant_id);
-        const searchKeyword = this.searchKeyword;
+        const {openTab, storyVersionOpen, twoVersions} = this.state;
+        const PlaceObjectArray = places.place;
+        const PlacesArray = getPlaceIDList(arrayTransformation(places.place)).map(placeID => getPlacesByID(placeID));
         return (
             <div className="StoryView grid-x">
                 <div className="medium-3 cell">
                     <MapView height={"30vh"} places={PlacesArray} />
                     <ul className="accordion" data-accordian>
-                        <li className={`accordion-item ${isTabOpen[0] ? "is-active" : ""}`}
-                            onClick={(e) => {
-                                e.preventDefault();
-                                this.accordionHandler.bind(this)(0);
-                            }}>
-                            <a href="" className="accordion-title">Story Data</a>
+                        <li className={`accordion-item ${openTab === 0 ? "is-active" : ""}`}>
+                            <a
+                                className="accordion-title"
+                                onClick={() => {
+                                    // when clicked, toggle the top tab
+                                    this.accordionHandler(0);
+                                }}>Story Data</a>
                             <div className="body">
-                                <b>Order Told</b> {this.renderProperty.bind(this)(order_told)}<br />
-                                <b>Recorded during fieldtrip</b> {this.renderProperty.bind(this)(fieldtrip["id"])}<br />
-                                <b>Fieldtrip dates</b> {this.renderProperty.bind(this)(fieldtrip_start_date)} to {this.renderProperty.bind(this)(fieldtrip_end_date)}<br />
-                                <b>Place recorded</b> {this.renderProperty.bind(this)(this.placeRecorded.bind(this)()["display_name"])} <br />
-                                <b>Field diary pages</b> {this.renderProperty.bind(this)(fielddiary_page_start)} to {fielddiary_page_end}<br />
+                                <b>Order Told</b> {this.renderProperty(order_told)}<br />
+                                <b>Recorded during fieldtrip</b> {this.renderProperty(fieldtrip.id)}<br />
+                                <b>Fieldtrip dates</b> {this.renderProperty(fieldtrip_start_date)} to {this.renderProperty.bind(this)(fieldtrip_end_date)}<br />
+                                <b>Place recorded</b> {
+                                    // is there a properly set place recorded?
+                                    typeof this.placeRecorded !== "undefined"
+                                        // if so, return it
+                                        ? <button
+                                            // make it a button-well
+                                            className="button keyword-well"
+                                            // when it is clicked
+                                            onClick={() => {
+                                                // start a search by this keyword
+                                                this.props.tabViewerActions.addTab(this.placeRecorded.place_id, this.placeRecorded.name, "Places");
+                                                // display the place name
+                                            }}>{this.placeRecorded.name}</button>
+                                        // otherwise, it isn't applicable
+                                        : "N/A"}
+                                <br />
+                                <b>Field diary pages</b> {
+                                    // are there field diary pages?
+                                    fielddiary_page_start !== "No field diary recording"
+                                        // if so, list them out
+                                        ? `${fielddiary_page_start} to ${fielddiary_page_end}`
+                                        // otherwise, it's not applicable
+                                        : "N/A"}
+                                <br />
                                 <b>Associated Keywords</b><br />{
-                                    arrayTransformation(keywords["keyword"]).map((keyword, i) => {
+                                    // for each of the keywords
+                                    arrayTransformation(keywords.keyword).map((keyword, i) => {
+                                        // return a well that triggers a serach by that keyword when clicked
                                         return <button
+                                            // make it a button-well
                                             className="button keyword-well"
                                             key={i}
-                                            onClick={function() {
-                                                searchKeyword(keyword["keyword"]);
-                                            }}>{keyword["keyword"]}</button>;
+                                            // when it is clicked
+                                            onClick={() => {
+                                                // start a search by this keyword
+                                                this.props.handleKeywordSearch(keyword.keyword);
+                                            }}>{keyword.keyword}</button>;
                                     })
                                 }<br />
-                                <b>Places mentioned in story</b> {this.placesMentioned.bind(this)().map((place, i) => {
-                                    return <span key={i} className="keyword-well">{place["name"]}</span>;
-                                })}
-                                <br />
+                                <b>Places mentioned in story</b> {
+                                    // are there any mentioned places
+                                    this.placesMentioned.length > 0
+                                        // if so, for each of the mentioned places
+                                        ? this.placesMentioned.map((place, i) => {
+                                            return <button
+                                                key={i}
+                                                // make it a button-well
+                                                className="button keyword-well"
+                                                // when it is clicked
+                                                onClick={() => {
+                                                    // open up the tab related to this place
+                                                    this.props.tabViewerActions.addTab(place.place_id, place.name, "Places");
+                                                }}>{place.name}</button>;
+                                            // otherwise, this is not applicable
+                                        }) : "N/A"}
                             </div>
                         </li>
-                        <li className={`accordion-item ${isTabOpen[1] ? "is-active" : ""}`}
-                            onClick={(e) => {
-                                e.preventDefault();
-                                this.accordionHandler.bind(this)(1);
-                            }}>
-                            <a href="" className="accordion-title">Story Indices</a>
+                        <li className={`accordion-item ${openTab === 1 ? "is-active" : ""}`}>
+                            <a
+                                className="accordion-title"
+                                onClick={() => {
+                                    // when clicked, toggle the middle tab
+                                    this.accordionHandler(1);
+                                }}>Story Indices</a>
                             <div className="body">
-                                <b>Genre</b> {genre["name"]}<br />
-                                <b>ETK Index</b> {etk_index["heading_english"]}<br />
+                                <b>Genre</b> {genre.name}<br />
+                                <b>ETK Index</b> {etk_index.heading_english}<br />
                                 <b>Tangherlini Indices</b><br />
-                                {arrayTransformation(tango_indices["tango_index"]).map((index, i) => {
-                                    return <div className="keyword-well" key={i}>{index["display_name"]}</div>;
+                                {arrayTransformation(tango_indices.tango_index).map((index, i) => {
+                                    return <div className="keyword-well" key={i}>{index.display_name}</div>;
                                 })}
                             </div>
                         </li>
-                        <li className={`accordion-item ${isTabOpen[2] ? "is-active" : ""}`}
-                            onClick={(e) => {
-                                e.preventDefault();
-                                this.accordionHandler.bind(this)(2);
-                            }}>
-                            <a href="" className="accordion-title">Bibliographical References</a>
+                        <li className={`accordion-item ${openTab === 2 ? "is-active" : ""}`}>
+                            <a
+                                className="accordion-title"
+                                onClick={() => {
+                                    // when clicked, toggle the bottom tab
+                                    this.accordionHandler(2);
+                                }}>Bibliographical References</a>
                             <div className="body">
                                 {this.bibliographicReferences.bind(this)()}
                             </div>
@@ -311,7 +329,6 @@ class StoryView extends Component {
                                                 e.preventDefault();
                                                 this.storyViewerClickHandler.bind(this)(3);
                                             }}>Danish Published Version</li>
-                                        {/* <li className="secondary button">Manuscript</li>*/}
                                     </ul>
                                     <div className="grid-x">
                                         {storyVersionOpen.map((version, i) => {
@@ -323,6 +340,8 @@ class StoryView extends Component {
                                                         </div>
                                                     </div>
                                                 </div>;
+                                            } else {
+                                                return null;
                                             }
                                         })}
                                     </div>
@@ -339,13 +358,19 @@ class StoryView extends Component {
                                         </div>
                                         <div className="medium-4 cell relatedStories">
                                             <h5 className="title">Related Stories</h5>
-                                            {this.renderStories.bind(this)()}
+                                            {this.renderRelatedStories.bind(this)()}
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <RightBar view={"Stories"} object={story} bio={personData} places={PlaceObjectArray} stories={storiesByPerson} passID={this.clickHandler} />
+                        <RightBar
+                            view="Stories"
+                            object={story}
+                            bio={personData}
+                            places={PlaceObjectArray}
+                            // if the author is valid, show its stories under the stories tab
+                            stories={personData !== null ? personData.stories : []} />
                     </div>
 
                 </div>
@@ -356,76 +381,49 @@ class StoryView extends Component {
 }
 
 StoryView.propTypes = {
-    "annotation": PropTypes.string.isRequired,
-    "bibliographic_info": PropTypes.string,
-    "bibliographic_references": PropTypes.shape({
-        "reference": PropTypes.array,
+    "handleKeywordSearch": PropTypes.func.isRequired,
+    "story": PropTypes.shape({
+        "annotation": PropTypes.string.isRequired,
+        "bibliographic_info": PropTypes.string,
+        "bibliography_references": PropTypes.shape({
+            "reference": PropTypes.array,
+        }).isRequired,
+        "danish_manuscript": PropTypes.string,
+        "danish_publication": PropTypes.string,
+        "english_manuscript": PropTypes.string,
+        "english_publication": PropTypes.string,
+        "etk_index": PropTypes.shape({
+            "heading_danish": PropTypes.string,
+            "heading_english": PropTypes.string,
+            "id": PropTypes.number,
+        }),
+        "fielddiary_page_end": PropTypes.string,
+        "fielddiary_page_start": PropTypes.string,
+        "fieldtrip": PropTypes.shape({
+            "id": PropTypes.number,
+        }),
+        "full_name": PropTypes.string,
+        "genre": PropTypes.shape({
+            "id": PropTypes.number,
+            "name": PropTypes.string,
+        }),
+        "informant_first_name": PropTypes.string,
+        "informant_full_name": PropTypes.string,
+        "informant_id": PropTypes.number,
+        "informant_last_name": PropTypes.string,
+        "keywords": PropTypes.shape({
+            "keyword": PropTypes.array,
+        }),
+        "order_told": PropTypes.number,
+        "places": PropTypes.any,
+        "publication_info": PropTypes.string,
+        "stories_mentioned": PropTypes.any,
+        "story_id": PropTypes.number,
+        "tango_indices": PropTypes.shape({
+            "tango_index": PropTypes.array,
+        }),
     }),
-    "danish_manuscript": PropTypes.string,
-    "danish_publication": PropTypes.string,
-    "english_manuscript": PropTypes.string,
-    "english_publication": PropTypes.string,
-    "etk_index": PropTypes.shape({
-        "heading_danish": PropTypes.string,
-        "heading_english": PropTypes.string,
-        "id": PropTypes.number,
-    }),
-    "fielddiary_page_end": PropTypes.string,
-    "fielddiary_page_start": PropTypes.string,
-    "fieldtrip": PropTypes.shape({
-        "id": PropTypes.number,
-    }),
-    "full_name": PropTypes.string,
-    "genre": PropTypes.shape({
-        "id": PropTypes.number,
-        "name": PropTypes.string,
-    }),
-    "informant_first_name": PropTypes.string,
-    "informant_full_name": PropTypes.string,
-    "informant_id": PropTypes.number,
-    "informant_last_name": PropTypes.string,
-    "keywords": PropTypes.shape({
-        "keyword": PropTypes.array,
-    }),
-    "order_told": PropTypes.number,
-    "places": PropTypes.any,
-    "publication_info": PropTypes.string,
-    "stories_mentioned": PropTypes.any,
-    "story_id": PropTypes.number,
-    "tango_indices": PropTypes.shape({
-        "tango_index": PropTypes.array,
-    }),
-};
-
-StoryView.defaultProps = {
-    "annotation": "",
-    "etk_index": {
-        "heading_english": "",
-    },
-    "fielddiary_page_end": "",
-    "fielddiary_page_start": "",
-    "fieldtrip": {
-        "id": null,
-    },
-    "fieldtrip_end_date": "",
-    "fieldtrip_start_date": "",
-    "full_name": "",
-    "genre": {
-        "name": "",
-    },
-    "informant_id": null,
-    "informant_full_name": "",
-    "keywords": {
-        "keyword": [],
-    },
-    "order_told": null,
-    "tango_indices": {
-        "tango_index": [],
-    },
-};
-
-StoryView.propTypes = {
-    "tabActions": PropTypes.object,
+    "tabViewerActions": PropTypes.object.isRequired,
 };
 
 function mapStateToProps(state) {

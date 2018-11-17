@@ -4,107 +4,19 @@ import "./FieldtripView.css";
 import PropTypes from "prop-types";
 
 class FieldtripView extends Component {
-    constructor () {
-        super();
-        this.clickHandler = this.clickHandler.bind(this);
-    }
-
-    clickHandler(id, name, type) {
-        this.props.addID(id, name, type);
-    }
-
-    // renderStories() {
-    //     return <div className="results">
-    //         <h3>Stories Collected</h3>
-    //         <ul>
-    //             {this.props.fieldtrip["stories_collected"].map((story, i) => {
-    //                 return <li key={i} className="associated-items" onClick={
-    //                     (e) => {e.preventDefault(); this.clickHandler(story["story_id"], story["full_name"], "Stories")}
-    //                 }>{story.full_name}</li>
-    //             })}
-    //         </ul>
-    //     </div>;
-    // }
-    //
-    // renderPlaces() {
-    //     return <div className="results">
-    //         <h3>Places Visited</h3>
-    //         <ul>
-    //             {this.props.fieldtrip["places_visited"].map((place, i) => {
-    //                 return <li key={i} className="associated-items" onClick={
-    //                     (e) => {e.preventDefault(); this.clickHandler(place["place_id"], place["name"], "Places")}
-    //                 }>{place.full_name}</li>
-    //             })}
-    //         </ul>
-    //     </div>;
-    // }
-    //
-    // renderPeople() {
-    //     return <div className="results">
-    //         <h3>People Visited</h3>
-    //         <ul>
-    //             {this.props.fieldtrip["people_visited"].map((person, i) => {
-    //                 return <li key={i} className="associated-items" onClick={
-    //                     (e) => {e.preventDefault(); this.clickHandler(person["person_id"], person["full_name"], "People")}
-    //                 } >{person.full_name}</li>
-    //             })}
-    //         </ul>
-    //     </div>;
-    // }
-    //
-    // renderResults() {
-    //     if (this.props.fieldtrip["people_visited"] !== [] && this.props.fieldtrip["places_visited"] !== [] && this.props.fieldtrip["stories_collected"] !== []) {
-    //         return <div>
-    //             {this.renderPeople()}
-    //             {this.renderPlaces()}
-    //             {this.renderStories()}
-    //         </div>;
-    //     } else if (this.props.fieldtrip["people_visited"] !== [] && this.props.fieldtrip["places_visited"] !== []) {
-    //         return <div>
-    //             {this.renderPeople()}
-    //             {this.renderPlaces()}
-    //         </div>;
-    //     } else if (this.props.fieldtrip["people_visited"] !== [] && this.props.fieldtrip["stories_collected"] !== []) {
-    //         return <div>
-    //             {this.renderPeople()}
-    //             {this.renderStories()}
-    //         </div>;
-    //     } else if (this.props.fieldtrip["places_visited"] !== [] && this.props.fieldtrip["stories_collected"] !== []) {
-    //         return <div>
-    //             {this.renderPlaces()}
-    //             {this.renderStories()}
-    //         </div>;
-    //     } else if (this.props.fieldtrip["places_visited"] !== []) {
-    //         return <div>
-    //             {this.renderPlaces()}
-    //         </div>;
-    //     } else if (this.props.fieldtrip["stories_collected"] !== []) {
-    //         return <div>
-    //             {this.renderStories()}
-    //         </div>;
-    //     } else if (this.props.fieldtrip["people_visited"] !== []) {
-    //         return <div>
-    //             {this.renderPeople()}
-    //         </div>;
-    //     } else {
-    //         return <h4>Nothing to show</h4>
-    //     }
-    // }
-
     render() {
-        // Div: General info about the fieldTrip
-        // RightBar: People, plaecs, stories; but adds Nodes when selected
         return (
             <div className="FieldtripView grid-x">
                 <div className="medium-11 cell">
-                    <h3>{this.props.fieldtrip["fieldtrip_name"]}</h3>
-                    <h4>{this.props.fieldtrip["start_date"]} to {this.props.fieldtrip["end_date"]}</h4>
+                    {/* should add more later, currently only displays timing of the fieldtrip*/}
+                    <h3>{this.props.fieldtrip.fieldtrip_name}</h3>
+                    <h4>{this.props.fieldtrip.start_date} to {this.props.fieldtrip.end_date}</h4>
                 </div>
-                <RightBar view={"Fieldtrips"}
-                    people={this.props.fieldtrip["people_visited"]}
-                    stories={this.props.fieldtrip["stories_collected"]}
-                    places={this.props.fieldtrip["places_visited"]}
-                    passID={this.clickHandler}
+                {/* right bar with all the relevant PPS for the fieldtrip */}
+                <RightBar view="Fieldtrips"
+                    people={this.props.fieldtrip.people_visited}
+                    stories={this.props.fieldtrip.stories_collected}
+                    places={this.props.fieldtrip.places_visited}
                     className="medium-1 cell"
                 />
             </div>

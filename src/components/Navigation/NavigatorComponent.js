@@ -3,6 +3,7 @@ import "./navigatorComponent.css";
 import NavigationDropdownMenu from "./NavigationDropdownMenu";
 import {arrayTransformation} from "../../utils";
 import {getList, ontologyToDisplayKey, tangoTypes} from "../../data-stores/DisplayArtifactModel";
+import PropTypes from "prop-types";
 
 class Navigation extends Component {
     constructor() {
@@ -45,7 +46,6 @@ class Navigation extends Component {
 
         if (prevSelection) {
             let isPPS = (prevSelection === "People" || prevSelection === "Places" || prevSelection === "Stories");
-            console.log(prevSelection);
             // check if the topics and indices navigation tab should be active
             if (!isPPS) {
                 this.setState(() => {
@@ -88,29 +88,29 @@ class Navigation extends Component {
         this.props.searchOn(false);
         // resets displayed results
         this.props.handleDisplayItems([], "");
-        if (nav["name"] === "Data Navigator") {
+        if (nav.name === "Data Navigator") {
             this.setState((oldState) => {
-                oldState["dataNavView"] = true;
+                oldState.dataNavView = true;
                 // erase any existing dropdown lists
-                oldState["dropdownLists"] = [];
-                oldState["navigators"] = [
+                oldState.dropdownLists = [];
+                oldState.navigators = [
                     {"name": "Data Navigator", "tabClass": "tab cell medium-6 dataNavView active"},
                     {"name": "Topic & Index Navigator", "tabClass": "tab cell medium-6 TINavView"},
                 ];
-                oldState["path"] = ["Data Navigator"];
+                oldState.path = ["Data Navigator"];
                 return oldState;
             }, () => {
                 this.props.setDisplayLabel(this.state.path.join());
             });
         } else {
             this.setState((oldState) => {
-                oldState["dataNavView"] = false;
-                oldState["dropdownLists"] = [];
-                oldState["navigators"] = [
+                oldState.dataNavView = false;
+                oldState.dropdownLists = [];
+                oldState.navigators = [
                     {"name": "Data Navigator", "tabClass": "tab cell medium-6 dataNavView "},
                     {"name": "Topic & Index Navigator", "tabClass": "tab cell medium-6 TINavView active"},
                 ];
-                oldState["path"] = ["Topic & Index Navigator"];
+                oldState.path = ["Topic & Index Navigator"];
                 return oldState;
             }, () => {
                 this.props.setDisplayLabel(this.state.path.join());
@@ -160,17 +160,16 @@ class Navigation extends Component {
                         "dropdownLists": [],
                     };
                 }, () => {
-                    console.log(this.state["path"], this.state["path"].join(" > "));
                     // set display label (above search results)
-                    this.props.setDisplayLabel(this.state["path"].join(" > "));
+                    this.props.setDisplayLabel(this.state.path.join(" > "));
                 });
             } else {
                 // create additional options for people to be in the dropdown menu so people can select everything in the menu
                 var selectString = "";
                 if (ontology !== "ETK Index") {
-                    selectString = "[Select " + ontology.slice(0, -1) + "]";
+                    selectString = `[Select ${ontology.slice(0, -1)}]`;
                 } else {
-                    selectString = "[Select " + ontology + "]";
+                    selectString = `[Select ${ontology}]`;
                 }
                 var displayKey = ontologyToDisplayKey[ontology];
                 var selectObject = {};
@@ -207,7 +206,7 @@ class Navigation extends Component {
                     };
                 }, () => {
                     // set display label (above search results)
-                    this.props.setDisplayLabel(this.state["path"].join(" > "));
+                    this.props.setDisplayLabel(this.state.path.join(" > "));
                 });
             }
             if (ontology !== "Tangherlini Index" && !isPPSF) {
@@ -219,7 +218,6 @@ class Navigation extends Component {
                     "tango": false,
                     "list": itemsList,
                 };
-                // this.setState({dropdownLists:[listObject]});
                 // highlight clicked ontology
                 this.setState((oldState) => {
                     oldState.activeList = {
@@ -284,46 +282,42 @@ class Navigation extends Component {
         // for non-Tango Index dropdowns
         if (!isTango) {
             // make sure that we didn't re-select the [Select a ___] option from the dropdown
-            if (typeof selectedItem["id"] !== "undefined") {
-                var storiesList = arrayTransformation(selectedItem["stories"]["story"]);
+            if (typeof selectedItem.id !== "undefined") {
+                var storiesList = arrayTransformation(selectedItem.stories.story);
                 this.setState((oldState) => {
                     var newDropdownList = oldState.dropdownLists;
-                    newDropdownList[newDropdownList.length - 1]["selectValue"] = selectedItem["name"];
+                    newDropdownList[newDropdownList.length - 1].selectValue = selectedItem.name;
                     var NameKey = "";
                     if ("name" in selectedItem) {
                         NameKey = "name";
                     } else if ("heading_english" in selectedItem) {
                         NameKey = "heading_english";
                     }
-                    console.log("NEW DROPDOWN LIST", (newDropdownList[0]["list"].indexOf("[Select a Class]") >= 0));
                     if (oldState.path.length >= 3 && oldState.path.indexOf("Tangherlini Index") === -1) {
                         oldState.path = oldState.path.slice(0, 2);
                     } else if (oldState.path.length >= 4 && newDropdownList.indexOf("[Select Class]") === -1) {
                         oldState.path = oldState.path.slice(0, 3);
                     }
                     oldState.path.push(selectedItem[NameKey]);
-                    console.log("oldState.path", oldState.path);
                     return {
                         "dropdownLists": newDropdownList,
                         "path": oldState.path,
                     };
                 }, () => {
-                    this.props.setDisplayLabel(this.state["path"].join(" > "));
+                    this.props.setDisplayLabel(this.state.path.join(" > "));
                     this.props.handleDisplayItems(storiesList, "Stories");
                     localStorage.setItem("navCompState", this.state);
                 });
             } else {
                 // reset the dropdown state to the unselected tango index state, since that's what was clicked
-                console.log(selectedItem);
                 this.setState(function(prevState) {
-                    console.log(prevState.dropdownLists);
                     return {
                         // set the dropdown to be
                         "dropdownLists": [{
                             // the first dropdown
                             ...prevState.dropdownLists[0],
                             // but make sure that the selected value is the [Select a ___] option
-                            "selectValue": selectedItem["heading_english"],
+                            "selectValue": selectedItem.heading_english,
                         }],
                     };
                 });
@@ -333,7 +327,7 @@ class Navigation extends Component {
 
             // need to make second dropdown list with those types
             this.setState((oldState) => {
-                var newList = tangoTypes[selectedItem]["children"];
+                var newList = tangoTypes[selectedItem].children;
                 var selectString = "[Select an Ontology]";
                 var selectObj = {"name": selectString};
                 newList.unshift(selectObj);
@@ -346,23 +340,20 @@ class Navigation extends Component {
                 };
                 var newDropdownList = oldState.dropdownLists;
                 newDropdownList.splice(1, 1, listObject);
-                newDropdownList[0]["selectValue"] = selectedItem;
-                console.log("NEW DROPDOWN LIST", (newDropdownList[0]["list"].indexOf("[Select a Class]") >= 0));
+                newDropdownList[0].selectValue = selectedItem;
                 if (oldState.path.length >= 3 &&
-                    (oldState.path.indexOf("Tangherlini Index") === -1 || newDropdownList[0]["list"].indexOf("[Select a Class]") >= 0)) {
+                    (oldState.path.indexOf("Tangherlini Index") === -1 || newDropdownList[0].list.indexOf("[Select a Class]") >= 0)) {
                     oldState.path = oldState.path.slice(0, 2);
                 } else if (oldState.path.length >= 4 && newDropdownList.indexOf("[Select Class]") === -1) {
                     oldState.path = oldState.path.slice(0, 3);
                 }
                 oldState.path.push(selectedItem);
-                console.log("hihihhlkjhl ", selectedItem);
                 return {
                     "dropdownLists": newDropdownList,
                     "path": oldState.path,
                 };
             }, () => {
-                this.props.setDisplayLabel(this.state["path"].join(" > "));
-                // this.props.handleDisplayItems(storiesList,'Stories');
+                this.props.setDisplayLabel(this.state.path.join(" > "));
                 localStorage.setItem("navCompState", this.state);
             });
         } else {
@@ -382,19 +373,19 @@ class Navigation extends Component {
     }
 
     render() {
-        var ontologyType = this.state.dataNavView ? "dataNav" : "TINav";
+        const ontologyType = this.state.dataNavView ? "dataNav" : "TINav";
         return (
             <div className="NavigatorComponent">
                 <div className="grid-y">
                     <div className="navigator-tabs cell medium-1">
                         <div className="grid-x">
                             {this.state.navigators.map((nav, i) => {
-                                return <div className={nav["tabClass"] + " cell medium-6"} key={i}
+                                return <div className={`${nav.tabClass} cell medium-6`} key={i}
                                     onClick={(e) => {
                                         e.preventDefault();
                                         this.handleTabClick(nav);
                                     }}>
-                                    {nav["name"]}
+                                    {nav.name}
                                 </div>;
                             })}
                         </div>
@@ -403,7 +394,7 @@ class Navigation extends Component {
                         <div className={`cell ${this.state.dataNavView ? "active dataNavView" : "TINavView active"}`}>
                             <ul className="ontologyList">
                                 {this.state[ontologyType].map((ontology, i) => {
-                                    return <li className={"ontology " + ontology + `${this.state.activeList[ontology] ? " active" : ""}`} key={i}
+                                    return <li className={`ontology ${ontology}${this.state.activeList[ontology] ? " active" : ""}`} key={i}
                                         onClick={(e) => {
                                             e.preventDefault();
                                             this.handleLevelTwoClick(ontology);
@@ -427,5 +418,12 @@ class Navigation extends Component {
         );
     }
 }
+
+Navigation.propTypes = {
+    "handleDisplayItems": PropTypes.func.isRequired,
+    "searchOn": PropTypes.func.isRequired,
+    "searchWord": PropTypes.string.isRequired,
+    "setDisplayLabel": PropTypes.func.isRequired,
+};
 
 export default Navigation;
