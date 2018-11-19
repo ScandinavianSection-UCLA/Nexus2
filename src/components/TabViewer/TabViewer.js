@@ -41,8 +41,9 @@ class TabViewer extends Component {
 
     /**
      * Render the main content of the app
-     * @param {Number} id ID of the relevant person/place/story/fieldtrip to load (irrelevant for NexusGraph, Home)
-     * @param {String} type The type of view to load (People/Places/Fieldtrips/Stories/Home/Graph)
+     * @param {*} id ID of the relevant person/place/story/fieldtrip/book to load (irrelevant for NexusGraph, Home)
+     * @param {String} type The type of view to load (People/Places/Fieldtrips/Stories/Home/Graph/Book)
+     * @param {Number} tabIndex Index of the tab being rendered (only necessary for BookView)
      * @returns {JSX} The content of the relevant view
      */
     renderPPFS(id, type, tabIndex) {
@@ -64,7 +65,7 @@ class TabViewer extends Component {
                     story={model.getStoryByID(id)}
                     // function to handle any potential clicked keywords
                     handleKeywordSearch={this.handleKeywordSearch} />;
-            case "Home": case "home":
+            case "Home":
                 // for the Home tab, return the main Navigation view (home), with the searchWord if set
                 return <Navigation searchWord={this.state.searchWord} />;
             case "Graph":
@@ -110,6 +111,31 @@ class TabViewer extends Component {
         });
     }
 
+    /**
+     * Calculate the drop index of a drag action
+     * @param {Event} event Event describing the drag action
+     * @returns {Number} The index where the tab would be dropped
+     */
+    findDragIndex({screenX}) {
+        // find the index of the first tab such that the mouse was released to the left of its left edge
+        // and go one of left of that to put it in the spot where the mouse currently is
+        const newIndex = this.tabs.findIndex((tab) => screenX <= tab.x) - 1;
+        switch (newIndex) {
+            // if we went past the last left edge (waaaaay right)
+            case -2:
+                // tab should become the last tab in the list
+                return this.tabs.length - 1;
+            // if it was dropped at home or to the left of home
+            case -1: case 0:
+                // tab should become the second tab in the list (after home)
+                return 1;
+            // if it was dropped somewhere amidst the tabs
+            default:
+                // just go to where it was dropped appropriately
+                return newIndex;
+        }
+    }
+
     // called when a tab begins being dragged
     handleDragStart(index) {
         // set the tab to be gray
@@ -120,66 +146,21 @@ class TabViewer extends Component {
 
     // called when a tab is being dragged
     handleDrag(event, index) {
-        // get the final X of the drag
-        const {screenX} = event;
-        // find the index of the first tab such that the mouse was released to the left of its left edge
-        // and go one of left of that to put it in the spot where the mouse was released
-        let newIndex = this.tabs.findIndex((tab) => screenX <= tab.x) - 1;
-        // if we went past the last left edge (waaaaay right)
-        if (newIndex === -2) {
-            // this should become the last tab in the list
-            newIndex = this.tabs.length - 1;
-        } else if (newIndex === 0 || newIndex === -1) {
-            // if it was dropped at home or to the left of home
-            // this should become the second tab in the list (after home)
-            newIndex = 1;
-        }
-        // if drag was to the right
-        if (newIndex > index) {
-            this.setState({
-                // we should render the line to the right of the tab
-                "dragIndicatorX": this.tabs[newIndex].right,
-            });
-        } else if (newIndex < index) {
-            // if drag was to the left
-            this.setState({
-                // we should render the line to the left of the tab
-                "dragIndicatorX": this.tabs[newIndex].left,
-            });
-        } else if (newIndex === index) {
-            // tab wouldn't move
-            this.setState({
-                // don't show any movement indicator
-                "dragIndicatorX": null,
-            });
-        }
+        // get the index where this tab would be dropped
+        const newIndex = this.findDragIndex(event, index);
+        this.setState({
+            // if drag is to the right, draw the drag indicator on the right of the tab where it would be dropped
+            // if it was to the left, draw the indicator on the left of the tab where it would be dropped
+            // if we are at the same index don't draw anything
+            "dragIndicatorX": newIndex > index ? this.tabs[newIndex].right :
+                newIndex < index ? this.tabs[newIndex].left : null,
+        });
     }
 
-    handleLocationChanged(newPage) {
-        this.props.tabViewerActions.updateTab(
-            // update the active tab (i.e. the currently viewed book)
-            this.props.state.views.findIndex((view) => view.active), {
-                // to be on the new page
-                "id": newPage,
-            });
-    }
-
-    // called when a tab stops being dragged
+    // called when a tab stops being dragged (is released)
     handleDragEnd(event, index) {
-        // get the final X of the drag
-        const {screenX} = event;
-        // find the index of the first tab such that the mouse was released to the left of its left edge
-        // and go one of left of that to put it in the spot where the mouse was released
-        let newIndex = this.tabs.findIndex((tab) => screenX <= tab.x) - 1;
-        // if we went past the last left edge (waaaaay right)
-        if (newIndex === -2) {
-            // this should become the last tab in the list
-            newIndex = this.tabs.length - 1;
-        } else if (newIndex === 0 || newIndex === -1) {
-            // if it was dropped at home or to the left of home
-            // this should become the second tab in the list (after home)
-            newIndex = 1;
-        }
+        // get the desired final index of the drag
+        const newIndex = this.findDragIndex(event);
         // move the dragged tab to the desired spot
         this.props.tabViewerActions.moveTab(index, newIndex);
         // reset the tab back to normal color
@@ -190,6 +171,17 @@ class TabViewer extends Component {
         this.setState({
             "dragIndicatorX": null,
         });
+    }
+
+    // called when the book view goes to a new page
+    handleLocationChanged(newPage) {
+        this.props.tabViewerActions.updateTab(
+            // update the active tab (i.e. the currently viewed book)
+            this.props.state.views.findIndex((view) => view.active),
+            {
+                // to be on the new page
+                "id": newPage,
+            });
     }
 
     render() {
@@ -280,11 +272,11 @@ class TabViewer extends Component {
                         // set up its position
                         style={{
                             // position it at the X-coordinate determined by drag functions
-                            "left": `${this.state.dragIndicatorX}px`,
+                            "left": this.state.dragIndicatorX,
                             // make it in line with tabs
-                            "top": `${this.dragIndicatorY}px`,
+                            "top": this.dragIndicatorY,
                             // make it as tall as the tabs
-                            "height": `${this.dragIndicatorHeight}px`,
+                            "height": this.dragIndicatorHeight,
                         }} />
                 }
             </div>
