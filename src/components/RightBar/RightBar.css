@@ -1,65 +1,86 @@
-/*Sliding right bar for people places stories*/
-.RightBar{
-    background-color:#404040;
+/* Sliding right bar for people places stories */
+.RightBar, .controls {
+    background-color: #404040;
 }
-.slide-pane__content{
-    padding:0; /*Override package styling*/
-    overflow-y:hidden;
+
+.slide-pane__content {
+    padding: 0; /* Override package styling */
+    overflow-y: hidden;
 }
-.right-bar{
-    background-color:#595959;
+
+.right-bar {
+    background-color: #595959;
 }
-.controls{
-    background-color:#404040;
+
+.control-container {
+    height: 93vh;
 }
-.control-container{
-    height:93vh;
-}
-.control-container .list-content{
-    padding:7% 2%;
+
+.control-container .list-content {
+    padding: 7% 2%;
     overflow-y: scroll;
 }
 
-.control-container .list-content ul li{
+.control-container .list-content ul li {
     list-style: outside none;
     background-color: #f9f9f9;
-    padding:1.6em 1.2em;
-    font-size:1.1em;
-    cursor:pointer;
-    width:95%;
-    margin-bottom:3%;
-    border:1px solid lightgrey;
-    border-radius:5px;
-}
-.control-container .list-content .grid-y, .control-container .content .grid-y{
-    height:100%;
-}
-.informant-bio-container{
-    background-color:rgba(218,227,243,.62);
-    height:100%;
-}
-.informant-bio-container .details{
-    font-size:1em;
-    padding:6%;
-}
-.informant-bio-container .details .button{
-    margin-top:10px;
-}
-.informant-bio-container img{
-    height:auto;
-}
-.biography{
-    color:white;
-    border:1px solid #d2d2d2;
-    border-top:none;
-    padding:3%;
-    font-size:1.5em;
-    overflow-y: scroll;
-}
-.bio.active, .stories.active, .places.active, .stories-mentioned.active{
-    border-right:3px solid white;
+    padding: 1.6em 1.2em;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 95%;
+    margin-bottom: 3%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
 }
 
-.icon-item{
-    margin-right:10px;
+.control-container .list-content .grid-y, .control-container .content .grid-y {
+    height: 100%;
+}
+
+.informant-bio-container {
+    background-color: rgba(218,227,243,.62);
+    height: 100%;
+}
+
+.informant-bio-container .details {
+    font-size: 1em;
+    padding: 6%;
+}
+
+.informant-bio-container .details .button {
+    margin-top: 10px;
+}
+.informant-bio-container img {
+    height: auto;
+}
+
+.biography {
+    color: white;
+    border: 1px solid #d2d2d2;
+    border-top: none;
+    padding: 3%;
+    font-size: 1.5em;
+    overflow-y: scroll;
+}
+
+.bio.active, .stories.active, .places.active, .stories-mentioned.active {
+    border-right: 3px solid white;
+}
+
+.icon-item {
+    margin-right: 10px;
+}
+
+.icon {
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 14%;
+    margin-left: 17%;
+    cursor: pointer;
+}
+
+.icon-label {
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }

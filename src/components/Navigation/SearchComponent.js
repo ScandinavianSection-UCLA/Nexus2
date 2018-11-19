@@ -210,9 +210,11 @@ class SearchComponent extends Component {
                     name="keyword"
                     id="keyword-search-switch"
                     onChange={this.switchKeywordSearch.bind(this)} />
-                <ul className={`suggestions ${this.state.searching ? "active" : ""}`}>
-                    {this.renderListofSuggestions.bind(this)()}
-                </ul>
+                {/* only show suggestions while a search is active */}
+                {this.state.searching &&
+                    <ul className="suggestions">
+                        {this.renderListofSuggestions.bind(this)()}
+                    </ul>}
             </form>
         );
     }

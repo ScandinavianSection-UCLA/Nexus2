@@ -1,33 +1,32 @@
 @media screen and (min-height: 400px) {
-    .StoryView{height:85vh;}
-    .accordion-item .body{height:28vh;}
+    .StoryView {height: 85vh;}
+    .accordion-item .body {height: 28vh;}
 }
+
 @media screen and (min-height: 770px) {
-    .StoryView{height:87vh;}
-    .accordion-item .body{height:30vh;}
+    .StoryView {height: 87vh;}
+    .accordion-item .body {height: 30vh;}
 }
+
 @media screen and (min-height: 800px) {
-    .accordion-item .body{height:36vh;}
+    .accordion-item .body {height: 36vh;}
 }
+
 @media screen and (min-width: 800px){
-    .story-viewer-options li{font-size:.79em !important;}
+    .story-viewer-options li {font-size: .79em!important;}
 }
-.accordion-item .accordion-title{font-size:1.3em;}
-.accordion-item {
-    /*border:1px solid #e7e7e7;*/
-}
-.accordion-item .body{
-    display:none;
+
+.accordion-item .accordion-title {font-size: 1.3em;}
+
+.accordion-item .body {
     padding:5%;
     width:100%;
     font-size:.9em;
     border:1px solid #e7e7e7;
     overflow-y:scroll;
 }
-.accordion-item.is-active .body{
-    display:block;
-}
-.keyword-well{
+
+.keyword-well {
     background-color: #e3e3e3;
     padding:3px;
     border-radius:2px;
@@ -35,50 +34,48 @@
     display: inline-block;
     color: black;
 }
-.story-viewer{
+
+.story-viewer {
     border:2px solid #e3e3e3;
     padding:1% 0 0 0;
     margin-left:1.5%;
     width:97%;
 }
-.story-viewer-options{
+
+.story-viewer-options {
     list-style: none;
     margin:0;
 }
-.story-viewer-options li{
+
+.story-viewer-options li {
     display:inline-block;
 }
-/*Height for story*/
-.story{
+
+/* Height for story */
+.story {
     overflow-y: scroll;
     height:40vh;
 }
-.story.card{height:90%;}
 
-/*Height for Annotations*/
-.card.annotation{height:25vh;}
-.card.annotation .card-section{overflow-y:scroll; height:100%;}
+.story.card {height: 90%;}
 
-.title{
+/* Height for Annotations */
+.card.annotation {height: 25vh;}
+.card.annotation .card-section {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.title {
     background-color: #dcdcdc;
-    padding:1% 3% 1% 3%;
+    padding: 1% 3% 1% 3%;
 }
-.relatedStories{
-    border:2px solid #e3e3e3;
-    overflow-y:scroll;
+
+.relatedStories {
+    border: 2px solid #e3e3e3;
+    overflow-y: scroll;
 }
-.associated-items{
+
+.associated-items {
     color: #44739c;
-}
-.icon{
-    border:3px solid white;
-    border-radius:100%;
-    padding:14%;
-    margin-left:17%;
-    cursor:pointer;
-}
-.icon-label{
-    color:white;
-    font-weight:bold;
-    text-align:center;
 }
