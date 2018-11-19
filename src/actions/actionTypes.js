@@ -3,4 +3,4 @@ export const ADD_TAB = "ADD_TAB";
 export const CLOSE_TAB = "CLOSE_TAB";
 export const INITIALIZE_TABS = "INITIALIZE_TABS";
 export const MOVE_TAB = "MOVE_TAB";
-export const CHANGE_TAB_COLOR = "CHANGE_TAB_COLOR";
+export const UPDATE_TAB = "UPDATE_TAB";

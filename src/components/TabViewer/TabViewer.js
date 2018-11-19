@@ -20,8 +20,8 @@ import {bindActionCreators} from "redux";
 import * as tabViewerActions from "../../actions/tabViewerActions";
 
 class TabViewer extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             // by default, no search to load
             "searchWord": "",
@@ -36,11 +36,7 @@ class TabViewer extends Component {
         // properly bind functions so that they can work in sub-elements
         this.handleKeywordSearch = this.handleKeywordSearch.bind(this);
         this.renderActiveTab = this.renderActiveTab.bind(this);
-    }
-
-    componentDidMount() {
-        // must re-render so that the lineY is set
-        this.forceUpdate();
+        this.handleLocationChanged = this.handleLocationChanged.bind(this);
     }
 
     /**
@@ -49,7 +45,7 @@ class TabViewer extends Component {
      * @param {String} type The type of view to load (People/Places/Fieldtrips/Stories/Home/Graph)
      * @returns {JSX} The content of the relevant view
      */
-    renderPPFS(id, type) {
+    renderPPFS(id, type, tabIndex) {
         // depending on the type of the view to render
         switch (type) {
             case "People":
@@ -72,11 +68,16 @@ class TabViewer extends Component {
                 // for the Home tab, return the main Navigation view (home), with the searchWord if set
                 return <Navigation searchWord={this.state.searchWord} />;
             case "Graph":
-                // for the graph, return the GraphView, with addTab to open pages on double clicked nodes
-                return <GraphView openNode={this.addTab} />;
-            case "Book":
+                // for the graph, return the GraphView
+                return <GraphView />;
+            case "Book": {
+                // const activeViewIndex = this.props.state.views.find((view) => view.type = type);
                 // for the book, return the BookView, with the chapter ID that was selected
-                return <BookView id={id} />;
+                return <BookView
+                    page={this.props.state.views[tabIndex].id}
+                    handleLocationChanged={this.handleLocationChanged}
+                    nextPage={this.nextPage} />;
+            }
             default:
                 // if it wasn't one of the above types, warn that we hit an unknown type
                 console.warn(`Unhandled tab type: ${type}`);
@@ -89,9 +90,10 @@ class TabViewer extends Component {
      */
     renderActiveTab() {
         // search through the list of tabs for the active tab
-        const activeView = this.props.state.views.find((view) => view.active);
+        const activeViewIndex = this.props.state.views.findIndex((view) => view.active);
+        const activeView = this.props.state.views[activeViewIndex];
         // return the rendered content of the tab
-        return this.renderPPFS(activeView.id, activeView.type);
+        return this.renderPPFS(activeView.id, activeView.type, activeViewIndex);
     }
 
     /**
@@ -111,7 +113,9 @@ class TabViewer extends Component {
     // called when a tab begins being dragged
     handleDragStart(index) {
         // set the tab to be gray
-        this.props.tabViewerActions.changeTabColor(index, "#aaaaaa");
+        this.props.tabViewerActions.updateTab(index, {
+            "color": "#aaaaaa",
+        });
     }
 
     // called when a tab is being dragged
@@ -151,6 +155,15 @@ class TabViewer extends Component {
         }
     }
 
+    handleLocationChanged(newPage) {
+        this.props.tabViewerActions.updateTab(
+            // update the active tab (i.e. the currently viewed book)
+            this.props.state.views.findIndex((view) => view.active), {
+                // to be on the new page
+                "id": newPage,
+            });
+    }
+
     // called when a tab stops being dragged
     handleDragEnd(event, index) {
         // get the final X of the drag
@@ -170,7 +183,9 @@ class TabViewer extends Component {
         // move the dragged tab to the desired spot
         this.props.tabViewerActions.moveTab(index, newIndex);
         // reset the tab back to normal color
-        this.props.tabViewerActions.changeTabColor(newIndex, null);
+        this.props.tabViewerActions.updateTab(newIndex, {
+            "color": null,
+        });
         // hide the drag indicator
         this.setState({
             "dragIndicatorX": null,
