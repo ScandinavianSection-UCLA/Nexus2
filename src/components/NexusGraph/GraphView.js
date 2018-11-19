@@ -14,10 +14,10 @@ class GraphView extends Component {
         super();
         // set a default state
         this.state = {
-            // this will be overridden by componentWillMount()
-            "data": {},
-            // this will be overridden by componentWillMount()
-            "nodeCategories": {},
+            // get nodes + links from storgae
+            "data": initializeGraph(),
+            // get categorized nodes from storage
+            "nodeCategories": initializeNodeCategories(),
             // by default show primary links
             "showPrimaryLinks": true,
             // by default show secondary links
@@ -29,19 +29,11 @@ class GraphView extends Component {
         this.toggleSecondaryLinks = this.toggleSecondaryLinks.bind(this);
     }
 
-    componentWillMount() {
-        this.setState({
-            // data = nodes + links from storage
-            "data": initializeGraph(),
-            "nodeCategories": initializeNodeCategories(),
-        });
-    }
-
     /**
      * Toggle whether or not to show the primary links on the graph
      */
     togglePrimaryLinks() {
-        this.setState(function(prevState) {
+        this.setState((prevState) => {
             return {
                 // invert whether or not to show primary links
                 "showPrimaryLinks": !prevState.showPrimaryLinks,
@@ -53,7 +45,7 @@ class GraphView extends Component {
      * Toggle whether or not to show the secondary links on the graph
      */
     toggleSecondaryLinks() {
-        this.setState(function(prevState) {
+        this.setState((prevState) => {
             return {
                 // invert whether or not to show secondary links
                 "showSecondaryLinks": !prevState.showSecondaryLinks,
@@ -73,12 +65,12 @@ class GraphView extends Component {
         // if we shouldn't show primary links
         if (showPrimaryLinks === false) {
             // filter out links without a linkNode (i.e. primary links)
-            finalData["links"] = finalData["links"].filter(link => link["linkNode"] !== null);
+            finalData.links = finalData.links.filter(link => link.linkNode !== null);
         }
         // if we shouldn't show secondary links
         if (showSecondaryLinks === false) {
             // filter out links with a linkNode (i.e. secondary links)
-            finalData["links"] = finalData["links"].filter(link => link["linkNode"] === null);
+            finalData.links = finalData.links.filter(link => link.linkNode === null);
         }
         return (
             // div to contain both the button and graph

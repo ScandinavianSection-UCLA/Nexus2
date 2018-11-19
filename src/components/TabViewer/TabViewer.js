@@ -244,20 +244,22 @@ class TabViewer extends Component {
                                     }}>
                                     {/* show the display text on the tab */}
                                     {view.name}
-                                    <img
-                                        // source of the image (URL)
-                                        src="https://png.icons8.com/material/50/000000/delete-sign.png"
-                                        // text to display if it can't show up
-                                        alt="Close Icon"
-                                        // give it the styling for the close button, don't display a close button on the home tab (it can't be closed)
-                                        className={`closeTabIcon ${view.type === "Home" ? "noClose" : ""}`}
-                                        // callback when the "x" is clicked
-                                        onClick={(event) => {
-                                            // prevent a separate "tab was clicked" event from occuring once this tab gets closed
-                                            event.stopPropagation();
-                                            // close the desired tab
-                                            this.props.tabViewerActions.closeTab(index);
-                                        }} />
+                                    {/* don't show a close button on the home tab */}
+                                    {view.type !== "Home" &&
+                                        <img
+                                            // source of the image (URL)
+                                            src="https://png.icons8.com/material/50/000000/delete-sign.png"
+                                            // text to display if it can't show up
+                                            alt="Close Icon"
+                                            // give it the styling for the close button
+                                            className="closeTabIcon"
+                                            // callback when the "x" is clicked
+                                            onClick={(event) => {
+                                                // prevent a separate "tab was clicked" event from occuring once this tab gets closed
+                                                event.stopPropagation();
+                                                // close the desired tab
+                                                this.props.tabViewerActions.closeTab(index);
+                                            }} />}
                                 </li>
                             );
                         })}
