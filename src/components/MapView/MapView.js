@@ -193,7 +193,7 @@ MapView.propTypes = {
     "person": PropTypes.array.isRequired,
     "places": PropTypes.array.isRequired,
     "stories": PropTypes.array.isRequired,
-    "height": PropTypes.number.isRequired,
+    "height": PropTypes.string,
 };
 
 // assign defaults if not already defined
