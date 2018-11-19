@@ -6,6 +6,39 @@ import * as actions from "../actions/actionTypes";
 import {setSessionStorage} from "../data-stores/SessionStorageModel";
 
 /**
+ * Generic handler for manipulating the tabs and updating their state
+ * @param {Object} state The pre-update state
+ * @param {Object} action Action to do to the tabs (ADD_TAB, SWITCH_TABS, CLOSE_TAB)
+ * @returns {Object} The updated state
+ */
+export default function tabViewer(state = initialState.tabState, action) {
+    // depending on which action to perform
+    switch (action.type) {
+        // if we are to add a tab
+        case actions.ADD_TAB:
+            return addTab(state, action.payload);
+        // if we are to switch between tabs
+        case actions.SWITCH_TABS:
+            return switchTab(state, action.payload);
+        // if we are to close a tab
+        case actions.CLOSE_TAB:
+            return closeTab(state, action.payload);
+        // if we are to move around a tab
+        case actions.MOVE_TAB:
+            return moveTab(state, action.payload);
+        // if we are to change a tab's color
+        case actions.UPDATE_TAB:
+            return updateTab(state, action.payload);
+        // unhandled action type
+        default:
+            // warn that we hit a bad action
+            console.warn(`Invalid action: ${action.type}`);
+            // don't change anything
+            return state;
+    }
+}
+
+/**
  * Switch to a new active tab
  * @param {Object} OldState The pre-switch state
  * @param {Number} SwitchToIndex The tab index to switch to
@@ -37,13 +70,13 @@ function switchTab(OldState, SwitchToIndex) {
 
 /**
  * Remove a tab from the views by index
- * @param {Object} ShallowNewState The current, pre-removal state
+ * @param {Object} ShallowPrevState The current, pre-removal state
  * @param {Number} RemoveIndex The index of the view to remove
  * @returns {Object} The state with the removed tab
  */
-function closeTab(ShallowNewState, RemoveIndex) {
+function closeTab(ShallowPrevState, RemoveIndex) {
     // create a copy of the state to ensure immutability
-    let NewState = {...ShallowNewState};
+    let NewState = {...ShallowPrevState};
     // if the active view will be closed
     if (NewState.views[RemoveIndex].active === true) {
         // set the home view to be active
@@ -59,22 +92,22 @@ function closeTab(ShallowNewState, RemoveIndex) {
 
 /**
  * Adds a tab to the views if needed
- * @param {Object} ShallowNewState The current state, before the tab is added
+ * @param {Object} ShallowPrevState The current state, before the tab is added
  * @param {Object} payload An action payload containing ID of the tab to add, display name of the tab, and the tab's type (People/Places/Fieldtrips/Book/Graph/Story)
  * @returns {Object} The new, updated state
  */
-function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
+function addTab(ShallowPrevState, {DisplayArtifactID, name, type}) {
     // get a copy of the state to ensure immutability
-    let newState = {...ShallowNewState};
+    let newState = {...ShallowPrevState};
     // see if we can get the preexisting view matching the tab to create
-    const matchingViewIndex = ShallowNewState.views.findIndex((view) => (
+    const matchingViewIndex = ShallowPrevState.views.findIndex((view) => (
         // check if the name and type matches
         view.name === name && view.type === type && view.id === DisplayArtifactID
     ));
     if (matchingViewIndex !== -1) {
         // if we're trying to re-add an already existing view
         // just switch to that tab
-        return switchTab(ShallowNewState, matchingViewIndex);
+        return switchTab(ShallowPrevState, matchingViewIndex);
     } else {
         // we actually need to make a new tab and view
         // get a copy of the state (ensure immutability)
@@ -174,42 +207,4 @@ function updateTab(OldState, {TabIndex, updates}) {
     };
     // return the state with the updated tab
     return newState;
-}
-
-/**
- * Generic handler for manipulating the tabs and updating their state
- * @param {Object} state The pre-update state
- * @param {Object} action Action to do to the tabs (ADD_TAB, SWITCH_TABS, CLOSE_TAB)
- * @returns {Object} The updated state
- */
-export default function tabViewer(state = initialState.tabState, action) {
-    // depending on which action to perform
-    switch (action.type) {
-        // if we are to add a tab
-        case actions.ADD_TAB:
-            console.log("ADD_TAB ACTION", state);
-            return addTab(state, action.payload);
-        // if we are to switch between tabs
-        case actions.SWITCH_TABS:
-            console.log("SWITCH_TABS ACTION", state);
-            return switchTab(state, action.payload);
-        // if we are to close a tab
-        case actions.CLOSE_TAB:
-            console.log("CLOSE_TAB ACTION", state);
-            return closeTab(state, action.payload);
-        // if we are to move around a tab
-        case actions.MOVE_TAB:
-            console.log("MOVE_TAB ACTION", state);
-            return moveTab(state, action.payload);
-        // if we are to change a tab's color
-        case actions.UPDATE_TAB:
-            console.log("UPDATE_TAB ACTION", state);
-            return updateTab(state, action.payload);
-        // unhandled action type
-        default:
-            // warn that we hit a bad action
-            console.warn(`Invalid action: ${action.type}`);
-            // don't change anything
-            return state;
-    }
 }

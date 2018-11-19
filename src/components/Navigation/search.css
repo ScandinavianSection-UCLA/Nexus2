@@ -52,8 +52,8 @@
     font-size: 1.3em;
     margin-left: 0;
     list-style: none;
-    position: relative;
-    top: -17%;
+    position:relative;
+    top:-40%;
 }
 
 .suggestions li {
@@ -62,4 +62,28 @@
 
 .suggestions li:hover {
     background-color: lightgrey;
+}
+.filters{
+    width:100%;
+    /*height:70%;*/
+    margin-top:10%;
+    background-color:#CC4159;
+}
+
+/*Shorter screen font sizes*/
+@media screen and (max-height : 720px) {
+    /* Styles */
+    .SearchComponent{
+        padding-bottom:45%;
+    }
+    .SearchComponent input[type=text]{
+        font-size:1.4em;
+        margin-top:4%;
+    }
+    .suggestions{
+        font-size:1em;
+    }
+    .keyword-search{
+        font-size:.7em;
+    }
 }
