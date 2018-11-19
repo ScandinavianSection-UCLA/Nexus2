@@ -118,7 +118,7 @@ class MapView extends React.Component {
     componentDidMount() {
 
         // create map
-//zoom=7;
+        // zoom=7;
         console.log('component did mount');
         var mapCenter= [56.2639, 9.5018];
         this.map = L.map(this.container, {

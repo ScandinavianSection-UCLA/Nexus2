@@ -172,7 +172,43 @@ export const ontologyToDisplayKey = {
     "People": "full_name",
     "Places": "name",
     "Stories": "full_name",
+    'Keyword': 'keyword_name',
 };
+
+// given an object, return the appropriate display attribute
+/**
+ * @return {string}
+ */
+export function DisplayArtifactToDisplayKey(DisplayArtifact){
+    if ("keyword_name" in DisplayArtifact) {
+        return "keyword_name";
+    } else if ("search_string" in DisplayArtifact) {
+        return "search_string";
+    } else if ("full_name" in DisplayArtifact) {
+        return "full_name";
+    } else if ("name" in DisplayArtifact) {
+        return "name";
+    } else if ("fieldtrip_name" in DisplayArtifact) {
+        return "fieldtrip_name";
+    }
+}
+
+/**
+ * @return {string}
+ */
+export function DisplayArtifactToOntology(DisplayArtifact){
+    if ("keyword_name" in DisplayArtifact) {
+        return "Keyword";
+    } else if ("search_string" in DisplayArtifact) {
+        return "search_string";
+    } else if ("full_name" in DisplayArtifact) {
+        return "full_name";
+    } else if ("name" in DisplayArtifact) {
+        return "name";
+    } else if ("fieldtrip_name" in DisplayArtifact) {
+        return "fieldtrip_name";
+    }
+}
 
 // the ID attribute for different data types
 export const ontologyToID = {
@@ -181,6 +217,23 @@ export const ontologyToID = {
     "People": "person_id",
     "Fieldtrips": "fieldtrip_id",
 };
+
+// get the id
+/**
+ * @return {string}
+ */
+export function ArtifactoID(DisplayArtifact){
+    if(typeof DisplayArtifact === 'string'){
+        if ("story_id" in DisplayArtifact) {
+            return "story_id";
+        } else if ("place_id" in DisplayArtifact) {
+            return "place_id";
+        } else if ("people_id" in DisplayArtifact) {
+            return "people_id";
+        }
+    }
+    return 'you screwed up. this doesnt have an id';
+}
 
 // data for the tangherlini index part of topic & index navigator
 export const tangoTypes = {

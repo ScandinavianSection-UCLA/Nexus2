@@ -5,7 +5,12 @@ import React, {Component} from "react";
 import NavigatorComponent from "./NavigatorComponent";
 import SearchComponent from "./SearchComponent";
 import MapView from "../MapView/MapView";
-import {ontologyToDisplayKey, ontologyToID, dateFilterHelper} from "../../data-stores/DisplayArtifactModel";
+import {
+    ontologyToDisplayKey,
+    ontologyToID,
+    dateFilterHelper,
+    DisplayArtifactToDisplayKey, ArtifactoID
+} from "../../data-stores/DisplayArtifactModel";
 import "./navigation.css";
 // the nexus graph
 import NexusGraph from "../NexusGraph/NexusGraph";
@@ -58,6 +63,7 @@ class Navigation extends Component {
     }
 
     displayList(list, displayKey, idKey, ontology) {
+        console.log(list, displayKey, idKey, ontology);
         return list.map((item, i) => {
             return <li key={i} className={ontology}
                 onClick={(e) => {
@@ -92,18 +98,38 @@ class Navigation extends Component {
     displayItems(items, ontology) {
         var displayKey = ontologyToDisplayKey[ontology];
         var idKey = ontologyToID[ontology];
-        this.setState(() => {
-            return {
-                "displayOntology": ontology,
-                "itemsList": items,
-                "displayItemsList": this.displayList(items, displayKey, idKey, ontology),
-                "placeList": items,
-            };
-        }, () => {
-            if (this.state.timeFilterOn && typeof items !== "undefined") {
-                this.updateItems.bind(this)();
+        console.log(items, ontology);
+        if(displayKey !== undefined && idKey !== undefined){
+            if(this.props.searchState.results.length >= 1){
+                console.log('SEARCH STATE IS GOING THRUUU');
+                this.setState(() => {
+                    return {
+                        "displayOntology": ontology,
+                        "itemsList": items,
+                        "displayItemsList": this.displayList(this.props.searchState.results, displayKey, idKey, ontology),
+                        "placeList": items,
+                    };
+                }, () => {
+                    if (this.state.timeFilterOn && typeof items !== "undefined") {
+                        this.updateItems.bind(this)();
+                    }
+                });
+            } else {
+                this.setState(() => {
+                    return {
+                        "displayOntology": ontology,
+                        "itemsList": items,
+                        "displayItemsList": this.displayList(items, displayKey, idKey, ontology),
+                        "placeList": items,
+                    };
+                }, () => {
+                    if (this.state.timeFilterOn && typeof items !== "undefined") {
+                        this.updateItems.bind(this)();
+                    }
+                });
             }
-        });
+
+        }
     }
 
     updateItems() {
@@ -390,6 +416,7 @@ Navigation.propTypes = {
 function mapStateToProps(state) {
     return {
         "state": state.tabViewer,
+        "searchState": state.search,
     };
 }
 
