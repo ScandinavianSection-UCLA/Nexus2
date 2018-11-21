@@ -60,10 +60,8 @@ class PeopleView extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="cell medium-7 wrapper person">
-                                    <div className="person-bio">
-                                        {this.props.person.intro_bio}
-                                    </div>
+                                <div className="cell medium-7 wrapper person-bio">
+                                    {this.props.person.intro_bio}
                                 </div>
                             </div>
                         </div>

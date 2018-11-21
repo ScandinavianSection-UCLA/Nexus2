@@ -48,13 +48,13 @@ export function moveTab(OldTabIndex, NewTabIndex) {
 }
 
 /**
- * Change a tab's color
- * @param {Number} TabIndex The tab to colorize
- * @param {*} Color The new color of the tab - `null` resets it to the active/inactive color
+ * Update some of a tab's properties
+ * @param {Number} TabIndex The tab to update
+ * @param {*} updates The properties of the tab to update with their desired values
  */
-export function changeTabColor(TabIndex, Color) {
+export function updateTab(TabIndex, updates) {
     return {
-        "type": types.CHANGE_TAB_COLOR,
-        "payload": {TabIndex, Color},
+        "type": types.UPDATE_TAB,
+        "payload": {TabIndex, updates},
     };
 }

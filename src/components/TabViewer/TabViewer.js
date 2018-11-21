@@ -20,8 +20,8 @@ import {bindActionCreators} from "redux";
 import * as tabViewerActions from "../../actions/tabViewerActions";
 
 class TabViewer extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             // by default, no search to load
             "searchWord": "",
@@ -31,25 +31,25 @@ class TabViewer extends Component {
         // to be set once a render is complete
         this.dragIndicatorY = null;
         this.dragIndicatorHeight = null;
+        // used for drag events
+        this.desiredIndex = null;
+        this.originalIndex = null;
         // stores the left edge X-coordiantes of each tab
         this.tabs = [];
         // properly bind functions so that they can work in sub-elements
         this.handleKeywordSearch = this.handleKeywordSearch.bind(this);
         this.renderActiveTab = this.renderActiveTab.bind(this);
-    }
-
-    componentDidMount() {
-        // must re-render so that the lineY is set
-        this.forceUpdate();
+        this.handleLocationChanged = this.handleLocationChanged.bind(this);
     }
 
     /**
      * Render the main content of the app
-     * @param {Number} id ID of the relevant person/place/story/fieldtrip to load (irrelevant for NexusGraph, Home)
-     * @param {String} type The type of view to load (People/Places/Fieldtrips/Stories/Home/Graph)
+     * @param {*} id ID of the relevant person/place/story/fieldtrip/book to load (irrelevant for NexusGraph, Home)
+     * @param {String} type The type of view to load (People/Places/Fieldtrips/Stories/Home/Graph/Book)
+     * @param {Number} tabIndex Index of the tab being rendered (only necessary for BookView)
      * @returns {JSX} The content of the relevant view
      */
-    renderPPFS(id, type) {
+    renderPPFS(id, type, tabIndex) {
         // depending on the type of the view to render
         switch (type) {
             case "People":
@@ -68,15 +68,20 @@ class TabViewer extends Component {
                     story={model.getStoryByID(id)}
                     // function to handle any potential clicked keywords
                     handleKeywordSearch={this.handleKeywordSearch} />;
-            case "Home": case "home":
+            case "Home":
                 // for the Home tab, return the main Navigation view (home), with the searchWord if set
                 return <Navigation searchWord={this.state.searchWord} />;
             case "Graph":
-                // for the graph, return the GraphView, with addTab to open pages on double clicked nodes
-                return <GraphView openNode={this.addTab} />;
-            case "Book":
+                // for the graph, return the GraphView
+                return <GraphView />;
+            case "Book": {
+                // const activeViewIndex = this.props.state.views.find((view) => view.type = type);
                 // for the book, return the BookView, with the chapter ID that was selected
-                return <BookView id={id} />;
+                return <BookView
+                    page={this.props.state.views[tabIndex].id}
+                    handleLocationChanged={this.handleLocationChanged}
+                    nextPage={this.nextPage} />;
+            }
             default:
                 // if it wasn't one of the above types, warn that we hit an unknown type
                 console.warn(`Unhandled tab type: ${type}`);
@@ -89,9 +94,10 @@ class TabViewer extends Component {
      */
     renderActiveTab() {
         // search through the list of tabs for the active tab
-        const activeView = this.props.state.views.find((view) => view.active);
+        const activeViewIndex = this.props.state.views.findIndex((view) => view.active);
+        const activeView = this.props.state.views[activeViewIndex];
         // return the rendered content of the tab
-        return this.renderPPFS(activeView.id, activeView.type);
+        return this.renderPPFS(activeView.id, activeView.type, activeViewIndex);
     }
 
     /**
@@ -109,72 +115,54 @@ class TabViewer extends Component {
     }
 
     // called when a tab begins being dragged
-    handleDragStart(index) {
+    handleDragStart(event, index) {
         // set the tab to be gray
-        this.props.tabViewerActions.changeTabColor(index, "#aaaaaa");
+        event.target.style.backgroundColor = "#aaaaaa";
+        // set appropriate data for the drag
+        this.originalIndex = index;
+        // so that Firefox actually lets us drag stuff
+        event.dataTransfer.setData("text/plain", this.props.state.views[index].name);
+        event.dataTransfer.effectAllowed = "move";
+        event.dataTransfer.dropEffect = "move";
     }
 
-    // called when a tab is being dragged
-    handleDrag(event, index) {
-        // get the final X of the drag
-        const {screenX} = event;
-        // find the index of the first tab such that the mouse was released to the left of its left edge
-        // and go one of left of that to put it in the spot where the mouse was released
-        let newIndex = this.tabs.findIndex((tab) => screenX <= tab.x) - 1;
-        // if we went past the last left edge (waaaaay right)
-        if (newIndex === -2) {
-            // this should become the last tab in the list
-            newIndex = this.tabs.length - 1;
-        } else if (newIndex === 0 || newIndex === -1) {
-            // if it was dropped at home or to the left of home
-            // this should become the second tab in the list (after home)
-            newIndex = 1;
-        }
-        // if drag was to the right
-        if (newIndex > index) {
-            this.setState({
-                // we should render the line to the right of the tab
-                "dragIndicatorX": this.tabs[newIndex].right,
-            });
-        } else if (newIndex < index) {
-            // if drag was to the left
-            this.setState({
-                // we should render the line to the left of the tab
-                "dragIndicatorX": this.tabs[newIndex].left,
-            });
-        } else if (newIndex === index) {
-            // tab wouldn't move
-            this.setState({
-                // don't show any movement indicator
-                "dragIndicatorX": null,
-            });
-        }
+    // called when a drag goes over a new tab
+    handleDragEnter(event, newIndex) {
+        // update where the tab would be placed if released
+        this.desiredIndex = newIndex;
+        this.setState({
+            // if drag is to the right, draw the drag indicator on the right of the tab where it would be dropped
+            // if it was to the left, draw the indicator on the left of the tab where it would be dropped
+            // if we are at the same index don't draw anything
+            "dragIndicatorX": newIndex > this.originalIndex ? this.tabs[newIndex].right :
+                newIndex < this.originalIndex ? this.tabs[newIndex].left : null,
+        });
     }
 
-    // called when a tab stops being dragged
-    handleDragEnd(event, index) {
-        // get the final X of the drag
-        const {screenX} = event;
-        // find the index of the first tab such that the mouse was released to the left of its left edge
-        // and go one of left of that to put it in the spot where the mouse was released
-        let newIndex = this.tabs.findIndex((tab) => screenX <= tab.x) - 1;
-        // if we went past the last left edge (waaaaay right)
-        if (newIndex === -2) {
-            // this should become the last tab in the list
-            newIndex = this.tabs.length - 1;
-        } else if (newIndex === 0 || newIndex === -1) {
-            // if it was dropped at home or to the left of home
-            // this should become the second tab in the list (after home)
-            newIndex = 1;
-        }
+    // called when a tab stops being dragged (is released)
+    handleDragEnd(event) {
         // move the dragged tab to the desired spot
-        this.props.tabViewerActions.moveTab(index, newIndex);
-        // reset the tab back to normal color
-        this.props.tabViewerActions.changeTabColor(newIndex, null);
+        this.props.tabViewerActions.moveTab(this.originalIndex, this.desiredIndex);
+        // reset indices of drag
+        this.originalIndex = null;
+        this.desiredIndex = null;
+        // reset the tab's color
+        event.target.style.backgroundColor = null;
         // hide the drag indicator
         this.setState({
             "dragIndicatorX": null,
         });
+    }
+
+    // called when the book view goes to a new page
+    handleLocationChanged(newPage) {
+        this.props.tabViewerActions.updateTab(
+            // update the active tab (i.e. the currently viewed book)
+            this.props.state.views.findIndex((view) => view.active),
+            {
+                // to be on the new page
+                "id": newPage,
+            });
     }
 
     render() {
@@ -212,21 +200,17 @@ class TabViewer extends Component {
                                     }}
                                     // make everything but the home tab draggable
                                     draggable={view.type !== "Home"}
-                                    // called when the tab begins being dragged
-                                    onDragStart={() => {
-                                        // change the color of the dragged tab
-                                        this.handleDragStart(index);
+                                    // called when the tab begins being dragged, changes color of the dragged tab
+                                    onDragStart={(event) => {
+                                        this.handleDragStart(event, index);
                                     }}
-                                    // called while the tab is being dragged
-                                    onDrag={(event) => {
-                                        // render the little purple line indicator
-                                        this.handleDrag(event, index);
+                                    // called when the drag goes over a new tab
+                                    onDragEnter={(event) => {
+                                        // change the drag indicator appropriately
+                                        this.handleDragEnter(event, index);
                                     }}
-                                    // called when the tab stops being dragged
-                                    onDragEnd={(event) => {
-                                        // move the tab appropriately to its final spot
-                                        this.handleDragEnd(event, index);
-                                    }}
+                                    // called when the tab stops being dragged, move that tab to its new spot
+                                    onDragEnd={this.handleDragEnd.bind(this)}
                                     // key to control re-rendering of tabs
                                     key={index}
                                     // make it active if this is the current tab
@@ -237,20 +221,22 @@ class TabViewer extends Component {
                                     }}>
                                     {/* show the display text on the tab */}
                                     {view.name}
-                                    <img
-                                        // source of the image (URL)
-                                        src="https://png.icons8.com/material/50/000000/delete-sign.png"
-                                        // text to display if it can't show up
-                                        alt="Close Icon"
-                                        // give it the styling for the close button, don't display a close button on the home tab (it can't be closed)
-                                        className={`closeTabIcon ${view.type === "Home" ? "noClose" : ""}`}
-                                        // callback when the "x" is clicked
-                                        onClick={(event) => {
-                                            // prevent a separate "tab was clicked" event from occuring once this tab gets closed
-                                            event.stopPropagation();
-                                            // close the desired tab
-                                            this.props.tabViewerActions.closeTab(index);
-                                        }} />
+                                    {/* don't show a close button on the home tab */}
+                                    {view.type !== "Home" &&
+                                        <img
+                                            // source of the image (URL)
+                                            src="https://png.icons8.com/material/50/000000/delete-sign.png"
+                                            // text to display if it can't show up
+                                            alt="Close Icon"
+                                            // give it the styling for the close button
+                                            className="closeTabIcon"
+                                            // callback when the "x" is clicked
+                                            onClick={(event) => {
+                                                // prevent a separate "tab was clicked" event from occuring once this tab gets closed
+                                                event.stopPropagation();
+                                                // close the desired tab
+                                                this.props.tabViewerActions.closeTab(index);
+                                            }} />}
                                 </li>
                             );
                         })}
@@ -265,11 +251,11 @@ class TabViewer extends Component {
                         // set up its position
                         style={{
                             // position it at the X-coordinate determined by drag functions
-                            "left": `${this.state.dragIndicatorX}px`,
+                            "left": this.state.dragIndicatorX,
                             // make it in line with tabs
-                            "top": `${this.dragIndicatorY}px`,
+                            "top": this.dragIndicatorY,
                             // make it as tall as the tabs
-                            "height": `${this.dragIndicatorHeight}px`,
+                            "height": this.dragIndicatorHeight,
                         }} />
                 }
             </div>
