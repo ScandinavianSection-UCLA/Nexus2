@@ -1,76 +1,67 @@
-.SearchComponent{
-    /*padding-top:5vh;*/
-    padding:5% 0 3% 2%;
-    /*height:30vh;*/
-    background:#ED4C67;
-    margin-bottom:20%;
-    margin-top:10%;
-    height:23%;
-    overflow:visible;
+.SearchComponent {
+    padding: 5% 0 3% 2%;
+    background: #ED4C67;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    height: 23%;
+    overflow: visible;
 }
 
-.suggestion-wrapper{
-    display:none;
+.SearchComponent input, .SearchComponent label {
+    color: white;
+    display: inline-block;
 }
-.suggestion-wrapper.active{
-    display:block;
-}
-.SearchComponent input, .SearchComponent label{
-    color:white;
-    display:inline-block;
-}
+
 .SearchComponent label{
-    margin-right:10px;
-    margin-left:10%;
+    margin-right: 10px;
+    margin-left: 10%;
 }
 
-.SearchComponent input[type=text]{
+.SearchComponent input[type=text] {
     border: 0;
     outline: none;
     background: transparent;
     border-bottom: 2px solid white;
-    box-shadow:none;
-    color:white;
-    font-size:1.7em;
-    padding:3px;
-    height:1.6em;
-    width:80%;
-    margin-left:10%;
-    margin-top:8%;
+    box-shadow: none;
+    font-size: 1.7em;
+    padding: 3px;
+    height: 1.6em;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 8%;
 }
+
 .SearchComponent input[type=text]:focus {
     outline: none;
 }
+
 @keyframes suggestionsDrop {
-    from {height:0}
-    to {height:20vh;}
+    from {height: 0}
+    to {height: 20vh;}
 }
+
 .SearchComponent input[type=text]:focus+.suggestions{
-    animation-name:suggestionsDrop;
-    animation-duration:1s;
+    animation-name: suggestionsDrop;
+    animation-duration: 1s;
 }
-.suggestions{
-    display:none;
-    height:20vh;
-    overflow-y:scroll;
-    background-color:white;
-    font-size:1.3em;
-    width:102%;
-    margin-left:0%;
+
+.suggestions {
+    height: 20vh;
+    overflow-y: scroll;
+    background-color: white;
+    font-size: 1.3em;
+    margin-left: 0;
     list-style: none;
     position:relative;
-    left:-2%;
     top:-40%;
 }
-.suggestions li{
-    padding:1% 0 1% 3%;
+
+.suggestions li {
+    padding: 1% 0 1% 3%;
 }
-.suggestions li:hover{
-    background-color:lightgrey;
-    width:100%;
-}
-.suggestions.active{
-    display:block;
+
+.suggestions li:hover {
+    background-color: lightgrey;
 }
 .filters{
     width:100%;

@@ -16,8 +16,6 @@ class Heading extends Component {
         super();
         // set the initial state
         this.state = {
-            // start out with no selected story
-            "storyPath": "",
             // the story menu is by default not selected
             "menuActive": false,
         };
@@ -31,7 +29,9 @@ class Heading extends Component {
     menuToggle() {
         this.setState((prevState) => {
             // set the state of the dropdown to be the opposite of what it was
-            return {"menuActive": !prevState.menuActive};
+            return {
+                "menuActive": !prevState.menuActive,
+            };
         });
     }
 
@@ -49,9 +49,7 @@ class Heading extends Component {
                                 // text if the file can't load
                                 alt="Danish Flag"
                                 // callback for when the function is clicked
-                                onClick={(event) => {
-                                    // prevent default click behavior
-                                    event.preventDefault();
+                                onClick={() => {
                                     // go to the home tab
                                     this.props.tabViewerActions.switchTabs(0);
                                 }} />
@@ -74,35 +72,38 @@ class Heading extends Component {
                         alt="book" />
                 </div>
                 {/* dropdown menu that links to the various chapters */}
-                <div className={`Menu ${this.state.menuActive ? "active" : ""}`} onClick={this.menuToggle}>
-                    <div className="solid">
-                        {/* little open book at the top right */}
-                        <div className="Hamburger-Menu" onClick={this.menuToggle}>
-                            <img src="https://png.icons8.com/wired/50/ffffff/literature.png" style={{"height": "2.9em", "paddingTop": "5px"}} alt="open book" onClick={this.menuToggle} />
+                {this.state.menuActive &&
+                    <div className="Menu" onClick={this.menuToggle}>
+                        <div className="solid">
+                            {/* little open book at the top right */}
+                            <div className="Hamburger-Menu" onClick={this.menuToggle}>
+                                <img src="https://png.icons8.com/wired/50/ffffff/literature.png" style={{"height": "2.9em", "paddingTop": "5px"}} alt="open book" onClick={this.menuToggle} />
+                            </div>
+                            {/* list of all the chapters */}
+                            <ul className="list">
+                                {/* for each of the chapter links */}
+                                {menuList.map((menuItem, i) => {
+                                    // return a single element of the list
+                                    return <li
+                                        // unique key for react re-rendering
+                                        key={i}
+                                        // style it as a dropdown element
+                                        className="menu-item"
+                                        // callback when this option is clicked
+                                        onClick={(event) => {
+                                            // prevent default click behavior
+                                            event.preventDefault();
+                                            // add a tab to the desired chapter
+                                            this.props.tabViewerActions.addTab(menuItem.location, menuItem.name, "Book");
+                                        }}
+                                    >{menuItem.name}</li>;
+                                })}
+                            </ul>
                         </div>
-                        {/* list of all the chapters */}
-                        <ul className="list">
-                            {/* for each of the chapter links */}
-                            {menuList.map((menuItem, i) => {
-                                // return a single element of the list
-                                return <li
-                                    // unique key for react re-rendering
-                                    key={i}
-                                    // style it as a dropdown element
-                                    className="menu-item"
-                                    // callback when this option is clicked
-                                    onClick={(event) => {
-                                        // prevent default click behavior
-                                        event.preventDefault();
-                                        // add a tab to the desired chapter
-                                        this.props.tabViewerActions.addTab(i, menuItem.name, "Book");
-                                    }}
-                                >{menuItem.name}</li>;
-                            })}
-                        </ul>
                     </div>
-                </div>
+                }
             </div>
+
         );
     }
 }

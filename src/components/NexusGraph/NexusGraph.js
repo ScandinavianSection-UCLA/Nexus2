@@ -1,6 +1,6 @@
-// basic react functionality
 // styling for the graph
 import "./NexusGraph.css";
+// basic react functionality
 import React, {Component} from "react";
 // graph functionality for the NexusGraph
 import {Graph} from "react-d3-graph";
@@ -35,27 +35,21 @@ const settings = {
 };
 
 class NexusGraph extends Component {
-    constructor() {
-        super();
-        // set an initial state
-        this.state = {
-            // initially, no node clicked
-            "lastNodeClicked": null,
-            // since no node is initially clicked, don't set a real time
-            "lastNodeClickTime": 0,
-        };
-
+    constructor(props) {
+        super(props);
+        // no clicks handled yet
+        this.lastNodeClicked = null;
+        this.lastNodeClickTime = 0;
         // properly bind handleClickNode so it works on the nodes in the graph
         this.handleClickNode = this.handleClickNode.bind(this);
     }
 
+    // called whenever a node is clicked
     handleClickNode(nodeName) {
-        // condition to treat it as a double click
-
-        // if last click was within 1 second
-        if (Date.now() - this.state.lastNodeClickTime < 1000 &&
+        // condition to treat it as a double click, if last click was within 1 second
+        if (Date.now() - this.lastNodeClickTime < 1000 &&
             // and the same node was clicked both times,
-            nodeName === this.state.lastNodeClicked) {
+            nodeName === this.lastNodeClicked) {
             // get the node matching the given name
             let node = getNodeById(nodeName, this.props.nodes);
             // assuming we properly retrieved the node
@@ -64,13 +58,11 @@ class NexusGraph extends Component {
                 this.props.tabViewerActions.addTab(node.itemID, nodeName, node.type);
             }
         } else {
-            // too long between clicks or different nodes clicked, treat it as a single click
-            this.setState({
-                // update the latest click time to be now
-                "lastNodeClickTime": Date.now(),
-                // update the latest clicked node to be this node
-                "lastNodeClicked": nodeName,
-            });
+            // too long between clicks/different node clicked, it should be a single click
+            // set last click to be now
+            this.lastNodeClickTime = Date.now();
+            // the clicked node is now the one that was last clicked
+            this.lastNodeClicked = nodeName;
         }
     }
 
@@ -89,7 +81,7 @@ class NexusGraph extends Component {
                     ...this.props.settings,
                 }}
                 // call the custom callback when a node is clicked
-                onClickNode={this.handleClickNode}
+                onClickNode={this.handleClickNode.bind(this)}
             />
         );
     }
@@ -101,14 +93,8 @@ NexusGraph.propTypes = {
         "target": PropTypes.string.isRequired,
         "linkNode": PropTypes.any,
         "color": PropTypes.string,
-    })).isRequired,
-    "nodes": PropTypes.arrayOf(PropTypes.shape({
-        "id": PropTypes.string.isRequired,
-        "color": PropTypes.string,
-        "item": PropTypes.any,
-        "type": PropTypes.string,
-        "itemID": PropTypes.number,
-    })).isRequired,
+    })),
+    "nodes": PropTypes.object.isRequired,
     "data": PropTypes.object.isRequired,
     "settings": PropTypes.object,
     "tabViewerActions": PropTypes.object.isRequired,
@@ -116,8 +102,6 @@ NexusGraph.propTypes = {
 
 NexusGraph.defaultProps = {
     "nodes": [{"id": "blank"}],
-    "links": [],
-    "settings": {},
 };
 
 function mapStateToProps(state) {

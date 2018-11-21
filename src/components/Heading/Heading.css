@@ -1,87 +1,77 @@
-.Heading{
+.Heading {
     background-color: #222121;
-    padding:1vh 1vh 1vh 0;
-    color:white;
-    font-size:.9em;
+    padding: 1vh 1vh 1vh 0;
+    color: white;
+    font-size: .9em;
 }
-.danish-folklore{
-    font-weight:800;
-    font-size:1em;
+
+.danish-folklore {
+    font-weight: 800;
+    font-size: 1em;
 }
-.etk{
-    font-size:.82em;
-    padding-top:1%;
-    padding-left:5%;
+
+.etk {
+    font-size: .82em;
+    padding-top: 1%;
+    padding-left: 5%;
     border-left: 1px solid white;
 }
-.flag{
-    padding-top:0;
+
+.flag {
+    padding-top: 0;
     padding-right: 0;
-    width:12% !important;
-    height:30%;
+    width: 12%!important;
+    height: 30%;
 }
-.Hamburger-Menu{
-    padding-top:.1%;
-    padding-left:3%;
-    cursor:pointer;
+
+.Hamburger-Menu {
+    padding-top: .1%;
+    padding-left: 3%;
+    cursor: pointer;
 }
-.Hamburger-Menu div{
+
+.Hamburger-Menu div {
     width: 35px;
     height: 5px;
     background-color: #7F7F7F;
     margin: 6px 0;
 }
-.Menu{
-    padding-left:30px;
-    position:absolute;
-    height:100vh;
-    width:0;
-    background-color:rgba(59,56,56,.8);
-    color:white;
-    right:0;
-    top:0;
-    display:none;
-}
-.Menu.active{
-    width:100vw;
-    display:block;
+
+.Menu {
+    padding-left: 30px;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(59,56,56,.8);
+    color: white;
+    right: 0;
+    top: 0;
     z-index: 1000;
 }
-.Menu .Hamburger-Menu{
-    margin-top:10px;
-    position:absolute;
-    left:21.3vw;
-}
-.Menu .solid{
-    position:absolute;
-    right:0;
-    top:0;
-    width:30vw;
-    height:100%;
-    background-color: #313030;
-    z-index:1000;
-}
-.Menu .list{
-    margin-top:50px;
-    font-size:1.4em;
-    list-style: none;
 
+.Menu .Hamburger-Menu {
+    margin-top: 10px;
+    position: absolute;
+    left: 21.3vw;
 }
-.menu-item:hover{
+
+.Menu .solid {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30vw;
+    height: 100%;
+    background-color: #313030;
+    z-index: 1000;
+}
+
+.Menu .list {
+    margin-top: 50px;
+    font-size: 1.4em;
+    list-style: none;
+}
+
+.menu-item:hover {
     background-color: rgb(111, 108, 108);
-    cursor:pointer;
-}
-.Search input[type=text]{
-    background-color:transparent;
-    border:none;
-    outline:none;
-    -webkit-appearance: none;
-    border-bottom:1px solid #838080;
-    box-shadow: none;
-    text-align:left;
-    color:white;
-}
-.search-icon{
-    height:50%;
-    padding-top:3%;
+    cursor: pointer;
 }

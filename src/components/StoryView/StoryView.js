@@ -24,7 +24,7 @@ class StoryView extends Component {
         super(props);
         // set initial state
         this.state = {
-            // start with the first accordian tab open
+            // start with the first accordion tab open
             "openTab": 0,
             "storyVersionOpen": [true, false, false, false, false],
             // two versions wouldn't be open
@@ -85,16 +85,14 @@ class StoryView extends Component {
     }
 
     /**
-     * Handle a click on the left accordian tri-tabs
+     * Handle a click on the left accordion tri-tabs
      * @param {*} tab Tab that was clicked
      */
     accordionHandler(tab) {
-        this.setState((prevState) => {
-            return {
-                // if we clicked on a new tab, make that active
-                // otherwise we are trying to hide the current tab, so no active tab
-                "openTab": tab,
-            };
+        this.setState({
+            // if we clicked on a new tab, make that active
+            // otherwise we are trying to hide the current tab, so no active tab
+            "openTab": tab,
         });
     }
 
@@ -207,66 +205,68 @@ class StoryView extends Component {
                                     // when clicked, toggle the top tab
                                     this.accordionHandler(0);
                                 }}>Story Data</a>
-                            <div className="body">
-                                <b>Order Told</b> {this.renderProperty(order_told)}<br />
-                                <b>Recorded during fieldtrip</b> {this.renderProperty(fieldtrip.id)}<br />
-                                <b>Fieldtrip dates</b> {this.renderProperty(fieldtrip_start_date)} to {this.renderProperty.bind(this)(fieldtrip_end_date)}<br />
-                                <b>Place recorded</b> {
-                                    // is there a properly set place recorded?
-                                    typeof this.placeRecorded !== "undefined"
-                                        // if so, return it
-                                        ? <button
-                                            // make it a button-well
-                                            className="button keyword-well"
-                                            // when it is clicked
-                                            onClick={() => {
-                                                // start a search by this keyword
-                                                this.props.tabViewerActions.addTab(this.placeRecorded.place_id, this.placeRecorded.name, "Places");
-                                                // display the place name
-                                            }}>{this.placeRecorded.name}</button>
-                                        // otherwise, it isn't applicable
-                                        : "N/A"}
-                                <br />
-                                <b>Field diary pages</b> {
-                                    // are there field diary pages?
-                                    fielddiary_page_start !== "No field diary recording"
-                                        // if so, list them out
-                                        ? `${fielddiary_page_start} to ${fielddiary_page_end}`
-                                        // otherwise, it's not applicable
-                                        : "N/A"}
-                                <br />
-                                <b>Associated Keywords</b><br />{
-                                    // for each of the keywords
-                                    arrayTransformation(keywords.keyword).map((keyword, i) => {
-                                        // return a well that triggers a serach by that keyword when clicked
-                                        return <button
-                                            // make it a button-well
-                                            className="button keyword-well"
-                                            key={i}
-                                            // when it is clicked
-                                            onClick={() => {
-                                                // start a search by this keyword
-                                                this.props.handleKeywordSearch(keyword.keyword);
-                                            }}>{keyword.keyword}</button>;
-                                    })
-                                }<br />
-                                <b>Places mentioned in story</b> {
-                                    // are there any mentioned places
-                                    this.placesMentioned.length > 0
-                                        // if so, for each of the mentioned places
-                                        ? this.placesMentioned.map((place, i) => {
-                                            return <button
-                                                key={i}
+                            {/* only show story data if that is the open accordion tab */}
+                            {openTab === 0 &&
+                                <div className="body">
+                                    <b>Order Told</b> {this.renderProperty(order_told)}<br />
+                                    <b>Recorded during fieldtrip</b> {this.renderProperty(fieldtrip.id)}<br />
+                                    <b>Fieldtrip dates</b> {this.renderProperty(fieldtrip_start_date)} to {this.renderProperty.bind(this)(fieldtrip_end_date)}<br />
+                                    <b>Place recorded</b> {
+                                        // is there a properly set place recorded?
+                                        typeof this.placeRecorded !== "undefined"
+                                            // if so, return it
+                                            ? <button
                                                 // make it a button-well
                                                 className="button keyword-well"
                                                 // when it is clicked
                                                 onClick={() => {
-                                                    // open up the tab related to this place
-                                                    this.props.tabViewerActions.addTab(place.place_id, place.name, "Places");
-                                                }}>{place.name}</button>;
-                                            // otherwise, this is not applicable
-                                        }) : "N/A"}
-                            </div>
+                                                    // start a search by this keyword
+                                                    this.props.tabViewerActions.addTab(this.placeRecorded.place_id, this.placeRecorded.name, "Places");
+                                                    // display the place name
+                                                }}>{this.placeRecorded.name}</button>
+                                            // otherwise, it isn't applicable
+                                            : "N/A"}
+                                    <br />
+                                    <b>Field diary pages</b> {
+                                        // are there field diary pages?
+                                        fielddiary_page_start !== "No field diary recording"
+                                            // if so, list them out
+                                            ? `${fielddiary_page_start} to ${fielddiary_page_end}`
+                                            // otherwise, it's not applicable
+                                            : "N/A"}
+                                    <br />
+                                    <b>Associated Keywords</b><br />{
+                                        // for each of the keywords
+                                        arrayTransformation(keywords.keyword).map((keyword, i) => {
+                                            // return a well that triggers a serach by that keyword when clicked
+                                            return <button
+                                                // make it a button-well
+                                                className="button keyword-well"
+                                                key={i}
+                                                // when it is clicked
+                                                onClick={() => {
+                                                    // start a search by this keyword
+                                                    this.props.handleKeywordSearch(keyword.keyword);
+                                                }}>{keyword.keyword}</button>;
+                                        })
+                                    }<br />
+                                    <b>Places mentioned in story</b> {
+                                        // are there any mentioned places
+                                        this.placesMentioned.length > 0
+                                            // if so, for each of the mentioned places
+                                            ? this.placesMentioned.map((place, i) => {
+                                                return <button
+                                                    key={i}
+                                                    // make it a button-well
+                                                    className="button keyword-well"
+                                                    // when it is clicked
+                                                    onClick={() => {
+                                                        // open up the tab related to this place
+                                                        this.props.tabViewerActions.addTab(place.place_id, place.name, "Places");
+                                                    }}>{place.name}</button>;
+                                                // otherwise, this is not applicable
+                                            }) : "N/A"}
+                                </div>}
                         </li>
                         <li className={`accordion-item ${openTab === 1 ? "is-active" : ""}`}>
                             <a
@@ -275,15 +275,18 @@ class StoryView extends Component {
                                     // when clicked, toggle the middle tab
                                     this.accordionHandler(1);
                                 }}>Story Indices</a>
-                            <div className="body">
-                                <b>Genre</b> {genre.name}<br />
-                                <b>ETK Index</b> {etk_index.heading_english}<br />
-                                <b>Tangherlini Indices</b><br />
-                                {arrayTransformation(tango_indices.tango_index).map((index, i) => {
-                                    return <div className="keyword-well" key={i}>{index.display_name}</div>;
-                                })}
-                            </div>
+                            {/* only show indices if that is the open accordion tab */}
+                            {openTab === 1 &&
+                                <div className="body">
+                                    <b>Genre</b> <button className="button keyword-well">{genre.name}</button><br />
+                                    <b>ETK Index</b> <button className="button keyword-well">{etk_index.heading_english}</button><br />
+                                    <b>Tangherlini Indices</b><br />
+                                    {arrayTransformation(tango_indices.tango_index).map((index, i) => {
+                                        return <div className="button keyword-well" key={i}>{index.display_name}</div>;
+                                    })}
+                                </div>}
                         </li>
+
                         <li className={`accordion-item ${openTab === 2 ? "is-active" : ""}`}>
                             <a
                                 className="accordion-title"
@@ -291,9 +294,11 @@ class StoryView extends Component {
                                     // when clicked, toggle the bottom tab
                                     this.accordionHandler(2);
                                 }}>Bibliographical References</a>
-                            <div className="body">
-                                {this.bibliographicReferences.bind(this)()}
-                            </div>
+                            {/* only show references if that is the open tab */}
+                            {openTab === 2 &&
+                                <div className="body">
+                                    {this.bibliographicReferences.bind(this)()}
+                                </div>}
                         </li>
                     </ul>
                 </div>
@@ -375,7 +380,7 @@ class StoryView extends Component {
 
                 </div>
 
-            </div>
+            </div >
         );
     }
 }

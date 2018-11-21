@@ -5,57 +5,20 @@ import {ReactReader} from "react-reader";
 // prop validation
 import PropTypes from "prop-types";
 // chapter data
-import menuList from "../../data/book_menu.json";
 import "./BookView.css";
 
 class BookView extends Component {
-    constructor() {
-        super();
-        // initial state
+    constructor(props) {
+        super(props);
         this.state = {
-            // prop chapter
-            "id": 0,
-            // start on the first page
-            "location": 0,
             // start with normal text
             "largeText": false,
         };
         // to be set once the book is rendered
         this.rendition = null;
         // bind the functions so that they function properly in sub-elements
-        this.onLocationChanged = this.onLocationChanged.bind(this);
         this.onToggleFontSize = this.onToggleFontSize.bind(this);
         this.getRendition = this.getRendition.bind(this);
-    }
-
-    // called at the first loading of the component
-    componentDidMount() {
-        this.setState({
-            // set the chapter that we got loaded to
-            "propChapter": this.props.id,
-        });
-    }
-
-    // called whenever we get a chapter to go to (includes initial render)
-    static getDerivedStateFromProps(props, state) {
-        // if we actually got a prop update and not a state update (chapter changed)
-        if (props.id !== state.id) {
-            // update the state
-            return {
-                // update the chapter we go to
-                "id": props.id,
-                // go to the chapter that was selected
-                "location": menuList[props.id].location,
-            };
-        }
-    }
-
-    // called when the page changes
-    onLocationChanged(prevLocation) {
-        this.setState({
-            // update the page
-            "location": prevLocation,
-        });
     }
 
     // toggle between zoomed/unzoomed font
@@ -73,12 +36,10 @@ class BookView extends Component {
 
     // get a reference to the rendered book
     getRendition(rendition) {
-        // set inital font-size, and add a pointer to rendition for later updates
-        const {largeText} = this.state;
         // reference to the rendered book
         this.rendition = rendition;
         // enlarge the font if needed
-        rendition.themes.fontSize(largeText ? "140%" : "100%");
+        rendition.themes.fontSize(this.state.largeText ? "140%" : "100%");
     }
 
     render() {
@@ -89,10 +50,10 @@ class BookView extends Component {
                     // path to the .epub file
                     url={"/Book/merge_from_ofoct.epub"}
                     // page to load
-                    location={this.state.location}
+                    location={this.props.page}
                     // callback for when the page is changed
-                    locationChanged={this.onLocationChanged}
-                    // callback for when the book finishes rendering
+                    locationChanged={this.props.handleLocationChanged}
+                    // callback for when the book is rendered
                     getRendition={this.getRendition}
                 />
                 {/* button to zoom the font in/out */}
@@ -110,12 +71,10 @@ class BookView extends Component {
 }
 
 BookView.propTypes = {
-    // must have id to load a chapter
-    "id": PropTypes.number.isRequired,
-};
-
-BookView.defaultProps = {
-    "id": 0,
+    // callback for when we switch pages
+    "handleLocationChanged": PropTypes.func.isRequired,
+    // the page we are currently displaying
+    "page": PropTypes.number.isRequired,
 };
 
 export default BookView;

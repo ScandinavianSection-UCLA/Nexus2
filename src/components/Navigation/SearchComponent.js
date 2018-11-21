@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import {DisplayArtifactToDisplayKey, getKeywords} from "../../data-stores/DisplayArtifactModel";
 import {arrayTransformation} from "../../utils";
-import Fuse from "fuse.js";
 import "./search.css";
 import PropTypes from "prop-types";
 import {bindActionCreators} from "redux";
@@ -104,9 +103,10 @@ class SearchComponent extends Component {
     //     }
     // }
 
-    handleSearch(SearchTerm){
+    handleSearch(SearchTerm) {
         // search
         this.props.searchActions.searchArtifact(SearchTerm);
+        console.log("searched")
         // TODO: don't. get. lazy. just. do. it. aka. make a callback function to get navigation to work with updated state.
     }
 
@@ -151,9 +151,10 @@ class SearchComponent extends Component {
                     placeholder="Search Term"
                     value={this.props.state.inputValue}
                     // onChange={this.handleFuzzySearch.bind(this)}
-                    onChange={(e)=>{
+                    onChange={(e) => {
                         e.preventDefault();
-                        this.props.searchActions.fuzzySearch(e.target.value, this.props.displayList)}}
+                        this.props.searchActions.fuzzySearch(e.target.value, this.props.displayList)
+                    }}
                 />
                 <label htmlFor="keyword-search-switch" className="keyword-search">Keyword Search Only</label>
                 <input
@@ -161,16 +162,18 @@ class SearchComponent extends Component {
                     name="keyword"
                     id="keyword-search-switch"
                     onChange={this.switchKeywordSearch.bind(this)} />
-                <ul className={`suggestions ${this.props.state.searchingState ? "active" : ""}`}>
-                    {/*for #146 ${this.props.searchingState ? "active" : "" }*/}
-                    {this.renderListofSuggestions.bind(this)()}
-                </ul>
+                {/* only show suggestions while a search is active */}
+                {this.state.searching &&
+                    <ul className={`suggestions ${this.props.searchingState ? "active" : ""}`}>
+                        {/* for #146 } */}
+                        {this.renderListofSuggestions.bind(this)()}
+                    </ul>}
             </form>
         );
     }
 }
 
-//TODO: connect with props and redux stuff
+// TODO: connect with props and redux stuff
 
 // check if displayList is properly formatted and assigned
 SearchComponent.propTypes = {

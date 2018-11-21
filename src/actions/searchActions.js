@@ -5,32 +5,31 @@ import * as types from "./actionTypes";
  * @param {String} SearchInput
  * @param {array} DisplayList
  * */
-export function fuzzySearch(SearchInput, DisplayList){
+export function fuzzySearch(SearchInput, DisplayList) {
     return {
-        type: types.FUZZY_SEARCH,
-        payload: {SearchInput, DisplayList},
-    }
+        "type": types.FUZZY_SEARCH,
+        "payload": {SearchInput, DisplayList},
+    };
 }
-
 
 /**
  * Trigger search for a display artifact (people, places, stories, fieldtrips)
  * @param {integer} DisplayArtifact
  * */
-export function searchArtifact(DisplayArtifact){
+export function searchArtifact(DisplayArtifact) {
     return {
-        type: types.SEARCH_ARTIFACT,
-        payload: DisplayArtifact,
-    }
+        "type": types.SEARCH_ARTIFACT,
+        "payload": DisplayArtifact,
+    };
 }
 
 /**
  * Trigger search for keyword either as a string or as an object
  * @param {String, Object} Keyword
  * */
-export function searchKeyword(Keyword){
+export function searchKeyword(Keyword) {
     return {
-        type: types.SEARCH_KEYWORD,
-        payload: Keyword,
-    }
+        "type": types.SEARCH_KEYWORD,
+        "payload": Keyword,
+    };
 }

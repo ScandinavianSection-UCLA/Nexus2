@@ -140,7 +140,7 @@ class RightBar extends Component {
             }
             case "People":
                 // if the current view is a person, then create tabs for places and stories
-                // first <div> is the plaes tab
+                // first <div> is the places tab
                 // second <div> is the stories tab
                 return (<div style={{"marginTop": "150%", "marginBottom": "20%"}}>
                     <div className={`medium-2 cell ${active === "places" ? "active" : ""} places`}
@@ -206,7 +206,7 @@ class RightBar extends Component {
                         <div className="icon-label">Stories</div>
                     </div>
                 </div>);
-            case null:
+            case 0:
                 return null;
             default:
                 console.warn(`Unhandled view type: ${view}`);
@@ -225,6 +225,8 @@ class RightBar extends Component {
                 return this.renderPeople();
             case "stories_mentioned":
                 return this.renderStories(true);
+            case null:
+                return null;
             default:
                 console.warn(`Unhandled active tab: ${this.state.active}`);
         }
@@ -245,7 +247,7 @@ class RightBar extends Component {
                         const {full_name, person_id} = person;
                         return <li key={i} onClick={(event) => {
                             event.preventDefault();
-                            this.clickHandler.bind(this)(person_id, full_name, "People", person);
+                            this.clickHandler(person_id, full_name, "People", person);
                         }}>
                             <img className="icon-item" src={require("../Navigation/icons8-contacts-32.png")} alt="person" />
                             {full_name}

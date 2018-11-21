@@ -35,10 +35,14 @@ function InitializeTabs() {
     }
 }
 
-function InitializeSearch(){
+/**
+ * Initialize the search state
+ * @returns {Object} The initial search state
+ */
+function InitializeSearch() {
     return {
         // initial input value based on the props (as if search is already complete)
-        "inputValue": '',
+        "inputValue": "",
         // no search yet, can't be a keyword search
         "keywordSearch": false,
         // we aren't searching on first load
@@ -46,10 +50,13 @@ function InitializeSearch(){
         // results to display as suggestions or displayList in Navigator
         "results": [],
         // ontology that's being displayed
-        "ontology": '',
-    }
+        "ontology": "",
+    };
 }
 
-function InitializeNavigator(){
+/**
+ * TODO: implement this
+ */
+function InitializeNavigator() {
 
 }
