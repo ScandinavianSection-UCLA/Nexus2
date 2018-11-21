@@ -9,7 +9,7 @@ import {
     ontologyToDisplayKey,
     ontologyToID,
     dateFilterHelper,
-    DisplayArtifactToDisplayKey, ArtifactoID
+    DisplayArtifactToDisplayKey, ArtifactoID,
 } from "../../data-stores/DisplayArtifactModel";
 import "./navigation.css";
 // the nexus graph
@@ -99,37 +99,49 @@ class Navigation extends Component {
         var displayKey = ontologyToDisplayKey[ontology];
         var idKey = ontologyToID[ontology];
         console.log(items, ontology);
-        if(displayKey !== undefined && idKey !== undefined){
-            if(this.props.searchState.results.length >= 1){
-                console.log('SEARCH STATE IS GOING THRUUU');
-                this.setState(() => {
-                    return {
-                        "displayOntology": ontology,
-                        "itemsList": items,
-                        "displayItemsList": this.displayList(this.props.searchState.results, displayKey, idKey, ontology),
-                        "placeList": items,
-                    };
-                }, () => {
-                    if (this.state.timeFilterOn && typeof items !== "undefined") {
-                        this.updateItems.bind(this)();
-                    }
-                });
-            } else {
-                this.setState(() => {
-                    return {
-                        "displayOntology": ontology,
-                        "itemsList": items,
-                        "displayItemsList": this.displayList(items, displayKey, idKey, ontology),
-                        "placeList": items,
-                    };
-                }, () => {
-                    if (this.state.timeFilterOn && typeof items !== "undefined") {
-                        this.updateItems.bind(this)();
-                    }
-                });
+        this.setState(() => {
+            return {
+                "displayOntology": ontology,
+                "itemsList": items,
+                "displayItemsList": this.displayList(items, displayKey, idKey, ontology),
+                "placeList": items,
+            };
+        }, () => {
+            if (this.state.timeFilterOn && typeof items !== "undefined") {
+                this.updateItems.bind(this)();
             }
-
-        }
+        });
+        // if (displayKey !== undefined && idKey !== undefined) {
+        //     if (this.props.searchState.results.length >= 1) {
+        //         console.log("SEARCH STATE IS GOING THRUUU");
+        //         this.setState(() => {
+        //             return {
+        //                 "displayOntology": ontology,
+        //                 "itemsList": items,
+        //                 "displayItemsList": this.displayList(this.props.searchState.results, displayKey, idKey, ontology),
+        //                 "placeList": items,
+        //             };
+        //         }, () => {
+        //             if (this.state.timeFilterOn && typeof items !== "undefined") {
+        //                 this.updateItems.bind(this)();
+        //             }
+        //         });
+        //     } else {
+        //         this.setState(() => {
+        //             return {
+        //                 "displayOntology": ontology,
+        //                 "itemsList": items,
+        //                 "displayItemsList": this.displayList(items, displayKey, idKey, ontology),
+        //                 "placeList": items,
+        //             };
+        //         }, () => {
+        //             if (this.state.timeFilterOn && typeof items !== "undefined") {
+        //                 this.updateItems.bind(this)();
+        //             }
+        //         });
+        //     }
+        //
+        // }
     }
 
     updateItems() {
@@ -409,14 +421,12 @@ class Navigation extends Component {
 }
 
 Navigation.propTypes = {
-    "searchWord": PropTypes.string.isRequired,
     "tabViewerActions": PropTypes.object.isRequired,
 };
 
 function mapStateToProps(state) {
     return {
         "state": state.tabViewer,
-        "searchState": state.search,
     };
 }
 

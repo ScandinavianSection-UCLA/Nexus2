@@ -4,6 +4,9 @@ import {arrayTransformation} from "../../utils";
 import Fuse from "fuse.js";
 import "./search.css";
 import PropTypes from "prop-types";
+import {bindActionCreators} from "redux";
+import * as searchActions from "../../actions/searchActions";
+import connect from "react-redux/es/connect/connect";
 
 class SearchComponent extends Component {
     constructor(props) {
@@ -143,8 +146,8 @@ class SearchComponent extends Component {
     }
 
     renderListofSuggestions() {
-        const QueriedList = this.state.refinedResultsState ? "refinedResults" : "results";
-        return this.state[QueriedList].map((keyword, i) => {
+        // const QueriedList = this.state.refinedResultsState ? "refinedResults" : "results";
+        return this.props.state.results.map((keyword, i) => {
             let displayKey = "";
             if ("keyword_name" in keyword) {
                 displayKey = "keyword_name";
@@ -172,6 +175,7 @@ class SearchComponent extends Component {
     }
 
     renderSuggestions() {
+        console.log('search state', this.props);
         // setState to save anything from this.props.displayList to this.state.refinedResults
         this.setState({
             "refinedResults": this.props.displayList,
@@ -202,8 +206,13 @@ class SearchComponent extends Component {
                     type="text"
                     ref={this.myRef}
                     placeholder="Search Term"
-                    value={this.state.inputValue}
-                    onChange={this.handleFuzzySearch.bind(this)} />
+                    value={this.props.state.inputValue}
+                    onChange={
+                        (e)=>{
+                            e.preventDefault();
+                            this.props.searchActions.fuzzySearch(e.target.value, this.props.displayList);
+                        }
+                    } />
                 <label htmlFor="keyword-search-switch">Keyword Search Only</label>
                 <input
                     type="checkbox"
@@ -211,7 +220,7 @@ class SearchComponent extends Component {
                     id="keyword-search-switch"
                     onChange={this.switchKeywordSearch.bind(this)} />
                 {/* only show suggestions while a search is active */}
-                {this.state.searching &&
+                {this.props.state.searchingState &&
                     <ul className="suggestions">
                         {this.renderListofSuggestions.bind(this)()}
                     </ul>}
@@ -227,6 +236,8 @@ SearchComponent.propTypes = {
     "searchOn": PropTypes.func.isRequired,
     "searchState": PropTypes.any,
     "searchWord": PropTypes.string.isRequired,
+    // must have tabViewerActions to open up a new book tab
+    "searchActions": PropTypes.object.isRequired,
 };
 
 // assign default if not already defined
@@ -234,4 +245,19 @@ SearchComponent.defaultProps = {
     "displayList": [],
 };
 
-export default SearchComponent;
+function mapStateToProps(state) {
+    return {
+        "state": state.search,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        "searchActions": bindActionCreators(searchActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(SearchComponent);

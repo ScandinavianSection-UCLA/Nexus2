@@ -4,3 +4,6 @@ export const CLOSE_TAB = "CLOSE_TAB";
 export const INITIALIZE_TABS = "INITIALIZE_TABS";
 export const MOVE_TAB = "MOVE_TAB";
 export const UPDATE_TAB = "UPDATE_TAB";
+export const FUZZY_SEARCH = "FUZZY_SEARCH";
+export const SEARCH_KEYWORD = "SEARCH_KEYWORRD";
+export const SEARCH_ARTIFACT = "SEARCH_ARTIFACT";
