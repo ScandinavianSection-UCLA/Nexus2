@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import {DisplayArtifactToDisplayKey, getKeywords} from "../../data-stores/DisplayArtifactModel";
 import {arrayTransformation} from "../../utils";
-import Fuse from "fuse.js";
 import "./search.css";
 import PropTypes from "prop-types";
 import {bindActionCreators} from "redux";
@@ -107,6 +106,7 @@ class SearchComponent extends Component {
     handleSearch(SearchTerm) {
         // search
         this.props.searchActions.searchArtifact(SearchTerm);
+        console.log("searched")
         // TODO: don't. get. lazy. just. do. it. aka. make a callback function to get navigation to work with updated state.
     }
 
@@ -164,8 +164,8 @@ class SearchComponent extends Component {
                     onChange={this.switchKeywordSearch.bind(this)} />
                 {/* only show suggestions while a search is active */}
                 {this.state.searching &&
-                    <ul className="suggestions">
-                        {/* for #146 ${this.props.searchingState ? "active" : "" } */}
+                    <ul className={`suggestions ${this.props.searchingState ? "active" : ""}`}>
+                        {/* for #146 } */}
                         {this.renderListofSuggestions.bind(this)()}
                     </ul>}
             </form>

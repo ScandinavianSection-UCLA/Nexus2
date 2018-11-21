@@ -32,7 +32,7 @@ export default function tabViewer(state = initialState.tabState, action) {
         // unhandled action type
         default:
             // warn that we hit a bad action
-            console.warn(`Invalid action: ${action.type}`);
+            console.trace(`Invalid action: ${action.type}`);
             // don't change anything
             return state;
     }

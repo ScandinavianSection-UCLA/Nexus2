@@ -9,7 +9,7 @@ import {
     ontologyToDisplayKey,
     ontologyToID,
     dateFilterHelper,
-    DisplayArtifactToDisplayKey, ArtifactoID
+    DisplayArtifactToDisplayKey, ArtifactoID,
 } from "../../data-stores/DisplayArtifactModel";
 import "./navigation.css";
 // the nexus graph
@@ -99,9 +99,9 @@ class Navigation extends Component {
         var displayKey = ontologyToDisplayKey[ontology];
         var idKey = ontologyToID[ontology];
         console.log(items, ontology);
-        if(displayKey !== undefined && idKey !== undefined){
-            if(this.props.searchState.results.length >= 1){
-                console.log('SEARCH STATE IS GOING THRUUU');
+        if (displayKey !== undefined && idKey !== undefined) {
+            if (this.props.searchState.results.length >= 1) {
+                console.log("SEARCH STATE IS GOING THRUUU");
                 this.setState(() => {
                     return {
                         "displayOntology": ontology,
