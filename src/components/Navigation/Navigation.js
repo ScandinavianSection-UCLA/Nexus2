@@ -19,6 +19,7 @@ import {addNode, initializeGraph, initializeNodeCategories} from "../NexusGraph/
 import PropTypes from "prop-types";
 import {bindActionCreators} from "redux";
 import * as tabViewerActions from "../../actions/tabViewerActions";
+import * as searchActions from "../../actions/searchActions";
 import connect from "react-redux/es/connect/connect";
 
 class Navigation extends Component {
@@ -96,8 +97,8 @@ class Navigation extends Component {
     }
 
     displayItems(items, ontology) {
-        var displayKey = ontologyToDisplayKey[ontology];
-        var idKey = ontologyToID[ontology];
+        let displayKey = ontologyToDisplayKey[ontology];
+        let idKey = ontologyToID[ontology];
         console.log(items, ontology);
         this.setState(() => {
             return {
@@ -111,37 +112,6 @@ class Navigation extends Component {
                 this.updateItems.bind(this)();
             }
         });
-        // if (displayKey !== undefined && idKey !== undefined) {
-        //     if (this.props.searchState.results.length >= 1) {
-        //         console.log("SEARCH STATE IS GOING THRUUU");
-        //         this.setState(() => {
-        //             return {
-        //                 "displayOntology": ontology,
-        //                 "itemsList": items,
-        //                 "displayItemsList": this.displayList(this.props.searchState.results, displayKey, idKey, ontology),
-        //                 "placeList": items,
-        //             };
-        //         }, () => {
-        //             if (this.state.timeFilterOn && typeof items !== "undefined") {
-        //                 this.updateItems.bind(this)();
-        //             }
-        //         });
-        //     } else {
-        //         this.setState(() => {
-        //             return {
-        //                 "displayOntology": ontology,
-        //                 "itemsList": items,
-        //                 "displayItemsList": this.displayList(items, displayKey, idKey, ontology),
-        //                 "placeList": items,
-        //             };
-        //         }, () => {
-        //             if (this.state.timeFilterOn && typeof items !== "undefined") {
-        //                 this.updateItems.bind(this)();
-        //             }
-        //         });
-        //     }
-        //
-        // }
     }
 
     updateItems() {
@@ -156,12 +126,10 @@ class Navigation extends Component {
             if (this.state.displayOntology !== "Fieldtrips") {
                 var idsWithinFieldtrips = [];
                 if (typeof itemsWithinFieldtrips !== "undefined") {
-
                     // create array of display artifact ids within time filter (this is to speed filtering process later)
                     itemsWithinFieldtrips.forEach((item) => {
                         idsWithinFieldtrips.push(item[idKey]);
                     });
-
                     // set items that are within timeline into the display list
                     this.state.itemsList.forEach((item) => {
                         // if something in the current items list is in the range of the date
@@ -169,10 +137,8 @@ class Navigation extends Component {
                             displayList.push(item);
                         }
                     });
-
                     // set display ontology to allow icons to show
                     let displayOntologyTimeline = this.state.displayOntology;
-
                     this.setState({
                         "displayItemsList": this.displayList(displayList, displayKey, idKey, displayOntologyTimeline),
                     });
@@ -254,12 +220,6 @@ class Navigation extends Component {
         }
     }
 
-    flipSearch(CurrentState) {
-        this.setState({
-            "searchOn": CurrentState,
-        });
-    }
-
     setDisplayLabel(label) {
         this.setState({
             "displayLabel": label,
@@ -307,13 +267,10 @@ class Navigation extends Component {
                     <div className="medium-3 cell dataNavigation">
                         <SearchComponent handleDisplayItems={this.displayItems.bind(this)}
                             displayList={this.state.itemsList}
-                            searchOn={this.flipSearch.bind(this)}
-                            searchState={this.state.searchOn}
                             searchWord={this.props.searchWord} />
                         <NavigatorComponent
                             handleDisplayItems={this.displayItems.bind(this)}
                             setDisplayLabel={this.setDisplayLabel.bind(this)}
-                            searchOn={this.flipSearch.bind(this)}
                             searchWord={this.props.searchWord} />
                     </div>
                     <div className="medium-5 cell AssociatedStoriesViewer">
@@ -371,7 +328,7 @@ class Navigation extends Component {
                             <div className="stories-container cell medium-10">
                                 <ul className="book medium-cell-block-y">
                                     <h6 className="label secondary">
-                                        <span className={`SearchTitle ${(this.state.searchOn || this.props.searchWord.length > 0) ? "active" : ""}`}>
+                                        <span className={`SearchTitle ${(this.props.searchState.searchingState || this.props.searchWord.length > 0) ? "active" : ""}`}>
                                             Searching: </span>
                                         <span className={`SearchTitle ${this.props.searchWord.length > 0 ? "active" : ""}`}>
                                             {`'${this.props.searchWord}' in `}</span>
@@ -389,9 +346,9 @@ class Navigation extends Component {
                                 className="medium-6 cell">
                                 {/* button that creates + opens the graph tab when clicked (Navigation.js:handleDisplayGraph())*/}
                                 <button
-                                    // cSS classes
+                                    // CSS classes
                                     className="button primary"
-                                    // cSS id
+                                    // CSS id
                                     id="expandGraphButton"
                                     // when clicked, open the graph in its own tab
                                     onClick={this.handleDisplayGraph}>
@@ -427,6 +384,7 @@ Navigation.propTypes = {
 function mapStateToProps(state) {
     return {
         "state": state.tabViewer,
+        "searchState": state.search,
     };
 }
 

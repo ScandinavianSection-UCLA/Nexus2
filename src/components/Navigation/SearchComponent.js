@@ -30,12 +30,14 @@ class SearchComponent extends Component {
             // don't render suggestions yet
             "suggestionJSX": "",
         };
+    }
+
+    componentDidMount() {
         // if we have a keyword to search for already
-        if (props.searchWord !== "") {
+        if (this.props.searchWord !== "") {
             // do the search
             this.handleSearch(this.props.searchWord);
         }
-        this.myRef = React.createRef();
     }
 
     handleSearch(selectedItem) {
@@ -85,7 +87,8 @@ class SearchComponent extends Component {
                 DisplayOntology = "Fieldtrips";
             }
             // end the search
-            this.props.searchOn(false);
+            this.props.searchActions.setSearch(false);
+            // this.props.searchOn(false);
             // only display the results from the search
             this.props.handleDisplayItems(SearchList, DisplayOntology);
             // update the state with the new input value, and stop searching
@@ -99,6 +102,7 @@ class SearchComponent extends Component {
     }
 
     handleFuzzySearch(event) {
+        this.props.searchActions.setSearch(true);
         this.props.searchOn(true);
         this.renderSuggestions();
         this.setState({
@@ -145,6 +149,7 @@ class SearchComponent extends Component {
         });
     }
 
+    // migrated!
     renderListofSuggestions() {
         // const QueriedList = this.state.refinedResultsState ? "refinedResults" : "results";
         return this.props.state.results.map((keyword, i) => {
@@ -164,8 +169,8 @@ class SearchComponent extends Component {
                 <li
                     key={i}
                     style={{"cursor": "pointer"}}
-                    onClick={(e) => {
-                        e.preventDefault();
+                    onClick={(event) => {
+                        event.preventDefault();
                         this.handleSearch.bind(this)(keyword);
                     }}>
                     {keyword[displayKey]}
@@ -175,7 +180,7 @@ class SearchComponent extends Component {
     }
 
     renderSuggestions() {
-        console.log('search state', this.props);
+        console.log("search state", this.props);
         // setState to save anything from this.props.displayList to this.state.refinedResults
         this.setState({
             "refinedResults": this.props.displayList,
@@ -200,19 +205,16 @@ class SearchComponent extends Component {
                 className="SearchComponent"
                 onSubmit={(e) => {
                     e.preventDefault();
-                    this.handleSearch.bind(this)(this.myRef.current.value);
+                    this.handleSearch(this.props.state.inputValue);
                 }}>
                 <input
                     type="text"
-                    ref={this.myRef}
                     placeholder="Search Term"
                     value={this.props.state.inputValue}
-                    onChange={
-                        (e)=>{
-                            e.preventDefault();
-                            this.props.searchActions.fuzzySearch(e.target.value, this.props.displayList);
-                        }
-                    } />
+                    onChange={(event) => {
+                        event.preventDefault();
+                        this.props.searchActions.fuzzySearch(event.target.value, this.props.displayList);
+                    }} />
                 <label htmlFor="keyword-search-switch">Keyword Search Only</label>
                 <input
                     type="checkbox"
@@ -233,8 +235,6 @@ class SearchComponent extends Component {
 SearchComponent.propTypes = {
     "displayList": PropTypes.array.isRequired,
     "handleDisplayItems": PropTypes.func.isRequired,
-    "searchOn": PropTypes.func.isRequired,
-    "searchState": PropTypes.any,
     "searchWord": PropTypes.string.isRequired,
     // must have tabViewerActions to open up a new book tab
     "searchActions": PropTypes.object.isRequired,

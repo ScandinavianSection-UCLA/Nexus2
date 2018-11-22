@@ -23,6 +23,8 @@ export default function search(state = initialState.search, action) {
             return searchKeyword(state, action.payload);
         case actions.SEARCH_ARTIFACT:
             return searchArtifact(state, action.payload);
+        case actions.SET_SEARCH_STATE:
+            return setSearchState(state, action.payload);
         default:
             // warn that we hit a bad action
             console.warn(`Invalid action: ${action.type}`);
@@ -32,13 +34,25 @@ export default function search(state = initialState.search, action) {
 }
 
 /**
+ * black magic
+ * @param {*} ShallowPrevState
+ * @param {*} newState
+ */
+function setSearchState(ShallowPrevState, newState) {
+    return {
+        ...ShallowPrevState,
+        "searchingState": newState,
+    };
+}
+
+/**
  *
  * @param {*} ShallowPrevState
  * @param {*} param1
  */
 function handleFuzzySearch(ShallowPrevState, {SearchInput, DisplayList}) {
     let NewState = {...ShallowPrevState};
-    console.log('hi from fuzzy search. display list', DisplayList);
+    console.log("hi from fuzzy search. display list", DisplayList);
     // define SearchableData = Is there anything in DisplayList? If yes, search within DisplayList, If no, search within Keywords
     let SearchableData = DisplayList.length > 0 ? DisplayList : keywords;
     // initialize new fuse object (fuzzy search dependency)
@@ -152,7 +166,7 @@ function searchArtifact(ShallowPrevState, DisplayArtifact) {
     return NewState;
 }
 
-// tODO: implement searchKeyword function...maybe if the searchDisplayArtifact function works out, I won't need to do this :D
+// TODO: implement searchKeyword function...maybe if the searchDisplayArtifact function works out, I won't need to do this :D
 function searchKeyword(ShallowPrevState, Keyword) {
     let NewState = {...ShallowPrevState};
 }

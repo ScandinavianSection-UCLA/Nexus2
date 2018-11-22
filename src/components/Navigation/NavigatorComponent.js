@@ -5,6 +5,9 @@ import {arrayTransformation} from "../../utils";
 import {getList, ontologyToDisplayKey, tangoTypes} from "../../data-stores/DisplayArtifactModel";
 import PropTypes from "prop-types";
 import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
+import * as searchActions from "../../actions/searchActions";
+import {bindActionCreators} from "redux";
+import connect from "react-redux/es/connect/connect";
 
 class Navigation extends Component {
     constructor(props) {
@@ -41,7 +44,6 @@ class Navigation extends Component {
                 };
             }
             if (!this.state.dataNav.includes(prevSelection.data)) {
-
                 this.state.path = ["Topic & Index Navigator"];
             }
         }
@@ -59,7 +61,8 @@ class Navigation extends Component {
 
     handleTabClick(nav) {
         // reset search
-        this.props.searchOn(false);
+        this.props.searchActions.setSearch(true);
+        // this.props.searchOn(false);
         // resets displayed results
         this.props.handleDisplayItems([], "");
         if (nav.name === "Data Navigator") {
@@ -95,7 +98,8 @@ class Navigation extends Component {
     // level 2 = indices, people, places, stories
     handleLevelTwoClick(ontology) {
         // reset search
-        this.props.searchOn(false);
+        // this.props.searchOn(false);
+        this.props.searchActions.setSearch(false)
         // save selected ontology to session storage so the selection will remain if the user switches tabs
         setSessionStorage("SelectedNavOntology", {
             "data": ontology,
@@ -207,8 +211,8 @@ class Navigation extends Component {
 
     selectMenu(selectedItem, isTango) {
         // reset search
-        this.props.searchOn(false);
-
+        // this.props.searchOn(false);
+        this.props.searchActions.setSearch(false)
         // for non-Tango Index dropdowns
         if (!isTango) {
             // make sure that we didn't re-select the [Select a ___] option from the dropdown
@@ -347,11 +351,25 @@ class Navigation extends Component {
     }
 }
 
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        "searchActions": bindActionCreators(searchActions, dispatch),
+    };
+}
+
 Navigation.propTypes = {
     "handleDisplayItems": PropTypes.func.isRequired,
-    "searchOn": PropTypes.func.isRequired,
     "searchWord": PropTypes.string.isRequired,
     "setDisplayLabel": PropTypes.func.isRequired,
 };
 
-export default Navigation;
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Navigation);

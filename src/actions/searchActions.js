@@ -33,3 +33,14 @@ export function searchKeyword(Keyword) {
         "payload": Keyword,
     };
 }
+
+/**
+ * set that state lol
+ * @param {Boolean} newState new state plz k thx bye
+ */
+export function setSearch(newState) {
+    return {
+        "type": types.SET_SEARCH_STATE,
+        "payload": newState,
+    };
+}
