@@ -172,14 +172,14 @@ export const ontologyToDisplayKey = {
     "People": "full_name",
     "Places": "name",
     "Stories": "full_name",
-    'Keyword': 'keyword_name',
+    "Keyword": "keyword_name",
 };
 
 // given an object, return the appropriate display attribute
 /**
  * @return {string}
  */
-export function DisplayArtifactToDisplayKey(DisplayArtifact){
+export function DisplayArtifactToDisplayKey(DisplayArtifact) {
     if ("keyword_name" in DisplayArtifact) {
         return "keyword_name";
     } else if ("search_string" in DisplayArtifact) {
@@ -196,7 +196,7 @@ export function DisplayArtifactToDisplayKey(DisplayArtifact){
 /**
  * @return {string}
  */
-export function DisplayArtifactToOntology(DisplayArtifact){
+export function DisplayArtifactToOntology(DisplayArtifact) {
     if ("keyword_name" in DisplayArtifact) {
         return "Keyword";
     } else if ("search_string" in DisplayArtifact) {
@@ -222,8 +222,8 @@ export const ontologyToID = {
 /**
  * @return {string}
  */
-export function ArtifactoID(DisplayArtifact){
-    if(typeof DisplayArtifact === 'string'){
+export function ArtifactoID(DisplayArtifact) {
+    if (typeof DisplayArtifact === "string") {
         if ("story_id" in DisplayArtifact) {
             return "story_id";
         } else if ("place_id" in DisplayArtifact) {
@@ -232,7 +232,7 @@ export function ArtifactoID(DisplayArtifact){
             return "people_id";
         }
     }
-    return 'you screwed up. this doesnt have an id';
+    return "you screwed up. this doesnt have an id";
 }
 
 // data for the tangherlini index part of topic & index navigator

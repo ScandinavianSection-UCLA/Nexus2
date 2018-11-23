@@ -34,9 +34,10 @@ export default function search(state = initialState.search, action) {
 }
 
 /**
- * black magic
- * @param {*} ShallowPrevState
- * @param {*} newState
+ * Set the state of searching
+ * @param {Object} ShallowPrevState The pre-update search state
+ * @param {Boolean} newState Whether or not to be in a state of searching
+ * @returns {Object} The updated search state
  */
 function setSearchState(ShallowPrevState, newState) {
     return {

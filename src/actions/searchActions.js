@@ -35,8 +35,8 @@ export function searchKeyword(Keyword) {
 }
 
 /**
- * set that state lol
- * @param {Boolean} newState new state plz k thx bye
+ * Set the state of searching
+ * @param {Boolean} newState Whether or not to be in a state of searching
  */
 export function setSearch(newState) {
     return {

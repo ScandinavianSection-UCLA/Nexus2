@@ -9,7 +9,6 @@ import {
     ontologyToDisplayKey,
     ontologyToID,
     dateFilterHelper,
-    DisplayArtifactToDisplayKey, ArtifactoID,
 } from "../../data-stores/DisplayArtifactModel";
 import "./navigation.css";
 // the nexus graph
@@ -23,8 +22,8 @@ import * as searchActions from "../../actions/searchActions";
 import connect from "react-redux/es/connect/connect";
 
 class Navigation extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         // set the initial state of the home view
         this.state = {
             "path": [],
@@ -55,7 +54,6 @@ class Navigation extends Component {
             "placeList": [],
             "fieldtrips": [],
             "nodes": [],
-            "searchOn": false,
             "displayLabel": "",
         };
         this.displayItems = this.displayItems.bind(this);
@@ -63,22 +61,53 @@ class Navigation extends Component {
         this.handleDisplayGraph = this.handleDisplayGraph.bind(this);
     }
 
-    displayList(list, displayKey, idKey, ontology) {
-        console.log(list, displayKey, idKey, ontology);
-        return list.map((item, i) => {
-            return <li key={i} className={ontology}
-                onClick={(e) => {
-                    e.preventDefault();
-                    this.handleIDQuery(item[idKey], item[displayKey], ontology, item);
-                }}>
-                <span>
-                    <img className={`convo-icon ${ontology}`} src={require("./icons8-chat-filled-32.png")} alt="story" />
-                    <img className={`person-icon ${ontology}`} src={require("./icons8-contacts-32.png")} alt="person" />
-                    <img className={`location-icon ${ontology}`} src={require("./icons8-marker-32.png")} alt="location" />
-                    <img className={`fieldtrip-icon ${ontology}`} src={require("./icons8-waypoint-map-32.png")} alt="fieldtrip" />
-                </span> {item[displayKey]}
-            </li>;
-        });
+    /**
+     * Display a list of items
+     * @param {Array} list Items to display
+     * @param {String} ontology Ontology of the items to display
+     * @returns {Array} Array of formatted JSX elements
+     */
+    displayList(list, ontology) {
+        // variable to store which icon will be shown next to the names of the items
+        const displayKey = ontologyToDisplayKey[ontology];
+        const idKey = ontologyToID[ontology];
+        let image = null;
+        switch (ontology) {
+            case "Stories":
+                // for stories, get the chat bubble icon
+                image = <img className={"convo-icon"} src={require("./icons8-chat-filled-32.png")} alt="story" />;
+                break;
+            case "People":
+                // for people, get the generic portrait icon
+                image = <img className={"person-icon"} src={require("./icons8-contacts-32.png")} alt="person" />;
+                break;
+            case "Places":
+                // for places, get the pin marker icon
+                image = <img className={"location-icon"} src={require("./icons8-marker-32.png")} alt="location" />;
+                break;
+            case "Fieldtrips":
+                // for fieldtrips, get the map with an x icon
+                image = <img className={"fieldtrip-icon"} src={require("./icons8-waypoint-map-32.png")} alt="fieldtrip" />;
+                break;
+            default:
+                // bad ontology, warn this
+                console.warn(`Unhandled ontology type: ${ontology}`);
+                break;
+        }
+        // return a list of the elements
+        return list.map((item, i) => (
+            // each is a list item in the unordered list
+            <li
+                // key for React
+                key={i}
+                // on click, do all the processing necessary when loading this item
+                onClick={this.handleIDQuery.bind(this, item[idKey], item[displayKey], ontology, item)}>
+                {/* put our desired image on the left of the item */}
+                {image}
+                {/* put the item's name right after that */}
+                {item[displayKey]}
+            </li>
+        ));
     }
 
     handleIDQuery(id, name, type, item) {
@@ -97,34 +126,28 @@ class Navigation extends Component {
     }
 
     displayItems(items, ontology) {
-        let displayKey = ontologyToDisplayKey[ontology];
-        let idKey = ontologyToID[ontology];
-        console.log(items, ontology);
-        this.setState(() => {
-            return {
-                "displayOntology": ontology,
-                "itemsList": items,
-                "displayItemsList": this.displayList(items, displayKey, idKey, ontology),
-                "placeList": items,
-            };
-        }, () => {
+        this.setState({
+            "displayOntology": ontology,
+            "itemsList": items,
+            "displayItemsList": this.displayList(items, ontology),
+            "placeList": items,
+        }, function() {
             if (this.state.timeFilterOn && typeof items !== "undefined") {
-                this.updateItems.bind(this)();
+                this.updateItems();
             }
         });
     }
 
     updateItems() {
-        var displayKey = ontologyToDisplayKey[this.state.displayOntology];
-        var idKey = ontologyToID[this.state.displayOntology];
+        let idKey = ontologyToID[this.state.displayOntology];
         if (this.state.timeFilterOn) {
             // filter by time to get array with display artifacts that fit the time filter
-            var itemsWithinFieldtrips = dateFilterHelper(this.refs.fromDate.value, this.refs.toDate.value, this.state.displayOntology);
+            const itemsWithinFieldtrips = dateFilterHelper(this.refs.fromDate.value, this.refs.toDate.value, this.state.displayOntology);
             // if an item is in the itemsWithinFieldtrips, change what is displayed, NOT items list
-            var displayList = [];
+            let displayList = [];
             // if it isn't a fieldtrip
             if (this.state.displayOntology !== "Fieldtrips") {
-                var idsWithinFieldtrips = [];
+                let idsWithinFieldtrips = [];
                 if (typeof itemsWithinFieldtrips !== "undefined") {
                     // create array of display artifact ids within time filter (this is to speed filtering process later)
                     itemsWithinFieldtrips.forEach((item) => {
@@ -140,19 +163,19 @@ class Navigation extends Component {
                     // set display ontology to allow icons to show
                     let displayOntologyTimeline = this.state.displayOntology;
                     this.setState({
-                        "displayItemsList": this.displayList(displayList, displayKey, idKey, displayOntologyTimeline),
+                        "displayItemsList": this.displayList(displayList, displayOntologyTimeline),
                     });
                 }
             } else { // else it is a fieldtrip
                 this.setState({
-                    "displayItemsList": this.displayList(itemsWithinFieldtrips, displayKey, idKey, "Fieldtrips"),
+                    "displayItemsList": this.displayList(itemsWithinFieldtrips, "Fieldtrips"),
                 });
             }
         } else if (!this.state.timeFilterOn) {
             // set display ontology to define which icon to show
             let displayOntologyTimeline = this.state.displayOntology;
             this.setState({
-                "displayItemsList": this.displayList(this.state.itemsList, displayKey, idKey, displayOntologyTimeline),
+                "displayItemsList": this.displayList(this.state.itemsList, displayOntologyTimeline),
             });
         }
 
@@ -190,13 +213,13 @@ class Navigation extends Component {
         // display slider
         if (year === "ToYear") {
             // set this.state.toSelect = true
-            this.setState(() => {
-                return {"toSelect": true};
+            this.setState({
+                "toSelect": true,
             });
         } else {
             // set this.state.fromSelect = true
-            this.setState(() => {
-                return {"fromSelect": true};
+            this.setState({
+                "fromSelect": true,
             });
         }
     }
@@ -205,15 +228,15 @@ class Navigation extends Component {
         // display slider
         if (year === "toDate") {
             // set this.state.toSelect = true
-            this.setState(() => {
-                return {"toSelect": false};
+            this.setState({
+                "toSelect": false,
             }, () => {
                 this.timeFilterHandler.bind(this);
             });
         } else {
             // set this.state.fromSelect = true
-            this.setState(() => {
-                return {"fromSelect": false};
+            this.setState({
+                "fromSelect": false,
             }, () => {
                 this.timeFilterHandler.bind(this);
             });
@@ -327,11 +350,12 @@ class Navigation extends Component {
                             </div>
                             <div className="stories-container cell medium-10">
                                 <ul className="book medium-cell-block-y">
+                                    {/* little banner at the top of the list of items */}
                                     <h6 className="label secondary">
-                                        <span className={`SearchTitle ${(this.props.searchState.searchingState || this.props.searchWord.length > 0) ? "active" : ""}`}>
-                                            Searching: </span>
-                                        <span className={`SearchTitle ${this.props.searchWord.length > 0 ? "active" : ""}`}>
-                                            {`'${this.props.searchWord}' in `}</span>
+                                        {/* if searching, tell the viewer that a search is in progress */}
+                                        {this.props.searchState.searchingState === true &&
+                                            <span className="SearchTitle">Searching: </span>}
+                                        {/* display the label indicating the currently viewed path */}
                                         {this.state.displayLabel}
                                     </h6>
                                     {/* display the elements we assigned at the beginning of this function */}
@@ -344,11 +368,11 @@ class Navigation extends Component {
                         <div className="grid-y" style={{"height": "100%"}}>
                             <div
                                 className="medium-6 cell">
-                                {/* button that creates + opens the graph tab when clicked (Navigation.js:handleDisplayGraph())*/}
+                                {/* button that creates + opens the graph tab when clicked */}
                                 <button
-                                    // CSS classes
+                                    // cSS classes
                                     className="button primary"
-                                    // CSS id
+                                    // cSS id
                                     id="expandGraphButton"
                                     // when clicked, open the graph in its own tab
                                     onClick={this.handleDisplayGraph}>
@@ -379,11 +403,11 @@ class Navigation extends Component {
 
 Navigation.propTypes = {
     "tabViewerActions": PropTypes.object.isRequired,
+    "searchState": PropTypes.object.isRequired,
 };
 
 function mapStateToProps(state) {
     return {
-        "state": state.tabViewer,
         "searchState": state.search,
     };
 }

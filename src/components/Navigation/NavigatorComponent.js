@@ -61,8 +61,7 @@ class Navigation extends Component {
 
     handleTabClick(nav) {
         // reset search
-        this.props.searchActions.setSearch(true);
-        // this.props.searchOn(false);
+        this.props.searchActions.setSearch(false);
         // resets displayed results
         this.props.handleDisplayItems([], "");
         if (nav.name === "Data Navigator") {
@@ -98,8 +97,7 @@ class Navigation extends Component {
     // level 2 = indices, people, places, stories
     handleLevelTwoClick(ontology) {
         // reset search
-        // this.props.searchOn(false);
-        this.props.searchActions.setSearch(false)
+        this.props.searchActions.setSearch(false);
         // save selected ontology to session storage so the selection will remain if the user switches tabs
         setSessionStorage("SelectedNavOntology", {
             "data": ontology,
@@ -211,8 +209,7 @@ class Navigation extends Component {
 
     selectMenu(selectedItem, isTango) {
         // reset search
-        // this.props.searchOn(false);
-        this.props.searchActions.setSearch(false)
+        this.props.searchActions.setSearch(false);
         // for non-Tango Index dropdowns
         if (!isTango) {
             // make sure that we didn't re-select the [Select a ___] option from the dropdown
@@ -367,6 +364,7 @@ Navigation.propTypes = {
     "handleDisplayItems": PropTypes.func.isRequired,
     "searchWord": PropTypes.string.isRequired,
     "setDisplayLabel": PropTypes.func.isRequired,
+    "searchActions": PropTypes.object.isRequired,
 };
 
 export default connect(
