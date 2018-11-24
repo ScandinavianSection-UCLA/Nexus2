@@ -26,16 +26,6 @@ class Navigation extends Component {
         super(props);
         // set the initial state of the home view
         this.state = {
-            "path": [],
-            // lists visible on view
-            "lists": [
-                {
-                    "name": "MAIN",
-                    "childArray": ["Data Navigator", "Topic & Index Navigator", "[Select]"],
-                    "children": [this["Data Navigator"], this["Topic & Index Navigator"]],
-                    "level": 0,
-                },
-            ],
             // array of jsx items that will be rendered on view
             "displayItemsList": [],
             // array of display artifact objects (JSON)
@@ -49,11 +39,7 @@ class Navigation extends Component {
             "timeFilterOn": false,
             // defines which icon to display
             "displayOntology": "",
-            "lastIDKey": "",
-            "lastDisplayKey": "",
             "placeList": [],
-            "fieldtrips": [],
-            "nodes": [],
             "displayLabel": "",
         };
         this.displayItems = this.displayItems.bind(this);
@@ -392,7 +378,7 @@ class Navigation extends Component {
                                         "width": (window.innerWidth) * 0.8 * .389,
                                     }} />
                             </div>
-                            <MapView className="medium-6 cell" ref="map" places={this.state.placeList} fieldtrips={this.state.fieldtrips} />
+                            <MapView className="medium-6 cell" ref="map" places={this.state.placeList} />
                         </div>
                     </div>
                 </div>

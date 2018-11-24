@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {getKeywords} from "../../data-stores/DisplayArtifactModel";
+import {getKeywords, DisplayArtifactToDisplayKey} from "../../data-stores/DisplayArtifactModel";
 import {arrayTransformation} from "../../utils";
 import Fuse from "fuse.js";
 import "./search.css";
@@ -151,32 +151,17 @@ class SearchComponent extends Component {
 
     // migrated!
     renderListofSuggestions() {
-        // const QueriedList = this.state.refinedResultsState ? "refinedResults" : "results";
-        return this.props.state.results.map((keyword, i) => {
-            let displayKey = "";
-            if ("keyword_name" in keyword) {
-                displayKey = "keyword_name";
-            } else if ("search_string" in keyword) {
-                displayKey = "search_string";
-            } else if ("full_name" in keyword) {
-                displayKey = "full_name";
-            } else if ("name" in keyword) {
-                displayKey = "name";
-            } else if ("fieldtrip_name" in keyword) {
-                displayKey = "fieldtrip_name";
-            }
-            return (
-                <li
-                    key={i}
-                    style={{"cursor": "pointer"}}
-                    onClick={(event) => {
-                        event.preventDefault();
-                        this.handleSearch.bind(this)(keyword);
-                    }}>
-                    {keyword[displayKey]}
-                </li>
-            );
-        });
+        return this.props.state.results.map((keyword, i) => (
+            <li
+                key={i}
+                style={{"cursor": "pointer"}}
+                onClick={(event) => {
+                    event.preventDefault();
+                    this.handleSearch.bind(this)(keyword);
+                }}>
+                {keyword[DisplayArtifactToDisplayKey(keyword)]}
+            </li>
+        ));
     }
 
     renderSuggestions() {
