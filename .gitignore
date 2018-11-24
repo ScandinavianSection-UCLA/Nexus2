@@ -12,7 +12,7 @@ node_modules/babel-preset-env/package.json
 
 # misc
 /.vscode
-.eslintrc.js
+.eslintrc.json
 .idea
 .DS_Store
 .env.local
