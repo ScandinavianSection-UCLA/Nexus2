@@ -128,7 +128,7 @@ class Navigation extends Component {
         let idKey = ontologyToID[this.state.displayOntology];
         if (this.state.timeFilterOn) {
             // filter by time to get array with display artifacts that fit the time filter
-            const itemsWithinFieldtrips = dateFilterHelper(this.refs.fromDate.value, this.refs.toDate.value, this.state.displayOntology);
+            let itemsWithinFieldtrips = dateFilterHelper(this.state.fromDate, this.state.toDate, this.state.displayOntology);
             // if an item is in the itemsWithinFieldtrips, change what is displayed, NOT items list
             let displayList = [];
             // if it isn't a fieldtrip
@@ -168,65 +168,50 @@ class Navigation extends Component {
     }
 
     // sets time filters
-    timeFilterHandler() {
-        let fromDateForm = parseInt(this.refs.fromDate.value, 10);
-        let toDateForm = parseInt(this.refs.toDate.value, 10);
-        // check if the dates are valid dates (4 digits, between 1887 and 1899)
-        if (fromDateForm >= 1887 && toDateForm <= 1899) {
-            // check if time filter was switched
-            if (this.refs.TimeFilterOn.checked !== this.state.timeFilterOn) {
-                // if they are, then set this.state variables
+    timeFilterHandler(filter, event) {
+        switch (filter) {
+            case "fromDate":
                 this.setState({
-                    "timeFilterOn": !this.state.timeFilterOn,
-                    "fromDate": fromDateForm,
-                    "toDate": toDateForm,
-                }, () => {
-                    this.updateItems.bind(this)();
+                    "fromDate": event.target.value,
+                }, function() {
+                    // check if the dates are valid dates (4 digits, between 1887 and 1899)
+                    if (this.state.fromDate >= 1887) {
+                        this.updateItems();
+                    }
                 });
-            } else {
-                // just change from/to dates
+                break;
+            case "toDate":
                 this.setState({
-                    "fromDate": fromDateForm,
-                    "toDate": toDateForm,
-                }, () => {
-                    this.updateItems.bind(this)();
+                    "toDate": event.target.value,
+                }, function() {
+                    // check if the dates are valid dates (4 digits, between 1887 and 1899)
+                    if (this.state.toDate <= 1899) {
+                        this.updateItems();
+                    }
                 });
-            }
+                break;
+            case "timelineFilter":
+                this.setState({
+                    "timeFilterOn": event.target.checked,
+                }, function() {
+                    this.updateItems();
+                });
+                break;
+            default:
+                console.warn(`Invalid filter: ${filter}`);
         }
     }
 
     timeInputClickHandler(year) {
-        // display slider
-        if (year === "ToYear") {
-            // set this.state.toSelect = true
-            this.setState({
-                "toSelect": true,
-            });
-        } else {
-            // set this.state.fromSelect = true
-            this.setState({
-                "fromSelect": true,
-            });
-        }
+        this.setState({
+            [year === "ToYear" ? "toSelect" : "fromSelect"]: true,
+        });
     }
 
     timeInputEnd(year) {
-        // display slider
-        if (year === "toDate") {
-            // set this.state.toSelect = true
-            this.setState({
-                "toSelect": false,
-            }, () => {
-                this.timeFilterHandler.bind(this);
-            });
-        } else {
-            // set this.state.fromSelect = true
-            this.setState({
-                "fromSelect": false,
-            }, () => {
-                this.timeFilterHandler.bind(this);
-            });
-        }
+        this.setState({
+            [year === "toDate" ? "toSelect" : "fromSelect"]: false,
+        });
     }
 
     setDisplayLabel(label) {
@@ -289,7 +274,7 @@ class Navigation extends Component {
                                     <div className="medium-2 medium-offset-1 cell">
                                         <div className="switch">
                                             <input className="switch-input" id="exampleSwitch" type="checkbox" checked={this.state.timeFilterOn}
-                                                name="exampleSwitch" onChange={this.timeFilterHandler.bind(this)} ref="TimeFilterOn" />
+                                                name="exampleSwitch" onChange={this.timeFilterHandler.bind(this, "timelineFilter")} />
                                             <label className="switch-paddle" htmlFor="exampleSwitch"><br />
                                                 <span style={{"fontSize": ".8em", "color": "black", "width": "150%"}}>Timeline</span>
                                                 <span className="show-for-sr">Enable Timeline</span>
@@ -298,38 +283,56 @@ class Navigation extends Component {
                                     </div>
                                     <div className="medium-2 cell text"><b>From</b></div>
                                     <div className="medium-2 cell">
-                                        <input className="year" type="text" name="FromYear" ref="fromDate"
+                                        <input
+                                            className="year"
+                                            type="number"
+                                            name="FromYear"
+                                            min={1887}
+                                            max={this.state.toDate}
                                             value={this.state.fromDate}
-                                            onChange={this.timeFilterHandler.bind(this)} onClick={(e) => {
+                                            onChange={this.timeFilterHandler.bind(this, "fromDate")}
+                                            onClick={(e) => {
                                                 e.preventDefault();
                                                 this.timeInputClickHandler.bind(this)("FromYear");
                                             }} />
-                                        <input className={`slider ${this.state.fromSelect ? "active" : ""}`}
-                                            type="range" min="1887" max={this.state.toDate} value={this.state.fromDate}
-                                            onChange={this.timeFilterHandler.bind(this)}
+                                        <input
+                                            className={`slider ${this.state.fromSelect ? "active" : ""}`}
+                                            type="range"
+                                            min="1887"
+                                            max={this.state.toDate}
+                                            value={this.state.fromDate}
+                                            onChange={this.timeFilterHandler.bind(this, "fromDate")}
                                             onMouseUp={(e) => {
                                                 e.preventDefault();
                                                 this.timeInputEnd.bind(this)("fromDate");
                                             }}
-                                            ref="fromDate"
                                             id="myRange" />
                                     </div>
                                     <div className="medium-1 cell text"><b>To</b></div>
                                     <div className="medium-2 cell">
-                                        <input className="year" type="text" name="ToYear" ref="toDate"
+                                        <input
+                                            className="year"
+                                            type="number"
+                                            name="ToYear"
+                                            min={this.state.fromDate}
+                                            max={1899}
                                             value={this.state.toDate}
-                                            onChange={this.timeFilterHandler.bind(this)} onClick={(e) => {
+                                            onChange={this.timeFilterHandler.bind(this, "toDate")}
+                                            onClick={(e) => {
                                                 e.preventDefault();
                                                 this.timeInputClickHandler.bind(this)("ToYear");
                                             }} />
-                                        <input className={`slider ${this.state.toSelect ? "active" : ""}`}
-                                            type="range" min={this.state.fromDate} max="1899" value={this.state.toDate}
-                                            onChange={this.timeFilterHandler.bind(this)}
+                                        <input
+                                            className={`slider ${this.state.toSelect ? "active" : ""}`}
+                                            type="range"
+                                            min={this.state.fromDate}
+                                            max="1899"
+                                            value={this.state.toDate}
+                                            onChange={this.timeFilterHandler.bind(this, "toDate")}
                                             onMouseUp={(e) => {
                                                 e.preventDefault();
                                                 this.timeInputEnd.bind(this)("toDate");
                                             }}
-                                            ref="toDate"
                                             id="myRange" />
                                     </div>
                                 </form>
