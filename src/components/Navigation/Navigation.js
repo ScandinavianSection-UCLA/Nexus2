@@ -1,23 +1,24 @@
-// react functionality
-import React from "react";
 // CSS styling
 import "./navigation.css";
+// data helpers
+import {
+    DisplayArtifactToOntology,
+    ontologyToDisplayKey,
+    ontologyToID,
+} from "../../data-stores/DisplayArtifactModel";
 // functions to get nodes + links
 import {
     addNode,
     initializeGraph,
     initializeNodeCategories,
 } from "../NexusGraph/NexusGraphModel";
-// data helpers
-import {
-    ontologyToDisplayKey,
-    ontologyToID,
-} from "../../data-stores/DisplayArtifactModel";
 // subcomponents of the navigator
 import MapView from "../MapView/MapView";
 import NavigatorComponent from "./NavigatorComponent";
 import NexusGraph from "../NexusGraph/NexusGraph";
 import SearchComponent from "./SearchComponent";
+// react functionality
+import React from "react";
 // prop validation
 import PropTypes from "prop-types";
 // redux imports
@@ -38,6 +39,9 @@ class Navigation extends React.Component {
         };
         // ref to the map for updating
         this.map = React.createRef();
+        // bind functions so that they can be used as callbacks
+        this.timeInputClickHandler = this.timeInputClickHandler.bind(this);
+        this.timeInputEnd = this.timeInputEnd.bind(this);
     }
 
     /**
@@ -46,64 +50,65 @@ class Navigation extends React.Component {
      * @returns {Array} Array of formatted JSX elements
      */
     displayList(list) {
-        // ontology of the items currently displayed
-        const {displayOntology} = this.props.navigatorState,
-            // key to extract name from display artifacts
-            displayKey = ontologyToDisplayKey[displayOntology],
-            // key to extract ID from display artifacts
-            idKey = ontologyToID[displayOntology];
-        // image shown next to the name of the display artifact
-        let image = null;
-        switch (displayOntology) {
-            case "Stories":
-                // for stories, get the chat bubble icon
-                image = (<img
-                    className="convo-icon"
-                    src={require("./icons8-chat-filled-32.png")}
-                    alt="story" />);
-                break;
-            case "People":
-                // for people, get the generic portrait icon
-                image = (<img
-                    className="person-icon"
-                    src={require("./icons8-contacts-32.png")}
-                    alt="person" />);
-                break;
-            case "Places":
-                // for places, get the pin marker icon
-                image = (<img
-                    className="location-icon"
-                    src={require("./icons8-marker-32.png")}
-                    alt="location" />);
-                break;
-            case "Fieldtrips":
-                // for fieldtrips, get the map with an x icon
-                image = <img
-                    className="fieldtrip-icon"
-                    src={require("./icons8-waypoint-map-32.png")}
-                    alt="fieldtrip" />;
-                break;
-            default:
-                // bad ontology, warn this
-                console.warn(`Unhandled ontology type: ${displayOntology}`);
-                break;
-        }
         // return a list of the elements
-        return list.map((item, i) => (
-            // each is a list item in the unordered list
-            <li
+        return list.map((item) => {
+            // ontology of the current item
+            const displayOntology = DisplayArtifactToOntology(item),
+                // display name of the artifact
+                displayName = item[ontologyToDisplayKey[displayOntology]],
+                // id of the artifact
+                id = item[ontologyToID[displayOntology]];
+            // image shown next to the name of the display artifact
+            let image = null;
+            switch (displayOntology) {
+                case "Stories":
+                    // for stories, get the chat bubble icon
+                    image = (<img
+                        className="convo-icon"
+                        src={require("./icons8-chat-filled-32.png")}
+                        alt="story" />);
+                    break;
+                case "People":
+                    // for people, get the generic portrait icon
+                    image = (<img
+                        className="person-icon"
+                        src={require("./icons8-contacts-32.png")}
+                        alt="person" />);
+                    break;
+                case "Places":
+                    // for places, get the pin marker icon
+                    image = (<img
+                        className="location-icon"
+                        src={require("./icons8-marker-32.png")}
+                        alt="location" />);
+                    break;
+                case "Fieldtrips":
+                    // for fieldtrips, get the map with an x icon
+                    image = <img
+                        className="fieldtrip-icon"
+                        src={require("./icons8-waypoint-map-32.png")}
+                        alt="fieldtrip" />;
+                    break;
+                default:
+                    // bad ontology, warn this
+                    console.warn(`Unhandled ontology type: ${displayOntology}`);
+                    // don't render an element for it
+                    return null;
+            }
+            // return a list element
+            return (<li
                 // key for React
-                key={i}
+                key={displayOntology + id}
                 // on click, do all the processing necessary when loading this item
                 onClick={() => {
-                    this.handleIDQuery(item[idKey], item[displayKey], displayOntology, item);
+                    this.handleIDQuery(id, displayName, displayOntology, item);
                 }}>
                 {/* put our desired image on the left of the item */}
                 {image}
                 {/* put the item's name right after that */}
-                {item[displayKey]}
-            </li>
-        ));
+                {displayName}
+            </li>);
+        });
     }
 
     /**
@@ -124,21 +129,21 @@ class Navigation extends React.Component {
 
     /**
      * Enable a specified input
-     * @param {String} year Label of the input
+     * @param {Event} event Event containing the toggled input's name
      */
-    timeInputClickHandler(year) {
+    timeInputClickHandler({"target": {name}}) {
         this.setState({
-            [year === "ToYear" ? "toSelect" : "fromSelect"]: true,
+            [name === "toYear" ? "toSelect" : "fromSelect"]: true,
         });
     }
 
     /**
      * Disable a specified input
-     * @param {String} year Label of the input
+     * @param {Event} event Event containing the toggled input's name
      */
-    timeInputEnd(year) {
+    timeInputEnd({"target": {name}}) {
         this.setState({
-            [year === "toDate" ? "toSelect" : "fromSelect"]: false,
+            [name === "toYear" ? "toSelect" : "fromSelect"]: false,
         });
     }
 
@@ -153,10 +158,13 @@ class Navigation extends React.Component {
     }
 
     render() {
-        // get relevant state data from redux
-        const {fromDate, timeFilterOn, toDate} = this.props.navigatorState,
-            // get necessary actions from redux
-            {addTab, timeFilterHandler} = this.props.actions;
+        // get relevant stuff from redux + props
+        const {
+            "actions": {addTab, timeFilterHandler},
+            "navigatorState": {displayList, fromDate, placeList, timeFilterOn, toDate},
+            "searchState": {searchingState},
+            searchWord,
+        } = this.props;
         // variable to store the main, center display
         let toDisplay;
         // based on what is currently being viewd
@@ -185,16 +193,16 @@ class Navigation extends React.Component {
             // for anything else
             default:
                 // just render what is normally wanted
-                toDisplay = this.displayList(this.props.navigatorState.displayList);
+                toDisplay = this.displayList(displayList);
                 break;
         }
         return (
             <div className="Navigation grid-x grid-padding-x">
                 <div className="medium-3 cell dataNavigation">
-                    <SearchComponent searchWord={this.props.searchWord} />
+                    <SearchComponent searchWord={searchWord} />
                     <NavigatorComponent
                         setDisplayLabel={this.setDisplayLabel.bind(this)}
-                        searchWord={this.props.searchWord} />
+                        searchWord={searchWord} />
                 </div>
                 <div className="medium-5 cell AssociatedStoriesViewer grid-y fillScreen">
                     <form className="cell medium-2 time-filter grid-x">
@@ -204,10 +212,8 @@ class Navigation extends React.Component {
                                 id="exampleSwitch"
                                 type="checkbox"
                                 checked={timeFilterOn}
-                                name="exampleSwitch"
-                                onChange={(event) => {
-                                    timeFilterHandler("timelineFilter", event);
-                                }} />
+                                name="timelineFilter"
+                                onChange={timeFilterHandler} />
                             <label className="switch-paddle" htmlFor="exampleSwitch">
                                 <br />
                                 <span id="timelineText">Timeline</span>
@@ -219,65 +225,51 @@ class Navigation extends React.Component {
                             <input
                                 className="year"
                                 type="number"
-                                name="FromYear"
+                                name="fromYear"
                                 min={1887}
                                 max={toDate}
                                 value={fromDate}
-                                onChange={(event) => {
-                                    timeFilterHandler("fromDate", event);
-                                }}
-                                onClick={() => {
-                                    this.timeInputClickHandler("FromYear");
-                                }} />
+                                onChange={timeFilterHandler}
+                                onClick={this.timeInputClickHandler} />
                             {this.state.fromSelect === true &&
                                 <input
                                     className="slider"
+                                    name="fromYear"
                                     type="range"
                                     min="1887"
                                     max={toDate}
                                     value={fromDate}
-                                    onChange={(event) => {
-                                        timeFilterHandler("fromDate", event);
-                                    }}
-                                    onMouseUp={() => {
-                                        this.timeInputEnd("fromDate");
-                                    }} />}
+                                    onChange={timeFilterHandler}
+                                    onMouseUp={this.timeInputEnd} />}
                         </div>
                         <b className="medium-1 cell text">To</b>
                         <div className="medium-2 cell">
                             <input
                                 className="year"
                                 type="number"
-                                name="ToYear"
+                                name="toYear"
                                 min={fromDate}
                                 max={1899}
                                 value={toDate}
-                                onChange={(event) => {
-                                    timeFilterHandler("toDate", event);
-                                }}
-                                onClick={() => {
-                                    this.timeInputClickHandler("ToYear");
-                                }} />
+                                onChange={timeFilterHandler}
+                                onClick={this.timeInputClickHandler} />
                             {this.state.toSelect === true &&
                                 <input
                                     className="slider"
                                     type="range"
+                                    name="toYear"
                                     min={fromDate}
                                     max="1899"
                                     value={toDate}
-                                    onChange={(event) => {
-                                        timeFilterHandler("toDate", event);
-                                    }}
-                                    onMouseUp={() => {
-                                        this.timeInputEnd("toDate");
-                                    }} />}
+                                    onChange={timeFilterHandler}
+                                    onMouseUp={this.timeInputEnd} />}
                         </div>
                     </form>
                     <ul className="book medium-cell-block-y cell medium-10">
                         {/* little banner at the top of the list of items */}
                         <h6 className="label secondary">
                             {/* if searching, tell the viewer that a search is in progress */}
-                            {this.props.searchState.searchingState === true &&
+                            {searchingState === true &&
                                 <span className="SearchTitle">Searching: </span>}
                             {/* display the label indicating the currently viewed path */}
                             {this.state.displayLabel}
@@ -318,7 +310,7 @@ class Navigation extends React.Component {
                         ref={(ref) => {
                             this.map = ref;
                         }}
-                        places={this.props.navigatorState.placeList} />
+                        places={placeList} />
                 </div>
             </div>
         );
@@ -329,7 +321,7 @@ Navigation.propTypes = {
     "actions": PropTypes.object.isRequired,
     "navigatorState": PropTypes.object.isRequired,
     "searchState": PropTypes.object.isRequired,
-    "searchWord": PropTypes.object.isRequired,
+    "searchWord": PropTypes.string.isRequired,
 };
 
 /**

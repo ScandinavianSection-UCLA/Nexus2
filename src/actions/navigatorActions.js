@@ -4,23 +4,21 @@ import * as types from "./actionTypes";
 /**
  * Update the items available to Navigator
  * @param {Array} list Items to give to navigator
- * @param {String} ontology Ontology of `list`
  */
-export function displayItems(list, ontology) {
+export function displayItems(list) {
     return {
-        "payload": {list, ontology},
+        "payload": list,
         "type": types.DISPLAY_ITEMS,
     };
 }
 
 /**
  * Handler for a time filter's change
- * @param {String} filter The filter that was changed
  * @param {Event} event Event describing the change
  */
-export function timeFilterHandler(filter, event) {
+export function timeFilterHandler({target}) {
     return {
-        "payload": {event, filter},
+        "payload": target,
         "type": types.TIME_FILTER_HANDLER,
     };
 }

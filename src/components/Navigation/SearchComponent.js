@@ -65,38 +65,21 @@ class SearchComponent extends Component {
         } else {
             SearchList = [selectedItem];
         }
-
-        // check if selectedItem is a story or keyword, place, or person
-        let DisplayOntology = "";
-
         if (typeof selectedItem !== "undefined") {
-            if ("story_id" in selectedItem) {
-                DisplayOntology = "Stories";
-            } else if ("keyword_id" in selectedItem) {
-                let storiesList = [];
-                if (typeof selectedItem.stories.story !== "undefined") {
-                    storiesList = arrayTransformation(selectedItem.stories.story);
-                }
-                this.props.actions.displayItems(storiesList, "Stories");
+            if ("keyword_id" in selectedItem) {
+                this.props.actions.displayItems(arrayTransformation(selectedItem.stories.story));
                 this.setState({"searching": false, "searchTerm": selectedItem.keyword_name});
-                return;
-            } else if ("person_id" in selectedItem) {
-                DisplayOntology = "People";
-            } else if ("place_id" in selectedItem) {
-                DisplayOntology = "Places";
-            } else if ("fieldtrip_name" in selectedItem) {
-                DisplayOntology = "Fieldtrips";
+            } else {
+                // end the search
+                this.props.actions.setSearch(false);
+                // only display the results from the search
+                this.props.actions.displayItems(SearchList);
+                // update the state with the new input value, and stop searching
+                this.setState({
+                    inputValue,
+                    "searching": false,
+                });
             }
-            // end the search
-            this.props.actions.setSearch(false);
-            // this.props.searchOn(false);
-            // only display the results from the search
-            this.props.actions.displayItems(SearchList, DisplayOntology);
-            // update the state with the new input value, and stop searching
-            this.setState({
-                inputValue,
-                "searching": false,
-            });
         } else {
             console.warn("selectedItem is undefined");
         }
@@ -178,7 +161,7 @@ class SearchComponent extends Component {
     }
 
     switchKeywordSearch(event) {
-        this.props.actions.displayItems([], "Stories");
+        this.props.actions.displayItems([]);
         this.setState({
             "keywordSearch": event.target.checked,
             "inputValue": "",

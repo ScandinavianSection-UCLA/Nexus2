@@ -2,6 +2,7 @@
 import * as actions from "../actions/actionTypes";
 // data helpers
 import {
+    DisplayArtifactToOntology,
     dateFilterHelper,
     ontologyToID,
 } from "../data-stores/DisplayArtifactModel";
@@ -11,51 +12,59 @@ import initialState from "./initialState";
 /**
  * Update the items displayed in Navigator
  * @param {Object} prevState Pre-update state
+ * @returns {Object} State with an updated displayList
  */
 function updateItems(prevState) {
     // get the currently displayed ontology, and potential items to display
-    const {displayOntology, fromDate, itemsList, timeFilterOn, toDate} = prevState;
-    // if we have a restricted time range to look at
-    if (timeFilterOn === true) {
-        // key to get the ID of the items to display
-        const idKey = ontologyToID[displayOntology],
-            // get display artifacts that fit the time filter
-            idsInRange = dateFilterHelper(fromDate, toDate, displayOntology)
-                // convert them to IDs; this is to speed filtering later on
-                .map((item) => item[idKey]);
-        return {
-            ...prevState,
-            // update the displayed items
-            "displayList": itemsList.filter(
-                // only show items that are in the time range
-                (item) => idsInRange.includes(item[idKey])
-            ),
-        };
-    } else if (timeFilterOn === false) {
-        // no filter, show all the possible items
-        return {
-            ...prevState,
-            "displayList": itemsList,
-        };
+    const {fromDate, itemsList, timeFilterOn, toDate} = prevState;
+    if (itemsList.length > 0) {
+        const displayOntology = DisplayArtifactToOntology(itemsList[0]);
+        // if we have a restricted time range to look at
+        if (timeFilterOn === true) {
+            // key to get the ID of the items to display
+            const idKey = ontologyToID[displayOntology],
+                // get display artifacts that fit the time filter
+                idsInRange = dateFilterHelper(fromDate, toDate, displayOntology)
+                    // convert them to IDs; this is to speed filtering later on
+                    .map((item) => item[idKey]);
+            return {
+                ...prevState,
+                // update the displayed items
+                "displayList": itemsList.filter(
+                    // only show items that are in the time range
+                    (item) => idsInRange.includes(item[idKey])
+                ),
+            };
+        } else if (timeFilterOn === false) {
+            // no filter, show all the possible items
+            return {
+                ...prevState,
+                "displayList": itemsList,
+            };
+        } else {
+            // time filter isn't boolean, what?
+            console.warn(`Invalid time filter state: ${timeFilterOn}`);
+            return prevState;
+        }
     } else {
-        // time filter isn't boolean, what?
-        console.warn(`Invalid time filter state: ${timeFilterOn}`);
-        return prevState;
+        return {
+            ...prevState,
+            "displayList": [],
+        };
     }
 }
 
 /**
- *
- * @param {*} prevState
- * @param {*} payload
- * @returns {newState}
+ * Set new display items
+ * @param {Object} prevState Previous state to change
+ * @param {Object} list Items to display
+ * @returns {Object} The state with new items
  */
-function displayItems(prevState, {list, ontology}) {
+function displayItems(prevState, list) {
     // set up the items based on
     const newState = {
         ...prevState,
         "displayList": list,
-        "displayOntology": ontology,
         "itemsList": list,
         "placeList": list,
     };
@@ -67,17 +76,17 @@ function displayItems(prevState, {list, ontology}) {
 }
 
 /**
- *
- * @param {*} filter
- * @param {*} event
+ * Handler for when a timeline filter is changed
+ * @param {Object} prevState Pre-event state
+ * @param {Object} target Describes the action that occured
+ * @returns {Object} The new, post-event state
  */
-function timeFilterHandler(prevState, {filter, event}) {
-    console.log("got here!");
-    switch (filter) {
-        case "fromDate": {
+function timeFilterHandler(prevState, {checked, name, value}) {
+    switch (name) {
+        case "fromYear": {
             const newState = {
                 ...prevState,
-                "fromDate": event.target.value,
+                "fromDate": value,
             };
             // check if the dates are valid dates (4 digits, between 1887 and 1899)
             if (newState.fromDate >= 1887) {
@@ -86,10 +95,10 @@ function timeFilterHandler(prevState, {filter, event}) {
                 return newState;
             }
         }
-        case "toDate": {
+        case "toYear": {
             const newState = {
                 ...prevState,
-                "toDate": event.target.value,
+                "toDate": value,
             };
             // check if the dates are valid dates (4 digits, between 1887 and 1899)
             if (newState.toDate <= 1899) {
@@ -101,10 +110,10 @@ function timeFilterHandler(prevState, {filter, event}) {
         case "timelineFilter":
             return updateItems({
                 ...prevState,
-                "timeFilterOn": event.target.checked,
+                "timeFilterOn": checked,
             });
         default:
-            console.warn(`Invalid filter: ${filter}`);
+            console.warn(`Invalid filter: ${name}`);
             return prevState;
     }
 }
@@ -115,22 +124,22 @@ function timeFilterHandler(prevState, {filter, event}) {
  * @param {Object} action Action to do to the tabs
  * @returns {Object} The updated state
  */
-export default function navigator(state = initialState.navigator, action) {
+export default function navigator(state = initialState.navigator, {payload, type}) {
     // depending on which action to perform
-    switch (action.type) {
+    switch (type) {
         // if we are to add a tab
         case actions.UPDATE_ITEMS:
             return updateItems(state);
         // if we are to add a tab
         case actions.DISPLAY_ITEMS:
-            return displayItems(state, action.payload);
+            return displayItems(state, payload);
         // if we are to add a tab
         case actions.TIME_FILTER_HANDLER:
-            return timeFilterHandler(state, action.payload);
+            return timeFilterHandler(state, payload);
         // unhandled action type
         default:
             // warn that we hit a bad action
-            console.warn(`Invalid action: ${action.type}`);
+            console.warn(`Invalid action: ${type}`);
             // don't change anything
             return state;
     }

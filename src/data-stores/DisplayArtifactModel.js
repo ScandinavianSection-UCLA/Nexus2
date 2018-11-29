@@ -194,19 +194,21 @@ export function DisplayArtifactToDisplayKey(DisplayArtifact) {
 }
 
 /**
- * @return {string}
+ * Find the ontology of a display artifact
+ * @param {Object} DisplayArtifact Display Artifact to find ontology of
+ * @returns {String} Ontology of the artifact
  */
 export function DisplayArtifactToOntology(DisplayArtifact) {
-    if ("keyword_name" in DisplayArtifact) {
-        return "Keyword";
-    } else if ("search_string" in DisplayArtifact) {
-        return "search_string";
-    } else if ("full_name" in DisplayArtifact) {
-        return "full_name";
-    } else if ("name" in DisplayArtifact) {
-        return "name";
-    } else if ("fieldtrip_name" in DisplayArtifact) {
-        return "fieldtrip_name";
+    if (DisplayArtifact.hasOwnProperty("story_id")) {
+        return "Stories";
+    } else if (DisplayArtifact.hasOwnProperty("place_id")) {
+        return "Places";
+    } else if (DisplayArtifact.hasOwnProperty("person_id")) {
+        return "People";
+    } else if (DisplayArtifact.hasOwnProperty("fieldtrip_id")) {
+        return "Fieldtrips";
+    } else {
+        console.warn("Artifact is invalid!", DisplayArtifact);
     }
 }
 

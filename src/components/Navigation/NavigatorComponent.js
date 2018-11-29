@@ -64,7 +64,7 @@ class Navigation extends Component {
         // reset search
         this.props.actions.setSearch(false);
         // resets displayed results
-        this.props.actions.displayItems([], "");
+        this.props.actions.displayItems([]);
         if (nav.name === "Data Navigator") {
             this.setState((oldState) => {
                 oldState.dataNavView = true;
@@ -106,7 +106,7 @@ class Navigation extends Component {
         // if this wasn't loaded after a keyword was clicked
         if (!this.state.keywordClicked) {
             // reset results display
-            this.props.actions.displayItems([], "");
+            this.props.actions.displayItems([]);
             let itemsList = getList(ontology);
             let listObject = {};
             let isPPSF = (ontology === "People" || ontology === "Places" || ontology === "Stories" || ontology === "Fieldtrips");
@@ -114,7 +114,7 @@ class Navigation extends Component {
             // if it is part of Data navigator or it's a fieldtrip
             if (isPPSF) {
                 // send to navigation to display results
-                this.props.actions.displayItems(itemsList, ontology);
+                this.props.actions.displayItems(itemsList);
                 // highlight clicked ontology and set dropdownLists to nothing
                 this.setState((oldState) => {
                     if (oldState.path.length >= 2) {
@@ -237,7 +237,7 @@ class Navigation extends Component {
                     };
                 }, () => {
                     this.props.setDisplayLabel(this.state.path.join(" > "));
-                    this.props.actions.displayItems(storiesList, "Stories");
+                    this.props.actions.displayItems(storiesList);
                     localStorage.setItem("navCompState", this.state);
                 });
             } else {
@@ -375,8 +375,10 @@ function mapDispatchToProps(dispatch) {
 }
 
 Navigation.propTypes = {
+    "actions": PropTypes.object.isRequired,
     "searchWord": PropTypes.string.isRequired,
     "setDisplayLabel": PropTypes.func.isRequired,
+    "state": PropTypes.object.isRequired,
 };
 
 export default connect(

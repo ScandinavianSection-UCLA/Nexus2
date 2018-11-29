@@ -62,8 +62,6 @@ function InitializeNavigator() {
     return {
         // should be set up once everything is finished rendering
         "displayList": [],
-        // defines which icon to display
-        "displayOntology": "",
         // array of display artifact objects (JSON)
         "itemsList": [],
         "placeList": [],
@@ -71,6 +69,7 @@ function InitializeNavigator() {
         "fromDate": 1887,
         // default end date
         "toDate": 1899,
+        // start with the filter off
         "timeFilterOn": false,
     };
 }
