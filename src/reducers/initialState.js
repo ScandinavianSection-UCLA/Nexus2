@@ -55,8 +55,22 @@ function InitializeSearch() {
 }
 
 /**
- * TODO: implement this
+ * Initialize the navigator state
+ * @returns {Object} The initial navigator state
  */
 function InitializeNavigator() {
-
+    return {
+        // should be set up once everything is finished rendering
+        "displayList": [],
+        // defines which icon to display
+        "displayOntology": "",
+        // array of display artifact objects (JSON)
+        "itemsList": [],
+        "placeList": [],
+        // default start date
+        "fromDate": 1887,
+        // default end date
+        "toDate": 1899,
+        "timeFilterOn": false,
+    };
 }

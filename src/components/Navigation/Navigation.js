@@ -1,83 +1,91 @@
-/**
- * Created by danielhuang on 2/24/18.
- */
-import React, {Component} from "react";
-import NavigatorComponent from "./NavigatorComponent";
-import SearchComponent from "./SearchComponent";
-import MapView from "../MapView/MapView";
+// react functionality
+import React from "react";
+// CSS styling
+import "./navigation.css";
+// functions to get nodes + links
+import {
+    addNode,
+    initializeGraph,
+    initializeNodeCategories,
+} from "../NexusGraph/NexusGraphModel";
+// data helpers
 import {
     ontologyToDisplayKey,
     ontologyToID,
-    dateFilterHelper,
 } from "../../data-stores/DisplayArtifactModel";
-import "./navigation.css";
-// the nexus graph
+// subcomponents of the navigator
+import MapView from "../MapView/MapView";
+import NavigatorComponent from "./NavigatorComponent";
 import NexusGraph from "../NexusGraph/NexusGraph";
-// functions to get nodes + links
-import {addNode, initializeGraph, initializeNodeCategories} from "../NexusGraph/NexusGraphModel";
+import SearchComponent from "./SearchComponent";
+// prop validation
 import PropTypes from "prop-types";
+// redux imports
 import {bindActionCreators} from "redux";
+import * as navigatorActions from "../../actions/navigatorActions";
 import * as tabViewerActions from "../../actions/tabViewerActions";
-import * as searchActions from "../../actions/searchActions";
 import connect from "react-redux/es/connect/connect";
 
-class Navigation extends Component {
+class Navigation extends React.Component {
     constructor(props) {
         super(props);
-        // set the initial state of the home view
         this.state = {
-            // array of jsx items that will be rendered on view
-            "displayItemsList": [],
-            // array of display artifact objects (JSON)
-            "itemsList": [],
-            // default start date
-            "fromDate": 1887,
-            "fromSelect": false,
-            // default end date
-            "toDate": 1899,
-            "toSelect": false,
-            "timeFilterOn": false,
-            // defines which icon to display
-            "displayOntology": "",
-            "placeList": [],
+            // to be set later
             "displayLabel": "",
+            // start with the sliders hidden
+            "fromSelect": false,
+            "toSelect": false,
         };
-        this.displayItems = this.displayItems.bind(this);
-        // properly bind this to handleDisplayGraph so it can be used correctly
-        this.handleDisplayGraph = this.handleDisplayGraph.bind(this);
+        // ref to the map for updating
+        this.map = React.createRef();
     }
 
     /**
      * Display a list of items
      * @param {Array} list Items to display
-     * @param {String} ontology Ontology of the items to display
      * @returns {Array} Array of formatted JSX elements
      */
-    displayList(list, ontology) {
-        // variable to store which icon will be shown next to the names of the items
-        const displayKey = ontologyToDisplayKey[ontology];
-        const idKey = ontologyToID[ontology];
+    displayList(list) {
+        // ontology of the items currently displayed
+        const {displayOntology} = this.props.navigatorState,
+            // key to extract name from display artifacts
+            displayKey = ontologyToDisplayKey[displayOntology],
+            // key to extract ID from display artifacts
+            idKey = ontologyToID[displayOntology];
+        // image shown next to the name of the display artifact
         let image = null;
-        switch (ontology) {
+        switch (displayOntology) {
             case "Stories":
                 // for stories, get the chat bubble icon
-                image = <img className={"convo-icon"} src={require("./icons8-chat-filled-32.png")} alt="story" />;
+                image = (<img
+                    className="convo-icon"
+                    src={require("./icons8-chat-filled-32.png")}
+                    alt="story" />);
                 break;
             case "People":
                 // for people, get the generic portrait icon
-                image = <img className={"person-icon"} src={require("./icons8-contacts-32.png")} alt="person" />;
+                image = (<img
+                    className="person-icon"
+                    src={require("./icons8-contacts-32.png")}
+                    alt="person" />);
                 break;
             case "Places":
                 // for places, get the pin marker icon
-                image = <img className={"location-icon"} src={require("./icons8-marker-32.png")} alt="location" />;
+                image = (<img
+                    className="location-icon"
+                    src={require("./icons8-marker-32.png")}
+                    alt="location" />);
                 break;
             case "Fieldtrips":
                 // for fieldtrips, get the map with an x icon
-                image = <img className={"fieldtrip-icon"} src={require("./icons8-waypoint-map-32.png")} alt="fieldtrip" />;
+                image = <img
+                    className="fieldtrip-icon"
+                    src={require("./icons8-waypoint-map-32.png")}
+                    alt="fieldtrip" />;
                 break;
             default:
                 // bad ontology, warn this
-                console.warn(`Unhandled ontology type: ${ontology}`);
+                console.warn(`Unhandled ontology type: ${displayOntology}`);
                 break;
         }
         // return a list of the elements
@@ -87,7 +95,9 @@ class Navigation extends Component {
                 // key for React
                 key={i}
                 // on click, do all the processing necessary when loading this item
-                onClick={this.handleIDQuery.bind(this, item[idKey], item[displayKey], ontology, item)}>
+                onClick={() => {
+                    this.handleIDQuery(item[idKey], item[displayKey], displayOntology, item);
+                }}>
                 {/* put our desired image on the left of the item */}
                 {image}
                 {/* put the item's name right after that */}
@@ -96,124 +106,46 @@ class Navigation extends Component {
         ));
     }
 
+    /**
+     * Handler for when an artifact
+     * @param {*} id ID of the artifact
+     * @param {*} name Display name of the artifact
+     * @param {*} type Ontology of the artifact
+     * @param {*} item The artifact
+     */
     handleIDQuery(id, name, type, item) {
         // update this.props.places for the map component
-        this.refs.map.updateMarkers();
+        this.map.updateMarkers();
         // add node to network graph
         addNode(id, name, type, item);
-        this.props.tabViewerActions.addTab(id, name, type);
+        // open up the artifact's tab
+        this.props.actions.addTab(id, name, type);
     }
 
     /**
-     * Handler to create/display the separate Graph tab + view
+     * Enable a specified input
+     * @param {String} year Label of the input
      */
-    handleDisplayGraph() {
-        this.props.tabViewerActions.addTab(0, "Nexus Graph", "Graph");
-    }
-
-    displayItems(items, ontology) {
-        this.setState({
-            "displayOntology": ontology,
-            "itemsList": items,
-            "displayItemsList": this.displayList(items, ontology),
-            "placeList": items,
-        }, function() {
-            if (this.state.timeFilterOn && typeof items !== "undefined") {
-                this.updateItems();
-            }
-        });
-    }
-
-    updateItems() {
-        let idKey = ontologyToID[this.state.displayOntology];
-        if (this.state.timeFilterOn) {
-            // filter by time to get array with display artifacts that fit the time filter
-            let itemsWithinFieldtrips = dateFilterHelper(this.state.fromDate, this.state.toDate, this.state.displayOntology);
-            // if an item is in the itemsWithinFieldtrips, change what is displayed, NOT items list
-            let displayList = [];
-            // if it isn't a fieldtrip
-            if (this.state.displayOntology !== "Fieldtrips") {
-                let idsWithinFieldtrips = [];
-                if (typeof itemsWithinFieldtrips !== "undefined") {
-                    // create array of display artifact ids within time filter (this is to speed filtering process later)
-                    itemsWithinFieldtrips.forEach((item) => {
-                        idsWithinFieldtrips.push(item[idKey]);
-                    });
-                    // set items that are within timeline into the display list
-                    this.state.itemsList.forEach((item) => {
-                        // if something in the current items list is in the range of the date
-                        if (idsWithinFieldtrips.indexOf(item[idKey]) > -1) {
-                            displayList.push(item);
-                        }
-                    });
-                    // set display ontology to allow icons to show
-                    let displayOntologyTimeline = this.state.displayOntology;
-                    this.setState({
-                        "displayItemsList": this.displayList(displayList, displayOntologyTimeline),
-                    });
-                }
-            } else { // else it is a fieldtrip
-                this.setState({
-                    "displayItemsList": this.displayList(itemsWithinFieldtrips, "Fieldtrips"),
-                });
-            }
-        } else if (!this.state.timeFilterOn) {
-            // set display ontology to define which icon to show
-            let displayOntologyTimeline = this.state.displayOntology;
-            this.setState({
-                "displayItemsList": this.displayList(this.state.itemsList, displayOntologyTimeline),
-            });
-        }
-
-    }
-
-    // sets time filters
-    timeFilterHandler(filter, event) {
-        switch (filter) {
-            case "fromDate":
-                this.setState({
-                    "fromDate": event.target.value,
-                }, function() {
-                    // check if the dates are valid dates (4 digits, between 1887 and 1899)
-                    if (this.state.fromDate >= 1887) {
-                        this.updateItems();
-                    }
-                });
-                break;
-            case "toDate":
-                this.setState({
-                    "toDate": event.target.value,
-                }, function() {
-                    // check if the dates are valid dates (4 digits, between 1887 and 1899)
-                    if (this.state.toDate <= 1899) {
-                        this.updateItems();
-                    }
-                });
-                break;
-            case "timelineFilter":
-                this.setState({
-                    "timeFilterOn": event.target.checked,
-                }, function() {
-                    this.updateItems();
-                });
-                break;
-            default:
-                console.warn(`Invalid filter: ${filter}`);
-        }
-    }
-
     timeInputClickHandler(year) {
         this.setState({
             [year === "ToYear" ? "toSelect" : "fromSelect"]: true,
         });
     }
 
+    /**
+     * Disable a specified input
+     * @param {String} year Label of the input
+     */
     timeInputEnd(year) {
         this.setState({
             [year === "toDate" ? "toSelect" : "fromSelect"]: false,
         });
     }
 
+    /**
+     * Set the banner indicating the current path
+     * @param {String} label The current path to display
+     */
     setDisplayLabel(label) {
         this.setState({
             "displayLabel": label,
@@ -221,6 +153,10 @@ class Navigation extends Component {
     }
 
     render() {
+        // get relevant state data from redux
+        const {fromDate, timeFilterOn, toDate} = this.props.navigatorState,
+            // get necessary actions from redux
+            {addTab, timeFilterHandler} = this.props.actions;
         // variable to store the main, center display
         let toDisplay;
         // based on what is currently being viewd
@@ -228,162 +164,161 @@ class Navigation extends Component {
             // if the user is viewing the ETK Index but hasn't selected anything yet
             case "Topic & Index Navigator > ETK Index":
                 // render a hint to select an ETK index
-                toDisplay =
-                    <div className="hintText">
-                        Select an ETK index from the left to get started!
-                    </div>;
+                toDisplay = (<div className="hintText">
+                    Select an ETK index from the left to get started!
+                </div>);
                 break;
             // if the user is viewing the Tango Index but hasn't selected anything yet
             case "Topic & Index Navigator > Tangherlini Index":
                 // render a hint to select a tango index
-                toDisplay =
-                    <div className="hintText">
-                        Select a class from the left to get started!
-                    </div>;
+                toDisplay = (<div className="hintText">
+                    Select a class from the left to get started!
+                </div>);
                 break;
             // if the user is viewing the genres but hasn't selected anything yet
             case "Topic & Index Navigator > Genres":
                 // render a hint to select a genre
-                toDisplay =
-                    <div className="hintText">
-                        Select a genre from the left to get started!
-                    </div>;
+                toDisplay = (<div className="hintText">
+                    Select a genre from the left to get started!
+                </div>);
                 break;
             // for anything else
             default:
                 // just render what is normally wanted
-                toDisplay = this.state.displayItemsList;
+                toDisplay = this.displayList(this.props.navigatorState.displayList);
                 break;
         }
         return (
-            <div className="Navigation">
-                <div className="navigation grid-x grid-padding-x">
-                    <div className="medium-3 cell dataNavigation">
-                        <SearchComponent handleDisplayItems={this.displayItems.bind(this)}
-                            displayList={this.state.itemsList}
-                            searchWord={this.props.searchWord} />
-                        <NavigatorComponent
-                            handleDisplayItems={this.displayItems.bind(this)}
-                            setDisplayLabel={this.setDisplayLabel.bind(this)}
-                            searchWord={this.props.searchWord} />
-                    </div>
-                    <div className="medium-5 cell AssociatedStoriesViewer">
-                        <div className="grid-y" style={{"height": "100%"}}>
-                            <div className="cell medium-2">
-                                <form className="time-filter grid-x">
-                                    <div className="medium-2 medium-offset-1 cell">
-                                        <div className="switch">
-                                            <input className="switch-input" id="exampleSwitch" type="checkbox" checked={this.state.timeFilterOn}
-                                                name="exampleSwitch" onChange={this.timeFilterHandler.bind(this, "timelineFilter")} />
-                                            <label className="switch-paddle" htmlFor="exampleSwitch"><br />
-                                                <span style={{"fontSize": ".8em", "color": "black", "width": "150%"}}>Timeline</span>
-                                                <span className="show-for-sr">Enable Timeline</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div className="medium-2 cell text"><b>From</b></div>
-                                    <div className="medium-2 cell">
-                                        <input
-                                            className="year"
-                                            type="number"
-                                            name="FromYear"
-                                            min={1887}
-                                            max={this.state.toDate}
-                                            value={this.state.fromDate}
-                                            onChange={this.timeFilterHandler.bind(this, "fromDate")}
-                                            onClick={(e) => {
-                                                e.preventDefault();
-                                                this.timeInputClickHandler.bind(this)("FromYear");
-                                            }} />
-                                        <input
-                                            className={`slider ${this.state.fromSelect ? "active" : ""}`}
-                                            type="range"
-                                            min="1887"
-                                            max={this.state.toDate}
-                                            value={this.state.fromDate}
-                                            onChange={this.timeFilterHandler.bind(this, "fromDate")}
-                                            onMouseUp={(e) => {
-                                                e.preventDefault();
-                                                this.timeInputEnd.bind(this)("fromDate");
-                                            }}
-                                            id="myRange" />
-                                    </div>
-                                    <div className="medium-1 cell text"><b>To</b></div>
-                                    <div className="medium-2 cell">
-                                        <input
-                                            className="year"
-                                            type="number"
-                                            name="ToYear"
-                                            min={this.state.fromDate}
-                                            max={1899}
-                                            value={this.state.toDate}
-                                            onChange={this.timeFilterHandler.bind(this, "toDate")}
-                                            onClick={(e) => {
-                                                e.preventDefault();
-                                                this.timeInputClickHandler.bind(this)("ToYear");
-                                            }} />
-                                        <input
-                                            className={`slider ${this.state.toSelect ? "active" : ""}`}
-                                            type="range"
-                                            min={this.state.fromDate}
-                                            max="1899"
-                                            value={this.state.toDate}
-                                            onChange={this.timeFilterHandler.bind(this, "toDate")}
-                                            onMouseUp={(e) => {
-                                                e.preventDefault();
-                                                this.timeInputEnd.bind(this)("toDate");
-                                            }}
-                                            id="myRange" />
-                                    </div>
-                                </form>
-                            </div>
-                            <div className="stories-container cell medium-10">
-                                <ul className="book medium-cell-block-y">
-                                    {/* little banner at the top of the list of items */}
-                                    <h6 className="label secondary">
-                                        {/* if searching, tell the viewer that a search is in progress */}
-                                        {this.props.searchState.searchingState === true &&
-                                            <span className="SearchTitle">Searching: </span>}
-                                        {/* display the label indicating the currently viewed path */}
-                                        {this.state.displayLabel}
-                                    </h6>
-                                    {/* display the elements we assigned at the beginning of this function */}
-                                    {toDisplay}
-                                </ul>
-                            </div>
+            <div className="Navigation grid-x grid-padding-x">
+                <div className="medium-3 cell dataNavigation">
+                    <SearchComponent searchWord={this.props.searchWord} />
+                    <NavigatorComponent
+                        setDisplayLabel={this.setDisplayLabel.bind(this)}
+                        searchWord={this.props.searchWord} />
+                </div>
+                <div className="medium-5 cell AssociatedStoriesViewer grid-y fillScreen">
+                    <form className="cell medium-2 time-filter grid-x">
+                        <div className="medium-2 medium-offset-1 cell switch">
+                            <input
+                                className="switch-input"
+                                id="exampleSwitch"
+                                type="checkbox"
+                                checked={timeFilterOn}
+                                name="exampleSwitch"
+                                onChange={(event) => {
+                                    timeFilterHandler("timelineFilter", event);
+                                }} />
+                            <label className="switch-paddle" htmlFor="exampleSwitch">
+                                <br />
+                                <span id="timelineText">Timeline</span>
+                                <span className="show-for-sr">Enable Timeline</span>
+                            </label>
                         </div>
-                    </div>
-                    <div className="medium-4 cell">
-                        <div className="grid-y" style={{"height": "100%"}}>
-                            <div
-                                className="medium-6 cell">
-                                {/* button that creates + opens the graph tab when clicked */}
-                                <button
-                                    // cSS classes
-                                    className="button primary"
-                                    // cSS id
-                                    id="expandGraphButton"
-                                    // when clicked, open the graph in its own tab
-                                    onClick={this.handleDisplayGraph}>
-                                    Open Graph in New Tab
-                                </button>
-                                {/* the nexus graph */}
-                                <NexusGraph
-                                    // nodes + links for the graph to render
-                                    data={initializeGraph()}
-                                    // a totality of all the nodes, sorted by type
-                                    nodes={initializeNodeCategories()}
-                                    // custom settings for the graph
-                                    settings={{
-                                        // set the height to center the graph
-                                        "height": (window.innerHeight) * 0.8 * .5,
-                                        // set the width to center the graph
-                                        "width": (window.innerWidth) * 0.8 * .389,
-                                    }} />
-                            </div>
-                            <MapView className="medium-6 cell" ref="map" places={this.state.placeList} />
+                        <b className="medium-2 cell text">From:</b>
+                        <div className="medium-2 cell">
+                            <input
+                                className="year"
+                                type="number"
+                                name="FromYear"
+                                min={1887}
+                                max={toDate}
+                                value={fromDate}
+                                onChange={(event) => {
+                                    timeFilterHandler("fromDate", event);
+                                }}
+                                onClick={() => {
+                                    this.timeInputClickHandler("FromYear");
+                                }} />
+                            {this.state.fromSelect === true &&
+                                <input
+                                    className="slider"
+                                    type="range"
+                                    min="1887"
+                                    max={toDate}
+                                    value={fromDate}
+                                    onChange={(event) => {
+                                        timeFilterHandler("fromDate", event);
+                                    }}
+                                    onMouseUp={() => {
+                                        this.timeInputEnd("fromDate");
+                                    }} />}
                         </div>
+                        <b className="medium-1 cell text">To</b>
+                        <div className="medium-2 cell">
+                            <input
+                                className="year"
+                                type="number"
+                                name="ToYear"
+                                min={fromDate}
+                                max={1899}
+                                value={toDate}
+                                onChange={(event) => {
+                                    timeFilterHandler("toDate", event);
+                                }}
+                                onClick={() => {
+                                    this.timeInputClickHandler("ToYear");
+                                }} />
+                            {this.state.toSelect === true &&
+                                <input
+                                    className="slider"
+                                    type="range"
+                                    min={fromDate}
+                                    max="1899"
+                                    value={toDate}
+                                    onChange={(event) => {
+                                        timeFilterHandler("toDate", event);
+                                    }}
+                                    onMouseUp={() => {
+                                        this.timeInputEnd("toDate");
+                                    }} />}
+                        </div>
+                    </form>
+                    <ul className="book medium-cell-block-y cell medium-10">
+                        {/* little banner at the top of the list of items */}
+                        <h6 className="label secondary">
+                            {/* if searching, tell the viewer that a search is in progress */}
+                            {this.props.searchState.searchingState === true &&
+                                <span className="SearchTitle">Searching: </span>}
+                            {/* display the label indicating the currently viewed path */}
+                            {this.state.displayLabel}
+                        </h6>
+                        {/* display the elements we assigned at the beginning of this function */}
+                        {toDisplay}
+                    </ul>
+                </div>
+                <div className="medium-4 cell grid-y fillScreen">
+                    <div className="medium-6 cell">
+                        {/* button that creates + opens the graph tab when clicked */}
+                        <button
+                            // blue button styling
+                            className="button primary"
+                            // just space it out properly in the CSS
+                            id="expandGraphButton"
+                            // when clicked, open the graph in its own tab
+                            onClick={() => {
+                                addTab(0, "Nexus Graph", "Graph");
+                            }}>
+                            Open Graph in New Tab
+                        </button>
+                        {/* the nexus graph */}
+                        <NexusGraph
+                            // nodes + links for the graph to render
+                            data={initializeGraph()}
+                            // a totality of all the nodes, sorted by type
+                            nodes={initializeNodeCategories()}
+                            // custom settings for the graph
+                            settings={{
+                                // set the height to center the graph
+                                "height": window.innerHeight * 0.8 * 0.5,
+                                // set the width to center the graph
+                                "width": window.innerWidth * 0.8 * 0.389,
+                            }} />
                     </div>
+                    <MapView className="medium-6 cell"
+                        ref={(ref) => {
+                            this.map = ref;
+                        }}
+                        places={this.props.navigatorState.placeList} />
                 </div>
             </div>
         );
@@ -391,19 +326,35 @@ class Navigation extends Component {
 }
 
 Navigation.propTypes = {
-    "tabViewerActions": PropTypes.object.isRequired,
+    "actions": PropTypes.object.isRequired,
+    "navigatorState": PropTypes.object.isRequired,
     "searchState": PropTypes.object.isRequired,
+    "searchWord": PropTypes.object.isRequired,
 };
 
+/**
+ * Set certain props to access Redux states
+ * @param {Object} state All possible Redux states
+ * @returns {Object} Certain states that are set on props
+ */
 function mapStateToProps(state) {
     return {
+        "navigatorState": state.navigator,
         "searchState": state.search,
     };
 }
 
+/**
+ * Set the "actions" prop to access Redux actions
+ * @param {*} dispatch Redux actions
+ * @returns {Object} The actions that are mapped to props.actions
+ */
 function mapDispatchToProps(dispatch) {
     return {
-        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+        "actions": bindActionCreators({
+            ...navigatorActions,
+            ...tabViewerActions,
+        }, dispatch),
     };
 }
 

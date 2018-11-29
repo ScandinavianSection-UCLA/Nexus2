@@ -5,6 +5,7 @@ import {arrayTransformation} from "../../utils";
 import {getList, ontologyToDisplayKey, tangoTypes} from "../../data-stores/DisplayArtifactModel";
 import PropTypes from "prop-types";
 import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
+import * as navigatorActions from "../../actions/navigatorActions";
 import * as searchActions from "../../actions/searchActions";
 import {bindActionCreators} from "redux";
 import connect from "react-redux/es/connect/connect";
@@ -61,9 +62,9 @@ class Navigation extends Component {
 
     handleTabClick(nav) {
         // reset search
-        this.props.searchActions.setSearch(false);
+        this.props.actions.setSearch(false);
         // resets displayed results
-        this.props.handleDisplayItems([], "");
+        this.props.actions.displayItems([], "");
         if (nav.name === "Data Navigator") {
             this.setState((oldState) => {
                 oldState.dataNavView = true;
@@ -97,7 +98,7 @@ class Navigation extends Component {
     // level 2 = indices, people, places, stories
     handleLevelTwoClick(ontology) {
         // reset search
-        this.props.searchActions.setSearch(false);
+        this.props.actions.setSearch(false);
         // save selected ontology to session storage so the selection will remain if the user switches tabs
         setSessionStorage("SelectedNavOntology", {
             "data": ontology,
@@ -105,7 +106,7 @@ class Navigation extends Component {
         // if this wasn't loaded after a keyword was clicked
         if (!this.state.keywordClicked) {
             // reset results display
-            this.props.handleDisplayItems([], "");
+            this.props.actions.displayItems([], "");
             let itemsList = getList(ontology);
             let listObject = {};
             let isPPSF = (ontology === "People" || ontology === "Places" || ontology === "Stories" || ontology === "Fieldtrips");
@@ -113,7 +114,7 @@ class Navigation extends Component {
             // if it is part of Data navigator or it's a fieldtrip
             if (isPPSF) {
                 // send to navigation to display results
-                this.props.handleDisplayItems(itemsList, ontology);
+                this.props.actions.displayItems(itemsList, ontology);
                 // highlight clicked ontology and set dropdownLists to nothing
                 this.setState((oldState) => {
                     if (oldState.path.length >= 2) {
@@ -209,7 +210,7 @@ class Navigation extends Component {
 
     selectMenu(selectedItem, isTango) {
         // reset search
-        this.props.searchActions.setSearch(false);
+        this.props.actions.setSearch(false);
         // for non-Tango Index dropdowns
         if (!isTango) {
             // make sure that we didn't re-select the [Select a ___] option from the dropdown
@@ -236,7 +237,7 @@ class Navigation extends Component {
                     };
                 }, () => {
                     this.props.setDisplayLabel(this.state.path.join(" > "));
-                    this.props.handleDisplayItems(storiesList, "Stories");
+                    this.props.actions.displayItems(storiesList, "Stories");
                     localStorage.setItem("navCompState", this.state);
                 });
             } else {
@@ -348,23 +349,34 @@ class Navigation extends Component {
     }
 }
 
+/**
+ * Set certain props to access Redux states
+ * @param {Object} state All possible Redux states
+ * @returns {Object} Certain states that are set on props
+ */
 function mapStateToProps(state) {
     return {
         "state": state.tabViewer,
     };
 }
 
+/**
+ * Set the "actions" prop to access Redux actions
+ * @param {*} dispatch Redux actions
+ * @returns {Object} The actions that are mapped to props.actions
+ */
 function mapDispatchToProps(dispatch) {
     return {
-        "searchActions": bindActionCreators(searchActions, dispatch),
+        "actions": {
+            ...bindActionCreators(searchActions, dispatch),
+            ...bindActionCreators(navigatorActions, dispatch),
+        },
     };
 }
 
 Navigation.propTypes = {
-    "handleDisplayItems": PropTypes.func.isRequired,
     "searchWord": PropTypes.string.isRequired,
     "setDisplayLabel": PropTypes.func.isRequired,
-    "searchActions": PropTypes.object.isRequired,
 };
 
 export default connect(

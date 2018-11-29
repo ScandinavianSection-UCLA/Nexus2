@@ -5,6 +5,7 @@ import Fuse from "fuse.js";
 import "./search.css";
 import PropTypes from "prop-types";
 import {bindActionCreators} from "redux";
+import * as navigatorActions from "../../actions/navigatorActions";
 import * as searchActions from "../../actions/searchActions";
 import connect from "react-redux/es/connect/connect";
 
@@ -76,7 +77,7 @@ class SearchComponent extends Component {
                 if (typeof selectedItem.stories.story !== "undefined") {
                     storiesList = arrayTransformation(selectedItem.stories.story);
                 }
-                this.props.handleDisplayItems(storiesList, "Stories");
+                this.props.actions.displayItems(storiesList, "Stories");
                 this.setState({"searching": false, "searchTerm": selectedItem.keyword_name});
                 return;
             } else if ("person_id" in selectedItem) {
@@ -87,10 +88,10 @@ class SearchComponent extends Component {
                 DisplayOntology = "Fieldtrips";
             }
             // end the search
-            this.props.searchActions.setSearch(false);
+            this.props.actions.setSearch(false);
             // this.props.searchOn(false);
             // only display the results from the search
-            this.props.handleDisplayItems(SearchList, DisplayOntology);
+            this.props.actions.displayItems(SearchList, DisplayOntology);
             // update the state with the new input value, and stop searching
             this.setState({
                 inputValue,
@@ -102,14 +103,14 @@ class SearchComponent extends Component {
     }
 
     handleFuzzySearch(event) {
-        this.props.searchActions.setSearch(true);
+        this.props.actions.setSearch(true);
         this.props.searchOn(true);
         this.renderSuggestions();
         this.setState({
             "searching": true,
             "inputValue": event.target.value,
         }, () => {
-            const data = this.props.displayList.length > 0 ? this.props.displayList : getKeywords();
+            const data = this.props.navigatorState.itemsList.length > 0 ? this.props.navigatorState.itemsList : getKeywords();
             const fuse = new Fuse(data, {
                 "shouldSort": true,
                 "threshold": .2,
@@ -137,7 +138,7 @@ class SearchComponent extends Component {
                 // if there is something in input, call fuzzy search
                 // results from fuzzy search from Keywords.json
                 const results = fuse.search(input);
-                const RefinedResultState = this.props.displayList.length > 0;
+                const RefinedResultState = this.props.navigatorState.itemsList.length > 0;
                 const ResultList = RefinedResultState ? "refinedResults" : "results";
                 let NewState = {
                     "inputValue": input,
@@ -151,7 +152,7 @@ class SearchComponent extends Component {
 
     // migrated!
     renderListofSuggestions() {
-        return this.props.state.results.map((keyword, i) => (
+        return this.props.searchState.results.map((keyword, i) => (
             <li
                 key={i}
                 style={{"cursor": "pointer"}}
@@ -168,8 +169,8 @@ class SearchComponent extends Component {
         console.log("search state", this.props);
         // setState to save anything from this.props.displayList to this.state.refinedResults
         this.setState({
-            "refinedResults": this.props.displayList,
-            "refinedResultsState": this.props.displayList.length > 0,
+            "refinedResults": this.props.navigatorState.itemsList,
+            "refinedResultsState": this.props.navigatorState.itemsList.length > 0,
             "searching": true,
         }, () => {
             return this.renderListofSuggestions();
@@ -177,7 +178,7 @@ class SearchComponent extends Component {
     }
 
     switchKeywordSearch(event) {
-        this.props.handleDisplayItems([], "Stories");
+        this.props.actions.displayItems([], "Stories");
         this.setState({
             "keywordSearch": event.target.checked,
             "inputValue": "",
@@ -190,15 +191,18 @@ class SearchComponent extends Component {
                 className="SearchComponent"
                 onSubmit={(e) => {
                     e.preventDefault();
-                    this.handleSearch(this.props.state.inputValue);
+                    this.handleSearch(this.props.searchState.inputValue);
                 }}>
                 <input
                     type="text"
                     placeholder="Search Term"
-                    value={this.props.state.inputValue}
+                    value={this.props.searchState.inputValue}
                     onChange={(event) => {
                         event.preventDefault();
-                        this.props.searchActions.fuzzySearch(event.target.value, this.props.displayList);
+                        this.props.actions.fuzzySearch(
+                            event.target.value,
+                            this.props.navigatorState.itemsList
+                        );
                     }} />
                 <label htmlFor="keyword-search-switch">Keyword Search Only</label>
                 <input
@@ -207,7 +211,7 @@ class SearchComponent extends Component {
                     id="keyword-search-switch"
                     onChange={this.switchKeywordSearch.bind(this)} />
                 {/* only show suggestions while a search is active */}
-                {this.props.state.searchingState &&
+                {this.props.searchState.searchingState === true &&
                     <ul className="suggestions">
                         {this.renderListofSuggestions.bind(this)()}
                     </ul>}
@@ -218,27 +222,33 @@ class SearchComponent extends Component {
 
 // check if displayList is properly formatted and assigned
 SearchComponent.propTypes = {
-    "displayList": PropTypes.array.isRequired,
-    "handleDisplayItems": PropTypes.func.isRequired,
+    "actions": PropTypes.object.isRequired,
     "searchWord": PropTypes.string.isRequired,
-    // must have tabViewerActions to open up a new book tab
-    "searchActions": PropTypes.object.isRequired,
 };
 
-// assign default if not already defined
-SearchComponent.defaultProps = {
-    "displayList": [],
-};
-
+/**
+ * Set certain props to access Redux states
+ * @param {Object} state All possible Redux states
+ * @returns {Object} Certain states that are set on props
+ */
 function mapStateToProps(state) {
     return {
-        "state": state.search,
+        "navigatorState": state.navigator,
+        "searchState": state.search,
     };
 }
 
+/**
+ * Set the "actions" prop to access Redux actions
+ * @param {*} dispatch Redux actions
+ * @returns {Object} The actions that are mapped to props.actions
+ */
 function mapDispatchToProps(dispatch) {
     return {
-        "searchActions": bindActionCreators(searchActions, dispatch),
+        "actions": {
+            ...bindActionCreators(searchActions, dispatch),
+            ...bindActionCreators(navigatorActions, dispatch)
+        },
     };
 }
 

@@ -286,63 +286,75 @@ export const tangoTypes = {
     },
 };
 
-// not gonna mess with this becuase I'm not sure how to test this
-export function dateFilterHelper(startDate, endDate, ontology) {
+/**
+ * Retrieve items between two specified years
+ * @param {*} startYear Earlier boundary of the time interval
+ * @param {*} endYear Later boundary of the time interval
+ * @param {*} ontology Ontology of the items to retrieve
+ * @returns {Array} All desired items in the specified range
+ */
+export function dateFilterHelper(startYear, endYear, ontology) {
     // go through fieldtrips to see which fieldtrips fit within dates
-    let fieldtripsInDates = [];
-    data.fieldtrips.forEach((fieldtrip) => {
-        if (parseInt(fieldtrip.start_date, 10) >= startDate && parseInt(fieldtrip.end_date, 10) <= endDate) {
-            fieldtripsInDates.push(fieldtrip);
-        }
-    });
-    if (ontology !== "Fieldtrips") {
-        // this is because the data structure is stupid so you have stories_collected { story: {}/[] } so you have to get
-        // access to "story" instead of just "stories_collected to get what you want
-        var ontologyToFieldtripKey = {
-            "Stories": {"firstKey": "stories_collected", "secondKey": "story"},
-            "Places": {"firstKey": "places_visited", "secondKey": "place"},
-            "People": {"firstKey": "people_visited", "secondKey": "person"},
-        };
-        const fieldtripKey = ontologyToFieldtripKey[ontology];
-        // for fieldtrips that fit within dates, return list of either story, people, or places visited
-        let UniqueItems = [];
-        if (typeof fieldtripKey !== "undefined") {
-            fieldtripsInDates.forEach((fieldtrip) => {
-                // for each fieldtrip, get array of people, places, or stories
-                // handle fieldtrip data if second key doesn't exist (i.e. stories_collected:[stories...] and stories_collected:{stories...})
-                let uncleanedItems;
-
-                if (fieldtrip[fieldtripKey.firstKey] instanceof Array) {
-                    uncleanedItems = fieldtrip[fieldtripKey.firstKey];
-                } else {
-                    // if fieldtrip['stories_collected'] has object ({'stories':[stories...]}), get to stories
-                    uncleanedItems = fieldtrip[fieldtripKey.firstKey][fieldtripKey.secondKey];
-                }
-
-                let CurrentFieldtripItems = arrayTransformation(uncleanedItems);
-
-                if (typeof CurrentFieldtripItems !== "undefined") {
-                    // the ID key will be the first key of every item object
-                    let IDKey = Object.keys(CurrentFieldtripItems[0])[0];
-                    // create unique list of people, places, or stories
-                    CurrentFieldtripItems.forEach((item) => {
-                        let notExistsInList = true;
-                        UniqueItems.forEach((currentItem) => {
-                            if (currentItem[IDKey] === item[IDKey]) {
-                                notExistsInList = false;
-                            }
-                        });
-                        if (notExistsInList) {
-                            UniqueItems.push(item);
-                        }
-                    });
-                }
-            });
-            return UniqueItems;
-        }
-    } else {
-        return fieldtripsInDates;
+    const fieldtripsInDates = data.fieldtrips.filter((fieldtrip) =>
+        parseInt(fieldtrip.start_date, 10) >= startYear &&
+        parseInt(fieldtrip.end_date, 10) <= endYear),
+        // get the key needed to retrieve IDs
+        IDKey = ontologyToID[ontology];
+    let fieldtripKey,
+        // array to store IDs of items to return
+        UniqueItemIDs = [],
+        // array to store the actual items to return
+        UniqueItems = [];
+    // handling to get the necessary objects from fieldtrips, due to weird data
+    switch (ontology) {
+        case "Fieldtrips":
+            // we already have the fieldtrips in range, so we can return that and stop
+            return fieldtripsInDates;
+        case "People":
+            fieldtripKey = {
+                "firstKey": "people_visited",
+                "secondKey": "person",
+            };
+            break;
+        case "Places":
+            fieldtripKey = {
+                "firstKey": "places_visited",
+                "secondKey": "place",
+            };
+            break;
+        case "Stories":
+            fieldtripKey = {
+                "firstKey": "stories_collected",
+                "secondKey": "story",
+            };
+            break;
+        default:
+            // invalid ontology, warn this and return nothing
+            console.warn(`Invalid ontology: ${ontology}`);
+            return [];
     }
+    // for fieldtrips that fit within dates
+    fieldtripsInDates.forEach((fieldtrip) => {
+        let uncleanedItems;
+        // if we can directly get an array, it is good data and we can just use that
+        if (Array.isArray(fieldtrip[fieldtripKey.firstKey]) === true) {
+            uncleanedItems = fieldtrip[fieldtripKey.firstKey];
+        } else {
+            // bad data, must use the ugly double key access to get the proper array
+            uncleanedItems = fieldtrip[fieldtripKey.firstKey][fieldtripKey.secondKey];
+        }
+        // for each of the retrieved items
+        arrayTransformation(uncleanedItems).forEach((item) => {
+            // make sure we aren't adding a dupe item
+            if (UniqueItemIDs.includes(item[IDKey]) === false) {
+                // add it to our array to return
+                UniqueItems.push(item);
+                // add it to the ID list of found items
+                UniqueItemIDs.push(item[IDKey]);
+            }
+        });
+    });
+    return UniqueItems;
 }
 
 /**

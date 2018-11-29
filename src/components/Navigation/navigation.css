@@ -22,10 +22,6 @@
     background-color: #e6e6e6;
 }
 
-.navigation {
-    height: inherit;
-}
-
 .dataNavigation {
     border: 10px solid #404040;
     background-color: #404040;
@@ -35,19 +31,16 @@
     padding: 10px;
 }
 
-.AssociatedStoriesViewer .stories-container {
+.AssociatedStoriesViewer  ul.book{
+    list-style-type: none;
+    margin: 0;
     width: 100%;
     background-color: #ffffff;
     border: 2px solid rgb(202, 202, 202);
     padding-top: 10px;
 }
 
-.AssociatedStoriesViewer .stories-container ul.book{
-    list-style-type: none;
-    margin: 0;
-}
-
-.AssociatedStoriesViewer .stories-container ul.book li {
+.AssociatedStoriesViewer ul.book li {
     height: 4em;
     background-color: #f9f9f9;
     padding-left: 1.2em;
@@ -97,7 +90,8 @@
     width: 15vw; /* Width of the outside container */
     position: absolute;
     top: 15%;
-    display: none;
+    display: block;
+    z-index: 10;
     -webkit-appearance: none;  /* Override default CSS styles */
     height: 25px; /* Specified height */
     background: #d3d3d3; /* Grey background */
@@ -105,11 +99,6 @@
     opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
     transition: opacity .2s;
-}
-
-.slider.active {
-    display: block;
-    z-index: 100;
 }
 
 /* Mouse-over effects */
@@ -145,4 +134,14 @@
     width: 100%;
     /* remove excess padding */
     padding: 5px 0;
+}
+
+#timelineText {
+    font-size: .8em;
+    color: black;
+    width: 150%;
+}
+
+.fillScreen {
+    height: 100%;
 }

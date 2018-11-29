@@ -1,10 +1,12 @@
-import {combineReducers} from 'redux';
-import tabViewer from './tabViewerReducer';
-import search from './searchReducer';
+import {combineReducers} from "redux";
+import navigator from "./navigatorReducer";
+import search from "./searchReducer";
+import tabViewer from "./tabViewerReducer";
 
 const rootReducer = combineReducers({
-    tabViewer,
+    navigator,
     search,
+    tabViewer,
 });
 
 export default rootReducer;
