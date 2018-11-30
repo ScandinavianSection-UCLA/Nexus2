@@ -112,7 +112,7 @@ class Navigation extends React.Component {
     }
 
     /**
-     * Handler for when an artifact
+     * Handler for when an artifact wants to be retrieved
      * @param {*} id ID of the artifact
      * @param {*} name Display name of the artifact
      * @param {*} type Ontology of the artifact
@@ -158,7 +158,7 @@ class Navigation extends React.Component {
     }
 
     render() {
-        // get relevant stuff from redux + props
+        // get relevant stuff from redux + props (object destructuring)
         const {
             "actions": {addTab, timeFilterHandler},
             "navigatorState": {displayList, fromDate, placeList, timeFilterOn, toDate},
