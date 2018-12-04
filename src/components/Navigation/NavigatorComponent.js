@@ -50,25 +50,31 @@ class Navigation extends Component {
         this.handleLevelTwoClick = this.handleLevelTwoClick.bind(this);
     }
 
-    // componentDidMount() {
-    //     // no keyword loaded
-    //     if (this.props.searchState.inputValue === "") {
-    //         // get state from session storage
-    //         const prevSelection = getSessionStorage("SelectedNavOntology");
-    //         if (prevSelection === null) {
-    //             // if we got nothing, go to stories
-    //             this.handleLevelTwoClick("Stories");
-    //         } else {
-    //             // otherwise go to what was loaded
-    //             this.handleLevelTwoClick(prevSelection.data);
-    //         }
-    //     } else {
-    //         // keyword loaded, we'll be looking at the stories
-    //         this.props.setDisplayLabel("Data Navigator > Stories");
-    //         // show the results associated with it
-    //         this.props.actions.displayItems(this.props.searchState.results);
-    //     }
-    // }
+    componentDidMount() {
+        // no keyword loaded
+        if (this.props.searchState.inputValue === "") {
+            // get state from session storage
+            const prevSelection = getSessionStorage("SelectedNavOntology");
+            if (prevSelection === null) {
+                // if we got nothing, go to stories
+                this.handleLevelTwoClick("Stories");
+            } else {
+                // otherwise go to what was loaded
+                this.handleLevelTwoClick(prevSelection.data);
+            }
+        } else {
+            // keyword loaded, we'll be looking at the stories
+            this.props.setDisplayLabel("Data Navigator > Stories");
+            this.setState({
+                // highlight stories
+                "activeList": "Stories",
+                // no dropdowns to show
+                "dropdownLists": [],
+                // set the path
+                "path": ["Data Navigator", "Stories"],
+            });
+        }
+    }
 
     handleTabClick(nav) {
         // reset search
@@ -352,7 +358,6 @@ Navigation.propTypes = {
         "inputValue": PropTypes.string.isRequired,
         "results": PropTypes.array.isRequired,
     }).isRequired,
-    "searchWord": PropTypes.string.isRequired,
     "setDisplayLabel": PropTypes.func.isRequired,
     "state": PropTypes.object.isRequired,
 };

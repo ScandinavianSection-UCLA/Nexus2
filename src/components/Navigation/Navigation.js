@@ -163,11 +163,10 @@ class Navigation extends React.Component {
             "actions": {addTab, timeFilterHandler},
             "navigatorState": {displayList, fromDate, placeList, timeFilterOn, toDate},
             "searchState": {searchingState},
-            searchWord,
         } = this.props;
         // variable to store the main, center display
         let toDisplay;
-        // based on what is currently being viewd
+        // based on what is currently being viewed
         switch (this.state.displayLabel) {
             // if the user is viewing the ETK Index but hasn't selected anything yet
             case "Topic & Index Navigator > ETK Index":
@@ -199,10 +198,8 @@ class Navigation extends React.Component {
         return (
             <div className="Navigation grid-x grid-padding-x">
                 <div className="medium-3 cell dataNavigation">
-                    <SearchComponent searchWord={searchWord} />
-                    <NavigatorComponent
-                        setDisplayLabel={this.setDisplayLabel.bind(this)}
-                        searchWord={searchWord} />
+                    <SearchComponent />
+                    <NavigatorComponent setDisplayLabel={this.setDisplayLabel.bind(this)} />
                 </div>
                 <div className="medium-5 cell AssociatedStoriesViewer grid-y fillScreen">
                     <form className="cell medium-2 time-filter grid-x">
@@ -321,7 +318,6 @@ Navigation.propTypes = {
     "actions": PropTypes.object.isRequired,
     "navigatorState": PropTypes.object.isRequired,
     "searchState": PropTypes.object.isRequired,
-    "searchWord": PropTypes.string.isRequired,
 };
 
 /**

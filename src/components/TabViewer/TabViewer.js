@@ -23,8 +23,6 @@ class TabViewer extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            // by default, no search to load
-            "searchWord": "",
             // starting off without a drag
             "dragIndicatorX": null,
         };
@@ -64,8 +62,8 @@ class TabViewer extends Component {
                 // for stories, return a StoryView with the story retrieved by the passed ID
                 return <StoryView story={model.getStoryByID(id)} />;
             case "Home":
-                // for the Home tab, return the main Navigation view (home), with the searchWord if set
-                return <Navigation searchWord={this.state.searchWord} />;
+                // for the Home tab, return the main Navigation view (home)
+                return <Navigation />;
             case "Graph":
                 // for the graph, return the GraphView
                 return <GraphView />;
