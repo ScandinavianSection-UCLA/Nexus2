@@ -9,6 +9,7 @@ import "./StoryView.css";
 import MapView from "../MapView/MapView";
 import PropTypes from "prop-types";
 import {bindActionCreators} from "redux";
+import * as searchActions from "../../actions/searchActions";
 import * as tabViewerActions from "../../actions/tabViewerActions";
 import connect from "react-redux/es/connect/connect";
 
@@ -67,7 +68,7 @@ class StoryView extends Component {
                                 // add the story as a node on the graph
                                 addNode(story_id, full_name, "Stories", story);
                                 // open up the story in a new tab
-                                this.props.tabViewerActions.addTab(story_id, full_name, "Stories");
+                                this.props.actions.addTab(story_id, full_name, "Stories");
                             }}>
                             {full_name}
                         </li>;
@@ -220,8 +221,8 @@ class StoryView extends Component {
                                                 className="button keyword-well"
                                                 // when it is clicked
                                                 onClick={() => {
-                                                    // start a search by this keyword
-                                                    this.props.tabViewerActions.addTab(this.placeRecorded.place_id, this.placeRecorded.name, "Places");
+                                                    // open up this place's tab
+                                                    this.props.actions.addTab(this.placeRecorded.place_id, this.placeRecorded.name, "Places");
                                                     // display the place name
                                                 }}>{this.placeRecorded.name}</button>
                                             // otherwise, it isn't applicable
@@ -237,19 +238,20 @@ class StoryView extends Component {
                                     <br />
                                     <b>Associated Keywords</b><br />{
                                         // for each of the keywords
-                                        arrayTransformation(keywords.keyword).map((keyword, i) => {
+                                        arrayTransformation(keywords.keyword).map((keyword) => (
                                             // return a well that triggers a serach by that keyword when clicked
-                                            return <button
+                                            <button
                                                 // make it a button-well
                                                 className="button keyword-well"
-                                                key={i}
+                                                key={keyword.keyword}
                                                 // when it is clicked
                                                 onClick={() => {
                                                     // start a search by this keyword
-                                                    this.props.handleKeywordSearch(keyword.keyword);
-                                                }}>{keyword.keyword}</button>;
-                                        })
-                                    }<br />
+                                                    this.props.actions.searchArtifact(keyword.keyword);
+                                                    // go home to show the results
+                                                    this.props.actions.switchTabs(0);
+                                                }}>{keyword.keyword}</button>))}
+                                    <br />
                                     <b>Places mentioned in story</b> {
                                         // are there any mentioned places
                                         this.placesMentioned.length > 0
@@ -262,7 +264,7 @@ class StoryView extends Component {
                                                     // when it is clicked
                                                     onClick={() => {
                                                         // open up the tab related to this place
-                                                        this.props.tabViewerActions.addTab(place.place_id, place.name, "Places");
+                                                        this.props.actions.addTab(place.place_id, place.name, "Places");
                                                     }}>{place.name}</button>;
                                                 // otherwise, this is not applicable
                                             }) : "N/A"}
@@ -386,7 +388,7 @@ class StoryView extends Component {
 }
 
 StoryView.propTypes = {
-    "handleKeywordSearch": PropTypes.func.isRequired,
+    "actions": PropTypes.object.isRequired,
     "story": PropTypes.shape({
         "annotation": PropTypes.string.isRequired,
         "bibliographic_info": PropTypes.string,
@@ -428,18 +430,30 @@ StoryView.propTypes = {
             "tango_index": PropTypes.array,
         }),
     }),
-    "tabViewerActions": PropTypes.object.isRequired,
 };
 
+/**
+ * Set certain props to access Redux states
+ * @param {Object} state All possible Redux states
+ * @returns {Object} Certain states that are set on props
+ */
 function mapStateToProps(state) {
     return {
         "state": state.tabViewer,
     };
 }
 
+/**
+ * Set the "actions" prop to access Redux actions
+ * @param {*} dispatch Redux actions
+ * @returns {Object} The actions that are mapped to props.actions
+ */
 function mapDispatchToProps(dispatch) {
     return {
-        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+        "actions": {
+            ...bindActionCreators(searchActions, dispatch),
+            ...bindActionCreators(tabViewerActions, dispatch),
+        },
     };
 }
 

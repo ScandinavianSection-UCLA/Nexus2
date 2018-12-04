@@ -1,10 +1,13 @@
-// starter state if there is no previous data
-import initialState from "./initialState";
 // types of actions we can perform
 import * as actions from "../actions/actionTypes";
-import {getKeywords} from "../data-stores/DisplayArtifactModel";
+// fuzzy searcher
 import Fuse from "fuse.js";
+// array-ifier
 import {arrayTransformation} from "../utils";
+// function to get keywords
+import {getKeywords} from "../data-stores/DisplayArtifactModel";
+// starter state if there is no previous data
+import initialState from "./initialState";
 
 const keywords = getKeywords();
 
@@ -21,8 +24,17 @@ export default function search(state = initialState.search, action) {
             return handleFuzzySearch(state, action.payload);
         case actions.SEARCH_KEYWORD:
             return searchKeyword(state, action.payload);
-        case actions.SEARCH_ARTIFACT:
-            return searchArtifact(state, action.payload);
+        case actions.SEARCH_ARTIFACT: {
+            // get the state by performing the search
+            const newState = searchArtifact(state, action.payload);
+            // dispatch the action to update navigator's items with these results
+            action.asyncDispatch({
+                "type": actions.DISPLAY_ITEMS,
+                "payload": newState.results,
+            });
+            // return the post-search state
+            return newState;
+        }
         case actions.SET_SEARCH_STATE:
             return setSearchState(state, action.payload);
         default:
@@ -93,69 +105,57 @@ function handleFuzzySearch(ShallowPrevState, {SearchInput, DisplayList}) {
 
 // TODO: implement searchDisplayArtifact function by copying search component's handleSearch
 /**
- *
- * @param {*} ShallowPrevState
- * @param {*} DisplayArtifact
+ * Search for an artifact, and update the search state accordingly
+ * @param {Object} ShallowPrevState Pre-search state
+ * @param {*} DisplayArtifact Artifact to search for, or a keyword string
+ * @returns {Object} Post-search state
  */
 function searchArtifact(ShallowPrevState, DisplayArtifact) {
-    // create an immutable copy of the previous state
-    let NewState = {...ShallowPrevState};
-    let SearchList;
-    let InputValue = null;
-    // check if selectItem is just a keyword string
+    let artifact = DisplayArtifact,
+        // what to display as the search
+        InputValue = "",
+        // create an immutable copy of the previous state
+        NewState = {...ShallowPrevState},
+        // list of results of search
+        SearchList = [];
+    // check if the artifact is just a keyword string
     if (typeof DisplayArtifact === "string") {
         // if it is, we need to get the keyword object from keywords
-        keywords.forEach((keyword) => {
-            if (keyword.keyword_name === DisplayArtifact) {
-                DisplayArtifact = keyword;
-                SearchList = [DisplayArtifact];
-            }
-        });
-        // if it is still a string that means no keyword matches, and we need to tell Navigation
-        if (typeof DisplayArtifact === "string") {
-            // send list of suggestions to Navigation
+        const match = keywords.find((keyword) => keyword.keyword_name === artifact);
+        // if we found a mtach
+        if (typeof match !== "undefined") {
+            // set artifact to that match
+            artifact = match;
+        } else {
+            // if there is no a keyword match, just pull the first thing from results
             SearchList = NewState.results;
-            InputValue = {...DisplayArtifact};
+            InputValue = artifact;
             // set first suggested item
-            DisplayArtifact = SearchList[0];
+            artifact = SearchList[0];
         }
     } else {
-        SearchList = [DisplayArtifact];
+        SearchList = [artifact];
     }
-
-    // check if DisplayArtifact is a story or keyword, place, or person
-    let DisplayOntology = "";
-    let SearchValue = "";
-
-    if (typeof DisplayArtifact !== "undefined") {
-        if ("story_id" in DisplayArtifact) {
-            DisplayOntology = "Stories";
-            SearchValue = "search_string";
-        } else if ("keyword_id" in DisplayArtifact) {
-            let storiesList = [];
-            if (typeof DisplayArtifact.stories.story !== "undefined") {
-                storiesList = arrayTransformation(DisplayArtifact.stories.story);
-            }
-            // this.props.handleDisplayItems(storiesList, "Stories");
-            console.log("its a keyword!");
-
-            // this.setState({"searching": false, "searchTerm": DisplayArtifact.keyword_name});
-        } else if ("person_id" in DisplayArtifact) {
-            DisplayOntology = "People";
-            SearchValue = "full_name";
-        } else if ("place_id" in DisplayArtifact) {
-            DisplayOntology = "Places";
-            SearchValue = "name";
-        } else if ("fieldtrip_name" in DisplayArtifact) {
-            DisplayOntology = "Fieldtrips";
+    // check if DisplayArtifact is a story, keyword, place, or person
+    if (typeof artifact !== "undefined") {
+        // for keywords
+        if ("keyword_id" in artifact) {
+            // results are all associated stories
+            SearchList = arrayTransformation(artifact.stories.story);
+            // input value is the keyword's name
+            InputValue = artifact.keyword_name;
+        } else if ("story_id" in artifact) {
+            // for stories, input value is its search string
+            InputValue = artifact.search_string;
+        } else if ("person_id" in artifact) {
+            // for people, input value is their whole name
+            InputValue = artifact.full_name;
+        } else if ("place_id" in artifact) {
+            // for places, input value is their name
+            InputValue = artifact.name;
         }
-        if (SearchList.length === 1) { // else if there was a match found, change the search input to what was found
-            InputValue = DisplayArtifact[SearchValue];
-        }
-        // initial input value based on the props (as if search is already complete)
         NewState = {
             "searchingState": false, // stops searching
-            "ontology": DisplayOntology, // defines what ontology to use to display
             "inputValue": InputValue, // updates search field with search result
             "results": SearchList, // sets up list of results to display in navigator,
             "keywordSearch": false,
@@ -163,7 +163,6 @@ function searchArtifact(ShallowPrevState, DisplayArtifact) {
     } else {
         console.warn("DisplayArtifact is undefined");
     }
-
     return NewState;
 }
 

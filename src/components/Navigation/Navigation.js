@@ -31,8 +31,8 @@ class Navigation extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            // to be set later
-            "displayLabel": "",
+            // start at the data navigator
+            "displayLabel": "Data Navigator",
             // start with the sliders hidden
             "fromSelect": false,
             "toSelect": false,

@@ -25,7 +25,6 @@ class Navigation extends Component {
             ],
             "dataNav": ["People", "Places", "Stories"],
             "TINav": ["ETK Index", "Tangherlini Index", "Fieldtrips", "Genres"],
-            "keywordClicked": props.searchWord !== "",
         };
         const prevSelection = getSessionStorage("SelectedNavOntology");
         if (prevSelection !== null) {
@@ -51,14 +50,25 @@ class Navigation extends Component {
         this.handleLevelTwoClick = this.handleLevelTwoClick.bind(this);
     }
 
-    componentDidMount() {
-        const prevSelection = getSessionStorage("SelectedNavOntology");
-        if (prevSelection !== null) {
-            this.handleLevelTwoClick(prevSelection.data);
-        } else {
-            this.handleLevelTwoClick("Stories");
-        }
-    }
+    // componentDidMount() {
+    //     // no keyword loaded
+    //     if (this.props.searchState.inputValue === "") {
+    //         // get state from session storage
+    //         const prevSelection = getSessionStorage("SelectedNavOntology");
+    //         if (prevSelection === null) {
+    //             // if we got nothing, go to stories
+    //             this.handleLevelTwoClick("Stories");
+    //         } else {
+    //             // otherwise go to what was loaded
+    //             this.handleLevelTwoClick(prevSelection.data);
+    //         }
+    //     } else {
+    //         // keyword loaded, we'll be looking at the stories
+    //         this.props.setDisplayLabel("Data Navigator > Stories");
+    //         // show the results associated with it
+    //         this.props.actions.displayItems(this.props.searchState.results);
+    //     }
+    // }
 
     handleTabClick(nav) {
         // reset search
@@ -103,107 +113,68 @@ class Navigation extends Component {
         setSessionStorage("SelectedNavOntology", {
             "data": ontology,
         });
-        // if this wasn't loaded after a keyword was clicked
-        if (!this.state.keywordClicked) {
+        let list = getList(ontology);
+        // if it is person, place, story, or fieldtrip
+        if (["Fieldtrips", "People", "Places", "Stories"].includes(ontology)) {
+            // send to navigation to display results
+            this.props.actions.displayItems(list);
+            // highlight clicked ontology and set dropdownLists to nothing
+            this.setState((oldState) => ({
+                "activeList": ontology,
+                "dropdownLists": [],
+                "path": [oldState.path[0], ontology],
+            }), () => {
+                // set display label (above search results)
+                this.props.setDisplayLabel(this.state.path.join(" > "));
+            });
+        } else {
             // reset results display
             this.props.actions.displayItems([]);
-            let itemsList = getList(ontology);
-            let listObject = {};
-            let isPPSF = (ontology === "People" || ontology === "Places" || ontology === "Stories" || ontology === "Fieldtrips");
-            let selectString, displayKey;
-            // if it is part of Data navigator or it's a fieldtrip
-            if (isPPSF) {
-                // send to navigation to display results
-                this.props.actions.displayItems(itemsList);
-                // highlight clicked ontology and set dropdownLists to nothing
-                this.setState((oldState) => {
-                    if (oldState.path.length >= 2) {
-                        oldState.path = oldState.path.slice(0, 1);
-                    }
-                    oldState.path.push(ontology);
-                    return {
-                        "activeList": ontology,
-                        "path": oldState.path,
-                        "dropdownLists": [],
-                    };
-                }, function() {
-                    // set display label (above search results)
-                    this.props.setDisplayLabel(this.state.path.join(" > "));
-                });
+            // create additional options for people to be in the dropdown menu so people can select everything in the menu
+            const displayKey = ontologyToDisplayKey[ontology];
+            let listObject, selectValue;
+            if (ontology === "ETK Index") {
+                selectValue = `[Select ${ontology}]`;
             } else {
-                // create additional options for people to be in the dropdown menu so people can select everything in the menu
-                selectString = "";
-                if (ontology !== "ETK Index") {
-                    selectString = `[Select ${ontology.slice(0, -1)}]`;
-                } else {
-                    selectString = `[Select ${ontology}]`;
-                }
-                displayKey = ontologyToDisplayKey[ontology];
-                let selectObject = {};
-                selectObject[displayKey] = selectString;
-                let inList = false;
-                itemsList.forEach((item) => {
-                    if (item[displayKey] === selectObject[displayKey]) {
-                        inList = true;
-                    }
-                });
-
-                if (!inList) {
-                    itemsList.unshift(selectObject);
-                }
-                // highlight clicked ontology
-                this.setState((oldState) => {
-                    if (oldState.path.length >= 2) {
-                        oldState.path = oldState.path.slice(0, 1);
-                    }
-                    oldState.path.push(ontology);
-                    return {
-                        "activeList": ontology,
-                        "path": oldState.path,
-                    };
-                }, () => {
-                    // set display label (above search results)
-                    this.props.setDisplayLabel(this.state.path.join(" > "));
+                selectValue = `[Select ${ontology.slice(0, -1)}]`;
+            }
+            // if selected item isn't in the dropdown list
+            if (!list.some((item) => item[displayKey] === selectValue)) {
+                // add it in at the front
+                list.unshift({
+                    [displayKey]: selectValue,
                 });
             }
-            if (ontology !== "Tangherlini Index" && !isPPSF) {
+            // for tango indices
+            if (ontology === "Tangherlini Index") {
+                listObject = {
+                    displayKey,
+                    "list": [
+                        "[Select a Class]",
+                        ...Object.keys(tangoTypes),
+                    ],
+                    ontology,
+                    selectValue,
+                    "tango": true,
+                };
+            } else {
                 // if it is an indice that isn't a tango index
                 listObject = {
-                    "selectValue": selectString,
-                    "displayKey": displayKey,
-                    "ontology": ontology,
+                    displayKey,
+                    list,
+                    ontology,
+                    selectValue,
                     "tango": false,
-                    "list": itemsList,
                 };
-                // highlight clicked ontology
-                this.setState({
-                    "activeList": ontology,
-                    "dropdownLists": [listObject],
-                });
-            } else if (!isPPSF) {
-                // ontology === tangherlini indices
-                let tangoTypesList = Object.keys(tangoTypes);
-                tangoTypesList.unshift("[Select a Class]");
-                listObject = {
-                    "selectValue": selectString,
-                    "displayKey": displayKey,
-                    "ontology": ontology,
-                    "tango": true,
-                    "list": tangoTypesList,
-                };
-
-                // highlight clicked ontology
-                this.setState({
-                    "activeList": ontology,
-                    "dropdownLists": [listObject],
-                });
             }
-        } else {
-            // if a keyword was clicked, just set the default little bookmark thing
-            this.props.setDisplayLabel("Data Navigator > Stories");
-            this.setState({
-                // update it so that we can actually select other things
-                "keywordClicked": false,
+            // highlight clicked ontology
+            this.setState((oldState) => ({
+                "activeList": ontology,
+                "dropdownLists": [listObject],
+                "path": [oldState.path[0], ontology],
+            }), () => {
+                // set display label (above search results)
+                this.props.setDisplayLabel(this.state.path.join(" > "));
             });
         }
     }
@@ -356,6 +327,7 @@ class Navigation extends Component {
  */
 function mapStateToProps(state) {
     return {
+        "searchState": state.search,
         "state": state.tabViewer,
     };
 }
@@ -376,6 +348,10 @@ function mapDispatchToProps(dispatch) {
 
 Navigation.propTypes = {
     "actions": PropTypes.object.isRequired,
+    "searchState": PropTypes.shape({
+        "inputValue": PropTypes.string.isRequired,
+        "results": PropTypes.array.isRequired,
+    }).isRequired,
     "searchWord": PropTypes.string.isRequired,
     "setDisplayLabel": PropTypes.func.isRequired,
     "state": PropTypes.object.isRequired,

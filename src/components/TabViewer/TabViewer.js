@@ -37,7 +37,6 @@ class TabViewer extends Component {
         // stores the left edge X-coordiantes of each tab
         this.tabs = [];
         // properly bind functions so that they can work in sub-elements
-        this.handleKeywordSearch = this.handleKeywordSearch.bind(this);
         this.renderActiveTab = this.renderActiveTab.bind(this);
         this.handleLocationChanged = this.handleLocationChanged.bind(this);
     }
@@ -62,12 +61,8 @@ class TabViewer extends Component {
                 // for fieldtrip, return a FieldtripViewwith the fieldtrip retrieved by the passed ID
                 return <FieldtripView fieldtrip={model.getFieldtripsByID(id)} />;
             case "Stories":
-                // for stories, return a StoryView
-                return <StoryView
-                    // with the story retrieved by the passed ID
-                    story={model.getStoryByID(id)}
-                    // function to handle any potential clicked keywords
-                    handleKeywordSearch={this.handleKeywordSearch} />;
+                // for stories, return a StoryView with the story retrieved by the passed ID
+                return <StoryView story={model.getStoryByID(id)} />;
             case "Home":
                 // for the Home tab, return the main Navigation view (home), with the searchWord if set
                 return <Navigation searchWord={this.state.searchWord} />;
@@ -98,20 +93,6 @@ class TabViewer extends Component {
         const activeView = this.props.state.views[activeViewIndex];
         // return the rendered content of the tab
         return this.renderPPFS(activeView.id, activeView.type, activeViewIndex);
-    }
-
-    /**
-     * Handler for when a keyword is clicked, show the related stories
-     * @param {String} keyword The keyword that was clicked
-     */
-    handleKeywordSearch(keyword) {
-        this.setState({
-            // update the word that was clicked
-            "searchWord": keyword,
-        }, function() {
-            // go to the home tab
-            this.props.tabViewerActions.switchTabs(0);
-        });
     }
 
     // called when a tab begins being dragged
@@ -270,12 +251,22 @@ TabViewer.propTypes = {
     }).isRequired,
 };
 
+/**
+ * Set certain props to access Redux states
+ * @param {Object} state All possible Redux states
+ * @returns {Object} Certain states that are set on props
+ */
 function mapStateToProps(state) {
     return {
         "state": state.tabViewer,
     };
 }
 
+/**
+ * Set the "tabViewerActions" prop to access Redux actions
+ * @param {*} dispatch Redux actions
+ * @returns {Object} The actions that are mapped to props.actions
+ */
 function mapDispatchToProps(dispatch) {
     return {
         "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
