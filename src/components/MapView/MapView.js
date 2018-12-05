@@ -4,6 +4,7 @@
 import React from "react";
 import "./MapView.css";
 import L from "leaflet";
+import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 import PropTypes from "prop-types";
 
 const places_geo = {
@@ -79,98 +80,14 @@ const places_geo = {
 let zoom = 7;
 
 class MapView extends React.Component {
-    componentDidMount() {
-        // create map
-        let mapCenter = [56.2639, 9.5018];
-        this.map = L.map(this.container, {
-            "center": mapCenter,
-            "zoom": zoom,
-        });
-        let openStreet = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
-            "attribution": "&copy; <a href=\"http://osm.org/copyright\">OpenStreetMap</a> contributors",
-        });
-        let oldLayer = L.tileLayer("http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png", {
-            "attribution": "Map tiles by <a href=\"http://stamen.com\">Stamen Design</a>, <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a> &mdash; Map data &copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>",
-        });
-        let highBoards = L.tileLayer.wms("http://kortforsyningen.kms.dk/service?servicename=topo20_hoeje_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;", {
-            "layers": "dtk_hoeje_maalebordsblade",
-            "format": "image/png",
-        });
-        let prussianMaps = L.tileLayer.wms("http://kortforsyningen.kms.dk/service?servicename=topo25_preussen_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;", {
-            "layers": "dtk_preussen_maalebordsblade",
-            "format": "image/png",
-        });
-        let lowBoards = L.tileLayer.wms("http://kortforsyningen.kms.dk/service?servicename=topo20_lave_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;", {
-            "layers": "dtk_lave_maalebordsblade",
-            "format": "image/png",
-        }).addTo(this.map);
-
-        let baseMaps = {
-            "Low Boards": lowBoards,
-            "Total Narc Map": openStreet,
-            "Black & White Sexy": oldLayer,
-            "High Boards": highBoards,
-            "Prussian": prussianMaps,
-        };
-
-        this.updateMarkers(this.props.places);
-        this.controlLayers = L.control.layers(baseMaps, null).addTo(this.map);
+    state = {
+        lat: 51.505,
+        lng: -0.09,
+        zoom: 13,
     }
-
-    setZoomLevel() {
-        zoom = this.props.places.length < 1 || Array.isArray(this.props.person) ? 12 : 7;
-    }
-
-    updateMarkers() {
-        this.setZoomLevel();
-        // if we have actual places
-        // making this false makes a bunch of weird markers pop up on NavigationView's map
-        if (this.props.places !== null && this.props.places.length < 0) {
-            // if it's not a proper array, make it an empty array
-            let array = this.props.places;
-            // filter out any null (i.e. invalid) places from the array
-            array = array.filter(place => place !== null);
-            // loop runs
-            const loopCounter = Math.min(array.length, 10) - 1;
-            const {place_id, latitude, longitude} = array[loopCounter];
-            this.geoJson = L.geoJSON(places_geo, {
-                "pointToLayer": function(feature, latlng) {
-                    if (place_id === feature.properties.place_place_id) {
-                        if (feature.properties.place_people_person_full_name !== null) {
-                            return L.circleMarker(latlng, {"color": "#0000ff"}).bindPopup(feature.properties.place_people_person_full_name);
-                        } else {
-                            return L.circleMarker(latlng, {"color": "#0000ff"}).bindPopup("there is no name in here,this box can say whaterver we want or not appear at all");
-                        }
-                    }
-                },
-            }).addTo(this.map);
-            if (typeof latitude !== "undefined" && typeof longitude !== "undefined") {
-                this.map.setView(new L.LatLng(latitude, longitude), zoom);
-            }
-        } else {
-            this.geoJson = L.geoJSON(places_geo, {
-                "pointToLayer": function(feature, latlng) {
-                    if (feature.properties.place_people_person_full_name !== null) {
-                        return L.circleMarker(latlng, {
-                            "color": "#9f0733",
-                            "fillColor": "#05507c",
-                            "fillOpacity": 1,
-                            "radius": 6,
-                        }).bindPopup(feature.properties.place_people_person_full_name);
-                    } else {
-                        return L.circleMarker(latlng, {
-                            "color": "#9f0733",
-                            "fillColor": "#05507c",
-                            "fillOpacity": 1,
-                            "radius": 6,
-                        }).bindPopup("there is no name in here,this box can say whaterver we want or not appear at all");
-                    }
-                },
-            }).addTo(this.map);
-        }
-    }
-
     render() {
+        const position = [this.state.lat, this.state.lng];
+        console.log(this.props.places);
         if (typeof this.map !== "undefined") {
             if (this.geoJson !== null) {
                 this.map.removeLayer(this.geoJson);
@@ -180,11 +97,18 @@ class MapView extends React.Component {
         }
 
         return (
-            <div
-                className="MapView"
-                style={{"height": this.props.height}}
-                ref={ref => this.container = ref} />
-        );
+            <Map center={position} zoom={this.state.zoom}>
+                <TileLayer
+                    attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                <Marker position={position}>
+                    <Popup>
+                        A pretty CSS3 popup. <br /> Easily customizable.
+                    </Popup>
+                </Marker>
+            </Map>
+        )
     }
 }
 
