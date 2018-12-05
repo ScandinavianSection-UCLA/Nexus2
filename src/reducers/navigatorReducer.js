@@ -4,10 +4,11 @@ import * as actions from "../actions/actionTypes";
 import {
     DisplayArtifactToOntology,
     dateFilterHelper,
-    ontologyToID,
+    ontologyToID, getPlacesByID,
 } from "../data-stores/DisplayArtifactModel";
 // starter state if there is no previous data
 import initialState from "./initialState";
+import {ArrNoDupe} from "../utils";
 
 /**
  * Generic handler for navigator
@@ -88,12 +89,41 @@ function updateItems(prevState) {
  * @returns {Object} The state with new items
  */
 function displayItems(prevState, list) {
+    // set placeList - if people, then pull places associated with people, etc.
+    let PlaceList = [];
+    let InitialItem = list[0];
+    if(InitialItem !== undefined){
+        //if item is a person
+        if('residence_place' in InitialItem){
+            list.forEach((person)=>{
+                if(person['residence_place'] !== null){
+                    let place = {...person['residence_place'], full_name: person['full_name']};
+                    // console.log(place);
+                    PlaceList.push(place);
+                }
+            });
+            // PlaceList = ArrNoDupe(PlaceList);
+        } else if( 'latitude' in InitialItem ){ // if item is a place
+            PlaceList = list;
+        } else { //if item is a story
+            console.log(list);
+            list.forEach((story)=>{
+                if(story['place_recorded'] !== undefined){
+                    // console.log(getPlacesByID(story['place_recorded'].id));
+                    let place = {...getPlacesByID(story['place_recorded'].id), full_name: story['full_name']};
+                    PlaceList.push(place);
+                }
+            });
+            // PlaceList = ArrNoDupe(PlaceList);
+        }
+    }
+
     // set up the items based on
     const newState = {
         ...prevState,
         "displayList": list,
         "itemsList": list,
-        "placeList": list,
+        "placeList": PlaceList,
     };
     if (newState.timeFilterOn === true) {
         // if the time filter is on, we need
