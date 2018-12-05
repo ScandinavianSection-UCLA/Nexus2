@@ -77,36 +77,43 @@ const places_geo = {
     ],
 };
 
-let zoom = 7;
+const ZOOM_LEVEL = 7;
+const MAP_CENTER = [56.2639, 9.5018];
 
 class MapView extends React.Component {
     state = {
         lat: 51.505,
         lng: -0.09,
         zoom: 13,
+    };
+
+    renderMarkers(places){
+        var InitialPlace = places[0];
+        if(InitialPlace !== undefined){
+            if('latitude' in InitialPlace){
+                return places.map((place, i)=>{
+                    let POSITION = [place.latitude, place.longitude];
+                    return <Marker position={POSITION}>
+                        <Popup>
+                            {place.name}
+                        </Popup>
+                    </Marker>
+                })
+            }
+        }
     }
+
     render() {
         const position = [this.state.lat, this.state.lng];
         console.log(this.props.places);
-        if (typeof this.map !== "undefined") {
-            if (this.geoJson !== null) {
-                this.map.removeLayer(this.geoJson);
-            }
-            this.updateMarkers(this.props.places);
-            zoom = 7;
-        }
 
         return (
-            <Map center={position} zoom={this.state.zoom}>
+            <Map center={MAP_CENTER} zoom={ZOOM_LEVEL}>
                 <TileLayer
                     attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                <Marker position={position}>
-                    <Popup>
-                        A pretty CSS3 popup. <br /> Easily customizable.
-                    </Popup>
-                </Marker>
+                {this.renderMarkers.bind(this)(this.props.places)}
             </Map>
         )
     }

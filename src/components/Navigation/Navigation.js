@@ -119,8 +119,6 @@ class Navigation extends React.Component {
      * @param {*} item The artifact
      */
     handleIDQuery(id, name, type, item) {
-        // update this.props.places for the map component
-        this.map.updateMarkers();
         // add node to network graph
         addNode(id, name, type, item);
         // open up the artifact's tab
