@@ -7,6 +7,7 @@
     "create-react-class": "^15.6.3",
     "d3": "^5.7.0",
     "domain-browser": "^1.2.0",
+    "epubjs": "^0.3.82",
     "foundation-sites": "^6.4.4-rc1",
     "fuse-js-latest": "^3.1.0",
     "json-loader": "^0.5.7",

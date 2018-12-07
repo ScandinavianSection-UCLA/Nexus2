@@ -36,7 +36,6 @@ class TabViewer extends Component {
         this.tabs = [];
         // properly bind functions so that they can work in sub-elements
         this.renderActiveTab = this.renderActiveTab.bind(this);
-        this.handleLocationChanged = this.handleLocationChanged.bind(this);
     }
 
     /**
@@ -68,12 +67,8 @@ class TabViewer extends Component {
                 // for the graph, return the GraphView
                 return <GraphView />;
             case "Book": {
-                // const activeViewIndex = this.props.state.views.find((view) => view.type = type);
                 // for the book, return the BookView, with the chapter ID that was selected
-                return <BookView
-                    page={this.props.state.views[tabIndex].id}
-                    handleLocationChanged={this.handleLocationChanged}
-                    nextPage={this.nextPage} />;
+                return <BookView viewIndex={tabIndex} id={id}/>;
             }
             default:
                 // if it wasn't one of the above types, warn that we hit an unknown type
@@ -113,8 +108,8 @@ class TabViewer extends Component {
             // if drag is to the right, draw the drag indicator on the right of the tab where it would be dropped
             // if it was to the left, draw the indicator on the left of the tab where it would be dropped
             // if we are at the same index don't draw anything
-            "dragIndicatorX": newIndex > this.originalIndex ? this.tabs[newIndex].right :
-                newIndex < this.originalIndex ? this.tabs[newIndex].left : null,
+            "dragIndicatorX": newIndex > this.originalIndex ? this.tabs[newIndex].right
+                : newIndex < this.originalIndex ? this.tabs[newIndex].left : null,
         });
     }
 
@@ -133,17 +128,6 @@ class TabViewer extends Component {
         });
     }
 
-    // called when the book view goes to a new page
-    handleLocationChanged(newPage) {
-        this.props.tabViewerActions.updateTab(
-            // update the active tab (i.e. the currently viewed book)
-            this.props.state.views.findIndex((view) => view.active),
-            {
-                // to be on the new page
-                "id": newPage,
-            });
-    }
-
     render() {
         return (
             <div className="TabViewer grid-container full">
@@ -156,8 +140,7 @@ class TabViewer extends Component {
                     {/* List of tabs that are displayed at the bottom of the browser/app*/}
                     <ul className="tabs cell medium-1"> {/* medium-1 sets the height of the tabs*/}
                         {/* for each tab to display */}
-                        {this.props.state.views.map((view, index) => {
-                            return (
+                        {this.props.state.views.map((view, index) => (
                                 // return a tab JSX element
                                 <li
                                     // based on the actual DOM element that results
@@ -217,8 +200,7 @@ class TabViewer extends Component {
                                                 this.props.tabViewerActions.closeTab(index);
                                             }} />}
                                 </li>
-                            );
-                        })}
+                            ))}
                     </ul>
                 </div>
                 {/* only display if we are currently dragging an element */}

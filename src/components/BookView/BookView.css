@@ -11,3 +11,13 @@
     padding: .5rem;
     outline: none;
 }
+
+.book {
+    height: 82vh;
+    width: 100vw;
+}
+
+.BookView {
+    position: relative;
+    height: 82vh;
+}
