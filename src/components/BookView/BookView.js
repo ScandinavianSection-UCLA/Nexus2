@@ -4,57 +4,77 @@ import React, {Component} from "react";
 import PropTypes from "prop-types";
 // styling for the view
 import "./BookView.css";
+// book viewer
 import ePub from "epubjs";
 // redux functionality
 import {bindActionCreators} from "redux";
 import {connect} from "react-redux";
 // actions to manipulate the tabs
 import * as tabViewerActions from "../../actions/tabViewerActions";
+// data for the dropdown
+import menuList from "../../data/book_menu.json";
 
 class BookView extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            // start with normal text
-            "largeText": false,
-        };
         // to be set once the book is rendered
         this.book = null;
         this.rendition = null;
-        this.display = null;
+        // ref to the book div so we can render the content there
         this.bookRef = React.createRef();
+        // bind the event handler so it works properly inside the listener
         this.handleKeyPress = this.handleKeyPress.bind(this);
     }
 
+    // called after the DOM loads for the first time
     componentDidMount() {
+        // add an event listener for left and right arrow controls
+        document.addEventListener("keydown", this.handleKeyPress, false);
         // load the .epub book
         this.book = ePub("/Book/merge_from_ofoct.epub");
         // when it has successfully loaded
         this.book.loaded.navigation.then(({toc}) => {
-            const location = this.props.state.views[this.props.viewIndex].id,
-                node = this.bookRef.current;
+            const node = this.bookRef.current;
             // render the book to the "book" div
             this.rendition = this.book.renderTo(node, {
                 // make it occupy all that space
                 "height": "100%",
                 "width": "100%",
             });
-
+            // variable to store the final location
+            let location;
+            // numerical ID means it's a chapter number
+            if (typeof this.props.id === "number") {
+                // get the corresponding spot in the book for the chapter
+                location = toc[menuList[this.props.id].id - 1].href;
+            } else if (typeof this.props.id === "string") {
+                // id is a string location in the book, use that
+                location = this.props.id;
+            } else {
+                // bad type, warn that
+                console.warn("Invalid id: ", this.props.id);
+            }
             // display the book
-            this.display = this.rendition.display(
-                typeof location === "string" || typeof location === "number"
-                    ? location
-                    : toc[0].href
-            );
-            document.addEventListener("keydown", this.handleKeyPress, false);
+            this.rendition.display(location);
+            // update the tab's ID whenever the page is changed (so it can be re-loaded later)
+            this.rendition.on("locationChanged", (newPage) => {
+                this.props.tabViewerActions.updateTab(this.props.viewIndex, {
+                    "id": newPage.start,
+                });
+            });
         });
     }
 
+    // called as the book is being switched away from/closed
     componentWillUnmount() {
+        // "delete" the book and rendition
+        this.book = null;
+        this.rendition = null;
+        // remove our event listener
         document.removeEventListener("keydown", this.handleKeyPress, false);
-        console.log("unmounted! woo!");
     }
 
+    // handler for key presses
     handleKeyPress({key}) {
         switch (key) {
             // when the right arrow is clicked
@@ -62,7 +82,9 @@ class BookView extends Component {
                 // go to the next page
                 this.rendition.next();
                 break;
+            // when the left arrow is clicked
             case "ArrowLeft":
+                // go to the previous page
                 this.rendition.prev();
                 break;
         }
@@ -71,14 +93,31 @@ class BookView extends Component {
     render() {
         return (
             // div to contain book + button
-            <div className="BookView">
-                <div className="book" ref={this.bookRef} />
+            <div className="BookView grid-x">
+                {/* button to go back a page */}
+                <button
+                    className="cell medium-1"
+                    onClick={() => {
+                        this.rendition.prev();
+                    }}>&lt;</button>
+                {/* actual book content */}
+                <div className="book cell medium-10" ref={this.bookRef} />
+                {/* button to go forward a page */}
+                <button
+                    className="cell medium-1"
+                    onClick={() => {
+                        this.rendition.next();
+                    }}>&gt;</button>
             </div>
         );
     }
 }
 
 BookView.propTypes = {
+    "id": PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number,
+    ]),
     "state": PropTypes.shape({
         "views": PropTypes.arrayOf(
             PropTypes.shape({

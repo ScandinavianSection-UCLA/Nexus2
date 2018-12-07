@@ -14,7 +14,12 @@
 
 .book {
     height: 82vh;
-    width: 100vw;
+    width: 90vw;
+    margin: auto;
+}
+
+button {
+    font-size: 100px;
 }
 
 .BookView {
