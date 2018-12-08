@@ -13,7 +13,8 @@
 }
 
 .book {
-    height: 82vh;
+    /* top: 10vh; */
+    height: 75vh;
     width: 90vw;
     margin: auto;
 }
@@ -38,12 +39,6 @@
     z-index: 1000;
 }
 
-.toc-button {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
 .toc .solid {
     position: absolute;
     left: 0;
@@ -59,7 +54,27 @@
     padding: 5px;
 }
 
+.searchResult {
+    display: block;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    text-align: left;
+    width: 100%;
+}
+
+.searchResult:hover {
+    background-color: #bbb;
+}
+
 .toc-item:hover {
     background-color: #bbb;
     cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.results {
+    overflow: scroll;
 }
