@@ -18,11 +18,48 @@
     margin: auto;
 }
 
-button {
+.pager {
     font-size: 100px;
 }
 
 .BookView {
     position: relative;
     height: 82vh;
+}
+
+.toc {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: #7777;
+    color: white;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.toc-button {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.toc .solid {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30vw;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.toc-item {
+    display: block;
+    padding: 5px;
+}
+
+.toc-item:hover {
+    background-color: #bbb;
+    cursor: pointer;
 }

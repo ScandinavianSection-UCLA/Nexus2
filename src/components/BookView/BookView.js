@@ -1,5 +1,5 @@
 // react functionality
-import React, {Component} from "react";
+import React,{Component} from "react";
 // prop validation
 import PropTypes from "prop-types";
 // styling for the view
@@ -17,9 +17,14 @@ import menuList from "../../data/book_menu.json";
 class BookView extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            // start with the chapter list hidden
+            "dropdownActive": false,
+        };
         // to be set once the book is rendered
         this.book = null;
         this.rendition = null;
+        this.dropdownJSX = [];
         // ref to the book div so we can render the content there
         this.bookRef = React.createRef();
         // bind the event handler so it works properly inside the listener
@@ -29,14 +34,36 @@ class BookView extends Component {
     // called after the DOM loads for the first time
     componentDidMount() {
         // add an event listener for left and right arrow controls
-        document.addEventListener("keydown", this.handleKeyPress, false);
+        document.addEventListener("keydown",this.handleKeyPress,false);
         // load the .epub book
         this.book = ePub("/Book/merge_from_ofoct.epub");
         // when it has successfully loaded
         this.book.loaded.navigation.then(({toc}) => {
+            // generate our TOC list based on the chapters
+            this.dropdownJSX = toc.map((chapter) => (
+                // each is a button
+                <button
+                    // style it as a TOC element
+                    className="toc-item"
+                    // unique key for React
+                    key={chapter.label}
+                    // handler for when it is clicked
+                    onClick={() => {
+                        // go to the chapter that was clciked
+                        this.rendition.display(chapter.href);
+                        // hide the dropdown
+                        this.setState({
+                            "dropdownActive": false,
+                        });
+                    }}>
+                    {/* display the whitespace stripped version of the chapter title */}
+                    {chapter.label.trim()}
+                </button>
+            ));
+            // node to render the book to
             const node = this.bookRef.current;
             // render the book to the "book" div
-            this.rendition = this.book.renderTo(node, {
+            this.rendition = this.book.renderTo(node,{
                 // make it occupy all that space
                 "height": "100%",
                 "width": "100%",
@@ -52,13 +79,13 @@ class BookView extends Component {
                 location = this.props.id;
             } else {
                 // bad type, warn that
-                console.warn("Invalid id: ", this.props.id);
+                console.warn("Invalid id: ",this.props.id);
             }
             // display the book
             this.rendition.display(location);
             // update the tab's ID whenever the page is changed (so it can be re-loaded later)
-            this.rendition.on("locationChanged", (newPage) => {
-                this.props.tabViewerActions.updateTab(this.props.viewIndex, {
+            this.rendition.on("locationChanged",(newPage) => {
+                this.props.tabViewerActions.updateTab(this.props.viewIndex,{
                     "id": newPage.start,
                 });
             });
@@ -71,7 +98,7 @@ class BookView extends Component {
         this.book = null;
         this.rendition = null;
         // remove our event listener
-        document.removeEventListener("keydown", this.handleKeyPress, false);
+        document.removeEventListener("keydown",this.handleKeyPress,false);
     }
 
     // handler for key presses
@@ -93,21 +120,38 @@ class BookView extends Component {
     render() {
         return (
             // div to contain book + button
-            <div className="BookView grid-x">
-                {/* button to go back a page */}
-                <button
-                    className="cell medium-1"
-                    onClick={() => {
-                        this.rendition.prev();
-                    }}>&lt;</button>
-                {/* actual book content */}
-                <div className="book cell medium-10" ref={this.bookRef} />
-                {/* button to go forward a page */}
-                <button
-                    className="cell medium-1"
-                    onClick={() => {
-                        this.rendition.next();
-                    }}>&gt;</button>
+            <div className="BookView">
+                {this.state.dropdownActive === true &&
+                    <div className="toc"
+                        onClick={() => {
+                            this.setState({
+                                "dropdownActive": false,
+                            });
+                        }}>
+                        <div className="solid">{this.dropdownJSX}</div>
+                    </div>}
+                <button className="toc-button button primary" onClick={(event) => {
+                    event.stopPropagation();
+                    this.setState((prevState) => ({
+                        "dropdownActive": !prevState.dropdownActive,
+                    }));
+                }}>Table of Contents</button>
+                <div className="grid-x">
+                    {/* button to go back a page */}
+                    <button
+                        className="cell medium-1 pager"
+                        onClick={() => {
+                            this.rendition.prev();
+                        }}>&lt;</button>
+                    {/* actual book content */}
+                    <div className="book cell medium-10" ref={this.bookRef} />
+                    {/* button to go forward a page */}
+                    <button
+                        className="pager cell medium-1"
+                        onClick={() => {
+                            this.rendition.next();
+                        }}>&gt;</button>
+                </div>
             </div>
         );
     }
@@ -133,7 +177,7 @@ BookView.propTypes = {
         "addTab": PropTypes.func,
         "closeTab": PropTypes.func,
         "moveTab": PropTypes.func,
-        "switchTabs": PropTypes.func,
+        "switchTaxbs": PropTypes.func,
         "updateTab": PropTypes.func.isRequired,
     }).isRequired,
     "viewIndex": PropTypes.number.isRequired,
@@ -157,7 +201,7 @@ function mapStateToProps(state) {
  */
 function mapDispatchToProps(dispatch) {
     return {
-        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+        "tabViewerActions": bindActionCreators(tabViewerActions,dispatch),
     };
 }
 
