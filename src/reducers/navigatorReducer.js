@@ -10,6 +10,33 @@ import {
 import initialState from "./initialState";
 
 /**
+ * Generic handler for navigator
+ * @param {Object} state The pre-update state
+ * @param {Object} action Action to do to the tabs
+ * @returns {Object} The updated state
+ */
+export default function navigator(state = initialState.navigator, {payload, type}) {
+    // depending on which action to perform
+    switch (type) {
+        // if we are to add a tab
+        case actions.UPDATE_ITEMS:
+            return updateItems(state);
+        // if we are to add a tab
+        case actions.DISPLAY_ITEMS:
+            return displayItems(state, payload);
+        // if we are to add a tab
+        case actions.TIME_FILTER_HANDLER:
+            return timeFilterHandler(state, payload);
+        // unhandled action type
+        default:
+            // warn that we hit a bad action
+            console.warn(`Invalid action: ${type}`);
+            // don't change anything
+            return state;
+    }
+}
+
+/**
  * Update the items displayed in Navigator
  * @param {Object} prevState Pre-update state
  * @returns {Object} State with an updated displayList
@@ -115,32 +142,5 @@ function timeFilterHandler(prevState, {checked, name, value}) {
         default:
             console.warn(`Invalid filter: ${name}`);
             return prevState;
-    }
-}
-
-/**
- * Generic handler for navigator
- * @param {Object} state The pre-update state
- * @param {Object} action Action to do to the tabs
- * @returns {Object} The updated state
- */
-export default function navigator(state = initialState.navigator, {payload, type}) {
-    // depending on which action to perform
-    switch (type) {
-        // if we are to add a tab
-        case actions.UPDATE_ITEMS:
-            return updateItems(state);
-        // if we are to add a tab
-        case actions.DISPLAY_ITEMS:
-            return displayItems(state, payload);
-        // if we are to add a tab
-        case actions.TIME_FILTER_HANDLER:
-            return timeFilterHandler(state, payload);
-        // unhandled action type
-        default:
-            // warn that we hit a bad action
-            console.warn(`Invalid action: ${type}`);
-            // don't change anything
-            return state;
     }
 }
