@@ -82,9 +82,9 @@ class Heading extends Component {
                             {/* list of all the chapters */}
                             <ul className="list">
                                 {/* for each of the chapter links */}
-                                {menuList.map((menuItem, i) => {
+                                {menuList.map((menuItem, i) => (
                                     // return a single element of the list
-                                    return <li
+                                    <li
                                         // unique key for react re-rendering
                                         key={i}
                                         // style it as a dropdown element
@@ -94,10 +94,10 @@ class Heading extends Component {
                                             // prevent default click behavior
                                             event.preventDefault();
                                             // add a tab to the desired chapter
-                                            this.props.tabViewerActions.addTab(menuItem.location, menuItem.name, "Book");
+                                            this.props.tabViewerActions.addTab(menuItem.id - 3, menuItem.name, "Book");
                                         }}
-                                    >{menuItem.name}</li>;
-                                })}
+                                    >{menuItem.name}</li>
+                                ))}
                             </ul>
                         </div>
                     </div>
