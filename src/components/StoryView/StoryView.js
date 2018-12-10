@@ -100,7 +100,7 @@ class StoryView extends Component {
     bibliographicReferences() {
         const {bibliography_references} = this.props.story;
         // no references, alert the viewer
-        if (bibliography_references === null) {
+        if (bibliography_references === null || bibliography_references.reference.length === 0) {
             return <div className="callout alert">
                 <h6>No references for this story.</h6>
             </div>;
@@ -109,9 +109,10 @@ class StoryView extends Component {
                 <tbody>{
                     // display each reference on a row
                     arrayTransformation(bibliography_references.reference).map((reference) => {
-                        let {display_string} = reference;
+                        const {display_string} = reference;
                         return <tr key={display_string}>
-                            <td>{display_string}</td>
+                            {/* parse the html and display it (to show the formatting/italics, etc.) */}
+                            <td dangerouslySetInnerHTML={{"__html": display_string}} />
                         </tr>;
                     })}
                 </tbody>
