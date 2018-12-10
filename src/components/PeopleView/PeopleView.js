@@ -38,6 +38,9 @@ class PeopleView extends Component {
     }
 
     render() {
+        console.log(getPlaceIDList(arrayTransformation(this.props.person.places))
+            .map((placeID) => getPlacesByID(placeID)));
+
         return (
             <div className="PeopleView grid-y">
                 <div className="tab-header cell medium-1">
@@ -65,7 +68,7 @@ class PeopleView extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="medium-4 cell">
+                        <div className="medium-4 cell" style={{height:'80vh'}}>
                             <MapView places={
                                 // get a list of all IDs of associated places
                                 getPlaceIDList(arrayTransformation(this.props.person.places))

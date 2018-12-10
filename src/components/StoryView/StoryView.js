@@ -198,7 +198,9 @@ class StoryView extends Component {
         return (
             <div className="StoryView grid-x">
                 <div className="medium-3 cell">
-                    <MapView height={"30vh"} places={PlacesArray} />
+                    <div style={{'height':'30vh'}}>
+                        <MapView places={PlacesArray} />
+                    </div>
                     <ul className="accordion" data-accordian>
                         <li className={`accordion-item ${openTab === 0 ? "is-active" : ""}`}>
                             <a
