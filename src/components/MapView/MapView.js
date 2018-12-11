@@ -11,8 +11,8 @@ import {
     Marker,
     Popup,
     TileLayer,
-    WMSTileLayer,
-} from "react-leaflet";
+    WMSTileLayer
+} from "react-leaflet"
 
 // constants + defaults for our map
 const {BaseLayer} = LayersControl,
