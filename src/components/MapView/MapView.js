@@ -70,8 +70,20 @@ class MapView extends React.Component {
     defineMapCenter() {
         // get filtered places
         const places = this.prunePlaces();
+        if(this.props.view === "Fieldtrip"){
+            //find longitude average
+            var AvgLongitude;
+            var TotalLongitude = 0;
+            places.forEach((place)=>{
+                TotalLongitude += place.longitude;
+            });
+            AvgLongitude = TotalLongitude/places.length;
+            const MedianPlaceIndex = places.length/2 | 0;
+            const MedianPlace = places[MedianPlaceIndex];
+            return [MedianPlace.latitude, AvgLongitude];
+        }
         // if places is of an adequate size
-        if (places.length > 0 && places.length < 20) {
+        else if (places.length > 0 && places.length < 20) {
             // get the first place
             const initialPlace = places[0];
             // use that as the map center
@@ -89,8 +101,11 @@ class MapView extends React.Component {
     defineMapZoom() {
         // get filtered places
         const places = this.prunePlaces();
+        if(this.props.view === "Fieldtrip"){
+            return 9;
+        }
         // if places is of an adequate size
-        if (places.length > 0 && places.length < 20) {
+        else if (places.length > 0 && places.length < 20) {
             // use 14 at the zoom (any reason why 14?)
             return 14;
         } else {
@@ -104,7 +119,7 @@ class MapView extends React.Component {
             switch (tile.type) {
                 case "TILE":
                     return (
-                        <BaseLayer name={tile.name} key={i}>
+                        <BaseLayer checked={tile.checked} name={tile.name} key={i}>
                             <TileLayer
                                 attribution={tile.attribution}
                                 url={tile.url}
@@ -114,22 +129,20 @@ class MapView extends React.Component {
                     );
                 case "WMS":
                     return (
-                        <BaseLayer checked name={tile.name} key={i}>
+                        <BaseLayer checked={tile.checked} name={tile.name} key={i}>
                             <WMSTileLayer
                                 layers={tile.layers}
                                 format={tile.format}
                                 url={tile.url}
-                                checked={tile.checked}
                             />
                         </BaseLayer>
                     );
                 default:
                     return (
-                        <BaseLayer name={tile.name}>
+                        <BaseLayer checked={tile.checked} name={tile.name}>
                             <TileLayer
                                 attribution={tile.attribution}
                                 url={tile.url}
-                                checked={tile.checked}
                             />
                         </BaseLayer>
                     );

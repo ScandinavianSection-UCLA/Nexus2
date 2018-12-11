@@ -2,15 +2,29 @@ import React, {Component} from "react";
 import RightBar from "../RightBar/RightBar";
 import "./FieldtripView.css";
 import PropTypes from "prop-types";
+import MapView from "../MapView/MapView";
+import {getPlacesByID} from "../../data-stores/DisplayArtifactModel";
 
 class FieldtripView extends Component {
     render() {
+        let PlacesVisited = [];
+        this.props.fieldtrip.places_visited.forEach((place)=>{
+           let Place = getPlacesByID(place.place_id);
+           if(Place.longitude !== null && Place.latitude !== null){
+               PlacesVisited.push({
+                   ...place,
+                   longitude: Place.longitude,
+                   latitude: Place.latitude,
+               });
+           }
+        });
         return (
             <div className="FieldtripView grid-x">
-                <div className="medium-11 cell">
+                <div className="medium-11 cell main">
                     {/* should add more later, currently only displays timing of the fieldtrip*/}
                     <h3>{this.props.fieldtrip.fieldtrip_name}</h3>
                     <h4>{this.props.fieldtrip.start_date} to {this.props.fieldtrip.end_date}</h4>
+                    <MapView places={PlacesVisited} view={"Fieldtrip"}/>
                 </div>
                 {/* right bar with all the relevant PPS for the fieldtrip */}
                 <RightBar view="Fieldtrips"
