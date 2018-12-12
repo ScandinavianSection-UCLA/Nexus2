@@ -11,8 +11,9 @@ import {
     Marker,
     Popup,
     TileLayer,
-    WMSTileLayer
+    WMSTileLayer,
 } from "react-leaflet"
+import {latLngBounds} from 'leaflet'
 
 // constants + defaults for our map
 const {BaseLayer} = LayersControl,
@@ -44,6 +45,10 @@ class MapView extends React.Component {
             "format": "image/png",
             "checked": false,
         }];
+    }
+
+    componentDidMount(){
+        console.log(this.refs.map.leafletElement.getBounds);
     }
 
     /**
@@ -175,8 +180,11 @@ class MapView extends React.Component {
      * @returns {String} The text for the popup
      */
     static renderPopup(place) {
+        if(place.hasOwnProperty("display_name")){
+            return place.display_name;
+        }
         // if it has a full_name property
-        if (place.hasOwnProperty("full_name")) {
+        else if (place.hasOwnProperty("full_name")) {
             // use that for the text
             return place.full_name;
             // or if it has a name property
@@ -193,8 +201,14 @@ class MapView extends React.Component {
 
     render() {
         return (
-            <Map center={this.defineMapCenter.bind(this)()}
-                zoom={this.defineMapZoom.bind(this)()}>
+            <Map ref="map"
+                 center={this.defineMapCenter.bind(this)()}
+                zoom={this.defineMapZoom.bind(this)()}
+                 boundsOptions={{
+                     paddingBottomRight: [250, 0],
+                     paddingTopLeft:[250,0],
+                 }}
+            >
                 <LayersControl position="topright">
                     {this.renderTiles.bind(this)()}
                     {this.renderMarkers.bind(this)()}

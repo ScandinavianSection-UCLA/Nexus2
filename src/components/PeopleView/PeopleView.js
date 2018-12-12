@@ -39,8 +39,15 @@ class PeopleView extends Component {
 
     render() {
         console.log(getPlaceIDList(arrayTransformation(this.props.person.places))
-            .map((placeID) => getPlacesByID(placeID)));
-
+            .map((placeID) => {getPlacesByID(placeID)}));
+        let Places = [];
+        this.props.person.places.forEach((place)=>{
+            var Place = {
+                ...getPlacesByID(place.place_id),
+                display_name:place.display_name,
+            };
+            Places.push(Place);
+        });
         return (
             <div className="PeopleView grid-y">
                 <div className="tab-header cell medium-1">
@@ -70,10 +77,12 @@ class PeopleView extends Component {
                         </div>
                         <div className="medium-4 cell" style={{height:'80vh'}}>
                             <MapView places={
-                                // get a list of all IDs of associated places
-                                getPlaceIDList(arrayTransformation(this.props.person.places))
-                                    // and get the full place object from that, to give to MapView
-                                    .map((placeID) => getPlacesByID(placeID))} />
+                                Places
+                                // // get a list of all IDs of associated places
+                                // getPlaceIDList(arrayTransformation(this.props.person.places))
+                                //     // and get the full place object from that, to give to MapView
+                                //     .map((placeID) => getPlacesByID(placeID))
+                            } view="People"/>
                         </div>
                         <RightBar
                             view="People"
