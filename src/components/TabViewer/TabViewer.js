@@ -1,6 +1,7 @@
 // react functionality
 import React, {Component} from "react";
 // the various possible views we could render
+import HelpView from "../HelpView/HelpView";
 import Navigation from "../Navigation/Navigation";
 import StoryView from "../StoryView/StoryView";
 import PlaceView from "../PlaceView/PlaceView";
@@ -70,6 +71,8 @@ class TabViewer extends Component {
                 // for the book, return the BookView, with the chapter ID that was selected
                 return <BookView viewIndex={tabIndex} id={id}/>;
             }
+            case "Help":
+                return <HelpView />
             default:
                 // if it wasn't one of the above types, warn that we hit an unknown type
                 console.warn(`Unhandled tab type: ${type}`);
