@@ -13,55 +13,59 @@ import connect from "react-redux/es/connect/connect";
 class Navigation extends Component {
     constructor(props) {
         super(props);
+        // options for the two dropdowns
+        this.dataNav = ["People", "Places", "Stories"];
+        this.TINav = ["ETK Index", "Tangherlini Index", "Fieldtrips", "Genres"];
+        // initial state, further defined later
         this.state = {
-            "path": ["Data Navigator"],
-            "displayItemsList": [],
-            "dataNavView": true,
-            "dropdownLists": [],
+            // which of the subclasses is currently active
             "activeList": null,
+            // whether the data navigator or TI navigator is shown
+            "dataNavView": true,
+            // submenus to show (for TI navigator)
+            "dropdownLists": [],
+            // navigators to render
             "navigators": [
-                {"name": "Data Navigator", "tabClass": "tab cell medium-6 dataNavView active"},
-                {"name": "Topic & Index Navigator", "tabClass": "tab cell medium-6 TINavView"},
+                {"name": "Data Navigator", "tabClass": "dataNavView"},
+                {"name": "Topic & Index Navigator", "tabClass": "TINavView"},
             ],
-            "dataNav": ["People", "Places", "Stories"],
-            "TINav": ["ETK Index", "Tangherlini Index", "Fieldtrips", "Genres"],
         };
-        const prevSelection = getSessionStorage("SelectedNavOntology");
-        if (prevSelection !== null) {
-            const {data} = prevSelection;
-            let isPPS = (data === "People" || data === "Places" || data === "Stories");
-            // check if the topics and indices navigation tab should be active
-            if (!isPPS) {
-                this.state = {
-                    ...this.state,
-                    "navigators": [
-                        {"name": "Data Navigator", "tabClass": "tab cell medium-6 dataNavView"},
-                        {"name": "Topic & Index Navigator", "tabClass": "tab cell medium-6 TINavView active"},
-                    ],
-                    "dataNavView": false,
-                    "dataNav": ["People", "Places", "Stories"],
-                    "TINav": ["ETK Index", "Tangherlini Index", "Fieldtrips", "Genres"],
-                };
-            }
-            if (!this.state.dataNav.includes(prevSelection.data)) {
-                this.state.path = ["Topic & Index Navigator"];
-            }
+        // get previous view data from session storage, default to stories
+        const {data} = getSessionStorage("SelectedNavOntology") || {"data": "Stories"};
+        // if user was viewing the topic & index navigator
+        if (this.TINav.includes(data)) {
+            // set up state for that
+            this.state = {
+                ...this.state,
+                "dataNavView": false,
+                "navigators": [
+                    {"name": "Data Navigator", "tabClass": "dataNavView"},
+                    {"name": "Topic & Index Navigator", "tabClass": "TINavView active"},
+                ],
+                "path": ["Topic & Index Navigator"],
+            };
+        } else {
+            // otherwise default to the PPS state
+            this.state = {
+                ...this.state,
+                "dataNavView": true,
+                "navigators": [
+                    {"name": "Data Navigator", "tabClass": "dataNavView active"},
+                    {"name": "Topic & Index Navigator", "tabClass": "TINavView"},
+                ],
+                "path": ["Data Navigator"],
+            };
         }
-        this.handleLevelTwoClick = this.handleLevelTwoClick.bind(this);
     }
 
+    // determine if we need to set up to show a keyword
     componentDidMount() {
+        // get previous view data from session storage, default to stories
+        const {data} = getSessionStorage("SelectedNavOntology") || {"data": "Stories"};
         // no keyword loaded
         if (this.props.searchState.inputValue === "") {
-            // get state from session storage
-            const prevSelection = getSessionStorage("SelectedNavOntology");
-            if (prevSelection === null) {
-                // if we got nothing, go to stories
-                this.handleLevelTwoClick("Stories");
-            } else {
-                // otherwise go to what was loaded
-                this.handleLevelTwoClick(prevSelection.data);
-            }
+            // go to the loaded ontology from session storage
+            this.handleLevelTwoClick(data);
         } else {
             // keyword loaded, we'll be looking at the stories
             this.props.setDisplayLabel("Data Navigator > Stories");
@@ -76,42 +80,59 @@ class Navigation extends Component {
         }
     }
 
-    handleTabClick(nav) {
+    /**
+     * Make a certain tab the active tab
+     * @param {String} name Tab to make active
+     */
+    setActiveTab(name) {
         // reset search
         this.props.actions.setSearch(false);
         // resets displayed results
         this.props.actions.displayItems([]);
-        if (nav.name === "Data Navigator") {
-            this.setState((oldState) => {
-                oldState.dataNavView = true;
+        // if data navigator was clicked
+        if (name === "Data Navigator") {
+            // set the indicator to show this
+            this.props.setDisplayLabel("Data Navigator");
+            this.setState({
+                // make data navigator active
+                "dataNavView": true,
                 // erase any existing dropdown lists
-                oldState.dropdownLists = [];
-                oldState.navigators = [
+                "dropdownLists": [],
+                // make data navigator active
+                "navigators": [
                     {"name": "Data Navigator", "tabClass": "tab cell medium-6 dataNavView active"},
                     {"name": "Topic & Index Navigator", "tabClass": "tab cell medium-6 TINavView"},
-                ];
-                oldState.path = ["Data Navigator"];
-                return oldState;
-            }, () => {
-                this.props.setDisplayLabel(this.state.path.join());
+                ],
+                // set data navigator as the path
+                "path": ["Data Navigator"],
             });
-        } else {
-            this.setState((oldState) => {
-                oldState.dataNavView = false;
-                oldState.dropdownLists = [];
-                oldState.navigators = [
+        } else if (name === "Topic & Index Navigator") {
+            // topic & index navigator clicked
+            // set the indicator to show this
+            this.props.setDisplayLabel("Topic & Index Navigator");
+            this.setState({
+                // make topic & index navigator active
+                "dataNavView": false,
+                // erase any existing dropdown lists
+                "dropdownLists": [],
+                // make topic & index navigator active
+                "navigators": [
                     {"name": "Data Navigator", "tabClass": "tab cell medium-6 dataNavView "},
                     {"name": "Topic & Index Navigator", "tabClass": "tab cell medium-6 TINavView active"},
-                ];
-                oldState.path = ["Topic & Index Navigator"];
-                return oldState;
-            }, () => {
-                this.props.setDisplayLabel(this.state.path.join());
+                ],
+                // set topic & index navigator as the path
+                "path": ["Topic & Index Navigator"],
             });
+        } else {
+            // bad tab name, warn this
+            console.warn("Invalid tab name", name);
         }
     }
 
-    // level 2 = indices, people, places, stories
+    /**
+     * Switch to a selected ontology
+     * @param {String} ontology Ontology to switch to
+     */
     handleLevelTwoClick(ontology) {
         // reset search
         this.props.actions.setSearch(false);
@@ -119,207 +140,275 @@ class Navigation extends Component {
         setSessionStorage("SelectedNavOntology", {
             "data": ontology,
         });
+        // get items associated with the ontology
         let list = getList(ontology);
         // if it is person, place, story, or fieldtrip
         if (["Fieldtrips", "People", "Places", "Stories"].includes(ontology)) {
-            // send to navigation to display results
+            // display the relevant items
             this.props.actions.displayItems(list);
-            // highlight clicked ontology and set dropdownLists to nothing
-            this.setState((oldState) => ({
+            // highlight clicked ontology, set dropdownLists to nothing, update path
+            this.setStateAndPathLabel(({path}) => ({
                 "activeList": ontology,
                 "dropdownLists": [],
-                "path": [oldState.path[0], ontology],
-            }), () => {
-                // set display label (above search results)
-                this.props.setDisplayLabel(this.state.path.join(" > "));
-            });
-        } else {
+                "path": [path[0], ontology],
+            }));
+        } else if (["ETK Index", "Tangherlini Index", "Genres"].includes(ontology)) {
+            // was one of the other ones that isn't a single category of data
             // reset results display
             this.props.actions.displayItems([]);
             // create additional options for people to be in the dropdown menu so people can select everything in the menu
             const displayKey = ontologyToDisplayKey[ontology];
-            let listObject, selectValue;
-            if (ontology === "ETK Index") {
-                selectValue = `[Select ${ontology}]`;
-            } else {
-                selectValue = `[Select ${ontology.slice(0, -1)}]`;
-            }
-            // if selected item isn't in the dropdown list
-            if (!list.some((item) => item[displayKey] === selectValue)) {
-                // add it in at the front
-                list.unshift({
-                    [displayKey]: selectValue,
-                });
-            }
-            // for tango indices
-            if (ontology === "Tangherlini Index") {
+            let
+                // object to represent the dropdown
                 listObject = {
                     displayKey,
+                    ontology,
+                },
+                // initial dropdown value
+                selectValue;
+            // for ETK indices
+            if (ontology === "ETK Index") {
+                // use the ontology itself as the name
+                selectValue = "[Select ETK Index]";
+            } else {
+                // other type, format it to work out
+                selectValue = `[Select ${ontology.slice(0, -1)}]`;
+            }
+            // update the dropdown with the initial vluae
+            listObject = {
+                ...listObject,
+                selectValue,
+            };
+            // if we are going to the tango indices
+            if (ontology === "Tangherlini Index") {
+                listObject = {
+                    ...listObject,
+                    // set the options to be the tango types, but add in the Select option
                     "list": [
                         "[Select a Class]",
                         ...Object.keys(tangoTypes),
                     ],
-                    ontology,
-                    selectValue,
+                    // this is a tango list
                     "tango": true,
                 };
-            } else {
-                // if it is an indice that isn't a tango index
+            } else if (ontology === "ETK Index" || ontology === "Genres") {
+                // either ETK index or gernes
+                // if the [Select a ___] isn't in the dropdown list
+                if (list.some((item) => item[displayKey] === selectValue) === false) {
+                    // add it in at the front
+                    list = [
+                        {
+                            [displayKey]: selectValue,
+                        },
+                        ...list,
+                    ];
+                }
                 listObject = {
-                    displayKey,
+                    ...listObject,
+                    // use our generated list for options
                     list,
-                    ontology,
-                    selectValue,
+                    // this is not a tango list
                     "tango": false,
                 };
+            } else {
+                // bad ontology, abort
+                console.warn("Bad ontology", ontology);
+                return;
             }
-            // highlight clicked ontology
-            this.setState((oldState) => ({
+            // update state and path label
+            this.setStateAndPathLabel(({path}) => ({
+                // highlight clicked ontology
                 "activeList": ontology,
+                // use our generated dropdown object
                 "dropdownLists": [listObject],
-                "path": [oldState.path[0], ontology],
-            }), () => {
-                // set display label (above search results)
-                this.props.setDisplayLabel(this.state.path.join(" > "));
-            });
+                // update the path with the clicked one
+                "path": [path[0], ontology],
+            }));
         }
     }
 
+    /**
+     * Handle the selection of a dropdown item
+     * @param {Object} selectedItem Selected dropdown element
+     * @param {Boolean} isTango Whether or not the item is an upper-level Tango dropdown
+     */
     selectMenu(selectedItem, isTango) {
         // reset search
         this.props.actions.setSearch(false);
-        // for non-Tango Index dropdowns
-        if (!isTango) {
+        // for non upper level tango index dropdowns
+        if (isTango === false) {
             // make sure that we didn't re-select the [Select a ___] option from the dropdown
             if (typeof selectedItem.id !== "undefined") {
-                let storiesList = arrayTransformation(selectedItem.stories.story);
-                this.setState((oldState) => {
-                    let newDropdownList = oldState.dropdownLists;
-                    newDropdownList[newDropdownList.length - 1].selectValue = selectedItem.name;
-                    let NameKey = "";
-                    if ("name" in selectedItem) {
-                        NameKey = "name";
-                    } else if ("heading_english" in selectedItem) {
-                        NameKey = "heading_english";
+                // update the displayed items
+                this.props.actions.displayItems(
+                    // use the list of stories based on the chosen option
+                    arrayTransformation(selectedItem.stories.story)
+                );
+                // get the display name based on the chosen option
+                let name;
+                if (selectedItem.hasOwnProperty("name")) {
+                    name = selectedItem.name;
+                } else if (selectedItem.hasOwnProperty("heading_english")) {
+                    name = selectedItem.heading_english;
+                }
+                // update state and path
+                this.setStateAndPathLabel((oldState) => {
+                    // get previous dropdowns and path
+                    let {dropdownLists, path} = oldState;
+                    // update the selected item
+                    dropdownLists[dropdownLists.length - 1].selectValue = selectedItem.name;
+                    // trim the path if necessary
+                    if (path.length >= 3 && path.includes("Tangherlini Index") === false) {
+                        path = path.slice(0, 2);
+                    } else if (path.length >= 4) {
+                        path = path.slice(0, 3);
                     }
-                    if (oldState.path.length >= 3 && oldState.path.indexOf("Tangherlini Index") === -1) {
-                        oldState.path = oldState.path.slice(0, 2);
-                    } else if (oldState.path.length >= 4 && newDropdownList.indexOf("[Select Class]") === -1) {
-                        oldState.path = oldState.path.slice(0, 3);
-                    }
-                    oldState.path.push(selectedItem[NameKey]);
+                    // append the selected item to the path
+                    path = [...path, name];
                     return {
-                        "dropdownLists": newDropdownList,
-                        "path": oldState.path,
+                        dropdownLists,
+                        path,
                     };
-                }, () => {
-                    this.props.setDisplayLabel(this.state.path.join(" > "));
-                    this.props.actions.displayItems(storiesList);
-                    localStorage.setItem("navCompState", this.state);
                 });
             } else {
-                // reset the dropdown state to the unselected tango index state, since that's what was clicked
-                this.setState(function(prevState) {
-                    return {
-                        // set the dropdown to be
-                        "dropdownLists": [{
+                // clear all items
+                this.props.actions.displayItems([]);
+                // update dropdowns and path
+                this.setStateAndPathLabel(({dropdownLists, path}) => ({
+                    // set the dropdown to be
+                    "dropdownLists": [
+                        {
                             // the first dropdown
-                            ...prevState.dropdownLists[0],
+                            ...dropdownLists[0],
                             // but make sure that the selected value is the [Select a ___] option
                             "selectValue": selectedItem.heading_english,
-                        }],
-                    };
-                });
+                        },
+                    ],
+                    // remove the last element from path, since it got deselected
+                    "path": path.slice(0, -1),
+                }));
             }
-        } else if (selectedItem !== "[Select a Class]") {
-            // selected Tango index, but not the null option
-            // need to make second dropdown list with those types
-            this.setState((oldState) => {
-                let newList = tangoTypes[selectedItem].children;
-                let selectString = "[Select an Ontology]";
-                let selectObj = {"name": selectString};
-                newList.unshift(selectObj);
-                let listObject = {
-                    "selectValue": selectString,
-                    "displayKey": "name",
-                    "ontology": "",
-                    "tango": false,
-                    "list": newList,
-                };
-                let newDropdownList = oldState.dropdownLists;
-                newDropdownList.splice(1, 1, listObject);
-                newDropdownList[0].selectValue = selectedItem;
-                if (oldState.path.length >= 3 &&
-                    (oldState.path.indexOf("Tangherlini Index") === -1 || newDropdownList[0].list.indexOf("[Select a Class]") >= 0)) {
-                    oldState.path = oldState.path.slice(0, 2);
-                } else if (oldState.path.length >= 4 && newDropdownList.indexOf("[Select Class]") === -1) {
-                    oldState.path = oldState.path.slice(0, 3);
-                }
-                oldState.path.push(selectedItem);
-                return {
-                    "dropdownLists": newDropdownList,
-                    "path": oldState.path,
-                };
-            }, () => {
-                this.props.setDisplayLabel(this.state.path.join(" > "));
-                localStorage.setItem("navCompState", this.state);
-            });
         } else {
-            // reset the dropdown state to the unselected tango index state, since that's what was clikced
-            this.setState(function(prevState) {
-                return {
+            // top level tango index option picked
+            // set base path accordingly
+            const path = ["Topic & Index Navigator", "Tangherlini Index"];
+            if (selectedItem !== "[Select a Class]") {
+                // not the null option
+                // clear the displayed items
+                this.props.actions.displayItems([]);
+                this.setStateAndPathLabel(({dropdownLists}) => ({
+                    "dropdownLists": [
+                        {
+                            ...dropdownLists[0],
+                            // set clicked item in the upper dropdown to the one that was just clicked
+                            "selectValue": selectedItem,
+                        },
+                        // need to make second dropdown list with the sub tango options
+                        {
+                            // start with the select something option
+                            "selectValue": "[Select an Ontology]",
+                            // key for names is "name"
+                            "displayKey": "name",
+                            "ontology": "",
+                            // not an upper level tango dropdown
+                            "tango": false,
+                            "list": [
+                                // add the select something option on top
+                                {"name": "[Select an Ontology]"},
+                                // add the actual options below it
+                                ...tangoTypes[selectedItem].children,
+                            ],
+                        },
+                    ],
+                    // add the item we went to at the end of the path
+                    "path": [...path, selectedItem],
+                }));
+            } else {
+                // reset the dropdown state to the unselected tango index state, since that's what was clikced
+                this.setStateAndPathLabel(({dropdownLists}) => ({
                     // set the dropdown to be
                     "dropdownLists": [{
                         // the first dropdown
-                        ...prevState.dropdownLists[0],
+                        ...dropdownLists[0],
                         // but make sure that the selected value is the [Select a Class] option
                         "selectValue": "[Select a Class]",
                     }],
-                };
-            });
+                    // go back to the base tango path
+                    path,
+                }));
+            }
         }
     }
 
+    /**
+     * Set state and update the displayed path label
+     * @param {(Function|Object)} callback Determines state to be set
+     */
+    setStateAndPathLabel(callback) {
+        // apply the requested state changes
+        this.setState(callback, () => {
+            // update the path displayed afterwards
+            this.props.setDisplayLabel(this.state.path.join(" > "));
+        });
+    }
+
     render() {
-        const ontologyType = this.state.dataNavView ? "dataNav" : "TINav";
+        // determine what is being viewed based on state
+        const ontologyType = this.state.dataNavView === true ? "dataNav" : "TINav";
         return (
-            <div className="NavigatorComponent">
-                <div className="grid-y">
-                    <div className="navigator-tabs cell medium-1">
-                        <div className="grid-x">
-                            {this.state.navigators.map((nav, i) => {
-                                return <div className={`${nav.tabClass} cell medium-6`} key={i}
-                                    onClick={(e) => {
-                                        e.preventDefault();
-                                        this.handleTabClick(nav);
-                                    }}>
-                                    {nav.name}
-                                </div>;
-                            })}
+            // container for the whole component
+            <div className="NavigatorComponent grid-y">
+                {/* make the top tabs smaller */}
+                <div className="navigator-tabs cell medium-1 grid-x">{
+                    // for each of the two naviagtor tabs
+                    this.state.navigators.map(({name, tabClass}) => (
+                        // create a clickable div
+                        <div
+                            // style it as a navigator tab with its custom CSS
+                            className={`tab cell medium-6 ${tabClass}`}
+                            // key for React
+                            key={name}
+                            // when clicked, go to its respective tab
+                            onClick={this.setActiveTab.bind(this, name)}>
+                            {/* use the name as the label */}
+                            {name}
                         </div>
+                    ))
+                }</div>
+                {/* actual ontology selection options */}
+                <div className="navigator-options-wrapper cell medium-11">
+                    {/* based on what is viewed show the specified ontology */}
+                    <div className={`cell active ${ontologyType}View`}>
+                        {/* create the list of ontologies to choose */}
+                        <ul className="ontologyList">{
+                            // for each of the ontologies to display
+                            this[ontologyType].map((ontology) => (
+                                <li
+                                    // style it based on the ontology type, and make the active one shaded
+                                    className={`ontology ${ontology} ${this.state.activeList === ontology ? "active" : ""}`}
+                                    // key for React
+                                    key={ontology}
+                                    // when clicked, go to the desired ontology
+                                    onClick={this.handleLevelTwoClick.bind(this, ontology)}>
+                                    {/* name to show is the ontology */}
+                                    {ontology}
+                                </li>
+                            ))
+                        }</ul>
                     </div>
-                    <div className="navigator-options-wrapper cell medium-11">
-                        <div className={`cell ${this.state.dataNavView ? "active dataNavView" : "TINavView active"}`}>
-                            <ul className="ontologyList">
-                                {this.state[ontologyType].map((ontology, i) => {
-                                    return <li className={`ontology ${ontology}${this.state.activeList === ontology ? " active" : ""}`} key={i}
-                                        onClick={() => {
-                                            this.handleLevelTwoClick(ontology);
-                                        }}>
-                                        {ontology}
-                                    </li>;
-                                })}
-                            </ul>
-                        </div>
-                        {
-                            this.state.dropdownLists.map((list, i) => {
-                                return <NavigationDropdownMenu className="cell"
-                                    list={list}
-                                    handleMenuSelect={this.selectMenu.bind(this)}
-                                    key={i} />;
-                            })
-                        }
-                    </div>
+                    {/* for each of the dropdowns, if needed */}
+                    {this.state.dropdownLists.map((list, i) => (
+                        // generate a dropdown with the options
+                        <NavigationDropdownMenu
+                            // style it to fit with Foundation's styling
+                            className="cell"
+                            // pass it the desired options
+                            list={list}
+                            // pass it a click handler
+                            handleMenuSelect={this.selectMenu.bind(this)}
+                            // key for React
+                            key={i} />
+                    ))}
                 </div>
             </div>
         );
