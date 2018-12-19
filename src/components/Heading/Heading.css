@@ -75,3 +75,9 @@
     background-color: rgb(111, 108, 108);
     cursor: pointer;
 }
+
+.help-btn{
+    cursor:pointer;
+    padding-left:50px;
+    padding-top:0;
+}

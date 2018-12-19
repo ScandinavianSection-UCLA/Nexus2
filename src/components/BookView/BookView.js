@@ -187,7 +187,7 @@ class BookView extends Component {
                     {/* TOC opener */}
                     <button
                         // style it as a 2-column button
-                        className="button primary cell medium-2"
+                        className="button secondary cell medium-2"
                         // when it is clicked
                         onClick={(event) => {
                             // prevent the event from bubbling up (don't allow left page button to be clicked)

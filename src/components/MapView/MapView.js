@@ -36,14 +36,14 @@ class MapView extends React.Component {
             "layers": "dtk_hoeje_maalebordsblade",
             "url": "http://kortforsyningen.kms.dk/service?servicename=topo20_hoeje_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;",
             "format": "image/png",
-            "checked": true,
+            "checked": false,
         }, {
             "name": "Low Boards",
             "type": "WMS",
             "layers": "dtk_lave_maalebordsblade",
             "url": "http://kortforsyningen.kms.dk/service?servicename=topo20_lave_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;",
             "format": "image/png",
-            "checked": false,
+            "checked": true,
         }];
     }
 

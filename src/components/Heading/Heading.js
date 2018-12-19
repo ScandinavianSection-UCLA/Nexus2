@@ -60,7 +60,7 @@ class Heading extends Component {
                     </div>
                 </div>
                 {/* help button */}
-                <button className="medium-offset-6 medium-1 cell"
+                <button className="medium-offset-6 medium-1 cell help-btn"
                     // when clicked, open up the help tab
                     onClick={() => {
                         this.props.tabViewerActions.addTab(0, "Help", "Help");
