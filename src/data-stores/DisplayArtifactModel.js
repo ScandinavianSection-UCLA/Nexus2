@@ -277,7 +277,6 @@ export const tangoTypes = {
     "Resolution": {
         "name": "Resolution",
         "childArray": getChildren("Resolution", false),
-        "parent": this["Topic & Navigator"],
         "children": getChildren("Resolution", true),
         "level": 3,
     },
