@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="Responsive Design close #148 #149 #150 #151 #152 #154">
+    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="new build, resize help screen">
+      <change afterPath="$PROJECT_DIR$/build/precache-manifest.2539b5f33d5edaa1ef083d08fdff4f62.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/1.60e2c539.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/1.60e2c539.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.297f2c44.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.297f2c44.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/1.c021b02b.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/1.c021b02b.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.42eba496.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.42eba496.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.b61b7a950fa50ba6545236c6b8d2dea8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/1.87a564c4.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/1.87a564c4.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.c55e5a89.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.c55e5a89.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/1.91f79470.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/1.91f79470.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.5ad89ead.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.5ad89ead.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BookView/BookView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookView/BookView.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Heading/Heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Heading/Heading.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Heading/Heading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Heading/Heading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/navigatorComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/navigatorComponent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NexusGraph/GraphView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NexusGraph/GraphView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeopleView/PeopleView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeopleView/PeopleView.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlaceView/PlaceView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlaceView/PlaceView.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RightBar/RightBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightBar/RightBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StoryView/StoryView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StoryView/StoryView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelpView/HelpView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/HelpView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MapView/MapView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/MapView.js" afterDir="false" />
     </list>
     <list id="4860e851-d29b-486f-9cb0-ecd95ba13bec" name="added low boards, high boards, prussian WMS tiles" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,24 +41,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/PeopleView/PeopleView.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,20 +60,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="1800">
               <caret line="120" column="62" selection-start-line="120" selection-start-column="62" selection-end-line="120" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="340" column="43" lean-forward="true" selection-start-line="340" selection-start-column="43" selection-end-line="340" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -102,19 +84,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.css">
+        <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="530">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <folding>
+                <element signature="e#615#911#0" />
+                <element signature="e#0#5#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -204,26 +213,27 @@
         <option value="$PROJECT_DIR$/src/reducers/navigatorReducer.js" />
         <option value="$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.js" />
         <option value="$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.css" />
-        <option value="$PROJECT_DIR$/src/components/MapView/MapView.js" />
         <option value="$PROJECT_DIR$/src/components/BookView/BookView.js" />
         <option value="$PROJECT_DIR$/src/components/HelpView/HelpView.js" />
         <option value="$PROJECT_DIR$/src/components/Heading/Heading.js" />
         <option value="$PROJECT_DIR$/src/components/BookView/BookView.css" />
         <option value="$PROJECT_DIR$/src/components/PlaceView/PlaceView.css" />
         <option value="$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/navigation.css" />
         <option value="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/search.css" />
         <option value="$PROJECT_DIR$/src/components/Navigation/navigatorComponent.css" />
-        <option value="$PROJECT_DIR$/src/components/Heading/Heading.css" />
         <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" />
         <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.css" />
         <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.js" />
         <option value="$PROJECT_DIR$/src/components/StoryView/StoryView.css" />
         <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.css" />
         <option value="$PROJECT_DIR$/src/components/NexusGraph/GraphView.js" />
+        <option value="$PROJECT_DIR$/src/components/Heading/Heading.css" />
+        <option value="$PROJECT_DIR$/src/components/MapView/MapView.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/HelpView/HelpView.css" />
       </list>
     </option>
   </component>
@@ -233,7 +243,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="192" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -267,14 +277,7 @@
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Heading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="NexusGraph" type="462c0819:PsiDirectoryNode" />
+              <item name="HelpView" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
@@ -425,7 +428,7 @@
       <workItem from="1545197327387" duration="1234000" />
       <workItem from="1545289748361" duration="1311000" />
       <workItem from="1545464532824" duration="248000" />
-      <workItem from="1545503430496" duration="8522000" />
+      <workItem from="1545503430496" duration="9578000" />
     </task>
     <task id="LOCAL-00001" summary="fixed this.props.places bug">
       <created>1525795879351</created>
@@ -581,11 +584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544597654408</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Responsive Design close #148 #149 #150 #151 #152 #154">
+      <created>1545593948086</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1545593948086</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274042000" />
+    <option name="totallyTimeSpent" value="275098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -597,22 +607,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="192" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6409537" visible="true" weight="0.17721519" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6409537" visible="true" weight="0.17721519" />
       <window_info id="Structure" order="1" sideWeight="0.35904628" side_tool="true" weight="0.24065298" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.50342935" side_tool="true" weight="0.24065298" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49868593" visible="true" weight="0.3262032" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49868593" weight="0.3262032" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39854318" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49934298" weight="0.32930845" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49934298" weight="0.32834226" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49078462" weight="0.284492" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49078462" visible="true" weight="0.284492" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.26336634" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50921535" side_tool="true" weight="0.2611399" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
@@ -703,7 +713,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added danish web server tiles using TileLayer.WMS in leaflet" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="web server tiles now loading :)" />
     <MESSAGE value="added low boards, high boards, prussian WMS tiles&#10;&#10;(cherry picked from commit 4b588bcb8c32f99c6727d8b31316846f3f890bb9)" />
     <MESSAGE value="added low boards, high boards, prussian WMS tiles" />
@@ -728,14 +738,14 @@
     <MESSAGE value="added some filler content into helpview #2 and adjusted some styling for some things. made the default map the lowboard map because it showed all the ocean." />
     <MESSAGE value="playing around with trying to build this thing...." />
     <MESSAGE value="Responsive Design close #148 #149 #150 #151 #152 #154" />
-    <option name="LAST_COMMIT_MESSAGE" value="Responsive Design close #148 #149 #150 #151 #152 #154" />
+    <MESSAGE value="new build, resize help screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="new build, resize help screen" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/model.js" />
     <entry file="file://$PROJECT_DIR$/build/static/js/main.4aca8df9.js" />
     <entry file="file://$PROJECT_DIR$/build/static/js/main.aa70b3c7.js" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -849,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/navigatorReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -867,13 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -957,13 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/search.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -989,13 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1038,8 +1020,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="1800">
           <caret line="120" column="62" selection-start-line="120" selection-start-column="62" selection-end-line="120" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Heading/Heading.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="e#615#911#0" />
+            <element signature="e#0#5#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
         </state>
       </provider>
     </entry>

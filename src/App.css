@@ -19,7 +19,7 @@ body{
 
 /*600 x 800px*/
 @media screen and (min-height: 590px) {
-    .Navigation, .BookView, .PeopleView, .PlaceView, .StoryView, .NexusGraph {
+    .Navigation, .BookView, .PeopleView, .PlaceView, .StoryView, .NexusGraph, .HelpView {
         height: 83vh;
     }
 
@@ -29,7 +29,7 @@ body{
 }
 
 @media screen and (min-height: 770px) {
-    .Navigation, .BookView, .PeopleView, .PlaceView, .StoryView, .NexusGraph {
+    .Navigation, .BookView, .PeopleView, .PlaceView, .StoryView, .NexusGraph, .HelpView {
         height: 85vh;
     }
 

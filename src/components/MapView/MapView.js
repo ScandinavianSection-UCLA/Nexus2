@@ -48,7 +48,7 @@ class MapView extends React.Component {
     }
 
     componentDidMount(){
-        console.log(this.refs.map.leafletElement.getBounds);
+        // console.log(this.refs.map.leafletElement.getBounds);
     }
 
     /**
