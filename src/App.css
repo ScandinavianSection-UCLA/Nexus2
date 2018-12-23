@@ -14,3 +14,26 @@ body{
     display:block;
     margin:auto;
 }
+
+/*Responsive Tab Area CSS*/
+
+/*600 x 800px*/
+@media screen and (min-height: 590px) {
+    .Navigation, .BookView, .PeopleView, .PlaceView, .StoryView, .NexusGraph {
+        height: 83vh;
+    }
+
+    .AssociatedStoriesViewer {
+        height: 84vh;
+    }
+}
+
+@media screen and (min-height: 770px) {
+    .Navigation, .BookView, .PeopleView, .PlaceView, .StoryView, .NexusGraph {
+        height: 85vh;
+    }
+
+    .AssociatedStoriesViewer {
+        height: 86vh;
+    }
+}

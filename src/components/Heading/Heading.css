@@ -1,3 +1,20 @@
+/*Small Laptops*/
+@media screen
+and (min-width: 800px) and (max-width: 1023px)
+and (min-height: 600px) and (max-height: 768px){
+    .heading-stuff{font-size:.8em;}
+    .heading-stuff .flag img{padding-top:10px;}
+    .heading-stuff .danish-folklore{padding-top:6px;}
+}
+/*Average Laptops*/
+@media screen
+and (min-width: 1024px)
+and (min-height: 768px){
+    .heading-stuff{font-size:1.15em;}
+    .heading-stuff .flag img{padding-top:10px;height:50px;}
+    .heading-stuff .danish-folklore{padding-top:6px;}
+}
+
 .Heading {
     background-color: #222121;
     padding: 1vh 1vh 1vh 0;

@@ -74,7 +74,7 @@ class GraphView extends Component {
         }
         return (
             // div to contain both the button and graph
-            <div className="grid-x">
+            <div className="grid-x NexusGraph">
                 {/* contains the filters */}
                 <form className="medium-3 cell grid-y" id="analysisTools">
                     <h3 className="cell" id="heading">Analysis Tools</h3>
@@ -116,9 +116,9 @@ class GraphView extends Component {
                         // custom settings for the graph
                         settings={{
                             // set the height to occupy most of the screen
-                            "height": (window.innerHeight) * 0.8,
+                            "height": (window.innerHeight) * 0.83,
                             // set the width to be just under 3/4 the screen width (so it doesn't overflow into a new row)
-                            "width": window.innerWidth * 0.74,
+                            "width": window.innerWidth * 0.745,
                         }}
                     />
                 </div>

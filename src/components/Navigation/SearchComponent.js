@@ -60,7 +60,7 @@ class SearchComponent extends Component {
                             this.props.navigatorState.itemsList
                         );
                     }} />
-                <label htmlFor="keyword-search-switch">Keyword Search Only</label>
+                <label className="keyword-search-label" htmlFor="keyword-search-switch">Keyword Search Only</label>
                 <input
                     type="checkbox"
                     name="keyword"

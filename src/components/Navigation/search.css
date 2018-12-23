@@ -1,3 +1,18 @@
+/*Small Laptops*/
+@media screen
+and (min-width: 800px) and (max-width: 1023px)
+and (min-height: 600px) and (max-height: 768px){
+    .SearchComponent input[type=text] {font-size: 1.2em;}
+    .keyword-search-label{font-size:.5em; height:.8em;}
+}
+/*Average Laptops*/
+@media screen
+and (min-width: 1024px)
+and (min-height: 768px){
+    .SearchComponent input[type=text] {font-size: 1.7em;}
+    .keyword-search-label{font-size:.8em; height:.8em;}
+}
+
 .SearchComponent {
     padding: 5% 0 3% 2%;
     background: #ED4C67;
@@ -23,7 +38,6 @@
     background: transparent;
     border-bottom: 2px solid white;
     box-shadow: none;
-    font-size: 1.7em;
     padding: 3px;
     height: 1.6em;
     width: 80%;

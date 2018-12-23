@@ -200,8 +200,8 @@ class Navigation extends React.Component {
                     <NavigatorComponent setDisplayLabel={this.setDisplayLabel.bind(this)} />
                 </div>
                 <div className="medium-5 cell AssociatedStoriesViewer grid-y fillScreen">
-                    <form className="cell medium-2 time-filter grid-x">
-                        <div className="medium-2 medium-offset-1 cell switch">
+                    <form className="cell medium-2 small-1 time-filter grid-x">
+                        <div className="medium-2 small-2 small-offset-0 medium-offset-0 large-offset-1 cell switch">
                             <input
                                 className="switch-input"
                                 id="exampleSwitch"
@@ -215,8 +215,8 @@ class Navigation extends React.Component {
                                 <span className="show-for-sr">Enable Timeline</span>
                             </label>
                         </div>
-                        <b className="medium-2 cell text">From:</b>
-                        <div className="medium-2 cell">
+                        <b className="medium-2 medium-offset-1 large-2 large-offset-0 cell text top-padding">From:</b>
+                        <div className="medium-2 large-2 cell top-padding">
                             <input
                                 className="year"
                                 type="number"
@@ -237,8 +237,8 @@ class Navigation extends React.Component {
                                     onChange={timeFilterHandler}
                                     onMouseUp={this.timeInputEnd} />}
                         </div>
-                        <b className="medium-1 cell text">To</b>
-                        <div className="medium-2 cell">
+                        <b className="medium-1 large-1 cell text top-padding">To</b>
+                        <div className="medium-2 large-2 cell top-padding">
                             <input
                                 className="year"
                                 type="number"
