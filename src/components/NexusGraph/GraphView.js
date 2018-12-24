@@ -101,6 +101,34 @@ class GraphView extends Component {
                         {/* give the text "Secondary" a light green color to indicate which links it matches to */}
                         Show <span className="lightgreen">Secondary</span> Links
                     </label>
+
+                    <table className="legend hover unstriped cell">
+                        <thead>
+                            <tr>
+                                <th>Color</th>
+                                <th>Type of Node</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><div className="circle blue"> </div></td>
+                                <td>People</td>
+                            </tr>
+                            <tr>
+                                <td><div className="circle red"> </div></td>
+                                <td>Places</td>
+                            </tr>
+                            <tr>
+                                <td><div className="circle grey"> </div></td>
+                                <td>Stories</td>
+                            </tr>
+                            <tr>
+                                <td><div className="circle green"> </div></td>
+                                <td>Fieldtrips</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
                 </form>
                 {/* the actual graph */}
                 <div>

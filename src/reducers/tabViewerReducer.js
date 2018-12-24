@@ -159,10 +159,10 @@ function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
         // and
         // if we need to remove a tab
         if( RemoveTab){
-            // index to remove
+            // index to remove defaults to the tab next to the home tab
             let RemoveIndex = 1;
             // if the tab is pinned then remove the next tab
-            if(updatedViews[RemoveIndex].pinned){
+            while(updatedViews[RemoveIndex].pinned){
                 RemoveIndex++;
             }
             // remove the first non-Home tab
