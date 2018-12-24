@@ -40,7 +40,7 @@ class BookView extends Component {
         // add an event listener for left and right arrow controls
         document.addEventListener("keydown", this.handleKeyPress, false);
         // load the .epub book
-        this.book = ePub("/Book/merge_from_ofoct.epub");
+        this.book = ePub("Book/merge_from_ofoct.epub");
         // when it has successfully loaded
         this.book.loaded.navigation.then(({toc}) => {
             // generate our TOC list based on the chapters
