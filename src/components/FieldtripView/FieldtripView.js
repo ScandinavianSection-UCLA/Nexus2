@@ -22,9 +22,12 @@ class FieldtripView extends Component {
             <div className="FieldtripView grid-x">
                 <div className="medium-11 cell main">
                     {/* should add more later, currently only displays timing of the fieldtrip*/}
-                    <h3>{this.props.fieldtrip.fieldtrip_name}</h3>
-                    <h4>{this.props.fieldtrip.start_date} to {this.props.fieldtrip.end_date}</h4>
-                    <MapView places={PlacesVisited} view={"Fieldtrip"}/>
+                    <div className="heading">
+                        <img className="h-item" src={require("./../Navigation/icons8-waypoint-map-32.png")}/>
+                        <h2 className="h-item">{this.props.fieldtrip.fieldtrip_name}</h2>
+                        <h6 className="h-item">{this.props.fieldtrip.start_date} to {this.props.fieldtrip.end_date}</h6>
+                    </div>
+                    <MapView className="heading" places={PlacesVisited} view={"Fieldtrip"}/>
                 </div>
                 {/* right bar with all the relevant PPS for the fieldtrip */}
                 <RightBar view="Fieldtrips"

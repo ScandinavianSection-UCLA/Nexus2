@@ -12,7 +12,7 @@
     position: relative;
     cursor: pointer;
     display: inline;
-    padding: .4vw 2vw .4vw 2vw;
+    padding: .4vw 2vw .4vw 2.2vw;
     margin: 1px;
     background-color: #dddddd;
     border-radius: 0 0 5px 5px;
@@ -24,11 +24,19 @@
     background-color: #ffffff;
 }
 
-.closeTabIcon {
-    width: .75em;
+.closeTabIcon, .pinTabIcon{
     position: absolute;
+}
+
+.closeTabIcon {
     top: 30%;
+    width: .75em;
     right: 5px;
+}
+.pinTabIcon{
+    top: 25%;
+    width: 1em;
+    left: 7px;
 }
 
 .closeTabIcon:hover {

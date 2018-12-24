@@ -184,6 +184,22 @@ class TabViewer extends Component {
                                         // set the color of the tab to be the specified color, or default to the active/inactive color if not specified
                                         "backgroundColor": view.color,
                                     }}>
+                                    {/*Display pin on everything except home tab */}
+                                    {view.type !== "Home" &&
+                                    <img
+                                        // source of the image (URL)
+                                        src={view.pinned ? "https://img.icons8.com/ios/50/000000/pin-2-filled.png":"https://img.icons8.com/ios/50/000000/pin-2.png"}
+                                        // text to display if it can't show up
+                                        alt="to pin icon"
+                                        // give it the styling for the pin button
+                                        className="pinTabIcon"
+                                        // callback when the "x" is clicked
+                                        onClick={(event) => {
+                                            // prevent a separate "tab was clicked" event from occuring once this tab gets closed
+                                            event.stopPropagation();
+                                            // close the desired tab
+                                            this.props.tabViewerActions.pinTab(index);
+                                        }} />}
                                     {/* show the display text on the tab */}
                                     {view.name}
                                     {/* don't show a close button on the home tab */}
