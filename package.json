@@ -40,7 +40,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://etkspace.scandinavian.ucla.edu/folklorenexus",
+  "homepage": "http://etkspace.scandinavian.ucla.edu/folklorenexus/",
   "devDependencies": {
     "json-loader": "^0.5.7"
   },
