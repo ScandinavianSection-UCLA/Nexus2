@@ -15,7 +15,8 @@ and (min-height: 768px){
 
 .SearchComponent {
     padding: 5% 0 3% 2%;
-    background: #ED4C67;
+    /*background: #ED4C67;*/
+    background:#e67e22;
     margin-bottom: 20%;
     margin-top: 10%;
     height: 23%;
