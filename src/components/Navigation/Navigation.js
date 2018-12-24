@@ -162,6 +162,7 @@ class Navigation extends React.Component {
             "navigatorState": {displayList, fromDate, placeList, timeFilterOn, toDate},
             "searchState": {searchingState},
         } = this.props;
+        console.log(placeList);
         // variable to store the main, center display
         let toDisplay;
         // based on what is currently being viewed

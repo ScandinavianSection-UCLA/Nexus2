@@ -2,8 +2,8 @@ import React, {Component} from "react";
 import Modal from "react-modal";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import RightBar from "../RightBar/RightBar";
-import {getPeopleByID, getPlacesByID} from "../../data-stores/DisplayArtifactModel";
-import {arrayTransformation, getPlaceIDList} from "../../utils";
+import {getPeopleByID} from "../../data-stores/DisplayArtifactModel";
+import {arrayTransformation} from "../../utils";
 import {addNode} from "../NexusGraph/NexusGraphModel";
 import "./StoryView.css";
 import MapView from "../MapView/MapView";
@@ -194,12 +194,11 @@ class StoryView extends Component {
         const personData = getPeopleByID(informant_id);
         const {openTab, storyVersionOpen, twoVersions} = this.state;
         const PlaceObjectArray = places.place;
-        const PlacesArray = getPlaceIDList(arrayTransformation(places.place)).map(placeID => getPlacesByID(placeID));
         return (
             <div className="StoryView grid-x">
                 <div className="medium-3 cell">
-                    <div style={{'height':'30vh'}}>
-                        <MapView places={PlacesArray} />
+                    <div style={{"height": "30vh"}}>
+                        <MapView places={places.place} />
                     </div>
                     <ul className="accordion" data-accordian>
                         <li className={`accordion-item ${openTab === 0 ? "is-active" : ""}`}>

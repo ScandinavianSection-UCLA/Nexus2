@@ -14,11 +14,11 @@ import * as tabViewerActions from "../../actions/tabViewerActions";
 import connect from "react-redux/es/connect/connect";
 
 const CIToChapterID = {
-    1 : 6,
-    2 : 7,
-    3 : 8,
-    4 : 9,
-    5 : 10,
+    1: 6,
+    2: 7,
+    3: 8,
+    4: 9,
+    5: 10,
 };
 
 class PeopleView extends Component {
@@ -32,7 +32,7 @@ class PeopleView extends Component {
             // if it's a single job, turn it into a single element array
             jobList = arrayTransformation(jobList);
             // for each of the jobs
-            jobList.forEach(function(occupation) {
+            jobList.forEach(function (occupation) {
                 // set its name to be that of the matching job in the occupation dictionary
                 occupation.occupation_name = OccupationDictionary.find((testOccupation) => testOccupation.ID === occupation.occupation_id).occupation;
             });
@@ -48,11 +48,11 @@ class PeopleView extends Component {
         }
     }
 
-    openCoreInformantTab(){
+    openCoreInformantTab() {
         console.log('hi');
-        if(this.props.person.hasOwnProperty("core_informant")){
+        if (this.props.person.hasOwnProperty("core_informant")) {
             let CoreInformantID = this.props.person['core_informant'];
-            if(CoreInformantID > 0 && CoreInformantID <= 5){
+            if (CoreInformantID > 0 && CoreInformantID <= 5) {
                 let QueryID = CIToChapterID[CoreInformantID];
                 this.props.tabViewerActions.addTab(QueryID, this.props.person['full_name'], "Book");
             }
@@ -60,15 +60,6 @@ class PeopleView extends Component {
     }
 
     render() {
-        console.log(this.props.person);
-        let Places = [];
-        this.props.person.places.forEach((place)=>{
-            var Place = {
-                ...getPlacesByID(place.place_id),
-                display_name:place.display_name,
-            };
-            Places.push(Place);
-        });
         return (
             <div className="PeopleView grid-y">
                 <div className="tab-header cell medium-1">
@@ -89,7 +80,7 @@ class PeopleView extends Component {
                                             <div className="detail-item"><b>ID#</b> {this.props.person.person_id}</div>
                                             <div className="detail-item"><b>Occupation (Eng/Dansk):</b> {this.getOccupation()}</div>
                                             <buttom className="button primary"
-                                                onClick={(e)=>{e.preventDefault(); this.openCoreInformantTab.bind(this)()}}
+                                                onClick={(e) => {e.preventDefault(); this.openCoreInformantTab.bind(this)()}}
                                             >Full Biography</buttom>
                                         </div>
                                     </div>
@@ -100,9 +91,7 @@ class PeopleView extends Component {
                             </div>
                         </div>
                         <div className="medium-4 cell map-wrapper">
-                            <MapView places={
-                                Places
-                            } view="People"/>
+                            <MapView places={this.props.person.places} />
                         </div>
                         <RightBar
                             view="People"
