@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="book view styling">
-      <change afterPath="$PROJECT_DIR$/src/components/FieldtripView/icons8-waypoint-map-32.png" afterDir="false" />
+    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="added legend for user nexus graph">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/tabViewerActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/tabViewerActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/tabViewerReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/tabViewerReducer.js" afterDir="false" />
     </list>
     <list id="4860e851-d29b-486f-9cb0-ecd95ba13bec" name="added low boards, high boards, prussian WMS tiles" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,24 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="67" column="68" lean-forward="true" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="175" column="38" lean-forward="true" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,11 +34,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/tabViewerReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="163" column="60" selection-start-line="163" selection-start-column="60" selection-end-line="163" selection-end-column="60" />
+            <state relative-caret-position="494">
+              <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="104" column="65" selection-start-line="104" selection-start-column="65" selection-end-line="104" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -165,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/MapView/map_viewTest.js" />
         <option value="$PROJECT_DIR$/src/components/MapView/leaflet/jsonToObject.js" />
         <option value="$PROJECT_DIR$/src/components/MapView/test1.js" />
         <option value="$PROJECT_DIR$/src/components/MapView/places_geo.geojson" />
@@ -196,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.css" />
         <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.js" />
         <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.css" />
-        <option value="$PROJECT_DIR$/src/components/NexusGraph/GraphView.js" />
         <option value="$PROJECT_DIR$/src/components/Heading/Heading.css" />
         <option value="$PROJECT_DIR$/src/components/MapView/MapView.js" />
         <option value="$PROJECT_DIR$/src/components/HelpView/HelpView.css" />
@@ -216,6 +215,8 @@
         <option value="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" />
         <option value="$PROJECT_DIR$/src/components/TabViewer/TabViewer.css" />
         <option value="$PROJECT_DIR$/src/reducers/tabViewerReducer.js" />
+        <option value="$PROJECT_DIR$/src/components/NexusGraph/GraphView.css" />
+        <option value="$PROJECT_DIR$/src/components/NexusGraph/GraphView.js" />
       </list>
     </option>
   </component>
@@ -258,6 +259,13 @@
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="NexusGraph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
@@ -345,8 +353,8 @@
     <list>
       <item itemvalue="JavaScript Debug.mapTest.html" />
       <item itemvalue="Node.js.MapView.js" />
-      <item itemvalue="Node.js.test1.js" />
       <item itemvalue="Node.js.model.js" />
+      <item itemvalue="Node.js.test1.js" />
       <item itemvalue="npm.start" />
     </list>
     <recent_temporary>
@@ -412,7 +420,7 @@
       <workItem from="1545289748361" duration="1311000" />
       <workItem from="1545464532824" duration="248000" />
       <workItem from="1545503430496" duration="13006000" />
-      <workItem from="1545631524587" duration="8669000" />
+      <workItem from="1545631524587" duration="10366000" />
     </task>
     <task id="LOCAL-00001" summary="fixed this.props.places bug">
       <created>1525795879351</created>
@@ -673,11 +681,25 @@
       <option name="project" value="LOCAL" />
       <updated>1545678708191</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="made random pin tab feature">
+      <created>1545682696096</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1545682696096</updated>
+    </task>
+    <task id="LOCAL-00039" summary="added legend for user nexus graph">
+      <created>1545685886477</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1545685886477</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287195000" />
+    <option name="totallyTimeSpent" value="288892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,7 +712,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6409537" visible="true" weight="0.17693523" />
       <window_info id="Structure" order="1" sideWeight="0.35904628" side_tool="true" weight="0.24065298" />
@@ -797,8 +818,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="tried commenting out some stuff in Navigation to hopefully make things work?" />
-    <MESSAGE value="added small comments" />
     <MESSAGE value="Reorgranized some code" />
     <MESSAGE value="merged neil's stuff onto master" />
     <MESSAGE value="progress!! need to make sure this.props.places in mapview always has places doe" />
@@ -822,7 +841,9 @@
     <MESSAGE value="trying to see if this work pt 8 even jank solution isn't working... T.T" />
     <MESSAGE value="trying to see if this work pt 9&#10;&#10;There are stupid mistakes... then are just truly truly truly idiotic mistakes.&#10;&#10;Here's to hoping it's the latter." />
     <MESSAGE value="book view styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="book view styling" />
+    <MESSAGE value="made random pin tab feature" />
+    <MESSAGE value="added legend for user nexus graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="added legend for user nexus graph" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
@@ -909,13 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/SearchComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -970,16 +984,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="120" column="62" selection-start-line="120" selection-start-column="62" selection-end-line="120" selection-end-column="62" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1163,8 +1167,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/tabViewerReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="163" column="60" selection-start-line="163" selection-start-column="60" selection-end-line="163" selection-end-column="60" />
+        <state relative-caret-position="494">
+          <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="104" column="65" selection-start-line="104" selection-start-column="65" selection-end-line="104" selection-end-column="65" />
         </state>
       </provider>
     </entry>
