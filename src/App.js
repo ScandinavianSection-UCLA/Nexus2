@@ -20,7 +20,7 @@ class App extends Component {
     render() {
         return (
             <div className="App" >
-                <BrowserRouter basename={'/folklorenexus'}>
+                <BrowserRouter basename={'/folklorenexus/'}>
                     <Home/>
                 </BrowserRouter>
             </div>
