@@ -61,14 +61,15 @@ and (min-height: 768px){
 }
 
 .suggestions {
-    height: 20vh;
+    height: 50vh;
     overflow-y: scroll;
     background-color: white;
     font-size: 1.3em;
     margin-left: 0;
     list-style: none;
     position: relative;
-    top: -17%;
+    left: -2%;
+    top: -38%;
 }
 
 .suggestions li {

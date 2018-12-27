@@ -58,3 +58,14 @@ export function updateTab(TabIndex, updates) {
         "payload": {TabIndex, updates},
     };
 }
+
+/**
+ * Pin a tab so it won't be removed
+ * @param {Number} TabIndex to pin
+ * */
+export function pinTab(TabIndex){
+    return {
+        "type": types.PIN_TAB,
+        "payload": TabIndex,
+    }
+}

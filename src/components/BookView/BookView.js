@@ -238,7 +238,7 @@ class BookView extends Component {
                 </div>
                 {/* hide the book but keep the elements in the DOM if a search is going */}
                 {/* this is so that the book still has its div to render to and doesn't break during a search */}
-                <div className={`cell medium-11 grid-x ${this.state.searchActive === true ? "hidden" : ""}`}>
+                <div className={`book-controls cell medium-11 grid-x ${this.state.searchActive === true ? "hidden" : ""}`}>
                     {/* button to go back a page */}
                     <button
                         // give it page turn styling
@@ -247,7 +247,9 @@ class BookView extends Component {
                             // go to the left page on click
                             this.rendition.prev();
                             // show a large <
-                        }}>&lt;</button>
+                        }}>
+                        <img className="left-hover" src="https://img.icons8.com/ios/50/000000/chevron-left-filled.png"/>
+                    </button>
                     {/* actual book content */}
                     <div className="book cell medium-10" ref={this.bookRef} />
                     {/* button to go forward a page */}
@@ -258,7 +260,9 @@ class BookView extends Component {
                             // go to the right page on click
                             this.rendition.next();
                             // show a large >
-                        }}>&gt;</button>
+                        }}>
+                        <img src="https://img.icons8.com/ios/50/000000/chevron-right-filled.png"/>
+                    </button>
                 </div>
                 {/* when the search results are to be shown */}
                 {this.state.searchActive === true &&
