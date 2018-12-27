@@ -1,6 +1,22 @@
+/*Small Laptops*/
+@media screen
+and (min-width: 800px) and (max-width: 1023px)
+and (min-height: 600px) and (max-height: 768px){
+    .SearchComponent input[type=text] {font-size: 1.2em;}
+    .keyword-search-label{font-size:.5em; height:.8em;}
+}
+/*Average Laptops*/
+@media screen
+and (min-width: 1024px)
+and (min-height: 768px){
+    .SearchComponent input[type=text] {font-size: 1.7em;}
+    .keyword-search-label{font-size:.8em; height:.8em;}
+}
+
 .SearchComponent {
     padding: 5% 0 3% 2%;
-    background: #ED4C67;
+    /*background: #ED4C67;*/
+    background:#e67e22;
     margin-bottom: 20%;
     margin-top: 10%;
     height: 23%;
@@ -23,7 +39,6 @@
     background: transparent;
     border-bottom: 2px solid white;
     box-shadow: none;
-    font-size: 1.7em;
     padding: 3px;
     height: 1.6em;
     width: 80%;
@@ -46,14 +61,15 @@
 }
 
 .suggestions {
-    height: 20vh;
+    height: 50vh;
     overflow-y: scroll;
     background-color: white;
     font-size: 1.3em;
     margin-left: 0;
     list-style: none;
     position: relative;
-    top: -17%;
+    left: -2%;
+    top: -38%;
 }
 
 .suggestions li {

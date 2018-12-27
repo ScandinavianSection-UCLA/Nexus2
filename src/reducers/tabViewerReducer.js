@@ -6,6 +6,47 @@ import * as actions from "../actions/actionTypes";
 import {setSessionStorage} from "../data-stores/SessionStorageModel";
 
 /**
+ * Generic handler for manipulating the tabs and updating their state
+ * @param {Object} state The pre-update state
+ * @param {Object} action Action to do to the tabs (ADD_TAB, SWITCH_TABS, CLOSE_TAB)
+ * @returns {Object} The updated state
+ */
+export default function tabViewer(state = initialState.tabState, action) {
+    // depending on which action to perform
+    switch (action.type) {
+        // if we are to add a tab
+        case actions.ADD_TAB:
+            // console.log("ADD_TAB ACTION", state);
+            return addTab(state, action.payload);
+        // if we are to switch between tabs
+        case actions.SWITCH_TABS:
+            // console.log("SWITCH_TABS ACTION", state);
+            return switchTab(state, action.payload);
+        // if we are to close a tab
+        case actions.CLOSE_TAB:
+            // console.log("CLOSE_TAB ACTION", state);
+            return closeTab(state, action.payload);
+        // if we are to move around a tab
+        case actions.MOVE_TAB:
+            // console.log("MOVE_TAB ACTION", state);
+            return moveTab(state, action.payload);
+        // if we are to change a tab's color
+        case actions.UPDATE_TAB:
+            // console.log("UPDATE_TAB ACTION", state);
+            return updateTab(state, action.payload);
+        case actions.PIN_TAB:
+            // console.log("PIN_TAB ACTION", state);
+            return pinTab(state, action.payload);
+        // unhandled action type
+        default:
+            // warn that we hit a bad action
+            console.warn(`Invalid action: ${action.type}`);
+            // don't change anything
+            return state;
+    }
+}
+
+/**
  * Switch to a new active tab
  * @param {Object} OldState The pre-switch state
  * @param {Number} SwitchToIndex The tab index to switch to
@@ -90,6 +131,8 @@ function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
             "type": type,
             // color is the default active/inactive color
             "color": null,
+            // pinned is whether or not its pinned to not be automatically deleted
+            "pinned": false,
         };
         // for each of the preexisting views
         let updatedViews = newState.views.map((view) => {
@@ -101,17 +144,29 @@ function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
             };
             // and add in the new view at the end
         }).concat(newView);
+        // tracker if we need to remove a tab
+        var RemoveTab = false;
         // if our window is smaller than 1100px (95% sure about the units)
-        if (window.innerWidth <= 1100) {
-            // if we have more than 5 tabs already (including home)
-            if (updatedViews.length > 5) {
-                // remove the first non-Home tab
-                updatedViews.splice(1, 1);
-            }
+        // and
+        // if we have more than 5 tabs already (including home)
+        if (window.innerWidth <= 1100 && updatedViews.length > 5) {
+            RemoveTab = true;
         } else if (updatedViews.length > 6) {
-            // if we have more than 6 tabs already (including home)
+            // if we have more than 6 tabs already (including home) and regardless of screen size
+            RemoveTab = true;
+        }
+        // check if first non-home tab is not pinned
+        // and
+        // if we need to remove a tab
+        if( RemoveTab){
+            // index to remove defaults to the tab next to the home tab
+            let RemoveIndex = 1;
+            // if the tab is pinned then remove the next tab
+            while(updatedViews[RemoveIndex].pinned){
+                RemoveIndex++;
+            }
             // remove the first non-Home tab
-            updatedViews.splice(1, 1);
+            updatedViews.splice(RemoveIndex, 1);
         }
         // update the state's views
         newState.views = updatedViews;
@@ -177,39 +232,20 @@ function updateTab(OldState, {TabIndex, updates}) {
 }
 
 /**
- * Generic handler for manipulating the tabs and updating their state
- * @param {Object} state The pre-update state
- * @param {Object} action Action to do to the tabs (ADD_TAB, SWITCH_TABS, CLOSE_TAB)
- * @returns {Object} The updated state
- */
-export default function tabViewer(state = initialState.tabState, action) {
-    // depending on which action to perform
-    switch (action.type) {
-        // if we are to add a tab
-        case actions.ADD_TAB:
-            console.log("ADD_TAB ACTION", state);
-            return addTab(state, action.payload);
-        // if we are to switch between tabs
-        case actions.SWITCH_TABS:
-            console.log("SWITCH_TABS ACTION", state);
-            return switchTab(state, action.payload);
-        // if we are to close a tab
-        case actions.CLOSE_TAB:
-            console.log("CLOSE_TAB ACTION", state);
-            return closeTab(state, action.payload);
-        // if we are to move around a tab
-        case actions.MOVE_TAB:
-            console.log("MOVE_TAB ACTION", state);
-            return moveTab(state, action.payload);
-        // if we are to change a tab's color
-        case actions.UPDATE_TAB:
-            console.log("UPDATE_TAB ACTION", state);
-            return updateTab(state, action.payload);
-        // unhandled action type
-        default:
-            // warn that we hit a bad action
-            console.warn(`Invalid action: ${action.type}`);
-            // don't change anything
-            return state;
-    }
+ * Pin a tab to not be removed
+ * @param {Object} OldState with the pre-updated state
+ * @param {Number} TabIndex to pin
+ * */
+function pinTab(OldState, TabIndex){
+    // save old state to a new state to keep immutability
+    let newState = {...OldState};
+    // get the view to pin
+    let view = newState.views[TabIndex];
+    // toggle pinned state
+    newState.views[TabIndex] = {
+        ...view,
+        pinned: !newState.views[TabIndex].pinned,
+    };
+    return newState;
 }
+

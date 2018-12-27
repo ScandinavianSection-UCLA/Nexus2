@@ -9,6 +9,17 @@ import {arrayTransformation, getPlaceIDList} from "../../utils";
 import MapView from "../MapView/MapView";
 // prop validation
 import PropTypes from "prop-types";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+import connect from "react-redux/es/connect/connect";
+
+const CIToChapterID = {
+    1: 6,
+    2: 7,
+    3: 8,
+    4: 9,
+    5: 10,
+};
 
 class PeopleView extends Component {
     getOccupation() {
@@ -21,7 +32,7 @@ class PeopleView extends Component {
             // if it's a single job, turn it into a single element array
             jobList = arrayTransformation(jobList);
             // for each of the jobs
-            jobList.forEach(function(occupation) {
+            jobList.forEach(function (occupation) {
                 // set its name to be that of the matching job in the occupation dictionary
                 occupation.occupation_name = OccupationDictionary.find((testOccupation) => testOccupation.ID === occupation.occupation_id).occupation;
             });
@@ -37,17 +48,18 @@ class PeopleView extends Component {
         }
     }
 
+    openCoreInformantTab() {
+        console.log('hi');
+        if (this.props.person.hasOwnProperty("core_informant")) {
+            let CoreInformantID = this.props.person['core_informant'];
+            if (CoreInformantID > 0 && CoreInformantID <= 5) {
+                let QueryID = CIToChapterID[CoreInformantID];
+                this.props.tabViewerActions.addTab(QueryID, this.props.person['full_name'], "Book");
+            }
+        }
+    }
+
     render() {
-        console.log(getPlaceIDList(arrayTransformation(this.props.person.places))
-            .map((placeID) => {getPlacesByID(placeID)}));
-        let Places = [];
-        this.props.person.places.forEach((place)=>{
-            var Place = {
-                ...getPlacesByID(place.place_id),
-                display_name:place.display_name,
-            };
-            Places.push(Place);
-        });
         return (
             <div className="PeopleView grid-y">
                 <div className="tab-header cell medium-1">
@@ -67,6 +79,9 @@ class PeopleView extends Component {
                                             <div className="detail-item"><b>Died</b> {this.props.person.death_date}</div>
                                             <div className="detail-item"><b>ID#</b> {this.props.person.person_id}</div>
                                             <div className="detail-item"><b>Occupation (Eng/Dansk):</b> {this.getOccupation()}</div>
+                                            <buttom className="button primary"
+                                                onClick={(e) => {e.preventDefault(); this.openCoreInformantTab.bind(this)()}}
+                                            >Full Biography</buttom>
                                         </div>
                                     </div>
                                 </div>
@@ -75,14 +90,8 @@ class PeopleView extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="medium-4 cell" style={{height:'80vh'}}>
-                            <MapView places={
-                                Places
-                                // // get a list of all IDs of associated places
-                                // getPlaceIDList(arrayTransformation(this.props.person.places))
-                                //     // and get the full place object from that, to give to MapView
-                                //     .map((placeID) => getPlacesByID(placeID))
-                            } view="People"/>
+                        <div className="medium-4 cell map-wrapper">
+                            <MapView places={this.props.person.places} />
                         </div>
                         <RightBar
                             view="People"
@@ -112,7 +121,24 @@ PeopleView.propTypes = {
         "person_id": PropTypes.number.isRequired,
         "places": PropTypes.array.isRequired,
         "stories": PropTypes.array.isRequired,
+        // must have tabViewerActions to open up a new book tab
+        "tabViewerActions": PropTypes.object.isRequired,
     }),
 };
 
-export default PeopleView;
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(PeopleView);

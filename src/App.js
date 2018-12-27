@@ -1,7 +1,7 @@
 import React, {Component} from "react";
-import TabViewer from "./components/TabViewer/TabViewer";
-import Heading from "./components/Heading/Heading.js";
+import {BrowserRouter} from "react-router-dom";
 import "./App.css";
+import Home from "./Home";
 
 class App extends Component {
     constructor() {
@@ -19,14 +19,10 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App grid-y medium-grid-frame full">
-                {/* without nested div, the Book View gets mega-compressed */}
-                <div>
-                    {/* Top banner with flag + title on left, book icon on right */}
-                    <Heading />
-                    {/* Everything else on the page */}
-                    <TabViewer />
-                </div>
+            <div className="App" >
+                <BrowserRouter basename={'/folklorenexus/'}>
+                    <Home/>
+                </BrowserRouter>
             </div>
         );
     }

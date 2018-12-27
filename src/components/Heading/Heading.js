@@ -39,7 +39,7 @@ class Heading extends Component {
         return (
             <div className="Heading grid-x grid-padding-x">
                 {/* Flag + title on the left of the header */}
-                <div className="large-4 cell">
+                <div className="large-4 medium-4 cell heading-stuff">
                     <div className="grid-x grid-margin-x">
                         {/* Flag that links back to the home page */}
                         <a className="flag medium-3 medium-offset-1 cell">

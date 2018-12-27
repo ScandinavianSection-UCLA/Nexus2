@@ -8,7 +8,6 @@ import {
 } from "../data-stores/DisplayArtifactModel";
 // starter state if there is no previous data
 import initialState from "./initialState";
-import {ArrNoDupe} from "../utils";
 
 /**
  * Generic handler for navigator
@@ -90,34 +89,26 @@ function updateItems(prevState) {
  */
 function displayItems(prevState, list) {
     // set placeList - if people, then pull places associated with people, etc.
-    let PlaceList = [];
-    let InitialItem = list[0];
-    if(InitialItem !== undefined){
-        //if item is a person
-        if('residence_place' in InitialItem){
-            list.forEach((person)=>{
-                if(person['residence_place'] !== null){
-                    let place = {...person['residence_place'], full_name: person['full_name']};
-                    // console.log(place);
-                    PlaceList.push(place);
-                }
-            });
-            // PlaceList = ArrNoDupe(PlaceList);
-        } else if( 'latitude' in InitialItem ){ // if item is a place
+    let PlaceList = ["hi"],
+        InitialItem = list[0];
+    if (typeof InitialItem !== "undefined") {
+        // if item is a person
+        if ("residence_place" in InitialItem) {
+            PlaceList = list.filter((person) => person.residence_place !== null)
+                .map((person) => ({
+                    ...person.residence_place,
+                    "full_name": person.full_name,
+                }));
+        } else if ("latitude" in InitialItem) {
             PlaceList = list;
-        } else { //if item is a story
-            console.log(list);
-            list.forEach((story)=>{
-                if(story['place_recorded'] !== undefined){
-                    // console.log(getPlacesByID(story['place_recorded'].id));
-                    let place = {...getPlacesByID(story['place_recorded'].id), full_name: story['full_name']};
-                    PlaceList.push(place);
-                }
-            });
-            // PlaceList = ArrNoDupe(PlaceList);
+        } else {
+            PlaceList = list.filter((story) => typeof story.place_recorded !== "undefined")
+                .map((story) => ({
+                    ...getPlacesByID(story.place_recorded.id),
+                    "full_name": story.full_name,
+                }));
         }
     }
-
     // set up the items based on
     const newState = {
         ...prevState,
@@ -125,6 +116,7 @@ function displayItems(prevState, list) {
         "itemsList": list,
         "placeList": PlaceList,
     };
+    console.log(newState);
     if (newState.timeFilterOn === true) {
         // if the time filter is on, we need
         return updateItems(newState);
@@ -139,6 +131,7 @@ function displayItems(prevState, list) {
  * @returns {Object} The new, post-event state
  */
 function timeFilterHandler(prevState, {checked, name, value}) {
+    console.log('time filter on!');
     switch (name) {
         case "fromYear": {
             const newState = {

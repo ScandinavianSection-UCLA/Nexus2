@@ -16,9 +16,42 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root">
-      <h4 style="text-align: center">Loading...</h4>
-      <img class="loading-icon" src="kitty-wiggle-full-loading.gif"/>
+    <style>
+      .loading-wrapper{
+        padding-top:25vh;
+      }
+      .ETK-Port{
+        display:block;
+        margin:auto;
+        height:35vh;
+        width:auto;
+        -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+        -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+        box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+      }
+      .loading-icon{
+        height:8vh;
+        display:inline-block;
+      }
+      .loading-text{
+        margin-top:15px;
+        margin-left:32vw;
+        display:inline-block;
+        color:white;
+        text-align:center;
+        font-weight:bold;
+      }
+    </style>
+    <div id="root" style="background:#e67e22;height:100vh;">
+      <div class="loading-wrapper">
+        <img src="EvaldTangKristenPort.jpg" class="ETK-Port"/>
+        <span>
+          <h4 class="loading-text">Evald Tang Kristensen’s Journey is Loading…</h4>
+          <img src="walking%20man.gif" class="loading-icon"/>
+          <!--<img class="loading-icon" src="kitty-wiggle-full-loading.gif"/>-->
+        </span>
+      </div>
+
     </div>
   </body>
 </html>

@@ -74,7 +74,7 @@ class GraphView extends Component {
         }
         return (
             // div to contain both the button and graph
-            <div className="grid-x">
+            <div className="grid-x NexusGraph">
                 {/* contains the filters */}
                 <form className="medium-3 cell grid-y" id="analysisTools">
                     <h3 className="cell" id="heading">Analysis Tools</h3>
@@ -101,6 +101,34 @@ class GraphView extends Component {
                         {/* give the text "Secondary" a light green color to indicate which links it matches to */}
                         Show <span className="lightgreen">Secondary</span> Links
                     </label>
+
+                    <table className="legend hover unstriped cell">
+                        <thead>
+                            <tr>
+                                <th>Color</th>
+                                <th>Type of Node</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><div className="circle blue"> </div></td>
+                                <td>People</td>
+                            </tr>
+                            <tr>
+                                <td><div className="circle red"> </div></td>
+                                <td>Places</td>
+                            </tr>
+                            <tr>
+                                <td><div className="circle grey"> </div></td>
+                                <td>Stories</td>
+                            </tr>
+                            <tr>
+                                <td><div className="circle green"> </div></td>
+                                <td>Fieldtrips</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
                 </form>
                 {/* the actual graph */}
                 <div>
@@ -116,9 +144,9 @@ class GraphView extends Component {
                         // custom settings for the graph
                         settings={{
                             // set the height to occupy most of the screen
-                            "height": (window.innerHeight) * 0.8,
+                            "height": (window.innerHeight) * 0.83,
                             // set the width to be just under 3/4 the screen width (so it doesn't overflow into a new row)
-                            "width": window.innerWidth * 0.74,
+                            "width": window.innerWidth * 0.745,
                         }}
                     />
                 </div>

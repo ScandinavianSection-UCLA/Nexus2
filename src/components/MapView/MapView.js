@@ -12,8 +12,13 @@ import {
     Popup,
     TileLayer,
     WMSTileLayer,
-} from "react-leaflet"
-import {latLngBounds} from 'leaflet'
+} from "react-leaflet";
+import Leaflet from "leaflet";
+import {getPlacesByID} from "../../data-stores/DisplayArtifactModel";
+import {arrayTransformation, getPlaceIDList} from "../../utils";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+import connect from "react-redux/es/connect/connect";
 
 // constants + defaults for our map
 const {BaseLayer} = LayersControl,
@@ -23,6 +28,10 @@ const {BaseLayer} = LayersControl,
 class MapView extends React.Component {
     constructor(props) {
         super(props);
+        this.lastclick = {
+            "popup": null,
+            "time": 0,
+        };
         // start off with defaults
         this.tiles = [{
             "name": "Default OpenStreet Map",
@@ -47,17 +56,13 @@ class MapView extends React.Component {
         }];
     }
 
-    componentDidMount(){
-        console.log(this.refs.map.leafletElement.getBounds);
-    }
-
     /**
      * Filters out invalid places from props
      * @returns {Array<Places>} Only the valid places from props
      */
     prunePlaces() {
         // for each of prop's places
-        return this.props.places.filter((place) =>
+        return getPlaceIDList(arrayTransformation(this.props.places)).map((placeID) => getPlacesByID(placeID)).filter((place) =>
             // make sure it isn't undefined
             typeof place !== "undefined" &&
             // or null
@@ -75,15 +80,15 @@ class MapView extends React.Component {
     defineMapCenter() {
         // get filtered places
         const places = this.prunePlaces();
-        if(this.props.view === "Fieldtrip"){
+        if (this.props.view === "Fieldtrip") {
             //find longitude average
             var AvgLongitude;
             var TotalLongitude = 0;
-            places.forEach((place)=>{
+            places.forEach((place) => {
                 TotalLongitude += place.longitude;
             });
-            AvgLongitude = TotalLongitude/places.length;
-            const MedianPlaceIndex = places.length/2 | 0;
+            AvgLongitude = TotalLongitude / places.length;
+            const MedianPlaceIndex = places.length / 2 | 0;
             const MedianPlace = places[MedianPlaceIndex];
             return [MedianPlace.latitude, AvgLongitude];
         }
@@ -106,7 +111,7 @@ class MapView extends React.Component {
     defineMapZoom() {
         // get filtered places
         const places = this.prunePlaces();
-        if(this.props.view === "Fieldtrip"){
+        if (this.props.view === "Fieldtrip") {
             return 9;
         }
         // if places is of an adequate size
@@ -160,18 +165,75 @@ class MapView extends React.Component {
      * @returns {Array<Marker>} Markers + popups
      */
     renderMarkers() {
+        const temp = arrayTransformation(this.props.places).map((place) => place.name);
         // get filtered places
-        return this.prunePlaces()
-            // for each of the places
-            .map((place, i) => (
-                // create a marker and popup
-                <Marker position={[place.latitude, place.longitude]}
-                    key={i}>
-                    <Popup>
-                        {MapView.renderPopup(place)}
-                    </Popup>
+        return arrayTransformation(this.props.places).filter((item, i) =>
+            temp.indexOf(item.name) === i)
+            // for each of the places, create a marker and popup
+            .map((place, i) => this.renderMarker(place, i));
+    }
+
+    renderMarker(place, i) {
+        const place2 = getPlacesByID(place.place_id);
+        if (place2 !== null) {
+            // color of the marker, default purple
+            let myCustomColour = "#8800ff";
+            // special non-mentioned places are red
+            if (place.type === "story_place" || place.type === "birth_place" || place.type === "death_place") {
+                myCustomColour = "#ff0000";
+                // mentioned places are blue
+            } else if (place.type === "place_mentioned") {
+                myCustomColour = "#0000ff";
+            }
+            // get name to show on the popup
+            const name = MapView.renderPopup(place2),
+                // style the popups
+                markerHtmlStyles =
+                    `background-color: ${myCustomColour};
+                    width: 1rem;
+                    height: 1rem;
+                    display: block;
+                    left: -.5rem;
+                    top: -.5rem;
+                    position: relative;
+                    border-radius: 100px;
+                    transform: rotate(45deg);
+                    border: 1px solid #FFFFFF`,
+                // create the actual icon
+                icon = Leaflet.divIcon({
+                    "className": "my-custom-pin",
+                    "iconAnchor": [0, 8],
+                    "labelAnchor": [-2, 0],
+                    "popupAnchor": [0, -12],
+                    "html": `<span style="${markerHtmlStyles}" />`,
+                });
+            // return a marker at the place with the marker, opens up the place's tab on double click
+            return (
+                <Marker
+                    position={[place2.latitude, place2.longitude]}
+                    icon={icon}
+                    key={i}
+                    onClick={this.handleClick.bind(this, place, name)}>
+                    <Popup>{name}</Popup>
                 </Marker>
-            ));
+            );
+        } else {
+            return null;
+        }
+    }
+
+    // click handler for popup
+    handleClick(place, name) {
+        // if double click, go to the place
+        if (this.lastclick.popup === place && Date.now() - this.lastclick.time <= 1000) {
+            this.props.actions.addTab(place.place_id, name, "Places");
+        } else {
+            // otherwise just update last click
+            this.lastclick = {
+                "popup": place,
+                "time": Date.now(),
+            };
+        }
     }
 
     /**
@@ -180,11 +242,10 @@ class MapView extends React.Component {
      * @returns {String} The text for the popup
      */
     static renderPopup(place) {
-        if(place.hasOwnProperty("display_name")){
+        if (place.hasOwnProperty("display_name")) {
             return place.display_name;
-        }
-        // if it has a full_name property
-        else if (place.hasOwnProperty("full_name")) {
+            // if it has a full_name property
+        } else if (place.hasOwnProperty("full_name")) {
             // use that for the text
             return place.full_name;
             // or if it has a name property
@@ -202,12 +263,12 @@ class MapView extends React.Component {
     render() {
         return (
             <Map ref="map"
-                 center={this.defineMapCenter.bind(this)()}
+                center={this.defineMapCenter.bind(this)()}
                 zoom={this.defineMapZoom.bind(this)()}
-                 boundsOptions={{
-                     paddingBottomRight: [250, 0],
-                     paddingTopLeft:[250,0],
-                 }}
+                boundsOptions={{
+                    paddingBottomRight: [250, 0],
+                    paddingTopLeft: [250, 0],
+                }}
             >
                 <LayersControl position="topright">
                     {this.renderTiles.bind(this)()}
@@ -223,4 +284,31 @@ MapView.propTypes = {
     "places": PropTypes.array.isRequired,
 };
 
-export default MapView;
+/**
+ * Set certain props to access Redux states
+ * @param {Object} state All possible Redux states
+ * @returns {Object} Certain states that are set on props
+ */
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+/**
+ * Set the "actions" prop to access Redux actions
+ * @param {*} dispatch Redux actions
+ * @returns {Object} The actions that are mapped to props.actions
+ */
+function mapDispatchToProps(dispatch) {
+    return {
+        "actions": {
+            ...bindActionCreators(tabViewerActions, dispatch),
+        },
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(MapView);

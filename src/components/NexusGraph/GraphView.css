@@ -27,3 +27,23 @@
     /* center the text */
     text-align: center;
 }
+
+/*Legend styling*/
+.legend{
+    margin-top:15px;
+    background:white;
+}
+.legend tr td, .legend thead tr th{
+    text-align:center;
+}
+.circle{
+    height:2vh;
+    width:2vh;
+    border-radius:100%;
+    display:block;
+    margin:auto;
+}
+.red{background:red;}
+.blue{background:blue;}
+.green{background:green;}
+.grey{background:grey;}
