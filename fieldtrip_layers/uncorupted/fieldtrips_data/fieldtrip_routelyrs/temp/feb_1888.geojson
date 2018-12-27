@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "feb_1888",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+
+]
+}
