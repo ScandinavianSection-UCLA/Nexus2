@@ -227,7 +227,7 @@ class Navigation extends React.Component {
                     <NavigatorComponent setDisplayLabel={this.setDisplayLabel.bind(this)} />
                 </div>
                 <div
-                    onClick={(e)=> {e.preventDefault(); this.props.actions.setSearch(false)}}
+                    onClick={(event)=> {event.stopPropagation(); this.props.actions.setSearch(false)}}
                     className="medium-5 cell AssociatedStoriesViewer grid-y fillScreen">
                     {/*Time Filter*/}
                     {this.state.timeFilterLoad && <form
