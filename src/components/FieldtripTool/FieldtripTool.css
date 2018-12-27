@@ -1,0 +1,12 @@
+.FieldtripTool {
+    height:85vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.activeTrip {
+    background-color: lightgray;
+    width: 90%;
+}

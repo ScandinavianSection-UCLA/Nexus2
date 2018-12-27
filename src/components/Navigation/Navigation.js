@@ -162,7 +162,6 @@ class Navigation extends React.Component {
             "navigatorState": {displayList, fromDate, placeList, timeFilterOn, toDate},
             "searchState": {searchingState},
         } = this.props;
-        console.log(placeList);
         // variable to store the main, center display
         let toDisplay;
         // based on what is currently being viewed
@@ -297,10 +296,16 @@ class Navigation extends React.Component {
                             // custom settings for the graph
                             settings={{
                                 // set the height to center the graph
-                                "height": window.innerHeight * 0.8 * 0.5,
+                                "height": window.innerHeight * 0.8 * 0.4,
                                 // set the width to center the graph
                                 "width": window.innerWidth * 0.8 * 0.389,
                             }} />
+                        <button
+                            className="fieldtripTool button primary"
+                            id="fieldtripTool"
+                            onClick={() => {
+                                addTab(0, "Fieldtrip Tool", "FieldtripTool")
+                            }}>Open Fieldtrip Tool</button>
                     </div>
                     <MapView className="medium-6 cell"
                         ref={(ref) => {
