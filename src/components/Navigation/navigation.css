@@ -97,6 +97,11 @@ and (min-height: 1024px){
 }
 
 /*Time Filter*/
+.switch-input{
+    position:relative;
+    z-index:10;
+}
+
 .timeSwitch {
     margin-top: 10%;
 }

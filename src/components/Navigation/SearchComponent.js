@@ -19,6 +19,30 @@ class SearchComponent extends Component {
         this.switchKeywordSearch = this.switchKeywordSearch.bind(this);
     }
 
+    componentWillMount(){
+        // document.addEventListener('mousedown', this.handleClick, false);
+    }
+
+    componentWillUnmount(){
+        // document.removeEventListener('mousedown', this.handleClick, false);
+    }
+
+    handleClick = (e) =>{
+        e.preventDefault();
+      if(this.node.contains(e.target)){
+          //click is inside the component
+          console.log(e.target);
+          this.props.actions.fuzzySearch(
+              e.target.value,
+              this.props.navigatorState.itemsList
+          );
+          return;
+      }
+
+      //click is outside the component, switch searching state off
+      this.props.actions.setSearch(false);
+    };
+
     renderListofSuggestions() {
         return this.props.searchState.results.map((keyword, i) => (
             <li
@@ -45,6 +69,7 @@ class SearchComponent extends Component {
         return (
             <form
                 className="SearchComponent"
+                ref={node => this.node = node}
                 onSubmit={(event) => {
                     event.preventDefault();
                     this.props.actions.searchArtifact(this.props.searchState.inputValue);
@@ -55,6 +80,7 @@ class SearchComponent extends Component {
                     value={this.props.searchState.inputValue}
                     onChange={(event) => {
                         event.preventDefault();
+                        console.log('form is changing');
                         this.props.actions.fuzzySearch(
                             event.target.value,
                             this.props.navigatorState.itemsList

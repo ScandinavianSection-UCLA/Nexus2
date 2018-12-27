@@ -131,6 +131,7 @@ function displayItems(prevState, list) {
  * @returns {Object} The new, post-event state
  */
 function timeFilterHandler(prevState, {checked, name, value}) {
+    console.log('time filter on!');
     switch (name) {
         case "fromYear": {
             const newState = {
