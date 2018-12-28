@@ -224,7 +224,7 @@ class Navigation extends React.Component {
                             id="fieldtripTool"
                             onClick={() => {
                                 addTab(0, "Fieldtrip Tool", "FieldtripTool");
-                            }}>Open Fieldtrip Tool</button>}
+                            }}>Open Fieldtrip Viewer</button>}
                     {this.displayList(displayList)}
                 </div>;
                 break;

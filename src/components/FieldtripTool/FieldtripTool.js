@@ -60,13 +60,13 @@ class FieldtripTool extends React.Component {
         );
         return (
             <div className="FieldtripTool grid-x">
-                <div className="cell medium-3 grid-y">
-                    <h3>Fieldtrip Tool</h3>
+                <div className="cell medium-3">
+                    <h3>Fieldtrip Viewer</h3>
                     <ul>
                         {FieldtripsData.fieldtrip.map(({fieldtrip_id, fieldtrip_name}) => (
                             <li
                                 key={fieldtrip_id}
-                                className={activeFieldtrips.includes(fieldtrip_id) ? "activeTrip" : ""}
+                                className={`cell ${activeFieldtrips.includes(fieldtrip_id) ? "activeTrip" : ""}`}
                                 onClick={this.handleSelect.bind(this, fieldtrip_id)}>
                                 {fieldtrip_name}
                             </li>
