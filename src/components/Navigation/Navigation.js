@@ -216,7 +216,17 @@ class Navigation extends React.Component {
             // for anything else
             default:
                 // just render what is normally wanted
-                toDisplay = this.displayList(displayList);
+                toDisplay = <div>
+
+                    {this.state.displayLabel.includes("Fieldtrips") &&
+                        <button
+                            className="fieldtripTool button primary"
+                            id="fieldtripTool"
+                            onClick={() => {
+                                addTab(0, "Fieldtrip Tool", "FieldtripTool");
+                            }}>Open Fieldtrip Tool</button>}
+                    {this.displayList(displayList)}
+                </div>;
                 break;
         }
         return (
@@ -314,16 +324,10 @@ class Navigation extends React.Component {
                             // custom settings for the graph
                             settings={{
                                 // set the height to center the graph
-                                "height": window.innerHeight * 0.8 * 0.4,
+                                "height": window.innerHeight * 0.8 * 0.47,
                                 // set the width to center the graph
                                 "width": window.innerWidth * 0.8 * 0.389,
                             }} />
-                        <button
-                            className="fieldtripTool button primary"
-                            id="fieldtripTool"
-                            onClick={() => {
-                                addTab(0, "Fieldtrip Tool", "FieldtripTool")
-                            }}>Open Fieldtrip Tool</button>
                     </div>
                     <MapView className="medium-6 cell"
                         ref={(ref) => {
