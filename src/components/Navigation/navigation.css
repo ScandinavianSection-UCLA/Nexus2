@@ -179,3 +179,8 @@ and (min-height: 1024px){
 .fillScreen {
     height: 100%;
 }
+
+#fieldtripTool {
+    /* expand it to occupy the whole width of its space */
+    width: 100%;
+}

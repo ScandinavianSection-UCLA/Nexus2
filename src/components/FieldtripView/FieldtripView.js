@@ -4,30 +4,34 @@ import "./FieldtripView.css";
 import PropTypes from "prop-types";
 import MapView from "../MapView/MapView";
 import {getPlacesByID} from "../../data-stores/DisplayArtifactModel";
+// redux imports
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+import connect from "react-redux/es/connect/connect";
 
 class FieldtripView extends Component {
     render() {
-        let PlacesVisited = [];
-        this.props.fieldtrip.places_visited.forEach((place)=>{
-           let Place = getPlacesByID(place.place_id);
-           if(Place.longitude !== null && Place.latitude !== null){
-               PlacesVisited.push({
-                   ...place,
-                   longitude: Place.longitude,
-                   latitude: Place.latitude,
-               });
-           }
-        });
+        const PlacesVisited = this.props.fieldtrip.places_visited.map((place) => getPlacesByID(place.place_id));
         return (
             <div className="FieldtripView grid-x">
                 <div className="medium-11 cell main">
-                    {/* should add more later, currently only displays timing of the fieldtrip*/}
-                    <div className="heading">
-                        <img className="h-item" src={require("./../Navigation/icons8-waypoint-map-32.png")}/>
-                        <h2 className="h-item">{this.props.fieldtrip.fieldtrip_name}</h2>
-                        <h6 className="h-item">{this.props.fieldtrip.start_date} to {this.props.fieldtrip.end_date}</h6>
+                    <div className="grid-x">
+                        <div className="heading cell medium-10">
+                            {/* <div className="heading"> */}
+                            <img className="h-item" src={require("./../Navigation/icons8-waypoint-map-32.png")} />
+                            <h2 className="h-item">{this.props.fieldtrip.fieldtrip_name}</h2>
+                            <h6 className="h-item">{this.props.fieldtrip.start_date} to {this.props.fieldtrip.end_date}</h6>
+                            {/* </div> */}
+                            {/* <h3>{this.props.fieldtrip.fieldtrip_name}</h3>
+                            <h4>{this.props.fieldtrip.start_date} to {this.props.fieldtrip.end_date}</h4> */}
+                        </div>
+                        <button
+                            className="fieldtripTool button primary cell medium-2"
+                            onClick={() => {
+                                this.props.actions.addTab(this.props.fieldtrip.fieldtrip_id, "Fieldtrip Tool", "FieldtripTool");
+                            }}>Open in Fieldtrip Tool</button>
                     </div>
-                    <MapView className="heading" places={PlacesVisited} view={"Fieldtrip"}/>
+                    <MapView className="heading" places={PlacesVisited} view={"Fieldtrip"} />
                 </div>
                 {/* right bar with all the relevant PPS for the fieldtrip */}
                 <RightBar view="Fieldtrips"
@@ -69,4 +73,27 @@ FieldtripView.defaultProps = {
     },
 };
 
-export default FieldtripView;
+/**
+ * Set certain props to access Redux states
+ * @param {Object} state All possible Redux states
+ * @returns {Object} Certain states that are set on props
+ */
+function mapStateToProps() {
+    return {};
+}
+
+/**
+ * Set the "actions" prop to access Redux actions
+ * @param {*} dispatch Redux actions
+ * @returns {Object} The actions that are mapped to props.actions
+ */
+function mapDispatchToProps(dispatch) {
+    return {
+        "actions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(FieldtripView);

@@ -46,8 +46,8 @@ class Navigation extends React.Component {
         this.timeInputEnd = this.timeInputEnd.bind(this);
     }
 
-    componentDidMount(){
-        setTimeout(this.setState({timeFilterLoad:true}), 1000)
+    componentDidMount() {
+        setTimeout(this.setState({timeFilterLoad: true}), 1000)
         // this.setState({timeFilterLoad:true});
     }
     /**
@@ -161,7 +161,7 @@ class Navigation extends React.Component {
         });
     }
 
-    renderTimeSwitch(timeFilterHandler, timeFilterOn){
+    renderTimeSwitch(timeFilterHandler, timeFilterOn) {
         return <div
             className="medium-2 small-2 small-offset-0 medium-offset-0 large-offset-1 cell switch">
             <input
@@ -171,7 +171,7 @@ class Navigation extends React.Component {
                 checked={timeFilterOn}
                 name="timelineFilter"
                 onChange={timeFilterHandler}
-                // onClick={timeFilterHandler}
+            // onClick={timeFilterHandler}
             />
             <label className="switch-paddle" htmlFor="exampleSwitch">
                 <br />
@@ -188,7 +188,6 @@ class Navigation extends React.Component {
             "navigatorState": {displayList, fromDate, placeList, timeFilterOn, toDate},
             "searchState": {searchingState},
         } = this.props;
-        // console.log(placeList);
         // variable to store the main, center display
         let toDisplay;
         // based on what is currently being viewed
@@ -217,7 +216,17 @@ class Navigation extends React.Component {
             // for anything else
             default:
                 // just render what is normally wanted
-                toDisplay = this.displayList(displayList);
+                toDisplay = <div>
+
+                    {this.state.displayLabel.includes("Fieldtrips") &&
+                        <button
+                            className="fieldtripTool button primary"
+                            id="fieldtripTool"
+                            onClick={() => {
+                                addTab(0, "Fieldtrip Tool", "FieldtripTool");
+                            }}>Open Fieldtrip Tool</button>}
+                    {this.displayList(displayList)}
+                </div>;
                 break;
         }
         return (
@@ -227,7 +236,7 @@ class Navigation extends React.Component {
                     <NavigatorComponent setDisplayLabel={this.setDisplayLabel.bind(this)} />
                 </div>
                 <div
-                    onClick={(event)=> {event.stopPropagation(); this.props.actions.setSearch(false)}}
+                    onClick={(event) => {event.stopPropagation(); this.props.actions.setSearch(false)}}
                     className="medium-5 cell AssociatedStoriesViewer grid-y fillScreen">
                     {/*Time Filter*/}
                     {this.state.timeFilterLoad && <form
@@ -246,15 +255,15 @@ class Navigation extends React.Component {
                                 onChange={timeFilterHandler}
                                 onClick={this.timeInputClickHandler} />
                             {this.state.fromSelect === true &&
-                            <input
-                                className="slider"
-                                name="fromYear"
-                                type="range"
-                                min="1887"
-                                max={toDate}
-                                value={fromDate}
-                                onChange={timeFilterHandler}
-                                onMouseUp={this.timeInputEnd} />}
+                                <input
+                                    className="slider"
+                                    name="fromYear"
+                                    type="range"
+                                    min="1887"
+                                    max={toDate}
+                                    value={fromDate}
+                                    onChange={timeFilterHandler}
+                                    onMouseUp={this.timeInputEnd} />}
                         </div>
                         <b className="medium-1 large-1 cell text top-padding">To</b>
                         <div className="medium-2 large-2 cell top-padding">
@@ -268,15 +277,15 @@ class Navigation extends React.Component {
                                 onChange={timeFilterHandler}
                                 onClick={this.timeInputClickHandler} />
                             {this.state.toSelect === true &&
-                            <input
-                                className="slider"
-                                type="range"
-                                name="toYear"
-                                min={fromDate}
-                                max="1899"
-                                value={toDate}
-                                onChange={timeFilterHandler}
-                                onMouseUp={this.timeInputEnd} />}
+                                <input
+                                    className="slider"
+                                    type="range"
+                                    name="toYear"
+                                    min={fromDate}
+                                    max="1899"
+                                    value={toDate}
+                                    onChange={timeFilterHandler}
+                                    onMouseUp={this.timeInputEnd} />}
                         </div>
                     </form>}
                     <ul className="book medium-cell-block-y cell medium-10">
@@ -315,7 +324,7 @@ class Navigation extends React.Component {
                             // custom settings for the graph
                             settings={{
                                 // set the height to center the graph
-                                "height": window.innerHeight * 0.8 * 0.5,
+                                "height": window.innerHeight * 0.8 * 0.47,
                                 // set the width to center the graph
                                 "width": window.innerWidth * 0.8 * 0.389,
                             }} />

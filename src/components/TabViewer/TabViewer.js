@@ -9,6 +9,7 @@ import PeopleView from "../PeopleView/PeopleView";
 import FieldtripView from "../FieldtripView/FieldtripView";
 import BookView from "../BookView/BookView";
 import GraphView from "../NexusGraph/GraphView";
+import FieldtripTool from "../FieldtripTool/FieldtripTool";
 // functions to get info about PPFS
 import * as model from "../../data-stores/DisplayArtifactModel";
 // CSS styling
@@ -67,12 +68,13 @@ class TabViewer extends Component {
             case "Graph":
                 // for the graph, return the GraphView
                 return <GraphView />;
-            case "Book": {
+            case "Book":
                 // for the book, return the BookView, with the chapter ID that was selected
-                return <BookView viewIndex={tabIndex} id={id}/>;
-            }
+                return <BookView viewIndex={tabIndex} id={id} />;
             case "Help":
                 return <HelpView />
+            case "FieldtripTool":
+                return <FieldtripTool fieldtrip={id} />;
             default:
                 // if it wasn't one of the above types, warn that we hit an unknown type
                 console.warn(`Unhandled tab type: ${type}`);
@@ -144,51 +146,51 @@ class TabViewer extends Component {
                     <ul className="tabs cell medium-1"> {/* medium-1 sets the height of the tabs*/}
                         {/* for each tab to display */}
                         {this.props.state.views.map((view, index) => (
-                                // return a tab JSX element
-                                <li
-                                    // based on the actual DOM element that results
-                                    ref={(instance) => {
-                                        // assuming we got a proper render
-                                        if (instance !== null) {
-                                            // set the width of the tabs in tabPos
-                                            this.tabs[index] = instance.getBoundingClientRect();
-                                            // set the Y coordinate of the drop indicator
-                                            this.dragIndicatorY = instance.getBoundingClientRect().y;
-                                            // set the height of the drop indicator
-                                            this.dragIndicatorHeight = instance.getBoundingClientRect().height;
-                                        }
-                                    }}
-                                    // callback when the tab is clicked
-                                    onClick={() => {
-                                        // if a tab is clicked, we should switch to that tab
-                                        this.props.tabViewerActions.switchTabs(index);
-                                    }}
-                                    // make everything but the home tab draggable
-                                    draggable={view.type !== "Home"}
-                                    // called when the tab begins being dragged, changes color of the dragged tab
-                                    onDragStart={(event) => {
-                                        this.handleDragStart(event, index);
-                                    }}
-                                    // called when the drag goes over a new tab
-                                    onDragEnter={(event) => {
-                                        // change the drag indicator appropriately
-                                        this.handleDragEnter(event, index);
-                                    }}
-                                    // called when the tab stops being dragged, move that tab to its new spot
-                                    onDragEnd={this.handleDragEnd.bind(this)}
-                                    // key to control re-rendering of tabs
-                                    key={index}
-                                    // make it active if this is the current tab
-                                    className={`${view.active ? "active" : ""}`}
-                                    style={{
-                                        // set the color of the tab to be the specified color, or default to the active/inactive color if not specified
-                                        "backgroundColor": view.color,
-                                    }}>
-                                    {/*Display pin on everything except home tab */}
-                                    {view.type !== "Home" &&
+                            // return a tab JSX element
+                            <li
+                                // based on the actual DOM element that results
+                                ref={(instance) => {
+                                    // assuming we got a proper render
+                                    if (instance !== null) {
+                                        // set the width of the tabs in tabPos
+                                        this.tabs[index] = instance.getBoundingClientRect();
+                                        // set the Y coordinate of the drop indicator
+                                        this.dragIndicatorY = instance.getBoundingClientRect().y;
+                                        // set the height of the drop indicator
+                                        this.dragIndicatorHeight = instance.getBoundingClientRect().height;
+                                    }
+                                }}
+                                // callback when the tab is clicked
+                                onClick={() => {
+                                    // if a tab is clicked, we should switch to that tab
+                                    this.props.tabViewerActions.switchTabs(index);
+                                }}
+                                // make everything but the home tab draggable
+                                draggable={view.type !== "Home"}
+                                // called when the tab begins being dragged, changes color of the dragged tab
+                                onDragStart={(event) => {
+                                    this.handleDragStart(event, index);
+                                }}
+                                // called when the drag goes over a new tab
+                                onDragEnter={(event) => {
+                                    // change the drag indicator appropriately
+                                    this.handleDragEnter(event, index);
+                                }}
+                                // called when the tab stops being dragged, move that tab to its new spot
+                                onDragEnd={this.handleDragEnd.bind(this)}
+                                // key to control re-rendering of tabs
+                                key={index}
+                                // make it active if this is the current tab
+                                className={view.active ? "active" : ""}
+                                style={{
+                                    // set the color of the tab to be the specified color, or default to the active/inactive color if not specified
+                                    "backgroundColor": view.color,
+                                }}>
+                                {/*Display pin on everything except home tab */}
+                                {view.type !== "Home" &&
                                     <img
                                         // source of the image (URL)
-                                        src={view.pinned ? "https://img.icons8.com/ios/50/000000/pin-2-filled.png":"https://img.icons8.com/ios/50/000000/pin-2.png"}
+                                        src={view.pinned ? "https://img.icons8.com/ios/50/000000/pin-2-filled.png" : "https://img.icons8.com/ios/50/000000/pin-2.png"}
                                         // text to display if it can't show up
                                         alt="to pin icon"
                                         // give it the styling for the pin button
@@ -200,26 +202,26 @@ class TabViewer extends Component {
                                             // close the desired tab
                                             this.props.tabViewerActions.pinTab(index);
                                         }} />}
-                                    {/* show the display text on the tab */}
-                                    {view.name}
-                                    {/* don't show a close button on the home tab */}
-                                    {view.type !== "Home" &&
-                                        <img
-                                            // source of the image (URL)
-                                            src="https://png.icons8.com/material/50/000000/delete-sign.png"
-                                            // text to display if it can't show up
-                                            alt="Close Icon"
-                                            // give it the styling for the close button
-                                            className="closeTabIcon"
-                                            // callback when the "x" is clicked
-                                            onClick={(event) => {
-                                                // prevent a separate "tab was clicked" event from occuring once this tab gets closed
-                                                event.stopPropagation();
-                                                // close the desired tab
-                                                this.props.tabViewerActions.closeTab(index);
-                                            }} />}
-                                </li>
-                            ))}
+                                {/* show the display text on the tab */}
+                                {view.name}
+                                {/* don't show a close button on the home tab */}
+                                {view.type !== "Home" &&
+                                    <img
+                                        // source of the image (URL)
+                                        src="https://png.icons8.com/material/50/000000/delete-sign.png"
+                                        // text to display if it can't show up
+                                        alt="Close Icon"
+                                        // give it the styling for the close button
+                                        className="closeTabIcon"
+                                        // callback when the "x" is clicked
+                                        onClick={(event) => {
+                                            // prevent a separate "tab was clicked" event from occuring once this tab gets closed
+                                            event.stopPropagation();
+                                            // close the desired tab
+                                            this.props.tabViewerActions.closeTab(index);
+                                        }} />}
+                            </li>
+                        ))}
                     </ul>
                 </div>
                 {/* only display if we are currently dragging an element */}

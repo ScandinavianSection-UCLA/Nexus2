@@ -116,7 +116,6 @@ function displayItems(prevState, list) {
         "itemsList": list,
         "placeList": PlaceList,
     };
-    console.log(newState);
     if (newState.timeFilterOn === true) {
         // if the time filter is on, we need
         return updateItems(newState);
