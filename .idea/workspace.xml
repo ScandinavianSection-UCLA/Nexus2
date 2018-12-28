@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="added legend for user nexus graph">
+    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="the folklore is true. witchcraft is real.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/navigatorReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/navigatorReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/aug_1895_photo1.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/aug_1895_photo1.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/aug_1895_photo2.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/aug_1895_photo2.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/aug_1895_photo3.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/aug_1895_photo3.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/feb_1887.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/feb_1887.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/feb_1888.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/feb_1888.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/02_1887.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/02_1887.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/aug_1895_photo1.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/aug_1895_photo1.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/aug_1895_photo2.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/aug_1895_photo2.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/aug_1895_photo3.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/aug_1895_photo3.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/feb_1888.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/feb_1888.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/jan_1894.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/jan_1894.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/july_1894.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/july_1894.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/june_1889.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/june_1889.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/may_1888.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/may_1888.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/may_1890.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/may_1890.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/may_1898.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/may_1898.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/oct_1889.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/oct_1889.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/oct_1892.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/oct_1892.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/oct_1893.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/oct_1893.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/sept_1895_photo4.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/sept_1895_photo4.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/field_trip_geojsons/sept_1895_photo5.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/sept_1895_photo5.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/jan_1894.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/jan_1894.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/july_1894.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/july_1894.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/june_1889.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/june_1889.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/may_1888.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/may_1888.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/may_1890.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/may_1890.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/may_1898.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/may_1898.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/oct_1889.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/oct_1889.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/oct_1892.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/oct_1892.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/oct_1893.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/oct_1893.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/sept_1895_photo4.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/sept_1895_photo4.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fieldtrip_layers/sept_1895_photo5.shp" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/sept_1895_photo5.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MapView/MapView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/MapView.js" afterDir="false" />
     </list>
     <list id="4860e851-d29b-486f-9cb0-ecd95ba13bec" name="added low boards, high boards, prussian WMS tiles" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,82 +50,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612">
-              <caret line="174" column="14" selection-start-line="174" selection-start-column="14" selection-end-line="174" selection-end-column="14" />
+            <state relative-caret-position="750">
+              <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
               <folding>
-                <element signature="e#691#732#0" expanded="true" />
-                <element signature="n#!!block;n#displayList#0;n#Navigation#0" />
-                <element signature="n#!!block;n#handleIDQuery#0;n#Navigation#0" />
-                <element signature="n#!!block;n#timeInputClickHandler#0;n#Navigation#0" />
-                <element signature="n#!!block;n#timeInputEnd#0;n#Navigation#0" />
-                <element signature="n#!!block;n#setDisplayLabel#0;n#Navigation#0" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/navigatorReducer.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="162" column="36" lean-forward="true" selection-start-line="162" selection-start-column="36" selection-end-line="162" selection-end-column="36" />
+            <state relative-caret-position="630">
+              <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/navigatorActions.js">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="420">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Navigation/SearchComponent.js">
+        <entry file="file://$PROJECT_DIR$/src/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+            <state relative-caret-position="30">
+              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Navigation/navigation.css">
+        <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="111" column="41" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
+            <state relative-caret-position="120">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/searchReducer.js">
+        <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/searchActions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Navigation/search.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state relative-caret-position="3495">
+              <caret line="242" column="5" selection-start-line="242" selection-start-column="5" selection-end-line="242" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -104,17 +116,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="175" column="38" lean-forward="true" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
+            <state relative-caret-position="185">
+              <caret line="176" column="75" selection-start-line="176" selection-start-column="75" selection-end-line="176" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="298" column="51" lean-forward="true" selection-start-line="298" selection-start-column="51" selection-end-line="298" selection-end-column="51" />
+              <folding>
+                <element signature="e#173#301#0" expanded="true" />
+                <element signature="e#0#5#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.js">
+        <entry file="file://$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/aug_1895_photo1.geojson">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="104" column="65" selection-start-line="104" selection-start-column="65" selection-end-line="104" selection-end-column="65" />
+            <state>
+              <caret selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -173,7 +207,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="fieldtrip-tool" />
       </map>
     </option>
     <option name="RESET_MODE" value="MIXED" />
@@ -207,7 +241,6 @@
         <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.js" />
         <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.css" />
         <option value="$PROJECT_DIR$/src/components/Heading/Heading.css" />
-        <option value="$PROJECT_DIR$/src/components/MapView/MapView.js" />
         <option value="$PROJECT_DIR$/src/components/HelpView/HelpView.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/StoryView/StoryView.css" />
@@ -230,8 +263,9 @@
         <option value="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" />
         <option value="$PROJECT_DIR$/src/reducers/navigatorReducer.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/navigation.css" />
-        <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
         <option value="$PROJECT_DIR$/src/actions/navigatorActions.js" />
+        <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
+        <option value="$PROJECT_DIR$/src/components/MapView/MapView.js" />
       </list>
     </option>
   </component>
@@ -267,12 +301,6 @@
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -287,20 +315,24 @@
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="MapView" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="TabViewer" type="462c0819:PsiDirectoryNode" />
+              <item name="MapView" type="462c0819:PsiDirectoryNode" />
+              <item name="fieldtrip_layers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="MapView" type="462c0819:PsiDirectoryNode" />
+              <item name="fieldtrip_layers" type="462c0819:PsiDirectoryNode" />
+              <item name="field_trip_geojsons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,6 +353,9 @@
     <property name="settings.editor.selected.configurable" value="sshConsole" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/MapView" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/FieldtripView" />
       <recent name="$PROJECT_DIR$/src/reducers" />
@@ -382,8 +417,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
-        <item itemvalue="Node.js.model.js" />
         <item itemvalue="Node.js.test1.js" />
+        <item itemvalue="Node.js.model.js" />
         <item itemvalue="Node.js.MapView.js" />
         <item itemvalue="JavaScript Debug.mapTest.html" />
       </list>
@@ -443,7 +478,7 @@
       <workItem from="1545464532824" duration="248000" />
       <workItem from="1545503430496" duration="13006000" />
       <workItem from="1545631524587" duration="10366000" />
-      <workItem from="1545721614292" duration="4675000" />
+      <workItem from="1545721614292" duration="7468000" />
     </task>
     <task id="LOCAL-00001" summary="fixed this.props.places bug">
       <created>1525795879351</created>
@@ -718,11 +753,25 @@
       <option name="project" value="LOCAL" />
       <updated>1545685886477</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="search will exit when clicked outside, but timeline switch can't be flipped">
+      <created>1545874733962</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1545874733962</updated>
+    </task>
+    <task id="LOCAL-00041" summary="the folklore is true. witchcraft is real.">
+      <created>1545875285937</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1545875285937</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293567000" />
+    <option name="totallyTimeSpent" value="296360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -842,8 +891,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Reorgranized some code" />
-    <MESSAGE value="merged neil's stuff onto master" />
     <MESSAGE value="progress!! need to make sure this.props.places in mapview always has places doe" />
     <MESSAGE value="fieldtrip has mapview with its own zoom and centering rules" />
     <MESSAGE value="added fieldtrip shape files" />
@@ -867,17 +914,15 @@
     <MESSAGE value="book view styling" />
     <MESSAGE value="made random pin tab feature" />
     <MESSAGE value="added legend for user nexus graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="added legend for user nexus graph" />
+    <MESSAGE value="search will exit when clicked outside, but timeline switch can't be flipped" />
+    <MESSAGE value="the folklore is true. witchcraft is real." />
+    <option name="LAST_COMMIT_MESSAGE" value="the folklore is true. witchcraft is real." />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraphModel.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm-debug.log" />
     <entry file="file://$PROJECT_DIR$/src/reducers/rootReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -981,17 +1026,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="e#615#911#0" />
-            <element signature="e#0#5#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -1030,59 +1064,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/icons8-waypoint-map-32.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FieldtripView/FieldtripView.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1123,13 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2715">
-          <caret line="190" column="113" selection-start-line="190" selection-start-column="113" selection-end-line="190" selection-end-column="113" />
         </state>
       </provider>
     </entry>
@@ -1175,31 +1151,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="175" column="38" lean-forward="true" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/SearchComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        <state relative-caret-position="-324">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/navigation.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
-          <caret line="111" column="41" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
+          <caret line="106" column="41" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/navigatorReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
-          <caret line="162" column="36" lean-forward="true" selection-start-line="162" selection-start-column="36" selection-end-line="162" selection-end-column="36" />
+          <caret line="161" column="36" lean-forward="true" selection-start-line="161" selection-start-column="36" selection-end-line="161" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1210,17 +1179,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="174" column="14" selection-start-line="174" selection-start-column="14" selection-end-line="174" selection-end-column="14" />
+        <state relative-caret-position="213">
+          <caret line="201" column="22" lean-forward="true" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
           <folding>
             <element signature="e#691#732#0" expanded="true" />
-            <element signature="n#!!block;n#displayList#0;n#Navigation#0" />
-            <element signature="n#!!block;n#handleIDQuery#0;n#Navigation#0" />
-            <element signature="n#!!block;n#timeInputClickHandler#0;n#Navigation#0" />
-            <element signature="n#!!block;n#timeInputEnd#0;n#Navigation#0" />
-            <element signature="n#!!block;n#setDisplayLabel#0;n#Navigation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TabViewer/TabViewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3495">
+          <caret line="242" column="5" selection-start-line="242" selection-start-column="5" selection-end-line="242" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="176" column="75" selection-start-line="176" selection-start-column="75" selection-end-line="176" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/fieldtrip_layers/field_trip_geojsons/aug_1895_photo1.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MapView/MapView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="298" column="51" lean-forward="true" selection-start-line="298" selection-start-column="51" selection-end-line="298" selection-end-column="51" />
+          <folding>
+            <element signature="e#173#301#0" expanded="true" />
+            <element signature="e#0#5#0" expanded="true" />
           </folding>
         </state>
       </provider>
