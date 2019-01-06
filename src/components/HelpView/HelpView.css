@@ -1,1 +1,10 @@
+#mainContent {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2vw;
+    background-color: white;
+}
 
+.HelpView {
+    overflow-y: scroll;
+}
