@@ -1,10 +1,11 @@
 import React, {Component} from "react";
-import { Switch, Route } from 'react-router-dom';
+import {Route, Switch} from "react-router-dom";
 import TabViewer from "./components/TabViewer/TabViewer";
 import Heading from "./components/Heading/Heading.js";
 import * as navigatorActions from "./actions/navigatorActions";
 import * as tabViewerActions from "./actions/tabViewerActions";
-import * as searchActions from "./actions/searchActions"
+import * as searchActions from "./actions/searchActions";
+import PropTypes from "prop-types";
 import connect from "react-redux/es/connect/connect";
 import {bindActionCreators} from "redux";
 
@@ -17,16 +18,10 @@ class Home extends Component {
         };
     }
 
-    componentDidMount() {
-        // simulate async action and remove loader
-        setTimeout(() => this.setState({"loading": false}), 1500);
-    }
-
-    ComponentWithRegex({ match }) {
-        console.log(match.params.tabs);
-        this.props.actions.addTab(123, match.params.tabs, 'Stories');
+    ComponentWithRegex({match}) {
+        this.props.actions.addTab(123, match.params.tabs, "Stories");
         return (
-            <TabViewer/>
+            <TabViewer />
         );
     }
 
@@ -39,14 +34,18 @@ class Home extends Component {
                     <Heading />
                     <Switch>
                         {/* Everything else on the page */}
-                        <Route exact path='/' component={TabViewer}/>
-                        <Route path='/:tabs' component={this.ComponentWithRegex.bind(this)}/>
+                        <Route exact path="/" component={TabViewer} />
+                        <Route path="/:tabs" component={this.ComponentWithRegex.bind(this)} />
                     </Switch>
                 </div>
             </div>
         );
     }
 }
+
+Home.propTypes = {
+    "actions": PropTypes.object.isRequired,
+};
 
 /**
  * Set certain props to access Redux states

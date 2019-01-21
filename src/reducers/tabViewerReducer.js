@@ -4,6 +4,7 @@ import initialState from "./initialState";
 import * as actions from "../actions/actionTypes";
 // function to set session storage data
 import {setSessionStorage} from "../data-stores/SessionStorageModel";
+import history from '../history';
 
 /**
  * Generic handler for manipulating the tabs and updating their state
@@ -44,6 +45,27 @@ export default function tabViewer(state = initialState.tabState, action) {
             // don't change anything
             return state;
     }
+}
+
+function hashToURL(DisplayArtifactID, type) {
+    let URL = `${DisplayArtifactID}|`;
+    switch (type) {
+        case "Fieldtrips":
+            URL += "W";
+            break;
+        case "Stories":
+            URL += "X";
+            break;
+        case "People":
+            URL += "Y";
+            break;
+        case "Places":
+            URL += "Z";
+            break;
+        default:
+            console.warn("Bad artifact type", type);
+    }
+    return URL;
 }
 
 /**
@@ -90,6 +112,21 @@ function closeTab(ShallowNewState, RemoveIndex) {
         // set the home view to be active
         NewState.views[0].active = true;
     }
+    // current artifacts represented in the URL
+    let currentURL = history.location.pathname.split("&");
+    // remove the initial "/" from the first artifact's identifier
+    currentURL[0] = currentURL[0].substr(1);
+    // get the hash for the item we are removing
+    const urlToSplice = hashToURL(NewState.views[RemoveIndex].id, NewState.views[RemoveIndex].type);
+    // index of the item to remove
+    const indexToSplice = currentURL.indexOf(urlToSplice);
+    // if there is a matching item in the URL
+    if (indexToSplice !== -1) {
+        // splice that artifact
+        currentURL.splice(indexToSplice, 1);
+        // reform the remaining URL
+        history.push(currentURL.join("&"));
+    }
     // remove the tab by the requested index
     NewState.views.splice(RemoveIndex, 1);
     // update session storage with our new state
@@ -105,6 +142,9 @@ function closeTab(ShallowNewState, RemoveIndex) {
  * @returns {Object} The new, updated state
  */
 function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
+    const URLToAdd = hashToURL(DisplayArtifactID, type);
+
+    history.push(`${history.location.pathname}${URLToAdd}&`);
     // get a copy of the state to ensure immutability
     let newState = {...ShallowNewState};
     // see if we can get the preexisting view matching the tab to create
@@ -158,11 +198,11 @@ function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
         // check if first non-home tab is not pinned
         // and
         // if we need to remove a tab
-        if( RemoveTab){
+        if (RemoveTab) {
             // index to remove defaults to the tab next to the home tab
             let RemoveIndex = 1;
             // if the tab is pinned then remove the next tab
-            while(updatedViews[RemoveIndex].pinned){
+            while (updatedViews[RemoveIndex].pinned) {
                 RemoveIndex++;
             }
             // remove the first non-Home tab
@@ -236,7 +276,7 @@ function updateTab(OldState, {TabIndex, updates}) {
  * @param {Object} OldState with the pre-updated state
  * @param {Number} TabIndex to pin
  * */
-function pinTab(OldState, TabIndex){
+function pinTab(OldState, TabIndex) {
     // save old state to a new state to keep immutability
     let newState = {...OldState};
     // get the view to pin
@@ -248,4 +288,3 @@ function pinTab(OldState, TabIndex){
     };
     return newState;
 }
-
