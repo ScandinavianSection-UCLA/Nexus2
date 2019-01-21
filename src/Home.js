@@ -1,6 +1,12 @@
 import React, {Component} from "react";
+import { Switch, Route } from 'react-router-dom';
 import TabViewer from "./components/TabViewer/TabViewer";
 import Heading from "./components/Heading/Heading.js";
+import * as navigatorActions from "./actions/navigatorActions";
+import * as tabViewerActions from "./actions/tabViewerActions";
+import * as searchActions from "./actions/searchActions"
+import connect from "react-redux/es/connect/connect";
+import {bindActionCreators} from "redux";
 
 class Home extends Component {
     constructor() {
@@ -16,6 +22,14 @@ class Home extends Component {
         setTimeout(() => this.setState({"loading": false}), 1500);
     }
 
+    ComponentWithRegex({ match }) {
+        console.log(match.params.tabs);
+        this.props.actions.addTab(123, match.params.tabs, 'Stories');
+        return (
+            <TabViewer/>
+        );
+    }
+
     render() {
         return (
             <div className="Home grid-y medium-grid-frame full">
@@ -23,12 +37,45 @@ class Home extends Component {
                 <div>
                     {/* Top banner with flag + title on left, book icon on right */}
                     <Heading />
-                    {/* Everything else on the page */}
-                    <TabViewer />
+                    <Switch>
+                        {/* Everything else on the page */}
+                        <Route exact path='/' component={TabViewer}/>
+                        <Route path='/:tabs' component={this.ComponentWithRegex.bind(this)}/>
+                    </Switch>
                 </div>
             </div>
         );
     }
 }
 
-export default Home;
+/**
+ * Set certain props to access Redux states
+ * @param {Object} state All possible Redux states
+ * @returns {Object} Certain states that are set on props
+ */
+function mapStateToProps(state) {
+    return {
+        "navigatorState": state.navigator,
+        "searchState": state.search,
+    };
+}
+
+/**
+ * Set the "actions" prop to access Redux actions
+ * @param {*} dispatch Redux actions
+ * @returns {Object} The actions that are mapped to props.actions
+ */
+function mapDispatchToProps(dispatch) {
+    return {
+        "actions": bindActionCreators({
+            ...navigatorActions,
+            ...tabViewerActions,
+            ...searchActions,
+        }, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Home);
