@@ -59,6 +59,7 @@ and (min-height: 769px){
 .control-container .list-content {
     padding: 7% 2%;
     overflow-y: scroll;
+    height:100%;
 }
 
 .control-container .list-content ul li {
