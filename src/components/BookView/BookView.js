@@ -20,6 +20,7 @@ class BookView extends Component {
         this.state = {
             // start with the chapter list hidden
             "dropdownActive": false,
+            "fontSize": 16,
             // not searching at start
             "searchActive": false,
             "searchJSX": null,
@@ -33,6 +34,9 @@ class BookView extends Component {
         this.bookRef = React.createRef();
         // bind the event handler so it works properly inside the listener
         this.handleKeyPress = this.handleKeyPress.bind(this);
+        // measured in px
+        this.minimumFontSize = 10;
+        this.maximumFontSize = 36;
     }
 
     // called after the DOM loads for the first time
@@ -40,8 +44,7 @@ class BookView extends Component {
         // add an event listener for left and right arrow controls
         document.addEventListener("keydown", this.handleKeyPress, false);
         // load the .epub book
-        // console.log("publicurl:" + process.env.PUBLIC_URL);
-        this.book = ePub(process.env.PUBLIC_URL+"/Book/merge_from_ofoct.epub");
+        this.book = ePub(`${process.env.PUBLIC_URL}/Book/merge_from_ofoct.epub`);
         // when it has successfully loaded
         this.book.loaded.navigation.then(({toc}) => {
             // generate our TOC list based on the chapters
@@ -119,6 +122,9 @@ class BookView extends Component {
                 // go to the previous page
                 this.rendition.prev();
                 break;
+            // nothing to do if it was another key
+            default:
+                break;
         }
     }
 
@@ -165,6 +171,27 @@ class BookView extends Component {
                 )),
             });
         }
+    }
+
+    /**
+     * Change the font size of the book
+     * @param {number} change How much to change the font size by
+     */
+    changeFontSize(change) {
+        this.setState(({fontSize}) => {
+            let newSize = fontSize + change;
+            if (newSize < this.minimumFontSize) {
+                newSize = this.minimumFontSize;
+            }
+            if (newSize > this.maximumFontSize) {
+                newSize = this.maximumFontSize;
+            }
+            return {
+                "fontSize": newSize,
+            };
+        }, () => {
+            this.rendition.themes.fontSize(`${this.state.fontSize}px`);
+        });
     }
 
     render() {
@@ -238,18 +265,33 @@ class BookView extends Component {
                 </div>
                 {/* hide the book but keep the elements in the DOM if a search is going */}
                 {/* this is so that the book still has its div to render to and doesn't break during a search */}
-                <div className={`book-controls cell medium-11 grid-x ${this.state.searchActive === true ? "hidden" : ""}`}>
-                    {/* button to go back a page */}
-                    <button
-                        // give it page turn styling
-                        className="cell medium-1 pager"
-                        onClick={() => {
-                            // go to the left page on click
-                            this.rendition.prev();
-                            // show a large <
-                        }}>
-                        <img className="left-hover" src="https://img.icons8.com/ios/50/000000/chevron-left-filled.png"/>
-                    </button>
+                <div className={`book-controls cell medium-11 grid-x ${this.state.searchActive && "hidden"}`}>
+                    <div className="cell medium-1 grid-y">
+                        <div className="cell medium-1 grid-x">
+                            <button
+                                className="cell fontButton"
+                                onClick={this.changeFontSize.bind(this, -1)}>
+                                a
+                            </button>
+                            <button
+                                onClick={this.changeFontSize.bind(this, 1)}
+                                className="cell fontButton">
+                                A
+                            </button>
+                        </div>
+                        {/* button to go back a page */}
+                        <button
+                            // give it page turn styling
+                            className="cell medium-10 pager"
+                            onClick={() => {
+                                // go to the left page on click
+                                this.rendition.prev();
+                            }}>
+                            {/* show a large < */}
+                            <img className="left-hover" src="https://img.icons8.com/ios/50/000000/chevron-left-filled.png" alt="<" />
+                        </button>
+                        <div className="cell medium-1"></div>
+                    </div>
                     {/* actual book content */}
                     <div className="book cell medium-10" ref={this.bookRef} />
                     {/* button to go forward a page */}
@@ -259,9 +301,9 @@ class BookView extends Component {
                         onClick={() => {
                             // go to the right page on click
                             this.rendition.next();
-                            // show a large >
                         }}>
-                        <img src="https://img.icons8.com/ios/50/000000/chevron-right-filled.png"/>
+                        {/* show a large > */}
+                        <img src="https://img.icons8.com/ios/50/000000/chevron-right-filled.png" alt=">" />
                     </button>
                 </div>
                 {/* when the search results are to be shown */}
