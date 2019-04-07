@@ -29,7 +29,7 @@ def main(directory):
                     ,'GeoJSON'
                     ,'{}'.format(out_path)
                     ,'{}'.format(shape_path)
-                    ,'-a_srs',"EPSG:3857"
+                    
                     ]
             #print(ogr_call)
             subprocess.call(ogr_call,shell=False)
