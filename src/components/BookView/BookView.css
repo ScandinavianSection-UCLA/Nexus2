@@ -1,18 +1,22 @@
+/* Top of BookView.css */
+
 .toggleFontSize {
     position: fixed;
     bottom: 1.5rem;
-    right:  1.5rem;
+    right: 1.5rem;
     z-index: 10;
     background: #44739c;
     border: none;
     font-family: inherit;
-    font-size:  inherit;
+    font-size: inherit;
     border-radius: 2px;
     padding: .5rem;
     outline: none;
 }
 
-.book-controls button{ cursor: pointer;}
+.book-controls button {
+    cursor: pointer;
+}
 
 .book {
     /* top: 10vh; */
@@ -23,7 +27,7 @@
 
 .pager {
     font-size: 80px;
-    color:grey;
+    color: grey;
 }
 
 .BookView {
@@ -47,8 +51,8 @@
     top: 0;
     width: 35vw;
     height: 100%;
-    padding:40px;
-    line-height:30px;
+    padding: 40px;
+    line-height: 30px;
     background-color: #fff;
     z-index: 1000;
 }
@@ -56,7 +60,7 @@
 .toc-item {
     display: block;
     padding: 7px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .searchResult {
@@ -83,3 +87,20 @@
 .results {
     overflow: scroll;
 }
+
+.fontButton {
+    font-size: 30px;
+    width: 35px;
+    height: 35px;
+    margin: 0 0 0 10px;
+    line-height: 0px;
+    font-family: 'Georgia', Times, serif !important;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.fontButton:hover {
+    background-color: darkgray;
+}
+
+/* Bottom of BookView.css */
