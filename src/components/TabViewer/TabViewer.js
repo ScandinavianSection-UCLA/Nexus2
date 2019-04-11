@@ -49,32 +49,33 @@ class TabViewer extends Component {
      */
     renderPPFS(id, type, tabIndex) {
         // depending on the type of the view to render
+        // key is necessary so a re-render is forced whenever tabs are switched (resets state/switches book page properly)
         switch (type) {
             case "People":
                 // for people, return a PeopleView with the person retrieved by the passed ID
-                return <PeopleView person={model.getPeopleByID(id)} />;
+                return <PeopleView key={tabIndex} person={model.getPeopleByID(id)} />;
             case "Places":
                 // for places, return a PlaceView with the place retrieved by the passed ID
-                return <PlaceView place={model.getPlacesByID(id)} />;
+                return <PlaceView key={tabIndex} place={model.getPlacesByID(id)} />;
             case "Fieldtrips":
                 // for fieldtrip, return a FieldtripViewwith the fieldtrip retrieved by the passed ID
-                return <FieldtripView fieldtrip={model.getFieldtripsByID(id)} />;
+                return <FieldtripView key={tabIndex} fieldtrip={model.getFieldtripsByID(id)} />;
             case "Stories":
                 // for stories, return a StoryView with the story retrieved by the passed ID
-                return <StoryView story={model.getStoryByID(id)} />;
+                return <StoryView key={tabIndex} story={model.getStoryByID(id)} />;
             case "Home":
                 // for the Home tab, return the main Navigation view (home)
-                return <Navigation />;
+                return <Navigation key={tabIndex} />;
             case "Graph":
                 // for the graph, return the GraphView
-                return <GraphView />;
+                return <GraphView key={tabIndex} />;
             case "Book":
                 // for the book, return the BookView, with the chapter ID that was selected
-                return <BookView viewIndex={tabIndex} id={id} />;
+                return <BookView key={tabIndex} viewIndex={tabIndex} id={id} />;
             case "Help":
-                return <HelpView />
+                return <HelpView key={tabIndex} />
             case "FieldtripTool":
-                return <FieldtripTool fieldtrip={id} />;
+                return <FieldtripTool key={tabIndex} fieldtrip={id} />;
             default:
                 // if it wasn't one of the above types, warn that we hit an unknown type
                 console.warn(`Unhandled tab type: ${type}`);
