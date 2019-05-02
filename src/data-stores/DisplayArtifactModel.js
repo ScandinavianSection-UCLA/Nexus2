@@ -26,6 +26,8 @@ import StoriesCollectedData from "../data/cstories_collected.json";
 import dataTango from "../data/ctango_indices.json";
 // import the arrayTransformation() function
 import {arrayTransformation} from "../utils";
+// import manuscript image data based on stories
+import ManuscriptData from "../data/cmanuscript_images";
 
 // helper functions
 
@@ -551,4 +553,40 @@ export function getStoryByID(story_id) {
         console.warn(`Story ID ${story_id} is invalid.`);
         return null;
     }
+}
+
+/**
+ * Retrieve a story's manuscript image URI by its ID
+ * @param {Number} story_id The ID of the story to get
+ * @returns {Array} The URLs of the image as strings
+ */
+export function getManuscriptURI(story_id){
+    let StoryManuscriptData = ManuscriptData["story"].filter(obj => {
+        return obj.id === story_id
+    })[0];
+    let ManuscriptImgObjs = StoryManuscriptData["images"];
+    if(ManuscriptImgObjs !== undefined){
+        // there are images!
+        ManuscriptImgObjs = ManuscriptImgObjs["image"];
+        if(!Array.isArray(ManuscriptImgObjs)){
+            // IF it's just 1 image, wrap it in an array
+            ManuscriptImgObjs = [ManuscriptImgObjs]
+        }
+        let ManuscriptURLs = [];
+        ManuscriptImgObjs.forEach((image)=>{
+            let ImagePath = image["image_path"];
+            // Check if there's a valid image filename (they all start with "B")
+            let BIndex = ImagePath.indexOf("B");
+            let BASEURL = "https://s3-us-west-1.amazonaws.com/etkdiary/";
+            if(BIndex > 0){
+                ImagePath = ImagePath.substring(BIndex);
+                ImagePath = ImagePath.replace(".gif",".tif");
+                ManuscriptURLs.push(BASEURL + ImagePath); // only save the image path which contains the image name
+            }
+        });
+        console.log(ManuscriptURLs);
+        return ManuscriptURLs;
+    }
+    console.warn("No images!");
+    return [];
 }
