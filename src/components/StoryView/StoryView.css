@@ -142,6 +142,7 @@
 .card.annotation .card-section {
     overflow-y: scroll;
     height: 70%;
+    white-space: pre-line;
 }
 
 .title {
@@ -161,6 +162,10 @@ h2.title {
 
 .associated-items {
     color: #44739c;
+}
+
+.card-section {
+    white-space: pre-line;
 }
 
 /* Bottom of StoryView.css */
