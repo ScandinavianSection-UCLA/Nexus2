@@ -359,23 +359,27 @@ class RightBar extends Component {
             return (
                 <div className="cell medium-10 large-9 content">
                     <div className="grid-y">
-                        <div className="cell medium-3">
-                            <div className="grid-x informant-bio-container">
-                                <img src={require(`./informant_images/${[90, 123, 150, 235, 241].includes(object.informant_id) ? `${object.informant_id}.jpg` : "noprofile.png"}`)}
-                                    className="cell medium-6" alt={object.full_name} />
-                                <div className="cell medium-6 details">
-                                    <div><b>Born</b> {birth_date}</div>
-                                    <div><b>Died</b> {death_date}</div>
-                                    <div><b>ID#</b> {object.informant_id}</div>
-                                    <a onClick={() => {
-                                        // if (per)
-                                        this.clickHandler(person_id, full_name, "People", bio);
-                                    }} className="button">Informant Page</a>
+                        <div className="scrolling">
+                            <div className="cell medium-3">
+                                <div className="grid-x informant-bio-container">
+                                    <div className="cell medium-6">
+                                        <img src={require(`./informant_images/${[90, 123, 150, 235, 241].includes(object.informant_id) ? `${object.informant_id}.jpg` : "noprofile.png"}`)}
+                                             alt={object.full_name} />
+                                    </div>
+                                    <div className="cell medium-6 details">
+                                        <div><b>Born</b> {birth_date}</div>
+                                        <div><b>Died</b> {death_date}</div>
+                                        <div><b>ID#</b> {object.informant_id}</div>
+                                        <a onClick={() => {
+                                            // if (per)
+                                            this.clickHandler(person_id, full_name, "People", bio);
+                                        }} className="button">Informant Page</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="cell medium-9 biography">
-                            {intro_bio}
+                            <div className="cell medium-9 biography">
+                                {intro_bio}
+                            </div>
                         </div>
                     </div>
                 </div>

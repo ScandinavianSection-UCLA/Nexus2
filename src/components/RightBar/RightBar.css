@@ -118,3 +118,8 @@ and (min-height: 769px){
     font-weight: bold;
     text-align: center;
 }
+
+.scrolling {
+    height: 92vh;
+    overflow-y: scroll;
+}
