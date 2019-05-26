@@ -1,35 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="new build with corrected typo">
+    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="help view updated with links and improved images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/HelpView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/HelpView.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/HelpView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/HelpView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/navigator1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/navigator1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/navigator2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/navigator2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/nexus1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/nexus1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/nexus2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/nexus2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/nexus3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/nexus3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/placeview1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/placeview1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/placeview2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/placeview2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/placeview3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/placeview3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/placeview4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/placeview4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/sidebar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/sidebar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/storyview1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/storyview1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/storyview2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/storyview2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/storyview3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/storyview3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/storyview4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/storyview4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/storyview5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/storyview5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/storyview6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/storyview6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/storyview7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/storyview7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/storyview8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/storyview8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/storyview9.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/storyview9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/storyviewhome.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/storyviewhome.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/tab1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/tab1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/tab2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/tab2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/timeline1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/timeline1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelpView/images/timeline2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpView/images/timeline2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RightBar/RightBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightBar/RightBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RightBar/RightBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightBar/RightBar.js" afterDir="false" />
     </list>
     <list id="4860e851-d29b-486f-9cb0-ecd95ba13bec" name="added low boards, high boards, prussian WMS tiles" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4950">
-              <caret line="340" column="43" selection-start-line="340" selection-start-column="43" selection-end-line="340" selection-end-column="43" />
+            <state relative-caret-position="-1382">
+              <caret line="378" column="34" lean-forward="true" selection-start-line="378" selection-start-column="34" selection-end-line="378" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -85,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="-32">
+              <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -100,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -193,7 +168,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="help-view-allison" />
+        <entry key="$PROJECT_DIR$" value="bio-button" />
       </map>
     </option>
     <option name="RESET_MODE" value="MIXED" />
@@ -216,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/components/Navigation/navigatorComponent.css" />
         <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" />
         <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.css" />
-        <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.js" />
         <option value="$PROJECT_DIR$/src/components/Heading/Heading.css" />
         <option value="$PROJECT_DIR$/src/components/StoryView/StoryView.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
@@ -244,7 +218,6 @@
         <option value="$PROJECT_DIR$/src/components/FieldtripTool/FieldtripTool.css" />
         <option value="$PROJECT_DIR$/src/components/FieldtripTool/FieldtripTool.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
-        <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.css" />
         <option value="$PROJECT_DIR$/src/components/Navigation/NavigatorComponent.js" />
         <option value="$PROJECT_DIR$/src/components/ManuscriptReader/ManuscriptReader.css" />
         <option value="$PROJECT_DIR$/src/data-stores/DisplayArtifactModel.js" />
@@ -252,6 +225,8 @@
         <option value="$PROJECT_DIR$/src/components/StoryView/StoryView.js" />
         <option value="$PROJECT_DIR$/src/components/HelpView/HelpView.js" />
         <option value="$PROJECT_DIR$/src/components/HelpView/HelpView.css" />
+        <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.js" />
+        <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.css" />
       </list>
     </option>
   </component>
@@ -261,7 +236,8 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-147" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -274,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,21 +274,6 @@
               <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="HelpView" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="HelpView" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="RightBar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -324,7 +286,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,7 +452,17 @@
       <workItem from="1558218969961" duration="2994000" />
       <workItem from="1558222206175" duration="113000" />
       <workItem from="1558469737214" duration="135000" />
-      <workItem from="1558469875596" duration="527000" />
+      <workItem from="1558469875596" duration="771000" />
+      <workItem from="1558470982453" duration="208000" />
+      <workItem from="1558471390270" duration="5000" />
+      <workItem from="1558568067511" duration="1131000" />
+      <workItem from="1558569223518" duration="2856000" />
+      <workItem from="1558572763660" duration="89000" />
+      <workItem from="1558654420203" duration="1436000" />
+      <workItem from="1558656270436" duration="853000" />
+      <workItem from="1558903411085" duration="3654000" />
+      <workItem from="1558907621082" duration="809000" />
+      <workItem from="1558909966476" duration="1933000" />
     </task>
     <task id="LOCAL-00001" summary="fixed this.props.places bug">
       <created>1525795879351</created>
@@ -822,11 +793,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551921327535</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="help view updated with links and improved images">
+      <created>1558470560427</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1558470560428</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324239000" />
+    <option name="totallyTimeSpent" value="337457000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -838,7 +816,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6393211" visible="true" weight="0.20930232" />
@@ -854,8 +832,8 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49934298" weight="0.32834226" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48523206" weight="0.2356688" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.4947146" visible="true" weight="0.21019109" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.48523206" visible="true" weight="0.2356688" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4947146" weight="0.21019109" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50528544" side_tool="true" weight="0.21019109" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -946,7 +924,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="playing around with trying to build this thing...." />
     <MESSAGE value="Responsive Design close #148 #149 #150 #151 #152 #154" />
     <MESSAGE value="new build, resize help screen" />
     <MESSAGE value="new loading screen + some styling" />
@@ -971,7 +948,8 @@
     <MESSAGE value="new build!" />
     <MESSAGE value="close #153. silly bug." />
     <MESSAGE value="new build with corrected typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="new build with corrected typo" />
+    <MESSAGE value="help view updated with links and improved images" />
+    <option name="LAST_COMMIT_MESSAGE" value="help view updated with links and improved images" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
@@ -1279,24 +1257,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4950">
-          <caret line="340" column="43" selection-start-line="340" selection-start-column="43" selection-end-line="340" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1321,10 +1292,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.js">
+    <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="-32">
+          <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1382">
+          <caret line="378" column="34" lean-forward="true" selection-start-line="378" selection-start-column="34" selection-end-line="378" selection-end-column="34" />
         </state>
       </provider>
     </entry>

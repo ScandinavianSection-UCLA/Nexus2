@@ -86,7 +86,8 @@ and (min-height: 769px){
     margin-top: 10px;
 }
 .informant-bio-container img {
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 
 .biography {
