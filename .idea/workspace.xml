@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="allison demo version">
+    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="help view updated with links and improved images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RightBar/RightBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightBar/RightBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RightBar/RightBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightBar/RightBar.js" afterDir="false" />
     </list>
     <list id="4860e851-d29b-486f-9cb0-ecd95ba13bec" name="added low boards, high boards, prussian WMS tiles" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
+            <state relative-caret-position="1560">
               <caret line="115" column="19" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
               <folding>
                 <element signature="e#691#732#0" expanded="true" />
@@ -31,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4620">
-              <caret line="321" column="39" selection-start-line="321" selection-start-column="39" selection-end-line="321" selection-end-column="39" />
+            <state relative-caret-position="4440">
+              <caret line="309" column="36" selection-start-line="309" selection-start-column="36" selection-end-line="309" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -40,35 +42,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4950">
-              <caret line="340" column="43" selection-start-line="340" selection-start-column="43" selection-end-line="340" selection-end-column="43" />
+            <state relative-caret-position="120">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.css">
+        <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="-1382">
+              <caret line="378" column="34" lean-forward="true" selection-start-line="378" selection-start-column="34" selection-end-line="378" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+            <state relative-caret-position="-32">
+              <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -94,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="900">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -157,11 +168,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="help-view" />
+        <entry key="$PROJECT_DIR$" value="bio-button" />
       </map>
     </option>
     <option name="RESET_MODE" value="MIXED" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -175,16 +185,13 @@
         <option value="$PROJECT_DIR$/src/reducers/initialState.js" />
         <option value="$PROJECT_DIR$/src/reducers/searchReducer.js" />
         <option value="$PROJECT_DIR$/src/utils.js" />
-        <option value="$PROJECT_DIR$/src/components/HelpView/HelpView.js" />
         <option value="$PROJECT_DIR$/src/components/Heading/Heading.js" />
         <option value="$PROJECT_DIR$/src/components/PlaceView/PlaceView.css" />
         <option value="$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/navigatorComponent.css" />
         <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" />
         <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.css" />
-        <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.js" />
         <option value="$PROJECT_DIR$/src/components/Heading/Heading.css" />
-        <option value="$PROJECT_DIR$/src/components/HelpView/HelpView.css" />
         <option value="$PROJECT_DIR$/src/components/StoryView/StoryView.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Home.js" />
@@ -211,12 +218,15 @@
         <option value="$PROJECT_DIR$/src/components/FieldtripTool/FieldtripTool.css" />
         <option value="$PROJECT_DIR$/src/components/FieldtripTool/FieldtripTool.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
-        <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.css" />
         <option value="$PROJECT_DIR$/src/components/Navigation/NavigatorComponent.js" />
         <option value="$PROJECT_DIR$/src/components/ManuscriptReader/ManuscriptReader.css" />
         <option value="$PROJECT_DIR$/src/data-stores/DisplayArtifactModel.js" />
         <option value="$PROJECT_DIR$/src/components/ManuscriptReader/ManuscriptReader.js" />
         <option value="$PROJECT_DIR$/src/components/StoryView/StoryView.js" />
+        <option value="$PROJECT_DIR$/src/components/HelpView/HelpView.js" />
+        <option value="$PROJECT_DIR$/src/components/HelpView/HelpView.css" />
+        <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.js" />
+        <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.css" />
       </list>
     </option>
   </component>
@@ -227,10 +237,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="51" />
-    <option name="width" value="1517" />
-    <option name="height" value="999" />
+    <option name="x" value="-147" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -280,13 +290,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.prettier" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="sshConsole" />
   </component>
@@ -423,7 +440,29 @@
       <workItem from="1553915729120" duration="78000" />
       <workItem from="1554577684938" duration="11256000" />
       <workItem from="1556751590597" duration="1118000" />
-      <workItem from="1558136538446" duration="321000" />
+      <workItem from="1557544421725" duration="310000" />
+      <workItem from="1557853788131" duration="415000" />
+      <workItem from="1557859185206" duration="2113000" />
+      <workItem from="1557867045839" duration="430000" />
+      <workItem from="1558043806410" duration="74000" />
+      <workItem from="1558044942321" duration="40000" />
+      <workItem from="1558044985833" duration="81000" />
+      <workItem from="1558133313001" duration="529000" />
+      <workItem from="1558136079331" duration="380000" />
+      <workItem from="1558218969961" duration="2994000" />
+      <workItem from="1558222206175" duration="113000" />
+      <workItem from="1558469737214" duration="135000" />
+      <workItem from="1558469875596" duration="771000" />
+      <workItem from="1558470982453" duration="208000" />
+      <workItem from="1558471390270" duration="5000" />
+      <workItem from="1558568067511" duration="1131000" />
+      <workItem from="1558569223518" duration="2856000" />
+      <workItem from="1558572763660" duration="89000" />
+      <workItem from="1558654420203" duration="1436000" />
+      <workItem from="1558656270436" duration="853000" />
+      <workItem from="1558903411085" duration="3654000" />
+      <workItem from="1558907621082" duration="809000" />
+      <workItem from="1558909966476" duration="1933000" />
     </task>
     <task id="LOCAL-00001" summary="fixed this.props.places bug">
       <created>1525795879351</created>
@@ -754,18 +793,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551921327535</updated>
     </task>
-    <task id="LOCAL-00048" summary="allison demo version">
-      <created>1558136618701</created>
+    <task id="LOCAL-00048" summary="help view updated with links and improved images">
+      <created>1558470560427</created>
       <option name="number" value="00048" />
       <option name="presentableId" value="LOCAL-00048" />
       <option name="project" value="LOCAL" />
-      <updated>1558136618701</updated>
+      <updated>1558470560428</updated>
     </task>
     <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316419000" />
+    <option name="totallyTimeSpent" value="337457000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -777,25 +816,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="51" width="1517" height="999" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6393211" visible="true" weight="0.20989305" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6393211" visible="true" weight="0.20930232" />
       <window_info id="Structure" order="1" sideWeight="0.35904628" side_tool="true" weight="0.24065298" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.50342935" side_tool="true" weight="0.24065298" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49868593" weight="0.3262032" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49868593" weight="0.32611465" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39854318" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49934298" weight="0.32834226" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48523206" weight="0.29217198" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.26240352" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50921535" side_tool="true" weight="0.2611399" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.48523206" visible="true" weight="0.2356688" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4947146" weight="0.21019109" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50528544" side_tool="true" weight="0.21019109" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -909,8 +948,8 @@
     <MESSAGE value="new build!" />
     <MESSAGE value="close #153. silly bug." />
     <MESSAGE value="new build with corrected typo" />
-    <MESSAGE value="allison demo version" />
-    <option name="LAST_COMMIT_MESSAGE" value="allison demo version" />
+    <MESSAGE value="help view updated with links and improved images" />
+    <option name="LAST_COMMIT_MESSAGE" value="help view updated with links and improved images" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
@@ -1177,13 +1216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ManuscriptReader/ManuscriptReader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-96">
@@ -1194,38 +1226,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="208" column="36" lean-forward="true" selection-start-line="208" selection-start-column="36" selection-end-line="208" selection-end-column="36" />
+        <state relative-caret-position="630">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="115" column="19" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+          <folding>
+            <element signature="e#691#732#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4620">
-          <caret line="321" column="39" selection-start-line="321" selection-start-column="39" selection-end-line="321" selection-end-column="39" />
+        <state relative-caret-position="4440">
+          <caret line="309" column="36" selection-start-line="309" selection-start-column="36" selection-end-line="309" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/StoryView/StoryView.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.js">
+    <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4950">
-          <caret line="340" column="43" selection-start-line="340" selection-start-column="43" selection-end-line="340" selection-end-column="43" />
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/components/HelpView/HelpView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1245,25 +1287,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="115" column="19" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
-          <folding>
-            <element signature="e#691#732#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="900">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="-32">
+          <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RightBar/RightBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1382">
+          <caret line="378" column="34" lean-forward="true" selection-start-line="378" selection-start-column="34" selection-end-line="378" selection-end-column="34" />
         </state>
       </provider>
     </entry>

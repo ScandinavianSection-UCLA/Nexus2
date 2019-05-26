@@ -85,7 +85,7 @@ class HelpView extends React.Component {
                             <h2>Navigator and Display Tools</h2>
                             <img src={require("./images/navigatorhome.png")} />
                             <p>
-                            On the home tab, you can navigate to any story, person, or place in the collection via the search bar or the navigator tools below it. To learn more about the search bar, please reference the Search Features help page.
+                                On the home tab, you can navigate to any story, person, or place in the collection via the search bar or the navigator tools below it. To learn more about the search bar, please reference the <a onClick={this.setView.bind(this, 4)}>Search Features help page</a>.
                             </p>
                             <img src={require("./images/navigator1.png")} />
                             <p>
@@ -117,7 +117,7 @@ class HelpView extends React.Component {
                             </p>
                             <img src={require("./images/nexus2.png")} />
                             <p>
-                            Explore the tool more in depth by opening the nexus graph in a new tab.
+                            Explore the tool more in depth by opening the nexus graph in a new tab. For more information on the nexus graph, click <a onClick={this.setView.bind(this, 3)}>here</a>.
                             </p>
                             <img src={require("./images/nexus3.png")} />
                             <p>
