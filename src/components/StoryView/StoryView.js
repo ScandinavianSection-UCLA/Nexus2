@@ -33,6 +33,7 @@ class StoryView extends Component {
             "storyVersionOpen": [false, true, false, false],
             // two versions wouldn't be open
             "twoVersions": false,
+            "fontSize": 16
         };
         // out of all the story's places
         this.placeRecorded = arrayTransformation(props.story.places.place)
@@ -178,6 +179,14 @@ class StoryView extends Component {
         this.setState(({isMapExpanded}) => ({
             "isMapExpanded": !isMapExpanded,
         }));
+    }
+
+    increaseFontSize() {
+        this.setState({fontSize: this.state.fontSize + 2});
+    }
+
+    decreaseFontSize() {
+        this.setState({fontSize: this.state.fontSize - 2});
     }
 
     render() {
@@ -347,6 +356,8 @@ class StoryView extends Component {
                             {full_name}
                         </h2>
                         <h4 style={{"marginLeft": "1.5%"}}>{informant_full_name}</h4>
+                        <div className="button secondary" style={{"marginLeft": "1.5%"}} onClick={(e) => { e.preventDefault(); this.increaseFontSize.bind(this)() } }>A</div>
+                        <div className="button secondary" onClick={(e) => { e.preventDefault(); this.decreaseFontSize.bind(this)() } }>a</div>
                         <div className="grid-x">
                             <div className="medium-11 cell">
                                 <div className="grid-padding-x">
@@ -375,7 +386,7 @@ class StoryView extends Component {
                                             {storyVersionOpen.map((version, i) => version && (
                                                 <div className={`cell story ${twoVersions && "medium-6"}`} key={i}>
                                                     <div className="card">
-                                                        <div className="card-section">
+                                                        <div className="card-section" style={{fontSize: this.state.fontSize+"px"}}>
                                                             {this.renderComponentView(story[indexToVersion[i]], "Version")}
                                                         </div>
                                                     </div>
@@ -388,7 +399,7 @@ class StoryView extends Component {
                                             <div className="medium-8 cell">
                                                 <div className="card annotation">
                                                     <h5 className="title">Annotation</h5>
-                                                    <div className="card-section">
+                                                    <div className="card-section" style={{fontSize: this.state.fontSize+"px"}}>
                                                         {this.renderComponentView(annotation, "Annotation")}
                                                     </div>
                                                 </div>
@@ -462,7 +473,7 @@ class StoryView extends Component {
                                         "wide": "10%",
                                     }}>
                                         <div className="card">
-                                            <div className="card-section">
+                                            <div className="card-section" style={{fontSize: this.state.fontSize+"px"}}>
                                                 {this.renderComponentView(story[indexToVersion[i]], "Version")}
                                             </div>
                                         </div>
