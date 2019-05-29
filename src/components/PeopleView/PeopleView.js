@@ -79,9 +79,10 @@ class PeopleView extends Component {
                                             <div className="detail-item"><b>Died</b> {this.props.person.death_date}</div>
                                             <div className="detail-item"><b>ID#</b> {this.props.person.person_id}</div>
                                             <div className="detail-item"><b>Occupation (Eng/Dansk):</b> {this.getOccupation()}</div>
-                                            <buttom className="button primary"
+                                            {this.props.person['core_informant'] === 1 &&
+                                                <button className="button primary"
                                                 onClick={(e) => {e.preventDefault(); this.openCoreInformantTab.bind(this)()}}
-                                            >Full Biography</buttom>
+                                                >Full Biography</button>}
                                         </div>
                                     </div>
                                 </div>
