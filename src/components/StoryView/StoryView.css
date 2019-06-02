@@ -168,4 +168,18 @@ h2.title {
     white-space: pre-line;
 }
 
+.name-header {
+    float: left;
+}
+
+.font-control {
+    position: absolute;
+    right: 0px;
+    width: 20%;
+}
+
+.story-meta-data-wrapper {
+    max-height: 100vh;
+}
+
 /* Bottom of StoryView.css */

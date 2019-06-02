@@ -182,10 +182,13 @@ class StoryView extends Component {
     }
 
     increaseFontSize() {
-        this.setState({fontSize: this.state.fontSize + 2});
+        if (this.state.fontSize < 24) {
+            this.setState({fontSize: this.state.fontSize + 2});
+        }
     }
 
     decreaseFontSize() {
+        if (this.state.fontSize > 10)
         this.setState({fontSize: this.state.fontSize - 2});
     }
 
@@ -222,8 +225,8 @@ class StoryView extends Component {
         if (isMapExpanded === false) {
             return (
                 <div className="StoryView grid-x">
-                    <div className="medium-3 cell grid-y">
-                        <div className="medium-4 cell">
+                    <div className="medium-3 cell grid-y story-meta-data-wrapper">
+                        <div className="small-4 cell">
                             <MapView key={0} places={places.place} />
                         </div>
                         <button
@@ -346,7 +349,7 @@ class StoryView extends Component {
                             </li>
                         </ul>
                     </div>
-                    <div className="medium-9 cell">
+                    <div className="medium-9 cell" style={{position: "relative"}}>
                         <h2 className="title">
                             <img src="https://png.icons8.com/ios/42/000000/chat-filled.png"
                                 style={{
@@ -355,10 +358,12 @@ class StoryView extends Component {
                                 }} alt="story icon" />
                             {full_name}
                         </h2>
-                        <h4 style={{"marginLeft": "1.5%"}}>{informant_full_name}</h4>
-                        <div className="button secondary" style={{"marginLeft": "1.5%"}} onClick={(e) => { e.preventDefault(); this.increaseFontSize.bind(this)() } }>A</div>
-                        <div className="button secondary" onClick={(e) => { e.preventDefault(); this.decreaseFontSize.bind(this)() } }>a</div>
-                        <div className="grid-x">
+                        <h4 className="name-header" style={{"marginLeft": "1.5%"}}>{informant_full_name}</h4>
+                        <div className="font-control">
+                            <div className="button secondary" style={{"marginLeft": "1.5%"}} onClick={(e) => { e.preventDefault(); this.increaseFontSize.bind(this)() } }>A</div>
+                            <div className="button secondary" onClick={(e) => { e.preventDefault(); this.decreaseFontSize.bind(this)() } }>a</div>
+                        </div>
+                        <div className="grid-x" style={{float: "left"}}>
                             <div className="medium-11 cell">
                                 <div className="grid-padding-x">
                                     <div className="story-viewer cell grid-y">
