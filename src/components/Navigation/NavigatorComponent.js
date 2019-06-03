@@ -66,6 +66,23 @@ class Navigation extends Component {
         if (this.props.searchState.inputValue === "") {
             // go to the loaded ontology from session storage
             this.handleLevelTwoClick(data);
+            if (this.TINav.includes(data)) {
+                // get previous dropdown info
+                const prevDropdowns = getSessionStorage("dropdownLists");
+                // only if something to load
+                if (prevDropdowns) {
+                    if (prevDropdowns.length === 1) {
+                        // genre or ETK to load
+                        this.selectMenu(prevDropdowns[0], false);
+                    } else if (prevDropdowns.length === 2) {
+                        // tango double-dropdown to load
+                        this.selectMenu(prevDropdowns[0], true);
+                        if (prevDropdowns[1]) {
+                            this.selectMenu(prevDropdowns[1], false);
+                        }
+                    }
+                }
+            }
         } else {
             // keyword loaded, we'll be looking at the stories
             this.props.setDisplayLabel("Data Navigator > Stories");
@@ -239,6 +256,14 @@ class Navigation extends Component {
         if (isTango === false) {
             // make sure that we didn't re-select the [Select a ___] option from the dropdown
             if (typeof selectedItem.id !== "undefined") {
+                const prevDropdowns = getSessionStorage("dropdownLists");
+                // if its a tango submenu
+                if (prevDropdowns && prevDropdowns.length === 2) {
+                    setSessionStorage("dropdownLists", [prevDropdowns[0], selectedItem]);
+                } else {
+                    // genre/etk dropdown
+                    setSessionStorage("dropdownLists", [selectedItem]);
+                }
                 // update the displayed items
                 this.props.actions.displayItems(
                     // use the list of stories based on the chosen option
@@ -256,7 +281,7 @@ class Navigation extends Component {
                     // get previous dropdowns and path
                     let {dropdownLists, path} = oldState;
                     // update the selected item
-                    dropdownLists[dropdownLists.length - 1].selectValue = selectedItem.name;
+                    dropdownLists[dropdownLists.length - 1].selectValue = name;
                     // trim the path if necessary
                     if (path.length >= 3 && path.includes("Tangherlini Index") === false) {
                         path = path.slice(0, 2);
@@ -290,6 +315,8 @@ class Navigation extends Component {
             }
         } else {
             // top level tango index option picked
+            // special format for dropdown recognition
+            setSessionStorage("dropdownLists", [selectedItem, null]);
             // set base path accordingly
             const path = ["Topic & Index Navigator", "Tangherlini Index"];
             if (selectedItem !== "[Select a Class]") {
