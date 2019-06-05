@@ -25,6 +25,8 @@ class BookView extends Component {
             "searchActive": false,
             "searchJSX": null,
             "searchValue": "",
+            // update with any previous state stored in redux
+            ...props.state.views[props.viewIndex].state,
         };
         // to be set once the book is rendered
         this.book = null;
@@ -89,6 +91,7 @@ class BookView extends Component {
                 // bad type, warn that
                 console.warn("Invalid id: ", this.props.id);
             }
+            this.rendition.themes.fontSize(`${this.state.fontSize}px`);
             // display the book
             this.rendition.display(location);
             // update the tab's ID whenever the page is changed (so it can be re-loaded later)
@@ -107,6 +110,10 @@ class BookView extends Component {
         this.rendition = null;
         // remove our event listener
         document.removeEventListener("keydown", this.handleKeyPress, false);
+        // save state to redux for later
+        this.props.tabViewerActions.updateTab(this.props.viewIndex, {
+            "state": this.state,
+        });
     }
 
     // handler for key presses

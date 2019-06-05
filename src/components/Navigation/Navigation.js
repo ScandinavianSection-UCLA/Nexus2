@@ -50,6 +50,7 @@ class Navigation extends React.Component {
         setTimeout(this.setState({timeFilterLoad: true}), 1000)
         // this.setState({timeFilterLoad:true});
     }
+
     /**
      * Display a list of items
      * @param {Array} list Items to display
