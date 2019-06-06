@@ -6,7 +6,7 @@ import React, {Component} from "react";
 import {Graph} from "react-d3-graph";
 // prop validation
 import PropTypes from "prop-types";
-// function to get a node on the graoh by its name
+// function to get a node on the graph by its name
 import {getNodeById} from "./NexusGraphModel";
 import {bindActionCreators} from "redux";
 import * as tabViewerActions from "../../actions/tabViewerActions";
@@ -67,6 +67,7 @@ class NexusGraph extends Component {
     }
 
     render() {
+        console.log(this.props.data)
         return (
             <Graph
                 // id is mandatory, if no id is defined rd3g will throw an error

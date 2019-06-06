@@ -47,3 +47,9 @@
 .blue{background:blue;}
 .green{background:green;}
 .grey{background:grey;}
+.lightgrey{background:lightgrey;}
+
+/* styling for a table row that is currently highlighted */
+.highlighted-row {
+    background-color: #dbe4f0 !important;
+}

@@ -6,7 +6,7 @@ import {arrayTransformation} from "../../utils";
 import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
 
 // colors of the nodes on the graph
-const nodeColors = {
+export const nodeColors = {
     "People": "blue",
     "Places": "red",
     "Stories": "grey",

@@ -8,6 +8,9 @@ import {initializeGraph, initializeNodeCategories} from "./NexusGraphModel";
 import NexusGraph from "./NexusGraph";
 // prop validation
 import PropTypes from "prop-types";
+import * as model from "../../data-stores/DisplayArtifactModel";
+import {arrayTransformation} from "../../utils";
+import {nodeColors} from "./NexusGraphModel"
 
 class GraphView extends Component {
     constructor() {
@@ -22,6 +25,18 @@ class GraphView extends Component {
             "showPrimaryLinks": true,
             // by default show secondary links
             "showSecondaryLinks": true,
+            "highlighted": {
+                "People": false,
+                "Places": false,
+                "Stories": false,
+                "Fieldtrips": false,
+            },
+            "active": {
+                "People": false,
+                "Places": false,
+                "Stories": false,
+                "Fieldtrips": false,
+            },
         };
 
         // properly bind these functions so that they can set the state
@@ -51,6 +66,90 @@ class GraphView extends Component {
                 "showSecondaryLinks": !prevState.showSecondaryLinks,
             };
         });
+    }
+
+    allFalse() {
+        for(let nodeType in this.state.highlighted)
+            if(this.state.highlighted[nodeType]) return false;
+
+        return true;
+    }
+
+    /**
+     * the click handler for type of node when type isn't highlighted
+     */
+    highlightGraphNode(nodeType){
+        this.setState((prevState)=>{
+            let NewState = prevState;
+            // updating the nodes array with new node properties
+            NewState.data.nodes = NewState.data.nodes.map(
+                (node)=>{
+                    if(NewState.highlighted[node.type]){
+                        node["size"] = 200;
+                        node["color"] = nodeColors[node.type];
+                    } else {
+                        node["color"] = "lightgrey";
+                    }
+                    return node;
+                }
+                );
+            return NewState;
+        });
+        console.log(this.state.data.nodes);
+    }
+
+    /**
+     * the click handler to unhighlight the nodes
+     * @param nodeType
+     */
+    unhighlightGraphNode(nodeType){
+        this.setState(
+            (prevState)=>{
+                let NewState = prevState;
+                // updating the nodes array with new node properties
+                NewState.data.nodes = NewState.data.nodes.map(
+                    (node)=>{
+                        if(this.allFalse.bind(this)()){
+                            node["color"] = nodeColors[node.type];
+                            node["size"] = 120;
+                        }
+                        else if (node.type === nodeType){
+                            node["size"] = 120;
+                            node["color"] = "lightgrey";
+                        }
+                        return node;
+                    }
+                );
+                return NewState;
+            }
+        );
+    }
+
+    /**
+     * toggle the highlighted state of the node type table
+     */
+    toggleNodeHighlight(nodeType){
+        this.setState((prevState)=>{
+            let NewState = prevState;
+            NewState.highlighted[nodeType] = !NewState.highlighted[nodeType];
+            NewState.active[nodeType] = !NewState.active[nodeType];
+            if(this.state.highlighted[nodeType]){
+                this.highlightGraphNode(nodeType);
+            } else {
+                this.unhighlightGraphNode(nodeType);
+            }
+            return NewState;
+        });
+    }
+
+    legendCircleColor(nodeType) {
+        if(this.allFalse.bind(this)() || this.state.highlighted[nodeType]){
+            return "circle " + nodeColors[nodeType];
+        } else {
+            return "circle lightgrey";
+        }
+
+
     }
 
     /**
@@ -110,20 +209,28 @@ class GraphView extends Component {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td><div className="circle blue"> </div></td>
+                            <tr className={this.state.active["People"] ? "highlighted-row" : null} onClick={ (e) => {
+                                e.preventDefault();
+                                this.toggleNodeHighlight.bind(this)("People")} }>
+                                <td><div className={this.legendCircleColor.bind(this)("People")}> </div></td>
                                 <td>People</td>
                             </tr>
-                            <tr>
-                                <td><div className="circle red"> </div></td>
+                            <tr className={this.state.active["Places"] ? "highlighted-row" : null} onClick={ (e) => {
+                                e.preventDefault();
+                                this.toggleNodeHighlight.bind(this)("Places")} }>
+                                <td><div className={this.legendCircleColor.bind(this)("Places")}> </div></td>
                                 <td>Places</td>
                             </tr>
-                            <tr>
-                                <td><div className="circle grey"> </div></td>
+                            <tr className={this.state.active["Stories"] ? "highlighted-row" : null} onClick={ (e) => {
+                                e.preventDefault();
+                                this.toggleNodeHighlight.bind(this)("Stories")} }>
+                                <td><div className={this.legendCircleColor.bind(this)("Stories")}> </div></td>
                                 <td>Stories</td>
                             </tr>
-                            <tr>
-                                <td><div className="circle green"> </div></td>
+                            <tr className={this.state.active["Fieldtrips"] ? "highlighted-row" : null} onClick={ (e) => {
+                                e.preventDefault();
+                                this.toggleNodeHighlight.bind(this)("Fieldtrips")} }>
+                                <td><div className={this.legendCircleColor.bind(this)("Fieldtrips")}> </div></td>
                                 <td>Fieldtrips</td>
                             </tr>
                         </tbody>
