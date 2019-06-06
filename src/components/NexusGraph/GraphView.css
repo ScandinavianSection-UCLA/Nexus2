@@ -32,6 +32,8 @@
 .legend{
     margin-top:15px;
     background:white;
+    width: 100% !important;
+
 }
 .legend tr td, .legend thead tr th{
     text-align:center;
