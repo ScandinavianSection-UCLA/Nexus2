@@ -4,19 +4,25 @@ import MapView from "../MapView/MapView";
 import {getFieldtripsByID, getPlacesByID} from "../../data-stores/DisplayArtifactModel";
 // import data for fieldtrips
 import FieldtripsData from "../../data/cfieldtrips.json";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+import connect from "react-redux/es/connect/connect";
 
 class FieldtripTool extends React.Component {
     constructor(props) {
         super(props);
-        if (props.fieldtrip) {
-            this.state = {
-                "activeFieldtrips": [props.fieldtrip],
-            };
-        } else {
-            this.state = {
-                "activeFieldtrips": [],
-            };
-        }
+        this.state = {
+            "activeFieldtrips": props.fieldtrip ? [props.fieldtrip] : [],
+            // update with any previous state stored in redux
+            ...props.state.views[props.viewIndex].state,
+        };
+    }
+
+    componentWillUnmount() {
+        // save state to redux for later
+        this.props.actions.updateTab(this.props.viewIndex, {
+            "state": this.state,
+        });
     }
 
     handleSelect(fieldtrip_id) {
@@ -81,4 +87,29 @@ class FieldtripTool extends React.Component {
     }
 }
 
-export default FieldtripTool;
+/**
+ * Set certain props to access Redux states
+ * @param {Object} state All possible Redux states
+ * @returns {Object} Certain states that are set on props
+ */
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+/**
+ * Set the "actions" prop to access Redux actions
+ * @param {*} dispatch Redux actions
+ * @returns {Object} The actions that are mapped to props.actions
+ */
+function mapDispatchToProps(dispatch) {
+    return {
+        "actions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(FieldtripTool);

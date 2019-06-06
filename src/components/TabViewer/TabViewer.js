@@ -58,24 +58,24 @@ class TabViewer extends Component {
                 // for places, return a PlaceView with the place retrieved by the passed ID
                 return <PlaceView key={tabIndex} place={model.getPlacesByID(id)} />;
             case "Fieldtrips":
-                // for fieldtrip, return a FieldtripViewwith the fieldtrip retrieved by the passed ID
+                // for fieldtrip, return a FieldtripView with the fieldtrip retrieved by the passed ID
                 return <FieldtripView key={tabIndex} fieldtrip={model.getFieldtripsByID(id)} />;
             case "Stories":
                 // for stories, return a StoryView with the story retrieved by the passed ID
-                return <StoryView key={tabIndex} story={model.getStoryByID(id)} />;
+                return <StoryView key={tabIndex} story={model.getStoryByID(id)} viewIndex={tabIndex}/>;
             case "Home":
                 // for the Home tab, return the main Navigation view (home)
                 return <Navigation key={tabIndex} />;
             case "Graph":
                 // for the graph, return the GraphView
-                return <GraphView key={tabIndex} />;
+                return <GraphView key={tabIndex} viewIndex={tabIndex} />;
             case "Book":
                 // for the book, return the BookView, with the chapter ID that was selected
                 return <BookView key={tabIndex} viewIndex={tabIndex} id={id} />;
             case "Help":
-                return <HelpView key={tabIndex} />
+                return <HelpView key={tabIndex} viewIndex={tabIndex} />
             case "FieldtripTool":
-                return <FieldtripTool key={tabIndex} fieldtrip={id} />;
+                return <FieldtripTool key={tabIndex} fieldtrip={id} viewIndex={tabIndex} />;
             default:
                 // if it wasn't one of the above types, warn that we hit an unknown type
                 console.warn(`Unhandled tab type: ${type}`);

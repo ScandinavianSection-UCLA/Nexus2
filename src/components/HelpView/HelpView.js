@@ -2,6 +2,9 @@
 import "./HelpView.css";
 // react functionality
 import React from "react";
+import {bindActionCreators} from "redux";
+import * as tabViewerActions from "../../actions/tabViewerActions";
+import connect from "react-redux/es/connect/connect";
 
 class HelpView extends React.Component {
     constructor(props) {
@@ -9,6 +12,8 @@ class HelpView extends React.Component {
         this.state = {
             // which page is currently being viewed
             "activeView": 0,
+            // update with any previous state stored in redux
+            ...props.state.views[props.viewIndex].state,
         };
         // headers for the top links
         this.headers = [
@@ -23,6 +28,13 @@ class HelpView extends React.Component {
                 "Book Chapters",
             ],
         ];
+    }
+
+    componentWillUnmount() {
+        // save state to redux for later
+        this.props.actions.updateTab(this.props.viewIndex, {
+            "state": this.state,
+        });
     }
 
     setView(activeView) {
@@ -268,4 +280,29 @@ class HelpView extends React.Component {
     }
 }
 
-export default HelpView;
+/**
+ * Set certain props to access Redux states
+ * @param {Object} state All possible Redux states
+ * @returns {Object} Certain states that are set on props
+ */
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+/**
+ * Set the "actions" prop to access Redux actions
+ * @param {*} dispatch Redux actions
+ * @returns {Object} The actions that are mapped to props.actions
+ */
+function mapDispatchToProps(dispatch) {
+    return {
+        "actions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(HelpView);

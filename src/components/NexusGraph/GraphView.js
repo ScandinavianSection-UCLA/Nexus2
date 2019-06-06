@@ -11,10 +11,14 @@ import PropTypes from "prop-types";
 import * as model from "../../data-stores/DisplayArtifactModel";
 import {arrayTransformation} from "../../utils";
 import {nodeColors} from "./NexusGraphModel"
+import {connect} from "react-redux";
+import {bindActionCreators} from "redux";
+// actions to manipulate the tabs
+import * as tabViewerActions from "../../actions/tabViewerActions";
 
 class GraphView extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         // set a default state
         this.state = {
             // get nodes + links from storgae
@@ -37,6 +41,8 @@ class GraphView extends Component {
                 "Stories": false,
                 "Fieldtrips": false,
             },
+            // update with any previous state stored in redux
+            ...props.state.views[props.viewIndex].state,
         };
 
         // properly bind these functions so that they can set the state
@@ -44,28 +50,31 @@ class GraphView extends Component {
         this.toggleSecondaryLinks = this.toggleSecondaryLinks.bind(this);
     }
 
+    componentWillUnmount() {
+        // save state to redux for later
+        this.props.actions.updateTab(this.props.viewIndex, {
+            "state": this.state,
+        });
+    }
+
     /**
      * Toggle whether or not to show the primary links on the graph
      */
     togglePrimaryLinks() {
-        this.setState((prevState) => {
-            return {
-                // invert whether or not to show primary links
-                "showPrimaryLinks": !prevState.showPrimaryLinks,
-            };
-        });
+        this.setState((prevState) => ({
+            // invert whether or not to show primary links
+            "showPrimaryLinks": !prevState.showPrimaryLinks,
+        }));
     }
 
     /**
      * Toggle whether or not to show the secondary links on the graph
      */
     toggleSecondaryLinks() {
-        this.setState((prevState) => {
-            return {
-                // invert whether or not to show secondary links
-                "showSecondaryLinks": !prevState.showSecondaryLinks,
-            };
-        });
+        this.setState((prevState) => ({
+            // invert whether or not to show secondary links
+            "showSecondaryLinks": !prevState.showSecondaryLinks,
+        }));
     }
 
     allFalse() {
@@ -266,4 +275,31 @@ GraphView.propTypes = {
     "openNode": PropTypes.func.isRequired,
 };
 
-export default GraphView;
+// export default GraphView;
+
+/**
+ * Set certain props to access Redux states
+ * @param {Object} state All possible Redux states
+ * @returns {Object} Certain states that are set on props
+ */
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+/**
+ * Set the "actions" prop to access Redux actions
+ * @param {*} dispatch Redux actions
+ * @returns {Object} The actions that are mapped to props.actions
+ */
+function mapDispatchToProps(dispatch) {
+    return {
+        "actions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(GraphView);

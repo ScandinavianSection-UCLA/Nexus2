@@ -33,7 +33,9 @@ class StoryView extends Component {
             "storyVersionOpen": [false, true, false, false],
             // two versions wouldn't be open
             "twoVersions": false,
-            "fontSize": 16
+            "fontSize": 16,
+            // update with any previous state stored in redux
+            ...props.state.views[props.viewIndex].state,
         };
         // out of all the story's places
         this.placeRecorded = arrayTransformation(props.story.places.place)
@@ -51,6 +53,13 @@ class StoryView extends Component {
 
     componentDidMount() {
         Modal.setAppElement(this.el);
+    }
+
+    componentWillUnmount() {
+        // save state to redux for later
+        this.props.actions.updateTab(this.props.viewIndex, {
+            "state": this.state,
+        });
     }
 
     renderRelatedStories() {
@@ -360,8 +369,8 @@ class StoryView extends Component {
                         </h2>
                         <h4 className="name-header" style={{"marginLeft": "1.5%"}}>{informant_full_name}</h4>
                         <div className="font-control">
-                            <div className="button secondary" style={{"marginLeft": "1.5%"}} onClick={(e) => { e.preventDefault(); this.increaseFontSize.bind(this)() } }>A</div>
-                            <div className="button secondary" onClick={(e) => { e.preventDefault(); this.decreaseFontSize.bind(this)() } }>a</div>
+                            <div className="button secondary" style={{"marginLeft": "1.5%"}} onClick={(e) => {e.preventDefault(); this.increaseFontSize.bind(this)()}}>A</div>
+                            <div className="button secondary" onClick={(e) => { e.preventDefault(); this.decreaseFontSize.bind(this)() }}>a</div>
                         </div>
                         <div className="grid-x" style={{float: "left"}}>
                             <div className="medium-11 cell">
