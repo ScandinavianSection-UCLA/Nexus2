@@ -16,7 +16,7 @@ class FieldtripView extends Component {
             <div className="FieldtripView grid-x">
                 <div className="medium-11 cell main">
                     <div className="grid-x">
-                        <div className="heading cell medium-10">
+                        <div className="heading cell medium-9">
                             {/* <div className="heading"> */}
                             <img className="h-item" src={require("./../Navigation/icons8-waypoint-map-32.png")} />
                             <h2 className="h-item">{this.props.fieldtrip.fieldtrip_name}</h2>
@@ -25,6 +25,11 @@ class FieldtripView extends Component {
                             {/* <h3>{this.props.fieldtrip.fieldtrip_name}</h3>
                             <h4>{this.props.fieldtrip.start_date} to {this.props.fieldtrip.end_date}</h4> */}
                         </div>
+                        <button
+                            className="fieldtripTool button primary cell medium-1"
+                            onClick={() => {
+                                this.props.actions.addTab(this.props.fieldtrip.fieldtrip_id, "Fieldtrip Routes", "FieldtripRouteViewer");
+                            }}>route</button>
                         <button
                             className="fieldtripTool button primary cell medium-2"
                             onClick={() => {
