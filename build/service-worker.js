@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/folklorenexus/precache-manifest.9d4c6e64e7e7efb23970abedb55961c1.js"
+  "/folklorenexus/precache-manifest.4c20611dc031d1707b5a7608cd686489.js"
 );
 
 workbox.clientsClaim();
