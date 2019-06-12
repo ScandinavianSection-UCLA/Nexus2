@@ -4,6 +4,9 @@ import * as model from "../../data-stores/DisplayArtifactModel";
 import {arrayTransformation} from "../../utils";
 // functions to get and set sesion storage
 import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
+import {getPeopleByID} from "../../data-stores/DisplayArtifactModel";
+import {getPlacesByID} from "../../data-stores/DisplayArtifactModel";
+import {getStoryByID} from "../../data-stores/DisplayArtifactModel";
 
 // colors of the nodes on the graph
 export const nodeColors = {
@@ -18,6 +21,28 @@ export const nodeColors = {
 const linkColors = {
     "primary": "lightblue",
     "secondary": "lightgreen",
+};
+
+// labels for primary links with only one possible relationship
+const primaryLinkNames = {
+    "People": {
+        "Fieldtrips": "met during",
+        "Stories": "told",
+    },
+    "Fieldtrips": {
+        "People": "",
+        "Places": "",
+        "Stories": "",
+    },
+    "Stories": {
+        "People": "",
+        "Places": "",
+        "Fieldtrips": "",
+    },
+    "Places": {
+        "Stories": "",
+        "Fieldtrips": "",
+    },
 };
 
 /**
@@ -219,6 +244,49 @@ export function getNodeById(name, nodeCategories) {
 }
 
 /**
+ * Create label for primary link between nodes
+ * @param {Number} sourceID The id of the source node
+ * @param {String} sourceType The node type of the source
+ * @param {Object} target The target node
+ * @returns {String} A string describing the connection between two nodes
+ */
+function makePrimaryLabel(sourceID, sourceType, target) {
+    let targetType = target.type;
+    if (sourceType === "People" && targetType === "Places") {
+        let source = getPeopleByID(sourceID);
+        let targetPlace = source.places.find(place => place.place_id === target.itemID);
+        switch (targetPlace.type) {
+            case "birth_place":
+                return "born";
+            case "death_place":
+                return "died";
+            case "story_place":
+                return "stories recorded at";
+            case "place_mentioned":
+                return "mentions";
+            default:
+                return "";
+        }
+    } else if (sourceType === "Places" && targetType === "People") {
+        let place = getPlacesByID(sourceID);
+        let targetPerson = place.people.find(person => person.person.person_id === target.itemID);
+        return targetPerson.person.relationship;
+    } else {
+        return primaryLinkNames[sourceType][targetType];
+    }
+}
+
+/**
+ * Create label for secondary link between nodes
+ * @param {String} source The id of the source node
+ * @param {String} target The id of the target node
+ * @returns {String} A string describing the connection between two nodes
+ */
+function makeSecondaryLabel(source, target) {
+    return "secondary link";
+}
+
+/**
  * Create linkages for a node
  * @param {Node} node The node to create linkages for
  * @param {Array} nodeCategories An array of nodes to use to find linkages
@@ -245,15 +313,18 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                 // for all the matches, use their numeric ID
                 .map(function(matchID) {
                     // create a link
+                    let targetNode = nodeCategories[nodeType].find(node => node.itemID === matchID);
                     return {
                         // from the current node
                         "source": id,
                         // to the node specified by matchID
-                        "target": nodeCategories[nodeType].find(node => node.itemID === matchID).id,
+                        "target": targetNode.id,
                         // no intermediate node connecting the two
                         "linkNode": null,
                         // set its color to primary link color
                         "color": linkColors.primary,
+                        // describe connection between nodes
+                        "label": makePrimaryLabel(itemID, type, targetNode),
                     };
                 })
         );
@@ -323,6 +394,8 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                                     "linkNode": name,
                                     // set its color to secondary link color
                                     "color": linkColors.secondary,
+                                    // describe connection between nodes
+                                    "label": makeSecondaryLabel(id, matchID),
                                 });
                             }
                         });

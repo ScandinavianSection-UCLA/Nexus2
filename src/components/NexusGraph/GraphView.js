@@ -104,7 +104,6 @@ class GraphView extends Component {
                 );
             return NewState;
         });
-        console.log(this.state.data.nodes);
     }
 
     /**
