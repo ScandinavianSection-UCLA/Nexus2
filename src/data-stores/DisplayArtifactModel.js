@@ -266,9 +266,9 @@ export const tangoTypes = {
         "children": getChildren("Animals", true),
         "level": 3,
     },
-    "Action or events": {
-        "name": "Action or events",
-        "children": getChildren("Action or events", true),
+    "Actions or events": {
+        "name": "Actions or events",
+        "children": getChildren("Actions or events", true),
         "level": 3,
     },
     "Time, Season, Weather": {
@@ -589,4 +589,49 @@ export function getManuscriptURI(story_id){
     }
     console.warn("No images!");
     return [];
+}
+
+/**
+ * Retrieve a genre by its ID
+ * @param {Number} genre_id The ID of the genre to get
+ * @returns {Object} The genre object
+ */
+export function getGenreByID(genre_id) {
+    const genre = dataGenre.genre.find((matchingGenre) => matchingGenre.id === genre_id);
+    if (genre) {
+        return genre;
+    } else {
+        console.warn("Invalid genre ID");
+        return null;
+    }
+}
+
+/**
+ * Retrieve an ETK index by its ID
+ * @param {Number} etk_id The ID of the ETK index to get
+ * @returns {Object} The ETK object
+ */
+export function getETKByID(etk_id) {
+    const etk = dataETK.etk_index.find((matchingETK) => matchingETK.id === etk_id);
+    if (etk) {
+        return etk;
+    } else {
+        console.warn("Invalid ETK ID");
+        return null;
+    }
+}
+
+/**
+ * Retrieve a Tango index by its ID
+ * @param {Number} tango_id The ID of the Tango index to get
+ * @returns {Object} The Tango object
+ */
+export function getTangoByID(tango_id) {
+    const tango = data.tango.find((matchingTango) => matchingTango.id === tango_id);
+    if (tango) {
+        return tango;
+    } else {
+        console.warn("Invalid Tango ID");
+        return null;
+    }
 }
