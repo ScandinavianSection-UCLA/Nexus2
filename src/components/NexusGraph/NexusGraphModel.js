@@ -298,7 +298,7 @@ function makePrimaryLabel(sourceID, sourceType, target) {
  * @returns {String} A string describing the connection between two nodes
  */
 function makeSecondaryLabel(source, target) {
-    return "secondary link";
+    return "";
 }
 
 /**
