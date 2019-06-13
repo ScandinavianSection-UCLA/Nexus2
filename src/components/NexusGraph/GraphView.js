@@ -216,7 +216,7 @@ class GraphView extends Component {
                                 <th>Type of Node</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody className="legend-table-body">
                             <tr className={this.state.active["People"] ? "highlighted-row" : null} onClick={ (e) => {
                                 e.preventDefault();
                                 this.toggleNodeHighlight.bind(this)("People")} }>

@@ -30,18 +30,16 @@ const primaryLinkNames = {
         "Stories": "told",
     },
     "Fieldtrips": {
-        "People": "",
-        "Places": "",
-        "Stories": "",
+        "People": "met",
+        "Places": "visited",
+        "Stories": "told",
     },
     "Stories": {
-        "People": "",
-        "Places": "",
-        "Fieldtrips": "",
+        "People": "told by",
+        "Fieldtrips": "told during",
     },
     "Places": {
-        "Stories": "",
-        "Fieldtrips": "",
+        "Fieldtrips": "visited during",
     },
 };
 
@@ -267,13 +265,30 @@ function makePrimaryLabel(sourceID, sourceType, target) {
             default:
                 return "";
         }
-    } else if (sourceType === "Places" && targetType === "People") {
-        let place = getPlacesByID(sourceID);
-        let targetPerson = place.people.find(person => person.person.person_id === target.itemID);
-        return targetPerson.person.relationship;
-    } else {
-        return primaryLinkNames[sourceType][targetType];
     }
+    if (sourceType === "Places") {
+        let place = getPlacesByID(sourceID);
+        if (targetType === "People") {
+            let targetPerson = place.people.find(person => person.person.person_id === target.itemID);
+            return targetPerson.person.relationship;
+        }
+        if (targetType === "Stories") {
+            if (place.storiesMentioned.find(story => story.story_id === target.itemID) !== undefined) {
+                return "mentioned in";
+            } else {
+                return "collected";
+            }
+        }
+    }
+    if (sourceType === "Stories" && targetType === "Places") {
+        let targetPlace = getPlacesByID(target.itemID);
+        if (targetPlace.storiesMentioned.find(story => story.story_id === sourceID) !== undefined) {
+            return "mentions";
+        } else {
+            return "collected";
+        }
+    }
+    return primaryLinkNames[sourceType][targetType];
 }
 
 /**

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="new build with @Allison's updates!">
+    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="finished labels for links from people">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NexusGraph/GraphView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NexusGraph/GraphView.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NexusGraph/GraphView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NexusGraph/GraphView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NexusGraph/NexusGraphModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NexusGraph/NexusGraphModel.js" afterDir="false" />
     </list>
     <list id="4860e851-d29b-486f-9cb0-ecd95ba13bec" name="added low boards, high boards, prussian WMS tiles" comment="" />
@@ -24,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2415">
-              <caret line="166" column="14" selection-start-line="166" selection-start-column="14" selection-end-line="166" selection-end-column="14" />
+            <state relative-caret-position="368">
+              <caret line="218" column="61" lean-forward="true" selection-start-line="218" selection-start-column="61" selection-end-line="218" selection-end-column="61" />
               <folding>
                 <element signature="e#311#346#0" expanded="true" />
               </folding>
@@ -45,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="374">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -63,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraphModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="274" column="56" lean-forward="true" selection-start-line="274" selection-start-column="56" selection-end-line="274" selection-end-column="56" />
+            <state relative-caret-position="-2993">
+              <caret line="281" column="5" lean-forward="true" selection-start-line="281" selection-start-column="5" selection-end-line="281" selection-end-column="5" />
               <folding>
                 <element signature="e#244#335#0" expanded="true" />
               </folding>
@@ -184,13 +182,13 @@
         <option value="$PROJECT_DIR$/src/components/RightBar/RightBar.css" />
         <option value="$PROJECT_DIR$/src/components/StoryView/StoryView.css" />
         <option value="$PROJECT_DIR$/src/components/StoryView/StoryView.js" />
-        <option value="$PROJECT_DIR$/src/components/NexusGraph/GraphView.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.css" />
         <option value="$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.js" />
-        <option value="$PROJECT_DIR$/src/components/NexusGraph/GraphView.js" />
         <option value="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" />
         <option value="$PROJECT_DIR$/src/components/NexusGraph/NexusGraphModel.js" />
+        <option value="$PROJECT_DIR$/src/components/NexusGraph/GraphView.js" />
+        <option value="$PROJECT_DIR$/src/components/NexusGraph/GraphView.css" />
       </list>
     </option>
   </component>
@@ -405,14 +403,7 @@
       <workItem from="1560118290739" duration="7191000" />
       <workItem from="1560139911882" duration="2544000" />
       <workItem from="1560367146926" duration="5139000" />
-      <workItem from="1560380631462" duration="2410000" />
-    </task>
-    <task id="LOCAL-00002" summary="added danish web server tiles using TileLayer.WMS in leaflet">
-      <created>1528171844527</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1528171844527</updated>
+      <workItem from="1560380631462" duration="4678000" />
     </task>
     <task id="LOCAL-00003" summary="web server tiles now loading :)">
       <created>1528262665366</created>
@@ -750,11 +741,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559782509751</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="finished labels for links from people">
+      <created>1560383273256</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1560383273257</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="373715000" />
+    <option name="totallyTimeSpent" value="375983000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -874,7 +872,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="new build" />
     <MESSAGE value="new build with map updates" />
     <MESSAGE value="trying to see if this work" />
     <MESSAGE value="trying to see if this work pt 2" />
@@ -899,7 +896,8 @@
     <MESSAGE value="Updated biography button to show only for core informants" />
     <MESSAGE value="new build with @Allison's updates!" />
     <MESSAGE value="fixed legend sizing on Safari" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed legend sizing on Safari" />
+    <MESSAGE value="finished labels for links from people" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished labels for links from people" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
@@ -1229,16 +1227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="166" column="14" selection-start-line="166" selection-start-column="14" selection-end-line="166" selection-end-column="14" />
-          <folding>
-            <element signature="e#311#346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraph.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1249,10 +1237,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.css">
+    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraphModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="-2993">
+          <caret line="281" column="5" lean-forward="true" selection-start-line="281" selection-start-column="5" selection-end-line="281" selection-end-column="5" />
+          <folding>
+            <element signature="e#244#335#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1263,13 +1254,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraphModel.js">
+    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="274" column="56" lean-forward="true" selection-start-line="274" selection-start-column="56" selection-end-line="274" selection-end-column="56" />
+        <state relative-caret-position="368">
+          <caret line="218" column="61" lean-forward="true" selection-start-line="218" selection-start-column="61" selection-end-line="218" selection-end-column="61" />
           <folding>
-            <element signature="e#244#335#0" expanded="true" />
+            <element signature="e#311#346#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>

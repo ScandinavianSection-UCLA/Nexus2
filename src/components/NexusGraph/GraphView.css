@@ -55,3 +55,11 @@
 .highlighted-row {
     background-color: #dbe4f0 !important;
 }
+
+.legend-table-body {
+    cursor: auto;
+}
+
+.legend-table-body:hover {
+    cursor: pointer;
+}
