@@ -5,7 +5,7 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "create-react-class": "^15.6.3",
-    "d3": "^5.7.0",
+    "d3": "^5.9.2",
     "domain-browser": "^1.2.0",
     "epubjs": "^0.3.83",
     "foundation-sites": "^6.5.1",
