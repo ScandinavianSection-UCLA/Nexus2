@@ -29,6 +29,8 @@ class GraphView extends Component {
             "showPrimaryLinks": true,
             // by default show secondary links
             "showSecondaryLinks": true,
+            // by default show link labels
+            "showLinkLabels": true,
             "highlighted": {
                 "People": false,
                 "Places": false,
@@ -48,6 +50,7 @@ class GraphView extends Component {
         // properly bind these functions so that they can set the state
         this.togglePrimaryLinks = this.togglePrimaryLinks.bind(this);
         this.toggleSecondaryLinks = this.toggleSecondaryLinks.bind(this);
+        this.toggleLinkLabels = this.toggleLinkLabels.bind(this);
     }
 
     componentWillUnmount() {
@@ -74,6 +77,16 @@ class GraphView extends Component {
         this.setState((prevState) => ({
             // invert whether or not to show secondary links
             "showSecondaryLinks": !prevState.showSecondaryLinks,
+        }));
+    }
+
+    /**
+     * Toggle whether or not to show the link labels on the graph
+     */
+    toggleLinkLabels() {
+        this.setState((prevState) => ({
+            // invert whether or not to show labels
+            "showLinkLabels": !prevState.showLinkLabels,
         }));
     }
 
@@ -166,7 +179,7 @@ class GraphView extends Component {
      */
     render() {
         // get the current data and whether or not to show primary + secondary links
-        let {data, showPrimaryLinks, showSecondaryLinks} = this.state;
+        let {data, showPrimaryLinks, showSecondaryLinks, showLinkLabels} = this.state;
         // get a copy of data BUT DO NOT MODIFY IT
         let finalData = {...data};
         // if we shouldn't show primary links
@@ -178,6 +191,20 @@ class GraphView extends Component {
         if (showSecondaryLinks === false) {
             // filter out links with a linkNode (i.e. secondary links)
             finalData.links = finalData.links.filter(link => link.linkNode === null);
+        }
+        // if we shouldn't show link labels
+        if (showLinkLabels === false) {
+            // remove labels from links
+            finalData.links = finalData.links.map((link) => {
+                link.label = "";
+                return link;
+            });
+        } else {
+            // show labels
+            finalData.links = finalData.links.map((link) => {
+                link.label = link.hiddenLabel;
+                return link;
+            });
         }
         return (
             // div to contain both the button and graph
@@ -207,6 +234,16 @@ class GraphView extends Component {
                             onChange={this.toggleSecondaryLinks} />
                         {/* give the text "Secondary" a light green color to indicate which links it matches to */}
                         Show <span className="lightgreen">Secondary</span> Links
+                    </label>
+                    <label className="cell tool">
+                        <input
+                            // make it a checkbox
+                            type="checkbox"
+                            // its state should be set by whether or not to show link labels
+                            checked={this.state.showLinkLabels}
+                            // when this is changed (i.e. pressed) call the toggleLinkLabels function
+                            onChange={this.toggleLinkLabels} />
+                        Show Link Labels
                     </label>
 
                     <table className="legend hover unstriped cell">

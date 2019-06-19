@@ -6,7 +6,6 @@ import {arrayTransformation} from "../../utils";
 import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
 import {getPeopleByID} from "../../data-stores/DisplayArtifactModel";
 import {getPlacesByID} from "../../data-stores/DisplayArtifactModel";
-import {getStoryByID} from "../../data-stores/DisplayArtifactModel";
 
 // colors of the nodes on the graph
 export const nodeColors = {
@@ -293,12 +292,11 @@ function makePrimaryLabel(sourceID, sourceType, target) {
 
 /**
  * Create label for secondary link between nodes
- * @param {String} source The id of the source node
- * @param {String} target The id of the target node
+ * @param {String} linkName the name of the link node
  * @returns {String} A string describing the connection between two nodes
  */
-function makeSecondaryLabel(source, target) {
-    return "";
+function makeSecondaryLabel(linkName) {
+    return "connected by " + linkName;
 }
 
 /**
@@ -340,6 +338,7 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                         "color": linkColors.primary,
                         // describe connection between nodes
                         "label": makePrimaryLabel(itemID, type, targetNode),
+                        "hiddenLabel": makePrimaryLabel(itemID, type, targetNode),
                     };
                 })
         );
@@ -410,7 +409,8 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                                     // set its color to secondary link color
                                     "color": linkColors.secondary,
                                     // describe connection between nodes
-                                    "label": makeSecondaryLabel(id, matchID),
+                                    "label": makeSecondaryLabel(name),
+                                    "hiddenLabel": makeSecondaryLabel(name),
                                 });
                             }
                         });
