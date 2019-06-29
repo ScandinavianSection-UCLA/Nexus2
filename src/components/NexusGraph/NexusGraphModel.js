@@ -276,7 +276,7 @@ function makePrimaryLabel(sourceID, sourceType, target) {
         let place = getPlacesByID(sourceID);
         if (targetType === "People") {
             let targetPerson = place.people.find(person => person.person.person_id === target.itemID);
-            return targetPerson.person.relationship;
+            return targetPerson.person.relationship.replace(",", " &");
         }
         if (targetType === "Stories") {
             if (place.storiesMentioned.find(story => story.story_id === target.itemID) !== undefined) {

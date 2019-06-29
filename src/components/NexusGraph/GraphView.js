@@ -175,20 +175,54 @@ class GraphView extends Component {
 
     /**
      * Creates a csv file with source and target nodes
+     * @Param {Array} nodeData
      */
-    createGraphDataCsv() {
-        let csvData = [["Source", "Target"]];
+    createEdgeList(nodeData) {
+        let csvData = [["Source_ID", "Target_ID", "Label"]];
+        let sourceID = -1;
+        let targetID = -1;
         this.state.data.links.forEach((link) => {
-            csvData.push([link.source, link.target]);
+            nodeData.forEach((row) => {
+                if (row[1] === link.source) {
+                    sourceID = row[0];
+                }
+                if (row[1] === link.target) {
+                    targetID = row[0];
+                }
+            });
+            csvData.push([sourceID, targetID, link.label]);
+        });
+        console.log(csvData);
+        let csvContent = "data:text/csv;charset=utf-8,"
+            + csvData.map(e => e.join(",")).join("\n");
+        let encodedUri = encodeURI(csvContent);
+        console.log(encodedUri);
+        let link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "folklore_graph_edges.csv");
+        document.body.appendChild(link);
+        link.click();
+    }
+
+    /**
+     * Creates a csv file with list of nodes from nexus graph
+     */
+    createNodeList() {
+        let csvData = [["Node_ID", "Node_Label", "Node_Type"]];
+        let id = 0;
+        this.state.data.nodes.forEach((node) => {
+            csvData.push([id, node.id, node.type]);
+            id += 1;
         });
         let csvContent = "data:text/csv;charset=utf-8,"
             + csvData.map(e => e.join(",")).join("\n");
         let encodedUri = encodeURI(csvContent);
         let link = document.createElement("a");
         link.setAttribute("href", encodedUri);
-        link.setAttribute("download", "my_data.csv");
+        link.setAttribute("download", "folklore_graph_nodes.csv");
         document.body.appendChild(link);
         link.click();
+        this.createEdgeList.bind(this)(csvData);
     }
 
     /**
@@ -266,7 +300,7 @@ class GraphView extends Component {
                     <div className="download-wrapper">
                         <button className="tool download" onClick={(e) => {
                             e.preventDefault();
-                            this.createGraphDataCsv.bind(this)()}}>
+                            this.createNodeList.bind(this)()}}>
                             Download graph
                         </button>
                     </div>
