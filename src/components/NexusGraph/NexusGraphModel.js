@@ -42,6 +42,13 @@ const primaryLinkNames = {
     },
 };
 
+// labels for secondary links with only one possible relationship
+const secondaryLinkNames = {
+    "Places-Places-Fieldtrips": "also visited during ",
+    "Stories-Stories-People": "also told by ",
+    "Stories-Stories-Fieldtrips": "also told during ",
+};
+
 /**
  * Get the common elements of two arrays
  * @param {Array} array1 An array to check for common elements with
@@ -292,11 +299,19 @@ function makePrimaryLabel(sourceID, sourceType, target) {
 
 /**
  * Create label for secondary link between nodes
- * @param {String} linkName the name of the link node
+ * @param {String} linkName The name of the link node
+ * @param {String} linkType The node type of the link node
+ * @param {String} sourceType The node type of the source node
+ * @param {String} targetType The node type of the target node
  * @returns {String} A string describing the connection between two nodes
  */
-function makeSecondaryLabel(linkName) {
-    return "connected by " + linkName;
+function makeSecondaryLabel(linkName, linkType, sourceType, targetType) {
+    let types = sourceType + "-" + targetType + "-" + linkType;
+    if (secondaryLinkNames.hasOwnProperty(types)) {
+        return secondaryLinkNames[types] + linkName;
+    } else {
+        return "related by " + linkName;
+    }
 }
 
 /**
@@ -311,6 +326,7 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
     // get primary associates for the node
     const primaryAssociates = getPrimaryAssociates(itemID, type);
     // get the nodes already on the graph
+    // TODO: ask Tango about priority of types
     const pastNodes = {
         "Fieldtrips": nodesToIDArray(nodeCategories, "Fieldtrips"),
         "People": nodesToIDArray(nodeCategories, "People"),
@@ -338,6 +354,7 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                         "color": linkColors.primary,
                         // describe connection between nodes
                         "label": makePrimaryLabel(itemID, type, targetNode),
+                        // copy of label
                         "hiddenLabel": makePrimaryLabel(itemID, type, targetNode),
                     };
                 })
@@ -375,11 +392,11 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                 // get any potential secondary associates
                 const secondaryAssociates = getPrimaryAssociates(linkID, nodeType);
                 // for fieldtrips, people, places, stories
-                for (let nodeType in pastNodes) {
+                for (let prevNodeType in pastNodes) {
                     // if any secondary associated nodes that are already on the graph
-                    commonElements(secondaryAssociates[nodeType], pastNodes[nodeType])
+                    commonElements(secondaryAssociates[prevNodeType], pastNodes[prevNodeType])
                         // convert each of the numeric IDs to the node's name
-                        .map(matchID => nodeCategories[nodeType].find(node => node.itemID === matchID).id)
+                        .map(matchID => nodeCategories[prevNodeType].find(node => node.itemID === matchID).id)
                         // filter out links that point right back to the current node
                         .filter(matchID => matchID !== id)
                         // and, for each of the remaining secondarily associated nodes' links
@@ -409,8 +426,9 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                                     // set its color to secondary link color
                                     "color": linkColors.secondary,
                                     // describe connection between nodes
-                                    "label": makeSecondaryLabel(name),
-                                    "hiddenLabel": makeSecondaryLabel(name),
+                                    "label": makeSecondaryLabel(name, nodeType, type, prevNodeType),
+                                    // copy of label
+                                    "hiddenLabel": makeSecondaryLabel(name, nodeType, type, prevNodeType),
                                 });
                             }
                         });

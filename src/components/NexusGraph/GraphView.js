@@ -174,6 +174,24 @@ class GraphView extends Component {
     }
 
     /**
+     * Creates a csv file with source and target nodes
+     */
+    createGraphDataCsv() {
+        let csvData = [["Source", "Target"]];
+        this.state.data.links.forEach((link) => {
+            csvData.push([link.source, link.target]);
+        });
+        let csvContent = "data:text/csv;charset=utf-8,"
+            + csvData.map(e => e.join(",")).join("\n");
+        let encodedUri = encodeURI(csvContent);
+        let link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "my_data.csv");
+        document.body.appendChild(link);
+        link.click();
+    }
+
+    /**
      * Creates the graph and associated button, located at the top right of the home view
      * @returns {JSX} The resulting graph + button
      */
@@ -245,7 +263,13 @@ class GraphView extends Component {
                             onChange={this.toggleLinkLabels} />
                         Show Link Labels
                     </label>
-
+                    <div className="download-wrapper">
+                        <button className="tool download" onClick={(e) => {
+                            e.preventDefault();
+                            this.createGraphDataCsv.bind(this)()}}>
+                            Download graph
+                        </button>
+                    </div>
                     <table className="legend hover unstriped cell">
                         <thead>
                             <tr>
