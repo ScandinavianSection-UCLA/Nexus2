@@ -15,6 +15,8 @@ import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
 // actions to manipulate the tabs
 import * as tabViewerActions from "../../actions/tabViewerActions";
+import JSZip from "jszip";
+import FileSaver from 'file-saver';
 
 class GraphView extends Component {
     constructor(props) {
@@ -174,11 +176,18 @@ class GraphView extends Component {
     }
 
     /**
-     * Creates a csv file with source and target nodes
-     * @Param {Array} nodeData
+     * Creates and downloads 2 zipped csv files with node and edge data from nexus graph
      */
-    createEdgeList(nodeData) {
-        let csvData = [["Source_ID", "Target_ID", "Label"]];
+    createCSVFiles() {
+        let nodeData = [["Node_ID", "Node_Label", "Node_Type"]];
+        let id = 0;
+        this.state.data.nodes.forEach((node) => {
+            nodeData.push([id, node.id, node.type]);
+            id += 1;
+        });
+        let csvNodeContent = nodeData.map(e => e.join(",")).join("\n");
+
+        let edgeData = [["Source_ID", "Target_ID", "Label"]];
         let sourceID = -1;
         let targetID = -1;
         this.state.data.links.forEach((link) => {
@@ -190,39 +199,16 @@ class GraphView extends Component {
                     targetID = row[0];
                 }
             });
-            csvData.push([sourceID, targetID, link.label]);
+            edgeData.push([sourceID, targetID, link.label]);
         });
-        console.log(csvData);
-        let csvContent = "data:text/csv;charset=utf-8,"
-            + csvData.map(e => e.join(",")).join("\n");
-        let encodedUri = encodeURI(csvContent);
-        console.log(encodedUri);
-        let link = document.createElement("a");
-        link.setAttribute("href", encodedUri);
-        link.setAttribute("download", "folklore_graph_edges.csv");
-        document.body.appendChild(link);
-        link.click();
-    }
+        let csvEdgeContent = edgeData.map(e => e.join(",")).join("\n");
 
-    /**
-     * Creates a csv file with list of nodes from nexus graph
-     */
-    createNodeList() {
-        let csvData = [["Node_ID", "Node_Label", "Node_Type"]];
-        let id = 0;
-        this.state.data.nodes.forEach((node) => {
-            csvData.push([id, node.id, node.type]);
-            id += 1;
+        let zip = new JSZip();
+        zip.file("folklore_graph_nodes.csv", csvNodeContent);
+        zip.file("folklore_graph_edges.csv", csvEdgeContent);
+        zip.generateAsync({type: "blob"}).then(function(content) {
+            FileSaver.saveAs(content, "folklore_graph_data.zip");
         });
-        let csvContent = "data:text/csv;charset=utf-8,"
-            + csvData.map(e => e.join(",")).join("\n");
-        let encodedUri = encodeURI(csvContent);
-        let link = document.createElement("a");
-        link.setAttribute("href", encodedUri);
-        link.setAttribute("download", "folklore_graph_nodes.csv");
-        document.body.appendChild(link);
-        link.click();
-        this.createEdgeList.bind(this)(csvData);
     }
 
     /**
@@ -300,7 +286,7 @@ class GraphView extends Component {
                     <div className="download-wrapper">
                         <button className="tool download" onClick={(e) => {
                             e.preventDefault();
-                            this.createNodeList.bind(this)()}}>
+                            this.createCSVFiles.bind(this)()}}>
                             Download graph
                         </button>
                     </div>
