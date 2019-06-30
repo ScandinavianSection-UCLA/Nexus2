@@ -590,3 +590,8 @@ export function getManuscriptURI(story_id){
     console.warn("No images!");
     return [];
 }
+
+export function getPlaceByName(placeName) {
+    let placeObject = data.places.find(({name}) => placeName === name);
+    return getPlacesByID(placeObject && placeObject.place_id);
+}

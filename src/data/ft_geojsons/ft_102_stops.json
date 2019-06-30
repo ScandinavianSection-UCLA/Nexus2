@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"name": "ft_102_stops",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Hadsten", "Sequence": 1, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0541, 56.324100000869961 ] } },
+{ "type": "Feature", "properties": { "Name": "Viborg", "Sequence": 2, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 9.40549, 56.450800000868362 ] } },
+{ "type": "Feature", "properties": { "Name": "Gjedsted", "Sequence": 3, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 9.34014, 56.697400000865173 ] } },
+{ "type": "Feature", "properties": { "Name": "Foulum", "Sequence": 4, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 9.27024, 56.734700000864642 ] } },
+{ "type": "Feature", "properties": { "Name": "Strandby", "Sequence": 5, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 9.21999, 56.790000000863969 ] } },
+{ "type": "Feature", "properties": { "Name": "Hvalpsund", "Sequence": 6, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 9.20321, 56.700100000865135 ] } },
+{ "type": "Feature", "properties": { "Name": "Havbjærg", "Sequence": 7, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 9.11639, 56.707300000864997 ] } },
+{ "type": "Feature", "properties": { "Name": "Durup", "Sequence": 8, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 8.94705, 56.740300000864579 ] } },
+{ "type": "Feature", "properties": { "Name": "Mors", "Sequence": 9, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 8.73672, 56.812000000863655 ] } },
+{ "type": "Feature", "properties": { "Name": "Sundby", "Sequence": 10, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 8.58659, 56.888100000862657 ] } },
+{ "type": "Feature", "properties": { "Name": "Hundborg", "Sequence": 11, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 8.50629, 56.928800000862132 ] } },
+{ "type": "Feature", "properties": { "Name": "Humlum", "Sequence": 12, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 8.55095, 56.53930000086725 ] } },
+{ "type": "Feature", "properties": { "Name": "Lemvig", "Sequence": 13, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 8.30832, 56.558600000866974 ] } },
+{ "type": "Feature", "properties": { "Name": "Struer", "Sequence": 14, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 8.58665, 56.488100000867838 ] } },
+{ "type": "Feature", "properties": { "Name": "Skive", "Sequence": 15, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 9.03276, 56.569200000866843 ] } },
+{ "type": "Feature", "properties": { "Name": "Viborg", "Sequence": 16, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 9.40549, 56.450800000868362 ] } },
+{ "type": "Feature", "properties": { "Name": "Øster Bording", "Sequence": 17, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 9.48546, 56.191200000871639 ] } },
+{ "type": "Feature", "properties": { "Name": "Haarup", "Sequence": 18, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 9.64693, 56.151900000872175 ] } },
+{ "type": "Feature", "properties": { "Name": "Hadsten", "Sequence": 19, "FT": 102.0, "Absolute": 128.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0541, 56.324100000869961 ] } }
+]
+}

@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"name": "ft_101_stops",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Hadsten", "Sequence": 1, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0541, 56.324100000869961 ] } },
+{ "type": "Feature", "properties": { "Name": "Ulstrup", "Sequence": 2, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 9.79231, 56.39650000086904 ] } },
+{ "type": "Feature", "properties": { "Name": "Tindbæk", "Sequence": 3, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 9.74377, 56.463400000868184 ] } },
+{ "type": "Feature", "properties": { "Name": "Hulbæk", "Sequence": 4, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 9.65666, 56.471800000868065 ] } },
+{ "type": "Feature", "properties": { "Name": "Sønderbeg, Rejstrup", "Sequence": 5, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 9.84929, 56.514300000867522 ] } },
+{ "type": "Feature", "properties": { "Name": "Støvring", "Sequence": 6, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 9.84135, 56.887200000862663 ] } },
+{ "type": "Feature", "properties": { "Name": "Siem", "Sequence": 7, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0113, 56.8223000008635 ] } },
+{ "type": "Feature", "properties": { "Name": "Brønderslev", "Sequence": 8, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 9.9442, 57.272800000857465 ] } },
+{ "type": "Feature", "properties": { "Name": "Øster Brønderslev", "Sequence": 9, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 9.99782, 57.248100000857796 ] } },
+{ "type": "Feature", "properties": { "Name": "Jerslev", "Sequence": 10, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0923, 57.285000000857302 ] } },
+{ "type": "Feature", "properties": { "Name": "Tårs", "Sequence": 11, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 10.117, 57.386600000855857 ] } },
+{ "type": "Feature", "properties": { "Name": "Ugilt", "Sequence": 12, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 10.1369, 57.425200000855355 ] } },
+{ "type": "Feature", "properties": { "Name": "Ilbjærge", "Sequence": 13, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0744, 57.416200000855454 ] } },
+{ "type": "Feature", "properties": { "Name": "Lørslev", "Sequence": 14, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0853, 57.428400000855291 ] } },
+{ "type": "Feature", "properties": { "Name": "Sulsted", "Sequence": 15, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 9.96609, 57.154300000859038 ] } },
+{ "type": "Feature", "properties": { "Name": "Grindsted", "Sequence": 16, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0459, 57.147200000859151 ] } },
+{ "type": "Feature", "properties": { "Name": "Støvring", "Sequence": 17, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 9.84135, 56.887200000862663 ] } },
+{ "type": "Feature", "properties": { "Name": "Ravnkilde", "Sequence": 18, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 9.75634, 56.75640000086436 ] } },
+{ "type": "Feature", "properties": { "Name": "Hadsten", "Sequence": 19, "FT": 101.0, "Absolute": 127.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0541, 56.324100000869961 ] } }
+]
+}

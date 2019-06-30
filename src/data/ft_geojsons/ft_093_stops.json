@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "ft_093_stops",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Hadsten Station", "Sequence": 1, "FT": 93.0, "Absolute": 118.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0495, 56.326700000869963 ] } },
+{ "type": "Feature", "properties": { "Name": "Voldum", "Sequence": 2, "FT": 93.0, "Absolute": 118.0 }, "geometry": { "type": "Point", "coordinates": [ 10.1647, 56.366400000869419 ] } },
+{ "type": "Feature", "properties": { "Name": "Mejlby", "Sequence": 3, "FT": 93.0, "Absolute": 118.0 }, "geometry": { "type": "Point", "coordinates": [ 10.2134, 56.300700000870279 ] } },
+{ "type": "Feature", "properties": { "Name": "Todbjærg", "Sequence": 4, "FT": 93.0, "Absolute": 118.0 }, "geometry": { "type": "Point", "coordinates": [ 10.2066, 56.268900000870644 ] } },
+{ "type": "Feature", "properties": { "Name": "Egå", "Sequence": 5, "FT": 93.0, "Absolute": 118.0 }, "geometry": { "type": "Point", "coordinates": [ 10.2685, 56.216300000871335 ] } },
+{ "type": "Feature", "properties": { "Name": "Aarhus", "Sequence": 6, "FT": 93.0, "Absolute": 118.0 }, "geometry": { "type": "Point", "coordinates": [ 10.2072, 56.159000000872055 ] } },
+{ "type": "Feature", "properties": { "Name": "Testrup højskole", "Sequence": 7, "FT": 93.0, "Absolute": 118.0 }, "geometry": { "type": "Point", "coordinates": [ 10.1361, 56.07010000087319 ] } },
+{ "type": "Feature", "properties": { "Name": "Hadsten Station", "Sequence": 8, "FT": 93.0, "Absolute": 118.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0495, 56.326700000869963 ] } }
+]
+}

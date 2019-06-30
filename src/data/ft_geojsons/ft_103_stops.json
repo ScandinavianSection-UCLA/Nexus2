@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "ft_103_stops",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Hadsten", "Sequence": 1, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0541, 56.324100000869961 ] } },
+{ "type": "Feature", "properties": { "Name": "Taastrup, Herslev sogn", "Sequence": 2, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 9.98797, 56.128800000872445 ] } },
+{ "type": "Feature", "properties": { "Name": "Nørre Vissing", "Sequence": 3, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 9.84764, 56.124900000872508 ] } },
+{ "type": "Feature", "properties": { "Name": "Fuldbro mølle", "Sequence": 4, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 9.8344, 56.024500000873729 ] } },
+{ "type": "Feature", "properties": { "Name": "Lille Taaning", "Sequence": 5, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 9.84015, 56.013600000873879 ] } },
+{ "type": "Feature", "properties": { "Name": "Horsens", "Sequence": 6, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 9.86198, 55.858000000875805 ] } },
+{ "type": "Feature", "properties": { "Name": "Rask Mølle", "Sequence": 7, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 9.61122, 55.871000000875604 ] } },
+{ "type": "Feature", "properties": { "Name": "Hornum", "Sequence": 8, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 9.63461, 55.882700000875481 ] } },
+{ "type": "Feature", "properties": { "Name": "Vejle", "Sequence": 9, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 9.55216, 55.71170000087757 ] } },
+{ "type": "Feature", "properties": { "Name": "Gadbjærg", "Sequence": 10, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 9.31548, 55.763500000876967 ] } },
+{ "type": "Feature", "properties": { "Name": "Egsgaard mark", "Sequence": 11, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 9.07443, 55.809400000876373 ] } },
+{ "type": "Feature", "properties": { "Name": "Vejle", "Sequence": 12, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 9.55216, 55.71170000087757 ] } },
+{ "type": "Feature", "properties": { "Name": "Egtved", "Sequence": 13, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 9.30973, 55.615100000878705 ] } },
+{ "type": "Feature", "properties": { "Name": "Hadsten", "Sequence": 14, "FT": 103.0, "Absolute": 129.0 }, "geometry": { "type": "Point", "coordinates": [ 10.049759600000071, 56.326344973869965 ] } }
+]
+}

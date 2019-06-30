@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"name": "ft_091_stops",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Hadsten Station", "Sequence": 1, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0495, 56.326700000869963 ] } },
+{ "type": "Feature", "properties": { "Name": "Aarhus", "Sequence": 2, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.2072, 56.159000000872055 ] } },
+{ "type": "Feature", "properties": { "Name": "Lystrup", "Sequence": 3, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.2374, 56.229400000871173 ] } },
+{ "type": "Feature", "properties": { "Name": "Egå", "Sequence": 4, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.2685, 56.216300000871335 ] } },
+{ "type": "Feature", "properties": { "Name": "Hornslet", "Sequence": 5, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.3167, 56.312600000870098 ] } },
+{ "type": "Feature", "properties": { "Name": "Skjødstrup", "Sequence": 6, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.3033, 56.263500000870778 ] } },
+{ "type": "Feature", "properties": { "Name": "Hornslet", "Sequence": 7, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.3167, 56.312600000870098 ] } },
+{ "type": "Feature", "properties": { "Name": "Torsager", "Sequence": 8, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.4589, 56.343500000869739 ] } },
+{ "type": "Feature", "properties": { "Name": "Ebdrup", "Sequence": 9, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.5409, 56.340400000869764 ] } },
+{ "type": "Feature", "properties": { "Name": "Rostved", "Sequence": 10, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.5223, 56.308800000870185 ] } },
+{ "type": "Feature", "properties": { "Name": "Attrup, Koed sogn", "Sequence": 11, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.557, 56.388100000869159 ] } },
+{ "type": "Feature", "properties": { "Name": "Trustrup", "Sequence": 12, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.7713, 56.349000000869658 ] } },
+{ "type": "Feature", "properties": { "Name": "Lyngby", "Sequence": 13, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.7446, 56.366500000869422 ] } },
+{ "type": "Feature", "properties": { "Name": "Homaa", "Sequence": 14, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.8083, 56.363000000869476 ] } },
+{ "type": "Feature", "properties": { "Name": "Aalsø", "Sequence": 15, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.8522, 56.372100000869359 ] } },
+{ "type": "Feature", "properties": { "Name": "Grenaa", "Sequence": 16, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.8912, 56.405900000868911 ] } },
+{ "type": "Feature", "properties": { "Name": "Randers", "Sequence": 17, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0497, 56.460500000868258 ] } },
+{ "type": "Feature", "properties": { "Name": "Hadsten Station", "Sequence": 18, "FT": 91.0, "Absolute": 115.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0495, 56.326700000869963 ] } }
+]
+}

@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"name": "ft_071_stops",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Hadsten", "Sequence": 1, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0541, 56.324100000869961 ] } },
+{ "type": "Feature", "properties": { "Name": "Stevnstrup", "Sequence": 2, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.94096, 56.432700000868593 ] } },
+{ "type": "Feature", "properties": { "Name": "Nedre Hornbæk", "Sequence": 3, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.97637, 56.467500000868121 ] } },
+{ "type": "Feature", "properties": { "Name": "Randers", "Sequence": 4, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0497, 56.460500000868258 ] } },
+{ "type": "Feature", "properties": { "Name": "Bjærggrav", "Sequence": 5, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.89689, 56.490400000867865 ] } },
+{ "type": "Feature", "properties": { "Name": "Rejstrup", "Sequence": 6, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.85065, 56.516100000867532 ] } },
+{ "type": "Feature", "properties": { "Name": "Faarup station", "Sequence": 7, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.86459, 56.543400000867187 ] } },
+{ "type": "Feature", "properties": { "Name": "Skjørping station", "Sequence": 8, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.88977, 56.83900000086328 ] } },
+{ "type": "Feature", "properties": { "Name": "Støvring", "Sequence": 9, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.84135, 56.887200000862663 ] } },
+{ "type": "Feature", "properties": { "Name": "Gravlev", "Sequence": 10, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.81335, 56.846400000863213 ] } },
+{ "type": "Feature", "properties": { "Name": "Aarestrup", "Sequence": 11, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.74733, 56.821700000863537 ] } },
+{ "type": "Feature", "properties": { "Name": "Sønderup", "Sequence": 12, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.65124, 56.815900000863593 ] } },
+{ "type": "Feature", "properties": { "Name": "Haverslev", "Sequence": 13, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.67464, 56.784600000864017 ] } },
+{ "type": "Feature", "properties": { "Name": "Ravnkilde", "Sequence": 14, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.75634, 56.75640000086436 ] } },
+{ "type": "Feature", "properties": { "Name": "Arden Station", "Sequence": 15, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.86226, 56.770300000864218 ] } },
+{ "type": "Feature", "properties": { "Name": "Hobro", "Sequence": 16, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.78429, 56.632300000865996 ] } },
+{ "type": "Feature", "properties": { "Name": "Stenild", "Sequence": 17, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.67332, 56.674300000865479 ] } },
+{ "type": "Feature", "properties": { "Name": "Hobro", "Sequence": 18, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 9.78429, 56.632300000865996 ] } },
+{ "type": "Feature", "properties": { "Name": "Hadsten", "Sequence": 19, "FT": 71.0, "Absolute": 83.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0541, 56.324100000869961 ] } }
+]
+}

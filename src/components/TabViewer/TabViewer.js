@@ -10,7 +10,6 @@ import FieldtripView from "../FieldtripView/FieldtripView";
 import BookView from "../BookView/BookView";
 import GraphView from "../NexusGraph/GraphView";
 import FieldtripTool from "../FieldtripTool/FieldtripTool";
-import FieldtripRouteViewer from "../FieldtripRouteViewer/FieldtripRouteViewer.js";
 // functions to get info about PPFS
 import * as model from "../../data-stores/DisplayArtifactModel";
 // CSS styling
@@ -77,8 +76,6 @@ class TabViewer extends Component {
                 return <HelpView key={tabIndex} viewIndex={tabIndex} />
             case "FieldtripTool":
                 return <FieldtripTool key={tabIndex} fieldtrip={id} viewIndex={tabIndex} />;
-            case "FieldtripRouteViewer":
-                return <FieldtripRouteViewer />
             default:
                 // if it wasn't one of the above types, warn that we hit an unknown type
                 console.warn(`Unhandled tab type: ${type}`);
