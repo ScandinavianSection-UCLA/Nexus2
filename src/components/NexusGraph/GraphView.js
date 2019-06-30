@@ -249,7 +249,7 @@ class GraphView extends Component {
             <div className="grid-x NexusGraph">
                 {/* contains the filters */}
                 <form className="medium-3 cell grid-y" id="analysisTools">
-                    <h3 className="cell" id="heading">Analysis Tools</h3>
+                    <h3 className="cell" id="heading">Display Options</h3>
                     {/* toggle primary links filter */}
                     <label className="cell tool">
                         <input
@@ -283,13 +283,7 @@ class GraphView extends Component {
                             onChange={this.toggleLinkLabels} />
                         Show Link Labels
                     </label>
-                    <div className="download-wrapper">
-                        <button className="tool download" onClick={(e) => {
-                            e.preventDefault();
-                            this.createCSVFiles.bind(this)()}}>
-                            Download graph
-                        </button>
-                    </div>
+
                     <table className="legend hover unstriped cell">
                         <thead>
                             <tr>
@@ -324,6 +318,14 @@ class GraphView extends Component {
                             </tr>
                         </tbody>
                     </table>
+
+                    <div className="download-wrapper">
+                        <button className="tool download button secondary" onClick={(e) => {
+                            e.preventDefault();
+                            this.createCSVFiles.bind(this)()}}>
+                            Download graph
+                        </button>
+                    </div>
 
                 </form>
                 {/* the actual graph */}
