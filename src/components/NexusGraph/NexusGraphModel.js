@@ -4,6 +4,8 @@ import * as model from "../../data-stores/DisplayArtifactModel";
 import {arrayTransformation} from "../../utils";
 // functions to get and set sesion storage
 import {getSessionStorage, setSessionStorage} from "../../data-stores/SessionStorageModel";
+import {getPeopleByID} from "../../data-stores/DisplayArtifactModel";
+import {getPlacesByID} from "../../data-stores/DisplayArtifactModel";
 
 // colors of the nodes on the graph
 export const nodeColors = {
@@ -18,6 +20,33 @@ export const nodeColors = {
 const linkColors = {
     "primary": "lightblue",
     "secondary": "lightgreen",
+};
+
+// labels for primary links with only one possible relationship
+const primaryLinkNames = {
+    "People": {
+        "Fieldtrips": "met during",
+        "Stories": "told",
+    },
+    "Fieldtrips": {
+        "People": "met",
+        "Places": "visited",
+        "Stories": "told",
+    },
+    "Stories": {
+        "People": "told by",
+        "Fieldtrips": "told during",
+    },
+    "Places": {
+        "Fieldtrips": "visited during",
+    },
+};
+
+// labels for secondary links with only one possible relationship
+const secondaryLinkNames = {
+    "Places-Places-Fieldtrips": "also visited during ",
+    "Stories-Stories-People": "also told by ",
+    "Stories-Stories-Fieldtrips": "also told during ",
 };
 
 /**
@@ -219,6 +248,73 @@ export function getNodeById(name, nodeCategories) {
 }
 
 /**
+ * Create label for primary link between nodes
+ * @param {Number} sourceID The id of the source node
+ * @param {String} sourceType The node type of the source
+ * @param {Object} target The target node
+ * @returns {String} A string describing the connection between two nodes
+ */
+function makePrimaryLabel(sourceID, sourceType, target) {
+    let targetType = target.type;
+    if (sourceType === "People" && targetType === "Places") {
+        let source = getPeopleByID(sourceID);
+        let targetPlace = source.places.find(place => place.place_id === target.itemID);
+        switch (targetPlace.type) {
+            case "birth_place":
+                return "born";
+            case "death_place":
+                return "died";
+            case "story_place":
+                return "stories recorded at";
+            case "place_mentioned":
+                return "mentions";
+            default:
+                return "";
+        }
+    }
+    if (sourceType === "Places") {
+        let place = getPlacesByID(sourceID);
+        if (targetType === "People") {
+            let targetPerson = place.people.find(person => person.person.person_id === target.itemID);
+            return targetPerson.person.relationship;
+        }
+        if (targetType === "Stories") {
+            if (place.storiesMentioned.find(story => story.story_id === target.itemID) !== undefined) {
+                return "mentioned in";
+            } else {
+                return "collected";
+            }
+        }
+    }
+    if (sourceType === "Stories" && targetType === "Places") {
+        let targetPlace = getPlacesByID(target.itemID);
+        if (targetPlace.storiesMentioned.find(story => story.story_id === sourceID) !== undefined) {
+            return "mentions";
+        } else {
+            return "collected";
+        }
+    }
+    return primaryLinkNames[sourceType][targetType];
+}
+
+/**
+ * Create label for secondary link between nodes
+ * @param {String} linkName The name of the link node
+ * @param {String} linkType The node type of the link node
+ * @param {String} sourceType The node type of the source node
+ * @param {String} targetType The node type of the target node
+ * @returns {String} A string describing the connection between two nodes
+ */
+function makeSecondaryLabel(linkName, linkType, sourceType, targetType) {
+    let types = sourceType + "-" + targetType + "-" + linkType;
+    if (secondaryLinkNames.hasOwnProperty(types)) {
+        return secondaryLinkNames[types] + linkName;
+    } else {
+        return "related by " + linkName;
+    }
+}
+
+/**
  * Create linkages for a node
  * @param {Node} node The node to create linkages for
  * @param {Array} nodeCategories An array of nodes to use to find linkages
@@ -230,6 +326,7 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
     // get primary associates for the node
     const primaryAssociates = getPrimaryAssociates(itemID, type);
     // get the nodes already on the graph
+    // TODO: ask Tango about priority of types
     const pastNodes = {
         "Fieldtrips": nodesToIDArray(nodeCategories, "Fieldtrips"),
         "People": nodesToIDArray(nodeCategories, "People"),
@@ -245,15 +342,20 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                 // for all the matches, use their numeric ID
                 .map(function(matchID) {
                     // create a link
+                    let targetNode = nodeCategories[nodeType].find(node => node.itemID === matchID);
                     return {
                         // from the current node
                         "source": id,
                         // to the node specified by matchID
-                        "target": nodeCategories[nodeType].find(node => node.itemID === matchID).id,
+                        "target": targetNode.id,
                         // no intermediate node connecting the two
                         "linkNode": null,
                         // set its color to primary link color
                         "color": linkColors.primary,
+                        // describe connection between nodes
+                        "label": makePrimaryLabel(itemID, type, targetNode),
+                        // copy of label
+                        "hiddenLabel": makePrimaryLabel(itemID, type, targetNode),
                     };
                 })
         );
@@ -290,11 +392,11 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                 // get any potential secondary associates
                 const secondaryAssociates = getPrimaryAssociates(linkID, nodeType);
                 // for fieldtrips, people, places, stories
-                for (let nodeType in pastNodes) {
+                for (let prevNodeType in pastNodes) {
                     // if any secondary associated nodes that are already on the graph
-                    commonElements(secondaryAssociates[nodeType], pastNodes[nodeType])
+                    commonElements(secondaryAssociates[prevNodeType], pastNodes[prevNodeType])
                         // convert each of the numeric IDs to the node's name
-                        .map(matchID => nodeCategories[nodeType].find(node => node.itemID === matchID).id)
+                        .map(matchID => nodeCategories[prevNodeType].find(node => node.itemID === matchID).id)
                         // filter out links that point right back to the current node
                         .filter(matchID => matchID !== id)
                         // and, for each of the remaining secondarily associated nodes' links
@@ -323,6 +425,10 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
                                     "linkNode": name,
                                     // set its color to secondary link color
                                     "color": linkColors.secondary,
+                                    // describe connection between nodes
+                                    "label": makeSecondaryLabel(name, nodeType, type, prevNodeType),
+                                    // copy of label
+                                    "hiddenLabel": makeSecondaryLabel(name, nodeType, type, prevNodeType),
                                 });
                             }
                         });

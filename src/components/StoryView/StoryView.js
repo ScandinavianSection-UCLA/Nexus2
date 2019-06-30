@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Modal from "react-modal";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import RightBar from "../RightBar/RightBar";
-import {getPeopleByID} from "../../data-stores/DisplayArtifactModel";
+import {getPeopleByID, getGenreByID, getETKByID, getTangoByID} from "../../data-stores/DisplayArtifactModel";
 import {arrayTransformation} from "../../utils";
 import {addNode} from "../NexusGraph/NexusGraphModel";
 import "./StoryView.css";
@@ -12,6 +12,7 @@ import {bindActionCreators} from "redux";
 import * as searchActions from "../../actions/searchActions";
 import * as tabViewerActions from "../../actions/tabViewerActions";
 import connect from "react-redux/es/connect/connect";
+import {setSessionStorage} from "../../data-stores/SessionStorageModel";
 
 const indexToVersion = {
     "0": "english_manuscript",
@@ -205,6 +206,7 @@ class StoryView extends Component {
         const {story} = this.props,
             {
                 annotation,
+                etk_index,
                 "etk_index": {
                     heading_english,
                 },
@@ -332,15 +334,49 @@ class StoryView extends Component {
                                 {/* only show indices if that is the open accordion tab */}
                                 {openTab === 1 &&
                                     <div className="body">
-                                        <b>Genre</b> <button className="button keyword-well">{genre.name}</button><br />
-                                        <b>ETK Index</b> <button className="button keyword-well">{heading_english}</button><br />
+                                        <b>Genre</b>
+                                        <button
+                                            className="button keyword-well"
+                                            onClick={() => {
+                                                setSessionStorage("SelectedNavOntology", {
+                                                    "data": "Genres",
+                                                });
+                                                setSessionStorage("dropdownLists", [getGenreByID(genre.id)]);
+                                                this.props.actions.switchTabs(0);
+                                            }}>
+                                            {genre.name}
+                                        </button>
+                                        <br />
+                                        <b>ETK Index</b>
+                                        <button
+                                            className="button keyword-well"
+                                            onClick={() => {
+                                                setSessionStorage("SelectedNavOntology", {
+                                                    "data": "ETK Index",
+                                                });
+                                                setSessionStorage("dropdownLists", [getETKByID(etk_index.id)]);
+                                                console.log(etk_index, getETKByID(etk_index.id));
+                                                this.props.actions.switchTabs(0);
+                                            }}>
+                                            {heading_english}
+                                        </button>
+                                        <br />
                                         <b>Tangherlini Indices</b><br />
                                         {/* render the indices by their display names */}
-                                        {arrayTransformation(tango_indices.tango_index).map(({display_name}, i) => (
-                                            <div className="button keyword-well" key={i}>
-                                                {display_name}
-                                            </div>
-                                        ))}
+                                        {arrayTransformation(tango_indices.tango_index).map((tango, i) => {
+                                            return (
+                                                <button className="button keyword-well" key={i}
+                                                    onClick={() => {
+                                                        setSessionStorage("SelectedNavOntology", {
+                                                            "data": "Tangherlini Index",
+                                                        });
+                                                        setSessionStorage("dropdownLists", [getTangoByID(tango.id).type, getTangoByID(tango.id)]);
+                                                        this.props.actions.switchTabs(0);
+                                                    }}>
+                                                    {tango.display_name}
+                                                </button>
+                                            );
+                                        })}
                                     </div>}
                             </li>
                             <li className={`accordion-item ${openTab === 2 && "is-active"}`}>

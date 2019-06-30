@@ -18,6 +18,8 @@ const settings = {
     "nodeHighlightBehavior": true,
     // enable pan and zoom effects
     "panAndZoom": true,
+    // add direction to links
+    "directed": true,
     // settings for the nodes
     "node": {
         // this color only applies to the initial "blank" node, other nodes get custom colors by their type
@@ -31,6 +33,10 @@ const settings = {
     "link": {
         // link color when one of its endpoints is highlighted
         "highlightColor": "blue",
+        // display label for each link
+        "labelProperty": "label",
+        "renderLabel": true,
+        "fontSize": 12,
     },
 };
 
@@ -67,7 +73,6 @@ class NexusGraph extends Component {
     }
 
     render() {
-        console.log(this.props.data)
         return (
             <Graph
                 // id is mandatory, if no id is defined rd3g will throw an error
@@ -94,6 +99,7 @@ NexusGraph.propTypes = {
         "target": PropTypes.string.isRequired,
         "linkNode": PropTypes.any,
         "color": PropTypes.string,
+        "label": PropTypes.string,
     })),
     "nodes": PropTypes.object.isRequired,
     "data": PropTypes.object.isRequired,

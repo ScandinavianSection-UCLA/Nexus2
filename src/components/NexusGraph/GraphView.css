@@ -55,3 +55,30 @@
 .highlighted-row {
     background-color: #dbe4f0 !important;
 }
+
+.legend-table-body {
+    cursor: auto;
+}
+
+.legend-table-body:hover {
+    cursor: pointer;
+}
+
+.download {
+    background-color: #e3e3e3;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 5px;
+    width: auto;
+}
+
+.download:hover {
+    cursor: pointer;
+    background-color: #14679e;
+    color: white;
+}
+
+.download-wrapper {
+    display: inline-flex;
+}
+
