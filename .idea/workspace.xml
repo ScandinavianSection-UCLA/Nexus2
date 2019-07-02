@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="Improved graph data csv files for use in cytoscape">
+    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="new build with @Neil's updates!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NexusGraph/GraphView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NexusGraph/GraphView.js" afterDir="false" />
     </list>
     <list id="4860e851-d29b-486f-9cb0-ecd95ba13bec" name="added low boards, high boards, prussian WMS tiles" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,42 +15,7 @@
     <favorites_list name="Nexus2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/GraphView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="208" column="64" selection-start-line="208" selection-start-column="64" selection-end-line="208" selection-end-column="64" />
-              <folding>
-                <element signature="e#311#346#0" expanded="true" />
-                <element signature="e#619#686#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/NexusGraph/NexusGraphModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2189">
-              <caret line="299" column="3" selection-start-line="299" selection-start-column="3" selection-end-line="299" selection-end-column="3" />
-              <folding>
-                <element signature="e#244#335#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/TabViewer/model.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/reducers/rootReducer.js" />
         <option value="$PROJECT_DIR$/src/actions/searchActions.js" />
@@ -169,6 +130,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/NexusGraph/NexusGraphModel.js" />
         <option value="$PROJECT_DIR$/src/components/NexusGraph/GraphView.js" />
+        <option value="$USER_HOME$/PycharmProjects/nexus/reduce_image_file.py" />
       </list>
     </option>
   </component>
@@ -178,11 +140,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
-    <option name="y" value="133" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="46" />
+    <option name="y" value="23" />
+    <option name="width" value="1312" />
+    <option name="height" value="787" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -224,6 +186,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="RightBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nexus2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nexus2" type="b2602c69:ProjectViewProjectNode" />
@@ -277,6 +245,29 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="reduce_image_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Nexus2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/nexus/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/nexus" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/nexus/reduce_image_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -370,6 +361,9 @@
       <workItem from="1559508837140" duration="1776000" />
       <workItem from="1559512972706" duration="631000" />
       <workItem from="1561834574856" duration="9061000" />
+      <workItem from="1561854467342" duration="168000" />
+      <workItem from="1562039574094" duration="225000" />
+      <workItem from="1562091995632" duration="105000" />
     </task>
     <task id="LOCAL-00002" summary="added danish web server tiles using TileLayer.WMS in leaflet">
       <created>1528171844527</created>
@@ -718,7 +712,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359969000" />
+    <option name="totallyTimeSpent" value="360503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -730,26 +724,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1312" height="787" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6393211" visible="true" weight="0.22903453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6393211" visible="true" weight="0.25174284" />
       <window_info id="Structure" order="1" sideWeight="0.35904628" side_tool="true" weight="0.24065298" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.50342935" side_tool="true" weight="0.24065298" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49868593" weight="0.32509753" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49868593" weight="0.32356688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39854318" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49934298" weight="0.32834226" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49934298" weight="0.32738853" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4721635" visible="true" weight="0.27261147" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4721635" weight="0.27261147" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4947146" weight="0.21019109" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50528544" side_tool="true" weight="0.21019109" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -837,7 +831,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="new build" />
     <MESSAGE value="new build with map updates" />
     <MESSAGE value="trying to see if this work" />
@@ -870,23 +863,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="103" selection-start-line="27" selection-start-column="103" selection-end-line="27" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FieldtripTool/FieldtripTool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/BookView/BookView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -1050,13 +1026,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/converted xml files/stories.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/cmanuscript_images.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret column="138692" selection-start-column="138692" selection-end-column="138692" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/converted xml files/manuscript_images.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1235,6 +1204,23 @@
             <element signature="e#311#346#0" expanded="true" />
             <element signature="e#619#686#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/nexus/reduce_image_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/nexus/manuscript_images.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/cmanuscript_images.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret column="300" selection-start-column="300" selection-end-column="300" />
         </state>
       </provider>
     </entry>
