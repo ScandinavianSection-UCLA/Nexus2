@@ -171,8 +171,6 @@ class GraphView extends Component {
         } else {
             return "circle lightgrey";
         }
-
-
     }
 
     /**
