@@ -60,6 +60,7 @@ class NexusGraph extends Component {
             let node = getNodeById(nodeName, this.props.nodes);
             // assuming we properly retrieved the node
             if (node !== null) {
+
                 // open up its tab
                 this.props.tabViewerActions.addTab(node.itemID, nodeName, node.type);
             }
