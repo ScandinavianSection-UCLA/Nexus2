@@ -52,6 +52,7 @@ class NexusGraph extends Component {
 
     // called whenever a node is clicked
     handleClickNode(nodeName) {
+        console.log(this.refs.graphView);
         // condition to treat it as a double click, if last click was within 1 second
         if (Date.now() - this.lastNodeClickTime < 1000 &&
             // and the same node was clicked both times,
@@ -60,9 +61,9 @@ class NexusGraph extends Component {
             let node = getNodeById(nodeName, this.props.nodes);
             // assuming we properly retrieved the node
             if (node !== null) {
-
                 // open up its tab
-                this.props.tabViewerActions.addTab(node.itemID, nodeName, node.type);
+                // this.props.tabViewerActions.addTab(node.itemID, nodeName, node.type);
+                this.props.getLastClickedNode(node);
             }
         } else {
             // too long between clicks/different node clicked, it should be a single click
@@ -76,6 +77,7 @@ class NexusGraph extends Component {
     render() {
         return (
             <Graph
+                ref={"graphView"}
                 // id is mandatory, if no id is defined rd3g will throw an error
                 id="graph-id"
                 // nodes + links to draw

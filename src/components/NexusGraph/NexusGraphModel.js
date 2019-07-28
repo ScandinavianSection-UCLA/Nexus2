@@ -326,7 +326,6 @@ export function createLinkage({id, itemID, type}, nodeCategories) {
     // get primary associates for the node
     const primaryAssociates = getPrimaryAssociates(itemID, type);
     // get the nodes already on the graph
-    // TODO: ask Tango about priority of types
     const pastNodes = {
         "Fieldtrips": nodesToIDArray(nodeCategories, "Fieldtrips"),
         "People": nodesToIDArray(nodeCategories, "People"),

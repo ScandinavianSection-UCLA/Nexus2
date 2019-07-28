@@ -3,7 +3,7 @@ import React, {Component} from "react";
 // styling for the buttons
 import "./GraphView.css";
 // functions to get nodes + links
-import {initializeGraph, initializeNodeCategories} from "./NexusGraphModel";
+import {getNodeById, initializeGraph, initializeNodeCategories} from "./NexusGraphModel";
 // the actual graph
 import NexusGraph from "./NexusGraph";
 // prop validation
@@ -45,6 +45,8 @@ class GraphView extends Component {
                 "Stories": false,
                 "Fieldtrips": false,
             },
+            "lastClickedNode": null,
+            "showMenu": false,
             // update with any previous state stored in redux
             ...props.state.views[props.viewIndex].state,
         };
@@ -210,6 +212,72 @@ class GraphView extends Component {
     }
 
     /**
+     * Opens node in a new tab
+     */
+    openNodeTab() {
+        let node = this.state.lastClickedNode;
+        tabViewerActions.addTab(node.itemID, node.id, node.type);
+        // hide menu
+        this.setState((prevState)=>{
+            let NewState = prevState;
+            NewState.showMenu = false;
+            return NewState;
+        });
+    }
+
+    /**
+     * Removes last clicked node from the nexus graph
+     */
+    removeNode() {
+        let node = this.state.lastClickedNode;
+        let i = 0;
+        let index = -1;
+        this.state.data.nodes.forEach((testNode) => {
+            if (testNode.id === node.id) {
+                index = i;
+            }
+            i++;
+        });
+        this.setState((prevState)=>{
+            let NewState = prevState;
+            if (index > -1) {
+                NewState.data.nodes.splice(index, 1);
+            }
+            let linkMatches = [];
+            NewState.data.links.forEach((testLink) => {
+                if (testLink.source === node.id || testLink.target === node.id) {
+                    linkMatches.push(testLink);
+                }
+            });
+            let len = linkMatches.length;
+            if (len > 0) {
+                let li = 0;
+                while (li < len) {
+                    let linkIndex = NewState.data.links.indexOf(linkMatches[li]);
+                    console.log(linkIndex);
+                    NewState.data.links.splice(linkIndex, 1);
+                    li++;
+                }
+            }
+            NewState.showMenu = !NewState.showMenu;
+            return NewState;
+        }, () => {console.log(this.state)});
+    }
+
+    /**
+     * Updates lastClickedNode and shows node menu
+     * @param {Object} node The last node that was double clicked
+     */
+    handleLastCLickedNode(node) {
+        this.setState((prevState)=>{
+            let NewState = prevState;
+            NewState.lastClickedNode = node;
+            NewState.showMenu = true;
+            return NewState;
+        });
+    }
+
+    /**
      * Creates the graph and associated button, located at the top right of the home view
      * @returns {JSX} The resulting graph + button
      */
@@ -317,6 +385,19 @@ class GraphView extends Component {
                         </tbody>
                     </table>
 
+                    <div className={this.state.showMenu ? "node-menu" : "hidden"}>
+                        <button className="menu-option" onClick={(e) => {
+                            e.preventDefault();
+                            this.openNodeTab.bind(this)()}}>
+                            View Node
+                        </button>
+                        <button className="menu-option" onClick={(e) => {
+                            e.preventDefault();
+                            this.removeNode.bind(this)()}}>
+                            Delete Node
+                        </button>
+                    </div>
+
                     <div className="download-wrapper">
                         <button className="tool download button secondary" onClick={(e) => {
                             e.preventDefault();
@@ -337,6 +418,8 @@ class GraphView extends Component {
                         nodes={this.state.nodeCategories}
                         // function to open a node's page if clicked
                         openNode={this.props.openNode}
+                        // function to open menu for double clicked node
+                        getLastClickedNode={this.handleLastCLickedNode.bind(this)}
                         // custom settings for the graph
                         settings={{
                             // set the height to occupy most of the screen

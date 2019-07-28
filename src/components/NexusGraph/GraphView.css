@@ -84,3 +84,30 @@
     height: 100%;
 }
 
+.node-menu {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    background-color: #fefefe;
+    display: block;
+    height: 75px;
+    width: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-option {
+    font-size: .75rem;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    height: 50%;
+    width: 100%;
+    background-color: #fefefe;
+    color: black;
+}
+
+.menu-option:hover {
+    background-color: grey;
+    color: white;
+}
