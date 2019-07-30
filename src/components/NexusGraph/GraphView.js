@@ -45,7 +45,7 @@ class GraphView extends Component {
                 "Stories": false,
                 "Fieldtrips": false,
             },
-            "lastClickedNode": null,
+            "lastClickedNode": {"id": "Blank"},
             "showMenu": false,
             // update with any previous state stored in redux
             ...props.state.views[props.viewIndex].state,
@@ -212,7 +212,7 @@ class GraphView extends Component {
     }
 
     /**
-     * Opens node in a new tab
+     * Opens last clicked node in a new tab
      */
     openNodeTab() {
         let node = this.state.lastClickedNode;
@@ -272,7 +272,7 @@ class GraphView extends Component {
         this.setState((prevState)=>{
             let NewState = prevState;
             NewState.lastClickedNode = node;
-            NewState.showMenu = true;
+            NewState.showMenu = !NewState.showMenu;
             return NewState;
         });
     }
@@ -350,7 +350,7 @@ class GraphView extends Component {
                         Show Link Labels
                     </label>
 
-                    <table className="legend hover unstriped cell">
+                    <table className={!this.state.showMenu ? "legend hover unstriped cell" : "hidden"}>
                         <thead>
                             <tr>
                                 <th>Color</th>
@@ -385,18 +385,25 @@ class GraphView extends Component {
                         </tbody>
                     </table>
 
-                    <div className={this.state.showMenu ? "node-menu" : "hidden"}>
-                        <button className="menu-option" onClick={(e) => {
+                    <table className={this.state.showMenu ? "legend hover unstriped cell" : "hidden"}>
+                        <thead>
+                        <tr>
+                            <th>{this.state.lastClickedNode.id}</th>
+                        </tr>
+                        </thead>
+                        <tbody className="legend-table-body">
+                        <tr onClick={(e) => {
                             e.preventDefault();
                             this.openNodeTab.bind(this)()}}>
-                            View Node
-                        </button>
-                        <button className="menu-option" onClick={(e) => {
+                            <td>View Node</td>
+                        </tr>
+                        <tr onClick={(e) => {
                             e.preventDefault();
                             this.removeNode.bind(this)()}}>
-                            Delete Node
-                        </button>
-                    </div>
+                            <td>Delete Node</td>
+                        </tr>
+                        </tbody>
+                    </table>
 
                     <div className="download-wrapper">
                         <button className="tool download button secondary" onClick={(e) => {
