@@ -52,18 +52,16 @@ class NexusGraph extends Component {
 
     // called whenever a node is clicked
     handleClickNode(nodeName) {
-        console.log(this.refs.graphView);
+        let node = getNodeById(nodeName, this.props.nodes);
+        this.props.getLastClickedNode(node);
         // condition to treat it as a double click, if last click was within 1 second
         if (Date.now() - this.lastNodeClickTime < 1000 &&
             // and the same node was clicked both times,
             nodeName === this.lastNodeClicked) {
-            // get the node matching the given name
-            let node = getNodeById(nodeName, this.props.nodes);
             // assuming we properly retrieved the node
             if (node !== null) {
                 // open up its tab
-                // this.props.tabViewerActions.addTab(node.itemID, nodeName, node.type);
-                this.props.getLastClickedNode(node);
+                this.props.tabViewerActions.addTab(node.itemID, nodeName, node.type);
             }
         } else {
             // too long between clicks/different node clicked, it should be a single click

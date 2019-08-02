@@ -104,7 +104,7 @@ class GraphView extends Component {
     /**
      * the click handler for type of node when type isn't highlighted
      */
-    highlightGraphNode(nodeType){
+    highlightGraphNode(){
         this.setState((prevState)=>{
             let NewState = prevState;
             // updating the nodes array with new node properties
@@ -125,7 +125,7 @@ class GraphView extends Component {
 
     /**
      * the click handler to unhighlight the nodes
-     * @param nodeType
+     * @param {String} nodeType
      */
     unhighlightGraphNode(nodeType){
         this.setState(
@@ -159,7 +159,7 @@ class GraphView extends Component {
             NewState.highlighted[nodeType] = !NewState.highlighted[nodeType];
             NewState.active[nodeType] = !NewState.active[nodeType];
             if(this.state.highlighted[nodeType]){
-                this.highlightGraphNode(nodeType);
+                this.highlightGraphNode();
             } else {
                 this.unhighlightGraphNode(nodeType);
             }
@@ -216,7 +216,7 @@ class GraphView extends Component {
      */
     openNodeTab() {
         let node = this.state.lastClickedNode;
-        tabViewerActions.addTab(node.itemID, node.id, node.type);
+        this.props.actions.addTab(node.itemID, node.id, node.type);
         // hide menu
         this.setState((prevState)=>{
             let NewState = prevState;
@@ -259,7 +259,7 @@ class GraphView extends Component {
                     li++;
                 }
             }
-            NewState.showMenu = !NewState.showMenu;
+            NewState.showMenu = false;
             return NewState;
         }, () => {console.log(this.state)});
     }
@@ -272,7 +272,18 @@ class GraphView extends Component {
         this.setState((prevState)=>{
             let NewState = prevState;
             NewState.lastClickedNode = node;
-            NewState.showMenu = !NewState.showMenu;
+            NewState.showMenu = true;
+            return NewState;
+        });
+    }
+
+    /**
+     * shows the general node menu
+     */
+    resetMenu() {
+        this.setState((prevState)=>{
+            let NewState = prevState;
+            NewState.showMenu = false;
             return NewState;
         });
     }
@@ -310,6 +321,7 @@ class GraphView extends Component {
                 return link;
             });
         }
+        let clickedNodeId = this.state.lastClickedNode.id;
         return (
             // div to contain both the button and graph
             <div className="grid-x NexusGraph">
@@ -388,19 +400,24 @@ class GraphView extends Component {
                     <table className={this.state.showMenu ? "legend hover unstriped cell" : "hidden"}>
                         <thead>
                         <tr>
-                            <th>{this.state.lastClickedNode.id}</th>
+                            <th>{clickedNodeId}</th>
                         </tr>
                         </thead>
                         <tbody className="legend-table-body">
                         <tr onClick={(e) => {
                             e.preventDefault();
                             this.openNodeTab.bind(this)()}}>
-                            <td>View Node</td>
+                            <td>View {clickedNodeId} Page</td>
                         </tr>
                         <tr onClick={(e) => {
                             e.preventDefault();
                             this.removeNode.bind(this)()}}>
                             <td>Delete Node</td>
+                        </tr>
+                        <tr onClick={(e) => {
+                            e.preventDefault();
+                            this.resetMenu.bind(this)()}}>
+                            <td>Back to Node Legend</td>
                         </tr>
                         </tbody>
                     </table>
