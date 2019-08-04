@@ -177,7 +177,7 @@ class StoryView extends Component {
     }
 
     renderComponentView(component, name) {
-        // if the component is defiend, it should be displayed, otherwise notify that it doesn't exist
+        // if the component is defined, it should be displayed, otherwise notify that it doesn't exist
         return component || (
             <div className="callout alert">
                 <h6>{name} does not exist.</h6>

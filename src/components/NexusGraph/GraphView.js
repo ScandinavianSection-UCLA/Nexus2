@@ -17,13 +17,16 @@ import {bindActionCreators} from "redux";
 import * as tabViewerActions from "../../actions/tabViewerActions";
 import JSZip from "jszip";
 import FileSaver from 'file-saver';
+import MapView from "../MapView/MapView";
+import {getPlacesByID} from "../../data-stores/DisplayArtifactModel";
+import {getStoryByID} from "../../data-stores/DisplayArtifactModel";
 
 class GraphView extends Component {
     constructor(props) {
         super(props);
         // set a default state
         this.state = {
-            // get nodes + links from storgae
+            // get nodes + links from storage
             "data": initializeGraph(),
             // get categorized nodes from storage
             "nodeCategories": initializeNodeCategories(),
@@ -278,7 +281,7 @@ class GraphView extends Component {
     }
 
     /**
-     * shows the general node menu
+     * shows the node legend
      */
     resetMenu() {
         this.setState((prevState)=>{
@@ -286,6 +289,34 @@ class GraphView extends Component {
             NewState.showMenu = false;
             return NewState;
         });
+    }
+
+    /**
+     * gets the preview to display for the last clicked node
+     */
+    getPreview() {
+        console.log(this.state.lastClickedNode);
+        let node = this.state.lastClickedNode;
+        if (node.type === "People") {
+            if (node.item.hasOwnProperty("intro_bio")) {
+                return node.item.intro_bio;
+            }
+        }
+        if (node.type === "Places") {
+            let place = getPlacesByID(node.itemID);
+            return <MapView key={0} places={[place]}/>;
+        }
+        if (node.type === "Stories") {
+            let story = getStoryByID(node.itemID);
+            console.log(story);
+            if (story.hasOwnProperty("english_publication")) {
+                return story.english_publication;
+            }
+        }
+        if (node.type === "Fieldtrips") {
+            return <MapView places={node.item.places_visited.place} view={"Fieldtrip"} />;
+        }
+        return "No Preview Available";
     }
 
     /**
@@ -322,6 +353,7 @@ class GraphView extends Component {
             });
         }
         let clickedNodeId = this.state.lastClickedNode.id;
+        let preview = this.getPreview.bind(this)();
         return (
             // div to contain both the button and graph
             <div className="grid-x NexusGraph">
@@ -404,20 +436,28 @@ class GraphView extends Component {
                         </tr>
                         </thead>
                         <tbody className="legend-table-body">
-                        <tr onClick={(e) => {
-                            e.preventDefault();
-                            this.openNodeTab.bind(this)()}}>
-                            <td>View {clickedNodeId} Page</td>
+                        <tr>
+                            <td className={preview === "No Preview Available" ? "hidden" : "preview"}>{preview}</td>
+                            <div className={preview === "No Preview Available" ? "callout alert no-preview" : "hidden"}>
+                                <h6>No preview available.</h6>
+                            </div>
                         </tr>
-                        <tr onClick={(e) => {
-                            e.preventDefault();
-                            this.removeNode.bind(this)()}}>
-                            <td>Delete Node</td>
-                        </tr>
-                        <tr onClick={(e) => {
-                            e.preventDefault();
-                            this.resetMenu.bind(this)()}}>
-                            <td>Back to Node Legend</td>
+                        <tr>
+                            <button className="button primary node-options" onClick={(e) => {
+                                e.preventDefault();
+                                this.openNodeTab.bind(this)()}}>
+                                View {clickedNodeId} Page
+                            </button>
+                            <button className="button alert node-options" onClick={(e) => {
+                                e.preventDefault();
+                                this.removeNode.bind(this)()}}>
+                                Delete Node
+                            </button>
+                            <button className="button secondary node-options" onClick={(e) => {
+                                e.preventDefault();
+                                this.resetMenu.bind(this)()}}>
+                                Back to Node Legend
+                            </button>
                         </tr>
                         </tbody>
                     </table>

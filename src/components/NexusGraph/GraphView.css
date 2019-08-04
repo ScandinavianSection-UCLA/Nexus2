@@ -111,3 +111,26 @@
     background-color: grey;
     color: white;
 }
+
+.preview {
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+    overflow: scroll;
+    border: 1px solid #d2d2d2;
+    text-align: left;
+}
+
+.no-preview {
+    display: block;
+    margin: 10px auto 50px auto;
+    width: 95%;
+}
+
+.node-options {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 90%;
+}
