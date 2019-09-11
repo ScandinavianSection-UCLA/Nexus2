@@ -58,9 +58,12 @@ class StoryView extends Component {
 
     componentWillUnmount() {
         // save state to redux for later
-        this.props.actions.updateTab(this.props.viewIndex, {
-            "state": this.state,
-        });
+        const thisView = this.props.state.views[this.props.viewIndex];
+        if (thisView && thisView.id === this.props.id && thisView.type === "Stories") {
+            this.props.actions.updateTab(this.props.viewIndex, {
+                "state": this.state,
+            });
+        }
     }
 
     renderRelatedStories() {
@@ -355,7 +358,6 @@ class StoryView extends Component {
                                                     "data": "ETK Index",
                                                 });
                                                 setSessionStorage("dropdownLists", [getETKByID(etk_index.id)]);
-                                                console.log(etk_index, getETKByID(etk_index.id));
                                                 this.props.actions.switchTabs(0);
                                             }}>
                                             {heading_english}
