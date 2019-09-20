@@ -19,7 +19,6 @@
 }
 
 .book {
-    /* top: 10vh; */
     height: 75vh;
     width: 90vw;
     margin: auto;
@@ -43,6 +42,7 @@
     left: 0;
     top: 0;
     z-index: 1000;
+    overflow-y: scroll;
 }
 
 .toc .solid {
@@ -61,6 +61,7 @@
     display: block;
     padding: 7px;
     font-weight: bold;
+    text-align: left;
 }
 
 .searchResult {
