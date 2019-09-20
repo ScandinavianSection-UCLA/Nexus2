@@ -1,0 +1,28 @@
+{
+"type": "FeatureCollection",
+"name": "ft_100_stops",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Hadsten", "Sequence": 1, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0541, 56.324100000869961 ] } },
+{ "type": "Feature", "properties": { "Name": "Ajdt", "Sequence": 2, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 9.78814, 56.316800000870067 ] } },
+{ "type": "Feature", "properties": { "Name": "Brandstrup", "Sequence": 3, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 9.50595, 56.364500000869491 ] } },
+{ "type": "Feature", "properties": { "Name": "Højbjærg", "Sequence": 4, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 9.54414, 56.339700000869776 ] } },
+{ "type": "Feature", "properties": { "Name": "Lundø", "Sequence": 5, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 9.14028, 56.621800000866152 ] } },
+{ "type": "Feature", "properties": { "Name": "Holstebro", "Sequence": 6, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.61146, 56.362800000869477 ] } },
+{ "type": "Feature", "properties": { "Name": "Avlum", "Sequence": 7, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.7991, 56.268400000870685 ] } },
+{ "type": "Feature", "properties": { "Name": "Ørre", "Sequence": 8, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.87417, 56.236400000871079 ] } },
+{ "type": "Feature", "properties": { "Name": "Hallundbæk", "Sequence": 9, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.86929, 56.293200000870385 ] } },
+{ "type": "Feature", "properties": { "Name": "Feldborg", "Sequence": 10, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.96389, 56.358000000869552 ] } },
+{ "type": "Feature", "properties": { "Name": "Over Feldborg", "Sequence": 11, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.95001, 56.344600000869733 ] } },
+{ "type": "Feature", "properties": { "Name": "Borbjærg", "Sequence": 12, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.75505, 56.402100000868991 ] } },
+{ "type": "Feature", "properties": { "Name": "Klem", "Sequence": 13, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.378669541000024, 56.304729439870187 ] } },
+{ "type": "Feature", "properties": { "Name": "Ølgod", "Sequence": 14, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.61787, 55.807800000876398 ] } },
+{ "type": "Feature", "properties": { "Name": "Havlund", "Sequence": 15, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.59157, 55.826700000876194 ] } },
+{ "type": "Feature", "properties": { "Name": "Herning", "Sequence": 16, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.95267, 56.142200000872279 ] } },
+{ "type": "Feature", "properties": { "Name": "Vilbjærg", "Sequence": 17, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.7638, 56.197500000871564 ] } },
+{ "type": "Feature", "properties": { "Name": "Snejbjærg", "Sequence": 18, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.9051, 56.135300000872327 ] } },
+{ "type": "Feature", "properties": { "Name": "Gullestrup", "Sequence": 19, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 8.97737, 56.168500000871937 ] } },
+{ "type": "Feature", "properties": { "Name": "Sønder Os", "Sequence": 20, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 9.00755, 56.21400000087138 ] } },
+{ "type": "Feature", "properties": { "Name": "Gjellerup", "Sequence": 21, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 9.04955, 56.144000000872268 ] } },
+{ "type": "Feature", "properties": { "Name": "Hadsten", "Sequence": 22, "FT": 100.0, "Absolute": 126.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0541, 56.324100000869961 ] } }
+]
+}

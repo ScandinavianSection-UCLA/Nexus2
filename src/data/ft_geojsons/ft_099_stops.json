@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "ft_099_stops",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Hadsten", "Sequence": 1, "FT": 99.0, "Absolute": 125.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0541, 56.324100000869961 ] } },
+{ "type": "Feature", "properties": { "Name": "Villendrup", "Sequence": 2, "FT": 99.0, "Absolute": 125.0 }, "geometry": { "type": "Point", "coordinates": [ 10.203, 56.333000000869809 ] } },
+{ "type": "Feature", "properties": { "Name": "Mejlby", "Sequence": 3, "FT": 99.0, "Absolute": 125.0 }, "geometry": { "type": "Point", "coordinates": [ 10.2134, 56.300700000870279 ] } },
+{ "type": "Feature", "properties": { "Name": "Hornslet mark", "Sequence": 4, "FT": 99.0, "Absolute": 125.0 }, "geometry": { "type": "Point", "coordinates": [ 10.304, 56.31590000087008 ] } },
+{ "type": "Feature", "properties": { "Name": "Torsager", "Sequence": 5, "FT": 99.0, "Absolute": 125.0 }, "geometry": { "type": "Point", "coordinates": [ 10.4589, 56.343500000869739 ] } },
+{ "type": "Feature", "properties": { "Name": "Rostved", "Sequence": 6, "FT": 99.0, "Absolute": 125.0 }, "geometry": { "type": "Point", "coordinates": [ 10.5223, 56.308800000870185 ] } },
+{ "type": "Feature", "properties": { "Name": "Hadsten", "Sequence": 7, "FT": 99.0, "Absolute": 125.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0541, 56.324100000869961 ] } }
+]
+}
