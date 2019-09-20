@@ -15,10 +15,10 @@ import connect from "react-redux/es/connect/connect";
 import {setSessionStorage} from "../../data-stores/SessionStorageModel";
 
 const indexToVersion = {
-    "0": "english_manuscript",
-    "1": "english_publication",
-    "2": "danish_manuscript",
-    "3": "danish_publication",
+    "0": "english_publication",
+    "1": "english_manuscript",
+    "2": "danish_publication",
+    "3": "danish_manuscript",
 };
 
 class StoryView extends Component {
@@ -31,7 +31,7 @@ class StoryView extends Component {
             "lastStoryVersionOpen": 1,
             // start with the first accordion tab open
             "openTab": 0,
-            "storyVersionOpen": [false, true, false, false],
+            "storyVersionOpen": [true, false, false, false],
             // two versions wouldn't be open
             "twoVersions": false,
             "fontSize": 16,
@@ -418,19 +418,19 @@ class StoryView extends Component {
                                             {/* make the button secondary if that story version is not open */}
                                             <li className={`button ${!storyVersionOpen[0] && "secondary"}`}
                                                 onClick={this.storyViewerClickHandler.bind(this, 0)}>
-                                                English ms Translation
+                                                English Published Version
                                             </li>
                                             <li className={`button ${!storyVersionOpen[1] && "secondary"}`}
                                                 onClick={this.storyViewerClickHandler.bind(this, 1)}>
-                                                English Published Version
+                                                English ms Translation
                                             </li>
                                             <li className={`button ${!storyVersionOpen[2] && "secondary"}`}
                                                 onClick={this.storyViewerClickHandler.bind(this, 2)}>
-                                                Danish ms Transcription
+                                                Danish Published Version
                                             </li>
                                             <li className={`button ${!storyVersionOpen[3] && "secondary"}`}
                                                 onClick={this.storyViewerClickHandler.bind(this, 3)}>
-                                                Danish Published Version
+                                                Danish ms Transcription
                                             </li>
                                         </ul>
                                         <div className="grid-x medium-2">
@@ -500,20 +500,20 @@ class StoryView extends Component {
                                     onClick={this.storyViewerClickHandler.bind(this, 0)} style={{
                                         "marginLeft": "5px",
                                     }}>
-                                    English Translation
+                                    English Published
                                 </li>
                                 <li className={`button ${!storyVersionOpen[1] && "secondary"}`}
                                     onClick={this.storyViewerClickHandler.bind(this, 1)}>
-                                    English Published
+                                    English Translation
                                 </li>
                                 {/* make the button secondary if that story version is not open */}
                                 <li className={`button ${!storyVersionOpen[2] && "secondary"}`}
                                     onClick={this.storyViewerClickHandler.bind(this, 2)}>
-                                    Danish Transcription
+                                    Danish Published
                                 </li>
                                 <li className={`button ${!storyVersionOpen[3] && "secondary"}`}
                                     onClick={this.storyViewerClickHandler.bind(this, 3)}>
-                                    Danish Published
+                                    Danish Transcription
                                 </li>
                             </ul>
                             <div className="grid-x">
