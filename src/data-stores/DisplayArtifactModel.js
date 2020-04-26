@@ -591,6 +591,11 @@ export function getManuscriptURI(story_id){
     return [];
 }
 
+export function getPlaceByName(placeName) {
+    let placeObject = data.places.find(({name}) => placeName === name);
+    return getPlacesByID(placeObject && placeObject.place_id);
+}
+
 /**
  * Retrieve a genre by its ID
  * @param {Number} genre_id The ID of the genre to get

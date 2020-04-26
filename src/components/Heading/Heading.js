@@ -105,7 +105,11 @@ class Heading extends Component {
                                             // prevent default click behavior
                                             event.preventDefault();
                                             // add a tab to the desired chapter
-                                            this.props.tabViewerActions.addTab(menuItem.id - 3, menuItem.name, "Book");
+                                            this.props.tabViewerActions.addTab(
+                                                menuItem.id,
+                                                menuItem.name,
+                                                "Book"
+                                            );
                                         }}
                                     >{menuItem.name}</li>
                                 ))}

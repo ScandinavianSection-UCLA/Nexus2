@@ -54,18 +54,16 @@ export default function tabViewer(state = initialState.tabState, action) {
  */
 function switchTab(OldState, SwitchToIndex) {
     // create an immutable separate copy of the old state
-    let NewState = {...OldState};
+    const NewState = {...OldState};
     // assuming that the index is a valid tab
     if (SwitchToIndex < NewState.views.length) {
         // update the views with the new active tab
-        NewState.views = NewState.views.map((currentView, currentIndex) => {
-            return {
-                // keep each view mostly the same
-                ...currentView,
-                // but set it to active if it is the index to switch to (inactive otherwise)
-                "active": currentIndex === SwitchToIndex,
-            };
-        });
+        NewState.views = NewState.views.map((currentView, currentIndex) => ({
+            // keep each view mostly the same
+            ...currentView,
+            // but set it to active if it is the index to switch to (inactive otherwise)
+            "active": currentIndex === SwitchToIndex,
+        }));
         // update session storage with the new active tab
         setSessionStorage("TabViewerSessionState", NewState);
     } else {
@@ -84,7 +82,7 @@ function switchTab(OldState, SwitchToIndex) {
  */
 function closeTab(ShallowNewState, RemoveIndex) {
     // create a copy of the state to ensure immutability
-    let NewState = {...ShallowNewState};
+    const NewState = {...ShallowNewState};
     // if the active view will be closed
     if (NewState.views[RemoveIndex].active === true) {
         // set the home view to be active
@@ -104,14 +102,14 @@ function closeTab(ShallowNewState, RemoveIndex) {
  * @param {Object} payload An action payload containing ID of the tab to add, display name of the tab, and the tab's type (People/Places/Fieldtrips/Book/Graph/Story)
  * @returns {Object} The new, updated state
  */
+// eslint-disable-next-line max-statements
 function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
     // get a copy of the state to ensure immutability
-    let newState = {...ShallowNewState};
+    const newState = {...ShallowNewState};
     // see if we can get the preexisting view matching the tab to create
-    const matchingViewIndex = ShallowNewState.views.findIndex((view) => (
+    const matchingViewIndex = ShallowNewState.views.findIndex((view) =>
         // check if the name and type matches
-        view.name === name && view.type === type && view.id === DisplayArtifactID
-    ));
+        view.name === name && view.type === type && view.id === DisplayArtifactID);
     if (matchingViewIndex !== -1) {
         // if we're trying to re-add an already existing view
         // just switch to that tab
@@ -126,26 +124,26 @@ function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
             // set it to the active view
             "active": true,
             // name is the passed name
-            "name": name,
+            name,
             // type is the passed type
-            "type": type,
+            type,
             // color is the default active/inactive color
             "color": null,
             // pinned is whether or not its pinned to not be automatically deleted
             "pinned": false,
         };
         // for each of the preexisting views
-        let updatedViews = newState.views.map((view) => {
-            return {
+        const updatedViews = newState.views.map((view) =>
+            ({
                 // leave the view mostly untouched...
                 ...view,
                 // ...but set it to be inactive
                 "active": false,
-            };
+            })
             // and add in the new view at the end
-        }).concat(newView);
+        ).concat([newView]);
         // tracker if we need to remove a tab
-        var RemoveTab = false;
+        let RemoveTab = false;
         // if our window is smaller than 1100px (95% sure about the units)
         // and
         // if we have more than 5 tabs already (including home)
@@ -155,14 +153,12 @@ function addTab(ShallowNewState, {DisplayArtifactID, name, type}) {
             // if we have more than 6 tabs already (including home) and regardless of screen size
             RemoveTab = true;
         }
-        // check if first non-home tab is not pinned
-        // and
-        // if we need to remove a tab
-        if( RemoveTab){
+        // check if first non-home tab is not pinned and we need to remove a tab
+        if (RemoveTab) {
             // index to remove defaults to the tab next to the home tab
             let RemoveIndex = 1;
             // if the tab is pinned then remove the next tab
-            while(updatedViews[RemoveIndex].pinned){
+            while (updatedViews[RemoveIndex].pinned) {
                 RemoveIndex++;
             }
             // remove the first non-Home tab
@@ -188,7 +184,7 @@ function moveTab(OldState, {OldTabIndex, NewTabIndex}) {
     // make sure we are not affecting the home tab
     if (NewTabIndex !== 0 && OldTabIndex !== 0) {
         // get a copy of the views to ensure immutability
-        let {views} = {...OldState};
+        const {views} = {...OldState};
         // get the view that we are to move
         const viewToMove = views[OldTabIndex];
         // delete the tab at its old index
@@ -217,13 +213,11 @@ function moveTab(OldState, {OldTabIndex, NewTabIndex}) {
  */
 function updateTab(OldState, {TabIndex, updates}) {
     // get a new copy of the state to keep immutability
-    let newState = {...OldState};
-    // get the view to update
-    let view = newState.views[TabIndex];
+    const newState = {...OldState};
     // update that view
     newState.views[TabIndex] = {
         // use the previous properties
-        ...view,
+        ...newState.views[TabIndex],
         // but override any specified properties
         ...updates,
     };
@@ -231,21 +225,19 @@ function updateTab(OldState, {TabIndex, updates}) {
     return newState;
 }
 
-/**
- * Pin a tab to not be removed
- * @param {Object} OldState with the pre-updated state
- * @param {Number} TabIndex to pin
- * */
-function pinTab(OldState, TabIndex){
+// Pin a tab to not be removed
+// @param {Object} OldState with the pre-updated state
+// @param {Number} TabIndex to pin
+//
+function pinTab(OldState, TabIndex) {
     // save old state to a new state to keep immutability
-    let newState = {...OldState};
+    const newState = {...OldState};
     // get the view to pin
-    let view = newState.views[TabIndex];
+    const view = newState.views[TabIndex];
     // toggle pinned state
     newState.views[TabIndex] = {
         ...view,
-        pinned: !newState.views[TabIndex].pinned,
+        "pinned": !newState.views[TabIndex].pinned,
     };
     return newState;
 }
-

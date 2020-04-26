@@ -73,7 +73,7 @@ class TabViewer extends Component {
                 // for the book, return the BookView, with the chapter ID that was selected
                 return <BookView key={tabIndex} viewIndex={tabIndex} id={id} />;
             case "Help":
-                return <HelpView key={tabIndex} viewIndex={tabIndex} />
+                return <HelpView key={tabIndex} viewIndex={tabIndex} />;
             case "FieldtripTool":
                 return <FieldtripTool key={tabIndex} fieldtrip={id} viewIndex={tabIndex} />;
             default:

@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "ft_086_stops",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Hadsten Station", "Sequence": 1, "FT": 86.0, "Absolute": 108.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0495, 56.326700000869963 ] } },
+{ "type": "Feature", "properties": { "Name": "Aarhus", "Sequence": 2, "FT": 86.0, "Absolute": 108.0 }, "geometry": { "type": "Point", "coordinates": [ 10.2072, 56.159000000872055 ] } },
+{ "type": "Feature", "properties": { "Name": "Skejby", "Sequence": 3, "FT": 86.0, "Absolute": 108.0 }, "geometry": { "type": "Point", "coordinates": [ 10.1763, 56.199800000871527 ] } },
+{ "type": "Feature", "properties": { "Name": "Hasle", "Sequence": 4, "FT": 86.0, "Absolute": 108.0 }, "geometry": { "type": "Point", "coordinates": [ 10.161885679000022, 56.171089383871902 ] } },
+{ "type": "Feature", "properties": { "Name": "Aarhus", "Sequence": 5, "FT": 86.0, "Absolute": 108.0 }, "geometry": { "type": "Point", "coordinates": [ 10.2072, 56.159000000872055 ] } },
+{ "type": "Feature", "properties": { "Name": "Hornslet", "Sequence": 6, "FT": 86.0, "Absolute": 108.0 }, "geometry": { "type": "Point", "coordinates": [ 10.3167, 56.312600000870098 ] } },
+{ "type": "Feature", "properties": { "Name": "Hvilsager", "Sequence": 7, "FT": 86.0, "Absolute": 108.0 }, "geometry": { "type": "Point", "coordinates": [ 10.351, 56.36870000086941 ] } },
+{ "type": "Feature", "properties": { "Name": "Bendstrup", "Sequence": 8, "FT": 86.0, "Absolute": 108.0 }, "geometry": { "type": "Point", "coordinates": [ 10.3296, 56.364400000869466 ] } },
+{ "type": "Feature", "properties": { "Name": "Karlby", "Sequence": 9, "FT": 86.0, "Absolute": 108.0 }, "geometry": { "type": "Point", "coordinates": [ 10.2867, 56.351400000869639 ] } },
+{ "type": "Feature", "properties": { "Name": "Hadsten Station", "Sequence": 10, "FT": 86.0, "Absolute": 108.0 }, "geometry": { "type": "Point", "coordinates": [ 10.0495, 56.326700000869963 ] } }
+]
+}

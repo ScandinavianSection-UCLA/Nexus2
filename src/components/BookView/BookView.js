@@ -28,10 +28,29 @@ class BookView extends Component {
             // update with any previous state stored in redux
             ...props.state.views[props.viewIndex].state,
         };
+        this.dropdownJSX = menuList.map((item) => (
+            // each is a button
+            <button
+                // style it as a TOC element
+                className="toc-item"
+                // unique key for React
+                key={item.id}
+                // handler for when it is clicked
+                onClick={() => {
+                    // go to the chapter that was clciked
+                    this.rendition.display(item.location);
+                    // hide the dropdown
+                    this.setState({
+                        "dropdownActive": false,
+                    });
+                }}>
+                {/* display the whitespace stripped version of the chapter title */}
+                {item.name.trim()}
+            </button>
+        ));
         // to be set once the book is rendered
         this.book = null;
         this.rendition = null;
-        this.dropdownJSX = [];
         // ref to the book div so we can render the content there
         this.bookRef = React.createRef();
         // bind the event handler so it works properly inside the listener
@@ -48,28 +67,7 @@ class BookView extends Component {
         // load the .epub book
         this.book = ePub(`${process.env.PUBLIC_URL}/Book/merge_from_ofoct.epub`);
         // when it has successfully loaded
-        this.book.loaded.navigation.then(({toc}) => {
-            // generate our TOC list based on the chapters
-            this.dropdownJSX = toc.map((chapter) => (
-                // each is a button
-                <button
-                    // style it as a TOC element
-                    className="toc-item"
-                    // unique key for React
-                    key={chapter.label}
-                    // handler for when it is clicked
-                    onClick={() => {
-                        // go to the chapter that was clciked
-                        this.rendition.display(chapter.href);
-                        // hide the dropdown
-                        this.setState({
-                            "dropdownActive": false,
-                        });
-                    }}>
-                    {/* display the whitespace stripped version of the chapter title */}
-                    {chapter.label.trim()}
-                </button>
-            ));
+        this.book.loaded.navigation.then(() => {
             // node to render the book to
             const node = this.bookRef.current;
             // render the book to the "book" div
@@ -83,13 +81,13 @@ class BookView extends Component {
             // numerical ID means it's a chapter number
             if (typeof this.props.id === "number") {
                 // get the corresponding spot in the book for the chapter
-                location = toc[menuList[this.props.id].id - 1].href;
+                ({location} = menuList[this.props.id]);
             } else if (typeof this.props.id === "string") {
                 // id is a string location in the book, use that
                 location = this.props.id;
             } else {
                 // bad type, warn that
-                console.warn("Invalid id: ", this.props.id);
+                console.warn(`Invalid id: ${this.props.id}`);
             }
             this.rendition.themes.fontSize(`${this.state.fontSize}px`);
             // display the book
@@ -111,9 +109,13 @@ class BookView extends Component {
         // remove our event listener
         document.removeEventListener("keydown", this.handleKeyPress, false);
         // save state to redux for later
-        this.props.tabViewerActions.updateTab(this.props.viewIndex, {
-            "state": this.state,
-        });
+        const thisView = this.props.state.views[this.props.viewIndex];
+        if (thisView && thisView.id === this.props.id && thisView.type === "Book") {
+            // console.log(this)
+            this.props.tabViewerActions.updateTab(this.props.viewIndex, {
+                "state": this.state,
+            });
+        }
     }
 
     // handler for key presses
@@ -225,7 +227,7 @@ class BookView extends Component {
                         className="button secondary cell medium-2"
                         // when it is clicked
                         onClick={(event) => {
-                            // prevent the event from bubbling up (don't allow left page button to be clicked)
+                            // don't allow left page button to be clicked (no doubly processed click)
                             event.stopPropagation();
                             // show the dropdown
                             this.setState({
@@ -272,7 +274,8 @@ class BookView extends Component {
                 </div>
                 {/* hide the book but keep the elements in the DOM if a search is going */}
                 {/* this is so that the book still has its div to render to and doesn't break during a search */}
-                <div className={`book-controls cell medium-11 grid-x ${this.state.searchActive && "hidden"}`}>
+                <div
+                    className={`book-controls cell medium-11 grid-x ${this.state.searchActive && "hidden"}`}>
                     <div className="cell medium-1 grid-y">
                         <div className="cell medium-1 grid-x">
                             <button
@@ -295,7 +298,9 @@ class BookView extends Component {
                                 this.rendition.prev();
                             }}>
                             {/* show a large < */}
-                            <img className="left-hover" src="https://img.icons8.com/ios/50/000000/chevron-left-filled.png" alt="<" />
+                            <img
+                                className="left-hover"
+                                src="https://img.icons8.com/ios/50/000000/chevron-left-filled.png" alt="<" />
                         </button>
                         <div className="cell medium-1"></div>
                     </div>
@@ -310,7 +315,9 @@ class BookView extends Component {
                             this.rendition.next();
                         }}>
                         {/* show a large > */}
-                        <img src="https://img.icons8.com/ios/50/000000/chevron-right-filled.png" alt=">" />
+                        <img
+                            src="https://img.icons8.com/ios/50/000000/chevron-right-filled.png"
+                            alt=">" />
                     </button>
                 </div>
                 {/* when the search results are to be shown */}
