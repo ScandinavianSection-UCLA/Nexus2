@@ -396,7 +396,7 @@ class StoryView extends Component {
                     </div>
                     <div className="medium-9 cell" style={{position: "relative"}}>
                         <h2 className="title">
-                            <img src="https://png.icons8.com/ios/42/000000/chat-filled.png"
+                            <img src={require("../Navigation/icons8-chat-filled-32.png")}
                                 style={{
                                     "marginRight": "1%",
                                     "marginTop": "-1%",

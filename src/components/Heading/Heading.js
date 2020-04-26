@@ -76,7 +76,7 @@ class Heading extends Component {
                     onClick={this.menuToggle}>
                     <img
                         // from where to load the image
-                        src="https://png.icons8.com/wired/64/ffffff/book.png"
+                        src={require("../Navigation/icons8-book-64.png")}
                         style={{"height": "2.9em", "paddingTop": "7px", "paddingLeft": "10px"}}
                         alt="book" />
                 </div>
@@ -86,7 +86,9 @@ class Heading extends Component {
                         <div className="solid">
                             {/* little open book at the top right */}
                             <div className="Hamburger-Menu" onClick={this.menuToggle}>
-                                <img src="https://png.icons8.com/wired/50/ffffff/literature.png" style={{"height": "2.9em", "paddingTop": "5px"}} alt="open book" onClick={this.menuToggle} />
+                                <img src={require("../Navigation/icons8-open-book-64.png")}
+                                     style={{"height": "2.9em", "paddingTop": "5px"}} alt="open book"
+                                     onClick={this.menuToggle} />
                             </div>
                             {/* list of all the chapters */}
                             <ul className="list">

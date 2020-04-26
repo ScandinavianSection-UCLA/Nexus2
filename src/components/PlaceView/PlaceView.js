@@ -22,7 +22,8 @@ class PlaceView extends Component {
         return (
             <div className="PlaceView grid-y">
                 <div className="tab-header cell medium-1">
-                    <img style={{"marginTop": "-1.7%", "marginRight": "1%"}} src="https://png.icons8.com/windows/48/000000/marker.png" alt="location icon" />
+                    <img style={{"marginTop": "-1.7%", "marginRight": "1%"}}
+                         src={require("../Navigation/icons8-marker-32.png")} alt="location icon" />
                     <h2 style={{"fontWeight": "bold", "display": "inline-block"}}>{name}</h2>
                 </div>
                 <div className="medium-11">

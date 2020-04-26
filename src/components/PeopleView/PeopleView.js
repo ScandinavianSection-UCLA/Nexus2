@@ -49,7 +49,6 @@ class PeopleView extends Component {
     }
 
     openCoreInformantTab() {
-        console.log('hi');
         if (this.props.person.hasOwnProperty("core_informant")) {
             let CoreInformantID = this.props.person['core_informant'];
             if (CoreInformantID > 0 && CoreInformantID <= 5) {
@@ -63,7 +62,8 @@ class PeopleView extends Component {
         return (
             <div className="PeopleView grid-y">
                 <div className="tab-header cell medium-1">
-                    <img style={{"marginTop": "-1.7%", "marginRight": "1%"}} src="https://png.icons8.com/windows/64/000000/contacts.png" alt="person icon" />
+                    <img style={{"marginTop": "-1.7%", "marginRight": "1%"}}
+                         src={require("../Navigation/icons8-contacts-32.png")} alt="person icon" />
                     <h2 style={{"fontWeight": "bold", "display": "inline-block"}}>{this.props.person.full_name}</h2>
                 </div>
                 <div className="cell medium 11">

@@ -67,7 +67,7 @@ class RightBar extends Component {
                             e.preventDefault();
                             this.PPSClickHandler.bind(this)("people");
                         }}>
-                        <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
+                        <img src={require("../Navigation/icons8-contacts-64_white.png")}
                             className="icon"
                             alt="person" />
                         <br />
@@ -78,7 +78,7 @@ class RightBar extends Component {
                             e.preventDefault();
                             this.PPSClickHandler.bind(this)("stories_mentioned");
                         }}>
-                        <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
+                        <img src={require("../Navigation/icons8-chat-50_white.png")}
                             className="icon"
                             alt="stories" />
                         <br />
@@ -89,7 +89,7 @@ class RightBar extends Component {
                             e.preventDefault();
                             this.PPSClickHandler.bind(this)("stories");
                         }}>
-                        <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
+                        <img src={require("../Navigation/icons8-chat-50_white.png")}
                             className="icon"
                             alt="stories" />
                         <br />
@@ -108,7 +108,7 @@ class RightBar extends Component {
                             e.preventDefault();
                             this.PPSClickHandler.bind(this)("bio");
                         }}>
-                        <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
+                        <img src={require("../Navigation/icons8-contacts-64_white.png")}
                             className="icon"
                             alt="person" />
                         <br />
@@ -119,7 +119,7 @@ class RightBar extends Component {
                             e.preventDefault();
                             this.PPSClickHandler.bind(this)("places");
                         }}>
-                        <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
+                        <img src={require("../Navigation/icons8-marker-64_white.png")}
                             className="icon"
                             alt="location" />
                         <br />
@@ -130,7 +130,7 @@ class RightBar extends Component {
                             e.preventDefault();
                             this.PPSClickHandler.bind(this)("stories");
                         }}>
-                        <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
+                        <img src={require("../Navigation/icons8-chat-50_white.png")}
                             className="icon"
                             alt="stories" />
                         <br />
@@ -148,7 +148,7 @@ class RightBar extends Component {
                             e.preventDefault();
                             this.PPSClickHandler.bind(this)("places");
                         }}>
-                        <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
+                        <img src={require("../Navigation/icons8-marker-64_white.png")}
                             className="icon"
                             alt="location" />
                         <br />
@@ -159,7 +159,7 @@ class RightBar extends Component {
                             e.preventDefault();
                             this.PPSClickHandler.bind(this)("stories");
                         }}>
-                        <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
+                        <img src={require("../Navigation/icons8-contacts-64_white.png")}
                             className="icon"
                             alt="stories" />
                         <br />
@@ -177,7 +177,7 @@ class RightBar extends Component {
                             e.preventDefault();
                             this.PPSClickHandler.bind(this)("people");
                         }}>
-                        <img src="https://png.icons8.com/windows/32/ffffff/contacts.png"
+                        <img src={require("../Navigation/icons8-contacts-64_white.png")}
                             className="icon"
                             alt="person" />
                         <br />
@@ -188,7 +188,7 @@ class RightBar extends Component {
                             e.preventDefault();
                             this.PPSClickHandler.bind(this)("places");
                         }}>
-                        <img src="https://png.icons8.com/windows/32/ffffff/marker.png"
+                        <img src={require("../Navigation/icons8-marker-64_white.png")}
                             className="icon"
                             alt="location" />
                         <br />
@@ -199,7 +199,7 @@ class RightBar extends Component {
                             e.preventDefault();
                             this.PPSClickHandler.bind(this)("stories");
                         }}>
-                        <img src="https://png.icons8.com/metro/32/ffffff/chat.png"
+                        <img src={require("../Navigation/icons8-chat-50_white.png")}
                             className="icon"
                             alt="stories" />
                         <br />

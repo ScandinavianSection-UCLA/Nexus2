@@ -209,7 +209,7 @@ class TabViewer extends Component {
                                 {view.type !== "Home" &&
                                     <img
                                         // source of the image (URL)
-                                        src="https://png.icons8.com/material/50/000000/delete-sign.png"
+                                        src={require("../Navigation/icons8-delete-24.png")}
                                         // text to display if it can't show up
                                         alt="Close Icon"
                                         // give it the styling for the close button
