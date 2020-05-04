@@ -1,0 +1,107 @@
+/* Top of BookView.css */
+
+.toggleFontSize {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 10;
+    background: #44739c;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 2px;
+    padding: .5rem;
+    outline: none;
+}
+
+.book-controls button {
+    cursor: pointer;
+}
+
+.book {
+    height: 75vh;
+    width: 90vw;
+    margin: auto;
+}
+
+.pager {
+    font-size: 80px;
+    color: grey;
+}
+
+.BookView {
+    position: relative;
+}
+
+.toc {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: #7777;
+    color: white;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    overflow-y: scroll;
+}
+
+.toc .solid {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35vw;
+    height: 100%;
+    padding: 40px;
+    line-height: 30px;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.toc-item {
+    display: block;
+    padding: 7px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.searchResult {
+    display: block;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    text-align: left;
+    width: 100%;
+}
+
+.searchResult:hover {
+    background-color: #bbb;
+}
+
+.toc-item:hover {
+    background-color: #bbb;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.results {
+    overflow: scroll;
+}
+
+.fontButton {
+    font-size: 30px;
+    width: 35px;
+    height: 35px;
+    margin: 0 0 0 10px;
+    line-height: 0px;
+    font-family: 'Georgia', Times, serif !important;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.fontButton:hover {
+    background-color: darkgray;
+}
+
+/* Bottom of BookView.css */

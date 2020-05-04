@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "Example Threat Model for Nexus 2",
+    "owner": "Daniel Huang",
+    "description": "cool things happen."
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "stuff",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Dan"
+  }
+}

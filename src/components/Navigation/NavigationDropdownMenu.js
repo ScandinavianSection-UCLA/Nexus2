@@ -1,63 +1,60 @@
-/**
- * Created by danielhuang on 2/25/18.
- */
-import React, { Component } from 'react';
+import React, {Component} from "react";
+import PropTypes from "prop-types";
 
 class Navigation extends Component {
-
-    constructor(){
-        super();
-        // this.state = {
-        //     selectValue:this.props.list['selectValue'],
-        //     displayKey:this.props.list['displayKey'],
-        //     isTango:this.props.list['tango'],
-        //     ontology:this.props.list['ontology'],
-        //     list:this.props.list['list']
-        // }
-    }
-
-    handleDropdownChange(e){
-        this.setState({selectValue:e.target.value});
-        var selectedItem = {};
-        if(this.props.list['tango']){
-            this.props.list['list'].forEach((item)=>{
-                if(item === e.target.value){
-                    selectedItem = item;
-                }
-            });
+    handleDropdownChange({target}) {
+        let selectedItem;
+        if (this.props.list.tango) {
+            selectedItem = this.props.list.list.find((item) =>
+                item === target.value);
         } else {
-            this.props.list['list'].forEach((item)=>{
-                if(item[this.props.list['displayKey']] === e.target.value){
-                    selectedItem = item;
-                }
-            });
+            selectedItem = this.props.list.list.find((item) =>
+                item[this.props.list.displayKey] === target.value);
         }
-        this.props.handleMenuSelect(selectedItem, this.props.list['tango']);
+        this.props.handleMenuSelect(selectedItem, this.props.list.tango);
     }
 
-    optionsRender(){
-        if(this.props.list['tango']){
-            console.log(this.props.list['list']);
-            return this.props.list['list'].map((item,i)=>{
-                return <option key={i} value={item}>{item}</option>
-            })
+    optionsRender() {
+        if (this.props.list.tango) {
+            return this.props.list.list.map((item, i) => (
+                <option
+                    key={i}
+                    value={item}>
+                    {item}
+                </option>
+            ));
         } else {
-            console.log(this.props.list['list'], this.props.list['displayKey']);
-            return this.props.list['list'].map((item,i)=>{
-                return <option key={i} value={item[this.props.list['displayKey']]}>{item[this.props.list['displayKey']]}</option>
-            })
+            return this.props.list.list.map((item, i) => (
+                <option
+                    key={i}
+                    value={item[this.props.list.displayKey]}>
+                    {item[this.props.list.displayKey]}
+                </option>
+            ));
         }
     }
 
     render() {
         return (
             <form className="NavigationDropdownMenu">
-                <select value={this.props.list['selectValue']} onChange={this.handleDropdownChange.bind(this)}>
-                    {this.optionsRender.bind(this)()}
+                <select
+                    value={this.props.list.selectValue}
+                    onChange={this.handleDropdownChange.bind(this)}>
+                    {this.optionsRender()}
                 </select>
             </form>
         );
     }
 }
+
+Navigation.propTypes = {
+    "handleMenuSelect": PropTypes.func.isRequired,
+    "list": PropTypes.shape({
+        "displayKey": PropTypes.any,
+        "list": PropTypes.any,
+        "selectValue": PropTypes.any,
+        "tango": PropTypes.any,
+    }).isRequired,
+};
 
 export default Navigation;

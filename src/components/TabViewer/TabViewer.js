@@ -1,224 +1,281 @@
-/**
- * Created by danielhuang on 1/28/18.
- */
-import React, { Component } from 'react';
-import Navigation from '../Navigation/Navigation';
-import StoryView from '../StoryView/StoryView';
-import PlaceView from '../PlaceView/PlaceView';
-import PeopleView from '../PeopleView/PeopleView';
-import FieldtripView from '../FieldtripView/FieldtripView';
-import BookView from '../BookView/BookView';
-import {getStoryByID, getPeopleByID, getPlacesByID, getFieldtripsByID} from "./model";
-import './TabViewer.css'
+// react functionality
+import React, {Component} from "react";
+// the various possible views we could render
+import HelpView from "../HelpView/HelpView";
+import Navigation from "../Navigation/Navigation";
+import StoryView from "../StoryView/StoryView";
+import PlaceView from "../PlaceView/PlaceView";
+import PeopleView from "../PeopleView/PeopleView";
+import FieldtripView from "../FieldtripView/FieldtripView";
+import BookView from "../BookView/BookView";
+import GraphView from "../NexusGraph/GraphView";
+import FieldtripTool from "../FieldtripTool/FieldtripTool";
+// functions to get info about PPFS
+import * as model from "../../data-stores/DisplayArtifactModel";
+// CSS styling
+import "./TabViewer.css";
+// prop validation
+import PropTypes from "prop-types";
+import {connect} from "react-redux";
+import {bindActionCreators} from "redux";
+// actions to manipulate the tabs
+import * as tabViewerActions from "../../actions/tabViewerActions";
 
 class TabViewer extends Component {
-
-    constructor(){
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
-            views:[],
-            storyPath:'',
-            inView:[]
+            // starting off without a drag
+            "dragIndicatorX": null,
         };
-        this.handleID = this.handleID.bind(this);
-        this.tabController = this.tabController.bind(this);
-        this.switchTab = this.switchTab.bind(this);
-        this.closeTab = this.closeTab.bind(this);
-        this.renderPDF = this.renderPDF.bind(this);
-        this.renderPPFS = this.renderPPFS.bind(this);
+        // to be set once a render is complete
+        this.dragIndicatorY = null;
+        this.dragIndicatorHeight = null;
+        // used for drag events
+        this.desiredIndex = null;
+        this.originalIndex = null;
+        // stores the left edge X-coordiantes of each tab
+        this.tabs = [];
+        // properly bind functions so that they can work in sub-elements
+        this.renderActiveTab = this.renderActiveTab.bind(this);
     }
 
-    componentWillMount(){
-        var navigationObject = {
-            jsx: <Navigation addID={this.handleID}/>,
-            active: true,
-            id:0,
-            name:'Home',
-            type:'home'
-        };
-        // const cachedState = localStorage.getItem('views');
-        // const cachedInView = localStorage.getItem('inView');
-        // console.log(JSON.parse(cachedState));
-        //TODO: save tabs on refresh
-        this.setState((prevState)=>{
-            var newState = prevState.views;
-            newState.push(navigationObject);
-            return {views:newState, inView:newState}
+    /**
+     * Render the main content of the app
+     * @param {*} id ID of the relevant person/place/story/fieldtrip/book to load (irrelevant for NexusGraph, Home)
+     * @param {String} type The type of view to load (People/Places/Fieldtrips/Stories/Home/Graph/Book)
+     * @param {Number} tabIndex Index of the tab being rendered (only necessary for BookView)
+     * @returns {JSX} The content of the relevant view
+     */
+    renderPPFS(id, type, tabIndex) {
+        // depending on the type of the view to render
+        // key is necessary so a re-render is forced whenever tabs are switched (resets state/switches book page properly)
+        switch (type) {
+            case "People":
+                // for people, return a PeopleView with the person retrieved by the passed ID
+                return <PeopleView key={tabIndex} person={model.getPeopleByID(id)} />;
+            case "Places":
+                // for places, return a PlaceView with the place retrieved by the passed ID
+                return <PlaceView key={tabIndex} place={model.getPlacesByID(id)} />;
+            case "Fieldtrips":
+                // for fieldtrip, return a FieldtripView with the fieldtrip retrieved by the passed ID
+                return <FieldtripView key={tabIndex} fieldtrip={model.getFieldtripsByID(id)} />;
+            case "Stories":
+                // for stories, return a StoryView with the story retrieved by the passed ID
+                return <StoryView key={tabIndex} story={model.getStoryByID(id)} viewIndex={tabIndex}/>;
+            case "Home":
+                // for the Home tab, return the main Navigation view (home)
+                return <Navigation key={tabIndex} />;
+            case "Graph":
+                // for the graph, return the GraphView
+                return <GraphView key={tabIndex} viewIndex={tabIndex} />;
+            case "Book":
+                // for the book, return the BookView, with the chapter ID that was selected
+                return <BookView key={tabIndex} viewIndex={tabIndex} id={id} />;
+            case "Help":
+                return <HelpView key={tabIndex} viewIndex={tabIndex} />;
+            case "FieldtripTool":
+                return <FieldtripTool key={tabIndex} fieldtrip={id} viewIndex={tabIndex} />;
+            default:
+                // if it wasn't one of the above types, warn that we hit an unknown type
+                console.warn(`Unhandled tab type: ${type}`);
+        }
+    }
+
+    /**
+     * Render the active tab as the main content of the page
+     * @returns {JSX} The rendered JSX
+     */
+    renderActiveTab() {
+        // search through the list of tabs for the active tab
+        const activeViewIndex = this.props.state.views.findIndex((view) => view.active);
+        const activeView = this.props.state.views[activeViewIndex];
+        // return the rendered content of the tab
+        return this.renderPPFS(activeView.id, activeView.type, activeViewIndex);
+    }
+
+    // called when a tab begins being dragged
+    handleDragStart(event, index) {
+        // set the tab to be gray
+        event.target.style.backgroundColor = "#aaaaaa";
+        // set appropriate data for the drag
+        this.originalIndex = index;
+        // so that Firefox actually lets us drag stuff
+        event.dataTransfer.setData("text/plain", this.props.state.views[index].name);
+        event.dataTransfer.effectAllowed = "move";
+        event.dataTransfer.dropEffect = "move";
+    }
+
+    // called when a drag goes over a new tab
+    handleDragEnter(event, newIndex) {
+        // update where the tab would be placed if released
+        this.desiredIndex = newIndex;
+        this.setState({
+            // if drag is to the right, draw the drag indicator on the right of the tab where it would be dropped
+            // if it was to the left, draw the indicator on the left of the tab where it would be dropped
+            // if we are at the same index don't draw anything
+            "dragIndicatorX": newIndex > this.originalIndex ? this.tabs[newIndex].right
+                : newIndex < this.originalIndex ? this.tabs[newIndex].left : null,
         });
     }
 
-    renderPPFS(id,type){
-        if(type==='People'){
-            var personObject = getPeopleByID(id);
-            return <PeopleView person={personObject} addID={this.handleID}/>
-        } else if(type==='Places'){
-            var place = getPlacesByID(id);
-            return <PlaceView place={place} addID={this.handleID}/>
-        } else if(type==='Fieldtrips'){
-            var fieldtrip = getFieldtripsByID(id);
-            return <FieldtripView fieldtrip={fieldtrip} addID={this.handleID}/>
-        } else if(type==='Stories'){
-            var storyObject = getStoryByID(id);
-            return <StoryView story={storyObject} addID={this.handleID}/>;
-        }
-    }
-    //update views with PDF views
-    renderPDF(filepath, name){
-        var nameUpdated = true;
-        if(this.state.inView.name === name){
-            nameUpdated = false;
-        } else {
-            this.state.views.forEach((view)=>{
-                if(view.name === name){
-                    nameUpdated = false;
-                }
-            });
-        }
-        if(name !== undefined && nameUpdated){
-            var PDFObject = {
-                name:name,
-                url:filepath,
-                jsx:<BookView url={filepath} name={name}>{name}</BookView>,
-                active:true
-            };
-            this.setState((prevState)=>{
-                var newState = prevState;
-                newState.views.forEach((view)=>{
-                    view.active = false;
-                });
-                newState.views.push(PDFObject);
-                return {views:newState.views, inView:[PDFObject]}
-            });
-        }
-    }
-    //7)A catch all function will take in an ID and name of the selected object
-    // depending on what was selected (story, people, places, fieldtrips) add a different type of object to add to views and inView
-
-    handleID(InputID, Name, Type){
-        console.log(InputID,Name, Type);
-        //check if input id is already in views
-        var inView = false;
-        var viewIndex = -1;
-        this.state.views.forEach((view,i)=>{
-            if(view['id']===InputID && view['type']===Type){
-                inView = true;
-                viewIndex = i;
-            }
+    // called when a tab stops being dragged (is released)
+    handleDragEnd(event) {
+        // move the dragged tab to the desired spot
+        this.props.tabViewerActions.moveTab(this.originalIndex, this.desiredIndex);
+        // reset indices of drag
+        this.originalIndex = null;
+        this.desiredIndex = null;
+        // reset the tab's color
+        event.target.style.backgroundColor = null;
+        // hide the drag indicator
+        this.setState({
+            "dragIndicatorX": null,
         });
-        if(inView){
-            //if it's already in views, make it in view
-            this.setState((prevState)=>{
-                return {inView:[prevState['views'][viewIndex]]}
-            });
-        } else {
-            var itemObject = {
-                jsx:this.renderPPFS(InputID,Type,Name),
-                id:InputID,
-                active:true,
-                name:Name,
-                type:Type
-            };
-            this.setState((prevState)=>{
-                var newViews = prevState.views;
-                newViews.forEach((view)=>{
-                    view.active = false;
-                });
-                newViews.push(itemObject);
-                return {
-                    views:newViews,
-                    inView:[itemObject]
-                }
-            },()=>{
-                localStorage.setItem('views',JSON.stringify(this.state.views));
-            });
-        }
-    }
-
-    tabController(){
-        for(var i=0; i<this.state.views.length;i++){
-            if(this.state.views[i].active){
-                return this.state.views[i].jsx;
-            }
-        }
-    }
-
-    switchTab(view){
-        console.log('switching tabs!');
-        this.setState((prevState)=>{
-            var newViews = prevState.views;
-            newViews.forEach((currentView)=>{
-                if(currentView.name !== view.name){
-                    currentView.active = false;
-                } else {
-                    currentView.active = true;
-                    if(currentView.type === 'story'){
-                        console.log(currentView.name);
-                        currentView.jsx = this.renderStory(currentView.id);
-                        view = currentView;
-                    }
-                }
-            });
-            //check if view has been deleted from list of views
-            if(newViews.includes(view)){
-                return { views:newViews, inView:[view] }
-            } else {
-                return{ views:newViews }
-            }
-        },()=>{
-            localStorage.setItem('inView',JSON.stringify(this.state.inView));
-        });
-    }
-
-    closeTab(view){
-        console.log('closing tab!',this.state.views,view);
-        //find 'view' in this.state.views and .inView, and delete it. if .inView then default to home tab
-        this.setState((prevState)=>{
-            var newState = prevState;
-            var removeViewIndex = -1;
-            this.state.views.forEach((currentView,i)=>{
-                if(currentView['name'] === view['name']){
-                    removeViewIndex = i;
-                }
-            });
-            newState.views.splice(removeViewIndex,1);
-            if(newState.inView[0]['name'] === view['name']){ // is current view being closed?
-                return {
-                    views:newState.views,
-                    inView:[newState.views[0]]
-                }
-            } else { // if current view isn't being closed, don't change what's inView
-                return {
-                    views:newState.views,
-                }
-            }
-        },()=>{
-            localStorage.setItem('views',JSON.stringify(this.state.views));
-        })
-    }
-
-    renderTabs(){
-        // this.renderPDF(this.props.menuItem.url,this.props.menuItem.name);
-        return this.state.inView.map((view, i)=>{ return <div key={i}>{view.jsx}</div> });
     }
 
     render() {
         return (
             <div className="TabViewer grid-container full">
-                <div className="view">
-                    {this.renderTabs.bind(this)()}
+                <div className="grid-y">
+                    {/* Wrapper/container for the View, not including the tabs*/}
+                    <div className="view cell fill"> {/* Class "fill" fills out the rest of the application space with the view*/}
+                        {/* Function below generates/sorts out which view should be displayed*/}
+                        {this.renderActiveTab()}
+                    </div>
+                    {/* List of tabs that are displayed at the bottom of the browser/app*/}
+                    <ul className="tabs cell medium-1"> {/* medium-1 sets the height of the tabs*/}
+                        {/* for each tab to display */}
+                        {this.props.state.views.map((view, index) => (
+                            // return a tab JSX element
+                            <li
+                                // based on the actual DOM element that results
+                                ref={(instance) => {
+                                    // assuming we got a proper render
+                                    if (instance !== null) {
+                                        // set the width of the tabs in tabPos
+                                        this.tabs[index] = instance.getBoundingClientRect();
+                                        // set the Y coordinate of the drop indicator
+                                        this.dragIndicatorY = instance.getBoundingClientRect().y;
+                                        // set the height of the drop indicator
+                                        this.dragIndicatorHeight = instance.getBoundingClientRect().height;
+                                    }
+                                }}
+                                // callback when the tab is clicked
+                                onClick={() => {
+                                    // if a tab is clicked, we should switch to that tab
+                                    this.props.tabViewerActions.switchTabs(index);
+                                }}
+                                // make everything but the home tab draggable
+                                draggable={view.type !== "Home"}
+                                // called when the tab begins being dragged, changes color of the dragged tab
+                                onDragStart={(event) => {
+                                    this.handleDragStart(event, index);
+                                }}
+                                // called when the drag goes over a new tab
+                                onDragEnter={(event) => {
+                                    // change the drag indicator appropriately
+                                    this.handleDragEnter(event, index);
+                                }}
+                                // called when the tab stops being dragged, move that tab to its new spot
+                                onDragEnd={this.handleDragEnd.bind(this)}
+                                // key to control re-rendering of tabs
+                                key={index}
+                                // make it active if this is the current tab
+                                className={view.active ? "active" : ""}
+                                style={{
+                                    // set the color of the tab to be the specified color, or default to the active/inactive color if not specified
+                                    "backgroundColor": view.color,
+                                }}>
+                                {/*Display pin on everything except home tab */}
+                                {view.type !== "Home" &&
+                                    <img
+                                        // source of the image (URL)
+                                        src={view.pinned ? "https://img.icons8.com/ios/50/000000/pin-2-filled.png" : "https://img.icons8.com/ios/50/000000/pin-2.png"}
+                                        // text to display if it can't show up
+                                        alt="to pin icon"
+                                        // give it the styling for the pin button
+                                        className="pinTabIcon"
+                                        // callback when the "x" is clicked
+                                        onClick={(event) => {
+                                            // prevent a separate "tab was clicked" event from occuring once this tab gets closed
+                                            event.stopPropagation();
+                                            // close the desired tab
+                                            this.props.tabViewerActions.pinTab(index);
+                                        }} />}
+                                {/* show the display text on the tab */}
+                                {view.name}
+                                {/* don't show a close button on the home tab */}
+                                {view.type !== "Home" &&
+                                    <img
+                                        // source of the image (URL)
+                                        src={require("../Navigation/icons8-delete-24.png")}
+                                        // text to display if it can't show up
+                                        alt="Close Icon"
+                                        // give it the styling for the close button
+                                        className="closeTabIcon"
+                                        // callback when the "x" is clicked
+                                        onClick={(event) => {
+                                            // prevent a separate "tab was clicked" event from occuring once this tab gets closed
+                                            event.stopPropagation();
+                                            // close the desired tab
+                                            this.props.tabViewerActions.closeTab(index);
+                                        }} />}
+                            </li>
+                        ))}
+                    </ul>
                 </div>
-                <ul className="tabs">
-                    {this.state.views.map((view,i)=>{
-                        return <li onClick={(event)=>{event.preventDefault();this.switchTab(view);}}
-                                   key={i} className={`${view.name === this.state.inView[0].name ? 'active' : ''}`}>
-                            {view.name}
-                            <img src="https://png.icons8.com/material/50/000000/delete-sign.png" alt="Close Icon"
-                                 className={`closeIcon ${view.name === 'Home'? 'noClose':''}`} onClick={(event)=>{event.preventDefault(); this.closeTab(view)}}/>
-                        </li>})}
-                </ul>
+                {/* only display if we are currently dragging an element */}
+                {this.state.dragIndicatorX !== null &&
+                    // the drag indicator line
+                    <div
+                        // basic CSS for the moving line, position is defined dynamically here
+                        id="dragIndicator"
+                        // set up its position
+                        style={{
+                            // position it at the X-coordinate determined by drag functions
+                            "left": this.state.dragIndicatorX,
+                            // make it in line with tabs
+                            "top": this.dragIndicatorY,
+                            // make it as tall as the tabs
+                            "height": this.dragIndicatorHeight,
+                        }} />
+                }
             </div>
         );
     }
 }
 
-export default TabViewer;
+TabViewer.propTypes = {
+    "tabViewerActions": PropTypes.object.isRequired,
+    "state": PropTypes.shape({
+        "views": PropTypes.array.isRequired,
+    }).isRequired,
+};
+
+/**
+ * Set certain props to access Redux states
+ * @param {Object} state All possible Redux states
+ * @returns {Object} Certain states that are set on props
+ */
+function mapStateToProps(state) {
+    return {
+        "state": state.tabViewer,
+    };
+}
+
+/**
+ * Set the "tabViewerActions" prop to access Redux actions
+ * @param {*} dispatch Redux actions
+ * @returns {Object} The actions that are mapped to props.actions
+ */
+function mapDispatchToProps(dispatch) {
+    return {
+        "tabViewerActions": bindActionCreators(tabViewerActions, dispatch),
+    };
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(TabViewer);

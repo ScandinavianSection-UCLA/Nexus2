@@ -1,0 +1,21 @@
+.FieldtripTool ul {
+    list-style-type: none;
+    margin:0;
+}
+
+.FieldtripTool ul li{
+    padding:5px 15px 5px 15px;
+    cursor:pointer;
+    border: 1px solid gray;
+    border-radius:10px;
+    margin:2%;
+    width:90%;
+    background-color:white;
+}
+
+.activeTrip {
+    padding:10px;
+    background-color: #3498db !important;
+    color:white;
+    font-weight:bold;
+}

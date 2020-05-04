@@ -3,25 +3,54 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "classnames": "^2.2.5",
+    "classnames": "^2.2.6",
     "create-react-class": "^15.6.3",
-    "foundation-sites": "^6.4.4-rc1",
+    "d3": "^5.9.2",
+    "domain-browser": "^1.2.0",
+    "epubjs": "^0.3.83",
+    "file-saver": "^2.0.2",
+    "foundation-sites": "^6.5.1",
     "fuse-js-latest": "^3.1.0",
-    "mgr-pdf-viewer-react": "^1.0.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-foundation": "^0.9.4",
+    "json-loader": "^0.5.7",
+    "jszip": "^3.2.1",
+    "leaflet": "^1.3.4",
+    "leaflet-ajax": "^2.1.0",
+    "marks-pane": "^1.0.9",
+    "mgr-pdf-viewer-react": "^1.0.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-d3-graph": "^2.0.2",
+    "react-dom": "^16.7.0",
     "react-fuse-picker": "^1.0.0",
     "react-fuzzy": "^0.5.2",
     "react-fuzzy-search": "^0.4.0",
-    "react-reader": "^0.16.7",
-    "react-scripts": "1.0.17",
-    "react-slider": "^0.9.0"
+    "react-image-magnify": "^2.7.4",
+    "react-leaflet": "^2.1.4",
+    "react-leaflet-shapefile": "^2.0.0",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.8",
+    "react-slider": "^0.11.2",
+    "react-sliding-pane": "^3.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "homepage": "http://etkspace.scandinavian.ucla.edu/folklorenexus",
+  "devDependencies": {
+    "json-loader": "^0.5.7"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

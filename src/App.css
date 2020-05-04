@@ -3,10 +3,33 @@
     margin:0;
 }
 body{
-    overflow-x:hidden;
+    /*overflow-x:hidden;*/
 }
 .tab-header{
-    background-color:#0652DD;
-    color:white;
-    padding:.5%;
+    background-color: #dcdcdc;
+    padding:.5% 3% 1% 3%;
+    /*height:12%;*/
+}
+
+/*Responsive Tab Area CSS*/
+
+/*600 x 800px*/
+@media screen and (min-height: 590px) {
+    .Navigation, .BookView, .PeopleView, .PlaceView, .StoryView, .NexusGraph, .HelpView, .FieldtripTool {
+        height: 83vh;
+    }
+
+    .AssociatedStoriesViewer {
+        height: 84vh;
+    }
+}
+
+@media screen and (min-height: 770px) {
+    .Navigation, .BookView, .PeopleView, .PlaceView, .StoryView, .NexusGraph, .HelpView, .FieldtripTool {
+        height: 85vh;
+    }
+
+    .AssociatedStoriesViewer {
+        height: 86vh;
+    }
 }

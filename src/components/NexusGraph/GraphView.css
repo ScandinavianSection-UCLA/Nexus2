@@ -1,0 +1,136 @@
+/* for any text that needs to be light green */
+.lightgreen {
+    /* light green text color */
+    color: lightgreen;
+}
+
+/* for any text that needs to be light blue */
+.lightblue {
+    /* light blue text color */
+    color: lightblue;
+}
+
+/* styling for the filter portion */
+#analysisTools {
+    /* a really light gray background to slightly differentiate it from the graph */
+    background-color: #fafafa;
+}
+
+/* styling for each individual filter */
+.tool {
+    /* space it a little from the left edge */
+    margin-left: 5px;
+}
+
+/* styling for the Analysis Tools header */
+#heading {
+    /* center the text */
+    text-align: center;
+}
+
+/*Legend styling*/
+.legend{
+    margin-top:15px;
+    background:white;
+    width: 100% !important;
+
+}
+.legend tr td, .legend thead tr th{
+    text-align:center;
+}
+.circle{
+    height:2vh;
+    width:2vh;
+    border-radius:100%;
+    display:block;
+    margin:auto;
+}
+.red{background:red;}
+.blue{background:blue;}
+.green{background:green;}
+.grey{background:grey;}
+.lightgrey{background:lightgrey;}
+
+/* styling for a table row that is currently highlighted */
+.highlighted-row {
+    background-color: #dbe4f0 !important;
+}
+
+.legend-table-body {
+    cursor: auto;
+}
+
+.legend-table-body:hover {
+    cursor: pointer;
+}
+
+.download {
+    padding: 10px;
+    border-radius: 2px;
+    margin: 15px;
+    width: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.download:hover {
+    cursor: pointer;
+}
+
+.download-wrapper {
+    display: inline-flex;
+    position: relative;
+    height: 100%;
+}
+
+.node-menu {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    background-color: #fefefe;
+    display: block;
+    height: 75px;
+    width: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-option {
+    font-size: .75rem;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    height: 50%;
+    width: 100%;
+    background-color: #fefefe;
+    color: black;
+}
+
+.menu-option:hover {
+    background-color: grey;
+    color: white;
+}
+
+.preview {
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+    overflow: scroll;
+    border: 1px solid #d2d2d2;
+    text-align: left;
+}
+
+.no-preview {
+    display: block;
+    margin: 10px auto 50px auto;
+    width: 95%;
+}
+
+.node-options {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 90%;
+}

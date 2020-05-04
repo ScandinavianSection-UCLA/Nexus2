@@ -1,28 +1,28 @@
-import React, { Component } from 'react';
-import TabViewer from './components/TabViewer/TabViewer';
-import Heading from './components/Heading/Heading.js'
-import './App.css';
-
+import React, {Component} from "react";
+import {BrowserRouter} from "react-router-dom";
+import "./App.css";
+import Home from "./Home";
 
 class App extends Component {
-
-    constructor(){
+    constructor() {
         super();
+        // start in a state of loading
         this.state = {
-            menuItem:{}
+            "loading": true,
         };
-        this.menuHandler = this.menuHandler.bind(this);
     }
 
-    menuHandler(dataObject){
-        this.refs.tabViewer.renderPDF(dataObject.url, dataObject.name);
+    componentDidMount() {
+        // simulate async action and remove loader
+        setTimeout(() => this.setState({"loading": false}), 1500);
     }
 
     render() {
         return (
-            <div className="App grid-container full">
-                <Heading sendData={this.menuHandler}/>
-                <TabViewer ref="tabViewer" menuItem={this.state.menuItem}/>
+            <div className="App" >
+                <BrowserRouter basename={'/folklorenexus/'}>
+                    <Home/>
+                </BrowserRouter>
             </div>
         );
     }

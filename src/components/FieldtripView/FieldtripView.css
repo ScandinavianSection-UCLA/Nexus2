@@ -1,5 +1,25 @@
-.FieldtripView .results{
-    height:25vh;
-    overflow-y: scroll;
-    border:2px solid black;
+.FieldtripView{
+    height:85vh;
+}
+
+.FieldtripView .main{
+    height:73vh;
+}
+
+.FieldtripView .main .heading{
+    padding:20px 10px 10px 20px;
+}
+
+.FieldtripView .main .heading .h-item{
+    display:inline-block;
+}
+img.h-item{
+    margin-right:10px;
+    margin-top:-15px;
+}
+h6.h-item{
+    margin-left:20px;
+}
+h2.h-item{
+    font-weight:bold;
 }

@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "ft_064_stops",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Brandstrup", "Sequence": 1, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.50595, 56.364500000869491 ] } },
+{ "type": "Feature", "properties": { "Name": "Viborg", "Sequence": 2, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.40549, 56.450800000868362 ] } },
+{ "type": "Feature", "properties": { "Name": "Gjedsted", "Sequence": 3, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.34014, 56.697400000865173 ] } },
+{ "type": "Feature", "properties": { "Name": "Vesterbølle", "Sequence": 4, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.3669, 56.712500000864935 ] } },
+{ "type": "Feature", "properties": { "Name": "Lerkenfelt", "Sequence": 5, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.38719, 56.736500000864623 ] } },
+{ "type": "Feature", "properties": { "Name": "Rærup", "Sequence": 6, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.31497, 56.770900000864181 ] } },
+{ "type": "Feature", "properties": { "Name": "Taarup", "Sequence": 7, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.31057, 56.785500000864019 ] } },
+{ "type": "Feature", "properties": { "Name": "Fredbjærg", "Sequence": 8, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.29411, 56.808500000863674 ] } },
+{ "type": "Feature", "properties": { "Name": "Taarup", "Sequence": 9, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.31057, 56.785500000864019 ] } },
+{ "type": "Feature", "properties": { "Name": "Svoldrup", "Sequence": 10, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.37339, 56.764100000864254 ] } },
+{ "type": "Feature", "properties": { "Name": "Nyrup", "Sequence": 11, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.50233, 56.771800000864161 ] } },
+{ "type": "Feature", "properties": { "Name": "Sønderup", "Sequence": 12, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.65124, 56.815900000863593 ] } },
+{ "type": "Feature", "properties": { "Name": "Aarestrup", "Sequence": 13, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.74733, 56.821700000863537 ] } },
+{ "type": "Feature", "properties": { "Name": "Ersted", "Sequence": 14, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.77472, 56.824700000863487 ] } },
+{ "type": "Feature", "properties": { "Name": "Brandstrup", "Sequence": 15, "FT": 64.0, "Absolute": 73.0 }, "geometry": { "type": "Point", "coordinates": [ 9.50595, 56.364500000869491 ] } }
+]
+}

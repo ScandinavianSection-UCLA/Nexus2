@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="Improved graph data csv files for use in cytoscape">
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/icons8-chat-filled-32-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Heading/Heading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Heading/Heading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlaceView/PlaceView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlaceView/PlaceView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RightBar/RightBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightBar/RightBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RightBar/RightBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightBar/RightBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StoryView/StoryView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StoryView/StoryView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" afterDir="false" />
+    </list>
+    <list id="4860e851-d29b-486f-9cb0-ecd95ba13bec" name="added low boards, high boards, prussian WMS tiles" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Nexus2" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="dhuangg &lt;danielhuang@g.ucla.edu&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="newManuscriptReader" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1b5Yi4vLsrOm8EQ3FJMEVmoU0Tn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Navigation" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="sshConsole" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Navigation" />
+      <recent name="$PROJECT_DIR$/src/components/FieldtripView" />
+      <recent name="$PROJECT_DIR$/src/reducers" />
+      <recent name="$PROJECT_DIR$/src/components/MapView" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/MapView" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.mapTest.html">
+    <configuration name="mapTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Nexus2/src/components/MapView/mapTest.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="MapView.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="MapView.js" working-dir="$PROJECT_DIR$/src/components/MapView">
+      <method v="2" />
+    </configuration>
+    <configuration name="model.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="model.js" working-dir="$PROJECT_DIR$/src/components/Navigation">
+      <method v="2" />
+    </configuration>
+    <configuration name="test1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test1.js" working-dir="$PROJECT_DIR$/src/components/MapView">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2">
+        <option name="NpmBeforeRunTask" enabled="true">
+          <package-json value="$PROJECT_DIR$/package.json" />
+          <command value="run" />
+          <scripts>
+            <script value="start" />
+          </scripts>
+          <node-interpreter value="project" />
+          <envs />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.test1.js" />
+        <item itemvalue="Node.js.model.js" />
+        <item itemvalue="Node.js.MapView.js" />
+        <item itemvalue="JavaScript Debug.mapTest.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="" />
+      <created>1523135308618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523135308618</updated>
+      <workItem from="1523135310746" duration="793000" />
+      <workItem from="1523139326637" duration="180000" />
+      <workItem from="1523139584555" duration="371000" />
+      <workItem from="1523139969419" duration="6775000" />
+      <workItem from="1523209850658" duration="9941000" />
+      <workItem from="1523248944953" duration="1842000" />
+      <workItem from="1523250835528" duration="434000" />
+      <workItem from="1523251308535" duration="2191000" />
+      <workItem from="1523295919365" duration="39544000" />
+      <workItem from="1523944015642" duration="9554000" />
+      <workItem from="1524338232632" duration="3362000" />
+      <workItem from="1524344426514" duration="276000" />
+      <workItem from="1524344774482" duration="31184000" />
+      <workItem from="1524628686057" duration="10046000" />
+      <workItem from="1524682385720" duration="13677000" />
+      <workItem from="1524961210387" duration="41000" />
+      <workItem from="1524961277529" duration="1540000" />
+      <workItem from="1527547408862" duration="604000" />
+      <workItem from="1527827286802" duration="11017000" />
+      <workItem from="1528158777248" duration="4569000" />
+      <workItem from="1528269621174" duration="1184000" />
+      <workItem from="1529084861392" duration="940000" />
+      <workItem from="1529890483801" duration="169000" />
+      <workItem from="1532776629351" duration="474000" />
+      <workItem from="1532798679984" duration="10676000" />
+      <workItem from="1534758925496" duration="684000" />
+      <workItem from="1541737160535" duration="18185000" />
+      <workItem from="1541804130828" duration="8000" />
+      <workItem from="1541804239311" duration="491000" />
+      <workItem from="1541804756292" duration="3053000" />
+      <workItem from="1541813860169" duration="2299000" />
+      <workItem from="1541877964040" duration="314000" />
+      <workItem from="1542174651712" duration="23336000" />
+      <workItem from="1542764636751" duration="3336000" />
+      <workItem from="1543538261626" duration="801000" />
+      <workItem from="1543539478223" duration="587000" />
+      <workItem from="1543793906890" duration="2341000" />
+      <workItem from="1544662152780" duration="4000" />
+      <workItem from="1545007120609" duration="1173000" />
+      <workItem from="1545197327387" duration="1234000" />
+      <workItem from="1545289748361" duration="1311000" />
+      <workItem from="1545464532824" duration="248000" />
+      <workItem from="1545503430496" duration="13006000" />
+      <workItem from="1545631524587" duration="10366000" />
+      <workItem from="1545721614292" duration="9505000" />
+      <workItem from="1551921001800" duration="520000" />
+      <workItem from="1552370361578" duration="190000" />
+      <workItem from="1553361399789" duration="123000" />
+      <workItem from="1553915729120" duration="78000" />
+      <workItem from="1554577684938" duration="11256000" />
+      <workItem from="1556751590597" duration="1118000" />
+      <workItem from="1557544421725" duration="310000" />
+      <workItem from="1557853788131" duration="415000" />
+      <workItem from="1557859185206" duration="2113000" />
+      <workItem from="1557867045839" duration="430000" />
+      <workItem from="1558043806410" duration="74000" />
+      <workItem from="1558044942321" duration="40000" />
+      <workItem from="1558044985833" duration="81000" />
+      <workItem from="1558133313001" duration="529000" />
+      <workItem from="1558136079331" duration="380000" />
+      <workItem from="1558218969961" duration="2994000" />
+      <workItem from="1558222206175" duration="113000" />
+      <workItem from="1558469737214" duration="135000" />
+      <workItem from="1558469875596" duration="771000" />
+      <workItem from="1558470982453" duration="208000" />
+      <workItem from="1558471390270" duration="5000" />
+      <workItem from="1558568067511" duration="1131000" />
+      <workItem from="1558569223518" duration="2856000" />
+      <workItem from="1558572763660" duration="89000" />
+      <workItem from="1558654420203" duration="1436000" />
+      <workItem from="1558656270436" duration="853000" />
+      <workItem from="1558903411085" duration="3654000" />
+      <workItem from="1558907621082" duration="809000" />
+      <workItem from="1558909966476" duration="1933000" />
+      <workItem from="1558914768589" duration="736000" />
+      <workItem from="1559148794448" duration="2781000" />
+      <workItem from="1559164740824" duration="103000" />
+      <workItem from="1559167338792" duration="191000" />
+      <workItem from="1559190492892" duration="659000" />
+      <workItem from="1559508837140" duration="1776000" />
+      <workItem from="1559512972706" duration="631000" />
+      <workItem from="1561834574856" duration="9061000" />
+      <workItem from="1563246278378" duration="162000" />
+      <workItem from="1563913199906" duration="283000" />
+      <workItem from="1564954823009" duration="344000" />
+      <workItem from="1587923549416" duration="3040000" />
+    </task>
+    <task id="LOCAL-00003" summary="web server tiles now loading :)">
+      <created>1528262665366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528262665366</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added low boards, high boards, prussian WMS tiles">
+      <created>1528584832211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528584832211</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added low boards, high boards, prussian WMS tiles">
+      <created>1528587430863</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528587430863</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commented out unused import statements that were causing build issues">
+      <created>1534758279215</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534758279215</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Integrated React Redux!!!!! TabViewer logic now migrated to tabViewerReducer.js&#10;&#10;Close #91 #92">
+      <created>1541803061330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541803061330</updated>
+    </task>
+    <task id="LOCAL-00008" summary="CLICKING ON THE FLAG TAKES YOU HOME!!!!!!!!!!">
+      <created>1541803981635</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541803981635</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new build + git ignore">
+      <created>1541804597169</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541804597169</updated>
+    </task>
+    <task id="LOCAL-00010" summary="BookView opens up a chapter #23">
+      <created>1541807379064</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1541807379064</updated>
+    </task>
+    <task id="LOCAL-00011" summary="#23 - can click out of book menu by clicking outside of menu area&#10;Polished onKeywordClick, switches to home tab and the breadcrumbs describes what's being shown in the area">
+      <created>1541809037116</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541809037116</updated>
+    </task>
+    <task id="LOCAL-00012" summary="updated add tab function on nexus graph to use redux actions">
+      <created>1541814101428</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1541814101428</updated>
+    </task>
+    <task id="LOCAL-00013" summary="stuff">
+      <created>1542246652555</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1542246652555</updated>
+    </task>
+    <task id="LOCAL-00014" summary="good stuff. jk. new build with updated stuff">
+      <created>1542416586513</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1542416586513</updated>
+    </task>
+    <task id="LOCAL-00015" summary="In progress for migrating search functionalities to redux so search can be shared across components.">
+      <created>1542664348882</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1542664348882</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added small comments">
+      <created>1543540126870</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1543540126871</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Reorgranized some code">
+      <created>1543968425625</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1543968425625</updated>
+    </task>
+    <task id="LOCAL-00018" summary="merged neil's stuff onto master">
+      <created>1543968467801</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1543968467801</updated>
+    </task>
+    <task id="LOCAL-00019" summary="progress!! need to make sure this.props.places in mapview always has places doe">
+      <created>1543970856943</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1543970856943</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fieldtrip has mapview with its own zoom and centering rules">
+      <created>1544489301190</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1544489301190</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added fieldtrip shape files">
+      <created>1544490741905</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1544490741905</updated>
+    </task>
+    <task id="LOCAL-00022" summary="people view displays more detailed place descriptions">
+      <created>1544597654408</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1544597654408</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Responsive Design close #148 #149 #150 #151 #152 #154">
+      <created>1545593948086</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1545593948086</updated>
+    </task>
+    <task id="LOCAL-00024" summary="new build, resize help screen">
+      <created>1545597898256</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1545597898256</updated>
+    </task>
+    <task id="LOCAL-00025" summary="new loading screen + some styling">
+      <created>1545602466531</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1545602466531</updated>
+    </task>
+    <task id="LOCAL-00026" summary="new build">
+      <created>1545602657385</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1545602657385</updated>
+    </task>
+    <task id="LOCAL-00027" summary="new build with map updates">
+      <created>1545632129510</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1545632129510</updated>
+    </task>
+    <task id="LOCAL-00028" summary="trying to see if this work">
+      <created>1545674069285</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1545674069285</updated>
+    </task>
+    <task id="LOCAL-00029" summary="trying to see if this work pt 2">
+      <created>1545674334286</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1545674334286</updated>
+    </task>
+    <task id="LOCAL-00030" summary="trying to see if this work pt 3">
+      <created>1545674574741</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1545674574741</updated>
+    </task>
+    <task id="LOCAL-00031" summary="trying to see if this work pt 4 ....maybe">
+      <created>1545675343845</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1545675343845</updated>
+    </task>
+    <task id="LOCAL-00032" summary="trying to see if this work pt 5 i don't even know if i'm changing anything....">
+      <created>1545675831337</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1545675831337</updated>
+    </task>
+    <task id="LOCAL-00033" summary="trying to see if this work pt 6 if this works...omg.">
+      <created>1545675892413</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1545675892413</updated>
+    </task>
+    <task id="LOCAL-00034" summary="trying to see if this work pt 7 jank solution time.">
+      <created>1545676016022</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1545676016022</updated>
+    </task>
+    <task id="LOCAL-00035" summary="trying to see if this work pt 8 even jank solution isn't working... T.T">
+      <created>1545676295317</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1545676295318</updated>
+    </task>
+    <task id="LOCAL-00036" summary="trying to see if this work pt 9&#10;&#10;There are stupid mistakes... then are just truly truly truly idiotic mistakes.&#10;&#10;Here's to hoping it's the latter.">
+      <created>1545676843393</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1545676843393</updated>
+    </task>
+    <task id="LOCAL-00037" summary="book view styling">
+      <created>1545678708191</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1545678708191</updated>
+    </task>
+    <task id="LOCAL-00038" summary="made random pin tab feature">
+      <created>1545682696096</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1545682696096</updated>
+    </task>
+    <task id="LOCAL-00039" summary="added legend for user nexus graph">
+      <created>1545685886477</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1545685886477</updated>
+    </task>
+    <task id="LOCAL-00040" summary="search will exit when clicked outside, but timeline switch can't be flipped">
+      <created>1545874733962</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1545874733962</updated>
+    </task>
+    <task id="LOCAL-00041" summary="the folklore is true. witchcraft is real.">
+      <created>1545875285937</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1545875285937</updated>
+    </task>
+    <task id="LOCAL-00042" summary="map geojson. y u no render???">
+      <created>1545962846523</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1545962846523</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fieldtrip viewer styling">
+      <created>1546035486036</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1546035486036</updated>
+    </task>
+    <task id="LOCAL-00044" summary="new build!">
+      <created>1551374722943</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1551374722943</updated>
+    </task>
+    <task id="LOCAL-00045" summary="close #153. silly bug.">
+      <created>1551388624428</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1551388624428</updated>
+    </task>
+    <task id="LOCAL-00046" summary="new build with corrected typo">
+      <created>1551921224180</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1551921224180</updated>
+    </task>
+    <task id="LOCAL-00047" summary="new build with corrected typo">
+      <created>1551921327535</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1551921327535</updated>
+    </task>
+    <task id="LOCAL-00048" summary="help view updated with links and improved images">
+      <created>1558470560427</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1558470560428</updated>
+    </task>
+    <task id="LOCAL-00049" summary="new build with @Allison's updates!">
+      <created>1559514371871</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1559514371871</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Improved graph data csv files for use in cytoscape">
+      <created>1561846489272</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1561846489273</updated>
+    </task>
+    <task id="LOCAL-00051" summary="new build! with cool features!">
+      <created>1564449573123</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1564449573123</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="me" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="new build with map updates" />
+    <MESSAGE value="trying to see if this work" />
+    <MESSAGE value="trying to see if this work pt 2" />
+    <MESSAGE value="trying to see if this work pt 3" />
+    <MESSAGE value="trying to see if this work pt 4 ....maybe" />
+    <MESSAGE value="trying to see if this work pt 5 i don't even know if i'm changing anything...." />
+    <MESSAGE value="trying to see if this work pt 6 if this works...omg." />
+    <MESSAGE value="trying to see if this work pt 7 jank solution time." />
+    <MESSAGE value="trying to see if this work pt 8 even jank solution isn't working... T.T" />
+    <MESSAGE value="trying to see if this work pt 9&#10;&#10;There are stupid mistakes... then are just truly truly truly idiotic mistakes.&#10;&#10;Here's to hoping it's the latter." />
+    <MESSAGE value="book view styling" />
+    <MESSAGE value="made random pin tab feature" />
+    <MESSAGE value="added legend for user nexus graph" />
+    <MESSAGE value="search will exit when clicked outside, but timeline switch can't be flipped" />
+    <MESSAGE value="the folklore is true. witchcraft is real." />
+    <MESSAGE value="map geojson. y u no render???" />
+    <MESSAGE value="fieldtrip viewer styling" />
+    <MESSAGE value="new build!" />
+    <MESSAGE value="close #153. silly bug." />
+    <MESSAGE value="new build with corrected typo" />
+    <MESSAGE value="help view updated with links and improved images" />
+    <MESSAGE value="Updated biography button to show only for core informants" />
+    <MESSAGE value="new build with @Allison's updates!" />
+    <MESSAGE value="Improved graph data csv files for use in cytoscape" />
+    <MESSAGE value="new build! with cool features!" />
+    <option name="LAST_COMMIT_MESSAGE" value="new build! with cool features!" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+</project>
