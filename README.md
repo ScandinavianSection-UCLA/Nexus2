@@ -11,3 +11,10 @@ and Pete Broadwell (UCLA). React Application was created by Daniel Huang (UCLA).
 
 # Troubleshooting
 * If you are having fail to compile errors, it is likely that npm and node cannot compile ES6. Be sure they are set to npm 6.1.0v and node 8.9.4v
+
+# Running in Docker
+1. Navigate to repository directory root
+1. Build Docker image with `nexus2` as the name of your image:
+`docker build -t nexus2 .`
+2. Bind app's 3000 port to localhost:8080 and run the app: `docker run -p 8080:3000 nexus2`
+3. Once server is successfully running, open on browser at `localhost:8080`
