@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="Improved graph data csv files for use in cytoscape">
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/icons8-chat-filled-32-white.png" afterDir="false" />
+    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="updated icons to be pulled from pngs instead of url's">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Heading/Heading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Heading/Heading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeopleView/PeopleView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlaceView/PlaceView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlaceView/PlaceView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RightBar/RightBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightBar/RightBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RightBar/RightBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightBar/RightBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StoryView/StoryView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StoryView/StoryView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabViewer/TabViewer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MapView/MapView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapView/MapView.js" afterDir="false" />
     </list>
     <list id="4860e851-d29b-486f-9cb0-ecd95ba13bec" name="added low boards, high boards, prussian WMS tiles" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +36,14 @@
     </option>
     <option name="RESET_MODE" value="MIXED" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -53,6 +53,10 @@
   <component name="ProjectId" id="1b5Yi4vLsrOm8EQ3FJMEVmoU0Tn" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
@@ -72,6 +76,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="sshConsole" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -83,18 +88,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/MapView" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.mapTest.html">
     <configuration name="mapTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Nexus2/src/components/MapView/mapTest.html">
@@ -139,6 +132,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -234,14 +228,9 @@
       <workItem from="1563246278378" duration="162000" />
       <workItem from="1563913199906" duration="283000" />
       <workItem from="1564954823009" duration="344000" />
-      <workItem from="1587923549416" duration="3040000" />
-    </task>
-    <task id="LOCAL-00003" summary="web server tiles now loading :)">
-      <created>1528262665366</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1528262665366</updated>
+      <workItem from="1587923549416" duration="4170000" />
+      <workItem from="1588221295617" duration="416000" />
+      <workItem from="1620254373260" duration="1286000" />
     </task>
     <task id="LOCAL-00004" summary="added low boards, high boards, prussian WMS tiles">
       <created>1528584832211</created>
@@ -579,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564449573123</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="updated icons to be pulled from pngs instead of url's">
+      <created>1587942310456</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1587942310457</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView">
@@ -592,7 +588,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -609,9 +605,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -628,7 +622,7 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="me" />
+                  <option value="*" />
                 </option>
               </RecentGroup>
             </list>
@@ -636,10 +630,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="new build with map updates" />
     <MESSAGE value="trying to see if this work" />
     <MESSAGE value="trying to see if this work pt 2" />
     <MESSAGE value="trying to see if this work pt 3" />
@@ -664,7 +658,8 @@
     <MESSAGE value="new build with @Allison's updates!" />
     <MESSAGE value="Improved graph data csv files for use in cytoscape" />
     <MESSAGE value="new build! with cool features!" />
-    <option name="LAST_COMMIT_MESSAGE" value="new build! with cool features!" />
+    <MESSAGE value="updated icons to be pulled from pngs instead of url's" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated icons to be pulled from pngs instead of url's" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />

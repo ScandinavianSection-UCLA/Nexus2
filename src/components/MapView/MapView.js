@@ -31,27 +31,31 @@ class MapView extends React.Component {
         super(props);
         this.geoPlaces = [];
         // start off with defaults
-        this.tiles = [{
+        this.tiles = [
+            {
             "name": "Default OpenStreet Map",
             "type": "TILE",
             "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
             "attribution": "&amp;copy <a href=\"http://osm.org/copyright\">OpenStreetMap</a> contributors",
             "checked": false,
-        }, {
+            },
+            {
             "name": "High Boards",
             "type": "WMS",
             "layers": "dtk_hoeje_maalebordsblade",
-            "url": "http://kortforsyningen.kms.dk/service?servicename=topo20_hoeje_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;",
+            "url": "https://api.dataforsyningen.dk/service?request=GetCapabilities&servicename=topo20_hoeje_maalebordsblade&service=WMS&version=1.1.1&token=2484433a4ccb10b339d63a1262238851",
             "format": "image/png",
             "checked": false,
-        }, {
+            },
+            {
             "name": "Low Boards",
             "type": "WMS",
             "layers": "dtk_lave_maalebordsblade",
-            "url": "http://kortforsyningen.kms.dk/service?servicename=topo20_lave_maalebordsblade&client=arcGIS&request=GetCapabilities&service=WMS&version=1.1.1&login=tango1963&password=heimskr1;",
+            "url": "https://api.dataforsyningen.dk/service?servicename=topo20_lave_maalebordsblade_DAF&SERVICE=WMS&REQUEST=GetCapabilities&token=2484433a4ccb10b339d63a1262238851;&service=WMS&request=GetMap&layers=dtk_lave_maalebordsblade&styles=&format=image%2Fpng&transparent=false&version=1.1.1&width=256&height=256&srs=EPSG%3A3857&bbox=1088463.2827809101,7721974.345481649,1090909.2676860357,7724420.330386772",
             "format": "image/png",
             "checked": true,
-        }];
+        }
+        ];
     }
 
     /**
