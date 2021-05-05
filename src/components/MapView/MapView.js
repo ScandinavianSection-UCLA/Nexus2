@@ -26,6 +26,8 @@ const {BaseLayer} = LayersControl,
     DEFAULT_MAP_CENTER = [56.2639, 9.5018],
     DEFAULT_ZOOM_LEVEL = 7;
 
+// Get capability files from: https://kortforsyningen.dk/indhold/webservice-liste
+
 class MapView extends React.Component {
     constructor(props) {
         super(props);
