@@ -45,7 +45,7 @@ class MapView extends React.Component {
             "name": "High Boards",
             "type": "WMS",
             "layers": "dtk_hoeje_maalebordsblade",
-            "url": "https://api.dataforsyningen.dk/service?request=GetCapabilities&servicename=topo20_hoeje_maalebordsblade&service=WMS&version=1.1.1&token=2484433a4ccb10b339d63a1262238851",
+            "url": "https://api.dataforsyningen.dk/topo20_hoeje_maalebordsblade_DAF?service=WMS&request=GetCapabilities&token=be097aceaff7a70efb6721628edea884",
             "format": "image/png",
             "checked": false,
             },
