@@ -31,7 +31,6 @@ class SearchComponent extends Component {
         e.preventDefault();
       if(this.node.contains(e.target)){
           //click is inside the component
-          console.log({"search list":this.props.navigatorState.itemsList});
           this.props.actions.fuzzySearch(
               e.target.value,
               this.props.navigatorState.itemsList
@@ -44,7 +43,7 @@ class SearchComponent extends Component {
     };
 
     renderListofSuggestions() {
-        return this.props.searchState.results.map((keyword, i) => (
+        return this.props.searchState.suggestions.map((keyword, i) => (
             <li
                 key={i}
                 style={{"cursor": "pointer"}}
@@ -77,11 +76,13 @@ class SearchComponent extends Component {
                 <input
                     type="text"
                     placeholder="Search Term"
+                    style={{caretColor: "white"}}
                     value={this.props.searchState.inputValue}
                     onChange={(event) => {
                         event.preventDefault();
                         this.props.actions.fuzzySearch(
-                            event.target.value
+                            event.target.value,
+                            this.props.navigatorState.itemsList
                         );
                     }} />
                 <label className="keyword-search-label" htmlFor="keyword-search-switch">Keyword Search Only</label>

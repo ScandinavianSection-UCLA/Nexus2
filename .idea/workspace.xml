@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="" />
+    <list default="true" id="22f07c56-2422-404d-99a4-70e79646052d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.84a5564890950e37c306cc292bf46aef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.9c565df9.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.9c565df9.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.2b736a79.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.2b736a79.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6d9cabcc.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6d9cabcc.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/aug_1895_photo1.ff77ffb4.geojson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/SearchComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/navigatorReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/navigatorReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/searchReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/searchReducer.js" afterDir="false" />
+    </list>
     <list id="4860e851-d29b-486f-9cb0-ecd95ba13bec" name="added low boards, high boards, prussian WMS tiles" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,14 +233,7 @@
       <workItem from="1587923549416" duration="4170000" />
       <workItem from="1588221295617" duration="416000" />
       <workItem from="1620254373260" duration="1673000" />
-      <workItem from="1698081370486" duration="5136000" />
-    </task>
-    <task id="LOCAL-00008" summary="CLICKING ON THE FLAG TAKES YOU HOME!!!!!!!!!!">
-      <created>1541803981635</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1541803981635</updated>
+      <workItem from="1698081370486" duration="7338000" />
     </task>
     <task id="LOCAL-00009" summary="new build + git ignore">
       <created>1541804597169</created>
@@ -562,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698086431509</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="fix(map): fixed high board map URL">
+      <created>1698086696719</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1698086696719</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TodoView">
@@ -620,7 +636,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="trying to see if this work pt 5 i don't even know if i'm changing anything...." />
     <MESSAGE value="trying to see if this work pt 6 if this works...omg." />
     <MESSAGE value="trying to see if this work pt 7 jank solution time." />
     <MESSAGE value="trying to see if this work pt 8 even jank solution isn't working... T.T" />
@@ -645,7 +660,8 @@
     <MESSAGE value="fix(map view): added documentaiton for where capabilities come from" />
     <MESSAGE value="fix(search): fixed top positioning on the search suggestions dropdown." />
     <MESSAGE value="fix(search): fixed suggestions list so that when you start a new search, you'll always get suggested results." />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(search): fixed suggestions list so that when you start a new search, you'll always get suggested results." />
+    <MESSAGE value="fix(map): fixed high board map URL" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(map): fixed high board map URL" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />

@@ -63,11 +63,10 @@ function setSearchState(ShallowPrevState, newState) {
  * @param {*} ShallowPrevState
  * @param {*} param1
  */
-function handleFuzzySearch(ShallowPrevState, {SearchInput}) {
+function handleFuzzySearch(ShallowPrevState, {SearchInput, DisplayList}) {
     let NewState = {...ShallowPrevState};
-    let suggestions = NewState.suggestions;
-    // define SearchableData = Is there anything in DisplayList? If yes, search within DisplayList, If no, search within Keywords
-    let SearchableData = suggestions.length > 0 ? suggestions : keywords;
+    // define SearchableData = Is there anything in suggestions? If yes, search within DisplayList, If no, search within Keywords
+    let SearchableData = DisplayList.length > 0 ? [...DisplayList, ...keywords] : keywords;
     // initialize new fuse object (fuzzy search dependency)
     const fuse = new Fuse(SearchableData, {
         "shouldSort": true,
@@ -91,12 +90,12 @@ function handleFuzzySearch(ShallowPrevState, {SearchInput}) {
         // if SearchInput is empty (aka, user just clicked on search but hasn't entered anything), fill with 100 suggestions
         SearchResults = SearchableData.slice(0, 100);
     }
-    // console.log(SearchResults, 'search results');
 
     NewState = {
         ...NewState,
         "inputValue": SearchInput,
         "results": SearchResults,
+        "suggestions": SearchResults,
         "searchingState": true,
     };
 
@@ -131,6 +130,7 @@ function searchArtifact(ShallowPrevState, DisplayArtifact) {
         } else {
             // if there is no a keyword match, just pull the first thing from results
             SearchList = NewState.results;
+            SuggestionList = NewState.results;
             InputValue = artifact;
             // set first suggested item
             artifact = SearchList[0];

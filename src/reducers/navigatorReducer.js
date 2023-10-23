@@ -109,11 +109,12 @@ function displayItems(prevState, list) {
                 }));
         }
     }
+
     // set up the items based on
     const newState = {
         ...prevState,
         "displayList": list,
-        "itemsList": list,
+        "itemsList": list.length === 903 ? list : prevState.itemsList,
         "placeList": PlaceList,
     };
     if (newState.timeFilterOn === true) {
@@ -130,7 +131,6 @@ function displayItems(prevState, list) {
  * @returns {Object} The new, post-event state
  */
 function timeFilterHandler(prevState, {checked, name, value}) {
-    console.log('time filter on!');
     switch (name) {
         case "fromYear": {
             const newState = {
