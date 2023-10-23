@@ -63,11 +63,11 @@ function setSearchState(ShallowPrevState, newState) {
  * @param {*} ShallowPrevState
  * @param {*} param1
  */
-function handleFuzzySearch(ShallowPrevState, {SearchInput, DisplayList}) {
+function handleFuzzySearch(ShallowPrevState, {SearchInput}) {
     let NewState = {...ShallowPrevState};
-    console.log("hi from fuzzy search. display list", DisplayList);
+    let suggestions = NewState.suggestions;
     // define SearchableData = Is there anything in DisplayList? If yes, search within DisplayList, If no, search within Keywords
-    let SearchableData = DisplayList.length > 0 ? DisplayList : keywords;
+    let SearchableData = suggestions.length > 0 ? suggestions : keywords;
     // initialize new fuse object (fuzzy search dependency)
     const fuse = new Fuse(SearchableData, {
         "shouldSort": true,
@@ -117,7 +117,9 @@ function searchArtifact(ShallowPrevState, DisplayArtifact) {
         // create an immutable copy of the previous state
         NewState = {...ShallowPrevState},
         // list of results of search
-        SearchList = [];
+        SearchList = [],
+        // list of search suggestions
+        SuggestionList = [];
     // check if the artifact is just a keyword string
     if (typeof DisplayArtifact === "string") {
         // if it is, we need to get the keyword object from keywords
@@ -135,6 +137,7 @@ function searchArtifact(ShallowPrevState, DisplayArtifact) {
         }
     } else {
         SearchList = [artifact];
+        SuggestionList = NewState.results;
     }
     // check if DisplayArtifact is a story, keyword, place, or person
     if (typeof artifact !== "undefined") {
@@ -154,10 +157,12 @@ function searchArtifact(ShallowPrevState, DisplayArtifact) {
             // for places, input value is their name
             InputValue = artifact.name;
         }
+
         NewState = {
             "searchingState": false, // stops searching
             "inputValue": InputValue, // updates search field with search result
             "results": SearchList, // sets up list of results to display in navigator,
+            "suggestions": SuggestionList,
             "keywordSearch": false,
         };
     } else {

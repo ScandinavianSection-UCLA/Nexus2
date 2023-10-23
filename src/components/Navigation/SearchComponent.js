@@ -31,7 +31,7 @@ class SearchComponent extends Component {
         e.preventDefault();
       if(this.node.contains(e.target)){
           //click is inside the component
-          console.log(e.target);
+          console.log({"search list":this.props.navigatorState.itemsList});
           this.props.actions.fuzzySearch(
               e.target.value,
               this.props.navigatorState.itemsList
@@ -80,10 +80,8 @@ class SearchComponent extends Component {
                     value={this.props.searchState.inputValue}
                     onChange={(event) => {
                         event.preventDefault();
-                        console.log('form is changing');
                         this.props.actions.fuzzySearch(
-                            event.target.value,
-                            this.props.navigatorState.itemsList
+                            event.target.value
                         );
                     }} />
                 <label className="keyword-search-label" htmlFor="keyword-search-switch">Keyword Search Only</label>
@@ -117,6 +115,7 @@ SearchComponent.propTypes = {
         "keywordSearch": PropTypes.bool,
         "ontology": PropTypes.string,
         "results": PropTypes.array.isRequired,
+        "suggestions": PropTypes.array.isRequired,
         "searchingState": PropTypes.bool.isRequired,
     }).isRequired,
 };

@@ -49,6 +49,8 @@ function InitializeSearch() {
         "searchingState": false,
         // results to display as suggestions or displayList in Navigator
         "results": [],
+        // search suggestions list
+        "suggestions": [],
         // ontology that's being displayed
         "ontology": "",
     };

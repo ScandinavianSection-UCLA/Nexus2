@@ -99,7 +99,7 @@ function displayItems(prevState, list) {
                     ...person.residence_place,
                     "full_name": person.full_name,
                 }));
-        } else if ("latitude" in InitialItem) {
+        } else if ("latitude" in InitialItem) { // if item is a place
             PlaceList = list;
         } else {
             PlaceList = list.filter((story) => typeof story.place_recorded !== "undefined")
