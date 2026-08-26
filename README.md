@@ -1,3 +1,7 @@
+ **This repository is archived.** 
+ Active development has moved to [tango2/Nexus2-1](https://github.com/tango2/Nexus2-1). 
+ Please open issues and pull requests there. This repository is kept for historical reference.
+
 # Danish Folklore Nexus React App
 This is a getting started guide to run the EKT database viewer designed by Dr. Timothy Tangherlini (UCLA) 
 and Pete Broadwell (UCLA). React Application was created by Daniel Huang (UCLA). <br>
